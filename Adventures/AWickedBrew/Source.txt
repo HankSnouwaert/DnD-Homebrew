@@ -1,0 +1,867 @@
+-<style>
+
+ /* Footers */
+    .phb .footnote {
+        position         : absolute;
+        color            : black;
+        font-size        : 12px;
+        width            : 100%;
+        bottom           : 2.5em;
+        left             : 0px !important;
+        border           : 1px solid red;
+        text-align       : center !important;
+    }
+    
+    .phb:nth-child(odd):after{ 
+        content          : '';
+        position         : absolute;
+        bottom           : -3px;
+        left             : -70px;
+        z-index          : -1;
+        height           : 100%;
+        width            : 109%;
+        background-image : url('https://www.gmbinder.com/images/HLSzYx9.png');
+        background-size  : cover;
+    }
+    
+    .phb:nth-child(even):after{ 
+        content          : '';
+        position         : absolute;
+        bottom           : -2px;
+        left             : -2px;
+        z-index          : -1;
+        height           : 100%;
+        width            : 109%;
+        background-image : url('https://www.gmbinder.com/images/HLSzYx9.png');
+        -webkit-transform : scaleX(-1);
+        transform        : scaleX(-1);
+    }
+    
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+    
+    .phb:nth-child(even) p.foot{
+        left             : 78px;
+    }
+    
+    .phb:nth-child(odd) p.foot{
+        right            : 78px;
+    }
+    
+    /* The footer on the left (the back button) */
+    .footerBack {
+        position             : absolute;
+        bottom               : 1.2em;
+        left                 : 3.8em;
+        width                : 20%;
+        padding-top          : 0.5em;
+        padding-bottom       : 0.5em;
+        text-align           : left;
+        text-indent          : 0;
+        text-decoration      : none;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+    }
+    
+    /* The middle footer (the line) */
+    .footerMiddle {
+        position             : absolute;
+        bottom               : 1.5em;
+        left                 : 3.7em;
+        right                : 3.7em;
+        height               : 1em;
+        border-bottom        : 3px solid #293f50;
+        text-align           : center;
+        text-indent          : 0;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+        z-index              : -10;
+    }
+    
+    /* The footer on the right (the contents button) */
+    .footerContents {
+        position             : absolute;
+        bottom               : 1.2em;
+        right                : 3.8em;
+        width                : 20%;
+        padding-top          : 0.5em;
+        padding-bottom       : 0.5em;
+        text-align           : right;
+        text-indent          : 0;
+        text-decoration      : none;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+    }
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p6:after, .phb#p8:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<style>
+.phb .cover-splotch {background-image:url(https://www.gmbinder.com/images/jwEeJS1.png);}
+</style>
+
+<div style="position:absolute;bottom:185px;left:30px;color:white;font-family:NodestoCaps;font-size:30px;font-weight:bold;">catchy_splotch_text</div>
+
+<img src='https://i.ibb.co/dcM7GkS/witch-s-cauldron.jpg' class='cover-image' style='top:-px;left:-300px;width:1436px;transform:scalex(1)' id="top" />
+
+<div class='cover-diamond' style="margin-top:5.1em"></div>
+
+<div class='cover-header' style="margin-top:1.7em;line-height:1.7em">A Wicked Brew</div>
+
+<div class='cover-splotch'></div>
+
+<div style="position:absolute;bottom:185px;left:30px;color:white;font-family:NodestoCaps;font-size:30px;">5th Edition Adventure</div>
+
+<div class='cover-footer'style="font-size: 26px;">Overcome an Acidic Wasteland and Defeat a Mad Witch!</div>
+
+<img src='https://i.ibb.co/PYkvmwX/star-sail-splotch.png' style='position:absolute;top:-10px;right:300px;width:200px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+
+\pagebreak
+
+<style>/*ToC Styling*/
+  .toc a {color: inherit !important;}
+  .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+  .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;content:" ........................................""........................................."".........................................";}
+  .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;margin-left:1px;}
+  .toc li h3 span:nth-child(2):after{content: " ";}
+  .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+  .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+  .toc li h3 span:first-child{line-height: 2.3em !important;}
+  .toc ul ul {margin-left: 10px !important;}
+  .toc>ul>li {margin-bottom: initial !important;}
+  .phb#p3:after{display:none;}
+</style>
+
+# Overview
+
+## Adventure Overview
+This adventure is intended for characters between levels 6-8 and involves navigating up an acidic mountain swamp into the lair of a wicked witch named Ada Burnbloom where the players must put a stop to her destructive experiments.  Along the way, players will face acidic hazards, alchemically mutated toads, and mad apothecaries.   The adventure can be used as a one-shot adventure for a one-time group of characters or as a side quest for an existing group of characters in an ongoing campaign.  
+
+The adventure is broken up into three main stretches of terrain the players must navigate to reach the final encounter with the Ada: The Scalding Foothills, The Bubbling Pools, and The Fuming Caverns.  The adventure contains a mix of scripted and random encounters as well as overland travel and navigation.
+
+Throughout the adventure, players will also have the opportunity to gather alchemical ingredients that can be traded with local apothecaries for useful potions and information.
+
+### Plot Hooks
+The following are a list of potential plot hooks you can use to draw your players into the adventure.  You can pick one at random or pick the one you think best suits your players and the setting.
+
+| d6  | Plot Hook |
+|:---:|:-----------:|
+|  1  | Local villages near the mountain are suffering from the polluting effects of Ada’s experiments.  They are desperately seeking someone to put an end to her madness. |
+|  2  | An apothecary desires a potent flower in Ada’s possession known as The Burning Bloom.  This apothecary will pay handsomely for anyone who can deliver it. |
+|  3  | A druid wishes to heal the lands Ada has polluted and seeks the players’ help ridding Ada and the apothecaries from the mountain. |
+|  4  | Ada and her apothecaries have been distributing strange potions and tonics amongst the population to use them as test subjects.  A local healer has become aware of this and seeks the players’ aid. |
+|  5  | People are disappearing in the night.  Eyewitnesses say they are being carried away by giant toads towards Ada’s mountain.  Rumor has it she is using them as subjects for her experiments. |
+|  6  | People in town are gaining access to potions that grant them desirable physical attributes, but at the costs of their minds.  A local priest has deduced where these potions are coming from and sends the players to put a stop to their distribution.|
+
+
+
+
+
+<div class='toc'>
+
+- ## Table of Contents
+  - [<span>3</span><span> Adventure Background</span>](#p3)
+- ### [<span>4</span><span>Running the Adventure</span>](#p4)
+  - [<span>4</span><span>Adventure Introduction</span>](#p4)
+  - [<span>4</span><span>Adventure Mechanics</span>](#p4)
+  - [<span>5</span><span>The Scalding Foothills</span>](#p5)
+  - [<span>7</span><span>The Bubbling Pools</span>](#p7)
+  - [<span>8</span><span>The Fuming Caverns</span>](#p8)
+  - [<span>9</span><span>Ada Burnbloom</span>](#p9)
+  - [<span>10</span><span> Conclusion </span>](#p10)
+- ### [<span>11</span><span>Adventure Resources</span>](#p11)
+- ##### [<span>11</span><span>Creatures</span>](#p11)
+  - [<span>11</span><span>Ada Burnbloom</span>](#p11)
+  - [<span>12</span><span>Apothecary</span>](#p12)
+  - [<span>12</span><span>Cauldron Toad</span>](#p12)
+  - [<span>13</span><span>Giant Cauldron Toad</span>](#p13)
+  - [<span>13</span><span>Knot of Cauldron Toads</span>](#p13)
+  - [<span>14</span><span>Monstrous Cauldron Toad</span>](#p14)
+- ##### [<span>15</span><span>Adventure Maps</span>](#p15)
+
+
+<div align="right">
+
+
+
+<div style='margin-top:55px;'></div>
+
+
+</div>
+
+</div>
+
+### Art Credit
+* Witch's Cauldron - Jason A. Engle, Wizards of the Coast
+* Witch's Familiar - Jack Wang, Wizards of the Coast
+* Smoldering Marsh - Titus Lunter, Wizards of the Coast
+* Underground Sea - Cliff Childs
+* Witch - Qingkai Yang
+* Toxic World - Stephane Wootha Richard
+* Sinister Concoction - Zack Stella, Wizards of the Coast
+* The Gitrog Monster - Jason Kang, Wizards of the Coast
+* All Encounter Maps - Joseph Snouwert
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Adventure Background
+
+### Ada Burnbloom
+Ada was once a promising young apothecary who was tragically burned and disfigured in a disastrous alchemical accident.  Ada spent years obsessively trying to devise a concoction that would restore her former appearance, and in her desperation, she eventually turned to dark magics.  After searching through endless amounts of forbidden lore, Ada eventually found the knowledge necessary to craft the potion she so desperately sought. 
+
+The potion did indeed restore Ada’s appearance, but it also fractured her mind, causing her to lose all sense of herself.  Now Ada obsessively devises new concoctions that twist and warp her appearance and grant her otherworldly powers as she seeks to become ‘her perfect self.’  She is now disconnected from what she has become and from the damage she does to everything around her.  
+
+However, Ada still possesses her alchemical genius, and her continuous experimentation has attracted other apothecaries.  Though most of them don’t owe her any formal allegiance, these apothecaries all share a drive to perfect their art, and they hope that studying near Ada and her experiments will help them do so.
+
+### The Acidic Springs
+The Acidic Springs consist of a series of alchemical pools filled with volatile concoctions which run up the mountainside and through a series of interweaving tunnels filled with noxious fumes.  The acidic nature of these pools is the result of numerous apothecaries using these natural formations as cauldrons for their experimental brews. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ The foremost amongst them is the wicked Ada Burnbloom, whose deadly concoctions pollute the surrounding environment and spell doom for any who would oppose her.
+
+Reaching Ada’s lair involves traveling through a series of foothills, up the slopes of her mountainous home, and through winding tunnels to her hidden lair.  These environments are all filled with pools of acid, roaming cauldron toads, and half-mad apothecaries.  
+
+
+#### Inhabitants of the Springs
+The Acidic Springs are primarily home to a hodgepodge collection of apothecaries (see end of document for stats).  They use this area as a testing ground for their brews.  As a result, most animal life in the area has died or been driven off.  The sole exceptions are the mutant cauldron toads who roam the springs and serve as guardians and familiars to the apothecaries.
+
+The apothecaries are somewhat unhinged from their constant exposure to alchemical fumes.  As a result, they are quick to attack outsiders intruding on their experiments.  However, if players come bearing alchemical ingredients for trade, some of them will be open bartering for potions and information.  
+
+<img
+src='https://i.ibb.co/vmpbKZg/toad.jpg'
+style='position:absolute;top:0px;left:80px;width:800px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/QMVlPWl.png' style='position:absolute; bottom:-0px; left:-320px; width:950px; transform:rotate(0deg)scalex(-1);filter:opacity(100%)brightness(93%);'/>
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-90px;left:0px;width:916px;transform:rotate(-10deg);' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:30px;left:-70px;width:916px;transform:rotate(-10deg);' />
+
+<div style='margin-top:350px;'></div>
+
+\pagebreakNum
+
+# Running the Adventure
+
+## Adventure Introduction
+The adventure begins with the assumption that the players have a basic understanding of the mountain, Ada, and the rest of its inhabitants.  It is also assumed the players will know how to reach the first region, The Scalding Foothills, without incident.  
+Before the players encounter their first threats, they should learn the value of harvesting the cauldron toads in the area and how to harvest them.
+
+## Adventure Mechanics
+
+### Gathering Ingredients
+The alchemical mutations in the local toads have made them a potent source of valuable ingredients that can be used to create magical brews.  The players should learn the basics of how to harvest these ingredients before they begin the adventure proper.  They could be taught by the NPC who sends them on their journey or by a relatively sane and friendly apothecary they meet shortly after arriving at the Scalding Foothills.  They should also be informed that these ingredients are valued by the apothecaries of the mountain and can be used to create magical elixirs.
+
+Once the players know how to harvest the cauldron toads, they can spend 1-minute harvesting the remains of a knot of cauldron toads or a giant cauldron toad to produce a single ingredient.  Defeated apothecaries will drop 1d4 random ingredients, and players who succeed on a DC 15 Wisdom (Survival) to forage over the course of an hour of travel can harvest 2d4 ingredients from the surrounding landscape.
+
+The ingredient is worth 5gp and has a property determined randomly using the table below
+
+##### Ingredient Types
+| d4   |  Effect      | 
+|:-------------:|:-------------:|
+|  1         | Verdant |
+|  2         | Pestilent |
+|  3         | Acidic | 
+|  4         | Invigorating |
+
+
+### Acidic Hazards
+The pools of acid found throughout the adventure pose a serious threat to the players.  Any creature that falls into a pool of acid immediately takes 2d10 acid damage and 2d10 fire damage if it is fully submerged or 1d10 acid damage and 1d10 fire damage if it is partially submerged.  The creature takes this damage again at the end of each of its turns if it remains submerged.
+
+\columnbreak
+
+### Trading with Apothecaries
+Near the end of each hour of travel, players should encounter an apothecary who isn’t hostile to them and is willing to barter with them for ingredients.  Make it clear to the players when they first meet the apothecary that this one does not seem hostile.
+
+The apothecary will express an interest in the ingredients the players have gathered and offer them the following trades:
+
+* **1 Ingredient:** The apothecary will provide a piece of information on Ada Burnbloom.  This could include any of the following:<br>
+    * A spell she knows
+    * Resistance or immunity to a damage type or condition
+    * A saving throw she is proficient in
+* **2 Ingredients:**  A brew from the list below.  One of the ingredients given must match the type of brew chosen.
+
+| Ingredient Type   |  Brew Effect      | 
+|:-------------:|:-------------:|
+|  Verdant | A creature can drink this brew or administer it to another creature as an action. The recipient regains 5d8 hit points. |
+|  Pestilent | As an action, a creature can apply this brew to a simple or martial weapon. The effect lasts for 1 hour or until the weapon or a piece of ammunition fired by it hits a creature, causing the target to take 6d6 additional necrotic damage from the attack |
+| Acidic | The vial with this brew can be treated as an improvised thrown weapon with a range of 20 feet. On a hit, the target is covered in acid for the 1 minute or until it or another creature within 5 feet of it uses its action to scrape or wash off the acid. A creature covered in the acid takes 6d4 acid damage at start of each of its turns.| 
+| Invigorating | As an action, a creature can drink this brew or administer it to another creature. The creature administering the brew can end one disease or condition from the following list that is affecting the recipient: blinded, charmed, deafened, frightened, paralyzed, poisoned, stunned.| 
+
+* **3 Ingredients:** Directions on how to reach the next area.  This gives players an advantage on the next Wisdom (Survival) check they make to navigate.
+
+\pagebreakNum
+
+## The Scalding Foothills
+This hilly terrain precedes the players’ mountain destination.  When the players arrive here, read them the following description to begin the first encounter:
+
+
+> ##### Scalding Foothills Description
+> This wasteland is dotted with pools of acid hidden amongst its rolling hills and toxic bogs.  Any wildlife that once existed here has long since been scoured away by the noxious fumes.  Even though a heavy alchemical mist hangs over the land, you can see through it to your mountainous destination looming in the distance.  <Br> Through the haze, you see a cloaked figure with a small cauldron hanging across his back, lurching towards you.  As his face comes into view, you can see him leering with wild eyes.  He begins shouting, “More ingredients!  More ingredients!” and a swarm of toads starts pouring out of his cauldron as he drops it to the ground and readies an alchemical attack.
+
+### The Roaming Apothecary
+This first encounter serves to introduce players to the hostile apothecaries in the area and the cauldron toads.  The fight consists of one **knot of cauldron toads** and an apothecary.  At the end of each of its turns, a **cauldron toad** will separate from the knot.  You can either add this toad to the initiative or have all separated toads take their turn right after the knot.  This separated toad will either contain a potion or healing, a vial of acid, or alchemist’s fire.  If it contains the potion of healing, it will begin making its way towards the apothecary to attempt to heal him.  If it contains acid or alchemist’s fire, it will make its way towards a player and use its action to deliver the effects of the flask as though it were targeted at its location. 
+
+Though the **apothecary** is crazed and willing to fight to the death, he knows he is fragile and will command his cauldron toads to swarm the player most likely to engage him in melee.  He will then pepper the players from afar with his concoctions.  
+
+After defeating the **apothecary**, the players will be able to continue their journey into the Scalding Foothills.  If they search through his belongings, they will find the following:
+
+> ##### Roaming Apothecary Loot
+> * 2 alchemically preserved organs, each worth 500 gp
+> * A jeweled pendant worth 100 gp
+> * A **potion of climbing**
+> * A **potion of greater healing** being held within a dead cauldron toad.  (The players can extract the potion into an empty vial)
+
+\columnbreak
+
+##### Roaming Apothecary Encounter Map
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Legend
+* **A:** Apothecary
+* **K:** Knot of Cauldron Toad
+* **P:** Player's Starting Area
+
+### Navigation
+Reaching the mountain is trivial, but finding a clear path to begin the ascent is not.  Reaching the mountain requires approximately an hour of travel, and players will need to succeed on a DC 15 Wisdom (Navigation) check to arrive at a location with a clear path up the mountain towards Ada’s caverns.  If the players fail this check, they will arrive at sheer cliffs or the wrong side of the mountain and need to spend half an hour making another navigation attempt to find a way up the mountain.  Once they do so, you can move onto **The Bubbling Pools** section.
+
+If the players have access to some means of making their way up sheer cliffs with ease, they can negate the need for another navigation attempt and automatically find the next region after a half-hour of travel.
+
+
+<img src='https://i.ibb.co/H2nfN9p/Scalding-Foothills-Tokens.png' style='position:absolute; top:70px; right:1px; width:400px; ' />
+
+\pagebreakNum
+
+### Encounters
+Roll on this encounter table once every half hour the players spend traveling or once every hour the players spend in one location.  You can also roll on it if the players do anything to draw undue attention to themselves.
+
+The apothecaries and knots of cauldron toads will largely use the same tactics they did in the initial encounter.  Knots of cauldron toads will only spawn cauldron toads with potions if they are acting in service to an apothecary. 
+
+##### Scalding Foothills Encounters
+| &nbsp;d8&nbsp; | Encounter     | 
+|:---:|:-------------:|
+| 1-2 | 2 knots of **cauldron toads**  |
+| 3-4  | An apothecary who summons a knot of **cauldron toads**   |
+|  5  | A boggy area filled with pools of acid.  Each creature that attempts to cross on foot must succeed on a DC 15 Dexterity check or take 1d10 acid damage and 1d10 fire damage as it crosses to the other side |
+|  6  | A hidden patch of acidic quick sand, with DC 15 Wisdom (Perception) check required to notice it. Players who step into it become stuck, reducing their move speed reduced to 0 and causing them to take 1d10 acid damage at the end of each turn they are stuck this way.  The creature, or anyone within 5 feet of it, must use an action to make a DC 15 Strength check to pull the creature free.  |
+|  7-8  | An abandoned cauldron and sack of alchemist's tools containing 1d4 random ingredients  |
+
+<img src='https://www.mtgnexus.com/img/gallery/1375-smoldering-marsh.jpg'
+ style='position:absolute;bottom:0px;right:-100px;height:1055px;transform:scaleX(1)' />
+ 
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:30px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+\pagebreakNum
+
+## The Bubbling Pools
+The mountain slopes here are dotted with pools of burning acid.  The players will need to search the springs for the entrance to the caverns where Ada makes her home.  When the players arrive here, read them the following description to begin the initial encounter:
+
+> ##### Bubbling Pools Description
+> You reach the mountainous slopes, dotted with acidic hot springs.  Fuming clouds and streams of noxious chemicals run down the mountainside, which seems to almost be melting away as chunks of rock crumble down into the bogs below. <br>
+Shortly after you arrive, you hear mad cackling interspersed with loud, belching croaks.  A giant cauldron toad hops down the slopes towards you, with a maniacal, cauldron-wielding woman abord its back.  She lets out a mad shriek as she points towards you, yelling, “Snacks, my pretty!  Look at all the goodies!”.  She drops her cauldron and summons a knot of cauldron toads as her toad leaps in for the attack.  
+
+#### The Hopping Mad Apothecary
+The mad apothecary will command her **giant cauldron toad** to grapple and snatch away a vulnerable target while the knot of cauldron toads keep melee attackers bogged down.  If melee attackers threaten her, the apothecary will command her giant toad to disengage and keep her out of the fray.  She may also dismount and send her giant toad into combat if that becomes necessary to prevent threats from reaching her.
+As with all previous apothecary encounters, her knot of cauldron toads will periodically produce cauldron toads containing potions to aid her in the fight.
+
+After defeating the apothecary, the players will be able to continue their journey through The Bubbling Pools.  If they search through her belongings, they will find the following:
+
+> ##### Hopping Mad Apothecary Loot
+> * A small chest containing 100 pp 
+> * 3 alchemically preserved organs, each worth 500 gp
+> * A **potion of poison resistance**
+> * A vial containing **oil of slipperiness**
+> * A **potion of greater healing** being held within a dead cauldron toad.  (The players can extract the potion into an empty vial)
+
+#### Navigation
+Regardless of what means of travel the players possess, they will still need to spend an hour to make a DC 15 Wisdom (Survival) check if they wish to find the hidden entrance to the caverns.  Once they do so, you can move onto **The Fuming Caverns** section.
+
+\columnbreak
+
+##### Hopping Mad Apothecary Encounter Map
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Legend
+* **A:** Apothecary
+* **G:** Giant Cauldron Toad
+* **K:** Knot of Cauldron Toad
+* **P:** Player's Starting Area
+
+#### Encounters
+Roll on this encounter table once every half hour the players spend traveling or once every hour the players spend in one location.  You can also roll on it if the players do anything to draw undue attention to themselves.
+
+##### Bubbling Pools Encounters
+| &nbsp;d6&nbsp; | Encounter     | 
+|:---:|:-------------:|
+|  1-2 | 1 giant cauldron toad and 1 knot of cauldron toads   |
+|  3  | An apothecary with a pet giant cauldron toad|
+|  4  | A hidden pool of acid with DC 15 Wisdom (Perception) check required to notice it.  The player in the front of the group must succeed a DC 15 Dexterity saving throw or fall in and become partially submerged.  The walls along the side of the pool are slick and require a DC 15 Strength (Athletics) check to climb. |
+|  5  | A narrow ledge, overlooking a pool of acid 30 feet below.  Crossing the ledge requires a DC 15 Dexterity (Acrobatics) or DC 15 Strength (Athletics) check.  On a failure, the creature slips and falls into the 10-foot deep pool of acid, 10 feet away from the edge.  |
+|  6  | An abandoned cauldron and sack of alchemist's tools containing 1d4 random ingredients  |
+
+<img src='https://i.ibb.co/DpgTTCM/Bubbling-Pools-Tokens.png' style='position:absolute; top:70px; right:1px; width:400px; ' />
+
+
+\pagebreakNum
+
+## The Fuming Caverns
+These caves serve as Ada’s lair and are filled with a constant alchemical haze.  Inform the players that prolonged time here will be dangerous to their health.  At the end of every hour spent in the caverns, a creature must succeed on a DC 15 Constitution saving throw or take 2d8 poison damage and have its hitpoint maximum reduced by that much.  On a successful save, the creature takes half as much damage and suffers no maximum hitpoint reduction.
+
+When the players enter the Fuming Caverns, you can read them the following description:
+
+> ##### Fuming Caverns Description
+> As you enter the caverns your senses are immediately assaulted by a wave of noxious fumes wafting through the tunnels.  The clouds of vapor hang in the confined chambers, making vision difficult. You can feel that prolonged exposure to these toxic gases could be harmful if not deadly.
+
+Shortly after entering the caverns, the players will discover the body of an apothecary who appears to have succumbed to the fumes.  If they search the body, they will discover a **potion of superior healing** and a **potion of heroism**.
+
+### Navigation
+Finding Ada’s chambers will require spending an hour to make a DC 20 Wisdom (Survival) check to search the caverns.  Players can reduce this search time to half an hour, but they will suffer disadvantage on the check.  Once they find the chamber, you can move onto the **Ada Burnbloom** section.
+
+\columnbreak
+
+### Encounters
+Roll on this encounter table once every 15 minutes the players spend traveling or once every half an hour the players spend in one location.  You can also roll on it if the players do anything to draw undue attention to themselves. 
+
+At the start of each round of combat, roll a d6.  On a result of 5 of 6, summon a *stinking cloud* 10 feet away from a player, and inform the player it is moving in their direction.  At the start of each subsequent round, have it drift 20 feet along that initial direction until it hits a solid surface and dissipates. 
+
+
+##### Fuming Caverns Encounters
+| d6 | Encounter     | 
+|:---:|:-------------:|
+|  1  | 1 giant cauldron toad and 2 knots of cauldron toads   |
+|  2  | An apothecary who summons 2 knots of cauldron toad |
+|  3  | An apothecary riding a pet giant cauldron toad who summons a knot of cauldron toads|
+|  4  |  A hidden pool of acid with DC 15 Wisdom (Perception) check required to notice it.  The player in the front of the group must succeed a DC 15 Dexterity saving throw or fall in and become fully submerged.  The walls along the side of the pool are slick and require a DC 15 Strength (Athletics) check to climb.  |
+|  5  | A toxic cloud, identical to one produced by the *cloudkill* spell drifts at 20 feet per round down a tunnel towards the players.  On a DC 15 Wisdom (Perception) check, the players see it coming 15 feet before it reaches them.  Otherwise, the players stumble into it.  |
+|  6  | The corpse of a traveler who appears to have been harvested for ingredients. |
+
+<img src='https://i.redd.it/zh0xbs2o5pb21.jpg' style='position:absolute;bottom:-130px;right:-20px;width:836px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:0px' />
+
+\pagebreakNum
+
+## Ada Burnbloom
+Ada works feverishly on her experiments and rarely leaves her chambers.  Hidden in the acid pools is her loyal, giant cauldron toad, ready to leap out at a moment’s notice.
+
+When players find and enter the chamber, you can read them the following description:
+
+
+> ##### Ada Burnbloom Description
+> Within the chamber, you see a woman who simultaneously appears both very old and very young.  She tends to her cauldron with an obsessive focus, tossing in pinches of ingredients and testing the resulting brew on her skin.  Stacked around her are boxes of alchemical supplies and burned scrolls and tomes.<br>
+When she notices you, her eyes narrow with disgust.  “Not fit to be cauldron fodder!” she says with disdain as she lets out a sharp whistle.  In the blink of an eye, her giant cauldron toad leaps from the nearby pools of acid and attacks!
+
+### The Final Encounter: Phase 1
+At the start of the fight, a *stinking cloud* will appear at a point of Ada’s choice and begin moving towards a player.  At the start of each subsequent round, roll a d6.  On a result of 5 or 6, Ada may choose to create a new stinking cloud.   
+
+At the start of each round, all existing clouds drift 20 feet along their initial direction until they hit a solid surface and dissipate.  Ada is immune to the poisonous effects of these clouds.
+Ada uses her clouds and her pet toad to keep enemies at bay while unleashing her spells and brews.  If she is in serious danger, her pet toad will attempt to grab and pull her out of harm’s way.
+
+### The Final Encounter: Phase 2
+If Ada is dropped to 0 hit points, rather than die, her body is immediately sucked into her cauldron, and she bursts out in the form of a monstrous cauldron toad at full health.  
+If the cauldron has been destroyed, she is instead pulled into the nearest body of acid.  In this case, she does not transform until the end of her next turn.
+At this point, stinking clouds will stop appearing.
+
+When she transforms, she belches out a knot of cauldron toads which are immediately added to the combat initiative.  This knot of cauldron toads focuses on attacking the players and will periodically spawn a cauldron toad carrying a potion that will try to aid Ada however it can.
+
+As Ada attacks, she croaks out “Behold my true beauty!”.  If Ada can hit multiple players, she will open with her Cauldron Sphere ability.  Otherwise, she will focus on gulping down vulnerable players while utilizing the aid of her other cauldron toad allies. 
+
+If she is near death, Ada will try to position herself to hit as many players with her death burst as she can.  As she does this, she will yell “You’ll all burn with me!”
+
+\columnbreak
+
+##### Ada Burnbloom Encounter Map
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Legend
+* **A:** Ada Burnbloom
+* **G:** Giant Cauldron Toad
+* **C:** Ada's Cauldron
+* **P:** Player's Starting Area
+
+<img src='https://i.ibb.co/WGCGpg7/qingkai-yang-qingkai-yang-5.jpg' style='position:absolute; bottom:-500px; right:-200px; width:750px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://image.ibb.co/kC44nH/oF4JQBz.png' style='position:absolute; bottom:-225px; right:-140px; width:1120px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://i.ibb.co/SVwRRPN/Ada-Encounter-Tokens.png' style='position:absolute; top:70px; right:1px; width:400px; ' />
+
+
+
+
+\pagebreakNum
+
+## Conclusion
+If Ada is defeated, the fuming corruption coming from her lair, will slow to a halt.  Sticking clouds will stop appearing in the Fuming Caverns, and over the course of 1d4 days, the toxic effects of the caverns will die out.  With Ada gone and their location no longer secure, the remaining apothecaries will gradually flee the area, allowing it to begin its slow healing process.
+
+If the players loot Ada’s lair, they will find the following:
+
+<Br>
+
+> ##### Ada's Loot
+> * A chest containing 80 pp and 300 gp
+> * 5 alchemically preserved organs, each worth 500 gp
+> * Ada's necklace, a **periapt of proof against poison**
+> * The Burning Bloom, a very rare alchemical flower worth 1000 gp
+
+\columnbreak
+
+### Future Adventures
+If this adventure was a side quest for the players while they were on their way to a bigger adventure, they could now resume their primary quest. However, if you’d like this adventure to be a setup for a follow-up adventure, consider the following possibilities:
+
+| d6 | Future Adventure Plot Hook     | 
+|:---:|:-------------:|
+|  1  | Amongst Ada’s notes, they learn about the devil or powerful hag who originally tempted Ada into beginning her journey into darkness.    |
+|  2  | One of the once friendly apothecaries attempt to fill the power vacuum left by Ada, stealing her dark knowledge and ascending in power.|
+|  3  | Ada was keeping a menagerie of alchemically enhanced monsters locked up for experimentation.  With her gone, they’ve broken free and are ravaging the countryside.|
+|  4  | Though Ada is gone, the corruption she caused has taken on a life of its own.  The land now continues to spawn cauldron toads which threaten to overrun all nearby life.  The players must find a way to heal the land before it’s too late.  |
+|  5  | The players find a copy of instructions given to a specially selected group of loyal apothecaries.  The instructions detail plans for testing a deadly alchemical plague on a nearby town.   |
+|  6  | Through Ada’s journal, the players learn of a rival wicked witch from a neighboring region.  Ada was in the process of preparing a potent brew to help her undo her rival’s power. |
+
+<img src='https://i.pinimg.com/originals/8e/b7/f3/8eb7f3c910ac4ba7bf03348f4abf9e34.jpg' style='position:absolute; top:560px; right:-100px; width:1400px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-200px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+# Adventure Resources
+
+## Creatures
+
+___
+___
+> ## Ada Burnbloom
+>*Medium humanoid, any alignment*
+> ___
+> - **Armor Class** 13 (16 with mage armor)
+> - **Hit Points** 120 (16d8+48)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|14 (+2)|14 (+2)|12 (+1)|12 (+1)|18 (+4)|
+>___
+> - **Saving Throws** Wis +4, Cha +7
+> - **Damage Immunities** poison
+> - **Damage Resistances** acid
+> - **Condition Immunities** poisoned
+> - **Skills** Arcana +4, Investigation +4, Perception +4, Survival +4, Alchemist's supplies +6 
+> - **Senses** passive Perception 14
+> - **Languages** Any one language (usually Common)
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +3
+>___
+>
+> **Pestilent Cauldron.** The warlock can perform a 1-hour ceremony to turn a small pot or cauldron into its magical vessel. This ceremony can be performed during a short or long rest, and any previous vessel is destroyed. The vessel's AC is 15, it has 80 hit points, and it is immune to poison and psychic damage.
+>
+> ### Bonus Actions
+> ***Cauldron Fumes.*** While the warlock is within 20 feet of its cauldron, it can choose one of the following effects at random, then choose a creature it can see within 60 feet of its vessel to be the target of the effect.<Br>
+>
+> <br>*1. Healing Brew.* The creature gains 13 (3d8) temporary hit points. 
+> <br>*2. Necrotic Brew.* The creature must make a DC 15 Constitution saving throw or take 19 (3d12) necrotic damage.
+> <br>*3. Acidic Brew.* The creature at each other creature within 10 feet of it must make a DC 15 Dexterity saving throw or take 10(2d6) acid damage. 
+> <br>*4. Invigorating Brew.* The creature gains advantage on weapon attacks it makes before the end its next turn.
+>
+> ### Actions
+> **Spellcasting.** The warlock's spell casting ability is Charisma (spell save DC 15, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following spells: <br>
+>
+> (At will): *prestidigitation, mage hand, minor illusion, mage armor (self only).*
+>
+> 1st-5th level (3 2nd-level slots): *melf's acid arrow, shatter, mirror image.*
+>
+> ***Poison Bolt.*** *Ranged Spell Attack:* +7 to hit, range 120 ft., one target. Hit: 9 (1d12 + 3) poison damage.
+>
+> ***Chilling Grasp.*** *Melee Spell Attack:* +7 to hit, range 5 ft., one target. Hit: 7 (1d8 + 3) necrotic damage, and the target can't regain hit points or take reactions until the start of its next turn.
+
+## Revised Spell
+
+#### Melf's Acid Arrow
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 feet
+- **Components:** V, S, M (powdered rhubarb leaf and an adder’s stomach)
+- **Duration:**  Instantaneous
+- **Classes:**  Sorcerer, Wizard
+___
+A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 4d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn. 
+
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd
+
+\pagebreakNum
+___
+> ## Apothecary
+>*Medium humanoid, any alignment*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 52 (8d8+16)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|12 (+1)|14 (+2)|10 (+0)|12 (+1)|16 (+3)|
+>___
+> - **Skills** Arcana +2, Investigation +2, Perception +3, Survival +3, Alchemist's supplies +4 
+> - **Senses** passive Perception 13
+> - **Languages** Any one language (usually Common)
+> - **Challenge** 2 (450 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
+>___
+>
+> **Pestilent Cauldron.** The apothecary can perform a 1-hour ceremony to turn a small pot or cauldron into its magical vessel. This ceremony can be performed during a short or long rest, and any previous vessel is destroyed. The vessel's AC is 13, it has 40 hit points, and it is immune to poison and psychic damage. 
+>
+> ### Actions
+> ***Multiattack.*** The apothecary makes two dagger attacks. 
+>
+> ***Cauldron Fumes.*** While the apothecary is within 20 feet of its cauldron, it can choose one of the following effects at random, then choose a creature it can see within 60 feet of its vessel to be the target of the effect.<Br>
+> <br>*1. Healing Brew.* The creature gains 13 (3d8) temporary hit points.
+> <br>*2. Necrotic Brew.* The creature must make a DC 13 Constitution saving throw or take 19 (3d12) necrotic damage.
+> <br>*3. Acidic Brew.* The creature at each other creature within 10 feet of it must make a DC 13 Dexterity saving throw or take 10(2d6) acid damage. 
+> <br>*4. Invigorating Brew.* The creature gains advantage on the weapon attacks it makes before the end its next turn.
+>
+>
+> ***Dagger.*** *Melee Weapn Attack:* +3 to hit, range 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.
+>
+> ***Light Crossbow.*** *Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one.
+
+\columnbreak
+
+___
+> ## Cauldron Toad
+>*Tiny monstrosity, unaligned*
+> ___
+> - **Armor Class** 11 
+> - **Hit Points** 10 (3d4+3)
+> - **Speed** 20 ft., swim 15 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|10 (+0)|13 (+1)|1 (-5)|10 (+0)|2 (-5)|
+>___
+> - **Damage Immunities** acid, poison, fire, necrotic
+> - **Condition Immunities** poisoned
+> - **Skills** Perception +5, Stealth +2, Survival +5
+> - **Senses** darkvision 60 ft., passive Perception 11.
+> - **Languages** ---- 
+> - **Challenge** 1/8 (25 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
+> ___
+> **Amphibious.** The toad can breathe air and water.
+>
+> **Potion Secretion.** The toad can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the toad or feeds it a potion, for the next 24 hours, it can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The toad can only store one potion within itself at a time.
+> ### Actions
+> ***Bubbling Spit.*** *Ranged attack:* +2 to hit, reach 15 ft., one target in the swarm's space. Hit: 2 (1d4) acid damage plus 2 (1d4) fire damage.
+
+<img src='https://i.ibb.co/Std0yMh/sinister-concoction.jpg' style='position:absolute; bottom:-30px; right:-130px; width:640px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-180px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-220px; right:-100px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://image.ibb.co/kC44nH/oF4JQBz.png' style='position:absolute; bottom:-120px; right:-10px; width:950px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Giant Cauldron Toad
+>*Large monstrosity, unaligned*
+> ___
+> - **Armor Class** 11
+> - **Hit Points** 68 (8d10+24)
+> - **Speed** 25 ft., swim 15 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|10 (+0)|16 (+3)|1 (-5)|14 (+2)|2 (-5)|
+>___
+> - **Saving Throws** Con +5
+> - **Damage Immunities** acid, poison, fire, necrotic
+> - **Condition Immunities** poisoned
+> - **Skills** Perception +2, Stealth +2, Survival +3
+> - **Senses** darkvision 30 Ft., passive Perception 13.
+> - **Languages** ---- 
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
+> ___
+> **Amphibious.** The toad can breathe air and water.
+>
+> **Death Burst.** When the toad dies, it explodes in a burst of fire and acid. Each creature within 15 feet of it must make a DC 14 Dexterity saving throw, taking takes 10 (3d6) acid damage plus 10 (3d6) fire damage on a failed save, or half as much damage on a successful one. 
+>
+> **Potion Secretion.** The toad can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the toad or feeds it a potion, for the next 24 hours, it can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The toad can only store one potion within itself at a time.
+> 
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. Hit: 18 (2d12 + 5) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 15) Until this grapple ends, the target is restrained, and the toad can't bite another target.
+>
+> ***Swallow.*** The toad makes one bite attack against a large or smaller target it is grappling.  If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 21 (6d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+>
+> ***Cauldron Belch (Recharge 5-6).*** The toad exhales acid in a 15-foot cone. Each creature in this area and each creature swallowed by the toad must make a DC 14 Dexterity saving throw, taking 10 (3d6) acid damage plus 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.  Any creatures swallowed by the toad appear prone in an unoccupied space within 5 feet of it.  The toad also drops any creatures or objects it is holding in its mouth.
+
+___
+___
+> ## Knot of Cauldron Toads
+>*Medium swarm of tiny monstrosities, unaligned*
+> ___
+> - **Armor Class** 11 
+> - **Hit Points** 66 (10d8+10)
+> - **Speed** 15 ft., swim 15 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|10 (+0)|13 (+1)|1 (-5)|10 (+0)|2 (-5)|
+>___
+> - **Damage Resistances** bludgeoning, piercing, slashing
+> - **Damage Immunities** acid, poison, fire, necrotic
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Skills** Perception +1, Stealth +2
+> - **Senses** darkvision 30 Ft., passive Perception 11.
+> - **Languages** ---- 
+> - **Challenge** 3 (700 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
+> ___
+> **Amphibious.** The toad can breathe air and water.
+>
+> **Potion Secretion.** The swarm can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the swarm or feeds it a potion, for the next 24 hours, it can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The swarm can store up to three potions within itself at a time.
+>
+> **Swarm.** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny toad. The swarm can't regain hit points or gain temporary hit points.
+>
+>
+> **Swarm Burst.** Whenever the swarm takes damage, each creature within 5 feet of the warm takes 2 (1d4) acid damage plus 2 (1d4) fire damage
+> 
+> ### Actions
+> ***Bubbling Spit.*** *Ranged or Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's space. Hit: 15 (6d4) acid damage plus 15 (6d4), or 7 (3d4) acid damage plus 7 (3d4) fire damage if the swarm has half its hit points or fewer.
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Monstrous Cauldron Toad
+>*Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 12 
+> - **Hit Points** 105 (10d10+50)
+> - **Speed** 40 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|8 (-1)|18 (+4)|1 (-5)|14 (+2)|2 (-5)|
+>___
+> - **Saving Throws** Con +7
+> - **Damage Immunities** acid, poison, fire, necrotic
+> - **Condition Immunities** poisoned
+> - **Skills** Perception +2, Stealth +2
+> - **Senses** darkvision 30 Ft., passive Perception 12.
+> - **Languages** ---- 
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +3
+> ___
+> **Amphibious.** The toad can breathe air and water.
+>
+> **Death Burst.** When the toad dies, it explodes in a burst of fire and acid. Each creature within 15 feet of it must make a DC 15 Dexterity saving throw, taking takes 21 (6d6) acid damage plus 21 (6d6) fire damage on a failed save, or half as much damage on a successful one. 
+>
+> **Potion Secretion.** The toad can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the toad or feeds it a potion, for the next 24 hours, it can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The toad can only store one potion within itself at a time.
+> 
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. Hit: 18 (2d12 + 5) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 15) Until this grapple ends, the target is restrained, and the toad can't bite another target.
+>
+> ***Swallow.*** The toad makes one bite attack against a large or smaller target it is grappling.  If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 21 (6d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+>
+> ***Cauldron Sphere (Recharge 5-6).*** The toad vomits a ball a glowing 1-foot-diameter ball of boiling acid at a point within 60 feet of it, where it explodes in a 20-foot-radius sphere. Each creature in that area and any creature swallowed by the toad must make a DC 15 Dexterity saving throw, taking 21 (6d6) acid damage plus 21(6d6) fire damage on a failed save, or half as much damage on a successful one. Any creatures swallowed by the toad appear prone in the unoccupied space closest to the sphere’s point of impact. The toad also drops any creatures or objects it is holding in its mouth.
+
+
+<img src='https://i.ibb.co/zmCGVDC/jason-kang-gitrog-monster-web-version2.jpg' style='position:absolute; top:0px; right:-0px; width:820px;' />
+  
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:230px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<div style='margin-top:325px;'></div>
+
+\pagebreakNum
+
+# Adventure Maps
+
+## Roaming Apothecary Encounter Map (With Grid)
+
+<img src='https://i.ibb.co/ZRsXSBY/The-Scalding-Foothills-Grid.jpg' style='position:absolute; top:190px; right:17px; width:780px; ' />
+
+\pagebreakNum
+
+## Roaming Apothecary Encounter Map (No Grid)
+
+<img src='https://i.ibb.co/v3dy8k4/The-Scalding-Foothills-No-Grid.jpg' style='position:absolute; top:120px; right:17px; width:780px; ' />
+
+\pagebreakNum
+
+## Hopping Mad Apothecary Encounter Map (With Grid)
+
+<img src='https://i.ibb.co/gDvGcdz/The-Acidic-Springs-4-1.jpg' style='position:absolute; top:150px; right:17px; width:780px; ' />
+
+\pagebreakNum
+
+## Hopping Mad Apothecary Encounter Map (No Grid)
+
+<img src='https://i.ibb.co/ZBKD86M/The-Acidic-Springs-4-2.jpg' style='position:absolute; top:150px; right:17px; width:780px; ' />
+
+\pagebreakNum
+
+## Ada Burnbloom Encounter Map (With Grid)
+
+<img src='https://i.ibb.co/3kcpMvy/Ada-Encounter-Grid.jpg' style='position:absolute; top:150px; right:17px; width:780px; ' />
+
+\pagebreakNum
+
+## Ada Burnbloom Encounter Map (No Grid)
+
+<img src='https://i.ibb.co/1mDW0Yb/Ada-Encounter-No-Grid.jpg' style='position:absolute; top:150px; right:17px; width:780px; ' />
+
+\pagebreakNum
+
+## Extra Encounter Map (With Grid)
+
+<img src='https://i.ibb.co/3hXMDzC/The-Acidic-Springs-2.jpg' style='position:absolute; top:150px; right:17px; width:780px; ' />
+
+\pagebreakNum
+
+## Extra Encounter Map (No Grid)
+
+<img src='https://i.ibb.co/pr7Cf9t/The-Acidic-Springs-2-1.jpg' style='position:absolute; top:150px; right:17px; width:780px; ' />

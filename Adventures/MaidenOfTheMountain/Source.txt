@@ -1,0 +1,676 @@
+<style>/*ToC Styling*/
+  .toc a {color: inherit !important;}
+  .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+  .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;content:" ........................................""........................................."".........................................";}
+  .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;margin-left:1px;}
+  .toc li h3 span:nth-child(2):after{content: " ";}
+  .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+  .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+  .toc li h3 span:first-child{line-height: 2.3em !important;}
+  .toc ul ul {margin-left: 10px !important;}
+  .toc>ul>li {margin-bottom: initial !important;}
+  .phb#p3:after{display:none;}
+</style>
+
+
+## Using This Adventure
+This is a small, one-shot adventure that you can fit into a more extensive campaign as a side quest or as a lead-in for a bigger adventure.  The adventure assumes that the players are traveling upstream towards a river village.  This could be because they heard the village was suffering some supernatural ailment. Alternatively, the town might just be a pit stop as part of a more extensive journey.  Names for the village, rivers, and lake are all provided by the adventure. There is an assumption that the town is a typical small human village, but any of these details can be changed to better suit your campaign setting.
+
+**Plot Points.** This adventure is broken into multiple sections or plot points.  Each plot point contains a Lead Up with information on how to transition into and an Aftermath, with details on what has changed due to the players' actions. The body of the plot point contains information on how to run the encounters and the loot and experience points that the players can earn. Many plot points also include description blocks that can aid in describing particular creatures and locations to the players.
+
+**Encounters** The significant encounters of these plot points feature encounter maps with markers suggesting the initial locations for players and creatures.  The end of the document features larger versions of all these encounter maps and the stat blocks for the new creatures included in the adventure.  
+
+**Traveling.** In between plot points, the players will mostly be traveling along the river towards the source of corruption.  The dangers they will face along their journey will change as they get closer to the source and choose different routes.  The plot points include overland travel information you can use to run these traveling portions of the adventure.  This includes random encounter tables, which you can roll on or handpick results from to suit the current situation.  
+
+**River Hazards.** Some of the encounters involve river hazards such as rapids and waterfalls.  More information on how to use these hazards can be found in the River Travel section, along with guidance on running overland travel along rivers in general.
+
+**Adjusting the Difficulty.** The baseline adventure assumes the players have a group of 4 characters somewhere in the level 6-8 range.  If your party is smaller or of a lower level, there are alternative options for most encounters to reduce their difficulty.  However, parties with characters mostly below level 5 will likely struggle due to the significant jump in character power that occurs at this level.
+
+If the party is very large, a higher level, or you simply want more challenging encounters, the alternative encounter options include means for scaling up their difficulty as well.  However, even these options will quickly begin falling off in difficulty for characters level 10 and above.
+
+<div class='toc'>
+
+- ## Table of Contents
+- ### [<span>3</span><span>Adventure Plot Points</span>](#p3)
+  - [<span>3</span><span>Adventure Summary</span>](#p3)
+  - [<span>4</span><span>1. Animal Attack</span>](#p4)
+  - [<span>6</span><span>2. Brookston</span>](#p6)
+  - [<span>8</span><span>3. Enter, The Fester Gnaw</span>](#p8)
+  - [<span>10</span><span>4. The Gunk Spawn</span>](#p10)
+  - [<span>11</span><span>5. Fork in the River</span>](#p11)
+  - [<span>13</span><span>6. The Mishipeshu</span>](#p13)
+  - [<span>15</span><span>7. The Kelpies</span>](#p15)
+  - [<span>17</span><span>8. Timberland Lake</span>](#p17)
+  - [<span>18</span><span>9. Inside the Damned Dam</span>](#p18)
+  - [<span>19</span><span>10. Conclusion </span>](#p19)
+- ### [<span>20</span><span>Adventure Resources</span>](#p20)
+- ##### [<span>20</span><span>River Travel</span>](#p20)
+  - [<span>20</span><span>Travel Activities</span>](#p20)
+  - [<span>20</span><span>River Hazards</span>](#p20)
+- ##### [<span>21</span><span>Creatures</span>](#p21)
+  - [<span>21</span><span>Crocodile</span>](#p21)
+  - [<span>21</span><span>Fester Gnaw</span>](#p21)
+  - [<span>22</span><span>Giant Alligator</span>](#p22)
+  - [<span>22</span><span>Giant Crocodile</span>](#p22)
+  - [<span>23</span><span>Giant Jagaur</span>](#p23)
+  - [<span>23</span><span>Gnawed Effigy</span>](#p23)
+  - [<span>24</span><span>Gunk Spawn</span>](#p24)
+  - [<span>24</span><span>Hippopotamus</span>](#p24)
+  - [<span>25</span><span>Hippopotamus Gorgops</span>](#p25)
+  - [<span>25</span><span>Jaguar</span>](#p25)
+  - [<span>26</span><span>Kelpie</span>](#p26)
+  - [<span>27</span><span>Mishipeshu</span>](#p27)
+  - [<span>20</span><span>River Hazards</span>](#p20)
+- ##### [<span>21</span><span>Adventure Maps</span>](#p21)
+
+
+<div align="right">
+
+
+
+<div style='margin-top:55px;'></div>
+
+
+</div>
+
+</div>
+
+### Art Credit
+
+* Fester Gnaw - Joseph Snouwaert
+* All Maps - Joseph Snouwert
+* A River In The Forest - MCfrog
+* European Medieval Village - Klaus Pillon
+* Blacksmith's Shop - Zanariya
+* River Speed Paint - Happy-Mutt
+* Waterfall -Jacek Pawel Siedlec
+* Mishibizhiw - KatePfeilschiefter
+* The Keplie Pond - Jaimie Whitbread
+* Misterstourworm and the Kelpie's Gift Illustration - Martin McKenna
+* Misty Lake - Max Hugo
+* Sunset Lake - Chris Steele
+* Spined Karok - Filip Burburan, Wizards of the Coast
+* Slime Monster - Reiya Yoinagi
+* Hippo Cow and Calf - WillemSvdMerwe
+
+\pagebreakNum
+
+
+## Adventure Summary
+
+\pagebreakNum
+
+## Path to the Mountain
+
+### Introduction
+
+The adventure begins with the players traveling along a foggy mountainous path.  The fog has crept in to the point where they can no longer see more than 100 feet into the distance.  About halfway through their day of travel, they begin to encounter cauldron toads.  If the players stop to inspect the toads, they will notice that they are magical in nature and not true beasts.  They can also vomit acid, but are not a real threat to the players.  
+
+The players will also notice wagon and hoof tracks in the road as they travel, and you can read them the following description:
+You begin to notice wagon tracks and hoof prints etched into the dirt along the rocky path. Soil has been thrown across the trail, and around a tight turn between several rocks, you see fragments of splintered wood strewn about.  Amongst the debris, you see a letter, half-buried in the dirt.
+The letter has already been opened and reads the following:
+> ##### The Letter
+> *Stefan,* <br>
+*Below is a list of specific alchemical ingredients I will need to complete the elixir.  It is vital that you also follow my instructions as to how to disguise them as mundane reagents.  If The Maidan should find them, she must not recognize them for what they are.  Once she begins her ritual, the cauldron will only be vulnerable for twenty-four hours.  So, it is vital that the elixir is ready by this time.  When you arrive, my homunculus will admit you into the lab.*
+> <br> *- Flora*
+
+After this, the letter contains the alchemical instructions referred to above and details on finding Flora’s hidden mountain lab.
+
+
+### Cauldron Toads
+
+Not long after the players find the letter, they will be attacked by XXX giant cauldron toads.  These toads will attempt to ambush the players and open combat by vomiting acid on as many players as possible.  Each toad will then attempt to grapple a player with a bite attack.  Toads will drag grappled players away as they try to swallow them.  Toads dropped below half health will attempt to flee.
+
+If the players defeat the cauldron toads, award them XXXX XP.
+
+> ##### Optional Encounter
+> This initial encounter with the cauldron toads exists to introduce the players to their abilities and power level at the beginning of the adventure.  If you're short on time or don't feel this introduction is necessary, you can skip the encounter.
+
+\columnbreak
+
+### The Dead Traveler
+
+After the players overcome the cauldron toads and continue their journey, they will encounter a seemingly abandoned wagon on the mountain path with its horse missing.  On closer inspection, they will find a dead man face down on the ground, who appears to have been the wagon’s former owner. At this point, the Maiden and her familiar attack.
+
+### The Maiden of the Mountain
+When you maiden attacks, you may read the following description:
+
+> ##### Maiden Description
+> The air suddenly rushes past you, carrying a malicious chill that cuts at you.  Amongst the sounds of the rushing wind, you can just make out a faint groan.  When you look towards the direction of the sound, you see a dark figure of a woman gliding through the air towards you.  She wears a once-elegant gown that is now dark and tattered, and a traveler’s cloak mostly hides her face.  Her body moves with unnatural twitches and jerks as she extends her hand towards you.  A small cauldron erupts from the ground, and through the darkness of her hood, you see two eyes glowing with dark malice.
+
+The Maiden has a pet cauldron toad who will attempt to ambush the players with an acid vomit attack.  After this, the toad will attempt to grapple and drag away the players who pose the most significant threat to the Maiden. 
+
+For information on the Maiden herself and how she fights, see her description on page XXX.
+
+If the players flee, the Maiden will slowly pursue after them.  If the players truly need a reprieve, you can allow them to run and find somewhere to hide and take a short rest.  When they resume their travels, they will arrive back at the wagon, regardless of the direction they traveled.
+If the players defeat the Maiden, her body collapses into mud, sticks, weeds, and acidic slime. 
+
+You can then award them XX XP.
+
+### Investigating the Wagon
+Once the players have the opportunity to investigate the wagon and the corpse further, you can provide them with the following information.
+
+* If they turn the corpse of the man over, they will find his heart has been removed.  
+
+* A DC 15 Intelligence (Medicine) check will reveal that he has died within the past few hours.  However, any attempts to resurrect him or speak with his spirit will fail.  
+
+*  The wagon is filled with supplies matching those described in the letter found earlier.  Using the information from the letter, the players will be able to find the ingredients needed for the elixir.
+
+\pagebreakNum
+
+* A DC 15 Intelligence (Investigation) check of the man’s corpse and the wagon will reveal the following
+     * He appears to have been a tradesman and carries trade receipts identifying himself as Stefen Mertz
+     * The wagon mainly contains low-value reagents, but the players find the following loot:
+
+> ##### Wagon Loot
+> Loot
+
+### Approach to the Mountain
+The next day, the fog will be lighter, and there will be an ominous breeze that never quite lets up.  After a few more hours of travel, the fog will suddenly part to reveal a large mountain jutting out of the landscape.  At this point, you can read the following description:
+
+> ##### Hollow Mountain Description
+> Description text goes here
+
+
+The player’s path will take them up the mountain and to a location matching the description of the entrance to Flora’s secret lab.  
+
+\pagebreakNum
+
+## The Mountain Lab
+Flora’s lab is hidden within a secret cave whose entrance can only be reliably found using the instructions she left for Stefan. It will serve as the hub and rest area for players during the adventure. 
+
+### Flora's Body
+
+As they approach the lab's secret entrance, the players will discover the body of a young woman, splayed out with several of her organs removed.  Upon searching the body, the players will find notes from various correspondences indicating that this is the body of Flora.  Beyond this, the notes bear no meaningful information.
+A DC 15 Intelligence (Medicine) check will reveal that she has died within the past day.  However, any attempts to resurrect her or speak with her spirit will fail.  Outside of a few alchemical supplies, she has no valuable goods or information.  As the players leave to continue towards Flora’s lab, a massive lightning bolt will strike the mountain’s peak.
+
+### Entering the Lab
+The instructions describe the lab entrance as a hole in the side of the mountain hidden behind a magical boulder, which the players must knock on three times.  Shortly after doing so, the boulder will roll to one side, revealing a 30-foot-long tunnel just large enough for a medium creature to squeeze through.  The other side of the tunnel opens up into the laboratory, and when the players arrive here, you can read them the following description: 
+
+> ##### Lab Description
+> The tunnel opens up into a cavernous laboratory roughly 20 by 15 feet. The space is somewhat cramped, with a ceiling that varies between 5 and 10 feet in height.  Stalactites and stalagmites have been turned into shelves for countless alchemical samples and supplies. In the center of the chamber is a large cauldron surrounded by supplies.  
+
+### The Homunculus
+Shortly after the players enter the lab, they will be approached by Flora’s homunculus.  The homunculus has the size and appearance of a cane toad sporting small bat wings.  It will stare at the players curiously and can understand common. Though it cannot speak, it can communicate by scribbling down notes in broken common.  It is also proficient with alchemist supplies.  As long as the players communicate their friendly intentions, the homunculus will provide the players with Flora’s notes and do what it can to help them complete Flora’s plans.  If the players provide the homunculus with the alchemical supplies Stefan was delivering, it can continue working on the potion that Flora began crafting.
+
+\columnbreak
+
+### Flora's Notes
+Flora endowed her homunculus with many of her skills and abilities.  She also left behind many notes on the Maiden and the potion needed to defeat her.  Using Flora’s notes and the information the homunculus can provide, the players can learn the following information:
+
+* The Maiden rules the mountain and her cauldron is the source of her power.  If she is destroyed, a new body is formed for her within her cauldron.   
+* The Maiden is performing a 24-hour long ritual to renew her powers.  The beginning of each hour is marked by lighting striking the peak of the mountain.  During this time, the Maiden may still leave her lair to roam the mountain, but she can teleport back to her lair at any time if it is threatened.
+* During the 24-hour ritual, the cauldron is at its most vulnerable.  The potion Flora began, and her homunculus can now finish, will weaken the cauldron if it is poured into it.  While the cauldron is weakened this way, it can be destroyed by mundane means.  
+* Destroying the cauldron will weaken the Maiden and prevent her from regenerating, but she will still need to be destroyed.
+* The Maiden is extremely powerful while within her lair, but if the homunculus is provided with certain rare ingredients, it can enhance the potion to weaken her when it is poured into her cauldron.  How it will weaken her will depend on the ingredients added to the potion.  The different ingredients, their location, and their effect on the potion are listed below.
+
+### The Ingredients and Their Uses
+The homunculus will provide the players with Flora’s notes on the different ingredients that can be used to enhance the potion and recommend that the players pursue at least some of them while they still have time.
+
+#### The Mighty Bonsai
+**Location:** The Invigorating Overlook <br> 
+**Effect:** The Maiden will lose her ability to fly, her strength score will be lowered, and she will lose proficiency in saving throws and skill checks using Strength or Dexterity.
+
+#### The Plum of Vitality
+**Location:** The Verdant Caverns <br> 
+**Effect:** The Maiden will lose the ability to use her reaction to take half damage from damage-dealing effects.  She will also lose her immunity to critical strikes.
+
+#### The Decaying Mushroom
+**Location:** The Pestilent Bog <br> 
+**Effect:** The Maiden will lose her ability to inhibit healing and the gaining of temporary hit points.
+
+#### The Burning Bloom
+**Location:** The Acidic Pools <br> 
+**Effect:** The Maiden will lose her ability to splash acid on creatures at the end of each of her turns.  It should be noted that if this acid damage results in the target making Constitution saving throws to maintain concentration on a spell, that save is made with disadvantage.
+
+\pagebreakNum
+
+## Navigating The Hollow Mountain
+
+
+
+\pagebreakNum
+
+## The Pestilent Bog
+
+##### Random Encounters
+| d6 | Encounter     | 
+|:---:|:-------------:|
+|  1  | 3 Trolls  |
+|  2  |3 Giant Zombie Gators  |
+|  3  | Witch |
+|  4  | White water rapids with a DC 10 to navigate  |
+|  5  | A villager trying to make it back to town safely  |
+|  6  | The remains of a villager who appears to have been torn apart by the local wildlife |
+
+### Zombie Croc
+* Deinosuchus
+* Giant Alligator x4
+
+\pagebreakNum
+
+## The Verdant Caves
+The Verdant Caves are a cavernous network filled with plant and animal life.  The tunnels are lit by bioluminescence from various types of plants and fungi. The plants seem to miraculously grow and thrive here, despite not being exposed to natural light, and the wildlife is tended to by various druids that wander the caves.  
+
+### The Inhabitants
+Though the caves are beautiful and life-giving, flora and fauna here are quite aggressive.  Plants and animals will attack non-druids on sight.  
+
+The druids appear friendly and helpful to strangers, but they are secretly **vampire spawn**, waiting for their chance to subdue and feed on vulnerable travelers.  These vampiric druids maintain the unnatural levels of verdant beauty in the caverns by draining the life force from the rest of the mountain.  Their master sleeps in a secret chamber at the center of the caverns, where he maintains this life-draining ritual.  
+
+The **vampire spawn** have the statistics detailed in the *Monster Manual* except their Wisdom is 18 (+4) and they have the following addition to their stat block:
+
+> **Spellcasting.** The vampire's spell casting ability is Wisdom (spell save DC 15, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a long rest. It knows the following spells: <br><br>
+>
+> (At will): *druid craft, thorn whip, poison spray.*
+>
+> 1st level (4 slots): *charm person, entangle, fog cloud, speak with animals*
+>
+> 2nd Level (3 slots): *animal messenger, hold person*
+
+
+The vampire lord goes by the name of Arimir and has the statistics of a **vampire** spell caster from the *Monster Manual* with the following changes to his spell list:
+
+> (At will): *druid craft, thorn whip, poison spray.*
+>
+> 1st level (4 slots): *charm person, entangle, fog cloud, speak with animals*
+>
+> 2nd Level (3 slots): *animal messenger, hold person, spike growth*
+>
+> 3rd level (3 slots): *dispel magic, plant growth, vampiric touch*
+>
+> 4th level (3 slots): *blight, grasping vine*
+> 
+> 5th level (1 slot): *insect plague*
+
+
+### Exploring the Caves
+The Verdant Caves are a confusing network of tunnels and cavernous chambers patrolled by hostile wildlife and deceptive life-draining druids.  Navigation here requires a DC 15 Wisdom (Survival) check.  Players who can befriend and speak with plants or animals can receive directions on navigating the caves this way.  
+
+A *commune with nature* spell can also be used to locate entrances and exits to the caverns as well.  The navigation check is made every hour, and for each hour that passes, roll on the random encounter table below.
+
+### Finding The Plum of Vitality
+The chamber containing Arimir and the Plum Tree of Vitality is well hidden.  Players attempting to find it on their own will need to succeed on a DC 30 Wisdom (Survival) check or become lost.  A commune with nature used to detect the presence of powerful celestials, fey, fiends, elementals, or undead will reveal the presence of a powerful undead creature and the general direction of the Arimir’s chamber.  This will reduce the navigation DC to 20.  
+
+The **vampire spawn** in the area will not attack the players unless they appear particularly vulnerable.  Instead, they will maintain the appearance of helpfulness, and offer to guide the players to the plum chamber.  If the players accept their offer, two of the **vampire spawn** will take the players to the chamber in hopes of feeding them to their master.
+
+
+### The Plum's Guardian
+The vampire Arimir sleeps within the Plum Tree of Vitality and will awaken as soon as a non-vampire comes within 10 feet of the tree.  At this point, he will emerge in a rage and viscously attack the intruders. 
+
+The entire chamber is considered Arimir’s resting place for the purposes of his Misty Escape ability.
+
+If the players are led to the chamber by two **vampire spawn**, these servants will wait outside the chamber for their master to awaken and attack the players.  At this point, they will work together to cast wall of thorns to block the exit to the chamber.  They will try to wait until all the players have moved into the chamber to do this, but if one or more players don’t show any intention of entering the chamber, they will cast the spell early and attack the players on the outside.  
+
+Both **vampire spawn** must maintain concentration on this spell, and if either loses it, the spell will end.  If Arimir is slain, the spell will end 3 rounds afterward. 
+### The Maiden of the Mountain
+If the Maiden is in the caverns while the players are exploring here, the tunnels will be foggier than usual, and a low rumble will periodically echo through the caves.  
+When the players begin combat with Arimir, the Maiden will arrive 3 rounds into the combat.  If the players are being led to the chamber by the druids, the Maiden will arrive disguised as another druid to accompany them.  She will wait outside the chamber with the other vampire spawn, preferring to let Arimir and his minions drain the life force from the players.  However, if Arimir is slain or players outside the chamber prove to be more than a match for the vampire spawn, the Maiden will reveal her true form, summon her cauldron, and begin her attack on the following round of combat.
+
+\pagebreakNum
+
+### Aftermath
+The plum can be harvested as an action, and the chamber in which it’s located contains many other rare plants.  If the players spend one minute in the area, they can harvest the following goods.
+
+
+> ##### Plum Chamber Loot
+> Useful Information
+
+
+If Arimir is slain, the vampire spawn will gain free will.  The two vampire spawn that lead the players to his chamber will likely flee unless the players appear particularly vulnerable after the fight.  Subsequent vampire spawn the players encounter will attack vulnerable prey but generally avoid fights they obviously can’t win.  
+If the players manage to obtain the plum and escape without slaying Arimir, he will make a point of hunting the players across the rest of the Hollow Mountain.  
+At this point, you can use Arimir as a possible random encounter the players could face while traveling in any area of the mountain.
+
+
+\pagebreakNum
+
+## The Acidic Springs
+
+### The Inhabitants
+
+### Exploring the Springs
+
+### Finding the Burning Bloom
+
+### Guardian of the Bloom
+
+
+
+### Acid Toads
+* Giant Acid Toad x2
+* Cauldron Warlock
+* Mega Acid Toad
+
+\pagebreakNum
+
+## The Invigorating Overlooks
+The Invigorating Overlooks consists of a series of plateaus, springs, and rivers that afford the most fantastic views The Hollow Mountain has to offer.  This area doesn’t carry the same aura of gloom and dread as the rest of the mountain, and the mountain’s most beautiful inhabitants live here in various cottages dotted across the mountainside, with trails connecting points of interest.  However, those living here possess dysfunctional levels of vanity, and their beauty hides many evils.
+
+### The Inhabitants
+Though the overlook appears to be a safe and benign area of the mountain, its inhabitants possess a vanity that is irritating at best and deadly at worst.  The inhabitants are all self-absorbed humans who can hardly be bothered to participate in any activity that doesn’t directly contribute to their beauty or status. Instead, most spend their time tending to their appearance or strutting along the trails working to hobnob and impress others. Despite being human, they appear to dress in more elvish styles, and many of their customs emulate those of elves.
+
+Attempting to extract any helpful information or even purchase goods typically requires a DC 15 Charisma (Persuasion) check against the NPC in question.  Some NPCs can be cowed by player characters if they are of a race that tends to possess preternatural beauty and grace, such as an elf or aasimar.  Others can be wooed with compliments and gifts.  A successful DC 15 Wisdom (Insight) check can reveal what vein weakness an NPC might have.  You can adjust the difficulty in winning over an NPC based on how well the players can play off the NPC’s fears and preferences.
+
+If the players inquire about the Maiden of the Mountain, they will be informed that she is the most beautiful resident on the entire mountain.  The inhabitants all appear to envy and admire her, striving to one day approach her level of radiant prestige. 
+
+### Exploring the Overlooks
+Though there are paths crisscrossing the Invigorating Overlook, they are not laid out in a logical way, and it is easy to get lost while navigating the area.  Navigation here requires a DC 15 Wisdom (Survival) check.  Navigation can also be accomplished by successfully convincing one of the inhabitants to provide aid.  
+
+#### Placeholder for Random Encounters
+
+### Finding The Bonsai
+The Mighty Bonsai is located in a secluded spring that is extremely difficult to find.  Players can spend an hour traveling to make a DC 30 Wisdom (Navigation) check to attempt to find its location if they don’t have any clues as to where to look.
+
+If the players manage to convince an inhabitant of the overlooks to provide them with information about the Mighty Bonsai, they will learn that a man named Percival Lewis has been charged with tending to and protecting the bonsai on behalf of the Maidan of the Mountain.  Percival is regarded as the most beautiful man on the whole mountain, and he is escorted by an entourage of swooning admirers and bodyguards.  
+
+If players ask about Percival’s whereabouts, they will be told that he and his party travel along the various paths in the area but rarely stray far from the bonsai, whose location is kept a secret to all but his most trusted followers.  The players can find Percival’s entourage by extracting the information from another NPC or by succeeding on a DC 15 Wisdom (Survival) check to track its passage through the overlooks. 
+
+#### Interacting With Percival
+
+Percival has the statics of a gladiator, except his Charisma is 20, and he has proficiency in Persuasion.  He is accompanied by two bodyguards that have the statistics of veterans, except their Charisma is 18 and their Wisdom is 16.  Percival’s steed is a nykur (see stats at the end of the document).  Percival is aware of its nature, and the two have a mutually beneficial relationship where they both benefit from the attention they draw.
+When the players encounter Percival’s party, read them the following description:
+
+> ##### Percival Description
+> An extraordinarily handsome man upon an equally handsome white horse comes into view.  He carries with him a gleaming spear and shield and is dressed in evocative studded leather armor.  He is flanked on either side by an armed bodyguard and followed by a small crowd of nearly a dozen beautiful adoring fans.   These fans tend to Percival’s every need, and each of his bodyguards carries a reflective shield which he uses to admire himself constantly.
+
+Percival has little patience for anyone interrupting his walk through the overlooks.  If the players approach his entourage to speak with him, he will take little interest in them and quickly move on if they do not capture his interest.  
+
+Players who are especially deferent to Percival’s beauty and status or offer him beautiful gifts may make a DC 20 Charisma (Persuasion) check to temporarily win his favor.  Percival will allow a player who wins his favor to join his entourage, and he may allow them to bring along other party members, provided they are not ugly or uncouth.  More monstrous races will usually not be allowed amongst Percival’s party.  
+
+Players who flaunt their beauty or do anything that would threaten Percival’s status as one of the most beautiful inhabitants of the Hollow Mountain will be treated harshly.  Percival has little patience for rivals, and he will viscously insult anyone he views as an upstart before storming off with his entourage. If the players are especially combative or cocky, Percival and his guards will attack.  See the Battling Percival Section.
+
+\pagebreakNum
+
+#### Traveling with or Trailing Percival
+
+Percival will spend 2 hours traveling along winding trails and making unnecessary pit stops before he eventually visits the bonsai.   If the players are traveling with him, he and his followers will avoid disclosing the location of the bonsai, and the players will have to do their best to dote on Percival to stay in his good graces.  However, players who succeed in playing on the vein weakness of Percival or his followers may learn the location of the Bonsai before the entourage reaches it.  
+
+If the players decide to stealthily trail the entourage, they must succeed on a DC 15 Dexterity (Stealth) check as a group to avoid being spotted by the bodyguards.  Percival will order an attack on anyone he catches spying on him.  Percival and his entourage will freely discuss the bonsai and its location if they don’t believe the players can hear them, and the players may be able to learn of its location through clever eavesdropping this way.
+
+### The Bonsai and its Guardians
+When Percival and his party arrive at the Mighty Bonsai, they will remain there to tend to it for an hour.  After which point, they will continue on their travels. 
+
+While Percival is not there, the tree will be guarded by a lone nykur.  If the nykur sees that it is being overwhelmed by intruders, it will let out a loud echoing whiny.  This will alert Percival to the attack and cause two nearby trees to awaken and attack the players.  Assuming Percival has traveled some distance away, it will take him up to 10 minutes to arrive upon his nykur with his two bodyguards riding with him.
+
+If the players travel with Percival to the bonsai, they will not be allowed near the plant, and Percival will not leave with his party unless the players come with them.
+
+#### Battling Percival
+If Percival is pushed to the point of hostility, his nykur will use its charming presence to attempt to ensnare the players.  Warn the players that the nykur is beginning to adopt a mind-altering presence and give them the option to avert their eyes if they choose.  If players are charmed by the nykur and become adhered to its body, Percival will dismount it so that his steed can drag his enemies into the neared stream to drown them.  Percival’s bodyguards will remain at his side at all times and will give their lives to protect his.  Percival and his guards will prioritize attacking any players who weren’t charmed by the nykur.
+
+#### Battling the Lone Nykur
+If the players attempt to snatch up the bonsai while Percival is away, they will have to battle the lone nykur guardian and its two awakened tree allies.  This nykur will use the same strategy to charm and drown as many of the players as possible, and the awakened trees will prioritize attacking players who have resisted the charm effects.
+
+### The Maiden of the Mountain
+If the Maiden of the Mountains is in the area, she will disguise herself as one of its residents.  She will put herself in the players’ path in hopes that they will talk to her.  If the players do try to talk to her, they will find that she is much more talkative than the other inhabitants of the overlooks.  While she is vain and beautiful, she takes a much stronger interest in the players than anyone else and will ask them questions about their origin and motives.  If the Maiden is able, she will try to learn the location of the secret lab from the players. However, she will feign ignorance when it comes to providing any information that would help the players locate the bonsai.
+
+If the players find themselves in combat with Percival or the lone nykur guarding the bonsai, the Maiden will arrive on the third round of combat in her true form.  If the bonsai is within sight, she will prioritize preventing the players from harvesting it and will not pursue fleeing players unless they have the tree.
+
+### Aftermath
+The bonsai can be harvested as an action, and the grove in which it’s located contains many other rare plants.  If the players spend one minute in the area, they can harvest the following goods.
+
+> ##### Bonsai Grove Loot
+> Useful Information
+
+If Percival is still alive and he learns the bonsai has been taken, he will actively search the mountain for the culprits.  He and his two bodyguards will patrol the mountain by traveling along its streams while riding upon his nykur.  
+
+At this point, you can use the four of them as a possible random encounter the players could face while traveling in any area of the mountain.
+
+
+\pagebreakNum
+
+## The Witch's Lair
+
+\pagebreakNum
+
+## Aftermath
+
+\pagebreakNum
+
+# Adventure Resources
+
+## Creatures
+
+
+### The Maiden of the Mountain
+
+#### Roleplaying the Maiden 
+
+
+***Personality Trait.*** 
+
+***Ideal.***
+
+***Bond.***
+
+***Flaw.***
+
+#### Maiden Combat Encounters
+The Maiden herself will conjure her cauldron and use its abilities in conjunction with her spells against the players.  If the players rely heavily on melee attacks, she will use her flight to stay out of reach.  If the players rely on healing, the Maiden will prioritize her Chilling Grasp to prevent this.  When the players damage the Maiden, emphasize that she does not respond with any signs of pain and almost seems disconnected from her own body.
+
+
+#### Maiden Social Encounters
+
+
+
+
+\pagebreakNum
+
+
+___
+___
+> ## Cauldron Warlock
+>*Medium humanoid, any alignment*
+> ___
+> - **Armor Class** 13 (16 with mage armor)
+> - **Hit Points** 120 (16d8+48)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|14 (+2)|14 (+2)|12 (+1)|12 (+1)|16 (+3)|
+>___
+> - **Saving Throws** Wis +5, Cha +6
+> - **Skills** Arcana +4, Investigation +4, Perception +4, Survival +4, Alchemist's supplies +6 
+> - **Senses** passive Perception 13
+> - **Languages** Any one language (usually Common)
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +3
+>___
+>
+> **Pestilent Cauldron.** The warlock can perform a 1-hour ceremony to turn a small pot or cauldron into its magical vessel. This ceremony can be performed during a short or long rest, and any previous vessel is destroyed. The vessel's AC is 16, it has 80 hit points, and it is immune to poison and psychic damage.
+>
+> ### Bonus Actions
+> ***Cauldron Fumes.*** While the warlock is within 20 feet of its cauldron, it can choose one of the following effects at random, then choose a creature it can see within 60 feet of its vessel to be the target of the effect.<Br>
+> <br>*1. Healing Brew.* The creature gains 13 (3d8) temporary hit points. <br><br>
+>
+> <br>*2. Necrotic Brew.* The creature must make a DC 13 Constitution saving throw or take 19 (3d12) necrotic damage.
+> <br>*3. Acidic Brew.* The creature at each other creature within 10 feet of it must make a DC 13 Dexterity saving throw or take 10(2d6) acid damage. 
+> <br>*4. Invigorating Brew.* The creature gains advantage on the next weapon attack it makes before the end its next turn.
+>
+> ### Actions
+> **Spellcasting.** The warlock is a XX level spellcaster. Its spell casting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following spells: <br>
+>
+> (At will): *alter self, prestidigitation, mage hand, minor illusion, mage armor (self only).*
+>
+> 1st-5th level (3 2nd-level slots): *melf's acid arrow, shatter, mirror image..*
+>
+> ***Poison Bolt.*** *Ranged Spell Attack:* +6 to hit, range 120 ft., one target. Hit: 9 (1d12 + 3) poison damage.
+>
+> ***Chilling Grasp.*** *Melee Spell Attack:* +6 to hit, range 5 ft., one target. Hit: 7 (1d8 + 4) necrotic damage, and the target can't regain hit points or take reactions until the start of its next turn.
+
+\pagebreakNum
+___
+___
+> ## Maiden of the Mountain (Outside Lair)
+>*Medium humanoid, any alignment*
+> ___
+> - **Armor Class** 14 (17 with mage armor)
+> - **Hit Points** 170 (20d8+80)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|18 (+4)|18 (+4)|16 (+3)|14 (+2)|18 (+4)|
+>___
+> - **Saving Throws** Wis +6, Cha +8
+> - **Skills** Arcana +7, Investigation +7, Perception +7, Survival +7, Alchemist's supplies +8 
+> - **Senses** darkvision 60 Ft. passive Perception 17
+> - **Languages** Common, draconic, sylvan
+> - **Challenge** 10 (5,900 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +4
+>___
+>
+> **Pestilent Cauldron.** The warlock can perform a 1-hour ceremony to turn a small pot or cauldron into its magical vessel. This ceremony can be performed during a short or long rest, and any previous vessel is destroyed if it still exists. The vessel's AC is 16, it has 100 hit points, and it is immune to poison and psychic damage.  If a creature wishes to move the cauldron against the warlock's will, it must use an action to make a DC 17 Strength check.  On a success, it can move the cauldron until the end of the turn.  On a failure, it is unable to move the cauldron. <br>
+> While the warlock is within 40 feet of the vessel, it can cast spells as though it is holding a spell focus.
+>
+> **Eldritch Mind.** The warlock has advantage on Constitution saving throws it makes to maintain concentration on a spell.
+>
+> ### Bonus Actions
+> ***Cauldron Fumes.*** While the warlock is within 40 feet of its cauldron, it can perform one of the following actions at random.<Br>
+> <br>*1. Healing Brew.* One creature the warlock can see within 100 feet of it's vessel gains 36 (8d8) temporary hit points. <br><br>
+>
+> <br>*2. Necrotic Brew.* Each creature of warlock's choice it can see within 60 feet of its vessel must make a DC 16 Constitution saving throw. A creature takes 16 (3d10) necrotic damage on a failed save, or half as much damage on a successful one. 
+> <br>*3. Acidic Brew.* The warlock makes a ranged spell attack against a creature it can see within 100 ft of its vessel. On hit, the creature takes 14(4d6) acid damage immediately and an additional 14(4d6) acid damage at the start of the warlock's next turn.  If the attack misses, the target takes the initial damage but takes no additional damage at the end of it's next turn. 
+> <br>*4. Invigorating Brew.* Until the end of the warlock's next turn, one creature that it can see within 100 feet of it's vessel gains advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target.
+>
+> ### Actions
+> ***Multiattack.*** The warlock makes three poison bolt attacks. 
+>
+> **Spellcasting.** The warlock is a XXth level spellcaster. Its spell casting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following spells: <br>
+>
+> At will: *alter self, prestidigitation, mage hand, minor illusion, mage armor (self only).*
+>
+> 1st-5th level (3 5th-level slots): *vitriolic Sphere, cloudkill, scrying, hold monster, dispel magic.*
+>
+> ***Poison Bolt.*** *Ranged Spell Attack:* +8 to hit, range 120 ft., one target. Hit: 10 (1d12 + 4) poison damage.
+>
+> ***Chilling Grasp.*** *Melee Spell Attack:* +8 to hit, range 5 ft., one target. Hit: 22 (4d8 + 4) necrotic damage, and the target can't regain hit points or take reactions until the start of its next turn.
+
+\pagebreakNum
+
+___
+___
+> ## Maiden of the Mountain (In Lair)
+>*Medium humanoid, any alignment*
+> ___
+> - **Armor Class** 14 (17 with mage armor)
+> - **Hit Points** 212 (25d8+100)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|18 (+4)|18 (+4)|16 (+3)|14 (+2)|18 (+4)|
+>___
+> - **Saving Throws** Wis +7, Cha +9, Con +9, Int +8
+> - **Skills** Arcana +8, Investigation +8, Perception +8, Survival +8, Alchemist's supplies +10 
+> - **Senses** darkvision 60 Ft. passive Perception 18
+> - **Languages** Common, draconic, sylvan
+> - **Challenge** 15 (13,000 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +5
+>___
+>
+> **Pestilent Cauldron.** The warlock can perform a 1-hour ceremony to turn a small pot or cauldron into its magical vessel. This ceremony can be performed during a short or long rest, and any previous vessel is destroyed if it still exists. The vessel's AC is 17, it has 150 hit points, and it is immune to poison and psychic damage.  If a creature wishes to move the cauldron against the warlock's will, it must use an action to make a DC 17 Strength check.  On a success, it can move the cauldron until the end of the turn.  On a failure, it is unable to move the cauldron. <br>
+> While the warlock is within 40 feet of the vessel, it can cast spells as though it is holding a spell focus.
+>
+> **Eldritch Mind.** The warlock has advantage on Constitution saving throws it makes to maintain concentration on a spell.
+>
+> **Legendary Resistance (3/Day).** If the warlock fails a saving throw, it can choose to succeed instead
+>
+> ### Bonus Actions
+> ***Cauldron Fumes.*** While the warlock is within 40 feet of its cauldron, it can perform one of the following actions at random.<Br>
+> <br>*1. Healing Brew.* One creature the warlock can see within 100 feet of it's vessel gains 36 (8d8) temporary hit points.
+> <br>*2. Necrotic Brew.* Each creature of warlock's choice it can see within 60 feet of its vessel must make a DC 17 Constitution saving throw. A creature takes 16 (3d10) necrotic damage on a failed save, or half as much damage on a successful one. 
+> <br>*3. Acidic Brew.* The warlock makes a ranged spell attack against a creature it can see within 100 ft of its vessel. On hit, the creature takes 14(4d6) acid damage immediately and an additional 14(4d6) acid damage at the start of the warlock's next turn.  If the attack misses, the target takes the initial damage but takes no additional damage at the end of it's next turn. 
+>
+> <br>*4. Invigorating Brew.* Until the end of the warlock's next turn, one creature that it can see within 100 feet of it's vessel gains advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target.
+>
+> ### Actions
+> ***Multiattack.*** The warlock makes three poison bolt attacks. 
+>
+> **Spellcasting.** The warlock is a XXth level spellcaster. Its spell casting ability is Charisma (spell save DC 17, +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following spells: <br>
+>
+> At will: *prestidigitation, mage hand, minor illusion, mage armor (self only).*
+>
+> 1st-5th level (3 5th-level slots): *vitriolic sphere, cloudkill, scrying, hold monster, dispel magic.*
+>
+> ***Poison Bolt.*** *Ranged Spell Attack:* +9 to hit, range 120 ft., one target. Hit: 10 (1d12 + 4) poison damage.
+>
+> ***Chilling Grasp.*** *Melee Spell Attack:* +9 to hit, range 5 ft., one target. Hit: 22 (4d8 + 4) necrotic damage, and the target can't regain hit points or take reactions until the start of its next turn.
+>
+> ### Legendary Actions
+> The warlock can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The warlock regains spent legendary actions at the start of its turn.
+>
+> **Cauldron Step.** The warlock teleports to to an unoccupied space within 5 feet of it's vessel or has its vessel teleport to to an unoccupied space within 5 feet of it.
+>
+>**Check.** The warlock makes a skill check that would normally require an action.
+>
+>**Cauldron Fumes. (Costs 2 Actions)** The warlock use it's Cauldron Fumes ability.
+>
+>**Chilling Grasp. (Costs 2 Actions)** The warlock makes a Chilling Grasp attack.
+>
+>**Reconstitute (Costs 3 Actions).** If the warlock is suffering from one or more conditions that require it to make a saving throw to end, it may immediately make a save against each condition. A successful save for any of the throws will end the condition immediately. The only saving throws that this action can be used for are saves that are made at the end/start of its next turn or using its action. It can use this action while incapacitated.
+
+
+\pagebreakNum
+
+___
+> ## Giant Alligator 
+>*Large beast, unaligned*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 58 (9d10+9)
+> - **Speed** 30 ft., swim 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|10 (0)|14 (+2)|3 (-4)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Stealth +2, Perception +4
+> - **Senses** darkvision 30 ft., passive Perception 14.
+> - **Languages** ---- 
+> - **Challenge** 3 (700 XP)
+> ___
+> **Watery Lurker.** The alligator has advantage on Dexterity (Stealth) checks while submerged in water.
+>
+> **Hold Breath.** The alligator can hold its breath for 20 minutes.
+> ___
+> ### Actions
+> ***Multiattack.*** The alligator makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage. The target is grappled (escape DC 16) Until this grapple ends, the target is restrained, and the alligator can't bite another target
+>
+> ***Tail.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target not grappled by the alligator. Hit: 9 (1d8 + 5) bludgeoning damage.
+>
+> ***Death Roll.*** One creature the alligator has grappled in the water it must make a DC 16 Strength saving throw, on a taking 32 (5d10 + 5) piercing damage on a failed save, or half as much damage on a successful one.
+
+\pagebreakNum
+___
+___
+> ## Zombie Deinosuchus
+>*Huge beast, unaligned*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 130 (9d20+36)
+> - **Speed** 30 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|25 (+7)|9 (-1)|18 (+3)|3 (-4)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Stealth +2, Perception +5
+> - **Senses** darkvision 30 ft., passive Perception 15.
+> - **Languages** ---- 
+> - **Challenge** 8 (3,900 XP)
+> ___
+> **Watery Lurker.** The deinosuchus has advantage on Dexterity (Stealth) checks while submerged in water.
+>
+> **Hold Breath.** The deinosuchus can hold its breath for 15 minutes.
+> 
+> ### Actions
+> ***Multiattack.*** The deinosuchus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. Hit: 34 (5d10 + 7) piercing damage. The target is grappled (escape DC 18) Until this grapple ends, the target is restrained, and the deinosuchus can't bite another target
+>
+> ***Tail.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target not grappled by the deinosuchus. Hit: 20 (3d8 + 7) bludgeoning damage.
+>
+> ***Death Roll.*** One creature the deinosuchus has grappled in the water it must make a DC 18 Strength saving throw, on a taking 67 (11d10 + 7) piercing damage on a failed save, or half as much damage on a successful.
+
+\pagebreakNum
+
+## Encounter Maps
