@@ -14,10 +14,10 @@ Additionally, when your spellcasting feature lets you learn a bard cantrip or a 
 
 \columnbreak
 
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
 
 #### Dramatic Spotlight
-At 3rd level, you can summon a spotlight that emboldens an ally with praise and adoration or cripples an enemy with scorn and scrutiny.  As a bonus action, you can expend a use of your bardic inspiration to conjure a magical spotlight focused on a creature you can see within 60 feet of you.  The spotlight’s size always matches the target creature’s, and it will follow the target wherever it moves. The spotlight lasts for 1 minute or until you dismiss it (no action required).
+At 3rd level, you can summon a spotlight that emboldens an ally with praise and adoration or cripples an enemy with scorn and scrutiny.  As a bonus action, you can expend a use of your bardic inspiration to conjure a magical spotlight focused on a creature you can see within 60 feet of you.  The spotlight’s size always matches the target creature’s, and it will follow the target wherever it moves. The spotlight lasts for 1 minute, until you use this feature again, or until you dismiss it (no action required).
 
 While a spotlight is active, you can use your bonus action to move it to another creature you can see within 60 feet of you.  Additionally, if the spotlight’s target drops to 0 hit points before the effect ends, you can use a bonus action on a subsequent turn of yours to refocus it on a new creature.
 
@@ -25,21 +25,21 @@ An allied creature targeted by the spotlight gains the following benefits:
 
 * It can see through magical and non-magical darkness out to 120 feet.
 
-* The first time it deals damage on its turn, it deals additional radiant damage equal to a roll of your bardic inspiration die.
-
 * It has advantage on Charisma checks
 
 An enemy creature targeted by the spotlight suffers the following effects:
 * It loses all abilities that would allow it to see through darkness or turn invisible.
 
-* The first time it deals damage on its turn, that damage is reduced by an amount equal to a roll of your bardic inspiration die.
-
 * It has disadvantage on Charisma checks
+
+The first time on a turn, when a creature targeted by the spotlight deals damage, you can increase or reduce the damage dealt to a single target by an amount equal to a roll of your bardic inspiration die.  If you increase the damage, the additional damage is radiant. 
+
+You can modify damage this way up to three times per use of a spotlight. 
 
 
 <img src='https://i.ibb.co/7RzPmxk/yongjae-choi-413208-shaile-dean-of-light.jpg' style='position:absolute; top:-40px; right:-230px; width:1300px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
 
-<img src='https://image.ibb.co/dMxPnH/Tkbl4ji.png' style='position:absolute; bottom:-45px; right:0px; width:850px; transform:rotate(0deg)scalex(-1);filter:opacity(100%);'/>
+<img src='https://image.ibb.co/dMxPnH/Tkbl4ji.png' style='position:absolute; bottom:-40px; right:0px; width:850px; transform:rotate(0deg)scalex(-1);filter:opacity(100%);'/>
 
 <div style='margin-top:540px;'></div>
 
@@ -184,7 +184,10 @@ style='position:absolute;top:-70px;left:380px;width:550px' />
 
 \pagebreak
 
-### 1.0.1 Changes
+#### 1.0.1 Changes
  * Add 60 foot range to Inkling Summoning
+ 
+#### 1.0.2 Changes 
+ * Update Dramatic Spotlight to allow damage modification a limited number of times and to only allow for one spotlight active at a time
  
 
