@@ -51,6 +51,18 @@ The chain has AC 15 and 20 hit points, when it is reduced to 0 hit points, the s
 
 *At Higher Levels.* When you cast this spell using a spell slot of 2nd level or higher, the chain gains additional 20 hit points for each slot level above 1st.
 
+#### Cacophonic Caress
+*3rd-level  evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (30-foot radius)
+- **Components:** V 
+- **Duration:**   Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock
+___
+
+You throw back your head and emit an ululating scream.  Each creature within range takes 3d6 thunder damage and must succeed on a Wisdom saving throw or take 3d6 additional psychic damage and be deafened for 1 minute.  On a successful save, a creature takes half as much psychic damage and isn't deafened.  A deafened creature can repeat the saving throw at the end of each of its turns,  ending the effect on a success.
+
 #### Fireworks
 *4th-level  evocation*
 ___
@@ -61,9 +73,13 @@ ___
 - **Classes:**  Bard, Sorcerer, Wizard, Artificer
 ___
 
-You launch up to three pyrotechnic bolts to three points within range.  They each explode, creating a 15-foot-radius sphere of light and sound that spreads out from their center point until the end of your next turn.  The sphere is bright light and sheds dim light for an additional 30 feet.  Any creature in the sphere when it first appears must make a Constitution saving throw or become blinded and deafened until the end of your next turn.  If the creature is flying, it is also knocked prone.
+You launch up to three pyrotechnic bolts to three points within range.  They each explode, creating a 15-foot-radius sphere of light and sound that spreads out from their center point until the end of your next turn.  
 
-*At Higher Levels.* When you cast this spell using a spell slot of 5th level or higher, the spell creates one more bolt for each slot above 4th. 
+The sphere is bright light and sheds dim light for an additional 30 feet.  Any creature in the sphere when it first appears must make a Constitution saving throw or become blinded and deafened until the end of your next turn.  If the creature is flying, it is also knocked prone.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the spell creates one more bolt for each slot above 4th. 
+
+\pagebreak
 
 #### Frost Nova
 *3rd-level evocation*
@@ -80,7 +96,6 @@ You cause a ring of ice and frost to expand out from you up to a 20-foot radius.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 and the you may increase the radius by 5 feet for each slot level above 3th.
 
-\pagebreak
 
 #### Molten Sphere
 *6th-level conjuration*
@@ -108,7 +123,6 @@ ___
 
 You summon forth a huge, rolling mass of Mud.  A 10-foot-diameter sphere of mud appears in an unoccupied space of your choice within range. The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the sphere strikes the target and explodes. When the sphere explodes, each creature within a 10-foot radius must succeed on a Dexterity saving throw or be blinded until the end of it's next turn. A creature hit by the sphere fails the save automatically. Any surface the sphere rolled over, or that was hit by the explosion is covered in 3-inch-thick mud. The mud is difficult terrain until cleared.
 
-\columnbreak
 
 #### Overdrive
 *5th-level transmutation*
@@ -122,6 +136,18 @@ ___
 
 You touch a creature, causing it to become electrically charged. Until the spell ends, the target’s speed is doubled, it has advantage on Dexterity saving throws, and all its unarmed strikes and attacks it makes with a melee weapon made of metal deal an extra 2d6 lightning damage on hit.
 
+#### Phantasmagoria
+*6th-level  illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S 
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Bard, Warlock
+___
+
+You summon illusory creatures who flit and broil within a 30 foot radius sphere centered on a point you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
+
 #### Puddle of Ooze 
 *3rd-level conjuration*
 ___
@@ -134,7 +160,23 @@ ___
 
 The ground in a 20-foot radius centered on a point within range is covered in acidic ooze. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
+\pagebreak
+
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
+
+#### Slicing Shards
+*4th-level  conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (a piece of broken glass)
+- **Duration:**   Instantaneous
+- **Classes:**  Artificer, Warlock
+___
+
+You conjure a cloud of razor-sharp glass capable of slicing through mind and body and send it flying toward a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 10d4 slashing damage and must make a Wisdom saving throw.  The target takes 10d4 additional psychic damage on a failed save and half as much damage on a successful one.  If the attack misses, the glass grazes the target, and it takes half as much of the initial slashing damage and does not make the Charisma saving throw or take any additional psychic damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, both the slashing and psychic damage increase by 1d4 for each slot level above 4th.
 
 #### Static Field
 *2nd-level evocation*
@@ -152,5 +194,5 @@ You cause yourself to become electrically charged for the duration of the spell.
 
 \pagebreak
 
-### 0.0.0 Changes
- * This is a placeholder for the change log
+#### 0.0.1 Changes
+ * Add *cocophonic carress*, *phantasmagoria*, and *slicing shards*
