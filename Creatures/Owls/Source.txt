@@ -1,4 +1,93 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+-<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+    
+    .phb:nth-child(even) p.foot{
+        left             : 78px;
+    }
+    
+    .phb:nth-child(odd) p.foot{
+        right            : 78px;
+    }
+    
+    /* The footer on the left (the back button) */
+    .footerBack {
+        position             : absolute;
+        bottom               : 1.2em;
+        left                 : 3.8em;
+        width                : 20%;
+        padding-top          : 0.5em;
+        padding-bottom       : 0.5em;
+        text-align           : left;
+        text-indent          : 0;
+        text-decoration      : none;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+    }
+    
+    /* The middle footer (the line) */
+    .footerMiddle {
+        position             : absolute;
+        bottom               : 1.5em;
+        left                 : 3.7em;
+        right                : 3.7em;
+        height               : 1em;
+        border-bottom        : 3px solid #293f50;
+        text-align           : center;
+        text-indent          : 0;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+        z-index              : -10;
+    }
+    
+    /* The footer on the right (the contents button) */
+    .footerContents {
+        position             : absolute;
+        bottom               : 1.2em;
+        right                : 3.8em;
+        width                : 20%;
+        padding-top          : 0.5em;
+        padding-bottom       : 0.5em;
+        text-align           : right;
+        text-indent          : 0;
+        text-decoration      : none;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+    }
+    
+    /* Hide the footer on some pages */
+    .phb#p5:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Owls
 These nocturnal birds of prey are often seen as symbols of wisdom and the ever-present perceptiveness of the wilds.  Though, among some cultures, they are instead viewed as cursed omens of death and misfortune.  Owls can be found swooping across snowy tundras or perched ominously on dead tree branches deep within dark forests, their everpresent hooting echoing through the night.   By day, they are beautiful and sometimes even adorable hunting birds.  But by night, their glowing eyes strike fear into the hearts of travelers, reminding them the wilds are always watching.
@@ -45,7 +134,7 @@ style='position:absolute;top:0px;left:0px;width:916px' />
 
 <div style='margin-top:350px;'></div>
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:415px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:409px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -75,11 +164,7 @@ ___
 >
 > ### Actions
 >
-> ***Multiattack.*** The owl makes two attacks: one with its beak and one with its talons.
->
-> ***Beak.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
->
-> ***Talons.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) piercing damage.
+> ***Talons.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
 
 \columnbreak
 
@@ -88,7 +173,7 @@ ___
 > ##### Waterlogged Owls
 > Unlike most other birds of prey, owls do not possess a waterproof undercoat.  While short periods in the rain won't hinder them, if they become soaked in water, their fluffy feathers will absorb so much of it that they become too heavy and waterlogged to fly.  Owls in this state are extremely vulnerable and must dry out before they can fly again.  If you wish to incorporate this in your games, you can include a rule that owls soaked in water lose their fly speed until they dry off.
 
-**Great Horned Owls.** The great horned owl is among the most far-ranging and dangerous of all its kind. These deadly birds of prey can measure over two feet in length and sport five-foot wingspans. Their talons can deliver crushing forces ten times what a typical human can produce, allowing them to kill most small prey instantly. This hunting prowess allows great horned owls to hunt a wide range of prey with impunity, and some have even been reported hunting animals as large and dangerous as foxes and bobcats.
+&emsp;**Great Horned Owls.** The great horned owl is among the most far-ranging and dangerous of all its kind. These deadly birds of prey can measure over two feet in length and sport five-foot wingspans. Their talons can deliver crushing forces ten times what a typical human can produce, allowing them to kill most small prey instantly. This hunting prowess allows great horned owls to hunt a wide range of prey with impunity, and some have even been reported hunting animals as large and dangerous as foxes and bobcats.
 
 **Giant Owls.** In some extremely wild and dangerous areas, man-sized owls hunt much larger prey than their mundane counterparts.  These beasts are favored guardians and companions to many woodland races, and smaller peoples, such as forest gnomes, will even use them as flying steeds.  When giant owls contact traveling humanoids, they will not hesitate to hunt them like any other animal.  Villagers living near giant owl territory rarely travel alone or unarmed and always keep an eye to the treeline. 
 
@@ -120,7 +205,7 @@ ___
 >*Medium beast, unaligned*
 > ___
 > - **Armor Class** 12
-> - **Hit Points** 19 (3d8+6)
+> - **Hit Points** 19 (3d8 + 6)
 > - **Speed** 10 ft., fly 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -130,7 +215,7 @@ ___
 > - **Skills** Perception +5, Stealth +4
 > - **Senses** darkvision 120 ft., passive Perception 15
 > - **Languages** ━
-> - **Challenge** 1/2 (100 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp;   **Proficiency Bonus** +2
 > ___
 > 
 > ***Flyby.*** The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.
@@ -139,9 +224,9 @@ ___
 >
 > ### Actions
 >
-> ***Beak.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 3 (1d4+1) piercing damage.
+> ***Beak.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
 >
-> ***Talons.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (2d4+1) piercing damage.
+> ***Talons.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage.
 
 \columnbreak
 
@@ -152,7 +237,7 @@ ___
 >*Large monstrosity, any alignment*
 > ___
 > - **Armor Class** 12
-> - **Hit Points** 37 (5d10+10)
+> - **Hit Points** 37 (5d10 + 10)
 > - **Speed** 10 ft., fly 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -162,7 +247,7 @@ ___
 > - **Skills** Perception +5, Stealth +4
 > - **Senses** darkvision 120 ft., passive Perception 15
 > - **Languages** Giant Owl, understands Common, Elvish, and Sylvan but can’t speak them
-> - **Challenge** 2 (450 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> - **Challenge** 2 (450 XP) &emsp;&emsp;   **Proficiency Bonus** +2
 > ___
 > 
 > ***Flyby.*** The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.
@@ -175,7 +260,7 @@ ___
 >
 > ***Beak.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (1d10 + 3) piercing damage.
 >
-> ***Talons.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) slashing damage. and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the owl can't use its talons on another target.
+> ***Talons.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) slashing damage. If the target is Medium or smaller, it is grappled (escape DC 13) and restrained until the grapple ends.
 
 <img src='https://i.ibb.co/PQfZ49D/Vega-the-Watcher-Kaldheim-Mt-G-Art.jpg' style='position:absolute;top:-80px;right:0px;width:816px' />
 <img src='https://www.gmbinder.com/images/TRTN4ox.png' style='position:absolute;top:170px;right:-350px;width:800px' />
@@ -211,7 +296,7 @@ ___
 >*Large monstrosity, unaligned*
 > ___
 > - **Armor Class** 12
-> - **Hit Points** 85 (9d10+36)
+> - **Hit Points** 85 (9d10 + 36)
 > - **Speed** 40 ft., climb 25 ft., swim 25 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -219,17 +304,17 @@ ___
 >|18 (+4)|14 (+2)|18 (+4)|5 (-3)|18 (+4)|6 (-2)|
 >___
 > - **Skills** Perception +6, Stealth +4
-> - **Senses** darkvision 120 ft., passive Perception 16.
+> - **Senses** darkvision 120 ft., passive Perception 16
 > - **Languages** ━
-> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +2       
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
 > ___
->
-> ***Keen Senses.*** The owlbear has advantage on Wisdom (Perception) checks.
 >
 > ***Alert.*** The owlbear has advantage on initiative rolls.
 >
+> ***Keen Senses.*** The owlbear has advantage on Wisdom (Perception) checks.
+>
 > ### Actions
-> ***Multiattack.*** The bear makes two attacks: one with its beak and one with its claws.
+> ***Multiattack.*** The owlbear makes two attacks: one with its beak and one with its claws.
 >
 > ***Beak.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage.
 >
@@ -248,7 +333,7 @@ ___
 >*Large monstrosity, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
-> - **Hit Points** 136 (13d10+65)
+> - **Hit Points** 136 (13d10 + 65)
 > - **Speed** 40 ft., climb 25 ft., swim 25 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -256,22 +341,22 @@ ___
 >|22 (+6)|14 (+2)|20 (+5)|6 (-2)|20 (+5)|10 (+0)|
 >___
 > - **Skills** Perception +8, Stealth +5
-> - **Damage Resistance** cold
+> - **Damage Resistances** cold
 > - **Senses** darkvision 120 ft., passive Perception 18.
 > - **Languages** ━
-> - **Challenge** 6 (2,300 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
+> - **Challenge** 6 (2,300 XP)   &emsp;&emsp;&ensp;&nbsp;  **Proficiency Bonus** +3       
 > ___
 >
-> ***Keen Senses.*** The owlbear has advantage on Wisdom (Perception) checks.
->
 > ***Alert.*** The owlbear has advantage on initiative rolls.
+>
+> ***Keen Senses.*** The owlbear has advantage on Wisdom (Perception) checks.
 >
 > ### Actions
 > ***Multiattack.*** The owlbear makes two attacks: one with its beak and one with its claws.
 >
-> ***Beak.*** Melee Weapon Attack: +9 to hit, reach 5 ft., one target. *Hit:* 15 (2d8 + 6) piercing damage.
+> ***Beak.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 15 (2d8 + 6) piercing damage.
 >
-> ***Claws.*** Melee Weapon Attack: +9 to hit, reach 5 ft., one target. *Hit:* 20 (4d6 + 6) slashing damage.
+> ***Claws.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 20 (4d6 + 6) slashing damage.
 >
 > ### Bonus Actions
 >
@@ -304,19 +389,18 @@ ___
 >*Small fiend, neutral evil*
 > ___
 > - **Armor Class** 13
-> - **Hit Points** 27 (6d6+6)
+> - **Hit Points** 27 (6d6 + 6)
 > - **Speed** 10 ft., fly 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|14 (+2)|16 (+3)|12 (+1)|10 (+0)|18 (+4)|12 (+1)|
 >___
-> - **Skills** Perception +6 Stealth +5
+> - **Skills** Perception +6, Stealth +5
 > - **Senses** darkvision 120 ft. passive Perception 16
 > - **Languages** ━
-> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
 > ___
-> 
 > ***Flyby.*** The strix doesn't provoke opportunity attacks when it flies out of an enemy's reach.
 >
 > ***Keen Hearing and Sight.*** The strix has advantage on Wisdom (Perception) checks that rely on hearing or sight.
@@ -325,7 +409,7 @@ ___
 >
 > ### Actions
 >
-> ***Beak.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
+> ***Beak.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
 >
 > ***Talons.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 14 Charisma saving throw or be cursed by the strix.  The cursed creature dies in 24 hours unless the curse is removed.  The creature is aware of the curse and its effects.  The curse can be removed by nailing the strix to a wooden door, dead or alive, with an iron nail.  The curse also ends if the strix curses another creature with its talons. 
 
@@ -396,12 +480,16 @@ The following tables provide you with some ways you can incorporate different ty
 src='https://i.ibb.co/JdVJfVh/Palace-Familiar-Dragons-of-Tarkir-Mt-G-Art.jpg'
 style='position:absolute;top:-0px;left:230px;width:700px' />
 
-<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-100px; right:-12px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-110px; right:-12px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0 Changes
  * Public Release
 
-### 1.0.1 Changes
+#### 1.0.1 Changes
  * Fixed Typos Reported After Public Release
+
+#### 1.0.1 Changes
+ * Cleaned up additional typos
+ 
