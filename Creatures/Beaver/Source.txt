@@ -1,16 +1,104 @@
 
+-<style>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+    
+    .phb:nth-child(even) p.foot{
+        left             : 78px;
+    }
+    
+    .phb:nth-child(odd) p.foot{
+        right            : 78px;
+    }
+    
+    /* The footer on the left (the back button) */
+    .footerBack {
+        position             : absolute;
+        bottom               : 1.2em;
+        left                 : 3.8em;
+        width                : 20%;
+        padding-top          : 0.5em;
+        padding-bottom       : 0.5em;
+        text-align           : left;
+        text-indent          : 0;
+        text-decoration      : none;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+    }
+    
+    /* The middle footer (the line) */
+    .footerMiddle {
+        position             : absolute;
+        bottom               : 1.5em;
+        left                 : 3.7em;
+        right                : 3.7em;
+        height               : 1em;
+        border-bottom        : 3px solid #293f50;
+        text-align           : center;
+        text-indent          : 0;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+        z-index              : -10;
+    }
+    
+    /* The footer on the right (the contents button) */
+    .footerContents {
+        position             : absolute;
+        bottom               : 1.2em;
+        right                : 3.8em;
+        width                : 20%;
+        padding-top          : 0.5em;
+        padding-bottom       : 0.5em;
+        text-align           : right;
+        text-indent          : 0;
+        text-decoration      : none;
+        font-size            : 16pt;
+        font-family          : 'Bookmania';
+        font-weight          : bold;
+        font-variant         : small-caps;
+        color                : #293f50;
+    }
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p4:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Beavers
-These small, semi-aquatic mammals appear cute and unassuming, but no other animal is capable of producing such dramatic changes on its river environment.  Though they only reach 2 feet in height, these plump creatures weigh up to 66 pounds, allowing them to out girth most halflings.  Their heavy build and webbed limbs make beavers comically awkward on land, but they are well adapted to spending most of their time in fresh water, even through cold winters.
+These small, semi-aquatic mammals appear cute and unassuming, but no other animal is capable of producing such dramatic changes in its river environment.  Though they only reach 2 feet in height, these plump creatures weigh up to 66 pounds, allowing them to out girth most halflings.  Their heavy build and webbed limbs make beavers comically awkward on land, but they are well adapted to spending most of their time in freshwater, even through cold winters.
 
-**Industrious Masons.** Among the most iconic characteristics of the beaver is its massive set of teeth, which it uses for its most iconic activity: gnawing down trees to build its river dam home.  A beaver can fell a tree half a foot wide within an hour, and bring down even larger trees if given enough time.  The beaver’s stalky and muscular frame allows it to lift and drag heavier loads than its size would indicate, and the industrious creature can quickly amass large quantities of lumber at the site of its new home.
+**Industrious Masons.** Among the most iconic characteristics of the beaver is its massive set of teeth, which it uses for its most iconic activity: gnawing down trees to build its river dam home.  A beaver can fell a tree half a foot wide within an hour and bring down even larger trees if given enough time.  The beaver’s stalky and muscular frame allows it to lift and drag heavier loads than its size would indicate, and the industrious creature can quickly amass large quantities of lumber at the site of its new home.
 
-Using a combination of gnawed wood, stones, and hard mud, beavers create dams capable of housing large families.  These dams can be modest 10 foot long structures or massive feats of engineering reaching over 300 feet long. The dams are quite resilient and can only be entered via underwater tunnels.  Beavers are also quite diligent about repairing and maintaining their homes, using their keen hearing to detect leaks in need of patching.
+Using a combination of gnawed wood, stones, and hard mud, beavers create dams capable of housing large families.  These dams can be modest 10 foot long structures or massive feats of engineering reaching over 300 feet long.  The dams are quite resilient and can only be entered via underwater tunnels.  Beavers are also diligent about repairing and maintaining their homes, using their keen hearing to detect leaks in need of patching.
 
 > ##### Beavers as Familiars
-> **Beavers** may be included as a familiar option using the *Find Familiar* spell.  If a **beaver** is used this way, it may still use its bite attack against objects.
+> **Beavers** may be used as a familiar option when casting the *find familiar* spell.  If a **beaver** is summoned this way, it may still use its bite attack against objects.
 
 \columnbreak
 
@@ -19,7 +107,7 @@ ___
 >*Tiny beast, unaligned*
 > ___
 > - **Armor Class** 9
-> - **Hit Points** 4 (1d4+1)
+> - **Hit Points** 3 (1d4 + 1)
 > - **Speed** 15 ft., swim 25 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -27,29 +115,29 @@ ___
 >|10 (+0)|8 (-1)|12 (+1)|4 (-3)|14 (+2)|9 (-1)|
 >___
 > - **Skills** Perception +4
-> - **Senses** darkvision 30 ft. passive Perception 14
-> - **Challenge** 1/8 (25 XP) &emsp;&emsp;  **Proficiency Bonus** +2
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Challenge** 0 (10 XP) &emsp;&emsp;&emsp;&ensp;&ensp; **Proficiency Bonus** +2
 > ___
-> ***Keen Hearing.*** The beaver has advantage on Wisdom (Perception) checks that rely on hearing.
->
 > ***Hold Breath.*** The beaver can hold its breath for 15 minutes.
 >
-> ***Wood Cutter.*** The beaver's bite attack deals double damage to creatures, objects, and structures made of wood
+> ***Keen Hearing.*** The beaver has advantage on Wisdom (Perception) checks that rely on hearing.
+>
+> ***Powerful Build.*** The beaver counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift.
+>
+> ***Wood Cutter.*** The beaver's bite attack deals double damage to creatures, objects, and structures made of wood.
 > 
-> ***Powerful Build.*** The beaver counts as once size larger when determining its carrying capacity and the weight it can push, drag, or lift.
-> ___
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) slashing damage.
+> ***Bite.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) slashing damage.
 
 
 <img src='https://i.ibb.co/jzgFQTx/Eager-Beaver-Andrea-Radeck-Magic-the-Gathering.jpg' style='position:absolute; top:-135px; right:0px; width:816px;' />
   
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:34px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:30px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%)' />
 
 <div style='margin-top:325px;'></div>
 
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:337px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:333px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -57,73 +145,73 @@ ___
 > ## Giant Beaver
 >*Medium beast, unaligned*
 > ___
-> - **Armor Class** 11 (Natural armor)
-> - **Hit Points** 19 (3d8+6)
+> - **Armor Class** 11 (natural armor)
+> - **Hit Points** 19 (3d8 + 6)
 > - **Speed** 20 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|14 (+2)|8 (-1)|12 (+2)|3 (-4)|14 (+2)|9 (-1)|
+>|14 (+2)|8 (-1)|14 (+2)|3 (-4)|14 (+2)|9 (-1)|
 >___
 > - **Skills** Perception +4
-> - **Senses** darkvision 30 ft. passive Perception 12
-> - **Challenge** 1/2 (100 XP) &emsp;&emsp;  **Proficiency Bonus** +2
+> - **Senses** darkvision 30 ft., passive Perception 12
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp;&ensp;  **Proficiency Bonus** +2
 > ___
-> ***Keen Hearing.*** The beaver has advantage on Wisdom (Perception) checks that rely on hearing.
->
 > ***Hold Breath.*** The beaver can hold its breath for 15 minutes.
 >
-> ***Powerful Build.*** The beaver counts as once size larger when determining its carrying capacity and the weight it can push, drag, or lift.
-> ___
+> ***Keen Hearing.*** The beaver has advantage on Wisdom (Perception) checks that rely on hearing.
+>
+> ***Powerful Build.*** The beaver counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift.
+> 
 > ### Actions
-> ***Multiattack.*** The giant beaver makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
+> ***Multiattack.*** The beaver makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
 >
-> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) slashing damage.
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) slashing damage.
 >
-> ***Tail.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.  If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
+> ***Tail.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.  If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 
 \columnbreak
 
 <br>
 
-&nbsp; &nbsp; **Ecosystem Engineers.** Besides humanoids, no creature does more to shape its environment than the beaver.  The dams beavers create can alter the paths of rivers, reshape lakes, and create new ponds.  These effects are often a boon for their home ecosystems, but beavers can also be a bane upon environments that aren’t suited to their deforesting and river altering tendencies.  Beaver dams can also result in the sudden flooding of humanoid settlements.
+&nbsp; &nbsp; **Ecosystem Engineers.** Besides humanoids, no creature does more to shape its environment than the beaver.  The dams beavers create can alter the paths of rivers, reshape lakes, and create new ponds.  These effects are often a boon for their home ecosystems, but beavers can also be a bane upon environments that aren’t suited to their deforesting and river-altering tendencies.  Beaver dams can also result in the sudden flooding of humanoid settlements.
 
-**Giant Beavers.** These enormous creatures can reach lengths of over 7 feet and weigh in at anywhere between 200 and 300 pounds.  Though giant beavers are the primeval cousins of the modern beaver, they are not known to bring down trees and build dams, instead feeding off of fresh water plants.  As such, they lack the intelligence needed for complex engineering and the flat tail useful for padding down the dam materials during construction, instead sporting a longer rat-like tail.  However, they still possess impressive aquatic abilities and their increased bulk and massive teeth makes them a much more formidable threat in a confrontation.  
+**Giant Beavers.** These enormous creatures can reach lengths of over 7 feet and weigh in at anywhere between 200 and 300 pounds.  Though giant beavers are the primeval cousins of the modern beaver, they are not known to bring down trees or build dams and instead feed on freshwater plants.  As such, they lack the intelligence needed for complex engineering and the flat tail useful for padding down the dam materials during construction, instead sporting a longer rat-like tail.  However, they still possess impressive aquatic abilities, and their increased bulk and massive teeth make them a much more formidable threat in a confrontation.  
 
 <br>
 
 > ##### Beaver Dams
-> A beaver damn is a wooden structure with an AC 16, and it can range in size from large to gargantuan.  Each large section has 27 (5d10) hit points.
+> A beaver dam is a wooden structure with an AC 16, and it can range in size from large to gargantuan.  Each large section has 27 (5d10) hit points and is immune to poison and psychic damage.
 
 
-<img src='https://i.etsystatic.com/8747994/r/il/49af51/915598584/il_570xN.915598584_dio4.jpg' style='position:absolute; bottom:-0px; right:-0px; width:816px; transform:rotate(0deg);filter:opacity(100%);filter:hue-rotate(180deg);filter:saturate(50%);'/>
+<img src='https://i.etsystatic.com/8747994/r/il/49af51/915598584/il_570xN.915598584_dio4.jpg' style='position:absolute; bottom:-20px; right:-0px; width:816px; transform:rotate(0deg);filter:opacity(100%);filter:hue-rotate(180deg);filter:saturate(50%);'/>
 
-<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:155px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:165px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 \pagebreak
 
 ## Fester Gnaw
 
-These horrible fiends revel in twisting and destroying ecosystems through deforestation and the blocking critical waterways.  Though they appear to be monstrously oversized beavers, they are demonic in nature.  Their slavering jaws contain massive teeth capable of cutting through trees and bones with equal ease, their bodies are covered in bony spines which serve as both armor and a means of attack, and their eyes gleam with a malevolent intelligence.
+These horrible fiends revel in twisting and destroying ecosystems through deforestation and blocking critical waterways.  Though they appear to be monstrously oversized beavers, they are demonic in nature.  Their slavering jaws contain massive teeth capable of cutting through trees and bones with equal ease, their bodies are covered in bony spines, and their eyes gleam with malevolent intelligence.
 
-**River Desecration.** Groups of fester gnaws may arise as the result of beavers being exposed to abyssal energies or warped by demon lords, or they may claw their way to the mortal plane straight from the Abyss.  When they arrive on the mortal plane, their destructiveness is not as immediately obvious as that of other demons, but in many ways, it is far more insidious.  Fester gnaws will quickly find woodland towns near sources of fresh water and begin ravaging the land nearby, cutting down trees and desecrating the forest upstream from the unwitting humanoid settlements.  Once they have harvested enough lumber, they will construct a log dam which they can use to block and redirect the river, or worse, befoul its waters, causing it to carry corruption and sickness downstream.
+**River Desecration.** Groups of fester gnaws may arise as the result of beavers being exposed to abyssal energies or warped by demon lords, or they may claw their way to the material plane straight from the Abyss.  Though their destructiveness is not as immediately obvious as that of other demons, in many ways, it is far more insidious.  Fester gnaws will quickly find woodland towns near freshwater sources and begin ravaging the land nearby, cutting down trees and desecrating the forest upstream from the unwitting humanoid settlements.  Once they have harvested enough lumber, they will construct a log dam which they can use to block and redirect the river, or worse, befoul its waters, causing it to carry corruption and sickness downstream.
 
-**Terror of Druids.** Fester gnaws are quite adapt at overcoming druid conclaves and the many creatures that work with them.  Demonic cultists seeking to destroy druidic guardians and defile their homelands will often summon fester gnaws to snuff out these enemies, ensuring they will no longer pose a threat to their grander schemes.
+**Terror of Druids.** Fester gnaws are quite adept at overcoming druid conclaves and the many creatures that work with them.  Demonic cultists seeking to destroy druidic guardians and defile their homelands will often summon fester gnaws to snuff out these enemies, ensuring they will no longer pose a threat to their grander schemes.
 
-**Festering Wounds.**  The fester gnaw's teeth drip with fiendish corruption.  When they bite through trees, they inflict the wood with this corruption which in turn spreads the taint into the waters that rush past their dams.  When fester gnaws bite other creatures, they can apply this corruption to their victims directly, inflicting them with festering wounds.  Festering wounds quickly rot a creature from the inside, and creatures suffering from multiple wounds succumb at an accelerated rate.  
+**Festering Wounds.**  The fester gnaw's teeth drip with fiendish corruption.  When they bite through trees, they inflict the wood with this corruption.  The tainted dams they build from this corrupt wood then spread the corruption into the waters that rush past these foul structures.  When fester gnaws bite other creatures, they can directly apply this corruption to their victims, inflicting them with festering wounds.  Festering wounds quickly rot a creature from the inside, and creatures suffering from multiple wounds succumb at an accelerated rate.  
 
 \columnbreak
 
-Creatures who lack heartiness or immediate medical attention quickly dissolve into gooey, rotten remains as they succumb to the fester gnaw’s corruption.
+Creatures who lack heartiness or immediate medical attention quickly dissolve into gooey, rotten remains as they succumb to the fester gnaw's corruption.
 
-**Foul Damnation.** Fester gnaw dams are structures of horrendous evil.  They are comprised of the corrupted  wood they’ve harvest from the surrounding area as well as the bodies and bones of any creatures that attempted to interfere with the dam’s construction. At the dam's center is a demonic altar serving as the focus of the fester gnaws’ corruption.  The most potent of these altars are constructed using the remains of a treant or similar sacred forest creature.  These alters can spring to life to defend the dam if it is under attack, and their destruction is required to put an end to the dam for good.
+**Foul Damnation.** Fester gnaw dams are structures of horrendous evil.  They are comprised of the corrupted wood harvested from the surrounding area as well as the bodies and bones of any creatures that attempted to interfere with the dam's construction.  At the dam's center is a demonic altar serving as the focus of the fester gnaws' corruption.  The most potent of these altars are constructed using the remains of a treant or similar sacred forest creature.  These alters can spring to life to defend the dam if it is under attack, and their destruction is required to put an end to the dam for good.
 
 #### Regional Effects
-Fester Gnaws that manage to successfully construct a dam with an altar, corrupt any water that flows through the dam.  The waters remain corrupted for one day or until they flow 10 miles away from the dam:
+Fester Gnaws that successfully construct a dam with an altar corrupt any water flowing through that dam.  The waters remain corrupted for one day or until they flow 10 miles away from the dam.  The corrupted water has the following properties:
 
-* The water keeps creatures from properly healing and causes them to become more susceptible to sickness. Any creature that is not undead or a demon and is submerged in the water has disadvantage on Constitution saving throws, medicine checks used on it have disadvantage, and if it receives healing it only regains half the hit points it normally would.
+* The water keeps creatures from adequately healing and causes them to become more susceptible to sickness.  Any creature that is not undead or a demon and is submerged in the water has disadvantage on Constitution saving throws.  Additionally, medicine checks used on it are made with disadvantage, and if it receives healing, it only regains half the hit points it normally would.
 
-* Creatures that are not undead or demons that consume the water must make a DC 14 Constitution saving throw or become diseased. Every 24 hours that elapse while diseased, the target must repeat the saving throw, reducing its hit point maximum by 3 (1d6) on a failure, and curing the disease on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured.  If a creature succeeds on a saving throw against the disease it is immune to its effects for the next 24 hours.
+* Creatures that are not undead or demons that consume the water must make a DC 14 Constitution saving throw or become diseased.  Every 24 hours that elapse while diseased, the target must repeat the saving throw, reducing its hit point maximum by 3 (1d6) on a failure or curing the disease on a success.  The target dies if the disease reduces its hit point maximum to 0.  This reduction to the target's hit point maximum lasts until the disease is cured.  If a creature succeeds on a saving throw against the disease, it is immune to its effects for the next 24 hours.
 
 
 <img src='https://i.ibb.co/HPVLztW/Beaver-Demon-4.png' style='position:absolute; bottom:-270px; right:-184px; width:1000px; transform:scalex(-1);filter:opacity(100%);filter:hue-rotate(180deg);filter:saturate(130%);'/>
@@ -133,15 +221,15 @@ Fester Gnaws that manage to successfully construct a dam with an altar, corrupt 
 \pagebreak
 
 #### Lair Actions
-When fighting inside their dams, any fester gnaw can invoke its ambient magic to take lair actions.  Only one fester gnaw can take a lair action per round. On initiative count 20 (losing initiative ties), any fester gnaw can take one lair action to cause one of the following effects: 
+When fighting inside their dams, any fester gnaw can invoke their home's ambient magic to take lair actions.  Only one fester gnaw can take a lair action per round.  On initiative count 20 (losing initiative ties), any fester gnaw can take one lair action to cause one of the following effects: 
 
-* Corrupted wooden spikes spring up to fill a 5-foot cube within 60 feet of the fester gnaw.  Until initiative count 20 on the next round, the area is difficult terrain.  During this time, creatures that enter the area for the first time or start their turn their take 3d4 piercing damage, and if the creature is not a demon, it gains a festering wound (see the Fester Gnaw stat block).
+* Corrupted wooden spikes spring up to fill a 5-foot cube within 60 feet of the fester gnaw.  Until initiative count 20 on the next round, the area is difficult terrain.  During this time, creatures that enter the area for the first time or start their turn there take 3d4 piercing damage, and if the creature is not a demon, it gains a festering wound (see the fester gnaw stat block for the details of this effect).
 
-* Demonic energy spews out from a creature afflicted with festering wounds.  A creature within 60 feet of the fester gnaw takes 3 (1d6) necrotic damage for each festering wound it is suffering from.
+* Demonic energy spews out from a creature afflicted with any number of festering wounds.  A creature within 60 feet of the fester gnaw takes 3 (1d6) necrotic damage for each festering wound afflicting it.
 
 <br>
 
-* A wooden, log, wall sprouts at a point within the dam.  The wall is made up of a wooden 20-foot by 10-foot panel that is 6 inches thick. It has an AC 12, 20 hit points, vulnerability to fire damage, and immunity to psychic damage.  If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (the fester gnaw chooses). 
+* A wall made of wooden logs sprouts at any point within the dam.  The wall is made up of a wooden 20-foot by 10-foot panel 6 inches thick.  It has an AC 12, 20 hit points, vulnerability to fire damage, and immunity to psychic damage.  If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (the fester gnaw chooses which side). 
 
 <br>
 
@@ -159,39 +247,39 @@ ___
 >*Large fiend (demon), chaotic evil*
 > ___
 > - **Armor Class** 15 (natural armor)
-> - **Hit Points** 75 (10d10+30)
+> - **Hit Points** 85 (10d10 + 30)
 > - **Speed** 30 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|16 (+3)|12 (+1)|16 (+3)|10 (+0)|14 (+2)|10 (+0)|
 >___
+> - **Skills** Perception +4, Stealth +3
 > - **Damage Resistances** cold, fire, lightning
 > - **Damage Immunities** poison
 > - **Condition Immunities** poisoned
-> - **Skills** Perception +4 Stealth +3
-> - **Senses** darkvision 120 ft. passive Perception 12
+> - **Senses** darkvision 120 ft., passive Perception 14
 > - **Languages** Abyssal, telepathy 120 ft.
-> - **Challenge** 4 (2,300 XP) &emsp;&emsp;  **Proficiency Bonus** +2
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp;&emsp;&emsp; **Proficiency Bonus** +2
 > ___
-> ***Keen Hearing.*** The beaver has advantage on Wisdom (Perception) checks that rely on hearing.
+> ***Hold Breath.*** The fester gnaw can hold its breath for 20 minutes.
 >
-> ***Hold Breath.*** The beaver can hold its breath for 20 minutes.
+> ***Keen Hearing.*** The fester gnaw has advantage on Wisdom (Perception) checks that rely on hearing.
 >
 > ***Magic Resistance.*** The fester gnaw has advantage on saving throws against spells and other magical effects
 >
-> ***Wood Cutter.*** The beaver's bite attack deals double damage to creatures, objects, and structures made of wood
-> 
-> ***Powerful Build.*** The fester gnaw counts as once size larger when determining its carrying capacity and the weight it can push, drag, or lift.
-> ___
-> ### Actions
-> ***Multiattack.*** The fester gnaw makes two bite attacks.  It can replace one of its bite attacks with a tail attack
+> ***Powerful Build.*** The fester gnaw counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift.
 >
-> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. Hit: 10 (2d6+3) slashing damage.  If the target is a creature, it suffers a festering wound. A creature can have multiple instances of festering wound afflicting it at once.  At the start of each of the wounded creature's turns, it makes a DC 14 Constitution saving throw, taking 3(1d6) necrotic damage per festering wound afflicting it on a failure, and ending all festering wounds afflicting it on a success.  Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 14 Wisdom (Medicine) check, ending the effect of all such festering wounds afflicting it on a success.  A creature that dies as a result of damage from a festering wound dissolves into a pile of rotting goo.
+> ***Wood Cutter.*** The fester gnaw's bite attack deals double damage to creatures, objects, and structures made of wood.
 > 
-> ***Tail.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) bludgeoning damage.  If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
+> ### Actions
+> ***Multiattack.*** The fester gnaw makes two bite attacks.  It can replace one of its bite attacks with a tail attack.
+>
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 5 (2d6 + 3) slashing damage.  If the target is a creature, it suffers a festering wound.  A creature can have multiple festering wounds afflicting it at once.  At the start of each of the wounded creature's turns, it makes a DC 14 Constitution saving throw, taking 3(1d6) necrotic damage per festering wound afflicting it on a failure, and ending all festering wounds afflicting it on a success.  Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 14 Wisdom (Medicine) check, ending the effect of all festering wounds afflicting it on a success.  A creature that dies as a result of damage from a festering wound dissolves into a pile of rotting goo.
+> 
+> ***Tail.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 8 (1d10 + 3) bludgeoning damage.  If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
 
-<img src='https://i.ibb.co/njG3c94/Choked-Estuary-Shadows-over-Innistrad-Art.jpg' style='position:absolute;bottom:-0px;right:-20px;width:840px' />
+<img src='https://i.ibb.co/njG3c94/Choked-Estuary-Shadows-over-Innistrad-Art.jpg' style='position:absolute;bottom:-25px;right:-20px;width:840px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
@@ -203,3 +291,4 @@ ___
  * Public Release & Updates
 #### 1.0.2 Changes
  * Update art for first two pages
+ * Clean up document typos
