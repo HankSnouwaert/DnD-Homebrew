@@ -1,6 +1,33 @@
+
+-<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p5:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br>
-
-
 
 # Demons of Excess
 Demons represent the dark, chaotic impulses of humanity made manifest.  Different demons represent different aspects of this darkness, but none are so tempting as the demons of excess.  These demons are born from the mortal desire to overindulge in life's earthly pleasures.  In some worlds, these fiends operate independently to tempt and corrupt humanoids.  On others, they act in service to a mighty demon lord or demonic god who presides over the domain of excess and obsession.   
@@ -31,7 +58,7 @@ ___
 >*Medium fiend (demon), chaotic evil*
 > ___
 > - **Armor Class** 16 (natural armor)
-> - **Hit Points** 52 (8d8+16)
+> - **Hit Points** 52 (8d8 + 16)
 > - **Speed** 40ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -39,15 +66,15 @@ ___
 >|14 (+2)|18 (+4)|15 (+2)|12 (+1)|14 (+2)|18 (+4)|
 >___
 > - **Saving Throws** Dex +6
-> - **Skills** Acrobatics +6, Deception +6, Performance +8, Perception +4
+> - **Skills** Acrobatics +6, Deception +6, Perception +4, Performance +8 
 > - **Damage Resistances** cold, fire, lightning
 > - **Damage Immunities** poison
 > - **Condition Immunities** poisoned
 > - **Senses** darkvision 120 ft., passive Perception 14
 > - **Languages** Abyssal, telepathy 60 ft.
-> - **Challenge** 3 (700 XP)   &emsp;&emsp;  **Proficiency Bonus** +2       
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
 > ___
->  ***Charming Aura.*** Any non-demon creature that ends its turn within 10 feet of one or more daemonettes must succeed on a DC 14 Wisdom saving throw or become charmed by all daemonettes within 10 feet. While charmed this way, it is incapacitated. The creature may repeat the saving throw at the end of each of its turns, ending the effect on a success. The effect also ends if there aren't any daemonettes within 10 feet of the creature at the end of any turn. The save DC for this effect increases by 2 for each daemonette within 10 feet of the target, up to a maximum of DC 18. Once the creature makes a successful saving throw against this effect, it is immune to the charming aura of all daemonettes for 1 hour.
+>  ***Charming Aura.*** Any non-demon creature that ends its turn within 10 feet of one or more daemonettes must succeed on a DC 14 Wisdom saving throw or become charmed by all daemonettes within 10 feet. While a creature charmed this way, it is incapacitated. The creature may repeat the saving throw at the end of each of its turns, ending the effect on a success. The effect also ends if there aren't any daemonettes within 10 feet of the creature at the end of any turn. The save DC for this effect increases by 2 for each daemonette within 10 feet of the target, up to a maximum of DC 18. Once the creature makes a successful saving throw against this effect, it is immune to the charming aura of all daemonettes for 1 hour.
 >
 > ***Evasion.*** When the daemonette makes a Dexterity
 saving throw to reduce the damage of an effect by half, it
@@ -56,7 +83,7 @@ damage on a failure
 > ### Actions
 > ***Multiattack.*** The daemonette makes two attacks. 
 >
-> ***Claw.*** Melee Weapon Attack: +6 to hit,reach 5ft., one target. Hit 11 (2d6 + 4) slashing plus 7 (2d6) psychic damage
+> ***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5ft., one target. *Hit:* 11 (2d6 + 4) slashing plus 7 (2d6) psychic damage
 >
 
 \columnbreak
@@ -87,7 +114,7 @@ ___
 >*Large fiend (demon), chaotic evil*
 > ___
 > - **Armor Class** 17 (natural armor)
-> - **Hit Points** 110 (13d10+39)
+> - **Hit Points** 110 (13d10 + 39)
 > - **Speed** 80ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -102,10 +129,10 @@ piercing, and slashing from nonmagical attacks
 > - **Condition Immunities** poisoned
 > - **Senses** darkvision 120 ft., passive Perception 16
 > - **Languages** Abyssal, telepathy 120 ft.
-> - **Challenge** 9 (5,000 XP)   &emsp;&emsp;  **Proficiency Bonus** +4        
+> - **Challenge** 9 (5,000 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +4        
 > ___
 >
-> ***Disruptive Song.***  While the fiend is not incapacitated, it can choose to sing a haunting melody (no action required). Any non-demon creature within 120 feet of the fiend that can hear the song has disadvantage on saving throws it makes to maintain concentration.
+> ***Disruptive Song.***  While the fiend is not incapacitated, it can choose to sing a haunting melody (no action required). Any non-demon creature within 120 feet of the fiend that can hear the song has disadvantage on saving throws it makes to maintain  concentration.
 >
 > ***Evasion.*** When the fiend makes a Dexterity
 saving throw to reduce the damage of an effect by half, it
@@ -115,14 +142,14 @@ damage on a failure.
 > ***Magic Resistance.*** The fiend has advantage on saving throws 
 against spells and other magical effects
 >
->  ***Soporific Musk.*** Any non-demon creature that ends its turn within 20 feet of one or more fiends of excess must succeed on a DC 16 Wisdom saving throw or suffer the effects of the *slow* spell until the end of the creature's next turn. On a successful saving throw, the creature is immune to the Soporific Musk of all Fiends of Excess for 1 hour. The save DC for this effect increases by 2 for each fiend of excess within 20 feet of the target, up to a maximum DC of 20.  
+>  ***Soporific Musk.*** Any non-demon creature that ends its turn within 20 feet of one or more fiends of excess must succeed on a DC 16 Wisdom saving throw or suffer the effects of the *slow* spell until the end of the creature's next turn. On a successful saving throw, the creature is immune to the Soporific Musk of all fiends of excess for 1 hour. The save DC for this effect increases by 2 for each fiend of excess within 20 feet of the target, up to a maximum DC of 20.  
 >
 > ### Actions
 > ***Multiattack.*** The fiend makes three attacks: two with its claws and one with its sting. 
 >
-> ***Claw.*** Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage, and the target is grappled (escape DC 16). The fiend has two claws, each of which can grapple only one target.
+> ***Claw.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage, and the target is grappled (escape DC 16). The fiend has two claws, each of which can grapple only one target.
 >
-> ***Sting.*** Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 10 (1d10 + 5) piercing damage plus 11 (2d10) psychic damage, and the target must succeed on a DC 16 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 11 or lower, the poisoned target falls unconscious until the poisoned condition ends. The target repeats the saving throw at the end of each of its turns, ending the effect on a success. Emptying a vial of holy water on the target also ends the effect.
+> ***Sting.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one creature. *Hit:* 10 (1d10 + 5) piercing damage plus 11 (2d10) psychic damage, and the target must succeed on a DC 16 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 11 or lower, the poisoned target falls unconscious until the poisoned condition ends. The target repeats the saving throw at the end of each of its turns, ending the effect on a success. Emptying a vial of holy water on the target also ends the effect.
 
 &emsp;**Fiends of Excess.** These obscene fiends combine lewd human features with a mutated bestial form.  Fiends of excess gallop at high speeds, their long tongues tasting the air as they search for prey.  Their unfortunate victims must not only contend with powerful claws but a nubile scorpion-like tail.  The poison from the tail's stinger numbs the senses to the point where many victims fall unconscious.  Fiends of excess use this opportunity to toy with their new playthings, ravaging their helpless prey with cruel wounds.  Those who awaken are racked with pain as sensation rushes back, their final moments filled with agony as the fiend gleefully tears apart and eats its victim alive.
 
@@ -150,22 +177,22 @@ ___
 >*Huge fiend (demon), chaotic evil*
 > ___
 > - **Armor Class** 18 (natural armor)
-> - **Hit Points** 283 (27d12+108)
+> - **Hit Points** 283 (27d12 + 108)
 > - **Speed** 100ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+4)|22 (+6)|18 (+4)|18 (+4)|16 (+3)|22 (+6)|
+>|18 (+4)|22 (+6)|18 (+4)|22 (+6)|22 (+6)|25 (+7)|
 >___
-> - **Saving Throws** Dex +12, Con +10, Wis +9, Int +10
-> - **Skills** Acrobatics +12, Athletics +10, Deception +18, Insight +9, Perception +9, Persuasion +18, Performance +18
+> - **Saving Throws** Dex +12, Con +10, Wis +12, Int +12
+> - **Skills** Acrobatics +12, Athletics +10, Deception +19, Insight +12, Perception +12, Persuasion +19, Performance +19
 > - **Damage Resistances** cold, fire, lightning; bludgeoning, 
 piercing, and slashing from nonmagical attacks
 > - **Damage Immunities** poison
 > - **Condition Immunities** charmed, poisoned
-> - **Senses** truesight 120 ft., darkvision 300 ft., passive Perception 19
+> - **Senses** truesight 120 ft., darkvision 300 ft., passive Perception 22
 > - **Languages** Abyssal, telepathy 300 ft.
-> - **Challenge** 17 (18,000 XP)   &emsp;&emsp; **Proficiency Bonus** +6        
+> - **Challenge** 17 (18,000 XP)   &emsp;&emsp;&emsp; **Proficiency Bonus** +6        
 > ___
 > ***Avoidance.*** If the keeper is subjected to an effect that allows 
 it to make a saving throw to take only half damage, it instead 
@@ -174,35 +201,37 @@ half damage if it fails.
 >
 > ***Blurred Movement.*** Attack rolls against the keeper have disadvantage unless it is incapacitated or restrained.
 >
-> ***Charming Aura.*** Any non-demon creature that ends its turn within 30 feet of the keeper must succeed on a DC 20 Wisdom saving throw or become charmed by all keepers of secrets within 30 feet. While charmed this way, it is incapacitated. The creature may repeat the saving throw at the end of each of its turns, ending the effect on a success. The effect also ends if there aren't any keepers of secrets within 30 feet of the creature at the end of any turn. 
+> ***Charming Aura.*** Any non-demon creature that ends its turn within 30 feet of the keeper must succeed on a DC 20 Wisdom saving throw or become charmed by all keepers of secrets within 30 feet. While a creature is charmed this way, it is incapacitated. The creature may repeat the saving throw at the end of each of its turns, ending the effect on a success. The effect also ends if there aren't any keepers of secrets within 30 feet of the creature at the end of any turn. 
 >
 > Once the creature makes a successful saving throw against this effect, it is immune to the charming aura of all keepers of secrets for 1 hour.
 >
-> ***Distant Caster.*** All of the keeper's spells have a range of 120 feet.
+> ***Distant Caster.*** When the keeper casts a spell with a range of 5 feet or greater, the range of that spell is doubled.
+When the keeper casts a spell with a range of touch, the range of that spell becomes 30 feet.
 >
 > ***Magic Resistance.*** The keeper has advantage on saving throws 
 against spells and other magical effects.
->
 >
 > ### Actions
 > ***Multiattack.*** The keeper makes four attacks: two with its 
 Elegant Greatblade and two with its claws. Alternatively, it makes two 
 attacks with its claws and casts one at will spell.
 >
-> ***Elegant Greatblade.*** Melee Weapon Attack: +12 to hit, reach 10 ft. , one  target. Hit: 25 (6d6 + 6) slashing damage.
->
-> ***Claw.*** Melee Weapon Attack: +12 to hit, reach 10ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage. If the target is 
+> ***Claw.*** *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 22 (3d10 + 6) bludgeoning damage. If the target is 
 a large or smaller creature, it is grappled (escape DC 20). The keeper has two claws, each of which can grapple only 
 one target. 
 >
-> ***Spellcasting.*** The keeper casts one of the following spells, requiring no components and using Charisma as its spellcasting ability (spell save DC 20):
+> ***Elegant Greatblade.*** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 27 (6d6 + 6) slashing damage.
 >
->***At will:*** *charm monster*, *command*, *dispel magic*, *enthrall*, *nystul's magic aura*(self only) 
 >
->***1/day each:***  *dominate monster*, *glibness*, *hypnotic pattern*, *otto's irresistible dance*, *project image* 
->___
+> ***Spellcasting.*** The keeper casts one of the following spells, requiring no components and using Charisma as its spellcasting ability (spell save DC 21):
+>
+>***At will:*** *cacophonic caress**, *charm monster*, *command*, *dispel magic*, *enthrall*, *nystul's magic aura*(self only), *slicing shards**,
+>
+>***1/day each:***  *dominate monster*, *glibness*, *hypnotic pattern*, *otto's irresistible dance*, *phantasmagoria**, *project image* <br><br>
+> *Spells described later in this document
+>
 > ### Reactions
-> ***Instinctive Charm.*** When a creature the keeper can see within 120 feet of it makes an attack roll against it, the attacker must make a DC 20 Charisma saving throw. On a failed save, the attacker must target another creature within range of the attack other than the keeper. If multiple creatures are within range, the attacker chooses which one to target. If no other creatures are within range of the attack, the attack is wasted.
+> ***Instinctive Charm.*** When a creature the keeper can see within 120 feet of it makes an attack roll against it, the attacker must make a DC 20 Charisma saving throw. On a failed save, the attacker must target another creature within range of the attack other than the keeper. If multiple creatures are within range, the attacker chooses which one to target. If no other creatures are within range of the attack, the attack is wasted. 
 
 <div style='margin-top:850px;'></div>
 <img
@@ -214,6 +243,65 @@ style='position:absolute;top:-0px;left:280px;width:780px' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:0px;top:40px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreak
+
+
+
+# Lore of Excess
+Within the Warhammer world, the daemon god Slaanesh represents excess, pain, and pleasure, all taken to the extreme, and there is an entire school of spells devoted to his magic. While many existing D&D spells can represent Slaanesh's magic, the following new spells provide even more ways of bringing his profane style of sorcery into your campaigns.
+
+
+#### Cacophonic Caress
+*3rd-level  evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (30-foot radius)
+- **Components:** V 
+- **Duration:**   Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock
+___
+
+You throw back your head and emit an ululating scream.  Each creature within range takes 3d6 thunder damage and must succeed on a Wisdom saving throw or take 3d6 additional psychic damage and be deafened for 1 minute.  On a successful save, a creature takes half as much psychic damage and isn't deafened.  A deafened creature can repeat the saving throw at the end of each of its turns,  ending the effect on a success.
+
+
+#### Phantasmagoria
+*6th-level  illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S 
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Bard, Warlock
+___
+
+You summon illusory creatures who flit and broil within a 30 foot radius sphere centered on a point you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers <br> disadvantage on Charisma, Intelligence, and <br> Wisdom saving throws and checks to <br> maintain concentration.  The spell ends <Br> if you move more than 60 feet away <br> from the area under its effect.
+
+\columnbreak
+
+#### Slicing Shards
+*4th-level  conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (a piece of broken glass)
+- **Duration:**   Instantaneous
+- **Classes:**  Artificer, Warlock
+___
+
+You conjure a cloud of razor-sharp glass capable of slicing through mind and body and send it flying toward a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 10d4 slashing damage and must make a Wisdom saving throw.  The target takes 10d4 additional psychic damage on a failed save and half as much damage on a successful one.  If the attack misses, the glass grazes the target, and it takes half as much of the initial slashing damage and does not make the Charisma saving throw or take any additional psychic damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, both the slashing and psychic damage increase by 1d4 for each slot level above 4th.
+
+<img src='https://i.ibb.co/fXGYB4k/sorcerer-of-slaanesh-by-albe75-d42fiy0-fullview.jpg' style='position:absolute; bottom:-380px; right:-114px; width:930px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-60px;top:-510px;height:1400px;width:1416px;transform:rotate(360deg)' />
+  
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-360px;top:-430px;height:1400px;width:1516px;transform:rotate(325deg)' />  
+  
+
 
 \pagebreak
 
@@ -261,6 +349,7 @@ The demons in this document are based on the daemons of Slaanesh from the Warham
 * Daemonettes - daarken
 * Fiend of Slaanesh - Igor Sid
 * Keeper-of-secrets Slaanesh - slaanesh-goddess
+* Sorcerer of Slaanesh - albe75
 * Heralds of Slaanesh - Phil Moss
 
 <div style='margin-top:850px;'></div>
@@ -272,5 +361,14 @@ style='position:absolute;top:-30px;left:380px;width:450px' />
 
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0 Changes
  * Public Release
+
+#### 1.0.1 Changes
+* Fix typos found after release
+
+#### 1.0.2 Changes
+* Add Lore of Excess spells
+ 
+#### 1.0.3 Changes
+* Fix Additional Typos
