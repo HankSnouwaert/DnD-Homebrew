@@ -139,7 +139,7 @@ ___
 > - **Challenge** 9 (5,000 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +4       
 > ___
 >
-> **Capricious Warpflame** Fire damage dealt by the flamer ignores fire resistance. Additionally, the first time a creature takes fire damage from the flamer each turn, it must make a DC 15 Charisma saving throw. On a failure, the creature suffers a randomly determined effect from the Mutation Table. If the resulting mutation is already affecting the target, it suffers no new effects. At the end of the target's turns, it makes a DC 15 Charisma saving throw, ending all mutations affecting it on a success. 
+> **Capricious Warpflame** Fire damage dealt by the flamer ignores fire resistance. Additionally, the first time a creature takes fire damage from the flamer each turn, it must make a DC 16 Charisma saving throw. On a failure, the creature suffers a randomly determined effect from the Mutation Table. If the resulting mutation is already affecting the target, it suffers no new effects. At the end of the target's turns, it makes a DC 15 Charisma saving throw, ending all mutations affecting it on a success. 
 >
 > *1. Wild Spasms.*  The target is incapacitated as its body jerks erratically in random directions. <Br> 
 > *2. Degeneration.* The target's form becomes unstable.  The first time it takes damage each turn, it takes an extra 1d10 force damage. <br>
@@ -406,7 +406,7 @@ piercing, and slashing from nonmagical attacks
 > ***Distant Caster.*** When the lord of change casts a spell with a range of 5 feet or greater, the range of that spell is doubled.
 When the lord of change casts a spell with a range of touch, the range of that spell becomes 30 feet.
 >
-> ***Dual Minded.*** The lord of change can maintain concentration on two spells simultaneously.  If it needs to make a saving throw to maintain concentration on both spells, it makes the save with advantage.  On a failure, it loses concentration on one of the spells of its choice.
+> ***Dual Minded.*** The lord of change can maintain concentration on two spells simultaneously and makes saves to maintain concentration on spells with advantage.  If it fails a concentration save while concentrating on two spells, it loses concentration on one of the spells of its choice.
 >
 > ***Improved Spell Casting.*** When the lord of change casts a spell that requires it to make an ability check as a part of casting that spell (such as counterspell or dispel magic), it adds its proficiency bonus to that ability check.
 >
@@ -415,7 +415,7 @@ When the lord of change casts a spell with a range of touch, the range of that s
 > ***Magic Resistance.*** The lord of change has advantage on saving throws against spells and other magical effects.
 >
 > ***Warp Magic.*** When a creature is reduced to 0 hit points by a spell cast by the lord of change, it must make a DC 21 Charisma saving throw at the end of its next turn if it has not regained any hit points by that point.
-If the target fails, it dies and instantly transforms into a **pink horror of change** at full health under the lord of change's control.  This transformation can only be undone by a wish spell or a true polymorph spell that lasts its full duration.
+If the target fails, it dies and instantly transforms into a **pink horror of change** at full health under the lord of change's control.  This transformation can only be undone by a *wish* spell or a *true polymorph* spell that lasts its full duration.
 >
 > ### Bonus Actions
 > ***Dimensional Shift.*** The lord of change teleports up to 30 feet to an unoccupied space that it can see.
@@ -543,3 +543,7 @@ The demons in this document are based on the daemons of Tzeench from the Warhamm
  
 #### 0.0.5 Changes
 * Remainder of art layout
+
+#### 0.0.6 Changes
+* Update Duel Minded for Lord of Change
+* Updated Flamer's Capricious Warpflame save DC
