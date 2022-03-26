@@ -1,10 +1,39 @@
-<br><br>
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+
+<br>
 
 # Gifts of Change
 Powerful demons or cults of excess and decadence will sometimes craft magical items which channel their perverse powers.  They may wield these items themselves or gift them to worthy followers.  The following magic items can be used to represent these gifts of excess in your campaign.
 
-#### Blade of Fate (2,000g)
-*Wonderous item*<br>
+#### Blade of Fate
+*Weapon (any sword), rare*<br>
 
 Visions of future victories dance across this blade's reflective surface.  None know if it predicts fate or twists it.
 
@@ -14,15 +43,16 @@ When you make an attack roll with this weapon and roll one of the numbers you no
 
 \columnbreak
 
-#### Chromatic Tome (12,000g) 
-*Wonderous item (requires attument)*
+#### Chromatic Tome
+*Wonderous item, very rare (requires attunement)*
 
 This tome serves as a prison to a sorcerous demon, and offers great power to those willing to assume terrible risks.
 
-While attuned to this book, you can read from its pages to gather the winds of magic.  This can be done as a bonus action or whenever you roll for initiative.  When you do so, the book gains 2d6 charges which last for 1 minute or until you expend them.  If you roll a 2, you gain no charges and must roll on the Miscast Table below to determine what kind of magical backlash you suffer.  
-You can't roll for charges again until you spend 10 minutes studying its pages, which can be done as part of a short or long rest.
+While attuned to this book, you can read from its pages to gather the winds of magic.  This can be done as a bonus action or whenever you roll for initiative.  When you do so, the book gains 2d6 charges which last for 1 minute or until you expend them.  If you roll a 2, you gain no charges and must roll on the Miscast Table below to determine what kind of magical backlash you suffer. 
 
-While the book has charges, you can expend 3 or more of its charges to cast one of the following spells (save DC 17  Attack bonus of +9), using it as your spellcasting focus: Chromatic Orb (3 charges), Scorching Ray (4 charges), Shatter (4 charges), lightning bolt (6 charges) Hunger Of Hadar (6 charges), Wall of Fire (7 charges).
+You can't roll for charges again until you spend 10 minutes studying its pages, which can do during a short or long rest.
+
+While the book has charges, you can expend 3 or more of its charges to cast one of the following spells (save DC 17  Attack bonus of +9), using it as your spellcasting focus: *chromatic orb* (3 charges), *scorching ray* (4 charges), *shatter* (4 charges), *lightning bolt* (6 charges) *hunger of hadar* (6 charges), *wall of fire* (7 charges).
 
 
  ##### Miscast Table
@@ -34,27 +64,29 @@ While the book has charges, you can expend 3 or more of its charges to cast one 
 |  7  |  You take 4d6 necrotic damage and can't cast spells until the start of your next turn.|
 |  8-9 |    A massive vortex drains all the magic in the area.  You take 8d6 force damage, and all spells with 100 feet of you are dispelled as though targeted by *dispel magic* cast at 9th level.|
 |  10-11  | Your mind is ravaged by demons, causing you to be under the effects of the *feeblemind* spell for the next 10 minutes.|
-| 12  |  An anomaly causes the book to become overloaded with power.  The book gains 12 charges, and until it loses these charges, spell attack rolls made as part of casting spells from the book are made with advantage, and all creatures have disadvantage on the next saving throw they make against a spell cast from the book.  The book can't regain charges for the next 1d4 days.|
+| 12  | The book becomes overloaded,  gaining 12 charges.  Until it loses these charges, spell attack rolls made as part of casting spells from the book are made with advantage, and all creatures have disadvantage on the next saving throw they make against a spell cast from the book.  The book can't regain charges for the next 1d4 days.|
 
-<img src='https://i.ibb.co/88qqGHr/vladimir-krisetskiy-blue-scribes.jpg' style='position:absolute;left:-10px;bottom:-20px;width:470px' />
+<img src='https://i.ibb.co/88qqGHr/vladimir-krisetskiy-blue-scribes.jpg' style='position:absolute;left:-30px;bottom:-40px;width:470px' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:20px;top:0px;height:1400px;width:1416px;transform:rotate(85deg)' />
+  style='position:absolute;left:35px;top:0px;height:1400px;width:1416px;transform:rotate(85deg)' />
   
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-500px;bottom:230px;height:1400px;width:1416px;transform:rotate(2deg)' />
+  style='position:absolute;left:-400px;bottom:250px;height:1400px;width:1416px;transform:rotate(2deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
-#### Paradoxical Armor (20,000g)
-*Wonderous item*<br>
+#### Paradoxical Armor 
+*Armor, very rare*<br>
 
-This armor flickers in and out of existence, appearing solid at one second and incorporeal the next.  Attackers have an almost equal chance of hitting its wearer no matter their positioning or tactics.
+This armor flickers in and out of existence, appearing <br> solid at one second and incorporeal the next.  Attackers <Br> have an almost equal chance of hitting its wearer no <Br>matter their positioning or tactics.
 
-While wearing this armor, no attack roll can gain advantage or disadvantage against you.
+While wearing this armor, no attack roll can gain <br> advantage or disadvantage against you.
 
-#### Staff of Change (1,5000) 
-*Greatsword (requires attunement)*<br>
+#### Staff of Change
+*Staff, very rare (requires attunement)*<br>
 
 This staff infuses spells with the raw powers of chaos, inflicting random mutations on its victims.
 
@@ -72,8 +104,8 @@ Additionally, when one or more creatures fail a saving throw against a spell you
 |  5  | Gelatinous Legs | The target falls prone as its legs can no longer support its weight.   At the start of each of its turns, its legs give out again, causing it to fall prone again.|
 |  6  | Regeneration | The target regains 10 hit points at the start of its turn.  The target only dies if it starts its turn with 0 hit points and doesn't regenerate any hit points.|
 
-#### Unfathomable Tome (8,000g)
-*Wonderous item (requires attunement by a wizard)*
+#### Unfathomable Tome
+*Wonderous item, very rare, (requires attunement by a wizard)*
 
 This demonic text offers wizards a seemingly endless amount of arcane knowledge, though plumbing its depths risks one's sanity.
 
@@ -81,12 +113,14 @@ This book can be used as a spellcasting focus for your wizard spells, and while 
 
 Additionally, you may spend an hour studying the book to uncover its secrets. 
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 When you do so, name three different spells from the wizard spell list that are the same level that you have seen cast or read of in texts such as spellbooks or spell scrolls.  Label these spells 1 through 3.  Roll a d4 and add the spell whose number matches the result to your spellbook.  On a roll of 4, you must make a Wisdom saving throw with a DC equal to 10 + the level of the chosen spells.  On a failure, you gain a random long-term madness effect for the number of days equal to the level of the chosen spells.  The book can't be used this way again until the next dawn.
 
 When this book becomes unattuned to a creature, all the spells it contains are lost.
 
-####  Wand of Whimsy (2,4000g) 
-*Wand of whimsy (requires attunement)* <br> 
+####  Wand of Whimsy
+*Wand, very rare (requires attunement)* <br> 
 
 This wand was carved from demonic bones and is capable of reducing its victims into writhing beasts of chaotic flesh.
 
@@ -98,9 +132,11 @@ Any **blue horror of change** and any **brimstone horrors of change** they spawn
 
 A creature killed this way can only be revived by a *true resurrection* spell or by a *wish* spell
 
-<img src='https://i.ibb.co/jGC2H8p/chaos-sorcerer-bogdan-rezunenko.jpg' style='position:absolute; bottom:-50px; right:0px; width:420px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/jGC2H8p/chaos-sorcerer-bogdan-rezunenko.jpg' style='position:absolute; bottom:350px; right:-50px; width:620px; transform:rotate(0deg);filter:opacity(100%);'/>
 
-<img src='https://image.ibb.co/kC44nH/oF4JQBz.png' style='position:absolute; bottom:-90px; right:-10px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-145px; right:0px; width:930px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-0px; right:-0px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 \pagebreak
 
@@ -134,6 +170,11 @@ ___
 
 \columnbreak
 
+### Art Credit
+* Blue Scribes - Vladimir Krisetskiy
+* Chaos Sorcerer - Bogdan Rezunenko
+* 2017 Disciples of Tzeentch battletome - Games Workshop
+
 ___
 > ## Brimstone Horror of Change
 >*Small fiend (demon), chaotic evil*
@@ -164,7 +205,13 @@ ___
 
 <img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:115px; right:-0px; width:860px; transform:rotate(0deg);filter:opacity(100%);'/>
 
+\pagebreak
 
+### 0.0.0 Changes
+* First version
+
+### 0.0.1 Changes
+* Removed gp references
 
 
 
