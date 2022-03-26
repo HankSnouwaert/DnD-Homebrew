@@ -1,20 +1,6 @@
 
 ## New Spells
 
-#### Acid Rain
-*5th-level evocation*
-___
-- **Casting Time:** 1 action
-- **Range:** 120 feet
-- **Components:** V, S, M (a few pine needles)
-- **Duration:**   Concentration, up to 1 minute
-- **Classes:**  Druid, Sorcerer, Wizard, 
-___
-
-Acidic rain falls in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. When a creature enters the spell’s area for the first time on a turn or starts its turn there, it takes 4d4 acid damage and is covered in acid for the spell’s duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 4d4 acid damage at start of each of its turns.
-
-***At Higher Levels.*** The initial acid damage well as the <br> acid damage at end of each of acid covered creature’s <br> turns is increase by 1d4 for each slot level above 5th.
-
 #### Acid Wave
 *6th-level evocation*
 ___
@@ -30,6 +16,34 @@ You conjure up a wave of acid that crashes down on an area within range. The are
 A creature covered in the acid takes 6d4 acid damage at the end of its turn.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the initial acid damage, initial bludgeoning damage, and the acid damage taken at the end of an acid covered creature’s turn are all increased by 2d4 for each slot level above 6th.
+
+
+#### Bolt of Change
+*4th-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 feet
+- **Components:** V, S, M, (A caterpillar cocoon)
+- **Duration:**   1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d10 force damage and must make a Charisma saving throw.  On a failed save, the target suffers one of the random mutations described in the Mutation Table below.  The target repeats the saving throw at the end of each of its turns, ending all mutations affecting it on a success.  A creature can't suffer from two instances of the same mutation at once.
+
+\columnbreak
+
+##### Mutation Table
+| d6  | Mutation |  Creature Effect  |
+|:---:|:---------:| :---------:|
+|  1  |  Wild Spasms | The target is incapacitated as its body jerks erratically in random directions.
+|  2  | Degeneration  | The target's form becomes unstable.  The first time it takes damage each turn, it takes an extra 1d10 force damage.|
+|  3  | Twisted Arms |  The target can no longer wield weapons or cast spells with somatic components.|
+|  4  | Inverted Eyes | The target is blinded and has blindsight with a radius of 5 feet.|
+|  5  | Gelatinous Legs | The target falls prone as its legs can no longer support its weight.   At the start of each of its turns, its legs give out again, causing it to fall prone again.|
+|  6  | Regeneration | The target regains 10 hit points at the start of its turn.  The target only dies if it starts its turn with 0 hit points and doesn't regenerate any hit points.|
+
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5nd level or higher, the damage increases by 1d10 for each slot level above 4th.
 
 #### Binding Chain 
 *1nd-level conjuration*
@@ -51,7 +65,9 @@ The chain has AC 15 and 20 hit points, when it is reduced to 0 hit points, the s
 
 *At Higher Levels.* When you cast this spell using a spell slot of 2nd level or higher, the chain gains additional 20 hit points for each slot level above 1st.
 
-#### Cacophonic Caress
+\pagebreakNum
+
+#### Cacophonic Caress (Public)
 *3rd-level  evocation*
 ___
 - **Casting Time:** 1 action
@@ -61,7 +77,26 @@ ___
 - **Classes:**  Bard, Sorcerer, Warlock
 ___
 
-You throw back your head and emit an ululating scream.  Each creature within range takes 3d6 thunder damage and must succeed on a Wisdom saving throw or take 3d6 additional psychic damage and be deafened for 1 minute.  On a successful save, a creature takes half as much psychic damage and isn't deafened.  A deafened creature can repeat the saving throw at the end of each of its turns,  ending the effect on a success.
+You throw back your head and emit an ululating scream.  Each creature within range takes 3d6 thunder damage and must succeed on a Wisdom saving throw or take 3d6 additional psychic damage and be deafened for 1 minute.  On a successful save, a creature takes half as much psychic damage and isn't deafened.  A creature deafened this way can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+#### Chaos Storm
+*9th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (A bit of demon ichor)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+You open a gateway to a realm of pure chaos and untold destruction.  A 30-foot-radius sphere of chaotic shifting colors appears centered on a point within range that lasts for the spell's duration.  This sphere is filled with indescribable noises that can be heard up to 100 feet away.  No light, magical or otherwise, can illuminate the area, and creatures fully within the area are blinded and deafened.  A creature moving through this area must spend 2 feet of movement for every 1 foot it moves.
+
+Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw.  It takes 10d12 force damage on a failed save or half as much damage on a successful one.  Any nonmagical object that is not bearing worn or carried in the area takes 10d12 force damage at the start of your turn.  A creature or object reduced to 0 hit points by this damage is disintegrated and sucked into the chaotic rift.  A creature killed this way can be brought back to life only by means of a *true resurrection* or a *wish* spell.
+
+On each of your turns, until the spell ends, you can use your action to open another gateway, targeting point within 100 feet of the original gate.  A creature in the area of more than one gateway is only affected once.  You can also close a gateway as a bonus action or as a reaction to a creature entering its area.
+
+If you drop concentration on the spell early, make a DC 20 ability check using your spellcasting ability.  On a failure, you open another gate centered on yourself, and the spell continues for its full duration outside of your control.  During this time, you can no longer open additional gateways or close existing ones, and the radius of each existing gateway expands by 10 feet at the start of each of your turns.
+
+\columnbreak
 
 #### Fireworks
 *4th-level  evocation*
@@ -79,7 +114,7 @@ The sphere is bright light and sheds dim light for an additional 30 feet.  Any c
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the spell creates one more bolt for each slot above 4th. 
 
-\pagebreak
+
 
 #### Frost Nova
 *3rd-level evocation*
@@ -96,6 +131,41 @@ You cause a ring of ice and frost to expand out from you up to a 20-foot radius.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 and the you may increase the radius by 5 feet for each slot level above 3th.
 
+#### Gift of Disease
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (a few pine needles)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Druid, Sorcerer, Wizard, 
+___
+
+Acidic rain falls in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. When a creature enters the spell’s area for the first time on a turn or starts its turn there, it takes 4d4 acid damage and is covered in acid for the spell’s duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 4d4 acid damage at start of each of its turns.
+
+***At Higher Levels.*** The initial acid damage well as the <br> acid damage at end of each of acid covered creature’s <br> turns is increase by 1d4 for each slot level above 5th.
+
+\pagebreakNum
+
+#### Glean Magic
+*3rd-level divination*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**   Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You reach deep into the mind of a spell caster you can see in range and attempt to steal their magic.  The target must make an Intelligence saving throw which it can choose to fail.  On a failed save, you can attempt to steal a spell of 3rd level or lower the target knows.
+
+Name the spell you wish to steal from the creature.  If the creature does not know that spell, the DM chooses a spell the creature knows at random of the same level.  If the creature knows no other spells of the same level, the DM chooses a spell at random of one level lower.  Repeat this process until a spell is stolen or there are no possible spells to steal, in which case the spell fails.
+
+If a spell is successfully stolen, the target loses a spell slot of the spell's level and the ability to cast that spell for 1 hour.  If the target prepares spells at the beginning of the day or can cast the spell a certain number of times per day innately, the target loses one use of the spell.
+
+After stealing a spell, you gain the ability to cast it once as though it were from the same class spell list you used to cast this spell.  When you cast it this way, it does not expend a spell slot, and you cast it at the same spell level at which it was stolen.  You must still supply the stolen spell's required components (including verbal, somatic, and material).  You lose the stolen spell after completing a long rest.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can attempt to steal a spell if its level is less than or equal to the level of the spell slot you used to cast this spell.
 
 #### Molten Sphere
 *6th-level conjuration*
@@ -107,7 +177,9 @@ ___
 - **Classes:**  Druid, Sorcerer
 ___
 
-You summon forth a huge, rolling mass of magma.  A 10-foot-diameter sphere of magma appears in an unoccupied space of your choice within range. The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the sphere strikes the target and explodes. When the sphere explodes, each creature within a 20-foot radius must succeed on a Dexterity saving throw or take 4d8 bludgeoning damage and 4d8 fire damage.  Creatures who pass their save take half as much damage, and a creature hit by the sphere fails the save automatically. Any surface the sphere rolled over, or that was hit by the explosion is covered in 3-inch-thick lava until the spell ends. The lava is difficult terrain, and when a creature moves into or within the area with lava, it takes 4d4 fire damage for every 5 feet it travels. The creature also takes this damage if it ends its turn touching the lava. 
+You summon forth a huge, rolling mass of magma.  A 10-foot-diameter sphere of magma appears in an unoccupied space of your choice within range. The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the sphere strikes the target and explodes. When the sphere explodes, each creature within a 20-foot radius must succeed on a Dexterity saving throw or take 4d8 bludgeoning damage and 4d8 fire damage.  Creatures who pass their save take half as much damage, and a creature hit by the sphere fails the save automatically. 
+
+Any surface the sphere rolled over, or that was hit by the explosion is covered in 3-inch-thick lava until the spell ends. The lava is difficult terrain, and when a creature moves into or within the area with lava, it takes 4d4 fire damage for every 5 feet it travels. The creature also takes this damage if it ends its turn touching the lava. 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the bludgeoning damage and fire damage from the explosion both increases by 1d8 for each slot level above 6th.
 
@@ -136,7 +208,9 @@ ___
 
 You touch a creature, causing it to become electrically charged. Until the spell ends, the target’s speed is doubled, it has advantage on Dexterity saving throws, and all its unarmed strikes and attacks it makes with a melee weapon made of metal deal an extra 2d6 lightning damage on hit.
 
-#### Phantasmagoria
+\pagebreakNum
+
+#### Phantasmagoria (Public)
 *6th-level  illusion*
 ___
 - **Casting Time:** 1 action
@@ -146,7 +220,7 @@ ___
 - **Classes:**  Bard, Warlock
 ___
 
-You summon illusory creatures who flit and broil within a 30 foot radius sphere centered on a point you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
+You summon illusory creatures who flit and broil within a 30 foot radius sphere centered on a point within range you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
 
 #### Puddle of Ooze 
 *3rd-level conjuration*
@@ -160,11 +234,9 @@ ___
 
 The ground in a 20-foot radius centered on a point within range is covered in acidic ooze. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
-\pagebreak
-
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
 
-#### Slicing Shards
+#### Slicing Shards (Public)
 *4th-level  conjuration*
 ___
 - **Casting Time:** 1 action
@@ -174,9 +246,11 @@ ___
 - **Classes:**  Artificer, Warlock
 ___
 
-You conjure a cloud of razor-sharp glass capable of slicing through mind and body and send it flying toward a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 10d4 slashing damage and must make a Wisdom saving throw.  The target takes 10d4 additional psychic damage on a failed save and half as much damage on a successful one.  If the attack misses, the glass grazes the target, and it takes half as much of the initial slashing damage and does not make the Charisma saving throw or take any additional psychic damage.
+You conjure a cloud of razor-sharp glass capable of slicing through mind and body and send it flying toward a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 10d4 slashing damage and must make a Wisdom saving throw.  The target takes 10d4 additional psychic damage on a failed save and half as much damage on a successful one.  If the attack misses, the glass grazes the target, and it takes half as much of the initial slashing damage and does not make the Wisdom saving throw or take any additional psychic damage.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, both the slashing and psychic damage increase by 1d4 for each slot level above 4th.
+
+\columnbreak
 
 #### Static Field
 *2nd-level evocation*
@@ -196,3 +270,26 @@ You cause yourself to become electrically charged for the duration of the spell.
 
 #### 0.0.1 Changes
  * Add *cocophonic carress*, *phantasmagoria*, and *slicing shards*
+
+#### 0.0.2 Changes
+ * Add *bolt of change*, *chaos storm*, and *glean magic*
+ * A bunch of rough draft spells were added here that need to be cleaned out
+
+#### Frozen Tomb
+*5th-level Evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (a wolf tooth)
+- **Duration:**   Concentration, up to 1 minute.
+- **Classes:**  Druid, Warlock.
+
+Ice encases one creature you can see within range. The target must make a Constitution saving throw (the target can choose to fail), or it gains 40 temporary hit points and for the spell’s duration it is incapacitated and has resistance to all damage expect for fire and thunder damage. The air is child around the entombed to a distance of 15 feet for the duration.
+
+When a creature other entombed creature then enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 3d8 cold damage and it speed is halved until the start of it's next turn On a successful save, the creature takes half as much damage and speed is not halved.
+
+The spell ends early if the creature loses all the temporary hit points from the spell. The creature also lose the temporary hit points when the spell ends.
+
+If you cast the spell on your self, you do not lose Constitution on the spell form taking damage or being incapacitated. 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the creature gains 10 additional additional Temporary Hit Points for each slot level above 5th.
