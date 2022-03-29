@@ -1,25 +1,54 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after, .phb#p5:after, .phb#p6:after, .phb#p7:after, .phb#p8:after, .phb#p9:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br> <br>
 
+
 # River Navigation
-When traveling over great distances, rivers can be a boon for adventurers.  Rivers provide a consistent land feature that prevents travelers from becoming lost, they are usually a source of plentiful food and drinkable water, and they can be traveled by boat to reach distant locations quickly.  However, they also present natural hazards, and often attract dangerous predators.
+When traveling over great distances, rivers can be a boon for adventurers.  They provide a consistent land feature that prevents travelers from becoming lost, are usually a source of plentiful food and drinkable water,  and can be traveled by boat to reach distant locations quickly.  However, they also present natural hazards and often attract dangerous predators.
 
 ## Travel Activities
-When the players are traveling long distances overland, rivers can play a large part in their journey.  You may choose to modify the overland travel activities detailed in the *Player's Handbook* in the following ways when the players interact with a river.
+When the players travel long distances overland, rivers can play a large part in their journey.  You may choose to modify the overland travel activities detailed in the *Player's Handbook* in the following ways when the players interact with a river.
 
 ### Travel Pace
-If the players are traveling by foot alongside a river, it has no significant impact on their travel pace unless the terrain becomes more difficult to navigate.  If the players are traveling by boat, the direction and speed of the river current effects their travel pace.
+If the players are traveling by foot alongside a river, it has no significant impact on their travel pace unless the terrain becomes more difficult to navigate.  If the players are traveling by boat, the direction and speed of the river affect their travel pace.
 
 \columnbreak
 
-When traveling via paddle boat in still or gently flowing water, characters travel at a normal pace.  If the current is stronger and they are going downstream, they can travel at a fast pace without suffering the normal drawbacks of doing so.  
+When traveling via paddleboat in still or gently flowing water, characters travel at a normal pace.  If the current is stronger and they are going downstream, they can travel at a fast pace without suffering the normal drawbacks of doing so.  
 
-If they are traveling upstream against a strong current, they cannot travel at a fast pace, traveling at a normal pace results in suffering the drawbacks normally associated with traveling at a fast pace, and traveling at a slow pace does not provide its usual benefits.
+If they are traveling upstream against a strong current: they cannot travel at a fast pace, traveling at a normal pace results in suffering the drawbacks normally associated with traveling at a fast pace, and traveling at a slow pace does not provide its usual benefits.
 
 ### Navigation
-One of the great advantages of traveling on or near a river, is that it serves as a constant point of reference.  If the characters' navigate by following the river, they cannot become lost unless there are many other rivers splitting from it, leaving it unclear which to follow.
+One of the great advantages of traveling on or near a river is that it serves as a constant reference point.  If the characters navigate by following the river, they cannot become lost unless many other rivers are splitting from it, leaving it unclear which to follow.
 
 ### Foraging
-Another benefit afforded by rivers is that they usually provide ready access to food and freshwater.  Unless the river is strangely devoid of life, or it has been polluted, it should generally be treated as though it provides an abundance of food and water sources for the purposes of harvesting.
+Another benefit afforded by rivers is that they usually provide ready access to food and fresh water.  Unless the river is strangely devoid of life or polluted, it should generally be treated as though it provides an abundance of food and water sources for the purposes of harvesting.
 
 <img src='https://i.ibb.co/84Ybxkx/viko-menezes-youcometoariver-artstation.jpg' style='position:absolute;bottom:-50px;right:0px;width:900px' />
 
@@ -30,29 +59,29 @@ Another benefit afforded by rivers is that they usually provide ready access to 
 \pagebreak
 
 ## River Hazards
-Rivers can vary greatly in their danger <br> level, whether they are being crossed or <br> boated on.  From slow, lazy rivers to raging <br> rapids and waterfalls, there are a variety of <br> conditions characters can face.
+Rivers can vary greatly in their danger level, whether they are being crossed by foot or traveled by boat.  From slow, lazy rivers to raging rapids and waterfalls, characters can face many water conditions.
 
 ### Obstructions
-These hazards can range from natural features like fallen trees and large rocks, to constructed structures like dams or collapsed bridges.  In any case, they represent an obstacle which allows water through but hinders the progress of boats.  If the obstruction consists of smaller scattered obstacles, you can treat it the same way you would rapids, detailed below.  If the obstruction is large enough to totally bar travel via boat, the characters will be forced to climb over it with their boat, or dock and pull their boat across land until they pass the clearing. 
+These hazards can range from natural features like fallen trees and large rocks to constructed structures like dams or collapsed bridges.  They can represent any obstacle that allows water through but hinders the progress of boats.  If the obstruction consists of smaller scattered obstacles, you can treat it the same way you would rapids, detailed below.  If the obstruction is large enough to bar travel via boat, the characters will be forced to climb over it with their boat or dock and pull their boat across the land until they pass the clearing. 
 
 #### Climbing the Obstruction
-If the players try to pull their boat across the obstruction, have them make a group Strength check to see if they successfully make it with their boat to the other side. If one of the characters passes the check by 10 or more, the whole group automatically passes.  If they fail, the boat is dropped and takes bludgeoning damage.  The DC of the check determines the amount of bludgeoning damage taken, as shown on the Rapids and Obstructions table.
+If the players try to pull their boat across the obstruction, have them make a group Strength check to see if they successfully make it with their boat to the other side.  If one of the characters passes the check by 10 or more, the whole group automatically passes.  If they fail, the boat is dropped and takes bludgeoning damage.  The DC of the check determines the amount of bludgeoning damage taken, as shown on the Rapids and Obstructions table.
 
 #### Circumventing the Obstruction
-If the players decide to dock and pull their boat around the obstacle, it should be enough of an inconvenience that it impedes their travel for the day or puts in them in danger.  Docking and moving around the obstacle could leave them open to an attack, or the nature of the terrain may force them to divert their journey away from the river as they search for a way to approach it again. 
+If the players decide to dock and pull their boat around the obstacle, it should be an inconvenience that it impedes their travel for the day or puts them in danger.  Docking and moving around the obstacle could leave them open to an attack, or the nature of the terrain may force them to divert their journey away from the river as they search for a way to approach it again. 
 
 ### Rapids
-This is among the most common and dangerous river hazards. Beyond just consisting of fast currents, rapids often include a variety of hazards such as sharp rocks, foot entrapments, undercuts, and holes.  Undercuts are locations where there is room for the water to flow, such as under a rock, but not for boats and creatures, which can lead to dangerous collisions. Holes involve points in the river where the water's current flows over a rock and suddenly dives to the bottom of the river, pulling creatures and objects with it.
+This is among the most common and dangerous river hazards.  Beyond just consisting of fast currents, rapids often include a variety of hazards such as sharp rocks, foot entrapments, undercuts, and holes.  Undercuts are locations where there is room for the water to flow, such as under a rock, but not for boats and creatures, leading to dangerous collisions.  Holes involve points in the river where the water's current flows over a rock and suddenly dives to the bottom of the river, pulling creatures and objects with it.
 
 #### Boating
-When traveling via boat through an area of intense rapids, the character paddling must make a Strength (Athletics) check to attempt to navigate it safely, and if a group of characters are paddling, they make a group check.  If one of the characters passes the check by 10 or more, the whole group automatically passes.  If they fail, the boat slams into rocks and takes bludgeoning damage dependent on the intensity of the rapids as shown in the Rapids and Obstructions table.
+When traveling via boat through an area of intense rapids, the character paddling must make a Strength (Athletics) check to attempt to navigate it safely.  If a group of characters is paddling, they make a group check.  If one of the characters passes the check by 10 or more, the whole group automatically passes.  If they fail, the boat slams into rocks and takes bludgeoning damage dependent on the intensity of the rapids, as shown in the Rapids and Obstructions table.
 
 \columnbreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Crossing on Foot
-If characters find themselves attempting to navigate across rapids by foot, each one must make the Strength check to attempt to cross the waters safely.  This check is made with disadvantage if the character is unable to stand in the water or has just been thrown into it.  If a character fails this check, it is immediately pulled a number of feet downstream equal to the check's DC.  If it collides with a rock or other hard object, the character takes the corresponding bludgeoning damage listed in the Rapids and Obstructions table.  The character makes this check again at the start of each of its turns, getting pulled further downstream each time it fails.
+If characters find themselves attempting to navigate rapids by foot, they must each make a Strength check to attempt to cross the waters safely.  This check is made with disadvantage if the character is unable to stand in the water or has just been thrown into it.  If a character fails this check, it is immediately pulled a number of feet downstream equal to the check's DC.  If it collides with a rock or other hard object, the character takes the corresponding bludgeoning damage listed in the Rapids and Obstructions table.  The character makes this check again at the start of each of its turns, getting pulled further downstream each time it fails.
 
 
 ##### Rapids and Obstructions
@@ -65,9 +94,9 @@ If characters find themselves attempting to navigate across rapids by foot, each
 |           30         |         10d6         |
 
 ### Waterfalls
-When rapids result in a sudden plunge from a far enough height, they become a waterfall.  The heights these drops can reach depends on the type of terrain the river is running through.  The table below can be used to create a waterfall of a random height that suits a given terrain.  
+When rapids result in a sudden plunge from a far enough height, they become a waterfall.  The heights these drops can reach depend on the type of terrain the river is running through.  The table below can be used to create a waterfall of a random height that suits a given terrain.  
 
-Waterfalls often present major obstacles to characters traveling by river, and can force them to take major detours, or abandon their attempt at traveling by river entirely. 
+Waterfalls often present significant obstacles to characters traveling by river and can force them to take major detours or abandon their attempt at traveling by river entirely. 
 
 |   Terrain Type  | Waterfall Height  |
 |:---------------:|:-----------------:|
@@ -79,13 +108,14 @@ Waterfalls often present major obstacles to characters traveling by river, and c
 
 <div style='margin-top:850px;'></div>
 <img
-src='https://i.ibb.co/6nPXgYN/rapids.jpg'
-style='position:absolute;top:-30px;left:260px;width:650px' />
+src='https://i.ibb.co/mq0PkqH/Thornwood-Falls-Ikoria-Mt-G-Art.jpg'
+style='position:absolute;top:-20px;left:390px;width:530px; transform:scaleX(1)' />
 
-<img
-src='https://www.gmbinder.com/images/VxJ8X1u.png'
-style='position:absolute;top:-20px;left:-10px;width:916px' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:6px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%)' />
 
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-140px; right:240px; width:900px; filter:grayscale(00%) brightness(97%); transform:rotate(90deg); ' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:20px; right:300px; width:900px; filter:grayscale(00%) brightness(97%); transform:rotate(90deg); ' />
 
 \pagebreak
 
@@ -140,8 +170,7 @@ This river meanders through the wooded hills of a small kingdom, lazily passing 
 | 94-97 | A crate of valuable goods floating into dangerous rapids  (DC 15)   |
 | 98-00 | 1d4 + 1 **pixies** promising the party a reward if they win a game of hide and seek along the river   |
 
-
-<img src='https://i.ibb.co/qFxF4Bx/a-river-in-the-forest-MCfrog.jpg' style='position:absolute;bottom:-110px;right:-0px;width:820px' />
+<img src='https://i.ibb.co/0GKKqQ3/avr-235-island-park.jpg' style='position:absolute;bottom:-110px;right:-0px;width:820px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
@@ -298,7 +327,7 @@ If a creature fails its saving throw and remains under the spell's effect for 30
 
 
 
-<img src='https://i.ibb.co/SNY1tWj/river-styx-anthony-christou.jpg' style='position:absolute; top:480px; right:-170px; width:1100px' />
+<img src='https://media.discordapp.net/attachments/456235949249003545/958208467959689226/a-painting-bywesley-burt-in-a-devastated-area-of-avernus.png' style='position:absolute; top:510px; right:-180px; width:1100px' />
   
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-190px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
@@ -362,15 +391,11 @@ ___
 >
 > ***Death Roll.*** One creature the deinosuchus has grappled in the water it must make a DC 18 Strength saving throw, on a taking 67 (11d10 + 7) piercing damage on a failed save, or half as much damage on a successful.
 
-<img src='https://i.ibb.co/2Zgpk2M/Sarcosuchus.png' style='position:absolute;left:-65px;bottom:-160px;width:900px' />
+<img src='https://www.hipstersofthecoast.com/wp-content/uploads/2019/04/1.Wardscale-Final.jpg' style='position:absolute;left:-120px;bottom:-70px;width:650px' />
 
-<img
-src='https://www.gmbinder.com/images/VxJ8X1u.png'
-style='position:absolute;bottom:200px;left:-100px;width:800px;transform:scaleY(-1);transform:rotate(160deg)' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-160px; right:100px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
-<img
-src='https://www.gmbinder.com/images/VxJ8X1u.png'
-style='position:absolute;bottom:00px;left:310px;width:800px;transform:scaleY(-1);transform:rotate(200deg)' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:90px; right:-380px; width:850px; transform:rotate(90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 \pagebreak
 
@@ -467,14 +492,14 @@ ___
 
 ### Art Credit
 * You Come to a River - Viko Menezes, Wizards of the Coast
-* A Rocky Stream With Rapids - Alexandre Calame
-* A River In The Forest - MCfrog
+* Thornwood Falls - Eytan Zana, Wizards of the Coast
+* Island - Jung Park, Wizards of the Coast
 * Luxa River Art Detail - Sam Burley
 * Swiftwater Cliffs - Eytan Zana, Wizards of the Coast
-* River Styx - Anthony Christou
-* Deinosuchus  - Raul D. Martin, National Geographic Stock
+* River Styx, D&D Baldur's Gate: Descent Into Avernus - Wesley Burt
+* Wardscale Crocodile  - Zezhou Chen, Magic the Gathering
 * Crocodile of the Crossing - Kev Walker, Wizards of the Coast
-* Hippo Cow and Calf - WillemSvdMerwe
+* Tierleben 1920 - Wilhelm Kuhnert
 
 
 \columnbreak
@@ -510,8 +535,8 @@ ___
 <!-- Main Image -->
 
 <img 
-  src='https://i.ibb.co/f8yF0xX/hippo.jpg' 
-  style='position:absolute;right:-125px;bottom:-75px;width:75%;' />
+  src='https://i.pinimg.com/564x/a1/2c/2b/a12c2bea6f8e8491c969b2aa55060aea.jpg' 
+  style='position:absolute;right:-230px;bottom:-35px;width:110%;' />
 
 <!-- Colored Blends, clockwise from bottom -->
 
@@ -593,7 +618,7 @@ ___
 <img
    src='https://www.gmbinder.com/images/TN3SKuL.png'
    style='position:absolute;
-  bottom:630px;
+  bottom:460px;
   right:-10px;
   width:300px;
   transform:
@@ -607,7 +632,7 @@ ___
 <img
    src='https://www.gmbinder.com/images/hf69hrN.png'
    style='position:absolute;
-  bottom:630px;
+  bottom:440px;
   right:-40px;
   width:200px;
   transform:
@@ -656,7 +681,7 @@ ___
 <img
    src='https://www.gmbinder.com/images/IQENPZX.png'
    style='position:absolute;
-   bottom:750px;
+   bottom:390px;
    right:60px;
    transform:
       scaleX(4);
@@ -670,7 +695,7 @@ ___
 <img
    src='https://www.gmbinder.com/images/IQENPZX.png'
    style='position:absolute;
-   bottom:800px;
+   bottom:700px;
    right:60px;
    transform:
       scaleX(4)
@@ -730,7 +755,7 @@ ___
 <img
    src='https://www.gmbinder.com/images/qAcqsv8.png'
    style='position:absolute;
-  bottom:870px;
+  bottom:390px;
   right:185px;
   width:200px;
   transform:
@@ -746,7 +771,7 @@ ___
 <img
    src='https://www.gmbinder.com/images/TN3SKuL.png'
    style='position:absolute;
-  bottom:900px;
+  bottom:400px;
   right:-25px;
   width:250px;
   transform:
@@ -769,3 +794,4 @@ ___
 * Crocodilians 1.1.0
 * Hippopotamus 1.0.0
 * Otters 1.0.0
+
