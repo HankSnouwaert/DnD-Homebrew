@@ -1,4 +1,32 @@
-<br> <br>
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p6:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br> 
 
 # Crocodilians
 
@@ -13,25 +41,26 @@ ___
 >*Medium beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
-> - **Hit Points** 11 (2d8+2)
+> - **Hit Points** 11 (2d8 + 2)
 > - **Speed** 30 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|14 (+2)|12 (+1)|12 (+1)|3 (-4)|14 (+2)|5 (-3)|
 >___
-> - **Skills** Stealth +3, Perception +4
-> - **Senses** darkvision 30 Ft., passive Perception 14.
-> - **Challenge** 1/2 (100 XP)
+> - **Skills** Perception +4, Stealth +3 
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp;&ensp;&nbsp; **Proficiency Bonus** +2
 > ___
-> **Watery Lurker.** The alligator has advantage on Dexterity(Stealth) checks while submerged in water.
+> ***Hold Breath.*** The alligator can hold its breath for 15 minutes.
 >
-> **Hold Breath.** The alligator can hold its breath for 15 minutes.
-> ___
+> ***Watery Lurker.*** The alligator has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage. The target is grappled (escape DC 12) Until this grapple ends, the target is restrained, and the alligator can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the alligator can't bite another target.
 >
-> ***Death Roll.*** One creature the alligator has grappled in the water it must make a DC 12 Strength saving throw, on a taking 13 (2d10 + 2) piercing damage damage on a failed save, or half as much damage on a successful one.
+> ***Death Roll.*** One creature the alligator has grappled in the water must make a DC 12 Strength saving throw, taking 13 (2d10 + 2) piercing damage on a failed save or half as much damage on a successful one.
 
 \columnbreak
 
@@ -50,7 +79,7 @@ Smaller and faster than their crocodile cousins, alligators live in swampy envir
 <img src='https://i.ibb.co/wct8dRb/crocodile.png' style='position:absolute;bottom:-30px;right:-275px;width:880px' />
 
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:10px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -61,7 +90,7 @@ ___
 >*Large beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
-> - **Hit Points** 58 (9d10+9)
+> - **Hit Points** 67 (9d10 + 18)
 > - **Speed** 30 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -69,21 +98,23 @@ ___
 >|20 (+5)|10 (0)|14 (+2)|3 (-4)|14 (+2)|5 (-3)|
 >___
 > - **Skills** Stealth +2, Perception +4
-> - **Senses** darkvision 30 ft., passive Perception 14.
-> - **Challenge** 3 (700 XP)
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━
+> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +2
 > ___
-> **Watery Lurker.** The alligator has advantage on Dexterity (Stealth) checks while submerged in water.
+> ***Hold Breath.*** The alligator can hold its breath for 20 minutes.
 >
-> **Hold Breath.** The alligator can hold its breath for 20 minutes.
-> ___
+> ***Watery Lurker.*** The alligator has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
 > ### Actions
 > ***Multiattack.*** The alligator makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
 >
-> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage. The target is grappled (escape DC 16) Until this grapple ends, the target is restrained, and the alligator can't bite another target
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the alligator can't bite another target.
 >
-> ***Tail.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target not grappled by the alligator. Hit: 9 (1d8 + 5) bludgeoning damage.
+> ***Tail.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target not grappled by the alligator. *Hit:* 9 (1d8 + 5) bludgeoning damage.
 >
-> ***Death Roll.*** One creature the alligator has grappled in the water it must make a DC 16 Strength saving throw, on a taking 32 (5d10 + 5) piercing damage on a failed save, or half as much damage on a successful one.
+> ***Death Roll.*** One creature the alligator has grappled in the water must make a DC 16 Strength saving throw, taking 32 (5d10 + 5) piercing damage on a failed save or half as much damage on a successful one.
+
 
 \columnbreak
 
@@ -95,7 +126,7 @@ ___
 >*Small beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
-> - **Hit Points** 9 (2d6+2)
+> - **Hit Points** 9 (2d6 + 2)
 > - **Speed** 20 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -103,17 +134,18 @@ ___
 >|12 (+1)|12 (+1)|12 (+1)|3 (-4)|14 (+2)|5 (-3)|
 >___
 > - **Skills** Stealth +3, Perception +4
-> - **Senses** darkvision 30 Ft., passive Perception 14.
-> - **Challenge** 1/4 (50 XP)
+> - **Senses** darkvision 30 ft., passive Perception 14.
+> - **Languages** ━
+> - **Challenge** 1/4 (50 XP) &emsp;&emsp;&emsp;&nbsp; **Proficiency Bonus** +2
 > ___
-> **Watery Lurker.** The caiman has advantage on Dexterity (Stealth) checks while submerged in water.
+> ***Hold Breath.*** The caiman can hold its breath for 25 minutes.
 >
-> **Hold Breath.** The caiman can hold its breath for 25 minutes.
-> ___
+> ***Watery Lurker.*** The caiman has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. The target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the caiman can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the caiman can't bite another target. 
 >
-> ***Death Roll.*** One creature the caiman has grappled in the water it must make a DC 11 Strength saving throw, on a taking 7 (2d6 + 1) piercing damage on a failed save, or half as much damage on a successful one.
+> ***Death Roll.*** One creature the caiman has grappled in the water must make a DC 11 Strength saving throw, taking 7 (2d6 + 1) piercing damage on a failed save or half as much damage on a successful one.
 
 <img src='https://i.ibb.co/vqxzqhN/dismal-backwater.jpg' style='position:absolute;bottom:0px;right:0px;width:816px' />
 
@@ -136,7 +168,7 @@ ___
 >*Large beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
-> - **Hit Points** 38 (5d10+10)
+> - **Hit Points** 37 (5d10 + 10)
 > - **Speed** 20 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -144,17 +176,18 @@ ___
 >|16 (+3)|12 (+1)|14 (+2)|3 (-4)|14 (+2)|5 (-3)|
 >___
 > - **Skills** Stealth +3, Perception +4
-> - **Senses** darkvision 30 Ft., passive Perception 14.
-> - **Challenge** 1 (200 XP)
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +2
 > ___
-> **Watery Lurker.** The crocodile has advantage on Dexterity(Stealth) checks while submerged in water.
+> ***Hold Breath.*** The crocodile can hold its breath for 15 minutes.
 >
-> **Hold Breath.** The crocodile can hold its breath for 15 minutes.
-> ___
+> ***Watery Lurker.*** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) piercing damage. The target is grappled (escape dc 14) Until this grapple ends, the target is restrained, and the crocodile can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. 
 >
-> ***Death Roll.*** One creature the crocodile has grappled in the water it must make a DC 14 Strength saving throw, on a taking  17 (4d6 + 3) piercing damage on a failed save, or half as much damage on a successful one.
+> ***Death Roll.*** One creature the crocodile has grappled in the water must make a DC 14 Strength saving throw, taking 17 (4d6 + 3) piercing damage on a failed save or half as much damage on a successful one.
 
 \columnbreak
 
@@ -165,7 +198,7 @@ ___
 >*Large beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
-> - **Hit Points** 52 (7d10+14)
+> - **Hit Points** 52 (7d10 + 14)
 > - **Speed** 20 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -173,21 +206,22 @@ ___
 >|18 (+4)|12 (+1)|14 (+2)|3 (-4)|14 (+2)|5 (-3)|
 >___
 > - **Skills** Stealth +3, Perception +4
-> - **Senses** darkvision 30 Ft., passive Perception 14.
-> - **Challenge** 2 (450 XP)
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━
+> - **Challenge** 2 (450 XP)  &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +2
 > ___
-> **Watery Lurker.** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> ***Hold Breath.*** The crocodile can hold its breath for 15 minutes.
 >
-> **Hold Breath.** The crocodile can hold its breath for 15 minutes.
-> ___
+> ***Watery Lurker.*** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage. The target is grappled (escape DC 15) Until this grapple ends, the target is restrained, and the crocodile can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.
 >
-> ***Death Roll.*** One creature the crocodile has grappled in the water it must make a DC 15 Strength saving throw, on a taking  26 (4d10 + 4) piercing damage on a failed save, or half as much damage on a successful one.
+> ***Death Roll.*** One creature the crocodile has grappled in the water must make a DC 15 Strength saving throw, taking 26 (4d10 + 4) piercing damage on a failed save or half as much damage on a successful one.
 
-<img src='https://i.ibb.co/487SvLb/crocodile-pit.jpg' style='position:absolute; top:-5px; right:-190px; width:760px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/487SvLb/crocodile-pit.jpg' style='position:absolute; top:-40px; right:-190px; width:760px; transform:rotate(0deg);filter:opacity(100%);'/>
 
-<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-10px; right:-30px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-50px; right:-30px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 
 \pagebreak
@@ -217,12 +251,13 @@ ___
 >___
 > - **Skills** Stealth +3, Perception +5
 > - **Senses** darkvision 30 ft., passive Perception 15.
+> - **Languages** ━
 > - **Challenge** 5 (1,800 XP)
 > ___
 > **Watery Lurker.** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
 >
 > **Hold Breath.** The crocodile can hold its breath for 15 minutes.
-> ___
+> 
 > ### Actions
 > ***Multiattack.*** The crocodile makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
 >
@@ -268,12 +303,13 @@ ___
 >___
 > - **Skills** Stealth +2, Perception +5
 > - **Senses** darkvision 30 ft., passive Perception 15.
+> - **Languages** ━
 > - **Challenge** 8 (3,900 XP)
 > ___
 > **Watery Lurker.** The deinosuchus has advantage on Dexterity (Stealth) checks while submerged in water.
 >
 > **Hold Breath.** The deinosuchus can hold its breath for 15 minutes.
-> ___
+> 
 > ### Actions
 > ***Multiattack.*** The deinosuchus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
 >
@@ -332,12 +368,13 @@ ___
 >___
 > - **Skills** Stealth +2, Perception +5
 > - **Senses** darkvision 30 ft., passive Perception 15.
+> - **Languages** ━
 > - **Challenge** 1/2 (100 XP)
 > ___
 > **Watery Lurker.** The gharial has advantage on Dexterity (Stealth) checks while submerged in water.
 >
 > **Hold Breath.** The gharial can hold its breath for 15 minutes.
-> ___
+> 
 > ### Actions
 > ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. Hit: 8 (1d12 + 2) piercing damage. The target is grappled (escape DC 12) Until this grapple ends, the target is restrained, and the gharial can't bite another target
 >
@@ -431,4 +468,6 @@ style='position:absolute;top:0px;left:0px;width:910px;transform:scaleX(-1)' />
 
 #### 1.1.1 Changes
  * Changed art for front page and deinosuchus 
- 
+
+#### 1.1.2 Changes
+ * Cleaned up alligator, caiman, and crocodile statblocks (but not giant crocodile)
