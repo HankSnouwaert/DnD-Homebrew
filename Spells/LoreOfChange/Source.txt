@@ -1,8 +1,32 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
 
 # Lore of Change
 Within the Warhammer world, the daemon god Tzeentch represents deceit, mutation, and the twisting of reality, and there is an entire school of spells devoted to his magic. While many existing D&D spells can represent Tzeentch's magic, the following new spells provide even more ways of bringing his reality-bending style of sorcery into your campaigns.
@@ -101,3 +125,7 @@ After stealing a spell, you gain the ability to cast it once as though it were f
 
 ### 0.0.0 Changes
 * First version
+
+### 0.0.1 Changes
+* Removed footer from second page
+
