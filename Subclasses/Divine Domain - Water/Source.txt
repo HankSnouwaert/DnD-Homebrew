@@ -26,30 +26,57 @@ Whenever you switch states, add a d4 to your dice pool.  If you end your turn wi
 
 While you have dice in this pool, whenever you cast a Cleric spell of first level or higher that deals damage or restores hit points, roll all the dice in your pool and add the result to any healing or damage done to a single creature of your choice affected by the spell.  Doing this does not empty the dice pool.
 
-#### Channel Divinity: Raging Current
+\columnbreak
+
+#### Channel Divinity: Watery Domain
 *2nd level Aquatic Domain Feature*<br>
 
-As a Bonus Action you switch to either Ebb or Flow state, you then may case water filled a 10 foot radius with in 30 of you. The sphere lasts for 1 minute or until you are incapacitated or die or use this feature again.
+As a bonus action, you can use your Channel Divinity feature to switch to either the Ebb or Flow state while also calling forth the waters of your god's domain at a point you can see within 60 feet of you.  The summoned waters take the shape of a circular body of 10-foot deep water with a radius of 10 feet.  Alternatively, you can target an existing cylindrical area of water you can see with a radius of up to 20 feet and a depth of up to 20 feet to bring under the control of your god.  
 
-Whenever you switch states after this while the sphere is active, increase the radius by 10 feet and have each creature in the radius repeat the saving throw, each creature in the area must succeed on a strength saving throw (the target can choose to fail) and roll all the dice in your pool, for each target that failed save you can either have it take bludgeoning damage or heals equal to the result and you may have it be pushed or pulled number feet away or towards the center of the sphere equal to the result
+This domain lasts for 1 minute, and the effect ends early if you are incapacitated, die, or use this feature again.
 
-\pagebreak
+Whenever you switch between the Ebb and Flow states while this effect is active, you can cause waves to erupt outwards from the center of the water.  Each creature in the body of water, or within 10 feet of it, must make a Strength saving throw against your spell save DC, which it can choose to fail.  On a failure, the creature is either healed for or takes bludgeoning damage equal to a roll of all the d4s in your pool (your choice.)  All creatures who failed their save are then pulled towards or pushed away from the center of the water (your choice) by 5 feet for every d4 you rolled.   The watery domain's radius then increases by 10 feet. 
 
-#### Crashing Waves
+
+
+#### Rising Tide
 *6th level Aquatic Domain Feature*<br>
 
-Whenever you cast a spell of first or higher level, if you have not cast spell that is a higher level then that spell since your last turn. You add dice to your pool
+Whenever you cast a spell of first level or higher, if it is a higher level than any spells you've cast since the beginning of your last turn, you add a d4 to your Ebb and Flow dice pool.
 
 #### Potent Spellcasting
 Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
-#### 
+#### Banished to the Deep 
 *17th level Aquatic Domain Feature*<br>
 
-As a Action, you may end your Raging Current and expend all the dice in your pool and roll them, each creature of your choice in the Raging Current when it ends must make a Strength saving throw against the result your rolled. On a failure, the creature is pulled deep into the water and subjected to the plane shift spell, with the destination being your diety's home plane. If no such plane exists, you can instead target a watery plane, if it passes, you may have it be pushed or pulled number feet away or towards the center of the sphere equal to the result instead.
+If your Watery Domain feature is active, you may use an action to expend all the dice in your Ebb and Flow pool and roll them.  Each creature of your choice in the Watery Domain must make a Strength saving throw with a DC equal to the result you rolled from your Ebb and Flow dice pool.  On a failure, the creature is pulled deep into the water and subjected to the plane shift spell, with the destination being your diety's home plane.  If no such plane exists, you can instead target a watery plane.  If a creature passes, you may instead have it pushed or pulled 5 feet away or towards the center of the domain for every Ebb and Flow die rolled.
 
 \pagebreak
 
+### Bog Domain
+
+#### Channel Divinity: Watery Domain
+*2nd level Aquatic Domain Feature*<br>
+
+As a bonus action, you can use your Channel Divinity feature to switch to either the Ebb or Flow state while also calling forth the waters of your god's domain at a point you can see within 60 feet of you.  The summoned waters take the shape of a circular body of muddy 5-foot deep water with a radius of 20 feet.  Alternatively, you can target an existing cylindrical area of water you can see with a radius of up to 30 feet that is no deeper than 10 feet to bring under the control of your god.  
+
+This domain lasts for 1 minute, and the effect ends early if you are incapacitated, die, or use this feature again.
+
+Whenever you switch between the Ebb and Flow states while this effect is active, you can cause the domain's radius to increase by 5 feet.  Each creature in the domain must then make a Strength saving throw against your spell save DC, which it can choose to fail.  On a failure, the creature is either healed for or takes necrotic damage equal to a roll of all the d4s in your pool (your choice.)  Creatures who took damage from this effect have their speed reduced by 5 feet for every d4 you rolled and are pulled to the bottom of the watery domain by gripping mud.  This effect lasts until the creature uses an action to free itself from the muddy restraints or leaves the body of water. 
+
+### River Domain
+#### Channel Divinity: Watery Domain
+*2nd level Aquatic Domain Feature*<br>
+As a bonus action, you can use your Channel Divinity feature to switch to either the Ebb or Flow state while also calling forth the waters of your god's domain at a point you can see within 60 feet of you.  The summoned waters take the shape of two 10 ft. deep by 10 ft. wide by 20ft. long stretches of water that must be contiguous with each other.  Alternatively, you may choose an existing contiguous area of water you can see that is up to 50 ft. long and 20 ft. deep to bring under the control of your god.  
+
+When you create this domain, choose the direction it is flowing in.  Traveling against this current uses twice as much movement, and traveling with it uses half as much.  
+
+This domain lasts for 1 minute, and the effect ends early if you are incapacitated, die, or use this feature again.
+
+Whenever you switch between the Ebb and Flow states while this effect is active, you can extend the river's length while causing the water to violently flow in the direction of your choice.  The river's length increases by 10 feet, and this extra length extends outwards from either end of the water in the direction of your choice.  Each creature in the body of water must then make a Strength saving throw against your spell save DC, which it can choose to fail.  On a failure, the creature is pulled downstream by 5 ft. for each d4 in your Ebb and Flow pool.  For every 5 ft. it is pulled, it either takes 2d4 bludgeoning damage or is healed for 2d4 hit points (your choice.)
+
+\pagebreak
 
 ### 0.0.0 Changes
 * First draft
@@ -57,3 +84,7 @@ As a Action, you may end your Raging Current and expend all the dice in your poo
 ### 0.0.1 Changes
 * Gus's first draft
 * Cleaned up Ebb and Flow
+
+### 0.0.2 Changes
+* Cleaned up remainder of document
+* Added alternative channel divinities for bog and river
