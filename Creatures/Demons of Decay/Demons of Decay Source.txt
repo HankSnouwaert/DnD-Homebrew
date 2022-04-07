@@ -43,7 +43,7 @@ ___
 > - **Languages** Abyssal, telepathy 60 ft.
 > - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2       
 > ___
-> ***Fetid Stench.*** Any creature that starts its turn within 10 feet of this plaguebearer must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the creature can take either an action or a bonus action on its turn, but not both, and it can't take reactions. On a successful saving throw, the creature is immune to the stench of all plaguebearers for 1 hour. 
+> ***Fetid Stench.*** Any creature that starts its turn within 10 feet of the plaguebearer must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the creature can take either an action or a bonus action on its turn, but not both, and it can't take reactions. On a successful saving throw, the creature is immune to the stench of all plaguebearers for 1 hour. 
 >
 > The save DC increases by 2 for each other plaguebearer within 10 feet of the creature, up to a maximum of 18.
 >
@@ -81,7 +81,7 @@ ___
 > - **Skills** Perception +7
 > - **Damage Resistances** cold, lightning; bludgeoning, 
 piercing, and slashing from nonmagical attacks
-> - **Damage Immunities** acid, poison, necrotic
+> - **Damage Immunities** acid, necrotic, poison
 > - **Condition Immunities** poisoned
 > - **Senses** darkvision 120 ft., passive Perception 17
 > - **Languages** understands Abyssal but can't speak it.
@@ -96,15 +96,16 @@ piercing, and slashing from nonmagical attacks
 >
 >The beast dies only if it starts its turn with 0 hit points and doesn't regenerate.
 >
-> ***Slime Trail.*** The beast ignores difficult terrain, and any land it occupies is covered in slime for the next minute.  This slime-covered land is treated as though it is under the effects of the *puddle of ooze* spell with a DC 17 save.  
+> ***Slime Trail.*** The beast ignores difficult terrain, and any land it occupies is covered in slime for the next minute.  This slime-covered land is treated as though it is under the effects of the *puddle of ooze** spell with a DC 17 save.  
+>
+> *New spell described later in this document
 >
 > ### Bonus Actions
 > ***Attention Seeker.*** The beast moves up to its speed toward any creature it can see without provoking opportunity attacks. 
 >
 > ### Actions
 >
-> ***Slobbering Tongue.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (3d6 + 4) bludgeoning damage, plus 22 (5d8) necrotic damage and the ground beneath the target is beneath the target is under the effects of it's Slime Trail trait. 14 (3d6 + 4) bludgeoning damage, plus 22 (5d8) necrotic damage and the ground beneath the target is under the effects of the beast's Slime Trail trait.   If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become infected by the sword's diseases.  Whenever the creature takes necrotic or poison damage while it is infected, its hit point maximum is reduced by an amount equal to the damage taken.  This reduction lasts until the target finishes a long rest.  The target dies if this effect reduces its hit point maximum to 0, at which point it is instantly transformed into a plaguebearer.  This transformation can only be undone by a *wish* spell.
->
+> ***Slobbering Tongue.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (3d6 + 4) bludgeoning damage, plus 22 (5d8) necrotic damage and the ground beneath the target is beneath the target is under the effects of it's Slime Trail trait. 14 (3d6 + 4) bludgeoning damage, plus 22 (5d8) necrotic damage and the ground beneath the target is subjected to the effects of the beast's Slime Trail trait.   If the target is a creature, it must succeed on a DC 17 Constitution saving throw or become infected by the beast's diseases.  Whenever the creature takes necrotic or poison damage while it is infected, its hit point maximum is reduced by an amount equal to the damage taken.  This reduction lasts until the target finishes a long rest.  The target dies if this effect reduces its hit point maximum to 0, at which point it is instantly transformed into a **plaguebearer**.  This transformation can only be undone by a *wish* spell.
 >
 
 &emsp;**Fiends of Excess.** These obscene fiends combine lewd human features with a mutated bestial form.  Fiends of excess gallop at high speeds, their long tongues tasting the air as they search for prey.  Their unfortunate victims must not only contend with powerful claws but a nubile scorpion-like tail.  The poison from the tail's stinger numbs the senses to the point where many victims fall unconscious.  Fiends of excess use this opportunity to toy with their new playthings, ravaging their helpless prey with cruel wounds.  Those who awaken are racked with pain as sensation rushes back, their final moments filled with agony as the fiend gleefully tears apart and eats its victim alive.
@@ -124,14 +125,7 @@ Fiends of excess often serve as favored pets and war beasts for more powerful de
 
 Fiends of excess often serve as favored pets and war beasts for more powerful demon lords of excess.  When unleashed upon enemy forces, they sing disturbing melodies that disrupt the minds of any who hear them, impairing the ability to concentrate on spells.  Opponents who engage the fiends in melee combat fair no better, and they soon find themselves overwhelmed by a coying musk that leaves them sluggish and unresponsive.  These fiends relish the chaos and disruption they sow and gracefully dance through enemy ranks picking apart targets with surgical precision.  
 
-\pagebreak
 
-___
-
-
-&emsp;**Fiends of Excess.** These obscene fiends combine lewd human features with a mutated bestial form.  Fiends of excess gallop at high speeds, their long tongues tasting the air as they search for prey.  Their unfortunate victims must not only contend with powerful claws but a nubile scorpion-like tail.  The poison from the tail's stinger numbs the senses to the point where many victims fall unconscious.  Fiends of excess use this opportunity to toy with their new playthings, ravaging their helpless prey with cruel wounds.  Those who awaken are racked with pain as sensation rushes back, their final moments filled with agony as the fiend gleefully tears apart and eats its victim alive.
-
-Fiends of excess often serve as favored pets and war beasts for more powerful demon lords of excess.  When unleashed upon enemy forces, they sing disturbing melodies that disrupt the minds of any who hear them, impairing the ability to concentrate on spells.  Opponents who engage the fiends in melee combat fair no better, and they soon find themselves overwhelmed by a coying musk that leaves them sluggish and unresponsive.  These fiends relish the chaos and disruption they sow and gracefully dance through enemy ranks picking apart targets with surgical precision.  
 
 \pagebreak
 
@@ -147,59 +141,59 @@ ___
 >*Huge fiend (demon), chaotic evil*
 > ___
 > - **Armor Class** 12 (natural armor)
-> - **Hit Points** 391 (27d12+216)
+> - **Hit Points** 391 (27d12 + 216)
 > - **Speed** 50ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|20 (+5)|10 (+0)|25 (+7)|22 (+6)|25 (+7)|22 (+6)|
 >___
-> - **Saving Throws** Dex +6, Con +13, Wis +3, Int +12
-> - **Skills** Athletics +10, nature +19, Insight +9, Perception +12, Persuasion +19,
+> - **Saving Throws** Dex +6, Con +13, Wis +13, Int +12
+> - **Skills** Athletics +11, Insight +19, Nature +18, Perception +13, Persuasion +18,
 > - **Damage Resistances** cold, lightning; bludgeoning, 
 piercing, and slashing from nonmagical attacks
-> - **Damage Immunities** acid, poison, necrotic
-> - **Condition Immunities** poisoned, paralyzed.
-> - **Senses** truesight 120 ft., darkvision 300 ft., passive Perception 22
+> - **Damage Immunities** acid, necrotic, poison
+> - **Condition Immunities** paralyzed, poisoned 
+> - **Senses** truesight 120 ft., darkvision 300 ft., passive Perception 23
 > - **Languages** Abyssal, telepathy 300 ft.
-> - **Challenge** 17 (18,000 XP)   &emsp;&emsp; **Proficiency Bonus** +6        
+> - **Challenge** 17 (18,000 XP)   &emsp;&emsp;&emsp; **Proficiency Bonus** +6        
 > ___
 >
-> ***Living Plague.*** The Unclean One is immune to diseases, if the Unclean One are targeted by a spell or effect cures disease such as Lay on Hands or Lesser Restoration, the Unclean One takes 15 radiant damage.
+> ***Distant Caster.*** When the unclean one casts a spell with a range of 5 feet or greater, the range of that spell is doubled.
+When it casts a spell with a range of touch, the range of that spell becomes 30 feet.
 >
-> ***Regeneration.*** The Unclean One regains 20 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. The Unclean One dies only if it starts its turn with 0 hit points and doesn't regenerate.
+> ***Horrid Stench.*** Any creature that starts its turn within 30 feet of the unclean one must succeed on a DC 21 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the creature's speed is halved, it can take either an action or a bonus action on its turn, but not both, and it can't take reactions. On a successful saving throw, the creature is immune to the stench of all unclean ones for 1 hour.  
 >
-> ***Distant Caster.*** When Unclean One cast a spell that has a range of 5 feet or greater, double the range of the spell.
- When Unclean One cast a spell that has a range of touch, The range of the spell 30 feet.
+>  ***Living Plague.*** The unclean one is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 15 radiant damage. 
 >
-> ***Magic Resistance.*** The Unclean One has advantage on saving throws 
-against spells and other magical effects.
+> ***Magic Resistance.*** The unclean one has advantage on saving throws against spells and other magical effects.
 >
-> ***Slime Trail*** The Unclean One ignores difficult terrain, in addition any ground the Slime Trail is covered in slime for the next minute and is under the effects of the Puddle of Ooze spell, the save DC is 21. 
+> ***Regeneration.*** The unclean one regains 20 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. The unclean one dies only if it starts its turn with 0 hit points and doesn't regenerate.
 >
-> ***Horrid Stench*** Any creature other than a The Unclean One that starts its turn within 30 feet of the The Unclean One must succeed on a DC 21 Constitution saving throw poisoned until the start of the creature's next turn. While poisoned in this way, the target's speed is halved and it can take either an action or a bonus action on its turn, not both, and can't take reactions. On a successful saving throw, the creature is immune to the stench of all The Unclean Ones for 1 hour.
+> ***Slime Trail.*** The unclean one ignores difficult terrain, and any land it occupies is covered in slime for the next minute.  This slime-covered land is treated as though it is under the effects of the *puddle of ooze** spell with a DC 21 save.  
 >
 > ### Actions
-> ***Multiattack.*** The Unclean One  makes three attacks: Alternatively, it make one attack and casts one at will spell.
+> ***Multiattack.*** The unclean one makes three attacks. Alternatively, it makes one attack and casts one at will spell.
 >
-> **Bilesword.** Melee Weapon Attack: +11 to hit, reach 10 ft. , one  target. Hit: 18 (3d8 + 5) Slashing damage plus 16 (3d10) necrotic damage.
+> ***Bilesword.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 18 (3d8 + 5) slashing damage plus 16 (3d10) necrotic damage.
 >
-> ***Plague Flail.*** Melee Weapon Attack: +11 to hit, reach 10ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage. plus  10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 21 Constitution saving throw against disease become infected, while infected whenever the creature takes necrotic or poison damage, its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.  The target dies if this effect reduces its hit point maximum to 0. If the Target is still Infeccted, instantly transforms into a Plaguebearer. The transformation of the body can be undone only by a wish spell.
+> ***Plague Flail.*** *Melee Weapon Attack:* +11 to hit, reach 10ft., one target. *Hit:* 18 (3d8 + 5) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 21 Constitution saving throw or become infected by the flail's diseases.  Whenever the creature takes necrotic or poison damage while it is infected, its hit point maximum is reduced by an amount equal to the damage taken.  This reduction lasts until the target finishes a long rest.  The target dies if this effect reduces its hit point maximum to 0, at which point it is instantly transformed into a **plaguebearer**.  This transformation can only be undone by a *wish* spell.
 >
->***Noxious Bile.*** Ranged Weapon Attack: +11 to hit, Range 120/240ft., one target. Hit: 23 (4d8 + 5) necrotic damage.
+>***Noxious Bile.*** *Ranged Weapon Attack:* +11 to hit, Range 120/240ft., one target. *Hit:* 23 (4d8 + 5) necrotic damage.
 >
-> ***Mountain of Loathsome Flesh*** The Unclean One moves up to 50 feet in a straight line. At the end of this movement, each creature with in 10 feet of Unclean One must make DC 21 Dexterity saving throw or take 19 (3d12) bludgeoning damage. The area with in 10 feet of the Unclean One is also effected by the The Slime Trail. feature above.
+> ***Mountain of Loathsome Flesh.*** The unclean one moves up to 50 feet in a straight line. At the end of this movement, each creature within 10 feet of Unclean One must make DC 21 Dexterity saving throw or take 19 (3d12) bludgeoning damage. The area within 10 feet of the unclean one is then subjected to the effects of the unclean one's Slime Trail trait.
 >
 >
-> ***Spellcasting.*** The Unclean One casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 21):
+> ***Spellcasting.*** The unclean one casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 21):
 >
->***At will:*** *Stinking Cloud*, *Contagion*, *dispel magic*, *Locate Object*, *Cure Wounds, (5th level and only effects undead and demons) *Blight*, Stream of Corruption (4th level)
+>***At will:*** *blight*, *cure wounds* (5th level and only effects undead and demons), *contagion*, *dispel magic*, *locate object*, *stinking cloud*, *stream of corruption* (4th level)
 >
->***1/day each:***  *Horrid Wilting*, *Finger of Death (The creature becomes a Plaguebearer if it dies)*, *Cloudkill*, *Circle of Death*, *Mass Cure Wounds (9th level and only effects undead and demons)*
-> *Spells described later in this document
+>***1/day each:***  *circle of death*, *cloudkill*, *finger of death* (A creature killed by this spell becomes a **plaguebearer**), *horrid wilting*, *mass cure wounds* (9th level and only effects undead and demons)
+>
+> *New spells described later in this document
 >
 > ### Reactions
-> **Blubber and Bile** When the unclean one takes damage, it halves it and then reduces the damage by 1d12.
+> ***Blubber and Bile*** When the unclean one takes damage, it halves the damage and then reduces it by 1d12.
 
 <div style='margin-top:850px;'></div>
 <img
@@ -215,11 +209,14 @@ style='position:absolute;top:-0px;left:280px;width:780px' />
 \pagebreak
 
 
-### 0.0.0 Changes
+#### 0.0.0 Changes
 * Gus's first draft
 
-### 0.0.1 Changes
+#### 0.0.1 Changes
 * Revised plaguebearer statblock
 
-### 0.0.2 Changes
+#### 0.0.2 Changes
 * Revised beast of decay statblock
+
+#### 0.0.3 Changes
+* Revised great unclean one statblock
