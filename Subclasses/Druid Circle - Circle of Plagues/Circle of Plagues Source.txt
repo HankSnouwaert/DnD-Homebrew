@@ -64,7 +64,7 @@ You've learned how to mutate your diseases to better suit them to any given situ
 
 #### Paroxysm
 *10th Level Circle of Plagues Feature*<br>
-When a creature that is not a symbiotic host for a disease fails its saving throw at the end of its turn against that disease, it suffers from the disease's severe symptom until the disease ends.
+When a creature that is not a symbiotic host for a disease fails its saving throw at the end of its turn against that disease, it suffers from the disease's severe symptom effects until the disease ends.  These severe symptoms do not replace the original symptoms unless stated otherwise.
 
 
 #### Plague Shape
@@ -83,56 +83,55 @@ This form ends if your host creature dies, the disease affecting it ends, or you
 \pagebreak
 
 
-#### Diseases Symptoms
+### Disease Symptoms
 
-***Mind Fire***
+#### Delirium
+Attack rolls have advantage against the infected creature as long as there are three or more creatures within 5 feet of it.
 
-Whenever a Infected creature makes a saving throw, check or attack roll that uses Charisma, Intelligence, or Wisdom, the target must roll a d4 and subtract the number rolled instead. from the attack roll or saving throw.
+***Symbiotic Host Effects.*** Attack rolls have disadvantage against the symbiotic host as long as there are three or more creatures within 5 feet of it.
 
-A Infected creature who is a Host of the disease adds the number rolled instead.
-
-When a infect creature suffering from severe symptoms cast a spell of first level or higher level, it takes 1d12 psychic damage for each level of the spell.
+***Severe Effects.*** The infected creature suffers the effects of the *enemies abound* spell. 
 
 
-***Delirium***
+#### Fever
+At the start of the infected creature's turn, it takes necrotic damage equal to your Wisdom modifier + half your druid level (rounded up).
 
-The attack rolls have advantage against the creature as long as their are three or more creatures with in 5 feet of it.
+***Symbiotic Host Effects.*** When a symbiotic host is infected by this disease, it gains temporary hit points Wisdom modifier + half your druid level (rounded up).  These temporary hit points last until the disease ends.
 
-The attack rolls have disadvantage against the creature as long as their are three or more creatures with in 5 feet of it if is the Host of the disease.
+***Severe Effects.*** At the start of the infected creature's turn, it takes necrotic damage equal to your Wisdom modifier + twice your druid level.  This replaces the damage dealt by the initial effect.
 
-When a infect creature suffering from severe symptoms it is under the effects "Enemies Abound" spell.
+#### Mind Fire 
+Whenever the infected creature makes an ability check, attack roll, or saving throw that uses its Charisma, Intelligence, or Wisdom modifier, it must roll a d4 and subtract the number rolled from the ability check, attack roll, or saving throw.
 
-***Nausea***
+***Symbiotic Host Effects.*** Whenever the symbiotic host makes an ability check, attack roll, or saving throw that uses its Charisma, Intelligence, or Wisdom modifier, it may roll a d4 and add the number rolled to the ability check, attack roll, or saving throw.
 
-Whenever a Infected creature makes a saving throw, check or attack roll that uses Constitution, Dexterity, or Strength, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
+***Severe Effects.*** Whenever the infected creature casts a spell of first level or higher, it takes 1d12 psychic damage per level of the spell. 
 
-A Infected creature who is a Host of the disease adds the number rolled instead.
 
-The damage dealt by infect creature's weapon attacks is halved if it is suffering from the severe symptoms
+#### Nausea
+Whenever the infected creature makes an ability check, attack roll, or saving throw that uses its Constitution, Dexterity, or Strength modifier, it must roll a d4 and subtract the number rolled from the ability check, attack roll, or saving throw.
 
-***Fever***
+***Symbiotic Host Effects.*** Whenever the symbiotic host makes an ability check, attack roll, or saving throw that uses its Constitution, Dexterity, or Strength modifier, it may roll a d4 and add the number rolled to the ability check, attack roll, or saving throw.
 
-At the start of each of your turns, each infect creature takes necrotic damage equal to wisdom modifier + half your druid level.
+***Severe Effects.*** Damage dealt by an infected creature's weapon attacks is halved.
 
-A Infected creature who is a Host of the disease gains temporary hit points equal to wisdom modifier + half your druid level instead. These  temporary hit points last until the disease ends.
+#### Fatigue
 
-The infect creature suffering from severe symptoms takes necrotic damage equal to wisdom modifier + twice your druid level at the start of each of your turns instead.
+The infected creature's speed is reduced by 10 feet.
 
-***Fatigue***
+***Symbiotic Host Effects.***  The symbiotic host's speed is increased by 10 feet.
 
-A Infect creature speed is reduced by 10.
+***Severe Effects.*** The infected creature's speed is halved, it can't use reactions, and on its turn, it can use either an action or a bonus action, not both.
 
-A Infected creature who is a Host of the disease speed increases by 10 feet.
+\columnbreak
 
-A Infect creature suffering from severe symptoms speed is halved and it can take either an action or a bonus action on its turn, not both, and can't take reactions.
+#### Weeping Eyes
 
-***Weeping Eyes***
+The infected creature is unable to see anything farther than 30 feet away from it.
 
-A Infected creature who is unable to see anything farther then 30 feet away.
+***Symbiotic Host Effects.*** The symbiotic host gains darkvision out to a range of 60 feet. If it already has darkvision, its range increases by 30 feet.
 
-A Infected creature who is a Host of the disease has darkvision out to a range of 60 feet. If it already has darkvision, its range increases by 30 feet.
-
-The infect creature is blind if it is suffering from the severe symptoms.
+***Severe Effects.*** The infected creature is blinded.
 
 ### Art Credit
 * Fractal Summoning - Livia Prima, Wizards of the Coast
@@ -147,3 +146,7 @@ The infect creature is blind if it is suffering from the severe symptoms.
 
 #### 0.0.1
 * First draft of base features
+
+
+#### 0.0.2
+* First draft of diseases
