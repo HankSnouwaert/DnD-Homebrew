@@ -1,74 +1,128 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br> <br>
 
-## Divine Domain v0.1
+## Divine Domain 
 
 ### Destruction
-Gods of destruction wish one thing of their followers: to bring about devastation wherever they tread. Gods of this domain include Shiva, Kali, Set, Tiamat, Gruumsh, The Devourer, and The Fury. Clerics of these gods are not only masters of destruction, but they also bring forth the full destructive potential of their allies. Woe be to any that stand in their path.
+Gods of destruction demand one thing of their followers: to bring about devastation wherever they tread. Gods of this domain include Shiva, Kali, Set, Tiamat, Gruumsh, The Devourer, and The Fury. Clerics of these gods are not only masters of destruction, but they also bring forth the full destructive potential of their allies. Woe be to any who stand in their path.
+
+#### Domain Spells
+*1st level Destruction Domain Feature*<br>
+You gain the domain spells at the cleric levels listed in the Destruction Domain Spells table.  See the Divine Domain class feature for how domain spells work.
 
 ##### Destruction Domain Spells
 | Cleric  Level   |  Spells      | 
 |:-------------:|:-------------:|
-|  1st          | Bane, Chaos Bolt |
-|  3rd          | Dust Devil, Shatter |
-|  5th          | Melf's Minute Meteors, Erupting Earth      | 
-|  7th          | Blight, Elemental Bane       |
-|  9th          | Destructive Wave, Insect Plague     |
+|  1st          | *bane*, *chaos bolt* |
+|  3rd          | *dust devil*, *shatter* |
+|  5th          |  *erupting earth*, *melf's minute meteors*      | 
+|  7th          | *blight*, *elemental bane*       |
+|  9th          | *destructive wave*, *insect plague*     |
 
-#### Initiate of Destruction
-At 1st level, you learn one evocation cantrip of your choice from the cleric, druid, or wizard spell lists. It counts as cleric cantrip for you, but does’t count against your number of cantrips known.
-#### Gift of Ruin
-At 1st level, you learn to augment the destructive capabilities of spells cast by you or your allies. You have a pool of energy represented by a number of d12s equal to 1 plus half your cleric level rounded up.
 
-Once per turn, when you or one of your allies within 100 feet of you rolls damage for a spell, you can use your reaction to spend a number of dice equal to your half your proficiency bonus or less. Roll the spent dice and add them to the spell's damage as any damage type that the spell can produce. 
-
-You regain all expended dice when you finish a long rest.
 
 \columnbreak
 
+#### Initiate of Destruction
+*1st level Destruction Domain Feature*<br>
+You learn one evocation cantrip of your choice from the cleric, druid, or wizard spell lists. It counts as cleric cantrip for you, but does’t count against your number of cantrips known.
+
+#### Gift of Ruin
+*1st level Destruction Domain Feature*<br>
+You learn to augment the destructive capabilities of spells cast by you or your allies using a pool of energy represented by special dice called destruction dice.  These destruction dice are d12s, and you have a number of them equal to 1 + half your cleric level (rounded up).
+
+Once per turn, when you or one of your allies within 100 feet of you rolls damage for a spell, you can use your reaction to spend a number of destruction dice equal to half your proficiency bonus or less.  Roll the spent dice and add them to the spell's damage as any damage type the spell can produce. 
+
+You regain all expended destruction dice when you finish a long rest.
+
 #### Channel Divinity: Amid Disaster
-Starting at 2nd level, when you or a creature within 60 feet of you that you can see is effected by a spell cast by you or an ally, you may use your Channel Divinity to choose a number of affected creatures equal to your proficiency bonus.  The chosen creatures automatically succeed on their saving throws against the spell.  The chosen creatures take no damage if they would normally take half damage on a successful save. 
+*2nd level Destruction Domain Feature*<br>
+When you or a creature within 60 feet of you that you can see is affected by a spell cast by you or an ally, you may use your Channel Divinity to choose a number of affected creatures equal to your proficiency bonus.  The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage from it if they would normally take half damage on a successful save. 
 
-Additionally, when a 1 is rolled on a damage die for the spell, the caster can reroll the die and must use the new roll, even if the new roll is a 1.
-
-
-#### Unending Destruction
-Starting at 6th level, you become an unceasing herald of destruction.  Once per day, after completing a short rest, you may regain half your expended Gift of Ruin die (rounded up).
-
-Additionally, when you or an allied creature you can see casts a spell, you may choose to have that spell ignore damage resistances and deal double damage to structures and objects not being worn or carried by another creature.  This effect does not continue beyond the turn the spell is cast.
-
-Once you use this feature, you can’t use it again until you finish a long rest or unless you you expend 3 of your Gift of Ruin dice to use it again.
-
-#### Potent Spellcasting
-Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.
-
-#### Beseech the End
-At 17th level, you can use your action to temporarily learn one spell of your choice from any class. The spell must be of a level you can cast, it must be in the school of Conjuration Evocation or Necromancy, and it must deal damage upon casting. The chosen spell counts as a cleric spell for you but does not count against the number of cleric spells you know.  You know the chosen spell until you finish a long rest, or you cast it.
-
-Once you use this feature, you can’t use it again until you finish a long rest
+Additionally, when any damage die rolled for the spell results in a 1, the caster can reroll the die and must use the new roll, even if the new roll is a 1.
 
 
-<img src='https://res.cloudinary.com/drado2lmv/image/upload/v1605921877/GM%20Binder/Destruction2_mivnw5.jpg' style='position:absolute; top:680px; right:00px; width:850px' />
+<img src='https://res.cloudinary.com/drado2lmv/image/upload/v1605921877/GM%20Binder/Destruction2_mivnw5.jpg' style='position:absolute; top:570px; right:-60px; width:900px' />
   
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-100px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-218px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:10px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
-> ##### Beseeching for Wish
-> Because the *Wish* spell duplicates other spells rather than doing damage of its own, it cannot be cast using your Beseech the End feature.
+#### Unending Destruction
+*6th level Destruction Domain Feature*<br>
+You become an unceasing herald of destruction.  Once per day, after completing a short rest, you may regain half your expended destruction die (rounded up).
 
+Additionally, when you or an allied creature you can see casts a spell, you may choose to have that spell ignore damage resistances and deal double damage to structures and objects not being worn or carried by another creature.  This effect does not continue beyond the turn the spell is cast.
 
-### Art Credit
-* Anger of the Gods - Magic the Gathering - Wizards of the Coast. 
+Once you modify as spell's damage this way, you can't do so again until you finish a long rest or expend 3 destruction dice to do so again.
+
+#### Potent Spellcasting
+*8th level Destruction Domain Feature*<br>
+You add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
 \columnbreak
 
+#### Beseech the End
+*17th level Destruction Domain Feature*<br>
+You can use your action to temporarily learn one spell of your choice from any class.  The spell must be of a level you can cast, it must be in the school of Conjuration, Evocation, or Necromancy, and it must deal damage immediately upon casting.  The chosen spell counts as a cleric spell for you but does not count against the number of cleric spells you know.  You know the chosen spell until you finish a long rest or you cast it.
+
+Once you use this feature, you can’t use it again until you finish a long rest.
+
+> ##### Beseeching for Wish
+> Because the *wish* spell duplicates other spells rather than doing damage of its own, it cannot be cast using your Beseech the End feature.
+
+
+### Art Credit
+* Anger of the Gods - Yigit Koroglu, Wizards of the Coast.
+* Immolating Gyre - Campbell White, Wizards of the Coast.
+
+
+
+<img src='https://i.ibb.co/vjT5YMf/campbell-white-archmage-flame-copy.jpg' style='position:absolute;bottom:-250px;right:-140px;width:1100px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:120px' />
+  
+  
+  \pagebreak
+
 ## Change Log
 
-### 1.1.0 Changes
+#### 1.1.0 Changes
  * Gift of Ruin now requires use of your reaction
  * Merged Unstoppable Devastation into Unending Destruction
  * Extra uses of Unending Destruction now cost Gift of Ruin dice instead of a spell slot
  * Added Necromancy spells as an option to Beseech the End
 
+#### 1.1.1 Changes
+ * Document cleanup
