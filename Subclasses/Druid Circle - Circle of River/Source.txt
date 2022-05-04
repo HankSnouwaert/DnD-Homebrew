@@ -1,16 +1,64 @@
 
+<style>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p4:after, .phb#p5:after, .phb#p6:after, .phb#p7:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Druid Circle
 
-### Circle of the Rivers v0.1
-  Druids of this circle watch over bodies of fresh water to ensure they remain untainted.  They’ve specialized in wielding watery magics while shapeshifting into creatures adept at river traversal.  These druids often travel vast distances via the rivers they call home, and can serve as guides for those wishing to traverse these bodies of water. 
+### Circle of Rivers
+Druids of this circle watch over bodies of freshwater to ensure they remain untainted.  They’ve specialized in wielding watery magics while shapeshifting into creatures adept at river traversal.  These druids often travel vast distances via the rivers they call home and can serve as guides for those wishing to traverse such waters. 
+
+#### Circle Spells
+*2nd Level Circle of Rivers Feature* <br>
+Your mystical connection to rivers infuses you with the ability to cast some spells when you reach certain levels in this class, as shown on the Circle of Rivers Spells table.
+Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you. 
+
+##### Circle of Rivers Spells
+| Druid  Level  |  Spells      | 
+|:-------------:|:-------------:|
+|  2nd          | *cure wounds*, *create or destroy water*  |
+|  3rd          | *mirror image*, *misty step* |
+|  5th          | *wall of water**, *water breathing*       | 
+|  7th          | *aura of purity*, *control water*      |
+|  9th          | *commune with nature*, *maelstrom**  |
+
+*Found in *The Xanathar's Guide to Everything*
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### River Forms
-When you choose this circle at 2nd level, you gain access to the following wild shape forms at 2nd, 6th, 12th, 16th level.  The usual restrictions as to what you can wild shape into do not apply to these forms.  
+*2nd Level Circle of Rivers Feature* <br>
+You gain access to the following wild shape forms at 2nd, 6th, 12th, and 16th levels.  The usual restrictions as to what you can wild shape into do not apply to these forms.  
 
-While in these forms, you can perform the somatic and verbal components of druid spells from your River Spells list.
+While in these forms, you can perform the somatic and verbal components of spells from your Circle of Rivers Spell list.
 
 | Druid  Level  |  Wild Shape Option      | 
 |:-------------:|:-------------:|
@@ -21,67 +69,66 @@ While in these forms, you can perform the somatic and verbal components of druid
 
 *New creature stats listed later in document
 
-#### River Spells
-At 2nd level, your mystical connection to rivers infuses you with the ability to cast certain spells. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the Druid Spell List, the spell is nonetheless a druid spell for you. 
-
-| Druid  Level  |  Spells      | 
-|:-------------:|:-------------:|
-|  2nd          | Create or Destroy Water, Cure Wounds |
-|  3rd          | Mirror Image, Misty Step |
-|  5th          | Water Breathing,  Wall of Water*      | 
-|  7th          | Control Water, Aura of Purity     |
-|  9th          | Maelstrom*, Commune with Nature  |
-
-*Found in *The Xanathar's Guide to Everything*
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 #### River Dweller
-At 2nd level, you have a swim speed equal to your walk speed and gain advantage on Wisdom (Survival) and Intelligence (Nature) checks relating to bodies of fresh water.  
+*2nd Level Circle of Rivers Feature* <br>
+You gain a swim speed equal to your walk speed and gain advantage on Wisdom (Survival) and Intelligence (Nature) checks relating to bodies of freshwater and the life that inhabits them.  
 
-Additionally, you can speak with animals who primarily dwell in bodies of fresh water as though under the effects of the *Speak with Animals* spell, and you have advantage on Wisdom (Animal Handling) checks made while interacting with them.
+Additionally, you can speak with animals who primarily dwell in bodies of freshwater as though under the effects of the *speak with animals* spell, and you have advantage on Wisdom (Animal Handling) checks made while interacting with them.
 
-#### Call of the Rapids
-Starting at 6th level, you may use an action to cause a river  to spring into existence at a point you choose within 60ft.  The point must be on ground or in a body of water. The river is composed of three 10ft. deep by 10ft. wide by 20ft. long stretches of water that must each be contiguous with at least one other summoned stretch of water. Once you've created the river, you choose the direction the water flows. The water may flow uphill, over obstacles, up walls, or in other unlikely directions. 
-
-Swimming upstream costs creatures double movement, and swimming downstream costs creatures half their movement. You may have any creature that starts its turn in the river make a Strength saving throw against your spell save DC. On a failed save, the creature is pulled 20 feet downstream. 
-
-As an action you can switch the direction of the river.  
-
-The river disappears after 1 minute, and once you have created a river, you can’t do so again until you finish a long rest or until you expend a spell slot of 3th level or higher.
-
-#### Primal Weapons
-At 6th level, if you have a magic weapon merge into any of your wild shapes, your attacks in the wild shape form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
 
 <br>
 
-<img src='https://i.ibb.co/gPnL29J/Circle-of-the-River.jpg' style='position:absolute; top:-15px; right:-100px; width:950px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/gPnL29J/Circle-of-the-River.jpg' style='position:absolute; top:0px; right:-60px; width:950px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-0px;left:0px;width:900px' />
+style='position:absolute;top:50px;left:0px;width:900px' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-220px;left:0px;width:900px' />
+style='position:absolute;top:-90px;left:0px;width:900px;transform:rotate(-15deg);' />
 
 <div style='margin-top:350px;'></div>
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:215px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:390px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
+#### Call of the Rapids
+*6th Level Circle of Rivers Feature* <br>
+You may use an action to cause a river to spring into existence at a point you choose within 60ft.  The point must be on a solid surface or in a body of water.  The river is composed of three 10ft. deep by 10ft. wide by 20ft. long stretches of water that must each be contiguous with at least one other summoned stretch of water.  Once you've created the river, you choose the direction the water flows.  The water may flow uphill, over obstacles, up walls, or in other unlikely directions.  As an action, you can switch the direction of the river.  
+
+Swimming upstream costs creatures double their movement, and swimming downstream costs creatures half their movement.  You may have any creature that starts its turn in the river make a Strength saving throw against your spell save DC.  On a failed save, the creature is pulled 20 feet downstream.
+
+The river disappears after 1 minute, and once you've created a river, you can't do so again until you finish a long rest or until you expend a spell slot of 3th level or higher.
+
+\columnbreak
+
+#### Primal Weapons
+*6th Level Circle of Rivers Feature* <br>
+If you merge into any of your wild shapes with a magical weapon you are wielding, your attacks in that wild shape count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
 #### Avatar of the Waterways
-At 10th level, you can wild shape into a Giant Crocodile, Hippopotamus Gorgops, Kelpie, or Mishipeshu for 1 hour. You can use your wild shape this way 3 times per day, and regain all uses of this feature after completing a long rest. 
+*10th Level Circle of Rivers Feature* <br>
+You can wild shape into a **giant crocodile**, **hippopotamus gorgops**, **kelpie**, or **mishipeshu** for 1 hour. You can use your wild shape this way 3 times per day and regain all uses of this feature after completing a long rest. 
 
 The stat blocks for these creatures can be found later in the document.
 
 #### Master of Currents
+*14th Level Circle of Rivers Feature* <br>
 Starting at 14th level, you and creatures of your choice that you can see automatically pass their saving throws against your druid spells and effects that produce or influence water and ignore the movement penalties caused by these effects.
 
-Additionally, creatures of your choice that you can see within the water produced or influenced by one of these effects gain a swim speed equal to their move speed while they are within this water.
+Additionally, creatures of your choice that you can see within the water produced or influenced by one of these effects gain a swim speed equal to their move speed while within this water.
 
-<br>
+<img src='https://cdnb.artstation.com/p/assets/images/images/003/448/899/large/efflam-mercier-woodlands-stream-copy.jpg?1473787371' style='position:absolute;bottom:-0px;right:-20px;width:840px; transform: scaleX(-1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:150px' />
+
+
+\pagebreak
+
 
 ## New Wild Shape Creatures 
 
@@ -90,63 +137,64 @@ ___
 >*Large beast, unaligned*
 > ___
 > - **Armor Class** 13 (natural armor)
-> - **Hit Points** 38 (5d10+10)
+> - **Hit Points** 37 (5d10 + 10)
 > - **Speed** 20 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|16 (+3)|12 (+1)|14 (+2)|3 (-4)|14 (+2)|5 (-3)|
 >___
-> - **Skills** Stealth +3, Perception +4
-> - **Senses** darkvision 30 Ft., passive Perception 14.
-> - **Languages** None 
-> - **Challenge** 1 (200 XP) &emsp;&emsp; &emsp; **Proficiency Bonus** +2 
+> - **Skills** Perception +4, Stealth +3
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +2
 > ___
-> **Watery Lurker.** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> ***Hold Breath.*** The crocodile can hold its breath for 15 minutes.
 >
-> **Hold Breath.** The crocodile can hold its breath for 15 minutes.
-> ___
+> ***Watery Lurker.*** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) piercing damage. The target is grappled (escape dc 14) Until this grapple ends, the target is restrained, and the crocodile can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. 
 >
-> ***Death Roll.*** One creature the crocodile has grappled in the water it must make a DC 14 Strength saving throw, on a taking  17 (4d6 + 3) piercing damage on a failed save, or half as much damage on a successful one.
+> ***Death Roll.*** One creature the crocodile has grappled in the water must make a DC 14 Strength saving throw, taking 17 (4d6 + 3) piercing damage on a failed save or half as much damage on a successful one.
 
 \columnbreak
+
 ___
 > ## Giant Crocodile
 >*Huge beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
-> - **Hit Points** 86 (9d12+27)
+> - **Hit Points** 85 (9d12 + 27)
 > - **Speed** 20 ft., swim 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|22 (+6)|10 (0)|17 (+3)|3 (-4)|14 (+2)|5 (-3)|
+>|22 (+6)|10 (+0)|17 (+3)|3 (-4)|14 (+2)|5 (-3)|
 >___
-> - **Skills** Stealth +3, Perception +5
-> - **Senses** darkvision 30 ft., passive Perception 15.
-> - **Languages** None 
-> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +3
+> - **Skills** Perception +5, Stealth +3 
+> - **Senses** darkvision 30 ft., passive Perception 15
+> - **Languages** ━
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&emsp;&emsp; **Proficiency Bonus** +3
 > ___
-> **Watery Lurker.** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> ***Hold Breath.*** The crocodile can hold its breath for 15 minutes.
 >
-> **Hold Breath.** The crocodile can hold its breath for 15 minutes.
-> ___
+> ***Watery Lurker.*** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
 > ### Actions
 > ***Multiattack.*** The crocodile makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
 >
-> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage. The target is grappled (escape dc 17) Until this grapple ends, the target is restrained, and the crocodile can't bite another target
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 22 (3d10 + 6) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. 
 >
-> ***Tail.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 15 (2d8 + 6) bludgeoning damage.
+> ***Tail.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target not grappled by the crocodile. *Hit:* 15 (2d8 + 6) bludgeoning damage.
 >
-> ***Death Roll.*** One creature the crocodile has grappled in the water it must make a DC 17 Strength saving throw, on a taking 44 (7d10 + 6) piercing damage on a failed save, or half as much damage on a successful one.
+> ***Death Roll.*** One creature the crocodile has grappled in the water must make a DC 17 Strength saving throw, taking 44 (7d10 + 6) piercing damage on a failed save or half as much damage on a successful one.  
 
-<img src='https://cdnb.artstation.com/p/assets/images/images/003/448/899/large/efflam-mercier-woodlands-stream-copy.jpg?1473787371' style='position:absolute;bottom:-60px;right:-20px;width:840px; transform: scaleX(-1)' />
+<img src='https://i.ibb.co/3fX4Nxg/giant-crocodile.jpg' style='position:absolute; bottom:-150px; right:0px; width:880px; transform:scaleX(1);'/>
 
-<img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;bottom:0px' />
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:70px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:120px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+
 
 \pagebreak
 
@@ -261,7 +309,7 @@ ___
 >*Medium beast, unaligned*
 > ___
 > - **Armor Class** 14
-> - **Hit Points** 28 (5d8+3)
+> - **Hit Points** 19 (3d6+9)
 > - **Speed** 40 ft., climb 30 ft., swim 20 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -302,7 +350,7 @@ ___
 >*Large fey, chaotic neutral*
 > ___
 > - **Armor Class** 13
-> - **Hit Points** 82 (11d10+22)
+> - **Hit Points** 94 (9d10+45)
 > - **Speed** 30 ft. swim 60 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -338,9 +386,9 @@ ___
 
 Because of this, the kelpie will use its fey charms in an attempt to lure potential victims to it.  Once the target touches the kelpie, it will become stuck and unable to flee.  At this point the kelpie drags the creature down to the bottom of its watery home, drowning the victim before feasting on its new meal.
 
-<img src='https://i.ibb.co/gb1G4YM/the-kelpie-pond-jaimie-whitbread.jpg' style='position:absolute; top:625px; right:-0px; width:820px' />
+<img src='https://i.ibb.co/gb1G4YM/the-kelpie-pond-jaimie-whitbread.jpg' style='position:absolute; top:630px; right:-0px; width:820px' />
   
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-160px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-140px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 
 \pagebreak
@@ -471,6 +519,7 @@ ___
 
 \pagebreak
 
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ___
@@ -513,22 +562,31 @@ While not commonly known to most folk, wolf otters make effective patrol and hun
 * The Kelpie Pond - Jaimie Whitbread
 * Mishibizhiw - KatePfeilschiefter
 * Pygmy Hippo - Steve White, Wizards of the Coast
-* Sea Otter | Electric - fluffypanquake
+* Otter - Archibald Thorburn
 
 <img
-src='https://i.ibb.co/z2n03P7/sea-otter-electric-by-fluffypanquake-de5at57-fullview.jpg'
-style='position:absolute;top:-140px;left:0px;width:820px;transform: scaleX(1)' />
+src='https://i.pinimg.com/564x/b1/ec/42/b1ec427fd85d99e09d962ac378d4625e.jpg'
+style='position:absolute;top:-90px;left:-40px;width:1000px;transform: scaleX(-1)' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:0px;left:0px;width:916px' />
+style='position:absolute;top:-20px;left:0px;width:916px;transform:rotate(-8deg)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:300px;left:-30px;width:916px;transform:rotate(-8deg)' />
 
 <div style='margin-top:350px;'></div>
 
+
+
 \pagebreak
 
-### 1.1.0 Changes
+#### 1.1.0 Changes
  * Added additional effects to River Dweller feature
+
+#### 1.1.1 Changes
+ * Document cleanup
 
 \columnbreak
 
@@ -539,3 +597,4 @@ style='position:absolute;top:0px;left:0px;width:916px' />
 * Mishipeshu 1.0.0
 * Otters 1.0.0
 * Water Horses 1.0.0 
+ 
