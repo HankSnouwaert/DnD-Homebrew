@@ -1,78 +1,197 @@
-# Diseases
+<br><br>
 
+# Diseases
+Diseases, both magical and mundane, can provide environmental hazards or be the focus of entire adventures.  Diseases could be caused by viruses, bacteria, parasites, or even magical maladies.  The ways creatures can contract them, their symptoms, and their cures vary wildly.  
+
+This document provides a systemic way of defining individual diseases, similar to the way spells are described.  The following tools will allow you to custom craft diseases for your games, and the examples given at the end of the document can be used as creative inspiration or dropped right into your adventures.  
 
 ## Disease Attributes
+The following attributes can be used to describe any given disease.
 
-Any given disease can be described using the following attributes: 
+### Targets
+This lists the types of creatures this disease can infect.
 
 ### Transmission 
-The means through which a creature can potentially contract the disease.  For example, being hit with a bite attack from an infected creature or being within 10 feet of an infected creature for 1 minute.  
+This is the means through which a creature can potentially contract the disease.  For example, being hit with a bite attack from an infected creature or being within 10 feet of an infected creature for 1 minute.  
 
 ### Saving Throw
-The type of save and DC of that save that a creature must make if subjected to the conditions described by Transmission.  If the creature succeeds on the saving throw, it is not infected.  Unless stated otherwise, the creature that succeeds can still be forced to make the saving throw again if subjected to the transmission conditions again.
+This is the type of save and DC of that save that a creature must make if subjected to the conditions described by Transmission.  If the creature succeeds on the saving throw, it is not infected.  Unless stated otherwise, the creature that succeeds can still be forced to make the saving throw again if subjected to the transmission conditions again.
 
 ### Incubation Time  
-The time between the contraction of the disease and the manifestation of the first symptoms.
+This is the time between the contraction of the disease and the manifestation of the first symptoms.
 
 ### Starting Severity
-Many diseases have different stages of severity, with each stage having its own symptoms.  This describes the severity creatures start with when they first contract the disease.
+Many diseases have different stages of severity, with each stage having its own symptoms.  This describes the severity level creatures start with when they first contract the disease.
 
 ### Increasing Severity Rate
-The time it takes the disease to potentially reach a higher level of severity.  At this point, the infected creature repeats the saving throw against the disease.  On a failure, the disease increases in severity. 
+This is the time it takes the disease to potentially reach a higher level of severity.  At this point, the infected creature repeats the saving throw against the disease.  On a failure, the disease increases in severity. 
+
+\columnbreak
 
 ### Save DC Modifier
-Some diseases become progressively easier or more difficult to cure as time goes on.  This describes the change to the save DC each time the infected creature makes a saving throw against the disease.
+Some diseases become progressively easier or more difficult to cure as time goes on.  This describes the change to the save DC each time the infected creature makes a saving throw against the disease.  This change is applied before the saving throw is made.
 
 ### Reversible Severity
 This true/false statement describes whether a creature can naturally shrug off the effects of the disease without outside intervention.  If it is true, then whenever a creature succeeds on its saving throw against the disease increasing in severity, the severity of the disease decreases.  If the severity level reaches 0, the creature is cured of the disease.
 
 ### Cures
-These are any outside effects that can cure a creature of a disease.  They could include anything from different types of potions and herbs to healing ceremonies performed at specific sacred sites.
-
-\columnbreak
+These are any outside effects that can cure a creature of the disease.  They could include anything from different types of potions and herbs to healing ceremonies performed at specific sacred sites.
 
 ### Severity Levels  
-Descriptions of the symptoms at each severity level.
-
-> ##### Who Rolls the Infection Save?
-> When saving throws are being made to determine if a character is infected by a disease, they should usually be made in secret by the DM.  Player characters will usually only learn they have been infected once the first symptoms display themselves.
+This lists the descriptions of the symptoms at each severity level.
 
 
 
 \pagebreak
 
-## Example Disease
-This is an example
+> ##### Who Rolls the Infection Save?
+> When saving throws are being made to determine if a character is infected by a disease, they should usually be made in secret by the DM.  Player characters will usually only learn they have been infected once the first symptoms display themselves.
 
-#### Some Disease
-This is a description of the disease at a high level along with some interesting lore tidbits for added flavor.<br>
+## Curing Diseases With Magical Abilities
+Abilities like *lessor restoration* and Lay on Hands can instantly cure most diseases.  If you wish to make diseases more difficult to remove, you can use or modify either of the following rules additions.
+
+### Ability Check to Cure
+Whoever uses the ability to attempt to cure the disease must succeed on an ability check against the disease's current save DC to eradicate it successfully.  If the ability being used to cure the disease is a feature granted by a class with a spellcasting feature, the healer can add their Spell Attack Modifier for that class to the ability check.  Otherwise, the healer can add their Wisdom modifier + their proficiency modifier to the ability check.
+
+### Curing By Severity Level
+When an ability that cures diseases is used on a diseased creature, it only reduces the severity level by 1.  
+If you are using the Ability Check to Cure rule, you can allow the healer to reduce an additional severity level if the check's result was 5 or more over the disease's DC.  You can extend this rule to allow a result of 10 over the DC to cure 2 additional severity levels, 15 over the DC to cure 3 additional severity levels, and so on.
+
+\columnbreak
+
+## Example Disease Scenario
+The following is an example of a disease and how it could play out in a typical game.
+
+#### Head Chills
+This is a fairly mundane sickness that is highly contagious and impairs its target's effectiveness in almost every way.  Fortunately, it is not a deadly disease, and its symptoms almost always clear on their own.  <br>
 ___
-**Trasmission:** Starting your turn within 5 feet of an infected and symptomatic creature.<br>
+**Targets:** Any humanoid <br>
+**Trasmission:** A target starts its turn within 5 feet of an infected and symptomatic creature<br>
 **Saving Throw:** DC 13 Constitution Saving Throw <br>
-**Incubation Time:** 24 Hours <br>
+**Incubation Time:** 1d3 days <br>
 **Starting Severity:** 2 <br>
-**Increasing Severity Rate:** Every 1 Hour <br>
+**Increasing Severity Rate:** Every 1 Day <br>
 **Save DC Modifier:** -1 <br>
 **Reversible Severity:** True <br>
 **Cures:** Eating an apple grown from a treant <br>
 **Severity Levels:**
 
-* **Severity 1:** Whenever the infected creature makes an attack roll or a saving throw, it must roll a d4 and subtract the number rolled from the attack roll or saving throw.
+* **Severity 1:** Whenever the infected creature makes an attack roll, saving throw, or ability check it must roll a d4 and subtract the number rolled from the attack roll or saving throw.
 
-* **Severity 2:** Whenever the infected creature makes an attack roll or a saving throw, it must roll a d6 and subtract the number rolled from the attack roll or saving throw.
+* **Severity 2:** Whenever the infected creature makes an attack roll, saving throw, or ability check it must roll a d6 and subtract the number rolled from the attack roll or saving throw.
 
-* **Severity 3:** Whenever the infected creature makes an attack roll or a saving throw, it must roll a d8 and subtract the number rolled from the attack roll or saving throw. 
+* **Severity 3:** Whenever the infected creature makes an attack roll, saving throw, or ability check it must roll a d8 and subtract the number rolled from the attack roll or saving throw. 
 
 
 If you are running the example disease described above, a player character will need to be within five feet of an infected creature to risk contracting the disease.  Every time the character starts its turn close to the infected creature, you make a DC 15 Constitution saving throw for that character in secret.  Repeat this saving throw every time the character starts its turn within 5 feet of the infected creature until the character contracts the disease.  Do not tell the player if or when their character is infected.
 
-If the character is infected, the symptoms described by Severity 2 will be experienced twenty-four hours later, at which point the player will learn their character is infected.  After an hour of being infected, the character makes another Constitution saving throw against the disease (which can now be made by the player.)   Because the DC modifier is -1, the save DC is now 14.  On a failed save, the character's symptoms increase to Severity 3, and on a successful save, they decrease to Severity 1.
+If the character is infected, the symptoms described by Severity 2 will be experienced in 1 to 3 days, at which point the player will learn their character is infected.  After a day of being infected, the character makes another Constitution saving throw against the disease (which can now be made by the player.)   Because the DC modifier is -1, the save DC is now 14.  On a failed save, the Severity of the character's symptoms increase to 3, and on a successful save, they decrease to 1.
 
 The character continues to make saving throws each hour, with the save DC decreasing by 1 each time.  Failed saves move the severity up one level, and successful saves move it down one level.  This continues until the severity moves to 0, and which point the character is cured.
 
-The disease can be ended early if the character consumes an apple grown from a treant or is subjected to a magical effect that removes diseases.
+The disease ends early if the character consumes an apple grown from a treant or is subjected to an effect that removes diseases.
+
+\pagebreak
+
+## Example Diseases
+The following are examples of other types of diseases with a variety of attributes.  You can drop them right into your games as they are, modify them to better suit your adventures, or use them as inspiration for new diseases of your own.  
+
+#### Cackle Fever 
+This disease targets humanoids, although gnomes are strangely immune. While in the grips of this disease, victims frequently succumb to fits of mad laughter, giving the disease its Common name and its morbid nickname: “the shrieks.”<br>
+___
+**Targets:** Any non-gnome humanoid <br>
+**Trasmission:** A target starts its turn within 10 feet of an infected creature in the throes of mad laughter<br>
+**Saving Throw:** DC 10 Constitution Saving Throw <br>
+**Incubation Time:** 1d4 hours <br>
+**Starting Severity:** 3 <br>
+**Increasing Severity Rate:** Every 24 Hours <br>
+**Save DC Modifier:** -1 <br>
+**Reversible Severity:** True <br>
+**Cures:** Sucking on a lemon blessed by a gnomish priest <br>
+**Severity Levels:**
+
+* **Severity 1-3:** Any event that causes the infected creature great stress—including entering combat, taking damage, experiencing fear, or having a nightmare—forces the creature to make a DC Constitution saving throw against the disease's saving throw. On a failed save, the creature takes 5 (1d10) psychic damage and becomes incapacitated with mad laughter for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the mad laughter and the incapacitated condition on a success. A creature that fails three of these Saving Throws within 24 hours gains a randomly determined form of indefinite madness, as described DMG.
+
+\columnbreak
+
+#### Sewer Plague 
+Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps and are sometimes transmitted by creatures that dwell in those areas, such as **rats** and **otyughs**.<br>
+___
+**Targets:** Any humanoid or beast (other types of creatures might carry the disease but suffer no symptoms) <br>
+**Trasmission:** A target is bitten by a creature that carries the disease, or it comes into contact with filth or offal contaminated by the disease <br>
+**Saving Throw:** DC 11 Constitution Saving Throw <br>
+**Incubation Time:** 1d4 days <br>
+**Starting Severity:** 1 <br>
+**Increasing Severity Rate:** Every 24 Hours <br>
+**Save DC Modifier:** 0 <br>
+**Reversible Severity:** True <br>
+**Cures:** The creature must drink a flask's worth of holy water and go 24 hours without eating or drinking anything else.  <br>
+**Severity Levels:**
+
+* **Severity 1-6:**  The infected creature regains only half the normal number of hit points from spending hit dice and no hit points from finishing a long rest.  It also suffers a level of exhaustion for each severity level of its symptoms.  This exhaustion can’t be removed until the disease is cured.
+
+#### Sight Rot
+This painful infection causes bleeding from the eyes and eventually blinds the victim. <br>
+___
+**Targets:** Any beast or humanoid <br>
+**Trasmission:** The target drinks or submerges its face in water tainted with this disease <br>
+**Saving Throw:** DC 15 Constitution Saving Throw <br>
+**Incubation Time:** 1 day <br>
+**Starting Severity:** 1 <br>
+**Increasing Severity Rate:** Every 24 Hours <br>
+**Save DC Modifier:** 0 <br>
+**Reversible Severity:** False <br>
+**Cures:**  Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character who has proficiency with an herbalism kit can turn the flower into one dose of ointment. When applied to the eyes, one dose of the ointment prevents the disease from worsening for the next 24 hours. After three doses, the ointment cures the disease entirely. <br>
+**Severity Levels:**
+
+* **Severity 1-4:**  The creature takes a penalty to attack rolls and ability checks that rely on sight equal to the severity level of the disease.
+* **Severity 5:** The creature takes a −5 penalty to attack rolls and ability checks that rely on sight and suffers from the blinded condition.
+
+\pagebreak
+
+#### Nurgle's Rot
+This disease is inflicted by demons and rots the body before devouring the soul. <br>
+___
+**Targets:** Any humanoid <br>
+**Trasmission:** A target takes damage from a weapon tainted with the disease<br>
+**Saving Throw:** DC 15 Constitution Saving Throw <br>
+**Incubation Time:** 1 hour <br>
+**Starting Severity:** 1 <br>
+**Increasing Severity Rate:** Every 1 Hour <br>
+**Save DC Modifier:** +1 <br>
+**Reversible Severity:** False <br>
+**Cures:**  The Healing Touch ability of an angel <br>
+**Severity Levels:**
+
+* **Severity 1 - 10:** Whenever the creature takes necrotic or poison damage while infected, its hit point maximum is reduced by an amount equal to the damage taken.  This reduction lasts until the disease is cured.  
+Whenever the disease's severity increases, the creature takes necrotic damage equal to 1d10 + the new severity level.  The target dies if this effect reduces its hit point maximum to 0, at which point it is instantly transformed into a **plaguebearer**.  This transformation can only be undone by a *wish* spell.
+
+
+#### Giant's Bane
+This disease causes its host's muscles to weaken and become useless.  This affliction is said to have plagued giants for ages and can be contracted by humanoids. <br>
+___
+**Targets:** Any giant or humanoid<br>
+**Trasmission:** A target ends its turn within 5 feet of an infected creature.  Giants have disadvantage on the saving throw to avoid infection.  <br>
+**Saving Throw:** DC 14 Constitution Saving Throw <br>
+**Incubation Time:** 1 day <br>
+**Starting Severity:** 1 <br>
+**Increasing Severity Rate:** Every 24 Hours <br>
+**Save DC Modifier:** +1 <br>
+**Reversible Severity:** True <br>
+**Cures:**   The tooth of a dragon old enough to at least be considered an adult.  The tooth must be ground down and consumed by the infected creature. <br>
+**Severity Levels:**
+
+* **Severity 1:** The infected creature makes ability checks, attack rolls, and saving throws that use its Constitution, Dexterity, or Strength modifier with disadvantage.
+
+* **Severity 2:** The infected creature suffers the effects of Severity 1, and damage dealt by its weapon attacks that use Strength are halved.
+
+* **Severity 3:** The creature falls prone and is paralyzed.
+
 
 \pagebreak
 
 #### 0.0.0
 * Document creation
+
+#### 0.0.1
+* Finished draft of text
