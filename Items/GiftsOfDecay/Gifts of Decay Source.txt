@@ -97,17 +97,19 @@ While holding this shield, whenever you take damage from an attack, the shield g
 
 #### Staff of Decay
 *Wondrous item, very rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)*<br>
-his blighted staff was carved from the rotting wood of a dying treant and holds power over the processes of death and decay.
+This blighted staff was carved from the rotting wood of a dying treant and holds power over the processes of death and decay.
 
 You have resistance to necrotic damage while you hold this staff.
 
-The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: *inflict wounds* (1 charge), *stream of corruption* (2 charges), *blight* (4 charges), or *circle of death* (6 charges).
+The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: *inflict wounds* (1 charge), *stream of corruption** (2 charges), *blight* (4 charges), or *circle of death* (6 charges).
 
 The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff melts into brackish water and is destroyed.
 
+<br> *New spell described on next page
+
 ### Art Credit
 * Nurgle Army - Alexey Kruglov
-* Nurgle Lord of Change - Helge C. Balzer
+* Nurgle Lord of Chaos - Helge C. Balzer
 
 
 <img 
@@ -122,18 +124,31 @@ The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last
 
 \pagebreak
 
-#### 0.0.0
-* First Draft
+### New Spell
 
-#### 0.0.1 
-* Cleaned up wording on items
+#### Stream of Corruption
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (30-foot cone) or 100 feet
+- **Components:** S, M (a vial of meltwater)
+- **Duration:**   Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
 
-#### 0.0.2 
-* Added items to master item list
-* Updated intro paragraph
-* Removed footer from second page
+Bile spews forth from you in a 30-foot cone.  Each creature in that area must make a Constitution saving throw.  A creature takes 3d8 necrotic damage on a failed save, or half as much damage on a successful one.
+
+When you cast this spell, you may instead choose a creature within 100 feet of you that you can see and force it to make a Constitution saving throw.  On failed save, it takes 3d8 necrotic damage, and you may cause the cone of bile described above to spew forth from the creature in the direction you choose.  On a successful save, a creature takes half as much damage and does not spew bile.
+
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and by the cone of bile by 1d8 for each slot level above 2nd.
 
 \columnbreak
 
+#### 1.0.0
+* Public release
+* Add description for *stream of corruption*
+
 #### Referenced Documents
 * New Items 0.0.6
+* New Spells 0.0.3
