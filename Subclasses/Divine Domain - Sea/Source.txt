@@ -37,7 +37,7 @@ Gods of the sea such as Umberlee, Zeboim, Deep Sashelas, Manannan mac Lir, Aegir
 Clerics of this domain receive similar fear and reverence.  The divine waters they conjure can bring life to their allies and crushing death to their foes.  In combat, these clerics gather power like a rising tide, elevating those who earn their favor and drowning out the rest.
 
 #### Domain Spells
-*1st level Aquatic Domain Feature*<br>
+*1st level Sea Domain Feature*<br>
 You gain the domain spells at the cleric levels listed in the Sea Domain Spells table.  See the Divine Domain class feature for how domain spells work.
 
 ##### Sea Domain Spells
@@ -54,11 +54,11 @@ You gain the domain spells at the cleric levels listed in the Sea Domain Spells 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Aquatic Initiate
-*1st level Aquatic Domain Feature*<br>
+*1st level Sea Domain Feature*<br>
 You learn the *control water* cantrip. It counts as cleric cantrip for you, but does’t count against your number of cantrips known.  Additionally, you gain a swim speed equal to your move speed.  If you already have a swim speed, it is increased by 10 feet.
 
 #### Ebb and Flow
-*1st level Aquatic Domain Feature*<br>
+*1st level Sea Domain Feature*<br>
 The sea both giveth and taketh away.  The depth of your sacred connection to this domain is represented by a pool of d4s, referred to as your Ebb and Flow pool.  This pool grows like the tides as your divine powers ebb and flow between the destructive and restorative aspects of the sea.  At any given time, you are in one of two states: Ebb or Flow.  You can choose which state you are in when you gain this feature and whenever you complete a short or long rest.  Otherwise, you can enter each of these states under the following conditions:
 
 **Ebb:** Whenever you cast one of your Aquatic Domain spells, you enter the Ebb state.
@@ -84,7 +84,7 @@ style='position:absolute;top:-30px;left:-20px;width:850px;transform: scaleX(1)' 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Channel Divinity: Watery Domain
-*2nd level Aquatic Domain Feature*<br>
+*2nd level Sea Domain Feature*<br>
 As a bonus action, you can use your Channel Divinity feature to switch to either the Ebb or Flow state while also calling forth the waters of your god's domain at a point you can see within 60 feet of you.  The summoned waters take the shape of a circular body of 10-foot deep water with a radius of 10 feet.  Alternatively, you can target an existing cylindrical area of water you can see with a radius of up to 20 feet and a depth of up to 20 feet to bring under the control of your god.  
 
 This domain lasts for 1 minute, and the effect ends early if you are incapacitated, die, or use this feature again.
@@ -98,15 +98,15 @@ All creatures who failed their save are then pulled towards or pushed away from 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Rising Tide
-*6th level Aquatic Domain Feature*<br>
+*6th level Sea Domain Feature*<br>
 Whenever you cast a spell of first level or higher, if it is a higher level than any spells you've cast since the beginning of your last turn, you add a d4 to your Ebb and Flow dice pool.
 
 #### Potent Spellcasting
-*8th level Aquatic Domain Feature*<br>
+*8th level Sea Domain Feature*<br>
 You now add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
 #### Banished to the Deep 
-*17th level Aquatic Domain Feature*<br>
+*17th level Sea Domain Feature*<br>
 If your Watery Domain feature is active, you may use an action to expend all the dice in your Ebb and Flow pool and roll them.  Each creature of your choice in the area of your Watery Domain must make a Strength saving throw with a DC equal to the result you rolled from your Ebb and Flow dice pool.  On a failure, the creature is pulled deep into the water and subjected to the *plane shift* spell, with the destination being your diety's home plane.  If no such plane exists, you can instead target a watery plane.  If a creature passes, you may instead have it pushed or pulled 5 feet away or towards the center of the domain for every Ebb and Flow die rolled.
 
 <img
@@ -197,16 +197,66 @@ If your Watery Domain feature is active, you may use an action to expend all the
 
 \pagebreak
 
-### 0.0.0 Changes
+## New Spells
+
+#### Acid Rain
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (a few pine needles)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Druid, Sorcerer, Wizard, 
+___
+
+Acidic rain falls in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. When a creature enters the spell’s area for the first time on a turn or starts its turn there, it takes 4d4 acid damage and is covered in acid for the spell’s duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 4d4 acid damage at start of each of its turns.
+
+***At Higher Levels.*** The initial acid damage well as the <br> acid damage at end of each of acid covered creature’s <br> turns is increase by 1d4 for each slot level above 5th.
+
+#### Mud Ball
+*2nd-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 10 feet
+- **Components:** V, S, M (a smooth piece of igneous rock)
+- **Duration:**   Instantaneous
+- **Classes:**  Druid, Ranger
+___
+
+You summon forth a huge, rolling mass of Mud.  A 10-foot-diameter sphere of mud appears in an unoccupied space of your choice within range. The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the sphere strikes the target and explodes. When the sphere explodes, each creature within a 10-foot radius must succeed on a Dexterity saving throw or be blinded until the end of it's next turn. A creature hit by the sphere fails the save automatically. Any surface the sphere rolled over, or that was hit by the explosion is covered in 3-inch-thick mud. The mud is difficult terrain until cleared.
+
+#### Puddle of Ooze 
+*3rd-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (a bit of slug slime)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Artificer
+___
+
+The ground in a 20-foot radius centered on a point within range is covered in acidic ooze, becoming difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
+
+When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
+
+#### 0.0.0 Changes
 * First draft
 
-### 0.0.1 Changes
+#### 0.0.1 Changes
 * Gus's first draft
 * Cleaned up Ebb and Flow
 
-### 0.0.2 Changes
+#### 0.0.2 Changes
 * Cleaned up remainder of document
 * Added alternative channel divinities for bog and river
 
-### 0.0.3 Changes
+#### 0.0.3 Changes
 * Finished first draft of entire document, including art
+
+#### 0.0.4 Changes
+* Add new spells for Swamp domain
+
+<br>
+
+### Referenced Documents
+* New Spells 0.0.4
