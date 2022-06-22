@@ -20,15 +20,15 @@ Once you gain access to one of these spells, you always have it prepared, and it
 |  7th          | Blight, Inflict Rot|
 |  9th          | Contagion, Cloudkill|
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Produce Pathogen
 *2nd Level Circle of Plagues Feature*<br>
 You can summon a specialized disease strain to bolster allies and wither enemies.  As a bonus action, you can expend a use of your Wild Shape feature to attempt to infect a creature within 5 feet of you, including yourself.  It must make a Constitution saving throw against your spell save DC, which it can choose to fail.  On a failure, it is infected with a disease with one symptom of your choice.  Whenever a creature is infected by one of your diseases, you can choose to make it a Symbiotic Host rather than a Victim, in which case it gains positive effects from the disease.  The symptoms for Victims and Symbiotic Hosts are described in the Disease Symptoms section at the end of this document.  
 
-At the end of each of your turns, any infected creatures spread their disease to another uninfected creature within 5 feet.  This uninfected creature must make the same saving throw or become infected with the same disease.  If there are more than one uninfected creatures within 5 feet of an infected creature, you may choose which of the creatures becomes infected if you can see it.  Otherwise, DM chooses one at random.
+At the start of each of your turns, all infected creatures must make a Constitution saving throw against your spell save DC, which they can choose to fail.  On a successful save, creatures end the disease on themselves.  
 
-Infected creatures must make a Constitution saving throw at the end of their turns against your spell save DC, which they can choose to fail.  On a successful save, creatures end the disease on themselves.  
+After these saves are made, every creature that's still infected spreads its disease to another uninfected creature within 5 feet of it.  This uninfected creature must make the same saving throw or become infected with the same disease.  If there are more than one uninfected creatures within 5 feet of an infected creature, you may choose which of the creatures becomes infected if you can see it.  Otherwise, DM chooses one at random.
 
 A creature can only be infected by the disease once and can't become infected by it again until you use this ability again.
 
@@ -55,9 +55,9 @@ You have resistance to necrotic damage and may also choose to automatically succ
 *6th Level Circle of Plagues Feature*<br>
 You've learned how to mutate your diseases to better suit them to any given situation.  When you use your Produce Pathogen feature, you may alter it with one of the following traits:
 
-***Air Born.*** An infected creature can now spread the disease to another uninfected creature within 15 feet of it.
+***Air Born.*** An infected creature can now spread the disease to another uninfected creature within 30 feet of it.
 
-***Plague Missile.*** When you use Produce Pathogen, you can infect a creature up to 100 feet away from you rather than 5 feet from you.
+***Plague Missile.*** When you use Produce Pathogen, you can infect a creature up to 120 feet away from you rather than 5 feet from you.
 
 ***Pestilent Hex.***  The disease is no longer able to spread beyond the initial target.  You may choose to have the target suffer from two different Symptoms of your choice.  The creature also has disadvantage on the saving throw against becoming infected.
 
@@ -196,3 +196,7 @@ style='position:absolute;top:-40px;left:-0px;width:700px;transform:scalex(1);' /
 * Change weeping eyes to grant blindsight rather than darkvision
 * Fix layout of first page
 * Change wording of symptoms to specify a Victim
+
+#### 0.0.5
+* Change timing of saving throws for Produce Pathogen
+* Increase range of Air Born
