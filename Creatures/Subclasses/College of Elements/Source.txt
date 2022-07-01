@@ -1,8 +1,37 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br>
 
 ## College of Elements NPCs
 
-The following stat blocks can be used to describe non-player character bards from the college of elements or have abilities similar to a bard of that college.  You can choose the stat block that best aligns with the power level of the NPC. 
+The following stat blocks can be used to describe non-player characters who are bards from the college of elements or have abilities similar to a bard from that college.  You can choose the stat block that best aligns with the power level of the NPC. 
 
 <br><br><br><br><br>
 
@@ -15,44 +44,43 @@ ___
 >*Medium humanoid (any race), any alignment*
 > ___
 > - **Armor Class** 14 (leather armor)
-> - **Hit Points** 36 (8d8+0)
+> - **Hit Points** 36 (8d8)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|10 (+0)|16 (+3)|10 (+0)|12 (+1)|10 (+0)|16 (+3)|
 >___
-> - **Saving Throws** Dex +5 Charisma +5
-> - **Skills** Acrobatics +7, Performance +7, Perception + 2
-> - **Senses** passive Perception 12.
-> - **Languages** - any two languages.
-> - **Challenge** 2 (450 XP)   &emsp;&emsp;  **Proficiency Bonus** +2       
+> - **Saving Throws** Dex +5, Charisma +5
+> - **Skills** Acrobatics +7, Perception +2, Performance +7
+> - **Senses** passive Perception 12
+> - **Languages** any two languages
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
 > ___
-> ### Bonus Actions
-> **Kinetic Artistry (3/Day).** The bard takes the dash action. When it takes this action, it chooses one of the following additional effects:
->
->**Cold.**  Until the end of the bard's turn, it can move across water surfaces as if they are harmless, solid ground. Additionally, when it leaves a space within 5 feet of a creature, it can force that creature to make a DC 13 Strength saving throw. On a failed save, the creature is knocked prone. A creature can be targeted by this ability only once each turn.
->
->**Fire.** Once before the end of the bard's turn, it can force each creature within 5 feet of itself to make a DC 13 Dexterity saving. On a failure, a creature takes 6 (1d6 + 3) fire damage.
->
->**Lightning.**  Until the end of the bard’s turn, it can move through the space of other creatures, and it does not provoke opportunity attacks. If it ends its turn inside a creature’s space, the bard is pushed into the nearest unoccupied space.
->
 > ### Actions
 >
->  **Rapier.** Melee Weapon Attack: +6 to hit, reach 5 ft., one
-target. Hit: 7 (1d8 + 3) piercing damage.
+>  ***Rapier.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one
+target. *Hit:* 7 (1d8 + 3) piercing damage.
 >
-> **Shortbow.** Ranged Weapon Attack: +6 to hit, range 80/320 ft., one 
-target. Hit: 6 (1d6 + 3) piercing damage.
+> ***Shortbow.*** *Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one 
+target. *Hit:* 6 (1d6 + 3) piercing damage.
 >
-> **Spellcasting.** The bard is a 3th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 13 +5 to hit with spell attacks). It has the following spells prepared:
+> ***Spellcasting.*** The bard casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 13, +5 to hit with spell attacks):
 > 
-> **Cantrips** (at will): *firebolt*, *ray of frost*, *shocking grasp*
+> Cantrips (at will): *firebolt*, *ray of frost*, *shocking grasp*
 > 
-> **1st level** (4 slots): *burning hands*, *ice knife*, *witch bolt*
+> 1st level (4 slots): *burning hands*, *ice knife*, *witch bolt*
 > 
-> **2nd level** (2 slots):, *aganazzar's scorcher*, *snilloc's snowball storm*, *static field*
+> 2nd level (2 slots): *aganazzar's scorcher*, *snilloc's snowball storm*, *static field*
+>
+> ### Bonus Actions
+> ***Kinetic Artistry (3/Day).*** The bard takes the dash action. When it takes this action, it chooses one of the following additional effects:
+>
+>**Cold.**  Until the end of the bard's turn, it can move across the surface of water as though it is harmless, solid ground. Additionally, when it leaves a space within 5 feet of a creature, it can force that creature to make a DC 13 Strength saving throw. On a failed save, the creature is knocked prone. A creature can be targeted by this ability only once each turn.
+>
+>**Fire.** Once before the end of the bard's turn, it can force each creature within 5 feet of itself to make a DC 13 Dexterity saving throw. On a failure, a creature takes 6 (1d6 + 3) fire damage.
+>
+>**Lightning.**  Until the end of the bard's turn, it can move through the space of other creatures, and it does not provoke opportunity attacks. If it ends its turn inside a creature's space, the bard is pushed into the nearest unoccupied space.
 
 <img 
   src='https://i.ibb.co/TMr6MCs/a207121f430184d23e8928c1eb659e6e.jpg' 
@@ -73,57 +101,55 @@ ability is Charisma (spell save DC 13 +5 to hit with spell attacks). It has the 
 
 * Expressive Iteration - <br>Anastasia Ovchinnikova, <br>Wizards of the Coast
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 ___
 ___ 
 > ## Kinetic Artist
 >*Medium humanoid (any race), any alignment*
 > ___
-> - **Armor Class** 15 (Studded leather)
-> - **Hit Points**  104 (19d8+19)
+> - **Armor Class** 15 (studded leather)
+> - **Hit Points**  104 (19d8 + 19)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|10 (+0)|16 (+3)|12 (+1)|12 (+1)|10 (+0)|18 (+4)|
 >___
-> - **Saving Throws** Dex +5 Charisma +7
+> - **Saving Throws** Dex +6, Charisma +7
 > - **Skills** Acrobatics +9, Performance +10, Perception + 3
 > - **Senses** passive Perception 13.
-> - **Languages** - any two languages.
-> - **Challenge** 7 (XP: 2,900)   &emsp;&emsp;  **Proficiency Bonus** +3       
+> - **Languages** any two languages
+> - **Challenge** 7 (2,900 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
 > ___
-> ### Bonus Actions
-> **Kinetic Artistry.** The artist takes the dash action. When it takes this action, it chooses one of the following additional effects:
->
->**Cold.** Until the end of the artist's turn, it can move across water surfaces as if they are harmless, solid ground. Additionally, when it leaves a space within 5 feet of a creature, it can force that creature to make a DC 15 Strength saving throw. On a failed save, the creature is knocked prone. A creature can be targeted by this ability only once each turn.
->
->**Fire.** Once before the end of the artist's turn, it can force each creature within 5 feet of itself to make a DC 15 Dexterity saving. On a failure, a creature takes 6 (1d8 + 4) fire damage.
->
->**Lightning.** Until the end of the artist’s turn, it can move through the space of other creatures, and it does not provoke opportunity attacks. If it ends its turn inside a creature’s space, the artist is pushed into the nearest unoccupied space.
->
 > ### Actions
+>  ***Rapier.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one
+target. *Hit:* 7 (1d8 + 3) piercing damage.
 >
->  **Rapier.** Melee Weapon Attack: +7 to hit, reach 5 ft., one
-target. Hit: 7 (1d8 + 3) piercing damage.
+> ***Shortbow.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one 
+target. *Hit:* 6 (1d6 + 3) piercing damage.
 >
-> **Shortbow.** Ranged Weapon Attack: +7 to hit, range 80/320 ft., one 
-target. Hit: 6 (1d6 + 3) piercing damage.
->
-> **Spellcasting.** The artist is a 6th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 15 +7 to hit with spell attacks). It has the following spells prepared:
+> ***Spellcasting.*** The bard casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 15, +7 to hit with spell attacks):
 > 
-> **Cantrips** (at will): *firebolt*, *ray of frost*, *shocking grasp*
+> Cantrips (at will): *firebolt*, *ray of frost*, *shocking grasp*
 > 
-> **1st level** (4 slots): *burning hands*, *ice knife*, *witch bolt*
+> 1st level (4 slots): *burning hands*, *ice knife*, *witch bolt*
 > 
-> **2nd level** (3 slots): *aganazzar's scorcher*, *snilloc's snowball storm*, *static field*
+> 2nd level (3 slots): *aganazzar's scorcher*, *snilloc's snowball storm*, *static field*
 >
->**3nd level** (3 slots): *fireball*, *frost nova*, *lightning bolt*
+> 3nd level (3 slots): *fireball*, *frost nova*, *lightning bolt*
+>
+> ### Bonus Actions
+> ***Kinetic Artistry.*** The artist takes the dash action. When it takes this action, it chooses one of the following additional effects:
+>
+>**Cold.**  Until the end of the artist's turn, it can move across the surface of water as though it is harmless, solid ground. Additionally, when it leaves a space within 5 feet of a creature, it can force that creature to make a DC 15 Strength saving throw. On a failed save, the creature is knocked prone. A creature can be targeted by this ability only once each turn.
+>
+>**Fire.** Once before the end of the artist's turn, it can force each creature within 5 feet of itself to make a DC 15 Dexterity saving throw. On a failure, a creature takes 6 (1d8 + 4) fire damage.
+>
+>**Lightning.**  Until the end of the artist's turn, it can move through the space of other creatures, and it does not provoke opportunity attacks. If it ends its turn inside a creature's space, the artist is pushed into the nearest unoccupied space.
 >
 > ### Reactions
-> **Elemental Defense (4/Day)** When another creature the artist can see within 60 feet makes a saving throw, the creature can roll a 1d8 and add the number rolled to the save.  The creature also gains resistance to either cold, fire, or lightning damage (artist's choice) until the end of the turn.
+> ***Elemental Defense (4/Day)*** When another creature the artist can see within 60 feet makes a saving throw, that creature can roll a d8 and add the result to the save.  The creature also gains resistance to either cold, fire, or lightning damage (artist's choice) until the end of the turn.
 
 <div style='margin-top:850px;'></div>
 <img
@@ -144,5 +170,8 @@ style='position:absolute;top:-30px;left:220px;width:600px' />
   
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0 
  * Public Release
+
+#### 1.0.1
+* Typo clean-up
