@@ -152,7 +152,7 @@ You've practiced scurrying in and out of combat and dispatching foes in underhan
 
 * Increase your Strength or Dexterity score by 1, to a maximum of 20.
 * When you use your Scurry Away trait on a creature within 5 feet of you, you may choose to make a bite attack with disadvantage against that creature as part of the same action before you move.
-* When the creature you are frightened of by your Scurry Away feature misses an attack against you, you are no longer frightened of it, and you may then use your reaction to move up to half your speed towards it.  If this movement brings you within 5 feet of the creature, or you were already within 5 feet of it, you may make a bite attack against it with advantage as part of your reaction.
+* When a creature you have been frightened of by your Scurry Away feature since the start of your last turn misses an attack against you, any fear you have of that creature ends. You may then use your reaction to move up to half your speed towards it.  If this movement brings you within 5 feet of the creature, or you were already within 5 feet of it, you may make a bite attack against it with advantage as part of your reaction.
 
 
 
@@ -218,14 +218,20 @@ Your body is riddled with diseases that perversely grant you vitality while also
 * Increase your Constitution or Strength score by 1, to a maximum of 20.
 * Once per turn, when you hit a creature with your bite attack, you can force it to make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become infected by your disease.  While it is diseased, whenever the infected creature makes an ability check, attack roll, or saving throw, it must roll a d4 and subtract the number rolled from the ability check, attack roll, or saving throw.  The creature can repeat the saving throw at the end of each of its turns, ending the disease on a success.  Once a creature is cured of the disease, or it succeeds on saving throw against the disease, it can't become infected by this disease again for 24 hours.
 
+### Tail Master
+*Prerequisite : Ratfolk Race*<Br>
+You've trained your tail coordination to the point where you can use it like a third hand.  You may use your tail to perform actions you would normally need a free hand for.  Your tail can wield simple weapons with the light property, but no other types of weapons and no shields.  When you take an attack action while wielding a weapon with your tail, you may make an additional off-hand attack, allowing you a maximum of two off-hand attacks.
+
 ### Under Speaker
 *Prerequisite : Ratfolk Race*<Br>
 You've learned how to communicate with your fellow rodents, keeping you well informed by a vast network of verminous spies and granting you the following benefits:
-* Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
-* You gain the ability to cast the *beast sense* and *speak with animals*, but only as rituals and only targeting rats.  The spells' spell casting ability is the ability increased by this feat.
 
 
 \columnbreak
+
+
+* Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
+* You gain the ability to cast the *beast sense* and *speak with animals*, but only as rituals and only targeting rats.  The spells' spell casting ability is the ability increased by this feat.
 
 * You can cast *animal friendship* and *animal messenger*, but only targeting rats.  Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest.  You can also cast these spells using spell slots you have of the appropriate level.  The spells' spellcasting ability is the ability increased by this feat.
 
@@ -236,9 +242,9 @@ You know how best to capitalize on any opening left by your opponent, granting y
 * You learn the True Strike cantrip. You can cast it without somatic components, and Wisdom is your spellcasting ability when casting it. You can cast this spell even while you are frightened by your Scurry Away trait. If an attack that was granted advantage by the spell hits, you can use your Overwhelming Swarm trait even if you have no uses of the feature left, and doing so does not expend any uses of it.
 * When you use your Overwhelming Swarm feature against a creature that can't see you, you gain the maximum number of additional damage dice possibly granted by that feature, regardless of the number of allies within 5 feet of your target.
 
-<img src='https://i.ibb.co/bQk7FPN/ink-eyes-servent-of-oni.png' style='position:absolute; bottom:-150px; right:00px; width:817px; transform:rotate(0deg);filter:opacity(100%);transform:scaleX(1);'/>
+<img src='https://i.ibb.co/bQk7FPN/ink-eyes-servent-of-oni.png' style='position:absolute; bottom:-180px; right:00px; width:817px; transform:rotate(0deg);filter:opacity(100%);transform:scaleX(1);'/>
 
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-195px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-160px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 
 \pagebreak
@@ -389,5 +395,6 @@ style='position:absolute;top:-10px;left:270px;height:480px;transform:scaleX(1)'>
   
 \pagebreak
 
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Public release
+* Updated third bullet point of Devious Adversary
