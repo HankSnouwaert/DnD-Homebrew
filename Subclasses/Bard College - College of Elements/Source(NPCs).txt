@@ -1,71 +1,102 @@
 
+<style>
 
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p4:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
 ## Bard College
 
 ### College of Elements
-Bards of this college train in magical techniques <br> not normally known to other bards: the manipulation <br> of primal elemental forces.  These bards see the primordial forces of lighting, fire, and ice how a painter views oils and a canvas.  They shape these elemental forces into dazzling and deadly displays. The performances of these elemental bards are truly a visual special. In combat, they weave through the fray, utilizing different elements to match the needs of any given situation, always doing so with artistic flair.
+Bards of this college train in magical techniques <br> not normally known to other bards: the manipulation <br> of primal elemental forces.  These bards see the primordial forces of lighting, fire, and ice how a painter views oils and a canvas.  They shape these elemental forces into dazzling and deadly displays.  The performances of these elemental bards are truly a visual special.  In combat, they weave through the fray, utilizing different elements to match the needs of any given situation, always doing so with artistic flair.
 
 #### Elementalist's Palette
-When you join the college of elements at 3rd level, you learn to tap into elemental magics. When your spellcasting feature lets you learn a bard cantrip or a bard spell of 1st level or higher, you can choose the new spell from the sorcerer spell list or the bard spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a bard spell for you.
+*3rd Level College of Elements feature*<br>
+You've learned to tap into elemental magics. When your spellcasting feature lets you learn a bard cantrip or a bard spell of 1st level or higher, you can choose the new spell from the sorcerer spell list or the bard spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a bard spell for you.
 
-Additionally, you learn the *chromatic orb* spell. It is a bard spell for you, but it doesn't count against your number of bard spells known, and you may cast it without material components.
+You also learn the *chromatic orb* spell. It is a bard spell for you, but it doesn't count against your number of bard spells known, and you may cast it without material components.
 
-Finally, whenever you make a Charisma (Performance) check, if you have cast a conjuration or evocation spell of 1st level or higher since the beginning of your last turn, you can increase the result of the check by the level of the spell cast.
+Additionally, whenever you make a Charisma (Performance) check, if you have cast a conjuration or evocation spell of 1st level or higher since the beginning of your last turn, you can increase the result of the check by the level of the spell cast.
 
 #### Kinetic Artistry
-At 3rd level, you may use an bonus action to expend a use of your bardic inspiration to dash. When you take this bonus action, choose one of the following additional effects:
+*3rd Level College of Elements feature*<br>
+You may use a bonus action to expend a use of your Bardic Inspiration to dash. When you take this bonus action, choose one of the following additional effects:
 
-**Fire.** Flames wreath your steps. Once before the end of your turn, you can force each creature within 5 feet of you to make a Dexterity saving throw against your spell save DC. On a failure, a creature takes fire damage equal to a roll of your bardic inspiration die + your Charisma modifier.
+**Cold.** Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. Additionally, when you leave a space within 5 feet of a creature, you can force that creature to make a Strength saving throw against your spell save DC. 
 
 \columnbreak
 
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
-**Cold.** Icy water swirls around you. Until the end of your turn, you can move across the surface of water as if it were harmless solid ground. Additionally, when you leave a space within 5 feet of a creature, you can force that creature to make a Strength saving throw against your spell save DC. On a failed save, the creature is knocked prone. A creature can be affected by the water only once each turn.
+On a failed save, the creature is knocked prone. A creature can be affected by the water only once each turn.
+
+**Fire.** Flames wreath your steps. Once before the end of your turn, you can force each creature within 5 feet of you to make a Dexterity saving throw against your spell save DC. On a failure, a creature takes fire damage equal to a roll of the Bardic Inspiration die used + your Charisma modifier.
 
 **Lightning.** You take on a nimble lightning form. Until the end of your turn, you can move through the space of other creatures, and you do not provoke opportunity attacks. If you end your turn inside a creature’s space, you are pushed into the nearest unoccupied space.
 
-Additionally, when you give a creature a bardic inspiration die, you can infuse it with a cold, fire or lighting. The creature can use the bardic inspiration die to dash as bonus action and gain an additional effect based which it damage type it was infused with, as shown by the options above.
+When you give a creature a Bardic Inspiration die, you can infuse it with cold, fire, or lightning. The creature can use the Bardic Inspiration die to dash as a bonus action and gain an additional effect based on which damage type it was infused with, as shown by the options above.
 
 #### Creative Outburst
-Starting at 6th level, when you cast a spell of 1st level or higher level spell that deals cold, fire or lighting damage, you can use your Kinetic Artistry feature without expending a use of bardic inspiration  The effect you gain matches the damage type of the spell.  If the spell can deal multiple damage types, you can choose which one to use.
+*6th Level College of Elements feature*<br>
+You and others you inspire are infused with even more magnificent elemental power.  When you cast a spell of 1st level or higher level that deals cold, fire, or lightning damage, you can use your Kinetic Artistry feature on yourself without expending a use of Bardic Inspiration.  The effect you gain matches the damage type of the spell.  If the spell can deal multiple types of damage, you can choose which one to use.
 
-Additionally, a bardic inspiration die infused with cold, fire or lighting from your Kinetic Artistry ability provides additional effects based on the elemental type it is infused with, as detailed below:
+Additionally, a Bardic Inspiration die infused with cold, fire, or lightning from your Kinetic Artistry feature provides additional effects based on the elemental type it is infused with, as detailed below:
 
-<img src='https://i.ibb.co/z5rMNHD/efreet-flamepainter.jpg' style='position:absolute;top:-110px;right:-230px;width:1070px;transform:scaleX(-1)' />
+<img src='https://i.ibb.co/z5rMNHD/efreet-flamepainter.jpg' style='position:absolute;top:-120px;right:-230px;width:1070px;transform:scaleX(-1)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png1' style='position:absolute; top:200px; right:0px; width:900px;transform: scaleX(-1); filter: grayscale(00%) brightness(97%);' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-50px;left:0px;width:916px' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png1' style='position:absolute; top:190px; right:0px; width:900px;transform: scaleX(-1); filter: grayscale(00%) brightness(97%);' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-50px;left:0px;width:916px' />
+style='position:absolute;top:-60px;left:0px;width:916px' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:295px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-60px;left:0px;width:916px' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:285px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+**Saving Throw.** Immediately after the creature rolls the Bardic Inspiration die and adds it to a saving throw, it gains resistance to the infused damage type until the end of the turn.
 
+**Attack Roll.** If an attack with a Bardic Inspiration die added to its attack roll hits a creature, the creature takes additional damage of the infused damage equal to a roll of the Bardic Inspiration die used. The creature then suffers an additional effect based on the damage type:
 
-**Saving Throw.** Immediately after the creature rolls the bardic inspiration die and adds it to a saving throw, it gains resistance to the infused damage type until the end of the turn.
+* **Fire.**  The target takes additional fire damage equal to a roll the Bardic Inspiration die used.
 
-**Attack Roll.** Immediately after the creature rolls the bardic inspiration die to adds it to an attack roll against a creature, the creature takes additional damage of the infused damage equal to a roll of your bardic inspiration Die. The creature then suffers an additional effected based on the damage type.
+* **Cold.**   The target’s speed is reduced by 10 feet until the end of its next turn, as it becomes encrusted with ice.
 
-* **Fire.**  The target takes additional fire damage equal to one roll of your Bardic Inspiration die.
-
-* **Cold.**   The target’s speed is reduced by 10 feet until the end of its next turn, as it becomes encrusted with ice. A target can be affected by the ice only once per round.
-
-* **Lightning.** The target is unable to take reactions until the end of its next turn, as  electricity courses through it.
+* **Lightning.** The target is unable to take reactions until the end of its next turn, as electricity courses through it.
 
 #### Maelstrom Muse 
-Starting at 14th level, when you cast a spell of 4th level or higher that deals cold, fire or lighting, you can choose a creature other than yourself within 60 feet of you who can see the spell. That creature gains a Bardic Inspiration infused with the same damage type as the spell. The size of the dice depends on the level of the spell as listed below.
+*14th Level College of Elements feature*<br>
+The artistry of your elemental spells is an inspiration to others. When you cast a spell of 4th level or higher that deals cold, fire, or lighting, you can choose a creature other than yourself within 60 feet of you who can see the spell. That creature gains a Bardic Inspiration die infused with the same damage type as the spell. The size of the die depends on the level of the spell, as listed below.
 
 | Spell Level  | Bardic Inspiration Dice Size |
 |:---:|:-----------:|
@@ -80,45 +111,48 @@ Starting at 14th level, when you cast a spell of 4th level or higher that deals 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
-
 ## New and Revised Spells
 
-#### Flame Arrows
-*3rd-level evocation*
+#### Flame Arrows 
+*2nd-level evocation*
 ___
 - **Casting Time:** 1 bonus action
-- **Range: Touch**
+- **Range:** Touch
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 hour
-- **Classes:**  Artificer, Druid, Ranger, Sorcerer, Wizard
+- **Classes:** Artificer, Druid, Ranger, Sorcerer, Wizard, 
 ___
 
-You touch up to twelve arrows and/or bolts. When a target is hit with a ranged weapon attack using one of these pieces of ammunition, it takes an extra 1d6 fire damage.  Flammable objects that are hit are ignited. The spell’s magic ends on the piece of ammunition when it hits or misses a target, and the spell ends when all of the ammunition has lost its magic.
+You touch up to twelve arrows or bolts. When a target is hit by a ranged weapon attack using one of these pieces of ammunition, the target takes an extra 1d6 fire damage, and if it is a flammable object, it is ignited. The spell’s magic ends on the piece of ammunition when it hits or misses a target, and the spell ends when all the ammunition has lost its magic.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
 
 #### Flame Blade
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 action
 - **Range:** Self
-- **Components:** V, S M (a leaf of sumac)
+- **Components:** V, S M (leaf of sumac)
 - **Duration:** Up to 10 minutes
 - **Classes:** Druid, Sorcerer
 ___
 
-You evoke a fiery blade similar to the size and shape of a scimitar in your free hand. When you cast the spell, you may make two melee spell attacks with the blade against any creatures within your reach. On a hit, the target takes fire damage equal to 1d6 + your spellcasting ability modifier. 
+You evoke a fiery blade, similar in size and shape to a scimitar, in your free hand. When you cast this spell, you may make two melee spell attacks with the blade against any targets within your reach. On a hit, a target takes fire damage equal to 1d6 + your spellcasting ability modifier. 
 
 The blade remains for the spell's duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can make the two attacks with the blade again on each of your turns as an action. The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, you may make one additional attack with the blade per action for every two slot levels above 2nd.
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional attack with the blade per action for every two slot levels above 2nd.
 
 
 <img src='https://i.ibb.co/nnGc6m8/waterfall-aerialist.jpg' style='position:absolute; top:-25px; left:-0px; width:816px; transform:rotate(0deg);filter:opacity(100%);'/>
 
-<img src='https://image.ibb.co/mONqSH/4Q3HUFE.png' style='position:absolute; bottom:200px; left:230px; width:820px; transform:rotate(-30deg);filter:opacity(100%);'/>
+<img src='https://www.gmbinder.com/images/bdO75hb.png' style='position:absolute;top:200px;right:0px;width:500px;transform:rotate(-13deg)' />
 
-<img src='https://image.ibb.co/mONqSH/4Q3HUFE.png' style='position:absolute; bottom:200px; left:230px; width:820px; transform:rotate(-30deg);filter:opacity(100%);'/>
+<img src='https://www.gmbinder.com/images/bdO75hb.png' style='position:absolute;top:175px;right:-60px;width:500px;transform:rotate(-13deg)' />
+
+<img src='https://image.ibb.co/mONqSH/4Q3HUFE.png' style='position:absolute; bottom:210px; left:230px; width:820px; transform:rotate(-30deg);filter:opacity(100%);'/>
+
+<img src='https://image.ibb.co/mONqSH/4Q3HUFE.png' style='position:absolute; bottom:210px; left:230px; width:820px; transform:rotate(-30deg);filter:opacity(100%);'/>
 
 <img src='https://image.ibb.co/mONqSH/4Q3HUFE.png' style='position:absolute; bottom:-55px; left:-20px; width:920px; transform:rotate(-1deg);filter:opacity(100%);'/>
 
@@ -131,8 +165,8 @@ The blade remains for the spell's duration. If you let go of the blade, it disap
 
 
 
-#### Frost Nova
-*3th-level Conjuration*
+#### Frost Nova 
+*3rd-level evocation*
 ___
 - **Casting Time:** 1 action
 - **Range:** Self (20-foot radius)
@@ -141,54 +175,60 @@ ___
 - **Classes:**  Wizard, Sorcerer
 ___
 
-You cause a ring of ice and frost to expand out <br> from you up to a 20-foot radius. Each creature <br> other than you in that area must make a <br> Constitution saving throw.
-On a failed save, a <br> creature takes 4d8 cold damage, and until the end <br> of your next turn, its speed is reduced by 20 and it <br> has disadvantage on weapon attack rolls.  On a <br> successful save, a creature takes half as much <br> damage and suffers no other effects.
+You cause a ring of ice and frost to burst out from <br> you to a radius of up to a 20-feet. Each creature <br> other than you in that area must make a <br> Constitution saving throw.
+ On a failed save, a <br> creature takes 4d8 cold damage, and until the end <br> of your next turn, its speed is reduced by 20 feet, <br> and it has disadvantage on weapon attack rolls. <br> On a successful save, a creature takes half as <br> much damage and suffers no other effects.
 
-**At Higher Levels.** When you cast this spell <br> using a spell slot of 4th level or higher, the damage <br> increases by 1d8 and the you may increase the <br> radius by 5 feet for each slot level above 3th.
+***At Higher Levels.*** When you cast this spell using <br> a spell slot of 4th level or higher, both the damage <br> increases by 1d8 and the maximum possible radius <br> increases by 5 feet for each slot level above 3rd.
 
 
-#### Overdrive
+#### Overdrive 
 *5th-level transmutation*
 ___
 - **Casting Time:** 1 action
-- **Range:** touch
+- **Range:** Touch
 - **Components:** V, S, M (a strand of horse hair)
 - **Duration:**   Concentration, up to 10 minutes
 - **Classes:**  Artificer, Sorcerer, Wizard, 
 ___
 
-You touch a creature, causing it to become electrically charged. Until the spell ends, the target’s speed is doubled, it has advantage on Dexterity saving throws, and all its unarmed strikes and attacks it makes with a melee weapon made of metal deal an extra 2d6 lightning damage on hit.
+You touch a creature, causing it to become electrically charged. Until the spell ends, the target’s speed is doubled, it has advantage on Dexterity saving throws, and all its unarmed strikes and attacks with melee weapons made of metal deal an extra 2d6 lightning damage on hit.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for every two levels above 5th.
 
 
-#### Snilloc's Snowball Storm
+#### Snilloc's Snowball Swarm
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 action
 - **Range:** Self
-- **Components:** V, S M (a piece of ice or small white rock chip)
+- **Components:** V, S M (a piece of ice or a small white rock chip)
 - **Duration:** Up to 10 minutes
-- **Classes:** Druid*, Sorcerer, Wizard
+- **Classes:** Druid, Sorcerer, Wizard
 ___
 
-You summon magic snowballs to bombard your enemies. When you cast the spell, you may make two ranged spell attacks with them against any creatures within 90 feet of you. On a hit, the target takes cold damage equal to 1d4 + your spellcasting  modifier. You can form two more snowballs and repeat the attacks on each of your turns as an action.
+You summon a flurry of magic snowballs to bombard your enemies. When you cast the spell, you may make two ranged spell attacks with the snowballs against any targets within 90 feet of you. On a hit, a target takes cold damage equal to 1d4 + your spellcasting ability modifier. During the spell's duration, you can use an action to form two more snowballs and make the attacks again.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two levels above 2nd.
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two slot levels above 2nd.
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Static Field
-*2st-level evocation*
+*2nd-level evocation*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 reaction, which you take in response to being hit with a melee attack by a creature.
 - **Range:** Self
-- **Components:** V, S, M (Piece of wool or copper wire)
+- **Components:** V, S, M (a piece of wool or copper wire)
 - **Duration:**   1 minute
-- **Classes:**  Artificer, Sorcerer, Wizard, 
+- **Classes:**  Artificer, Sorcerer, Wizard
 ___
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+You cause yourself to become electrically charged for the duration of the spell and immediately deal 1d8 lighting damage to your attacker. Until the spell ends, whenever a creature hits you with a melee attack, you can use your reaction to discharge electricity from yourself and deal 1d8 lighting damage to the attacker.
 
-You cause yourself to become electrically charged for the duration of the spell.  Until the spell ends, whenever a creature hits you with a melee attack, you can use your reaction to discharge electricity from yourself and deal 2d6 lighting damage to the attacker.
-
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 3rd.
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
 
 #### Witch Bolt
 *1st-level evocation*
@@ -200,22 +240,22 @@ ___
 - **Classes:** Sorcerer, Warlock, Wizard
 ___
 
- When you cast this spell, and as an action on each of your turns for its duration, you can make a ranged spell attack that targets one creature within range. On a hit, the target takes 1d10 lightning damage, and a sustained arc of lightning forms between you and it. On each of your turns for the duration, you can use an action to automatically deal 1d10 lightning damage to one target with which you have an arc. The arc ends if the target is ever outside the spell's range or if it has total cover from you. The spell ends if you use your action to do anything other than attack or deal damage using this spell or if you are incapacitated.
+When you cast this spell, and as an action each round for the duration, you can make a ranged spell attack that targets one creature. On a hit, the target takes 1d12 lightning damage and a sustained arc of lightning forms between you and it. On each of your turns for the duration, you can use an action to automatically deal 1d12 lightning damage to one target with which you have an arc. The arc ends for a target if it is ever outside the spell's range or if it gains total cover from you. The spell also ends if you use your action to do anything other than attack or deal damage using this spell.
 
-**At Higher Levels.**  When you cast this spell using a spell slot of 2nd level or higher, the initial damage and automatic damage increase by 1d10 for each slot level above 1st.
+***At Higher Levels.***  When you cast this spell using a spell slot of 3th level or higher, the initial damage and automatic damage increase by 1d12 for every two slot levels above 1st.
 
-<img src='https://i.ibb.co/V21DHjP/creative-outburst-igo-kieryluk.jpg' style='position:absolute; top:-20px; right:-230px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/V21DHjP/creative-outburst-igo-kieryluk.jpg' style='position:absolute; top:-45px; right:-230px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
-<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-130px; right:-0px; width:1000px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-245px; right:-0px; width:1000px; transform:rotate(0deg);filter:opacity(100%);'/>
+
 
 \pagebreak
 
 ## College of Elements NPCs
 
+The following stat blocks can be used to describe non-player characters who are bards from the college of elements or have abilities similar to a bard from that college.  You can choose the stat block that best aligns with the power level of the NPC. 
 
-The following stat blocks can be used to describe non-player character bards from the college of elements or have abilities similar to a bard of that college.  You can choose the stat block that best aligns with the power level of the NPC. 
-
-<br><br>
+<br><br><br>
 
 To further customize your NPC, apply the racial traits of whichever humanoid race you’ve chosen for it.  You can also replace any of its known spells with spells of an equivalent level from the sorcerer or bard spell lists.
 
@@ -226,53 +266,57 @@ ___
 >*Medium humanoid (any race), any alignment*
 > ___
 > - **Armor Class** 14 (leather armor)
-> - **Hit Points** 36 (8d8+0)
+> - **Hit Points** 36 (8d8)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|10 (+0)|16 (+3)|10 (+0)|12 (+1)|10 (+0)|16 (+3)|
 >___
-> - **Saving Throws** Dex +5 Charisma +5
-> - **Skills** Acrobatics +7, Performance +7, Perception + 2
-> - **Senses** passive Perception 12.
-> - **Languages** - any two languages.
-> - **Challenge** 2 (450 XP)   &emsp;&emsp;  **Proficiency Bonus** +2       
+> - **Saving Throws** Dex +5, Charisma +5
+> - **Skills** Acrobatics +7, Perception +2, Performance +7
+> - **Senses** passive Perception 12
+> - **Languages** any two languages
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
 > ___
-> ### Bonus Actions
-> **Kinetic Artistry (3/Day).** The bard takes the dash action. When it takes this action, it chooses one of the following additional effects:
->
->**Cold.**  Until the end of the bard's turn, it can move across water surfaces as if they are harmless, solid ground. Additionally, when it leaves a space within 5 feet of a creature, it can force that creature to make a DC 13 Strength saving throw. On a failed save, the creature is knocked prone. A creature can be targeted by this ability only once each turn.
->
->**Fire.** Once before the end of the bard's turn, it can force each creature within 5 feet of itself to make a DC 13 Dexterity saving. On a failure, a creature takes 6 (1d6 + 3) fire damage.
->
->**Lightning.**  Until the end of the bard’s turn, it can move through the space of other creatures, and it does not provoke opportunity attacks. If it ends its turn inside a creature’s space, the bard is pushed into the nearest unoccupied space.
->
 > ### Actions
 >
->  **Rapier.** Melee Weapon Attack: +6 to hit, reach 5 ft., one
-target. Hit: 7 (1d8 + 3) piercing damage.
+>  ***Rapier.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one
+target. *Hit:* 7 (1d8 + 3) piercing damage.
 >
-> **Shortbow.** Ranged Weapon Attack: +6 to hit, range 80/320 ft., one 
-target. Hit: 6 (1d6 + 3) piercing damage.
+> ***Shortbow.*** *Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one 
+target. *Hit:* 6 (1d6 + 3) piercing damage.
 >
-> **Spellcasting.** The bard is a 3th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 13 +5 to hit with spell attacks). It has the following spells prepared:
+> ***Spellcasting.*** The bard casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 13, +5 to hit with spell attacks): <br><br>
+>
+> Cantrips (at will): *firebolt*, *ray of frost*, *shocking grasp*
 > 
-> **Cantrips** (at will): *firebolt*, *ray of frost*, *shocking grasp*
+> 1st level (4 slots): *burning hands*, *ice knife**, *witch bolt***
 > 
-> **1st level** (4 slots): *burning hands*, *ice knife*, *witch bolt*
-> 
-> **2nd level** (2 slots):, *aganazzar's scorcher*, *snilloc's snowball storm*, *static field*
+> 2nd level (2 slots): *aganazzar's scorcher**, *snilloc's snowball swarm***, *static field***
+>
+>*Found in *Xanathar's Guide to Everything*<br>
+>**New or revised spell found earlier in this document
+>
+> ### Bonus Actions
+> ***Kinetic Artistry (3/Day).*** The bard takes the dash action. When it takes this action, it chooses one of the following additional effects:
+>
+>**Cold.**  Until the end of the bard's turn, it can move across the surface of water as though it is harmless, solid ground. Additionally, when it leaves a space within 5 feet of a creature, it can force that creature to make a DC 13 Strength saving throw. On a failed save, the creature is knocked prone. A creature can be targeted by this ability only once each turn.
+>
+>**Fire.** Once before the end of the bard's turn, it can force each creature within 5 feet of itself to make a DC 13 Dexterity saving throw. On a failure, a creature takes 6 (1d6 + 3) fire damage.
+>
+>**Lightning.**  Until the end of the bard's turn, it can move through the space of other creatures, and it does not provoke opportunity attacks. If it ends its turn inside a creature's space, the bard is pushed into the nearest unoccupied space.
 
 <img 
   src='https://i.ibb.co/TMr6MCs/a207121f430184d23e8928c1eb659e6e.jpg' 
-  style='position:absolute;top:580px;right:-50px;width:950px;
+  style='position:absolute;top:620px;right:-50px;width:950px;
     transform:scalex(1);filter: brightness(95%);' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;bottom:40px' />
+  style='position:absolute;left:0px;bottom:-5px' />
+
+
 
 
 \pagebreak
@@ -289,57 +333,60 @@ ability is Charisma (spell save DC 13 +5 to hit with spell attacks). It has the 
 
 * Expressive Iteration - <br>Anastasia Ovchinnikova, <br>Wizards of the Coast
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ___
 ___ 
 > ## Kinetic Artist
 >*Medium humanoid (any race), any alignment*
 > ___
-> - **Armor Class** 15 (Studded leather)
-> - **Hit Points**  104 (19d8+19)
+> - **Armor Class** 15 (studded leather)
+> - **Hit Points**  91 (14d8 + 28)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (+0)|16 (+3)|12 (+1)|12 (+1)|10 (+0)|18 (+4)|
+>|10 (+0)|16 (+3)|14 (+2)|12 (+1)|10 (+0)|18 (+4)|
 >___
-> - **Saving Throws** Dex +5 Charisma +7
+> - **Saving Throws** Dex +6, Charisma +7
 > - **Skills** Acrobatics +9, Performance +10, Perception + 3
 > - **Senses** passive Perception 13.
-> - **Languages** - any two languages.
-> - **Challenge** 7 (XP: 2,900)   &emsp;&emsp;  **Proficiency Bonus** +3       
+> - **Languages** any two languages
+> - **Challenge** 7 (2,900 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
 > ___
-> ### Bonus Actions
-> **Kinetic Artistry.** The artist takes the dash action. When it takes this action, it chooses one of the following additional effects:
->
->**Cold.** Until the end of the artist's turn, it can move across water surfaces as if they are harmless, solid ground. Additionally, when it leaves a space within 5 feet of a creature, it can force that creature to make a DC 15 Strength saving throw. On a failed save, the creature is knocked prone. A creature can be targeted by this ability only once each turn.
->
->**Fire.** Once before the end of the artist's turn, it can force each creature within 5 feet of itself to make a DC 15 Dexterity saving. On a failure, a creature takes 6 (1d8 + 4) fire damage.
->
->**Lightning.** Until the end of the artist’s turn, it can move through the space of other creatures, and it does not provoke opportunity attacks. If it ends its turn inside a creature’s space, the artist is pushed into the nearest unoccupied space.
->
 > ### Actions
+>  ***Rapier.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one
+target. *Hit:* 7 (1d8 + 3) piercing damage.
 >
->  **Rapier.** Melee Weapon Attack: +7 to hit, reach 5 ft., one
-target. Hit: 7 (1d8 + 3) piercing damage.
+> ***Shortbow.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one 
+target. *Hit:* 6 (1d6 + 3) piercing damage.
 >
-> **Shortbow.** Ranged Weapon Attack: +7 to hit, range 80/320 ft., one 
-target. Hit: 6 (1d6 + 3) piercing damage.
->
-> **Spellcasting.** The artist is a 6th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 15 +7 to hit with spell attacks). It has the following spells prepared:
+> ***Spellcasting.*** The bard casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 15, +7 to hit with spell attacks):
 > 
-> **Cantrips** (at will): *firebolt*, *ray of frost*, *shocking grasp*
+> Cantrips (at will): *firebolt*, *ray of frost*, *shocking grasp*
 > 
-> **1st level** (4 slots): *burning hands*, *ice knife*, *witch bolt*
+> 1st level (4 slots): *burning hands*, *ice knife**, *witch bolt***
 > 
-> **2nd level** (3 slots): *aganazzar's scorcher*, *snilloc's snowball storm*, *static field*
+> 2nd level (3 slots): *aganazzar's scorcher**, *snilloc's snowball swarm***, *static field***
 >
->**3nd level** (3 slots): *fireball*, *frost nova*, *lightning bolt*
+> 3nd level (3 slots): *fireball*, *frost nova***, *lightning bolt*
+>
+>*Found in *Xanathar's Guide to Everything*<br>
+>**New or revised spell found earlier in this document
+>
+> ### Bonus Actions
+> ***Kinetic Artistry.*** The artist takes the dash action. When it takes this action, it chooses one of the following additional effects:
+>
+>**Cold.**  Until the end of the artist's turn, it can move across the surface of water as though it is harmless, solid ground. Additionally, when it leaves a space within 5 feet of a creature, it can force that creature to make a DC 15 Strength saving throw. On a failed save, the creature is knocked prone. A creature can be targeted by this ability only once each turn.
+>
+>**Fire.** Once before the end of the artist's turn, it can force each creature within 5 feet of itself to make a DC 15 Dexterity saving throw. On a failure, a creature takes 6 (1d8 + 4) fire damage.
+>
+>**Lightning.**  Until the end of the artist's turn, it can move through the space of other creatures, and it does not provoke opportunity attacks. If it ends its turn inside a creature's space, the artist is pushed into the nearest unoccupied space.
 >
 > ### Reactions
-> **Elemental Defense (4/Day)** When another creature the artist can see within 60 feet makes a saving throw, the creature can roll a 1d8 and add the number rolled to the save.  The creature also gains resistance to either cold, fire, or lightning damage (artist's choice) until the end of the turn.
+> ***Elemental Defense (4/Day)*** When another creature the artist can see within 60 feet makes a saving throw, that creature can roll a d8 and add the result to the save.  The creature also gains resistance to either cold, fire, or lightning damage (artist's choice) until the end of the turn.
 
 <div style='margin-top:850px;'></div>
 <img
@@ -360,13 +407,22 @@ style='position:absolute;top:-30px;left:220px;width:600px' />
   
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0 Changes
  * Public Release
+
+#### 1.0.1 Changes
+ * Frost Nova add to the druid spell list.
+ * Creative Outburst attack roll reworded and Cold effect for the attack can be stacked.
+ * Static Field now is activated by your reaction deals 1d8 instead of 2d6 and it takes two levels to up cast.
   
+#### 1.2.0 Changes
+* Update referenced documents
+* Clean up document
+
 \columnbreak
 
 ### Referenced Documents
-* New Spells 0.0.0
-* Revised Spells 0.0.0
-* College of Elements 1.0.0
-* College of Elements: NPCs 1.0.0
+* New Spells 1.0.0
+* Revised Spells 1.0.1
+* College of Elements 1.1.0
+* College of Elements: NPCs 1.0.2
