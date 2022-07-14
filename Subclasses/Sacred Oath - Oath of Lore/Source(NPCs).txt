@@ -1,12 +1,42 @@
 
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after, .phb#p5:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
 ## Sacred Oath
 
 ### Oath of Lore 
 Paladins who take this oath devote themselves to historical study as well as the collection and safekeeping of lost lore.  Their quests often involve journeying into dangerous ruins to recover lost relics and restore forgotten history.  
 
-These paladins are well versed in military history, deploying martial techniques that have been passed down through generations.   They can even call upon the spirits of champions from bygone ages to aid them in times of need.  Those who challenge this paladin don’t face one champion but the combined might of champions from generations past. 
+These paladins are well versed in military history, deploying martial techniques that have been passed down through generations.   They can even call upon the spirits of heroes from bygone ages to aid them in times of need.  Those who challenge this paladin don’t face one champion but the combined might of champions from generations past. 
 
 #### Tenets of Lore
 The tenets of the Oath of Lore drive these paladins to draw from the wisdom of the past so they may secure a better future.
@@ -19,26 +49,34 @@ The tenets of the Oath of Lore drive these paladins to draw from the wisdom of t
 
 **Reduce to Memory.** Do not flinch when studying the horrors of the past. History's most important lessons are cloaked in terror and tragedy. It is your duty to put an end to any who would repeat them.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 #### Blade Historian
-When you take this oath at 3rd level, though studies of war and consultation with ancient warrior spirits, you've learned two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. 
+*3rd-level Oath of Lore feature*<br>
+Through studies of war and consultation with ancient warrior spirits, you've learned two maneuvers from among those available to the Battle Master archetype for the fighter class.  
 
-If the maneuver requires a saving throw, the saving throw DC equals your spell save DC.  You learn an additional maneuver at 7th, 15th, and 20 level.  Any time you gain a paladin level, you may replace one of the maneuvers you know with a different maneuver.
+\columnbreak
 
-If a paladin feature would provide you with one or more superiority die, they are d8s.  When you reach 15th level, they become d10s, and at 20th level they become d12s.
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+One of these maneuvers must be Tactical Assessment (described in Tasha's Cauldron of Everything), and the other may be any maneuver of your choice. 
+If a maneuver from this class requires a saving throw, the save DC equals your spell save DC.  You learn an additional maneuver at 7th, 15th, and 20 levels.  Any time you gain a paladin level, you may replace one of the maneuvers you know, besides Tactical Assessment, with a different maneuver.
+
+Other features in this subclass provide the superiority dice needed to perform these maneuvers, and these dice are d8s.  When you reach 15th level, they become d10s, and at 20th level, they become d12s.
 
 #### Oath Spells
-You gain Historian spells at the paladin levels listed.
+*3rd-level Oath of Lore feature*<br>
+You gain oath spells at the paladin levels listed in the Oath of Lore table.  See the Sacred Oath class feature for how oath spells work.
 
-##### Oath of The Historian Spells
+##### Oath of Lore Spells
 | Paladin  Level   |  Spells      | 
 |:-------------:|:-------------:|
-|  3rd          | Identify, Comprehend Languages  |
-|  5th          | Locate Object, Magic Mouth  |
-|  9th          | Tiny Hut, Speak with Dead      | 
-|  13th         | Leomund's Secret Chest, Private Sanctum      |
-|  17th         | Legend Lore, Commune    |
+|  3rd          | *comprehend languages*, *identify*  |
+|  5th          | *locate object*, *magic mouth*  |
+|  9th          | *speak with dead*, *tiny hut*     | 
+|  13th         | *private sanctum*, *secret chest* |
+|  17th         | *commune*, *legend lore*  |
+
+
 
 
 <img
@@ -46,37 +84,56 @@ src='https://i.ibb.co/GWhKfWW/combat-professor.jpg'
 style='position:absolute;top:0px;left:0px;width:816px;transform: scaleX(1)' />
 
 <img
+   src='https://www.gmbinder.com/images/tFcatIg.png'
+   style='position:absolute;
+  bottom:374px;
+  right:335px;
+  width:300px;
+  transform:
+    rotate(10deg);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)'
+/>
+
+<img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-100px;left:-100px;width:916px;transform:rotate(-3deg)' />
+style='position:absolute;top:-107px;left:-100px;width:916px;transform:rotate(-3deg)' />
 
 <div style='margin-top:350px;'></div>
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:400px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://www.gmbinder.com/images/TRTN4ox.png' style='position:absolute;top:100px;right:350px;width:800px' />
+
+
+
+<img src='https://www.gmbinder.com/images/PmIwMt8.png' style='position:absolute;top:200px;right:530px;width:850px;' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:335px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Channel Divinity
-When you take this oath at 3rd level, you gain the following two Channel Divinity Options.
+*3rd-level Oath of Lore feature*<br>
+You gain the following Channel Divinity options.  See the Sacred Oath class feature for how Channel Divinity works.
 
-**War Echoes.** You can use your Channel Divinity to tap into ancient knowledge. As a bonus action, you call upon the experiences of long-gone warriors to provide you aid in combat.  You are granted 3 superiority dice.  Each die lasts for one hour, or until you use it to fuel a combat maneuver, you know.  
+**War Echoes.** You can use your Channel Divinity to tap into ancient knowledge.  As a bonus action, you call upon the experiences of long-gone warriors to provide you aid in combat.  You are granted 2 superiority dice.  Each die lasts 10 minutes, or until you use it to fuel a combat maneuver you know.  
 
-**Spirit Summoning.** You can use your Channel Divinity to summon a spirit or construct of the past to help with your endeavors.  As a bonus action, you cast *find familiar* without any components. The familiar created this way has the following additional traits:
+**Spirit Summoning.** You can use your Channel Divinity to summon a spirit or construct of the past to help with your endeavors.  As a bonus action, you cast *find familiar* without any components.  The familiar created this way has the following additional traits:
 
 * Its creature type is changed to construct or undead (your choice).
-* It is immune to poison and psychic damage, and is also immune to the charmed, frightened, and poisoned conditions.
-* You may have its hit points become equal to (2 x your paladin level) + 4.
-* While you are within 60 feet of it, you may ritual cast your paladin spells.
+* It is immune to poison and psychic damage and is also immune to the charmed, frightened, and poisoned conditions.
+* While you are within 60 feet of it, you may ritual cast your paladin spells with the ritual tag.
 
  A familiar created this way lasts an hour before vanishing.
 
 #### Aura of Insight 
-When you reach 7th level, you gain proficiency in one of the following skills of your choice: Arcana, History, Investigation, Nature, or Religion. If you already have proficiency in the chosen skill, you gain double proficiency instead.
+*7th-level Oath of Lore feature*<br>
+You emanate an aura that grants you insight into the secrets of those around you.  When you start your turn, you may choose a creature within 10 feet of you that you can see.  The DM tells you one of the following characteristics of your choice about that creature:
 
-Additionally, you emanate an aura that grants you insight into the secrets of those around you. When you start your turn, you may choose a creature within 10 feet of you that you can see.  The DM tells you one of the following characteristics about that creature of your choice:
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 *	The creature's Strength, Dexterity, Constitution, Intelligence, Wisdom, or Charisma score. You also learn if the creature is proficient with saving throws for the chosen attribute.
 *	If the creature has resistance, immunity, or vulnerability to a given damage type.
@@ -86,61 +143,42 @@ Additionally, you emanate an aura that grants you insight into the secrets of th
 *	If the creature is proficient in a given skill.
 *	The total class levels of the creature, if any.
 
-A creature that is immune to divination magic or can't be perceived through magical scrying sensors is immune to this effect.
+A creature that is immune to divination magic or that can't be perceived through magical scrying sensors is immune to this effect.
 
-At 18th level, the range of this aura increases to 30 feet, and you can choose another skill from this ability's list with which to gain proficiency.
+At 18th level, the range of this aura increases to 30 feet.
 
 #### Reconstruct History
-When you reach 15th level, you are a master of old relics and of understanding how they function. You gain the following benefits:
+*15th-level Oath of Lore feature*<br>
+You become a master of old relics and of understanding how they function. You gain the following benefits:
 
 * You can attune to up to four magic items at once.
 
-* You ignore all class, race, spell and level requirements on attuning to or using a magic item.
+* You ignore all class, race, spell, and level requirements for attuning to or using magic items.
 
-* You can choose to consume a spell scroll of 5th level or lower that is on your person to use your Divine Smite feature and add damage to the smite as though you had expended a spell slot of an equivalent level spell to the scroll's spell level.
+* When you hit a creature with a melee weapon attack, you can choose to consume a spell scroll of 5th level or lower that is on your person to use your Divine Smite feature as though you had expended a spell slot of an equivalent level spell to the scroll's spell level.
+
 
 <img src='https://i.ibb.co/PGJm4yR/blade-historian.jpg' style='position:absolute; top:-40px; right:-30px; width:860px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;top:-40px;height:px;width:px;transform:rotate(180deg)' />
+  style='position:absolute;left:0px;top:0px;height:px;width:px;transform:rotate(180deg)' />
 
 <div style='margin-top:350px;'></div>
 
 \pagebreak
 
 
-
 #### Ageless Guardian
-Starting at 20th level, you can channel heroic figures of the past to embody their legendary deeds. As a bonus action, you can choose one of the following figure archetypes and gain benefits for the next 10 minutes based on the chosen archetype:
-<br><br>
+*20th-level Oath of Lore feature*<br>
+You can channel aspects of heroic figures from the past to embody their legendary deeds. As a bonus action, you can gain the following benefits for the next minute:
 
-**The Sage.** 
-* Whenever you use your Aura of Insight feature, you learn about three attributes from the target instead of one.
-
-* Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.
-
-* Up to three times while in this state, when you or a creature within 60 feet of you who can hear you makes an ability check, you can use your reaction to roll 2d6 and add the result to the ability check's result. You can choose to wait until after it rolls the d20 before deciding to use the feature but must decide before the DM says whether the roll succeeds or fails.
-
-
-\columnbreak
-
-**The Mystic.** 
-
-* You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. 
-
-* Whenever you cast a paladin spell that has a casting time of 1 action, you can make one weapon attack as part of that action.
-
-* Once while in this state, you may cast 5th level or lower paladin spell without expending a spell slot. 
-
-
-**The Warrior.** 
-
-* You immediately gain 3 superiority dice, and if you start your turn without any superiority dice, you gain one superiority die.
+* You immediately gain 3 superiority dice when you activate this feature, and if you start your turn with 3 or fewer superiority dice, you gain one superiority die. Superiority dice gained this way disappear after this feature's duration ends.
 
 * Whenever you roll a superiority die, you may roll it twice and choose the higher result.  
 
-* If you would be forced to make a saving throw, you can expend a superiority die by rolling it and adding it to the result rolled for the save.  You can choose to wait until after you roll the d20 before deciding to use the superiority die but must decide before the DM says whether the roll succeeds or fails.
+* If you would be forced to make a saving throw, you can expend a superiority die by rolling it and adding it to the result of the save. You can choose to wait until after you roll the d20 before deciding to use the superiority die but must decide before the DM says whether the roll succeeds or fails.
+ 
 
 <img src='https://i.ibb.co/vx8PKDV/campbell-white-inspiring-discovery.jpg' style='position:absolute; top:500px; right:00px; width:850px' />
   
@@ -149,13 +187,13 @@ Starting at 20th level, you can channel heroic figures of the past to embody the
 
 \pagebreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Oath of Lore NPCs
 
 The following stat blocks can be used to describe non-player character paladins who have taken the oath of lore or have abilities similar to a paladin with that oath.  You can choose the stat block that best aligns with the power level of the NPC. 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 To further customize your NPC, apply the racial traits of whichever humanoid race you’ve chosen for it.  You can also replace any of its known spells with spells of an equivalent level from the paladin spell list.
 
@@ -165,42 +203,44 @@ ___
 > ## Field Historian
 >*Medium humanoid (any race)*
 > ___
-> - **Armor Class** 19 (scale mail, shield, defense)
-> - **Hit Points** 60 (8d10+16)
+> - **Armor Class** 19 (chain mail, shield, defense fighting style)
+> - **Hit Points** 60 (8d10 + 16)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|16 (+3)|10 (+0)|14 (+2)|12 (+1)|10 (+0)|16 (+3)|
 >___
-> - **Saving Throws** Wis +3, Cha +4
-> - **Skills**  History +2, Perception +2, Religion +2 
+> - **Saving Throws** Wis +2, Cha +5
+> - **Skills**  History +5, Perception +2, Investigation + 3 
 > - **Senses** passive Perception 12.
-> - **Languages** -  any two languages
-> - **Challenge** 3 (700 XP)   &emsp;&emsp;  **Proficiency Bonus** +2       
+> - **Languages** any two languages
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
 > ___
->  **Smite (1/Turn).** When the historian hits a creature with a weapon attack, it can expend a 1st level spell slot 
-to deal 2d8 radiant damage to the target
+> ***Disarming Attack (2/Short Rest)*** When the historian hits a creature with a weapon attack, it can attempt to disarm the target, forcing it to drop one item of the historian's choice that the target is holding. 
 >
-> **Disarming Attack** (3/Short Rest) When the historian hits a creature with a weapon attack, it can attempt to disarm the target, forcing it to drop one item of the historian's choice that it's holding. The historian adds 4 (1d8) to the attack's damage roll, and the target must make a DC 13 Strength saving throw. On a failed save, it drops the chosen object. The object lands at the target's feet.
+> Target must make a DC 13 Strength saving throw. On a failed save, it drops the chosen object. The object lands at the target's feet.
+>
+> ***Smite (1/Turn).*** When the historian hits a creature with a weapon attack, it can expend a 1st level spell slot to deal an additional 9 (2d8) radiant damage to the target.
 >
 > ### Actions
 >
-> ***Longsword.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
+> ***Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
 > 
-> **Spellcasting.** The historian is a 4th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following paladin spells prepared:
+> ***Spellcasting.*** The historian casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 13, +5 to hit with spell attacks): 
 >
->1st level (3 slots): *identify*, *comprehend languages*, *heroism*, *cure wounds*, *detect evil and good*
+>1st level (3 slots): *comprehend languages*, *cure wounds*, *detect evil and good*, *heroism*, *identify* 
 >
 
 <img src='https://i.ibb.co/9tgs0Tz/Osgir-the-Reconstructor-VAM-1200x.jpg' style='position:absolute;top:-130px;right:-50px;width:950px;transform:rotate(0deg)scalex(1);' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;top:-20px;height:px;width:px;transform:rotate(180deg)' />
+  style='position:absolute;left:0px;top:30px;height:px;width:px;transform:rotate(180deg)' />
 
 <div style='margin-top:350px;'></div>
+
+
 
 \pagebreak
 
@@ -210,45 +250,40 @@ ___
 > ## Combat Professor
 >*Medium humanoid (any race)*
 > ___
-> - **Armor Class** 20 (splint, shield, defense)
-> - **Hit Points** 119 (14d10+42)
+> - **Armor Class** 20 (splint, shield, defense fighting style)
+> - **Hit Points** 119 (14d10 + 42)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|18 (+4)|10 (+0)|16 (+3)|14 (+2)|10 (+0)|16 (+3)|
 >___
-> - **Saving Throws** Wis +4, Cha +7
-> - **Skills**  History +9, Investigation + 6, Perception +4, Religion +6 
-> - **Senses** passive Perception 12.
-> - **Languages** -  any two languages
-> - **Challenge** 7 (2,900
-XP)   &emsp;&emsp;  **Proficiency Bonus** +4       
+> - **Saving Throws** Wis +3, Cha +6
+> - **Skills**  History +8, Investigation + 5, Perception +3, Religion +5 
+> - **Senses** passive Perception 13.
+> - **Languages** any two languages
+> - **Challenge** 7 (2,900XP)   &emsp;&emsp;&emsp;&emsp;&nbsp;  **Proficiency Bonus** +3       
 > ___
->  **Smite (1/Turn).** When the professor hits a creature with a weapon attack, it can expend a 1st level spell slot 
-to deal 2d8 radiant damage to the target. If the professor expends a spell slot of 2nd level 
-or higher, the extra damage increases by 1d8 for each level above 1st. (maximum 5d8).
+> ***Disarming Attack*** (2/Short Rest) When the professor hits a creature with a weapon attack, it can attempt to disarm the target, forcing it to drop one item of the professor's choice that the target is holding. The target must make a DC 15 Strength saving throw. On a failed save, it drops the chosen object. The object lands at the target's feet.
 >
-> **Disarming Attack** (3/Short Rest) When the professor hits a creature with a weapon attack, it can attempt to disarm the target, forcing it to drop one item of the professor's choice that it's holding.
->
-> The professor adds 4 (1d8) to the attack's damage roll, and the target must make a DC 15 Strength saving throw. On a failed save, it drops the chosen object. The object lands at the target's feet.
+>  **Smite (1/Turn).** When the professor hits a creature with a weapon attack, it can expend a 1st level spell slot to deal an additional 9 (2d8) radiant damage to the target. 
+> 
+> The professor may choose to instead expend a spell slot of 2nd level or higher, in which case the extra damage increases by 4 (1d8) for each level above 1st, up to a maximum of 18 (4d8).
 >
 > ### Actions
 >
 > ***Multiattack.*** The professor makes two longsword attacks.
 >
-> ***Longsword.*** Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 4) slashing damage, or 8 (1d10 + 4) slashing damage if used with two hands.
+> ***Longsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.
 > 
-> **Spellcasting.** The professor is a 11th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 15, +8 to hit with spell attacks). It 
-has the following professor spells prepared:
+> **Spellcasting.** The professor casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 14, +6 to hit with spell attacks): 
 >
->1st level (4 slots): *identify*, *comprehend languages*, *heroism*, *cure wounds*, *detect evil and good*
+>1st level (4 slots): *comprehend languages*, *cure wounds*, *detect evil and good*, *heroism*, *identify* 
 >
 >2nd level (3 slots): *lesser restoration*, *locate object*, *magic mouth*
 >
->3nd level (3 slots): *crusader's mantle*, *tiny hut*, *speak with dead*
->___
+>3nd level (3 slots): *crusader's mantle*, *speak with dead*, *tiny hut*
+>
 > ### Reactions
 > ***Riposte.*** When a creature misses the professor with a melee attack, the professor can make a melee weapon attack against that creature.
 
@@ -270,11 +305,17 @@ has the following professor spells prepared:
 
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0
 * Public Release
-  
+
+#### 1.0.1
+* Public Release
+
+#### 2.0.0
+* Update referenced documents
+
 \columnbreak
 
 ### Referenced Documents
-* Oath of Lore 1.0.0 
-* Oath of Lore: NPCs 1.0.0
+* Oath of Lore 2.0.1 
+* Oath of Lore: NPCs 1.1.0

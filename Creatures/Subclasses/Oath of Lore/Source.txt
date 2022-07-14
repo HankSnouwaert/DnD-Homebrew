@@ -1,10 +1,39 @@
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Oath of Lore NPCs
 
 The following stat blocks can be used to describe non-player character paladins who have taken the oath of lore or have abilities similar to a paladin with that oath.  You can choose the stat block that best aligns with the power level of the NPC. 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 To further customize your NPC, apply the racial traits of whichever humanoid race you’ve chosen for it.  You can also replace any of its known spells with spells of an equivalent level from the paladin spell list.
 
@@ -14,44 +43,44 @@ ___
 > ## Field Historian
 >*Medium humanoid (any race)*
 > ___
-> - **Armor Class** 19 (scale mail, shield, defense)
-> - **Hit Points** 60 (8d10+16)
+> - **Armor Class** 19 (chain mail, shield, defense fighting style)
+> - **Hit Points** 60 (8d10 + 16)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|16 (+3)|10 (+0)|14 (+2)|12 (+1)|10 (+0)|16 (+3)|
 >___
-> - **Saving Throws** Wis +3, Cha +4
-> - **Skills**  History +2, Perception +2, Religion +2 
+> - **Saving Throws** Wis +2, Cha +5
+> - **Skills**  History +5, Perception +2, Investigation + 3 
 > - **Senses** passive Perception 12.
-> - **Languages** -  any two languages
-> - **Challenge** 3 (700 XP)   &emsp;&emsp;  **Proficiency Bonus** +2       
+> - **Languages** any two languages
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
 > ___
->  **Smite (1/Turn).** When the historian hits a creature with a weapon attack, it can expend a 1st level spell slot 
-to deal 2d8 radiant damage to the target
+> ***Disarming Attack (2/Short Rest)*** When the historian hits a creature with a weapon attack, it can attempt to disarm the target, forcing it to drop one item of the historian's choice that the target is holding. 
 >
-> **Disarming Attack** (3/Short Rest) When the historian hits a creature with a weapon attack, it can attempt to disarm the target, forcing it to drop one item of the historian's choice that it's holding. The historian adds 4 (1d8) to the attack's damage roll, and the target must make a DC 13 Strength saving throw. On a failed save, it drops the chosen object. The object lands at the target's feet.
+> Target must make a DC 13 Strength saving throw. On a failed save, it drops the chosen object. The object lands at the target's feet.
+>
+> ***Smite (1/Turn).*** When the historian hits a creature with a weapon attack, it can expend a 1st level spell slot to deal an additional 9 (2d8) radiant damage to the target.
 >
 > ### Actions
 >
-> ***Longsword.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
+> ***Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
 > 
-> **Spellcasting.** The historian is a 4th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following paladin spells prepared:
+> ***Spellcasting.*** The historian casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 13, +5 to hit with spell attacks): 
 >
->1st level (3 slots): *identify*, *comprehend languages*, *heroism*, *cure wounds*, *detect evil and good*
+>1st level (3 slots): *comprehend languages*, *cure wounds*, *detect evil and good*, *heroism*, *identify* 
 >
 
 <img src='https://i.ibb.co/9tgs0Tz/Osgir-the-Reconstructor-VAM-1200x.jpg' style='position:absolute;top:-130px;right:-50px;width:950px;transform:rotate(0deg)scalex(1);' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;top:-20px;height:px;width:px;transform:rotate(180deg)' />
+  style='position:absolute;left:0px;top:-10px;height:px;width:px;transform:rotate(180deg)' />
 
 <div style='margin-top:350px;'></div>
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:420px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:440px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -61,59 +90,49 @@ ___
 > ## Combat Professor
 >*Medium humanoid (any race)*
 > ___
-> - **Armor Class** 20 (splint, shield, defense)
-> - **Hit Points** 119 (14d10+42)
+> - **Armor Class** 20 (splint, shield, defense fighting style)
+> - **Hit Points** 119 (14d10 + 42)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|18 (+4)|10 (+0)|16 (+3)|14 (+2)|10 (+0)|16 (+3)|
 >___
-> - **Saving Throws** Wis +4, Cha +7
-> - **Skills**  History +9, Investigation + 6, Perception +4, Religion +6 
-> - **Senses** passive Perception 12.
-> - **Languages** -  any two languages
-> - **Challenge** 7 (2,900
-XP)   &emsp;&emsp;  **Proficiency Bonus** +4       
+> - **Saving Throws** Wis +3, Cha +6
+> - **Skills**  History +8, Investigation + 5, Perception +3, Religion +5 
+> - **Senses** passive Perception 13.
+> - **Languages** any two languages
+> - **Challenge** 7 (2,900XP)   &emsp;&emsp;&emsp;&emsp;&nbsp;  **Proficiency Bonus** +3       
 > ___
->  **Smite (1/Turn).** When the professor hits a creature with a weapon attack, it can expend a 1st level spell slot 
-to deal 2d8 radiant damage to the target. If the professor expends a spell slot of 2nd level 
-or higher, the extra damage increases by 1d8 for each level above 1st. (maximum 5d8).
+> ***Disarming Attack*** (2/Short Rest) When the professor hits a creature with a weapon attack, it can attempt to disarm the target, forcing it to drop one item of the professor's choice that the target is holding. The target must make a DC 15 Strength saving throw. On a failed save, it drops the chosen object. The object lands at the target's feet.
 >
-> **Disarming Attack** (3/Short Rest) When the professor hits a creature with a weapon attack, it can attempt to disarm the target, forcing it to drop one item of the professor's choice that it's holding.
->
-> The professor adds 4 (1d8) to the attack's damage roll, and the target must make a DC 15 Strength saving throw. On a failed save, it drops the chosen object. The object lands at the target's feet.
+>  **Smite (1/Turn).** When the professor hits a creature with a weapon attack, it can expend a 1st level spell slot to deal an additional 9 (2d8) radiant damage to the target. 
+> 
+> The professor may choose to instead expend a spell slot of 2nd level or higher, in which case the extra damage increases by 4 (1d8) for each level above 1st, up to a maximum of 18 (4d8).
 >
 > ### Actions
 >
 > ***Multiattack.*** The professor makes two longsword attacks.
 >
-> ***Longsword.*** Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 4) slashing damage, or 8 (1d10 + 4) slashing damage if used with two hands.
+> ***Longsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.
 > 
-> **Spellcasting.** The professor is a 11th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 15, +8 to hit with spell attacks). It 
-has the following professor spells prepared:
+> **Spellcasting.** The professor casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 14, +6 to hit with spell attacks): 
 >
->1st level (4 slots): *identify*, *comprehend languages*, *heroism*, *cure wounds*, *detect evil and good*
+>1st level (4 slots): *comprehend languages*, *cure wounds*, *detect evil and good*, *heroism*, *identify* 
 >
 >2nd level (3 slots): *lesser restoration*, *locate object*, *magic mouth*
 >
->3nd level (3 slots): *crusader's mantle*, *tiny hut*, *speak with dead*
->___
+>3nd level (3 slots): *crusader's mantle*, *speak with dead*, *tiny hut*
+>
 > ### Reactions
 > ***Riposte.*** When a creature misses the professor with a melee attack, the professor can make a melee weapon attack against that creature.
 
 ### Art Credit
-* Combat Professor - Andrey Kuzinskiy, Wizards of the Coast.
-* Blade Historian - Cristi Balanescu, Wizards of the Coast.
-* Thrilling Discovery - Campbell White, Wizards of the Coast.
-
-\columnbreak
-
-<br>
-
 * Osgir, the Reconstructor - Victor Adame Minguez, Wizards of the Coast.
 * Lorehold Excavation - Jinho Bae, Wizards of the Coast.
+
+
+
 
 <img src='https://i.ibb.co/m4gd7qc/jinho-bae-lorehold-excavation-0.jpg' style='position:absolute; top:610px; right:0px; width:950px' />
   
@@ -121,5 +140,8 @@ has the following professor spells prepared:
 
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0 Changes
 * Public Release
+
+#### 1.1.0
+* Document clean up
