@@ -28,7 +28,7 @@ ___
 >
 > ***Keen Smell.*** The brood horror has advantage on Wisdom (Perception) checks that rely on smell.
 >
-> ***Overwhelming Mass (2).*** The first time each turn the brood horror hits a creature with a weapon attack, it deals an extra 2 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 6 extra damage.
+> ***Overwhelming Mass (2).*** The first time each turn that the brood horror hits a creature with a weapon attack, it deals an extra 2 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 6 extra damage.
 >
 > ***Regeneration.*** The brood horror regains 10 hit points at the start of its turn.  If the brood horror takes acid or fire damage, this trait doesn't function at the start of the brood horror's next turn. The brood horror dies only if it starts its turn with 0 hit points and doesn't regenerate.
 >
@@ -110,9 +110,11 @@ ___
 >
 > ***Erratic Attack*** The abomination does one of the following at random:
 >
->&ensp;*1-2. Gnashing Teeth.* The abomination makes one Gnashing Teeth attack:<br>  <br>**Gnashing Teeth.** *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 23 (3d10 + 7) piercing damage and the target must make a DC 19 Constitution saving throw, taking 18 (4d8) necrotic damage on a failed save, or half as much damage on a successful one.
+>&ensp;*1-2. Gnashing Teeth.* The abomination makes one Gnashing Teeth attack.  This attack has the following properties:<br>
+>&ensp; *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 23 (3d10 + 7) piercing damage and the target must make a DC 19 Constitution saving throw, taking 18 (4d8) necrotic damage on a failed save, or half as much damage on a successful one.
 >
->&ensp;*3-4. Flailing Fists.* The abomination makes three Fist attacks:<br>  <br>**Fist.** *Melee Weapon Attack:* +12 to hit, reach 15ft., one target. *Hit:* 16 (2d8 + 7) bludgeoning damage.
+>&ensp;*3-4. Flailing Fists.* The abomination makes three Fist attacks.  These attacks have the following properties:<br> 
+>&ensp; *Melee Weapon Attack:* +12 to hit, reach 15ft., one target. *Hit:* 16 (2d8 + 7) bludgeoning damage.
 >
 >&ensp;*5-6. Avalanche of Flesh.* Each creature within 10 feet of the abomination must succeed on DC 19 Dexterity saving throw or take 16 (3d10) bludgeoning damage and be knocked prone.
 >
@@ -170,7 +172,7 @@ ___
 >
 > ***Keen Smell.*** The rat ogre has advantage on Wisdom (Perception) checks that rely on smell.
 >
->  ***Overwhelming Mass (3).*** The first time each turn the rat ogre hits a creature with a weapon attack,  it deals an extra 3 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 9 extra damage.
+>  ***Overwhelming Mass (3).*** The first time each turn that the rat ogre hits a creature with a weapon attack,  it deals an extra 3 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 9 extra damage.
 >
 >
 > ### Actions
@@ -215,13 +217,9 @@ ___
 >
 > ***Keen Smell.*** The wererat has advantage on Wisdom (Perception) checks that rely on smell.
 >
-> ***Overwhelming Mass (2).*** The first time each turn the wererat hits a creature with a weapon attack, it deals an extra 2 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 6 extra damage.
+> ***Overwhelming Mass (2).*** The first time each turn that the wererat hits a creature with a weapon attack, it deals an extra 2 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 6 extra damage.
 >
 > ***Regeneration.*** The wererat regains 10 hit points at the start of its turn. If the wererat takes damage from a silvered weapon or radiant damage, this trait doesn't function at the start of the wererat's next turn. The wererat dies only if it starts its turn with 0 hit points and doesn't regenerate.<br><br><br><br><br>
->
-> ### Bonus Actions
->
-> ***Shapechanger.*** The wererat polymorphs into a rat-humanoid hybrid or into a giant rat, or back into its humanoid form.  Its statistics, other than its size, are the same in each form.  Any equipment it is wearing or carrying isn't transformed.  It reverts to its humanoid form if it dies.
 >
 > ### Actions
 > ***Multiattack (Humanoid or Hybrid Form Only).*** The wererat makes two attacks, only one of which can be a bite.
@@ -231,6 +229,10 @@ ___
 > ***Shortsword (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 >
 >***Hand Crossbow (Humanoid or Hybrid Form Only).*** *Ranged Weapon Attack:* +4 to hit, reach 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ### Bonus Actions
+>
+> ***Shapechanger.*** The wererat polymorphs into a rat-humanoid hybrid or into a giant rat, or back into its humanoid form.  Its statistics, other than its size, are the same in each form.  Any equipment it is wearing or carrying isn't transformed.  It reverts to its humanoid form if it dies.
 >
 > ### Reactions
 >
@@ -245,63 +247,61 @@ ___
 >*Medium humanoid (human, shapechanger), chaotic evil*
 > ___
 > - **Armor Class** 14
-> - **Hit Points** 127 (15d10+45)
-> - **Speed** 30
+> - **Hit Points** 127 (17d8 + 51)
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|12 (+1)|18 (+4)|16 (+3)|11 (+0)|14 (+2)|10 (+0)|
 >___
-> - **Damage Immunities** Necrotic Poison
-> - **Condition Immunities** Poisoned
+> - **Damage Immunities** necrotic, poison
+> - **Condition Immunities** poisoned
 > - **Skills** Perception +5, Stealth +7
 > - **Senses** darkvision 60 ft., passive Perception 15
-> - **Challenge** 7 (1,800 XP) &emsp;&emsp;    **Proficiency Bonus** +3
+> - **Challenge** 7 (2,900 XP) &emsp;&emsp;&emsp;&ensp;&nbsp;    **Proficiency Bonus** +3
 > ___
 >
 > ***Keen Smell.*** The wererat has advantage on Wisdom (Perception) checks that rely on smell.
 >
 > ***Living Plague.*** The wererat is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
 >
->***Overwhelming Mass (2).*** The first time each turn the rat hits a creature with a weapon attack, it deals an extra 2 damage for each of the rat's allies that is with in 5 feet of the target that isn't incapacitated. Up to a max of 6.
+> ***Legendary Resistance (2/Day).***  If the wererat fails a saving throw, it can choose to succeed instead.
 >
-> ***Rancid Degeneration*** At the end of each of the Wererat's turns, each creature within 5 feet of it takes 5 (1dl0) necrotic damage, unless the takes damage from a silvered weapon or radiant damage since the end of its last turn
+> ***Lycanthropic Plague.*** The first time each turn that the wererat deals necrotic damage to a humanoid, that humanoid must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.
 >
-> ***Legendary Resistance (2/Day).***  If the wererat fails a saving 
-th row, it can choose to succeed instead.
+> ***Overwhelming Mass (2).*** The first time each turn the wererat hits a creature with a weapon attack, it deals an extra 2 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 6 extra damage.
 >
-> ***Were Plague.*** First time each turn the wererat deals necrotic damage to a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.
+> ***Rancid Degeneration*** At the end of each of the wererat's turns, each creature within 5 feet of it takes 5 (1d10) necrotic damage unless the wererat has taken damage from a silvered weapon or radiant damage since the end of its last turn
 >
 > ### Bonus Actions
 >
-> ***Shapechanger.*** The wererat can polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+> ***Shapechanger.*** The wererat polymorphs into a rat-humanoid hybrid or into a giant rat, or back into its humanoid form.  Its statistics, other than its size, are the same in each form.  Any equipment it is wearing or carrying isn't transformed.  It reverts to its humanoid form if it dies.
 >
 > ### Actions
-> ***Multiattack.*** Multiattack (Humanoid or Hybrid Form Only). The wererat makes two attacks, only one of which can be a bite.
+> ***Multiattack (Humanoid or Hybrid Form Only).*** The wererat makes two attacks, only one of which can be a bite.
 >
-> ***Bite (Rat or Hybrid Form Only).*** Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 10 (3d6) necrotic damage.
+> ***Bite (Rat or Hybrid Form Only).*** Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 10 (3d6) necrotic damage.
 >
-> ***Shortsword (Humanoid or Hybrid Form Only).*** Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage 7 (2d6) necrotic damage.
+> ***Shortsword (Humanoid or Hybrid Form Only).*** Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage.
 >
->***Hand Crossbow (Humanoid or Hybrid Form Only).*** Ranged Weapon Attack: +7 to hit, reach 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage.
->
-> ### Reactions
->
-> ***Scurry Away.*** When an enemy the rat can see ends its turn. the rat can move up to half its speed away form the creature and is frightened of it until the end of it's next turn, This 
-movement doesn’t provoke opportunity attacks. Wile frightened, it can only take the Dash, Disengage, Dodge or Hide action. (It can't use this feature if it is immune to being frightened)
+>***Hand Crossbow (Humanoid or Hybrid Form Only).*** Ranged Weapon Attack: +7 to hit, reach 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6) necrotic damage.
 >
 > ### Legendary Actions
-> The stallion can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The stallion regains spent legendary actions at the start of its turn.
+> The wererat can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The wererat regains spent legendary actions at the start of its turn.
 >
 > **Check.** The wererat makes a skill check that would normally require an action.
 >
-> **Strike.** The wererat makes one bite attack (Rat or hybrid form on only) or one shortsword attack (humanoid form only).
+> **Strike.** The wererat makes one bite attack (rat or hybrid form only) or one shortsword attack (humanoid form only).
 >
-> **Move.** The stallion moves up to its speed without provoking opportunity attacks.
+> **Move.** The wererat moves up to its speed without provoking opportunity attacks.
 >
-> **Rotting Breath.** (Costs 3 Actions) The wererat exhales bile in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 10 (3d6) necrotic damage on a failed save.
+> **Rotting Bile.** (Costs 3 Actions) The wererat exhales bile in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 10 (3d6) necrotic damage on a failed save.
 >
 > **Reconstitute (Costs 3 Actions).** If the wererat is suffering from one or more conditions that require it to make a saving throw to end, it may immediately make a save against each condition. A successful save for any of the throws will end the condition immediately. The only saving throws that this action can be used for are saves that are made at the end/start of its next turn or using its action. It can use this action while incapacitated.
+>
+> ### Reactions
+>
+> ***Scurry Away.*** When an enemy the wererat can see ends its turn, the wererat can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the wererat can only take the dash, disengage, dodge, or hide action. This feature ignores immunity to the frightened condition.
 
 \pagebreak
 
