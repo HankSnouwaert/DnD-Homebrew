@@ -61,13 +61,13 @@ ___
 >
 >  ***Blood-Crazed.*** The brood horror has advantage on all saving throws while it is within 5 feet of a hostile creature that doesn't have all its hit points.
 >
-> ***Death Burst*** When the brood horror dies, it explodes in a burst of poisonous filth. Each creature within 10 feet of it must make a DC 16 Constitution saving throw, taking 20 (8d4) poison damage on a failed save, or half as much damage on a successful one.
+> ***Death Burst*** When the brood horror dies, it explodes in a burst of poisonous filth. Each creature within 20 feet of it must make a DC 16 Constitution saving throw, taking 20 (8d4) poison damage on a failed save, or half as much damage on a successful one.
 >
 > ***Keen Smell.*** The brood horror has advantage on Wisdom (Perception) checks that rely on smell.
 >
-> ***Overwhelming Mass (2).*** The first time each turn that the brood horror hits a creature with a weapon attack, it deals an extra 2 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 6 extra damage.
+> ***Overwhelming Mass (4).*** The first time each turn that the brood horror hits a creature with a weapon attack, it deals an extra 4 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 12 extra damage.
 >
-> ***Regeneration.*** The brood horror regains 10 hit points at the start of its turn.  If the brood horror takes acid or fire damage, this trait doesn't function at the start of the brood horror's next turn. The brood horror dies only if it starts its turn with 0 hit points and doesn't regenerate.
+> ***Regeneration.*** The brood horror regains 10 hit points at the start of its turn if it has at least 1 hit point.  If the brood horror takes acid or fire damage, this trait doesn't function at the start of the brood horror's next turn.
 >
 >
 > ### Actions
@@ -139,13 +139,13 @@ ___
 > ___
 > - **Armor Class** 14 (natural armor)
 > - **Hit Points** 192 (11d20 + 77)
-> - **Speed** 20 ft.
+> - **Speed** 20 ft, burrow 20 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|25 (+7) |14 (+2)|24 (+7)|6 (-2)|16 (+3)|8 (-1)|
+>|25 (+7) |14 (+2)|24 (+7)|2 (-4)|16 (+3)|6 (-2)|
 >___
-> - **Saving Throws** Int +3, Cha +4
+> - **Saving Throws** Int +1, Cha +3
 > - **Skills** Perception +8
 > - **Damage Immunities** poison, lightning, radiant
 > - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
@@ -168,7 +168,7 @@ ___
 &ensp;*3-4.  The Rats Emerge.*  A rat tide appears in the abomination's space.  It has its own turn and uses the abomination's initiative. <br> 
 &ensp;*5-6.  Death Surge.*  A line of lightning, 60 feet long and 15 feet wide, bursts from the abomination's corpse in the direction of its choice.  Each creature in its area must make a DC 19 Dexterity saving throw, taking 28 (8d6) lightning damage on a failed save, or half as much damage on a successful one.
 >
-> ***Shambling Horror.*** At the start of the abomination's turn, its speed increases by 1d6 x 10 feet until the start of its next turn. <br><br><br><br><br>
+> ***Shambling Horror.*** At the start of the abomination's turn, its burrow and walking speed are increases by 1d6 x 10 feet until the start of its next turn. <br><br><br><br><br>
 >
 > ### Actions
 >
@@ -253,7 +253,7 @@ ___
 ##### Rat Ogre Mutations
 | d4  | Mutation |
 |:---:|:-----------:|
-|  1  | ***Regeneration.*** The rat ogre regains 10 hit points at the start of its turn. If the rat ogre takes acid or fire damage, this trait doesn't function at the start of the rat ogre's next turn. The rat ogre dies only if it starts its turn with 0 hit points and doesn't regenerate. |
+|  1  | ***Regeneration.*** The rat ogre regains 10 hit points at the start of its turn at the start of its turn if it has at least 1 hit point. If the rat ogre takes acid or fire damage, this trait doesn't function at the start of the rat ogre's next turn. |
 |  2  | ***Blood Frenzy.***  The rat ogre has advantage on melee attack rolls against any creature that doesn't have all its hit points. |
 |  3  | ***Accelerated Movement.*** The rat ogre can dash as a bonus action, its Dexterity becomes 18, its AC becomes 14, and it gains proficiency in Dexterity saving throws (+5 save modifier). |
 |  4  | ***Blade Arm.*** The rat ogre replaces its Claw attack with a Blade Arm attack with the following properties:<br> *Melee Weapon Attack:* +6 to hit, reach 10ft., one target. *Hit:* 18 (4d6 + 4) slashing damage. |
@@ -621,12 +621,5 @@ style='position:absolute;top:40px;right:300px;width:850px;transform:rotate(10deg
 
 
 
-#### 0.0.0
-* Document creation
-* Clean up brood horror stat block
-
-#### 0.0.1
-* Clean up hell pit abomination stat block
-
-#### 0.0.2
-* Clean up all stat blocks
+#### 1.0.0
+* Public release
