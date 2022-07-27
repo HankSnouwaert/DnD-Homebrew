@@ -1,3 +1,31 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after, .phb#p4:after, .phb#p5:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br>
 
 # Race: Sahuagin
@@ -5,18 +33,18 @@ These aquatic marauders strike fear in the hearts of all who dwell in or near th
 Despite their highly aggressive stance towards most outsiders, some sahuagin cooperate with other races.  They might be renegades, traitors, orphans, or emissaries.  Whatever their origin and motivation, these sahuagin are put in unusual circumstances where they must forge alliances with outsiders to achieve their goals.  The mutual stigma between sahuagin and other races makes long-term cooperation rare and challenging, but the individuals who successfully walk (or swim) this path become exceptional and unusual adventurers.
 
 ### Shark Kinship
-Sahuagin share a unique kinship with sharks.  Their primary diety, Sekolah, is the god of sharks, and they find inspiration in the power and brutality with which sharks hunt.  Sahuagin apply this brutality to combat, attacking with gnashing teeth along with their crafted weapons.  Like sharks, they are very sensitive to the scent of blood, and once they smell wounded prey, sahuagin quickly enter a blood frenzy as they ruthlessly tear apart their victim.
+Sahuagin share a unique kinship with sharks.  Just as sharks are the ocean's apex predator, sahuagin see themselves as the ocean's rightful apex race.  Their primary diety, Sekolah, is the god of sharks, and they find inspiration in the power and brutality with which sharks hunt.  Sahuagin apply this brutality to combat, attacking with gnashing teeth along <Br> with their crafted weapons.  Like sharks, they are very sensitive to the scent of blood, and once they smell <br> wounded prey, sahuagin quickly enter a blood frenzy <br> as they ruthlessly tear apart their victim.
 
-The kinship sahuagin have with sharks is so strong they are capable of limited telepathic communication with these deadly predators.  This bond makes sharks and sahuagin natural allies, and sahuagin will often use sharks as mounts, beasts of war, and patrol sentries. 
+The kinship sahuagin share with sharks is so <br> strong that they are capable of limited telepathic communication with these fellow predators.   This communication allows sahuagin and sharks to <br> coordinate complex tactical strategies in combat, <br> and sahuagin will sometimes even send strike <br> forces comprised entirely of sharks so as to <br> make the attack look "natural" and obfuscate <br> their involvement.  Their effectiveness at <br> utilizing sharks leads sahuagin to also <br> commonly use them as aquatic mounts, <br> beasts of war, and patrol sentries. 
 
 \columnbreak
 
 ### Specialized Mutations
 An unusual trait of the sahuagin race is the frequency with which they develop specialized mutations.  The most well-known mutations include extra sets of arms, which mark a sahuagin for a future leadership role, and the dreaded malenti mutation, which results in the sahuagin gaining the appearance of a sea elf, allowing it to serve as a spy and infiltrator.  Other rarer mutations can include expanded size, bony plating, or glowing lures that extend from their forehead.  
 
-It is unknown whether these modifications are an innate part of sahuagin biology, the result of environmental factors, or blessings from Sekolah himself.  Whatever the case, sahuagin make use of their mutations in specialized roles for their society.  Though some of these mutations may result in them being shunned by the common folk, sahuagin leadership is always quick to utilize these gifted servants to the best of their abilities.
+It is unknown whether these modifications are an innate part of sahuagin biology, the result of environmental factors, or blessings from Sekolah himself.  Whatever the case, sahuagin make use of their mutations in specialized roles for their society.  Though some of these mutations may result in them being shunned by the common folk, sahuagin leadership is always quick to utilize these uniquely gifted servants to the best of their abilities.
 
-<img src='https://i.ibb.co/0D176Tn/Academy-Ruins.png' style='position:absolute; bottom:-00px; right:-80px; width:980px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/0D176Tn/Academy-Ruins.png' style='position:absolute; bottom:-4px; right:-80px; width:980px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 
 <img 
@@ -25,21 +53,19 @@ It is unknown whether these modifications are an innate part of sahuagin biology
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-400px;bottom:260px; transform:rotate(-60deg);' />
+  style='position:absolute;left:-400px;bottom:100px;  transform:rotate(-16deg);' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-320px;bottom:300px; transform:rotate(-50deg);' />
+  style='position:absolute;left:-1000px;bottom:-1000px; transform:rotate(-70deg);' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-400px;bottom:100px;  transform:rotate(-15deg);' />
-
-<img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-505px;bottom:-100px; transform:rotate(-50deg);' />
+  style='position:absolute;left:-535px;bottom:-100px; transform:rotate(-60deg);' />
 
 
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:10px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -63,11 +89,12 @@ Though there are many defining traits all sahuagin possess, but their ability to
 
 ***Ability Score Increase.*** Your Constitution score increases by 1, and two other ability scores of your choice increase by 1.
 
-***Age.*** I DON'T KNOW!!!!!!!!!!!!!
+***Age.*** Sahuagin move through the stages of infancy quickly, for those who fall behind are quickly devoured by their siblings.  As such, they reach adolescence within a year.  The brutal weed-out process of adolescence continues for another 5 years, at which point, any sahuagin still alive is considered an adult. 
+Most sahuagin can live to 75, though they typically die violent deaths by 30.  However, some sahuagin have been known to live as long as 500 years.  These are generally particually powerful barons, priestesses favored by Sekolah, or mutant sahuagin with arctic or deep-sea adaptations.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***Alignment.*** Most sahuagin are lawful evil.  They have a brutal bloodlust controlled and directed towards conquest by their rigid and tyrannical society.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ***Size.*** Adult male sahuagin usually reach roughly 6 feet in height and weigh about 200 pounds.  Females tend to be a bit shorter and lighter.  However, extreme mutations can lead some hulking sahuagin to reach 9 feet, as is the case with most leaders.   Other mutations might leave frail sahuagin a miserly 4 feet tall.  These sahuagin are usually weeded out early in their life unless they display usual talents or flee their kin.  In all cases, your size is medium.
 
@@ -79,11 +106,11 @@ Though there are many defining traits all sahuagin possess, but their ability to
 
 ***Blood Frenzy.*** When you miss with an attack against a creature who has taken damage since the start of your last turn, you can reroll the attack.  You can use this trait a number of times equal to your Proficiency modifier and regain all uses when you complete a long rest.
 
-<img src='https://i.ibb.co/7NN4300/final-enemy-sahuagin.png' style='position:absolute;top:-20px;right:-270px;width:1000px' />
+<img src='https://i.ibb.co/7NN4300/final-enemy-sahuagin.png' style='position:absolute;top:-20px;right:-290px;width:1050px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;top:100px;height:px;width:px;transform:rotate(180deg)' />
+  style='position:absolute;left:0px;top:95px;height:px;width:px;transform:rotate(180deg)' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
@@ -136,12 +163,14 @@ Additionally, you can interact with up to two objects or features in the environ
 * You gain proficiency in the Deception skill.
 * You no longer need to sleep and can instead enter a trance-like meditation for 4 hours to gain the same benefits.
 
+<img src='https://media.wizards.com/2016/images/daily/cardart_SOI_Island-286.jpg' style='position:absolute; bottom:-0px; right:-0px; width:1000px; transform:scalex(1);filter:opacity(60%);'/>
 
-<img src='https://i.ibb.co/Hh4HJpy/Sahuagin4e.png' style='position:absolute;bottom:-120px;right:-0px;width:820px' />
+<img src='https://i.ibb.co/86DcQwG/Sahuagin4e.png' style='position:absolute;bottom:-120px;right:-0px;width:820px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;left:0px;bottom:0px' />
+
 
 \pagebreak
 
@@ -225,12 +254,23 @@ You've mastered the use of your four arms, granting you the following benefits:
 * You can wield all two-handed weapons with two of your hands.
 * When you make an off-hand attack while wielding a separate weapon in each hand, you can make a second off-hand attack with a different weapon.
 
-
+### Art Credit
+* Sahuagin 3e - Wizards of the Coast
+* Academy Ruins - Zoltan Boros & Gabor Szikszai, Wizards of the Coast
+* Priestess of Sekolah, Ghosts of Saltmarsh, pg.127 - Wizards of the Coast
+* Sahuagin 4e - Wizards of the Coast
+* Island, Shadows over Innistrad - Jonas De Ro, Wizards of the Coast
+* Sahuagin Baron 5e - Wizards of the Coast
+* Sunken Ruins, Zendikar Expeditions - Adam Paquette, Wizards of the Coast
+* The Final Enemy, Ghosts of Saltmarsh, pg.110 - Wizards of the Coast
 
 <img src='https://i.ibb.co/PTbh0Zs/046-06-01-chapter-6.png' style='position:absolute;bottom:-270px;right:-60px;width:950px' />
 
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-150px;bottom:180px' />
 
-<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:270px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:200px; right:0px; width:900px; transform:scalex(-1);filter:opacity(100%);'/>
 
 \pagebreak
 
