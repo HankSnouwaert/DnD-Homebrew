@@ -1,42 +1,75 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## New Cantrip Invocations
 
-The following is an expanded list of invocations for warlocks to choose from.  The invocations are all themed around allowing for specialization in cantrips other than *eldritch blast*. Some of these options replace existing invocations, meaning you cannot take both.
+The following is an expanded list of invocations for warlocks to choose from.  These invocations allow for specialization in cantrips other than *eldritch blast*.  Some of these options replace existing invocations, meaning you cannot take both.
 
 #### Agonizing Infusion 
-*Prerequisite: A warlock cantrip that deals damage. (Replaces Agonizing Blast)*
+*Prerequisite: A warlock cantrip that deals damage.  (Replaces Agonizing Blast)*
 
 When you pick this invocation, choose a warlock cantrip you know that deals damage.  When you damage a creature with the chosen cantrip, add your Charisma modifier to the damage dealt.  
 
-Until you reach 5th level, this extra damage can only be applied to single creature damaged by the cantrip.  Beyond 5th level, this damage applies to all creatures damaged by the cantrip.
-
+Until you reach your 5th warlock level, this extra damage can only be applied to a single creature damaged by the cantrip.  Once you reach your 5th warlock level, this damage applies to all creatures damaged by the cantrip.
 
 #### Cursed Touch
 *Prerequisite*: chill touch *cantrip*
 
-When you hit a creature with *Chill Touch*, the damage dice increase to d12s if that creature is cursed by one of your warlock spells, such as *Hex*,  or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen.
+When you hit a creature with the *chill touch* cantrip, its damage dice increase from d8s to d12s if the target is cursed by one of your warlock spells, such as *hex*,  or by a warlock feature of yours.
 
-Additionally, creatures affected by your *chill touch* are now considered to be cursed by you for the purposes of your other warlock features.
+Additionally, creatures affected by your *chill touch* are now considered to be cursed by one of your warlock features.
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Echo of Death
-*Prerequisite*: toll the dead *cantrip*
+*Prerequisite*: toll the dead** *cantrip*
 
-On your turn, when you reduce a creature to 0 hit points with *toll the dead* or with a warlock spell of 1st level or higher, you may cast *toll the dead* as a bonus action.
+On your turn, when you reduce a creature to 0 hit points with *toll the dead* or with a warlock spell of 1st level or higher, you may cast *toll the dead* as a bonus action. 
+
 
 #### Eldritch Grasp
-*Prerequisite: The ability to cast one of the following warlock cantrips:* chill touch, eldritch blast, infestation, magic stone, poison spray, thunderclap, or toll the dead. *(Replaces Grasp of Hadar)*
+*Prerequisite: The ability to cast one of the following warlock cantrips:* chill touch, eldritch blast, frostbite*, infestation**, magic stone*, poison spray, thunderclap*, or toll the dead**. *(Replaces Grasp of Hadar)*
 
-When you pick this invocation, choose a warlock cantrip you know that is in the prerequisite list of this invocation. 
-When you hit a creature with the chosen cantrip or it fails its saving throw against the cantrip, you can move that creature in a straight line 10 feet closer to yourself.
+When you pick this invocation, choose a warlock cantrip you know that is one of its prerequisites. 
+When you hit a creature with the chosen cantrip, or it fails its saving throw against the cantrip, you can move that creature in a straight line up to 10 feet closer to yourself.
 
 #### Eldritch Reach
-*Prerequisite: A warlock cantrip that either has a radius or a range greater than self. (Replaces Eldritch Spear)*
+*Prerequisite: A warlock cantrip that either has a radius or a range greater than self.  (Replaces Eldritch Spear)*
 
 When you pick this invocation, choose a warlock cantrip you know that either has a radius or a range greater than self.  If the chosen cantrip has a range of 5 feet or greater, its range is doubled.  If it has a range of touch, its range is now 15 feet.  If it has a radius, that radius is doubled.
 
+In the case of the *magic stone** cantrip, the range the stones can be thrown is doubled.
+
+<br> *Cantrip described in *Elemental Evil Player's Companion*
+<br> **Cantrip described in *Xanathar's Guide to Everything*
 
 <img src='https://i.ibb.co/W2z6cwh/Cantrip-Invocations2.jpg' style='position:absolute; top:-20px; right:-150px; width:1000px' />
   
@@ -45,31 +78,31 @@ When you pick this invocation, choose a warlock cantrip you know that either has
 <div style='margin-top:450px;'></div>
 
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:465px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:455px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
 #### Eldritch Repulsion
-*Prerequisite: The ability to cast one of the following warlock cantrips:* chill touch, eldritch blast, infestation, magic stone, poison spray, thunderclap, or toll the dead. *(Replaces Repelling Blast)*
+*Prerequisite: The ability to cast one of the following warlock cantrips:* chill touch, eldritch blast, frostbite* infestation**, magic stone*, poison spray, thunderclap*, or toll the dead**.  *(Replaces Repelling Blast)*
 
-When you pick this invocation, choose a warlock cantrip you know that is in the prerequisite list of this invocation. When you hit a creature with the chosen cantrip or it fails its saving throw against the cantrip, you can push that creature up to 10 feet away from you in a straight line.
+When you pick this invocation, choose a warlock cantrip you know that is one of its prerequisites.  When you hit a creature with the chosen cantrip or it fails its saving throw against the cantrip, you can push that creature up to 10 feet away from you in a straight line.
 
 #### Eldritch Stones
-*Prerequisite*: magic stone *cantrip*
+*Prerequisite*: magic stone* *cantrip*
 
  When you use a sling to hurl a pebble affected by a *magic stone* cantrip you cast, the effect does not end on the stone when it hits or misses a creature, and at the end of your turn, you may choose to have any number of these pebbles teleport back to your hand.
  
 Additionally, if you have the Pact of the Blade feature, your pact weapon can be a sling. 
 
 #### Ever Frost
-*Prerequisite*: frostbite *cantrip*
+*Prerequisite*: frostbite* *cantrip*
 
-If a creature that is not resistant or immune to cold damage passes its saving throw against your *frostbite* cantrip, it still has disadvantage on the next weapon attack roll it makes before the end of its next turn.
+If a creature that is not resistant or immune to cold damage succeeds on its saving throw against your *frostbite* cantrip, it still has disadvantage on the next weapon attack roll it makes before the end of its next turn.
 
 #### Lighting Reel
-*Prerequisite*: lightning lure *cantrip*
+*Prerequisite*: lightning lure*** *cantrip*
 
-When a creature fails its saving throw against your *lightning lure* cantrip, you may pull yourself up to 10 feet closer to the target rather move it towards you. 
+When a creature fails its saving throw against your *lightning lure* cantrip, you may pull yourself up to 10 feet closer to the target rather than move it towards you. 
 
 You may also target any surface within range and pull yourself up to 10 feet closer to it.  This movement does not provoke attacks of opportunity.
 
@@ -78,26 +111,30 @@ If you have the Eldritch Reach invocation, you can pull enemies up to 20 feet cl
 \columnbreak
 
 #### Lethargic Infusion 
-*Prerequisite: A warlock cantrip that forces a saving throw or requires you to make an attack roll. (Replaces Lance of Lethargy)*
+*Prerequisite: A warlock cantrip that forces a saving throw or uses an attack roll.  (Replaces Lance of Lethargy)*
 
-When you pick this invocation, choose a warlock cantrip you know that forces a saving throw or requires you to make an attack roll.  Once on each of your turns, when you hit a creature with the chosen cantrip or it fails its saving throw against the cantrip, you can reduce that creature’s speed by 10 feet until the end of your next turn.
+When you pick this invocation, choose a warlock cantrip you know that forces a saving throw or uses an attack roll.  Once on each of your turns, when you hit a creature with the chosen cantrip, or it fails its saving throw against the cantrip, you can reduce that creature's speed by 10 feet until the end of your next turn.
 
 #### Merciful Invocation
 *Prerequisite: A warlock cantrip that forces a saving throw*
 
-When you pick this invocation, choose a warlock cantrip you know that forces a saving throw. When you cast the chosen cantrip, you can choose to have any number of creatures you can see automatically succeed their saving throws against it, and they take no damage if they would normally take half damage on a successful save.
+When you pick this invocation, choose a warlock cantrip you know that forces a saving throw.  When you cast the chosen cantrip, you can choose to have any number of creatures you can see automatically succeed their saving throws against it.  The chosen creatures take no damage if they would normally take half damage on a successful save.
 
 #### Merciless Strikes
 *Prerequisite*: true strike *cantrip*
 
-When you hit a creature with an attack that is benefiting from the *true strike* cantrip, you deal an extra 1d6 damage of any damage type dealt by that attack.
+When you hit a creature with an attack benefiting from the *true strike* cantrip, you deal an extra 1d6 damage of any damage type dealt by that attack.
 
 This extra damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6). 
 
 #### Potent Invocation
 *Prerequisite: 7th level, a warlock cantrip that forces a saving throw and deals damage*
 
-When you pick this invocation, choose a warlock cantrip you know that forces a saving throw and deals damage. When a creature succeeds on a saving throw against the chosen cantrip, the creature takes half the cantrip's damage but suffers no additional effects that would result from a failed save.
+When you pick this invocation, choose a warlock cantrip you know that forces a saving throw and deals damage.  When a creature succeeds on a saving throw against the chosen cantrip, it takes half the cantrip's damage but suffers no additional effects that would result from a failed save.
+
+<br> *Cantrip described in *Elemental Evil Player's Companion*
+<br> **Cantrip described in *Xanathar's Guide to Everything*
+<br> ***Cantrip described in *Tasha's Cauldron of Everything*
 
 <img src='https://i.ibb.co/4Jr42kC/Cantrip-Invocations3.jpg' style='position:absolute; top:660px; right:0px; width:850px' />
   
@@ -108,10 +145,10 @@ When you pick this invocation, choose a warlock cantrip you know that forces a s
 #### Rite of Warding
 *Prerequisite*: blade ward *cantrip*
 
-Your *blade ward* cantrip gives resistance <br> against all damage dealt by weapon attacks.
+Your *blade ward* cantrip grants <br> resistance  to all damage from weapon attacks.
 
 #### Sliver of Insight
-*Prerequisite*: mind sliver *cantrip*
+*Prerequisite*: mind sliver*** *cantrip*
 
 When a creature fails its saving through against your <br> *mind sliver*, you may learn one of its ability scores of your choice and whether or not it is proficient in saving throws of the chosen ability score.
 
@@ -121,19 +158,19 @@ When a creature fails its saving through against your <br> *mind sliver*, you ma
 At the end of each long rest, choose a creature type other than construct.  Creatures of the chosen creature type don't benefit from resistance or immunity to poison damage when targeted by your *poison spray* cantrip, unless they are under the effect of the *protection from poison* spell.
 
 #### Spectre Strike
-*Prerequisite*: sword burst *cantrip*
+*Prerequisite*: sword burst*** *cantrip*
 
 When you cast *sword burst*, you may make one melee weapon attack as a bonus action.
 
 #### Spreading Flames
-*Prerequisite*: bonfire *cantrip*
+*Prerequisite*: bonfire* *cantrip*
 
-You can concentrate on a number of *bonfire* spells at once equal to your Charisma modifier. Once a creature passes its save against one of your bonfires, it is immune to the effects of other bonfires until the end of the turn.
+You can concentrate on a number of *bonfire* spells at once equal to your Charisma modifier.  Once a creature passes its save against one of your bonfires, it is immune to the effects of all your other bonfires until the end of the turn.
 
 If you must make a check to maintain concentration on one of your *bonfire* cantrips, a single check is made to maintain concentration on all active *bonfire* cantrips.  On a failure, you lose concentration on all active *bonfire* cantrips at once.
 
 #### Swarm Intelligence
-*Prerequisite*: infestation *cantrip*
+*Prerequisite*: infestation** *cantrip*
 
 When you cast *infestation*, you can change its damage type to piercing.  
 
@@ -144,24 +181,28 @@ When you cast *infestation*, you can change its damage type to piercing.
 Additionally, when a creature fails its saving throw against your *infestation* cantrip, you determine which direction it moves rather than determining it randomly.  The options are still north, south, east, and west.
 
 #### Thunderous Impact
-*Prerequisite*: thunderclap *cantrip*
+*Prerequisite*: thunderclap* *cantrip*
 
-When you use take the dash action, you may use your bonus action to cast *thunderclap*. If you move at least 30 feet in a straight line immediately before taking this bonus action, you may choose one creature that failed against the spell's saving throw and knock it prone.
+When you use the Dash action, you may use your bonus action to cast *thunderclap*.  If you move at least 30 feet in a straight line immediately before casting *thunderclap* this way, you may choose one creature that failed its saving throw against the *thunderclap* and knock it prone.
+
+<br> *Cantrip described in *Elemental Evil Player's Companion*
+<br> **Cantrip described in *Xanathar's Guide to Everything*
+<br> ***Cantrip described in *Tasha's Cauldron of Everything*
 
 ### Art Credit
-* Settle The Score - Magic the Gathering - Wizards of the Coast.
-* Staggershock - Magic the Gathering - Wizards of the Coast.
-* Infest - Magic the Gathering - Wizards of the Coast.
-* Annul - Magic the Gathering - Wizards of the Coast.
+* Settle The Score - Yongjae Choi, Wizards of the Coast
+* Staggershock - Raymond Swanland, Wizards of the Coast
+* Infest - Karl Kopinski, Wizards of the Coast
+* Annul - Caio Monteiro, Wizards of the Coast
 
 <div style='margin-top:850px;'></div>
 <img
 src='https://i.ibb.co/X3JjR8g/Cantrip-Invocations4.jpg'
-style='position:absolute;top:-60px;left:275px;width:700px' />
+style='position:absolute;top:-80px;left:275px;width:700px' />
 
 <img
 src='https://www.gmbinder.com/images/VxJ8X1u.png'
-style='position:absolute;top:0px;left:0px;width:916px' />
+style='position:absolute;top:-10px;left:0px;width:970px' />
 
 
 <img src='https://i.ibb.co/GpHtP1F/Cantrip-Invocations5.jpg' style='position:absolute;bottom:-85px;left:-130px;width:640px; transform:scalex(-1)' />
@@ -175,196 +216,8 @@ style='position:absolute;top:0px;left:0px;width:916px' />
 <img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:390px;transform:rotate(280deg)' />
 <img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom:210px;left:290px;width:350px;transform:rotate(80deg)' />
 <img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:240px;left:-150px;width:350px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:325px;width:330px;transform:rotate(275deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:260px;left:290px;width:350px;transform:rotate(50deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:250px;left:-180px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom:210px;left:290px;width:350px;transform:rotate(80deg)' />
-
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-## New Cantrip Invocations
-
-The following is an expanded list of invocations for warlocks to choose from.  The invocations are all themed around allowing for specialization in cantrips other than *eldritch blast*. Some of these options replace existing invocations, meaning you cannot take both.
-
-#### Agonizing Infusion 
-*Prerequisite: A warlock cantrip that deals damage. (Replaces Agonizing Blast)*
-
-When you pick this invocation, choose a warlock cantrip you know that deals damage.  When you damage a creature with the chosen cantrip, add your Charisma modifier to the damage dealt.  
-
-Until you reach 5th level, this extra damage can only be applied to single creature damaged by the cantrip.  Beyond 5th level, this damage applies to all creatures damaged by the cantrip.
-
-
-#### Cursed Touch
-*Prerequisite*: chill touch *cantrip*
-
-When you hit a creature with *Chill Touch*, the damage dice increase to d12s if that creature is cursed by one of your warlock spells, such as *Hex*,  or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen.
-
-Additionally, creatures affected by your *chill touch* are now considered to be cursed by you for the purposes of your other warlock features.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-#### Echo of Death
-*Prerequisite*: toll the dead *cantrip*
-
-On your turn, when you reduce a creature to 0 hit points with *toll the dead* or with a warlock spell of 1st level or higher, you may cast *toll the dead* as a bonus action.
-
-#### Eldritch Grasp
-*Prerequisite: The ability to cast one of the following warlock cantrips:* chill touch, eldritch blast, infestation, magic stone, poison spray, thunderclap, or toll the dead. *(Replaces Grasp of Hadar)*
-
-When you pick this invocation, choose a warlock cantrip you know that is in the prerequisite list of this invocation. 
-When you hit a creature with the chosen cantrip or it fails its saving throw against the cantrip, you can move that creature in a straight line 10 feet closer to yourself.
-
-#### Eldritch Reach
-*Prerequisite: A warlock cantrip that either has a radius or a range greater than self. (Replaces Eldritch Spear)*
-
-When you pick this invocation, choose a warlock cantrip you know that either has a radius or a range greater than self.  If the chosen cantrip has a range of 5 feet or greater, its range is doubled.  If it has a range of touch, its range is now 15 feet.  If it has a radius, that radius is doubled.
-
-
-<img src='https://i.ibb.co/W2z6cwh/Cantrip-Invocations2.jpg' style='position:absolute; top:-20px; right:-150px; width:1000px' />
-  
-<img src='https://www.gmbinder.com/images/WGybwnz.png1' style='position:absolute; top:150px; right:0px; width:900px;transform: scaleX(-1); filter: grayscale(00%) brightness(97%);' />
-
-<div style='margin-top:450px;'></div>
-
-
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:465px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
-
-\pagebreak
-
-#### Eldritch Repulsion
-*Prerequisite: The ability to cast one of the following warlock cantrips:* chill touch, eldritch blast, infestation, magic stone, poison spray, thunderclap, or toll the dead. *(Replaces Repelling Blast)*
-
-When you pick this invocation, choose a warlock cantrip you know that is in the prerequisite list of this invocation. When you hit a creature with the chosen cantrip or it fails its saving throw against the cantrip, you can push that creature up to 10 feet away from you in a straight line.
-
-#### Eldritch Stones
-*Prerequisite*: magic stone *cantrip*
-
- When you use a sling to hurl a pebble affected by a *magic stone* cantrip you cast, the effect does not end on the stone when it hits or misses a creature, and at the end of your turn, you may choose to have any number of these pebbles teleport back to your hand.
- 
-Additionally, if you have the Pact of the Blade feature, your pact weapon can be a sling. 
-
-#### Ever Frost
-*Prerequisite*: frostbite *cantrip*
-
-If a creature that is not resistant or immune to cold damage passes its saving throw against your *frostbite* cantrip, it still has disadvantage on the next weapon attack roll it makes before the end of its next turn.
-
-#### Lighting Reel
-*Prerequisite*: lightning lure *cantrip*
-
-When a creature fails its saving throw against your *lightning lure* cantrip, you may pull yourself up to 10 feet closer to the target rather move it towards you. 
-
-You may also target any surface within range and pull yourself up to 10 feet closer to it.  This movement does not provoke attacks of opportunity.
-
-If you have the Eldritch Reach invocation, you can pull enemies up to 20 feet closer to you or yourself up to 20 feet closer to your target.
-
-\columnbreak
-
-#### Lethargic Infusion 
-*Prerequisite: A warlock cantrip that forces a saving throw or requires you to make an attack roll. (Replaces Lance of Lethargy)*
-
-When you pick this invocation, choose a warlock cantrip you know that forces a saving throw or requires you to make an attack roll.  Once on each of your turns, when you hit a creature with the chosen cantrip or it fails its saving throw against the cantrip, you can reduce that creature’s speed by 10 feet until the end of your next turn.
-
-#### Merciful Invocation
-*Prerequisite: A warlock cantrip that forces a saving throw*
-
-When you pick this invocation, choose a warlock cantrip you know that forces a saving throw. When you cast the chosen cantrip, you can choose to have any number of creatures you can see automatically succeed their saving throws against it, and they take no damage if they would normally take half damage on a successful save.
-
-#### Merciless Strikes
-*Prerequisite*: true strike *cantrip*
-
-When you hit a creature with an attack that is benefiting from the *true strike* cantrip, you deal an extra 1d6 damage of any damage type dealt by that attack.
-
-This extra damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6). 
-
-#### Potent Invocation
-*Prerequisite: 7th level, a warlock cantrip that forces a saving throw and deals damage*
-
-When you pick this invocation, choose a warlock cantrip you know that forces a saving throw and deals damage. When a creature succeeds on a saving throw against the chosen cantrip, the creature takes half the cantrip's damage but suffers no additional effects that would result from a failed save.
-
-<img src='https://i.ibb.co/4Jr42kC/Cantrip-Invocations3.jpg' style='position:absolute; top:660px; right:0px; width:850px' />
-  
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-120px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
-
-\pagebreak
-
-#### Rite of Warding
-*Prerequisite*: blade ward *cantrip*
-
-Your *blade ward* cantrip gives resistance <br> against all damage dealt by weapon attacks.
-
-#### Sliver of Insight
-*Prerequisite*: mind sliver *cantrip*
-
-When a creature fails its saving through against your <br> *mind sliver*, you may learn one of its ability scores of your choice and whether or not it is proficient in saving throws of the chosen ability score.
-
-#### Specialized Poisons
-*Prerequisite*: poison spray *cantrip*
-
-At the end of each long rest, choose a creature type other than construct.  Creatures of the chosen creature type don't benefit from resistance or immunity to poison damage when targeted by your *poison spray* cantrip, unless they are under the effect of the *protection from poison* spell.
-
-#### Spectre Strike
-*Prerequisite*: sword burst *cantrip*
-
-When you cast *sword burst*, you may make one melee weapon attack as a bonus action.
-
-#### Spreading Flames
-*Prerequisite*: bonfire *cantrip*
-
-You can concentrate on a number of *bonfire* spells at once equal to your Charisma modifier. Once a creature passes its save against one of your bonfires, it is immune to the effects of other bonfires until the end of the turn.
-
-If you must make a check to maintain concentration on one of your *bonfire* cantrips, a single check is made to maintain concentration on all active *bonfire* cantrips.  On a failure, you lose concentration on all active *bonfire* cantrips at once.
-
-#### Swarm Intelligence
-*Prerequisite*: infestation *cantrip*
-
-When you cast *infestation*, you can change its damage type to piercing.  
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-Additionally, when a creature fails its saving throw against your *infestation* cantrip, you determine which direction it moves rather than determining it randomly.  The options are still north, south, east, and west.
-
-#### Thunderous Impact
-*Prerequisite*: thunderclap *cantrip*
-
-When you use take the dash action, you may use your bonus action to cast *thunderclap*. If you move at least 30 feet in a straight line immediately before taking this bonus action, you may choose one creature that failed against the spell's saving throw and knock it prone.
-
-### Art Credit
-* Settle The Score - Magic the Gathering - Wizards of the Coast.
-* Staggershock - Magic the Gathering - Wizards of the Coast.
-* Infest - Magic the Gathering - Wizards of the Coast.
-* Annul - Magic the Gathering - Wizards of the Coast.
-
-<div style='margin-top:850px;'></div>
-<img
-src='https://i.ibb.co/X3JjR8g/Cantrip-Invocations4.jpg'
-style='position:absolute;top:-60px;left:275px;width:700px' />
-
-<img
-src='https://www.gmbinder.com/images/VxJ8X1u.png'
-style='position:absolute;top:0px;left:0px;width:916px' />
-
-
-<img src='https://i.ibb.co/GpHtP1F/Cantrip-Invocations5.jpg' style='position:absolute;bottom:-85px;left:-130px;width:640px; transform:scalex(-1)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:250px;left:-140px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:260px;left:290px;width:350px;transform:rotate(20deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:250px;left:-180px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom:210px;left:290px;width:350px;transform:rotate(80deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
+<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:320px;left:-40px;width:400px' />
+<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:350px;left:-40px;width:400px' />
 <img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:240px;left:-150px;width:350px;transform:rotate(180deg)' />
 <img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
 <img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:325px;width:330px;transform:rotate(275deg)' />
@@ -376,5 +229,8 @@ style='position:absolute;top:0px;left:0px;width:916px' />
 
 \pagebreak
 
-### 1.1.0 Changes
+#### 1.1.0 Changes
  * Public Release & Updates
+
+#### 1.1.1 Changes
+ * Document clean up
