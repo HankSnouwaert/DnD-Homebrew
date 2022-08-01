@@ -1,12 +1,40 @@
 
+<style>
 
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Artificer Specialist 
 
 ### Arsonist
-These artificers have focused their craft on the creation and manipulation of fire.  Unlike other spellcasters who conjure and hurl flame from a distance, arsonists wade into the fray, surrounded by the scorching fires of their making.  These fires are created through the use of an arcane flamethrower, and arsonists survive the blazing melee with the aid of a specially crafted suit of flame armor.  Arsonists can quickly spread their flames across large areas through the aid of flammable oils they launch across the battlefield and upon their foes.  
+These artificers have focused their craft on the creation and manipulation of fire.  Unlike other spellcasters who conjure and hurl flame from a distance, arsonists wade into the fray, surrounded by the scorching fires of their making.  These fires are created through the use of an arcane flamethrower, and arsonists survive the blazing melee with the aid of a specially crafted suit of flame armor.  Arsonists can quickly spread their flames across large areas using flammable oils launched across the battlefield and upon their foes.   
 
-These pyromaniac artificers are often seen as dangerously unhinged, and many are dismayed by the amount of burning collateral damage they leave in their wake.  Whether their fires are excessive or their tactics are reckless is of little concern to an arsonist; they get the job done and have fun doing it.
+These pyromaniac artificers are often seen as dangerously unhinged and are notorious for the burning collateral damage they leave in their wake.  Whether their fires are excessive or their tactics are reckless is of little concern to an arsonist; they get the job done and have fun doing it.
 
 #### Tools of the Trade
 *3rd level Arsonist Feature*<br>
@@ -30,12 +58,14 @@ You always have certain spells prepared after you reach particular levels in thi
 
 \columnbreak
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 #### Flame Suit
 *3rd level Arsonist Feature*<br>
 
-You learn how to integrate your fiery weapons into a combat suit.  Over a long rest, you can turn a suit of armor into a Flame Suit, provided you have smith's tools or alchemist's tools on hand and you are proficient with the tools.
+You learn how to craft a fiery combat suit.  Over a long rest, you can turn a suit of armor into a Flame Suit, provided you have smith's tools or alchemist's tools on hand and you are proficient with the tools.
 
-You gain the following benefits while wearing this Flame Suit:
+You gain the following benefits while wearing this suit:
 
 * If the armor normally has a Strength requirement, the Flame Suit lacks this requirement.
 
@@ -48,6 +78,24 @@ You gain the following benefits while wearing this Flame Suit:
 * The armor has a built-in flamethrower.  It counts as a two-handed simple ranged weapon with a range of 10/20 feet that deals 1d8 fire damage on hit.  You use your Intelligence modifier for its attack and damage rolls, and only you are proficient with the weapon.  Being within 5 feet of a hostile creature doesn't impose disadvantage on your flamethrower's attack rolls.  The flamethrower counts as a separate item from your Flame Suit for the purposes of your Artificer Infusions.
 
 The armor continues to be a Flame Suit until you convert another suit of armor into a Flame Suit, at which point it reverts back to its original form.  You can also revert it back to its original form over the course of a short or long rest.
+
+<img
+src='https://i.ibb.co/tqQrWzN/Kindled-Fury-Kamigawa-Neon-Dynasty-Mt-G-Art.jpg'
+style='position:absolute;top:-30px;left:200px;width:720px;transform:scaleX(1)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-205px;left:-20px;width:916px;transform:rotate(3deg)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-145px;left:-230px;width:916px;transform:rotate(52deg)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-05px;left:-20px;width:916px;transform:rotate(3deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:226px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -69,10 +117,14 @@ While wearing your Flame Suit, you ignore the difficult terrain created by your 
 Your flamethrower has been enhanced to spread flames more efficiently.  When you take the attack action with your flamethrower, you now have the following options:
 
 * **Rapid Fire** - You make two attacks with your flamethrower.  You may replace any number of these attacks with uses of your Fuel the Flame feature, expending a fuel charge for each use.
+
+\columnbreak
+
+
 * **Burning Stream** - You unleash a roaring jet of fire from your flamethrower.  Make a separate attack against each creature in a 15-foot cone with your flamethrower.  Alternatively, you can expend a fuel charge to cover a 15-foot cone in the fuel described by your Fuel the Flame feature.
 * **Flame Slam** -  You slam your flamethrower in front of you, scorching nearby enemies.  Make a separate attack against any number of creatures within 5 feet of you with your flamethrower.  Alternatively, you can expend a fuel charge to cover each space within 5 feet of you with the fuel described by your Fuel the Flame feature (including the space you're occupying).
 
-\columnbreak
+
 
 #### Pyromania
 *9th level Arsonist Feature*<br>
@@ -89,6 +141,10 @@ You've perfected the potency of your flamethrower and flammable fuel, granting y
 * You can lunch a glob of fuel with your Fuel the Flames feature up to 40 feet away.
 * When you use your Burning Stream attack option, you can increase its area to a 20-foot cone.
 * When you use your Flame Slame attack option, you can move up to 15 feet along the ground in a straight line before you make your slam.
+
+<img src='https://i.ibb.co/NrM2YpG/Arsonists-Greeting.png' style='position:absolute;left:-70px;bottom:-285px;width:920px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-100px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 \pagebreak
 
@@ -160,5 +216,10 @@ The item regains 1d4 expended charges daily at dawn.
 
 \pagebreak
 
-### 0.0.0 Changes
- * This is a placeholder for the change log
+#### 0.0.0
+ * Document creation
+
+### 0.1.0
+* Implement art and layout
+
+
