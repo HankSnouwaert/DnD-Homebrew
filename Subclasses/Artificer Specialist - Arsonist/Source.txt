@@ -179,47 +179,52 @@ You begin to build up breaking heat debilitating thouse around you, Each creatur
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 2d6 for each slot level above 5th.
 
 
-<br>
+\columnbreak
 
-### New Feat
-
-### Elemental Adept
-
-* When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.
-
-* You can choose to have spells you cast, your class abilities, your racial abilities, and magic items you are attuned to ignore resistance to damage of the chosen type. And treat immunity to the chosen damage type as though it was resistance.
-
-* You can select this feat multiple times. Each time you do so, you must choose a different damage type.
 
 ### New Artificer Infusion
 
-### Primordial Weapon
-Item: A simple or martial weapon
+#### Oil Slide Boots
+*Item: A pair of boots (requires attunement)*
 
-This magic weapon deals an extra 1d4 damage on hit, which you choose when you infuse the item: acid, cold, fire, lightning, poison, or thunder.
+These boots can unleash flammable oil from their steps.  They have 4 charges, and their wearer can use a bonus action to expend a charge to slide 15 feet along the ground in a straight line without provoking attacks of opportunity.  Any space the wearer moves into or out of this way is covered in flammable fuel.  The fuel turns these areas into difficult terrain and lasts for 1 minute before drying up.  
 
-The damage increases to 1d6 when you reach 10th level in this class.
+If an attack, spell, or ability that deals fire damage targets something in a fuel-covered area or has an area of effect that overlaps with a fuel-covered area, any fuel in that area is set ablaze.  All other fuel-covered areas in contact with an area of burning fuel are also immediately set ablaze as the fire spreads across all the fuel it comes in contact with.
 
-### Robe's of Endurance
-Item: Robe (requires attunement)
+When a creature starts its turn in an area of burning fuel, it takes 1d8 + your Intelligence modifier fire damage.  A creature can only take damage from your burning fuel once during its turn.
 
-While wearing this robe, Whenever a creature rolls a Hit Die to regain hit points, It can choose to use your intelligence modifier + it's constitution modifier instead of the number rolled on the Hit Die.
+The wearer of these boots ignores difficult terrain and is immune to fire damage caused by fuel created by these boots or any of your other artificer class features.
 
-### Oil Slide Boots
-Item: A pair of boots (requires attunement)
+The boots regain 1d4 expended charges daily at dawn.
 
-The Boots can case griming oil slip out of them. The item has 4 charges. wielder can spend a charge to move up to 15 feet along the ground in at straight line with out provoking attack of opportunity as a bonus action. Any areas the creature move across is cover in fuel. The areas covered are difficult terrain for the minute before drying up. If any fuel is hit by a attack that deals fire damage or effect by spell or abilities that deals fire damage to area. it and all other areas and creatures covered fuel in contact with it are set ablaze for the minute, when a creature, starts its turn in a area of burning fuel. it takes 1d8 + your intelligence modifier fire damage. A creature can only take this damage once per turn during it's turn.
+#### Primordial Weapon
+*Item: A simple or martial weapon*
 
-Additional the creature ignores difficult terrain created by fuel and Is immune to fire damage form fuel set ablaze.
+This magic weapon deals an extra 1d4 damage on hit.  You choose the damage type from among the following when you infuse the item: acid, cold, fire, lightning, poison, or thunder.
 
-The item regains 1d4 expended charges daily at dawn.
+The extra damage increases to 1d6 when you reach 10th level in this class.
+
+#### Robes of Endurance
+*Item: A robe (requires attunement)*
+
+Whenever a creature rolls a Hit Die to regain hit points while wearing this robe, it can choose to use your Intelligence modifier + its Constitution modifier instead of the number rolled on the Hit Die.
 
 \pagebreak
 
 #### 0.0.0
  * Document creation
 
-### 0.1.0
+#### 0.1.0
 * Implement art and layout
+
+#### 0.2.0
+* Move elemental adapt feat out of document
+* Add references to new spells and infusions
+
+\columnbreak
+
+### Referenced Documents
+* New Spells 1.2.0
+* New Artificer Infusions 0.0.0
 
 
