@@ -1,5 +1,33 @@
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Artificer Specialist 
 
@@ -14,14 +42,11 @@ You gain proficiency with your choice of smith's tools or alchemist's supplies. 
 #### Quantum Smith Spells
 *3rd level Quantum Smith Feature*<br>
 You always have certain spells prepared after you reach particular levels in this class, as shown in the Quantum Smith Spells table.  
-
-
+These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Quantum Smith Spells
 | Artificer Level   |  Spells      | 
@@ -45,19 +70,22 @@ Your deep understanding of material reality allows you to enter mystical states 
 
 As an action or bonus action, you can grant yourself the ability to magically shift your size for the next 10 minutes.
 
+When you activate this ability, and as an action or <br> bonus action during its duration, you can shift <br> one or more size categories.  When you do so, <br> everything you are wearing and carrying changes <br> size with you, including your weapons. 
+
+
 <img
 src='https://i.ibb.co/ZmQTDHq/quandrix-pledgemage.jpg'
 style='position:absolute;top:-70px;left:0px;width:850px;transform: scaleX(1)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:150px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:150px; right:0px; width:900px; transform:rotate(6deg)' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:450px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:425px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 
 
 \pagebreak
 
-When you activate this ability, and as an action or <br> bonus action during its duration, you can shift <br> one or more size categories.  When you do so, <br> everything you are wearing and carrying changes <br> size with you, including your weapons. The sizes <br> you can reach are based on your artificer level, <br> and their effects on you are listed in the **Size <br> Effects** table below.  
+The sizes  you can reach are based on your artificer<br> level,  and their effects on you are listed in the **Size <br> Effects** table below.  
 
 For ever size category you increase, your size <br> doubles on all dimensions and your weight is <br> multiplied by eight.  For every size category you <br> decrease, you size is halved in all dimensions and <br> your weight is divided by eight.  The exceptions to  <br> this are the minuscule and quantum size categories. <br> At the minuscule size, you are roughly the size of a  <br> large ant. At the quantum size, you are so small you <br> appear to disappear entirely and can no longer <br> interact with the world around you.
 
@@ -65,18 +93,17 @@ After the full 10 minutes pass, you automatically <br> shift back to your natura
 
 You can use this ability a number of times equal <br> to your Intelligence modifier + 1  (minimum 2) and <br> regain all uses when you complete a long rest.
 
-
 ##### Size Effects
 |   Size     |  Traits     | Artificer Level   
 |:----------:|:-------------:|:----------:|
-| Quantum    | You are under the effects of the *banishment* spell. | 9
-| Minuscule  | Your AC increases by 2, your speed decreases by 20 ft., you can increase the results of your Dexterity checks and saving throws by 2d4, and creatures have disadvantage on Perception checks to detect you.    |  5|
-| Tiny       | Your AC increases by 1, your speed decreases by 10 ft., and you can increase the results of your Dexterity checks and saving throws by 1d4    |   3|
+| Quantum    | &#8226;  You are under the effects of the *banishment* spell. | 9
+| Minuscule  | &#8226; Your AC increases by 2. <br> &#8226; Your speed decreases by 20 ft. <br> &#8226; You can increase the results of your Dexterity checks and saving throws by 2d4. <br> &#8226; Creatures have disadvantage on Perception checks to detect you.    |  5|
+| Tiny       | &#8226; Your AC increases by 1. <br> &#8226; Your speed decreases by 10 ft. <br> &#8226; You can increase the results of your Dexterity checks and saving throws by 1d4.    |   3|
 | Small      | None      |   3   |
 | Medium     | None    |     3   |
-| Large      | Your melee weapon attacks deal an additional 1d4 damage, your AC is reduced by 1, and you can increase the results of your Strength checks and saving throws by 1d4 |  3| 
-| Huge       | Your melee weapon attacks deal an additional 2d4 damage, your AC is reduced by 2, and you can increase the results of your Strength checks and saving throws by 2d4|  5
-| Gargantuan | Your melee weapon attacks deal an additional 3d4 damage and deal double damage to objects and structures, your AC is reduced by 3, and you can increase the results of your Strength checks and saving throws by 3d4 |  9
+| Large      | &#8226; Your melee weapon attacks deal an additional 1d4 damage. <br> &#8226; Your AC is reduced by 1. <br> &#8226; You can increase the results of your Strength checks and saving throws by 1d4. |  3| 
+| Huge       | &#8226; Your melee weapon attacks deal an additional 2d4 damage. <br> &#8226; Your AC is reduced by 2. <br> &#8226; You can increase the results of your Strength checks and saving throws by 2d4.|  5
+| Gargantuan | &#8226; Your melee weapon attacks deal an additional 3d4 damage and deal double damage to objects and structures. <br> &#8226; Your AC is reduced by 3. <br> &#8226; You can increase the results of your Strength checks and saving throws by 3d4 |  9
 
 
 
@@ -117,6 +144,10 @@ style='position:absolute;top:0px;left:320px;width:580px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:80px;top:110px;height:px;width:900px;transform:rotate(200deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;left:-685px;top:-186px;height:px;width:px;transform:rotate(-90deg)' />
 
 \pagebreak
@@ -130,9 +161,9 @@ Additionally, you can move through other creatures and objects as if they were d
 ### New Artificer Infusion
 
 #### Quantum Coins
-*Prerequisite: 6th-level artificer*<br>
+*Prerequisite: 10th-level artificer*<br>
 *Item: A number of metallic coins less than or equal to your proficiency modifier*<br>
-A creature with these coins can use each of them as a finesse thrown weapon with a range of 30/60.  When you are using them, you can use your Intelligence modifier, instead of your Strength or Dexterity modifier, for attack rolls with the coins.  
+A creature with these coins can use each of them as a thrown weapon with the finesse property and a range of 30/60.  The coins deal no damage.  When you are using them, you can use your Intelligence modifier, instead of your Strength or Dexterity modifier, for the attack roll.  A creature being attacked by a coin that can see its attacker can choose to allow the attack to automatically hit.
 
 When a creature throws the coin, that creature chooses a size from the Quantum Coin Sizes table.  If the thrown coin hits a creature or object, its size changes to the chosen size category for the next 10 minutes, and it gains the traits associated with that size, described in the Quantum Coin Sizes table.  An unwilling creature can make a Constitution saving throw against your spell save DC to avoid changing size.  If it fails, it can repeat the save at the end of each of its turns, ending the effect on a success.
 
@@ -143,13 +174,14 @@ Once a coin has been used to change the size of a target, it loses the ability t
 ##### Quantum Coin Sizes
 |   Size     |  Traits     | 
 |:----------:|:-------------:|
-| Minuscule  | Your AC increases by 2, your speed decreases by 20 ft., you can increase the results of your Dexterity checks and saving throws by 2d4, and other creatures have disadvantage on Perception checks made to detect you.    | 
-| Tiny       | Your AC increases by 1, your speed decreases by 10 ft., and you can increase the results of your Dexterity checks and saving throws by 1d4    |  
+| Minuscule*   | &#8226; Your AC increases by 2. <br> &#8226; Your speed decreases by 20 ft. <br> &#8226; You can increase the results of your Dexterity checks and saving throws by 2d4. <br> &#8226; Creatures have disadvantage on Perception checks to detect you.    | 
+| Tiny       | &#8226; Your AC increases by 1. <br> &#8226; Your speed decreases by 10 ft. <br> &#8226; You can increase the results of your Dexterity checks and saving throws by 1d4.    |  
 | Small      | None      |  
 | Medium     | None    |   
-| Large      | Your melee weapon attacks deal an additional 1d4 damage, your AC is reduced by 1, and you can increase the results of your Strength checks and saving throws by 1d4 |   
-| Huge       | Your melee weapon attacks deal an additional 2d4 damage, your AC is reduced by 2, and you can increase the results of your Strength checks and saving throws by 2d4| 
+| Large      | &#8226; Your melee weapon attacks deal an additional 1d4 damage. <br> &#8226; Your AC is reduced by 1. <br> &#8226; You can increase the results of your Strength checks and saving throws by 1d4. |   
+| Huge       | &#8226; Your melee weapon attacks deal an additional 2d4 damage. <br> &#8226; Your AC is reduced by 2. <br> &#8226; You can increase the results of your Strength checks and saving throws by 2d4.| 
 
+*At the minuscule size, you are roughly the size of a  <br> large ant.
 
 ### Art Credit
 * Quandrix Pledgemage - Caroline Gariba, Wizards of the Coast.
@@ -157,14 +189,22 @@ Once a coin has been used to change the size of a target, it loses the ability t
 * Reckless Amplimancer - Yigit Koroglu, Wizards of the Coast.
 
 <img src='https://i.ibb.co/bXYnQkC/yigit-koroglu-reckless-amplimancer-dnm.jpg'
-style='position:absolute;top:530px;left:0px;height:610px;transform:scaleX(1)'>
+style='position:absolute;top:540px;left:0px;height:610px;transform:scaleX(1)'>
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;bottom:20px' />
-
+  style='position:absolute;left:0px;bottom:-5px' />
 
 \pagebreak
 
-### 0.0.0 Changes
- * This is a place holder for the change log
+#### 0.0.0 
+ * Document creation
+
+#### 0.1.0
+* Add reference to quantum coins
+* Clean up size table
+
+\columnbreak
+
+### References Documents
+* New Artificer Infusions
