@@ -1,3 +1,31 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p4:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Race: Trolls
@@ -184,3 +212,6 @@ You've further developed your innate troll regeneration, making you even more di
 
 #### 1.0.2
  * Document clean up
+
+#### 1.0.3
+ * Remove footers from pages 2 and 4
