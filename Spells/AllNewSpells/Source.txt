@@ -61,7 +61,7 @@ A creature can't suffer from two instances of the same mutation at once.
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.
 
 #### Binding Chain 
-*1nd-level conjuration*
+*1st-level conjuration*
 ___
 - **Casting Time:** 1 bonus action
 - **Range:** 30 feet
@@ -70,15 +70,15 @@ ___
 - **Classes:**  Artificer, Paladin, Ranger, Warlock
 ___
 
-You conjure a chain that burst from the ground in an unoccupied space of your choice that you can see within range. the chain lash out at a creature within 30 feet of it that you can see. That creature must succeed on a dexterity saving throw or binded to it.
+You conjure a chain that bursts from the ground in an unoccupied space of your choice that you can see within range.  The chain immediately lashes out at a creature of your choice within 30 feet of its origin point that you can see.  That creature must succeed on a Dexterity saving throw or be bound to the chain.
 
-While the creature is binded to the chain, the creature must make a Strength check against your spell save DC if it attempts to move to a space that is more than 30 feet away from chain; if it succeeds on this check, the chain no longer binds the creature.
+While the creature is bound to the chain, it must make a Strength check against your spell save DC if it attempts to move more than 30 feet away from the chain's origin point; if it succeeds on this check, it breaks free of the chain.
 
-Until the spell ends, as a bonus action on each of your turns you can direct the chain to lash out at a creature 30 feet of it that you can see. you can only have one creature binded at time. 
+Until the spell ends, you can use your bonus action to direct the chain to lash out at a creature within 30 feet of its origin point that you can see, attempting to bind it as described above.  You can only have one creature bound with any given chain at a time. 
 
-The chain has AC 15 and 20 hit points, when it is reduced to 0 hit points, the spell ends.
+The chain has AC 15 and 20 hit points.  When it is reduced to 0 hit points, the spell ends.
 
-*At Higher Levels.* When you cast this spell using a spell slot of 2nd level or higher, the chain gains additional 20 hit points for each slot level above 1st.
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the chain gains an additional 20 hit points for each slot level above 1st.
 
 \pagebreakNum
 
@@ -179,6 +179,25 @@ You cause a ring of ice and frost to burst out from you to a radius of up to a 2
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the damage increases by 1d8 and the maximum possible radius increases by 5 feet for each slot level above 3rd.
 
+#### Frozen Tomb
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (a wolf tooth)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Druid, Warlock
+
+You attempt to encase a creature you can see within range in ice. The target must make a Constitution saving throw (the target can choose to fail), or it becomes entombed in ice for the spell's duration. While entombed this way, it gains 40 temporary hit points, is incapacitated, and has resistance to all damage except fire and thunder damage. 
+
+The air within 15 feet of the entombed creature is chilled. When a creature other than the entombed creature enters this chilled area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 3d8 cold damage, and its speed is halved until the start of its next turn. On a successful save, the creature takes half as much damage, and its speed is not halved.
+
+The spell ends early if the entombed creature loses all the temporary hit points granted by the spell. The creature also loses these temporary hit points when the spell ends.
+
+If you cast this spell on yourself, you do not lose concentration on it as a result of taking damage or being incapacitated. 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the entombed creature gains 10 additional temporary hit points for each slot level above 5th.
+
 
 #### Glean Magic (Public)
 *3rd-level divination*
@@ -199,6 +218,19 @@ If a spell is successfully stolen, the target loses a spell slot of the spell's 
 After stealing a spell, you gain the ability to cast it once as though it were from the same class spell list you used to cast this spell.  When you cast it this way, it does not expend a spell slot, and you cast it at the same spell level at which it was stolen.  You must still supply the stolen spell's required components (including verbal, somatic, and material).  You lose the stolen spell after completing a long rest.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can attempt to steal a spell if its level is less than or equal to the level of the spell slot you used to cast this spell.
+
+\pagebreakNum
+
+#### Grasping Tide
+*2nd-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S
+- **Duration:**   Instantaneous
+- **Classes:**  Druid
+
+You cause water around you to reach out, grab creatures, and pull them in. Choose up to three target creatures you can see within range and within 30 feet of a body of water that is at least 5 feet long, 5 feet wide, and 1 foot deep and within range. Each chosen creature must make a Dexterity saving throw. On a failed save, the creature takes 3d8 bludgeoning damage and is pulled up to 10 feet closer to the water by grasping tendrils. On a successful save, the creature takes half as much damage and is not pulled.
 
 ####  Inflict Rot (Public)
 *4th-level necromancy*
@@ -222,7 +254,21 @@ The fissure deals 50 bludgeoning damage to any structure it comes in contact wit
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
 
-\pagebreakNum
+\columnbreak
+
+#### Leap Slam
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V
+- **Duration:** 1 round
+- **Classes:**  Paladin
+___
+
+You may leap up to 20 feet into the air and may then slam back down into an unoccupied space on the ground within 40 feet. You ignore fall damage until the end of the turn. 
+
+If you slam into the ground, each other creature within 10 feet of you must make a Strength saving throw. On a failed save, it is knocked prone, and until the end of its next turn, it can take either an action or a bonus action on its turn, not both, and can't take reactions.
 
 #### Miasma of Pestilence (Public)
 *1st-level conjuration*
@@ -238,6 +284,8 @@ A cloud of putrescent vapor appears in a 10-foot-radius sphere centered on a poi
 
 Each creature completely within the cloud at the start of its turn must make a Constitution saving throw. On a failed save, the creature is poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions. Creatures that don't need to breathe automatically succeed on this saving throw.
 
+\pagebreakNum
+
 #### Molten Sphere
 *6th-level conjuration*
 ___
@@ -248,26 +296,25 @@ ___
 - **Classes:**  Druid, Sorcerer
 ___
 
-You summon forth a huge, rolling mass of magma.  A 10-foot-diameter sphere of magma appears in an unoccupied space of your choice within range. The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the sphere strikes the target and explodes. When the sphere explodes, each creature within a 20-foot radius must succeed on a Dexterity saving throw or take 4d8 bludgeoning damage and 4d8 fire damage.  Creatures who pass their save take half as much damage, and a creature hit by the sphere fails the save automatically. 
+You summon forth a 10-foot-diameter sphere of magma in an unoccupied space of your choice within range.  The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw.  On a failed save, the sphere strikes the target and explodes.  When the sphere explodes, each creature within a 20-foot radius must succeed on a Dexterity saving throw or take 4d8 bludgeoning damage and 4d8 fire damage.  Creatures who pass their save take half as much damage, and a creature hit by the sphere fails the save automatically. 
 
-Any surface the sphere rolled over, or that was hit by the explosion is covered in 3-inch-thick lava until the spell ends. The lava is difficult terrain, and when a creature moves into or within the area with lava, it takes 4d4 fire damage for every 5 feet it travels. The creature also takes this damage if it ends its turn touching the lava. 
+Any surface the sphere rolls across or in the range of its explosion is covered in 3-inch-thick lava until the spell ends.  The lava is difficult terrain, and when a creature moves into or within an area with lava, it takes 4d4 fire damage for every 5 feet it travels.  The creature also takes this damage if it ends its turn touching the lava. 
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the bludgeoning damage and fire damage from the explosion both increases by 1d8 for each slot level above 6th.
-
-\columnbreak
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the bludgeoning damage and fire damage from the explosion both increase by 1d8 for each slot level above 6th.
 
 #### Mud Ball
 *2nd-level conjuration*
 ___
 - **Casting Time:** 1 action
 - **Range:** 10 feet
-- **Components:** V, S, M (a smooth piece of igneous rock)
+- **Components:** V, S, M (a fist full of mud)
 - **Duration:**   Instantaneous
 - **Classes:**  Druid, Ranger
 ___
 
-You summon forth a huge, rolling mass of Mud.  A 10-foot-diameter sphere of mud appears in an unoccupied space of your choice within range. The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the sphere strikes the target and explodes. When the sphere explodes, each creature within a 10-foot radius must succeed on a Dexterity saving throw or be blinded until the end of it's next turn. A creature hit by the sphere fails the save automatically. Any surface the sphere rolled over, or that was hit by the explosion is covered in 3-inch-thick mud. The mud is difficult terrain until cleared.
+You summon forth a 10-foot-diameter sphere of mud in an unoccupied space of your choice within range.  The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw.  On a failed save, the sphere strikes the target and explodes.  When the sphere explodes, each creature within a 10-foot radius must succeed on a Dexterity saving throw or be blinded until the end of its next turn.  A creature hit by the sphere fails the save automatically.   Any surface the sphere rolls across or in the range of its explosion is covered in 3-inch-thick mud.  The mud is difficult terrain until cleared.
 
+\columnbreak
 
 #### Overdrive (Public)
 *5th-level transmutation*
@@ -295,8 +342,6 @@ ___
 
 You summon illusory creatures who flit and broil within a 30-foot radius sphere centered on a point within range you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
 
-\pagebreakNum
-
 #### Puddle of Ooze (Public)
 *3rd-level conjuration*
 ___
@@ -310,6 +355,8 @@ ___
 You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
+
+\pagebreakNum
 
 #### Slicing Shards (Public)
 *4th-level  conjuration*
@@ -339,7 +386,6 @@ A 20-foot-radius sphere of smoke appears centered on yourself, and you may immed
 
 ***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can move an additional 15 feet for each slot level above 2nd.
 
-\columnbreak
 
 #### Static Field (Public)
 *2nd-level evocation*
@@ -354,6 +400,8 @@ ___
 You cause yourself to become electrically charged for the duration of the spell and immediately deal 1d8 lighting damage to your attacker. Until the spell ends, whenever a creature hits you with a melee attack, you can use your reaction to discharge electricity from yourself and deal 1d8 lighting damage to the attacker.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
+
+\columnbreak
 
 #### Stream of Corruption (Public)
 *2nd-level evocation*
@@ -370,6 +418,24 @@ Bile spews forth from you in a 30-foot cone.  Each creature in that area must ma
 When you cast this spell, you may instead choose a creature within 100 feet of you that you can see and force it to make a Constitution saving throw.  On failed save, it takes 3d8 necrotic damage, and you may cause the cone of bile described above to spew forth from the creature in the direction you choose.  On a successful save, a creature takes half as much damage and does not spew bile.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and creatures in the area of the cone of bile by 1d8 for each slot level above 2nd.
+
+#### Stream of Flames
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (40-foot cone)
+- **Components:** V
+- **Duration:** Up to 1 minute
+- **Classes:** Sorcerer, Wizard
+___
+
+You spew forth a 30-foot cone of fire in a direction of your choice. For the duration of the spell, the cone moves with you while staying pointed in the same direction. You may switch the direction of the cone at the start of your turn. 
+
+When the spell is cast, each creature in the cone of fire must make a Dexterity saving throw. A creature takes 10d6 fire damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or starts its turn there.
+ 
+On your subsequent turns, you must use your action to maintain control over the spell, or it ends. It also ends if you are incapacitated. You can end the spell at any time.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
 
 \pagebreakNum
 
@@ -511,19 +577,49 @@ ___
 
 \pagebreakNum
 
+#### Thermal Meltdown
+*5th-level evocation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self (15-foot cube)
+- **Components:** V, S, M (a piece baked clay)
+- **Duration:** 1 round
+- **Classes:** Artificer, Sorcerer
+___
+
+You begin to build up intense heat, debilitating those around you. Each creature within 15 feet of you must make a Constitution saving throw. On a failure, its speed is halved, and it has disadvantage on Dexterity saving throws until the end of your next turn. On your next turn, you may use your bonus action to release the heat you've built up. If you do so, each creature of your choice within 15 feet of you must make a Dexterity saving throw, taking 6d6 fire damage on a failure and half as much on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.
+
 #### Tranquility
-*5th-level Conjuration*
+*5th-level conjuration*
 ___
 - **Casting Time:** 1 action
 - **Range:** Self (20-foot radius)
 - **Components:** V, S
 - **Duration:**  Concentration, up to 1 minute
+- **Classes:** Druid
 ___
-Healing rains wash down around you, healing you and all creatures of your choice withing 20 feet of you at the end of each of your turns causing each creature to regain hit points equal to 2d4 + your spell casting modifier.  The rains remain in the location where you cast them, healing creatures of your choice in its area at the end of each of your turns until the spell ends.  
+Healing rains wash down around you in a 20-foot radius centered on yourself.  At the end of each of your turns, creatures of your choice within the rain receive its healing.  Each creature healed this way regains hit points equal to 2d4 + your spell casting modifier.  The rains remain centered on the location where you cast the spell until the spell ends.  
 
-The rains can heal a number of times equal to 3 plus your spell casting modifier (minimum 4 times).  After healing that number of times, the spell ends
+The rains can grant healing a number of times equal to 3 plus your spell casting modifier (minimum 4 times).  After granting healing that number of times, the spell ends.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the healing received increases by 1d4 for each slot level above 5th.
+
+#### Water Whip
+*1st-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S, M (a water skin filled with water)
+- **Duration:**   Instantaneous
+- **Classes:**  Druid
+
+You summon a tendril of water to strike at a creature you can see within range. Make a ranged spell attack against the target. On a hit, the target takes 2d10 bludgeoning damage and must make a Strength saving throw. On a failed save, you can either knock it prone or pull it up to 25 feet closer to you.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.
+
+\columnbreak
 
 #### World Sore (Public)
 *1st-level transmutation*
@@ -577,93 +673,13 @@ The boil immediately explodes when the spell ends.
 #### 1.3.0 Changes
 * Add tranquility
 
-\pagebreak
+#### 1.4.0
+* Clean up non-public spells
 
 
-#### Frozen Tomb
-*5th-level Evocation*
-___
-- **Casting Time:** 1 action
-- **Range:** 60 feet
-- **Components:** V, S, M (a wolf tooth)
-- **Duration:**   Concentration, up to 1 minute.
-- **Classes:**  Druid, Warlock.
-
-Ice encases one creature you can see within range. The target must make a Constitution saving throw (the target can choose to fail), or it gains 40 temporary hit points and for the spell’s duration it is incapacitated and has resistance to all damage expect for fire and thunder damage. The air is child around the entombed to a distance of 15 feet for the duration.
-
-When a creature other entombed creature then enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 3d8 cold damage and it speed is halved until the start of it's next turn On a successful save, the creature takes half as much damage and speed is not halved.
-
-The spell ends early if the creature loses all the temporary hit points from the spell. The creature also lose the temporary hit points when the spell ends.
-
-If you cast the spell on your self, you do not lose Constitution on the spell form taking damage or being incapacitated. 
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the creature gains 10 additional additional Temporary Hit Points for each slot level above 5th.
-
-#### Water Whip
-*1st-level Conjuration*
-___
-- **Casting Time:** 1 action
-- **Range:** 30 feet
-- **Components:** V, S, M (Cup of water)
-- **Duration:**   Instantaneous
-- **Classes:**  Druid.
-
- You tendril water to strike out at creature that you can see that is within range, Make a ranged spell attack against the target. On a hit, the target takes takes 2d10 bludgeoning damage and must make a strength saving throw. On a failed save, you can either knock it prone or pull it up to 25 feet closer to you.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.
-
-#### Grasping Tide
-*2nd-level Conjuration*
-___
-- **Casting Time:** 1 action
-- **Range:** 90 feet
-- **Components:** V, S
-- **Duration:**   Instantaneous
-- **Classes:**  Druid.
-
-You case water around you to reach out grab creatures pull them in.  Choose up to three targets you can see within range and with in 30 feet of body of water that is 5 foot by 5 foot or larger that you can see and with in range. each choosen creature must make a Dexterity saving throw. On a failed save, the creature takes 3d8 bludgeoning damage, and is pull it up to 10 feet closer towards the water. On a successful save, the creature takes half as much damage, and creature is not pulled.
-
-#### Spew Flames
-*6th-level evocation*
-___
-- **Casting Time:** 1 action
-- **Range:** Self (40-foot cone)
-- **Components:** V
-- **Duration:** Up to 1 minute
-- **Classes:** Sorcerer, Wizard
-___
-
-You spew froth a tide of flame. 30 foot cone fire extends from you in direction you choose, the cone fallows you wherever you move facing the same direction, you may switch the direction of the cone at the start of your turn. When the area appears, each creature in it must make a Dexterity saving throw. A creature takes 10d6 fire damage on a failed saves, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or starts its turn there.
- 
-On your subsequent turns, you must use your action to maintain control over the spell, or the spell ends, it also ends if your are incapacitated. You can end the spell at any time.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
 
 
-#### Thermal Meltdown
-*5th-level evocation*
-___
-- **Casting Time:** 1 bonus action
-- **Range:** Self (15-foot cube)
-- **Components:** V, S, M (a piece baked clay)
-- **Duration:** 1 round
-- **Classes:** Artificer, Sorcerer
-___
 
-You begin to build up breaking heat debilitating thouse around you, Each creature with in 15 feet of you must make constitution or its speed is halved and it has disadvantage on Dexterity saving throws until their end of the next turn. On your next turn use your bonus action to release the heat, Each creature you choose within 15 feet of you must succeed on a Dexterity saving throw or take 6d6 fire damage. A creature that succeeds on its saving throw takes half as much damage.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.
 
-\pagebreak
 
-#### Leap Slam
-*3rd-level transmutation*
-___
-- **Casting Time:** 1 action
-- **Range:** Self
-- **Components:** V
-- **Duration:** 1 round.
-- **Classes:**  Paladin
-___
-
-You leap into the air and come smashing down. You may leap up to 20 feet in the air to a unoccupied space on the ground with in 40 feet and ignoring fall damage until the end of the turn. If you land on the ground, each other creature with in 10 feet of you must make a strength saving throw. On a failed save, it is knocked prone and until the end of its next turn, the target can take either an action or a bonus action on its turn, not both, and can't take reactions.
