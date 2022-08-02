@@ -1,6 +1,32 @@
+<style>
 
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
 
-<br> <br>
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br> 
 
 # Revised Elemental Spells
 
@@ -11,39 +37,41 @@ ___
 - **Range:** 100 feet
 - **Components:** V, S, M (powdered rhubarb leaf and an adder’s stomach)
 - **Duration:**  Instantaneous
-- **Classes:** Sorcerer*, Wizard
+- **Classes:**  Sorcerer, Wizard
 ___
 A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 4d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn. 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd
 
 #### Elemental Weapon
-*3rd-level transmutation*
+*3nd-level transmutation*
 ___
 - **Casting Time:** 1 bonus action
-- **Range: Touch**
+- **Range:** Touch
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 hour
-- **Classes:**  Artificer, Druid, Paladin, Ranger
+- **Classes:** Artificer, Druid, Paladin, Ranger, Sorcerer, Wizard
 ___
-A weapon you touch becomes bathed in elemental power. Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, it deals an extra 1d6 damage of the chosen type when it hits. If the weapon you touch is a nonmagical weapon, that weapon becomes a <br> magic weapon with a +1 bonus to attack rolls as well.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d6. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d6.
+A weapon you touch becomes bathed in elemental power. Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, it deals an extra 1d4 damage of the chosen type when it hits. If the weapon you touch is a nonmagical weapon, that weapon becomes a magic weapon with a +1 bonus to attack rolls as well.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.
+
+\columnbreak
 
 #### Flame Arrows
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 bonus action
-- **Range: Touch**
+- **Range:** Touch
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 hour
-- **Classes:**  Artificer, Druid, Ranger, Sorcerer, Wizard
+- **Classes:** Artificer, Druid, Ranger, Sorcerer, Wizard, 
 ___
 
-You touch up to twelve arrows and/or bolts. When a target is hit with a ranged weapon attack using one of these pieces of ammunition, it takes an extra 1d6 fire damage.  Flammable objects that are hit are ignited. The spell’s magic ends on the piece of ammunition when it hits or misses a target, and the spell ends when all of the ammunition has lost its magic.
+You touch up to twelve arrows or bolts. When a target is hit by a ranged weapon attack using one of these pieces of ammunition, the target takes an extra 1d6 fire damage, and if it is a flammable object, it is ignited. The spell’s magic ends on the piece of ammunition when it hits or misses a target, and the spell ends when all the ammunition has lost its magic.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
-
 
 
 #### Flame Blade
@@ -51,79 +79,78 @@ You touch up to twelve arrows and/or bolts. When a target is hit with a ranged w
 ___
 - **Casting Time:** 1 action
 - **Range:** Self
-- **Components:** V, S M (a leaf of sumac)
+- **Components:** V, S M (leaf of sumac)
 - **Duration:** Up to 10 minutes
 - **Classes:** Druid, Sorcerer
 ___
 
-You evoke a fiery blade similar to the size and shape of a scimitar in your free hand. When you cast the spell, you may make two melee spell attacks with the blade against any creatures within your reach. On a hit, the target takes fire damage equal to 1d6 + your spellcasting ability modifier. 
+You evoke a fiery blade, similar in size and shape to a scimitar, in your free hand. When you cast this spell, you may make two melee spell attacks with the blade against any targets within your reach. On a hit, a target takes fire damage equal to 1d6 + your spellcasting ability modifier. 
 
 The blade remains for the spell's duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can make the two attacks with the blade again on each of your turns as an action. The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional attack with the blade per action for every two slot levels above 2nd.
 
 <img 
-  src='https://i.ibb.co/JBMhGtr/Ember-Spirit-Cheng-Dong.jpg' 
-  style='position:absolute;right:-10px;bottom:-100px;width:60%; transform: scaleX(-1)' />
+  src='https://i.ibb.co/zQw7xVk/sword-of-war-and-peace.jpg' 
+  style='position:absolute;right:-0px;bottom:-200px;width:100%; transform: scaleX(1)' />
 
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:0px;top:0px;height:1400px;width:1516px;transform:rotate(270deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:20px;top:00px;height:1400px;width:1516px;transform:rotate(270deg)' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-160px; right:-60px; width:950px; transform:rotate(6deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
   
-  <img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;bottom:60px' />
-  
-  <img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:57px;bottom:183px' />
-  
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:10px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
-#### Snilloc's Snowball Storm
+#### Snilloc's Snowball Swarm
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 action
 - **Range:** Self
 - **Components:** V, S M (a piece of ice or a small white rock chip)
 - **Duration:** Up to 10 minutes
-- **Classes:** Druid*, Sorcerer, Wizard
+- **Classes:** Druid, Sorcerer, Wizard
 ___
 
-You summon magic snowballs to bombard your enemies. When you cast the spell, you may make two ranged spell attacks with them against any creatures within 90 feet of you. On a hit, the target takes cold damage equal to 1d4 + your spellcasting  modifier. You can form two more snowballs and repeat the attacks on each of your turns as an action.
+You summon a flurry of magic snowballs to bombard your enemies. When you cast the spell, you may make two ranged spell attacks with the snowballs against any targets within 90 feet of you. On a hit, a target takes cold damage equal to 1d4 + your spellcasting ability modifier. During the spell's duration, you can use an action to form two more snowballs and make the attacks again.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two levels above 2nd.
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two slot levels above 2nd.
 
-#### Storm of Vengeance
+#### Storm of Vengeance 
 *9th-level conjuration*
 ___
 - **Casting Time:** 1 action
 - **Range:** Sight
 - **Components:** V, S 
 - **Duration:** Concentration, up to 1 hour
-- **Classes:** Druid, Sorcerer*
+- **Classes:** Druid
 ___
 
 
-A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet. A creature moving through the area (no more than 5,000 feet beneath the cloud) must make a Strength saving throw or spend 4 feet of movement for every 1 foot it moves the area until the start of its next turn. The area is heavily obscured for creatures other than you. Ranged weapon attacks in the area are impossible unless you allow them, and the wind and rain count as a severe distraction for the purposes of maintaining concentration on spells. Gusts of  wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical.
+A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet.  Lightning flashes in the area, thunder booms, and strong winds roar.  The cloud and an area stretching up to 5,000 feet beneath are affected in the following ways:
 
-You may choose one of the following additional effects to occur until the start of your next turn. At the start of each of your turns, you can choose a new effect that you have not chosen yet.
+* A creature moving through this area must make a Strength saving throw or spend 4 feet of movement for every 1 foot it moves within the area until the start of its next turn.  
 
+* This area is heavily obscured to creatures other than you.  
 
-|  |  |
-|:---:|:-----------:|
-|    | You call 6 bolts of lightning from the cloud to strike 6 creatures or objects of your choice beneath it. A given creature or object can’t be struck by more than one bolt. A struck creature must make a Dexterity saving throw. The creature takes 10d8 lightning damage on a failed save, or half as much damage on a successful on. |
-|    | Hailstones rain down from the cloud. Each creature under the cloud must make a Dexterity saving throw. A creature takes 4d6 bludgeoning damage on a failed save, or half as much damage on a successful one. |
-|    | Acidic rain falls from the cloud. Each creature and object under the cloud takes 3d4 acid damage. |
-|   | Thunder booms in the area.  Each creature under the cloud must make a Constitution saving throw. On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. |
+* Ranged weapon attacks in this area are impossible unless you allow them.  
+
+* The wind and rain in this area are considered a severe distraction for the purposes of maintaining concentration on spells.  
+
+* Gusts of strong wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical.
+
+Additionally, you may choose an additional effect from the options listed below.  At the start of each of your turns, you may choose another effect from this options that you have not already picked since you cast this spell.
+
+***Hail.***  Hailstones rain down from the cloud.  Each creature within its affected area must make a Dexterity saving throw.  The creature takes 4d6 bludgeoning damage on a failed save, or half as much damage on a successful one.  Objects in this area not being worn or carried automatically take 4d6 bludgeoning damage.
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+***Lightning.*** You call down 6 bolts of lightning from the cloud to strike 6 creatures or objects of your choice within its affected area.  Any given creature or object can't be struck by more than one bolt.  A struck creature must make a Dexterity saving throw.  The creature takes 10d8 lightning damage on a failed save, or half as much damage on a successful one.  Objects automatically take 10d8 lightning damage.
+
+***Rain.*** Acidic rain falls from the cloud.  Each creature and object within its affected area takes 3d4 acid damage.
+
+***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
+
 
 #### Witch Bolt
 *1st-level evocation*
@@ -135,28 +162,31 @@ ___
 - **Classes:** Sorcerer, Warlock, Wizard
 ___
 
- When you cast this spell, and as an action on each of your turns for its duration, you can make a ranged spell attack that targets one creature within range. On a hit, the target takes 1d10 lightning damage, and a sustained arc of lightning forms between you and it. On each of your turns for the duration, you can use an action to automatically deal 1d10 lightning damage to one target with which you have an arc. The arc ends if the target is ever outside the spell's range or if it has total cover from you. The spell ends if you use your action to do anything other than attack or deal damage using this spell or if you are incapacitated.
+When you cast this spell, and as an action each round for the duration, you can make a ranged spell attack that targets one creature. On a hit, the target takes 1d12 lightning damage and a sustained arc of lightning forms between you and it. On each of your turns for the duration, you can use an action to automatically deal 1d12 lightning damage to one target with which you have an arc. The arc ends for a target if it is ever outside the spell's range or if it gains total cover from you. The spell also ends if you use your action to do anything other than attack or deal damage using this spell.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the initial damage and automatic damage increase by 1d10 for each slot level above 1st.
+***At Higher Levels.***  When you cast this spell using a spell slot of 3th level or higher, the initial damage and automatic damage increase by 1d12 for every two slot levels above 1st.
 
-<br>
-
-*Spell Added to the Class's Spell List
 
 ### Art Credit
-* Ember Spirit - Cheng Dong
-* Vaedermakar - Bogna Gawrońska
+* Sword of War and Peace - Chris Rahn, Wizards of the Coast
+* Lightning Bolt - Christopher Moeller, Wizards of the Coast
 
-<img src='https://i.ibb.co/42RLZbf/Vaedermakar-Bogna-Gawro-ska.jpg' style='position:absolute; top:-230px; right:-130px; width:640px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/gVB0bdh/Lightning-Bolt-1200x.jpg' style='position:absolute; top:-90px; right:-45px; width:550px; transform:rotate(0deg);filter:opacity(100%);'/>
 
-<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-20px; right:-5px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-235px; right:-5px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:0px; right:-5px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0
  * Public Release
  
+#### 1.1.0
+* Document clean up
+
 \columnbreak
 
 ### Referenced Documents
-* Revised Spells 0.0.0 
+* Revised Spells 1.0.2 
+ 
