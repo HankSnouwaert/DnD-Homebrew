@@ -104,7 +104,7 @@ Most sahuagin can live to 75, though they typically die violent deaths by 30.  H
 
 ***Bite.*** Your razor-sharp jaws are a natural weapon, which you can use to make unarmed strikes.  If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier instead of the bludgeoning damage normal for an unarmed strike.
 
-***Blood Frenzy.*** When you miss with an attack against a creature who has taken damage since the start of your last turn, you can reroll the attack.  You can use this trait a number of times equal to your Proficiency modifier and regain all uses when you complete a long rest.
+***Blood Frenzy.*** When you miss with an attack against a creature who has taken damage this turn, you can reroll the d20, and you must use the new roll. You can use this trait a number of times equal to your Proficiency bonus and regain all uses when you complete a long rest.
 
 <img src='https://i.ibb.co/7NN4300/final-enemy-sahuagin.png' style='position:absolute;top:-20px;right:-290px;width:1050px' />
 
@@ -132,7 +132,7 @@ Most sahuagin can live to 75, though they typically die violent deaths by 30.  H
 
 Choose one of the following options:
 
-**Arctic Adaptation.** You have advantage on Constitution saving throws, and you gain resistance to cold damage.
+**Arctic Adaptation.**  You gain resistance to cold damage.
 
 **Blessed Bite.** You can now apply your Dexterity modifier rather than your Strength modifier to the attack and damage rolls of your bite attack. 
 
@@ -144,7 +144,7 @@ At 5th level your bite is considered magical for the purposes of overcoming immu
 
 **Electroreception.**  You gain blindsight out to 5 feet on land and out to 15 feet in water.
 
-**Enhanced Bloodlust.**  You now regain all uses of your Blood Frenzy trait when you complete a short rest.
+**Enhanced Bloodlust.**  You gain an additional number of uses of Blood Frenzy equal to twice your proficiency bonus.
 
 \columnbreak
 
@@ -155,8 +155,8 @@ Additionally, you can interact with up to two objects or features in the environ
 **Hulking Form.** You have advantage on Strength saving throws, and you count as one size larger when determining your carrying capacity and the weight you can push, drag or lift.
 
 **Light Lure.** You gain a lure on top of your head, which you can use in the following ways
-* As a bonus action you can cause your lure to light up or darken.  While the lure is lit, it sheds bright light in a 20-foot radius centered on you and dim light for an additional 10 feet.
-* As an action you can pulse magical light from the lure.  Any creature within 20 feet of you that can see the light must succeed on a Wisdom saving throw (DC 8 + your Proficiency Modifier + your Constitution Modifier) or be charmed until the end of its next turn.  A creature charmed in this way is incapacitated as it stares at the light.  If the creature takes any damage or another creature within 5 feet of it uses an action to shake it out of its stupor, the effect ends for that creature.
+* As a bonus action you can cause your lure to light up or darken.  While the lure is lit, it sheds bright light in a 20-foot radius centered on you and dim light for an additional 20 feet.
+* As an action while your lure is lit up, you can pulse magical light from the lure.  Any creature within 20 feet of you that can see the light must succeed on a Wisdom saving throw (DC 8 + your Proficiency Modifier + your Constitution Modifier) or be charmed until the end of its next turn. A creature charmed in this way can't willingly move away from you and it has disadvantage on Wisdom and Intelligence checks as long as you with in 20 feet of it. If the creature takes any damage or another creature within 5 feet of it uses an action to shake it out of its stupor, the effect ends for that creature.
 
 **Malenti.** You take on the appearance of a sea elf, granting you the following benefits:
 * You can speak, read, and write Elvish and Aquan
@@ -211,8 +211,7 @@ You've developed yourself while maximizing your lure's abilities, granting you t
 
 * Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
 * When you force a creature to make a saving throw against your Light Lure ability, you can apply your modifier for the ability increased by this feat rather than your Constitution modifier.
-* You learn the *color spray*, *enthrall*, and *hypnotic pattern* spells and can cast these spells even if you don't have a free hand to perform any necessary somatic components of the spell.   When you cast *enthrall* using this feature, it affects creatures that can see you rather than hear you.  You can cast each of these spells once without expending a spell slot.  Once you cast any of these spells this way, you can't cast that spell again until you finish a long rest.  You can also cast these spells using spell slots you have of the appropriate level.  The spellcasting ability of these spells is the ability increased by this feat. 
-    
+* Creatures within 20 feet of you that are charmed by your Light Lure ability can't take reactions and are unable to see anything further than 5 feet away from themselves besides your lure.
 
 <img src='https://i.ibb.co/f9byfPF/Sunken-Ruins.jpg' style='position:absolute; bottom:-200px; right:-0px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
 
@@ -238,11 +237,12 @@ You've further honed yourself and your shark-like senses, granting you the follo
 * Your blindsight increases out to 10 feet on land and 30 feet in water.
 
 ### Monstrous Jaws
-*Prerequisite : Sahuagin Race and the Blessed Bite mutation*<Br>
+*Prerequisite : Sahuagin Race*<Br>
 You've fully developed the devastating capabilities of your shark-like jaws, granting you the following benefits:
 
 * Increase your Strength or Dexterity score by 1, to a maximum of 20.
-* You can now deal an additional 1d6 piercing damage with every hit from your bite attack
+* You can make a bite attack as a bonus action; you don’t add your ability modifier to the damage of the attack.
+* You can use your blood frenzy trait when making a bite attack even if the target has not taken damage this turn. If the creature has taken damage and you use blood frenzy on a bite attack, you can reroll the d20 with advantage.
 
 \columnbreak
 
@@ -264,7 +264,7 @@ You've mastered the use of your four arms, granting you the following benefits:
 * Sunken Ruins, Zendikar Expeditions - Adam Paquette, Wizards of the Coast
 * The Final Enemy, Ghosts of Saltmarsh, pg.110 - Wizards of the Coast
 
-<img src='https://i.ibb.co/PTbh0Zs/046-06-01-chapter-6.png' style='position:absolute;bottom:-270px;right:-60px;width:950px' />
+<img src='https://i.ibb.co/PTbh0Zs/046-06-01-chapter-6.png' style='position:absolute;bottom:-320px;right:-88px;width:1000px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
@@ -273,6 +273,7 @@ You've mastered the use of your four arms, granting you the following benefits:
 <img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:200px; right:0px; width:900px; transform:scalex(-1);filter:opacity(100%);'/>
 
 \pagebreak
+
 
 #### 0.0.0
 * Document creation
