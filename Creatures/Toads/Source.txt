@@ -1,4 +1,30 @@
+<style>
 
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p5:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -7,7 +33,7 @@ These tiny amphibians somehow appear both unassuming and ominous.  Though they p
 
 **Poisonous Nature.** Despite being similar in size and appearance to frogs, toads lack their leaping capabilities and generally walk more than they do hop.  Like frogs, toads also lack any offensive abilities against larger creatures, so they must make up for this lack of mobility with tougher skin which secrets a poison that makes the toads unappealing meals for predators.  This tougher skin also retains water for longer periods of time, allowing the toad to roam further from water than frogs.
 
-Some species of toads are known for having hallucinogenic properties.  Creatures effected by their poison experience vivid visions and even a sense of euphoria.  While these forms of poison may be more exciting or even blissful, they are no less dangerous and can still severely harm any creature foolish enough to lick the toad.
+Some species of toads are known for having hallucinogenic properties, and creatures affected by their poison experience vivid visions and even a sense of euphoria.  While these forms of poison may be more exciting or even blissful, they are no less dangerous and can still severely harm any creature foolish enough to lick the toad.
 
 **Knots of Toads.** When groups of toads come together, they are referred to as a knot.  While this typically happens during mating events and is entirely harmless to others, supernatural forces can sometimes lead to the formation of an aggressive knot of toads capable of overwhelming much larger creatures.  While the individual toads of the knot pose little threat, en masse, they engulf their targets, subjecting them to overwhelming amounts of their poisonous secretions.  Knots of toads behaving in this way are often summoned by vengeful witches, hags, druids, or even gods as a supernatural punishment for perceived slights. 
  
@@ -118,7 +144,7 @@ ___
 > ### Actions
 > ***Engulf.*** *Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 5 (2d4) poison damage, and the target is subjected to the swarm's Poisonous Secretion ability, except the save DC is 14.  If the swarm has less than half its hit points, the save DC is 12.
 
-<img src='https://i.ibb.co/wMqvP6Z/manthos-lappas-giant-frog-png.jpg' style='position:absolute;bottom:-250px;right:-0px;width:510px;transform:scaleX(1)' />
+<img src='https://i.ibb.co/30PSVGx/bloated-toad.jpg' style='position:absolute;bottom:-115px;right:-130px;width:620px;transform:scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/NQssW9u.png' style='position:absolute;bottom:330px;right:290px;width:350px; filter:grayscale(00%) brightness(105%); transform:scaleX(-1)' />
 <img src='https://www.gmbinder.com/images/NQssW9u.png' style='position:absolute;bottom:300px;right:290px;width:350px; filter:grayscale(00%) brightness(105%); transform:scaleX(-1)' />
@@ -146,8 +172,8 @@ ___
 <img src='https://www.gmbinder.com/images/09aJ4Uh.png' style='position:absolute;bottom:200px;right:350px;width:350px; filter:grayscale(00%) brightness(96%); transform:rotate(88deg)' />
 <img src='https://www.gmbinder.com/images/09aJ4Uh.png' style='position:absolute;bottom:200px;right:350px;width:350px; filter:grayscale(00%) brightness(99%); transform:rotate(88deg)' />
 
-<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
-<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
+<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:0px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
+<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:-10px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
 <img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
 <img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:380px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
 <img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:380px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
@@ -159,6 +185,13 @@ ___
 \pagebreak
 
 ## Cauldron Toads
+These alchemical mutants are living vessels for caustic brews. Though superficially, they have the forms of ordinary toads, cauldron toads are filled with vile chemicals which constantly seep from their every orifice, leaving trails of noxious fumes wherever they go. They are usually found in areas filled with alchemical pollution, and some believe them to be toads mutated by such pollution, while others believe they are created from magical concoctions. When bothered, cauldron toads can quickly belch forth the caustic contents within, horribly burning their unfortunate targets.
+
+**Alchemical Assistants.** Cauldron toads have an affinity for any who dabble in dark alchemy. Hags and mad alchemists will sometimes keep cauldron toads as guardians and assistants. These toads have the peculiar ability to store the contents of potions within themselves and can even be used in lieu of alchemists' tools to create such potions. Despite their dismal intelligence, these pets are quite diligent in following their master's orders. They will faithfully deliver and administer potions as directed, even resuscitating their allies with healing potions when needed.
+
+**Giant Cauldron Toads.**  Just as giant toads tower over ordinary toads, these massive cauldron toads tower over their lesser kin. They can belch forth enormous amounts of caustic acid, which often contain the remains of previously devoured victims. Some particularly mad alchemists will feed "ordinary" cauldron toads vile chemicals which grow and mutate them into giant cauldron toads to serve as guardians and even mounts.
+
+**Knots of Cauldron Toads.** When groups of cauldron toads are attracted to a source of particularly intense source of alchemical pollution, the potency of their environment can drive them into a frenzy. They will form a knot of cauldron toads and attack anything in sight, dissolving their victims in a tide of caustic chemicals. Skilled alchemists can herd these knots into their foes, and some will even <br> develop special concoctions made to <br> drive  cauldron toads into frenzied <br> knots  when the situation calls for <br> such measures.
 
 \columnbreak
 
@@ -187,13 +220,21 @@ ___
 > ### Actions
 > ***Bubbling Spit.*** *Ranged Attack:* +3 to hit, reach 15 ft., one target. *Hit:* 2 (1d4) acid damage plus 2 (1d4) fire damage.
 
-<img src='https://i.ibb.co/Std0yMh/sinister-concoction.jpg' style='position:absolute; bottom:-30px; right:-130px; width:640px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/sKF7s2m/haze-frog.png' style='position:absolute; bottom:-45px; right:-100px; width:700px; transform:rotate(0deg);filter:opacity(100%);'/>
 
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-180px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-400px;bottom:15px;  transform:rotate(-0deg);' />
 
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-220px; right:-100px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-805px;bottom:-1000px; transform:rotate(-89deg);' />
 
-<img src='https://image.ibb.co/kC44nH/oF4JQBz.png' style='position:absolute; bottom:-120px; right:-10px; width:950px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-600px;bottom:-100px; transform:rotate(-53deg);' />
+
+
 
 
 
@@ -267,18 +308,18 @@ ___
 
 \pagebreak
 
-## Hypnotoads
+## Hypnotic Toads
 
-These mysterious toads possess powerful and insidious mind-control powers capable of subjecting those they come into contact with.  With their heightened intelligence and powers of suggestion, hypnotoads can quickly build a following of slavish devotees to help them accomplish their inscrutable goals.  
+These mysterious toads possess powerful and insidious mind-control powers capable of subjugating those they encounter. 
 
-**Otherworldly Enigmas.** None know of the true origins of the hypnotoad, and many doubt their existence altogether.  They may be the result of an arcane experiment gone awry, the influence of the Far Realm, or an extraterrestrial incursion.  
-Regardless of their origin, hypnotoads possess the supernatural ability to dominate the will of creatures they make eye contact with.  The hypnotoad can have many creatures under its control this way, so long as they stay within its vicinity.  The creatures under the hypnotoad’s control exist in a trance-like state and receive telepathic commands from their new master, which they follow to the letter.
+<br><br>
 
-**All Glory to the Hypnotoad.** While hypnotoads possess the power to mentally enslave creatures and use them for whatever means they choose, the goals of the hypnotoad are often inscrutably bizarre.  They will often use their powers to inject themselves into humanoid society, forcing others to accept their presence as they pursue their goals.  These goals might involve taking on a prominent social role in the community, building a traveling entourage of followers, or winning a local contest.  The hypnotoad’s reasons for these pursuits are unknowable, but the creatures under its control are forced to slavishly comply, and they will even throw themselves into harm’s way should anything or anyone threaten their master.
+With their heightened intelligence and powers of suggestion, hypnotic toads can quickly build a following of slavish devotees to help them accomplish their inscrutable goals.  
 
-\columnbreak
+
 ___
-> ## Hypnotoad
+___
+> ## Hypnotic Toad
 >*Tiny monstrosity, chaotic neutral*
 > ___
 > - **Armor Class** 11 
@@ -296,7 +337,9 @@ ___
 > ___
 > ***Amphibious.*** The toad can breathe air and water.
 >
-> ***Hypnotic Gaze.***  When a creature starts its turn within 60 feet of the toad and is able to see the toad's eyes, the toad can magically force it to make a DC 14 Wisdom saving throw. On a failure, it becomes charmed by the toad until the toad dies or until the toad is on a different plane of existence than the target. The charmed creature is under the toad's control, can't take reactions, and the toad can communicate telepathically with it over any distance. Whenever the charmed target takes damage or when it starts its turn at least 60 feet away from the toad, it can repeat the saving throw. On a success, the effect ends. The save can be made no more than once every hour. A target that successfully saves is immune to this gaze for the next hour. <br>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the toad until the start of its next turn, when it can avert its eyes again. If the creature looks at the toad in the meantime, it must immediately make the save. 
+> ***Hypnotic Gaze.***  When a creature starts its turn within 60 feet of the toad and is able to see the toad's eyes, the toad can magically force it to make a DC 14 Wisdom saving throw. On a failure, it becomes charmed by the toad until the toad dies or until the toad is on a different plane of existence than the target. The charmed creature is under the toad's control, can't take reactions, and the toad can communicate telepathically with it over any distance. Whenever the charmed target takes damage or when it starts its turn at least 60 feet away from the toad, it can repeat the saving throw. On a success, the effect ends. 
+>
+>The save can be made no more than once every hour. A target that successfully saves is immune to this gaze for the next hour. <br>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the toad until the start of its next turn, when it can avert its eyes again. If the creature looks at the toad in the meantime, it must immediately make the save. 
 >
 > ***Hypnotic Secretion.*** A creature that touches the toad must make a DC 14 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. While poisoned in this way, it also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 14 Wisdom (Medicine) check to end the effect.
 > 
@@ -307,39 +350,29 @@ ___
 > ***Redirect Attack.*** When a creature the toad can see targets it with an attack, the toad chooses another creature charmed by it within 5 feet of it. The toad and the charmed creature swap places, and the charmed creature becomes the target instead.
 
 
-<img src='https://i.ibb.co/tY4V8ZJ/Everybody-Loves-Hypnotoad-NC-Winters-Gicle-Digital-Print-trampt-119616o.jpg' style='position:absolute;bottom:-70px;left:-150px;width:700px' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:420px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:360px;left:-140px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:370px;left:200px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-170px;left:320px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:440px;left:220px;width:350px;transform:rotate(20deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:330px;left:-180px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:330px;left:220px;width:415px;transform:rotate(240deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-180px;left:300px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom: 350px;left:290px;width:350px;transform:rotate(80deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom: 430px;left:-90px;width:400px' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom: 350px;left:-150px;width:350px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:370px;left:260px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-180px;left:325px;width:330px;transform:rotate(275deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:350px;left:300px;width:350px;transform:rotate(50deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:350px;left:-180px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:270px;left:290px;width:445px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:300px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom:210px;left:330px;width:350px;transform:rotate(80deg)' />
+<img src='https://i.ibb.co/BcGrj30/Psycho-Toad.jpg' style='position:absolute;bottom:-70px;left:0px;width:816px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-170px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 \pagebreak
 
-**Giant Hypnotoads.** While most hypnotoads lack physical prowess and rely entirely on their hypnotic abilities, some can grow to monstrous sizes, granting them the ability to overpower and devour those who displease the almighty hypnotoad.  This increased size enhances the hypnotoad’s powers of domination, allowing it to  force creatures to look into its eyes so they may be subjected to its hypnotic control.
+**Otherworldly Enigmas.** None know of the true origins of the hypnotic toad, and many doubt their existence altogether.  They may be the result of an arcane experiment gone awry, the influence of the Far Realm, or an extraterrestrial incursion.  
+
+Regardless of their origin, hypnotic toads possess the supernatural ability to dominate the will of creatures they make eye contact with.  The hypnotic toad can have many creatures under its control this way, so long as they stay within its vicinity.  The creatures under the hypnotic toad’s control exist in a trance-like state and receive telepathic commands from their new master, which they follow to the letter.
+
+**All Glory to the Hypnotic Toad.** While hypnotic toads possess the power to mentally enslave creatures and use them for whatever means they choose, the goals of the hypnotic toad are often inscrutably bizarre.  They will often use their powers to inject themselves into humanoid society, forcing others to accept their presence as they pursue their goals.  
+
+These goals might involve taking on a prominent social role in the community, building a traveling entourage of followers, or winning a local contest.  The hypnotic toad’s reasons for these pursuits are unknowable, but the creatures under its control are forced to slavishly comply, and they will even throw themselves into harm’s way should anything or anyone threaten their master.
+
+**Giant Hypnotic Toads.** While most hypnotic toads lack physical prowess and rely entirely on their hypnotic abilities, some can grow to monstrous sizes, granting them the ability to overpower and devour those who displease this almighty hypnotic toad.  This increased size enhances the hypnotic toad’s powers of domination, allowing it to force creatures to look into its eyes so they may be subjected to its hypnotic control.
+
+Giant hypnotic toads have the power to control entire townships and form bizarre cults.  Some may demand to be worshiped as gods, while others may simply elect themselves the town’s mayor.   Whatever their goal, giant hypnotic toads accept nothing less than total obedience and will not hesitate to devour those who interfere with their schemes.
 
 
-
-Giant hypnotoads have the power to control entire townships and form bizarre cults.  Some may demand to be worshiped as gods, while others may simply elect themselves the town’s mayor.   Whatever their goal, giant hypnotoads accept nothing less than total obedience and will not hesitate to devour those who interfere with their schemes.
-
-<br>
 
 ___
 ___
-> ## Giant Hypnotoad
+> ## Giant Hypnotic Toad
 >*Large monstrosity, chaotic neutral*
 > ___
 > - **Armor Class** 11 
@@ -373,9 +406,10 @@ ___
 > ### Reactions
 > ***Redirect Attack.*** When a creature the toad can see targets it with an attack, the toad chooses another creature charmed by it within 5 feet of it. The toad and the charmed creature swap places, and the charmed creature becomes the target instead.
 
-<img src='https://i.ibb.co/7VmSZkX/psychedelic-toad.jpg' style='position:absolute; top:560px; right:00px; width:816px' />
-  
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-120px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+
+
 
 
 \pagebreak
@@ -385,17 +419,17 @@ ___
 ## The Gitrog Monster
 The Gitrog Monster is a figure of legend, feared by those living in certain remote villages.  The tales surrounding this creature are often vague and contradictory, but they all describe a monstrous lake-dwelling amphibian that feeds on villagers and their livestock.  The presence of the Gitrog Monster in or near a village spells doom for its helpless inhabitants.
 
-**Unknown Number and Orgin.** While the legends refer to a single creature known as the Gitrog Monster, how many of these abominations actually exist is unknown.  It may be a single legendary creature or a rare breed of monstrosities that rarely make their presence overtly known.
+**Unknown Number and Origin.** While the legends refer to a single creature known as the Gitrog Monster, how many of these abominations actually exist is unknown.  It may be a single legendary creature or a rare breed of monstrosities that rarely make their presence overtly known.
 
-The Gitrog’s origin is equally ambiguous.  Because of the striking similarities between their powers and those of the hypnotoad, those who have studied the Gitrog extensively believe that it may have once been a giant hypnotoad.  How it would have gained this level of power and status is unknown.  Perhaps a particularly ancient hypnotoad devoured enough of its followers to grow into an even greater monster.  Or, a hypnotoad may have been warped by strange, eldritch powers from another world.  Whatever the case, the Gitrog’s inscrutable mind betrays no secrets of its past nor plans for its future.
+The Gitrog’s origin is equally ambiguous.  Because of the striking similarities between their powers and those of hypnotic toads, those who have studied the Gitrog extensively believe that it may have once been a giant hypnotic toad.  How it would have gained this level of power and status is unknown.  Perhaps a particularly ancient hypnotic toad devoured enough of its followers to grow into an even greater monster.  Or, a hypnotic toad may have been warped by strange, eldritch powers from another world.  Whatever the case, the Gitrog’s inscrutable mind betrays no secrets of its past nor plans for its future.
 
 
 \columnbreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-**Cult Followings.** The Gitrog Monster possesses most of the abilities of a giant hypnotoad, albeit at a much higher level of power.  However, the ways in which the Gitrog utilizes its powers differ from its lesser cousins.  Whereas hypnotoads often make themselves publicly known as they take on prominent local positions within a community, the Gitrog remains hidden away from public view.  Though it usually stays out of sight, the weight of the Gitrog’s presence is felt throughout the entire community.  
-Rather than inject itself into petty social games, the Gitrog uses its influence to create dark cults with itself at the center.  These cults are formed from inhabitants from any nearby village, and the cult’s members may include those serving purely out of fear or dark pragmatism and desire for power.  Still, other members are true believers in the Gitrog’s greatness, their psyche shattered, leaving them only with the desire to do whatever is necessary to serve their horrific master’s whims.
+**Cult Followings.** The Gitrog Monster possesses most of the abilities of a giant hypnotic toad, albeit at a much higher level of power.  However, the ways in which the Gitrog utilizes its powers differ from its lesser cousins.  Whereas hypnotic toads often make themselves publicly known as they take on prominent local positions within a community, the Gitrog remains hidden away from public view.  Though it usually stays out of sight, the weight of the Gitrog’s presence is felt throughout the entire community.  
+Rather than inject itself into petty social games, the Gitrog uses its influence to create dark cults with itself at the center.  These cults are formed by inhabitants from any nearby village, and the cult’s members may include those serving purely out of fear or dark pragmatism and desire for power.  Still, other members are true believers in the Gitrog’s greatness, their psyche shattered, leaving them only with the desire to do whatever is necessary to serve their horrific master’s whims.
 
 
 <img src='https://i.ibb.co/zmCGVDC/jason-kang-gitrog-monster-web-version2.jpg' style='position:absolute; top:-0px; right:-30px; width:900px;' />
@@ -468,23 +502,23 @@ The following tables provide you with some ways you can incorporate different ty
 
 | d6  | Plot Hook |
 |:---:|:-----------:|
-|  1  | A child in town recently acquired a pet **toad**, and has been acting strangely ever since.  No one is aware that the toad serves as the eyes and ears for a **green hag** who is influencing the child.|
-|  2  |A **toad** devoured a rare vial of potion belonging to a local apothecary and has disappeared into town.  If it is not found soon, the potion will transform the **toad** into a **giant toad**.  |
+|  1  | A child in town recently acquired a pet **toad**and has been acting strangely ever since. No one is aware that the toad serves as the eyes and ears for a **green hag** who is influencing the child.|
+|  2  |A **toad** devoured a rare vial of potion belonging to a local apothecary and has disappeared into town. If it is not found soon, the potion will transform the **toad** into a **giant toad**.  |
 |  3  | A local **druid** has been roused to anger by a nearby village and continually sends **knots of toads** to terrorize its inhabitants.    |
 |  4  |  A dark curse has fallen across the land, causing the sky to rain toads. As a result, aggressive **knots of toads** now roam the countryside.  |
-|  5  | Local **bandits** have set up camp near a pond inhabited by a **giant toad** whom they feed the remains of their victims to, thereby hiding the evidence of their crimes.|
-|  6  |  A knot of **giant toads** has recently invaded the territory of local **pixies**, who they are now preying upon.  The **pixies** are desperate for the help of anyone traveling through the area. |
+|  5  | Local **bandits** have set up camp near a pond inhabited by a **giant toad** to whom they feed the remains of their victims, thereby hiding the evidence of their crimes.|
+|  6  |  A knot of **giant toads** has recently invaded the territory of local **pixies**, who they are now preying upon. The **pixies** are desperate for the help of anyone traveling through the area. |
 
-##### Hypnotoad Adventures
+##### Hypnotic Toad Adventures
 
 | d6  | Plot Hook |
 |:---:|:-----------:|
-|  1  | A **hypnotoad** has joined a village festival where it uses its powers to enter and win each local competition.  The festival’s participants seem unaware that anything is amiss.|
-|  2  |In a remote village, a **hypnotoad** has taken on the role of mayor, captain of the guard, head of the church, and star performer at the local tavern.  Anyone who questions the validity of the **hypnotoad’s** status is exiled from the town.  |
-|  3  | A **mage’s** toad familiar is actually a **hypnotoad** who has enslaved its “owner.”  The **hypnotoad** is now forcing the **mage** to perform a ritual that will transform it into a **giant hypnotoad**.    |
-|  4  | A local prince and heir to the throne has been devoured and replaced by a **giant hypnotoad**.  The king and the entire royal court believe the toad to be the prince and prepare for the coronation as though nothing is wrong. |
-|  5  | A thief’s guild has been taken over by a mysterious new leader and quickly risen in power and prominence as a result.  Only the guild’s mind controlled elite members know that this new kingpin is, in fact, a **giant hypnotoad**.|
-|  6  | A **giant hypnotoad** has formed a secret cult whose members seek out the dark components necessary for a ritual that will transform their master into a **Gitrog**.|
+|  1  | A **hypnotic toad** has joined a village festival where it uses its powers to enter and win each local competition.  The festival’s participants seem unaware that anything is amiss.|
+|  2  |In a remote village, a **hypnotic toad** has taken on the role of mayor, captain of the guard, head of the church, and star performer at the local tavern.  Anyone who questions the validity of the **hypnotic toad’s** status is exiled from the town.  |
+|  3  | A **mage’s** toad familiar is actually a **hypnotic toad** who has enslaved its “owner.”  The **hypnotic toad** is now forcing the **mage** to perform a ritual that will transform it into a **giant hypnotic toad**.    |
+|  4  | A local prince and heir to the throne has been devoured and replaced by a **giant hypnotic toad**.  The king and the entire royal court believe the toad to be the prince and prepare for the coronation as though nothing is wrong. |
+|  5  | A thief’s guild has been taken over by a mysterious new leader and quickly risen in power and prominence as a result.  Only the guild’s mind-controlled elite members know that this new kingpin is, in fact, a **giant hypnotic toad**.|
+|  6  | A **giant hypnotic toad** has formed a secret cult whose members seek out the dark components necessary for a ritual that will transform their master into a **Gitrog**.|
 
 
 \columnbreak
@@ -503,9 +537,8 @@ The following tables provide you with some ways you can incorporate different ty
 
 ### Art Credit
 * Witch's Familiar - Jack Wang, Wizards of the Coast
-* Giant Frog - Manthos Lappas, Arcane Gladiator
-* Everybody Loves Hypnotoad - N.C. Winters
-* Żabka - Michael Garfield
+* Bloated Toad - Una Fricker, Wizards of the Coast
+* Psycho-toad - Amber Conrad
 * The Gitrog Monster - Jason Kang, Wizards of the Coast
 * Visions of Dominance - Andrew Mar, Wizards of the Coast
 
