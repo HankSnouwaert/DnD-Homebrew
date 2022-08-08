@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p2:after, .phb#p3:after, .phb#p5:after   {
+    .phb#p2:after, .phb#p3:after, .phb#p5:after, .phb#p6:after   {
         display          : none;
     }
     /* End Footers */
@@ -292,7 +292,7 @@ ___
 > - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
 > - **Skills** Perception +2, Stealth +3
 > - **Senses** darkvision 30 ft., passive Perception 12.
-> - **Languages** ---- 
+> - **Languages** ━ 
 > - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2
 > ___
 > ***Amphibious.*** The toad can breathe air and water.
@@ -305,6 +305,49 @@ ___
 > 
 > ### Actions
 > ***Bubbling Spit.*** *Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 15 (6d4) acid damage plus 15 (6d4), or 7 (3d4) acid damage plus 7 (3d4) fire damage if the swarm has half its hit points or fewer.
+
+\pagebreak
+
+**Monstrous Cauldron Toads.** These massive creatures loom over even giant cauldron toads. They are exceedingly rare and can only be found near the most potent sources of alchemical pollution. Only the most powerful alchemists can hope to control a monstrous cauldron toad with any kind of success. All others are quickly devoured.
+
+Those who can control this monstrosity have a devastating minion at their disposal. The monstrous cauldron toad's size allows it to dominate the battlefield, and it can vomit huge globs of burning fluid to digest its victims at a range. Worse yet, the massive amounts of alchemical pollution it leaves behind will often spawn new cauldron toads, continuing the toxic cycle of corruption.
+___
+___
+> ## Monstrous Cauldron Toad
+>*Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 12 (natural armor)
+> - **Hit Points** 104 (10d10 + 50)
+> - **Speed** 40 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|8 (-1)|20 (+5)|2 (-4)|14 (+2)|2 (-4)|
+>___
+> - **Saving Throws** Con +8
+> - **Damage Immunities** acid, fire, poison, necrotic
+> - **Condition Immunities** poisoned
+> - **Skills** Perception +5, Stealth +2
+> - **Senses** darkvision 30 ft., passive Perception 15
+> - **Languages** ━ 
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3
+> ___
+> ***Amphibious.*** The toad can breathe air and water.
+>
+> ***Death Burst.*** When the toad dies, it explodes in a burst of fire and acid. Each creature within 15 feet of it must make a DC 15 Dexterity saving throw, taking 21 (6d6) acid damage plus 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.
+>
+> ***Potion Secretion.*** The swarm can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the swarm or feeds it a potion, for the next 24 hours, it can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The swarm can store up to three potions within itself at a time.
+> 
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. *Hit:* 18 (2d12 + 5) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the toad can't bite another target.
+>
+> ***Swallow.*** The toad makes one bite attack against a large or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 21 (6d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+>
+> ***Cauldron Sphere (Recharge 5-6).*** The toad vomits a glowing 1-foot-diameter ball of boiling acid at a point within 60 feet of it, where it explodes in a 20-foot-radius sphere. Each creature in that area and any creature swallowed by the toad must make a DC 15 Dexterity saving throw, taking 21 (6d6) acid damage plus 21(6d6) fire damage on a failed save, or half as much damage on a successful one. Any creatures swallowed by the toad appear prone in the unoccupied space closest to the sphere’s point of impact. The toad also drops any creatures or objects it is holding in its mouth.
+
+<img src='https://64.media.tumblr.com/tumblr_mcz8vcZtLo1r2rn38o1_640.jpg' style='position:absolute;bottom:-0px;left:0px;width:816px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-170px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 \pagebreak
 
@@ -523,7 +566,7 @@ The following tables provide you with some ways you can incorporate different ty
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Gitrog Adventures
 
@@ -538,6 +581,8 @@ The following tables provide you with some ways you can incorporate different ty
 ### Art Credit
 * Witch's Familiar - Jack Wang, Wizards of the Coast
 * Bloated Toad - Una Fricker, Wizards of the Coast
+* Haze Frog - Jesper Ejsing, Wizards of the Coast
+* Swamp, New Phyrexia - Lars Grant-West, Wizards of the Coast
 * Psycho-toad - Amber Conrad
 * The Gitrog Monster - Jason Kang, Wizards of the Coast
 * Visions of Dominance - Andrew Mar, Wizards of the Coast
@@ -545,9 +590,9 @@ The following tables provide you with some ways you can incorporate different ty
 <div style='margin-top:850px;'></div>
 <img
 src='https://i.ibb.co/Sw1sLcr/Visions-of-Dominance-Innistrad-Midnight-Hunt-Mt-G-Art.jpg'
-style='position:absolute;top:-0px;left:300px;width:750px' />
+style='position:absolute;top:-10px;left:300px;width:750px' />
 
-<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-30px; right:-12px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-40px; right:-12px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 \pagebreak
 
