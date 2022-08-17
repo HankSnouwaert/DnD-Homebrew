@@ -1,90 +1,427 @@
 
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p4:after, .phb#p6:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br><br>
+
+# Sea Fish: Part 1
+
+## Barracuda
+These fearsome creatures are among the most effective predatory fish in all the seas. The barracuda's long, stream-lined body can reach over 5 feet in length and is covered in silvery scales that make it difficult to spot in the water. Once it's gotten close enough to its prey without being spotted, it quickly closes the distance in a burst of speed. The barracuda's ambush tactics rarely give its targets the chance to react before being captured in its fanged jaws. Its barbed teeth make escape unlikely, and the trapped prey is quickly ripped apart.
+
+***Aggressive Hunters.*** Barracuda are voracious predators and will hunt most other sea creatures their size or smaller. They rarely attack humanoids without provocation unless visibility is poor, and they mistake glittering jewelry for a fish. However, if an unnatural influence is disturbing their home waters, the barracuda's natural aggression can lead it to attack anything and everything in sight. It may indiscriminately slaughter every fish it sees and even attack larger creatures in its confused state until the corrupting influence is cleared. Some barracuda may become permanently warped by these influences, taking on a supernatural appearance and dedicating their every moment to mad ocean slaughter.
+
+
+
+\columnbreak
 ___
-> ## Giant Stargazer 
-> *Huge beast, unaligned*
+> ## Barracuda
+> *Small beast, unaligned*
 > ___
-> - **Armor Class** 12 (natural armor)
-> - **Hit Points** 85 (10d12 + 20)
-> - **Speed** 0 ft., burrow 10 ft., swim 30 ft. 
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 3 (1d6)
+> - **Speed** swim 60 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|20 (+5)| 12 (+1)|14 (+2)|2 (-4)|12 (+1)|4 (-3)|
+>|12 (+1)|15 (+2)|10 (+0)|2 (-4)|14 (+2)|3 (-4)|
 >___
-> - **Skills** Perception +4, Stealth +5 
-> - **Senses** darkvision 30 ft. passive Perception 14
-> - **Challenge** 5 (100 XP) &emsp;&emsp;    **Proficiency Bonus** +3
+> - **Skills** Stealth +4
+> - **Senses** darkvision 30 ft., passive Perception 12
+> - **Languages** ━
+> - **Challenge** 0 (10 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
 >
-> **Keen Sight.** The Stargazer has advantage on Wisdom (Perception) checks that rely on sight.
-> 
-> *Discharge (1/Turn).** The Stargazer deals an extra 13 (3d8) damage lighting damage when it hits a target with a weapon attack.
+> ***Keen Sight.*** The barracuda has advantage on Wisdom (Perception) checks that rely on sight.
 >
-> **Water Breathing.** The Stargazer can breathe only underwater.
+> ***Water Breathing.*** The barracuda can breathe only underwater.
+>
+> ***Watery Lurker.*** The barracuda has advantage on Dexterity (Stealth) checks while submerged in water.
 >
 > ### Actions
 >
-> **Sting.** Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:  9 (1d8 + 5) piercing damage. if the target is a creature, it must succeed on a DC 15 Constitution saving throw or become poisoned for 24 hours. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success or taking 10 (3d6) poison damage until the start end of it's next turn.
+> ***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 2 (1d1 + 1) piercing damage.
 >
->
->  **Bite.** Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage, if the target is a large or smaller it must succeed on a DC 15 Dexterity saving throw or be swallowed by the stargazer.  The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the Stargazer , and it takes 12 (4d6) acid damage at the start of each of the Stargazer's turns. The Stargazer can have only one target swallowed at a time. If the stargazer dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
->
+
+<img src='https://i.ibb.co/tH96Xvx/uriah-voth-tidal-barracuda.jpg' style='position:absolute;bottom:0px;right:0px;width:820px' />
+
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; top:-220px; right:100px; width:850px; transform:rotate(-10deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; top:-220px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
-## Sword Fish
+&emsp; ***Giant Barracuda.*** While most barracuda are a minor threat to humanoids, these massive fish are large enough to consider humanoids prey. Giant barracuda hunt using the same ambush tactics as their smaller kin and will often prey upon divers and aquatic humanoids. Those able to control sea creatures will often use giant barracuda as the marine equivalent of hunting dogs and call upon them to slay or retrieve creatures of interest attempting to flee underwater.
+
+***Schools of Barracuda.*** While most barracuda become solitary hunters as they grow older, younger barracuda commonly form schools for protection and to more effectively hunt other schools of fish. These schools of barracuda generally ignore larger creatures unless subjected to unusual external influences, such as corrupted waters or the direct control of powerful druidic magic. Such schools can become highly aggressive and formidable foes, able to shred larger sea creatures and even groups of humanoids within a few bloody moments.
 
 ___
-> ## Sword Fish 
-> *Medium beast, unaligned*
-> ___
-> - **Armor Class** 14 (natural armor)
-> - **Hit Points** 16 (3d8 + 3)
-> - **Speed** 0 ft., swim 80 ft. 
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (+0)|16 (+3)|12 (+1)|2 (-4)|14 (+2)|6 (-2)|
->___
-> - **Skills** Perception +4
-> - **Senses** darkvision 30 ft., passive Perception 14
-> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&nbsp;  **Proficiency Bonus** +2
-> ___
-> ***Charge.*** If the swordfish moves at least 20 ft. straight towards a target and then hits it with a slash attack on the same turn, the target takes an extra 2 (1d4) slashing damage. If the target is a creature, its speed is reduced by 10 feet until the start of the swordfish's next turn.
->
-> ***Keen Sight.*** The swordfish has advantage on Wisdom (Perception) checks that rely on sight.
->
-> ***Water Breathing.*** The swordfish can breathe only underwater.
->
-> ### Actions
->
-> ***Slash.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 5 (1d4 + 3) slashing damage.
-
-
-___
-> ## Great Sword Fish
+> ## Giant Barracuda
 > *Large beast, unaligned*
 > ___
-> - **Armor Class** 14 (natural armor)
-> - **Hit Points** 45 (6d10 + 12)
-> - **Speed** 0 ft., swim 80 ft. 
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 39 (6d10 + 6)
+> - **Speed** swim 60 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|14 (+2)|16 (+3)|14 (+2)|2 (-4)|14 (+2)|6 (-2)|
+>|16 (+3)|15 (+2)|12 (+1)|2 (-4)|14 (+2)|3 (-4)|
 >___
-> - **Skills** Perception +4
-> - **Senses** darkvision 30 ft., passive Perception 14
-> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&nbsp;    **Proficiency Bonus** +2
+> - **Skills** Stealth + 4
+> - **Senses** darkvision 30 ft. passive Perception 12
+> - **Languages** ━
+> - **Challenge** 1 (100 XP) &emsp;&emsp;&emsp;&ensp;    **Proficiency Bonus** +2
 > ___
 >
-> ***Charge.*** If the swordfish moves at least 20 ft. straight towards a target and then hits it with a slash attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, its speed is reduced by 10 feet until the start of the swordfish's next turn.
+> ***Keen Sight.*** The barracuda has advantage on Wisdom (Perception) checks that rely on sight.
 >
-> ***Keen Sight.*** The swordfish has advantage on Wisdom (Perception) checks that rely on sight.
+> ***Water Breathing.*** The barracuda can breathe only underwater.
 >
-> ***Water Breathing.*** The swordfish can breathe only underwater.
+> ***Watery Lurker.*** The barracuda has advantage on Dexterity (Stealth) checks while submerged in water.
 >
 > ### Actions
-> ***Multiattack.*** The swordfish makes two attacks.
 >
-> ***Slash.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage.
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) piercing damage. If the target is a medium or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the barracuda can't bite another target.
 >
+
+\columnbreak
+
+___
+> ## School of Barracuda
+> *Large swarm of small beasts, unaligned*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 55 (10d10)
+> - **Speed** swim 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|15 (+2)|10 (+0)|2 (-4)|14 (+2)|3 (-4)|
+>___
+> - **Skills** Stealth +4
+> - **Damage Resistance** bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses** darkvision 30 ft.  passive Perception 12
+> - **Languages** ━
+> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&ensp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Keen Sight.*** The swarm has advantage on Wisdom (Perception) checks that rely on sight.
+>
+> ***Swarm.***  The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small creature. The swarm can't regain hit points or gain temporary hit points.
+>
+> ***Water Breathing.*** The swarm can breathe only underwater.
+>
+> ***Watery Lurker.*** The swarm has advantage on Dexterity (Stealth) checks while submerged in water.
+>
+> ### Actions
+>
+> **Bite.** *Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 36 (8d8) piercing damage, or 18 (4d8) piercing damage if the swarm has half of its hit points or fewer.
+>
+
+<img src='https://i.ibb.co/0D176Tn/Academy-Ruins.png' style='position:absolute; bottom:-260px; right:-80px; width:900px; transform:rotate(0deg);filter:opacity(100%) sepia(70%)'/>
+
+<img src='https://i.ibb.co/y6NMLn3/sphyrene-barracuda-u-L.png' style='position:absolute;bottom:-50px;right:-600px;width:1300px;filter:hue-rotate(0deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-120px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+## Lionfish
+These fish derive their name from their fearsome appearance and ferocious predatory behavior. Lionfish are voracious hunters and will devour nearly any creature smaller than themselves, even other lionfish. When approaching its prey, the lionfish launches a jet of water at the target, leaving it floundering. The lionfish then quickly closes on its disoriented prey, gulping it down in one bite. Their effectiveness as hunters often leads them to dominate whatever ecosystem they find themselves in, and fishermen often make a habit of focusing their hunts on lionfish in an effort to keep their population under control.
+
+The fact that so few predators are willing to trifle with a lionfish also makes their numbers difficult to control. Their large, brightly colored fins warn of their venomous nature, and they back this threat up with their long poisonous spines. These spines make them hazardous prey for most creatures, and humanoids jabbed by a lionfish can be left sickened for an extended period, though the poison is rarely fatal.
+
+***Giant Lionfish.*** Lionfish pose little threat to creatures larger than themselves, and so they are rarely of any concern to humanoids. Unless, of course, they find themselves facing a lionfish larger than themselves. Giant lionfish readily group most humanoids into the broad category of things to be preyed upon and hunt them the same way they hunt other fish. At their size, giant lionfish can deliver lethal skewering attacks with their spines, shoot jets of water large enough to leave most humanoids floundering, and swallow said humanoids whole. Masses of giant lionfish can wreak havoc on a marine ecosystem, devouring not only all the wildlife but also all the aquatic humanoids and fisherman who traverse those waters. 
+
+\columnbreak
+
+___
+> ## Lionfish
+> *Tiny beast, unaligned*
+> ___
+> - **Armor Class** 11 (natural armor)
+> - **Hit Points** 1 (1d4 -1)
+> - **Speed** swim 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|4 (-3)|8 (-1)|8 (-1)|2 (-4)|12 (+1)|4 (-3)|
+>___
+> - **Skills** Perception +3
+> - **Senses** darkvision 30 ft., passive Perception 13
+> - **Languages** ━
+> - **Challenge** 0 (10 XP) &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+>___
+> ***Poisonous Barbs.*** Any creature that grapples the lionfish, starts its turn grappling it, or misses it with a weapon attack while within 5 feet of it takes 1 piercing damage and must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.
+>
+> ***Water Breathing.*** The lionfish can breathe only underwater.
+>
+> ### Actions
+>
+> ***Sting.*** *Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1  piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+
+
+
+
+<img src='https://i.ibb.co/x5bHyMn/coral-atoll.jpg' style='position:absolute; bottom:00px; right:-0px; width:820px; transform:scalex(-1);filter:opacity(100%);'/>
+
+<img src='https://i.ibb.co/BqjBvHL/Red-Lionfish-pterois-volitans.png' style='position:absolute;bottom:-60px;right:190px;width:900px; transform:scalex(-1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-215px;bottom:20px; transform:rotate(10deg)' />
+
+\pagebreak
+
+___
+___
+> ## Giant Lionfish
+> *Large beast, unaligned*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 60 (8d10 + 16)
+> - **Speed** swim 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|10 (+0)|14 (+2)|2 (-4)|12 (+1)|4 (-3)|
+>___
+> - **Skills** Perception +3
+> - **Senses** passive Perception 13
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━
+> - **Challenge** 3 (700 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+>
+>___
+> ***Poisonous Barbs.*** Any creature that grapples the lionfish, starts its turn grappling it, or misses it with a weapon attack while within 5 feet of it takes 3 (1d6) piercing damage and must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.
+>
+> ***Water Breathing.*** The lionfish can breathe only underwater.
+>
+> ### Actions
+> ***Multiattack.*** The lionfish makes two attacks: one with its bite and one with its sting. It can make a water jet attack in place of its bite. It can't make both attacks against the same target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage. If the target is a medium or smaller creature, it must succeed on a DC 13 Dexterity saving throw or be swallowed by the lionfish. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the lionfish, and it takes 10 (3d6) acid damage at the start of each of the lionfish's turns. The lionfish can have only one target swallowed at a time. If the lionfish dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+>
+> ***Sting.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.
+>
+> ***Water Jet.*** *Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one creature in the same body of water as the lionfish. *Hit:* The target is knocked prone and must succeed on a DC 13 Strength saving throw or have its speed reduced to 0 until the start of the lionfish's next turn. (A creature knocked prone underwater is subjected to the effects of the prone condition as normal.)
+
+<img src='https://i.ibb.co/vcCzQwk/Stinging-Lionfish-Theros-Beyond-Death-Art.jpg' style='position:absolute; bottom:-50px; right:-0px; width:820px; transform:scalex(1);filter:opacity(100%);'/>
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-215px;bottom:80px; transform:rotate(0deg)' />
+
+\pagebreak
+
+## Pufferfish
+These small, slow, awkward-looking fish are <br> quite unassuming at first glance. Their <br> beak-like mounts allow them to feed on <br> hard-shelled mollusks, and they mostly keep <br> to themselves, using their keen sight to spot <br> and avoid predators. Should the pufferfish be <br> unable to avoid a confrontation, it will deploy <br> its unusual method of defense in which it <br> inflates itself, ballooning to several times its <br> normal size and projecting many needle-like <br> spins outwards. This defense alone often <br> prevents predators from closing their jaws <br> around the pufferfish. Should the tactic <br> succeed, the now spherical pufferfish can <br> slowly bob away to safety before deflating <br> back to its normal size.
+
+While the pufferfish's unique and even <br> comical inflationary ability is its most iconic <br> trait, it is far from its only form of defense. <br> Many pufferfish contain potent neurotoxins, <br> which coat their skin and spines. A single <br> pufferfish can hold enough poison to kill 30 <br> adult humans, and contact with its spines can <br> be lethal. The poison can paralyze muscles and <br> slow the heart, and even those that survive may <br> be comatose for an extended time. Despite the <br> lethality of these fish, some consider them a <br> delicacy, and specially trained chefs will prepare <br> pufferfish in a way that (hopefully) doesn't kill patrons.
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Pufferfish
+> *Tiny beast, unaligned*
+> ___
+> - **Armor Class** 10 (natural armor)
+> - **Hit Points** 1 (1d4 - 1)
+> - **Speed** swim 10 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|2 (-4)|6 (-2)|8 (-1)|2 (-4)|12 (+1)|4 (-3)|
+>___
+> - **Senses** passive Perception 11
+> - **Senses** darkvision 30 ft., passive Perception 11
+> - **Languages** ━
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+>___
+> ***Keen Sight.*** The pufferfish has advantage on Wisdom (Perception) checks that rely on sight.
+>
+> ***Poisonous Spikes.*** Any creature that grapples the pufferfish, starts its turn grappling it, or misses it with a weapon attack while within 5 feet of it takes 1 piercing and must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success or taking 7 (2d6) poison damage on a failure. If it fails the save by 10 or more, it is paralyzed until the end of its next turn.
+>
+> ***Water Breathing.*** The pufferfish can breathe only underwater.
+>
+> ### Actions
+> ***Sting.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success or taking 7 (2d6) poison damage on a failure. If it fails the save by 10 or more, it is paralyzed until the end of its next turn.
+>
+> ### Reactions
+> ***Inflate***  When a creature attacks, attempts to shove, or successfully grapples the puffer fish while it is not inflated, it inflates itself, imposing disadvantage on the triggering attack or ability check. It then makes a sting attack against the creature that triggered the reaction if it is within 5 feet. While inflated, its movement is reduced by 5 feet. It can use an action to deflate back to its normal state.
+
+
+
+<img src='https://i.ibb.co/f9byfPF/Sunken-Ruins.jpg' style='position:absolute; bottom:200px; right:-0px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<div style='margin-top:850px;'></div>
+<img
+src='https://i.ibb.co/TbWjGkm/Immaculate-Puffer.png'
+style='position:absolute;top:40px;left:280px;width:800px' />
+
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:0px; right:70px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://image.ibb.co/dMxPnH/Tkbl4ji.png' style='position:absolute; bottom:-120px; right:0px; width:850px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
+
+\pagebreak
+
+***Giant Pufferfish.*** All of the inherent dangers of an ordinary pufferfish are exponentially enhanced by its giant cousin. In their deflated state, they are already the size of most humanoids, and once they inflate, they can dwarf an ogre. A threatened giant pufferfish can quickly spell doom for any creatures that come too close and few sea creatures dare to hunt them.
+
+Some cunning sea folk will keep giant pufferfish near their homes to ward off intruders. Particularly influential sea folk will even send them out to meet attacking warbands. Should the warriors be foolish enough to close in on the pufferfish, they will quickly be scattered and poisoned as it unleashes its explosive growth.
+
+<br>
+
+___
+___
+> ## Giant Puffer Fish
+> *Medium beast, unaligned*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 49 (9d8 + 9)
+> - **Speed** swim 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|10 (+0)|12 (+1)|2 (-4)|12 (+1)|4 (-3)|
+>___
+> - **Senses** passive Perception 11
+> - **Senses** darkvision 30 ft., passive Perception 11
+> - **Languages** ━
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+>___
+> ***Keen Sight.*** The pufferfish has advantage on Wisdom (Perception) checks that rely on sight.
+>
+> ***Poisonous Spikes.*** Any creature that grapples the pufferfish, starts its turn grappling it, or misses it with a weapon attack while within 5 feet of it takes 3 (1d6) piercing and must succeed on a DC 14 Constitution saving throw or become poisoned for 24 hours. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success or taking 14 (4d6) poison damage on a failure. If it fails the save by 10 or more, it is paralyzed until the end of its next turn.
+>
+> ***Water Breathing.*** The pufferfish can breathe only underwater.
+>
+> ### Actions
+> ***Multiattack.*** The pufferfish makes two attacks: one with its bite and one with its sting. 
+>
+> ***Bite.*** Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+>
+> ***Sting.*** Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become poisoned for 24 hours. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success or taking 14 (4d6) poison damage on a failure. If it fails the save by 10 or more, it is paralyzed until the end of its next turn.
+>
+> ### Reactions
+>
+> ***Inflate***  When a creature attacks, attempts to shove, or successfully grapples the pufferfish while it is not inflated, it inflates itself, imposing disadvantage on the triggering attack or ability check. When it inflates, it attempts to grow its size to Huge. If another creature occupies the space it would grow into, it makes a sting attack against that creature. If the attack hits, it pushes that creature 10 feet away. If it misses, it does not push the creature, and the pufferfish does not grow any larger. While inflated, its movement is reduced by 10 feet. It can use an action to deflate back to its normal state.
+
+<img src='https://i.ibb.co/DpsFk8g/Academy-Ruins-Double-Masters-Mt-G-Art.jpg' style='position:absolute; bottom:-300px; right:-0px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; top:-300px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Fish in Your Adventures
+The following tables provide you with some ways you can incorporate different types of fish into your adventures. 
+
+##### Barracuda Adventures
+
+| d6  | Plot Hook |
+|:---:|:-----------:|
+|  1  | As the players collect shiny gems from a murky ocean floor, they find themselves continually attacked by **barracuda**, who believe the gems are fish.|
+|  2  |The players witness a fisherman pulled overboard in a failed attempt to reel in an unusually aggressive **barracuda**.  |
+|  3  | Something has been capsizing fishing boats. Once the fishermen are overboard, they quickly find themselves beset by **giant barracuda**.   |
+|  4  |  A merfolk seeks the players' aid in avenging family members killed by several **giant barracuda**. |
+|  5  | Something is driving all the local barracuda into a feeding frenzy. **Schools of barracuda** now strip their ocean homes clean of all life.|
+|  6  |  A **school of barracuda** stalks the players through an undersea adventure. Whenever they see a creature near death, they rush in to feed on the vulnerable target. |
+
+
+##### Lionfish Adventures
+
+| d6  | Plot Hook |
+|:---:|:-----------:|
+|  1  | The players have been charged with finding a nobleman's exotic pet **lionfish**, which washed down a latrine into the sea. |
+|  2  | While embarking on an undersea adventure, the players inexplicably attract the ire of every **lionfish** in sight, which continue to harass them at every opportunity. |
+|  3  |**Giant lionfish** are invading a local reef, devouring everything in sight and even hunting fisherman.  |
+|  4  |  A local crime boss feeds those who displease him to his pet **giant lionfish**.  |
+|  5  | The players must prove their worth to a tribe of merfolk through a ritual **giant lionfish** hunt.  |
+|  6  | A group of **giant lionfish** have inexplicably begun hunting as a pack and have staked their claim on a large swath of ocean territory in a prime fishing area. | 
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Pufferfish Adventures
+
+| d6  | Plot Hook |
+|:---:|:-----------:|
+|  1  | Someone the players know has been poisoned by a poorly prepared pufferfish meal, and the creation of the antitoxin requires them to hunt down and capture a live **pufferfish** in the wild.|
+|  2  |A sea hag is assassinating sea elves through the use of a **pufferfish** under her direct control.  |
+|  3  |A sushi chef entreats the players' aid in accquiring the rare flesh of a **giant pufferfish**.    |
+|  4  | A sunken ship promises valuable treasures but is surrounded by **giant pufferfish** who act as unpredictable, floating sea mines.|
+|  5  | A sea hag has trained her pet **giant pufferfish** to appreciate the flesh of humanoids.  |
+|  6  | A mad sea elf druid has lost his mind and taken on the form of a **giant pufferfish** as he goes on a rampage through his former village.  |
+
+### Art Credit
+* Tidal Barracuda - Uriah Voth, Wizards of the Coast
+* Sphyrene Barracuda - Werner del Marechal
+* Academy Ruins - Zoltan Boros & Gabor Szikszai, Wizards of the Coast
+* Red Lionfish, pterois volitans - U.S. Bureau of Fisheries 
+* Coral Atoll - John Avon, Wizards of the Coast
+* Stinging Lionfish - Christopher Burdett, Wizards of the Coast
+* Tetraodon - N. Remond
+* Sunken Ruins, Zendikar Expeditions - Adam Paquette, Wizards of the Coast
+* Academy Ruins - John Avon, Wizards of the Coast
+* Dandân - Drew Tucker, Wizards of the Coast
+
+
+<div style='margin-top:850px;'></div>
+<img
+src='https://i.ibb.co/x349Gxt/dandan2.jpg'
+style='position:absolute;top:-60px;left:276px;width:600px; transform:scalex(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-120px; right:210px; width:850px; transform:rotate(230deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-130px; right:300px; width:850px; transform:rotate(260deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:130px; right:-50px; width:850px; transform:rotate(180deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+#### 1.0.0
+* Public release
+
+#### 1.1.0
+* Reduce damage output of barracuda
+
+#### 1.2.0
+* Reduce barracuda hit points and adjust CR
+
+#### 1.2.1
+* Add language to all statblocks
