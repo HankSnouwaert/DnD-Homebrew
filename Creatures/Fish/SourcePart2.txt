@@ -1,4 +1,32 @@
 
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p4:after, .phb#p5:after, .phb#p6:after, .phb#p7:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Sea Fish: Part 2
@@ -70,7 +98,15 @@ ___
 
 <img src='https://i.ibb.co/Z1kwRb1/wormfang-behemoth.jpg' style='position:absolute; bottom:-80px; right:120px; width:700px; transform:rotate(0deg);filter:opacity(100%) sepia(0%)'/>
 
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-280px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-280px; right:200px; width:850px; transform:rotate(-10deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-200px; right:-200px; width:850px; transform:rotate(19deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-200px; right:-200px; width:850px; transform:rotate(39deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-150px; right:-310px; width:850px; transform:rotate(60deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:170px; right:-520px; width:850px; transform:rotate(103deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 \pagebreak
 
@@ -105,7 +141,7 @@ ___
 >
 > ### Actions
 >
-> ***Saw.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 11 (2d8 + 2) Slashing damage.
+> ***Saw.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 11 (2d8 + 2) slashing damage.
 >
 > ### Bonus Actions
 >
@@ -205,13 +241,14 @@ ___
 
 ## Stonefish
 
-These fish derive their names from their penchant for camouflaging as rocks or coral on the sea floor and generally grow to just over two feet. Their camouflage can be quite elaborate, with a variety of colors and features that allow them to blend right into their given environment. These environments tend to be reefs and rocky tide pools, and these disguises enable stonefish to be nearly undetectable while it sits motionless on the sea floor. When prey draws close, it attacks at lightning speed, using suction to gulp down its meal almost instantaneously.  
+These fish derive their name from their penchant for camouflaging as rocks or coral on the sea floor, and they generally grow to just over two feet. Their camouflage can be quite elaborate, with a variety of colors and features that allow them to blend into their given environment. These environments tend to be reefs and rocky tide pools, and these disguises enable a stonefish to be nearly undetectable while it sits motionless on the sea floor. When prey draws close, it attacks at lightning speed, using suction to gulp down its meal almost instantaneously.  
 
-***Deadliest of Fish.*** Stonefish hold the title of most venomous fish in the world. This venom is contained in dorsal spines hard enough to pierce the soul of a boot. Combine this with their excellent camouflage, and stonefish quickly becomes one of the most hazardous creatures to humanoids walking through shallow sea waters. If not treated quickly, this venom can prove to be fatal to those of weak constitution.
+***Deadliest of Fish.*** Stonefish hold the title of most venomous fish in the world. This venom is contained in dorsal spines hard enough to pierce the soul of a boot. 
 
-***Giant Stonefish.*** These fish disguise as large rocks and stretches of coral on the sea floor and prey on a huge range of creatures. Fishermen and divers are a favorite meal of the giant stonefish, and many such individuals may mysteriously go missing before people begin to suspect the presence of such a fish in nearby waters. Even those who initially survive their encounter with this monstrous creature may be inflicted with its horrific venom and later succumb to its agonizing effects.
+Combine this with their excellent camouflage, and stonefish quickly becomes one of the creatures most hazardous to humanoids walking through shallow sea waters. If not treated quickly, wounds from this venom can prove fatal to those of weak constitution.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+***Giant Stonefish.*** These fish disguise as large rocks and expanses of coral on the sea floor and prey on a huge range of creatures. Fishermen and divers are a favorite meal of the giant stonefish, and many such individuals may mysteriously go missing before people begin to suspect the presence of such a fish in nearby waters. Even those who initially survive their encounter with this monstrous creature may be inflicted with its horrific venom and later succumb to its agonizing effects.
+
 
 ___
 ___
@@ -244,12 +281,17 @@ ___
 >
 > ***Sting.*** *Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1  piercing damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become poisoned for 24 hours. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success or taking 10 (3d6) poison damage on a failure. If it fails the save by 10 or more, it is paralyzed until the end of its next turn.
 
+<img src='https://i.ibb.co/f9byfPF/Sunken-Ruins.jpg' style='position:absolute; bottom:00px; right:0px; width:820px; transform: scaleX(-1);filter:sepia(100%)'/>
+
+
 <div style='margin-top:850px;'></div>
 <img
 src='https://i.ibb.co/mNTJ3Yf/Estuarine-Stonefish.png'
-style='position:absolute;top:30px;left:200px;width:1000px; transform: scaleX(-1);' />
+style='position:absolute;top:720px;left:-400px;width:1150px; transform: scaleX(1) rotate(-10deg);;' />
 
-
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:0px' />
 
 \pagebreak
 
@@ -291,14 +333,19 @@ ___
 >
 > ***Sting.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or become poisoned for 24 hours. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success or taking 21 (6d6) poison damage on a failure. If it fails the save by 10 or more, it is paralyzed until the end of its next turn.
 
+<img src='https://i.ibb.co/djXQHF5/under-sea-island.jpg' style='position:absolute; top:440px; right:0px; width:900px' />
+
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; top:-100px; right:0px; width:850px; transform: scaleX(-1); filter: grayscale(00%) brightness(97%);' />
+
 \pagebreak
 
-## Sword Fish
+## Swordfish
 
-<br><br><br><br><br><br><br><br><br><br>
+These strange yet elegant fish are easily recognized by their trademark noses which extend out like a long rapier. The aptly named swordfish is among the fastest swimmers in the world, and it combines this speed with tight maneuverability and its slashing bill to become one of the most effective hunters of the open ocean. The swordfish hunts other fish in open waters where there is nowhere to hide and no hope of outswimming such a high-speed attacker. Even swimming in schools does a fish little good, as the swordfish's slashing bill attacks allow it to cut through swaths of fish at a time.
+
 
 ___
-> ## Sword Fish 
+> ## Swordfish 
 > *Medium beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
@@ -314,7 +361,9 @@ ___
 > - **Languages** ━
 > - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&nbsp;  **Proficiency Bonus** +2
 > ___
-> ***Charge.*** If the swordfish moves at least 20 ft. straight towards a target and then hits it with a slash attack on the same turn, the target takes an extra 2 (1d4) slashing damage. If the target is a creature, its speed is reduced by 10 feet until the start of the swordfish's next turn.
+> ***Arcing Slashes.*** The swordfish's slash attacks ignore the damage resistances of swarms.
+>
+> ***Charge.*** If the swordfish moves at least 20 ft. straight towards a target and then hits it the first slash attack it makes that turn, the target takes an extra 2 (1d4) slashing damage. If the target is a creature, its speed is reduced by 10 feet until the start of the swordfish's next turn.
 >
 > ***Keen Sight.*** The swordfish has advantage on Wisdom (Perception) checks that rely on sight.
 >
@@ -322,18 +371,22 @@ ___
 >
 > ### Actions
 >
-> ***Slash.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 5 (1d4 + 3) slashing damage.
+> ***Slash.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 5 (1d4 + 3) slashing damage. 
+>
+> ### Bonus Actions
+>
+> ***Arcing Swing.*** When the swordfish misses with its slash attack on its turn, it can immediately make another slash attack against a different creature within 10 feet of the original target and within range of the attack. 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br>
+Swordfish generally reach 10 feet in length, though the largest specimens can reach 15 feet. Their size, speed, and deadly weapon make them formidable foes, though they generally have little interest in fighting other large creatures unless threatened. Swordfish are highly sought after by those with the ability to call upon the aid of sea creatures. When directed to attack foes this way, the swordfish can utilize its speed and reach to perform devastating hit-and-run attacks against their targets, and even those who flee to a rowboat may not be safe from the reach of their piercing swords.
 
 ___
-> ## Great Sword Fish
+> ## Great Swordfish
 > *Large beast, unaligned*
 > ___
 > - **Armor Class** 14 (natural armor)
-> - **Hit Points** 45 (6d10 + 12)
+> - **Hit Points** 45 (6d10+12)
 > - **Speed** 0 ft., swim 80 ft. 
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -345,8 +398,9 @@ ___
 > - **Languages** ━
 > - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&nbsp;    **Proficiency Bonus** +2
 > ___
+> ***Arcing Slashes.*** The swordfish's slash attacks ignore the damage resistances of swarms.
 >
-> ***Charge.*** If the swordfish moves at least 20 ft. straight towards a target and then hits it with a slash attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, its speed is reduced by 10 feet until the start of the swordfish's next turn.
+> ***Charge.*** If the swordfish moves at least 20 ft. straight towards a target and then hits it the first slash attack it makes that turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, its speed is reduced by 10 feet until the start of the swordfish's next turn.
 >
 > ***Keen Sight.*** The swordfish has advantage on Wisdom (Perception) checks that rely on sight.
 >
@@ -354,11 +408,83 @@ ___
 >
 > ### Actions
 >
-> ***Slash.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage.
+> ***Slash.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage. 
 >
+> ### Bonus Actions
+>
+> ***Arcing Swing.*** When the swordfish misses with its slash attack on its turn, it can immediately make another slash attack against a different creature within 10 feet of the original target and within range of the attack. 
 
 <img src='https://i.ibb.co/x5bHyMn/coral-atoll.jpg' style='position:absolute; bottom:-260px; right:-80px; width:900px; transform:rotate(0deg);filter:opacity(100%) sepia(50%)'/>
 
-<img src='https://i.ibb.co/Nm0Q6X9/Atlantic-Chub-Mackerel-Swordfish.png' style='position:absolute;bottom:-35px;right:-330px;width:1150px;filter:hue-rotate(0deg)' />
+<img src='https://i.ibb.co/Nm0Q6X9/Atlantic-Chub-Mackerel-Swordfish.png' style='position:absolute;bottom:-50px;right:-300px;width:1000px;filter:hue-rotate(0deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-120px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+## Fish in Your Adventures
+The following tables provide you with some ways you can incorporate different types of fish into your adventures. 
+
+##### Anglerfish Adventures
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | The players are tasked with piloting an experiment submersible into a deep ocean trench. Soon all is black, except for a small glowing light in the distance.|
+|  2  |The players are exploring a flooded cave in the Underdark filled with valuable glowing gems, only to discover some of these lights are, in fact, the lures of **giant anglerfish**.  |
+|  3  | The players seek to recover cargo from a ship that sank to the bottom of a ravine. When they find the ship, they notice strange lights moving through the wreckage.  |
+|  4  |  Somehow, a population of **giant anglerfish** has taken root in a large city sewer system and now prey on the city's maintenance workers. |
+
+##### Sawfish Adventures
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | A sahuagin has begun raising sawfish as aquatic attack beasts and testing their effectiveness against local sea life and even swimmers.|
+|  2  | A family of halfling fishermen have tasked the players with finding their drunken father, who went out to sea to find and fist fight a sawfish. |
+|  3  | An island shaman is hunting sawfish for their bills in the use of an ongoing ritual that is driving all sea life to greater levels of aggression.|
+|  4  |  A sea god tests the worth of the players by pitting them against a school of sawfish. Should they triumph, they will be awarded a divine sword fashioned after a sawfish's bill.  |
+
+
+##### Stargazer Adventures
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | The players are following behind an underwater guide leading them out of a kelp forest and into a large sandy clearing. But when they enter the clearing, the guide is gone, replaced by a cloud of sand hanging in the water.|
+|  2  | An ichthyologist asks for the players' help in capturing a **giant stargazer** that he would like as a pet.  |
+|  3  | The players have been tasked with stopping a twisted sea druid. They may learn the hard way that she protects the entrances to her lair with hidden **giant stargazers**.|
+|  4  |  **Giant stargazers** have taken up residence at a popular beach, leading to the mysterious disappearance of many swimmers |
+\columnbreak
+
+
+##### Stonefish Adventures
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  |Sahuagin raiders keep a collection of **stonefish** on them, which they drop into shallows behind them when being pursued into the water after an attack.|
+|  2  |A black market dealer asks the players to collect **stonefish** so their venom can be harvested, promising to provide venomous weapons in return.  |
+|  3  |Merfolk ask the players for help in tracking their hunters who have disappeared in a local reef, unaware that this is due to the arrival of several **giant stonefish.**   |
+|  4  | A cruel sea hag leaves gems strewn about the sea floor right in front of hidden **giant stonefish**.|
+
+
+##### Swordfish Adventures
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | A territorial sea elf ranger unleashes schools of hunting swordfish to drive off any intruders in his waters.|
+|  2  | Unusually coordinated and aggressive swordfish have begun launching surprise attacks on fishermen, stabbing them as they attempt to pull catches from the water.  |
+|  3  | A group of sentient swordfish challenge the players to a fishing contest.    |
+|  4  | A sunken artifact is protected by swordfish that launch hit and run attacks against anyone who tries to swim away with it.|
+
+
+\pagebreak
+
+### Art Credit
+* Tidal Barracuda - Uriah Voth, Wizards of the Coast
+* Sphyrene Barracuda - Werner del Marechal
+* Academy Ruins - Zoltan Boros & Gabor Szikszai, Wizards of the Coast
+* Red Lionfish, pterois volitans - U.S. Bureau of Fisheries 
+* Coral Atoll - John Avon, Wizards of the Coast
+* Stinging Lionfish - Christopher Burdett, Wizards of the Coast
+* Tetraodon - N. Remond
+* Sunken Ruins, Zendikar Expeditions - Adam Paquette, Wizards of the Coast
+* Academy Ruins - John Avon, Wizards of the Coast
+* Dandân - Drew Tucker, Wizards of the Coast
