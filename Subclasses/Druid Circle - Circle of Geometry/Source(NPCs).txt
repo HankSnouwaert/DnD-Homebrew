@@ -1,5 +1,33 @@
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p4:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Druid Circle
 
@@ -7,69 +35,75 @@
 Druids of this circle are unusual amongst their kind.  They peer into the deeper aspects of the natural world, beyond plants and animals, and down to the fundamental elements that drive reality.  They see the repeating patterns of matter and energy which drive the creation of life on its most profound levels.  As a result, they can create axiomatic versions of life built from fractal patterns and manipulate leylines of energy into geometric shapes to hinder their foes.  Though these druids often appear lost in the intricate beauty of the world around them, they are quick to use their powers and insight against any who would disrupt the grand patterns of life.
 
 #### Fractal Summoning
-At 2nd level, you can summon fractal representations of creatures you’ve seen before.  As an action, you can expend a use of your Wild Shape feature to summon a fractal creature in an unoccupied space you can see within 30 feet.  The creature can be a fractal representation of any creature you are capable of wild shaping into.  The fractal uses that creature’s stat block with the following changes.
+*2nd Level Circle of Geometry feature*<br>
+You learn how to summon fractal representations of creatures you’ve seen before.  As an action, you can expend a use of your Wild Shape feature to summon a fractal creature in an unoccupied space you can see within 30 feet of you.  The creature can be a fractal representation of any creature you are capable of wild shaping into.  The fractal uses that creature’s stat block with the following changes.
 
-* Its creature type changes to elemental
+* Its creature type changes to elemental.
 
 * It is immune to disease, poison damage, and the exhausted, paralyzed, petrified, poisoned, and unconscious conditions.
 
-* All its attacks deal force damage
+* All its attacks deal force damage.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 The fractal is friendly to you and your companions <br> and obeys your commands. It lasts for 1 hour but disappears earlier if it is reduced to 0 hit points, you use this feature again, or you dismiss it (no action required).
 
 In combat, the fractal shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action unless you use a bonus action on your turn to command it to take another action.
-That action can be one from its stat block or some other action. If you are incapacitated, the fractal can take any action of its choice, not just dodge.
+That action can be one from its stat block or some other action. If you are incapacitated, the fractal can take any action of its choice, not just Dodge.
 
 #### Exponential Growth
-At 2nd level, when you summon a fractal, and as a bonus action while it is under your control, you can expend a spell slot of 1st level or higher to grow it.  When you do so, the fractal gains the following effects based on the level of the spell slot used:
+*2nd Level Circle of Geometry feature*<br>
+When you summon a fractal using your Fractal Summoning feature, you can expend a spell slot of 1st level or higher to grow it.  When you do so, the fractal gains the following effects based on the level of the spell slot used:
 
 * It gains additional hit points equal to 10 x level of the spell slot expended, and its hit point maximum increases by this amount.
 
-* Its size increases by one for every 2 levels above 1st of the spell slot used.
+* Its size increases by one for every 2 levels above 1st of the spell slot used. If there isn’t enough room for the companion to become larger, it attains the maximum possible size in the space available.
 
-* Once per turn, when it deals damage to a target, it can deal an additional 1d4 force damage to the target per level of the spell slot used. 
+* Once per turn, when it deals damage to a target, it can deal an additional 1d6 force damage to the target per level of the spell slot used.
 
 <img src='https://i.ibb.co/bQXqyY5/fractal-summoning-by-dopaprime-deijv61-fullview.jpg'
 style='position:absolute;top:-20px;left:-0px;height:600px;transform:scaleX(1)'>
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png1' style='position:absolute; top:175px; right:-20px; width:920px;transform:rotate(10deg); filter: grayscale(00%) brightness(97%);' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png1' style='position:absolute; top:155px; right:-20px; width:920px;transform:rotate(10deg); filter: grayscale(00%) brightness(97%);' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:435px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:410px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Leyline Invocation
-At 2nd level, you begin to see the <br> mathematical patterns that make up <br> reality  and learn to bend them around <br> yourself. As a bonus action, you can create <br> a glowing  point where you are standing.  When <br> you command your fractal, you can create a point <br> as part of the same bonus action.
+*2nd Level Circle of Geometry feature*<br>
+You begin to see the mathematical <br> patterns that make up reality and <br> learn to bend them around yourself.  As <br> a bonus action, you can create a glowing <br> point on any 5-foot square surface of your <br> choice you are occupying.  When you command <br> your fractal, you can create a point as part of the same <br> bonus action.  If you have a fractal creature active from your Fractal Summoning feature and it is within 120 feet of you, you can also have it create a point in the same way.  
 
-If you have a fractal creature active from your Fractal Summoning feature and it is within 120 feet of you, you can create a point at its location as well.  The point appears in any 5-foot square of your choice occupied by you or your fractal, but it does not impede movement.  The  point lasts for 10 minutes but ends early if you fall unconscious, die, you or your fractal move more than 120 feet away from it, or dismiss it (no action required.)
+Points don't impede movement.  A point lasts for 10 minutes but disappears early if you fall unconscious, die, If you are more than 120 feet away from it at any time, or you dismiss it (no action required.)
 
-As an action, you may cause beams of light to connect all the points you’ve created, making a shape that lasts until the start of your next turn. As part of the action used to make this shape, you can create a new point at your location and the location of any fractal under your control.  These points are included in the shape.  All creatures of your choice that you can see in the shape at the time of its creation take 1d8 force damage.  
+As an action, you may cause beams of light to connect all existing points, making a shape that lasts until the start of your next turn.  As part of the action used to make this shape, you can create a new point at your location and the location of any fractal under your control.  These points are included in the shape.  All creatures of your choice that you can see in the shape at the time of its creation take 1d8 force damage.  
 
 The force damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
 
 #### Velocity Shift
-At 6th level, you learn to manipulate kinetic formulas and alter the velocity of another creature. When a creature you can see starts its turn or moves into a space within 30 feet of you, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC, which it can choose to fail. On a failure, the creature is teleported to an unoccupied space of your choice that you can see within 30 feet of you.
+*6th Level Circle of Geometry feature*<br>
+You learn to manipulate kinetic formulas and alter the velocity of another creature. When a creature you can see starts its turn or moves into a space within 30 feet of you, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC, which it can choose to fail. On a failure, the creature is teleported to an unoccupied space of your choice that you can see within 30 feet of you. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.
 
 If you have shape created by your Leyline Invocation feature, you can also use this feature when a creature you can see starts its turn or moves into a space within your shape, in which case you can teleport the creature to an unoccupied space of your choice inside the shape.
 
-You can use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
-\columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 #### Geometric Nexus
-At 10th level, you can use your geometric points to create a focal point for your powers.  As an action, you can choose 2 separate pairs of points created by your Leyline Invocation feature.  A line of energy connects the 2 points within each pair.  Any creature hit by a line of energy takes 2d8 force damage.  Any creature hit by both lines of energy takes 5d8 force damage.
+*10th Level Circle of Geometry feature*<br>
+You can now use your geometric points to create a focal point for your powers.  As an action, you can choose 2 separate pairs of points created by your Leyline Invocation feature.  A line of energy connects the 2 points within each pair.  Any creature hit by a line of energy takes 2d8 force damage.  Any creature hit by both lines of energy takes 5d8 force damage.
 
 At 17th level, you can target a third pair of points with this ability, and a creature hit by all three lines of energy takes 8d8 force damage.
 
 #### Paradox Zone
-At 14th level, you can alter the nature of reality within your geometric shapes.  When you create a shape with your Leyline Invocation feature, you can cause it to gain one of the following properties until it disappears.
+*14th Level Circle of Geometry feature*<br>
+You can now alter the nature of reality within your geometric shapes.  When you create a shape with your Leyline Invocation feature, you can cause it to gain one of the following properties until it disappears.
 
 * All creatures of your choice within the area of the shape become invulnerable to damage.
 
@@ -79,9 +113,8 @@ At 14th level, you can alter the nature of reality within your geometric shapes.
 
 Once you use this feature, you cannot do so again until you complete a long rest.
 
-### Art Credit
-* Fractal Summoning - Livia Prima, Wizards of the Coast
-* Leyline Invocation - Liiga Smilshkalne, Wizards of the Coast
+
+
 
 <img
 src='https://i.ibb.co/T8trYYW/leyline-invocation.jpg'
@@ -89,7 +122,7 @@ style='position:absolute;top:-20px;left:130px;width:750px;transform: scaleX(1)' 
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-235px;left:-180px;width:916px;transform:rotate(20deg)' />
+style='position:absolute;top:-235px;left:-170px;width:916px;transform:rotate(20deg)' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
@@ -102,11 +135,16 @@ style='position:absolute;top:-150px;left:-60px;width:916px;transform:rotate(-20d
 src='https://www.gmbinder.com/images/rNOAD8A.png'
 style='position:absolute;top:-95px;left:-60px;width:916px;transform:rotate(335deg)' />
 
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-25px;left:-200px;width:916px;transform:rotate(335deg)' />
+
 <div style='margin-top:350px;'></div>
+
 
 \pagebreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Circle of Geometry NPCs
 
@@ -115,12 +153,12 @@ The following stat blocks can be used to describe non-player character druids wh
 To further customize your NPC, apply the racial traits of whichever humanoid race you’ve chosen for it.  You can also replace any of its known spells with spells of an equivalent level from the druid spell list.
 
 #### Creating Fractal Creatures
-If you wish you add fractal creatures in your adventures to accompany your geometric druids, you can apply the following traits to any beast to turn it into a fractal creature.
+If you wish you add fractal creatures to your adventures to accompany your geometric druids, you can apply the following traits to any beast to turn it into a fractal creature.
 
 * Its creature type changes to elemental
 * It is immune to disease, poison damage, and the exhausted, paralyzed, petrified, poisoned, and unconscious conditions.
 * All its attacks deal force damage
-* It gains the Leyline Invocation feature of the Geometry Druid above
+* It gains the Leyline Invocation feature described in the Geometry Druid stat block
 
 ### Art Credit
 * Fractal Summoning - Livia Prima, Wizards of the Coast
@@ -134,7 +172,7 @@ ___
 > ##  Geometry Druid
 >*Medium humanoid (any race), any alignment*
 > ___
-> - **Armor Class** 13 (leather)
+> - **Armor Class** 13 (studded leather)
 > - **Hit Points** 36 (8d8)
 > - **Speed** 30ft.
 >___
@@ -143,26 +181,25 @@ ___
 >|10 (+0)|12 (+1)|10 (+0)|14 (+2)|16 (+3)|8 (-1)|
 >___
 > - **Saving Throws** Intelligence +4, Wisdom +5
-> - **Skills** Arcana +4, Nature +4, Perception + 5
+> - **Skills** Arcana +4, Nature +4, Perception +5
 > - **Senses** passive Perception 15
 > - **Languages** any two languages
-> - **Challenge** 1 (200 XP)          **Proficiency Bonus** +2       
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&nbsp;  **Proficiency Bonus** +2       
 > ___
-> ### Bonus Actions
-> ***Leyline Invocation*** The druid creates a glowing point where it is standing. It does not impede movement and lasts for 10 minutes but ends early if the druid falls unconscious, dies, moves than 120 feet away from it, or it dismiss it (no action required.)
->
 > ### Actions
 >
-> ***Spellcasting.*** The druid is a 2nd-level spellcaster. Its spellcasting 
-ability is Wisdom (spell save DC 13 +5 to hit with spell attacks). It has the following druid spells prepared:
+> ***Quarterstaff.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.
+>
+> ***Spellcasting.*** The druid casts one of the following spells, using Wisdom as its spellcasting ability spell (spell save DC 13, +5 to hit with spell attacks):
 > 
 > Cantrips (at will): *druidcraft*, *thorn whip*
 > 
-> 1st level (3 slots): *entangle*, *cure wounds*, *thunderwave*
+> 1st level (3 slots): *cure wounds*, *entangle*, *thunderwave*
 >
-> ***Leyline Blast.*** The druid causes beams of light to connect all the points it and other allies have created using the Leyline Invocation feature, creating a momentary glowing shape. All creatures of the druids choice that it can see in the shape at the time of its creation take 9(2d8) force damage.
+> ***Leyline Blast.*** The druid causes beams of light to connect all the points it and other allies have created using the Leyline Invocation feature, creating a momentary glowing shape. All creatures of the druid's choice that it can see in the shape at the time of its creation take 9 (2d8) force damage.
 >
-> ***Quarterstaff.*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands.
+> ### Bonus Actions
+> ***Leyline Invocation.*** The druid creates a glowing point where it is standing. This point does not impede movement and lasts for 10 minutes. It ends early if the druid falls unconscious, dies, moves more than 120 feet away from it, or it dismisses it (no action required).
 
 <img src='https://i.ibb.co/zfkbLYh/Curiosity-Crafter-Commander-2021-Mt-G-Art.jpg' style='position:absolute; top:-30px; left:-15px; width:750px; transform:rotate(0deg);filter:opacity(100%);'/>
 
@@ -171,6 +208,8 @@ ability is Wisdom (spell save DC 13 +5 to hit with spell attacks). It has the fo
 <img src='https://image.ibb.co/mONqSH/4Q3HUFE.png' style='position:absolute; bottom:200px; left:280px; width:820px; transform:rotate(-67deg);filter:opacity(100%);'/>
 
 <img src='https://image.ibb.co/mONqSH/4Q3HUFE.png' style='position:absolute; bottom:-40px; left:-20px; width:920px; transform:rotate(1deg);filter:opacity(100%);'/>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:455px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 <div style='margin-top:640px;'></div>
 
@@ -183,7 +222,7 @@ ___
 > ##  Arch Geometry Druid
 >*Medium humanoid (any race), any alignment*
 > ___
-> - **Armor Class** 14 (leather)
+> - **Armor Class** 14 (studded leather)
 > - **Hit Points** 88 (16d8 + 16)
 > - **Speed** 30ft.
 >___
@@ -192,38 +231,54 @@ ___
 >|10 (+0)|14 (+2)|12 (+1)|14 (+2)|18 (+4)|8 (-1)|
 >___
 > - **Saving Throws** Intelligence +5, Wisdom +7
-> - **Skills** Arcana +5, Nature +5, Perception + 7
-> - **Senses** passive Perception 17.
-> - **Languages** any two languages.
-> - **Challenge** 5 (1,800 XP)          **Proficiency Bonus** +3       
+> - **Skills** Arcana +5, Nature +5, Perception +7
+> - **Senses** passive Perception 17
+> - **Languages** any two languages
+> - **Challenge** 5 (1,800 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
 > ___
-> ### Bonus Actions
-> ***Leyline Invocation*** The druid creates a glowing point where it is standing. It does not impede movement and lasts for 10 minutes but ends early if the druid falls unconscious, dies, moves than 120 feet away from it, or it dismiss it (no action required.)
->
 > ### Actions
 >
-> ***Spellcasting.*** The druid is a 6th-level spellcaster. Its spellcasting 
-ability is Wisdom (spell save DC 15 +7 to hit with spell attacks). It has the following Druid spells prepared:
+> ***Quarterstaff.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.
+>
+>
+> ***Spellcasting.*** The druid casts one of the following spells, using Wisdom as its spellcasting ability spell (spell save DC 15, +7 to hit with spell attacks):
 > 
-> Cantrips (at will): *druidcraft*, *thorn whip*, *thunderclap*
+> Cantrips (at will): *druidcraft*, *thorn whip*, *thunderclap**
 > 
-> 1st level (4 slots): *entangle*, *cure wounds*, *thunderwave*
+> 1st level (4 slots): *cure wounds*, *entangle*, *thunderwave*
 >
-> 2st level (3 slots): *moonbeam*, *flaming sphere*
+> 2st level (3 slots): *flaming sphere*, *moonbeam*
 >
-> 3rd level (3 slots): *erupting earth*, *dispel magic*
+> 3rd level (3 slots): *erupting earth**, *dispel magic*
 >
-> ***Leyline Blast.*** The druid causes beams of light to connect all the points it and other allies have created using the Leyline Invocation feature, creating a momentary glowing shape. All creatures of the druids choice that it can see in the shape at the time of its creation take 9(2d8) force damage.
+> *Found in *Elemental Evil Player's Companion*
 >
-> ***Quarterstaff.*** Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands.
+> ***Leyline Blast.*** The druid causes beams of light to connect all the points it and other allies have created using the Leyline Invocation feature, creating a momentary glowing shape. All creatures of the druid's choice that it can see in the shape at the time of its creation take 9 (2d8) force damage.
+>
+> ### Bonus Actions
+> ***Leyline Invocation.*** The druid creates a glowing point where it is standing. This point does not impede movement and lasts for 10 minutes. It ends early if the druid falls unconscious, dies, moves more than 120 feet away from it, or it dismisses it (no action required).
+>
 > ### Reactions
 >
-> ***Velocity Shift*** (3/Day) When a creature the druid sees starts its turn or moves into a space within 30 feet of it, it can force that creature to make a DC 15 Charisma saving throw, which the creature can choose to fail. On a failure, the creature is teleported to an unoccupied space of the druid's choice that it can see within 30 feet of it.
+> ***Velocity Shift.*** (3/Day) When a creature the druid sees starts its turn or moves into a space within 30 feet of it, it can force that creature to make a DC 15 Charisma saving throw, which the creature can choose to fail. On a failure, the creature is teleported to an unoccupied space of the druid's choice that it can see within 30 feet of itself. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.
 >
->The druid can also use this feature if it sees a creature start its turn or move into the space with a shape created by its Leyline Invocation feature or that of an ally.  The teleported creature is moved to any location of the druid's choice within that shape.
+>The druid can also use this feature if it sees a creature start its turn within or move into the space of a shape created by the Leyline Invocation feature of itself or an ally.  A creature teleported this way is moved to any location of the druid's choice within that shape.
 
 <img src='https://i.ibb.co/r4QqCt7/Golden-Ratio-Strixhaven-Mt-G-Art.jpg' style='position:absolute; bottom:-10px; right:-0px; width:816px; transform:rotate(0deg);'/>
 
 <img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:200px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 
+\pagebreak
+
+#### 1.0.0
+* Public release
+
+#### 1.1.0
+* Update Referenced Documents
+
+\columnbreak
+
+### Referenced Documents
+* Circle of Geometry 1.2.0
+* Circle of Geometry NPCs 1.1.0
