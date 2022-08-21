@@ -26,13 +26,13 @@ That action can be one from its stat block or some other action. If you are inca
 
 #### Exponential Growth
 *2nd Level Circle of Geometry feature*<br>
-When you summon a fractal using your Fractal Summoning feature, and as a bonus action while the fractal is under your control, you can expend a spell slot of 1st level or higher to grow it.  When you do so, the fractal gains the following effects, which scale with the level of the spell slot expended:
+When you summon a fractal using your Fractal Summoning feature, you can expend a spell slot of 1st level or higher to grow it.  When you do so, the fractal gains the following effects based on the level of the spell slot used:
 
-* It gains additional hit points equal to ten times the level of the spell slot expended, and its hit point maximum increases by this amount.
+* It gains additional hit points equal to 10 x level of the spell slot expended, and its hit point maximum increases by this amount.
 
-* Its size increases by one size category for every 2 slot levels above 1st.
+* Its size increases by one for every 2 levels above 1st of the spell slot used. If there isn’t enough room for the companion to become larger, it attains the maximum possible size in the space available.
 
-* Once per turn, when it deals damage to a target, it can deal an additional 1d4 force damage to the target per level of the spell slot used. 
+* Once per turn, when it deals damage to a target, it can deal an additional 1d6 force damage to the target per level of the spell slot used.
 
 <img src='https://i.ibb.co/bQXqyY5/fractal-summoning-by-dopaprime-deijv61-fullview.jpg'
 style='position:absolute;top:-20px;left:-0px;height:600px;transform:scaleX(1)'>
@@ -49,7 +49,7 @@ style='position:absolute;top:-20px;left:-0px;height:600px;transform:scaleX(1)'>
 *2nd Level Circle of Geometry feature*<br>
 You begin to see the mathematical <br> patterns that make up reality and <br> learn to bend them around yourself.  As <br> a bonus action, you can create a glowing <br> point on any 5-foot square surface of your <br> choice you are occupying.  When you command <br> your fractal, you can create a point as part of the same <br> bonus action.  If you have a fractal creature active from your Fractal Summoning feature and it is within 120 feet of you, you can also have it create a point in the same way.  
 
-Points don't impede movement.  A point lasts for 10 minutes but disappears early if you fall unconscious, die, you and your fractal both move more than 120 feet away from it, or you dismiss it (no action required.)
+Points don't impede movement.  A point lasts for 10 minutes but disappears early if you fall unconscious, die, If you are more than 120 feet away from it at any time, or you dismiss it (no action required.)
 
 As an action, you may cause beams of light to connect all existing points, making a shape that lasts until the start of your next turn.  As part of the action used to make this shape, you can create a new point at your location and the location of any fractal under your control.  These points are included in the shape.  All creatures of your choice that you can see in the shape at the time of its creation take 1d8 force damage.  
 
@@ -57,15 +57,15 @@ The force damage increases to 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17
 
 #### Velocity Shift
 *6th Level Circle of Geometry feature*<br>
-You learn to manipulate kinetic formulas and alter the velocity of another creature. When a creature you can see starts its turn or moves into a space within 30 feet of you, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC, which it can choose to fail. On a failure, the creature is teleported to an unoccupied space of your choice that you can see within 30 feet of you.
+You learn to manipulate kinetic formulas and alter the velocity of another creature. When a creature you can see starts its turn or moves into a space within 30 feet of you, you can use your reaction to force the creature to make a Charisma saving throw against your spell save DC, which it can choose to fail. On a failure, the creature is teleported to an unoccupied space of your choice that you can see within 30 feet of you. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.
 
 If you have shape created by your Leyline Invocation feature, you can also use this feature when a creature you can see starts its turn or moves into a space within your shape, in which case you can teleport the creature to an unoccupied space of your choice inside the shape.
 
-You can use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.
+You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.
 
-\columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 #### Geometric Nexus
@@ -122,4 +122,8 @@ style='position:absolute;top:-25px;left:-200px;width:916px;transform:rotate(335d
 
 #### 1.1.0 Changes
  * Document cleanup
+
+#### 1.2.0 Changes
+* Velocity Shift can't drop creatures in the air.
+* Exponential Growth must be used when the Fractal is made and the the bonus Damage is 1d6.
 

@@ -1,3 +1,31 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Circle of Geometry NPCs
@@ -42,7 +70,7 @@ ___
 >
 > ***Quarterstaff.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.
 >
-> ***Spellcasting.*** The druid casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability spell (spell save DC 13, +5 to hit with spell attacks):
+> ***Spellcasting.*** The druid casts one of the following spells, using Wisdom as its spellcasting ability spell (spell save DC 13, +5 to hit with spell attacks):
 > 
 > Cantrips (at will): *druidcraft*, *thorn whip*
 > 
@@ -93,7 +121,7 @@ ___
 > ***Quarterstaff.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands.
 >
 >
-> ***Spellcasting.*** The druid casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability spell (spell save DC 15, +7 to hit with spell attacks):
+> ***Spellcasting.*** The druid casts one of the following spells, using Wisdom as its spellcasting ability spell (spell save DC 15, +7 to hit with spell attacks):
 > 
 > Cantrips (at will): *druidcraft*, *thorn whip*, *thunderclap**
 > 
@@ -112,7 +140,7 @@ ___
 >
 > ### Reactions
 >
-> ***Velocity Shift.*** (3/Day) When a creature the druid sees starts its turn or moves into a space within 30 feet of it, it can force that creature to make a DC 15 Charisma saving throw, which the creature can choose to fail.  On a failure, the creature is teleported to an unoccupied space of the druid's choice that it can see within 30 feet of itself.
+> ***Velocity Shift.*** (3/Day) When a creature the druid sees starts its turn or moves into a space within 30 feet of it, it can force that creature to make a DC 15 Charisma saving throw, which the creature can choose to fail. On a failure, the creature is teleported to an unoccupied space of the druid's choice that it can see within 30 feet of itself. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.
 >
 >The druid can also use this feature if it sees a creature start its turn within or move into the space of a shape created by the Leyline Invocation feature of itself or an ally.  A creature teleported this way is moved to any location of the druid's choice within that shape.
 
@@ -128,3 +156,6 @@ ___
 
 #### 1.0.1
 * Document cleanup
+
+#### 1.1.0
+* Velocity Shift: The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.
