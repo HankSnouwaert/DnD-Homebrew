@@ -145,7 +145,7 @@ When you pick this invocation, choose a warlock cantrip you know that forces a s
 #### Rite of Warding
 *Prerequisite*: blade ward *cantrip*
 
-Your *blade ward* cantrip grants <br> resistance  to all damage from weapon attacks.
+Your *blade ward* cantrip grants <br> resistance to all damage from weapon attacks.
 
 #### Sliver of Insight
 *Prerequisite*: mind sliver*** *cantrip*
@@ -160,14 +160,16 @@ At the end of each long rest, choose a creature type other than construct.  Crea
 #### Spectre Strike
 *Prerequisite*: sword burst*** *cantrip*
 
-When you cast *sword burst*, you may make one melee weapon attack as a bonus action.
+When you cast *sword burst* and you are not wielding a shield, you may make one attack as a bonus action with melee weapon using one hand.
 
 #### Spreading Flames
-*Prerequisite*: bonfire* *cantrip*
+*Prerequisite*: create bonfire* *cantrip*
 
-You can concentrate on a number of *bonfire* spells at once equal to your Charisma modifier.  Once a creature passes its save against one of your bonfires, it is immune to the effects of all your other bonfires until the end of the turn.
+At the start of your turn, while you are within 60 feet of an area affected by your bonfire, you can choose to have the bonfire spread to another 5-foot square surface within 5 feet of it. 
 
-If you must make a check to maintain concentration on one of your *bonfire* cantrips, a single check is made to maintain concentration on all active *bonfire* cantrips.  On a failure, you lose concentration on all active *bonfire* cantrips at once.
+You may also use your action to spread your bonfire this way and then have each creature in an area affected by the bonfire make the saving throw against the spell.
+
+You can have the bonfire grow a number times equal to your 1 + Charisma modifier (a minimum of twice) per casting of the spell.
 
 #### Swarm Intelligence
 *Prerequisite*: infestation** *cantrip*
@@ -234,3 +236,7 @@ style='position:absolute;top:-10px;left:0px;width:970px' />
 
 #### 1.1.1 Changes
  * Document clean up
+
+#### 1.2.0 Changes
+* Spectre Strike: Only all attacks with one hand
+* Spreading Flames: Rework
