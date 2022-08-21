@@ -1,8 +1,37 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br>
 
 ## College of <br> Illumination NPCs
 
-The following stat blocks can be used to describe <br> non-player character bards from the college of <br> illumination or have abilities similar to a bard of <br> that college.  You can choose the stat block that <br> best aligns with the power level of the NPC. <Br>To further customize your NPC, apply the racial <br> traits of whichever humanoid race you’ve chosen for it. <Br> You can also replace any of its known spells with spells of an equivalent level from the bard spell list or spells that deal radiant damage or have a light radius.
+The following stat blocks can be used to describe <br> non-player character bards who are from the <br> college of illumination or have abilities similar <br> to a bard of that college.  You can choose the stat <br> block that best aligns with the power level of the NPC. <Br> To further customize your NPC, apply the racial <br> traits of whichever humanoid race you’ve chosen for it. You can also replace any of its known spells with spells of an equivalent level that are either from the bard spell list, deal radiant damage, or have a light radius.
 
 ### Art Credit
 * Breena, the Demagogue - Simon Dominic, Wizards of the Coast
@@ -16,19 +45,35 @@ ___
 >*Medium humanoid (any race), any alignment*
 > ___
 > - **Armor Class** 13 (leather)
-> - **Hit Points** 39 (6d8+12)
+> - **Hit Points** 39 (6d8 + 12)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|8 (-1)|14 (+2)|12 (+1)|12 (+1)|12 (+1)|16 (+3)|
+>|8 (-1)|14 (+2)|14 (+2)|12 (+1)|12 (+1)|16 (+3)|
 >___
-> - **Saving Throws** Dex +4 Charisma +5
-> - **Skills** Persuasion +7, Performance +7, Insight+ 2
-> - **Senses** passive Perception 10.
-> - **Languages** - any two languages.
-> - **Challenge** 2 (450 XP)   &emsp;&emsp;  **Proficiency Bonus** +2       
+> - **Saving Throws** Dex +4, Charisma +5
+> - **Skills** Insight +3, Performance +7, Persuasion +7 
+> - **Senses** passive Perception 11
+> - **Languages** any two languages
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
 > ___
+> ### Actions
+>
+>  ***Rapier.** Melee Weapon Attack:* +4 to hit, reach 5 ft., one
+target. *Hit:* 6 (1d8 + 2) piercing damage.
+>
+> ***Shortbow.** Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one 
+target. *Hit:* 5 (1d6 + 2) piercing damage.
+> 
+> ***Spellcasting.*** The lightscribe casts one of the following spells, using Charisma as its spellcasting ability spell (spell save DC 13, +5 to hit with spell attacks): 
+>
+> Cantrips (at will): *light, minor illusion, sacred flame*
+> 
+> 1st level (4 slots): *faerie fire, guiding bolt, sleep*
+> 
+> 2nd level (2 slots): *darkness, enlarge/reduce, see invisibility*
+>
 > ### Bonus Actions
 > ***Dramatic Spotlight (3/Day).***  The lightscribe conjures a magical spotlight focused on a creature it can see within 60 feet of it.  The spotlight’s size always matches the target creature’s, and it will follow the target wherever it moves.  The spotlight lasts for 1 minute or until the lightscribe is incapacitated or dismisses it (no action required).
 >
@@ -40,7 +85,7 @@ ___
 >
 > &#8226; The first time it deals damage on its turn, it deals an additional 1d6 radiant damage.
 >
-> &#8226; It has advantage on Charisma checks
+> &#8226; It has advantage on Charisma checks.
 >
 > An enemy creature targeted by the spotlight suffers the following effects:
 >
@@ -48,24 +93,8 @@ ___
 >
 > &#8226; The first time it deals damage on its turn, that damage is reduced by 1d6.
 >
-> &#8226; It has disadvantage on Charisma checks
+> &#8226; It has disadvantage on Charisma checks.
 >
-> ### Actions
->
->  ***Rapier.** Melee Weapon Attack:* +4 to hit, reach 5 ft., one
-target. Hit: 6 (1d8 + 2) piercing damage.
->
-> ***Shortbow.** Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one 
-target. Hit: 5 (1d6 + 2) piercing damage.
->
-> ***Spellcasting.*** The lightscribe is a 3th-level spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 13 +5 to hit with spell attacks). It has the following bard spells prepared:
-> 
-> Cantrips (at will): *light, sacred flame, minor illusion*
-> 
-> 1st level (4 slots): *guiding bolt, faerie fire, sleep*
-> 
-> 2nd level (2 slots): *darkness, enlarge/reduce, see invisibility*
 
 <div style='margin-top:850px;'></div>
 <img
@@ -87,19 +116,43 @@ ___
 >*Medium humanoid (any race), any alignment*
 > ___
 > - **Armor Class** 15 (studded leather)
-> - **Hit Points** 187 (25d8+75)
+> - **Hit Points** 149 (23d8+46)
 > - **Speed** 30ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|8 (-1)|16 (+3)|16 (+3)|12 (+1)|12 (+1)|18 (+4)|
+>|8 (-1)|16 (+3)|16 (+3)|12 (+1)|14 (+2)|18 (+4)|
 >___
-> - **Saving Throws** Dex +6 Charisma +7
-> - **Skills** Persuasion +10, Performance +10, Insight+ 5
-> - **Senses** passive Perception 10.
-> - **Languages** - any two languages.
-> - **Challenge** 8 (450 XP)   &emsp;&emsp;  **Proficiency Bonus** +3       
+> - **Saving Throws** Dex +6, Charisma +7
+> - **Skills** Insight +5, Performance +10, Persuasion +10  
+> - **Senses** passive Perception 12
+> - **Languages** any two languages.
+> - **Challenge** 8 (3,900 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
 > ___
+> ### Actions
+>
+>  ***Rapier.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one
+target. *Hit:* 7 (1d8 + 3) piercing damage.
+>
+> ***Shortbow.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one 
+target. *Hit:* 6 (1d6 + 3) piercing damage.
+>
+> ***Spellcasting.*** The professor casts one of the following spells, using Charisma as its spellcasting ability spell (spell save DC 15, +7 to hit with spell attacks): 
+> 
+> Cantrips (at will): *dancing lights, light, minor illusion, sacred flame*
+> 
+> 1st level (4 slots): *faerie fire, guiding bolt, sleep*
+> 
+> 2nd level (3 slots): *darkness, enlarge/reduce, see invisibility*
+> 
+> 3rd level (3 slots): *daylight, dispel magic*
+> 
+> 4th level (3 slots): *polymorph*
+>
+> 5th level (2 slots): *mass cure wounds* 
+> 
+> 6th level (1 slot): *sunbeam*
+>
 > ### Bonus Actions
 > ***Dramatic Spotlight (4/Day).***  The professor conjures a magical spotlight focused on a creature it can see within 60 feet of it.  The spotlight’s size always matches the target creature’s, and it will follow the target wherever it moves.  The spotlight lasts for 1 minute or until the professor is incapacitated or dismisses it (no action required).
 >
@@ -113,7 +166,7 @@ ___
 >
 > &#8226; It has advantage on Charisma checks
 >
-> &#8226; It gains a 30 foot fly speed.
+> &#8226; It gains a 30-foot fly speed.
 >
 > An enemy creature targeted by the spotlight suffers the following effects:
 >
@@ -123,34 +176,10 @@ ___
 >
 > &#8226; It has disadvantage on Charisma checks
 >
-> When an enemy is first targeted by the spotlight, it must make DC 15 Charisma saving throw or have its move speed reduced by 15 feet and be subjected to the effects of the *earthbind* spell.
->
-> ### Actions
->
->  ***Rapier.*** Melee Weapon Attack: +6 to hit, reach 5 ft., one
-target. Hit: 7 (1d8 + 3) piercing damage.
->
-> ***Shortbow.*** Ranged Weapon Attack: +6 to hit, range 80/320 ft., one 
-target. Hit: 6 (1d6 + 3) piercing damage.
->
-> ***Spellcasting.*** The professor is a 11th spellcaster. Its spellcasting 
-ability is Charisma (spell save DC 15 +7 to hit with spell attacks). It has the following bard spells prepared:
-> 
-> Cantrips (at will): *light, sacred flame, dancing lights, minor illusion*
-> 
-> 1st level (4 slots): *guiding bolt, faerie fire, sleep*
-> 
-> 2nd level (3 slots): *darkness, enlarge/reduce, see invisibility*
-> 
-> 3rd level (3 slots): *daylight, dispel magic*
-> 
-> 4th level (3 slots): *polymorph*
->
-> 5th level (2 slots): *mass cure wounds*
-> 
-> 6th level (1 slots): *sunbeam*
+> When an enemy is first targeted by the spotlight, it must succeed on a DC 15 Charisma saving throw or have its move speed reduced by 15 feet and be subjected to the effects of the *earthbind* spell (described in the *Elemental Evil Player's Companion*).
 
-<img src='https://i.ibb.co/2nxZTqZ/Arrogant-Poet-Strixhaven-Mt-G-Art.jpg' style='position:absolute;bottom:-310px;right:-90px;width:970px' />
+
+<img src='https://i.ibb.co/2nxZTqZ/Arrogant-Poet-Strixhaven-Mt-G-Art.jpg' style='position:absolute;bottom:-320px;right:-90px;width:970px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
@@ -159,6 +188,8 @@ ability is Charisma (spell save DC 15 +7 to hit with spell attacks). It has the 
 
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0 Changes
  * Public Release
  
+#### 1.1.0 Changes
+* Document cleanup
