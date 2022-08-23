@@ -88,7 +88,7 @@ If you attempt to spread your disease from the creature you're inhabiting to one
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-This form ends if your host creature dies, the disease affecting it ends, or you use your bonus action to return to your normal form.  Additionally, the host creature can use its action to make a Charisma check against your spell save DC, ending this effect on a success, though this does not end the disease affecting it.  When the effect ends, you reappear in the nearest unoccupied space of your choice.  
+This form ends if your host creature dies, the disease affecting it ends, or you use your bonus action to return to your normal form.  Additionally, the host creature can use its action to make a Charisma saving throw against your spell save DC, ending this effect on a success, though this does not end the disease affecting it.  When the effect ends, you reappear in the nearest unoccupied space of your choice.  
 
 ### Disease Symptoms
 The following disease symptoms are presented in alphabetical order.
@@ -185,7 +185,7 @@ style='position:absolute;top:-40px;left:-0px;width:700px;transform:scalex(1);' /
 
 \pagebreak
 
-<br><br>
+
 
 ## New Spells
 
@@ -196,15 +196,16 @@ ___
 - **Range:** Touch
 - **Components:** V, S
 - **Duration:**   1 minute
-- **Classes:**  Cleric, Warlock
+- **Classes:**  Druid, Cleric, Warlock
 ___
 
-Make a melee spell attack against a creature you can reach. On a hit, the target is afflicted with a disease that lasts until the spell ends and it takes 3d10 necrotic damage.
+Make a melee spell attack against a creature you can reach. On a hit, it takes 3d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
 
-A creature afflicted by this disease takes 3d10 necrotic damage at the end of each of its turns and must make a Constitution saving throw, ending the disease on a success. 
+A creature afflicted by this disease takes 3d10 necrotic damage at the end of each of its turns and must then make a Constitution saving throw, ending the disease on a success. 
 
-If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to unleash a wave of rot. Each creature of your choice that you can see within 30 feet of it must make a Constitution saving throw, taking 3d10 necrotic damage on a failed save or half as much damage on a successful one. You may choose to have one of the creatures that failed the saving throw become infected with the same disease.
+If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to unleash a wave of rot. Each creature of your choice that you can see within 30 feet of it must make a Constitution saving throw, taking 3d10 necrotic damage on a failed save or half as much damage on a successful one. You may choose to have one of the creatures that failed the saving throw become infected with the same disease, which lasts for the remainder of the spell's duration.
 
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
 
 
 #### Miasma of Pestilence
@@ -213,7 +214,7 @@ ___
 - **Casting Time:** 1 action
 - **Range:** 20 feet
 - **Components:** V S M (A bit of durian fruit)
-- **Duration:** Concentration, Up to 1 minute
+- **Duration:** Concentration, up to 1 minute
 - **Classes:**  Bard, Sorcerer, Wizard
 ___
 
@@ -221,22 +222,29 @@ A cloud of putrescent vapor appears in a 10-foot-radius sphere centered on a poi
 
 Each creature completely within the cloud at the start of its turn must make a Constitution saving throw. On a failed save, the creature is poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions. Creatures that don't need to breathe automatically succeed on this saving throw.
 
+<br>
 
+### Art Credit
+* Deathrite Shaman - Steve Argyle, Wizards of the Coast
+* Putrefy - Igor Kieryluk, Wizards of the Coast
+* Illness in the Ranks - Nils Hamm, Wizards of the Coast 
+* Festergloom - Mathias Kollros, Wizards of the Coast 
 
+\columnbreak
 
-#### Puddle of Ooze 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Puddle of Ooze
 *3rd-level conjuration*
 ___
 - **Casting Time:** 1 action
 - **Range:** 120 feet
 - **Components:** V, S, M (a bit of slug slime)
 - **Duration:**   Concentration, up to 1 minute
-- **Classes:**  Sorcerer, Artificer
+- **Classes:**  Artificer, Druid, Sorcerer 
 ___
 
-The ground in a 20-foot radius centered on a point within range is covered in acidic ooze, becoming difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
 
@@ -254,19 +262,15 @@ Bile spews forth from you in a 30-foot cone.  Each creature in that area must ma
 
 When you cast this spell, you may instead choose a creature within 100 feet of you that you can see and force it to make a Constitution saving throw.  On failed save, it takes 3d8 necrotic damage, and you may cause the cone of bile described above to spew forth from the creature in the direction you choose.  On a successful save, a creature takes half as much damage and does not spew bile.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and by the cone of bile by 1d8 for each slot level above 2nd.
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and creatures in the area of the cone of bile by 1d8 for each slot level above 2nd.
 
-### Art Credit
-* Deathrite Shaman - Steve Argyle, Wizards of the Coast
-* Putrefy - Igor Kieryluk, Wizards of the Coast
-* Illness in the Ranks - Nils Hamm, Wizards of the Coast 
-* Festergloom - Mathias Kollros, Wizards of the Coast 
+
 
 <img src='https://i.ibb.co/y8f9NJ2/Festergloom.png' style='position:absolute; top:-30px; right:-130px; width:680px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 <img
 src='https://www.gmbinder.com/images/VxJ8X1u.png'
-style='position:absolute;top:25px;left:-90px;width:916px;transform:rotate(3deg)' />
+style='position:absolute;top:-30px;left:-90px;width:916px;transform:rotate(-0deg)' />
 
 <img
 src='https://www.gmbinder.com/images/VxJ8X1u.png'
@@ -288,7 +292,13 @@ style='position:absolute;top:505px;left:-90px;width:916px;transform:rotate(3deg)
 #### 1.0.2
 * Add referenced spells
 
+#### 1.0.3
+* Plague Shape now uses a Charisma saving throw instead of a Charisma check.
+
+#### 1.1.0
+* Update referenced spells
+
 \columnbreak
 
 ### Rerfenced Documents
-* New Spells 1.0.0
+* New Spells 1.7.1
