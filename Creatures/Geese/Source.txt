@@ -92,7 +92,7 @@ ___
 >*Large swarm of small beasts, unaligned*
 > ___
 > - **Armor Class** 10
-> - **Hit Points** 51 (8d10 + 8)
+> - **Hit Points** 55 (10d8 + 10)
 > - **Speed** 20 ft., fly 30 ft., swim 20 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -205,7 +205,7 @@ This enigmatic fey creature would appear to be a normal goose if not for the gol
 \columnbreak
 
 ___
-> ## Golden  Goose
+> ## Golden Goose
 >*Small fey, unaligned*
 > ___
 > - **Armor Class** 17
@@ -293,11 +293,11 @@ ___
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|4 (-3)|14 (+2)|12 (+1)|6 (-2)|14 (+2)|14 (+2)|
+>|4 (-3)|14 (+2)|12 (+1)|8 (-1)|14 (+2)|14 (+2)|
 >___
 > - **Skills** Intimidation +6, Perception +4, Sleight of Hand +6, Stealth +6 
 > - **Senses** darkvision 60 ft., passive Perception 14
-> - **Challenge** 1/2 (100 XP) &emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
 > ___
 > **Keen Sight.** The goose has advantage on Wisdom (Perception) checks that rely on sight.
 >
@@ -305,12 +305,12 @@ ___
 >
 > ***Evasion.*** If the goose is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
 >
-> ***Spook.*** Creatures that are surprised by the goose have disadvantage on their next saving throw against its frightful presence before the end of their next turn.  If they are frightened by the goose while surprised, they are stunned until the end of their next turn.
+> ***Spook.*** A surprised creature that fails a saving throw against the goose's Frightful Presence is incapacitated and has a speed of 0. These effects last until it is no longer frightened, takes any damage, or someone else uses an action to shake the creature out of its stupor. <br><br><br><br>
 >
 > ### Actions
 > ***Multiattack.*** The goose makes one Goose Attack and can use its Frightful Presence.
 >
-> ***Goose Attack.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage.  Hit or miss, the target creature has disadvantage on the next saving throw it makes against the goose's Frightful Presence before the end of the goose's next turn.
+> ***Goose Grab.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage. If it hits a creature, instead of dealing damage, the goose may make a Dexterity (Sleight of Hand) check contested by a Dexterity (Acrobatics) check from the target creature. If the creature fails the check, the goose may steal a small object of its choice that the target is holding or carrying on its person. Hit or miss, the target creature has disadvantage on the next saving throw it makes against the goose's Frightful Presence before the end of the goose's next turn.
 >
 > ***Frightful Presence.*** Each creature of the goose's choice that is within 30 ft. of it and aware of it must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the goose's Frightful Presence for the next 24 hours.
 >
@@ -328,7 +328,7 @@ ___
 
 This enchanted ribbon is a popular gift among the fey.  While wearing it, you are transformed into a **mischievous goose** as though under the effects of a *polymorph* spell.  You can use the ribbon to remain transformed this way for up to 4 hours, all at once or in several shorter sessions, each one using a minimum of 1 minute from the duration.
  
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
  
 ### Art Credit
 * Gilded Goose (Secret Lair Drop) – Allen Douglas, Wizards of the Coast
@@ -340,11 +340,14 @@ This enchanted ribbon is a popular gift among the fey.  While wearing it, you ar
 
 
 
-<img src='https://i.ibb.co/CMMYC6w/The-Village-Pond-at-Ring-Zealand-1890.jpg' style='position:absolute;bottom:-90px;right:-0px;width:816px;transform:scaleX(1)' />
+<img src='https://i.ibb.co/CMMYC6w/The-Village-Pond-at-Ring-Zealand-1890.jpg' style='position:absolute;bottom:-110px;right:-0px;width:816px;transform:scaleX(1)' />
 
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-60px; right:0px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-0px; right:0px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0 Changes
  * Public Release
+
+#### 1.1.0 Changes
+* Document clean up
