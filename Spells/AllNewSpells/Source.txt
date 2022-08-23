@@ -11,7 +11,7 @@ ___
 - **Classes:**  Druid, Sorcerer, Wizard 
 ___
 
-Acidic rain falls in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. When a creature enters the spell’s area for the first time on a turn or starts its turn there, it takes 4d4 acid damage and is covered in acid for the spell’s duration or until it, or another creature uses its action to scrape or wash the acid off. A creature covered in the acid takes 4d4 acid damage at the start of each of its turns.
+Acidic rain falls in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. When a creature enters the spell’s area for the first time on a turn or starts its turn there, it takes 4d4 acid damage and is covered in acid for the spell’s duration or until it, or another creature uses its action to scrape or wash the acid off. A creature covered in the acid takes 4d4 acid damage at the end of its turns.
 
 ***At Higher Levels.*** The initial acid damage, as well as the acid damage dealt at the end of each of the acid-covered creature’s turns, is increased by 1d4 for each slot level above 5th.
 
@@ -29,7 +29,7 @@ You conjure up a wave of acid that crashes down on an area within range. The are
 
 A creature covered in the acid takes 6d4 acid damage at the end of its turn.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the initial acid damage, initial bludgeoning damage, and the acid damage taken at the end of an acid-covered creature’s turn are all increased by 2d4 for each slot level above 6th.
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the initial acid damage, initial bludgeoning damage, and the acid damage taken at the end of an acid-covered creature’s turn are all increased by 1d4 for each slot level above 6th.
 
 
 #### Bolt of Change (Public)
@@ -722,6 +722,9 @@ The boil immediately explodes when the spell ends.
 #### 1.5.0
 * Add creeping smite, fiery temper, and senseless rage
 
+#### 1.6.0
+* Acid Rain deals damage at the end of the turn instead of the start of the turn.
+* Acid Wave - only up casts for 1d4 for instead of 2d4
 
 
 
