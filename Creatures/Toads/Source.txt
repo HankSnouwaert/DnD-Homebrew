@@ -1,15 +1,41 @@
+<style>
 
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p5:after, .phb#p6:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Toads
 These tiny amphibians somehow appear both unassuming and ominous.  Though they pose little threat on their own, toads are often associated with witchcraft and dark curses.  These associations often cause toads to be viewed through the lens of superstitious folklore, where they are seen as dark omens or as central figures in fairytales.
 
-**Poisonous Nature.** Despite being similar in size and appearance to frogs, toads lack their leaping capabilities and generally walk more than they do hop.  Like frogs, toads also lack any offensive abilities against larger creatures, so they must make up for this lack of mobility with tougher skin which secrets a poison that makes the toads unappealing meals for predators.  This tougher skin also retains water for longer periods of time, allowing the toad to roam further from water than frogs.
+***Poisonous Nature.*** Despite being similar in size and appearance to frogs, toads lack their leaping capabilities and generally walk more than they do hop.  Like frogs, toads also lack any offensive abilities against larger creatures, so they must make up for this lack of mobility with tougher skin which secrets a poison that makes the toads unappealing meals for predators.  This tougher skin also retains water for longer periods of time, allowing the toad to roam further from water than frogs.
 
-Some species of toads are known for having hallucinogenic properties.  Creatures effected by their poison experience vivid visions and even a sense of euphoria.  While these forms of poison may be more exciting or even blissful, they are no less dangerous and can still severely harm any creature foolish enough to lick the toad.
+Some species of toads are known for having hallucinogenic properties, and creatures affected by their poison experience vivid visions and even a sense of euphoria.  While these forms of poison may be more exciting or even blissful, they are no less dangerous and can still severely harm any creature foolish enough to lick the toad.
 
-**Knots of Toads.** When groups of toads come together, they are referred to as a knot.  While this typically happens during mating events and is entirely harmless to others, supernatural forces can sometimes lead to the formation of an aggressive knot of toads capable of overwhelming much larger creatures.  While the individual toads of the knot pose little threat, en masse, they engulf their targets, subjecting them to overwhelming amounts of their poisonous secretions.  Knots of toads behaving in this way are often summoned by vengeful witches, hags, druids, or even gods as a supernatural punishment for perceived slights. 
+***Knots of Toads.*** When groups of toads come together, they are referred to as a knot.  While this typically happens during mating events and is entirely harmless to others, supernatural forces can sometimes lead to the formation of an aggressive knot of toads capable of overwhelming much larger creatures.  While the individual toads of the knot pose little threat, en masse, they engulf their targets, subjecting them to overwhelming amounts of their poisonous secretions.  Knots of toads behaving in this way are often summoned by vengeful witches, hags, druids, or even gods as a supernatural punishment for perceived slights. 
  
  \columnbreak
  
@@ -25,16 +51,16 @@ ___
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|2 (-5)|10 (+0)|9 (-1)|1 (-5)|10 (+0)|2 (-4)|
+>|1 (-5)|12 (+1)|9 (-1)|2 (-4)|10 (+0)|2 (-4)|
 >___
-> - **Skills** Perception +2, Stealth +2
-> - **Senses** darkvision 30 Ft., passive Perception 11.
-> - **Languages** ---- 
-> - **Challenge** 0 (10 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
+> - **Skills** Perception +2, Stealth +3
+> - **Senses** darkvision 30 ft., passive Perception 12.
+> - **Languages** ━
+> - **Challenge** 0 (10 XP) &emsp;&emsp; &emsp;&ensp;&nbsp;  **Proficiency Bonus** +2
 > ___
-> **Amphibious.** The toad can breathe air and water.
+> ***Amphibious.*** The toad can breathe air and water.
 >
-> **Poisonous Secretion.** A creature that bites or consumes the toad must make DC 10 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours.  After every hour that elapses while the creature is poisoned, the creature takes 1 poison damage. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 10 Wisdom (Medicine) check to end the effect.
+> ***Poisonous Secretion.*** A creature that touches the toad must make DC 10 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours.  After every hour that elapses while the creature is poisoned, it takes 1 poison damage. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 10 Wisdom (Medicine) check to end the effect.
 
 
 <img
@@ -45,7 +71,7 @@ style='position:absolute;top:0px;left:80px;width:800px;transform: scaleX(1)' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-90px;left:0px;width:916px;transform:rotate(-10deg);' />
+style='position:absolute;top:-105px;left:0px;width:916px;transform:rotate(-10deg);' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
@@ -53,11 +79,11 @@ style='position:absolute;top:30px;left:-70px;width:916px;transform:rotate(-10deg
 
 <div style='margin-top:350px;'></div>
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:335px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:330px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
-**Giant Toads.** While toads are adept at catching and swallowing smaller creatures whole, mundane-sized toads pose little threat to humanoids.  However, this situation changes entirely if the toad becomes significantly larger than the typical humanoid.  Giant toads pose a real and terrifying threat, and many fledgling adventurers have met an early and inglorious end in the belly of one of these beasts.
+***Giant Toads.*** While toads are adept at catching and swallowing smaller creatures whole, mundane-sized toads pose little threat to humanoids.  However, this situation changes entirely if the toad becomes significantly larger than the typical humanoid.  Giant toads pose a real and terrifying threat, and many fledgling adventurers have met an early and inglorious end in the belly of one of these beasts.
 
 Some giant toads are created as the result of dark or druidic magic, and they are a favorite pet of hags and a common guardian for druids.  Though they are not malevolent by nature, giant toads view humanoids as the ideal meal-sized creature.  A giant toad won’t hesitate to leap out of hiding after a group of travelers, gulp up the nearest person, and flee with its new meal.  
 
@@ -66,27 +92,27 @@ ___
 > ## Giant Toad
 >*Large beast, unaligned*
 > ___
-> - **Armor Class** 11 
-> - **Hit Points** 39 (6d10+6)
+> - **Armor Class** 11
+> - **Hit Points** 39 (6d10 + 6)
 > - **Speed** 25 ft., swim 25 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|15 (+2)|10 (+0)|13 (+1)|1 (-5)|10 (+0)|2 (-4)|
+>|15 (+2)|12 (+1)|13 (+1)|2 (-4)|10 (+0)|2 (-4)|
 >___
-> - **Skills** Perception +2, Stealth +2
-> - **Senses** darkvision 30 Ft., passive Perception 12.
-> - **Languages** ---- 
+> - **Skills** Perception +2, Stealth +3
+> - **Senses** darkvision 30 ft., passive Perception 12
+> - **Languages** ━ 
 > - **Challenge** 1 (200 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
 > ___
-> **Amphibious.** The toad can breathe air and water.
+> ***Amphibious.*** The toad can breathe air and water.
 >
-> **Poisonous Secretion.** A creature that touches the toad must make DC 13 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. After every hour that elapses while the creature is poisoned, the creature takes 1 poison damage. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 13 Wisdom (Medicine) check to end the effect.
+> ***Poisonous Secretion.*** A creature that touches the toad must make DC 13 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. After every hour that elapses while the creature is poisoned, it takes 3 (1d6) poison damage. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 13 Wisdom (Medicine) check to end the effect.
 > 
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 13) Until this grapple ends, the target is restrained, and the toad can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the toad can't bite another target.
 >
-> ***Swallow.*** The toad makes one bite attack against a medium or smaller target it is grappling.  If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+> ***Swallow.*** The toad makes one bite attack against a medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
 
 \columnbreak
 
@@ -95,30 +121,30 @@ ___
 >*Medium swarm of tiny beast, unaligned*
 > ___
 > - **Armor Class** 11 
-> - **Hit Points** 24 (7d8-7)
+> - **Hit Points** 24 (7d8 - 7)
 > - **Speed** 15 ft., swim 15 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|9 (-1)|10 (+0)|9 (-1)|1 (-5)|10 (+0)|2 (-4)|
+>|9 (-1)|12 (+1)|9 (-1)|2 (-4)|10 (+0)|2 (-4)|
 >___
 > - **Damage Resistances** bludgeoning, piercing, slashing
 > - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
-> - **Skills** Perception +2, Stealth +2
-> - **Senses** darkvision 30 Ft., passive Perception 12.
-> - **Languages** ---- 
-> - **Challenge** 1/4 (50 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
+> - **Skills** Perception +2, Stealth +3
+> - **Senses** darkvision 30 ft., passive Perception 12
+> - **Languages** ━ 
+> - **Challenge** 1/4 (50 XP) &emsp;&emsp;&ensp;&nbsp;  **Proficiency Bonus** +2
 > ___
-> **Amphibious.** The toad can breathe air and water.
+> ***Amphibious.*** The swarm can breathe air and water.
 >
-> **Swarm.** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny toad. The swarm can't regain hit points or gain temporary hit points.
+> ***Poisonous Secretion.*** A creature that touches the toad from the swarm must make DC 10 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours.  After every hour that elapses while the creature is poisoned, it takes 1 poison damage. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 10 Wisdom (Medicine) check to end the effect.
 >
-> **Poisonous Secretion.** A creature that bites or consumes a toad must make DC 10 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. After every hour that elapses while the creature is poisoned, the creature takes 1 poison damage. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 10 Wisdom (Medicine) check to end the effect.
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny toad. The swarm can't regain hit points or gain temporary hit points.
 > 
 > ### Actions
-> ***Engulf.*** *Melee Weapon Attack:* +2 to hit, reach 0 ft., one target in the swarm's space. Hit: 5 (2d4) poison damage and the target is subjected to the Poisonous Secretion ability, except the DC is 14.  If the swarm has half its hit points, the DC is 12.
+> ***Engulf.*** *Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 5 (2d4) poison damage, and the target is subjected to the swarm's Poisonous Secretion ability, except the save DC is 14.  If the swarm has less than half its hit points, the save DC is 12.
 
-<img src='https://i.ibb.co/wMqvP6Z/manthos-lappas-giant-frog-png.jpg' style='position:absolute;bottom:-250px;right:-0px;width:510px;transform:scaleX(1)' />
+<img src='https://i.ibb.co/30PSVGx/bloated-toad.jpg' style='position:absolute;bottom:-115px;right:-130px;width:620px;transform:scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/NQssW9u.png' style='position:absolute;bottom:330px;right:290px;width:350px; filter:grayscale(00%) brightness(105%); transform:scaleX(-1)' />
 <img src='https://www.gmbinder.com/images/NQssW9u.png' style='position:absolute;bottom:300px;right:290px;width:350px; filter:grayscale(00%) brightness(105%); transform:scaleX(-1)' />
@@ -146,8 +172,8 @@ ___
 <img src='https://www.gmbinder.com/images/09aJ4Uh.png' style='position:absolute;bottom:200px;right:350px;width:350px; filter:grayscale(00%) brightness(96%); transform:rotate(88deg)' />
 <img src='https://www.gmbinder.com/images/09aJ4Uh.png' style='position:absolute;bottom:200px;right:350px;width:350px; filter:grayscale(00%) brightness(99%); transform:rotate(88deg)' />
 
-<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
-<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
+<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:0px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
+<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:-10px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
 <img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:370px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
 <img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:380px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
 <img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:19px;right:380px;width:350px; filter:grayscale(00%) brightness(100%); transform:rotate(82deg)' />
@@ -158,115 +184,277 @@ ___
 
 \pagebreak
 
-## Hypnotoads
+## Cauldron Toads
+These alchemical mutants are living vessels for caustic brews. Though superficially, they have the forms of ordinary toads, cauldron toads are filled with vile chemicals which constantly seep from their every orifice, leaving trails of noxious fumes wherever they go. They are usually found in areas filled with alchemical pollution, and some believe them to be toads mutated by such pollution, while others believe they are created from magical concoctions. When bothered, cauldron toads can quickly belch forth the caustic contents within, horribly burning their unfortunate targets.
 
-These mysterious toads possess powerful and insidious mind-control powers capable of subjecting those they come into contact with.  With their heightened intelligence and powers of suggestion, hypnotoads can quickly build a following of slavish devotees to help them accomplish their inscrutable goals.  
+***Alchemical Assistants.*** Cauldron toads have an affinity for any who dabble in dark alchemy. Hags and mad alchemists will sometimes keep cauldron toads as guardians and assistants. These toads have the peculiar ability to store the contents of potions within themselves and can even be used in lieu of alchemists' tools to create such potions. Despite their dismal intelligence, these pets are quite diligent in following their master's orders. They will faithfully deliver and administer potions as directed, even resuscitating their allies with healing potions when needed.
 
-**Otherworldly Enigmas.** None know of the true origins of the hypnotoad, and many doubt their existence altogether.  They may be the result of an arcane experiment gone awry, the influence of the Far Realm, or an extraterrestrial incursion.  
-Regardless of their origin, hypnotoads possess the supernatural ability to dominate the will of creatures they make eye contact with.  The hypnotoad can have many creatures under its control this way, so long as they stay within its vicinity.  The creatures under the hypnotoad’s control exist in a trance-like state and receive telepathic commands from their new master, which they follow to the letter.
+***Giant Cauldron Toads.***  Just as giant toads tower over ordinary toads, these massive cauldron toads tower over their lesser kin. They can belch forth enormous amounts of caustic acid, which often contain the remains of previously devoured victims. Some particularly mad alchemists will feed "ordinary" cauldron toads vile chemicals which grow and mutate them into giant cauldron toads to serve as guardians and even mounts.
 
-**All Glory to the Hypnotoad.** While hypnotoads possess the power to mentally enslave creatures and use them for whatever means they choose, the goals of the hypnotoad are often inscrutably bizarre.  They will often use their powers to inject themselves into humanoid society, forcing others to accept their presence as they pursue their goals.  These goals might involve taking on a prominent social role in the community, building a traveling entourage of followers, or winning a local contest.  The hypnotoad’s reasons for these pursuits are unknowable, but the creatures under its control are forced to slavishly comply, and they will even throw themselves into harm’s way should anything or anyone threaten their master.
+***Knots of Cauldron Toads.*** When groups of cauldron toads are attracted to a source of particularly intense source of alchemical pollution, the potency of their environment can drive them into a frenzy. They will form a knot of cauldron toads and attack anything in sight, dissolving their victims in a tide of caustic chemicals. Skilled alchemists can herd these knots into their foes, and some will even <br> develop special concoctions made to <br> drive  cauldron toads into frenzied <br> knots  when the situation calls for <br> such measures.
 
 \columnbreak
+
 ___
-> ## Hypnotoad
+> ## Cauldron Toad
+>*Tiny monstrosity, unaligned*
+> ___
+> - **Armor Class** 11 
+> - **Hit Points** 7 (2d4+2)
+> - **Speed** 20 ft., swim 15 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|1 (-5)|12 (+1)|12 (+1)|2 (-4)|10 (+0)|2 (-4)|
+>___
+> - **Damage Immunities** acid, fire, poison, necrotic
+> - **Condition Immunities** poisoned
+> - **Skills** Perception +4, Stealth +3, Survival +4
+> - **Senses** darkvision 60 ft., passive Perception 14
+> - **Languages** ━ 
+> - **Challenge** 1/8 (25 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
+> ___
+> ***Amphibious.*** The toad can breathe air and water.
+>
+> ***Death Burst.*** When the toad dies, it explodes in a burst of fire and acid. Each creature within 5 feet of it must make a DC 10 Dexterity saving throw, taking 2 (1d4) acid damage plus 2 (1d4) fire damage on a failed save, or half as much damage on a successful one. 
+>
+> ***Potion Secretion.*** The toad can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the toad or feeds it a potion, for the next 24 hours, the toad can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The toad can only store one potion within itself at a time.
+> ### Actions
+> ***Bubbling Spit.*** *Melee or Ranged Weapon Attack*: +4 to hit, reach 5 ft. or range 5/15 ft.,  one target. *Hit:* 2 (1d4) acid damage plus 2 (1d4) fire damage.
+
+<img src='https://i.ibb.co/sKF7s2m/haze-frog.png' style='position:absolute; bottom:-45px; right:-100px; width:700px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-400px;bottom:15px;  transform:rotate(-0deg);' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-805px;bottom:-1000px; transform:rotate(-89deg);' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-600px;bottom:-100px; transform:rotate(-53deg);' />
+
+
+
+
+
+\pagebreak
+
+___
+___
+> ## Giant Cauldron Toad
+>*Large monstrosity, unaligned*
+> ___
+> - **Armor Class** 11
+> - **Hit Points** 59 (7d10+21)
+> - **Speed** 20 ft., swim 15 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|12 (+1)|16 (+3)|2 (-4)|14 (+2)|2 (-5)|
+>___
+> - **Saving Throws** Con +5
+> - **Damage Immunities** acid, fire, poison, necrotic
+> - **Condition Immunities** poisoned
+> - **Skills** Perception +4, Stealth +3, Survival +4
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━ 
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Amphibious.*** The toad can breathe air and water.
+>
+> ***Death Burst.*** When the toad dies, it explodes in a burst of fire and acid. Each creature within 15 feet of it must make a DC 14 Dexterity saving throw, taking 10 (3d6) acid damage plus 10 (3d6) fire damage on a failed save, or half as much damage on a successful one. 
+>
+> ***Potion Secretion.*** The toad can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the toad or feeds it a potion, for the next 24 hours, the toad can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The toad can only store one potion within itself at a time.
+> 
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 15 ft., one target. Hit: 16 (2d12 + 3) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 13) Until this grapple ends, the target is restrained, and the toad can't bite another target.
+>
+> ***Swallow.*** The toad makes one bite attack against a large or smaller target it is grappling.  If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 17 (5d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+>
+> ***Cauldron Belch (Recharge 5-6).*** The toad exhales acid in a 15-foot cone. Each creature in this area and each creature swallowed by the toad must make a DC 14 Dexterity saving throw, taking 10 (3d6) acid damage plus 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.  Any creatures swallowed by the toad appear prone in an unoccupied space within 5 feet of it.  The toad also drops any creatures or objects it is holding in its mouth.
+
+___
+___
+ > ## Knot of Cauldron Toads
+>*Medium swarm of tiny monstrosities, unaligned*
+> ___
+> - **Armor Class** 11 
+> - **Hit Points** 55 (10d8+10)
+> - **Speed** 20 ft., swim 15 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|12 (+1)|12 (+1)|2 (-4)|10 (+0)|2 (-4)|
+>___
+> - **Damage Resistances** bludgeoning, piercing, slashing
+> - **Damage Immunities** acid, fire, poison, necrotic
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Skills** Perception +2, Stealth +3
+> - **Senses** darkvision 30 ft., passive Perception 12.
+> - **Languages** ━ 
+> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Amphibious.*** The toad can breathe air and water.
+>
+> ***Potion Secretion.*** The swarm can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the swarm or feeds it a potion, for the next 24 hours, it can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The swarm can store up to three potions within itself at a time.
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny toad. The swarm can't regain hit points or gain temporary hit points.
+>
+> ***Swarm Burst.*** Whenever the swarm takes damage, each creature within 5 feet of it takes 2 (1d4) acid damage plus 2 (1d4) fire damage.
+> 
+> ### Actions
+> ***Bubbling Spit.***  *Melee or Ranged Weapon Attack*: +4 to hit, reach 0 ft. or range 5/15 ft., one target. *Hit:* 15 (6d4) acid damage plus 15 (6d4), or 7 (3d4) acid damage plus 7 (3d4) fire damage if the swarm has half its hit points or fewer.
+
+\pagebreak
+
+***Monstrous Cauldron Toads.*** These massive creatures loom over even giant cauldron toads. They are exceedingly rare and can only be found near the most potent sources of alchemical pollution. Only the most powerful alchemists can hope to control a monstrous cauldron toad with any kind of success. All others are quickly devoured.
+
+Those who can control this monstrosity have a devastating minion at their disposal. The monstrous cauldron toad's size allows it to dominate the battlefield, and it can vomit huge globs of burning fluid to digest its victims at a range. Worse yet, the massive amounts of alchemical pollution it leaves behind will often spawn new cauldron toads, continuing the toxic cycle of corruption.
+___
+___
+> ## Monstrous Cauldron Toad
+>*Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 12 (natural armor)
+> - **Hit Points** 104 (10d10 + 50)
+> - **Speed** 40 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|8 (-1)|20 (+5)|2 (-4)|14 (+2)|2 (-4)|
+>___
+> - **Saving Throws** Con +8
+> - **Damage Immunities** acid, fire, poison, necrotic
+> - **Condition Immunities** poisoned
+> - **Skills** Perception +5, Stealth +2
+> - **Senses** darkvision 30 ft., passive Perception 15
+> - **Languages** ━ 
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3
+> ___
+> ***Amphibious.*** The toad can breathe air and water.
+>
+> ***Death Burst.*** When the toad dies, it explodes in a burst of fire and acid. Each creature within 15 feet of it must make a DC 15 Dexterity saving throw, taking 21 (6d6) acid damage plus 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.
+>
+> ***Potion Secretion.*** The swarm can be used as alchemist’s supplies, brewer’s supplies, or an herbalism kit by another creature. When a creature makes a potion using the swarm or feeds it a potion, for the next 24 hours, it can administer that potion as a bonus action with its touch. It also may excrete the potion into a container to be stored for later use. The swarm can store up to three potions within itself at a time.
+> 
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 18 (2d12 + 5) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the toad can't bite another target.
+>
+> ***Swallow.*** The toad makes one bite attack against a large or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 21 (6d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+>
+> ***Cauldron Sphere (Recharge 5-6).*** The toad vomits a glowing 1-foot-diameter ball of boiling acid at a point within 60 feet of it, where it explodes in a 20-foot-radius sphere. Each creature in that area and any creature swallowed by the toad must make a DC 15 Dexterity saving throw, taking 21 (6d6) acid damage plus 21(6d6) fire damage on a failed save, or half as much damage on a successful one. Any creatures swallowed by the toad appear prone in the unoccupied space closest to the sphere’s point of impact. The toad also drops any creatures or objects it is holding in its mouth.
+
+<img src='https://64.media.tumblr.com/tumblr_mcz8vcZtLo1r2rn38o1_640.jpg' style='position:absolute;bottom:-0px;left:0px;width:816px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-170px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+## Hypnotic Toads
+
+These mysterious toads possess powerful and insidious mind-control powers capable of subjugating those they encounter. 
+
+<br><br>
+
+With their heightened intelligence and powers of suggestion, hypnotic toads can quickly build a following of slavish devotees to help them accomplish their inscrutable goals.  
+
+
+___
+___
+> ## Hypnotic Toad
 >*Tiny monstrosity, chaotic neutral*
 > ___
 > - **Armor Class** 11 
-> - **Hit Points** 10 (3d4+3)
+> - **Hit Points** 10 (3d4 + 3)
 > - **Speed** 15 ft., swim 15 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|2 (-4)|10 (+0)|13 (+1)|9 (-1)|10 (+0)|14 (+2)|
+>|1 (-5)|12 (+1)|13 (+1)|9 (-1)|10 (+0)|16 (+3)|
 >___
-> - **Skills** Persuasion +4, Perception +2, Stealth +2
-> - **Senses** darkvision 30 Ft., passive Perception 12.
+> - **Skills** Perception +2, Persuasion +5, Stealth +3
+> - **Senses** darkvision 30 ft., passive Perception 12
 > - **Languages** understands all languages but can't speak, telepathy 120ft. 
 > - **Challenge** 1 (200 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
 > ___
-> **Amphibious.** The toad can breathe air and water.
+> ***Amphibious.*** The toad can breathe air and water.
 >
-> **Hypnotic Secretion.** A creature that touches the toad must make a DC 14 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. While poisoned in this way, it also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 14 Wisdom (Medicine) check to end the effect.
+> ***Hypnotic Gaze.***  When a creature starts its turn within 60 feet of the toad and is able to see the toad's eyes, the toad can magically force it to make a DC 13 Wisdom saving throw. On a failure, it becomes charmed by the toad until the toad dies or until the toad is on a different plane of existence than the target. The charmed creature is under the toad's control, can't take reactions, and the toad can communicate telepathically with it over any distance. Whenever the charmed target takes damage or when it starts its turn at least 60 feet away from the toad, it can repeat the saving throw. On a success, the effect ends. 
 >
-> **Hypnotic Gaze.** When a creature starts its turn within 60 feet of the toad and is able to see the toad's eyes, the toad can magically force it to succeed on a DC 14 Wisdom saving throw or become charmed by the toad until the toad dies or until it is on a different plane of existence from the target. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the toad until the start of its next turn, when it can avert its eyes again. If the creature looks at the toad in the meantime, it must immediately make the save. <br>The charmed creature is under the toad's control, can't take reactions, and the toad and it can communicate telepathically with over any distance. Whenever the charmed target takes damage or when it starts its turn at least 60 feet away from the toad, the target can repeat the saving throw. On a success, the effect ends. The save can be made no more than once every hour. A target that successfully saves is immune to this gaze for the next hour.
+>The save can be made no more than once every hour. A target that successfully saves is immune to this gaze for the next hour. <br>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the toad until the start of its next turn, when it can avert its eyes again. If the creature looks at the toad in the meantime, it must immediately make the save. 
+>
+> ***Hypnotic Secretion.*** A creature that touches the toad must make a DC 13 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. While poisoned in this way, it also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 13 Wisdom (Medicine) check to end the effect.
 > 
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage. 
+> ***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) bludgeoning damage. 
 >
 > ### Reactions
-> ***Redirect Attack.*** When a creature the toad can see targets it with an attack, the toad chooses another creature charmed by it within 5 feet of it. The two swap places, and the chosen creature becomes the target instead.
+> ***Redirect Attack.*** When a creature the toad can see targets it with an attack, the toad chooses another creature charmed by it within 5 feet of it. The toad and the charmed creature swap places, and the charmed creature becomes the target instead.
 
 
-<img src='https://i.ibb.co/tY4V8ZJ/Everybody-Loves-Hypnotoad-NC-Winters-Gicle-Digital-Print-trampt-119616o.jpg' style='position:absolute;bottom:-70px;left:-150px;width:700px' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:420px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:360px;left:-140px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:370px;left:200px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-170px;left:320px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:440px;left:220px;width:350px;transform:rotate(20deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:330px;left:-180px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:330px;left:220px;width:415px;transform:rotate(240deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-180px;left:300px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom: 350px;left:290px;width:350px;transform:rotate(80deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom: 430px;left:-90px;width:400px' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom: 350px;left:-150px;width:350px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:370px;left:260px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-180px;left:325px;width:330px;transform:rotate(275deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:350px;left:300px;width:350px;transform:rotate(50deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:350px;left:-180px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:270px;left:290px;width:445px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:300px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom:210px;left:330px;width:350px;transform:rotate(80deg)' />
+<img src='https://i.ibb.co/BcGrj30/Psycho-Toad.jpg' style='position:absolute;bottom:-70px;left:0px;width:816px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-170px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 \pagebreak
 
-**Giant Hypnotoads.** While most hypnotoads lack physical prowess and rely entirely on their hypnotic abilities, some can grow to monstrous sizes, granting them the ability to overpower and devour those who displease the almighty hypnotoad.  This increased size enhances the hypnotoad’s powers of domination, allowing it to  force creatures to look into its eyes so they may be subjected to its hypnotic control.
+***Otherworldly Enigmas.*** None know of the true origins of the hypnotic toad, and many doubt their existence altogether.  They may be the result of an arcane experiment gone awry, the influence of the Far Realm, or an extraterrestrial incursion.  
+
+Regardless of their origin, hypnotic toads possess the supernatural ability to dominate the will of creatures they make eye contact with.  The hypnotic toad can have many creatures under its control this way, so long as they stay within its vicinity.  The creatures under the hypnotic toad’s control exist in a trance-like state and receive telepathic commands from their new master, which they follow to the letter.
+
+***All Glory to the Hypnotic Toad.*** While hypnotic toads possess the power to mentally enslave creatures and use them for whatever means they choose, the goals of the hypnotic toad are often inscrutably bizarre.  They will often use their powers to inject themselves into humanoid society, forcing others to accept their presence as they pursue their goals.  
+
+These goals might involve taking on a prominent social role in the community, building a traveling entourage of followers, or winning a local contest.  The hypnotic toad’s reasons for these pursuits are unknowable, but the creatures under its control are forced to slavishly comply, and they will even throw themselves into harm’s way should anything or anyone threaten their master.
+
+***Giant Hypnotic Toads.*** While most hypnotic toads lack physical prowess and rely entirely on their hypnotic abilities, some can grow to monstrous sizes, granting them the ability to overpower and devour those who displease this almighty hypnotic toad.  This increased size enhances the hypnotic toad’s powers of domination, allowing it to force creatures to look into its eyes so they may be subjected to its hypnotic control.
+
+Giant hypnotic toads have the power to control entire townships and form bizarre cults.  Some may demand to be worshiped as gods, while others may simply elect themselves the town’s mayor.   Whatever their goal, giant hypnotic toads accept nothing less than total obedience and will not hesitate to devour those who interfere with their schemes.
 
 
-
-Giant hypnotoads have the power to control entire townships and form bizarre cults.  Some may demand to be worshiped as gods, while others may simply elect themselves the town’s mayor.   Whatever their goal, giant hypnotoads accept nothing less than total obedience and will not hesitate to devour those who interfere with their schemes.
-
-<br>
 
 ___
 ___
-> ## Giant Hypnotoad
+> ## Giant Hypnotic Toad
 >*Large monstrosity, chaotic neutral*
 > ___
 > - **Armor Class** 11 
-> - **Hit Points** 52 (7d10+14)
+> - **Hit Points** 52 (7d10 + 14)
 > - **Speed** 25 ft., swim 25 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|16 (+3)|10 (+0)|14 (+2)|12 (+1)|12 (+1)|16 (+3)|
+>|16 (+3)|12 (+1)|14 (+2)|12 (+1)|12 (+1)|16 (+3)|
 >___
-> - **Skills** Persuasion +6, Perception +4, Stealth +3
-> - **Senses** darkvision 30 Ft., passive Perception 14.
+> - **Skills** Perception +4, Persuasion +6, Stealth +4
+> - **Senses** darkvision 30 ft., passive Perception 14
 > - **Languages** understands all languages but can't speak, telepathy 120ft. 
 > - **Challenge** 5 (1,800 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +3
 > ___
-> **Amphibious.** The toad can breathe air and water.
+> ***Amphibious.*** The toad can breathe air and water.
 >
-> **Hypnotic Secretion.** A creature that touches the toad must make a DC 15 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. While poisoned in this way, it also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 15 Wisdom (Medicine) check to end the effect.
+> ***Hypnotic Secretion.*** A creature that touches the toad must make a DC 14 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. While poisoned in this way, it also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 14 Wisdom (Medicine) check to end the effect.
 >
-> **Hypnotic Gaze.** When a creature starts its turn within 120 feet of the toad and is able to see the toad's eyes, the toad can magically force it to succeed on a DC 14 Wisdom saving throw or become charmed by the toad until the toad dies or until it is on a different plane of existence from the target. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the toad until the start of its next turn, when it can avert its eyes again. If the creature looks at the toad in the meantime, it must immediately make the save.
+> ***Hypnotic Gaze.***  When a creature starts its turn within 120 feet of the toad and is able to see the toad's eyes, the toad can magically force it to make a DC 14 Wisdom saving throw. On a failure, it becomes charmed by the toad until the toad dies or until the toad is on a different plane of existence than the target. The charmed creature is under the toad's control, can't take reactions, and the toad can communicate telepathically with it over any distance. Whenever the charmed target takes damage or when it starts its turn at least 100 feet away from the toad, it can repeat the saving throw. On a success, the effect ends.
 >
->The charmed creature is under the toad's control, can't take reactions, and the toad and the target can communicate telepathically with each other over any distance. Whenever the charmed target takes damage or when it starts its turn at least 100 feet away from the toad, the target can repeat the saving throw. On a success, the effect ends. The save can be made no more than once every hour. A target that successfully saves is immune to this gaze for the next hour.
+> The save can be made no more than once every hour. A target that successfully saves is immune to this gaze for the next hour. <br> Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the toad until the start of its next turn, when it can avert its eyes again. If the creature looks at the toad in the meantime, it must immediately make the save. 
 > 
 > ### Actions
-> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. Hit: 11 (1d10 + 4) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 15) Until this grapple ends, the target is restrained, and the toad can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) bludgeoning damage. If the target is large or smaller, it is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the toad can't bite another target.
 >
 > ***Swallow.*** The toad makes one bite attack against a medium or smaller target it is grappling.  If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
 >
-> ***Dominating Croak.*** A creature within 120 feet that can hear the toad can must succeed on a DC 15 Wisdom saving throw or take 7 (2d6) psychic damage and immediately look at the toad.
+> ***Dominating Croak.*** A creature of the toad's choice within 120 feet that can hear the toad must succeed on a DC 14 Wisdom saving throw or take 7 (2d6) psychic damage and immediately look at the toad.
 >
 > ### Reactions
-> ***Redirect Attack.*** When a creature the toad can see targets it with an attack, the toad chooses another creature charmed by it within 5 feet of it. The two swap places, and the chosen creature becomes the target instead.
+> ***Redirect Attack.*** When a creature the toad can see targets it with an attack, the toad chooses another creature charmed by it within 5 feet of it. The toad and the charmed creature swap places, and the charmed creature becomes the target instead.
 
-<img src='https://i.ibb.co/7VmSZkX/psychedelic-toad.jpg' style='position:absolute; top:560px; right:00px; width:816px' />
-  
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-120px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+
+
 
 
 \pagebreak
@@ -276,17 +464,17 @@ ___
 ## The Gitrog Monster
 The Gitrog Monster is a figure of legend, feared by those living in certain remote villages.  The tales surrounding this creature are often vague and contradictory, but they all describe a monstrous lake-dwelling amphibian that feeds on villagers and their livestock.  The presence of the Gitrog Monster in or near a village spells doom for its helpless inhabitants.
 
-**Unknown Number and Orgin.** While the legends refer to a single creature known as the Gitrog Monster, how many of these abominations actually exist is unknown.  It may be a single legendary creature or a rare breed of monstrosities that rarely make their presence overtly known.
+***Unknown Number and Origin.*** While the legends refer to a single creature known as the Gitrog Monster, how many of these abominations actually exist is unknown.  It may be a single legendary creature or a rare breed of monstrosities that rarely make their presence overtly known.
 
-The Gitrog’s origin is equally ambiguous.  Because of the striking similarities between their powers and those of the hypnotoad, those who have studied the Gitrog extensively believe that it may have once been a giant hypnotoad.  How it would have gained this level of power and status is unknown.  Perhaps a particularly ancient hypnotoad devoured enough of its followers to grow into an even greater monster.  Or, a hypnotoad may have been warped by strange, eldritch powers from another world.  Whatever the case, the Gitrog’s inscrutable mind betrays no secrets of its past nor plans for its future.
+The Gitrog’s origin is equally ambiguous.  Because of the striking similarities between their powers and those of hypnotic toads, those who have studied the Gitrog extensively believe that it may have once been a giant hypnotic toad.  How it would have gained this level of power and status is unknown.  Perhaps a particularly ancient hypnotic toad devoured enough of its followers to grow into an even greater monster.  Or, a hypnotic toad may have been warped by strange, eldritch powers from another world.  Whatever the case, the Gitrog’s inscrutable mind betrays no secrets of its past nor plans for its future.
 
 
 \columnbreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-**Cult Followings.** The Gitrog Monster possesses most of the abilities of a giant hypnotoad, albeit at a much higher level of power.  However, the ways in which the Gitrog utilizes its powers differ from its lesser cousins.  Whereas hypnotoads often make themselves publicly known as they take on prominent local positions within a community, the Gitrog remains hidden away from public view.  Though it usually stays out of sight, the weight of the Gitrog’s presence is felt throughout the entire community.  
-Rather than inject itself into petty social games, the Gitrog uses its influence to create dark cults with itself at the center.  These cults are formed from inhabitants from any nearby village, and the cult’s members may include those serving purely out of fear or dark pragmatism and desire for power.  Still, other members are true believers in the Gitrog’s greatness, their psyche shattered, leaving them only with the desire to do whatever is necessary to serve their horrific master’s whims.
+***Cult Followings.*** The Gitrog Monster possesses most of the abilities of a giant hypnotic toad, albeit at a much higher level of power.  However, the ways in which the Gitrog utilizes its powers differ from its lesser cousins.  Whereas hypnotic toads often make themselves publicly known as they take on prominent local positions within a community, the Gitrog remains hidden away from public view.  Though it usually stays out of sight, the weight of the Gitrog’s presence is felt throughout the entire community.  
+Rather than inject itself into petty social games, the Gitrog uses its influence to create dark cults with itself at the center.  These cults are formed by inhabitants from any nearby village, and the cult’s members may include those serving purely out of fear or dark pragmatism and desire for power.  Still, other members are true believers in the Gitrog’s greatness, their psyche shattered, leaving them only with the desire to do whatever is necessary to serve their horrific master’s whims.
 
 
 <img src='https://i.ibb.co/zmCGVDC/jason-kang-gitrog-monster-web-version2.jpg' style='position:absolute; top:-0px; right:-30px; width:900px;' />
@@ -302,55 +490,53 @@ ___
 > ## Gitrog
 >*Huge monstrosity, neutral evil*
 > ___
-> - **Armor Class** 12 
-> - **Hit Points** 103 (9d12+45)
+> - **Armor Class** 12 (natural armor) 
+> - **Hit Points** 103 (9d12 + 45)
 > - **Speed** 40 ft., swim 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|20 (+5)|10 (+0)|20 (+5)|14 (+2)|16 (+3)|18 (+4)|
+>|20 (+5)|12 (+1)|20 (+5)|14 (+2)|16 (+3)|20 (+5)|
 >___
-> - **Saving Throws** Cha +7, Int +5, Wis +6
-> - **Skills** Persuasion +7, Perception +6, Stealth +3
-> - **Senses** darkvision 120 Ft., passive Perception 16.
+> - **Saving Throws** Cha +8, Int +5, Wis +6
+> - **Skills** Perception +6, Persuasion +8, Stealth +4
+> - **Senses** darkvision 120 ft., passive Perception 16
 > - **Languages** understands all languages but can't speak, telepathy 120ft. 
-> - **Challenge** 8 (3,900 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +3
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
 > ___
-> **Amphibious.** The gitrog can breathe air and water.
+> ***Amphibious.*** The gitrog can breathe air and water.
 >
-> **Hypnotic Secretion.** A creature that touches the gitrog must make DC 16 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. While poisoned in this way, it also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 16 Wisdom (Medicine) check to end the effect.
+> ***Hypnotic Secretion.*** A creature that touches the gitrog must make DC 16 Constitution saving throw at the end of the turn or become poisoned for the next 12 hours. While poisoned in this way, it also suffers disadvantage on Intelligence, Wisdom, and Charisma saving throws. The poisoned creature or a creature within 5 feet of it can use an action to make a DC 16 Wisdom (Medicine) check to end the effect.
 >
-> **Hypnotic Gaze.** When a creature starts its turn within 120 feet of the gitrog and is able to see the gitrog's eyes, the gitrog can magically force it to succeed on a DC 16 Wisdom saving throw or become charmed by the gitrog until the toad dies or until it is on a different plane of existence from the target. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the gitrog until the start of its next turn, when it can avert its eyes again. If the creature looks at the gitrog in the meantime, it must immediately make the save.
->
->The charmed creature is under the gitrog's control, can't take reactions, and the gitrog and the target can communicate telepathically with each other over any distance. Whenever the charmed target takes damage or when it starts its turn at least 1 mile away from the gitrog, the target can repeat the saving throw. On a success, the effect ends. The save can be made no more than once every 24 hours. A target that successfully saves is immune to this gaze for the next hour.
+> ***Hypnotic Gaze.***  When a creature starts its turn within 120 feet of the gitrog and is able to see the gitrog's eyes, the gitrog can magically force it to make a DC 16 Wisdom saving throw. On a failure, it becomes charmed by the gitrog until the gitrog dies or until the gitrog is on a different plane of existence than the target. The charmed creature is under the gitrog's control, can't take reactions, and the gitrog can communicate telepathically with it over any distance. Whenever the charmed target takes damage or when it starts its turn at least 1 mile away from the gitrog, it can repeat the saving throw. On a success, the effect ends. The save can be made no more than once every 24 hours. A target that successfully saves is immune to this gaze for the next hour. <br>Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the gitrog until the start of its next turn, when it can avert its eyes again. If the creature looks at the gitrog in the meantime, it must immediately make the save. 
 > 
 > ### Actions
-> ***Multiattack.*** The gitrog can use it's bite or swallow attack and use it dominating croak ability
+> ***Multiattack.*** The gitrog can use its bite or swallow attack and use its Dominating Croak ability.
 >
-> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. If the target is huge or smaller, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the gitrog can't bite another target.
+> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage. If the target is huge or smaller, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the gitrog can't bite another target.
 >
 > ***Swallow.*** The gitrog makes one bite attack against a medium or smaller target it is grappling.  If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the gitrog, and it takes 17 (5d6) acid damage at the start of each of the gitrog's turns. The gitrog can have only one target swallowed at a time. If the gitrog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
 >
-> ***Dominating Croak.*** A creature within 120 feet that can hear the gitrog can must succeed on a DC 16 Wisdom saving throw or take 7 (2d6) psychic damage and immediately look at the gitrog.
+> ***Dominating Croak.*** A creature of the gitrog's choice within 120 feet that can hear the gitrog must succeed on a DC 16 Wisdom saving throw or take 7 (2d6) psychic damage and immediately look at the gitrog.
 >
 > ### Reactions
-> ***Redirect Attack.*** When a creature the gitrog can see targets it with an attack, the gitrog chooses another creature charmed by it within 5 feet of it. The two swap places, and the chosen creature becomes the target instead.
+> ***Redirect Attack.*** When a creature the gitrog can see targets it with an attack, the gitrog chooses another creature charmed by it within 5 feet of it. The gitrog and the charmed creature swap places, and the charmed creature becomes the target instead.
 >
 > ### Legendary Actions
 > The gitrog can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The gitrog regains spent legendary actions at the start of its turn.
 >
+>**Bite.** The gitrog makes a bite attack.
+>
 > **Move.** The gitrog moves up to half its speed without provoking 
 opportunity attacks.
->
->**Bite.** The gitrog makes a bite attack.
 >
 >**Check (Costs 2 Actions).** The gitrog makes a skill check that would normally require an action.
 >
 >**Obey. (Costs 2 Actions)** A creature charmed by the gitrog moves up to half its speed and makes a single weapon attack against a creature of the gitrog's choosing
 >
->**Behold (Costs 3 Actions).** The gitrog use its Dominating Croak on each creature within 60 feet of it that it can hear or see it. 
+>**Behold (Costs 3 Actions).** The gitrog uses its Dominating Croak on each creature within 60 feet of it that can hear or see it. 
 >
-> **Reconstitute (Costs 3 Actions).** If the gitrog is suffering from one or more conditions that require it to make a saving throw to end, it may immediately make a save against each condition. A successful save for any of the throws will end the condition immediately. The only saving throws that this action can be used for are saves that are made at the end/start of its next turn or using its action. It can use this action while incapacitated.
+> **Reconstitute (Costs 3 Actions).** If the gitrog is suffering from one or more conditions that require it to make a saving throw to end, it may immediately make a save against each condition, ending the condition on a success. The only saving throws that this action can be used for are saves made at the end or the start of its next turn or using its action. It can use this action while incapacitated.
 
 \pagebreak
 
@@ -361,28 +547,28 @@ The following tables provide you with some ways you can incorporate different ty
 
 | d6  | Plot Hook |
 |:---:|:-----------:|
-|  1  | A child in town recently acquired a pet **toad**, and has been acting strangely ever since.  No one is aware that the toad serves as the eyes and ears for a **green hag** who is influencing the child.|
-|  2  |A **toad** devoured a rare vial of potion belonging to a local apothecary and has disappeared into town.  If it is not found soon, the potion will transform the **toad** into a **giant toad**.  |
+|  1  | A child in town recently acquired a pet **toad**and has been acting strangely ever since. No one is aware that the toad serves as the eyes and ears for a **green hag** who is influencing the child.|
+|  2  |A **toad** devoured a rare vial of potion belonging to a local apothecary and has disappeared into town. If it is not found soon, the potion will transform the **toad** into a **giant toad**.  |
 |  3  | A local **druid** has been roused to anger by a nearby village and continually sends **knots of toads** to terrorize its inhabitants.    |
 |  4  |  A dark curse has fallen across the land, causing the sky to rain toads. As a result, aggressive **knots of toads** now roam the countryside.  |
-|  5  | Local **bandits** have set up camp near a pond inhabited by a **giant toad** whom they feed the remains of their victims to, thereby hiding the evidence of their crimes.|
-|  6  |  A knot of **giant toads** has recently invaded the territory of local **pixies**, who they are now preying upon.  The **pixies** are desperate for the help of anyone traveling through the area. |
+|  5  | Local **bandits** have set up camp near a pond inhabited by a **giant toad** to whom they feed the remains of their victims, thereby hiding the evidence of their crimes.|
+|  6  |  A knot of **giant toads** has recently invaded the territory of local **pixies**, who they are now preying upon. The **pixies** are desperate for the help of anyone traveling through the area. |
 
-##### Hypnotoad Adventures
+##### Hypnotic Toad Adventures
 
 | d6  | Plot Hook |
 |:---:|:-----------:|
-|  1  | A **hypnotoad** has joined a village festival where it uses its powers to enter and win each local competition.  The festival’s participants seem unaware that anything is amiss.|
-|  2  |In a remote village, a **hypnotoad** has taken on the role of mayor, captain of the guard, head of the church, and star performer at the local tavern.  Anyone who questions the validity of the **hypnotoad’s** status is exiled from the town.  |
-|  3  | A **mage’s** toad familiar is actually a **hypnotoad** who has enslaved its “owner.”  The **hypnotoad** is now forcing the **mage** to perform a ritual that will transform it into a **giant hypnotoad**.    |
-|  4  | A local prince and heir to the throne has been devoured and replaced by a **giant hypnotoad**.  The king and the entire royal court believe the toad to be the prince and prepare for the coronation as though nothing is wrong. |
-|  5  | A thief’s guild has been taken over by a mysterious new leader and quickly risen in power and prominence as a result.  Only the guild’s mind controlled elite members know that this new kingpin is, in fact, a **giant hypnotoad**.|
-|  6  | A **giant hypnotoad** has formed a secret cult whose members seek out the dark components necessary for a ritual that will transform their master into a **Gitrog**.|
+|  1  | A **hypnotic toad** has joined a village festival where it uses its powers to enter and win each local competition.  The festival’s participants seem unaware that anything is amiss.|
+|  2  |In a remote village, a **hypnotic toad** has taken on the role of mayor, captain of the guard, head of the church, and star performer at the local tavern.  Anyone who questions the validity of the **hypnotic toad’s** status is exiled from the town.  |
+|  3  | A **mage’s** toad familiar is actually a **hypnotic toad** who has enslaved its “owner.”  The **hypnotic toad** is now forcing the **mage** to perform a ritual that will transform it into a **giant hypnotic toad**.    |
+|  4  | A local prince and heir to the throne has been devoured and replaced by a **giant hypnotic toad**.  The king and the entire royal court believe the toad to be the prince and prepare for the coronation as though nothing is wrong. |
+|  5  | A thief’s guild has been taken over by a mysterious new leader and quickly risen in power and prominence as a result.  Only the guild’s mind-controlled elite members know that this new kingpin is, in fact, a **giant hypnotic toad**.|
+|  6  | A **giant hypnotic toad** has formed a secret cult whose members seek out the dark components necessary for a ritual that will transform their master into a **Gitrog**.|
 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Gitrog Adventures
 
@@ -396,20 +582,24 @@ The following tables provide you with some ways you can incorporate different ty
 
 ### Art Credit
 * Witch's Familiar - Jack Wang, Wizards of the Coast
-* Giant Frog - Manthos Lappas, Arcane Gladiator
-* Everybody Loves Hypnotoad - N.C. Winters
-* Żabka - Michael Garfield
+* Bloated Toad - Una Fricker, Wizards of the Coast
+* Haze Frog - Jesper Ejsing, Wizards of the Coast
+* Swamp, New Phyrexia - Lars Grant-West, Wizards of the Coast
+* Psycho-toad - Amber Conrad
 * The Gitrog Monster - Jason Kang, Wizards of the Coast
 * Visions of Dominance - Andrew Mar, Wizards of the Coast
 
 <div style='margin-top:850px;'></div>
 <img
 src='https://i.ibb.co/Sw1sLcr/Visions-of-Dominance-Innistrad-Midnight-Hunt-Mt-G-Art.jpg'
-style='position:absolute;top:-0px;left:300px;width:750px' />
+style='position:absolute;top:-10px;left:300px;width:750px' />
 
-<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-30px; right:-12px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-40px; right:-12px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 \pagebreak
 
 ### 1.0.0 Changes
  * Public Release
+
+### 1.1.0 Changes
+* Document clean up
