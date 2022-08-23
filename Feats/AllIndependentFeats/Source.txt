@@ -120,7 +120,7 @@ You've learned how to mathematically manipulate your reserves of magical power f
 
 You've learned to conjure magic using potions and other foraged materials, granting you the following benefits:
 
-* You can replace any spell's verbal, somatic, and material components with just a material component.  If the spell's material component doesn't have a gold cost, you can replace it with 1 pound of rations.  If the spell doesn't normally have a material component, it gains a material component of 1 pound of rations when cast this way.
+* You can replace any spell's verbal, somatic, and material components with just a material component.  If the spell's material components lack a cost and aren't consumed by a spell, you can replace them with 1 pound of rations.  If the spell doesn't normally have a material component, it gains a material component of 1 pound of rations when cast this way.
 
 * When casting a spell that targets one or more creatures, you can use any magical potion as a spellcasting focus for that spell.  If the spell requires material components that don't have a gold cost, the potion serves as the material component. <br>When casting a spell this way, choose one of the creatures targeted by that spell.  That creature gains the potion's benefits as though it drank the potion, and the potion is consumed.  An unwilling creature can make a Constitution save against your spell save DC, negating the effect of the potion on a success.
 
@@ -149,13 +149,15 @@ You've learned to cast spells using only the power of your graceful gestures and
 ### Verbal Master (Silverquill)
 *Prerequisite: The ability to cast at least one spell*
 
-You've learned to cast quickly cast spells using only the power of your words, allowing you to catch enemies off guard.  You gain the following benefits:
+You've learned how to quickly cast spells using only the power of your words, allowing you to catch enemies off guard. You gain the following benefits:
 
-* You can replace any spell's verbal, somatic, and material components with just a verbal component.  If the spell doesn't normally have a verbal component, it gains a verbal component when cast this way.
+* You can replace any spell's verbal, somatic, and material components that lack a cost and aren't consumed by a spell with just a verbal component. If the spell doesn't normally have a verbal component, it gains a verbal component when cast this way.
 
-* Your spell attacks have advantage against creatures that haven't taken their turn, and creatures that haven't taken their turn have disadvantage on saving throws against your spells.
+* During the first round of combat, when you cast a spell using a verbal component, each creature that can hear you can't take reactions until the end of your turn unless you allow it.
 
 * You can use your Charisma, Intelligence, or Wisdom modifier in place of your Dexterity modifier when rolling for initiative.
+
+* Your spell attacks have advantage against creatures that haven't taken their turn, and creatures that haven't taken their turn have disadvantage on saving throws against your spells. 
 
 \pagebreak
 
@@ -167,3 +169,7 @@ You've learned to cast quickly cast spells using only the power of your words, a
 
 #### 0.0.3 Changes
 * Clean up spell casting feats
+
+#### 0.1.0
+* More typo fixes to spell casting feats
+* Add second bullet to Verbal Master
