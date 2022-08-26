@@ -1,4 +1,32 @@
-<br><br>
+-<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br>
 
 # Lore of Excess
 Within the Warhammer world, the daemon god Slaanesh represents excess, pain, and pleasure, all taken to the extreme, and there is an entire school of spells devoted to his magic. While many existing D&D spells can represent Slaanesh's magic, the following new spells provide even more ways of bringing his profane style of sorcery into your campaigns.
@@ -14,7 +42,7 @@ ___
 - **Classes:**  Bard, Sorcerer, Warlock
 ___
 
-You throw back your head and emit an ululating scream.  Each creature within range takes 3d6 thunder damage and must succeed on a Wisdom saving throw or take 3d6 additional psychic damage and be deafened for 1 minute.  On a successful save, a creature takes half as much psychic damage and isn't deafened.  A deafened creature can repeat the saving throw at the end of each of its turns,  ending the effect on a success.
+You throw back your head and emit an ululating scream.  Each creature within range takes 3d6 thunder damage and must succeed on a Wisdom saving throw or take 3d6 additional psychic damage and be deafened for 1 minute.  On a successful save, a creature takes half as much psychic damage and isn't deafened.  A creature deafened this way can repeat the saving throw at the end of each of its turns, ending the effect on a success.
 
 
 #### Phantasmagoria
@@ -27,7 +55,7 @@ ___
 - **Classes:**  Bard, Warlock
 ___
 
-You summon illusory creatures who flit and broil within a 30 foot radius sphere centered on a point you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers <br> disadvantage on Charisma, Intelligence, and <br> Wisdom saving throws and checks to <br> maintain concentration.  The spell ends <Br> if you move more than 60 feet away <br> from the area under its effect.
+You summon illusory creatures who flit and broil within a 30 foot radius sphere centered on a point within range you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell. An affected creature in the area of the spell suffers <br> disadvantage on Charisma, Intelligence, Wisdom saving throws and Constitution saving throws to maintain concentration. The spell ends if you move more than <Br>  60 feet away from the area under its effect.
 
 \columnbreak
 
@@ -38,10 +66,10 @@ ___
 - **Range:** 90 feet
 - **Components:** V, S, M (a piece of broken glass)
 - **Duration:**   Instantaneous
-- **Classes:**  Artificer, Warlock
+- **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
-You conjure a cloud of razor-sharp glass capable of slicing through mind and body and send it flying toward a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 10d4 slashing damage and must make a Wisdom saving throw.  The target takes 10d4 additional psychic damage on a failed save and half as much damage on a successful one.  If the attack misses, the glass grazes the target, and it takes half as much of the initial slashing damage and does not make the Charisma saving throw or take any additional psychic damage.
+You conjure a cloud of razor-sharp glass capable of slicing through mind and body and send it flying toward a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 10d4 slashing damage and must make a Wisdom saving throw.  The target takes 10d4 additional psychic damage on a failed save and half as much damage on a successful one.  If the attack misses, the glass grazes the target, and it takes half as much of the initial slashing damage and does not make the Wisdom saving throw or take any additional psychic damage.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, both the slashing and psychic damage increase by 1d4 for each slot level above 4th.
 
@@ -56,4 +84,15 @@ You conjure a cloud of razor-sharp glass capable of slicing through mind and bod
    <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:-360px;top:-430px;height:1400px;width:1516px;transform:rotate(325deg)' />  
   
-  <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:13px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+  <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:5px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+  
+  \pagebreak
+  
+  #### 1.0.0
+  * Public release and updates
+  
+
+\columnbreak
+
+### Referenced Documents
+* New Spells 1.8.0
