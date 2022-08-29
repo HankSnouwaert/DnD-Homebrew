@@ -1,18 +1,44 @@
+<style>
 
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
 
 <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
 # Yule cat
-Stalking villages in harsh winter environments, the yule cat strikes terror into the hearts of those who would skirt their responsibilities near the holiday season.  The monster appears to be a typical fluffy cat, except it is roughly the size of a polar bear.  Its yellow eyes glow with fiendish malice, betraying its unnatural origin, and its teeth and claws are capable of ripping through villagers with ease. 
+Stalking villages in harsh winter environments, the yule cat strikes terror into the hearts of those who would skirt their responsibilities near the holiday season. The monster appears to be a typical fluffy cat, except it is roughly the size of a polar bear. Its yellow eyes glow with fiendish malice, betraying its unnatural origin, and its teeth and claws are capable of ripping through villagers with ease. 
 
-**Hunters of the Indolent.** Yule cats primarily stalk towns in cold, harsh environments, usually as significant holiday events approach.  The yule cat will look for villagers with a specific identifier that indicates they have shirked their duties that year.  The most common identifier is someone lacking new clothes, as this implies the individual didn't adequately aid the community in preparing cloths for the coming winter. 
+**Hunters of the Indolent.** Yule cats primarily stalk towns in cold, harsh environments, usually as significant holiday events approach. The yule cat will look for villagers with a specific identifier that indicates they have shirked their duties that year. The most common identifier is someone lacking new clothes, as this implies the individual didn't adequately aid the community in preparing clothes for the coming winter. 
 
-However, these identifiers can vary depending on the traditions and economic exports of the village.  In a town known for crafting and trading jewelry to survive, the yule cat may instead target villagers without any form of newly crafted jewelry on their person.  Whatever the indicator, the yule cat will ruthlessly hunt and kill these individuals, whether man, woman, or child.
+However, these identifiers can vary depending on the traditions and economic exports of the village. In a town known for crafting and trading jewelry to survive, the yule cat may instead target villagers without any form of newly crafted jewelry on their person. Whatever the indicator, the yule cat will ruthlessly hunt and kill these individuals, whether men, women, or children.
 
 **Winter Stalkers of Unknown Origin.**
-While yule cats are fiendish in nature, their origins are not wholly known.  Some claim they are the pets of mountain-dwelling hags and giants sent to torment lazy humanoids, while others believe them to be divine punishment resulting from villagers not doing their part to help the community in times of hardship.
+While yule cats are fiendish in nature, their origins are not wholly known. Some claim they are the pets of mountain-dwelling hags and giants sent to torment lazy humanoids. Others believe them to be divine punishment resulting from villagers not doing their part to help the community in times of hardship.
 
-Regardless of their origin, yule cats invariably roam wintery environments using feline hunting methods to prey upon their targeted villagers.  Despite their large size, yule cats can easily blend into snowy landscapes, even hiding within snow flurries with supernatural ease.  Victims will often be within pouncing range before they notice the fiend, even while within the supposed safety of their village.  
+Regardless of their origin, yule cats invariably roam wintery environments using feline hunting methods to prey upon their targeted villagers. Despite their large size, yule cats can easily blend into snowy landscapes, even hiding within snow flurries with supernatural ease. Victims will often be within pouncing range before they notice the fiend, even while within the supposed safety of their village.  
 
 \columnbreak
 
@@ -31,11 +57,11 @@ If a yule cat's victim notices it and attempts to escape, the fiend can freeze i
 |  6  | A toymaker has devised a way to ensure his employees stay focused on making enough goods for the coming holiday: workers who fail to meet their quotas are hunted by a yule cat. |
 
 
-<img src='https://i.ibb.co/b2ZVfdP/icelandic-legend-yule-cat-new-clothes-christmas-fb.png' style='position:absolute; top:-68px; right:-140px; width:1150px filter: grayscale(100%);transform:scaleX(-1);' />
+<img src='https://i.ibb.co/VWK6mxB/Mesa-Lynx-Zendikar-Rising-Mt-G-Art.jpg' style='position:absolute; top:-68px; right:-40px; width:900px; transform:scaleX(1); transform:rotate(-10deg);' />
   
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:80px; right:-5px; width:900px; transform:rotate(11deg); filter:  grayscale(00%) brightness(97%)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:70px; right:-5px; width:900px; transform:rotate(11deg); filter:  grayscale(00%) brightness(97%)' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:323px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:315px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 <div style='margin-top:325px;'></div>
 
@@ -46,7 +72,7 @@ ____
 > ## Yule Cat
 >*Large fiend, neutral evil*
 > ___
-> - **Armor Class** 15 (Natural Armor)
+> - **Armor Class** 15 (natural armor)
 > - **Hit Points** 189 (18d10 + 90)
 > - **Speed** 50 ft.
 >___
@@ -57,43 +83,45 @@ ____
 > - **Saving Throws** Dex +7, Con +8
 > - **Skills** Investigation +5, Perception +7,  Stealth +7, Survival +7 
 > - **Damage Resistances** cold
-> - **Senses** darkvision 120 ft. passive Perception 17
+> - **Senses** darkvision 120 ft., passive Perception 17
 > - **Languages** understands Giant, Infernal, and Sylvan but can't speak
-> - **Challenge** 8 (3,900 XP) &emsp;&emsp;  **Proficiency Bonus** +3    
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3    
 > ___
 >
 > ***Keen Sight.*** The yule cat has advantage on Wisdom (Perception) checks that rely on sight.
+>
+> ***Holiday Clothing.*** The yule cat treats creatures wearing new clothing they've received within the last month as though they are under the effects of the *protection from evil and good* spell.
+>
+> ***Pounce.*** If the yule cat jumps at least 10 feet straight towards a creature and then hits it with a claw attack on the same turn, the target must succeed on a DC 17 Strength saving throw or be knocked prone.
 >
 > ***Snow Stalker.*** The yule cat has advantage on Dexterity (Stealth) checks made to hide in snowy terrain and can do so even if it is only lightly obscured while in such terrain.
 >
 > ***Snow Strider.*** The yule cat ignores difficult terrain and slipping hazards caused by ice and snow.
 >
-> **Pounce.** If the yule cat jumps at least 10 feet straight towards a creature and then hits it with a claw attack on the same turn, the target must succeed on a DC 17 Strength saving throw or be knocked prone.
-> 
-> **Holiday Clothing.** The yule cat treats creatures wearing new clothing that they've received within the last month as though they are under the effects of the *protection from evil and good* spell.
->
 > ### Actions
-> ***Multiattack.*** The yule cat makes two attacks: one with its bite and one with its claws.  If both 
-attacks hit the same target, the target is grappled (escape DC 17).
+> ***Multiattack.*** The yule cat makes two attacks: one with its bite and one with its claws. If both attacks hit the same target, the target is grappled (escape DC 17).
 >
 > ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit*: 24 (4d8 + 6) piercing damage.  If the target is prone, it takes 42 (8d8 + 6) piercing damage instead.
 >
 > ***Claw.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit*: 19 (2d12 + 6) slashing damage.
 >
->***Winter's  Gaze.*** The yule cat targets one creature it can see within 100 feet of it. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute unless it is wearing new clothing it received within the last month. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target’s saving throw is successful, or if the effect ends on it, the target is immune to the Winter’s Gaze of all yule cats for 1 hour.
+> ***Winter's Gaze.*** The yule cat targets one creature it can see within 100 feet of it. The target must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute unless it is wearing new clothing it received within the last month. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Winter's Gaze of all yule cats for 1 hour.
 
 > ##### Beyond Simple Clothing
 > The Holiday Clothing and Winter's Gaze features are built around the assumption you are running a traditional Yule Cat from Islandic folklore that hunts individuals based on their clothing.  This legend is likely rooted in the fact that clothing production was a vital aspect of daily life for the Islandic villages where this tale originated.  You can modify these abilities to focus on a different feature that better suits the primary industry or customs of the town being terrified by the yule cat.  The primary theme of the yule cat is that it hunts those who have not done their part for the village.  You can adapt it to identify these individuals in a way that makes the most sense for your setting. 
 
 ### Art Credit
-* Yule Cat Animations - The Wicked Feline Murder <br> Floof, a Yule Cat Stroy; PBS - Monstrum
+* Mesa Lynx - Svetlin Velinov, Wizards of the Coast
+* Steppe Lynx - Nic Klein, Wizards of the Coast
 
-<img src='https://i.ibb.co/whttYtm/Icelandic-Yule-Cat-e1577133144358.png' style='position:absolute; bottom:0px; right:-260px; width:910px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/dDskkLD/steppe-lynx.jpg' style='position:absolute; bottom:-280px; right:-600px; width:1100px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 <img src='https://image.ibb.co/kC44nH/oF4JQBz.png' style='position:absolute; bottom:-80px; right:0px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 \pagebreak
 
-### 1.0.0 Changes
+#### 1.0.0 Changes
  * Public Release
 
+#### 1.1.0 Changes
+* Document clean up
