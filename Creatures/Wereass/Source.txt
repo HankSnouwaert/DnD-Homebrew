@@ -73,7 +73,6 @@ ___
 >|16 (+3)|14 (+2)|18 (+4)|10 (+0)|14 (+2)|14 (+2)|
 >___
 > - **Skills** Athletics +5, Intimidation +4, Perception +4
-> - **Damage Immunities** bludgeoning, piercing, and slashing from nonmagical attacks not made with brass weapons
 > - **Senses** darkvision 60 ft., passive Perception 14
 > - **Languages** Common (can't speak in  donkey form) 
 > - **Challenge** 4 (1,100 XP) &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
@@ -81,7 +80,9 @@ ___
 >
 > ***Keen Hearing.*** The wereass has advantage on Wisdom (Perception) checks that rely on hearing.
 >
-> ***Stubborn.*** While the wereass has half its hit points or less, it gains advantage on all saving throws.
+> ***Regeneration.*** The wereass regains 10 hit points at the start of its turn. If the wereass takes acid damage or damage from a brass weapon, this trait doesn't function at the start of the wereass's next turn. The wereass dies only if it starts its turn with 0 hit points and doesn't regenerate. 
+>
+> ***Stubborn.*** While the wereass has half its hit points or less, it gains advantage on all saving throws. 
 >
 > ***Trampling Charge (Donkey or Hybrid Form Only).*** If the wereass moves at least 20 feet straight toward a creature and then hits it with its hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. 
 >
@@ -102,10 +103,8 @@ ___
 >
 >***Sling. (Humanoid or or Hybrid Form Only).*** *Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage.
 
-## Wereasses in Your Adventures
+### Wereasses in Your Adventures
 The following tables provide you with some ways you can incorporate wereasses into your adventures. 
-
-
 
 ##### Wereass Adventures
 | d6  | Plot Hook |
@@ -115,7 +114,7 @@ The following tables provide you with some ways you can incorporate wereasses in
 |  3  | A wereass disguised as a quest giver tries to send the party on a pointless (and possibly immoral) adventure.     |
 |  4  |A party member's reckless behavior has attracted the ire of a higher power who has cursed the transgressor into a wereass.   |
 |  5  |A wereass gifts the party a donkey in return for a favor.  The gifted donkey is actually the wereass, and he sabotages the party's efforts every chance he gets.  |
-|  6  |  A gang of wereasses have taken over a town with their destructive rollicking and turned it into their own chaotic playground. |
+|  6  |  A wereass gang turns a town into their own chaotic playground with their destructive rollicking. |
 
 
 ### Art Credit
@@ -124,32 +123,32 @@ The following tables provide you with some ways you can incorporate wereasses in
 
 
 
-<img src='https://i.ibb.co/C70WXmZ/Noggle-Ransacker.png' style='position:absolute;left:290px;bottom:-10px;width:580px' />
+<img src='https://i.ibb.co/C70WXmZ/Noggle-Ransacker.png' style='position:absolute;left:290px;bottom:-40px;width:550px' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;left:-630px;top:30px;height:1400px;width:1416px;transform:rotate(-90deg)' />
   
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-430px;bottom:30px;height:1400px;width:1416px;transform:rotate(2deg)' />
+  style='position:absolute;left:-430px;bottom:-10px;height:1400px;width:1416px;transform:rotate(2deg)' />
 
 \pagebreak
 
-### 0.0.0 Changes
+#### 0.0.0 Changes
  * First commit
 
-### 0.0.1 Changes
+#### 0.0.1 Changes
  * First draft
 
-### 1.0.0 Changes
+#### 1.0.0 Changes
  * Public post
  
-### 1.0.1 Changes
+#### 1.0.1 Changes
  * Italicized words in the Actions section
 
-### 1.0.2 Changes
+#### 1.0.2 Changes
  * Italicized words in the Actions section 
 
-### 1.0.3 Changes
+#### 1.0.3 Changes
 * Changed hit die to d8s
 * Moved Skills list before Damage Immunities
 * Removed comma in Languages
@@ -158,3 +157,6 @@ The following tables provide you with some ways you can incorporate wereasses in
 * Removed "knocked" from last sentence in Trampling Charge to bring the wording in line with existing creatures
 * Added period to end of Bite attack
 * Limited Bite to once per multiattack
+
+#### 1.1.0
+* Replace damage immunity with regeneration
