@@ -1,4 +1,32 @@
 
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br>
 
 ## Packmasters
@@ -7,13 +35,16 @@ Though the many giant rats and other rat <br> monstrosities lurking beneath the 
 
 Packmasters also use wicked weapons <br> known as things-catchers, which, as the name <br> implies, they use to catch things. These <br> two-handed polearms have a large, tong-like <br> head with the inside of their grips lined with <br> spikes. Packmasters can use these weapons to <br> painfully capture and control creatures at a <br> distance, whether it's a new beast to train or <br> an enemy for their beasts to tear apart.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+#### Art Credit 
+* Skaven Packmaster -  Games Workshop
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ___
 ___
 ___
-> ## Packmaster
->*Medium humanoid, unaligned*
+> ## Ratfolk Packmaster
+>*Medium humanoid (ratfolk), unaligned*
 > ___
 > - **Armor Class** 14 (ring mail)
 > - **Hit Points**  67 (9d8 + 27)
@@ -33,9 +64,9 @@ ___
 >
 > ***Keen Smell.*** The packmaster has advantage on Wisdom (Perception) checks that rely on smell.
 >
-> ***Pack Leader*** Any beasts or monstrosities with an Intelligence score of 8 or lower may add +2 to any Intelligence, Wisdom, or Charisma saving throws they make while within 10 feet of the packmaster while it isn't incapacitated. 
+> ***Overwhelming Mass (1).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 1 damage per ally it has within 5 feet of its target that isn't incapacitated. The ratfolk can benefit from up to 3 allies this way.
 >
-> ***Overwhelming Mass (1).*** The first time each turn that the packmaster hits a creature with an attack, it deals an extra 1 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 3 extra damage.
+> ***Pack Leader.*** Any beasts or monstrosities with an Intelligence score of 8 or lower may add +2 to any Intelligence, Wisdom, or Charisma saving throws they make while within 10 feet of the packmaster while it isn't incapacitated. 
 >
 > ### Actions
 >
@@ -63,8 +94,5 @@ ___
   
   \pagebreak
   
-#### 0.0.0
-* Document creation
-
-#### 0.0.1
-* Mechanical review
+#### 1.0.0
+* Public release
