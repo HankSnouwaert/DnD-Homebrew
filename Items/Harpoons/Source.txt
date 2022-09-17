@@ -10,8 +10,8 @@ The following content can <br> be used to add harpoon <br> weaponry to your game
 ___
 - **Damage:** 1d6
 - **Damage Type:** Piercing
-- **Properties:** Ammunition (range 30/120), loading, special
-- **Cost:** 90 gp, (ammo: 2gp)
+- **Properties:** Ammunition (range 30/120), harpoon, loading, special
+- **Cost:** 90 gp, ammo: 2gp (1gp for the bolt, 1gp for the rope)
 - **Weight:** 4 lb
 ___
 
@@ -20,24 +20,23 @@ ___
 ___
 - **Damage:** 1d6
 - **Damage Type:** Piercing
-- **Properties:** thrown (range 20/60), special, versatile (1d8)
-- **Cost:** 2 gp
+- **Properties:** harpoon, thrown (range 20/60), special, versatile (1d8)
+- **Cost:** 2 gp (1gp for the spear, 1gp for the rope)
 - **Weight:** 4 lb
 ___
 
 
 ***Harpoons.*** You can choose to tether yourself with a rope to a creature or object you hit with the harpoon; otherwise, you can pull the harpoon back to yourself as an object interaction. If you choose to tether yourself, the hand you used to make the attack becomes occupied maintaining the tether. You cannot maintain multiple tethers in one hand. 
 
-Once per turn, you can make an opposed Strength check against a creature you have tethered (no action required). On a success, you can pull the tethered creature towards you as though you are grappling it. A tethered creature can attempt to do the same to you on its turn, though if you fail the opposed Strength check, you can choose to drop the tether rather than be dragged by it. Any time an opposed Strength check is made between you and a tethered creature, if both of you roll a 10 or higher on this check, the tether snaps. 
+Once per turn, you can make an opposed Strength check against a creature you have tethered (no action required). On a success, you can drag the tethered creature towards you. Doing so uses up 5 feet of movement for every 5 feet you drag it unless the creature is two or more sizes smaller than you. A tethered creature can attempt to do the same to you on its turn, though if you fail the opposed Strength check, you can choose to drop the tether rather than be dragged by it. Any time an opposed Strength check is made between you and a tethered creature, if both of you roll a 12 or higher on this check, the tether snaps. 
 
 Any creature within 5 feet of a tethered creature (including the tethered creature) can use an action to remove the harpoon. Doing so deals an additional 1d6 weapon damage to the creature as the harpoon is removed. Dealing 5 slashing damage to the tether (AC 10) also snaps it.
 
 If you recover a harpoon spear or a harpoon gun bolt with a snapped rope, you can replace the rope over 10 minutes, using 1gp worth of rope and other supplies. This can be done over the course of a short or long rest.
 
-### Art Credit
-* Deadeye Brawler - Jesper Ejsing, Wizards of the Coast
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### New Feat: Harpoon Master
 You've learned how to use harpoons to maximum effect in combat. 
@@ -51,18 +50,18 @@ When you take this feat, you gain the following benefits.
 Players can gain access to higher-quality rope for nets and harpoon tethers by paying more gold. The following table describes the gp cost for each level of quality. Each table row can be used to describe a net or the rope and supplies needed to attach a tether to a harpoon. In the case of nets, the gp cost describes the overall cost of the net. In the case of harpoon spears and gun bolts, the gp cost describes the added cost of upgrading the item's quality, which can also be done when replacing a snapped tether.  
 
 ##### Rope Qualities 
-|Cost  | Break DC  | Rope AC | Cumulative Damage to Cut |
-|:---:|:----:|:--:|:--:|
-| 1gp |  10  | 10 | 5
-| 50gp|  13  | 13 | 10
-| 200gp|  16  | 16 | 15
+|Cost  | Break DC <br> (Harpoon) | Break DC <br> (Net)  | Rope AC | Cumulative <bR> Damage to Cut |
+|:---:|:----:|:----:|:--:|:--:|
+| 1gp | 12 | 10  | 10 | 5
+| 50gp|  15 | 13  | 13 | 10
+| 200gp| 18 | 16  | 16 | 15
 
 
 <img src='https://www.muddycolors.com/wp-content/uploads/2018/01/art2Bid2B4028722BFearless2BBluecoat2Bfinal2Bnet-1.jpg' style='position:absolute; top:-60px; right:-160px; width:820px;  grayscale(100%)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-220px; right:115px; width:1300px; filter:grayscale(00%) brightness(97%);transform:rotate(40deg)' />
   
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:175px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%);transform:rotate(0deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%);transform:rotate(0deg)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-180px; right:360px; width:900px; filter:  grayscale(00%) brightness(97%);transform:rotate(74deg)' />
 
@@ -72,5 +71,13 @@ Players can gain access to higher-quality rope for nets and harpoon tethers by p
 
 \pagebreak
 
-### 0.0.0 Changes
- * This is a placeholder for the change log
+### Art Credit
+* Deadeye Brawler - Jesper Ejsing, Wizards of the Coast
+
+\columnbreak
+
+#### 1.0.0 
+ * Public release
+
+#### 1.0.1
+* Add harpoon descriptor to harpoon weapons
