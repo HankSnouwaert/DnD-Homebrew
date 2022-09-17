@@ -4,13 +4,15 @@
 
 ### Harpoon Weapons
 
+
+
 #### Harpoon Gun
 *ranged weapon (martial, crossbow)*
 ___
 - **Damage:** 1d6
 - **Damage Type:** Piercing
-- **Properties:** Ammunition (range 30/120), loading, special
-- **Cost:** 90 gp, (ammo: 2gp)
+- **Properties:** Ammunition (range 30/120), harpoon, loading, special
+- **Cost:** 90 gp, ammo: 2gp (1gp for the bolt, 1gp for the rope)
 - **Weight:** 4 lb
 ___
 
@@ -19,38 +21,41 @@ ___
 ___
 - **Damage:** 1d6
 - **Damage Type:** Piercing
-- **Properties:** thrown (range 20/60), special, versatile (1d8)
-- **Cost:** 2 gp
+- **Properties:** harpoon, thrown (range 20/60), special, versatile (1d8)
+- **Cost:** 2 gp (1gp for the spear, 1gp for the rope)
 - **Weight:** 4 lb
 ___
 
-***Harpoon.*** You can choose to tether yourself with a rope to a creature or object you hit with the harpoon. If you are using a harpoon gun, you must hold onto the gun to maintain this tether, and if you are using a spear, you must have a free hand to maintain this tether. You cannot maintain multiple tethers in one hand. You can drag tethered objects using the rope or pull tethered creatures towards you as though you are grappling them. 
 
-Any creature within 5 feet of the target can use an action to remove the harpoon.  Doing so deals an additional 1d6 weapon damage to the target.
+***Harpoons.*** You can choose to tether yourself with a rope to a creature or object you hit with the harpoon; otherwise, you can pull the harpoon back to yourself as an object interaction. If you choose to tether yourself, the hand you used to make the attack becomes occupied maintaining the tether. You cannot maintain multiple tethers in one hand. 
 
-A tethered creature that attempts to move away from you must succeed an opposed Strength check against you.  If it succeeds, it drags you in the direction it moves.  If both of you roll a 10 or higher on this check, the tether snaps.  Dealing 5 slashing damage to the tether (AC 10) also snaps it.
+Once per turn, you can make an opposed Strength check against a creature you have tethered (no action required). On a success, you can drag the tethered creature towards you. Doing so uses up 5 feet of movement for every 5 feet you drag it unless the creature is two or more sizes smaller than you. A tethered creature can attempt to do the same to you on its turn, though if you fail the opposed Strength check, you can choose to drop the tether rather than be dragged by it. Any time an opposed Strength check is made between you and a tethered creature, if both of you roll a 12 or higher on this check, the tether snaps. 
 
-If you recover a harpoon spear or a harpoon gun bolt with a snapped rope, you can replace the rope over the course of 10 minutes, using 1gp worth of rope and other supplies.  This can be done over the course of a short or long rest.
+Any creature within 5 feet of a tethered creature (including the tethered creature) can use an action to remove the harpoon. Doing so deals an additional 1d6 weapon damage to the creature as the harpoon is removed. Dealing 5 slashing damage to the tether (AC 10) also snaps it.
+
+If you recover a harpoon spear or a harpoon gun bolt with a snapped rope, you can replace the rope over 10 minutes, using 1gp worth of rope and other supplies. This can be done over the course of a short or long rest.
+
+\columnbreak
 
 ### New Feat: Harpoon Master
 You've learned how to use harpoons to maximum effect in combat. 
 When you take this feat, you gain the following benefits.
 * Your Strength or Dexterity score increases by 1, to a maximum of 20.
 * Creatures you've hit with harpoons have their speed reduced by 15 feet until they've removed the harpoon.
-* If a creature is concentrating on spell and ends its turn while impaled by a harpoon you hit it with, it must succeed on a DC 10 Constitution saving throw to maintain concentration.
+* If a creature is concentrating on a spell and ends its turn while impaled by a harpoon you hit it with, it must succeed on a DC 10 Constitution saving throw to maintain concentration.
 
-\columnbreak
+
 
 ### Rope Quality for Nets & Harpoons
 
-By paying more gold, players can gain access to higher quality rope for nets and harpoon tethers.  The following table describes the gp cost for each level of quality.  Each row of the table can be used to describe a net, or the rope and supplies need to attach a tether to a harpoon.  In the case of nets, the gp cost describes the overall cost of the net.  In the case of harpoon spears and harpoon gun bolts, the gp cost describes the added cost of upgrading the quality of the item, which can also be done when replacing a snapped tether.  
+Players can gain access to higher-quality rope for nets and harpoon tethers by paying more gold. The following table describes the gp cost for each level of quality. Each table row can be used to describe a net or the rope and supplies needed to attach a tether to a harpoon. In the case of nets, the gp cost describes the overall cost of the net. In the case of harpoon spears and gun bolts, the gp cost describes the added cost of upgrading the item's quality, which can also be done when replacing a snapped tether.  
 
 ##### Rope Qualities 
-|Cost  | Break DC  | Rope AC | Damage to Cut |
-|:---:|:----:|:--:|:--:|
-| 1gp |  10  | 10 | 5
-| 10gp|  15  | 14 | 20
-| 50gp|  20  | 18 | 50
+|Cost  | Break DC <br> (Harpoon) | Break DC <br> (Net)  | Rope AC | Cumulative <bR> Damage to Cut |
+|:---:|:----:|:----:|:--:|:--:|
+| 1gp | 12 | 10  | 10 | 5
+| 50gp|  15 | 13  | 13 | 10
+| 200gp| 18 | 16  | 16 | 15
 
 ## Garrotes
 A garrote is a chain, rope, scarf, wire, or fishing line used to strangle its target.
@@ -232,3 +237,7 @@ You mastered the art of using the normally unassuming throwing star to disrupt y
 
 #### 0.1.0
 * Update plague censers, throwing stars, and things catchers based on public feedback
+
+#### 0.2.0
+* Update and release harpoons
+
