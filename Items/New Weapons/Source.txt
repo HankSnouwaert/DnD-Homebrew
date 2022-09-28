@@ -27,7 +27,7 @@ ___
 ___
 
 
-***Harpoons.*** You can choose to tether yourself with a rope to a creature or object you hit with the harpoon; otherwise, you can pull the harpoon back to yourself as an object interaction. If you choose to tether yourself, the hand you used to make the attack becomes occupied maintaining the tether. You cannot maintain multiple tethers in one hand. 
+***Harpoons.*** You can choose to tether yourself with a rope to a creature or object you hit with the harpoon; otherwise, you can pull the harpoon back to yourself as an object interaction. A creature cannot be tethered if it immune to the grappled condition. If you choose to tether yourself, the hand you used to make the attack becomes occupied maintaining the tether. You cannot maintain multiple tethers in one hand. 
 
 Once per turn, you can make an opposed Strength check against a creature you have tethered (no action required). On a success, you can drag the tethered creature towards you. Doing so uses up 5 feet of movement for every 5 feet you drag it unless the creature is two or more sizes smaller than you. A tethered creature can attempt to do the same to you on its turn, though if you fail the opposed Strength check, you can choose to drop the tether rather than be dragged by it. Any time an opposed Strength check is made between you and a tethered creature, if both of you roll a 12 or higher on this check, the tether snaps. 
 
@@ -151,7 +151,9 @@ ___
 
 
 ## Spike Fists
-These weapons are gauntlets or a metal knuckle ring fitted with one or more metal spikes that can be especially devastating against enemies whose weaknesses have been exposed.
+These vicious weapons are gauntlets, bracers, or metal knuckle rings fitted with one or more metal spikes or blades. They are used by brutal warriors who specialize in setting up cheap shots and attacking opponents when they are most vulnerable.
+
+### New Weapon
 
 #### Spike Fist
 *melee weapon (martial)*
@@ -162,16 +164,17 @@ ___
 - **Cost:** 5 gp
 - **Weight:** 1 lb
 ___
-***Spike Fist.***  When you hit with an attack with this weapon that had advantage, the damage die changes to 1d8.
+***Spike Fist.***  When you hit with an attack with this weapon that had advantage, its damage increases to 2d4 piercing damage.
+
 
 
 ### New Feat: Spike Fist Brutalist
 You've mastered the underhanded tactics necessary to brutalize your foes with spike fists, granting you the following benefits:
 * Increase your Strength by 1, to a maximum of 20, or gain proficiency with spike fists.
 
-* Once per turn, when you hit a creature with a spike fist attack that had advantage, you can choose to gain advantage on the next spike fist attack you make against that creature this turn.
+* Attacks you make with spike fists deal 1d6 piercing damage or 2d6 piercing damage if they have advantage.
 
-* When roll with advantage on an attack with a spike fist and the result of both d20s would result in your scoring a critical hit, you deal additional 2d8 piercing damage to the target (not doubled as part of the critical hit).
+* When you make a spike fist attack with advantage, you can forgo advantage for that roll to increase the damage you deal to 4d6 piercing damage if you hit.
 
 
 \columnbreak
@@ -241,3 +244,8 @@ You mastered the art of using the normally unassuming throwing star to disrupt y
 #### 0.2.0
 * Update and release harpoons
 
+#### 0.3.0
+* Add caveat that creatures immune to the grappled condition cannot be tetherd
+
+#### 0.4.0
+* Update and release spike fist content
