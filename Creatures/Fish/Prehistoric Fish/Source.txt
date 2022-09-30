@@ -1,10 +1,34 @@
+Prime<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
 
 <br>
 
 # Primeval Fish
-
-
-
 
 ## Dunkleosteus
 
@@ -21,34 +45,38 @@ ___
 >*Huge beast, unaligned*
 > ___
 > - **Armor Class** 15 (natural armor)
-> - **Hit Points** 114 (12d12 + 36)
+> - **Hit Points** 104 (11d12+33)
 > - **Speed** 0ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|22 (+6)|14 (+2)|16 (+3)|2 (-4)|14 (+2)|2 (-4)|
+>|22 (+6)|10 (+0)|16 (+3)|2 (-4)|14 (+2)|2 (-4)|
 >___
 > - **Skills** Perception +5
-> - **Senses** blindsight 10 ft., passive Perception 15
+> - **Senses** darkvision 30 ft., passive Perception 15
 > - **Languages** ━
-> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&ensp;    **Proficiency Bonus** +3
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp;&ensp;    **Proficiency Bonus** +3
 > ___
 > 
 > ***Water Breathing.*** The dunkleosteus can breathe only underwater.
 >
 > ### Actions
 >
-> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 24 (4d8 + 6) piercing damage.
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 33 (5d10 + 6) piercing damage.
 >
-> ***Vacuum Chomp.*** The dunkleosteus sucks up the water in a 15-foot cone in front of it. Each creature in that area that is in the same body of water as the dunkleosteus must succeed on a DC 16 Strength saving throw or be pulled within 5 feet of the dunkleosteus and take 24 (4d8 + 6) piercing damage.
+> ***Vacuum Chomp.*** The dunkleosteus sucks up the water in a 15-foot cone in front of it. Each creature in that area that is in the same body of water as the dunkleosteus must succeed on a DC 16 Strength saving throw or be pulled within 5 feet of the dunkleosteus and take 33 (5d10 + 6) piercing damage.
 >
 > ### Reactions
 > ***Cranial Plating.*** When an attack without advantage that the dunkleosteus can see hits it, it can use its reaction to absorb the damage through its skull, halving any bludgeoning, piercing, or slashing damage the attack deals.
 
 
-<img src='https://i.ibb.co/hm4BZsB/dunkleosteus-sketch.jpg' style='position:absolute; top:460px; right:90px; width:620px; filter:  grayscale(100%); transform:rotate(90deg)scaleX(-1);' />
+<img src='https://i.ibb.co/X4VZTgD/dunkleosteus-art.png' style='position:absolute; top:450px; right:-390px; width:1240px;  transform:rotate(0deg)scaleX(1);' />
   
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:100px' />
+  
+  <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -107,7 +135,7 @@ ___
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## Primeval Fish
+## Primeval Fish Adventures
 The following table provides you with some ways you can incorporate these ancient monstrous fish into your adventures. 
 
 ##### Dunkleosteus Adventures
@@ -140,7 +168,7 @@ The following table provides you with some ways you can incorporate these ancien
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-10px;left:190px;width:906px; transform:rotate(-20deg);' />
+style='position:absolute;top:-30px;left:190px;width:906px; transform:rotate(-20deg);' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
@@ -150,3 +178,5 @@ style='position:absolute;top:-120px;left:-240px;width:916px; transform:rotate(40
 
 \pagebreak
 
+#### 1.0.0
+* Public release
