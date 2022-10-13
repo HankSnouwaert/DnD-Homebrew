@@ -542,7 +542,7 @@ A creature killed this way can only be revived by a *true resurrection* or *wish
 #### Warpstone Token
 *Wonderous item, rare, 200g*
 
-While in possession of one or more warp stone tokens, you can use an action to eat any number of tokens to regain one expended spell slot of your choice. If the expended slot level is higher than the number of tokens eaten, the new slot level is equal to the number of tokens eaten. You must then succeed on a Constitution saving throw, taking 2d6 necrotic damage per token eaten on a failed save, or half as much damage on a successful one. Your hit point maximum is reduced by an amount equal to the damage taken. This damage can't be reduced in any way except by succeeding on the saving throw.
+While in possession of one or more warpstone tokens, you can use an action to eat any number of tokens to regain one expended spell slot of your choice. If the expended slot level is higher than the number of tokens eaten, the new slot level is equal to the number of tokens eaten. You must then succeed on a Constitution saving throw, taking 2d6 necrotic damage per token eaten on a failed save, or half as much damage on a successful one. Your hit point maximum is reduced by an amount equal to the damage taken. This damage can't be reduced in any way except by succeeding on the saving throw and lasts until you finish a long rest.
 
 The amount of necrotic damage and DC of the saving throw depend on the number of tokens eaten, as shown in the Warpstone Token Table below.
 
@@ -633,3 +633,4 @@ This sword slashes through mind and body.  Its attacks deal an extra 1d6 psychic
 
 #### 0.5.1 Changes
 * Typo fix for warpstone token
+* Add caveat that hit point reduction is cleared with a long rest
