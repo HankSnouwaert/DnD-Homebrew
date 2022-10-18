@@ -1,0 +1,169 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+
+# Eldritch Invocations
+
+## New Cantrip Invocations
+
+The following is an expanded list of invocations for warlocks to choose from.  These invocations allow for specialization in cantrips other than *eldritch blast*.  Some of these options replace existing invocations, meaning you cannot take both.
+
+#### Agonizing Infusion 1.0.0
+*Prerequisite: A warlock cantrip that deals damage.  (Replaces Agonizing Blast)*
+
+When you pick this invocation, choose a warlock cantrip you know that deals damage.  When you damage a creature with the chosen cantrip, add your Charisma modifier to the damage dealt.  
+
+Until you reach your 5th warlock level, this extra damage can only be applied to a single creature damaged by the cantrip.  Once you reach your 5th warlock level, this damage applies to all creatures damaged by the cantrip.
+
+#### Cursed Touch 1.0.0
+*Prerequisite*: chill touch *cantrip*
+
+When you hit a creature with the *chill touch* cantrip, its damage dice increase from d8s to d12s if the target is cursed by one of your warlock spells, such as *hex*,  or by a warlock feature of yours.
+
+Additionally, creatures affected by your *chill touch* are now considered to be cursed by one of your warlock features.
+
+#### Echo of Death 1.0.0
+*Prerequisite*: toll the dead *cantrip*
+
+On your turn, when you reduce a creature to 0 hit points with *toll the dead* or with a warlock spell of 1st level or higher, you may cast *toll the dead* as a bonus action. 
+
+
+#### Eldritch Grasp 1.0.0
+*Prerequisite: The ability to cast one of the following warlock cantrips:* chill touch, eldritch blast, frostbite, infestation, magic stone, poison spray, thunderclap, or toll the dead. *(Replaces Grasp of Hadar)*
+
+When you pick this invocation, choose a warlock cantrip you know that is one of its prerequisites. 
+When you hit a creature with the chosen cantrip, or it fails its saving throw against the cantrip, you can move that creature in a straight line up to 10 feet closer to yourself.
+
+#### Eldritch Reach 1.0.0
+*Prerequisite: A warlock cantrip that either has a radius or a range greater than self.  (Replaces Eldritch Spear)*
+
+When you pick this invocation, choose a warlock cantrip you know that either has a radius or a range greater than self.  If the chosen cantrip has a range of 5 feet or greater, its range is doubled.  If it has a range of touch, its range is now 15 feet.  If it has a radius, that radius is doubled.
+
+In the case of the *magic stone** cantrip, the range the stones can be thrown is doubled.
+
+\columnbreak
+
+#### Eldritch Repulsion 1.0.0
+*Prerequisite: The ability to cast one of the following warlock cantrips:* chill touch, eldritch blast, frostbite, infestation, magic stone, poison spray, thunderclap, or toll the dead.  *(Replaces Repelling Blast)*
+
+When you pick this invocation, choose a warlock cantrip you know that is one of its prerequisites.  When you hit a creature with the chosen cantrip or it fails its saving throw against the cantrip, you can push that creature up to 10 feet away from you in a straight line.
+
+#### Eldritch Stones 1.0.0
+*Prerequisite*: magic stone *cantrip*
+
+ When you use a sling to hurl a pebble affected by a *magic stone* cantrip you cast, the effect does not end on the stone when it hits or misses a creature, and at the end of your turn, you may choose to have any number of these pebbles teleport back to your hand.
+ 
+Additionally, if you have the Pact of the Blade feature, your pact weapon can be a sling. 
+
+#### Ever Frost 1.0.0
+*Prerequisite*: frostbite *cantrip*
+
+If a creature that is not resistant or immune to cold damage succeeds on its saving throw against your *frostbite* cantrip, it still has disadvantage on the next weapon attack roll it makes before the end of its next turn.
+
+#### Lighting Reel 1.0.0
+*Prerequisite*: lightning lure *cantrip*
+
+When a creature fails its saving throw against your *lightning lure* cantrip, you may pull yourself up to 10 feet closer to the target rather than move it towards you. 
+
+You may also target any surface within range and pull yourself up to 10 feet closer to it.  This movement does not provoke attacks of opportunity.
+
+If you have the Eldritch Reach invocation, you can pull enemies up to 20 feet closer to you or yourself up to 20 feet closer to your target.
+
+
+#### Lethargic Infusion 1.0.0 
+*Prerequisite: A warlock cantrip that forces a saving throw or uses an attack roll.  (Replaces Lance of Lethargy)*
+
+When you pick this invocation, choose a warlock cantrip you know that forces a saving throw or uses an attack roll.  Once on each of your turns, when you hit a creature with the chosen cantrip, or it fails its saving throw against the cantrip, you can reduce that creature's speed by 10 feet until the end of your next turn.
+
+#### Merciful Invocation 1.0.0
+*Prerequisite: A warlock cantrip that forces a saving throw*
+
+When you pick this invocation, choose a warlock cantrip you know that forces a saving throw.  When you cast the chosen cantrip, you can choose to have any number of creatures you can see automatically succeed their saving throws against it.  The chosen creatures take no damage if they would normally take half damage on a successful save.
+
+\pagebreakNum
+
+#### Merciless Strikes 1.0.0
+*Prerequisite*: true strike *cantrip*
+
+When you hit a creature with an attack benefiting from the *true strike* cantrip, you deal an extra 1d6 damage of any damage type dealt by that attack.
+
+This extra damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6). 
+
+#### Potent Invocation 1.0.0
+*Prerequisite: 7th level, a warlock cantrip that forces a saving throw and deals damage*
+
+When you pick this invocation, choose a warlock cantrip you know that forces a saving throw and deals damage.  When a creature succeeds on a saving throw against the chosen cantrip, it takes half the cantrip's damage but suffers no additional effects that would result from a failed save.
+
+
+#### Rite of Warding 1.0.0
+*Prerequisite*: blade ward *cantrip*
+
+Your *blade ward* cantrip grants <br> resistance to all damage from weapon attacks.
+
+#### Sliver of Insight 1.0.0
+*Prerequisite*: mind sliver *cantrip*
+
+When a creature fails its saving through against your <br> *mind sliver*, you may learn one of its ability scores of your choice and whether or not it is proficient in saving throws of the chosen ability score.
+
+#### Specialized Poisons 1.0.0
+*Prerequisite*: poison spray *cantrip*
+
+At the end of each long rest, choose a creature type other than construct.  Creatures of the chosen creature type don't benefit from resistance or immunity to poison damage when targeted by your *poison spray* cantrip, unless they are under the effect of the *protection from poison* spell.
+
+#### Spectre Strike 1.0.0
+*Prerequisite*: sword burst *cantrip*
+
+When you cast *sword burst* and you are not wielding a shield, you may make one attack as a bonus action with melee weapon using one hand.
+
+#### Spreading Flames 1.0.0
+*Prerequisite*: create bonfire *cantrip*
+
+At the start of your turn, while you are within 60 feet of an area affected by your bonfire, you can choose to have the bonfire spread to another 5-foot square surface within 5 feet of it. 
+
+You may also use your action to spread your bonfire this way and then have each creature in an area affected by the bonfire make the saving throw against the spell.
+
+You can have the bonfire grow a number times equal to your 1 + Charisma modifier (a minimum of twice) per casting of the spell.
+
+\columnbreak
+
+#### Swarm Intelligence 1.0.0
+*Prerequisite*: infestation *cantrip*
+
+When you cast *infestation*, you can change its damage type to piercing.  
+
+Additionally, when a creature fails its saving throw against your *infestation* cantrip, you determine which direction it moves rather than determining it randomly.  The options are still north, south, east, and west.
+
+#### Thunderous Impact 1.0.0
+*Prerequisite*: thunderclap *cantrip*
+
+When you use the Dash action, you may use your bonus action to cast *thunderclap*.  If you move at least 30 feet in a straight line immediately before casting *thunderclap* this way, you may choose one creature that failed its saving throw against the *thunderclap* and knock it prone.
+
+
+\pagebreak
+
+### Change Log
