@@ -50,7 +50,7 @@ A creature can't suffer from two instances of the same mutation at once.
 ##### Mutation Table
 | d6  | Mutation |  Creature Effect  |
 |:---:|:---------:| :---------:|
-|  1  |  Wild Spasms | The target can't take actions as its body jerks erratically in random directions.
+|  1  |  Wild Spasms | The target can't take reactions, and on each of its turns it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
 |  2  | Degeneration  | The target's form becomes unstable.  The first time it takes damage each turn, it takes an extra 1d10 force damage.|
 |  3  | Twisted Arms |  The target can no longer wield weapons or cast spells with somatic components and it has disadvantage on all weapon attack rolls.|
 |  4  | Inverted Eyes | The target is blinded.|
@@ -732,3 +732,5 @@ The boil immediately explodes when the spell ends.
 #### 1.8.0
 * Take slicing shards from artificers and give to sorcerers and wizards
 
+#### 1.9.0
+* Change first effect of the Bolt of Change mutation table

@@ -1,0 +1,109 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+
+<br>
+
+## Ratfolk Warlords
+
+Though ratfolk aren’t known for their valor or <br> powers of leadership, those that rise to the top <br> of their martial hierarchy possess an <br> underhanded ferocity that can’t be denied. <br> These warlords combine martial skill, devious <br> tactics, and the ability to rally their otherwise <br> cowardly kin, making them foes that are <br> underestimated all too often. Even when a <br> ratfolk force appears to be routing, one <br> rallying cry from their warlord can turn them <br> from a fleeing army to one that’s quickly <br> overwhelming their overconfident enemies. 
+
+When engaging enemies, ratfolk warlords <br> can utilize an array of weaponry, though brutal <br> spike fists are among their most favored tools. <br> They never fight fair and often use feinting <br> tactics, fleeing from  enemies who appear to have <br> a strong position and striking back at them the <br> moment they show weakness. These strategies <br> also serve to distract and draw out their foes, <br> allowing their minions to surround and swarm <br> the now vulnerable targets.
+
+#### Art Credit
+* Skaven, <br>Total War - Warhammer II - Gisbert Llorens
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Ratfolk Warlord
+>*Medium humanoid, chaotic evil*
+> ___
+> - **Armor Class** 18 (plate)
+> - **Hit Points**  136 (16d8 + 64)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|16 (+3)|18 (+4)|16 (+3)|16 (+3)|18 (+4)|
+>___
+> - **Saving Throws**  Str +7, Dex +6, Con +7, Int +6
+> - **Skills** Athletics +7, Deception +7, Intimidation +7, Perception +6
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** Common, Undercommon
+> - **Challenge** 7 (2,900 XP) &emsp;&emsp;&emsp;&emsp;&nbsp;    **Proficiency Bonus** +3
+> ___
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough to fit a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Dirty Tactics (1/Turn).*** The ratfolk deals an extra 17 (5d6) damage when it hits a target with a melee weapon attack and has advantage on the attack roll.
+>
+> ***Overwhelming Mass (3).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 3 damage per ally it has within 5 feet of its target that isn't incapacitated. The ratfolk can benefit from up to 3 allies this way.
+>
+> ***Tactical Wit.*** The ratfolk gains a +3 bonus to initiative.
+>
+> ### Actions
+>
+> ***Multiattack.*** The ratfolk makes three attacks, it can replace one of it's attack with a Rat Rally.
+>
+> ***Spike Fist.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 7 (1d6 + 4) piercing damage or, if the ratfolk had advantage on the attack roll, 14 (3d6 + 4) piercing damage.
+>
+> ***Warlord's Blade.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage.
+>
+> ***Rat Rally.*** The frightened condition caused by the Scurry Away feature ends on each other rat or ratfolk within 120 of the warlord that can see or hear it, and its actions are no longer restricted to the dash, disengage, dodge, or hide actions on its next turn. Ratfolk Warlord can take this action while it is frightened by the Scurry Away feature. 
+>
+> ### Reactions
+>
+> ***Scurry Away.***  When an enemy the ratfolk can see ends its turn, the ratfolk can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+
+<img src='https://i.ibb.co/bg8X1h3/skaven-Diego-Gisbert-Llorens.png' style='position:absolute; top:-110px; right:-160px; width:680px; transform:scalex(1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:125px;top:-160px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:0px;top:200px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreak
+
+
+#### 1.0.0
+* Public release
+
+#### 1.0.1
+* Typo correction in description
+
+#### 1.0.2
+* Change alignment to chaotic evil
+
+#### 1.0.3
+* Capitalize actions in Scurry Away
