@@ -84,7 +84,7 @@ Your ratfolk has the following racial traits.
 
 ***Bite.*** Your razor-sharp jaws are a natural weapon you can use to make unarmed strikes.  If you hit with them, you deal piercing damage equal to 1d4 + your Strength or Dexterity modifier (your choice) instead of the bludgeoning damage normal for an unarmed strike.  You can also use Dexterity instead of Strength for the attack rolls you make with your bite.
 
-***Overwhelming Swarm.***  When you damage a target with an attack or a spell, you can cause the attack or spell to deal extra 1d4 damage for each of your allies within 5 feet of the target that isn't incapacitated.  You can deal a maximum of 3d4 additional damage this way.  Once you use this trait, you can't use it again until you finish a short or long rest.
+***Overwhelming Swarm.***  When you damage a target with an attack or a spell, you can cause the attack or spell to deal extra 1d4 damage for each of your allies within 5 feet of the target that isn't incapacitated.  You can benefit from up to 3 allies this way.  Once you use this trait, you can't use it again until you finish a short or long rest.
 
 At 5th level, the damage dice change to d6s.  At 10th level, they become d8s.  At 15th level, they become d10s.  And at 20th level, they become d12s.
 
@@ -183,6 +183,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Senses** darkvision 60 ft., passive Perception 13
+> - **Languages** ━
 > - **Challenge** 1/8 (25 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
 > ___
 >
@@ -190,7 +191,7 @@ ___
 >
 > ***Keen Smell.*** The rat has advantage on Wisdom (Perception) checks that rely on smell.
 >
-> ***Overwhelming Mass (1).*** The first time each turn that the rat hits a creature with a weapon attack, it deals an extra 1 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 3 extra damage.
+> ***Overwhelming Mass (1).*** The first time each turn that the rat hits a creature with an attack, it deals an extra 1 damage per ally it has within 5 feet of its target that isn't incapacitated. The rat can benefit from up to 3 allies this way.
 >
 > ### Actions
 > ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
@@ -200,13 +201,13 @@ ___
 > ***Scurry Away.*** When an enemy the rat can see ends its turn, the rat can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the rat can only take the dash, disengage, dodge, or hide action. This feature ignores immunity to the frightened condition.
 >
 
-<img src='https://i.ibb.co/k0RJTsZ/ruin-rat.jpg' style='position:absolute; bottom:-40px; right:-85px; width:600px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/k0RJTsZ/ruin-rat.jpg' style='position:absolute; bottom:-50px; right:-85px; width:600px; transform:rotate(0deg);filter:opacity(100%);'/>
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:30px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:00px;top:-375px;height:1400px;width:1416px;transform:rotate(0deg)' />
+  style='position:absolute;right:00px;top:-355px;height:1400px;width:1416px;transform:rotate(0deg)' />
 
 
 \pagebreak
@@ -287,7 +288,7 @@ ___
 >
 > ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
 >
-> ***Overwhelming Mass (1).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 1 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 3 extra damage.
+> ***Overwhelming Mass (1).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 1 damage per ally it has within 5 feet of its target that isn't incapacitated. The ratfolk can benefit from up to 3 allies this way.
 >
 > ### Actions
 >
@@ -346,7 +347,7 @@ ___
 >
 > ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on Smell.
 >
-> ***Overwhelming Mass (1).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 1 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 3 extra damage.
+> ***Overwhelming Mass (1).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 1 damage per ally it has within 5 feet of its target that isn't incapacitated. The ratfolk can benefit from up to 3 allies this way.
 >
 > ***Sneak Attack (1/Turn).*** The ratfolk deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the assassin that isn't incapacitated and the ratfolk doesn't have disadvantage on the attack roll.
 >
@@ -395,17 +396,57 @@ style='position:absolute;top:-10px;left:270px;height:480px;transform:scaleX(1)'>
   
 \pagebreak
 
+## Revisions
+
+### Ratfolk Player Race
+
 #### 1.0.0
 * Public release
-* Updated third bullet point of Devious Adversary
 
-#### 1.1.0
-* Changed number of giant rats summoned by the initial usage of Hordemaster to be equal to your proficiency bonus
-
-#### 1.1.1
+#### 1.0.1
 * Typo fixes
 
-\columnbreak
+#### 1.1.0
+* Update wording of Overwhelming Swarm
+* Update wording of Overwhelming Mass for example NPCs
 
-### Referenced Content
-* Creature: Rat, Giant 1.0.0
+### Feat: Cunning Crafter
+
+#### 1.0.0
+* Feat released
+
+### Feat: Devious Adversary
+
+#### 1.1.0
+* Update third bullet point
+
+### Feat: Hordemaster
+
+#### Referenced Content
+* Rat, Giant 1.1.0
+
+#### 1.1.0
+* Changed number of giant rats summoned by the initial usage to be equal to your proficiency bonus
+
+#### 1.2.0
+* Update referenced content
+
+### Feat: Plague Rat
+
+#### 1.0.0
+* Feat released
+
+### Feat: Tail Master
+
+#### 1.0.0
+* Feat released
+
+### Feat: Under Speaker
+
+#### 1.0.0
+* Feat released
+
+### Feat: Unrivalled Killer
+
+#### 1.0.0
+* Feat released
