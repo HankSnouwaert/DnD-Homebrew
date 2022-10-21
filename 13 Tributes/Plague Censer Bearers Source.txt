@@ -40,22 +40,22 @@ For it is a great honor to die in bloody service to their holy crusade.  The sac
 
 ___
 ___
-> ## Plague Censer Bearer
+> ## Ratfolk Plague Censer Bearer
 >*Medium humanoid (ratfolk), chaotic evil*
 > ___
 > - **Armor Class** 14 (natural armor)(16 with plague disciple) 
-> - **Hit Points**  60 (8d8 + 24)
+> - **Hit Points**  67 (9d8+27)
 > - **Speed** 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|16 (+3)|14 (+2)|16 (+3)|10 (0)|12 (+1)|16 (+3)|
+>|16 (+3)|14 (+2)|16 (+3)|10 (0)|12 (+1)|12 (+1)|
 >___
-> - **Saving Throws** Wis +3, Cha +5
+> - **Saving Throws** Wis +3, Con +5
 > - **Skills** Athletics +5, Perception +3, Religion +4
 > - **Damage Resistances** necrotic
 > - **Condition Immunities** poisoned
-> - **Senses** darkvision 60 ft., passive Perception 14
+> - **Senses** darkvision 60 ft., passive Perception 13
 > - **Languages** Common, Undercommon
 > - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;    **Proficiency Bonus** +2
 > ___
@@ -68,29 +68,34 @@ ___
 >
 > ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
 >
-> ***Overwhelming Mass (1).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 1 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 3 extra damage.
+> ***Overwhelming Mass (1).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 1 damage per ally it has within 5 feet of its target that isn't incapacitated. The ratfolk can benefit from up to 3 allies this way.
 >
 > ***Plague Disciple*** When the ratfolk takes necrotic damage from its plague censer, it gains +2 to its AC until the start of its next turn.
+>
+> ***Reckless.*** At the start of its turn, the ratfolk can gain advantage on all melee weapon attack rolls during that turn, 
+but attack rolls against it have advantage until the start of its next turn.
 >
 > ### Actions
 >
 > ***Multiattack.*** The ratfolk makes two attacks, one with its plague censer and one with its bite.
 >
 > ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage.  If the target is a creature, 
-it must succeed on a DC 13 Constitution saving throw or contract a disease. Until the disease is cured, the creature is poisoned. The creature can repeat the saving throw at the end of each of its turns, ending the disease on a success.
+it must succeed on a DC 13 Constitution saving throw or contract a disease. Until the disease is cured, the creature is poisoned. The creature can repeat the saving throw at the end of each of its turns, taking 4 (1d8) necrotic damage on a failure. ending the disease on a success.
 >
-> ***Plague Censer.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage.  If this is the first plague censer attack made this turn, all creatures within 10 feet of the ratfolk (including the ratfolk) take 9 (2d8) necrotic damage.
+> ***Plague Censer.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage.  If this is the first plague censer attack made this turn, hit or miss, all creatures within 10 feet of the ratfolk (including the ratfolk) take 9 (2d8) necrotic damage.
 >
 > ### Reactions
 >
 > ***Scurry Away.***  When an enemy the ratfolk can see ends its turn, the ratfolk can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the ratfolk can only take the dash, disengage, dodge, or hide action. This feature ignores immunity to the frightened condition.
+>
+>
 
 
-<img src='https://i.ibb.co/dbFpzgx/pasi-juhola-pahapasi-plaguemonk-picnic-2019.jpg' style='position:absolute;bottom:-210px;right:-10px;width:920px' />
+<img src='https://i.ibb.co/dbFpzgx/pasi-juhola-pahapasi-plaguemonk-picnic-2019.jpg' style='position:absolute;bottom:-230px;right:-10px;width:920px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-60px;bottom:0px' />
+  style='position:absolute;left:-60px;bottom:-20px' />
   
   <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
   
@@ -103,8 +108,16 @@ it must succeed on a DC 13 Constitution saving throw or contract a disease. Unti
   \columnbreak
   
 
-#### 0.0.0 
-* Document creation
+#### 1.0.0 
+* Public release
 
-#### 0.1.0
-* Change fumes to be centered on censer bearer
+#### 1.1.0
+* Hit Points Increased 
+* Specified Plague Censer deals the necrotic damage on a hit or miss.
+* Added the Reckless feature.
+* Charisma Lowered
+* Now are proficient constitution saving throws rather then charisma saving throws
+* Bite's disease now deals damage if failed on the repeat.
+
+#### 1.2.0
+* Update wording of Overwhelming Mass
