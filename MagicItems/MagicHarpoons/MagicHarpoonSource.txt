@@ -1,4 +1,31 @@
 
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -55,12 +82,20 @@ style='position:absolute;top:-255px;left:-200px;width:1300px;transform:rotate(-5
 
 \pagebreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Electro-Harpoon
 *Harpoon spear, very rare (requires attunement)*
 
 This harpoon contains a magical apparatus capable of electrifying it and its tether. As an action, you can electrify the tether between yourself and a harpooned target. Each creature directly between you and the harpoon must succeed on a DC 17 Dexterity save or take 4d6 lightning damage. The harpooned target automatically fails this save.
+
+### Art Credit
+* Tireless Angler - Konstantin Porubov, Wizards of the Coast
+* Kalista Splash Art, League of Legends - Riot Games
+* Deadeye Brawler - Jesper Ejsing, Wizards of the Coast
+
+
+
+\columnbreak
 
 #### Threading Needle
 *Harpoon spear, rare*
@@ -74,6 +109,8 @@ Each tethered creature must still stay within 60 feet of you to maintain the tet
 If the tether is cut, each tethered creature is freed. You may use an action to reapply a rope to the needle, which turns the rope into more magical thread.
 
 
+
+
 #### Underworld Skewers
 *Harpoon spear, rare (requires attunement)*
 
@@ -81,47 +118,150 @@ These ghastly harpoons are said to be forged in the underworld and made for hunt
 
 These harpoons can tether incorporeal creatures normally immune to the grappled condition, and the tethers attached to these harpoons take on a ghostly quality and cannot be cut, though they can still be snapped through Strength checks. 
 
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 While one or more of these harpoons are impaled in any creatures within 60 feet of you, you may use an action to call all the harpoons back, causing them to rip themselves free and deal their weapon damage to the creatures they were impaling before flying back to their quiver. The harpoons phase through all obstacles to reach their quiver.
 
-### Magic Nets
 
-#### Anti-Magic Net
-*Net, common (DC 13), uncommon (DC 15), rare (DC 17), very rare (DC 18), legendary (DC 19)*
 
-A creature hit by this net must succeed on a Constitution saving throw or lose concentration on any ongoing spells and be unable to cast spells until the start of its next turn. At the start of each turn that it is restrained by the net, the creature must succeed on the same saving throw or be subjected to the effects again until the start of its next turn. The DC of this Concentration save is determined by the rarity of the net.
 
-#### Electro-Net
-*Net, common (1d6), uncommon (3d6), rare(5d6), very rare(8d6), legendary (12d6)*
-
-Creatures restrained by this net take lighting damage at the start of each of their turns and can't take reactions. The amount of lighting damage they take is determined by the rarity of the net.
-
-#### Ghost Net
-*Net, rare*
-
-This net can restrain incorporeal creatures normally immune to the restrained condition. Creatures restrained by the net cannot planeshift to the Ethereal Plane.
-
-### Art Credit
-* Tireless Angler - Konstantin Porubov, Wizards of the Coast
-* Spidersilk Net - Steve Argyle, Wizards of the Coast
 
 <div style='margin-top:850px;'></div>
 <img
-src='https://i.ibb.co/wBFqpY2/Spidersilk-Net-Dragons-of-Tarkir-Mt-G-Art.jpg'
-style='position:absolute;top:-20px;right:-30px;width:650px;transform:scaleX(-1)' />
+src='https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kalista_0.jpg'
+style='position:absolute;bottom:-40px;right:-100px;width:1270px;transform:scaleX(-1)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-20px; right:170px; width:900px; filter:grayscale(00%) brightness(97%);transform:rotate(20deg)' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-150px; right:-450px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:90px; right:-10px; width:900px; filter:grayscale(00%) brightness(97%);transform:rotate(-2deg)' />
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-1150px;
+  left:-470px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-150px; right:430px; width:900px; filter:grayscale(00%) brightness(97%);transform:rotate(90deg)' />
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-790px;
+  left:20px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
 
-<div style='margin-top:325px;'></div>
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-790px;
+  left:20px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
+
+
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-450px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+\pagebreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Harpoons
+
+
+
+
+#### Harpoon Gun
+*ranged weapon (martial, crossbow)*
+___
+- **Damage:** 1d6
+- **Damage Type:** Piercing
+- **Properties:** Ammunition (range 30/120), harpoon, <br> loading, special
+- **Cost:** 90 gp, ammo: 2gp (1gp for the bolt, 1gp for the rope)
+- **Weight:** 4 lb
+___
+
+#### Harpoon Spear
+*melee weapon (martial, spear)*
+___
+- **Damage:** 1d6
+- **Damage Type:** Piercing
+- **Properties:** harpoon, thrown (range 20/60), special, versatile (1d8)
+- **Cost:** 2 gp (1gp for the spear, 1gp for the rope)
+- **Weight:** 4 lb
+___
+
+
+***Harpoons.*** You can choose to tether yourself with a rope to a creature or object you hit with the harpoon; otherwise, you can pull the harpoon back to yourself as an object interaction. A creature cannot be tethered if it immune to the grappled condition. If you choose to tether yourself, the hand you used to make the attack becomes occupied maintaining the tether. You cannot maintain multiple tethers in one hand, and creatures immune to the grappled condition cannot be tethered. 
+
+Once per turn, you can make an opposed Strength check against a creature you have tethered (no action required). On a success, you can drag the tethered creature towards you. Doing so uses up 5 feet of movement for every 5 feet you drag it unless the creature is two or more sizes smaller than you. A tethered creature can attempt to do the same to you on its turn, though if you fail the opposed Strength check, you can choose to drop the tether rather than be dragged by it. Any time an opposed Strength check is made between you and a tethered creature, if both of you roll a 12 or higher on this check, the tether snaps. 
+
+Any creature within 5 feet of a tethered creature (including the tethered creature) can use an action to remove the harpoon. Doing so deals an additional 1d6 weapon damage to the creature as the harpoon is removed. Dealing 5 slashing damage to the tether (AC 10) also snaps it.
+
+If you recover a harpoon spear or a harpoon gun bolt with a snapped rope, you can replace the rope over 10 minutes, using 1gp worth of rope and other supplies. This can be done over the course of a short or long rest.
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### New Feat: Harpoon Master
+You've learned how to use harpoons to maximum effect in combat. 
+When you take this feat, you gain the following benefits.
+* Your Strength or Dexterity score increases by 1, to a maximum of 20.
+* Creatures you've hit with harpoons have their speed reduced by 15 feet until they've removed the harpoon.
+* If a creature is concentrating on a spell and ends its turn while impaled by a harpoon you hit it with, it must succeed on a DC 10 Constitution saving throw to maintain concentration.
+
+### Rope Quality for Nets & Harpoons
+
+Players can gain access to higher-quality rope for nets and harpoon tethers by paying more gold. The following table describes the gp cost for each level of quality. Each table row can be used to describe a net or the rope and supplies needed to attach a tether to a harpoon. In the case of nets, the gp cost describes the overall cost of the net. In the case of harpoon spears and gun bolts, the gp cost describes the added cost of upgrading the item's quality, which can also be done when replacing a snapped tether.  
+
+##### Rope Qualities 
+|Cost  | Break DC <br> (Harpoon) | Break DC <br> (Net)  | Rope AC | Cumulative <bR> Damage to Cut |
+|:---:|:----:|:----:|:--:|:--:|
+| 1gp | 12 | 10  | 10 | 5
+| 50gp|  15 | 13  | 13 | 10
+| 200gp| 18 | 16  | 16 | 15
+
+
+<img src='https://www.muddycolors.com/wp-content/uploads/2018/01/art2Bid2B4028722BFearless2BBluecoat2Bfinal2Bnet-1.jpg' style='position:absolute; top:-60px; right:-160px; width:820px;  grayscale(100%)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-230px; right:100px; width:1300px; filter:grayscale(00%) brightness(97%);transform:rotate(40deg)' />
+  
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%);transform:rotate(0deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:360px; width:900px; filter:  grayscale(00%) brightness(97%);transform:rotate(74deg)' />
 
 \pagebreak
 
 #### 0.0.0
 * Document creation
+
+\columnbreak
+
+### Referenced Content
+* Harpoon Weapons 1.0.0
+* Harpoon Master 1.0.0
+* Rope Quality for Nets & Harpoons 1.0.0
+
