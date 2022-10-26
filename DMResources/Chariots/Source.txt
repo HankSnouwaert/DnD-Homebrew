@@ -1,7 +1,5 @@
 
 
-
-
 <style>
 
  /* Footers */
@@ -42,7 +40,7 @@ The following rules can help you codify ways to use chariots in your games. They
 
 ## Chariot Rules
 
-Chariots are vehicles that can be pulled by one or more creatures, referred to as their steeds, and allow one or more riders to reside within their carriage, though only one rider controls the chariot and is referred to as the charioteer. Charioteers and the chariot's steeds follow the mounted combat rules described in the Player's Handbook, but with the following differences: 
+Chariots are vehicles that can be pulled by one or more creatures, referred to as their steeds, and allow one or more riders to reside within their carriage, though only one rider controls the chariot and is referred to as the charioteer. The charioteer must have proficiency with land vehicles to control the chariot. Charioteers and the chariot's steeds follow the mounted combat rules described in the Player's Handbook, but with the following differences:
 
 ### Movement & Initiative
 
@@ -80,8 +78,8 @@ style='position:absolute;bottom:-40px;left:-60px;width:890px;transform: scaleX(1
 <img
    src='https://www.gmbinder.com/images/pEJl0m5.png'
    style='position:absolute;
-  top:-920px;
-  left:20px;
+  top:-900px;
+  left:15px;
   width:1270px;
   transform:
     scalex(.6);
@@ -96,7 +94,7 @@ style='position:absolute;bottom:-40px;left:-60px;width:890px;transform: scaleX(1
 <img
    src='https://www.gmbinder.com/images/pEJl0m5.png'
    style='position:absolute;
-  top:-860px;
+  top:-850px;
   left:20px;
   width:1270px;
   transform:
@@ -111,7 +109,7 @@ style='position:absolute;bottom:-40px;left:-60px;width:890px;transform: scaleX(1
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-350px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
-
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -193,7 +191,7 @@ ___
 > ___
 >
 > ***Scythed Wheels.*** If the chariot has moved at least its max speed since the start of its steeds' last turn, its charioteer can have it make a melee weapon attack against a creature it moves past that is within 5 feet of the carriage. The attack can only be made once per turn and has the following properties:<br>
-*Melee Weapon Attack:* +5 to hit, *Hit:* 8 (2d4 + 3) slashing damage.
+*Melee Weapon Attack:* charioteer's proficiency bonus + 3 to hit, *Hit:* 8 (2d4 + 3) slashing damage.
 >
 
 
@@ -225,3 +223,7 @@ ___
 
 #### 0.0.0
 * Document creation
+
+#### 0.1.0
+* Add land vehicle proficiency requirement to be charioteer
+* Add charioteer's proficiency bonus to Scythed Wheels attack of Scythed Chariot 
