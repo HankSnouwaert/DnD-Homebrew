@@ -1,15 +1,41 @@
+<style>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after, .phb#p4:after, .phb#p8:after, .phb#p9:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Wolves
-These majestic and deadly hunters roam many of the world's forests and tundras, using their brutally effective pack-hunting tactics to fell much larger and more dangerous animals and strike fear in the hearts of humanoids who venture too far into the wilds. The sounds of distant howling will alert travelers that they are entering wolf territory, and few do so willingly unless traveling in a well-armed group.
+These majestic and deadly hunters roam many of the world’s forests and tundras, using their brutally effective pack-hunting tactics to fell much larger and more dangerous animals. Wolves strike fear in the hearts of humanoids who venture too far into the wilds, and their notoriety has earned them a place as common monsters and villains in many fables and children’s tales. The sounds of distant howling will alert travelers that they are entering wolf territory, and few do so willingly unless traveling in a well-armed group. Any travelers who become lost and isolated in the woods will have little hope of survival should a pack of wolves pick up their scent.
 
-\columnbreak
 
-<br><br>
 
 ***Master Pack Hunters.*** 
-Should they become the wolves' prey, the travelers will be offered no additional warnings, as the pack will silently stalk the travelers, slowly closing in until they are noticed. Once the pack is spotted, it will close in and attempt to drive its prey into fleeing. Sufficiently powerful prey that stands its ground and proves intimidating enough may be able to drive the wolves away. Wolves that press the attack will attempt to separate the weakest-looking target from its companions and drag it to the ground, where it can be subdued with vicious bites. 
+Those who catch the attention of a wolf pack will often be oblivious to their peril as the pack silently stalks its prey, slowly closing in until they are noticed. Once the pack is spotted, it will close in and attempt to drive its prey into fleeing. Sufficiently powerful prey that stands its ground and proves intimidating enough may be able to drive the wolves away. Wolves that press the attack will attempt to separate the weakest-looking target from its companions and drag it to the ground, where it can be subdued with vicious bites. Even if the prey manages to flee, the wolves will relentlessly pursue it until they are able to surround and slaughter their victim.
 
 
 <img src='https://i.ibb.co/8cfWC9K/ilse-gort-sarulfspackmate-publish.jpg' style='position:absolute; top:-40px; right:-315px; width:1300px;' />
@@ -20,7 +46,7 @@ style='position:absolute;top:110px;left:-50px;width:1000px;transform:rotate(-15d
 
 <div style='margin-top:350px;'></div>
 
-\pagebreak
+\pagebreakNum
 
 
 
@@ -86,11 +112,15 @@ ___
 
 <img src='https://64.media.tumblr.com/b78a5715dbfc841c487823db3fc889b4/tumblr_o3q90uLtLj1vn68joo1_1280.jpg' style='position:absolute; top:-80px; right:-130px; width:790px;' />
   
-<img src='https://image.ibb.co/dMxPnH/Tkbl4ji.png' style='position:absolute; bottom:-170px; right:0px; width:850px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:60px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />  
+  
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-40px;top:130px;height:1400px;width:1416px;transform:rotate(190deg)' />  
 
 <div style='margin-top:540px;'></div>
 
-\pagebreak
+\pagebreakNum
 
 ### Ascendant Packleader
 
@@ -131,7 +161,7 @@ ___
 >
 > ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17 (3d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
 >
-> ***Hunters Howl (Recharges after a Short or Long Rest):***  The packleader may move up to its speed before emitting a howl that terrifies its prey and rallies its pack. Up to 6 allies within 120 feet of the packleader can use their reaction to perform one of the options described in its Bark Order ability. They must all use the same option, which the packleader chooses. Each other creature within 120 feet of the packleader must then succeed on a DC 14 Wisdom saving throw or become frightened of it for 1 minute and must immediately use its reaction, if available, to move as far as its speed allows away from the packleader. The creature doesn’t move into obviously dangerous ground, such as a fire or a pit. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+> ***Hunter's Howl (Recharges after a Short or Long Rest):***  The packleader may move up to its speed before emitting a howl that terrifies its prey and rallies its pack. Up to 6 allies within 120 feet of the packleader can use their reaction to perform one of the options described in its Bark Order ability. They must all use the same option, which the packleader chooses. Each other creature within 120 feet of the packleader must then succeed on a DC 14 Wisdom saving throw or become frightened of it for 1 minute and must immediately use its reaction, if available, to move as far as its speed allows away from the packleader. The creature doesn’t move into obviously dangerous ground, such as a fire or a pit. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 >
 >
 > ### Bonus Actions
@@ -145,15 +175,62 @@ ___
 > &#8226; If the creature is suffering an effect that requires it to make a saving throw at the beginning or end of its next turn, it immediately makes that save.
 >
 
-<img src='https://i.ibb.co/qjSR01M/Ascendant-Packleader-Innistrad-Crimson-Vow-Mt-G-Art-1024x768.jpg' style='position:absolute; top:-90px; right:-330px; width:816px;' />
-  
+<img src='https://i.ibb.co/qjSR01M/Ascendant-Packleader-Innistrad-Crimson-Vow-Mt-G-Art-1024x768.jpg' style='position:absolute; top:-70px; right:-370px; width:800px;' />
 
-\pagebreak
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-210px;top:150px;height:1400px;width:1416px;transform:rotate(180deg)' />    
 
-<img src='https://i.ibb.co/Cbqk41p/Primal-Adversary-Innistrad-Midnight-Hunt-Mt-G-Art.jpg' style='position:absolute; bottom:-90px; right:-00px; width:816px;' />
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />   
+
+\pagebreakNum
+
+## Wolves in Your Adventures
+The following tables provide some adventure hooks for incorporating wolves into your adventures. 
+
+##### Wolf Adventures
+
+| d8  | Plot Hook |
+|:---:|:-----------:|
+|  1  | The players are traveling on a wagon that breaks down on a remote trail deep in the wood. While attempting repairs, they are attacked by a pack of wolves.|
+|  2  |The players find a recently razed town by a roving group of raiders, leaving hungry wolves to scrounge through the burning wreckage for survivors.  |
+|  3  | The players find a group of travelers lost in a blizzard who claim they are being picked off one by one by a pack of wolves.     |
+|  4  | A cattle merchant tasks the players with guarding a caravan of his best cows through wolf-infested territory.    |
+|  5  |Tired of seeing his forest home slowly whittled away by humanoids, an ambitious druid begins amassing an army of dire wolves to conquer and reclaim lost lands in the name of the wilds.  |
+|  6  | A shrine in the wilderness contains an inscription informing petitioners they may ask for the aid of the gods of the wild if they are willing to prove their worth. Those who offer prayers at the shrine soon find themselves hunted by a pack of dire wolves. If the wolves are defeated, the gods will grant the players their blessing. |
+|  7  | A group of bandits raiding a temple have been transformed into a pack of dire wolves by the god they angered. This transformation has not curbed their raiding tendencies. |
+|  8  | A retired hunter tries to settle into a new life with his family but finds himself beset by vengeful forest spirits in the form of dire wolves. He asks for the players’ aid in protecting his family and putting these threats down once and for all.   |
+
+\columnbreak
 
 
-\pagebreak
+
+##### Ascendant Packleader Adventures
+
+| d8  | Plot Hook |
+|:---:|:-----------:|
+|  1  | An aberrant artifact placed in a sacred glaive has driven the local wolves and their celestial guardian mad. |
+|  2  |A fallen celestial has taken the form of an unholy wolf and now leads a pack of wolves intent on purging every frontier town it finds of all life.|
+|  3  |In the dead of winter, wicked spirits have begun preying on the weak and infirm of a woodland village. Those who survive tell of a divine wolf who drove the wraiths away.  |
+|  4  | A group of mystics has ritually transformed a wolf into an ascendant packleader under their control. They now use the creature and its wolf pack to purge their forest of rival powers.     |
+|  5  | An ascendant packleader has begun preying on hunters and loggers who’ve taken too much from the forest or displayed cruelty to wild creatures.|
+|  6  | A fallen hero who died attempting to purge a forest of a wicked green dragon has been given a second chance in the form of an ascendant packleader. The fallen hero will aid the players should they take up the quest to slay the dragon.  |
+
+**Encounter described in Wolves Encounter Guide*
+
+### Art Credit
+* Sarulf's Packmate - Ilse Gort, Wizards of the Coast
+* Wolf Token - Raoul Vitale, Wizards of the Coast
+* Ascendant Packleader - Alessandra Pisano, <Br>Wizards of the Coast
+* Snarling Wolf - Ilse Gort, <Br> Wizards of the Coast
+
+<img src='https://i.ibb.co/Q8TgkNV/Snarling-Wolf-Innistrad-Midnight-Hunt-Mt-G-Art.jpg' style='position:absolute; top:440px; right:-190px; width:1100px;' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-265px;bottom:-45px;transform:rotate(-27deg)' />
+
+\pagebreakNum
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -165,7 +242,7 @@ These savage predators are the most common and notorious of all lycanthropes. By
 ***Ravagers of Civilization.***
 Most who contract werewolf lycanthropy withdraw from civilization. Even those who embrace their curse and care nothing for the harm they cause know they can't maintain their guise among other humanoids for long because, when a werewolf's transformation occurs, it becomes the anathema of all things civilized. The veneer of principles and rationality melt away, and primal instincts take over. The overriding emotion werewolves often feel is rage towards the civilized society that keeps them chained beneath the surface for the majority of their life. As such, werewolves often prioritize hunting other humanoids as a way of exacting their vengeance on the shackles of civilization. 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 Some humanoids embrace this hatred and actively seek to tear down civilization even when in their humanoid form. Others fight against it, trying to maintain their guise of civility, which only serves to fuel the fury of the wolf within. Others find a way to make peace with their inner beast, and while still savage at heart, they are able to channel their ferocity in a way that minimizes harm to other innocent sentient creatures.
 
@@ -176,7 +253,13 @@ Other werewolves live a more solitary life, shunning the company of their kind. 
 <img src='https://i.ibb.co/s608nN7/Savage-Packmate-Innistrad-Crimson-Vow-Mt-G-Art.jpg' style='position:absolute; top:-0px; right:-00px; width:816px;' />
 
 
-\pagebreak
+<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:-70px; right:-100px; width:920px; transform:rotate(-10deg);filter:opacity(20%);'/>
+
+<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:-40px; right:-00px; width:820px; transform:rotate(-4deg);filter:opacity(100%);'/>
+
+<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:-130px; right:60px; width:820px; transform:rotate(-4deg);filter:opacity(100%);'/>
+
+\pagebreakNum
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -219,13 +302,17 @@ ___
 >
 > ***Shapechanger.*** The werewolf polymorphs into wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
-<img src='https://i.ibb.co/FBQTp5s/Ravager-of-the-fells.jpg' style='position:absolute; top:-40px; right:-100px; width:1000px;' />
+<img src='https://i.ibb.co/Mfy8sDW/stalking-predator.png' style='position:absolute; top:-40px; right:-100px; width:1000px;' />
   
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:110px;left:-50px;width:1000px;transform:rotate(-15deg)' />
+style='position:absolute;top:10px;left:-50px;width:1000px;transform:rotate(-25deg)' />
 
-\pagebreak
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:200px;left:-50px;width:1000px;transform:rotate(-25deg)' />
+
+\pagebreakNum
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -272,7 +359,11 @@ ___
 
 <img src='https://i.ibb.co/qrsk1pH/One-of-the-Pack-Shadows-over-Innistrad-Art.jpg' style='position:absolute; top:-50px; right:-00px; width:816px;' />
 
-\pagebreak
+<img src='https://www.gmbinder.com/images/XzbbBU4.png' style='position:absolute; bottom:-420px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<div style='margin-top:280px;'></div>
+
+\pagebreakNum
 
 ### Werewolf Moon Mystics
 
@@ -321,14 +412,20 @@ ___
 >
 > ***Lunar Bolt. (3/Day)*** *Ranged Spell attack:* +6 to hit, range 120 ft., one creature. *Hit:* 14 (4d6) radiant damage and moonlight illuminates the target until the end of the werewolf's next turn. While illuminated this way, the target sheds dim light in a 10-foot radius, any attack roll against an affected target has advantage if the attacker can see it, and the affected target can't benefit from being invisible.
 >
-> ***Searing Moon Light. (1/Day)*** A pale beam of moonlight appears and fills a 10-foot-radius, 60-foot-high cylinder centered on a point within 120 of the werewolf. The cylinder lasts as long as the werewolf maintains concentration on it, up to a minute (as if concentrating on a spell). The area of the cylinder is considered dimly lit. Any non-shapechanger that is caught in the area of the moonbeam when it first appears or that ends its turn within the moonbeam must make a DC 13 Constitution saving throw. It takes 16 (3d10) radiant damage on a failed save, or half as much damage on a successful one. While maintaining concentration on this ability, the werewolf can use its bonus action to move the beam 30 feet in any direction.
+> ***Searing Moonlight. (1/Day)*** A pale beam of moonlight appears and fills a 10-foot-radius, 60-foot-high cylinder centered on a point within 120 of the werewolf. The cylinder lasts as long as the werewolf maintains concentration on it, up to a minute (as if concentrating on a spell). The area of the cylinder is considered dimly lit. Any non-shapechanger that is caught in the area of the moonbeam when it first appears or that ends its turn within the moonbeam must make a DC 13 Constitution saving throw. It takes 16 (3d10) radiant damage on a failed save, or half as much damage on a successful one. While maintaining concentration on this ability, the werewolf can use its bonus action to move the beam 30 feet in any direction.
 >
 > ### Bonus Actions
 > ***Shapechanger.*** The werewolf polymorphs into wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
-<img src='https://i.ibb.co/N63Wcnc/Wolfir-Greatsoul.png' style='position:absolute; top:-0px; right:-100px; width:680px;' />
+<img src='https://i.ibb.co/N63Wcnc/Wolfir-Greatsoul.png' style='position:absolute; top:-0px; right:-170px; width:660px;' />
 
-\pagebreak
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-210px;top:90px;height:1400px;width:1416px;transform:rotate(180deg)' />    
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />   
+
+\pagebreakNum
 
 
 
@@ -380,17 +477,58 @@ ___
 
 <img src='https://i.ibb.co/XFcjf50/village-reavers.jpg' style='position:absolute;top:0px;right:0px;width:816px' />
 
+<img src='https://www.gmbinder.com/images/XzbbBU4.png' style='position:absolute; bottom:-350px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
 
-\pagebreak
+<div style='margin-top:280px;'></div>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Werewolves in Your Adventures
+The following tables provide some adventure hooks for incorporating werewolves into your adventures. 
+
+##### Werewolf Adventures
+
+| d8  | Plot Hook |
+|:---:|:-----------:|
+|  1  |The players are traveling on a trade wagon with a merchant offering them a ride. As the sun sets, the merchant begins acting strangely and stops the wagon just before transforming into a werewolf.|
+|  2  |A lycanthropic serial killer stalks the dark streets of a major metropolis, hunting for lone victims whose hearts he rips out and devours.  |
+|  3  | While traveling along a path through deep wilderness, the players find a rustic inn run by a welcoming family. When night falls, the family transforms into werewolves and devours their guests.     |
+|  4  | A young group of men notorious for their belligerent and out-of-control revelry are actually werewolves who enjoy partying one night and then spending the next hunting any who caught their fancy or got on their bad side the previous night.    |
 
 
-<img src='https://i.ibb.co/Mfy8sDW/stalking-predator.png' style='position:absolute;top:0px;right:-100px;width:1000px' />
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-\pagebreak
+|   |  |
+|:---:|:-----------:|
+|  5  |The players find a town that has just been ravaged by a werewolf packleader. By the time the players find the werewolf, the mangled remains of the villagers jolt awake as they violently transform into werewolves.  |
+|  6  | A regiment of soldiers thought lost to the wilds has returned, cursed with lycanthropy. These renegade lupine soldiers, led by a sergeant packmaster, now make their own agendas and carry out their own missions. |
+|  7  |A moon mystic has begun a ritual that will allow it to take control of every predator in its woodland home. If the players attempt to interrupt, it will unleash waves of wolf minions while attacking with its own lunar wrath. |
+|  8  | A moon mystic asks for the players’ aid in stopping a young pack of werewolves mindlessly slaughtering all life in their path.
 
+**Encounter found in Wolves Encounter Guide*
 
+### Art Credit
+* Savage Packmate - Mila Pesic, Wizards of the Coast
+* Ravager of the Fells - Magali Villeneuve, Wizards of the Coast
+* One of the Pack - Craig J Spearing, Wizards of the Coast
+* Wolfir Silverheart - Raymond Swanland, Wizards of the Coast
+* Village Reavers - Nestor Ossandon Leal, Wizards of the Coast
+* Stalking Predator - Lie Setiawan, Wizards of the Coast
 
-<img src='https://i.ibb.co/Q8TgkNV/Snarling-Wolf-Innistrad-Midnight-Hunt-Mt-G-Art.jpg' style='position:absolute; top:380px; right:0px; width:1100px;' />
+<img src='https://i.ibb.co/FBQTp5s/Ravager-of-the-fells.jpg' style='position:absolute;top:-40px;right:-100px;width:1000px' />
 
-\pagebreak
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-65px;left:0px;width:916px;transform:scalex(-1)rotate(-6deg)' />
+
+<div style='margin-top:450px;'></div>
+
+\pagebreakNum
+
+### Changelog
+#### 0.0.0
+* Document creation
+
