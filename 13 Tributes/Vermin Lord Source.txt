@@ -324,7 +324,7 @@ ___
 
 \pagebreak
 
-## New Spells
+
 
 #### Death Frenzy
 *2nd-level transmutation*
@@ -370,10 +370,27 @@ ___
 
 A 20-foot-radius sphere of smoke appears centered on yourself. It lasts until the end of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it, you may then move up to 60 feet and you do not provoke opportunity attacks.
 
-\columnbreak
 
-## New Creatures
 
+#### Stream of Corruption
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (30-foot cone) or 100 feet
+- **Components:** S, M (a vial of meltwater)
+- **Duration:**   Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+Bile spews forth from you in a 30-foot cone.  Each creature in that area must make a Constitution saving throw.  A creature takes 3d8 necrotic damage on a failed save, or half as much damage on a successful one.
+
+When you cast this spell, you may instead choose a creature within 100 feet of you that you can see and force it to make a Constitution saving throw.  On failed save, it takes 3d8 necrotic damage, and you may cause the cone of bile described above to spew forth from the creature in the direction you choose.  On a successful save, a creature takes half as much damage and does not spew bile.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and creatures in the area of the cone of bile by 1d8 for each slot level above 2nd.
+
+
+
+___
 ___
 > ## Rat, Monstrous
 >*Medium beast, unaligned*
@@ -408,14 +425,6 @@ ___
 >
 
 
-
-<img src='https://i.ibb.co/k0RJTsZ/ruin-rat.jpg' style='position:absolute; bottom:-80px; right:-55px; width:600px; transform:rotate(0deg);filter:opacity(100%);'/>
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:00px;top:-305px;height:1400px;width:1416px;transform:rotate(0deg)' />
 
 \pagebreak
 
@@ -487,7 +496,6 @@ The following table provides you with some ways you can incorporate different ty
 * Age of Sigmar Soulbound Verminlord - Pasi Juhola
 * Verminlord Corrupter, Warhammer Age of Sigmar - Games Workshop
 * Verminlord, Warhammer Fantasy - Games Workshop
-* Ruin Rat - Shreya Shetty, Wizards of the Coast
 * Fyreslayers vs. Pestilens, Warhammer Age of Sigmar - Games Workshop
 
 \columnbreak
@@ -495,3 +503,13 @@ The following table provides you with some ways you can incorporate different ty
 ### Change Log
 #### 1.0.0
 * Public release
+
+#### 1.1.0
+* Add stream of corruption spell
+
+
+### Referenced Content
+* Death Frenzy 1.0.0
+* Inflict Rot 1.0.0
+* Smoke Shroud 1.0.0
+* Stream of Corruption 1.0.0
