@@ -41,7 +41,7 @@ These eldritch ratfolk are born with grey or <br> white fur and small horns that
 ___
 ___
 > ## Ratfolk Grey Seer
->*Medium humanoid, unaligned*
+>*Medium humanoid (ratfolk), chaotic evil*
 > ___
 > - **Armor Class** 15 (studded leather)
 > - **Hit Points** 170 (20d8+60)
@@ -79,12 +79,11 @@ ___
 >
 > 1/day each: *chain lightning*, *commune*, *fissure*, *scrying*
 >
-> ***Vermintide (1/Day).*** three **rat tides*** appear in unoccupied spaces within 60 feet of the 
-ratfolk and remain for 10 minutes, or until destroyed, or Ratfolk dies. Rat tides summoned in this shares ratfolk's initiative count, but their turn immediately after it in the oder of ratfolk choice. 
+> ***Vermintide (1/Day).*** Three **rat tides*** appear in unoccupied spaces within 60 feet of the ratfolk and remain for 10 minutes or until destroyed or the ratfolk dies. The rat tides have their own turns but use the ratfolk's initiative and take their turns immediately after the ratfolk.
 >
 > ### Reactions
 >
-> ***Scurry Away.***  When an enemy the ratfolk can see ends its turn, the ratfolk can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the ratfolk can only take the dash, disengage, dodge, or hide action. This feature ignores immunity to the frightened condition.
+> ***Scurry Away.***  When an enemy the ratfolk can see ends its turn, the ratfolk can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
 
 
 <img src='https://i.ibb.co/NyvtyDv/phil-moss-skaven-grey-seer.jpg' style='position:absolute; top:-310px; right:-260px; width:900px; transform:scalex(1);filter:opacity(100%);'/>
@@ -132,7 +131,7 @@ ___
 > ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (3d6) piercing damage.
 >
 > ### Reactions
-> ***Scurry Away.*** When an enemy the swarm can see ends its turn, the swarm can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the swarm can only take the dash, disengage, dodge, or hide action. This feature ignores immunity to the frightened condition.
+> ***Scurry Away.*** When an enemy the swarm can see ends its turn, the swarm can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the swarm can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
 
 
 \columnbreak
@@ -185,5 +184,23 @@ The fissure deals 50 bludgeoning damage to any structure it comes in contact wit
 
 \pagebreak
 
-#### 0.0.0
-* Document Creation
+#### 1.0.0
+* Public release
+* Change alignment to chaotic evil
+
+#### 1.0.1
+* Capitalize actions in Scurry Away
+* Update referenced Rat Tide
+
+#### 1.1.0
+* Clean up major typos in Vermintide ability
+
+#### 1.1.1
+* Add (ratfolk) to creature type
+
+\columnbreak
+
+### Referenced Content
+* Death Frenzy 1.0.0
+* Fissure 1.0.0
+* Rat Tide 1.1.1
