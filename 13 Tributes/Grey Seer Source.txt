@@ -20,7 +20,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after  {
+    .phb#p1:after, .phb#p2:after {
         display          : none;
     }
     /* End Footers */
@@ -41,21 +41,21 @@ These eldritch ratfolk are born with grey or <br> white fur and small horns that
 ___
 ___
 > ## Ratfolk Grey Seer
->*Medium humanoid, unaligned*
+>*Medium humanoid, chaotic evil*
 > ___
 > - **Armor Class** 15 (studded leather)
-> - **Hit Points**  117 (18d8 + 36)
+> - **Hit Points** 170 (20d8+60)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (+0)|16 (+3)|14 (+2)|18 (+4)|16 (+3)|20 (+5)|
+>|10 (+0)|16 (+3)|16 (+3)|18 (+4)|16 (+3)|20 (+5)|
 >___
-> - **Saving Throws**  Con +6, Int +8, Wis +7, Cha +9 
+> - **Saving Throws**  Con +8, Int +9, Wis +8, Cha +10 
 > - **Skills** Arcana + 8, Deception +9, Insight +7, Religion +7
 > - **Senses** darkvision 60 ft., passive Perception 17
 > - **Languages** Common, Undercommon
-> - **Challenge** 10 (5,900 XP) &emsp;&emsp;&emsp;&nbsp;    **Proficiency Bonus** +4
+> - **Challenge** 13 (5,900 XP) &emsp;&emsp;&emsp;&nbsp;    **Proficiency Bonus** +5
 > ___
 > ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough to fit a creature one size smaller than it without squeezing.
 >
@@ -63,30 +63,28 @@ ___
 >
 > ***Favor of the Rat God (3/Day).*** If the ratfolk fails a saving throw or an attack roll is made against it and hits, it can roll 3d8 and add or subtract the number from the total roll, possibly changing the outcome.
 >
-> ***Overwhelming Mass (3).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 3 damage per ally it has within 5 feet of its target that isn't incapacitated. The ratfolk can benefit from up to 3 allies this way. <br><br>
+> ***Overwhelming Mass (5).*** The first time each turn that the ratfolk hits a creature with an attack, it deals an extra 5 damage per ally it has within 5 feet of its target that isn't incapacitated. The ratfolk can benefit from up to 3 allies this way. <br><br>
 >
 > ### Actions
 >
-> ***Warp Staff.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage plus 13 (3d8) lightning damage, and the target can’t take reactions until the start of its next turn.
+> ***Warp Staff.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage plus 27 (6d8) lightning damage, and the target can’t take reactions until the start of its next turn.
 >
-> ***Lightning Strike.*** *Ranged Spell Attack:* +9 to hit, range 120 feet, one target. *Hit:* 28 (8d6) lightning damage.
+> ***Lightning Strike.*** *Ranged Spell Attack:* +10 to hit, range 120 feet, one target. *Hit:* 45 (10d8) lightning damage.
 >
-> ***Spellcasting.*** The ratfolk casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 17, +9 to hit with spell attacks):
+> ***Spellcasting.*** The ratfolk casts one of the following spells, requiring no components and using Charisma as its spellcasting ability spell (spell save DC 18, +10 to hit with spell attacks):
 >
 > At will: *guidance*, *mage hand*, *message*, *thaumaturgy*
 >
-> 2/day each:  *control winds*, *death frenzy (4th level)* *, *fireball*
+> 2/day each:  *control winds*, *death frenzy* (6th-level version), *fireball*
 >
-> 1/day each: *chain lightning*, *commune*, *fissure**, *scrying*
+> 1/day each: *chain lightning*, *commune*, *fissure*, *scrying*
 >
-> ***Vermintide (1/Day).*** Two **rat tides*** appear in unoccupied spaces within 60 feet of the 
-ratfolk and remain for 1 hour or until destroyed. Rat tides summoned in this way roll initiative and act on the next available turn. 
+> ***Vermintide (1/Day).*** Three **rat tides*** appear in unoccupied spaces within 60 feet of the ratfolk and remain for 10 minutes or until destroyed or the ratfolk dies. The rat tides have their own turns but use the ratfolk's initiative and take their turns immediately after the ratfolk.
 >
 > ### Reactions
 >
-> ***Scurry Away.***  When an enemy the ratfolk can see ends its turn, the ratfolk can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the ratfolk can only take the dash, disengage, dodge, or hide action. This feature ignores immunity to the frightened condition.
->
-> **See end of document for new spells and stat blocks*
+> ***Scurry Away.***  When an enemy the ratfolk can see ends its turn, the ratfolk can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+
 
 <img src='https://i.ibb.co/NyvtyDv/phil-moss-skaven-grey-seer.jpg' style='position:absolute; top:-310px; right:-260px; width:900px; transform:scalex(1);filter:opacity(100%);'/>
 
@@ -100,10 +98,106 @@ ratfolk and remain for 1 hour or until destroyed. Rat tides summoned in this way
 
 \pagebreak
 
-### Art Credit
-* Skaven Grey Seer - Phil Moss
+___
+> ## Rat Tide
+>*Large swarm of tiny beasts, unaligned*
+> ___
+> - **Armor Class** 10
+> - **Hit Points**  72 (16d10-16)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|10 (0)|9 (-1)|4 (-3)|12 (+1)|4 (-3)|
+>___
+> - **Skills** Perception +3
+> - **Damage Resistance** bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses** darkvision 30 ft., passive Perception 13
+> - **Languages** ━
+> - **Challenge** 3 (700 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Keen Smell.*** The swarm has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass (2).*** The first time each turn that the swarm hits a creature with a weapon attack, it deals an extra 2 damage per each ally within 5 feet of the target that isn't incapacitated, up to a maximum of 6 extra damage.
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny rat. The swarm can't regain hit points or gain temporary hit points.
+>
+> ### Actions
+>
+> ***Multiattack.*** The swarm makes two attacks or one attack if the swarm has half of its hit points or fewer. 
+>
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (3d6) piercing damage.
+>
+> ### Reactions
+> ***Scurry Away.*** When an enemy the swarm can see ends its turn, the swarm can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the swarm can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+
 
 \columnbreak
 
-#### 0.0.0
-* Document Creation
+
+#### Death Frenzy
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S, M (a sharp tooth)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Warlock
+___
+
+You send a creature into a frenzy that pushes its body beyond its limits. Choose a willing creature you can see within range. Until the spell ends, it takes 1d10 necrotic damage at the start of each of its turns and has advantage on weapon and unarmed strike attack rolls until that turn ends. This damage can’t be reduced or prevented in any way.
+
+***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. All the creatures must be within 30 feet of each other when you target them.
+
+#### Fissure
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (60-foot line)
+- **Components:** V, S,
+- **Duration:** Instantaneous
+- **Classes:** Druid
+___
+
+You strike a non-magical surface, causing a fissure to erupt out from you and split it down a line up to 60 feet long.  The fissure opens up to 20 feet wide and 40 feet deep.  If the ground is not deep enough to accommodate the fissure, the ground opens up to whatever lies beneath.  
+
+A creature standing in the area of the fissure must succeed on a Dexterity saving throw or fall prone and into the fissure.  Creatures that succeed on the save move to the edge of the fissure and may choose which side it moves to. 
+
+The fissure deals 50 bludgeoning damage to any structure it comes in contact with it when it appears. The fissure lasts indefinitely, and the ground within it is difficult terrain.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
+
+### Art Credit
+* Skaven Grey Seer - Phil Moss
+* Pack Rat - Kev Walker, Wizards of the Coast
+
+
+
+<img src='https://i.ibb.co/MSLjnWm/Pack-Rat-Art.jpg' style='position:absolute; bottom:-20px; right:-20px; width:836px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/uvX1qOq.png' style='position:absolute; bottom:-190px; right:-70px; width:850px; transform:rotate(95deg);filter:opacity(100%)'/>
+
+<img src='https://www.gmbinder.com/images/uvX1qOq.png' style='position:absolute; bottom:100px; right:-70px; width:850px; transform:rotate(95deg);filter:opacity(100%)'/>
+
+
+\pagebreak
+
+#### 1.0.0
+* Public release
+* Change alignment to chaotic evil
+
+#### 1.0.1
+* Capitalize actions in Scurry Away
+* Update referenced Rat Tide
+
+#### 1.1.0
+* Clean up major typos in Vermintide ability
+
+\columnbreak
+
+### Referenced Content
+* Death Frenzy 1.0.0
+* Fissure 1.0.0
+* Rat Tide 1.1.1
