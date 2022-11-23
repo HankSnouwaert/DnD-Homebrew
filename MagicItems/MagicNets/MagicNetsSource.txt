@@ -1,7 +1,8 @@
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Magic Nets
+Unless stated otherwise, a net loses its magical properties once a creature it has entangled is freed from it.
 
 #### Anti-Magic Net
 *Net, common (DC 13), uncommon (DC 15), rare (DC 17), very rare (DC 18), legendary (DC 19)*
@@ -17,17 +18,16 @@ Creatures restrained by this net take lighting damage at the start of each of th
 #### Ghost Net
 *Net, rare*
 
-This net can restrain incorporeal creatures normally immune to the restrained condition. Creatures restrained by the net cannot planeshift to the Ethereal Plane.
-
-### Art Credit
-* Spidersilk Net - Steve Argyle, Wizards of the Coast
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+This net can restrain incorporeal creatures normally immune to the restrained condition. Creatures restrained by the net cannot planeshift to the Ethereal Plane or benefit from invisibility. 
 
 #### Shadow Net
 *Net, rare*
 
 Creatures restrained by this net are blinded unless they have the ability to see through magical darkness as cloying shadows cover their eyes.
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 #### Toxic Net
 *Net, common (DC 13), uncommon (DC 15), rare (DC 17), very rare (DC 18), or legendary (DC 19)*
@@ -36,21 +36,31 @@ These nets are woven with vines that release poisonous aerosols when destroyed. 
 
 A creature poisoned this way can repeat the save at the end of each of its turns, ending the effect on a success.
 
+The net doesn't lose its magical properties until it is destroyed this way.
+
 #### Mega Net
 *Net, rare*
 
-This net can restrain Huge creatures. When you throw this net, it magically extends itself outwards, and you can make an attack roll with it against each creature in a 10-foot area within range. Each creature you hit is restrained by the net, and if one of those creatures is moved, all other netted creatures are moved with it. 
+When you throw this net, you target a point within its range. As it lands, the net magically expands either 5 or 10 feet (your choice) outwards in all directions from that point. Make an attack roll with the net against each creature completely within that area. On a hit, that creature is restrained by the net. 
 
+Huge creatures can be restrained by the net, but Gargantuan creatures are immune.
+
+If one of the creatures restrained by the net is moved, all other creatures in the net are moved with it. However, no effect can move a creature within the net unless it can move all the creatures in the net.
+
+Each creature must cut or break its way free of the net individually. The net doesn't lose its magical properties until each creature it has restrained is freed from it.
+
+### Art Credit
+* Spidersilk Net - Steve Argyle, Wizards of the Coast
 
 <div style='margin-top:850px;'></div>
 <img
 src='https://i.ibb.co/wBFqpY2/Spidersilk-Net-Dragons-of-Tarkir-Mt-G-Art.jpg'
-style='position:absolute;top:-20px;right:-50px;width:920px;transform:scaleX(-1)' />
+style='position:absolute;top:-50px;right:-0px;width:820px;transform:scaleX(-1)' />
 
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:190px; right:-70px; width:1000px; filter:grayscale(00%) brightness(97%);transform:rotate(10deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:85px; right:-70px; width:1000px; filter:grayscale(00%) brightness(97%);transform:rotate(8deg)' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:470px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:380px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 <div style='margin-top:325px;'></div>
 
@@ -61,3 +71,11 @@ style='position:absolute;top:-20px;right:-50px;width:920px;transform:scaleX(-1)'
 
 #### 1.1.0
 * Update wording on shadow net to it doesn't obscure the target
+
+#### 1.2.0
+* Rework Mega Net
+
+#### 1.3.0
+* Add clarification on net losing their magical properties after their use
+* Extent caveats to toxic net and mega net
+* Give ghost net the ability to negate invisibility of its target
