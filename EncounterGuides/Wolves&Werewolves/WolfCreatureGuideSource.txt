@@ -1,6 +1,34 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p5:after, .phb#p7:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br>
 
-# Creature Guide: Wolves
+# Wolf Creature Guide
 This document contains a collection of resources to help you run adventures heavily featuring wolves. These resources are divided into an Encounter Guide, a Loot Guide, and Example Encounters. Encounter Guides will help you understand the mindset, motivations, and tactics of the creatures, so you have a better idea of how to play them. Loot Guides provide alternate ways to provide treasure found after defeating these enemies. Example Encounters will provide encounter scenarios involving these creatures and instructions on how to run them.
 
 ## Encounter Guides
@@ -37,9 +65,9 @@ The guides provide rules for allowing players to loot valuable goods from their 
 >Treasure other than coins, gems, and art objects can be used to provide forms of wealth that better fit the context of the current environment. Players with the right skill sets might also be able to use valuables they find this way to craft useful items. These could be handy mundane items or even magic items. Hide and bone could be crafted into weapons and armor, while potent plants or liquids could form the base for a potion.
 
 
-<img src='https://i.ibb.co/xsd0sSc/Mowgli-And-The-Lone-Wolf-Maurice-And-Edward-Detmold.jpg' style='position:absolute; top:-440px; right:-530px; width:1050px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://i.ibb.co/xsd0sSc/Mowgli-And-The-Lone-Wolf-Maurice-And-Edward-Detmold.jpg' style='position:absolute; top:-465px; right:-560px; width:1080px; transform:rotate(0deg);filter:opacity(100%);'/>
 
-<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-30px; right:-80px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-30px; right:-70px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -62,11 +90,11 @@ Being beasts, wolves usually have straightforward motivations driving their goal
 * Act in service or protection of those it perceives as packmates
 
 #### Ascendant Packleader Motivations
-* Serve the sacred purpose of its creation
+* Serve the sacred purpose it was created for
 
 
 ### Wolf Tactics
-While wolves may be beasts with simple motivations, they excel and hunting in packs and are capable of coordinated group tactics in combat. They utilize primarily the same tactics when hunting in the wild or with humanoid masters.
+While wolves may be beasts with simple motivations, they excel at hunting in packs and are capable of coordinated group tactics in combat. They utilize the same tactics when hunting in the wild or with humanoid masters.
 
 #### Engagement
 
@@ -124,7 +152,7 @@ The following table lists the types of materials likely to be harvested from wol
 
 
 ##### Example Item Names
-| GP <br> Value  | Hide |Flesh | Blood | Bones |
+| Value  | Hide |Flesh | Blood | Bones |
 |:---:|:-----------:|:-----------:|:---:|:-----------:|
 |  5sp  | Tattered Wolf Pelt | Stringy Wolf Meat  | Clotted Wolf Blood | Fractured Wolf Bones | 
 |  1gp |  Wolf Pelt |  Wolf Meat  | Wolf Blood | Wolf Bones |
@@ -184,7 +212,7 @@ In this encounter, the players find themselves protecting a broken-down wagon un
 The wagon is being pulled by a **draft horse** and piloted by a pair of traveling merchants (**nobles**) who are taking a seldom-used trade route through a dangerous frontier. They have likely brought the players along for added protection, but you may instead have the players stumble upon the wagon if they are traveling separately on foot. The region consists of snowy, forested foothills, and the wagon has lost a wheel, forcing the merchants to stop and unload it as they attempt repairs while the sun sets. 
 
 ### Lead Up
-It’s been an unusually harsh winter, and the food-deprived **wolves** in the area are becoming more aggressive in their hunt for food. The wolves spot the wagon, the attempt to sneak up on it from all sides. If one of the players spots them, their characters will have a moment to ready themselves. Otherwise, the wolves will sneak up until they appear at the locations shown on the encounter map, at which point they will rush in at the surprised travelers.
+It’s been an unusually harsh winter, and the food-deprived **wolves** in the area are becoming more aggressive in their hunt for food. The wolves spot the wagon, and attempt to sneak up on it from all sides. If one of the players spots them, their characters will have a moment to ready themselves. Otherwise, the wolves will sneak up until they appear at the locations shown on the encounter map, at which point they will rush in at the surprised travelers.
 
 When this occurs, you can read the following description:
 
@@ -194,23 +222,23 @@ When this occurs, you can read the following description:
 ### Map Description
 * **The Ground.** The clearing with the wagon is mostly open terrain, and the snowy areas are not deep enough to impede movement. The area with the wagon is on a lower elevation than the surrounding edges of the map, which slopes down towards the center.
 * **Trees.** The smaller or isolated trees provide half cover to any creatures behind them. The larger groups of trees provide three-quarters cover. 
-* **Wagon.** The wagon blocks line of sight to creatures in it and provides three-quarters cover to creatures attacking from the outside in. It provides total cover for creatures on opposite sides of it.
+* **Wagon.** The wagon blocks line of sight to creatures in it and provides three-quarters cover against creatures attacking from the outside in. It provides total cover for creatures on opposite sides of it.
 * **Ledges.** The rocky ledges provide about a 10-foot drop from the outside towards the center.
 
 
 
 
-##### Wolf Encounter Map #1 (Wagon)
+##### Encounter Map: Snowy Wagon Trail
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Map Legend
 * **W:** Wolf Arrival Area
 
-### Encounter Tactics
+### Running Combat
 
 
-The wolves will charge the wagon in an attempt to spook their newfound prey into running. If nobody runs they will attempt to gang up on any player who is apart from the rest of the group. If the players all stay grouped up in or around the wagon, a pair of wolves will close in on the panicked horse in an attempt to score an easy kill. If a player exits the wagon to intervene, other wolves will surround that player and attempt to bring them down with trip attacks and pack tactics.
+The wolves will charge the wagon in an attempt to spook their newfound prey into running. If nobody runs, they will attempt to gang up on any player who is apart from the rest of the group. If the players all stay grouped up in or around the wagon, a pair of wolves will close in on the panicked horse in an attempt to score an easy kill. If a player exits the wagon to intervene, other wolves will surround that player and attempt to bring them down with trip attacks and pack tactics.
 
 Any wolf that is reduced to half its hit points or less will attempt to flee for its life. Once half the pack is dead or fleeing, the remainder will flee as well. 
 
@@ -218,7 +246,7 @@ Any wolf that is reduced to half its hit points or less will attempt to flee for
 
 The two merchants are each armed with daggers but will hide inside the wagon while they wait for the players to drive off the wolves. They will only attack wolves who threaten the wagon. If they see their horse come under attack, they will shout at the players to intervene.
 
-If you wish to add a complication to combat, you can have one of the nobles hop onto the horse and release it from the wagon so he can make a break for safety. If it manages to ride off, the wolf pack will begin pursuing him and eventually catch up and kill him and his horse if the players don’t intervene.
+If you wish to add a complication to combat, you can have one of the merchants hop onto the horse and release it from the wagon so he can make a break for safety. If he manages to ride off, the wolf pack will begin pursuing him and eventually catch up and kill him and his horse if the players don’t intervene.
 
 
 <img src='https://i.ibb.co/Qmh9sWm/wolf-encounter-Gridless.jpg' style='position:absolute; top:125px; right:2px; width:400px; ' />
@@ -246,7 +274,7 @@ The degree of success they had in defending the caravan can affect the XP the pl
 
 * **150% XP:** Wolves driven off and everyone survives mostly unscathed
 * **100% XP:** Wolves driven off but the horse or one of the merchants fled or was badly wounded
-* **50% XP:** Wolves driving off but the horse or one or more of the merchants was killed
+* **50% XP:** Wolves driven off but the horse or one or more of the merchants was killed
 * **10% XP:** The horse and both merchants were killed
 
 \columnbreak
@@ -265,7 +293,7 @@ If you wish to connect this encounter to a larger adventure, the following hooks
 |:---:|:-----------:|
 |  1  | The attack was orchestrated by a spiteful druid who wishes the end all use of the trade route through her lands. |
 |  2  | The players find an abandoned wagon further along on their journey. Near the wagon are hoof and bootprints leading into the heart of the wolves’ territory. |
-|  3  | A hag has cursed the lands, starving off most of the wolves’ typical prey resulting in them aggressively hunting humanoids. |
+|  3  | A hag has cursed the lands, starving off most of the wolves’ typical prey, which has resulted in them aggressively hunting humanoids. |
 |  4  | When the players arrive at the trading post they were traveling to, they find it ransacked and abandoned. Further investigation reveals wolf paw prints all about the structure. |
 
 <img src='https://i.ibb.co/9bJVvtz/Snow-in-the-Valley-of-Eastern-Sierras-William-Keith.jpg' style='position:absolute; top:510px; right:0px; width:850px' />
@@ -296,22 +324,21 @@ When this occurs, you can read the following description:
 > Emerging from the forest around you, multiple wolves close in from all directions. Leading the pack is an unnaturally large wolf that seems to be made of writhing shadows with a pair of eyes giving off a maddening green glow. Through the trees, you can see something else is also giving off a faint green glow.
 
 ### Map Description
-* **The Ground.** The ground outside is open terrain. The snowy areas are not deep enough to impede movement, and there are no significant slopes
-* **Trees.** The smaller or isolated trees provide half cover to any creatures behind them. The larger groups of trees provide three-quarters cover. 
+* **The Ground.** The ground between trees is mostly clear terrain. The snowy areas are not deep enough to impede movement, and there are no significant slopes
 * **Trees and Bushes.** The bushes are very dense, and moving 5 feet through them costs 15 feet of movement. The lone trees provide three-quarters cover, and the tree clusters provide full cover. 
 
+\columnbreak
 
 ##### Wolf Encounter Map #2 (Town)
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Map Legend
 * **P:** Player Arrival Location
 * **W:** Wolf Arrival Location
 * **L:** Pack Leader
 
-### Encounter Tactics
-
+### Running Combat
 
 The packleader and its wolves will make preventing the players from reaching the artifact their priority. Any player that approaches it will be swarmed by as many available wolves as possible.
 
@@ -320,7 +347,7 @@ The packleader can use its Bark Order to facilitate moving wolves out of losing 
 
 #### The Artifact
 
-The item responsible for this madness looks like a crystal ball radiating an unnatural greenish light. Any creature, other than the packmaster or its wolves, that comes within 10 feet of it for the first time on its turn or ends its turn within 10 feet of it must succeed on a DC 15 Wisdom saving throw or be subjected to the *confusion* spell until the end of its next turn.
+The item causing the madness looks like a crystal ball radiating unnatural greenish light. Any creature, other than the packmaster or its wolves, that comes within 10 feet of it for the first time on its turn or starts its turn within 10 feet of it must succeed on a DC 15 Wisdom saving throw or be subjected to the *confusion* spell until the end of its next turn.
 
 The artifact has 50 HP, an AC 15, and immunity to poison and psychic damage. If it is destroyed, the green glow will vanish from the eyes of the packleader, who will then cease attacking the players and attempt to flee, taking its wolves with it.
 
@@ -341,7 +368,7 @@ So long as the artifact remains intact, the packleader will fight to the death. 
 
 
 ### Aftermath
-If the players destroy the artifact, the curse of madness on the woods will end. A golden stand on which the artifact was sitting is carved with intricate and disturbing eldritch patterns but is not magical and will fetch about 100gp on the open market. 
+If the players destroy the artifact, the curse of madness on the woods will end. The golden stand on which the artifact was sitting is carved with intricate and disturbing eldritch patterns but is not magical and will fetch about 100gp on the open market. 
 
 If the packleader is cleared of corruption and survives, it will leave a parting gift in the players’ path as they leave the woods. The players will find a wooded flute with a wolf’s head carved at the end. A player that picks it up will instantly know how it works. Anyone who uses an action to play it will cause it to emit a wolf’s howl, which summons 4 wolves as though summoned by the *conjure animals* spell. Once the flute is used this way, it loses all its magical properties, which the players should be aware of when they receive it. 
 
@@ -353,7 +380,14 @@ The degree of success they had in ending the source of the madness can affect th
 * **150% XP:** The artifact was destroyed, and the packleader survived
 * **100% XP:** The artifact and the packleader were both destroyed
 * **50% XP:** The packleader was destroyed, but the players failed to locate or destroy the artifact
-* **10% XP:** The players didn’t destroy the packleader of the artifact
+* **10% XP:** The players didn’t destroy the packleader or the artifact
+
+### Art Credit
+* Mowgli and The Lone Wolf - Maurice and Edward Detmold
+* The Lone Wolf - Alfred von Wierusz-Kowalski
+* Akela, The Lone Wolf - Maurice and Edward Detmold
+* Snow in The Valley of Eastern Sierras - William Keith
+* Sunset in The Woods - George Inness
 
 
 \columnbreak
@@ -375,6 +409,6 @@ If you wish to connect this encounter to a larger adventure, the following hooks
 |  3  | The orb was placed in the woods by a delusional prince who believed it contained a gateway to a divine being he came to see as his beloved. He seeks to rebuild the orb and exact vengeance on the players for interfering with his beloved’s wishes. |
 |  4  | Within twenty-four hours of being destroyed, the artifact reforms itself and continues to exude its aura of madness. The players must find a way to destroy it permanently. |
 
-<img src='https://i.ibb.co/qYH4Sh4/Sunset-In-The-Woods-George-Inness.jpg' style='position:absolute; bottom:-120px; right:00px; width:850px' />
+<img src='https://i.ibb.co/qYH4Sh4/Sunset-In-The-Woods-George-Inness.jpg' style='position:absolute; bottom:-150px; right:00px; width:850px' />
   
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-180px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-150px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
