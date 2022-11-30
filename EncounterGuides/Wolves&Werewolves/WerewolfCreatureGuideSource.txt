@@ -1,6 +1,34 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after, .phb#p4:after , .phb#p8:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br>
 
-# Creature Guide: Werewolves
+# Werewolf Creature Guide
 This document contains a collection of resources to help you run adventures heavily featuring werewolves. These resources are divided into Encounter Guides, Loot Guides, and Example Encounters. Encounter Guides will help you understand the mindset, motivations, and tactics of the creatures, so you have a better idea of how to play them. Loot Guides provide alternate ways to provide treasure found after defeating these enemies. Example Encounters will provide encounter scenarios involving these creatures and instructions on how to run them.
 
 ## Encounter Guides
@@ -42,7 +70,7 @@ The guides provide rules for allowing players to loot valuable goods from their 
 
 \pagebreakNum
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Werewolf Encounter Guide
 
@@ -57,7 +85,7 @@ Because lycanthropes retain the intelligence of humanoids, their motivations can
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### General Werewolf Motivations
 * Hunting for food 
@@ -68,10 +96,14 @@ Because lycanthropes retain the intelligence of humanoids, their motivations can
 * Hiding or suppressing curse
 
 #### Moon Mystic Motivations
-* Pursuit of primeval spiritualism
+* Anything in the pursuit of primeval spiritualism, including:
+    *  Serving nature dieties
+    * Providing spiritual leadership to other werewolves
+    * Recovering ancient druidic relics
+
 
 ### Tactics
-Werewolves instinctually utilize many of the same tactics as ordinary wolfs. However, their humanoid intelligence and shapeshifting abilities allow them to implement these tactics in much more sophisticated ways. The specifics of these tactics will depend greatly on the types of werewolves and how much control they have over their shapeshifting abilities.
+Werewolves instinctually utilize many of the same tactics of ordinary wolfs. However, their humanoid intelligence and shapeshifting abilities allow them to implement these tactics in much more sophisticated ways. The specifics of these tactics will depend greatly on the types of werewolves and how much control they have over their shapeshifting abilities.
 
 #### Engagement
 Like wolves, werewolves prefer to stalk their prey, closing in as close as possible before their presence is known. When operating as a pack, they will surround their quarry to cut off as many avenues of escape as possible. If they can assume their humanoid forms, they may use deception to lure victims into isolated locations before shapeshifting and unleashing a surprise attack. However, this tactic doesn’t provide as much satisfaction as hunting in their bestial forms and is usually reserved for especially dangerous enemies. 
@@ -108,7 +140,7 @@ If the opportunity presents itself, it is most efficient for moon mystics to sta
 \columnbreak
 
 #### Retreat
-Despite their bloodthirsty natures, werewolves have a strong sense of self-preservation. Their ravenous natures will keep them fighting longer than wolves, though most werewolves will attempt to flee if they are reduced to less than half health or outnumbered by well-armed opponents. If a powerful figure such as a packleader or moon mystic commands the pack and is still in the fight, the other werewolves may continue fighting even if wounded or outnumbered. However, most werewolf leaders will attempt to withdraw their pack if they sense they are losing.
+Despite their bloodthirsty natures, werewolves have a strong sense of self-preservation. Their ravenous natures and regeneration will keep them fighting longer than wolves, though most werewolves will attempt to flee if they are reduced to less than half health or outnumbered by well-armed opponents. If a powerful figure such as a packleader or moon mystic commands the pack and is still in the fight, the other werewolves may continue fighting even if wounded or outnumbered. However, most werewolf leaders will attempt to withdraw their pack if they sense they are losing.
 
 The presence of silvered weapons or thunder magic amongst their enemies will make werewolves more likely to flee if they are unable to put a stop to the source of the damage. However, even foes without silver of thunder may be able to beat werewolves into submission. And, a werewolf is unlikely to continue fighting an enemy if it can't gain the upper hand, even if that enemy has no clear way to slay it outright.
 
@@ -137,7 +169,7 @@ Most dropped valuables can be found using the same methods, but mystical objects
 | Type of Item  | Skill Used to Loot Item | 
 |:---:|:-----------:|
 |  Coins or Other Obvious Valuables  | Intelligence (Investigation) or Wisdom (Perception) | 
-|  Druidic Items |  Intelligence (Religion) |  
+|  Moon Mystic Items |  Intelligence (Religion) |  
 
 
 The number of items looted and the value of those items will depend on how well the players do on their skill check. You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
@@ -190,7 +222,7 @@ The following tables describe the number of items and value of those items the p
 
 \pagebreakNum
 
-# Example Encounters
+# Example Werewolf Encounters
 
 
 
@@ -200,7 +232,7 @@ In this encounter, the players follow the trail of a rampaging werewolf to the w
 ### Encounter Context
 This encounter begins with the assumption that the players are on the trail of a monstrous werewolf. They have heard tales of a werewolf savaging the countryside or been assigned the task of hunting down the renegade werewolf directly. Under these circumstances, the players should have had an opportunity to arm themselves properly for their hunt before this encounter.
 
-If you wish to truly put your players on the back foot, you can instead have them stumble upon the town with no for warning of what has happened or what they’re about to face. This will increase the odds of them needing to retreat if they have no means of slaying the werewolves.
+If you wish to truly put your players on the back foot, you can instead have them stumble upon the town with no fore warning of what has happened or what they’re about to face. This will increase the odds of them needing to retreat if they have no means of slaying the werewolves.
 
 ### Lead Up
 
@@ -214,7 +246,7 @@ Once the players enter the town center or engage in combat with a werewolf they�
 When this occurs, you can read the following description:
 
 > ##### Encounter Start Description
-> A how pierces through the night, quickly followed by a chorus of tortured growling and snarling. You see several of the villagers’ bodies violently spasming as their lycanthropy overcomes them. The werewolves spring to action and waste no time in charging after you as the commanding howls of their new leader continue to echo through the village.
+> A howl pierces through the night, quickly followed by a chorus of tortured growling and snarling. You see several of the villagers’ bodies violently spasming as their lycanthropy overcomes them. The werewolves spring to action and waste no time in charging after you as the commanding howls of their new leader continue to echo through the village.
 
 
 
@@ -232,10 +264,9 @@ When this occurs, you can read the following description:
 <br> 
 
 ### Map Description
+* **Lighting.** The full moon casts the village in dim light. The house interiors without fires are obscured in darkness.
 * **The Ground.** The ground outside is open terrain. The snowy areas are not deep enough to impede movement, and there are no significant slopes
-
 * **Buildings.** The buildings are made from light wood walls and thatch roofs. A creature can smash a Small hole through a wall with a DC 10 Strength check and a Medium hole with a DC 15 Strength check. Werewolves can automatically smash Medium holes through walls as an action. The rubble within the buildings is considered rough terrain, and any creature that moves within the fires for the first time on a turn or ends its turn there will automatically take 1d4 fire damage.
-
 * **Trees.** The trees around the town have relatively thick bases and provide three-quarters cover to any creatures behind them. They can be climbed with a successful DC 10 Strength (Athletics) check.
 * **Fountain.** The fountain in the center of town stands 15 feet high and can provide total cover to creatures that are Medium or smaller.
 
@@ -276,20 +307,18 @@ The pack leader is more cunning and levelheaded than the freshly transformed wer
 The pack leader will burst through the window of its hiding spot and join the fray as soon as it detects that its pack is closing in on the players. It will utilize its Dog Pile ability to help its pack neutralize any dangerous spell casters as quickly as possible. If the players have positioned themselves in a way to gain the upper hand, the pack leader can use its Hunter’s Howl to scramble their positions while allowing its pack to catch up to preferred targets.
 
 #### Retreat
-NEED TO ADD
+The packleader's goal is to eliminate the players and hopefully come away with a new pack to lead. If players reduce the packleader to 50% health or less and are preventing it from regenerating reliably, it will prioritize escape. It will also attempt escape if more than half its pack is killed and the players are all in good shape. 
 
+When attempting retreat, packleader will take down a weakened player if given the opportunity, but not if it risks its life. It will also command other werewolves not engaged with a player to flee with it. Werewolves actively preoccupying players may be left behind to help buy the packleader time.
+
+The new werewolves are too consumed by their bloodthirst to care about self-perseveration. They will fight to the death unless commanded otherwise. They may also flee if they are outnumbered and have been reduced to 0 hit points one or more times.
 
 
 ### Aftermath
-If the players flee the cultists, they will eventually come for the town and attempt to spread lycanthropy to as many citizens as possible.
+If all the werewolves are slain, the threat will be put down for good. But, if any new werewolves escape, there is the threat that other villages will come under attack as the lycanthropy spreads. If the packleader is among those that escape, it will continue its rampage across the countryside with the aid of its new werewolves. If the players were forced to flee, the packleader may even turn the tables and begin hunting them, swelling its ranks with new werewolves along the way.
 
-If the players manage to slay the moon mystic and his cultists, they will be able to investigate the objects occupying the altar and potentially put a stop to lunar madness affecting the town. How easily they can put a stop to the madness will depend on whether you want to link this event to further adventures. 
+If the players have the opportunity to search and investigate the village, they will find no survivors among the ruins. A chest in the town square belonged to a wealthy merchant who was killed while passing through town. Its locks were broken during the attack, and it contains 150 gp worth of gold bars. If the packleader is slain, the players will be able to loot a pair of gem-studded bracers he was wearing, each worth 750 gp.
 
-If you want this to be a one-off encounter, the priest-turned-moon-mystic may have been the source of the madness all along, in which case, the altar may contain the clues necessary to stop the curse of madness affecting the town. 
-
-If you wish this to be a part of a larger adventure, the priest going mad may have just been a symptom of a larger problem, in which case the altar may contain clues pointing to the root cause of the madness.
-
-\columnbreak
 
 
 #### XP Award: 8,800xp
@@ -331,7 +360,7 @@ The players may have visited the town before the encounter and learned about a s
 
 ### Lead Up
 
-The town priest is performing a lunar ritual in the woods surrounded by his most fearsome devotees (thugs) who are on lookout and guard duty. Regardless of whether the players are spotted when they approach, the ritual begins taking effect by the time they arrive, transforming the priest into a moon mystic. If the players are hidden but wait longer than a minute to make their move, they will witness the other cultists begin turning into werewolves one by one. 
+The town priest is performing a lunar ritual in the woods surrounded by his most fearsome devotees (**thugs**) who are on lookout and guard duty. Regardless of whether the players are spotted when they approach, the ritual begins taking effect by the time they arrive, transforming the priest into a moon mystic. If the players are hidden but wait longer than a minute to make their move, they will witness the other cultists begin turning into werewolves one by one. 
 
 If the players are spotted or begin to attack, you can read the following description:
 
@@ -340,25 +369,23 @@ If the players are spotted or begin to attack, you can read the following descri
 > The former priest lets loose an unholy howl that threatens to overwhelm your sanity. His cultists respond with a wolf-like battle cry as they move to attack. You notice an unnatural gleam in their eyes as their once-human features begin to twist into a wolfish visage.
 
 ### Map Description
-* **The Ground.** The ground outside is open terrain. The snowy areas are not deep enough to impede movement, and there are no significant slopes
-* **Trees.** The smaller or isolated trees provide half cover to any creatures behind them. The larger groups of trees provide three-quarters cover. 
+* **Lighting.** The full moon illuminates the forest in dim light.
+* **The Ground.** The ground between the trees and bushes is mostly clear terrain. The snowy areas are not deep enough to impede movement, and there are no significant slopes
 * **Trees and Bushes.** The bushes are very dense, and moving 5 feet through them costs 15 feet of movement. The lone trees provide three-quarters cover, and the tree clusters provide full cover. 
+* **Ritual Altar.** A large wooden stump serves as the altar for the lupine ritual. Now that the ritual has been completed, the green crystal ball and other occult objects atop it no longer serve any active purpose.
 
 
-\columnbreak
 
 ##### Wolf Encounter Map #2 (Town)
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Map Legend
 * **P:** Player Arrival Location
 * **M:** Moon Mystic
 * **T:** Cult Member (**thug**)
 
-<br>
 
-* **Ritual Altar.** A large wooden stump serves as the altar for the lupine ritual. Now that the ritual has been completed, the green crystal ball and other occult objects atop it no longer serve any active purpose.
 
 
 ### Encounter Tactics
@@ -369,6 +396,9 @@ At the end of each round of combat, the moon mystic will choose a cultist to hav
 
 The moon mystic will begin the fight by using its Searing Moonlight to begin whittling down the players that appear to be the highest threat. These targets will likely be players able to do high damage from a distance. He then focuses on utilizing his lunar bolts to either neutralize more fragile players who rely on ranged attacks or to give his minions advantage on attacks against players they are focusing on. While the moon mystic still has lunar bolts available, he will keep his minions between himself and melee-focused players and utilize the trees as cover from ranged attacks. He will only pursue melee combat once he no longer has ranged attacks available.
 
+#### Cultist Thugs/Werewolves
+
+The thugs will open combat with heavy crossbow fire if they have a clear shot and the players are still at a distance. They will continue with this strategy until the players demonstrate clear ranged superiority, the players close the gap, or the majority of them have turned into werewolves.
 
 <img src='https://i.ibb.co/6nP8p1K/lunder-werewolf.jpg' style='position:absolute; top:70px; right:70px; width:320px; ' />
 <img src='https://i.ibb.co/nnktpDy/M-Token.png' style='position:absolute; top:150px; right:205px; width:25px; ' />
@@ -382,24 +412,25 @@ The moon mystic will begin the fight by using its Searing Moonlight to begin whi
 
 \pagebreakNum
 
-#### Cultist Thugs/Werewolves
 
-The thugs will open combat with heavy crossbow fire if they have a clear shot and the players are still at a distance. They will continue with this strategy until the players demonstrate clear ranged superiority, the players close the gap, or the majority of them have turned into werewolves.
 
 When the werewolves or the thugs engage in melee combat, they will move in groups of at least two to utilize their Pack Tactics and try to gang up on single targets as much as possible. Thugs who are low health or at risk of getting hit by the moon mystic’s Searing Moonlight will be priority choices for werewolf transformation at the end of each round. 
 
-The thugs and werewolves will also do what they can to stop players who are posing the highest direct threat to the moon mystic. That may be focusing their damage on a soft target to bring them down quickly or using trip attacks on a melee-focused player to make it difficult for them to reach the mystic.
-
-
+The thugs and werewolves will also do what they can to stop players who are posing the highest direct threat to the moon mystic. That may mean focusing their damage on a soft target to bring them down quickly or using trip attacks on a melee-focused player to make it difficult for them to reach the mystic.
 
 ### Aftermath
 If the moon mystic survives, he will continue his quest to convert the mad town to lycanthropy. If he is stopped, whether the madness afflicting the town ends or not depends on what you want the scope of this plot to be. If you wish this to be a one-off encounter, the mad priest may have been the source of the madness all along, having turned to the worship of an insane lunar deity who brought about this insanity. Otherwise, the priest may have been a symptom of the madness rather than the cause. In this case, the players will need to investigate further to get to the bottom of the town’s lunar curse.
 
 The crystal ball on the altar was used as a focus for the ritual but is no longer tied to the curse, and it is essentially an art object worth 500 gp at this point.
 
+<br>
 
-
-
+### Art Credit
+* Full Moon Gothic Landscape - Made with Midjourney
+* The Risen Moon - Frederick Judd Waugh
+* Full Moon, Limache, Chile - Alfredo Helsby
+* Gold Coins on Forest Floor - Made with Midjourney
+* Cottages in Snow - Seweryn Bieszczad
 
 \columnbreak
 
@@ -425,19 +456,21 @@ If you wish to connect this encounter to a larger adventure, the following hooks
 |  1  | The priest began worshipping a lunar god of madness along with the rest of his clergy. They have been spreading their insane beliefs among the town in hopes of attracting the god’s blessing. |
 |  2  | The priest’s ritual has resulted in permanent nightfall over the village with the full moon overhead. The players must find the components for a corresponding sun ritual to restore the day and cure the town of its insanity. |
 |  3  | Though the curse appears to have been lifted from the town, the players become plagued by demented nightmares. Each time they have these nightmares, people nearby seem to be mentally affected by them. |
-|  4  | The disruption to the ritual has driven the majority of the village into a murderous frenzy. The remaining sane inhabitants beg the players to help them escape as the remaining inhabitants devolve into twisted monsters. |
+|  4  | The disruption to the ritual has driven the majority of the village into a murderous frenzy. The remaining sane inhabitants beg the players to help them escape as the other inhabitants devolve into twisted monsters. |
 
 <img src='https://i.ibb.co/Yp5GgMD/cottages-in-snow-sewern-bieszczad.jpg' style='position:absolute;bottom:-130px;right:-0px;width:820px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-100px;bottom:-145px; transform:rotate(20deg);' />
+  style='position:absolute;left:-100px;bottom:-135px; transform:rotate(26deg);' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-190px;bottom:-55px; transform:rotate(0deg);' />
+  style='position:absolute;left:-190px;bottom:-40px; transform:rotate(0deg);' />
 
 \pagebreakNum
 
-
+### Change Log
+#### 0.0.0
+* Document creation
 
