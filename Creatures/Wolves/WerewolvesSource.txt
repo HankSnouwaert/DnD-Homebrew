@@ -63,7 +63,7 @@ Other werewolves live a more solitary life, shunning the company of their kind. 
 
 ___
 ___
-> ## Werewolf, Lone
+> ## Werewolf Loner
 >*Medium humanoid (human, shapechanger), chaotic neutral*
 > ___
 > - **Armor Class** 14 (natural armor)
@@ -116,7 +116,7 @@ style='position:absolute;top:200px;left:-50px;width:1000px;transform:rotate(-25d
 
 ___
 ___
-> ## Werewolf, Pack
+> ## Werewolf Packmate
 >*Medium humanoid (human, shapechanger),  chaotic neutral*
 > ___
 > - **Armor Class** 13 (natural armor)
@@ -199,18 +199,18 @@ ___
 > 
 > ***Regeneration.*** The werewolf regains 10 hit points at the start of its turn. If the werewolf takes thunder damage or damage from a silvered weapon, this trait doesn't function at the start of the werewolf's next turn. The werewolf dies only if it starts its turn with 0 hit points and doesn't regenerate. 
 >
-> ***Trip (1/turn).*** The werewolf can force a creature it hit with a bite or claw attack to make a DC 12 Strength saving throw. On a failure, it is knocked prone.
+> ***Trip (1/turn).*** The werewolf can force a creature it hit with a bite or claw attack to make a DC 14 Strength saving throw. On a failure, it is knocked prone.
 >
 > ### Actions
 > ***Multiattack.*** The werewolf makes two attacks, only one of which can be a bite attack.
 >
-> ***Bite (Wolf or Hybrid Form Only).*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage plus 9 (2d8) radiant damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with werewolf lycanthropy.
+> ***Bite (Wolf or Hybrid Form Only).*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage plus 9 (2d8) radiant damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werewolf lycanthropy.
 >
 >***Claws. (Hybrid Form Only).*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 8 (2d4 + 3) slashing damage plus 9 (2d8) radiant damage.
 >
 > ***Lunar Bolt. (3/Day)*** *Ranged Spell attack:* +6 to hit, range 120 ft., one creature. *Hit:* 14 (4d6) radiant damage and moonlight illuminates the target until the end of the werewolf's next turn. While illuminated this way, the target sheds dim light in a 10-foot radius, any attack roll against an affected target has advantage if the attacker can see it, and the affected target can't benefit from being invisible.
 >
-> ***Searing Moonlight. (1/Day)*** A pale beam of moonlight appears and fills a 10-foot-radius, 60-foot-high cylinder centered on a point within 120 of the werewolf. The cylinder lasts as long as the werewolf maintains concentration on it, up to a minute (as if concentrating on a spell). The area of the cylinder is considered dimly lit. Any non-shapechanger that is caught in the area of the moonbeam when it first appears or that ends its turn within the moonbeam must make a DC 13 Constitution saving throw. It takes 16 (3d10) radiant damage on a failed save, or half as much damage on a successful one. While maintaining concentration on this ability, the werewolf can use its bonus action to move the beam 30 feet in any direction.
+> ***Searing Moonlight. (1/Day)*** A pale beam of moonlight appears and fills a 10-foot-radius, 60-foot-high cylinder centered on a point within 120 of the werewolf. The cylinder lasts as long as the werewolf maintains concentration on it, up to a minute (as if concentrating on a spell). The area of the cylinder is considered dimly lit. Any non-shapechanger that is caught in the area of the moonbeam when it first appears or that ends its turn within the moonbeam must make a DC 14 Constitution saving throw. It takes 16 (3d10) radiant damage on a failed save, or half as much damage on a successful one. While maintaining concentration on this ability, the werewolf can use its bonus action to move the beam 30 feet in any direction.
 >
 > ### Bonus Actions
 > ***Shapechanger.*** The werewolf polymorphs into wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
@@ -256,7 +256,7 @@ ___
 >
 > ***Regeneration.*** The werewolf regains 10 hit points at the start of its turn. If the werewolf takes thunder damage or damage from a silvered weapon, this trait doesn't function at the start of the werewolf's next turn. The werewolf dies only if it starts its turn with 0 hit points and doesn't regenerate. 
 >
-> ***Trip (1/turn).*** The werewolf can force a creature it hit with a bite or claw attack to make a DC 12 Strength saving throw. On a failure, it is knocked prone.
+> ***Trip (1/turn).*** The werewolf can force a creature it hit with a bite or claw attack to make a DC 14 Strength saving throw. On a failure, it is knocked prone.
 >
 > ### Actions
 > ***Multiattack.*** The werewolf makes two attacks, only one of which can be a bite attack.
@@ -330,3 +330,9 @@ style='position:absolute;top:-80px;left:0px;width:916px;transform:scalex(-1)rota
 ### Changelog
 #### 1.0.0
 * Public release
+
+#### 1.0.1
+* Change names of werewolves to Werewolf Loner and Werewolf Packmate
+
+#### 1.1.0
+* Fix save DCs for Moon Mystic and Pack Leader
