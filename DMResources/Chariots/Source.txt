@@ -1,5 +1,3 @@
-
-
 <style>
 
  /* Footers */
@@ -21,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after, .phb#p2:after  {
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p5:after  {
         display          : none;
     }
     /* End Footers */
@@ -32,7 +30,7 @@
 
 # Chariots
 
-Chariots are iconic vehicles of war, allowing mighty steeds to soldier-filled carriages into battle. The number of steeds able to pull a chariot and the number of riders its carriage can support varies from one vehicle to the next. Some are even designed to be pulled by creatures other than horses. Chariots may charge headlong into enemy forces or ride past foes who are then dispatched by scythed wheels and spear-wielding riders. They are often a status symbol, and many warrior generals lead their armies from them. In some cultures, chariots are used for racing or other gladiatorial sporting events. 
+Chariots are iconic vehicles of war, allowing mighty steeds to pull soldier-filled carriages into battle. The number of steeds able to pull a chariot and the number of riders its carriage can support varies from one vehicle to the next. Some are even designed to be pulled by creatures other than horses. Chariots may charge headlong into enemy forces or ride past foes who are then dispatched by scythed wheels and spear-wielding riders. They are often a status symbol, and many warrior generals lead their armies from them. In some cultures, chariots are used for racing or other gladiatorial sporting events. 
 
 The following rules can help you codify ways to use chariots in your games. They can be applied to chariots of different shapes and sizes and used as tools for designing your own chariots. The rules here can be applied to most vehicles pulled by other creatures, such as wagons and carriages. At the end of the document, there are some example chariots you can incorporate into your own games.
 
@@ -78,7 +76,7 @@ style='position:absolute;bottom:-40px;left:-60px;width:890px;transform: scaleX(1
 <img
    src='https://www.gmbinder.com/images/pEJl0m5.png'
    style='position:absolute;
-  top:-900px;
+  top:-870px;
   left:15px;
   width:1270px;
   transform:
@@ -94,7 +92,7 @@ style='position:absolute;bottom:-40px;left:-60px;width:890px;transform: scaleX(1
 <img
    src='https://www.gmbinder.com/images/pEJl0m5.png'
    style='position:absolute;
-  top:-850px;
+  top:-830px;
   left:20px;
   width:1270px;
   transform:
@@ -175,6 +173,133 @@ These are new action options the chariot grants to its steeds. The steeds may us
 
 \pagebreak
 
+
+
+## Example Chariots
+The following is a list of example chariot stat blocks you can use in your games and as inspiration for creating your own chariots. Many of them are ordinary vehicles one normally wouldn’t think of as a chariot that can still be represented using the chariot rules.
+
+### Carriages
+Carriages are a common mode of transportation in and between towns and cities. They have a closed interior which usually seats about four passengers, and room up top for one or two drivers.
+___
+> ## Carriage
+>*Large Chariot, 600 lbs.*
+> ___
+> - **Armor Class** 15
+> - **Hit Points** 76 (9d12 + 18)
+> - **Damage Immunities** Poison, Psychic 
+> - **Max Speed** 50ft.  
+> - **Steed Capacity** 2 Large creatures
+> - **Carriage Capacity** 6 Medium creatures
+> - **Constitution Modifier** +2
+> - **Challenge** 1/4 (50 XP)     
+> ___
+>
+> ***Three-Quarters Cover.*** Creatures that reside within the carriage have three-quarters cover from attacks and effects originating from outside the carriage.
+>
+>
+
+### Dog Sled
+Dog sleds are lightweight vehicles designed to transport small cargo loads across treacherous tundra environments. A single driver commands a small pack of specially trained sled dogs who pull the vehicle.
+
+\columnbreak
+
+
+
+___
+> ## Dog Sled
+>*Medium Chariot, 100 lb.*
+> ___
+> - **Armor Class** 14
+> - **Hit Points** 27 (5d8 + 5)
+> - **Damage Immunities** Poison, Psychic 
+> - **Max Speed** 40ft. 
+> - **Steed Capacity** 4 Medium creatures
+> - **Carriage Capacity** 1 Medium creature
+> - **Constitution Modifier** +1
+> - **Challenge** 0 (10 XP)     
+> ___
+>
+> ***Snow Runners.*** The sled must spend 4 feet of movement for every 1 foot it moves across terrain not made of snow or ice, and it ignores movement penalties caused by such terrain.
+>
+
+
+
+
+
+### Goblin Raiding Chariot
+
+Though goblins are not known for their craftmanship skills, the ramshackle chariots they throw together are surprisingly effective. Like goblins, they are nimble, lightweight, and fragile. Goblins prefer having them drawn by a pair of wolves or a single worg, and use them to perform debilitating hit-and-run attacks.
+
+___
+
+> ## Goblin Raiding Chariot
+>*Large Chariot, 40 lbs*
+> ___
+> - **Armor Class** 13 
+> - **Hit Points**  38 (7d8+7)
+> - **Damage Immunities** Poison, Psychic 
+> - **Max Speed** 50ft. 
+> - **Steed Capacity** 1 Large creature or 2 Medium
+> - **Carriage Capacity** 1 Medium creature or 2 Small creatures
+> - **Constitution Modifier** +1
+> - **Challenge** 1/2 (100 XP)
+>___
+>
+> ***Nimble Turn.*** If the charioteer takes the Disengage action, the chariot and its steeds gain the benefits of disengaging if they are controlled mounts
+>
+> ***Trample.*** The chariot and its steeds can move through a hostile creature’s space without expending extra movement if that creature is prone and Medium or smaller. If the chariot or its steeds end their turn inside a creature’s space, they are pushed into the nearest unoccupied space.
+>
+> ### Steed Actions
+> ***Flanking Strike.*** Each steed may make a melee weapon attack against each creature it is facing within 5 feet of it.  Each attack made this way that had advantage deals an additional 10 (3d6) damage, and creatures hit by the attack have disadvantage on Strength saving throws resulting from it.
+>
+
+<img src='https://i.ibb.co/TgQWBHw/cardart-DKA-Harrowing-Journey.jpg' style='position:absolute; bottom:0px; left:-70px; width:540px; transform:scalex(-1);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:70px; left:-90px; width:700px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; bottom:-110px; left:330px; width:700px; transform:rotate(90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+\pagebreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Orcish War Chariots
+
+When orcs construct war chariots, they <br> prioritize bulk and overwhelming power above <br>  all else. Their chariots are made to be driven aggressively <br> and excel at trampling over foes. Though they are rarely made with masterwork quality, orcish war chariots are sturdy enough to deliver brutal charges to anyone caught in their path.
+
+___
+
+> ## Orcish War Chariot
+>*Large Chariot, 100 lbs*
+> ___
+> - **Armor Class** 14 
+> - **Hit Points**  76 (9d10 + 27)
+> - **Damage Immunities** Poison, Psychic 
+> - **Max Speed** 40ft. 
+> - **Steed Capacity** 2 Large creatures
+> - **Carriage Capacity** 3 Medium creatures
+> - **Constitution Modifier** +3
+> - **Challenge** 1/2 (100 XP)
+>___
+>
+> ***Aggressive Drive.*** If the charioteer has the Aggressive feature, the chariot’s steeds gain it as well and can use it even if they are controlled mounts
+>
+> ***Trample.*** The chariot and its steeds can move through a hostile creature’s space without expending extra movement if that creature is prone and Medium or smaller. If the chariot or its steeds end their turn inside a creature’s space, they are pushed into the nearest unoccupied space.
+>
+> ### Steed Actions
+> ***Brutal Charge.*** Each steed may make a melee weapon attack against each creature it is facing within 5 feet of it. If the chariot moves at least 20 feet in a straight line before the attacks are made, each attack deals an additional 10 (3d6) damage, and a creature hit by one or more of the attacks has disadvantage on Strength saving throws resulting from those attacks.
+>
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Scythed Chariots
+Scythed chariots possess blades jutting out from their wheels made for cutting down foes in drive-by attacks. Skilled charioteers can wheel past enemies and slice them apart without ever breaking the chariot’s stride.
+
 ___
 
 > ## Scythed Chariot
@@ -186,38 +311,140 @@ ___
 > - **Max Speed** 60ft. 
 > - **Steed Capacity** 2 Large creatures
 > - **Carriage Capacity** 2 Medium creatures
-> - **Constitution Modifier** +3
-> - **Challenge** 1 (700 XP)     
+> - **Constitution Modifier** +2
+> - **Challenge** 1 (200 XP)     
 > ___
 >
 > ***Scythed Wheels.*** If the chariot has moved at least its max speed since the start of its steeds' last turn, its charioteer can have it make a melee weapon attack against a creature it moves past that is within 5 feet of the carriage. The attack can only be made once per turn and has the following properties:<br>
-*Melee Weapon Attack:* charioteer's proficiency bonus + 3 to hit, *Hit:* 8 (2d4 + 3) slashing damage.
+*Melee Weapon Attack:* Charioteer's Proficiency Bonus + 3 to hit, *Hit:* 8 (2d4 + 3) slashing damage.
 >
 
 
+<img src='https://i.ibb.co/YB9cQct/warmonger-s-chariot.png' style='position:absolute; top:-30px; right:-0px; width:660px; transform:scalex(-1);filter:opacity(100%);'/>
 
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-250px;left:-140px;width:916px; transform:rotate(10deg);' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-158px;left:0px;width:916px; transform:rotate(-13deg);' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-250px;left:-287px;width:916px; transform:rotate(58deg);' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:600px;left:-287px;width:916px; transform:rotate(58deg);' />
+
+\pagebreak
+
+### Wagons
+Wagons are common, four-wheeled vehicles typically used by farmers and merchants for transporting goods.
 ___
 
-> ## Orc War Chariot
->*Large Chariot, 100 lbs*
+> ## Wagon
+>*Large Chariot, 400 lb.*
 > ___
-> - **Armor Class** 14 
-> - **Hit Points**  76 (9d10 + 27)
+> - **Armor Class** 15
+> - **Hit Points** 51 (6d12 + 12)
 > - **Damage Immunities** Poison, Psychic 
-> - **Max Speed** 40ft. 
+> - **Max Speed** 50ft.  
 > - **Steed Capacity** 2 Large creatures
-> - **Carriage Capacity** 3 Medium creatures
-> - **Constitution Modifier** +4
-> - **Challenge** 1/2 (700 XP)
->___
+> - **Carriage Capacity** 4 Medium creatures
+> - **Constitution Modifier** +2
+> - **Challenge** 1/8 (25 XP)     
+> ___
 >
-> ***Aggressive Drive.*** If the charioteer has the Aggressive feature, the chariot's steeds gain it as well and can use it even if they are controlled mounts
->
-> ### Steed Actions
-> ***Brutal Charge*** Each steed may make a melee weapon attack against each creature within 10 feet in front of it.  If the chariot moves at least 20 feet in a straight line before the attacks are made, they deal an additional 10 (3d6) damage, and creatures hit by the attack have disadvantage on Strength saving throws resulting from it.
+> ***Half Cover.*** Creatures that reside within the wagon have half cover from attacks and effects originating from outside the wagon.
 >
 
-<img src='https://i.ibb.co/YB9cQct/warmonger-s-chariot.png' style='position:absolute; top:-30px; right:-20px; width:590px; transform:rotate(0deg);filter:opacity(100%);'/>
+### Sleigh
+Sleighs essentially fill the same role as open carriages, providing general transport for small passengers. However, they utilize runners rather than wheels, which allow them to move across snow and ice that would heavily impede a typical carriage, though outside of these types of terrain, they tend to perform poorly.
+___
+
+> ## Sleigh
+>*Large Chariot, 300 lb.*
+> ___
+> - **Armor Class** 15
+> - **Hit Points** 45 (6d10 + 12)
+> - **Damage Immunities** Poison, Psychic 
+> - **Max Speed** 50ft. 
+> - **Steed Capacity** 2 Large creatures
+> - **Carriage Capacity** 4 Medium creatures
+> - **Constitution Modifier** +2
+> - **Challenge** 1/8 (25 XP)     
+> ___
+>
+> ***Half Cover.*** Creatures that reside within the sled have half cover from attacks and effects originating from outside the sled.
+>
+> ***Snow Runners.*** The sled must spend 4 feet of movement for every 1 foot it moves across terrain not made of snow or ice, and it ignores movement penalties caused by such terrain.
+>
+
+### Small Wagon
+These two-wheeled wagons have less carrying capacity than their four-wheeled counterparts but are cheaper and easier to pull. 
+
+___
+> ## Small Wagon
+>*Large Chariot, 200 lb.*
+> ___
+> - **Armor Class** 15
+> - **Hit Points** 39 (6d8 + 12)
+> - **Damage Immunities** Poison, Psychic 
+> - **Max Speed** 50ft.  
+> - **Steed Capacity** 1 Large creature
+> - **Carriage Capacity** 2 Medium creatures
+> - **Constitution Modifier** +2
+> - **Challenge** 1/8 (25 XP)     
+> ___
+>
+> ***Half Cover.*** Creatures that reside within the wagon have half cover from attacks and effects originating from outside the wagon.
+>
+
+### War Chariots
+War chariots are often used as status symbols by powerful generals who use them to move quickly between different areas of the battlefield. 
+
+___
+> ## War Chariot
+>*Large Chariot, 60 lbs.*
+> ___
+> - **Armor Class** 17
+> - **Hit Points**  52 (8d8+16)
+> - **Damage Immunities** Poison, Psychic 
+> - **Max Speed** 60ft. 
+> - **Steed Capacity** 2 Large creatures
+> - **Carriage Capacity** 2 Medium creatures
+> - **Constitution Modifier** +2
+> - **Challenge** 1/4 (50 XP)     
+> ___
+>
+
+### Art Credit
+* Anafenza, the Foremost - James Ryman, Wizards of the Coast
+* Thundering Chariot - Aaron Miller, Wizards of the Coast
+* Harrowing Journey - James Paick, Wizards of the Coast
+* Warmonger's Chariot - Warren Mahy, Wizards of the Coast
+* Chariot of Victory - John Stanko, Wizards of the Coast
+
+<img src='https://i.ibb.co/483dMkt/chariot-of-victory.png' style='position:absolute;bottom:-40px;right:0px;width:400px' />
+<img src='https://www.gmbinder.com/images/tFcatIg.png' style='position:absolute;bottom:-40px;right:340px;width:200px'/>
+<img src='https://www.gmbinder.com/images/nzPYZyD.png' style='position:absolute;bottom:-490px;right:-450px;width:1200px'/>
+<img src='https://www.gmbinder.com/images/zdZlye9.png' style='position:absolute;bottom:180px;right:-80px;width:450px'/>
+<img src='https://www.gmbinder.com/images/zdZlye9.png' style='position:absolute;bottom:180px;right-20px;width:450px'/><img src='https://www.gmbinder.com/images/zdZlye9.png' style='position:absolute;bottom:180px;right:10px;width:450px'/>
+<img src='https://www.gmbinder.com/images/zdZlye9.png' style='position:absolute;bottom:160px;right:-10px;width:500px;transform:scaleX(-1)'/>
+<img src='https://www.gmbinder.com/images/hf69hrN.png' style='position:absolute;bottom:200px;right:-150px;width:300px'/>
+<img src='https://www.gmbinder.com/images/hf69hrN.png' style='position:absolute;bottom:215px;right:-155px;width:300px'/>
+<img src='https://www.gmbinder.com/images/tFcatIg.png' style='position:absolute;bottom:90px;right:330px;width:200px'/>
+<img src='https://www.gmbinder.com/images/tFcatIg.png' style='position:absolute;bottom:40px;right:350px;width:200px'/>
+<img src='https://www.gmbinder.com/images/tFcatIg.png' style='position:absolute;bottom:00px;right:350px;width:200px'/>
+<img src='https://www.gmbinder.com/images/tFcatIg.png' style='position:absolute;bottom:40px;right:350px;width:200px'/>
+<img src='https://www.gmbinder.com/images/tFcatIg.png' style='position:absolute;bottom:-130px;right:340px;width:200px'/>
+<img src='https://www.gmbinder.com/images/tFcatIg.png' style='position:absolute;bottom:-40px;right:360px;width:200px'/>
+<img src='https://www.gmbinder.com/images/7Jz8Rbl.png' style='position:absolute;bottom:150px;right:-90px;width:400px'/>
+
+
+
 
 \pagebreak
 
