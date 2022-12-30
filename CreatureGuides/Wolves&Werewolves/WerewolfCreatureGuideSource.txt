@@ -188,9 +188,11 @@ The number of items looted and the value of those items will depend on how well 
 ### Loot Tables
 The following tables describe the number of items and value of those items the players are able to harvest depending on the result of their check. You can have them make a separate check for each creature they're harvesting or use one check for multiple creatures at once to save time.
 
+If you don't want to require a check on the part of the players, you can instead roll a d20 with the modifier determined by the table to determine what the players find randomly.
+
 ##### Lone & Pack Werewolf Loot Table
 
-| Looting Check Result  |  Werewolf Loot  |
+| Looting Check Result or 1d20 + 3  |  Werewolf Loot  |
 |:---:|:-----------:|
 |  1-5  | Nothing | Nothing  |
 |  6-12 | 1d4(2) gp worth of Coins/Items | 
@@ -200,7 +202,7 @@ The following tables describe the number of items and value of those items the p
 
 ##### Pack Leader & Moon Mystic Loot Table
 
-| Harvesting Check Result  | Pack Leader Loot | Moon Mystic Loot
+| Looting Check Result or <br> 1d20 + 5 | Pack Leader Loot | Moon Mystic Loot
 |:---:|:-----------:|:---:|
 |  1-9  | Nothing | Nothing |
 |  10-12 | 1d6(3) gp worth of Coins/Items  | 2d4(5) 5sp Moon Mystic Items  | 
@@ -218,7 +220,7 @@ The following tables describe the number of items and value of those items the p
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:100px;bottom:-130px; transform:rotate(70deg);' />
+  style='position:absolute;left:60px;bottom:-130px; transform:rotate(70deg);' />
 
 \pagebreakNum
 
@@ -470,7 +472,9 @@ If you wish to connect this encounter to a larger adventure, the following hooks
 
 \pagebreakNum
 
-### Change Log
-#### 1.0.0
-* Public release
+## Change Log
 
+### Werewolf Loot Guide
+
+#### 1.1.0
+* Add option for rolling for loot randomly 
