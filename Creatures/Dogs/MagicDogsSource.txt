@@ -20,7 +20,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p5:after, .phb#p7:after, .phb#p8:after  {
+    .phb#p1:after, .phb#p3:after, .phb#p4:after {
         display          : none;
     }
     /* End Footers */
@@ -32,7 +32,7 @@
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Magical Dogs
-Listed here are magical canines to use in your games.
+Listed here, in are magical canines for use in your games.
 
 ### Bolt Hound
 These elemental hounds enter from the Elemental Plane of Air into the Material Plane via mountain tops and race across rocky environments at high speeds. Though not malicious by nature, they have a strong prey drive and chase after anything that runs, relentlessly hunting it down with lighting-powered bites. Some ambitious individuals attempt to catch or summon these elementals in hopes of utilizing them as high-speed shock troops. This usually has mixed results, as bolt hounds are as unpredictable as lightning and rarely follow commands that involve anything more than chasing someone or something down. 
@@ -121,7 +121,7 @@ ___
 > ## Aralez
 >*Medium celestial, neutral good*
 > ___
-> - **Armor Class** 16 (natural armor)
+> - **Armor Class** 15 (natural armor)
 > - **Hit Points** 67 (9d8 + 27)
 > - **Speed** 40 ft., fly 40 ft.
 >___
@@ -192,8 +192,8 @@ ___
 > ## Chamrosh
 >*Large celestial, neutral good*
 > ___
-> - **Armor Class** 17 (natural armor)
-> - **Hit Points** 120 (16d8 + 48)
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 127 (17d8+51)
 > - **Speed** 40 ft., fly 50 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -204,12 +204,17 @@ ___
 > - **Skills** Perception +7
 > - **Senses** passive Perception 17
 > - **Languages** Druidic
-> - **Challenge** 6 (2,300 XP) &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +3
+> - **Challenge** 7 (2,900 XP) &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +3
 > ___
 >
 > ***Keen Hearing and Smell.*** The chamrosh has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 >
 > ***Thicket Walker.*** The chamrosh ignores the effects of non-magical difficult terrain. The chamrosh can also pass through plants without being slowed, grappled, or restrained and without taking damage from them if they have thorns, spines, or similar hazards.
+>
+> ### Bonus Actions
+>
+> ***Gust of Seeds. (3/Day).*** The Chamrosh beats its wings, letting loose an 80-foot-long, 20-foot-wide blast of seeds in the direction of its choice. Any creature in that area must make a DC 15 Dexterity saving throw, taking 10 (3d6) bludgeoning damage on a failed save, or half as much damage on a successful one. The seeds fall to the ground in the area, At the start of the Chamros's next turn, the plants sprout into difficult terrain. A creature in this area when the plants sprout must succeed on a DC 15 Strength saving throw or be restrained by entangling plants. A creature restrained by the plants can use its action to repeat the saving throw, freeing itself on a success.
+The plants wilt away after one minute unless the ground can support plant life.
 >
 > ### Actions
 >
@@ -217,14 +222,11 @@ ___
 >
 > ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone
 >
-> ***Talons.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (4d6 + 4) slashing damage.
+> ***Talons.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (3d6 + 4) slashing damage.
 >
 > ***Spellcasting.*** The Chamrosh casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 15):
 >
 > ***1/day each:***  *Speak with Plants*, *Plant Growth*
->
-> ***Gust of Seeds. (Recharge Short/Long Rest).*** The Chamrosh beats its wings, letting loose an 80-foot-long, 20-foot-wide blast of seeds in the direction of its choice. Any creature in that area must make a DC 15 Dexterity saving throw, taking 18 (4d8) bludgeoning damage on a failed save, or half as much damage on a successful one. The seeds fall to the ground in the area, immediately sprouting into plants that turn it into difficult terrain. A creature in this area when the plants sprout must succeed on a DC 15 Strength saving throw or be restrained by entangling plants. A creature restrained by the plants can use its action to repeat the saving throw, freeing itself on a success.
-The plants wilt away after one minute unless the ground can support plant life.
 >
 
 \pagebreakNum
@@ -317,7 +319,7 @@ ___
 > ___
 > - **Armor Class** 13 
 > - **Hit Points** 10 (3d4 + 3)
-> - **Speed** 30 ft.
+> - **Speed** 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -359,5 +361,5 @@ style='position:absolute;top:-10px;left:-40px;width:1000px;transform: scaleX(1)'
 
 ### Change Log
 
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document posted
