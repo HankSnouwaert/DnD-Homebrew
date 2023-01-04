@@ -76,7 +76,7 @@ Barbarians who follow this accursed path discover a demonic presence within them
 
 #### Demonic Surges
 *3rd level Path of the Demon Soul feature*<br>
-The dark powers coursing through you give you access to demonic abilities in the form of Demonic Surges. Demonic Surges are supernatural abilities that momentarily boost your combat abilities or create fiendish spell-like effects. You use your Strength modifier when setting the saving throw DC for a Demonic Surge and when making an attack roll with one. If you are raging, you may add your rage damage to any one damage roll made as a result of a Demonic Surge.  
+The dark powers coursing through you give you access to demonic abilities in the form of Demonic Surges. Demonic Surges are supernatural abilities that momentarily boost your combat abilities or create fiendish spell-like effects. You use your Strength modifier when setting the saving throw DC for a Demonic Surge and when making an attack roll with one. If you are raging, you may add your rage damage to any one damage roll made as a result of a Demonic Surge. Using a Demonic Surge also counts as making an attack that round for the purposes of maintaining your rage.
 
 
 <div align="center"> 
@@ -163,7 +163,7 @@ The surges are grouped by surge level and listed alphabetically.
 ##### 1st Level Surges
 &emsp;**Abyssal Skulk.**  As an action, you magically turn invisible. The invisibility lasts for 1 minute or until you attack, make a damage roll, or force a creature to make a saving throw.
 
-**Hateful Rage.** When you enter a rage or at the start of your turn while raging, you can enhance your rage by focusing it into a hatred for another creature you can see within 90 feet of you. For the duration of this effect, you deal an extra 1d6 damage to that creature whenever you hit it with an attack. 
+**Hateful Rage.** When you enter a rage, or as a bonus action while raging, you can enhance your rage by focusing it into a hatred for another creature you can see within 90 feet of you. For the duration of this effect, you deal an extra 1d6 damage to that creature whenever you hit it with an attack. 
 
 This effect ends if your rage ends, one minute passes, or you enhance your rage with another Demonic Surge.
 
@@ -181,7 +181,7 @@ This effect ends if your rage ends, one minute passes, or you enhance your rage 
 
 **Hypnotic Summons.** As part of an Attack action, you can choose to forgo one of your attacks to whisper madding words to one creature of your choice within 60 feet of you can hear you, twisting its mind and drawing it toward you. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as close as its speed allows toward you. The creature doesn’t move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn’t have to move toward you. A deafened creature automatically succeeds on the save.
 
-**Savage Rush.**  As a bonus action, you draw upon an unholy vigor, allowing you to move up to your movement speed horizontally in a straight line. The first creature you run into during this movement must succeed on a Strength saving or be pushed ahead of you for the rest of the movement. 
+**Savage Rush.**  As a bonus action, you draw upon an unholy vigor, allowing you to move up to your movement speed horizontally in a straight line. The first creature you run into during this movement must succeed on a Strength saving or be pushed ahead of you for the rest of the movement. If the creature succeeds on the save, or you run into a second creature, your movement stops.
 
 **Devastating Gore.** As part of an Attack action, you can choose to forgo one of your attacks to grow large demonic horns and use them to make a single melee spell attack against a target within 5 feet of you. On a hit, it deals 3d8 piercing damage, and if the target is a creature and you moved at least 20 ft. before making the attack, it must make a Strength saving throw. On a failure, the creature is knocked prone, and you may push it up to 10 feet away from you.
 
@@ -189,7 +189,7 @@ This effect ends if your rage ends, one minute passes, or you enhance your rage 
 
 This effect ends if your rage ends, one minute passes, or you enhance your rage with another Demonic Surge.
 
-**Burning Whip.** As part of an Attack action, you can choose to forgo one of your attacks to summon a burning whip in a free hand that you can use to immediately make a single melee weapon attack against a creature within 30 feet of you. On a hit, it deals 3d6 fire damage, and the target must succeed on a Strength saving throw or be pulled up to 25 feet toward you. The whip disappears at the end of your turn.
+**Burning Whip.** As part of an Attack action, you can choose to forgo one of your attacks to summon a burning whip in a free hand that you can use to immediately make a single melee weapon attack against a creature within 30 feet of you. On a hit, it deals 3d6 fire damage, and the target must succeed on a Strength saving throw or be pulled up to 25 feet toward you. The whip disappears after you make the attack with it. 
 
 \pagebreak
 
@@ -205,17 +205,18 @@ If you used your Reckless Attack or Reckless Surge features this turn, your spee
 
 If both attacks made this way hit the same target, it is afflicted with even more instance pain, forcing it to make a Constitution saving throw. It takes an additional 3d10 psychic damage on a failed save or half as much on a success. 
 
-The limbs disappear at the end of your turn.
+The limbs disappear after you make the attacks with them.
 
 **Fiendish Smite.**  When you hit a creature with a melee weapon attack, you may use a bonus action to deal an additional 3d10 fire damage.
 
 **Insanity Gaze.**  As an action, you turn your madding gaze upon a creature you can see within 90 feet of you, forcing it to make a Wisdom saving throw. On a failure, it must use its movement on its next turn to move within 5 feet of a creature of your choice and then use its action to make a melee attack against that creature. If it is unable to reach the chosen creature, it does not use its action that turn.
 
-**Ring of Fire.** As an action, you unleash a 5-foot thick ring of fire centered on yourself that expands outward to a radius of 30 ft., where it remains until the end of your next turn, at which point the flames return toward you. Each 5-foot by 5-foot area of flame becomes extinguished after reaching you or moving 30 ft. toward you.
+**Malicious Flame.** As an action, you create an area of flame that fills a 5-foot cube in front of you and send it out 30 ft., where it remains until the end of your next turn, at which point the flame moves toward your current location. The flame extinguishes after reaching you or moving 30 ft. toward you.
 
-Whenever the flames move into the space of a creature other than you, or a creature other than you ends its turn standing in the flames, that creature must make a Dexterity saving throw. On a failed save, the creature takes 3d6 fire damage, and on a pass, it takes half as much.
+Whenever the flame moves into the space of a creature other than you, or a creature other than you ends its turn standing in the flame, that creature must make a Dexterity saving throw. On a failed save, the creature takes 3d6 fire damage, and on a pass, it takes half as much.
 
-The flames ignite any flammable objects in the area that aren’t being worn or carried.
+The flame ignite any flammable objects in the area that aren’t being worn or carried.
+
 
 **Cruel Revival.** As a bonus action, you speak a dark incantation which awaken the corpse of a Small or Medium creature you can see within 30 feet of you that died within the last 10 minutes. The corpse immediately stands up and becomes a (the statistics for zombies can be found in the Monster Manual), and it gains a bonus to its attack and damage rolls equal to your Strength ability modifier. In combat, the zombie shares your initiative count.
 
@@ -268,13 +269,16 @@ The fire ignites any flammable objects in the area that aren’t being worn or c
 
 If one or more of the creatures hit by the flail is reduced to 0 hit points, you may immediately make another attack with it against each of the remaining targets who still have 1 or more hit points. If this second set of attacks reduces another creature to 0 hit points, you may repeat the process.
 
+Once you can no longer make any attacks, the flail disappears.
+
 **Lightning Lance.** As an action, you launch a bolt of lightning in a line 60 feet long and 10 feet wide. Each creature in the line must make a Dexterity saving throw, taking 6d8 lightning damage on a failed save, or half as much damage on a successful one.
 
-**Contaminating Rage.** When you enter a rage, or as a bonus action while raging, you can enhance your rage to channel it into a stream of demonic corruption that you spew forth into a 15-foot radius area centered on yourself. You can designate any number of creatures you can see to be unaffected by this area. 
+**Contaminating Rage.** When you enter a rage, or as a bonus action while raging, you can enhance your rage to channel it into a stream of demonic corruption that oozes into a 15-foot radius area centered on yourself. This area moves with you, and you can designate any number of creatures you can see to be unaffected by it. 
 
 When a creature you haven’t designated enters the affected area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 3d8 poison damage, and its speed is halved while it remains in the area. On a successful save, the creature takes half as much damage and its speed isn’t reduced.
 
 The contaminated area disappears if your rage ends, one minute passes, or you enhance your rage with another Demonic Surge.
+
 
 **Manic Rage.** When you enter a rage, or as a bonus action while raging, you can channel your rage to the point of manic insanity, turning yourself into a whirlwind of death. While in this state, if you make an attack that would have advantage as a result of your Reckless Attack feature, you can forgo that advantage to make the same attack against another creature within 5 feet of the original target and within the attack’s range. These extra attacks can’t benefit from advantage from any source or be replaced with Demonic Surges. 
 
@@ -292,7 +296,9 @@ This effect ends if your rage ends, one minute passes, or you modify your rage w
 
 The fire ignites any flammable objects in the area that aren’t being worn or carried.
 
-**Limb Storm** As an action, you briefly grow extra sets of demonic limbs which strike out at nearby creatures. You may make up to six melee spell attacks with these limbs as part of this action, which each deal 1d10 piercing, slashing, or bludgeoning damage (your choice) on hit. The limbs disappear at the end of your turn.
+**Limb Storm** As an action, you briefly grow extra sets of demonic limbs which strike out at nearby creatures. You may make up to six melee spell attacks with these limbs as part of this action, which each deal 1d10 piercing, slashing, or bludgeoning damage (your choice) on hit. 
+
+The limbs disappear after you make the attacks with them.
 
 \pagebreak
 
@@ -330,8 +336,11 @@ The demon obeys your commands, and in combat, it shares your initiative count, b
 
 **Soul Rend.** Your chest cracks open and projects a vortex of life-draining energy out to 30 feet from you. Each creature in the area must make a Constitution saving throw, taking 6d10 necrotic damage on a failed save, or half as much damage on a successful one. Each creature that is Small or larger and dropped to 0 hit points by this effect dies, causing you to regain hit points equal to the number of hit dice it had.
 
-**Duel Mind.** When you enter a rage, or as a bonus action while raging, you can focus your rage into an entirely separate consciousness, which may even form itself into a new head which grows from your body. While this consciousness exists, you have advantage on all Intelligence, Wisdom, and Charisma saving throws and checks, as well as saving throws against being blinded, deafened, stunned, or knocked unconscious. Additionally, the first time you use a 1st level Demonic Surge on your turn, until the end of the turn, you may use that same surge again without expending a surge slot. 
-This new mind dissapears if your rage ends, one minute passes, or you modify your rage with another Demonic Surge.
+**Sentient Rage.** When you enter a rage, or as a bonus action while raging, you can modify your rage by focusing it into an entirely separate consciousness, which may even form itself into a new head that grows from your body. While this consciousness exists, you have advantage on all Intelligence, Wisdom, and Charisma saving throws and checks, as well as saving throws against being blinded, deafened, stunned, or knocked unconscious. Additionally, the first time you use a 1st level Demonic Surge on your turn, until the end of the turn, you may use that same surge again without expending a surge slot. 
+
+
+This new mind disappears if your rage ends, one minute passes, or you enhance your rage with another Demonic Surge.
+
 
 
 
@@ -350,7 +359,7 @@ This new mind dissapears if your rage ends, one minute passes, or you modify you
 | Slot Level  | Surges |
 |:---:|:-----------:|
 |  1  | Hateful Rage, Lightning Blade, Savage Rush, Arrogant Rage, Devastating Gore, Burning Whip |
-|  2  | Fiendish Smite, Ring of Fire, Demonic Eyes, Ravenous Rage, Infectious Rage  |
+|  2  | Fiendish Smite, Malicious Flame, Ravenous Rage, Infectious Rage  |
 |  3  | Dark Flight, Fire Stomp, Cackling Flail, Lightning Lance, Manic Rage |
 |  4  | Bellow of Endless Fury, Shared Rage  |
 
@@ -408,7 +417,7 @@ This new mind dissapears if your rage ends, one minute passes, or you modify you
 |  1  | Defile Earth, Foul Smite, Fresh Meat, Abyssal Skulk |
 |  2  | Unholy Stench, Spew Bile, Indestructible Rage |
 |  3  | Devour, Contaminating Rage, Warp Flesh |
-|  4  | Chaotic Smite, Limb Storm, Oozing Rage, Duel Mind  |
+|  4  | Chaotic Smite, Limb Storm, Oozing Rage |
 
 ##### Barbarian of Orcus
 | Slot Level  | Surges |
