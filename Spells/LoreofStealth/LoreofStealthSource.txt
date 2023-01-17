@@ -30,7 +30,7 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## Lore of Stealth
+## Ninja Spells
 
 
 #### Black Whirlwind
@@ -38,8 +38,8 @@
 ___
 - **Casting Time:** 1 action
 - **Range:** 120 feet
-- **Components:** S, M 
-- **Duration:** 120 feet
+- **Components:** S, M (a moth wing)
+- **Duration:** 1 round
 - **Classes:** Druid, Wizard, Warlock
 ___
 
@@ -70,8 +70,8 @@ Choose a creature that you can see within range. The target must succeed on a Co
 *Necromancy cantrip*
 ___
 - **Casting Time:** 1 action
-- **Range:** 20 feet
-- **Components:** V
+- **Range:** 10 feet
+- **Components:** V S
 - **Duration:** Sorcerer, Warlock, Wizard
 ___
 
@@ -116,7 +116,7 @@ A ray of sickening greenish energy lashes out toward a creature within range. Ma
 *Enchantment cantrip*
 ___
 - **Casting Time:** 1 action
-- **Range:** 10 feet
+- **Range:** 15 feet
 - **Components:** V
 - **Duration:** 1 round
 - **Classes:** Bard, Druid, Sorcerer, Warlock, Wizard
@@ -126,11 +126,29 @@ You startle a creature you can see within range with a screech that rips into it
 
 Creatures immune to fear automatically succeed on this save.
 
+***At Higher Levels.*** The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
 
+### Art Credit
+* Azra Smokeshaper - Aaron Miller, Wizards of the Coast
+* Fang of Shigeki - Yigit Koroglu, Wizards of the Coast
 
 \columnbreak
 
-***At Higher Levels.*** The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
+
+
+#### Smoke Shroud
+*2nd-level transmutation*
+___
+- **Casting Time:** bonus action
+- **Range:** Self
+- **Components:** S, M (a pitch of ash)
+- **Duration:** 1 round
+- **Classes:**  Bard, Ranger
+___
+
+A 20-foot-radius sphere of smoke appears centered on yourself, and you may immediately move up to 30 feet. While inside the smoke, you may move through the space of other creatures. If you end your movement inside a creature's space, you are pushed into the nearest unoccupied space.   After you end your movement, you may immediately take the hide action as part of this bonus action. The smoke lasts until the end of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.  
+
+***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can move an additional 15 feet for each slot level above 2nd.
 
 #### Toxic Coating
 *2nd-level transmutation*
@@ -147,18 +165,19 @@ At the end of each of its turns, a creature poisoned this way can repeat the Con
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3nd level or higher, the poison damage increases by 2d6 for each slot level above 2nd.
 
-### Art Credit
-* Azra Smokeshaper - Aaron Miller, Wizards of the Coast
-* Fang of Shigeki - Yigit Koroglu, Wizards of the Coast
 
-<img src='https://i.ibb.co/ZG75kQg/Fang-of-Shigeki-Kamigawa-Neon-Dynasty-Mt-G-Art.jpg' style='position:absolute;bottom:-100px;right:-0px;width:820px' />
+
+<img src='https://i.ibb.co/ZG75kQg/Fang-of-Shigeki-Kamigawa-Neon-Dynasty-Mt-G-Art.jpg' style='position:absolute;bottom:-200px;right:-0px;width:816px' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;bottom:30px' />
+  style='position:absolute;left:0px;bottom:-100px' />
 
 \pagebreak
 
 ### Change Log
-#### 0.0.0
+#### 1.0.0
 * Document creation
+
+#### 1.1.0
+* Add Smoke Shroud
