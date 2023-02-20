@@ -88,7 +88,7 @@ ___
 >|27 (+8)|16 (+3)|22 (+6)|16 (+3)|20 (+5)|18 (+4)|
 >___
 > - **Saving Throws** Int +8, Wis +10
-> - **Skills** Athletics +13, Arcana +8, History +8, Religion +8, Perception +10
+> - **Skills** Athletics +13, Arcana +8, History +8, Insight + 10, Religion +8, Perception +10
 > - **Damage Resistance** necrotic, psychic, radiant
 > - **Damage Immunities** poison
 > - **Condition Immunities** charmed, exhaustion, frightened, 
@@ -107,14 +107,16 @@ can't speak.
 >
 > ***Sleeping Giant.*** While the titan remains motionless, it is indistinguishable from an inanimate statue. It is also immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells or other magic that would detect it is a creature. 
 >
+> ***Spirit Caster.*** Spells the titan casts on the Material Plane can affect creatures on the Ethereal Plane. 
+>
 > ***Turning Defiance.***  The titan has advantage on saving throws against effects that turn undead.
 >
 > ### Actions
-> ***Multiattack.*** The titan makes two with its Sun Staff.
+> ***Multiattack.*** The titan can use its Frightful Presence. It then makes two attacks with its Sun Staff.
 >
-> ***Sun Staff.*** *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 26 (4d8 + 8) bludgeoning damage plus 13 (3d8) radiant damage.
+> ***Sun Staff.*** *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage plus 13 (3d8) radiant damage.
 >
-> ***Frightful Presence.*** Each creature of the titan's choice that is within 120 feet of the titan and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the titan's Frightful Presence for the next 24 hours.
+> ***Frightful Presence.*** Each creature of the titan's choice that is within 120 feet of the titan and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the titan's Frightful Presence for the next 24 hours.
 >
 > ***Spellcasting.*** The titan casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 18, +10 to hit with spell attacks):
 >
@@ -124,9 +126,12 @@ can't speak.
 >
 > **new spell found at end of document*
 >
+> ### Bonus Actions
+> ***Battle Magic*** When the titan uses its action to cast a spell, it can use its Frightful Presence and make one Sun Staff attack.
+>
 > ### Reactions
 >
-> ***Spirit Conduit (3/Day).*** Whenever another friendly creature within 60 feet of the titan would cast a spell of 5th level or lower using Wisdom as its spellcasting ability, the titan may allow the creature to ignore any material component requirements the spell has. Additionally, if the spell has a chance of failing, such as the *commune* or *divination* spells do, the spell can't fail. Finally, if the creature used a spell slot or daily use of an ability to cast the spell, it regains that spell slot or daily use.
+> ***Spirit Conduit (5/Day).*** Whenever another friendly creature within 60 feet of the titan would cast a spell of 5th level or lower using Wisdom as its spellcasting ability, the titan may allow the creature to ignore any material component requirements the spell has. Additionally, if the spell has a chance of failing, such as the *commune* or *divination* spells do, the spell can't fail. Finally, if the creature used a spell slot or daily use of an ability to cast the spell, it regains that spell slot or daily use.
 
 <img src='https://www.hipstersofthecoast.com/wp-content/uploads/2019/06/11.LGW_.jpg' style='position:absolute;bottom:-170px;right:0px;width:820px' />
 
@@ -158,7 +163,7 @@ You choose two points within 10 feet of each other and within the spell's range.
 *1st-level necromancy*
 ___
 - **Casting Time:** 1 action
-- **Range:** 30 feet
+- **Range:** 60 feet
 - **Components:** V S
 - **Duration:**  Instantaneous
 - **Classes:**  Warlock
@@ -195,5 +200,5 @@ style='position:absolute;top:-170px;left:40px;width:1016px; transform: rotate(-1
 
 ### Change Log
 
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
