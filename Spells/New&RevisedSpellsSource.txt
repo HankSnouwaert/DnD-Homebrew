@@ -414,26 +414,6 @@ The vine has AC 14, 80 hit points, and vulnerability to slashing damage.  When i
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the vine gains an additional 20 hit points for each slot level above 4th.
 
-####  Inflict Rot 1.0.0
-*4th-level necromancy*
-___
-- **Casting Time:** 1 action
-- **Range:** Touch
-- **Components:** V, S
-- **Duration:**   1 minute
-- **Classes:**  Druid, Cleric, Warlock
-___
-
-Make a melee spell attack against a creature you can reach. On a hit, it takes 3d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
-
-A creature afflicted by this disease takes 3d10 necrotic damage at the end of each of its turns and must then make a Constitution saving throw, ending the disease on a success. 
-
-If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to unleash a wave of rot. Each creature of your choice that you can see within 30 feet of it must make a Constitution saving throw, taking 3d10 necrotic damage on a failed save or half as much damage on a successful one. You may choose to have one of the creatures that failed the saving throw become infected with the same disease, which lasts for the remainder of the spell's duration.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
-
-\pagebreakNum
-
 #### Leap Slam 0.0.0
 *3rd-level transmutation*
 ___
@@ -447,6 +427,11 @@ ___
 You may leap up to 20 feet into the air and may then slam back down into an unoccupied space on the ground within 40 feet. You ignore fall damage until the end of the turn. 
 
 If you slam into the ground, each other creature within 10 feet of you must make a Strength saving throw. On a failed save, it is knocked prone, and until the end of its next turn, it can take either an action or a bonus action on its turn, not both, and can't take reactions.
+
+
+\pagebreakNum
+
+
 
 
 #### Miasma of Pestilence 1.0.0
@@ -480,6 +465,8 @@ Any surface the sphere rolls across or in the range of its explosion is covered 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the bludgeoning damage and fire damage from the explosion both increase by 1d8 for each slot level above 6th.
 
+\columnbreak
+
 #### Mud Ball 0.0.0 
 *2nd-level conjuration*
 ___
@@ -508,7 +495,6 @@ You touch a creature, causing it to become electrically charged. Until the spell
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for every two levels above 5th.
 
-\pagebreakNum
 
 #### Phantasmagoria 1.0.0
 *6th-level  illusion*
@@ -522,6 +508,7 @@ ___
 
 You summon illusory creatures who flit and broil within a 30-foot radius sphere centered on a point within range you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
 
+\pagebreakNum
 
 #### Puddle of Ooze 1.0.0
 *3rd-level conjuration*
@@ -536,6 +523,24 @@ ___
 You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
+
+#### Rancid Visitation 2.0.0
+*4th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:**   1 minute
+- **Classes:**  Druid, Cleric, Warlock
+___
+
+Make a melee spell attack against a creature you can reach. On a hit, it takes 4d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
+
+A creature afflicted by this disease takes 4d10 necrotic damage at the start of each of your turns and must then make a Constitution saving throw, ending the disease on a success. 
+
+If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to infect a new creature of your choice that you can see within 30 feet of it. The new creature must succeed on a Constitution saving throw or be infected with the same disease for the remainder of the spell's duration.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
 
 #### Ray of Enfeeblement (Revised) 0.0.0
 *2nd-level necromancy*
@@ -634,7 +639,7 @@ You cause yourself to become electrically charged for the duration of the spell 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
 
-\pagebreakNum
+\columnbreak
 
 #### Storm of Vengeance (Revised) 1.0.0
 *9th-level conjuration*
@@ -669,7 +674,7 @@ Additionally, you may choose an additional effect from the options listed below.
 
 ***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
 
-\columnbreak
+\pagebreakNum
 
 #### Stream of Corruption 1.0.0
 *2nd-level evocation*
@@ -956,6 +961,9 @@ The boil immediately explodes when the spell ends.
 
 \pagebreakNum
 
+### Rancid Visitation
+#### 2.0.0
+* Replace inflict rot with Rancid Visitation
 
 ### Water Whip
 #### 0.1.0
