@@ -139,18 +139,18 @@ ___
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+4)|10 (0)|20 (+5)|10 (0)|16 (+3)|10 (0)|
+>|18 (+4)|10 (0)|20 (+5)|8 (-1)|16 (+3)|12 (+1)|
 >___
-> - **Saving Throws** Con +8, Wis +6
-> - **Skills** Athletics +7, Perception +6
+> - **Saving Throws** Con +8, Wis +6, Cha +4
+> - **Skills** Athletics +7, Performance + 4
 > - **Damage Resistances** acid, cold, lightning
 > - **Damage Immunities** poison, necrotic
 > - **Condition Immunities** poisoned
-> - **Senses** darkvision 120 ft., passive Perception 16
+> - **Senses** darkvision 120 ft., passive Perception 13
 > - **Languages** Abyssal, telepathy 60 ft.
 > - **Challenge** 7 (2,900 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
 > ___
-> ***Gloom of Flies.*** The area within 10 feet of the plague bearer is filled with files, lightly obscuring it and turning it into difficult terrain for creatures who aren’t demons of decay. Any creature that’s not a demon of decay that starts its turn in this area must succeed on a DC 16 Constitution save or take 9 (2d8) piercing damage and become dazed until the start of its next turn. The plague bearer regains hit points equal to the damage dealt this way. If the stooge is killed, the cloud remains for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. If a creature takes damage from the cloud during this time, the plague bearer is returned to life with hit points equal to the damage dealt.
+> ***Gloom of Flies.*** The area within 10 feet of the plague bearer is filled with files, lightly obscuring it and turning it into difficult terrain for creatures who aren’t demons of decay. Any creature that’s not a demon of decay that starts its turn in this area must succeed on a DC 16 Constitution save or take 7 (2d6) piercing damage and become dazed until the start of its next turn. The plague bearer regains hit points equal to the damage dealt this way. If the stooge is killed, the cloud remains for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. If a creature takes damage from the cloud during this time, the plague bearer is returned to life with hit points equal to the damage dealt.
 >
 >  ***Living Plague.*** The plague bearer is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
 >
@@ -226,7 +226,7 @@ against spells and other magical effects.
 >
 > ***Spellcasting.*** The plague bearer casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 15, +7 to hit with spell attacks):
 >
->***1/day each:*** *blight*, *cloudkill*, *inflict rot** <br><br>
+>***1/day each:***  *cloudkill*, *mass cure wounds*, *rancid visitation** <br>
 > **New spell found at end of document*
 
 #### Locus of Rot Abilities
@@ -296,10 +296,10 @@ ___
 >
 > ***Spellcasting.*** The plague bearer casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 17, +9 to hit with spell attacks):
 >
->***1/day each:*** *circle of death*, *harm*, *regenerate*
+>***1/day each:*** *circle of death*, *harm*, *heal*
 
 
-#### New Spell: Inflict Rot
+#### New Spell: Rancid Visitation
 *4th-level necromancy*
 ___
 - **Casting Time:** 1 action
@@ -309,13 +309,14 @@ ___
 - **Classes:**  Druid, Cleric, Warlock
 ___
 
-Make a melee spell attack against a creature you can reach. On a hit, it takes 3d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
+Make a melee spell attack against a creature you can reach. On a hit, it takes 4d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
 
-A creature afflicted by this disease takes 3d10 necrotic damage at the end of each of its turns and must then make a Constitution saving throw, ending the disease on a success. 
+A creature afflicted by this disease takes 4d10 necrotic damage at the start of each of your turns and must then make a Constitution saving throw, ending the disease on a success. 
 
-If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to unleash a wave of rot. Each creature of your choice that you can see within 30 feet of it must make a Constitution saving throw, taking 3d10 necrotic damage on a failed save or half as much damage on a successful one. You may choose to have one of the creatures that failed the saving throw become infected with the same disease, which lasts for the remainder of the spell's duration.
+If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to infect a new creature of your choice that you can see within 30 feet of it. The new creature must succeed on a Constitution saving throw or be infected with the same disease for the remainder of the spell's duration.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
+
 
 \columnbreak
 
@@ -387,5 +388,5 @@ style='position:absolute;top:-50px;left:0px;width:817px;transform:scaleX(-1)' />
 
 ### Change Log
 
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
