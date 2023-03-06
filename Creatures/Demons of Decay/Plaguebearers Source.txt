@@ -1,4 +1,32 @@
 
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Plague Bearers of Decay
@@ -318,23 +346,24 @@ If a diseased creature drops to 0 hit points before this spell ends, you can end
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
 
 
+
 \columnbreak
 
 ##### Plague Bearer Adventure Hooks
 
 | d6  | Plot Hook |
 |:---:|:-----------:|
-|  1  | The players are asked to investigate the whereabouts of a group of missing plague victims who recently disappeared from the church where they were being cared for. No one knows they all succumbed to their diseases and became plague bearers.|
-|  2  |The players pass through town after town racked with sickness. The players pass through several towns racked with sickness. In each town People mention a rotted carriage that passed through without stopping.   |
+|  1  | The players investigate the whereabouts of a group of missing plague victims who recently disappeared from their physician’s care. No one knows they succumbed to their diseases and became plague bearers.|
+|  2  |The players pass through several towns racked with sickness. In each town, people mention a rotted carriage that passed through without stopping. No one could see who was in it, and all they heard from within was a chorus strange gurgling laughter.  |
 |  3  | The players come across a decaying town whose entire population succumbed to Abyssal Rot. All its inhabitants are plague bearers acting out a twisted mockery of their former day-to-day lives.    |
 |  4  | A trio of festering stooges wanders the land, stumbling from one strange situation to another as they leave plague and ruin in their wake.  |
-|  5  | A military captain who succumbed to Abyssal Rot and became a plague-ridden now seeks to infect all his former troops and recreate the platoon he led, but as demons of decay.|
+|  5  | A military captain who succumbed to Abyssal Rot and became a plague-ridden now seeks to infect all his former troops and recreate demonic parody of the platoon he once led.|
 |  6  |  A group of bullywogs has fled their swamp homes seeking the aid of the players in stopping a herald of decay who has infested their territory. |
 
 \pagebreak
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### Abyssal Rot
 This disease is inflicted by demons and rots the body before devouring the soul. An hour after becoming infected, the victim begins displaying symptoms, and the Severity Level of the disease becomes 1. 
@@ -390,3 +419,6 @@ style='position:absolute;top:-50px;left:0px;width:817px;transform:scaleX(-1)' />
 
 #### 1.0.0
 * Document release
+
+#### 1.0.1
+* Fix formatting of first page
