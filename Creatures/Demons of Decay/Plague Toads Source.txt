@@ -1,5 +1,5 @@
 
-<br><br>
+<br>
 
 ## Plague Toads
 These wretched fiends appear as giant, mutant, <br> disease-ridden toads with one or more boney <br> horns protruding from their bulbous heads. <br> Their  rotting skin always seems to be sloughing <br> off of them and spreads terrible diseases to those <br> who come in contact with it.
@@ -9,7 +9,7 @@ Plague toads spawn in the vilest swamps of the <br> demon realms. There, they la
 Demonic cultists of decay will often summon plague <br> toads to serve as guardians in their lairs, and when <br> other demons of decay launch large-scale attacks, they <br> will often herd knots of plague toads into battle <br> alongside them.  Some plague bearer demons even catch plague toads for themselves and put them to use as combat <br> mounts. Though they aren't the fastest of steeds, plague toads can leap over obstacles and ram foes with their boney horns, knocking prey off their feet before quickly gobbling them up.
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ___
 ___
@@ -37,7 +37,7 @@ ___
 >
 > ***Living Plague.*** The toad is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
 >
-> ***Plague Secretion.*** A creature that touches the toad must make DC 14 Constitution saving throw at the end of the turn or become infected by Abyssal Rot.
+> ***Plague Secretion.*** A creature that starts its turn grappled by or grappling the toad must succeed on a DC 14 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
 >
 > ***Standing Leap.*** The toad's long jump is up to 40 ft. and its high jump is up to 20 ft., with or without a running start.
 >
@@ -68,7 +68,7 @@ style='position:absolute;top:-200px;left:-92px;width:916px; transform: rotate(50
 src='https://www.gmbinder.com/images/rNOAD8A.png'
 style='position:absolute;top:-200px;left:-220px;width:916px; transform: rotate(50deg)' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreak
 
@@ -122,16 +122,69 @@ Carrying this disease marks these plague toads with a higher status in their swa
 #### Plague Toads in Your Adventures
 The following table provides some adventure hooks for incorporating plague toads into your adventures.  Example encounters with battle maps for the hooks written in bold can be found in the *Demons of Decay Creature Guide* available to members of our Patreon.
 
+<br>
+
 ##### Plague Toad Adventures
 | d4  | Adventure Hook |
 |:---:|:-----------:|
-|  1  | Someone has dumped demonic waste into a nearby pond, turning its toad population into plague toads.|
+|  1  | A raving halfling rants to anyone who listens about how fiendish waste is being dumped into the ponds and turning the frogs into demons.|
 |  2  | The players come into conflict with a cult worshipping a demon lord of decay. Those who displease their master are warped into plague toads.   |
-|  3  | While traveling through a treacherous swamp, the players find themselves hunted by a gang of plague bearers riding plague toads. |
+|  3  | **While traveling through a treacherous swamp, the players find themselves hunted by a gang of plague bearers riding plague toads.** |
 |  4  | A raiding party of plague riders mounted on plague toads spills out of the sewers of a major city, spreading disease and chaos in preparation for a larger assault.  |
+
+
+
+
+\pagebreak
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Abyssal Rot
+This disease is inflicted by demons and rots the body before devouring the soul. An hour after becoming infected, the victim begins displaying symptoms, and the Severity Level of the disease becomes 1. 
+
+Whenever the creature takes necrotic or poison damage while displaying symptoms, its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the disease is cured.
+
+Every hour after the creature first displays symptoms, it repeats the saving throw against the disease, but with the save DC 1 higher than the last time the creature made the save. If the creature fails the saving throw, the Severity Level increases by 1, and it takes necrotic damage equal to 1d10 plus the disease’s Severity Level.
+
+If the disease reduces a creature’s hit point maximum to 0, it is instantly transformed into a **plague bearer of decay**. This transformation can only be undone by a *wish* spell.
+
+The healing touch ability of an angel or other celestial will instantly cure Abyssal Rot.
+
+<br>
+
+> ##### Secret Infection Rolls 
+>When a player character must make a saving throw to determine if they are infected by a disease, it is usually better for the GM to make the roll in secret since the character won’t know they’re infected. <br> A Wisdom (Medicine) check can be made to determine if a creature has been infected before it starts displaying symptoms. For Abyssal Rot, a DC of 15 for this check is an appropriate baseline, though you may alter it for other diseases and circumstances.<br>
+Subsequent rolls made to determine if the player character fights off the effects of the disease should usually be made by the player.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Curing Diseases With Magical Abilities
+Abilities like *lessor restoration* and Lay on Hands can instantly cure most diseases. If you wish to make diseases more difficult to remove, you can use or modify either of the following rules additions.
+
+#### Ability Check to Cure
+Whoever uses the ability to attempt to cure the disease must succeed on an ability check against the disease’s current save DC to eradicate it successfully. If the ability being used to cure the disease is a feature granted by a class with a spellcasting feature, the healer can add their Spell Attack Modifier for that class to the ability check. Otherwise, the healer can add their Wisdom modifier + their proficiency modifier to the ability check. 
+
+If the check is being made to cure a creature that hasn’t started displaying symptoms yet, but the healer knows the creature is infected, the check is made with advantage.
+
+#### Curing By Severity Level
+When an ability that cures diseases is used on a diseased creature, it only reduces the severity level by 1.  
+If you are using the Ability Check to Cure rule, you can allow the healer to reduce an additional severity level if the check’s result was 5 or more over the disease’s DC. You can extend this rule to allow a result of 10 over the DC to cure 2 additional severity levels, 15 over the DC to cure 3 additional severity levels, and so on.
 
 ### Art Credit
 * Grolnok, the Omnivore - Simon Dominic, Wizards of the Coast
+* Undercity Plague - Vincent Proce, Wizards of the Coast
+
+
+
+
+<img
+src='https://i.ibb.co/StnCtVq/5097-undercity-plague.jpg'
+style='position:absolute;top:-50px;left:0px;width:817px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:75px; right:0px; width:900px; transform:rotate(9deg); filter:grayscale(00%) brightness(97%)' />
 
 \pagebreak
 
