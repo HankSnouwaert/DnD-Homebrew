@@ -1,4 +1,32 @@
 
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
 <br>
 
 ## Plague Toads
@@ -66,7 +94,7 @@ style='position:absolute;top:-200px;left:-92px;width:916px; transform: rotate(50
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-200px;left:-220px;width:916px; transform: rotate(50deg)' />
+style='position:absolute;top:-100px;left:-400px;width:946px; transform: rotate(50deg)' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -74,7 +102,7 @@ style='position:absolute;top:-200px;left:-220px;width:916px; transform: rotate(5
 
 ___
 ___
-> ## Bog Baron
+> ## Plague Toad, Bog Baron
 >*Large fiend (demon of decay), chaotic evil*
 > ___
 > - **Armor Class** 15 (natural armor)
@@ -189,5 +217,5 @@ style='position:absolute;top:-50px;left:0px;width:817px;transform:scaleX(-1)' />
 \pagebreak
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
