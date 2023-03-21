@@ -1,249 +1,308 @@
+<style>
 
-## Plaguebearers of Decay
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after, .phb#p4:after, .phb#p6:after, .phb#p9:after, .phb#p11:after, .phb#p15:after {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br>
+
+# Demons of Decay Creature Guide
+This document contains a collection of resources to help you run adventures featuring demons of rot and pestilence. These resources are divided into Encounter Guides, Loot Guides, and Example Encounters. Encounter Guides will help you understand the mindset, motivations, and tactics of the creatures, so you have a better idea of how to play them. Loot Guides provide alternate ways to provide treasure found after defeating these enemies. Example Encounters will provide encounter scenarios involving these creatures and instructions on how to run them.
+
+## Encounter Guides
+These guides explore the motivations and tactics of specific creatures to help provide richer roleplaying experiences when using them. Motivations determine the priorities the creature has and what goals it is likely to form based on them. Tactics determine the means through which the creature is most likely to achieve those goals. Motivations and tactics apply when roleplaying wild beasts looking for their next meal, as well as major characters serving as antagonists for an entire campaign.
+
+### Motivations
+
+Understanding a creature's motivations will help you give it goals that may put it into direct conflict with the players. If players can decern that a creature has goals that aren't just "be an enemy for the players to defeat," it will breathe more life into the world and give the players a chance to make more informed decisions as to how to deal with the creature. 
+
+This section of the guide will provide examples of common motivations for these types of creatures in general and specialized motivations for more unique creatures.
+
+
+### Tactics
+
+Understanding a creature's preferred tactics will help you form a strategy for how the creature will attempt to achieve its goals and guide you in making the most of the creature's abilities. Players who can recognize a creature's tactics will then have a chance to make note of them and attempt to adjust their own tactics accordingly.
+
+This section of the guide will provide examples of how the creatures prefer to initiate combat, what tactics they use during combat, and what they will do if they are losing.
+
+## Loot Guides
+
+The DMG contains Individual Treasure tables listing the number of coins that can be dropped by creatures of different CRs. However, many creatures have no reason to carry coins or even have them within their vicinity. Other creatures may carry wealth in the form of items whose value isn't apparent at first glance. 
+
+
+And sometimes, items are hidden away in nearby areas that are difficult to spot. How different CRs are split among the tables also results in creatures of wildly different power levels dropping the same amounts of wealth.
+
+You can use these loot guides if you wish to provide your players with alternate sources of wealth when they slay monsters that don't carry money, let players use their skills to collect wealth, or just provide treasure that scales more closely with creature CR.
+
+The guides provide rules for allowing players to loot valuable goods from their foes' corpses or the surrounding area after an encounter. This looting can be done using a skill check made by one of the players, with the type of check required dependent on the type of item the player wishes to collect and how the item is being collected. The more successful the check, the more goods the player is able to collect. 
+
+> ##### What’s Alternate Loot Good For?
+>Treasure other than coins, gems, and art objects can be used to provide forms of wealth that better fit the context of the current environment. Players with the right skill sets might also be able to use valuables they find this way to craft useful items. These could be handy mundane items or even magic items. Hide and bone could be crafted into weapons and armor, while potent plants or liquids could form the base for a potion.
+
+<img src='https://mdl.artvee.com/sftb/529655ld.jpg' style='position:absolute; bottom:-180px; right:-40px; width:500px; transform:scaleX(-1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:0px;top:-480px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+## Demons of Decay Encounter Guide
+
+These demons represent the existential terror that comes from knowing all things will eventually succumb to entropy and rot away. They are drawn to people and places where that decay is most apparent and revel in the tendency of mortals to neglect themselves and the world they live in, thus allowing disease and entropy to run their course unopposed. Mortals who wish to overcome the hardships of disease and decay may make pacts with these demons, forfeiting their souls for greater physical and mental resilience. 
+
+Players are most likely to encounter these demons when they’ve been summoned by such mortals. But demons of decay may also spawn in locations that have allowed neglect and entropy to run rampant. A moldering town, a neglected sewer, or a disease-ridden city are all places where demons of decay may manifest themselves and begin spreading their plagues.
+
+
+
+### Demon of Decay Motivations
+
+In contrast to their grizzly appearance and nihilistic associations, demons of decay have cheery dispositions. They see the inevitable deterioration of all things as something to be celebrated, and they seek to hasten this process wherever they go. Death and decay are natural parts of the cycle of life and rebirth, and they promote this cycle by rotting away mortals and using their corpses to birth foul demons.  
+
+It is equally important to demons of decay that they spread life wherever they go. This life just happens to be in the form of virulent diseases and parasites. To demons of decay, it is an honor to carry such life, and they are eager to impart their “gifts” to as many mortals as possible.
+
+When role-playing demons of decay, you can have them behave in a jovial and benevolent manner. When they spread diseases, they believe they are altruistically promoting life and passing blessings onto the infected. When they inflict rot and decay on objects and creatures, they see themselves as bringing beauty into the world. There is a playfulness to their work, and demons of decay are always ready to celebrate rot and ruin being brought into the world.
+
+
+#### Common Demon of Decay Motivations
+* Bring about ruin through decay
+* Spread different types of diseases
+* Celebrate with other demons of decay
+* Collect components used to brew new plagues
+* Eliminate any who specialize in healing or curing diseases
+* Persuade mortals to worship demon lords of decay
+
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+### Demon of Decay Tactics
+These fiends share many similar characteristics that lead to certain fighting styles. 
 
-___
-___
-> ## Plague Bearer
->*Medium fiend (demon of decay), chaotic evil*
-> ___
-> - **Armor Class** 12 (natural armor)
-> - **Hit Points** 85 (10d8 + 40)
-> - **Speed** 30ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|16 (+3)|10 (0)|18 (+4)|10 (0)|16 (+3)|10 (0)|
->___
-> - **Saving Throws** Con +6, Wis +5
-> - **Skills** Athletics +5, Perception +5
-> - **Damage Resistances** acid, cold, lightning
-> - **Damage Immunities** poison, necrotic
-> - **Condition Immunities** poisoned
-> - **Senses** darkvision 120 ft., passive Perception 15
-> - **Languages** Abyssal, telepathy 60 ft.
-> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
-> ___
-> ***Fetid Stench.*** Any creature that starts its turn within 10 feet of the plague bearer must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. While poisoned this way, the creature can take either an action or a bonus action on its turn, but not both, and it can't take reactions. On a successful saving throw, the creature is immune to the Fetid Stench ability of all demons of decay for 1 hour. <br>
-> If a creature would make multiple saving throws against the Fetid Stench abilities of multiple demons of decay, it instead makes a single saving throw. The save DC is equal to the highest save DC among the demons of decay plus 1 per saving throw that was forgone.
->
->  ***Living Plague.*** The plague bearer is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
->
->
-> ### Actions
->
-> ***Plaguesword.*** *Melee Weapon Attack:* +5 to hit, reach 5ft., one target. *Hit:* 8 (1d10 + 3) slashing damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
+***Resilience.*** Demons of decay usually have low AC but high amounts of health. They also often have regenerative abilities that they can pass on to each other. These traits lead to them being accustomed to taking a lot of hits. 
 
-<img src='https://i.ibb.co/z2YtPdN/Cemetery-Reaper-Mt-G-Art.jpg'
- style='position:absolute;top:-70px;right:-250px;width:1000px;transform:scaleX(1)' />
+***Melee Oritanted.*** Demons of decay usually have better melee options than ranged options. There are exceptions to this, but it is usually in their best interest close in on foes from all sides and keep players locked up in melee combat.
+
+***Limited Mobility Options.*** Demons of decay have access to multiple steeds, but as far as mounts go, none of them are particularly fast. Demons of decay usually want to find ways to bog players down so they can avoid being out-maneuvered, especially since they do best when they can close into melee range.
+
+***Debuffs & Damage Over Time Effects.*** Demons of decay usually don’t do outrageous amounts of damage all at once. Instead, they prefer to infect players with effects that whittle them down over time. They also leave hazardous terrain across the battlefield, which does damage over time and helps tip maneuverability options in their favor.
+
+
+
+#### Engagement
+
+Because of their poor stealth, most demons of decay won’t be able to surprise the players. And their reliance on melee attacks means the fight will often start with them shambling toward the players as quickly as possible and bogging them down in close combat. Demons of decay usually perform better when grouped up, so they will try to converge on their targets into a massed group, coming from multiple angles when possible.
+
+
+#### Combat
+
+Demons of decay show little concern for their well-being and will risk taking heavy damage if it means they can subject the players to their attacks and abilities. Because they often use abilities that deal damage over time, demons of decay try to “spread the love” to as many players as possible to maximize these abilities. Players that can cure or mitigate the putrid abilities of these demons quickly earn their ire and become the highest priority targets.
+
+#### Retreat
+Demons of decay never retreat out of fear for their existence, even when on their home plane where death would be permanent. They see their end as simply part of the natural way of things. They usually only flee a battle to get reinforcements, find more appealing victims, or lure pursuers into a more exposed position for a counterattack.
+
+
+\pagebreakNum
+
+
+#### Tactics: Plague Bearers of Decay
+
+TThe rank-and-file of these demons have straightforward tactics. They simply want to surround players en masse so they will be overwhelmed by their demonic stench and then use their melee attacks to infect as many players as possible. Grouping up is generally to their advantage as it empowers their Fetid Stench ability. 
+
+While staying together in a loose group, plague bearer will distribute their attacks amongst players to attempt to infect as many of them as possible. Plague bearers can sense when a player has been successfully infected, and they focus their attacks on the uninfected. Once all players are infected, they will usually prioritize whichever players have been overcome by their Fetid Stench.
+
+As with all demons of decay, plague bearers will make slaying healers their priority, especially anyone curing diseases.
+
+If a plague bearer has death heads at its disposal, it will hang back and bombard non-infected players from afar until it runs out of ammo and needs to close into melee.
+
+##### Exalted Plague Bearers
+These elite demons generally use the same tactics as their lesser kin. Their ranged attacks give them greater flexibility in who they can target, and they may opt to stay out of melee range of players if approaching is difficult or there are players well out of melee reach they want to attempt to infect.
+
+##### Festering Stooges 
+
+These strange demons will attempt to position themselves to subject as many players as possible to the effect of their Gloom of Flies. If the players are all spread out, they will go after the player with the fewest escape options. If a stooge is near death, it will try to position itself in a way that the cloud of flies it leaves behind will be difficult or inconvenient for players to avoid.
+
+##### Plague-Ridden and Heralds of Decay
+These demons act as leaders to other demons of decay and will wade into the thick of combat where they can put their locus ability to best use. Using locus traits to their maximum potential means ideally being near several infected players and other demons of decay at the same time. 
+
+They possess several spells they can use to turn the tide of battle in their favor.
+
+
+***Plague-Ridden Spells.***
+
+***Cloudkill.*** This is a perfect opening spell that can be used to force ranged players out of advantageous positions and closer into melee range. If the plague-ridden can hit two or more players with this spell before they’ve moved into melee range, they will.
+
+***Inflict Rot.*** This spell is ideal when the players are grouped together and tied up in melee combat. The plague-ridden will target the player that appears to have the lowest constitution, avoiding fighters and barbarians. 
+
+***Blight.*** This is usually the last spell the plague-ridden will cast, and it will prioritize players infected with Abyssal Rot or under the effects of the Inflict Rot spell in an attempt to quickly subdue them.
+
+\columnbreak
+
+***Herald of Decay Spells.***
+
+***Circle of Death.*** The herald will cast this spell as soon as it can hit three or more players with it. Since demons of decay are immune to necrotic damage, it doesn’t have to worry about them being within the spell’s area.
+
+***Harm.*** This is a good opening spell when the herald hasn’t yet gotten into melee range. The herald is good at intuiting the saving throw capabilities of players and will target someone it doesn’t think is likely to pass the save.
+
+***Regenerate.*** The herald will usually cast this on itself if it is below half health and supporting multiple minions with its locus ability. If there is another particularly powerful demon it is fighting alongside, it may opt to target that demon to keep it in the fight longer.
+
+#### Tactics: Plague Toads
+These fiends are dimwitted predators that rely more on instinct than learned tactics. They have various combat options, but if plague toads aren’t commanded by more intelligent creatures, their default goal will be to gulp down the easiest-to-swallow humanoid in sight and hop away so its new meal can be properly digested. 
+
+Plague toads prefer to hunt in bogs or other toxic environments filled with water and difficult terrain that they can easily navigate through hopping and swimming. They may try to sneak up on prey, but their mobility lets them easily catch up to most quarry in these environments even if they are spotted.
+
+A plague toad has four types of attacks, and will choose the one that best fits its circumstances.
+
+**Bite.** The toad will use this attack if it is in melee range and wants to attempt to grapple and escape with a player in tow. This is not an ideal action since it should try to get a bite in as part of its Leap Attack or Togue action.
+
+**Gore.** The toad will generally only use this as part of its Leap Attack feature. Its Leap Attack is how it prefers to engage players in combat, and it may even provoke opportunity attacks if it means leaping into more favorable terrain or landing a Leap Attack against a more vulnerable player.
+
+**Swallow.** The toad will almost always attempt to swallow a creature it has grappled. Once it’s done so, it will start using Dash actions to flee the battle.
+
+**Tongue.** The toad will use this attack to hit players it can’t quite reach with its other attacks. It may also rely on its tongue to avoid leaping into unfavorable terrain or being surrounded.
+
+##### Plague Toads as Steeds
+Plague toads being used as steeds by plague bearers will use more sophisticated tactics, using tongue and bite attacks to grapple and pull players into unfavorable terrain. Separating players in this way also makes it harder for them to free anyone who has been swallowed. 
+
+##### Bog Barons
+These toads use mostly the same tactics, except they are more willing to leap into the middle of players to subject multiple targets to their Miasma of Rot ability. They can sense which players are suffering from their Wasting Sickness and will focus their attacks on them.
+
+
+
+\pagebreakNum
+
+#### Tactics: Plaguelings
+Plaguelings are primarily focused on making mischief. A lone plagueling will never attack the players. Instead, it will most likely stalk them until they make camp. At that point, it will perform acts of mischief such as eating their rations, spreading disease-ridden filth across their belongings, or even biting a sleeping player to infect them with disease.
+
+A plagueling acting in service to another creature can be quite helpful in combat despite having little fighting ability. Plaguelings can use their Noxious Cradle ability to hide within their master and pop out at a moment's notice to use the Help action. They may also attempt to sneak up on players and make a bite attack from hiding to gain advantage on the attack and potentially infect their target.
+
+##### Plagueling Swarms.
+Swarms enjoy hiding within other creatures and pop out at a moment's notice to overwhelm players who've been caught off guard. A few seemingly outnumbered plague bringers can suddenly unleash waves of plaguelings to aid them in battle.
+
+Plagueling swarms can also act as surprise mounts. If a plague bringer carrying them needs to close a distance quickly, the swarm can pop out, pick up the plague bringer, and move 75 feet, all in the same turn. Plague bringers can use this to close in on players quickly and potentially even reach squishier players who thought they were a safe distance away. Once the plague bearer reaches its desired target, the plagueling swarm will generally wander off and start harassing players by attacking and attaching to them.
+
+##### Plagueling Tides.
+These massive swarms function in much the same way as smaller swarms. The key difference is that they can grapple multiple creatures, so they will be incentivized to grab hold of as many players as possible once they make their entrance.
+
+#### Tactics: Rot Flies
+
+Rot flies exist to inflict pain on mortals. When acting of their own accord, they will prioritize attacking the closest mortal creature they can see unless they are aware of the presence of a creature who has killed them before. In this case, their highest priority will be hunting down that creature.
+
+The rot fly has multiple attack options and will use different attacks under different circumstances.
+
+**Stinger.** This is the rot fly's preferred opening attack. If a player poisoned by the stinger manages to save against it on a later turn, the rot fly will usually try to reapply the poison. It will not waste its time trying to poison creatures that appear to have high Constituion.
+
+**Blade Legs.** The rot fly will use blade leg attacks against creatures it fails to poison with its stinger or gain advantage on attacks against. If the creature it's fighting looks like it has low Strength, it may replace one of its multi-attacks with a shove to knock its victim prone to gain advantage on the second attack.
+
+**Proboscis.** The rot fly will use this against creatures it has advantage on attacks against.
+If the rot fly is being ridden by plague bearers, the plague bearers will direct it toward backline players, such as spell casters. The plague bearers will use their actions to help give the rot fly advantage on its attacks against its victim so it can use its proboscis attack to attach to its target. The plague bearer can do this through Help actions and shove attacks to knock creatures prone if they appear to have low Strength.   
+
+
+
+\pagebreakNum
+
+# Example Demons of Decay Encounters
+
+## The Bog Riders <br> (Player Level: 9-11)
+In this encounter, the players find themselves traveling through a blighted swamp where they attract the attention of a trio of plague toads, each being ridden by a plague bearer.
+
+### Encounter Context
+The encounter assumes the players are traveling through a bog currently home to demons of decay. The players may be aware of the demonic presence in the swamp, or they may be blissfully unaware and simply trying to pass to the other side. 
+
+### Lead Up
+This encounter begins with the players making their way through a fetid swamp. They will notice the bog riders just before they hop into the locations shown on the map. Because the bog riders will move in as quickly as possible rather than using stealth, none of the player characters should be surprised. The players should start the encounter roughly in the center of the map.
+
+### Map Description
+* **Lighting.** This depends on the time of day, but the bog riders will most likely attack at dusk or night when there is low light or total darkness.
+* **Bog Rider Starting Areas (TR).** The bog riders should start the encounter at roughly these locations.
+* **Water’s Edge (Light Green Border).** These lines represent the threshold between land that can be walked on and water deep enough to require characters to swim.
+* **Swamp Debris (Orange Border).** This area is difficult terrain.
+* **Reeds (Purple Border).** This area is difficult terrain, and creatures within it are lightly obscured.  The reeds also provide half-cover against ranged attacks.
+* **Rotting Trees (Red Border.** These trees provide total cover and can be climbed with a successful DC 10 Strength (Athletics) check.
+
+
+
+### The Fight
+The plague bearers and plague toad steeds fight using the tactics described in the Demons of Decay Encounter Guide. They will use the swampy terrain to their advantage and attempt to outmaneuver the players, separating and picking them off.
+
+\columnbreak
+
+##### Encounter Map: Fetid Bog
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+### Aftermath
+The attacking demons have no sense of self-preservation; their only goal is to slay all the players. A toad controlled by a plague bearer will only flee if it has swallowed a player and wants to separate that character from the rest of the group. Otherwise, the plague bearers and the toads under their control will fight to the death. Plague toads that lose their rider will become interested in escaping with the easiest meal possible. If the players flee, the demons will pursue them until they escape the swamp. 
+
+#### Loot
+The Eye of the Gods is a gem worth 40,000 gp. Depending on the needs of your campaign, it could be used to craft a powerful magic item, serve a greater narrative purpose in your campaign, or just be a quick way for the players to score quick cash. 
+
+If the players defeat the bone giant and all the awakened ushabtis, then they can loot all 20 ushabtis and the bone giant. Use the Tomb Kingdoms Loot Guide to determine what they find.
+
+<img src='https://i.ibb.co/h7zHZJv/Swamp-Guide.png' style='position:absolute; top:125px; right:5px; width:415px; ' />
+
+
+\pagebreakNum
+
+#### XP Award: 8,500xp
+The degree of success the players have in defeating the demons can affect their XP reward. You can use the following potential outcomes as guidelines to modify how much XP you award your players.
  
-  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:363px;top:-240px;height:1400px;width:1416px;transform:rotate(276deg)' />
+* **150% XP:** The players defeat all the demons using excellent tactics that prevent them from wasting resources.
+* **100% XP:** The players defeat all the demons, but with some amount of struggle.
+* **50% XP:** The players defeat at least half the demons, but then flee.
+* **10% XP:** The players flee after defeating less than half the demons.
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty accordingly.
  
-   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:40px;top:130px;height:1400px;width:1416px;transform:rotate(200deg)' />
+**Easier Encounter (Levels 6-8).** The players are attacked by plague toads without any riders. Change the XP award to 6,000xp.
  
-   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:0px;top:190px;height:1400px;width:1416px;transform:rotate(180deg)' />
+**Harder Encounter (Levels 12-14).** Replace the plague toads with bog barons.  Change the XP award to 10,000xp, and double the gold carried by the toads.
 
-\pagebreakNum
 
-___
-> ## Plague Bearer, Exalted
->*Medium fiend (demon of decay), chaotic evil*
-> ___
-> - **Armor Class** 13 (natural armor)
-> - **Hit Points** 123 (13d8 + 65)
-> - **Speed** 30ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|16 (+3)|10 (0)|20 (+5)|10 (0)|16 (+3)|10 (0)|
->___
-> - **Saving Throws** Con +8, Wis +6
-> - **Skills** Athletics +6, Perception +6
-> - **Damage Resistances** acid, cold, lightning
-> - **Damage Immunities** poison, necrotic
-> - **Condition Immunities** poisoned
-> - **Senses** darkvision 120 ft., passive Perception 15
-> - **Languages** Abyssal, telepathy 60 ft.
-> - **Challenge** 5 (1,800 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
-> ___
-> ***Fetid Stench.*** Any creature that starts its turn within 10 feet of the plague bearer must succeed on a DC 16 Constitution saving throw or be poisoned until the start of its next turn. While poisoned this way, the creature can take either an action or a bonus action on its turn, but not both, and it can't take reactions. On a successful saving throw, the creature is immune to the Fetid Stench ability of all demons of decay for 1 hour. <Br>
-> If a creature would make multiple saving throws against the Fetid Stench abilities of multiple demons of decay, it instead makes a single saving throw. The save DC is equal to the highest save DC among the demons of decay plus 1 per saving throw that was forgone.
->
->  ***Living Plague.*** The plague bearer is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
->
-> ### Actions
-> ***Multiattack.*** The plague bearer makes two attacks. 
->
-> ***Plaguesword.*** *Melee Weapon Attack:* +6 to hit, reach 5ft., one target. *Hit:* 8 (1d10 + 3) slashing damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
->
-> ***Noxious Spew.*** *Ranged Weapon Attack:* +6 to hit, range 20/40 ft., one target. *Hit:* 13 (3d6 + 3) necrotic damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
+\columnbreak
 
-<img src='https://i.ibb.co/LSCPCjP/Contagious-Nim.png'
- style='position:absolute;bottom:440px;right:150px;height:620px;transform:scaleX(1)' />
+### Adventure Follow Ups
+If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration:
  
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-740px;top:0px;height:1400px;width:1416px;transform:rotate(90deg)' />
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | The demons the players encountered were a scouting party leading the way for a larger demonic force traveling through the bog. |
+|  2  | A demonic infestation has taken hold in the swamp, spawning demons of decay who seek to spread the infection.|
+|  3  | A group of mad cultists has taken refuge in the swamp and summoned demons to deter intruders. |
+|  4  | A great unclean one has created a lair within the swamp and sends its minions to collect living samples to aid in its unholy experiments.|
 
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-600px;top:230px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
-\pagebreakNum
-
-___
-> ## Plague Bearer, <br> Festering Stooge
->*Medium fiend (demon of decay), chaotic evil*
-> ___
-> - **Armor Class** 13 (natural armor)
-> - **Hit Points** 123 (13d8 + 65)
-> - **Speed** 30ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+4)|10 (0)|20 (+5)|10 (0)|16 (+3)|10 (0)|
->___
-> - **Saving Throws** Con +8, Wis +6
-> - **Skills** Athletics +7, Perception +6
-> - **Damage Resistances** acid, cold, lightning
-> - **Damage Immunities** poison, necrotic
-> - **Condition Immunities** poisoned
-> - **Senses** darkvision 120 ft., passive Perception 16
-> - **Languages** Abyssal, telepathy 60 ft.
-> - **Challenge** 7 (2,900 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
-> ___
-> ***Gloom of Flies.*** The area within 10 feet of the plague bearer is filled with files, lightly obscuring it and turning it into difficult terrain for creatures who aren’t demons of decay. Any creature that’s not a demon of decay that starts its turn in this area must succeed on a DC 16 Constitution save or take 9 (2d8) piercing damage and become dazed until the start of its next turn. The plague bearer regains hit points equal to the damage dealt this way. If the stooge is killed, the cloud remains for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. If a creature takes damage from the cloud during this time, the plague bearer is returned to life with hit points equal to the damage dealt.
->
->  ***Living Plague.*** The plague bearer is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
->
->
-> ### Actions
-> ***Multiattack.*** The plague bearer makes two attacks. 
->
-> ***Plaguesword.*** *Melee Weapon Attack:* +7 to hit, reach 5ft., one target. *Hit:* 9 (1d10 + 4) slashing damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
->
-> ***Noxious Spew.*** *Ranged Weapon Attack:* +7 to hit, range 20/40 ft., one target. *Hit:* 14 (3d6 + 4) necrotic damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
-
-\pagebreak
-
-___
-___
-> ## Plague Bearer, <br>Plague-ridden
->*Medium fiend (demon of decay), chaotic evil*
-> ___
-> - **Armor Class** 14 (natural armor)
-> - **Hit Points** 133 (14d8 + 70)
-> - **Speed** 30ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|16 (+3)|10 (0)|20 (+5)|12 (+1)|18 (+4)|12 (+1)|
->___
-> - **Saving Throws** Con +8, Wis +7
-> - **Skills** Athletics +6, Perception +7
-> - **Damage Resistances** acid, cold, lightning
-> - **Damage Immunities** poison, necrotic
-> - **Condition Immunities** poisoned
-> - **Senses** darkvision 120 ft., passive Perception 15
-> - **Languages** Abyssal, telepathy 60 ft.
-> - **Challenge** 8 (3,900 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
-> ___
->
-> ***Magic Resistance.*** The plague bearer has advantage on saving throws 
-against spells and other magical effects.
->
-> ***Fetid Stench.*** Any creature that starts its turn within 10 feet of the plague bearer must succeed on a DC 16 Constitution saving throw or be poisoned until the start of its next turn. While poisoned this way, the creature can take either an action or a bonus action on its turn, but not both, and it can't take reactions. On a successful saving throw, the creature is immune to the Fetid Stench ability of all demons of decay for 1 hour.
->
-> If a creature would make multiple saving throws against the Fetid Stench abilities of multiple demons of decay, it instead makes a single saving throw. The save DC is equal to the highest save DC among the demons of decay plus 1 per saving throw that was forgone.
->
->  ***Living Plague.*** The plague bearer is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
->
-> ***Locus of Rot.*** The plague bearer gains one of the Locus abilities listed below.
->
-> ### Actions
-> ***Multiattack.*** The plague bearer makes two attacks. 
->
-> ***Poxsword.*** *Melee Weapon Attack:* +6 to hit, reach 5ft., one target. *Hit:* 10 (2d6 + 3) slashing damage plus 13 (3d8) necrotic damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
->
-> ***Spellcasting.*** The plague bearer casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 15, +7 to hit with spell attacks):
->
->***1/day each:*** *blight*, *cloudkill*, *inflict rot*
 
 \pagebreakNum
-
-___
-___
-> ## Plague Bearer, Herald of Decay
->*Medium fiend (demon of decay), chaotic evil*
-> ___
-> - **Armor Class** 15 (natural armor)
-> - **Hit Points** 168 (16d8 + 96)
-> - **Speed** 30ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+4)|12 (+1)|22 (+6)|14 (+2)|20 (+5)|14 (+2)|
->___
-> - **Saving Throws** Con +10, Wis +9, Int +6, Cha +6
-> - **Skills** Athletics +8, Perception +9
-> - **Damage Resistances** acid, cold, lightning bludgeoning, piercing, and slashing from nonmagical attacks
-> - **Damage Immunities** poison, necrotic
-> - **Condition Immunities** poisoned
-> - **Senses** darkvision 120 ft., passive Perception 19
-> - **Languages** Abyssal, telepathy 60 ft.
-> - **Challenge** 11 (7,200 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +4       
-> ___
->
-> ***Magic Resistance.*** The plague bearer has advantage on saving throws against spells and other magical effects.
->
-> ***Fetid Stench.*** Any creature that starts its turn within 10 feet of the plague bearer must succeed on a DC 18 Constitution saving throw or be poisoned until the start of its next turn. While poisoned this way, the creature can take either an action or a bonus action on its turn, but not both, and it can't take reactions. On a successful saving throw, the creature is immune to the Fetid Stench ability of all demons of decay for 1 hour.
->
-> If a creature would make multiple saving throws against the Fetid Stench abilities of multiple demons of decay, it instead makes a single saving throw. The save DC is equal to the highest save DC among the demons of decay plus 1 per saving throw that was forgone.
->
->  ***Living Plague.*** The plague bearer is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
->
-> ***Locus of Rot.*** The plague bearer gains one of the Locus abilities listed below.
->
-> ### Actions
-> ***Multiattack.*** The plague bearer makes two attacks. 
->
-> ***Balesword.*** *Melee Weapon Attack:* +8 to hit, reach 5ft., one target. *Hit:* 11 (2d6 + 4) slashing damage plus 22 (5d8) necrotic damage. If the target is a creature, it must succeed on a DC 18 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
->
-> ***Spellcasting.*** The plague bearer casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 17, +9 to hit with spell attacks):
->
->***1/day each:*** *circle of death*, *harm*, *regenerate*
-
-\pagebreakNum
-
-### Death's Heads
-
-These vile weapons a created from the skulls of those who have succumbed to demons of decay. They are thrown like grenades that explode into clouds of rot and disease. You may equip a plague bearer exalted plague bearer, or a festering stooge with 3 death heads. If you do, increase its CR by 1. The equipt creature can throw a death’s head as an Attack action or in place of an attack that’s part of its multiattack action.
-
-#### New Magic Item: Death's Head
-*Wondrous item, uncommon*<br>
-As an action, a creature holding this item that is not restrained or grappled can hurl it at a point it can see within 30 feet that is not behind total cover. The death’s head detonates at this point, and each creature within 10 feet of it that’s not behind total cover must make a DC 15 Constituion saving throw. On a failure, a creature takes 13 (3d8) necrotic damage and becomes infected by Abyssal Rot (description at end of document). On a success, a creature takes half as much damage and isn’t infected.
-
-\pagebreakNum
-
->  ## Death's Heads
-> Death Heads are plague coverd skulls of foes of the demons pestilence. They are throw like grenades that erupt with clouds of rot spreading disease across the battlefield.
-> Plaguebearer, A Exalted Plaguebearer, Festering Stooge, can choose to take up to 3 death heads, if the do their CR increased by 1, A Exalted Plaguebearer, Festering Stooge can throw a deaths head in place of one of their attacks made with their Multiattack action.
->
-
-> Magic item
->
-> Death's Head: As a action if the Plaguebearer is not restaurant or grappled, it hurls a death head at a point it can see within 30 feet of it not behind toatal cover were it detonates. Each creature within 10 feet of that point it detonated that is not behind cover must make a DC 15 Constitution saving throw. On a failure, a creature takes 13 (3d8) necrotic damage and becomes infected by Abyssal Rot. On a success, a creature takes half the damage and isn't infected.
->
-> when a Plaguebearer attempts to hurl a death head while it is not mounted, any number of creatures with in 5 feet of it may make opportunity attack against the Plaguebearer, if a attack made this way hits, the death head detonates centered on the Plaguebearer instead of the point the Plaguebearer choose.
-
->  ## Plague Rider
-> Plaguebearer, A Exalted Plaguebearer, Festering Stooge, Plagueridden or Herald of Nurgle can have a demon pestilence they are mounted that is controlled by them be able to take the attack action.
-
-\pagebreak
 
 ### Change Log
 
