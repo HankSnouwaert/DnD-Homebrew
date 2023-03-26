@@ -25,6 +25,10 @@
     }
     /* End Footers */
 
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+
 </style>
 
 <br>
@@ -54,10 +58,10 @@ ___
 >___
 > - **Saving Throws** Dex +4, Con +6
 > - **Damage Resistances** acid, cold, lightning
-> - **Damage Immunities** poison, necrotic
+> - **Damage Immunities** necrotic, poison 
 > - **Condition Immunities** poisoned
 > - **Senses** darkvision 120 ft., passive Perception 13
-> - **Languages** understands Abyssal but can't speak it.
+> - **Languages** understands Abyssal but can't speak
 > - **Challenge** 4 (1,100 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2       
 > ___
 >
@@ -67,11 +71,11 @@ ___
 >
 > ***Plague Secretion.*** A creature that starts its turn grappled by or grappling the toad must succeed on a DC 14 Constitution saving throw or become infected by Abyssal Rot (description at end of document).
 >
-> ***Standing Leap.*** The toad's long jump is up to 40 ft. and its high jump is up to 20 ft., with or without a running start.
+> ***Standing Leap.*** The toad's long jump is up to 40 feet. and its high jump is up to 20 ft., with or without a running start.
 >
 > ### Actions
 >
-> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If the target is Large or smaller, it is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the toad can't use its bite attack or tongue attack on another target.
+> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the toad can't use its bite attack or tongue attack on another target.
 >
 > ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., *Hit:* 13 (2d8 + 4) piercing damage.
 >
@@ -115,10 +119,10 @@ ___
 >___
 > - **Saving Throws** Dex +6, Con +8
 > - **Damage Resistances** acid, cold, lightning
-> - **Damage Immunities** poison, necrotic
+> - **Damage Immunities** necrotic, poison
 > - **Condition Immunities** poisoned
 > - **Senses** darkvision 120 ft., passive Perception 13
-> - **Languages** understands Abyssal but can't speak it.
+> - **Languages** understands Abyssal but can't speak
 > - **Challenge** 6 (2,300 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
 > ___
 >
@@ -128,7 +132,7 @@ ___
 >
 > ***Living Plague.*** The toad is immune to diseases, and if it is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, it takes 20 radiant damage. 
 >
-> ***Standing Leap.*** The toad's long jump is up to 40 ft. and its high jump is up to 20 ft., with or without a running start.
+> ***Standing Leap.*** The toad's long jump is up to 40 feet and its high jump is up to 20 ft., with or without a running start.
 >
 > ### Actions
 >
@@ -136,7 +140,7 @@ ___
 >
 > ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft. *Hit:* 18 (3d8 + 5) piercing damage.
 >
-> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 21 (3d10 + 5) piercing damage. If the target is Large or smaller, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the toad can't use its bite attack or tongue attack on another target.
+> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 21 (3d10 + 5) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the toad can't use its bite attack or tongue attack on another target.
 >
 > ***Swallow.*** The toad makes a bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the toad, and at the start of each of the toad’s turns, its Strength score is reduced by 1d6 and is affected by the toad’s Miasma of Rot. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest. The toad can have only one target swallowed at a time. If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
 >
@@ -219,3 +223,6 @@ style='position:absolute;top:-50px;left:0px;width:817px;transform:scaleX(-1)' />
 ### Change Log
 #### 1.0.0
 * Document release
+
+#### 1.0.1
+* Typo fixes in stat blocks
