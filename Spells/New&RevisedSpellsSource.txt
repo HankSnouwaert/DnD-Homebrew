@@ -1,3 +1,30 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
 
 ## New & Revised Spells
 
@@ -28,8 +55,6 @@ Acidic rain falls in a 20-foot-radius, 40-foot-high cylinder centered on a point
 
 ***At Higher Levels.*** The initial acid damage, as well as the acid damage dealt at the end of each of the acid-covered creature’s turns, is increased by 1d4 for each slot level above 5th.
 
-\columnbreak
-
 #### Acid Wave 1.0.0
 *6th-level evocation*
 ___
@@ -41,6 +66,8 @@ ___
 ___
 
 You conjure up a wave of acid that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes 6d4 bludgeoning damage and 6d4 acid damage, is knocked prone, and is covered in acid until the end of its next turn or until it or another creature uses its action to scrape or wash the acid off. On a success, a creature takes half the initial damage and isn’t knocked prone or covered in acid.
+
+\columnbreak
 
 A creature covered in the acid takes 6d4 acid damage at the end of its turn.
 
@@ -56,6 +83,26 @@ ___
 - **Classes:** Druid, Ranger
 ___
 You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and its AC can't be less than 16, regardless of what kind of armor it is wearing. You can end the spell by dismissing it as an action.
+
+#### Binding Chain  0.0.0
+*1st-level conjuration*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 feet
+- **Components:** V, S, M (A small metal lock)
+- **Duration:**   1 minute
+- **Classes:**  Artificer, Paladin, Ranger, Warlock
+___
+
+You conjure a chain that bursts from the ground in an unoccupied space of your choice that you can see within range.  The chain immediately lashes out at a creature of your choice within 30 feet of its origin point that you can see.  That creature must succeed on a Dexterity saving throw or be bound to the chain.
+
+While the creature is bound to the chain, it must make a Strength check against your spell save DC if it attempts to move more than 30 feet away from the chain's origin point; if it succeeds on this check, it breaks free of the chain.
+
+Until the spell ends, you can use your bonus action to direct the chain to lash out at a creature within 30 feet of its origin point that you can see, attempting to bind it as described above.  You can only have one creature bound with any given chain at a time. 
+
+The chain has AC 15 and 20 hit points.  When it is reduced to 0 hit points, the spell ends.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the chain gains an additional 20 hit points for each slot level above 1st.
 
 \pagebreakNum
 
@@ -89,26 +136,20 @@ A creature can't suffer from two instances of the same mutation at once.
 
 \columnbreak
 
-#### Binding Chain  0.0.0
-*1st-level conjuration*
+
+#### Burning Gaze 1.0.0
+*1st-level evocation*
 ___
-- **Casting Time:** 1 bonus action
-- **Range:** 30 feet
-- **Components:** V, S, M (A small metal lock)
-- **Duration:**   1 minute
-- **Classes:**  Artificer, Paladin, Ranger, Warlock
+- **Casting Time:** 1 action
+- **Range:** 20 feet
+- **Components:** V
+- **Duration:**  Instantaneous
+- **Classes:**  Cleric
 ___
 
-You conjure a chain that bursts from the ground in an unoccupied space of your choice that you can see within range.  The chain immediately lashes out at a creature of your choice within 30 feet of its origin point that you can see.  That creature must succeed on a Dexterity saving throw or be bound to the chain.
+You choose two points within 10 feet of each other and within the spell's range. Searing beams of light shoot from your eyes, moving between the two points. Each creature caught in the path of the beams must make a Dexterity saving throw. A creature takes 1d6 fire damage and 1d4 radiant damage on a failed save, or half as much damage on a successful one. 
 
-While the creature is bound to the chain, it must make a Strength check against your spell save DC if it attempts to move more than 30 feet away from the chain's origin point; if it succeeds on this check, it breaks free of the chain.
-
-Until the spell ends, you can use your bonus action to direct the chain to lash out at a creature within 30 feet of its origin point that you can see, attempting to bind it as described above.  You can only have one creature bound with any given chain at a time. 
-
-The chain has AC 15 and 20 hit points.  When it is reduced to 0 hit points, the spell ends.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the chain gains an additional 20 hit points for each slot level above 1st.
-
+***At Higher Levels.***  When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases 1d6, the radiant damage increases by 1d4, the range increases by 20 feet, and the maximum possible distance between the two points increases by 10 feet for each slot level above 1st.
 
 
 #### Cacophonic Caress 1.0.0
@@ -414,26 +455,6 @@ The vine has AC 14, 80 hit points, and vulnerability to slashing damage.  When i
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the vine gains an additional 20 hit points for each slot level above 4th.
 
-####  Inflict Rot 1.0.0
-*4th-level necromancy*
-___
-- **Casting Time:** 1 action
-- **Range:** Touch
-- **Components:** V, S
-- **Duration:**   1 minute
-- **Classes:**  Druid, Cleric, Warlock
-___
-
-Make a melee spell attack against a creature you can reach. On a hit, it takes 3d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
-
-A creature afflicted by this disease takes 3d10 necrotic damage at the end of each of its turns and must then make a Constitution saving throw, ending the disease on a success. 
-
-If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to unleash a wave of rot. Each creature of your choice that you can see within 30 feet of it must make a Constitution saving throw, taking 3d10 necrotic damage on a failed save or half as much damage on a successful one. You may choose to have one of the creatures that failed the saving throw become infected with the same disease, which lasts for the remainder of the spell's duration.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
-
-\pagebreakNum
-
 #### Leap Slam 0.0.0
 *3rd-level transmutation*
 ___
@@ -447,6 +468,11 @@ ___
 You may leap up to 20 feet into the air and may then slam back down into an unoccupied space on the ground within 40 feet. You ignore fall damage until the end of the turn. 
 
 If you slam into the ground, each other creature within 10 feet of you must make a Strength saving throw. On a failed save, it is knocked prone, and until the end of its next turn, it can take either an action or a bonus action on its turn, not both, and can't take reactions.
+
+
+\pagebreakNum
+
+
 
 
 #### Miasma of Pestilence 1.0.0
@@ -480,6 +506,8 @@ Any surface the sphere rolls across or in the range of its explosion is covered 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the bludgeoning damage and fire damage from the explosion both increase by 1d8 for each slot level above 6th.
 
+\columnbreak
+
 #### Mud Ball 0.0.0 
 *2nd-level conjuration*
 ___
@@ -508,7 +536,6 @@ You touch a creature, causing it to become electrically charged. Until the spell
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for every two levels above 5th.
 
-\pagebreakNum
 
 #### Phantasmagoria 1.0.0
 *6th-level  illusion*
@@ -522,6 +549,7 @@ ___
 
 You summon illusory creatures who flit and broil within a 30-foot radius sphere centered on a point within range you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
 
+\pagebreakNum
 
 #### Puddle of Ooze 1.0.0
 *3rd-level conjuration*
@@ -536,6 +564,24 @@ ___
 You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
+
+#### Rancid Visitation 2.0.0
+*4th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:**   1 minute
+- **Classes:**  Druid, Cleric, Warlock
+___
+
+Make a melee spell attack against a creature you can reach. On a hit, it takes 4d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
+
+A creature afflicted by this disease takes 4d10 necrotic damage at the start of each of your turns and must then make a Constitution saving throw, ending the disease on a success. 
+
+If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to infect a new creature of your choice that you can see within 30 feet of it. The new creature must succeed on a Constitution saving throw or be infected with the same disease for the remainder of the spell's duration.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
 
 #### Ray of Enfeeblement (Revised) 0.0.0
 *2nd-level necromancy*
@@ -619,6 +665,21 @@ You summon a flurry of magic snowballs to bombard your enemies. When you cast th
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two slot levels above 2nd.
 
+#### Spirit Leech 1.0.0
+*1st-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V S
+- **Duration:**  1 hour
+- **Classes:**  Warlock
+___
+
+You extend a hand towards a target creature within range and siphon away its essence. The target must make a Charisma saving throw. It takes 1d12 necrotic damage on a failed save, or half as much on a successful one. You gain temporary hit points equal to the necrotic damage dealt for the duration. This spell has no effect on constructs. 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
+
+\columnbreak
 
 #### Static Field 1.0.0
 *2nd-level evocation*
@@ -956,6 +1017,9 @@ The boil immediately explodes when the spell ends.
 
 \pagebreakNum
 
+### Rancid Visitation
+#### 2.0.0
+* Replace inflict rot with Rancid Visitation
 
 ### Water Whip
 #### 0.1.0
