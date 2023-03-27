@@ -24,6 +24,10 @@
     }
     /* End Footers */
 
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+
 </style>
 
 <br>
@@ -1220,7 +1224,7 @@ can't speak.
 >
 > 1/Day: *dispel evil and good*, *forbiddance*
 >
-> **new spell found at end of document*
+> **new spell found on next page*
 >
 > ### Bonus Actions
 > ***Battle Magic*** When the titan uses its action to cast a spell, it can use its Frightful Presence and make one Sun Staff attack.
@@ -1229,7 +1233,44 @@ can't speak.
 >
 > ***Spirit Conduit (5/Day).*** Whenever another friendly creature within 60 feet of the titan would cast a spell of 5th level or lower using Wisdom as its spellcasting ability, the titan may allow the creature to ignore any material component requirements the spell has. Additionally, if the spell has a chance of failing, such as the *commune* or *divination* spells do, the spell can't fail. Finally, if the creature used a spell slot or daily use of an ability to cast the spell, it regains that spell slot or daily use.
 
+
 \pagebreakNum
+
+## New Spells
+
+#### Burning Gaze
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 20 feet
+- **Components:** V
+- **Duration:**  Instantaneous
+- **Classes:**  Cleric
+___
+
+You choose two points within 10 feet of each other and within the spell's range. Searing beams of light shoot from your eyes, moving between the two points. Each creature caught in the path of the beams must make a Dexterity saving throw. A creature takes 1d6 fire damage and 1d4 radiant damage on a failed save, or half as much damage on a successful one. 
+
+***At Higher Levels.***  When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases 1d6, the radiant damage increases by 1d4, the range increases by 20 feet, and the maximum possible distance between the two points increases by 10 feet for each slot level above 1st.
+
+\columnbreak
+
+<br><br>
+
+#### Spirit Leech
+*1st-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V S
+- **Duration:**  1 hour
+- **Classes:**  Warlock
+___
+
+You extend a hand towards a target creature within range and siphon away its essence. The target must make a Charisma saving throw. It takes 1d12 necrotic damage on a failed save, or half as much on a successful one. You gain temporary hit points equal to the necrotic damage dealt for the duration. This spell has no effect on constructs. 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
+
+<br><br><br><br>
 
 ___
 ___
@@ -1264,6 +1305,10 @@ ___
 >
 > ***Khopesh.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage.
 >
+
+\pagebreakNum
+
+
 
 ___
 ___
@@ -1543,3 +1588,6 @@ that would alter its form.
 
 #### 1.0.1
 * Ushabti stat block fixes
+
+#### 1.1.0
+* Add new spells
