@@ -1,0 +1,176 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+## The Plaguefather
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Lair Actions
+On initiative count 20 (losing initiative ties), the plaguefather can take one lair action to cause one of the following effects, even while incapacitated; he can’t use the same effect two rounds in a row: 
+
+* The plaguefather chooses two creatures infected with his experimental diseases that he is aware of in his layer. He chooses one that must make a DC 19 Constitution saving throw. On a failure, it gains all the symptoms of the other creature.
+
+* The plaguefather chooses a creature within his layer that he is aware of in his layer and forces it to make a DC 19 Constitution saving throw. On a failure, it is infected with an experimental disease with a random symptom determined by the Experimental Disease Table on the page after the next. A creature already infected with an experimental disease has this disease's symptom added to its current infection.
+
+* The plaguefather chooses one plagueling swarm he is aware of in his layer and causes them to begin bloating and expanding. At the end of the plagueling swarm’s next turn, it explodes and dies. Each creature within 15 feet of the plagueling swarm must make a DC 19 Dexterity saving throw, taking acid damage equal to the hit points the swarm had when it died on a failed save, or half as much damage on a successful one.
+
+
+
+
+
+
+
+
+
+<img src='https://i.ibb.co/YXFr1WF/zombie-ogre.png' style='position:absolute;bottom:300px;right:-100px;width:1000px;transform:scaleX(-1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-115px;top:200px;height:px;width:px;transform:rotate(190deg)' />
+
+\pagebreak
+
+___
+___
+> ## The Plaguefather
+>*Huge fiend (demon of decay), chaotic evil*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 434 (28d12 + 252)
+> - **Speed** 40ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|10 (+0)|28 (+9)|24 (+7)|25 (+7)|22 (+6)|
+>___
+> - **Saving Throws** Dex +7, Con +16, Wis +14, Int +14
+> - **Skills** Athletics +13, Arcana +14, Insight +21, Investigation 21, Nature +21, Perception +21, Religion +14
+> - **Damage Resistances** cold, lightning, bludgeoning, 
+piercing, and slashing from nonmagical attacks
+> - **Damage Immunities** acid, poison, necrotic
+> - **Condition Immunities** poisoned, paralyzed.
+> - **Senses** truesight 120 ft., darkvision 300 ft., passive Perception 31
+> - **Languages** Abyssal, telepathy 300 ft.
+> - **Challenge** 24 (62,000 XP)   &emsp;&emsp;&emsp; **Proficiency Bonus** +7        
+> ___
+>
+>  ***Living Plague.*** The plaguefather is immune to diseases, and if he is targeted by a spell or effect that cures disease, such as Lay on Hands or *lesser restoration*, he takes 20 radiant damage.
+>
+> ***Corpulent Mass.*** The plaguefather regains 20 hit points at the start of his turn. If he takes 20 or more fire or radiant damage in a single turn, this trait doesn't function at the start of his next turn. The plaguefather dies only if he starts his turn with 0 hit points and doesn't regenerate.
+>
+> ***Infestation.*** At the start of each of the plaguefather's turns, he heals a plagueling swarm or plagueling tide of his choice within 10 feet of him for 64 hit points. This healing ignores the swarm rule regarding healing. <br> If there are no such swarms within 10 feet of the plaguefather below full health, he instead creates a plagueling swarm with 34 hit points inside himself as though the swarm used its ***Noxious Cradle*** ability to enter inside the plaguefather. The new swarm has its own initiative and takes its turn right after the plaguefather. The plaguefather can have up to three swarms created by this ability at a time.
+>
+> ***Slime Trail.*** Any land the plaguefather, or a demon of decay he is mounted on, occupies is covered in slime for the next minute, causing it to become difficult terrain for one minute. When a creature moves into or within the area, it takes 2 (1d4) acid damage for every 5 feet it travels. A creature that enters the area or ends its turn there must also succeed on a DC 21 Dexterity saving throw or fall prone and take 7 (3d4) acid damage. Demons of decay ignore the effects of the slime.
+>
+> ### Actions
+>
+> ***Multiattack.*** The plaguefather makes two attacks. He can use a Necrotic Missile in place of one of his attacks.
+>
+> ***Slam*** *Melee Weapon Attack:* +13 to hit, reach 10ft., one target. *Hit:* 33 (5d10 + 6)  bludgeoning damage.
+>
+> ***Necrotic Missile.*** If the plaguefather is not restrained or grappled, he hurls an explosive plagueling at a point he can see within 300 feet that is not behind total cover. <br>
+The plagueling detonates at this point, and each creature within 15 feet of it that's not behind total cover must make a DC 22 Constituion saving throw. <Br> On failed save, a creature takes 36 (8d8) necrotic damage and becomes infected with an experimental disease with a symptom determined using the Experimental Disease Table on the next page. All creatures that fail the save are infected with the same disease. A creature already infected with an experimental disease has this disease's symptom added to its current infection. <br>
+On a successful save, the creature takes half damage and isn't infected. <br>
+All diseases inflicted this way end when the plaguefather dies, and creatures normally immune to diseases can still be infected with these diseases.<br>
+When the plaguefather uses this action, creatures can use their reaction to make attacks of opportunity against him as though he moved out of their reach. If a creature hits him this way, he drops the plagueling, and it detonates centered on his location.
+>
+> ### Reactions
+> ***Blubber and Bile*** When the plaguefather takes damage, he halves the damage and then reduces it by 1d12.
+>
+> ### Legendary Actions
+> The plaguefather can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The plaguefather regains spent legendary actions at the start of his turn.
+> 
+> **Check.** The plaguefather makes a skill check that would normally require an action.
+> 
+> **Swarm Surge.** A plagueling tide or swarm within 120 feet of the plaguefather moves up to its movement.
+>
+> **Plagueling Infestation.** The plaguefather targets a non-swarm creature within 300 feet that just ended its turn, causing a plagueling swarm with 34 hit points to appear centered on its location. If there is already a plagueling swarm or tide in that creature’s space, that swarm gains 34 hit points instead, and the creature that just ended its turn must succeed on a DC 22 Dexterity saving throw or be automatically hit by a bite attack from the swarm (no action required.) 
+>
+> **Conglomerate.** Two plagueling swarms the plaguefather is aware of that have all their hit points and are within 5 feet of each other merge and become a plagueling tide. The plagueling tide has its own initiative and goes right after the plaguefather. If either of the plagueling swarms were attached to any creatures, those creatures are now grappled by the plagueling tide as though they’ve been hit by its bite attack. The plaguefather can only have one plagueling tide created this way at a time.
+> 
+> **Tenacious Will.** If the plaguefather is suffering from an effect that allows him to make a saving throw as an action or at the beginning or end of his next turn, he may immediately make that save against the effect with advantage. He can use this legendary action while incapacitated.
+
+\pagebreakNum
+
+##### Experimental Disease Table
+| d20   |  Disease Symptom  |
+|:-----:|:----------:|
+|   1   |  The infected creature takes 22 (4d10) necrotic damage at the start of each of its turns.| 
+|   2   | The infected creature is poisoned.|
+|   3   | The infected creature can't take reactions, and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.|
+|   4   | The infected creature can't regain hit points or gain temporary hit points.| 
+|   5   | All attacks against the infected creature are made with advantage.| 
+|   6   | The infected creature is unable to see anything farther than 10 feet away.| 
+|   7   | Damage dealt by infected creature's attacks is halved.
+|   8   | The infected creature's speed is halved.| 
+|   9   | The infected creature is frightened of the plaguefather| 
+|   10  | If the infected creature casts a spell that causes itself or another creature to regain hit points or gain temporary hit points, the target gains half that may temporary hit points or hit points instead.| 
+|   11  | The infected creature can't make more than one melee or ranged attack during its turn.|
+|   12  | Attack rolls can't gain disadvantage against the infected creature.|
+|   13  | The infected creature's speed is halved. (REPEAT)|  
+|   14  | At the start of each of the infected creature's turns, it loses any concentration it's maintaining.|
+|   15  | The infected creature can't gain advantage on attack rolls or ability checks.|
+|   16  | The infected creature becomes brittle. While a creature is brittle, any attack that hits it is a critical hit.|
+|   17  | If the infected creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.|
+|   18  | The infected creature falls prone at the start of each of its turns, and it must use all of its movement to stand up.|
+|   19  |  The infected creature is charmed by the plaguefather.|
+|   20  | Demons of decay have advantage on saving throws against any spells the infected creature casts.|
+
+
+\columnbreak
+
+#### Epic Ku'gath
+
+To make Ku'gath true end game threat you may a extra 434 hit points (868) and give him the fallowing trait.
+
+Perfected Plague (Recharges after a Short or Long Rest). 
+If Ku'gath is reduced to 434 hit points may end a spell effecting him, gains this trait.
+
+Ku'gath chooses one of the symptoms on his Necrotic Missile Table. Any creature with the experimental disease suffers form this symptom addition to it's other symptoms. Also if Ku'gath rolls on the Necrotic Missile Table rolls this chosen symptom, he rerolls on the table.
+
+##### Plaguefather Adventures
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | A pack of beasts of decay the players slew before have returned as rot flies seeking revenge |
+|  2  | Veterans who fought against demons of decay years ago are being hunted down by vengeful rot flies.|
+|  3  | The players are delving into a rotting mansion on the fiendish home plane of the demons of decay but encounter a patrol squad of plague bearers atop rot flies.|
+|  4  | A raiding party of plague bearers atop rot flies is raiding a countryside and harvesting death's heads on behalf of a demonic master.|
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Create document
