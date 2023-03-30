@@ -25,6 +25,10 @@
     }
     /* End Footers */
 
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+
 </style>
 
 
@@ -252,9 +256,9 @@ When an ability that cures diseases is used on a diseased creature, it only redu
 If you are using the Ability Check to Cure rule, you can allow the healer to reduce an additional severity level if the check’s result was 5 or more over the disease’s DC. You can extend this rule to allow a result of 10 over the DC to cure 2 additional severity levels, 15 over the DC to cure 3 additional severity levels, and so on.
 
 ### Art Credit
-* Cemetery Reaper - Dave Allsop, Wizards of the Coast
-* Contagious Nim - Efrem Palacios, Wizards of the Coast
-* Corpulent Corpse - Doug Chaffee, Wizards of the Coast
+* Blackcleave Goblin - Nils Hamm, Wizards of the Coast
+* Flesh-Eater Imp - Johann Bodin, Wizards of the Coast
+* Swamp - Paul Scott Canavan, Wizards of the Coast
 * Undercity Plague - Vincent Proce, Wizards of the Coast
 
 
@@ -270,3 +274,6 @@ style='position:absolute;top:-50px;left:0px;width:817px;transform:scaleX(-1)' />
 ### Change Log
 #### 1.0.0
 * Document release
+
+#### 1.1.0
+* Fix art credits
