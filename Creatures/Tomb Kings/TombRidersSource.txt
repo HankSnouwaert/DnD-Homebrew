@@ -1,7 +1,40 @@
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<style>
 
-## Tomb Riders
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p5:after, .phb#p6:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Tomb Chariots & Cavalry
 The ancient tomb kingdoms were masters of using warhorses to gain the edge over their more primitive opponents. These steeds were so prized they were entombed with their riders when they died. When the legions of the tomb kingdoms rise to make war once more, their loyal steeds rise with them and ride out to meet any enemy foolish enough to stand against the deathless legions.
 
 You can use the stats for the warhorse skeleton from the Monster Manual to represent most of these steeds and have them serve as mounts for any of the tomb kingdom infantry.
@@ -12,6 +45,7 @@ Not only were the tomb kingdoms masters of mounted combat, but they were also am
 
 Great care was taken to preserve these chariots for use in the afterlife, and when the undying tomb legions march to battle, these chariots thunder alongside them. The chariots almost serve as an extension of their undead charioteer’s will, and they are utilized by tomb soldiers and royalty alike with terrifying results. 
 
+Rules for chariots can be found at the end of the document.
 
 \columnbreak
 
@@ -38,11 +72,11 @@ ___
 
 <img src='https://assets.moxfield.net/cards/card-ErOB1-art_crop.jpg' style='position:absolute; top:-50px; right:0px; width:850px; transform:scaleX(1)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:220px; right:0px; width:900px; transform: rotate(10deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:220px; right:0px; width:900px; transform: rotate(0deg)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:200px; right:-165px; width:900px; transform: rotate(0deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:177px; right:23px; width:900px; transform: rotate(14deg)' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:375px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:410px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
 
@@ -96,10 +130,10 @@ ___
 
 \pagebreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### Desert Storm Riders
-The skeletal cavalry of the tomb legions are often used as outriders to harass and harry foes using their speed in conjunction with guerilla warfare. The most feared of these outriders are the legendary Desert Storm riders. This legion of horsemen was notorious for their ability to sweep up great clouds of sand as they rode, which they would use as cover to enable disorienting hit-and-run attacks.
+The skeletal cavalry of the tomb legions are often used as outriders to harass and harry foes using their speed in conjunction with guerilla warfare. The most feared of these outriders are the legendary Desert Storm riders. This legion of horsemen were notorious for their ability to sweep up great clouds of sand as they rode, which they would use as cover to enable disorienting hit-and-run attacks.
 
 These riders' regiments included melee warriors for running down vulnerable foes and skilled archers for picking apart enemies from a distance. Together, they would often act as a vanguard force that would throw enemy forces into disarray while kicking up great clouds of dust that would make it hard to target or identify the rest of the approaching tomb kingdom army. After the enemy army was broken and routed, the Storm Riders would run down fleeing soldiers, brutely slaying them during their panicked retreat. 
 
@@ -121,7 +155,7 @@ ___
 >*Medium undead, unaligned*
 > ___
 > - **Armor Class** 17 (studded leather, shield)
-> - **Hit Points** 91 (14d8 + 28)
+> - **Hit Points** 71 (11d8+22)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -135,7 +169,7 @@ ___
 > - **Condition Immunities** exhaustion, poisoned
 > - **Senses** darkvision 60 ft., passive Perception 15
 > - **Languages** understands the languages it knew in life but can't speak
-> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
 > ___
 >
 > ***Disarming Charge.*** If the skeleton moves at least 20 feet straight towards a target while riding a controlled mount or chariot and then hits the target with a khopesh attack on the same turn, the target takes an extra 10 (3d6) slashing damage. <br>If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone and drop an object of the skeleton’s choice. The object lands at the creature's feet, and if the creature fails the save by 5 or more (DC 8), the skeleton can have the object flung up to 15 feet away from the creature in the direction the skeleton was charging towards.
@@ -149,7 +183,11 @@ ___
 > ***Khopesh.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage.
 >
 
-<img src='https://64.media.tumblr.com/02bf5de5ea8d0bf327d9ac4b2ba8d89f/e0534c14513004a5-ef/s1280x1920/a3a34833945b2c3d57b865dfc9a8ec69028ccbb8.png' style='position:absolute; top:-0px; left:-10px; width:570px; transform:scaleX(-1)' />
+<img src='https://64.media.tumblr.com/02bf5de5ea8d0bf327d9ac4b2ba8d89f/e0534c14513004a5-ef/s1280x1920/a3a34833945b2c3d57b865dfc9a8ec69028ccbb8.png' style='position:absolute; top:-0px; left:-20px; width:590px; transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:0px; width:900px; transform: rotate(0deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:-430px; width:900px; transform: rotate(-90deg)' />
 
 \pagebreak
 
@@ -158,7 +196,7 @@ ___
 >*Medium undead, unaligned*
 > ___
 > - **Armor Class** 15 (studded leather)
-> - **Hit Points** 71 (11d8 + 22)
+> - **Hit Points** 71 (11d8+22)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -172,7 +210,7 @@ ___
 > - **Condition Immunities** exhaustion, poisoned
 > - **Senses** darkvision 120 ft., passive Perception 15
 > - **Languages** understands the languages it knew in life but can't speak
-> - **Challenge** 2 (700 XP)   &emsp;&emsp;  **Proficiency Bonus** +2       
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;  **Proficiency Bonus** +2       
 > ___
 >
 > ***Sacred Arrows.*** The skeleton's ranged attacks ignore half cover and three-quarters cover.
@@ -220,11 +258,171 @@ ___
 >
 > ***Hooves.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (2d4 + 3) bludgeoning damage.
 
+<br>
+
+##### Tomb Chariots and Cavalry Adventures
+
+| d6  | Plot Hook |
+|:---:|:-----------:|
+|  1  | While searching for a tomb in the desert, the players are attacked by tomb kingdom scouts atop skeletal steeds. If any escape, they will awaken reinforcements. |
+|  2  |While the players are leaving the desert with spoils from their latest dungeon delve, they come under attack by a vengeful group of elite tomb kingdom cavalry atop warhorse mummies.  |
+|  3  |The players find a desert caravan surrounded by dust storms and under attack by the dreaded Desert Storm Riders.   |
+|  4  |  The players are visiting a desert trading post that comes under attack by a marauding group of undead upon chariots.  |
+|  5  | While the players explore an ancient arena, a brash tomb prince arises and challenges them to a chariot race.|
+|  6  |  A tomb king upon a gleaming chariot has been spotted racing across the desert from tomb to tomb, raising legions of dead as he goes.|
+
+\pagebreak
+
+
+# Chariots
+
+Chariots are iconic vehicles of war, allowing mighty steeds to pull soldier-filled carriages into battle. The number of steeds able to pull a chariot and the number of riders its carriage can support varies from one vehicle to the next. Some are even designed to be pulled by creatures other than horses. Chariots may charge headlong into enemy forces or ride past foes who are then dispatched by scythed wheels and spear-wielding riders. They are often a status symbol, and many warrior generals lead their armies from them. In some cultures, chariots are used for racing or other gladiatorial sporting events. 
+
+The following rules can help you codify ways to use chariots in your games. They can be applied to chariots of different shapes and sizes and used as tools for designing your own chariots. The rules here can be applied to most vehicles pulled by other creatures, such as wagons and carriages. At the end of the document, there are some example chariots you can incorporate into your own games.
+
+\columnbreak
+
+## Chariot Rules
+
+Chariots are vehicles that can be pulled by one or more creatures, referred to as their steeds, and allow one or more riders to reside within their carriage, though only one rider controls the chariot and is referred to as the charioteer. The charioteer must have proficiency with land vehicles to control the chariot. Charioteers and the chariot's steeds follow the mounted combat rules described in the Player's Handbook, but with the following differences:
+
+### Movement & Initiative
+
+* **Mounting & Dismounting.** Mounting or dismounting a chariot costs a creature 5 feet of movement rather than a number of feet equal to half its speed. 
+
+* **Forced Movement.** If an effect moves a chariot or any of its steeds, the chariot and each of its steeds are all moved together.
+
+* **Movement in Unison.** The chariot's steeds must all move in unison and cannot move the chariot further than the steed with the least available movement can.
+
+* **Controlled Mounts.** If the chariot's steeds are being used as controlled mounts and there is more than one, they all act on the same initiative and must take the same action on their turn.
+
+* **Independent Mounts.** If the chariot's steeds are acting independently, they all share the same initiative of the steed with the lowest initiative. They may take their actions in any order but must move together.
+
+
+<img
+src='https://i.ibb.co/dgvKn41/Khans-of-Tarkir-Abzan-01a.jpg'
+style='position:absolute;bottom:-40px;left:-60px;width:890px;transform: scaleX(1)' />
+
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-1050px;
+  left:-470px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-870px;
+  left:15px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-830px;
+  left:20px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-350px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+
+\pagebreak
+
+
+
+### Chariot Saving Throws
+Chariots equipped with one or more unencumbered steeds do not automatically fail their Strength and Dexterity saving throws. Their bulkiness can either work for or against them depending on the type of save. 
+
+#### Strength Saves
+If a chariot is subjected to a Strength saving throw, all its steeds must make a Strength saving throw against the effect. Any steeds being subjected to the same effect use the results of the roll they made for themselves. If any steeds succeed on the save, the chariot passes the save, as those steeds manage to hold the chariot steady.
+
+#### Dexterity Saves
+If a chariot is subjected to a Dexterity saving throw, all its steeds must make a Dexterity saving throw against the effect. Any steeds being subjected to the same effect use the results of the roll they made for themselves. If any steeds fail on the save, the chariot fails the save, as they must all effectively coordinate to pull the chariot out of harm's way.
+
+
+
+#### Constitution Saves
+While objects are normally immune to effects that require a Constitution save, chariots are active combatants, meaning it often doesn't make sense for them to ignore effects that deal types of damage they are not immune to. As such, chariots can make Constitution saving throws against effects capable of damaging them and have their own modifier they apply to these saves. The chariot may make these saves regardless of whether or not it is being pulled by steeds.
+
+\columnbreak
+
+## Chariot Attributes
+Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, chariots have the following additional attributes:
+
+### Max Speed
+This is the maximum speed the chariot can be pulled at, regardless of the speeds of its steeds.
+
+### Steed Capacity
+This is the number of steeds that can pull the chariot at once and the required sizes of those creatures. 
+
+### Carriage Capacity
+This is the number and size of the creatures the chariot's carriage can hold. Creatures smaller or larger than the sizes listed won't be able to control the chariot. 
+
+### Constitution Modifier
+This is the modifier the chariot adds to any Constitution saves it makes. 
+
+### Challenge Rating
+If the players are facing enemies equipped with a fully functioning chariot, the CR of the encounter should be calculated as though the chariot is an additional creature with this CR.
+
+### Passive Traits
+These are any traits the chariot has that don't require actions from the steeds or rider to utilize.
+
+### Steed Actions
+These are new action options the chariot grants to its steeds. The steeds may use these options even if they are being used as controlled mounts.
+
+
+
+> ##### Determining Chariot CR
+>When building your own chariot, you can determine its CR using most of the creature creation guidelines described in the DMG with the following modifications:
+> * Determine its Offensive CR using additional damage per round it grants to its riders and steeds.
+> * Determine its Defensive CR using half its HP.
+> * Consider other traits it has the same way you would consider creature attributes.
+
+### Art Credit
+* Anafenza, the Foremost - James Ryman, Wizards of the Coast
+* Thundering Chariot - Aaron Miller, Wizards of the Coast
+
+<img src='https://i.ibb.co/G5t4fkc/thundering-chariot.jpg' style='position:absolute;left:-10px;bottom:0px;width:600px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:30px;top:0px;height:1400px;width:1416px;transform:rotate(85deg)' />
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-480px;bottom:60px;height:1400px;width:1416px;transform:rotate(2deg)' />
 
 
 \pagebreak
 
 ### Change Log
 
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
