@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after, .phb#p2:after  {
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p4:after, .phb#p5:after  {
         display          : none;
     }
     /* End Footers */
@@ -61,7 +61,7 @@ ___
 > - **Skills** Animal Handling +4, Nature +3, Perception +4, Stealth +4, Survival +4,
 > - **Senses** darkvision 30 ft. passive Perception 14
 > - **Languages** Draconic 
-> - **Challenge** 1/2 (100 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
 > ___
 >
 > ***Cold Blooded.*** The skink has advantage on saving throws against being charmed or frightened.
@@ -91,7 +91,7 @@ style='position:absolute;top:0px;left:-50px;width:916px' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-130px;left:-105px;width:916px;transform: rotate(-11deg)' />
+style='position:absolute;top:-130px;left:-100px;width:916px;transform: rotate(-11deg)' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:393px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -123,7 +123,7 @@ ___
 > - **Skills** Animal Handling +4, Nature +3, Perception +4, Stealth +4, Survival +4
 > - **Senses** darkvision 30 ft., passive Perception 14
 > - **Languages** Draconic 
-> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&nbsp;    **Proficiency Bonus** +2
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
 > ___
 >
 > ***Blowgun Expert.*** The skink ignores the Loading property of blowguns and ranged attacks it makes with them ignore half-cover and three-quarters cover. Additionally, the skink can change the weapon damage of blowguns it's wielding to a d4 in place of the normal damage.
@@ -147,7 +147,7 @@ instead takes no damage on a success and only half damage on a failure.
 >
 > ***Short Sword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage, and the target is inflicted with Jungle Toxins.
 >
-> ### Bonus Action
+> ### Bonus Actions
 >
 > ***Vanish.*** The skink takes the Hide action.
 
@@ -157,7 +157,7 @@ style='position:absolute;top:-100px;left:-70px;width:890px;transform: scaleX(1)'
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-110px;left:-100px;width:916px;transform: scaleX(-1);' />
+style='position:absolute;top:-110px;left:-90px;width:916px;transform: scaleX(-1);' />
 
 <img
 src='https://www.gmbinder.com/images/rNOAD8A.png'
@@ -257,7 +257,7 @@ instead takes no damage on a success and only half damage on a failure.
 >
 > ***Coordinating Javelin.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, the target is inflicted with Jungle Toxins, and another skink within 30 feet of it can make a weapon attack as a reaction against the creature.
 >
-> ### Bonus Action
+> ### Bonus Actions
 >
 > ***Vanish.*** The skink takes the Hide action.
 
@@ -369,29 +369,29 @@ style='position:absolute;bottom:-500px;left:300px;width:800px;transform: scaleX(
 
 Skinks generally keep their distance from the enemies, using their superior land, climb, and swim speeds to stay out of melee range. They generally work to debuff foes, and combo well with more powerful creatures who attack head on.
 
-#### Jungle Toxins. 
+#### Jungle Toxins
 Skinks rely on this ability for their own defense, as poisoned players will have a harder time hitting them with attacks or spotting them while they’re hidden. As such, they will try to poison as many enemies as possible.
 
-#### Mask of the Jungle. 
+#### Mask of the Jungle
 This ability is vital for skinks initiating combat as they will never start a fight without the backup of more powerful creatures unless they can do so from an ambush.
 
-#### Skink Cohorts.
+#### Skink Cohorts
 These skinks have the fewest options for weaving in and out of combat, and so will rely on poisoning targets from a distance before engaging in melee. They will not close the gap with enemies who aren’t poisoned or in some way disabled.
 
-#### Skink Skirmisher.
+#### Skink Skirmisher
 Because these skinks have blowguns and the ability to hide every turn using their vanish ability, they will never engage in melee combat unless cornered.
 
-#### Skink Behemoth Keeper.
+#### Skink Behemoth Keeper
 These skinks are usually found atop the howdas of larger creatures and will always make use of their Beast Bond ability to enhance their mount.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-#### Skink Chieftain.
+#### Skink Chieftain
 These skinks lead their kind in battle. They have a few noteworthy abilities:
 
-##### Coordinating Javelin.
+##### Coordinating Javelin
 Chieftains will use this ability to help other skinks quickly land a second javelin strike against a chosen target, thereby increasing the likelihood of it failing its saving throw against the Jungle Toxins.
-##### Stalking Cohort.
+##### Stalking Cohort
 This ability allows groups of skinks to focus fire poisoned targets. The skinks can pop out from hiding, launch volleys of ranges attacks, and then disappear again, quickly whittling down poisoned players.
 
 
@@ -423,5 +423,5 @@ style='position:absolute;top:320px;left:0px;width:916px; transform: rotate(10deg
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
