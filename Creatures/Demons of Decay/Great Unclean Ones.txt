@@ -330,11 +330,6 @@ You extend a hand towards a target creature within range and siphon away its ess
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
 
-### Art Credit
-* Ravenous Rotbelly - Nils Hamm, Wizards of the Coast
-* Gluetius Maximus  - Jeff Easley, Wizards of the Coast
-* Essence Drain - Jim Nelson, Wizards of the Coast
-
 <img
 src='https://assets.echomtg.com/magic/cards/cropped/88357.hq.jpg'
 style='position:absolute;bottom:-0px;left:100px;width:800px;transform: scaleX(-1)' />
@@ -354,6 +349,56 @@ style='position:absolute;top:-170px;left:40px;width:1016px; transform: rotate(-1
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Abyssal Rot
+This disease is inflicted by demons and rots the body before devouring the soul. An hour after becoming infected, the victim begins displaying symptoms, and the Severity Level of the disease becomes 1. 
+
+Whenever the creature takes necrotic or poison damage while displaying symptoms, its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the disease is cured.
+
+Every hour after the creature first displays symptoms, it repeats the saving throw against the disease, but with the save DC 1 higher than the last time the creature made the save. If the creature fails the saving throw, the Severity Level increases by 1, and it takes necrotic damage equal to 1d10 plus the disease’s Severity Level.
+
+If the disease reduces a creature’s hit point maximum to 0, it is instantly transformed into a **plague bearer of decay**. This transformation can only be undone by a *wish* spell.
+
+The healing touch ability of an angel or other celestial will instantly cure Abyssal Rot.
+
+<br>
+
+> ##### Secret Infection Rolls 
+>When a player character must make a saving throw to determine if they are infected by a disease, it is usually better for the GM to make the roll in secret since the character won’t know they’re infected. <br> A Wisdom (Medicine) check can be made to determine if a creature has been infected before it starts displaying symptoms. For Abyssal Rot, a DC of 15 for this check is an appropriate baseline, though you may alter it for other diseases and circumstances.<br>
+Subsequent rolls made to determine if the player character fights off the effects of the disease should usually be made by the player.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Curing Diseases With Magical Abilities
+Abilities like *lessor restoration* and Lay on Hands can instantly cure most diseases. If you wish to make diseases more difficult to remove, you can use or modify either of the following rules additions.
+
+#### Ability Check to Cure
+Whoever uses the ability to attempt to cure the disease must succeed on an ability check against the disease’s current save DC to eradicate it successfully. If the ability being used to cure the disease is a feature granted by a class with a spellcasting feature, the healer can add their Spell Attack Modifier for that class to the ability check. Otherwise, the healer can add their Wisdom modifier + their proficiency modifier to the ability check. 
+
+If the check is being made to cure a creature that hasn’t started displaying symptoms yet, but the healer knows the creature is infected, the check is made with advantage.
+
+#### Curing By Severity Level
+When an ability that cures diseases is used on a diseased creature, it only reduces the severity level by 1.  
+If you are using the Ability Check to Cure rule, you can allow the healer to reduce an additional severity level if the check’s result was 5 or more over the disease’s DC. You can extend this rule to allow a result of 10 over the DC to cure 2 additional severity levels, 15 over the DC to cure 3 additional severity levels, and so on.
+
+### Art Credit
+* Ravenous Rotbelly - Nils Hamm, Wizards of the Coast
+* Gluetius Maximus  - Jeff Easley, Wizards of the Coast
+* Essence Drain - Jim Nelson, Wizards of the Coast
+* Undercity Plague - Vincent Proce, Wizards of the Coast
+
+
+<img
+src='https://i.ibb.co/StnCtVq/5097-undercity-plague.jpg'
+style='position:absolute;top:-50px;left:0px;width:817px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:75px; right:0px; width:900px; transform:rotate(9deg); filter:grayscale(00%) brightness(97%)' />
+
+\pagebreakNum
+
 ### Change Log
 
 #### 1.0.0
@@ -362,3 +407,6 @@ style='position:absolute;top:-170px;left:40px;width:1016px; transform: rotate(-1
 #### 1.0.1
 * Rearrange abilities of exalted unclean one
 * Update Slime Trail to include potential mount
+
+#### 1.1.0
+* Add Abyssal Rot mechanics
