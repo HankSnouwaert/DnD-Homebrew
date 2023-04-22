@@ -20,7 +20,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p4:after {
+    .phb#p3:after {
         display          : none;
     }
     /* End Footers */
@@ -93,10 +93,6 @@ More general saurus tactics can be found later in the document.
 \pagebreakNum
 
 
-
-
-
-
 #### The Scout and Blasting Charges
 The scout’s goal is to set a blast charge at each of the six points marked on the map and then blow the bridge. Setting a charge requires an action, and the scout must be within 5 feet of the marked location to do so. The scout will avoid combat whenever possible and won’t run into danger without backup from the players. Once every charge is set, the scout will retreat to the left side of the bridge and use an action to detonate the charges. 
 
@@ -150,12 +146,15 @@ If you wish to connect this encounter to a larger adventure, the following hooks
 |  3  | The lizardmen are moving to assault a nearby settlement. The players are blowing the bridge to slow their forces down and buy time for people to flee or mount a defense.  |
 |  4  | The players are making their way into lizardman territory, and blowing the bridge is a way to buy themselves time to complete their objective without being overwhelmed by saurus.|
 
+
+
 \pagebreakNum
 
 ## Encounter Stat Blocks
 
-<br>
+<br><br><br>
 
+___
 ___
 > ## Saurus Warrior
 > *Medium humanoid (saurus), lawful neutral*
@@ -192,10 +191,23 @@ ___
 > ***Spiked Shield.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage.
 >
 
-\columnbreak
+<br>
 
-<br><br><br>
 
+> ##### The Rampaging Condition
+> All the creatures in this document have abilities that cause them to enter a rampage. Rampages last for one minute and have the following effect on a creature unless an ability states otherwise: <br>
+> &#8226;  Any charmed or frightened effects on the creature are suspended.<br>
+> &#8226; The creature must take the Attack action on each of its turns, targeting the nearest hostile creature it can see unless there are no creatures it can reach with an attack. <br>
+> &#8226;  If no hostile creatures are within range of any of the creature’s attacks, it must use a Dash action to move toward the closest hostile creature it is aware of. <br>
+> &#8226;  The creature can’t maintain concentration on spells or other effects.
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/3/39/Jungle_from_Panama_Canal_-_Faux_Oil_Painting.jpg' style='position:absolute; bottom:-110px; right:-0px; width:1000px; transform: scaleX(-1) ' />
+
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:70px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+\pagebreakNum
+
+___
 ___
 > ## Saurus Sacred Spawn
 > *Medium humanoid (saurus), lawful neutral*
@@ -233,8 +245,6 @@ ___
 >
 > ***Spiked Shield.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 16 (1d6 + 2d8 + 4) piercing damage.
 >
-
-\pagebreakNum
 
 ___
 ___
@@ -278,9 +288,9 @@ ___
 >
 > ***Tail Slam.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 10 (2d4 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be pushed back 10 feet.
 
-<img src='https://upload.wikimedia.org/wikipedia/commons/3/39/Jungle_from_Panama_Canal_-_Faux_Oil_Painting.jpg' style='position:absolute; bottom:-110px; right:-0px; width:1000px; transform: scaleX(-1) ' />
 
-<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:70px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+
 
 \pagebreakNum
 
@@ -538,3 +548,6 @@ You can give the different types of items unique names based on their material a
 ### Change Log
 #### 1.0.0
 * Document release
+
+#### 1.1.0
+* Add rampaging condition note block
