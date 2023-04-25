@@ -112,23 +112,19 @@ Once the creature enters a rampage in this way, it cannot do so again until it f
 
 Creatures with any of these Gifts are Disciple of Change.
 
+#### Chaos Warp
+*The creature may randomly be struck by extreme change, causing it to rapidly morph into an entirely new creature.*
+
+When granting a creature this gift, choose a creature stat block with a CR equal to this creature's CR (including the boost in CR due to this gift.)
+
+At the start of the gifted creature's turn, if it has dealt damage to a hostile creature since its last turn, it rolls a d6. On a roll of 4 or 6, the gifted creature is incapacitated, and its speed becomes 0 until the start of its next turn. At that point, it instantly transforms into the chosen creature at full health and loses this ability.
+
+
 #### Mystic Acceleration
 
 *The creature’s spells defy the laws of entropy, gaining speed the further they travel.*
 
 When the gifted creature makes a ranged spell attack, it gains a +1 bonus to the attack roll for every 20 feet between it and the target, up to a maximum of +3.
-
-
-#### Over-Channel
-*The creature can draw massive amounts of arcane power through its spells to lay its foes low.*
-
-When the gifted creature casts a spell that requires concentration, it can choose to channel greater amounts of eldritch power for as long as it concentrates on the spell. While channeling, at the start of each of the creature's turns, the spell save DC of the spell being concentrated on is increased by 2, to a maximum of 6.
-
-#### Twisting Flames (Missing Text)
-
-*Creature lets sets it's foes ablaze with corrupting fire, warping it's body.**
-
-Additionally, once during the gifted creature's turn, it may choose one creature that it dealt damage to make a DC Charisma saving throw. On a failure, the creature suffers a mutation.
 
 #### Mirror Double
 
@@ -142,12 +138,17 @@ At the start of the gifted creature's turn, it can create an illusory duplicate 
 
 When the gifted creature casts a spell that forces multiple creatures to make a saving throw, it can choose two creatures that are making a saving throw against the spell. One of the chosen creatures makes the saving throw with advantage, and the other makes the saving throw with disadvantage.
 
-#### Chaos Warp
-*The creature may randomly be struck by extreme change, causing it to rapidly morph into an entirely new creature.*
+#### Over-Channel
+*The creature can draw massive amounts of arcane power through its spells to lay its foes low.*
 
-When granting a creature this gift, choose a creature stat block with a CR equal to this creature's CR (including the boost in CR due to this gift.)
+When the gifted creature casts a spell that requires concentration, it can choose to channel greater amounts of eldritch power for as long as it concentrates on the spell. While channeling, at the start of each of the creature's turns, the spell save DC of the spell being concentrated on is increased by 2, to a maximum of 6.
 
-At the start of the gifted creature's turn, if it has dealt damage to a hostile creature since its last turn, it rolls a d6. On a roll of 4 or 6, the gifted creature is incapacitated, and its speed becomes 0 until the start of its next turn. At that point, it instantly transforms into the chosen creature at full health and loses this ability.
+#### Twisting Flames (Missing Text)
+
+*Creature lets sets it's foes ablaze with corrupting fire, warping it's body.**
+
+Additionally, once during the gifted creature's turn, it may choose one creature that it dealt damage to make a DC Charisma saving throw. On a failure, the creature suffers a mutation.
+
 
 
 \pagebreak
@@ -156,40 +157,49 @@ At the start of the gifted creature's turn, if it has dealt damage to a hostile 
 
 Creatures with any of these Gifts are Disciple of Decay.
 
+#### Bloating Corruption
+*The creature's body is filled with foul gases, waiting to burst forth upon its death.*
+
+When the gifted creature dies, it releases a cloud of toxic gas in a 10-foot radius around it that lasts for a minute. The area is treated as though it is under the effects of the *stinking cloud* spell.
+
+#### Crumbling Pox
+*The creature is teeming with lethal maladies that can be passed on to its enemies.*
+
+Once during the gifted creature's turn, when it hits a creature with a melee attack, it can force that creature to succeed on a Constitution saving throw or become infected with Crumbling Pox disease. While infected with Crumbling Pox, the creature gains one level of exhaustion at the end of each of its turns.
+
+The disease can be cured if the creature regains 10 or more hit points or if a creature expends one use of a healer's kit on it. Alternatively, the diseased creature or a creature within 5 feet of it can use an action to make a DC Wisdom (Medicine) check, ending the disease on a success.
+
+#### Encrusted Wounds
+*The creature's wounds quickly scab over, forming a protective crust over its skin.*
+
+When the gifted creature drops to half its hit points or fewer, it gains a +3 bonus to its AC for the next hour.
+
+Once this ability triggers, it can’t do so again until the creature finishes a short or long rest.
+
 #### Grasping Filth
 *The creature oozes slime that sticks to anything it touches.*
 
 Any land the gifted creature occupies is covered in slime for the next minute, causing it to become difficult terrain. Any non-demon creature that enters the slime's area or starts its turn there must succeed on a Strength saving throw or be restrained by the slime. A creature can use its action to attempt to scrape or wash the sticky slime off itself or another creature, ending the effect with a successful Strength check. The freed creature can't be restrained again by the slime until the end of its next turn. Disciples of Decay ignore the effects of the slime.
  
+#### Unnatural Renewal
+*Just when the creature looks like it is slain, it falls apart into a pile of slime and mulch, only to reform in seconds.* 
+
+If the gifted creature takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead regains all of it's hit points and falls prone, until the the same intuitive count next turn, it is paralyzed and has vulnerability to all damage types that it does not have resistance or immune to. 
+ 
 #### Wax and Wane
-***The creatures body is constant cycling of rejuvenation and rot, changing from one secound to the next***
-When the creature rolls intuitive, roll a d6, on a odd number it is Rot, on even number it is abundan.
+*The creature's body constantly cycles between rejuvenation and decay, changing from one second to the next.*
 
-At the at the end it of it's turns, it Switches witch sate it is in.
+At the start of its turn, the creature rolls a d6. On an odd number, it is in the Rot state, and on an even number, it is in the Abundance state.
 
-While in abundance, it gets +3 armor and saving throws.
+At the end of its turns, it switches to the other state.
 
-While in Rot, it gets +3 to attack rolls.
+While in the Abundance state, the creature gains a +3 bonus to its armor class and saving throws.
 
-"Note, players should be able to tell what state the creature is in by looking at it, Such as describing the creature being haggard or molding, while in abundance it is energetic lively"
+While in the Rot state, the creature gains a +3 bonus to attack rolls.
 
-#### Crumbling Pox.
-***Creature is teaming with lethal maladies that can be passed on to it's enemies.***
+Observers can tell what state the creature is in by looking at it. For example, the creature may appear haggard or moldy while in the Rot state and energetic and lively while in the Abundance state.
 
-Once during the gifted creatures turn when hit's creature with a melee attack, it must make a constitution saving throw or becomes Infecteded with a crumbling pox disease, while it has crumbling pox, at the end of each of it's turns the creature gains a level of exhaustion. 
-If the creature regains 10 or more hit points or a creature expends one use of a heals kit on the creature. the disease is cured. Alternatively, the diseased creature, or a creature within 5 feet of it, can use an action to make a DC Wisdom (Medicine) check, ending it.
 
-#### Unnatural Renewal. (recharges after a short rest or long rest) 
-***The creature falls apart into a pile of slim and mulch, only to reform in seconds.*** 
-If the gifted creature takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead regains all of it's hit points and falls prone, until the the same intuitive count next turn, it is paralyzed and has vulnerability to all damage types that it does not have resistance or immune to.
-
-#### Encrusted Wounds (recharges after a short rest or long rest)
-***The wounds of the creature ozze and scab over qwickly, becoming a protective armor plating for the creature.***
-When the gifted creature drops to half its hit points or fewer, it gains +3 to it's AC for the next hour.
-
-### Bloated with Corruption
-***creature body filled with foul gasses, waiting to burst forth upon it's death.***
-When the gifted creature dies, lets lose a could of toxic gas in 10 foot area around that last a minute. the area is treat as though it was under the effects of the Stinking Cloud spell.
 
 \pagebreak
 
