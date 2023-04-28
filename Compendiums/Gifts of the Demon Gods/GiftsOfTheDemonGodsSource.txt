@@ -14,7 +14,7 @@ This document has the fallowing sections on how to change creatures to better fi
 * Gifts
 * Spells
 * Damage types
-* Layer Actions
+* lair Actions
 
 ## New conditions 
 
@@ -46,6 +46,13 @@ Unless an ability states otherwise, a creature suffering from one or more mutati
 |  4  | Inverted Eyes | The creature is blinded.|
 |  5  | Gelatinous Legs | The creature falls prone and can't stand up.|
 |  6  | Regeneration | The creature regains 10 hit points at the start of its turn if it has at least 1 hit point.|
+
+#### Rampage
+ 
+ * If the creature can only use it's movement to move closer to the enemy it can see or hear.
+ * It can only use it's action, bonus action, reaction to make one or more melee attacks.
+ * It can't concentration.
+ * It can't be frightened or charmed.
 
 \pagebreakNum
 
@@ -143,11 +150,11 @@ When the gifted creature casts a spell that forces multiple creatures to make a 
 
 When the gifted creature casts a spell that requires concentration, it can choose to channel greater amounts of eldritch power for as long as it concentrates on the spell. While channeling, at the start of each of the creature's turns, the spell save DC of the spell being concentrated on is increased by 2, to a maximum of 6.
 
-#### Twisting Flames (NOTE: Missing Text)
+#### Twisting Flames
 
 *Creature lets sets it's foes ablaze with corrupting fire, warping it's body.**
 
-Additionally, once during the gifted creature's turn, it may choose one creature that it dealt damage to make a DC Charisma saving throw. On a failure, the creature suffers a mutation.
+ once during the gifted creature's turn, it may choose one creature that it dealt damage to make a DC Charisma saving throw. On a failure, the creature suffers a mutation.
 
 
 
@@ -351,9 +358,9 @@ If a creature has the ability to cast a spell, you can replace the spell with on
 Some creatures are gifted lair actions, as the gods send down their wrath in the scarred places.
 
 some places may be haunted by a demonic presence such as a shrine to dark Lord or a battlefield that has the eyes of the dark gods on it. The worshipers can tap into to aid them in battle.
-You can give one or more creatures the ability to access to up two or more layer actions listed below. On initiative count 20 (losing initiative ties), this layer action can only be used once each round even if one or more creatures are able to access it. and they can't use the same effect two rounds in a row.
+You can give one or more creatures the ability to access to up two or more lair actions listed below. On initiative count 20 (losing initiative ties), this lair action can only be used once each round even if one or more creatures are able to access it. and they can't use the same effect two rounds in a row.
 
-You can change the saving saving throws and damage and other effects of the layer actions depending on how difficult you wish the encounter to be. The recommended guidelines are listed at the side for the appropriate level and will change the CR of the encounter as if a creature of the shown Cr was added to the fight
+You can change the saving saving throws and damage and other effects of the lair actions depending on how difficult you wish the encounter to be. The recommended guidelines are listed at the side for the appropriate level and will change the CR of the encounter as if a creature of the shown Cr was added to the fight
 
 * 4 or lower - 13 DC = CR 1
 * 5 to 8 - 15 DC = CR 2
@@ -363,11 +370,13 @@ You can change the saving saving throws and damage and other effects of the laye
 
 ### Lair Actions of Rage
 
-Any Creature that can use these layer actions is a Disciple of Rage.
+Any Creature that can use these lair actions is a Disciple of Rage.
 
 #### Axe of Wrath
 
-A brass axe slices through reality at a point within the layer of the gifted creature's choice and flies in a straight line 100 feet in a direction the gifted creature chooses before disappearing, disappearing early if it impacts a solid surface. If the weapon would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the axe strikes the target and stops moving. When the weapon strikes something, it deals slashing damage based on the roll of a d20:
+A brass axe slices through reality at a point within the lair of the gifted creature's choice and flies in a straight line 100 feet in a direction the gifted creature chooses before disappearing, disappearing early if it impacts a solid surface. If the weapon would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the axe strikes the target and stops moving. 
+
+When the weapon strikes something, it deals slashing damage based on the roll of a d20:
 
 * 4 or lower - 2d8 slashing damage.
 * 5 to 8 - 4d8 slashing damage.
@@ -385,7 +394,7 @@ A creature can choose to embrace the battle cry and make the saving throw with a
 
 #### Crimson Rain
 
-The gifted creature calls forth a downpour of bloody rain that invigorates each Disciple of Rage within a 20-foot-radius, 80-foot-high cylinder centered on a point within the layer. Each affected creature gains temporary hit points based on their level:
+The gifted creature calls forth a downpour of bloody rain that invigorates each Disciple of Rage within a 20-foot-radius, 80-foot-high cylinder centered on a point within the lair. Each affected creature gains temporary hit points based on their level:
 
 * 4 or lower: 2d4 temporary hit points
 * 5 to 8: 4d4 temporary hit points
@@ -395,11 +404,11 @@ The gifted creature calls forth a downpour of bloody rain that invigorates each 
 
 #### Final Fury
 
-Rage fills the room, giving the devoted a final attack in their death throes. Each creature of the gifted creature’s choice that has died since the last layer action returns to life with 1 hit point. This action can’t return a creature to life that has died of old age, nor can it restore any missing body parts, or revive a creature who has already been revived using this feature. A creature revived this way can choose to stand up immediately and is immune to all damage until the end of its next turn, after which it dies again.
+Rage fills the room, giving the devoted a final attack in their death throes. Each creature of the gifted creature’s choice that has died since the last lair action returns to life with 1 hit point. This action can’t return a creature to life that has died of old age, nor can it restore any missing body parts, or revive a creature who has already been revived using this feature. A creature revived this way can choose to stand up immediately and is immune to all damage until the end of its next turn, after which it dies again.
 
 #### Hex Bane
 
-A burning hatred of the magical arts fills the lair, boiling the blood of any creature that attempts to cast a spell. Until initiative count 20 of the next round, any creature that tries to cast a spell within the layer must make a DC Constitution saving throw. On a failed save, the creature takes 1d6 fire damage per level of the spell, and the spell has no effect and is wasted. The creature can choose another action instead of casting a spell. **NOTE: When?**
+A burning hatred of the magical arts fills the lair, boiling the blood of any creature that attempts to cast a spell. Until initiative count 20 of the next round, any creature that tries to cast a spell within the lair feels their blood start to burn. The creature can choose another action, but if its tries to cast the spell, it must make a Constitution saving throw. On a failed save, the creature takes 1d6 fire damage per level of the spell, and the spell has no effect and is wasted. 
 
 #### Skull Meteor
 
@@ -422,22 +431,28 @@ The gifted creature chooses a point on the ground within the lair, and a burning
 
 ### Lair Actions of Change
 
-Any Creature that can use these layer actions is a Disciple of Change.
+Any Creature that can use these lair actions is a Disciple of Change.
 
 #### Daemonic Mirage
 
-The user create a floating, spectral daemonic image to appear in 10 foot cube with in the layer that disappears on initiative count 20 next turn, before it disappears it may move up to forty feet and each creature with inside of it must make a Intelligence saving throw, taking psychic damage on a failed save, or half as much damage on a successful one. A creature that uses an action to examine the daemonic image can determine that it is an illusion by succeeding on an Intelligence (Investigation) check against the save DC. If a creature discerns the illusion for what it is, and is automatically pass any saving throw against the layer action and future uses of it. 
+The gifted creature creates a floating, spectral daemonic image in a 10-foot cube within the layer that disappears on initiative count 20 on the next turn. Before it disappears, it may move up to 40 feet, and each creature it passes through or enters its space must make an Intelligence saving throw, taking psychic damage on a failed save or half as much damage on a successful one. A creature can only take this damage once per use of the lair action.
+A creature that uses an action to examine the daemonic image can determine that it is an illusion by succeeding on an Intelligence (Investigation) check against the save DC. If a creature discerns the illusion for what it is, it automatically passes any saving throw against this lair action and future uses of it.
 
-* 4 or lower - 2d8 psychic damage.
-* 5 to 8 -4d8 psychic damage.
-* 9 to 12 -6d8 psychic damage.
-* 13 to 16 - 8d8 psychic damage.
-* 17 higher - 8d10 psychic damage.
+The amount of psychic damage depends on the result of the Intelligence saving throw:
+* 4 or lower: 2d8 psychic damage
+* 5 to 8: 4d8 psychic damage
+* 9 to 12: 6d8 psychic damage
+* 13 to 16: 8d8 psychic damage
+* 17 or higher: 8d10 psychic damage.
 
-#### Storm of Fire
 
-The user create a a storm of pink and blue flames erupt 20-foot-radius sphere centered on a point with the layer that last until this action is used again. When the storm appears, each creature in it must make a Dexterity saving throw. A creature takes fire damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the area for the first time on a turn or ends its turn there.
-The cloud moves 20 feet in the chosen direction on each initiative count 20 next each turn after it has been summoned.
+#### Living Flames
+
+The gifted creature creates a storm of pink and blue flames in a 20-foot-radius sphere centered on a point within the lair that lasts until this lair action is used again, and the creature chooses a direction for it. When the storm appears, each creature in it must make a Dexterity saving throw, taking fire damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the area for the first time on a turn or ends its turn there. 
+
+The flames move 20 feet in the chosen direction on initiative count 20 of each turn after it has been summoned.
+
+The fire damage dealt is based on the CR of the gifted creature:
 
 * 4 or lower - 1d8 fire damage.
 * 5 to 8 - 2d8 fire damage.
@@ -445,45 +460,49 @@ The cloud moves 20 feet in the chosen direction on each initiative count 20 next
 * 13 to 16 - 4d8 fire damage.
 * 17 higher - 5d8 fire damage.
 
+
 #### Bolt of Mutation
 
-A bolt of mutating energy flashes down on a non demon of change of the users choice with in the layer that the user is aware. The creature and each non demon of Disciple of Decay creature within 5 feet of it must make a Charisma saving throw. On a failed save, the target suffers a mutation. if only one creature makes the saving throw this way it has disadvantage as all the energy is focussed on it, if three or more creatures make the saving throw, they make the saving throw with advantage.
+A bolt of mutating energy flashes down on a non-demon creature of the gifted creature’s choice within the lair that the it is aware of. The targeted creature and each non-demon creature within 5 feet of it must make a Charisma saving throw. On a failed save, a creature suffers a mutation. If only one creature makes the saving throw this way, it has disadvantage, as all the energy is focused on it. If three or more creatures make the saving throw, they make their saving throws with advantage.
 
 #### Sigil of Change
 
-The user case a Sigil of warping energy to appear in an unoccupied 5 foot cube with in the layer that disappears on initiative count 20 next turn, when Sigil appears and when it disappears. it can have a creature with in 30 feet of it make a Charisma saving throw. On a failed save, the target suffers a mutation. The Sigil has malevolent intelligence and has true sight out to 30 feet.
+The user causes a sigil of warping energy to appear in an unoccupied 5-foot cube within the lair that disappears on initiative count 20 on the next turn. The sigil has malevolent intelligence (Intelligence equal to that of the gifted creature) and has true sight out to 30 feet. When the sigil appears and when it disappears, it can force a creature within 30 feet of it to make a Charisma saving throw. On a failed save, the target suffers a mutation.
 
 #### Arcane Surge
 
-THe users case magic to begin swirl around its self in 10 area, each creature in the area is empowered Until the end of it's next turn, while empowered, The next time the creature rolls damage for a spell, it can roll additional number of d8s and add it to the damage roll.
+The gifted creature calls upon magics that begin to swirl around itself out to a 10-foot radius. Each creature in the area is magically empowered until the end of its next turn. While empowered this way, the next time the creature rolls damage for a spell, it can roll an additional number of d8s based on the CR of the gifted creature and add them to the damage roll:
 
 * 4 or lower - 1d8
 * 5 to 8 - 2d8
 * 9 to 12 - 3d8
-* 13 to 16 - 4d8 
+* 13 to 16 - 4d8
 * 17 higher - 5d8
+
 
 #### Tomb of Power
 
-The user calls fourth a floating tome of dark magic that binds to the creature that disappears on initiative count 20 next turn, the tome fallows the creature were every it goes and occupies the same space as the creature. On initiative count 20 next turn turn, A creature bound tomb when it disappears may cast spell with a casting time of one action of certain level or higher with out expending a spell slot or daily use of the spell (no action required).
+The gifted creature calls forth a floating tome of dark magic that binds to a creature of its choice. The tome follows the chosen creature wherever it goes and occupies the same space as the creature. On initiative count 20 of the next turn, a creature bound to the tome may cast a spell with a casting time of one action without expending a spell slot or daily use of the spell (no action required). The maximum spell level of this spell is determined by the CR of the gifted creature. Regardless of whether the spell is cast, the tome disappears at this point.
 
-The tome is no longer bound to a creature if it dies or falls unconscious or leaves the layer, it floats in the space were it became unbound, A creature with in 5 feet of the tome can use it's action to bind to the tome. If it is already bound to a creature, they make a contested intelligence, the book binding to the winner.
+The tome is no longer bound to a creature if it dies, falls unconscious, or leaves the lair. If a creature within 5 feet of the tome uses its action to bind to the tome, it becomes bound to that creature. If the tome is already bound to a creature who does not wish to part with it, a contested Intelligence check is made, and the tome binds to the winner.
 
-* 4 or lower - 1st
-* 5 to 8 - 2rd
-* 9 to 12 - 3rd
-* 13 to 16 - 4th 
-* 17 higher - 5th
+The maximum spell level of the spell cast by the tome is based on the CR of the gifted creature, as shown below:
+* 4 or lower - 1st-level spell
+* 5 to 8 - 2nd-level spell
+* 9 to 12 - 3rd-level spell
+* 13 to 16 - 4th-level spell
+* 17 higher - 5th-level spell
+
 
 \pagebreak
 
 ### Lair Actions of Decay
 
-Any Creature that can use these layer actions is a Disciple of Decay.
+Any Creature that can use these lair actions is a Disciple of Decay.
 
 #### Rampant Rot
 
-One creature of the users choice with in the layer that the user is aware of must make a DC constitution saving. If creature fails, It becomes infected by a rampant rot disease. On initiative count 20 each turn each creature infected with the rampant rot and takes necrotic damage then it and each creature with in 15 feet of a infected creature must make the constitution saving or infected by the disease if they are not already. A disease creature that succeed on the saving throw is no longer infected can't be infected by the disease again for 1 hour.
+One creature of the users choice with in the lair that the user is aware of must make a DC constitution saving. If creature fails, It becomes infected by a rampant rot disease. On initiative count 20 each turn each creature infected with the rampant rot and takes necrotic damage then it and each creature with in 15 feet of a infected creature must make the constitution saving or infected by the disease if they are not already. A disease creature that succeed on the saving throw is no longer infected can't be infected by the disease again for 1 hour.
 
 * 4 or lower - 1d8 necrotic damage.
 * 5 to 8 -2d8 necrotic damage.
@@ -493,7 +512,7 @@ One creature of the users choice with in the layer that the user is aware of mus
 
 #### Proliferate
 
-Disease continues to spread in the layer. Choice two creatures in the layer that can be seen by one creature using the layer action. One them must make a Constitution saving. If fails, gains all the diseases of the other creature.
+Disease continues to spread in the lair. Choice two creatures in the lair that can be seen by one creature using the lair action. One them must make a Constitution saving. If fails, gains all the diseases of the other creature.
 
 #### Bile Bomb
 
@@ -507,13 +526,13 @@ One willing creature is covered in Boils filled with rancid acid. If the creatur
 
 #### Withering Disease
 
-One creature of the users choice with in the layer that the user is aware of must make a DC constitution saving. If creature fails, It becomes infected by a withering disease. On initiative count 20 each turn each creature infected with the withering disease gains a level of exhaustion and it and each creature with 15 feet of a infected creature must make the constitution saving or become infected by the disease if they are not already. A disease creature that succeed on the saving throw is no longer infected can't be infected by the disease again for 1 hour.
+One creature of the users choice with in the lair that the user is aware of must make a DC constitution saving. If creature fails, It becomes infected by a withering disease. On initiative count 20 each turn each creature infected with the withering disease gains a level of exhaustion and it and each creature with 15 feet of a infected creature must make the constitution saving or become infected by the disease if they are not already. A disease creature that succeed on the saving throw is no longer infected can't be infected by the disease again for 1 hour.
 
 
 
 #### Corrupted Growth
 
-The user of the layer action choose unoccupied 10 foot cube on the ground with the layer were a corrupted tree grows out form, The tree has ac of 14 and hit points and is immune to poison and necrotic damage and lets lose aura of corruption in 10-foot radius, any non Disciple of Decay of creature’s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes necrotic damage. On a successful save, the creature takes half as much damage.
+The user of the lair action choose unoccupied 10 foot cube on the ground with the lair were a corrupted tree grows out form, The tree has ac of 14 and hit points and is immune to poison and necrotic damage and lets lose aura of corruption in 10-foot radius, any non Disciple of Decay of creature’s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes necrotic damage. On a successful save, the creature takes half as much damage.
 
 * 4 or lower - 20 hit points - 1d6 necrotic damage.
 * 5 to 8 -  40 hit points - 2d6 necrotic damage.
@@ -523,7 +542,7 @@ The user of the layer action choose unoccupied 10 foot cube on the ground with t
 
 #### Fecundity
 
-The user of the layer becomes coverd in pestilent grows all over it's body, it regains hit points and is blessed, on initiative count 20 each turn, each blessed creature regains hit points and it may have another demon of pestilent with in 15 feet of it gain the blessing as well. Taking radiant or fire damage or being target by effect that cures disease will end the blessing.
+The user of the lair becomes coverd in pestilent grows all over it's body, it regains hit points and is blessed, on initiative count 20 each turn, each blessed creature regains hit points and it may have another demon of pestilent with in 15 feet of it gain the blessing as well. Taking radiant or fire damage or being target by effect that cures disease will end the blessing.
 
 * 4 or lower - 10 hit points.
 * 5 to 8 - 20 hit points.
@@ -537,20 +556,20 @@ The user of the layer becomes coverd in pestilent grows all over it's body, it r
 
 ### Lair Actions of Excess
 
-Any Creature that can use these layer actions is a Disciple of Excess.
+Any Creature that can use these lair actions is a Disciple of Excess.
 
  
 #### Mesmerising Mirror
 
-The user case a cursed mirror to appear in an unoccupied 5 foot cube with in the layer that lasts until initiative count 20 next turn, first time a none Disciple of Excess creature has line of sight of the mirror on it's turn it must make a wisdom saving throw, or all attacks have advantage against the creature while it has line of sight of the mirror and it it can't willing move away form the mirror. Any creature that can’t be charmed succeeds on this saving throw automatically.
+The user case a cursed mirror to appear in an unoccupied 5 foot cube with in the lair that lasts until initiative count 20 next turn, first time a none Disciple of Excess creature has line of sight of the mirror on it's turn it must make a wisdom saving throw, or all attacks have advantage against the creature while it has line of sight of the mirror and it it can't willing move away form the mirror. Any creature that can’t be charmed succeeds on this saving throw automatically.
 
 #### Dreadful Visage
 
-The user case a summons a horrifying demonic face appears in 5 foot cube with in the layer that lasts until initiative count 20 next turn, first time a none Disciple of Excess creature has line of sight of the face on it's turn it must make a wisdom saving throw, or become frighted of it.
+The user case a summons a horrifying demonic face appears in 5 foot cube with in the lair that lasts until initiative count 20 next turn, first time a none Disciple of Excess creature has line of sight of the face on it's turn it must make a wisdom saving throw, or become frighted of it.
 
 #### Excrutiation Blades
 
-The user calls forth a swarm jagged spinning blades in a 10 foot cube with in the the layer. initiative count 20 next turn, cube moves in a 100 feet in a straight line feet in a direction of the nearest none none in the layer. Any creature that enters the area for the first time on a turn, starts its turn there, or the blades pass though when it is moving must make a dexterity saving throw. On a failed save, the creature takes slashing damage. On a successful save, the creature takes half as much damage.
+The user calls forth a swarm jagged spinning blades in a 10 foot cube with in the the lair. initiative count 20 next turn, cube moves in a 100 feet in a straight line feet in a direction of the nearest none none in the lair. Any creature that enters the area for the first time on a turn, starts its turn there, or the blades pass though when it is moving must make a dexterity saving throw. On a failed save, the creature takes slashing damage. On a successful save, the creature takes half as much damage.
 
 * 4 or lower - 1d6 slashing damage.
 * 5 to 8 - 2d6 slashing damage.
@@ -560,15 +579,15 @@ The user calls forth a swarm jagged spinning blades in a 10 foot cube with in th
 
 #### Narcissism
 
-A creature with the user is aware of in the layer must make a wisdom saving throw or become overwhelmed with it's own self satisfaction until initiative count 20 next turn. the creature speed becomes 0 and it is unable to see anything farther than 5 feet away.
+A creature with the user is aware of in the lair must make a wisdom saving throw or become overwhelmed with it's own self satisfaction until initiative count 20 next turn. the creature speed becomes 0 and it is unable to see anything farther than 5 feet away.
 
 #### Sweet Sorrow
 
-A creature with the user is aware of in the layer must make a wisdom saving throw or let lose a smell of Sorrow, if it fails each Disciple of Excess with in the layer may use it's reaction to move up to it's speed towards the creature with out provoking attacks of opportunity and become obsessed with the gifted creature until initiative count 20 next turn, while obsessed with the creature they know it's location with in the layer and whenever they hit the creature with a melee weapon attack, they regain hit points equal to half the amount of damage dealt.
+A creature with the user is aware of in the lair must make a wisdom saving throw or let lose a smell of Sorrow, if it fails each Disciple of Excess with in the lair may use it's reaction to move up to it's speed towards the creature with out provoking attacks of opportunity and become obsessed with the gifted creature until initiative count 20 next turn, while obsessed with the creature they know it's location with in the lair and whenever they hit the creature with a melee weapon attack, they regain hit points equal to half the amount of damage dealt.
 
 #### Wave of Depravity
  
- Dark whispers echo though the layer telling to let lose, each non Disciple of Excess creature that can hear it and in the layer must make a intelligence saving throw, on failure it enters a Rampage until the end of it's next turn.
+ Dark whispers echo though the lair telling to let lose, each non Disciple of Excess creature that can hear it and in the lair must make a intelligence saving throw, on failure it enters a Rampage until the end of it's next turn.
  
 \pagebreakNum
 
