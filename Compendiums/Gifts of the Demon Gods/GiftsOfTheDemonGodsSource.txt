@@ -18,18 +18,15 @@ This document has the fallowing sections on how to change creatures to better fi
 
 ## New conditions 
 
-#### Rampage
- Rampages last for one minute and have the following effect on a creature unless an ability states otherwise: <br>
-* Any charmed or frightened effects on the creature are suspended.<br>
-* The creature must take the Attack action on each of its turns, targeting the nearest hostile creature it can see unless there are no creatures it can reach with an attack. <br>
-* If no hostile creatures are within range of any of the creature’s attacks, it must use a Dash action to move toward the closest hostile creature it is aware of. <br>
-*  The creature can’t maintain concentration on spells or other effects.
+#### Berserk
+The berserk condition lasts for one minute by default, and berserk creatures gain the following effects unless an ability states otherwise:   <br>
+ * The creature can only use its movement to move closer to an enemy it can see or hear.
+ * The creature can only use its action, bonus action, and reaction to make melee attacks.
+ * The creature can't maintain concentration.
+ * The creature can't be frightened or charmed.
 
-#### Obsessed
-The creature becomes fixated on a specific creature or object, which is the source of its obsession. Being obsessed has the following effects on a creature:
-* While the creature can see the source of its obsession, it can't target any creature or object with an attack, spell, or ability except for the source of its obsession.
-* While the creature can see the source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless the source of its obsession is in that area. 
-*  The creature can't willingly move away from the source of its obsession.
+
+
 
 #### Mutated
 When a creature is affected by this condition, it suffers one of the random mutations described in the Mutation Table below. A creature can't suffer from two instances of the same mutation at once.
@@ -47,12 +44,12 @@ Unless an ability states otherwise, a creature suffering from one or more mutati
 |  5  | Gelatinous Legs | The creature falls prone and can't stand up.|
 |  6  | Regeneration | The creature regains 10 hit points at the start of its turn if it has at least 1 hit point.|
 
-#### Rampage
- 
- * If the creature can only use it's movement to move closer to the enemy it can see or hear.
- * It can only use it's action, bonus action, reaction to make one or more melee attacks.
- * It can't concentration.
- * It can't be frightened or charmed.
+
+#### Obsessed
+The creature becomes fixated on a specific creature or object, which is the source of its obsession. Being obsessed has the following effects on a creature:
+* While the creature can see the source of its obsession, it can't target any creature or object with an attack, spell, or ability except for the source of its obsession.
+* While the creature can see the source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless the source of its obsession is in that area. 
+*  The creature can't willingly move away from the source of its obsession.
 
 \pagebreakNum
 
@@ -86,7 +83,7 @@ At the start of each of the gifted creature's turns, if it has made a melee atta
 #### Obsessive Hatred
 *The creature can choose a single target to focus all its uncontrollable hate towards.*
 
-At the start of the gifted creature's turn, it can choose one creature it can see within 120 feet of it. The gifted creature becomes obsessed with the chosen creature, causing the gifted creature to enter a rampage and gain a +3 bonus to melee attack rolls against the obsessed creature.
+At the start of the gifted creature's turn, it can choose one creature it can see within 120 feet of it. The gifted creature becomes obsessed with the chosen creature, causing the gifted creature to go berserk and gain a +3 bonus to melee attack rolls against the obsessed creature.
 
 The gifted creature cannot use this feature if it is already obsessed with a creature. The obsession lasts until the creature it is obsessed with dies or has not been seen by the gifted creature for over 1 minute.
 
@@ -98,7 +95,7 @@ Once per turn, when this creature hits a target with a melee weapon attack, it c
 ####  Thirst for Battle
 *There is nothing that angers this creature more than being denied combat.*
 
-At the start of the gifted creature's turn, if there is no creature within reach of any of its melee weapon attacks, the gifted creature enters a rampage until the end of the turn. While rampaging, it gains a +3 bonus to any melee attack rolls it makes and its movement speed is increased by 30 feet.
+At the start of the gifted creature's turn, if there is no creature within reach of any of its melee weapon attacks, the gifted creature goes berserk until the end of the turn. While rampaging, it gains a +3 bonus to any melee attack rolls it makes and its movement speed is increased by 30 feet.
 
 #### Too Angry to Die
 *Grievous wounds serve only to stoke the creature's resolve.*
@@ -108,9 +105,9 @@ At the start of the gifted creature's turn, if it has half its hit points or few
 #### Unpredictable Temper 
 *The creature can randomly enter a berserk fury during combat*
 
-At the end of each of the gifted creature's turns, it may roll a d6. On a 5 or 6, it enters a rampage until the end of its next turn. While rampaging, the gifted creature gains an additional action on each of its turns.
+At the end of each of the gifted creature's turns, it may roll a d6. On a 5 or 6, it goes berserk until the end of its next turn. While rampaging, the gifted creature gains an additional action on each of its turns.
 
-Once the creature enters a rampage in this way, it cannot do so again until it finishes a short or long rest.
+Once the creature goes berserk in this way, it cannot do so again until it finishes a short or long rest.
 
 
 \pagebreakNum
@@ -224,14 +221,14 @@ Creatures with any of these Gifts are Disciple of Excess.
 #### Complete Abandonment
 *The creature forsakes all reason in its pursuit of the pleasures of bloodshed.*
 
- At the start of the creature's turn, if it has half its hit points or fewer, it enters a rampage for one minute. While rampaging this way, any melee weapon attacks it makes that hit are critical hits, and all attacks that hit the creature are also critical hits.
+ At the start of the creature's turn, if it has half its hit points or fewer, it goes berserk for one minute. While rampaging this way, any melee weapon attacks it makes that hit are critical hits, and all attacks that hit the creature are also critical hits.
 
 Once this ability triggers, it can't do so again until the creature finishes a short or long rest.
 
 #### Intoxicating Strikes
 *The creature's tormenting strikes can drive others to abandon any restraint.*
 
-Once during the creature's turn, when it hits a creature with a melee attack, it can force that creature to make an Intelligence saving throw or enter a rampage until the start of the creature's next turn.
+Once during the creature's turn, when it hits a creature with a melee attack, it can force that creature to make an Intelligence saving throw go berserk until the start of the creature's next turn.
 
 #### Ego-Driven Superiority
 
@@ -390,7 +387,7 @@ When the weapon strikes something, it deals slashing damage based on the roll of
 
 A battle cry rings throughout the lair, and each non-Disciple of Rage within the lair must make a Wisdom saving throw. On a failed save, the creature is frightened until initiative count 20 on the next round. While frightened, Disciples of Rage have advantage on melee attack rolls against the creature.
 
-A creature can choose to embrace the battle cry and make the saving throw with advantage. If it succeeds on the saving throw in this way, it enters a rampage until initiative count 20 on the next round.
+A creature can choose to embrace the battle cry and make the saving throw with advantage. If it succeeds on the saving throw in this way, it goes berserk until initiative count 20 on the next round.
 
 #### Crimson Rain
 
@@ -595,7 +592,7 @@ A creature with the user is aware of in the lair must make a wisdom saving throw
 
 #### Wave of Depravity
  
- Dark whispers echo though the lair telling to let lose, each non Disciple of Excess creature that can hear it and in the lair must make a intelligence saving throw, on failure it enters a Rampage until the end of it's next turn.
+ Dark whispers echo though the lair telling to let lose, each non Disciple of Excess creature that can hear it and in the lair must make a intelligence saving throw, on failure it goes berserk until the end of it's next turn.
  
 \pagebreakNum
 
