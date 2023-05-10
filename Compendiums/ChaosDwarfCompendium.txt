@@ -124,9 +124,46 @@ The chaos dwarf military forces are also known for their debilitating strikes th
 
 Overall, these soldiers possess an array of combat skills and abilities that complement each other in combat. Some soldiers specialize in melee combat, wielding wicked axes, maces, or hammers with ruthless precision. Others excel at ranged combat, employing devastating firearms that can lay waste to their enemies from afar. Together they can form nearly unassailable military forces capable of laying waste to any who stand in the way of their implacable march towards conquest. 
 
+\columnbreak
+
+
 > ##### Dwarves with Polarms
 > Though dwarves in many fantasy settings traditionally use axes in combat, halberds, and other polearms weapons better complement the tactics dwarves use. Otherwise, they are vulnerable to foes who use reach weapons against them. If you wish to give the dwarves more well-rounded tactical options, you can replace their battle axes with halberds and replace their ***Shield Fighter*** trait with the following trait (only do this for dwarves with shields):<Br>
 ***Halberd Master.***  The dwarf can wield a halberd in one hand and a shield in the other.
+
+### New Weapons
+#### Blunderbuss
+*ranged weapon (martial)*
+___
+- **Damage:** 3d10
+- **Damage Type:** Piercing
+- **Properties:** Ammunition (range 80/320), reload (1), heavy, two-handed
+- **Cost:** 75 gp
+- **Weight:** 18 lb.
+
+#### Fire Glaive
+*melee weapon (martial)*
+___
+- **Damage:** 1d10
+- **Damage Type:** Piercing
+- **Properties:** ammunition (range 100/400), heavy, reach, reload (1), two-handed, special
+- **Cost:** 125 gp
+- **Weight:** 18 lb
+___
+
+
+
+
+
+#### New Weapon Properties 
+&emsp;**Fire Glaive.** This weapon can be used to make ranged attacks that use its ammunition property. Attacks made this way deal an additional 1d10 fire damage on hit.
+
+**Reload (X).**  This weapon can be fired X times before it must be reloaded using an action or in place of an attack that's part of an attack action or in place of an off-hand attack while duel wielding. The weapon can be reloaded early without losing any ammunition.
+
+
+
+
+
 
 \pagebreakNum
 
@@ -289,25 +326,13 @@ ___
 >
 > ***Battleaxe.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage.
 >
-> ***Blunderbuss.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 18 (3d10 + 2) piercing damage. 
+> ***Blunderbuss.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 18 (3d10 + 2) piercing damage.  The dwarf can’t make this attack again with the weapon until it loads it as an action. It can also load it when it uses its Resolute Stance feature (no action required).
 >
 > ### Bonus Actions
 > ***Don/Doff Shield.*** The dwarf dons or doffs its shield.
 
 
-### New Weapon
-#### Blunderbuss 1.0.0
-*ranged weapon (martial)*
-___
-- **Damage:** 3d10
-- **Damage Type:** Piercing
-- **Properties:** Ammunition (range 80/320), reload (1), heavy, two-handed
-- **Cost:** 75 gp
-- **Weight:** 18 lb.
-___
 
-##### New Weapon Property
-**Reload (X).**  This weapon can be fired X times before it must be reloaded using an action or in place of an attack that's part of an attack action or in place of an off-hand attack while duel wielding. The weapon can be reloaded early without losing any ammunition.
 
 \pagebreakNum
 
@@ -352,7 +377,7 @@ ___
 >
 > ***Greataxe.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16 (2d12 + 3) slashing damage.
 >
-> ***Blunderbuss.*** *Ranged Weapon Attack:* +7 to hit, ranged 80/320 ft., one target. *Hit:* 25 (4d10 + 3) piercing damage, and the target’s speed is reduced by 10 ft. until the end of the target’s next turn.
+> ***Blunderbuss.*** *Ranged Weapon Attack:* +7 to hit, ranged 80/320 ft., one target. *Hit:* 25 (4d10 + 3) piercing damage, and the target’s speed is reduced by 10 ft. until the end of the target’s next turn. The dwarf can’t make this attack again with the weapon until it loads it as an action. It can also load it when it uses its Resolute Stance feature (no action required).
 >
 
 \pagebreakNum
@@ -457,21 +482,10 @@ ___
 >
 > ***Multiattack.*** The dwarf makes two attacks.
 >
-> ***Fire Glaive.*** *Melee or Ranged Weapon Attack:* +6 to hit, reach 10 ft. or range 100/400 ft., one target. *Hit:* 8 (1d10  + 3) piercing damage. If it was a ranged attack, it deals an additional 5 (1d10) fire damage. 
+> ***Fire Glaive.*** *Melee or Ranged Weapon Attack:* +6 to hit, reach 10 ft. or range 100/400 ft., one target. *Hit:* 8 (1d10  + 3) piercing damage. If it was a ranged attack, it deals an additional 5 (1d10) fire damage.  If the dwarf made a ranged attack, it can’t do so again with this weapon until it loads it as an action or in place of an attack that’s part of an attack action. It can also load it when it uses its Resolute Stance feature (no action required).
 >
 
-#### Fire Glaive 1.0.0
-*melee weapon (martial)*
-___
-- **Damage:** 1d10
-- **Damage Type:** Piercing
-- **Properties:** ammunition (range 100/400), heavy, reach, reload (1), two-handed, special
-- **Cost:** 125 gp
-- **Weight:** 18 lb
-___
 
-
-**Fire Glaive.** This weapon can be used to make ranged attacks that use its ammunition property. Attacks made this way deal an additional 1d10 fire damage on hit.
 
 \pagebreakNum
 
@@ -713,7 +727,7 @@ ___
 >
 > ***Multiattack.*** The dwarf makes two attacks.
 >
-> ***Fire Glaive.*** *Melee or Ranged Weapon Attack:* +6 to hit, reach 10 ft. or range 100/400 ft., one target. *Hit:* 8 (1d10  + 3) piercing damage. If it was a ranged attack, it deals an additional 5 (1d10) fire damage. 
+> ***Fire Glaive.*** *Melee or Ranged Weapon Attack:* +6 to hit, reach 10 ft. or range 100/400 ft., one target. *Hit:* 8 (1d10  + 3) piercing damage. If it was a ranged attack, it deals an additional 5 (1d10) fire damage. If the dwarf made a ranged attack, it can’t do so again with this weapon until it loads it as an action or in place of an attack that’s part of an attack action. It can also load it when it uses its Resolute Stance feature (no action required).
 >
 > ### Bonus Actions
 >
