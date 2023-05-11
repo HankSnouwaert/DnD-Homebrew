@@ -240,7 +240,7 @@ Staying out of range of their attacks proves futile, for most of these dwarves a
 
 ___
 ___
-> ## Blazing Beard Warrior
+> ## Chaos Dwarf Blazing Beard Warrior
 > *Medium humanoid, lawful evil*
 > ___
 > - **Armor Class** 16 (ring mail, shield)
@@ -338,7 +338,7 @@ ___
 
 ___
 ___
-> ## Granite Guard
+> ## Chaos Dwarf Granite Guard
 > *Medium humanoid, lawful evil*
 > ___
 > - **Armor Class** 16 (chain mail)
@@ -468,8 +468,7 @@ ___
 >
 > ***Debilitating Strikes.*** When the dwarf reduces a creature to 0 hit points with an attack, that creature is stunned for the next minute, even if it regains hit points.
 >
-> ***Dwarven Gunner.*** The dwarf may use its Wisdom modifier instead of its Dexterity modifier for attack and damage rolls made with ranged attacks.
->
+> ***Dwarven Gunner.*** The dwarf may use its Wisdom modifier instead of its Dexterity modifier for attack and damage rolls made with ranged attacks.<Br>
 > Additionally, the dwarf may load a ranged weapon with the reload property when using its Resolute Stance feature (no action required.)
 >
 > ***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison.
@@ -864,7 +863,7 @@ You can give the different types of items unique names based on their material a
 ### Chaos Dwarf Infantry Tactics
 Chaos dwarfs are twisted versions of regular dwarves who possess perverted versions of traditional dwarven traits. Dwarven stubbornness has turned to unrelenting hatred, their love of crafting has been channeled into the creation of weapons of destruction, and their pride now causes them to see all others as beneath them. 
 
-Despite these grotesque changes in attitude, the combat tactics of chaos dwarfs differ little from those of their standard kin. They are most effective when occupying a fortified position and using ranged artillery to batter their enemies from afar while their unyielding melee forces hold the line.
+Despite these grotesque changes in attitude, the combat tactics of chaos dwarfs differ little from those of their standard kin. They are most effective when occupying a fortified position and using ranged weaponry to batter their enemies from afar while their unyielding melee forces hold the line.
 
 One significant difference in combat strategy stems from their reliance on acquiring forced labor, as chaos dwarf society runs on the backs of captured prisoners who are relentlessly worked to death. This means chaos dwarves will not be content to drive an enemy off. If an enemy force flees, and the chaos dwarves believe they have an overwhelming combat advantage, they will chase down their foes to capture them. 
 
@@ -897,6 +896,21 @@ When blazing beards are on fire, their attacks deal more damage. Moreover, when 
 * If a blazing beard is in a resolute stance and doesn't want to move, it may use its naphtha bomb as described above.
 * Running into a group of creatures using their burning resolve ability is also quite effective.
 
+####  Blunderbussiers
+Blunderbussier tactics are simpler than those of melee chaos dwarf infantry, as they only need to find a good vantage point from which to enter a Resolute Srance and start blasting their foes. There are a few factors to keep in mind:
+* The blunderbuss is a two-handed weapon, so the dwarf cannot hold a shield while using it.
+* The Piercing Rounds ability means that the dwarf will prioritize targets with high AC but low health.
+* After each attack with a blunderbuss, the dwarf must either use up its next action to reload it or enter a Resolute Stance at the start of its next turn, which will prevent it from moving. 
+* If the dwarf cannot reload its blunderbuss effectively and is caught in melee combat, it will not hesitate to switch to a shield and axe to fight.
+
+##### The Granite Guard
+These soldiers are even more effective snipers than normal blunderbussiers, though they have no qualms about engaging isolated creatures in melee combat if need be.
+
+One difference in their tactics stems from their Suppressing Fire ability, which makes them more likely to shoot targets that rely on speed, such as rogues.
+
+#### Infernal Guards
+These are elite dwarven soldiers that fight with unflinching resolve. Their tactics will depend on what they’re armed with.
+
 <img src='https://i.ibb.co/T2n8sH6/pardic-miner.jpg' style='position:absolute; bottom:0px; right:-90px; width:700px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-360px; right:0px; width:900px; transform:rotate(180deg)' />
@@ -905,10 +919,22 @@ When blazing beards are on fire, their attacks deal more damage. Moreover, when 
 
 \pagebreakNum
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-#### Infernal Guards
-Infernal guards are just a stronger version of chaos dwarf warriors, with the only mechanical difference being that their attacks made with advantage hit even harder. Their tactics are essentially the same as normal chaos dwarf warriors. 
+
+##### Axemen
+These infernal guards are just a stronger version of chaos dwarf warriors, with the only mechanical difference being that their attacks made with advantage hit even harder. Their tactics are essentially the same as normal chaos dwarf warriors. 
+
+##### Fireglavadiers
+Fireglaivadiers are unique in that they have a ranged attack but are more effective in melee combat. There are several attack sequences they can use:
+
+When in a Resolute Stance with an enemy in melee range, they can make both a ranged attack and a melee attack. Since they don't suffer disadvantage from using ranged attacks in melee combat, this is the most effective attack pattern.
+
+When in a Resolute Stance with no enemies nearby, they can only make a single ranged attack. This is useful when defending a position and waiting for enemies to come to them.
+
+If the dwarf is close to a pursuing enemy or slowly retreating, they can make two melee attacks.
+
+When trying to finish off fleeing targets, they can fire their weapon and use their other attack to reload. This is not an optimal attack pattern and should be avoided as possible.
+
 
 #### Infernal Ironsworn
 The main difference between infernal ironsworn and other chaos dwarf infantry is their blasting charges. They will usually use their blasting charges when they are being charged, when charging toward an enemy, or if they can hit three or more targets. However, there are two things they must watch out for:
@@ -921,7 +947,7 @@ The signature ability of The Immortals is their Undying Will. It's important to 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 #### Chaos Dwarf Overseers
 Chaos dwarf overseers can make their allies more aggressive. They are most effective when the overseer has a mix of cheap expendable units, such as forced laborers and more elite dwarves and warriors.
@@ -932,8 +958,29 @@ The overseer can use one of his attacks to kill one of his laborers to activate 
 ##### Harsh Discipline
 The overseer sends non-dwarf laborers to slow down the enemy before using this ability on his dwarves and any laborers within range. This allows the laborers to better hold their ground and the dwarves to march forward and fight more effectively.
 
+#### Chaos Dwarf Castellans
+Chaos dwarf castellans share most of the techniques used by fireglavadiers, with a couple of new abilities added to their arsenal:
+
+##### Infusion of Hatred
+This enhancement is placed on the most deadly dwarf under the castellan’s command who is not already benefiting from it, and it will use this bonus action every turn during combat. 
+
+##### Specialized Ammunition
+The castellan has two specialized bullets that it can fire from its fireglave and will use them in different ways depending on the spacing of its opponents.
+
+If its enemies are grouped up, it will use Infernal Slugs if it can affect three or more targets with the slug’s blast. Otherwise, it will use Molten Bullets on creatures that are either the most isolated from their allies or concentrating on spells. This can set up a deadly combo as party members attempt to assist each other with pulling out the Molten Bullets, while the castellan can take full advantage of them being near each other to pelt them with Infernal Slugs.
+
+
 #### Dwarves With Polearms
 The variant rule that allows dwarves to use halberds does not change their tactics but improves the already listed tactics, as having reach enables them to use their Resolute Stance more frequently. If you’re using this rule, keep in mind that it does remove the dwarves’ weakness to reach weapons. This is a more realistic tactical choice on their part, but it also gives players few options to counter them.
+
+
+
+<img src='https://i.ibb.co/rMdkLvn/breakneck-berserker.png' style='position:absolute; top:-60px; right:-0px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-280px;top:-70px;height:1400px;width:1416px;transform:rotate(168deg)' />
+
+\pagebreakNum
 
 ### Art Credit
 * Runeforge Champion - Greg Staples, Wizards of the Coast
@@ -946,13 +993,8 @@ The variant rule that allows dwarves to use halberds does not change their tacti
 * Plundering Barbarian - Andrew Mar, Wizards of the Coast
 * Pardic Miner - Tony Szczudlo, Wizards of the Coast
 * Breakneck Berserker - Scott Murphy, Wizards of the Coast
-
-<img src='https://i.ibb.co/rMdkLvn/breakneck-berserker.png' style='position:absolute; top:-60px; right:-0px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-280px;top:-70px;height:1400px;width:1416px;transform:rotate(168deg)' />
-
-\pagebreakNum
+ 
+\columnbreak
 
 ### Change Log
 #### 0.0.0
