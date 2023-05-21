@@ -1,0 +1,123 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+## Infernal Destroyer
+
+___
+___
+> ## Infernal Destroyer
+> *Gargantuan construct, lawful evil*
+> ___
+> - **Armor Class** 21 (natural armor)
+> - **Hit Points** 370 (20d20+120) **NOTE: Fixed CON & HP**
+> - **Speed** 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|27 (+8)|10 (0)|26 (+8)|13 (+1)|16 (+3)|18 (+4)|
+>___
+> - **Damage Immunities** fire, poison
+> - **Damage Resistances** cold, psychic; bludgeoning, piercing, and 
+slashing from nonmagical attacks that aren't not made with adamantine 
+ weapons
+> - **Skills** Athletics +13
+> - **Condition immunity** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** Passive Perception 13
+> - **Challenge** 16 (15,000 XP) &emsp;&emsp;    **Proficiency Bonus** +5
+> ___
+>
+> ***Blazing Body.*** At the end of the destroyer’s turn, each other creature within 10 feet of it takes 10 (3d6) fire damage. If the destroyer takes 5 or cold damage, this trait doesn't function at the end of the the destroyer’s next turn.
+>
+> ***Burning Bright.*** At the start of the destroyer's turn, if it has 280 or fewer hit points and took action on its last turn, it gains a level of Instability and takes 20 force damage for each level of Instability it has. It removes a level of Instability at the end of any turn if gained 20 more hit points that turn.
+>
+> ***Fire Absorption.*** Whenever destroyer is subjected to fire damage from source other then it's self, it takes no damage and instead regains a number of hit points equal to the fire damage dealt.
+>
+> ***Hell-Forged.*** The destroyer has the soul demon bound to within it. It counts as a fiend when determining the effects of features such as a paladin’s Divine Smite or a ranger’s Primeval Awareness.
+>
+> ***Immutable Form.*** The destroyer is immune to any spell or effect that would alter its form.
+>
+> ***Magic Resistance.*** The destroyer has advantage on saving throws against spells and other magical effects.
+>
+> ***Magic Weapons.*** The destroyer's weapon attacks are magical.
+>
+> ### Actions 
+>
+> ***Multiattack.*** The destroyer makes three attacks. It can replace one of these attacks with Burning Barrage. If the destroyer has two levels of Instability, it can only make two attacks. If it has four more levels of Instability, it can only make one attack.
+>
+> ***Slam.*** *Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 24 (3d10 + 8) bludgeoning damage plus 17 (5d6) fire damage.
+>
+> ***Burning Barrage.***  The destroyer lets loose bolts of fire at a point 15 to 60 feet away from itself. Each creature within 15 feet of the point must make a DC 19 Dexterity saving throw, taking 17 (5d6) fire damage on a failed save, or half as much damage on a successful one.
+
+\pagebreak
+
+
+CR 18
+
+#### Razer Horns
+
+*froged in the likness of a great bull, it's horns can shatter though mounts once it gains movement* 
+
+When the destroyer makes a Slam attack, it deals extra 13 (2d12) piercing damage on hit for every 20 feet it moved straight toward the target before it hit. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be pushed up to 20 feet away and knocked prone. If it fails the save by 5 or more (DC 16), it can't stand up until the start of the destroyer's next turn.
+
+#### Blazing Wings
+
+*The K'daai Destroyer has had two great wings infused with sorcery attach to it's back, When the device lands upon the earth, it lets lose a shock wave of fire.*
+
+The destroyer has a fly speed of 60.
+
+Additionally, if the destroyer is flying and dives at least 20 feet in a straight line before landing on the ground, each other creature standing on the ground within 10 feet of it must make a DC 21 Dexterity saving throw. A creature takes 9 (2d8) fire damage on a failed save and half as much damage on a successful one. 
+
+For each additional 20 feet the destroyer dove before landing, the area of the effect increases by 10 feet, and the damage increases by 9 (2d8).
+
+#### Colossal Plating
+
+*The K'daai Destroyer has two large black iron plates welded on ether side of it's body etched with unholy script, casing it to be near indestructible unless some how removed.*
+
+The destroyer starts with two iron plates attached to it. For each plate attached, it gets +3 to all saving throws and its AC (+6 while both are attached). A creature within 5 feet of the destroyer can use its action to make a DC 21 Strength check to detach one of the plates. It may add its proficiency bonus if it is proficient with Smith's Tools. The creature takes 10(3d6) fire damage when it makes the check if the destroyer's Blazing Body trait is active.
+
+#### Gore Blades
+
+*The K'daai Destroyer body is covered in Blades, miss step from a nearby enemy can resulte in being shredded.*
+
+The destroyer's Slam now deals 29 (6d6 + 8) slashing damage plus 17 (5d6) fire damage on hit.
+
+When a creature misses with a melee attack against the destroyer while within 5 feet of it, attempts to grapple it, or starts its turn grappling it, the creature takes 10 (3d6) slashing damage. 
+
+Additionally, when a creature moves into or within the area the destroyer is occupying, the creature takes 10 (3d6) slashing damage for every 5 feet it travels.
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
