@@ -1,0 +1,765 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+       .phb#p2:after, .phb#p3:after, .phb#p8:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## The Volatile Mines <br> (Player Level: 12-14)
+In this encounter, the players venture into a chaos dwarf mine and engage in combat with the soldiers there before an iron demon crashes through the walls and joins the fray. The encounter can stretch across multiple rooms and pull in other combatants. Clever players can use the explosive crates littered through the mines to their advantage.
+
+### Encounter Context
+The encounter is designed to work well as part of a larger dungeon crawl in which the players are exploring a chaos dwarf mine. The size and scope of the dungeon, as well as the players’ motivations, have little impact on the encounter.
+
+
+
+### Lead Up
+The players arrive along the mine shaft on the right side of the map. They may be able to move in stealthily to ambush the dwarves. The central room through the double doors is the centerpiece of the encounter and where the iron demon will make its appearance. However, it’s possible that the players may enter the southern room first and eliminate the four dwarves there first before engaging with the rest.
+
+
+### Map Description
+* **Lighting.** The torches shown throughout the map are the only light source. Each one provides bright light in a 20-foot radius and dim light for an additional 20 feet
+* **Exploding Crates.** Each of these crates is filled with volatile powder. If a crate takes any fire or lightning damage or sustains 20 or more bludgeoning or force damage from a single source, it explodes. Each creature within 15 feet must make a Dexterity saving throw, taking 28 (8d6) bludgeoning damage on a failed save, or half as much on a successful save. If two or more crate explosions overlap a creature, it makes one saving throw with disadvantage and takes 42 (12d6) bludgeoning damage instead.
+* **Walls.** The walls are 20 feet high, have an AC 17, and have 35 hitpoints per 5-foot section with a damage threshold of X. (NOTE: No damage threshold)
+
+
+
+### Running the Encounter
+Once the players engage with the dwarves in the central chamber, the countdown begins until the iron demon arrives and changes the entire nature of the encounter. 
+#### The Chaos Dwarves
+The chaos dwarves fight using most of their standard tactics (described later in this document). Dwarves in other rooms won’t join combat unless someone enters their room or the iron demon smashes through a wall into their room.
+
+
+
+
+
+
+\columnbreak
+
+
+
+<br><br><br><br><br>
+
+##### Encounter Map: Volatile Mines
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>`
+
+##### Map Legend
+* <font color="Red">**E:** Explosive Crate</font>
+* **W:** Chaos Dwarf Warrior Start Location
+* **B:** Chaos Dwarf Blunderbussier Start Location
+* **I:** Chaos Dwarf Infernal Guard Start Location
+* **D:** Iron Demon Entrance Path
+
+<br>
+
+
+
+#### The Iron Demon
+After three rounds (about 18 seconds), after the players initiate combat with the chaos dwarves in the central room, roll initiative for iron demon and have it crash through the wall along the path shown by the red arrow on the map on its turn. The iron demon is piloted by two chaos dwarf engineers, and general combat tactics for it can be found later in the document. The dwarf piloting its Helm (thus driving it) is very reckless and generally wants to attack the players by running them down and smashing through walls whenever necessary. However, the dwarf manning the cannon is more cautious and will keep his partner’s recklessness in check, advising that they keep their distance when possible and utilized ranged attacks. 
+
+
+
+
+
+<img src='https://i.ibb.co/VwdW2Vg/Iron-Demon-Guide.png' style='position:absolute; top:145px; right:2px; width:420px; ' />
+
+
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+If the players kill or incapacitate the dwarf manning the cannon, the driver will give in to his impulsive nature and recklessly try to run down the players. If the driver is killed, the dwarf manning the turret will switch to driving and continue the fight using hit-and-run tactics. 
+
+It is possible to trick the iron demon’s driver into ramming through a wall with an explosive crate on the other side, thus inflicting heavy damage on it. This will be easier to do if the driver is acting recklessly. 
+
+### Aftermath
+If the players defeat the chaos dwarves, they will be able to continue their journey through the mines. If they didn’t engage in combat with the other chaos dwarves on the map, they would likely have been alerted by all the commotion and arrive within a minute. If all the foes on the map are defeated, the players will have a longer reprieve.
+
+While dwarves are stubborn and not one to flee, if it’s clear they are losing the fight, one or more chaos dwarves may retreat into the mines if they know there is additional backup nearby. The reckless pilot engineer will fight to the death, but if he is incapacitated and his level-head partner takes the wheel, the iron demon may also retreat if it is near destruction. 
+
+If the players retreat, the iron demon will likely give chase, with other chaos dwarves following behind. How long it gives chase and under what conditions it will stop pursuing the players will depend on who is piloting it and the bigger context for this encounter.
+
+#### Loot
+The players can loot the individual chaos dwarves they’ve slain for any valuables they’re carrying. You can use the loot tables described later in this document as a guide for what they might find.
+
+If you wish to provide the players with additional treasure, the castellan could be carrying an uncommon magic item or 2d4 100gp gems socketed into his armaments. 
+
+
+#### XP Award: 15,000xp 
+The degree of success the players have in overcoming the chaos dwarves and their iron demon can affect their XP reward. You can use the following potential outcomes as guidelines to modify how much XP you award your players.
+
+* **150% XP:** The players defeat all the dwarves and the iron demon without any escaping or alerting others.
+* **100% XP:** The players defeat the iron demon and most of the dwarves, but either don’t clear all the rooms or allow some to escape and get backup. 
+* **50% XP:** The iron demon escapes, or the players defeat it but retreat from the remaining dwarves.
+* **10% XP:** The players retreat without defeating the iron demon.
+
+<br>
+
+### Art Credit
+* Encounter Map - Joseph Snouwaert
+
+\columnbreak
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty accordingly. <Br><br>
+
+**Easier Encounter (Level 9-11).** 
+* Remove the blunderbussiers from the encounter. 
+
+Change the XP award to 10,000XP.
+
+<Br>&ensp;&nbsp; **Harder Encounter (Level 15-17).** 
+* Replace the chaos dwarf warriors with infernal gaurds. 
+* Replace the blunderbussiers with infernal guard glaivadiers. 
+* Replace the infernal guard with an infernal ironsworn. 
+* Use the demon’s tongue variant for the iron demon.
+
+Change the XP award to 17,000 XP.
+
+
+### Adventure Follow Ups
+If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration:
+ 
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  |**Tyranny of the Forge:** The encounter in the mine is but a hint of a much larger Chaos Dwarf operation. The party learns that these mines are just one of many, forming a network that spans the entire region. The Chaos Dwarves are extracting a rare and dangerous mineral used to empower their Iron Demons, making them virtually indestructible. The party must put an end to this operation before an invincible army of Iron Demons is unleashed.|
+|  2  | **Soulbound Ore:** The Iron Demon in the mine was not merely a weapon but a tool for a horrific purpose. The ore in the mine has a unique property: when processed, it can bind demonic entities. The Chaos Dwarves plan to create a monstrosity, an immense Golem-like creature powered by a legion of bound demons. The party must prevent this abomination from being completed and set loose upon the world. |
+|  3  | **Echoes of the Underdark:** The skirmish in the mines was a surface symptom of a greater problem. The Chaos Dwarves have dug too deep and have broken into the Underdark, home to drow, mind flayers, and abominations from the deepest depths. The two evil factions are now forging an unlikely alliance, which could lead to an unholy war spilling into the upper world. The party must navigate the dangerous politics and battles of the Underdark to prevent this disastrous alliance. |
+|  4  | **Infernal Infiltration:** After the encounter in the mines, the players discover the Chaos Dwarves are not working alone. A treacherous noble from a nearby city-state is providing them with resources and protection in return for weapons and war machines. The party must return to civil society and expose this treason without alerting their powerful enemy.|
+
+
+
+
+\pagebreakNum 
+
+# Encounter Reference Material
+
+## Encounter Stat Blocks
+
+___
+___
+> ## Chaos Dwarf Warrior
+> *Medium humanoid, lawful evil*
+> ___
+> - **Armor Class** 16 (ring mail, shield)
+> - **Hit Points** 39 (6d8 + 12)
+> - **Speed** 25 ft.
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|9 (-1)|14 (+2)|12 (+1)|10 (+0)|12 (+1)|
+>___
+> - **Damage Resistances** poison
+> - **Skills** Athletics +4, Intimidation +3
+> - **Senses** darkvision 30 ft., passive Perception 10
+> - **Languages** Dwarvish
+> - **Challenge** 1 (200 XP)
+> - **Proficiency Bonus** +2
+> ___
+>
+> ***Debilitating Strikes.*** When the dwarf reduces a creature to 0 hit points with an attack, that creature is stunned for the next minute, even if it regains hit points.
+>
+> ***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison.
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it can focus entirely on standing its ground mentally and physically. Until the start of its next turn, any attack roll made against the dwarf has disadvantage. Additionally, the dwarf makes Strength (Athletics) checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage. The dwarf loses this benefit if an effect moves it against its will or knocks it prone. If the dwarf uses this feature, its speed becomes 0 until the end of the current turn.
+>
+> ***Shield Fighter.*** While the dwarf is wielding a shield, its melee weapon attacks deal an extra 3 (1d6) damage when the dwarf hits with them (included in the attack).
+> 
+> ### Actions
+>
+> ***Battleaxe.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 1d6 + 2) slashing damage.
+
+___
+___
+> ## Chaos Dwarf Blunderbussier
+> *Medium humanoid, lawful evil*
+> ___
+> - **Armor Class** 16 (ring mail, shield)
+> - **Hit Points** 39 (6d8 + 12)
+> - **Speed** 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|9 (-1)|14 (+2)|12 (+1)|14 (+2)|12 (+1)|
+>___
+> - **Damage Resistances** poison
+> - **Skills** Athletics +4, Intimidation +3, Prescription +4
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** Dwarvish
+> - **Challenge** 2 (450 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Debilitating Strikes.*** When the dwarf reduces a creature to 0 hit points with an attack, that creature is stunned for the next minute, even if it regains hit points.
+>
+> ***Dwarven Gunner.*** The dwarf may use its Wisdom modifier instead of its Dexterity modifier for attack and damage rolls made with ranged attacks. Additionally, the dwarf may load a ranged weapon with the reload property when using its Resolute Stance feature (no action required.)
+>
+> ***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison.
+>
+> ***Piercing Rounds.*** The dwarf adds +2 to the attack rolls it makes with blunderbuss attacks (included in the attack).
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it can focus entirely on standing its ground mentally and physically. Until the start of its next turn, any attack roll made against the dwarf has disadvantage. Additionally, the dwarf makes Strength (Athletics) checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage. The dwarf loses this benefit if an effect moves it against its will or knocks it prone. If the dwarf uses this feature, its speed becomes 0 until the end of the current turn.
+>
+> ### Actions
+>
+> ***Battleaxe.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage.
+>
+> ***Blunderbuss.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 18 (3d10 + 2) piercing damage.  The dwarf can’t make this attack again with the weapon until it loads it as an action. It can also load it when it uses its Resolute Stance feature (no action required).
+>
+> ### Bonus Actions
+> ***Don/Doff Shield.*** The dwarf dons or doffs its shield.
+
+\pagebreakNum
+
+___
+___
+> ## Chaos Dwarf Infernal Guard, Axeman
+> *Medium humanoid, lawful evil*
+> ___
+> - **Armor Class** 18 (chain mail, shield)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|9 (-1)|16 (+3)|12 (+1)|12 (+1)|14 (+2)|
+>___
+> - **Damage Resistances** fire, poison
+> - **Skills** Athletics +5, Intimidation +4
+> - **Senses** darkvision 30 ft., passive Perception 11
+> - **Languages** Dwarvish
+> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&nbsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Cut Down.*** The dwarf has advantage on opportunity attacks.
+>
+> ***Debilitating Strikes.*** When the dwarf reduces a creature to 0 hit points with an attack, that creature is stunned for the next minute, even if it regains hit points.
+>
+> ***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison.
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it can focus entirely on standing its ground mentally and physically. Until the start of its next turn, any attack roll made against the dwarf has disadvantage. Additionally, the dwarf makes Strength (Athletics) checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage. The dwarf loses this benefit if an effect moves it against its will or knocks it prone. If the dwarf uses this feature, its speed becomes 0 until the end of the current turn.
+>
+> ***Shield Fighter.*** While the dwarf is wielding a shield, its melee weapon attacks deal an extra 3 (1d6) damage when the dwarf hits with them (included in the attack).
+>
+> ### Actions
+>
+> ***Multiattack.*** The dwarf makes two attacks.
+>
+> ***Battleaxe.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 11 (1d8 + 1d6 + 3) slashing damage
+> 
+
+___
+___
+> ## Chaos Dwarf Infernal Gaurd, Fireglaivadier
+> *Medium humanoid, lawful evil*
+> ___
+> - **Armor Class** 16 (chain mail)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|9 (-1)|16 (+3)|12 (+1)|16 (+3)|14 (+2)|
+>___
+> - **Damage Resistances** fire, poison
+> - **Skills** Athletics +5, Intimidation +4, Prescription +5
+> - **Senses** darkvision 30 ft., passive Perception 15
+> - **Languages** Dwarvish
+> - **Challenge** 3 (700 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Debilitating Strikes.*** When the dwarf reduces a creature to 0 hit points with an attack, that creature is stunned for the next minute, even if it regains hit points.
+>
+> ***Dwarven Gunner.*** The dwarf may use its Wisdom modifier instead of its Dexterity modifier for attack and damage rolls made with ranged attacks.<Br>
+> Additionally, the dwarf may load a ranged weapon with the reload property when using its Resolute Stance feature (no action required.)
+>
+> ***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison.
+>
+> ***Resolute Fire.*** While the dwarf is using its Resolute Stance, being within 5 feet of an enemy doesn’t impose disadvantage on its ranged attack rolls with weapons.
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it can focus entirely on standing its ground mentally and physically. Until the start of its next turn, any attack roll made against the dwarf has disadvantage. Additionally, the dwarf makes Strength (Athletics) checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage. The dwarf loses this benefit if an effect moves it against its will or knocks it prone. If the dwarf uses this feature, its speed becomes 0 until the end of the current turn.
+>
+> ### Actions
+>
+> ***Multiattack.*** The dwarf makes two attacks.
+>
+> ***Fire Glaive.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 10 ft. or range 100/400 ft., one target. *Hit:* 8 (1d10  + 3) piercing damage. If it was a ranged attack, it deals an additional 5 (1d10) fire damage.  If the dwarf made a ranged attack, it can’t do so again with this weapon until it loads it as an action or in place of an attack that’s part of an attack action. It can also load it when it uses its Resolute Stance feature (no action required).
+>
+
+\pagebreakNum
+
+___
+___
+> ## Chaos Dwarf Infernal Ironsworn
+> *Medium humanoid, lawful evil*
+> ___
+> - **Armor Class** 19  (splint, shield)
+> - **Hit Points** 85 (10d8 + 40)
+> - **Speed** 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|9 (-1)|18 (+4)|12 (+1)|16 (+3)|14 (+2)|
+>___
+> - **Damage Resistances** poison
+> - **Damage Immunities** fire
+> - **Skills** Athletics +7, Intimidation +8, Perception +6
+> - **Senses** darkvision 30 ft., passive Perception 16
+> - **Languages** Dwarvish
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +3
+> ___
+>
+> ***Burning Weapons.*** The dwarf’s weapon attacks are magical and deal an extra 9 (2d8) fire damage (included in the attack).
+>
+> ***Cut Down.*** The dwarf has advantage on opportunity attacks.
+>
+> ***Debilitating Strikes.*** When the dwarf reduces a creature to 0 hit points with an attack, that creature is stunned for the next minute, even if it regains hit points.
+>
+> ***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison.
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it can focus entirely on standing its ground mentally and physically. Until the start of its next turn, any attack roll made against the dwarf has disadvantage. Additionally, the dwarf makes Strength (Athletics) checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage. The dwarf loses this benefit if an effect moves it against its will or knocks it prone. If the dwarf uses this feature, its speed becomes 0 until the end of the current turn.
+>
+> ***Shield Fighter.*** While the dwarf is wielding a shield, its melee weapon attacks deal an extra 3 (1d6) damage when the dwarf hits with them (included in the attack).
+>
+> ### Actions
+>
+> ***Multiattack.*** The dwarf makes two attacks.
+>
+> ***Battleaxe.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 12 (1d8 + 1d6 + 4) slashing damage plus 9 (2d8) fire damage.
+> 
+> ***Blasting Charge (1/day).*** If the dwarf is not restrained or grappled, it hurls a bomb at a point it can see within 30 feet. The bomb detonates at this point, and each creature within 10 feet must make a DC 15 Dexterity saving throw. On a failure, a creature takes 10 (3d6) fire damage and 10 (3d6) piercing damage. On a success, a creature takes half as much damage. <br>
+> When the dwarf attempts to throw the bomb, creatures can use their reaction to make attacks of opportunity against it as though it moved out of their reach. If a creature hits the dwarf this way, the dwarf drops the bomb, and it detonates at the dwarf's location.
+>
+
+___
+___
+> ## Chaos Dwarf Engineer
+> *Medium humanoid, lawful evil*
+> ___
+> - **Armor Class** 14 (ring mail)
+> - **Hit Points** 65 (10d8 + 20)
+> - **Speed** 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|10 (0)|14 (+2)|16 (+3)|10 (0)|10 (0)|
+>___
+> - **Saving Throws** Con +4, Int +5
+> - **Damage Resistances** fire, poison 
+> - **Skills** Arcana +4, Athletics +4, Land Vehicles +2, Smith's Tools +2, Tinker's Tools +2
+> - **Senses** darkvision 30 ft., passive Perception 10
+> - **Languages** Dwarvish
+> - **Challenge** 1 (200 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Debilitating Strikes.*** When the dwarf reduces a creature to 0 hit points with an attack, that creature is stunned for the next minute, even if it regains hit points.
+>
+> ***Dwarven Resilience.*** The dwarf has advantage on saving throws against poison.
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it can focus entirely on standing its ground mentally and physically. Until the start of its next turn, any attack roll made against the dwarf has disadvantage. Additionally, the dwarf makes Strength (Athletics) checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage. The dwarf loses this benefit if an effect moves it against its will or knocks it prone. If the dwarf uses this feature, its speed becomes 0 until the end of the current turn.
+>
+> ***Stubborn Driver.*** Any cover the dwarf has from a vehicle it is inside of gives a bonus to all saving throws, not just Dexterity saves.
+>
+> ***Vehicle Expert.***  Whenever the dwarf adds its proficiency bonus to any check or saving throw it makes involving a vehicle. It can also add its Intelligence modifier to these checks and saves.
+> 
+> ### Actions
+>
+> ***Hammer.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage.
+>
+
+\pagebreakNum
+
+___
+> ## Iron Demon
+> *Huge vehicle (75,000 lb.)*
+> ___
+> - **Armor Class** 19 
+> - **Hit Points**  300 (Damage threshold 10, mishap threshold 40)
+> - **Speed** 50ft.
+> - **Creature Capacity** 2 Medium creatures
+> - **Cargo Capacity** 40,000 lb
+>___
+>
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|0 |0| 0|
+>___
+> - **Vehicle DC** 18
+> - **Damage Immunities** poison, psychic, fire 
+> - **Condition Immunities** blinded, charmed, deafened, frightened, 
+paralyzed, petrified, poisoned, stunned, unconscious.
+> - **Challenge** 13 (10,000 XP)
+> ___
+>
+> ***Siege Engine.*** The iron demon deals 10 (3d6) damage instead of 3 (1d6) for every 10 feet it moves in a straight line before crashing into a creature or object. If the target it crashes into is an object or structure, it deals double damage to it.
+>
+> ***Heavy Set.*** The iron demon cannot be shoved, and it has advantage on saving throws against being knocked prone.
+>
+> ***Carriage Hauler.*** The iron demon has a coupling that it can use to pull a Chariot* as if the iron demon were its Steed*. The coupling is an object with 60 hit points. If the coupling is destroyed, all Chariots* attached to the iron demon are detached.
+>
+>
+> ### Action Stations
+>
+> ***Helm (Requires 1 Crew and Grants Three-Quarters Cover).*** Drive and steer the Iron Demon. The creature can also choose to add more power. If it does, the iron demon’s speed is increased by 1d6 x 5 feet until the end of the turn. If the result of the d6 is a 6, the iron demon has a mishap.
+>
+> ***Burning Cannon (Requires 1 Crew and Grants Three-Quarters Cover).*** The creature targets a point within 120 feet of it that it can see and fires a burning cannonball. Each creature within 10 feet of that point must make a DC 18 Dexterity saving throw. On a failed save, they take 22 (4d10) bludgeoning damage and 18 (4d8) fire damage. On a successful save, they take half as much damage.
+>
+> *Chariot refers to any vehicle that is designed to be pulled by another creature and could include a wagon or carriage. Steed refers to the creature(s) pulling the chariot. 
+
+\columnbreak
+
+> ##### Not a Creature
+> The Iron Demon is a self-powered vehicle and not a creature. Mechanics for self-powered vehicles can be found at the end of the document.
+
+<br>
+
+##### Iron Demon Mishaps Table
+| d20  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1    | Engine Flare |Fire erupts from the engine and engulfs the vehicle. Any creature that starts its turn on or inside the vehicle takes 10 (3d6) fire damage until this mishap ends.      | Dex
+| 2-4    | Locked Steering    | The vehicle can move in a straight line only. It automatically fails Dexterity checks and Dexterity saving throws until this mishap ends| Str
+| 5-7    | Furnace Rupture | The vehicle's speed halved until this mishap ends. | Str
+| 8-10    | Weapon Malfunction | One of the vehicle's weapons (choose one at random) can't be used until this mishap ends. If the vehicle has no functioning weapons, no mishap occurs. | Str
+| 11-13    |  Blinding Smoke | The Helm station fills with smoke and is heavily obscured until this mishap ends. Any creature in the helm station is blinded by the smoke | Dex
+| 14-16    |  Sundered Armor | The vehicle's damage threshold is reduced by 10 until this mishap ends.  | Str
+| 17-19    |  Damaged Axle | The vehicle grinds and shakes uncontrollably. Until the mishap ends, the vehicle has disadvantage on all Dexterity checks, and all ability checks and attack rolls made by creatures on or inside the vehicle have disadvantage.  | Dex
+| 20    |  Flip |The vehicle flips over, falls prone, and comes to a dead stop in the nearest unoccupied space it can fit in. Any unsecured creature holding on to the outside of the vehicle must succeed on a Strength saving throw against the vehicle DC or be thrown off, landing prone within 10 feet of the overturned vehicle. Creatures inside the vehicle fall prone as well (no save). | None
+
+\pagebreakNum
+
+
+### Demon’s Tongue Variant
+You can replace the Burning Cannon weapon of an iron demon with a demon’s tongue flamethrower. To do so, replace the Burning Cannon action station with the following and increase the vehicle’s CR to 14.
+
+***Daemon's Tongue (Requires 1 Crew and Grants Three-Quarters Cover).*** The flamethrower lets a loses a torrent of fire in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 42 (10d6) fire damage on a failed save, or half as much damage on a successful one.
+
+
+### Hellbound Variant
+You can create a variant of the iron demon, which possesses an incorporeal demonic entity trapped within it that attempts to break free from the control of its masters. The iron demon has the following changes:
+* It has advantage on saving throws against spells and other magical effects.
+
+* it has resistance to bludgeoning, piercing, and slashing from nonmagical weapons 
+
+* Any damage dealt by it is magical.
+
+* It has intelligence, Wisdom, and Charisma of 10.
+
+* If it fails on an Intelligence, Wisdom, or Charisma saving throw, it may choose to succeed on the save and roll on the mishap table instead. It may not do this if the save was caused by the spell *dispel evil and good* or similar magic that ends a possession. In this case, a failed save results in the iron demon losing all the hellbound variant traits as the demon spirit is expelled.
+
+* It counts as a fiend when determining the effects of features such as a paladin’s Divine Smite or a ranger’s Primeval Awareness.
+
+* If it would roll on for a mishap, instead, each creature in the iron demon must make DC 18 Constitution saving throw, taking 22 (5d8) necrotic damage on a failed save, or half as much damage on a successful one. If this reduces a humanoid creature to 0 hit points, the creature dies, and its death gives the demon spirit enough power to break free. While free, the iron demon rolls initiative and has its own turn, and no creature can use any of its action stations. On its turn, the iron demon can use the Helm action even if no creature is at the Helm.
+
+
+\columnbreak 
+
+
+## Chaos Dwarf Tactics
+
+### Chaos Dwarf Solider Tactics
+Chaos dwarfs are twisted versions of regular dwarves who possess perverted versions of traditional dwarven traits. Dwarven stubbornness has turned to unrelenting hatred, their love of crafting has been channeled into the creation of weapons of destruction, and their pride now causes them to see all others as beneath them. 
+
+Despite these grotesque changes in attitude, the combat tactics of chaos dwarfs differ little from those of their standard kin. They are most effective when occupying a fortified position and using ranged weaponry to batter their enemies from afar while their unyielding melee forces hold the line.
+
+One significant difference in combat strategy stems from their reliance on acquiring forced labor, as chaos dwarf society runs on the backs of captured prisoners who are relentlessly worked to death. This means chaos dwarves will not be content to drive an enemy off. If an enemy force flees, and the chaos dwarves believe they have an overwhelming combat advantage, they will chase down their foes to capture them. 
+
+There are two abilities common to all chaos dwarves:
+
+#### Resolute Stance
+
+Dwarves can best use this ability when fighting in confined spaces that don’t require much movement. The optimal scenario involves a mix of ranged and melee dwarf combatants. The ranged dwarves will hunker down behind cover with this ability, making it very difficult to counter them with ranged attacks. They will then have melee dwarfs stand about 5 or 10 feet in front of them to stop anyone who approaches with readied attacks. Dwarves are patient and resilient, so they will tolerate taking fire from enemies this way if it seems like their own ranged attacks are outpacing their enemies’.
+
+If the players bombard chaos dwarves with area-of-effect attacks or effects that force saving throws, this may force dwarves out of their defensive position and cause them to charge the players or even flee if they’ve taken heavy damage. Though, many chaos dwarves can resist common damage types such as poison and fire, which may allow them to better endure such abilities.
+
+When dwarves use this ability, be sure to communicate it to the players. You can say something to the effect of “the dwarf plants his feet firmly and stares you down, ready for anything that comes at him.”
+
+#### Debilitating Strike
+
+The primary purpose of this ability is to allow chaos dwarves to take prisoners of war to serve as forced labor. They will do non-lethal damage when bringing creatures down to 0 hit points, even if they’re fighting a group with a healer. 
+
+
+
+#### Chaos Dwarf Warriors
+
+Chaos Dwarf warriors act as the frontline in battle. When part of a well-balanced army, they generally use the standard chaos dwarf tactics described earlier. However, if they are the only type of soldier on the battlefield, they will take one of two tactics depending on the situation.
+
+\pagebreakNum
+
+* If the enemy can attack from range, the dwarfs charge into melee combat, taking the Dash action if needed to get within range. On their next turn, they will take a Resolute stance and fight, forcing their opponent to either fight them in melee with disadvantage or take an opportunity attack to withdraw.
+
+
+
+* If the enemy charges the chaos dwarf warriors, they will merely hold their position with Resolute Stance and ready attacks for when the enemy comes within reach.
+
+Chaos dwarf warriors prioritize attacking targets they can reach while in a Resolute Stance.
+
+####  Blunderbussiers
+Blunderbussier tactics are simpler than those of melee chaos dwarf infantry, as they only need to find a good vantage point from which to enter a Resolute Srance and start blasting their foes. There are a few factors to keep in mind:
+* The blunderbuss is a two-handed weapon, so the dwarf cannot hold a shield while using it.
+* The Piercing Rounds ability means that the dwarf will prioritize targets with high AC but low health.
+* After each attack with a blunderbuss, the dwarf must either use up its next action to reload it or enter a Resolute Stance at the start of its next turn, which will prevent it from moving. 
+* If the dwarf cannot reload its blunderbuss effectively and is caught in melee combat, it will not hesitate to switch to a shield and axe to fight.
+
+#### Infernal Guards
+These are elite dwarven soldiers that fight with unflinching resolve. Their tactics will depend on what they’re armed with. 
+
+##### Axemen
+These infernal guards are just a stronger version of chaos dwarf warriors, with the only mechanical difference being that their attacks made with advantage hit even harder. Their tactics are essentially the same as normal chaos dwarf warriors. 
+
+##### Fireglaivadiers
+Fireglaivadiers are unique in that they have a ranged attack but are more effective in melee combat. There are several attack sequences they can use:
+
+When in a Resolute Stance with an enemy in melee range, they can make both a ranged attack and a melee attack. Since they don't suffer disadvantage from using ranged attacks in melee combat, this is the most effective attack pattern.
+
+When in a Resolute Stance with no enemies nearby, they can only make a single ranged attack. This is useful when defending a position and waiting for enemies to come to them.
+
+If the dwarf is close to a pursuing enemy or slowly retreating, they can make two melee attacks.
+
+When trying to finish off fleeing targets, they can fire their weapon and use their other attack to reload. This is not an optimal attack pattern and should be avoided as possible.
+
+\columnbreak
+
+#### Infernal Ironsworn
+The main difference between infernal ironsworn and other chaos dwarf infantry is their blasting charges. They will usually use their blasting charges when they are being charged, when charging toward an enemy, or if they can hit three or more targets. However, there are two things they must watch out for:
+
+* Enemies within their reach can interrupt the grenade and cause it to detonate on top of the dwarf.
+* When throwing the grenade, the dwarf must consider that other dwarves may be hit by the blast. Some dwarves are resistant to fire or outright immune in the case of the infernal ironguard. However, if dwarves caught in the blast are in a resolute stance, they will have disadvantage on the saving throw and likely take the full piercing damage from the blast. Depending on the circumstances, the infernal ironsworn may still opt to use the bombs even if they hit allies.
+
+### Iron Demon Tactics
+The iron demon serves as both a deadly artillery piece and a hard-hitting chariot capable of smashing through weak battle lines. The key to its successful use lies in knowing when to charge in and when to keep its distance. Tactics can vary greatly depending on whether the iron demon has a carriage dragged behind it and the type of creatures driving it.
+
+When driven by two dwarf engineers, the iron demon utilizes its high speed to circle the opposing force, seeking an opening while unleashing devastating firepower from its burning cannon. Once it has weakened several targets, it charges vulnerable targets while avoiding getting surrounded by enemies. Sometimes, it maximizes its speed and rams directly into the target, aiming to pass through its foes and evade potential retaliation on its next turn. It generally avoids ending its turn within reach of three or more creatures that can attack it.
+
+If equipped with a demon's tongue flamethrower, the iron demon becomes especially adept at kiting enemies. It prioritizes ramming into the largest group of creatures it can reach, plowing through as many as possible. Then it positions itself about 30 feet away from the creatures after the charge to unleash its fire blast.
+
+The hellbound variant of iron demon uses similar tactics while under control. However, once the demon inside breaks free, all tactical considerations go out the window. It becomes an animal driven solely by bloodlust, ruthlessly ramming anything or anyone in its path in the fastest way possible. 
+
+\pagebreakNum
+
+## Chaos Dwarf Loot
+### Chaos Dwarf Soldier Loot
+Because chaos dwarves are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying or hiding nearby. Most dropped or hidden valuables can be found using **Intelligence (Investigation)** or **Wisdom (Perception)** checks. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Chaos Dwarf Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Chaos Dwarf Warrior Loot Table
+
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1d4(2) 5sp Items |
+|  6-9 | 1d4(2) 1gp Items | 
+|  7-16 | 1d6(3) 1gp Items  |  
+|  17-20 | 1 5gp Item |  
+|  21+ |  1 10gp Item |  
+
+
+##### Chaos Dwarf Blunderbussier Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 1 1gp Items |
+|  5-6 | 1d6(3) 1gp Items | 
+|  7-10 | 1 5gp Item  |  
+|  11-17 | 1d4(2) 5gp Items |  
+|  18+ |  1d4(2) 10gp Items |  
+
+
+##### Dwarf Infernal Guard Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 1d4(2) 1gp Items |
+|  5-6 | 1d6(3) 1gp Items | 
+|  7-15 | 1d6(3) 5gp Items  |  
+|  16-17 | 1d4(2) 10gp Items |  
+|  18+ |  1d6(3) 10gp Items |  
+
+\columnbreak
+
+
+##### Dwarf Infernal Ironsworn Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 5gp Item |
+|  8-10 | 1d4(2) 5gp Items | 
+|  11-16 | 1d4(2) 10gp Items  |  
+|  17-22 | 1d6(3) 10gp Items |  
+|  23+ |  1d4(2) 20gp Items |  
+
+
+
+#### Example Chaos Dwarf Soldier Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Common Chaos Dwarf Item Names
+|1d4 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Cloth)  |   Tattered Quilted Linen |  Quilted Linen |  Masterwork Quilted Linen   | 
+| 2 (Jewelry)  | Damaged Quartz Pendant| Quartz Pendant |  Masterwork Quartz Pendant  | 
+| 3-4 <br> (Metal) | Damaged Blacksteel Fragment| Blacksteel Fragment |  Pristine Blacksteel Fragment  |
+
+##### Example Uncommon Chaos Dwarf Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Cloth)  |   Tattered Silk Garb |  Silk Garb |  Masterwork Silk Garb   | 
+| 2 (Jewelry)  | Damaged Obsidian Pendant|  Obsidian Pendant |  Masterwork  Obsidian Pendant  | 
+| 3-4 <br> (Metal) | Damaged Blacksteel | Intact Blacksteel |  Pristine Blacksteel  |
+
+
+\pagebreakNum
+
+### Iron Demon Loot
+Because iron demons are vehicles, most of the valuable goods that can be looted from them are items they were carrying or materials salvaged from their remains. Most carried valuables can be found using **Intelligence (Investigation)** or **Wisdom (Perception)** checks or may not require a check to spot at all. Salvaged material can usually be gathered using an Intelligence (Smith’s Tolls) or Intelligence (Tinker’s Tools) check. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Iron Demon Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Iron Demon Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-13  | 2d4(5) 50gp Items |
+|  14-25 | 2d4(5) 100gp Items | 
+|  26+ | 3d4(7) 100gp Items  |  
+
+
+##### Iron Demon (Demon Tongue Variant) Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 2d6(7) 100gp Items |
+|  10-14 | 3d6(10) 100gp Items | 
+|  15-20 | 2d6(7) 200gp Items  |  
+|  21-23 | 3d6(10) 200gp Items |  
+|  24+ |  4d6(14) 200gp Items |  
+
+#### Example Iron Demon Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Iron Demon Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Fluid)  |  Iron Demon Fuel |  Purified Iron Demon Fuel |  Demon Tongue Oil   | 
+| 2-4 <br> (Metal) | Worn Iron Demon Scraps | Iron Demon Scraps | Demon Tongue Scraps  |
+
+\pagebreakNum
+
+# Self-Propelled Vehicles
+Most land vehicles in fantasy settings are pulled by other creatures, such as wagons, carriages, or chariots. However, through some combination of technology or magic, some vehicles may be self-propelled and driven by a passenger. These may be relatively small mechanical contraptions, magically self-propelled carriages, or mighty war machines rumbling across blasted battlefields. 
+
+The following rules can help you codify how to use these vehicle types in your games. They can be applied to vehicles of different shapes and sizes and used as tools for designing your own vehicles. The rules here can be applied to most self-powered vehicles piloted by a passenger. 
+
+## Self-Propelled Vehicle Rules
+Self-propelled vehicles are vehicles able to move without needing to be pushed or pulled by another creature, and they usually don’t need an external energy source (such as wind). Throughout this document, they will be referred to simply as vehicles. Creatures within a vehicle are referred to as passengers. 
+In combat, vehicles use most of the same rules as creatures, with the following additional considerations:
+
+### Opportunity Attacks
+War machines provoke opportunity attacks as usual. When a war machine provokes an opportunity attack, the attacker can target the vehicle itself or any creature riding on or inside it, provided they are within reach and do not have total cover.
+
+### Spacing Within Vehicles
+All creatures within a vehicle count as being within 5 feet of each other.
+
+### Entering and Exiting Vehicles
+Entering or exiting the vehicle costs a creature half of its movement. Each creature inside the vehicle may use its reaction to make an opportunity attack against the creature entering or exiting.
+
+### Crashing into Creatures and Objects
+A vehicle can crash into a creature or object by entering its space. When it does, the creature or object must make a Dexterity or Strength saving throw (the target's choice) using the vehicle's DC. On a failed save, the target takes 1d6 bludgeoning damage for every 10 feet the vehicle moved in a straight line before attempting to enter the target's space (maximum 20d6 damage).
+
+If the target is a creature, it is also knocked prone. On a successful Dexterity save, the target takes no damage and is not knocked prone. On a successful Strength save, the creature takes half damage, is not knocked prone, and the vehicle's speed becomes 0 until the end of the turn. A target can only make this saving throw once per turn.
+
+If the vehicle is at least two size categories larger than the target it crashed into, it can continue moving through the target's space if it has any movement remaining. Otherwise, the vehicle comes to a sudden stop. If the target is an impassable object that could reasonably damage the war machine, such as an iron wall, the vehicle comes to a sudden stop and takes 1d6 bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6 damage). Each creature on or inside the vehicle takes the damage as well
+
+### Prone Vehicles
+If vehicle falls prone, it cannot right itself and is incapacitated until it is flipped upright.
+
+### Falling Vehicles
+When a vehicle falls from a height of 10 feet or higher, it and all creatures on or inside it take damage from the fall as normal and land in a prone position. If the vehicle falls due to the actions of its driver (such as jumping off a ramp) it may not land prone (DM’s discretion) but still takes fall damage.
+
+
+
+### Repairing Vehicles
+If a vehicle has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The vehicle must be stationary, and the creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the tools required for the repairs. If the check succeeds, the vehicle regains 2d4 + its Intelligence modifier + its proficiency bonus hit points. If the check fails, the vehicle does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+### Vehicular Exhaustion 
+Certain circumstances can cause a war machine to malfunction and eventually break down due to wear and tear. This wear and tear can be represented using exhaustion rules, as described in Appendix A of the Player's Handbook, with the following modifications:
+
+* When a war machine reaches exhaustion level 6, its hit points drop to 0, and the vehicle breaks down.
+* The only way to remove the effects of exhaustion on a war machine is through repair. This can be done using the rules described in the Repairing Vehicles section above. If the attempt to repair the vehicle succeeds, the vehicle's exhaustion level decreases by 1. If the check fails, the vehicle's exhaustion level remains unchanged, but the repair attempt can be made again using the same tools and replacement parts.
+
+
+\pagebreakNum
+
+## Self-Propelled Vehicle Attributes
+Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, these vehicles have the following additional attributes and considerations:
+
+### Hit Points 
+A war machine's hit points can be restored through vehicle repairs. However, when a war machine's hit points reach 0, it becomes inoperative and is irreparably damaged.
+### Damage Threshold
+Most vehicles possess bulk or armor that enables them to withstand minor hits. A vehicle with a damage threshold is immune to all damage unless the amount of damage it takes is equal to or greater than its damage threshold value. In such cases, the vehicle takes damage as usual. Damage that fails to meet or exceed the vehicle's damage threshold is considered superficial and does not reduce the vehicle's hit points.
+### Mishap Threshold
+When a vehicle sustains damage from a single source that is equal to or exceeds its mishap threshold, it is required to roll on the Mishaps table (refer to the Mishaps section).
+### Creature Capacity 
+Creature capacity determines the number of creatures that can ride the vehicle comfortably. Additional creatures can fit by squeezing or clinging to the outside of the vehicle.
+### Cargo Capacity
+Cargo capacity indicates the maximum weight of cargo the vehicle can carry.
+### Vehicle DC 
+Whenever the vehicle requires a creature to make a check or saving throw, it uses this number as the DC.
+### Challenge Rating
+When players face enemies that are equipped with a fully functioning vehicle, the challenge rating (CR) of the encounter should be calculated as if the vehicle is an additional creature with its own CR.
+### Ability Scores 
+A war machine possesses the standard six ability scores that creatures have, along with their corresponding modifiers. The Strength of the vehicle is determined by its size and weight, while Dexterity represents its handling and maneuverability. The Constitution of a war machine reflects its durability and quality of construction. In most cases, war machines have a score of 0 in Intelligence, Wisdom, and Charisma.
+
+If a war machine has a score of 0 in a particular ability score, it automatically fails any ability check or saving throw that relies on that score.
+
+### Action Stations
+A vehicle may have one or more Action Stations. Each of these stations requires a certain number of creatures to operate and may grant those creatures some amount of cover. The creatures operating these stations must be passengers within the vehicle, but not all passengers need to be operating a station. A creature operating a station can use an action to activate the station's effect. A station can be occupied by only one creature at a time and can only be activated once per turn. 
+
+#### The Helm 
+Most vehicles that must be piloted by a passenger (referred to as the driver) have an Action Station known as the Helm, where the vehicle's movement is controlled. It usually consists of a chair equipped with a wheel, levers, pedals, and other controls. If a vehicle has a helm with no one operating it, it automatically fails Dexterity saving throws. A driver who is proficient with land vehicles can add their proficiency bonus to ability checks and saving throws made using the vehicle's ability scores.
+
+The driver can use an action to propel the vehicle up to its speed or bring it to a complete stop. While the vehicle is in motion, the driver can steer it along any desired course. If the driver becomes incapacitated, leaves the helm, or takes no action to alter the vehicle's course and speed, the vehicle will continue moving in the same direction and at the same speed as it did during the driver's last turn until it collides with an obstacle large enough to stop its movement.
+
+
+### Mishaps
+Most vehicles have a Mishaps Table, which describes different ways its functionality can go awry under adverse conditions. When certain abilities or conditions dictate, roll on this Mishaps Table. 
+
+To resolve a Mishap, a creature can use its action to make an ability check based on the nature of the mishap (refer to the Mishaps section). If the vehicle is moving, the check is made with disadvantage. If the creature is proficient with the tools required for the repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
