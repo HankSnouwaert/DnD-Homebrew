@@ -49,15 +49,16 @@ The players arrive from the bottom of the map. Because there isn’t much to pro
 
 ### Map Description
 * **Lighting.** If it is nighttime, all of the lighting will be provided by the glowing heat of the volcanic earth, which provides dim light to the whole map.
-* **Super-Heated Surface.** The lowest surface of the map burns with magmatic heat that shines through the cracks in its surface. Each time a creature enters a 5-foot square on this surface or starts its turn there, it takes 17 (5d6) fire damage. 
-* **Elevated Surfaces.** These are not scalding hot and can be walked across without taking damage. 
+* **Magmatic Surface.** The lowest surface of the map glows with heat from the magma below and periodically erupts with flame (see Erupting Flames below).
 * **Rock Formations.** These areas have varying heights and can be climbed at half-speed.
+
 
 
 ### Running the Encounter
 Once the fight starts, it will be a race for the player to move across their hazardous environment and neutralize the dwarfs while trying to survive the environment’s head and the ranged attacks of the chaos dwarves.
+
 #### Erupting Flames
-The flames just beneath the ground’s surface will erupt at random, momentarily bathing the lower levels of the map in fire. On initiative count 20 each turn roll a d4. On a 1 or 2, the fire erupts. Each creature on the super-heated surface or the areas 10 feet above it must make a DC 16 Dexterity saving throw. On a failed save, a creature takes 15d6 fire damage if it’s on the super-heated surface or 10d6 fire damage if it's on a surface 10 feet above. A creature takes half as much damage on a successful save. Creatures higher than 10 feet above the super-heated surfaces are unaffected. 
+The flames just beneath the ground’s surface will erupt at random, momentarily bathing the lower levels of the map in fire. On initiative count 20 each turn roll a d4. On a 1 or 2, the fire erupts. Each creature on the magmatic surface or within 10 feet of it must make a DC 16 Dexterity saving throw. Creatures take 10d6 fire damage on a failed save, and half as much on a successful one. Creatures higher than 10 feet above the super-heated surfaces are unaffected.
 
 
 
@@ -68,17 +69,16 @@ The flames just beneath the ground’s surface will erupt at random, momentarily
 
 <br><br><br><br><br>
 
-##### Encounter Map: Infernal Quarry
+##### Encounter Map: Magmatic Field
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>`
 
 ##### Map Legend
-* <font color="Red">**Super-Heated Surface:** Deals 5d6 Fire Damage On Entering a Square</font>
 * <font color="e69138">**Orange:** Walkable surface 10 ft. above the Heated Surface</font>
 * <font color="Green">**Green:** Rock Formation 20 ft. above the Heated Surface</font>
 * <font color="Teal">**Teal:** Rock Formation 30 ft. above the Heated Surface</font>
 * **F:** Fireglaivadier Start Location
-* **C:** Castellan Sworn Start Location
+* **C:** Castellan Start Location
 
 <br>
 
@@ -90,7 +90,7 @@ The chaos dwarves will move to positions where they can avoid the erupting flame
 Unless reinforcements are nearby, the chaos dwarves are unlikely to flee, even if they’re losing. With their low speed, they would be unlikely to escape, and so they will likely fight to the death. 
 
 
-<img src='https://i.ibb.co/JqXv4hr/Lava-Field-Guide.png' style='position:absolute; top:145px; right:2px; width:420px; ' />
+<img src='https://i.ibb.co/f2VgTm0/Lava-Field-Guide.png' style='position:absolute; top:145px; right:2px; width:420px; ' />
 
 
 
@@ -123,9 +123,10 @@ The degree of success the players have in overcoming the chaos dwarves can affec
 ### Adjusting the Difficulty
 The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty accordingly. 
 
-**Easier Encounter (Level 8-10).** Replace the fireglaivadiers with bluderbussiers. Change the damage dealt by walking on the super-heated surface to 4d6 fire damage. Change the damage dealt by the erupting flames to 8d6 fire damage for creatures on the 10-foot high surfaces and 12d6 fire damage for creatures on the super-heated surface. Change the XP award to 8,000XP.
+**Easier Encounter (Level 8-10).** Replace the fireglaivadiers with bluderbussiers. Change the damage dealt by the erupting flames to 8d6 fire. Change the XP award to 8,000XP.
 
-**Harder Encounter (Level 13-15).** Replace the fireglaivadiers with Granite Gaurd. Change the damage dealt by walking on the super-heated surface to 6d6 fire damage. Change the damage dealt by the erupting flames to 12d6 fire damage for creatures on the 10-foot high surfaces and 18d6 fire damage for creatures on the super-heated surface. Change the XP award to 17,000 XP.
+**Harder Encounter (Level 13-15).** Replace the fireglaivadiers with Granite Gaurd. Change the damage dealt by the erupting flames to 12d6 fire damage. Change the XP award to 17,000 XP.
+
 
 <br>
 
@@ -454,5 +455,5 @@ If its enemies are grouped up, it will use Infernal Slugs if it can affect three
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
