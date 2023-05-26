@@ -304,7 +304,7 @@ Self-propelled vehicles are vehicles able to move without needing to be pushed o
 In combat, vehicles use most of the same rules as creatures, with the following additional considerations:
 
 ### Opportunity Attacks
-War machines provoke opportunity attacks as usual. When a war machine provokes an opportunity attack, the attacker can target the vehicle itself or any creature riding on or inside it, provided they are within reach and do not have total cover.
+Vehicles provoke opportunity attacks as usual. When a vehicle provokes an opportunity attack, the attacker can target the vehicle itself or any creature riding on or inside it, provided they are within reach and do not have total cover.
 
 ### Spacing Within Vehicles
 All creatures within a vehicle count as being within 5 feet of each other.
@@ -317,7 +317,7 @@ A vehicle can crash into a creature or object by entering its space. When it doe
 
 If the target is a creature, it is also knocked prone. On a successful Dexterity save, the target takes no damage and is not knocked prone. On a successful Strength save, the creature takes half damage, is not knocked prone, and the vehicle's speed becomes 0 until the end of the turn. A target can only make this saving throw once per turn.
 
-If the vehicle is at least two size categories larger than the target it crashed into, it can continue moving through the target's space if it has any movement remaining. Otherwise, the vehicle comes to a sudden stop. If the target is an impassable object that could reasonably damage the war machine, such as an iron wall, the vehicle comes to a sudden stop and takes 1d6 bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6 damage). Each creature on or inside the vehicle takes the damage as well
+If the vehicle is at least two size categories larger than the target it crashed into, it can continue moving through the target's space if it has any movement remaining. Otherwise, the vehicle comes to a sudden stop. If the target is an impassable object that could reasonably damage the vehicle, such as an iron wall, the vehicle comes to a sudden stop and takes 1d6 bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6 damage). Each creature on or inside the vehicle takes the damage as well
 
 ### Prone Vehicles
 If vehicle falls prone, it cannot right itself and is incapacitated until it is flipped upright.
@@ -331,10 +331,10 @@ When a vehicle falls from a height of 10 feet or higher, it and all creatures on
 If a vehicle has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The vehicle must be stationary, and the creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the tools required for the repairs. If the check succeeds, the vehicle regains 2d4 + its Intelligence modifier + its proficiency bonus hit points. If the check fails, the vehicle does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
 
 ### Vehicular Exhaustion 
-Certain circumstances can cause a war machine to malfunction and eventually break down due to wear and tear. This wear and tear can be represented using exhaustion rules, as described in Appendix A of the Player's Handbook, with the following modifications:
+Certain circumstances can cause a vehicle to malfunction and eventually break down due to wear and tear. This wear and tear can be represented using exhaustion rules, as described in Appendix A of the Player's Handbook, with the following modifications:
 
-* When a war machine reaches exhaustion level 6, its hit points drop to 0, and the vehicle breaks down.
-* The only way to remove the effects of exhaustion on a war machine is through repair. This can be done using the rules described in the Repairing Vehicles section above. If the attempt to repair the vehicle succeeds, the vehicle's exhaustion level decreases by 1. If the check fails, the vehicle's exhaustion level remains unchanged, but the repair attempt can be made again using the same tools and replacement parts.
+* When a vehicle reaches exhaustion level 6, its hit points drop to 0, and the vehicle breaks down.
+* The only way to remove the effects of exhaustion on a vehicle is through repair. This can be done using the rules described in the Repairing Vehicles section above. If the attempt to repair the vehicle succeeds, the vehicle's exhaustion level decreases by 1. If the check fails, the vehicle's exhaustion level remains unchanged, but the repair attempt can be made again using the same tools and replacement parts.
 
 
 \pagebreakNum
@@ -343,7 +343,7 @@ Certain circumstances can cause a war machine to malfunction and eventually brea
 Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, these vehicles have the following additional attributes and considerations:
 
 ### Hit Points 
-A war machine's hit points can be restored through vehicle repairs. However, when a war machine's hit points reach 0, it becomes inoperative and is irreparably damaged.
+A vehicle's hit points can be restored through vehicle repairs. However, when a vehicle's hit points reach 0, it becomes inoperative and is irreparably damaged.
 ### Damage Threshold
 Most vehicles possess bulk or armor that enables them to withstand minor hits. A vehicle with a damage threshold is immune to all damage unless the amount of damage it takes is equal to or greater than its damage threshold value. In such cases, the vehicle takes damage as usual. Damage that fails to meet or exceed the vehicle's damage threshold is considered superficial and does not reduce the vehicle's hit points.
 ### Mishap Threshold
@@ -357,12 +357,12 @@ Whenever the vehicle requires a creature to make a check or saving throw, it use
 ### Challenge Rating
 When players face enemies that are equipped with a fully functioning vehicle, the challenge rating (CR) of the encounter should be calculated as if the vehicle is an additional creature with its own CR.
 ### Ability Scores 
-A war machine possesses the standard six ability scores that creatures have, along with their corresponding modifiers. The Strength of the vehicle is determined by its size and weight, while Dexterity represents its handling and maneuverability. The Constitution of a war machine reflects its durability and quality of construction. In most cases, war machines have a score of 0 in Intelligence, Wisdom, and Charisma.
+A vehicle possesses the standard six ability scores that creatures have, along with their corresponding modifiers. The Strength of the vehicle is determined by its size and weight, while Dexterity represents its handling and maneuverability. The Constitution of a vehicle reflects its durability and quality of construction. In most cases, vehicles have a score of 0 in Intelligence, Wisdom, and Charisma.
 
-If a war machine has a score of 0 in a particular ability score, it automatically fails any ability check or saving throw that relies on that score.
+If a vehicle has a score of 0 in a particular ability score, it automatically fails any ability check or saving throw that relies on that score.
 
 ### Action Stations
-A vehicle may have one or more Action Stations. Each of these stations requires a certain number of creatures to operate and may grant those creatures some amount of cover. The creatures operating these stations must be passengers within the vehicle, but not all passengers need to be operating a station. A creature operating a station can use an action to activate the station's effect. A station can be occupied by only one creature at a time and can only be activated once per turn. 
+A vehicle may have one or more Action Stations. Each of these stations requires a certain number of creatures to operate and may grant those creatures some amount of cover. The creatures operating these stations must be passengers within the vehicle, but not all passengers need to be operating a station. A creature operating a station can use an action to activate the station's effect. A station can be occupied by only one creature at a time and can only be activated once per round. 
 
 #### The Helm 
 Most vehicles that must be piloted by a passenger (referred to as the driver) have an Action Station known as the Helm, where the vehicle's movement is controlled. It usually consists of a chair equipped with a wheel, levers, pedals, and other controls. If a vehicle has a helm with no one operating it, it automatically fails Dexterity saving throws. A driver who is proficient with land vehicles can add their proficiency bonus to ability checks and saving throws made using the vehicle's ability scores.
@@ -381,3 +381,7 @@ To resolve a Mishap, a creature can use its action to make an ability check base
 ### Change Log
 #### 1.0.0
 * Document release
+
+#### 1.1.0
+* Fix vehicle wording issue in self-powered vehicle rules
+* Clarify that vehicle action stations can only be activated once per round
