@@ -1,0 +1,235 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+## Doom Wheels
+
+\columnbreak
+
+___
+___
+> ## Doom Wheel
+> *Huge vehicle (75,000 lb.)*
+> ___
+> - **Armor Class** 18 
+> - **Hit Points**  252 (Damage threshold 10, mishap threshold 30) 
+> - **Speed** 0ft.
+> - **Creature Capacity** 1 Medium creature, 1 Large swarm of Tiny creatures
+> - **Cargo Capacity** 1 ton
+>___
+>
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|18 (+4)|18 (+4)|0 |0| 0|
+>___
+> - **Vehicle DC** 16
+> - **Damage Resistances** lightning
+> - **Damage Immunities** poison, psychic. 
+> - **Condition Immunities** blinded, charmed, deafened, frightened, 
+paralyzed, petrified, poisoned, stunned, unconscious
+> - **Challenge** 11 (7,200 XP)
+> ___
+>
+> ***Doom Wheel Mishaps.*** The doom wheel uses the Doom Wheel Mishaps table when determining the effect of a mishap.
+>
+> ***Grinding Wheel.*** The doom wheel deals 10 (3d6) damage instead of 3 (1d6) for every 10 feet it moves in a straight line before crashing into a creature or object that is Medium or smaller.
+>
+> ***Heavy Set.*** The doom wheel cannot be shoved, and it has advantage on saving throws against being knocked prone.
+>
+> ***Rat Wheel.*** The swarm crewing the Treadmill action station is trapped within that station and can't leave until the doom wheel is destroyed.
+>
+> ***Skittering Lightning.*** Whenever the doom wheel finishes moving at least 10 feet, a bolt of lightning leaps to the closest creature within 60 feet of the doom wheel and not inside it. That creature must make a DC 16 Dexterity saving throw, taking 10 (3d6) lightning damage for every 10 feet the doom wheel moved on a failed save, or half as much damage on a successful one (maximum 20d6). If two or more potential targets are equidistant from the doom wheel, choose one at random.
+>
+> ### Action Stations
+>
+> ***Helm (Requires 1 Medium creature as Crew and Grants Half Cover).*** The creature Steers the Doom Wheel but has no control over how far it moves, only the path it follows. 
+>
+> ***Treadmill (Requires 1 Large swarm of Tiny creatures as Crew and Three-Quarters cover).*** The swarm powers the doom wheel, causing the doom wheel’s speed to become equal to the swarm’s speed until the start of the swarm’s next turn. The swarm cannot steer the doom wheel, and if no one uses the Helm’s action before the start of the swarm’s next turn, at the start of the swarm’s next turn, the doom wheel moves its speed forward in a straight line before its speed drops back to 0.
+
+
+
+
+\pagebreak
+
+
+
+##### Doom Wheel Mishaps
+| d8  |    Mishap Name               | Mishap Effect             |   Repair Check Type            |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1    | Eldritch Meltdown | The doom wheel suffers a partial meltdown and begins emitting a luminous greenish glow. Any creature that starts its turn on or inside the vehicle takes 10 (3d6) radiant damage at the start of its turn until this mishap ends.  |Dex
+| 2-3    | Out of Control   | The doom wheel moves in a random direction. Roll a d8 to determine the direction. As long as the mishap persists, it can only move in that direction. It automatically fails Dexterity checks and Dexterity saving throws until this mishap ends.| Str
+| 4-5    | Dizzying Fumes | The swarm occupying the Treadmill station has its speed reduced by 20 feet for the next minute or until the swarm is no longer inside the doom wheel.| None
+| 6-7    |  Burst of Speed | The swarm occupying the Treadmill station gains 20 feet of speed for the next minute or until the swarm is no longer inside the doom wheel.  | None
+| 8    |  Rats Escape |The swarm occupying the Treadmill station is expelled from the doom wheel and goes into a crazed state. It gains an additional action on its next turn and has advantage on all attack rolls until the end of its next turn.  | None
+
+
+
+___
+> ## Irradiated Rat Tide
+>*Large swarm of Tiny monstrosities, unaligned*
+> ___
+> - **Armor Class** 11
+> - **Hit Points**  99 (18d10+0)
+> - **Speed** 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|14 (+2)|11 (+0)|4 (-3)|12 (+1)|4 (-3)|
+>___
+> - **Skills** Perception +3
+> - **Damage Resistance** lightning, bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses** darkvision 30 ft., passive Perception 13
+> - **Languages** ━
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp;&ensp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Keen Smell.*** The swarm has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass (2).*** The first time each turn that the swarm hits a creature with an attack, it deals an extra 2 damage per ally it has within 5 feet of its target that isn't incapacitated. The swarm can benefit from up to 3 allies this way.
+>
+> ***Roiling Throng.*** The swarm lose 30 feet of movement when it has half of its hit points or fewer.
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny rat. The swarm can't regain hit points or gain temporary hit points.
+>
+> ### Actions
+>
+> ***Multiattack.*** The swarm makes two attacks or one attack if the swarm has half of its hit points or fewer. 
+>
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (3d6) piercing damage.
+> 
+
+\pagebreak
+___
+___
+
+> ## Wheelz of Dooom
+> *Huge vehicle (75,000 lb.)*
+> ___
+> - **Armor Class** 19 
+> - **Hit Points**  310  (Damage threshold 10, mishap threshold 40) 
+> - **Speed** 0ft.
+> - **Creature Capacity** 1 Medium creature, 1 Large swarm of Tiny creatures
+> - **Cargo Capacity** 1 ton
+>___
+>
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|20 (+5)|20 (+5)|0 |0| 0|
+>___
+> - **Vehicle DC** 16
+> - **Damage Resistances** lightning
+> - **Damage Immunities** poison, psychic
+> - **Condition Immunities** blinded, charmed, deafened, frightened, 
+paralyzed, petrified, poisoned, stunned, unconscious
+> - **Challenge** 15 (13,000 XP)
+> ___
+>
+> ***Doom Wheel Mishaps.*** The doom wheel uses the Doom Wheel Mishaps table when determining the effect of a mishap.
+>
+> ***Grinding Wheel.*** The doom wheel deals 10 (3d6) damage instead of 3 (1d6) for every 10 feet it moves in a straight line before crashing into a creature or object that is Medium or smaller.
+>
+> ***Heavy Set.*** The doom wheel cannot be shoved, and it has advantage on saving throws against being knocked prone.
+>
+> ***Rat Wheel.*** The swarm crewing the Treadmill action station is trapped within that station and can't leave until the doom wheel is destroyed.
+>
+> ***Skittering Chain Lightning.*** Whenever the doom wheel finishes moving at least 10 feet, a bolt of lightning leaps to the closest creature within 60 feet of the doom wheel and not inside it. Another bolt of lightning then leaps from that creature to the closest creature within 30 feet of it that isn’t within the doom wheel. Creature’s targeted by the lightning must make a DC 16 Dexterity saving throw, taking 10 (3d6) lightning damage for every 10 feet the doom wheel moved on a failed save, or half as much damage on a successful one (maximum 20d6). If two or more potential targets of a lightning bolt are equidistant from the lightning bolt’s source, choose one at random.
+>
+> ### Action Stations
+>
+> ***Helm (Requires 1 Medium creature as Crew and Grants Half Cover).*** The creature Steers the Doom Wheel but has no control over how far it moves, only the path it follows. 
+>
+> ***Treadmill (Requires 1 Large swarm of Tiny creatures as Crew and Three-Quarters cover).*** The swarm powers the doom wheel, causing the doom wheel’s speed to become equal to the swarm’s speed until the start of the swarm’s next turn. The swarm cannot steer the doom wheel, and if no one uses the Helm’s action before the start of the swarm’s next turn, at the start of the swarm’s next turn, the doom wheel moves its speed forward in a straight line before its speed drops back to 0.
+
+\pagebreak
+
+
+___
+___
+
+> ## Warpfire Wheel
+> *Huge vehicle (75,000 lb.)*
+> ___
+> - **Armor Class** 18 
+> - **Hit Points**  283 (Damage threshold 10, mishap threshold 30) 
+> - **Speed** 0ft.
+> - **Creature Capacity** 1 Medium creature, 1 Large swarm of Tiny creatures
+> - **Cargo Capacity** 1 ton
+>___
+>
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|18 (+4)|18 (+4)|0 |0| 0|
+>___
+> - **Vehicle DC** 16
+> - **Damage Immunities** fire, poison, psychic
+> - **Condition Immunities** blinded, charmed, deafened, frightened, 
+paralyzed, petrified, poisoned, stunned, unconscious.
+> - **Challenge** 13 (10,000 XP)
+> ___
+>
+> ***Doom Wheel Mishaps.*** The doom wheel uses the Doom Wheel Mishaps table when determining the effect of a mishap.
+>
+> ***Flame Siphon.*** Whenever the doom wheel is subjected to fire damage, it takes no damage and instead has any swarm occupying its Treadmill action station regains a number of hit points equal to the fire damage dealt. This healing ignores the swarm rule regarding healing.
+>
+> ***Grinding Wheel.*** The doom wheel deals 10 (3d6) damage instead of 3 (1d6) for every 10 feet it moves in a straight line before crashing into a creature or object that is Medium or smaller.
+>
+> ***Heavy Set.*** The doom wheel cannot be shoved, and it has advantage on saving throws against being knocked prone.
+>
+> ***Rat Wheel.*** The swarm crewing the Treadmill action station is trapped within that station and can't leave until the doom wheel is destroyed.
+>
+> ***Vermin Grease (3/Day).*** The creature at the Helm can use its bonus action to spray a 60-foot long, 15-foot wide line of grease out from the doom wheel, turning the area into difficult terrain for 1 minute before drying up. When the grease lands, each creature standing in its area must succeed on a DC 16 Dexterity saving throw or fall prone and be covered in grease for 1 minute.  
+>
+> The grease can be removed from a creature if it or another creature within 5 feet uses an action to scrap or wash it off. The doom wheel ignores this difficult terrain; instead, moving 2 feet through the grease costs the doom wheel only 1 foot of movement. Any creature or vehicle other than the doom wheel that enters the area or ends its turn must succeed on a DC 16 Dexterity saving throw or fall prone.
+>
+> If an attack, spell, or ability that deals fire damage targets something in a grease-covered area or has an area of effect that overlaps with a grease-covered area, any grease in that area is set ablaze; this includes grease that is covering creatures in that area. All other grease-covered areas and grease-covered creatures in contact with an area of burning grease are also immediately set ablaze as the fire spreads across all the grease it comes in contact with.
+>
+> When a creature moves into or within the area of burning grease or starts its turn in the area, it takes 3 (1d6) fire damage for every 5 feet it travels. A creature that starts its turn covered in burning grease takes 10 (3d6) fire damage.
+>
+> ***Wheel of Fire.*** Whenever the doom wheel finishes moving at least 10 feet, a 15-foot wide line of fire with a length equal to the distance the doom wheel just moved (maximum 100 feet) erupts from the doom wheel in a direction (**NOTE:** What direction?). Each creature caught in the area of the fire must make a DC 16 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one. 
+>
+> ### Action Stations
+>
+> ***Helm (Requires 1 Medium creature as Crew and Grants Half Cover).*** The creature Steers the Doom Wheel but has no control over how far it moves, only the path it follows. 
+>
+> ***Treadmill (Requires 1 Large swarm of Tiny creatures as Crew and Three-Quarters cover).*** The swarm powers the doom wheel, causing the doom wheel’s speed to become equal to the swarm’s speed until the start of the swarm’s next turn. The swarm cannot steer the doom wheel, and if no one uses the Helm’s action before the start of the swarm’s next turn, at the start of the swarm’s next turn, the doom wheel moves its speed forward in a straight line before its speed drops back to 0.
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
