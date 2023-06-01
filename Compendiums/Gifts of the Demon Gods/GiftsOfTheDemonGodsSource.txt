@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p7:after  {
+    .phb#p2:after, .phb#p3:after, .phb#p8:after, .phb#p11:after, .phb#p15:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p23:after, .phb#p25:after, .phb#p26:after, .phb#p27:after, .phb#p28:after, .phb#p30:after, .phb#p31:after, .phb#p33:after, .phb#p35:after, .phb#p36:after, .phb#p37:after  {
         display          : none;
     }
     /* End Footers */
@@ -31,7 +31,7 @@
 
 </style>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Gifts of the Demon Gods
 
@@ -43,7 +43,7 @@ The types of demonic influence described in this document are split into four th
 
 **Rage:** This type of demonic influence is associated with heightened aggression and increased combat abilities.
 
-**Change:** This type of demonic influence is associated with rapid mutations, madness, and deception
+**Change:** This type of demonic influence is associated with rapid mutations, arcane manipulation, madness, and deception.
 
 **Decay:** This type of demonic influence is associated with rot, disease, and (ironically enough) unnatural regeneration.
 
@@ -52,37 +52,39 @@ The types of demonic influence described in this document are split into four th
 \columnbreak
 
 ## Document Sections
-Each section with customization options splits the options based on theme. At the end of the document are some “generic” demon creatures prime for customizing, followed by some examples of creatures from the Monster Manual that have been customized using the options listed in this document. 
+Each section with customization options splits the options based on theme. At the end of the document are some “generic” demon creatures prime for customizing, followed by some examples of creatures from the Monster Manual that have been customized using these options. 
 
-**New Conditions:** These are new status conditions that will be used by many of the abilities listed in the document.
+**New Conditions:** New status conditions that will be used by many of the abilities listed in the document.
 
-**Demonic Damage Types:** This is a list of damage types associated with different demonic influences you can use to modify attacks and resistances of creatures.
+**Demonic Damage Types:** A list of damage types associated with different demonic influences you can use to modify attacks and resistances of creatures.
 
-**Demonic Spells:** This is a suggested list of spells you can use to better match a spell caster to their demonic influence.
+**Demonic Spells:** A suggested list of spells you can use to better match a spell caster to their demonic influence plus new spells.
 
-**Demonic Abilities:** These are new creature abilities that can reflect powerful gifts bestowed upon a creature by demonic forces.
+**Demonic Abilities:** New creature abilities that can reflect powerful gifts bestowed upon a creature by demonic forces.
 
-**Demonic Lair Actions:** This is a list of lair actions you can add to creatures when they’re in an environment associated with their demonic influence.
+**Demonic Lair Actions:** Lair actions you can add to creatures when they’re in an environment associated with their demonic influence.
 
-**Demons of Chaos:** These demons with flexible origins and backgrounds that can be used as a template for customization options. 
+**Demons of Chaos:** Demons with flexible origins and backgrounds that can be used as a template for customization options. 
 
-**Example Gifted Creatures:** These are examples of stat blocks from the Monster Manual that have been modified to reflect demonic influence.
+**Example Gifted Creatures:** Examples of stat blocks from the Monster Manual that have been modified to reflect demonic influence.
 
-<img src='https://i.ibb.co/QQDM99P/Archfiend-of-Despair.png' style='position:absolute; top:-30px; right:-80px; width:900px;' />
+<img src='https://i.ibb.co/QQDM99P/Archfiend-of-Despair.png' style='position:absolute; top:-20px; right:-80px; width:900px;' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:185px; right:0px; width:900px; transform: rotate(8deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:210px; right:0px; width:900px; transform: rotate(8deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:468px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
 
 ## New Conditions 
 The following are new status conditions referenced throughout the rest of the document in many of the new abilities. 
 
-Each one of these new conditions is strongly associated with one of the demonic themes: Berserk with Rage, Mutated with Change, and Obsessed with Excess. Status conditions associated with the Decay theme tend to be diseases.
+Each one of these new conditions is strongly associated with one of the demonic themes: Berserk with Rage, Mutated with Change, and Obsessed with Excess. Status conditions associated with the Decay theme tend to be diseases which will all have unique symptoms.
 
 #### Berserk
 The berserk condition lasts for one minute by default, and berserk creatures gain the following effects unless an ability states otherwise:   <br>
  * The creature can only use its movement to move closer to an enemy it can see or hear.
- * The creature can only use its action, bonus action, and reaction to make melee attacks.
+ * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear. **NOTE: Added movement option**
  * The creature can't maintain concentration.
  * The creature can't be frightened or charmed.
 
@@ -108,7 +110,7 @@ Unless an ability states otherwise, a creature suffering from one or more mutati
 
 
 
-#### Obsessed
+#### Obsessed(NOTE: Save or time limit?)
 The creature becomes fixated on a specific creature or object, which is the source of its obsession. Being obsessed has the following effects on a creature:
 * While the creature can see the source of its obsession, it can't target any creature or object with an attack, spell, or ability except for the source of its obsession.
 * While the creature can see the source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless the source of its obsession is in that area. 
@@ -157,13 +159,13 @@ The different damage types associated with the different demonic themes are list
 
 ## Demonic Spells
 
-When you’re modifying a spellcasting creature to fit a demonic theme, it can help to change some of their spells to help make them more thematic. Below is a list of spells that fit the different demonic themes. You can replace any spells a creature knows with spells of the same level from its demonic theme. Note that you shouldn’t replace non-combat spells with combat spells and vice versa, as this can affect a creature’s CR. **Note: Only a certain amount per spell level?**
+When you’re modifying a spellcasting creature to fit a demonic theme, it can help to change some of their spells to make them more thematic. Below is a list of spells that fit the different demonic themes. You can replace any spells a creature knows with spells of the same level from its demonic theme. Note that you shouldn’t replace non-combat spells with combat spells and vice versa, as this can affect a creature’s CR. **Note: Only a certain amount per spell level?**
 
 #### Spells of Change
 
 ***Cantrips:***  *eldritch blast*, *fire bolt*, *minor illusion*
 
-***1st:***  *burning hands*, *chaos bolt*, *disguise self*
+***1st:***  *burning hands*, *chaos bolt***, *disguise self*
 
 ***2nd:*** *blur*, *scorching ray*, *magic aura*
 
@@ -184,17 +186,17 @@ When you’re modifying a spellcasting creature to fit a demonic theme, it can h
 
 #### Spells of Decay
 
-***Cantrips:***  *chill touch*, *poison spray*, *toll the dead* 
+***Cantrips:***  *chill touch*, *poison spray*, *toll the dead***
 
 ***1st:***  *inflict wounds*, *miasma of pestilence**, *ray of sickness*
 
-***2nd:*** *acid arrow*, *blindness/deafness*, *stream of corruption*
+***2nd:*** *acid arrow*, *blindness/deafness*, *stream of corruption**
 
 ***3rd:*** *puddle of ooze**, *stinking cloud*, *vampiric touch* 
 
 ***4th:*** *blight*, *giant insect*, *inflict rot**  
 
-***5th:*** *cloudkill*, *contagion*, *enervation* 
+***5th:*** *cloudkill*, *contagion*, *enervation*** 
 
 ***6th:*** *eyebite*, *harm* 
 
@@ -207,17 +209,17 @@ When you’re modifying a spellcasting creature to fit a demonic theme, it can h
 
 #### Spells of Excess
 
-***Cantrips:***  *mind sliver***, *thorn whip*, *vicious mockery*  
+***Cantrips:***  *mind sliver****, *thorn whip*, *vicious mockery*  
 
 ***1st:***  *dissonant whispers*, *command*, *charm person*
 
-***2nd:*** *hold person*, *mind spike*, *suggestion*
+***2nd:*** *hold person*, *mind spike***, *suggestion*
 
 ***3rd:*** *cacophonic caress**, *hypnotic pattern*, *slow*
 
 ***4th:*** *charm monster*, *phantasmal killer*,  *slicing shards**
 
-***5th:*** *dominate person*, *hold monster*,  *synaptic static*
+***5th:*** *dominate person*, *hold monster*,  *synaptic static***
 
 ***6th:*** *irresistible dance* , *phantasmagoria*
 
@@ -225,13 +227,16 @@ When you’re modifying a spellcasting creature to fit a demonic theme, it can h
 
 ***8th:*** *power word: stun*
 
-***9th:*** *psychic scream*
-
+***9th:*** *psychic scream***
 
 <br>
 
+*New spell found later in this section<Br>
+**Found in *Xanathar's Guide to Everything*<br>
+***Found in *Tasha's Cauldron of Everything*<br>
+
 > ##### Where are the Spells of Rage?
-> Because the creatures of the demonic rage theme eschew magic in favor of brutal combat abilities, they will generally not wield magic. If you wish to make an exception to this with your creatures, stick to simple direct damage spells that deal fire, lighting, or thunder damage. If, for some reason, you need non-combat spells, pick spells that help with mobility, such as *jump*.
+> Creatures of the demonic rage theme eschew magic in favor of brutal combat abilities and will generally not wield magic. If you wish to make an exception to this, stick to simple direct damage spells that deal fire, lighting, or thunder damage and mobility enhancing spells, such as *jump*.
 
 
 <img src='https://64.media.tumblr.com/328d72e9c366837677dfa3fd9d1aa48e/96ff26d2a61fe71d-bb/s2048x3072/bb6512eb3612041b6db994b8a8521a093fba07cf.jpg' style='position:absolute; bottom:-15px; left:0px; width:740px; transform:scalex(-1)' />
@@ -507,9 +512,9 @@ style='position:absolute;top:-220px;left:-50px;width:1216px;transform:rotate(10d
 
 ## Demonic Abilities
 
-This section lists different abilities you can add to creatures to make them more thematically aligned with a demonic theme. Each ability added to a creature increases its CR by 1. Though this isn’t an exact science, as some abilities will synergize better with some creatures than others, so use your best judgment.
+This section lists different abilities you can add to creatures to make them more thematically aligned with a demonic theme. Each ability added to a creature increases its CR by 1. Though this isn’t an exact science, as different abilities will synergize better with some creatures than others, so use your best judgment.
 
-A creature with an ability is considered to be a disciple of that ability’s theme, ex a creature with a demonic ability with the decay theme is a Disciple of Decay.
+A creature with a demonic ability is considered to be a creature of that ability’s theme, ex a creature with a demonic ability from the decay theme is a Creature of Decay.
 
 Some of these abilities will require a saving throw. Use the CR of the creature with the ability to determine the DC for the save, as shown below:
 
@@ -517,12 +522,12 @@ Some of these abilities will require a saving throw. Use the CR of the creature 
 * CR 5 to 8 - DC 15
 * CR 9 to 12 - DC 17
 * CR 13 to 16 - DC 18
-* CR higher - DC 19
+* CR 17+ - DC 19
 
 
 ### Gifts of Rage
 
-Creatures with any of these abilities are Disciples of Rage.
+Creatures with any of these abilities are Creatures of Rage.
 
 #### Mounting Fury
 *As this creature’s rage reaches its peak, it becomes all but unstoppable.*
@@ -562,7 +567,7 @@ At the end of each of the gifted creature's turns, it may roll a d6. On a 5 or 6
 
 Once the creature goes berserk in this way, it cannot do so again until it finishes a short or long rest.
 
-<img src='https://i.ibb.co/zJD5N18/in-thrall-to-the-pit.png' style='position:absolute; top:-100px; right:-0px; width:820px;' />
+<img src='https://i.ibb.co/zJD5N18/in-thrall-to-the-pit.png' style='position:absolute; top:-100px; right:-2px; width:820px;' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:5px; right:-10px; width:1000px; transform: scaleX(1)' />
 
@@ -570,7 +575,7 @@ Once the creature goes berserk in this way, it cannot do so again until it finis
 
 ### Gifts of Change
 
-Creatures with any of these abilities are Disciples of Change.
+Creatures with any of these abilities are Creatures of Change.
 
 #### Chaos Warp
 *The creature may randomly be struck by extreme change, causing it to rapidly morph into an entirely new creature.*
@@ -620,7 +625,7 @@ When the gifted creature casts a spell that requires concentration, it can choos
 
 ### Gifts of Decay
 
-Creatures with any of these abilities are Disciples of Decay.
+Creatures with any of these abilities are Creatures of Decay.
 
 #### Bloating Corruption
 *The creature's body is filled with foul gases, waiting to burst forth upon its death.*
@@ -646,7 +651,7 @@ Once this ability triggers, it can’t do so again until the creature finishes a
 #### Grasping Filth
 *The creature oozes slime that sticks to anything it touches.*
 
-Any land the gifted creature occupies is covered in slime for the next minute, causing it to become difficult terrain. Any non-demon creature that enters the slime's area or starts its turn there must succeed on a Strength saving throw or be restrained by the slime. A creature can use its action to attempt to scrape or wash the sticky slime off itself or another creature, ending the effect with a successful Strength check. The freed creature can't be restrained again by the slime until the end of its next turn. Disciples of Decay ignore the effects of the slime.
+Any land the gifted creature occupies is covered in slime for the next minute, causing it to become difficult terrain. Any non-demon creature that enters the slime's area or starts its turn there must succeed on a Strength saving throw or be restrained by the slime. A creature can use its action to attempt to scrape or wash the sticky slime off itself or another creature, ending the effect with a successful Strength check. The freed creature can't be restrained again by the slime until the end of its next turn. Creatures of Decay ignore the effects of the slime.
  
  
 #### Unnatural Renewal
@@ -686,7 +691,7 @@ Observers can tell what state the creature is in by looking at it. For example, 
 
 ### Gifts of Excess
 
-Creatures with any of these abilities are Disciples of Excess.
+Creatures with any of these abilities are Creatures of Excess.
 
 #### Unnatural Grace
 
@@ -753,12 +758,13 @@ The gifted creature cannot use this feature if it is already obsessed with a cre
 This section lists different lair actions you can give gifted creatures access to when they’re fighting at a location under the influence of their demonic patron.
 
 These may be locations haunted by a demonic presence, such as a shrine devoted to a demon lord or a battlefield of interest to a particularly dark power. Those aligned with the dark influences of these locations can draw on their power to lay their enemies low.
+
 You can give one or more creatures the ability to access two or more lair actions listed in this section that all belong to the same theme. Only one creature can take a lair action per round. On initiative count 20 (losing initiative ties), any creature with lair actions can take one lair action.
 
 When you add lair actions to an encounter, you can treat the lair as an additional creature being added for the purposes of determining how it increases the encounter’s challenge rating. The equivalent CR of the lair depends on the average level of the players, as shown in the table below. If a lair action requires a saving throw, the DC of the save is determined by the equivalent CR of the lair. 
 
 ##### Lair Challenge Ratings (CRs)
-| Party Level Range  | Equivalent CR | Effect Save DC |  
+| Party Level Range  | Lair CR | Lair Save DC |  
 |:---:|:-----------:|:-----------:|
 |  1-4  | 1 | 13 |
 |  5-8  | 2 | 15 |
@@ -768,7 +774,7 @@ When you add lair actions to an encounter, you can treat the lair as an addition
 
 ### Lair Actions of Rage
 
-Any Creature that can use these lair actions is a Disciple of Rage.
+Any Creature that can use these lair actions is a Creature <br> of Rage.
 
 #### Axe of Wrath
 
@@ -788,7 +794,7 @@ A brass axe slices through reality at a point within <br> the lair of the gifted
 
 #### Blood-Curdling War Cry
 
-A battle cry rings throughout the lair, and each non-Disciple of Rage within the lair must make a Wisdom saving throw. On a failed save, the creature is frightened until initiative count 20 on the next round. While frightened, Disciples of Rage have advantage on melee attack rolls against the creature.
+A battle cry rings throughout the lair, and each non-Creature of Rage within the lair must make a Wisdom saving throw. On a failed save, the creature is frightened until initiative count 20 on the next round. While frightened, Creatures of Rage have advantage on melee attack rolls against the creature.
 
 A creature can choose to embrace the battle cry and make the saving throw with advantage. If it succeeds on the saving throw in this way, it goes berserk until initiative count 20 on the next round.
 
@@ -808,7 +814,7 @@ A creature can choose to embrace the battle cry and make the saving throw with a
 
 #### Crimson Rain
 
-The gifted creature calls forth a downpour of bloody rain that invigorates each Disciple of Rage within a 20-foot-radius, 80-foot-high cylinder centered on a point within the lair. Each affected creature gains temporary hit points based on the lair's CR:
+The gifted creature calls forth a downpour of bloody rain that invigorates each Creature of Rage within a 20-foot-radius, 80-foot-high cylinder centered on a point within the lair. Each affected creature gains temporary hit points based on the lair's CR:
 
 * **CR 1:** 2d4 temporary hit points
 * **CR 2:** 4d4 temporary hit points
@@ -849,7 +855,7 @@ The gifted creature chooses a point on the ground within the lair, and a burning
 
 ### Lair Actions of Change
 
-Any Creature that can use these lair actions is a Disciple of Change.
+Any Creature that can use these lair actions is a Creature of Change.
 
 #### Arcane Surge
 
@@ -924,7 +930,7 @@ The maximum spell level of the spell cast by the tome is equal to the lair's CR.
 
 ### Lair Actions of Decay
 
-Any Creature that can use these lair actions is a Disciple of Decay.
+Any Creature that can use these lair actions is a Creature of Decay.
 
 #### Bubo Bomb
 
@@ -958,7 +964,7 @@ The necrotic damage dealt by the disease is dependent on the lair's CR, as shown
 
 #### Rot Blessing
 
-The gifted creature becomes covered in pestilent growths, regaining hit points and becoming rot blessed. On initiative count 20 each turn, each rot blessed creature regains hit points equal to 10 times the lair's CR, and another Disciple of Decay within 10 feet of it may gain the rot blessing as well. The rot blessing ends on a creature if it takes radiant or fire damage or is targeted by an effect that cures diseases.
+The gifted creature becomes covered in pestilent growths, regaining hit points and becoming rot blessed. On initiative count 20 each turn, each rot blessed creature regains hit points equal to 10 times the lair's CR, and another Creature of Decay within 10 feet of it may gain the rot blessing as well. The rot blessing ends on a creature if it takes radiant or fire damage or is targeted by an effect that cures diseases.
 
 #### Tree of Decay
 
@@ -968,7 +974,7 @@ The gifted creature selects an unoccupied 10-foot cube on the ground within the 
 
 <Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
 
- It releases an aura of corruption in a 10-foot radius, halving the speed of any non-Disciple of Decay creature in the area. When a creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes necrotic damage determined by the CR of the gifted creature. On a pass, the creature takes half as much damage. 
+ It releases an aura of corruption in a 10-foot radius, halving the speed of any non-Creature of Decay creature in the area. When a creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes necrotic damage determined by the CR of the gifted creature. On a pass, the creature takes half as much damage. 
 
 The tree’s hit points and necrotic damage based on the lair's CR as shown below:
 
@@ -1002,15 +1008,15 @@ On initiative count 20 each turn, each infected creature gains one level of exha
 
 ### Lair Actions of Excess
 
-Any creature that can use these lair actions is a Disciple of Excess.
+Any creature that can use these lair actions is a Creature of Excess.
 
 #### Dreadful Visage
 
-The gifted creature summons the image of a horrifying demonic face in an unoccupied 5-foot cube within the lair that lasts until initiative count 20 next turn. When a non-Disciple of Excess creature first has line of sight of the image on its turn, it must succeed on a Wisdom saving throw or become frightened of it.
+The gifted creature summons the image of a horrifying demonic face in an unoccupied 5-foot cube within the lair that lasts until initiative count 20 next turn. When a non-Creature of Excess creature first has line of sight of the image on its turn, it must succeed on a Wisdom saving throw or become frightened of it.
 
 #### Excruciating Blades
 
-The gifted creature summons a swarm of jagged, spinning blades in a 10-foot cube within the lair. On initiative count 20 of the next turn, the cube moves 100 feet in a straight line toward the nearest non-Disciple of Excess creature in the lair. Any creature that enters the area for the first time on a turn, starts its turn there, or is hit by the blades while it is moving, must make a Dexterity saving throw. On a failed save, the creature takes an amount of slashing damage determined by the lair's CR, and on a successful save, the creature takes half as much damage:
+The gifted creature summons a swarm of jagged, spinning blades in a 10-foot cube within the lair. On initiative count 20 of the next turn, the cube moves 100 feet in a straight line toward the nearest non-Creature of Excess creature in the lair. Any creature that enters the area for the first time on a turn, starts its turn there, or is hit by the blades while it is moving, must make a Dexterity saving throw. On a failed save, the creature takes an amount of slashing damage determined by the lair's CR, and on a successful save, the creature takes half as much damage:
 
 * **CR 1:** 1d6 slashing damage
 * **CR 2:** 2d6 slashing damage
@@ -1021,7 +1027,7 @@ The gifted creature summons a swarm of jagged, spinning blades in a 10-foot cube
  
 #### Mesmerizing Mirror
 
-The gifted creature creates a cursed mirror in an unoccupied 5-foot cube within the lair that lasts until initiative count 20 on the next turn. When a non-Disciple of Excess creature first has line of sight of the mirror on its turn, it must make a Wisdom saving throw. On a failed save, it becomes mesmerized by the mirror, and all attacks have advantage against the creature while it has line of sight of the mirror, and it can't willingly move away from the mirror. Any creature that can't be charmed automatically succeeds on this saving throw.
+The gifted creature creates a cursed mirror in an unoccupied 5-foot cube within the lair that lasts until initiative count 20 on the next turn. When a non-Creature of Excess creature first has line of sight of the mirror on its turn, it must make a Wisdom saving throw. On a failed save, it becomes mesmerized by the mirror, and all attacks have advantage against the creature while it has line of sight of the mirror, and it can't willingly move away from the mirror. Any creature that can't be charmed automatically succeeds on this saving throw.
 
 
 #### Overwhelming Narcissism
@@ -1032,11 +1038,11 @@ The gifted creature chooses a creature within the lair that it is aware of. The 
 
 #### Sweet Sorrow
 
-A creature within the lair that the gifted creature is aware of must make a Wisdom saving throw or release a scent of sorrow that other Disciples of Excess cannot resist. If the creature fails, each Disciple of Excess within the lair may use its reaction to move up to its speed towards it without provoking attacks of opportunity and become obsessed with the creature until initiative count 20 on the next turn. While obsessed with the creature, they know its exact location within the lair, and whenever they hit the creature with a melee weapon attack, they regain hit points equal to half the amount of damage dealt.
+A creature within the lair that the gifted creature is aware of must make a Wisdom saving throw or release a scent of sorrow that other Creatures of Excess cannot resist. If the creature fails, each Creature of Excess within the lair may use its reaction to move up to its speed towards it without provoking attacks of opportunity and become obsessed with the creature until initiative count 20 on the next turn. While obsessed with the creature, they know its exact location within the lair, and whenever they hit the creature with a melee weapon attack, they regain hit points equal to half the amount of damage dealt.
 
 #### Wave of Depravity
  
-Dark whispers echo through the lair, encouraging creatures to unleash their inner desires. Each non-Disciple of Excess creature within the lair that can hear the whispers must make an Intelligence saving throw. On a failed save, the creature goes berserk until the end of its next turn.
+Dark whispers echo through the lair, encouraging creatures to unleash their inner desires. Each non-Creature of Excess creature within the lair that can hear the whispers must make an Intelligence saving throw. On a failed save, the creature goes berserk until the end of its next turn.
  
  <img src='https://i.ibb.co/nQ7S0hW/Heirloom-Mirror-Innistrad-Midnight-Hunt-Mt-G-Art.jpg' style='position:absolute; bottom:-10px; right:-280px; width:980px; transform:scaleX(1)' />
 
@@ -1200,7 +1206,9 @@ ___
 >
 > **Cast a Spell (Costs 1-3 Actions).** The daemon prince expends a spell slot or use of a spell to cast a 1st, 2nd, or 3rd level spell. Doing so costs 1 legendary action per level of the spell.
 
-### Daemon Prince Upgrades
+### Daemon Prince Upgrades 
+
+**NOTE: Need CR increases**
 
 ***Chaos Armor.*** Daemon prince’s AC is increased to 21.
 
@@ -1307,37 +1315,64 @@ paralyzed, petrified, poisoned
 
 \pagebreakNum
 
-## Example Creatures
+# Example Creatures of Chaos 
+This section lists examples of creatures from the Monster Manual that have been modified using the options listed in this document. They have been given new demonic abilities, and some have had their spell lists altered. Some of the creatures also have access to new lair actions. These modifications make the creatures more powerful than their normal equivalents, and you should be mindful of their new challenge ratings if you're swapping them into your games.
 
-### Ideas
+You can use these creatures as they are in your games, you can modify them in other ways to better suit your adventures, or use them as a jumping-off point for building your own creatures. They are meant to serve as a point of inspiration for you to make your own custom monsters to suit your games. The creatures you create do not necessarily need to be themed as demonic in origin, as the abilities listed in this document can also fit other themes. Have fun creating new twists on familiar creatures and keeping your players on their toes!
 
-#### Rage
-* Hydra*
-* Sahuagin*
-* Zombie*
+\columnbreak
 
-#### Change
-* Flaming Skull*
-* Mimic -> shadow demon*
-* Sphinx*
+## Creatures of Rage
+These creatures have been instilled with an insatiable demonic fury, making them all the more deadly in combat. They may worship gods of war, have been corrupted by demons of slaughter, or have sold their souls for greater martial prowess. In battle, they are much more aggressive than their normal kin, rarely showing any sense of restraint or self-preservation.
 
-#### Decay
-* Gnoll*
-* Hag*
-* Troll*
 
-#### Excess
-* Cloud Giant*
-* Satyr*
-* Unicorn*
+### Bugbear Warmonger (Bugbear)
+These bugbears have forsaken the worship of their traditional gods in favor of a new demon lord of war and carnage who grants them heightened aggression and brutal combat powers. Gone is their laziness and cowardice, for they are concerned only with gathering heads for their lord. Though they still excel at stealth and sneak attacks, once the ambush is executed, these bugbears press their attack no matter the odds until they’ve slaughtered every foe in sight.
 
-<img src='https://i.ibb.co/mzSVhfh/5313-lotleth-troll.jpg' style='position:absolute; bottom:-225px; right:-0px; width:850px;' />
+
+<img src='https://i.ibb.co/pQ2YxrF/den-of-the-bugbear.png' style='position:absolute; bottom:-80px; right:-150px; width:1100px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-420px;top:-565px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
 
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br>
+
+### The Bugbear’s Lair
+
+This lair is a shrine devoted to the bugbears’ <br>  demonic patron. In typical bugbear fashion, they <br>  decorate it with grizzly trophies, with severed <br>  heads being a favorite. The rage that permeates <br>  the shrine is so strong it transcends death. The <br>  heads that decorate the lair can become an <br>  instrument of their patron’s wrath, and his grip on <br>  their souls is such that he can call fallen bugbears <br>  into one last act of bloody service before their life is extinguished in his name.
+
+This lair has an equivalent creature CR of 2. 
+
+#### Lair Actions
+On initiative count 20 (losing initiative ties), any bugbear warmonger can take one lair action to cause one of the following effects, even while incapacitated; the same effect can’t be used two rounds in a row:
+
+
+##### Blood-Curdling War Cry
+
+A battle cry rings throughout the lair, and each non-Creature of Rage within the lair must make a DC 15 Wisdom saving throw. On a failed save, the creature is frightened until initiative count 20 on the next round. While frightened, Creatures of Rage have advantage on melee attack rolls against the creature.
+
+A creature can choose to embrace the battle cry and make the saving throw with advantage. If it succeeds on the saving throw in this way, it goes berserk until initiative count 20 on the next round.
+
+
+##### Final Fury
+
+Rage fills the room, giving the devoted a final attack in their death throes. Each creature of the bugbear’s choice that has died since the last lair action returns to life with 1 hit point. This action can’t return a creature to life that has died of old age, nor can it restore any missing body parts, or revive a creature who has already been revived using this feature. A creature revived this way can choose to stand up immediately and is immune to all damage until the end of its next turn, after which it dies again.
+
+
+##### Skull Meteor
+
+The bugbear chooses a point on the ground within the lair, which begins to glow menacingly. On initiative count 20 of the next round, one of the room’s severed heads catches on fire and lets loose a war cry as it flies into that point and explodes. Each creature within a 10-foot radius sphere of that point must make a DC 15 Dexterity saving throw, taking damage 4 (1d8) fire damage and 4 (1d8) bludgeoning damage on a failed save, or half as much damage on a successful one. 
+
+\columnbreak
+
+<Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br><Br>
+
 ___
-> ## Bugbear, Disciple of Rage
+> ## Bugbear Warmonger
 > *Medium humanoid (goblinoid), chaotic evil*
 > ___
 > - **Armor Class** 16 (hide armor, shield)
@@ -1351,7 +1386,7 @@ ___
 > - **Skills** Stealth +6, Survival +2
 > - **Senses** darkvision 60 ft., passive Perception 10
 > - **Languages** Common, Goblin
-> - **Challenge** 1 (200 XP)
+> - **Challenge** 2 (450 XP)
 > ___
 > ***Brute.*** A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).
 >
@@ -1363,35 +1398,30 @@ ___
 >
 > ***Javelin.*** _Melee or Ranged Weapon Attack:_ +4 to hit, reach 5 ft. or range 30/120 ft., one target. _Hit:_ 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.
 
-\columnbreak
+<img src='https://i.ibb.co/K67vTN6/bugbear-and-giant-rats.png' style='position:absolute; top:-20px; right:-10px; width:520px; transform: scaleX(-1)' />
 
-### The Plaguefather's Lair
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:130px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
 
-The Plaguefather’s home serves as a garden to grow choice ingredients and a laboratory to host his twisted experiments. It is filled with living things laden with rot and forever on the brink of death. This lair is normally on his demonic home plane, but he may establish a lair in a location on the Material Plane where he wishes to conduct extended experiments. 
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:5px;top:0px;height:1400px;width:1416px;transform:rotate(255deg)' />
 
-#### Lair Actions
-On initiative count 20 (losing initiative ties), the plaguefather can take one lair action to cause one of the following effects, even while incapacitated; he can’t use the same effect two rounds in a row: 
-
-#### Blood-Curdling War Cry
-
-A battle cry rings throughout the lair, and each non-Disciple of Rage within the lair must make a Wisdom saving throw. On a failed save, the creature is frightened until initiative count 20 on the next round. While frightened, Disciples of Rage have advantage on melee attack rolls against the creature.
-
-A creature can choose to embrace the battle cry and make the saving throw with advantage. If it succeeds on the saving throw in this way, it goes berserk until initiative count 20 on the next round.
-
-#### Final Fury
-
-Rage fills the room, giving the devoted a final attack in their death throes. Each creature of the gifted creature’s choice that has died since the last lair action returns to life with 1 hit point. This action can’t return a creature to life that has died of old age, nor can it restore any missing body parts, or revive a creature who has already been revived using this feature. A creature revived this way can choose to stand up immediately and is immune to all damage until the end of its next turn, after which it dies again.
-
-#### Skull Meteor
-
-The gifted creature chooses a point on the ground within the lair, and a burning skull forms in the sky above. On initiative count 20 of the next round, the skull comes crashing down at the point. Each creature within the area must make a Dexterity saving throw, taking damage on a failed save, or half as much damage on a successful one. The amount of damage and radius of the area affected depends on the creature's CR:
-
-* 4 or lower: 10-foot radius sphere, dealing 1d8 fire damage and 1d8 bludgeoning damage
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:100px; right:-10px; width:1000px; transform: scaleX(1)' />
 
 \pagebreakNum
 
+### Frenzied Hydra (Hydra)
+This hydra may be the favored pet of a powerful demon lord who has imbued it with an ungodly temper. Alternatively, it may be a hydra who nested too close to a demonic rift and succumbed to its maddening influence.
+
+\columnbreak
+
+<Br><br>
+
+Regardless, the hydra’s alterations have made it wildly unpredictable and bloodthirsty, willing to attack anything it sees with no provocation. Once it identifies prey, its fury only grows as its many heads rabidly tear through flesh and bone.
+
 ___
-> ## Hydra of Rage
+___
+> ## Frenzied Hydra
 > *Huge monstrosity, chaotic evil*
 > ___
 > - **Armor Class** 15 (natural armor)
@@ -1405,14 +1435,15 @@ ___
 > - **Skills** Perception +6
 > - **Senses** darkvision 60 ft., passive Perception 16
 > - **Languages** —
-> - **Challenge** 8 (3,900 XP)
+> - **Challenge** 10 (5,900 XP)
 > ___
 > ***Hold Breath.*** The hydra can hold its breath for 1 hour.
 >
 > ***Mounting Fury.*** At the start of each of the hydra's turns, if it has attacked a creature or taken damage since its last turn, it gains a cumulative +1 bonus to melee attack rolls, saving throws, and AC for the next minute. This bonus can stack up to 3 times.
 >
 > ***Multiple Heads.*** The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.<br>
+>
+> &nbsp;&nbsp;&nbsp;Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;At the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way.
 >
 > ***Reactive Heads.*** For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
@@ -1426,6 +1457,25 @@ ___
 >
 > ***Bite.*** _Melee Weapon Attack:_ +8 to hit, reach 10 ft., one target. _Hit:_ 10 (1d10 + 5) piercing damage.
 
+<img src='https://i.ibb.co/r3wSSxv/Gyrus-Waker-of-Corpses.png' style='position:absolute; bottom:-110px; right:-2px; width:820px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-450px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Rage Zombie (Zombie)
+The animating force behind this zombie is an unholy rage for the living. These may be former warriors who died violent deaths in service of bloodthirsty demonic overlords, or they may be corpses possessed by demonic spirits of rage.
+
+Regardless of their origin, these corpses possess a fervor unknown to most other zombies. This makes them especially difficult to destroy as their rage drives them to push past grievous injuries and pursue foes with unholy vigor.
+
+\columnbreak
+
+
+
+___
 ___
 > ## Rage Zombie
 > *Medium undead, chaotic evil*
@@ -1441,7 +1491,7 @@ ___
 > - **Condition Immunities** poisoned
 > - **Senses** darkvision 60 ft., passive Perception 8
 > - **Languages** understands the languages it knew in life but can't speak
-> - **Challenge** 1/4 (50 XP)
+> - **Challenge** 1 (200 XP)
 > ___
 > ***Thirst for Battle.*** At the start of the zombie's turn, if there is no creature within reach of any of its melee weapon attacks, the zombie goes berserk until the end of the turn. While berserk, it gains a +3 bonus to any melee attack rolls it makes, and its movement speed is increased by 30 feet.
 >
@@ -1451,80 +1501,130 @@ ___
 > ### Actions
 > ***Slam.*** _Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 4 (1d6 + 1) bludgeoning damage.
 
+<img src='https://i.ibb.co/j5Hxnh1/crypt-champion.png' style='position:absolute; top:-10px; right:-40px; width:940px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:170px; right:30px; width:1000px; transform: 
+rotate(19deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:340px; right:-10px; width:1000px; transform: rotate(0deg)' />
+
+\pagebreakNum
+
+## Creatures of Change
+These creatures have been warped by eldritch influences of demonic origin, making them unpredictable and granting them abilities that twist reality. They may worship gods of deception and sorcery, have been warped by chaotic, extraplanar energies, or have sacrificed their sanity in pursuit of deeper knowledge of the nature of reality. In battle, they ride the line between cunning and insanity. They are never straightforward with their tactics, preferring guile and trickery and finding ways to catch their opponents off guard whenever possible.
+
+### Warp Devil (Barbed Devil)
+This devil has had its essence twisted by raw chaos, turning it into an erratic version of its kind. Warp devils may try to continue their infernal services, but their twisted nature makes them an abomination in the eyes of their kin, and most eventually become mad vagabonds struggling to control their chaotic affliction. However, the devil’s innately lawful form can only contain this chaos for so long before succumbing to the flames of change. . . . . 
+
+
+### Warpfire Elemental (Fire Elemental)
+This elemental being has been created by demonic flames of chaos. Its flames don’t just burn matter but melt through the fabric of reality itself. Warpfire elementals are created during events of chaotic conflagration and seek to burn and warp every living being they come in contact with. 
+
+
+___
+> ## Warp Devil
+> *Medium fiend (devil), chaotic evil*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 110 (13d8 + 52)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |16 (+3)|17 (+3)|18 (+4)|12 (+1)|14 (+2)|14 (+2)|
+> ___
+> - **Saving Throws** Str +6, Con +7, Wis +5, Cha +5
+> - **Skills** Deception +5, Insight +5, Perception +8
+> - **Damage Resistances** cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
+> - **Damage Immunities** fire, poison
+> - **Condition Immunities** poisoned
+> - **Senses** darkvision 120 ft., passive Perception 18
+> - **Languages** Infernal, telepathy 120 ft.
+> - **Challenge** 7 (2,900 XP)
+> ___
+> ***Chaos Warp.*** At the start of the devils's turn, if it has dealt damage to a hostile creature since its last turn, it rolls a d6. On a roll of 4 or 6, the roper is incapacitated, and its speed becomes 0 until the start of its next turn. At that point, it instantly transforms into a **warpflame elemental** at full health and loses this ability.
+>
+> ***Barbed Hide.*** At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it.
+>
+> ***Devil's Sight.*** Magical darkness doesn't impede the devil's darkvision.
+>
+> ***Magic Resistance.*** The devil has advantage on saving throws against spells and other magical effects.
+>
+> ***Mystic Acceleration.*** When the devil makes a ranged spell attack, it gains a +1 bonus to the attack roll for every 20 feet between it and the target, up to a maximum of +3.
+> ### Actions
+> ***Multiattack.*** The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice.
+>
+> ***Claw.*** _Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6 + 3) piercing damage.
+>
+> ***Tail.*** _Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6 + 3) piercing damage.
+>
+> ***Hurl Flame.*** _Ranged Spell Attack:_ +5 to hit, range 150 ft., one target. _Hit:_ 10 (3d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.
+
+\columnbreak
+
+<img src='https://i.ibb.co/v1SKMjw/barbed-devil-4e.png' style='position:absolute; bottom:-25px; left:-17px; width:430px; transform:scalex(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-630px;top:0px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-50px;top:-478px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
 \pagebreakNum
 
 ___
-> ## Roper
-> *Large monstrosity, neutral evil*
-> ___
-> - **Armor Class** 20 (natural armor)
-> - **Hit Points** 93 (11d10 + 33)
-> - **Speed** 10 ft., climb 10 ft.
-> ___
-> |STR|DEX|CON|INT|WIS|CHA|
-> |:---:|:---:|:---:|:---:|:---:|:---:|
-> |18 (+4)|8 (-1)|17 (+3)|7 (-2)|16 (+3)|6 (-2)|
-> ___
-> - **Skills** Perception +6, Stealth +5
-> - **Senses** darkvision 60 ft., passive Perception 16
-> - **Languages** —
-> - **Challenge** 5 (1,800 XP)
-> ___
-> ***Chaos Warp.*** At the start of the roper's turn, if it has dealt damage to a hostile creature since its last turn, it rolls a d6. On a roll of 4 or 6, the roper is incapacitated, and its speed becomes 0 until the start of its next turn. At that point, it instantly transforms into an air elemental at full health and loses this ability.
->
-> ***False Appearance.*** While the roper remains motionless, it is indistinguishable from a normal cave formation, such as a stalagmite.
->
-> ***Grasping Tendrils.*** The roper can have up to six tendrils at a time. Each tendril can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tendril deals no damage to the roper, which can extrude a replacement tendril on its next turn. A tendril can also be broken if a creature takes an action and succeeds on a DC 15 Strength check against it.
->
-> ***Spider Climb.*** The roper can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
->
-> ***Twisting Flames.*** Once during the gifted creature's turn, it may choose one creature that it dealt damage to make a DC Charisma saving throw. On a failure, the creature suffers a mutation.
-> ### Actions
-> ***Multiattack.*** The roper makes four attacks with its tendrils, uses Reel, and makes one attack with its bite.
->
-> ***Bite.*** _Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 22 (4d8 + 4) piercing damage.
->
-> ***Tendril.*** _Melee Weapon Attack:_ +7 to hit, reach 50 ft., one creature. _Hit:_ The target is grappled (escape DC 15). Until the grapple ends, the target is restrained and has disadvantage on Strength checks and Strength saving throws, and the roper can't use the same tendril on another target.
->
-> ***Reel.*** The roper pulls each creature grappled by it up to 25 ft. straight toward it.
-
 ___
-> ## Air Elemental
-> *Large elemental, neutral*
+> ## Warpfire Elemental
+> *Large elemental, chaotic evil*
 > ___
-> - **Armor Class** 15
-> - **Hit Points** 90 (12d10 + 24)
-> - **Speed** 0 ft., fly 90 ft. (hover)
+> - **Armor Class** 13
+> - **Hit Points** 102 (12d10 + 36)
+> - **Speed** 50 ft.
 > ___
 > |STR|DEX|CON|INT|WIS|CHA|
 > |:---:|:---:|:---:|:---:|:---:|:---:|
-> |14 (+2)|20 (+5)|14 (+2)|6 (-2)|10 (+0)|6 (-2)|
+> |10 (+0)|17 (+3)|16 (+3)|6 (-2)|10 (+0)|7 (-2)|
 > ___
-> - **Damage Resistances** lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
-> - **Damage Immunities** poison
+> - **Damage Resistances** bludgeoning, piercing, and slashing from nonmagical attacks
+> - **Damage Immunities** fire, poison
 > - **Condition Immunities** exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
 > - **Senses** darkvision 60 ft., passive Perception 10
-> - **Languages** Auran
-> - **Challenge** 5 (1,800 XP)
+> - **Languages** Ignan
+> - **Challenge** 7 (2,900 XP)
 > ___
-> ***Air Form.*** The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.
+> ***Divergent Echo.*** At the start of the elemental's turn, it can create an illusory duplicate of itself as if created by the *mirror image* spell (no action required). The AC of the duplicate is 15. The elemental can only have one of these duplicates at a time.
 >
-> ***Twisting Flames.*** Once during the air elemental's turn, it may choose one creature that it dealt damage to make a DC Charisma saving throw. On a failure, the creature suffers a mutation.
+> ***Fire Form.*** The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 ft. of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.
 >
+> ***Illumination.*** The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 ft..
+>
+> ***Twisting Flames.*** Once during the elemental's turn, it may choose one creature that it dealt damage to make a DC 15 Charisma saving throw. On a failure, the creature suffers a mutation.
+>
+> ***Water Susceptibility.*** For every 5 ft. the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.
 > ### Actions
-> ***Multiattack.*** The elemental makes two slam attacks.
+> ***Multiattack.*** The elemental makes two touch attacks.
 >
-> ***Slam.*** _Melee Weapon Attack:_ +8 to hit, reach 5 ft., one target. _Hit:_ 14 (2d8 + 5) bludgeoning damage.
->
-> ***Whirlwind (Recharge 4-6).*** Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.
+> ***Touch.*** _Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.
+
+<img src='https://i.ibb.co/wc1tGfB/war-145-spellgorger-weird.png' style='position:absolute; bottom:-650px; right:-80px; width:990px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-500px;height:1400px;width:1416px;transform:rotate(0deg)' />
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Oni Deceiver (Oni)
+
+This oni has consorted with demonic forces of deception to access eldritch secrets and enhanced powers of trickery. It now serves those forces to sow chaos across the world, utilizing its arcane powers of confusion and deceit. Though its exact goals are often inscrutable, it always executes its plans with deadly guile. Those who attempt to face the oni deceiver head-on are left befuddled by its magics before meeting a grizzly end.
+
+\columnbreak
+
 ___
 ___
-> ## Oni
-> *Large giant, lawful evil*
+> ## Oni Deceiver
+> *Large giant, chaotic evil*
 > ___
 > - **Armor Class** 16 (chain mail)
 > - **Hit Points** 110 (13d10 + 39)
@@ -1538,16 +1638,18 @@ ___
 > - **Skills** Arcana +5, Deception +8, Perception +4
 > - **Senses** darkvision 60 ft., passive Perception 14
 > - **Languages** Common, Giant
-> - **Challenge** 7 (2,900 XP)
+> - **Challenge** 9 (5,000 XP)
 > ___
-> ***Innate Spellcasting.*** The oni's innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components:<br>
+> ***Innate Spellcasting.*** The oni's innate spellcasting ability is Charisma (spell save DC 15). The oni can innately cast the following spells, requiring no material components:<br>
 > <br>
 > At will: _invisibility, magic aura_<br>
 > 1/day each: _charm person, immolation, gaseous form, confusion_
 >
 > ***Magic Weapons.*** The oni's weapon attacks are magical.
 >
-> ***Mirror Double.*** At the start of the oni's turn, it can create an illusory duplicate of itself as if created by the *mirror image* spell (no action required). The AC of the duplicate is 13. The oni can only have one of these duplicates at a time.
+> ***Mirror Double.*** At the start of the oni's turn, it can create an illusory duplicate of itself as if created by the *mirror image* spell (no action required). 
+> 
+> The AC of the duplicate is 13. The oni can only have one of these duplicates at a time.
 >
 > ***Over-Channel.*** When the oni casts a spell that requires concentration, it can choose to channel greater amounts of eldritch power for as long as it concentrates on the spell. While channeling, at the start of each of the oni's turns, the spell save DC of the spell being concentrated and it's spell attack modifier are increased by 2, to a maximum of 6.
 >
@@ -1561,12 +1663,60 @@ ___
 >
 > ***Change Shape.*** The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size.
 
+<img src='https://64.media.tumblr.com/853f5d63eed066ce4465fec790aafe67/b337d7ab4b62b7cd-05/s1280x1920/f705e7dec6e3d88d84a3735bec35d9c8d9af628a.pnj' style='position:absolute; top:-55px; right:-0px; width:816px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:70px; right:-30px; width:1000px; transform: rotate(16deg)' />
+
 \pagebreakNum
+
+
+### Sphinx, Defiler of Fate (Androsphinx)
+
+No longer content to passively study the strands of fate, this sphinx has mastered the demonic arts necessary to twist destiny to its will. From within its sanctum, it studies the stands of destiny, scheming ways to twist the future to its will. Though it believes itself to have mastered fate, the sphinx is little more than another pawn in the game of the demonic lords who granted it this power to begin with.
+
+### The Sphinx’s Lair
+
+This lair is the sanctum from which the sphinx observes and twists the threads of fate. It is here where the sphinx’s power is greatest as it can twist reality to draw on greater reserves of magic and terrify its foes with nightmarish visions of different realities. 
+
+This lair has an equivalent creature CR of 5. 
+
+#### Lair Actions
+On initiative count 20 (losing initiative ties), the sphinx can take one lair action to cause one of the following effects, even while incapacitated; it can’t use the same effect two rounds in a row:
+
+##### Visions of Doom 
+
+The sphinx creates a floating, spectral vision of futures too horrible to describe in a 10-foot cube within the layer that disappears on initiative count 20 on the next turn. 
+
+
+\columnbreak
+
+Before it disappears, it may move up to 40 feet, and each creature it passes through or enters its space must make a DC 19 Intelligence saving throw, taking 8d10 psychic damage on a failed save or half as much damage on a successful one. A creature can only take this damage once per use of the lair action.
+
+A creature that uses an action to examine the visions can discern their intangible nature by succeeding on a DC 19 Intelligence (Investigation). If a creature discerns the visions for what they are, it automatically passes any saving throw against this lair action and future uses of it.
+
+##### Tome of Power
+
+The sphinx calls forth a floating tome of dark magic that binds to a creature of its choice. The tome follows the chosen creature wherever it goes and occupies the same space as the creature. On initiative count 20 of the next turn, a creature bound to the tome may cast a spell of 5th level or lower with a casting time of one action without expending a spell slot or daily use of the spell (no action required).
+
+The tome is no longer bound to a creature if it dies, falls unconscious, or leaves the lair. If a creature within 5 feet of the tome uses its action to bind to the tome, it becomes bound to that creature. If the tome is already bound to a creature who does not wish to part with it, a contested Intelligence check is made, and the tome binds to the winner.
+
+##### Arcane Surge
+
+The sphinx calls upon magics that begin to swirl around itself out to a 10-foot radius. Each creature in the area is magically empowered until the end of its next turn. While empowered this way, the next time the creature rolls damage for a spell, it can roll an additional number of d8s equal to the lair's CR and add them to the damage roll.
+
+<img src='https://i.ibb.co/kX6fGYH/Defiler-of-Dreams-Dominaria-United-Mt-G-Art.jpg' style='position:absolute; bottom:-380px; right:-150px; width:1250px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-310px;top:-455px;height:1400px;width:1416px;transform:rotate(10deg)' />
+
+
+\pagebreakNum
+
 
 ___
 ___
-> ## Androsphinx
-> *Large monstrosity, lawful neutral*
+> ## Sphinx, Defiler of Fate
+> *Large monstrosity, chaotic evil*
 > ___
 > - **Armor Class** 17 (natural armor)
 > - **Hit Points** 199 (19d10 + 95)
@@ -1582,20 +1732,20 @@ ___
 > - **Condition Immunities** charmed, frightened
 > - **Senses** truesight 120 ft., passive Perception 20
 > - **Languages** Common, Sphinx
-> - **Challenge** 17 (18,000 XP)
+> - **Challenge** 18 (20,000 XP)
 > ___
 > ***Inscrutable.*** The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage.
 >
 > ***Magic Weapons.*** The sphinx's weapon attacks are magical.
 >
-> ***Nexus of Fate.*** When the sphinx casts a spell that forces multiple creatures to make a saving throw, it can choose two creatures that are making a saving throw against the spell. One of the chosen creatures makes the saving throw with advantage, and the other makes the saving throw with disadvantage.
+> ***Nexus of Fate.*** When the sphinx casts a spell or uses an ability that forces multiple creatures to make a saving throw, it can choose two creatures that are making a saving throw against the spell. One of the chosen creatures makes the saving throw with advantage, and the other makes the saving throw with disadvantage.
 >
 > ***Spellcasting.*** The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:<br>
 > <br>
 > Cantrips (at will): _eldritch blast, minor illusion, thaumaturgy_<br>
 > 1st level (4 slots): _command, detect evil and good, detect magic_<br>
 > 2nd level (3 slots): _blur, magic aura_<br>
-> 3rd level (3 slots): _glean magic, fire_<br>
+> 3rd level (3 slots): _glean magic, fireball_<br>
 > 4th level (3 slots): _confusion, bolt of change_<br>
 > 5th level (2 slots): _immolation, mislead_<br>
 > 6th level (1 slot): _scatter_
@@ -1619,10 +1769,215 @@ ___
 
 \pagebreakNum
 
+
+## Creatures of Decay
+These creatures have been blessed by vile demons of <br> rot and pestilence, granting them putrid abilities and an unnatural sway over the forces of life and death. They <br> may worship gods of death and decay, have been <br> infected with demonic diseases, or have dabbled in <br> twisted forms of druid craft. In battle, they prioritize <br> inflicting others with their vile abilities over their own <br> well-being, for they embrace the inevitable decay of all <br> things, including themselves.
+
+### Rot Gnoll (Gnoll)
+This gnoll has succumbed to rotting demonic influences <br> that have left it putrid and filled with vile gases waiting to burst free. Rot gnolls fly into battle with the same berserk zeal as the rest of their kind, but when they die, their <br> stinking bloated bodies burst in a putrid explosion that <br> leaves behind a choking miasma. 
+
+
+___
+> ## Rot Gnoll
+> *Medium humanoid (gnoll), chaotic evil*
+> ___
+> - **Armor Class** 15 (hide armor, shield)
+> - **Hit Points** 22 (5d8)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |14 (+2)|12 (+1)|11 (+0)|6 (-2)|10 (+0)|7 (-2)|
+> ___
+> - **Senses** darkvision 60 ft., passive Perception 10
+> - **Languages** Gnoll
+> - **Challenge** 1 (200 XP)
+> ___
+> ***Rampage.*** When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
+>
+> ***Bloating Corruption.*** When the gnoll dies, it releases a cloud of toxic gas in a 10-foot radius around it that lasts for a minute. The area is treated as though it is under the effects of the *stinking cloud* spell.
+> ### Actions
+> ***Bite.*** _Melee Weapon Attack:_ +4 to hit, reach 5 ft., one creature. _Hit:_ 4 (1d4 + 2) piercing damage.
+>
+> ***Spear.*** _Melee or Ranged Weapon Attack:_ +4 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.
+>
+> ***Longbow.*** _Ranged Weapon Attack:_ +3 to hit, range 150/600 ft., one target. _Hit:_ 5 (1d8 + 1) piercing damage.
+
+\columnbreak
+
+<img src='https://i.ibb.co/MczjqWV/Targ-Nar-Demon-Fang-Gnoll-Adventures-in-the-Forgotten-Realms-Mt-G-Art.jpg' style='position:absolute; top:-0px; right:-550px; width:1270px; transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:60px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+\pagebreakNum
+
+### Pestilent Green Hag (Green Hag)
+This hag has devoted herself to the cause of a demonic patron of decay, pledging to spread pestilent beauty across the land. Hags already see loveliness in what most would consider foul and ugly, so dabbling in demonic forces of decay serves as a natural complement to their twisted interests. 
+
+Pestilent green hags are also more likely than most to form covens with other like-minded hags, as their demonic corruption fosters a perverse sense of fellowship. These covens work together to brew up the foulest plagues possible to spread to nearby settlements, an act they refer to as “charity work.” Over time, even their innate fear of death fades as they devote themselves wholly to the cause of “beautifying” the world with every disease imaginable, no matter the cost.
+
+
+### The Hag’s Lair
+This rotting lair is often home to a coven of pestilent hags who work to brew their latest batch of diseases to share with the world. Visitors are gleefully offered an early sampling of their latest “treats”.
+
+This lair has an equivalent creature CR of 3. 
+
+#### Lair Actions
+On initiative count 20 (losing initiative ties), any pestilent green hag can take one lair action to cause one of the following effects, even while incapacitated; the same effect can’t be used two rounds in a row:
+
+
+
+\columnbreak
+
+##### Rampant Rot
+
+One creature of the hag’s choice within the lair she is aware of must succeed on a DC 17 Constitution saving throw or become infected by rampant rot disease. 
+
+On initiative count 20 each turn, each infected creature takes 3d8 necrotic damage, then each infected creature along with every creature within 10 feet of an infected creature, must make a DC 17 Constitution saving throw. Non-infected creatures become infected on a failed save. Infected creatures that succeed on the save are cured of the disease and cannot be infected by it again for 1 hour.
+
+##### Rot Blessing
+
+The hag becomes covered in pestilent growths, regaining hit points and becoming rot-blessed. On initiative count 20 each turn, each rot-blessed creature regains 30 hit points, and another Creature of Decay within 10 feet of it may gain the rot blessing as well. The rot blessing ends on a creature if it takes radiant or fire damage or is targeted by an effect that cures diseases.
+
+##### Withering Disease
+
+One creature of the hag’s choice within the lair she is aware of must succeed on a DC 17 Constitution saving throw or become infected by a withering disease. 
+
+On initiative count 20 each turn, each infected creature gains one level of exhaustion, then each infected creature along with every creature within 10 feet of an infected creature, must make a DC 17 Constitution saving throw. Non-infected creatures become infected on a failed save. Infected creatures that succeed on the save are cured of the disease and cannot be infected by it again for 1 hour.
+
+<img src='https://i.ibb.co/BC6m2d3/stalker-hag.png' style='position:absolute; bottom:-170px; right:-10px; width:900px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-310px;top:-465px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
 ___
 ___
-> ## Cloud Giant
-> *Huge giant, neutral good (50%) or neutral evil (50%)*
+> ## Pestilent Green Hag
+> *Medium fey, chaotic evil*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 82 (11d8 + 33)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|12 (+1)|16 (+3)|13 (+1)|14 (+2)|14 (+2)|
+> ___
+> - **Skills** Arcana +3, Deception +4, Perception +4, Stealth +3
+> - **Senses** darkvision 60 ft., passive Perception 14
+> - **Languages** Common, Draconic, Sylvan
+> - **Challenge** 4 (1,100 XP)
+> ___
+> ***Amphibious.*** The hag can breathe air and water.
+>
+> ***Innate Spellcasting.*** The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:<br>
+> <br>
+> At will: _chill touch, dancing lights, minor illusion_
+>
+> ***Mimicry.*** The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.
+>
+> ***Hag Coven.*** When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.
+>
+> ***Shared Spellcasting (Coven Only).*** While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:<br>
+> <br>
+> 1st level (4 slots): _identify, ray of sickness_<br>
+> 2nd level (3 slots): _locate object, stream of corruption_<br>
+> 3rd level (3 slots): _puddle of ooze, stinking cloud, vampiric touch_<br>
+> 4th level (3 slots): _blight, inflict rot_<br>
+> 5th level (2 slots): _contact other plane, scrying_<br>
+> 6th level (1 slot): _eye bite_<br>
+> <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier.
+>
+> ***Hag Eye (Coven Only).*** A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over.
+>
+> ***Wax and Wane.*** When the hag rolls initiative, it rolls d6. On an odd number, she is in the Rot state, and on an even number, she is in the Abundance state.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;At the end of her turns, the hag switches to the other state.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;While in the Abundance state, the hag gains a +3 bonus to her armor class and saving throws.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;While in the Rot state, the hag gains a +3 bonus to attack rolls.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;Observers can tell what state the hag is in by looking at her. For example, the hag may appear haggard or moldy while in the Rot state and energetic and lively while in the Abundance state.
+> ### Actions
+> ***Claws.*** _Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8 + 4) slashing damage.
+>
+> ***Illusory Appearance.*** The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised.
+>
+> ***Invisible Passage.*** The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Festering Troll (Troll)
+This troll has been mutated by demonic forces of decay that have perversely granted it even greater regenerative abilities, allowing its festering wounds to scab over and renew themselves at an unnatural rate. The troll may have gained these abilities after being infected with fiendish diseases or have been “blessed” with them when it became a minion to some other force of decay (such as a coven of pestilent green hags). In combat, the troll fights with little to no regard for its own well-being as its putrid body shrugs off injury after injury, maintaining a constant state of simultaneous rot and renewal. 
+
+\columnbreak
+
+___
+___
+> ## Festering Troll
+> *Large giant, chaotic evil*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 84 (8d10 + 40)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|13 (+1)|20 (+5)|7 (-2)|9 (-1)|7 (-2)|
+> ___
+> - **Skills** Perception +2
+> - **Senses** darkvision 60 ft., passive Perception 12
+> - **Languages** Giant
+> - **Challenge** 7 (2,900 XP)
+> ___
+> ***Encrusted Wounds.*** When the troll drops to half its hit points or fewer, it gains a +3 bonus to its AC for the next hour.<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;Once this ability triggers, it can’t do so again until the troll finishes a short or long rest.
+>
+> ***Keen Smell.*** The troll has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Regeneration.*** The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ***Unnatural Renewal.*** If the troll takes damage that would reduce it to 0 hit points, it is reduced to 1 hit point instead regains all of it's hit points and falls prone, until the same intuitive count next turn, it is paralyzed and has vulnerability to all damage types that it does not have resistance or immune to.<Br>
+> Once this ability triggers, it can’t do so again until the creature finishes a short or long rest.
+>
+> ### Actions
+> ***Multiattack.*** The troll makes three attacks: one with its bite and two with its claws.
+>
+> ***Bite.*** _Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 7 (1d6 + 4) piercing damage.
+>
+> ***Claw.*** _Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6 + 4) slashing damage.
+
+<img src='https://i.ibb.co/mzSVhfh/5313-lotleth-troll.jpg' style='position:absolute; top:-5px; right:-0px; width:850px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:260px; right:-10px; width:1000px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:135px; right:-30px; width:1000px; transform: rotate(20deg)' />
+
+\pagebreakNum
+
+## Creatures of Excess
+These creatures have been granted unholy beauty, grace, and charisma, which allow them to toy with the hearts of others in pursuit of their hedonistic ends. They may worship gods of hedonism, have succumbed to corrupting influences that played on their pride and ego, or have consorted with demonic forces to achieve everlasting beauty, charisma, and decadent pleasure. 
+
+In battle, they see their foes as playthings and sources of amusement. The primary goal of these creatures is their own gratification, and they will fight in ways that they find most pleasing to themselves. This often involves toying with foes and using excessive cruelty in combat. Those who provide no pleasure are removed as quickly and efficiently as possible. 
+
+
+### Perverse Cloud Giant (Cloud Giant)
+This cloud giant has succumbed to its oversized ego and consorted with demonic powers to enhance its beauty and charisma. It now collects humanoids as a child collects toys, forcing them to bask in its presence as it plays with them in any way it sees fit. These captives are often kept in giant-sized doll houses and forced to carry out perverse acts for the giant’s amusement. Other times, it is the giant who puts on twisted performances, horrifying and enrapturing its captive audience. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Perverse Cloud Giant
+> *Huge giant, chaotic evil*
 > ___
 > - **Armor Class** 14 (natural armor)
 > - **Hit Points** 200 (16d12 + 96)
@@ -1636,19 +1991,22 @@ ___
 > - **Skills** Insight +7, Perception +7
 > - **Senses** passive Perception 17
 > - **Languages** Common, Giant
-> - **Challenge** 9 (5,000 XP)
+> - **Challenge** 11 (7,200 XP)
 > ___
-> ***Captivating Presence.*** Any non-demon creature that ends its turn within 30 feet of the gifted creature must succeed on a Wisdom saving throw or become obsessed with it. The creature may repeat the saving throw at the end of each of its turns, ending the effect on a success. The effect automatically ends if there are no creatures with this ability within 30 feet of the obsessed creature. Once a creature makes a successful saving throw against this effect, it is immune to the Captivating Presence of all creatures with this ability for 1 hour.
+> ***Captivating Presence.*** Any non-demon creature that ends its turn within 30 feet of the giant must succeed on a DC 17 Wisdom saving throw or become obsessed with it. The creature may repeat the saving throw at the end of each of its turns, ending the effect on a success. The effect automatically ends if there are no creatures with this ability within 30 feet of the obsessed creature. 
+> 
+> Once a creature makes a successful saving throw against this effect, it is immune to the Captivating Presence of all creatures with this ability for 1 hour.
 >
 > ***Keen Smell.*** The giant has advantage on Wisdom (Perception) checks that rely on smell.
 >
 > ***Innate Spellcasting.*** The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:<br>
 > <br>
-> At will: _detect magic, dissonant whispers, mind sliver_<br>
+> At will: _detect magic, dissonant whispers, vicious mockery_<br>
 > 3/day each: _feather fall, fly, misty step, charm monster_<br>
-> 1/day each: _control weather, control weather_
+> 1/day each: _control weather, hypnotic pattern_
 >
-> ***Intoxicating Strikes.*** Once during the creature's turn, when it hits a creature with a melee attack, it can force that creature to make an Intelligence saving throw go berserk until the start of the creature's next turn.
+> ***Intoxicating Strikes.*** Once during the creature's turn, when it hits a creature with a melee attack, it can force that creature to make a DC 17 Intelligence saving throw go berserk until the start of the creature's next turn.
+>
 > ### Actions
 > ***Multiattack.*** The giant makes two morningstar attacks.
 >
@@ -1656,13 +2014,24 @@ ___
 >
 > ***Rock.*** _Ranged Weapon Attack:_ +12 to hit, range 60/240 ft., one target. _Hit:_ 30 (4d10 + 8) bludgeoning damage.
 
+ <img src='https://i.ibb.co/9YBr0xp/cloud-giants-bargin.png' style='position:absolute; top:-25px; right:-170px; width:780px; transform:scaleX(1)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:200px; right:0px; width:1000px; transform: rotate(0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:-70px;height:1400px;width:1416px;transform:rotate(270deg)' />
 
 \pagebreakNum
 
+### Hedonistic Satyr (Satyr)
+This satyr’s wild antics have attracted the attention of a demonic lord of excess who has twisted the satyr’s passions into something far darker and more destructive. Hedonistic satyrs now turn their pursuits towards more sinister pleasures, always seeking some new depravity to top the last. Compassion and kinship have faded away, and they now only see others as a means to grant them pleasure and gratification. 
+
+
+
 ___
-___
-> ## Satyr
-> *Medium fey, chaotic neutral*
+> ## Hedonistic Satyr
+> *Medium fey, chaotic evil*
 > ___
 > - **Armor Class** 14 (leather armor)
 > - **Hit Points** 31 (7d8)
@@ -1675,17 +2044,18 @@ ___
 > - **Skills** Perception +2, Performance +6, Stealth +5
 > - **Senses** passive Perception 12
 > - **Languages** Common, Elvish, Sylvan
-> - **Challenge** 1/2 (100 XP)
+> - **Challenge** 2 (450 XP)
 > ___
-> ***Complete Abandonment.*** At the start of the creature's turn, if it has half its hit points or fewer, it goes berserk for one minute. While rampaging this way, any melee weapon attacks it makes that hit are critical hits, and all attacks that hit the creature are also critical hits.<br>
+> ***Complete Abandonment.*** At the start of the satyr's turn, if it has half its hit points or fewer, it goes berserk for one minute. While berserk this way, any melee weapon attacks it makes that hit are critical hits, and all attacks that hit the satyr are also critical hits.<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;Once this ability triggers, it can't do so again until the creature finishes a short or long rest.
 >
 > ***Magic Resistance.*** The satyr has advantage on saving throws against spells and other magical effects.
 >
-> ***Obsessive Stalker.*** At the start of the gifted creature's turn, it can choose one other creature it can see within 120 feet of it to become obsessed with. While it is obsessed, it gains 30 movement speed. The target creature provokes opportunity attacks from the gifted creature even if it takes the Disengage action before leaving its reach. If the attack hits, the creature's speed becomes 0 for the rest of the turn.<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;If the target creature tries to teleport, it also provokes an attack of opportunity from the gifted creature, which is made with advantage. If the attack hits, the gifted creature may choose to teleport along with the target creature to the nearest unoccupied space next to it where it appears.<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;The obsession lasts until the creature it is obsessed with dies or has not been seen by the gifted creature for over 1 minute.<br>
-> &nbsp;&nbsp;&nbsp;&nbsp;The gifted creature cannot use this feature if it already has an obsession with a creature.
+> ***Obsessive Stalker.*** At the start of the satyr's turn, it can choose one other creature it can see within 120 feet of it to become obsessed with. While the satyr is obsessed, its movement speed increases by 30 feet. All attacks of opportunity by the satyr against the target creature are made with advantage, and the target creature provokes opportunity attacks from the satyr even if it takes the Disengage action before leaving the satyr's reach. If the attack hits, the creature's speed becomes 0 for the rest of the turn.
+> If the target creature tries to teleport, it also provokes an attack of opportunity from the satyr. If the attack hits, the satyr may choose to teleport along with the target creature to the nearest unoccupied space next to the creature where it appears. <br>
+> The obsession lasts until the creature the satyr is obsessed with dies or has not been seen by the satyr for over 1 minute.<Br>
+> The satyr cannot use this feature if it is already obsessed with a creature.
+>
 > ### Actions
 > ***Ram.*** _Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 6 (2d4 + 1) bludgeoning damage.
 >
@@ -1693,14 +2063,55 @@ ___
 >
 > ***Shortbow.*** _Ranged Weapon Attack:_ +5 to hit, range 80/320 ft., one target. _Hit:_ 6 (1d6 + 3) piercing damage.
 >
-> ***Variant: Panpipes.*** Gentle Lullaby. The creature falls asleep and is unconscious for 1 minute. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake.
+
+ <img src='https://i.ibb.co/p0rZJGB/xenegos-the-reveler.png' style='position:absolute; bottom:-240px; left:-170px; width:710px; transform:scaleX(1)' />
+ 
+  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-310px;top:-820px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-690px;top:-70px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+\pagebreakNum
+
+### Fallen Unicorn (Unicorn)
+This unicorn has fallen from grace and succumbed to pride and narcissism. It has become enamored with its own beauty and wishes to see that same obsessive admiration reflected in others. To achieve this, the fallen unicorn gathers a sycophantic cult of admirers who tend to its every desire. The admirers are made up of the fairest and most graceful individuals the unicorn can find, who it then brainwashes and incorporates into its cult of personality. Those who lose their luster over the years are brutally disposed of, ensuring that the unicorn’s “stable” of humanoids is made up of only the finest specimens.
+
+### The Unicorn’s Lair
+
+The unicorn’s lair is a grove of unearthly and beguiling beauty. The unicorn keeps it stocked with exquisite plants, animals, objects, and individuals who catch its fancy. Individuals who stumble upon the lair are rarely allowed to leave without first being broken into the unicorn’s service if it finds them attractive. Individuals it deems unattractive are ruthlessly disposed of for daring to defile the unicorn’s exquisite home with their presence.
+
+
+This lair has an equivalent creature CR of 2. 
+
+#### Lair Actions
+On initiative count 20 (losing initiative ties), the unicorn can take one lair action to cause one of the following effects, even while incapacitated; the same effect can’t be used two rounds in a row:
+
+
+
+##### Mesmerizing Mirror
+
+The unicorn creates a cursed mirror in an unoccupied 5-foot cube within the lair that lasts until initiative count 20 on the next turn. When a non-Creature of Excess creature first has line of sight of the mirror on its turn, it must make a DC 15 Wisdom saving throw. On a failed save, it becomes mesmerized by the mirror, and all attacks have advantage against the creature while it has line of sight of the mirror, and it can't willingly move away from the mirror. Any creature that can't be charmed automatically succeeds on this saving throw.
+
+##### Overwhelming Narcissism
+
+The unicorn chooses a creature within the lair that it is aware of. The chosen creature must make a DC 15 Wisdom saving throw or become obsessed with itself. While obsessed this way, the creature's speed becomes 0. It or another creature within reach of it uses an action to shake the creature out of obsession, allowing the target to make another Wisdom saving throw. On a success, the effect ends.
+
+##### Dreadful Nightmare
+
+The unicorn summons the image of a nightmarish version of itself in an unoccupied 5-foot cube within the lair that lasts until initiative count 20 next turn. When a non-Creature of Excess creature first has line of sight of the image on its turn, it must succeed on a Wisdom saving throw or become frightened of it.
+
+<img src='https://i.ibb.co/LgcLV8Y/Daybreak-Charger-Core-Set-2021-Mt-G-Art.jpg' style='position:absolute; top:-0px; right:-750px; width:1440px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:30px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
 
 \pagebreakNum
 
 ___
 ___
-> ## Unicorn
-> *Large celestial, lawful good*
+> ## Fallen Unicorn
+> *Large celestial, chaotic evil*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 67 (9d10 + 18)
@@ -1714,20 +2125,20 @@ ___
 > - **Condition Immunities** charmed, paralyzed, poisoned
 > - **Senses** darkvision 60 ft., passive Perception 13
 > - **Languages** Celestial, Elvish, Sylvan, telepathy 60 ft.
-> - **Challenge** 5 (1,800 XP)
+> - **Challenge** 6 (2,300 XP)
 > ___
 > ***Charge.*** If the unicorn moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
 >
 > ***Innate Spellcasting.*** The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components:<br>
 > <br>
-> At will: _detect evil and good, druidcraft, pass without trace_<br>
-> 1/day each: _calm emotions, dispel evil and good, entangle_
+> At will: _command, detect evil and good, vicious mockery_<br>
+> 1/day each: _hold person, dispel evil and good, suggestion_
 >
 > ***Magic Resistance.*** The unicorn has advantage on saving throws against spells and other magical effects.
 >
 > ***Magic Weapons.*** The unicorn's weapon attacks are magical.
 >
-> ***Unnatural Grace.*** When the creature takes the Dash or Dodge action, it does not provoke opportunity attacks and can move through another creature's space as long as that creature is not immune to being charmed. If the creature ends its turn in another creature's space, it is pushed to the nearest unoccupied space.
+> ***Unnatural Grace.*** When the unicorn takes the Dash or Dodge action, it does not provoke opportunity attacks and can move through another creature's space as long as that creature is not immune to being charmed. If the unicorn ends its turn in another creature's space, the unicorn is pushed to the nearest unoccupied space.
 > ### Actions
 > ***Multiattack.*** The unicorn makes two attacks: one with its hooves and one with its horn.
 >
@@ -1746,6 +2157,11 @@ ___
 > **Shimmering Shield (Costs 2 Actions).** The unicorn creates a shimmering, magical field around itself or another creature it can see within 60 ft. of it. The target gains a +2 bonus to AC until the end of the unicorn's next turn.
 >
 > **Heal Self (Costs 3 Actions).** The unicorn magically regains 11 (2d8 + 2) hit points.
+
+<img src='https://64.media.tumblr.com/12c19a157823f868b5e0e656be20b671/tumblr_nqkeplO6CS1u9beo8o1_640.jpg' style='position:absolute; bottom:-140px; right:-10px; width:880px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-310px;top:-460px;height:1400px;width:1416px;transform:rotate(0deg)' />
 
 \pagebreakNum
 
