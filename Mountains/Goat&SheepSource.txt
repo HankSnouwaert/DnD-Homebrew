@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after  {
+    .phb#p1:after, .phb#p4:after  {
         display          : none;
     }
     /* End Footers */
@@ -64,13 +64,13 @@ ___
 > - **Senses** passive Perception 14
 > - **Challenge** 1/2 (100 XP)   &emsp;&emsp;  **Proficiency Bonus** +2   
 > ___
-> ***Skull Bash.*** Before the bighorn sheep makes a Ram attack, it can choose to take a -2 penalty to the attack roll. If the attack hits, it adds 4 to the attack’s damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+> ***Skull Bash.*** Before the bighorn sheep makes a Ram attack, it can choose to take a -2 penalty to the attack roll. If the attack hits, it adds 4 to the attack’s damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 >
 > ***Sure-Footed.*** The bighorn sheep has advantage on Strength and Dexterity saving throws and checks made against effects that would knock it prone or move it against its will.
 >
 > ### Actions
 >
-> ***Ram.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) bludgeoning damage.
+> ***Ram.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d6 + 3) bludgeoning damage.
 >
 > ### Reactions
 >
@@ -126,7 +126,7 @@ ___
 >
 > ### Actions
 >
-> ***Ram.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) bludgeoning damage.
+> ***Ram.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) bludgeoning damage.
 >
 > ### Reactions
 >
@@ -145,48 +145,128 @@ style='position:absolute;top:160px;left:-100px;width:916px;transform: rotate(-30
 
 \pagebreakNum
 
-### Mountain Goats
-Mountain goats are nimble creatures that dwell in high alpine regions. Their striking white coats contrast against the rocky terrain they are often found in, with males or 'billies' reaching weights of up to 300 pounds, and females or 'nannies' being somewhat smaller. Both sport black, dagger-like horns, which can reach up to 10 inches long and provide them with formidable natural weapons. 
+### Domestic Goats
 
-Mountain goats have specialized hooves built for navigating precarious cliffs and rocky slopes. They are able to run up and down sheer cliffs with ease, traversing areas impassable to other creatures. This adaptation gives them a significant advantage in rough terrain, making them difficult creatures to chase or escape from.
+The domestic goat, one of the oldest tamed livestock species, is a ubiquitous symbol of rural life across the world. A typical domestic goat stands around two feet tall at the shoulder, though larger breeds can reach three feet or more. Their bodies are covered in a variety of coats, ranging from smooth hair to luxuriant cashmere wool. 
 
-Though mountain goats are peaceful by nature, they can be formidable when threatened. During the mating season, males can become particularly aggressive, using their horns to compete with rivals and anyone else who draws near. While not typically hostile, their superior climbing abilities, powerful leaps, and impressive horn attacks make them challenging adversaries in their natural environment.
+Domestic goats are hardy, adaptable creatures, capable of surviving in a wide range of environments. This adaptability, coupled with their usefulness, has led to their spread around the world. They provide milk, meat, and wool, and in many cultures, they hold significant symbolic or religious importance.
+
+In folklore and myth, goats often play interesting roles. They are sometimes seen as symbols of stubbornness, independence, and fertility. In many cultures, they are linked with pastoral deities or earthy, rustic magic. 
+
+Despite their independent nature, goats are generally sociable creatures, forming close bonds with their keepers and other livestock. They are known for their curiosity and intelligence, and anyone who has spent time around goats can attest to their playful and mischievous behavior.
 
 
 ___
-> ## Mountain Goat
+> ## Domestic Goat, Small
+> *Small beast, unaligned*
+> ___
+> - **Armor Class** 12
+> - **Hit Points** 3 (1d6)
+> - **Speed** 40 ft., climb 30 ft.
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|14 (+2)|10 (+0)|4 (-3)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Perception +4
+> - **Senses** passive Perception 14
+> - **Challenge** 0 (10 XP) &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+> ***Skull Bash.*** Before the goat makes a Ram attack, it can choose to take a -1 penalty to the attack roll. If the attack hits, it adds 2 to the attack’s damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.
+>
+> ***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone or move it against its will.
+>
+> ### Actions
+>
+> ***Ram.*** Melee Weapon Attack: +2 to hit, reach 5 ft., one target. *Hit:* 1 bludgeoning damage.
+>
+> ### Reactions
+> ***Cranial Plating.*** When an attack without advantage that the goat can see hits it, it can use its reaction to absorb the damage through its skull, halving any bludgeoning or slashing damage the attack deals.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Domestic Goat, Medium
 > *Medium beast, unaligned*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 4 (1d8)
 > - **Speed** 40 ft., climb 30 ft.
 > ___
-> |STR|DEX|CON|INT|WIS|CHA|
-> |:---:|:---:|:---:|:---:|:---:|:---:|
-> |12 (+1)|14 (+2)|10 (+0)|4 (-3)|14 (+2)|5 (-3)|
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|14 (+2)|10 (+0)|4 (-3)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Perception +4
+> - **Senses** passive Perception 14
+> - **Challenge** 1/8 (25 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +2    
+> ___
+> ***Skull Bash.*** Before the goat makes a Ram attack, it can choose to take a -1 penalty to the attack roll. If the attack hits, it adds 2 to the attack’s damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
+>
+> ***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone or move it against its will.
+>
+> ### Actions
+>
+> ***Ram.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) bludgeoning damage.
+>
+> ### Reactions
+> ***Cranial Plating.*** When an attack without advantage that the goat can see hits it, it can use its reaction to absorb the damage through its skull, halving any bludgeoning or slashing damage the attack deals.
+
+<img src='https://www.mtgnexus.com/img/gallery/1591580131/1594-goat-token.jpg' style='position:absolute;top:-20px;right:0px;width:430px' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:-110px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-400px;top:170px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Mountain Goats
+Mountain goats are nimble creatures that dwell in high alpine regions. Their striking white coats contrast against the rocky terrain they are often found in. Both males and females sport black, dagger-like horns, which can reach up to 10 inches long and provide them with formidable natural weapons. 
+
+Despite their name and appearance, mountain goats are not true goats but are more closely related to cattle, gazelles, and antelopes. They don’t possess the same reinforced skulls of goats and, as such, don’t use ramming attacks. Instead, they utilize deadly piercing attacks from their horns, which can be deadly to creatures as large as bears. 
+
+Mountain goats have specialized hooves built for navigating precarious cliffs and rocky slopes. They are able to run up and down sheer cliffs with ease, traversing areas impassable to other creatures. This adaptation, combined with incredible jumping capabilities, gives them a significant advantage in rough terrain, making them difficult creatures to chase or escape from.
+
+Mountain goats can be quite aggressive and formidable adversaries. Males in mating season are prone to being belligerent, but even female mountain goats can be so hostile that males will avoid them when not looking to mate. This, combined with superior climbing abilities, powerful leaps, and impressive horn attacks, make them deadly adversaries in their natural environment.
+
+
+
+___
+> ## Mountain Goat
+> *Medium beast, unaligned*
+> ___
+> - **Armor Class** 13
+> - **Hit Points** 13 (2d8 + 4)
+> - **Speed** 40 ft., climb 40 ft.
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|16 (+3)|14 (+2)|4 (-3)|14 (+2)|5 (-3)|
 > ___
 > - **Skills** Perception +4
 > - **Senses** passive Perception 14
-> - **Challenge** 1/8 (25 XP)   &emsp;&emsp;  **Proficiency Bonus** +2   
+> - **Challenge** 1/4 (50 XP)   &emsp;&emsp;  **Proficiency Bonus** +2
 > ___
-> ***Skull Bash.*** Before the goat makes a Ram attack, it can choose to take a -1 penalty to the attack roll. If the attack hits, it adds 2 to the attack’s damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
-> 
-> ***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws and checks made against effects that would knock it prone or move it against its will.
-> 
+> ***Skewer.*** If the goat moves at least 10 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage.
+>
+> ***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone or move it against its will.
+>
+> ***Standing Leap.*** The goat's long jump is up to 15 feet and its high jump is up to 6 feet, with or without a running start.
+>
 > ### Actions
-> 
-> ***Ram.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) bludgeoning damage.
-> 
-> ### Reactions
-> 
-> ***Cranial Plating.*** When an attack that the goat can see hits it without advantage, it can use its reaction to absorb the damage through its skull, halving any bludgeoning or slashing damage the attack deals.
+>
+> ***Gore.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 
 \columnbreak
 
 <br>
 
 > ##### Other Mountain Species
-> The mountain goat and bighorn sheep stat blocks can be used to represent other related species. For example, the mountain goat stats could be used for a INSERT SPECIES, and bighorn sheep stats could be used for INSERT SPECIES.
+> The goat and bighorn sheep stat blocks can be used to represent other species of sheep and goats. For example, bighorn sheep stats could be used for an ibex.
 
 
 <img
@@ -241,7 +321,7 @@ ___
 >
 > ### Actions
 >
-> ***Ram.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 19 (3d12 + 6) bludgeoning damage.
+> ***Ram.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 25 (3d12 + 6) bludgeoning damage.
 >
 > ### Reactions
 >
@@ -264,36 +344,38 @@ ___
 |:---:|:-----------:|
 |  1  | **The Raging Ram:** A particularly aggressive bighorn ram has been causing chaos, attacking travelers, and disrupting trade routes. The adventurers are tasked with calming or relocating the animal without causing it harm, requiring a combination of combat prowess, nature skills, and animal handling.|
 |  2  |**The Beast in Sheep's Clothing:** Strange tales emerge from a mountain village about a monstrous creature disguising itself as a bighorn sheep, only to reveal its terrifying form under the full moon's light. The adventurers are hired to uncover the truth behind these stories and neutralize the threat if necessary.  |
-|  3  | **Flock under Siege:** A herd of mountain goats, considered the protectors of a certain mountain pass, have started behaving aggressively and attacking travellers. They seem to be under some sort of malevolent influence. Local guides and rangers need help investigating and resolving the issue.  |
-|  4  |**The Eldritch Goat:** A scholar has been having vivid dreams about a white mountain goat with glowing eyes standing at the peak of the local mountain range. This goat speaks to him in his dreams and warns him of a coming catastrophe that only it can avert. He seeks the help of adventurers to escort him to the peak and find this prophetic goat.  |
-|  5  |**The Horn of Plenty:** A legendary bighorn ram, known for its extraordinarily large and twisted horns, is said to be the guardian of a verdant valley hidden in the mountains. Local lore suggests that a magical artifact known as the Horn of Plenty, capable of ensuring bountiful harvests, is actually one of the horns of this mystical ram. The adventurers are hired to retrieve this artifact to help a famine-struck kingdom. |
-|  6  |  **The Mountain's Challenge:** An ancient tradition involves a contest to prove one's bravery by engaging in a friendly test of strength against the powerful dire bighorn sheep. However, this year, the chosen sheep, an unusually large and fierce ram, has gone missing. The adventurers are asked to find the ram and safely bring it back before the upcoming festival.  |
-|  7  |**Festival of Fear:** A rural mountain town holds a unique festival every year where they believe a display of courage can appease the Terror Goat, preventing its rampage for another year. This year, the goat has arrived earlier than expected, and the adventurers must find a way to quell its wrath and save the town.  |
-|  8  |  **The Shattered Pass:** A crucial mountain pass, the only safe route connecting two important regions, has been destroyed overnight. The local villagers blame the Terror Goat, a creature of local legend that they believe has returned. They seek help to stop this beast before it wreaks further havoc. 
+|  3 |  **The Mountain's Challenge:** An ancient tradition involves a contest to prove one's bravery by engaging in a friendly test of strength against the powerful dire bighorn sheep. However, this year, the chosen sheep, an unusually large and fierce ram, has gone missing. The adventurers are asked to find the ram and safely bring it back before the upcoming festival.  |
+|  4  |**Stolen Flock:** A local shepherd who keeps a herd of special goats, known for their unusually soft and warm wool, reports that his flock has been mysteriously disappearing. The shepherd suspects foul play. The adventurers are hired to investigate and return the stolen goats. |
+|  5  |**The Eldritch Goat:** A scholar has been having vivid dreams about a white mountain goat with glowing eyes standing at the peak of the local mountain range. This goat speaks to him in his dreams and warns him of a coming catastrophe that only it can avert. He seeks the help of adventurers to escort him to the peak and find this prophetic goat.  |
+|  6  | **Flock under Siege:** A herd of mountain goats, considered the protectors of a certain mountain pass, have started behaving aggressively and attacking travellers. They seem to be under some sort of malevolent influence. Local guides and rangers need help investigating and resolving the issue.  |
+|  7  |**Festival of Fear:** A rural mountain town holds a unique festival every year where they believe a display of courage can appease the terror goat, preventing its rampage for another year. This year, the goat has arrived earlier than expected, and the adventurers must find a way to quell its wrath and save the town.  |
+|  8  |  **The Shattered Pass:** A crucial mountain pass, the only safe route connecting two important regions, has been destroyed overnight. The local villagers blame the terror goat, a creature of local legend that they believe has returned. They seek help to stop this beast before it wreaks further havoc. 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### Goats & Sheep Tactics
 Goats and sheep are generally stubborn creatures and excel in one-on-one combat due to their Cranial Plating feature. If one becomes outnumbered or its opponent gains the advantage over it, it may attempt to flee to find its herd and gain safety in numbers. Goats and sheep with a climb speed will prefer to fight and flee in rocky terrain where they have the advantage and can flee more easily if need be.
 
 Unless directed by a more intelligent creature, goats and sheep will use their Head Bash ability every turn until they miss, after which they will revert to regular attacks. A more intelligent creature may direct them to target enemies with lower AC, increasing the likelihood of a successful hit.
 
+#### Mountain Goats
+Mountain goats don’t have the Skull Bash or Cranial Plating abilities and instead rely on charging attacks with their horns. They will use their climbing and jumping abilities to outmaneuver foes in rocky terrain and get a running start to make skewering attacks whenever possible.
+
+
 #### Terror Goats
 Terror goats are even more belligerent, stubborn, and less intelligent than regular goats. They exhibit no fear, even when losing battles. Their malevolent nature means they will relentlessly pursue foes to the death, smashing through anything that gets in their way.
 
 <img
 src='https://64.media.tumblr.com/fd34002bc544e2cb20e1fb33f807dd2e/tumblr_o41h50sKLK1vn68joo1_1280.jpg'
-style='position:absolute;top:0px;left:330px;width:500px;transform: scaleX(1)' />
+style='position:absolute;top:-40px;left:330px;width:500px;transform: scaleX(1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:40px;top:-110px;height:1400px;width:1416px;transform:rotate(270deg)' />
   
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-400px;top:280px;height:1400px;width:1416px;transform:rotate(180deg)' />
+  style='position:absolute;right:-400px;top:180px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
 \pagebreakNum
 
@@ -306,7 +388,7 @@ Alternatively, you can roll for the loot randomly using a flat modifier.
 The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
 
 
-##### Mountain Goat Loot Table
+##### Domestic Goat Loot Table
 
 
 | Looting Check Result or 1d20 + 3 |  Loot  |
@@ -315,8 +397,18 @@ The following tables describe the number of items and value of those items the p
 |  6-11 | 1 5sp Item | 
 |  12-16 | 1d4(2) 5sp Items  |  
 |  17-20 | 1d6(3) 5sp Items |  
-|  21+ |  2d4(5) 5gp Items |  
+|  21+ |  2d4(5) 5sp Items |  
 
+
+##### Mountain Goat Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5sp Item |
+|  6-10 | 1d4(2) 5sp Items  | 
+|  11-16 | 1d6(3) 5sp Items  |  
+|  17-21 | 2d4(5) 5sp Items |  
+|  22+ |  3d6(7) 5sp Items |  
 
 ##### Bighorn Sheep Loot Table
 
@@ -327,7 +419,17 @@ The following tables describe the number of items and value of those items the p
 |  15-20 | 1d6(3) 1gp Items  |  
 |  21+ |  2d4(5) 1gp Items |  
 
-##### Dire Bighorn Loot Table
+### Art Credit
+* Big Horn Sheep on Wilcox Pass - Carl Rungius
+* Wild Colos - Marc Fishman, Wizards of the Coast
+* Goat Token Forrest Imel, Wizards of the Coast
+* Rocky Mountain Goats - Albert Bierstadt
+* Goat Token - Adam Paquette, Wizards of the Coast
+
+
+\columnbreak
+
+##### Dire Bighorn Loot Table 
 
 | Looting Check Result or 1d20 + 3 |  Loot  |
 |:---:|:-----------:|
@@ -337,9 +439,6 @@ The following tables describe the number of items and value of those items the p
 |  16-20 |2d6(7) 1gp Items <br>& 1 2gp Item |  
 |  21+ |  2d6(7) 1gp Items <br>& 2d4(2) 2gp Items |  
 
-
-
-\columnbreak
 
 ##### Terror Goat Loot Table
 
@@ -357,7 +456,7 @@ The following tables describe the number of items and value of those items the p
 You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
 
 ##### Example Goat & Sheep Item Names
-|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|1d4 | 5gp Item | 1gp Item | 2gp Item | 
 |:--:|:---:|:-----------:|:-----------:|
 | 1 <br> (Bone)  |   Goat Bone |  Bighorn Bone |  Dire Ram's Horn  | 
 | 2 (Flesh)  | Goat Meat| Bighorn Meat|  Dire Ram's Heart  | 
@@ -375,18 +474,11 @@ You can give the different types of items unique names based on their material a
 
 <br>
 
-### Art Credit
-* Big Horn Sheep on Wilcox Pass - Carl Rungius
-* Wild Colos - Marc Fishman, Wizards of the Coast
-* Rocky Mountain Goats - Albert Bierstadt
-* Goat Token - Adam Paquette, Wizards of the Coast
-
-
 
 \pagebreakNum
 
 
 ### Change Log
-#### 0.0.0 
-* Document creation
+#### 1.0.0 
+* Document release
   
