@@ -1,0 +1,841 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after, .phb#p5:after, .phb#p6:after, .phb#p7:after, .phb#p8:after, .phb#p9:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+</style>
+
+<br> <br>
+
+# Mountain Navigation
+When traveling over great distances, rivers can be a boon for adventurers.  They provide a consistent land feature that prevents travelers from becoming lost, are usually a source of plentiful food and drinkable water,  and can be traveled by boat to reach distant locations quickly.  However, they also present natural hazards and often attract dangerous predators.
+
+## Travel Activities
+When the players travel long distances overland, mountains can be a significant challenge in their journey.  You may choose to modify the overland travel activities detailed in the *Player's Handbook* in the following ways when the players travel through mountains
+
+### Travel Pace
+If the players are traveling through mountains without the aid of a relatively smooth trail, it is considered rough terrain unless they have a climb speed. This is the case even if the players are traveling down the mountain slope. If the players are having to scale difficult cliff faces, you may even treat the travel as though they are climbing through difficult terrain, which would reduce their travel speed to ¼ the usual pace.
+
+### Navigation
+Mountains can be difficult to navigate, and the DMG suggests a navigation DC of around 15 for most mountain ranges. If the players are able to climb a peak with an advantageous view of the landscape, you can give them advantage on their check. Players is low valleys or ravines will likely have disadvantage on navigation attempts if they have no landmarks to gauge their progress against.
+
+### Foraging
+Mountains tend to have little to no natural resources at higher altitudes. In the alpine zone, the foraging DC should be 20 or higher. At lower altitudes with vegetation, it usually easier to find food and water.
+
+### Belaying
+There may situations where the players are scaling a cliff together using ropes and climbing equipment. They may opt to use the practice of belaying up the cliff as a safety precaution. This involves one player climbing up a short distance and securing a rope into the cliff face with a piton. 
+
+If a player who is belaying falls while climbing, the rope their partner are attached can catch their fall. If you wish to introduce the possibility of a belay not being secured properly and thus being yanked out by the force of the fall, you can have the player who secured the belay make a Dexterity (Survival) check to see how well the rope was secured. Set the DC to be 5 less than the DC required to climb the cliff. On a success, the rope holds and the falling player is saved. On a failure the rope wasn’t secured properly and the player continues to plummet. 
+
+
+
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:10px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreak
+
+## Mountain Hazards
+Mountains are among the most hazardous natural environments. Extreme cold, strong wind, heavy precipitation, high altitude, and slippery ice are all common mountain hazards and described in the DMG (pg. 110). Other hazards include falling debris, unpredictable weather, and ledges or ravines hidden by snow. 
+
+### Avalanches & Rockslides
+When one of these events occurs, all creatures near its path must roll intiative. The debris travels its move speed twice each round, on intiative counts 10 and 0, and continues moving this way for as long as it’s able. When the debris moves, any creature in its space moves along with it and falls prone before making a Strength saving throw. On a failed save, the creature takes an amount of bludgeoning damage determined by the severity of the faling debris, and on a successful save, it takes half as much damage.
+
+When the debris stops, it settles and buries any creatures in its space. A creature buried this way is blinded restrained and has total cover. The creature gains 1 level of exhaustion for every 5 minutes it spends buried. It can try to dig itself free as an action my making a Strength check against the DC of the event. It has advantage on this check if it has a burrow speed. On a success, the creature breaks up through the surface, ending the blinded an restrained condition on itself. A creature that fails this check three times can’t attempt to dig itself out again. 
+
+A creature that is not buried in the debris can spend 1 minute freeing a buried creature if it know approximately where it is in the debris.
+
+#### Avalanches
+Speed equals a number of d4s equal to the size catagory times 100ft. Damage is always 1d10 bludgeoning damage.
+
+#### Rock Slides
+Damage is equal to a number of d10s equal to the size catagory. Speed is always 3d4 times 50ft.
+
+##### Avlanche & Rock Slide Sizes and DC
+|      Size Catagory       | Hazard DC |  Size: <br> Length |  Size: <br> Width | Size: Depth | 
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:| 
+|           1         |         10      |         1d12x10ft.          |         1d4x10ft.          | Small
+|           2         |         15         |          (1d6+4)x30ft.          |         2d6x10ft.          | Medium
+|           3         |         20         |           (1d8+2)x300ft.    |        1d10x100ft.          | Large
+|           4         |         25          |        1d4/2 Miles          |         1d4x1,000ft.          | Huge
+|           5         |         30         |        1d4x2 Miles         |         1d4/2 Miles          | Gargantuan
+
+
+\columnbreak
+
+##### Isolated Debris
+
+In the event there there is a few rocks or boulders falling rather than an entire rock slide, have characters in its path make a Dexterity save against the Hazard DC. On a failed save, they take 2d10 bludgeoning damage per Size Category, are pushed 5 feet per Size Category, and are knocked prone. On a successful save, the dodge the rocks, take no damage, and are not pushed or knocked prone. Pass or fail, the rocks pass by or shatter and the creatures are not moved any further.
+
+### Falls
+Mountains are filled with cliffs and suddan drops. Most will be easily visable to players and won’t need to be mentioned as they travel. However, if the players are unable to see falls for any reason, or there is combat or some other dangerous event that risks pushing players off a drop, it may become nessesary to determine the height of these falls. 
+It may be convenient to brake these falls up into general sizes.
+
+**Small Falls:** These are the most numerous drops, ranging in the 10s of feet, and many mountain encounters will feature at least one or two of these drops. You can make their height 1d10x10ft.
+
+**Medium Falls:** These much more severe drops, reaching hundreds of feet. They will be more notable hazards during the players’ journey. You can make their height 1d4x100ft.
+
+**Large Falls:** These the larges of drops, reaching thousands of feet. Many mountains won’t have any drops this extreme, and they make for dramatic highlights in the environment. You can make their height 1d8x500ft.
+
+You can add falls throughout the players mountain journey when you feel it’s appropriate and use the sizes that best fit the type of mountain environment they’re traveling through. 
+
+#### Hidden Falls
+Snow an ice can conceal suddan drops in a similar way to pit traps. Cornices are structures made of snow that hang over cliff edges, hiding where solid lands ends. Creatures that step of them risk falling through and over the cliff edge. Other times, snow and thin ice will cover deep crevasses, hiding them from view until a creature falls through.
+##### Spotting Falls
+Rather than using passive Perception to spot hidden falls, you may opt to use the passive Survival of any characters keeping a look out. The DC to spot the fall can be anywhere from 10 (barely hidden falls) to 30 (supernaturally hidden falls). You can pick what’s appropriate for you environment or roll to determine one randomly.
+##### Falling Through
+If a creature doesn’t spot the fall, and falls through, it can make a Dexterity save to try to catch a ledge and prevent the fall. The DC of this save depends on the nature of the fall. A relatively narrow crag may only have a DC 10. A large cornice stretching out from a ledge covered in cursed ice may have a DC 30. This save DC can be independent from the DC to spot the fall, and you can pick one you feel is appropriate to the situation or roll to determine it randomly.
+
+If a creature fails to grab a ledge, it falls the full length of the cliff or crevase. 
+
+\pagebreakNum
+
+
+
+
+### Weather
+Moutain weather is more unpredictable, changeable, and extreme than in the lowlands. This is particularly true in the higher alpine zones. 
+
+
+
+##### Weather
+|      d20             |     Wind (Morning, Evening, Night)     |
+|:--------------------:|:--------------------:|
+|           12         |         Light          |
+|           13-17      |         Strong          | 
+|           18-20      |         Violent          |
+
+|      d20             |     Wind (Afternoon)     |
+|:--------------------:|:--------------------:|
+|           7         |         Light          |
+|           8-14      |         Strong          | 
+|           15-20     |         Violent          |
+
+|      d20             |     Precipitation (Morning, Evening, Night)     |
+|:--------------------:|:--------------------:|
+|           7         |         None          |
+|           8-14      |         Fog          | 
+|           8-14      |         Lightning           | 
+|           8-14      |        Heavy Rain/Snow          | 
+|           15-20     |         Heavy Rain/Snow With Lightning          |
+
+|      d20             |     Precipitation (Afternoon)     |
+|:--------------------:|:--------------------:|
+|           7         |         None          |
+|           8-14      |         Moderate          | 
+|           15-20     |         Heavy          |
+
+
+#### Fog
+#### Lightning
+#### Rain/Snow
+##### Chance of Hail
+#### Winds
+
+
+\pagebreak
+
+
+
+## Example Random Encounter Tables
+The following are different river environments across varying levels of gameplay, complete with random encounter tables you can use when the players are traversing them.  You can plug these right into your games, modify them to better suit your campaign, or simply use them as inspiration for creating and running your own river encounters.
+
+Each river has a DC determining its foraging difficulty and an activity level suggesting how often to roll for a random encounter.  Creature names with asterisks have new stat blocks listed at the end of the document.
+
+### Loblolly River (Level 1-4)
+**Activity Level:** 1 Encounter per 4 Hrs. of Travel <br>
+**Foraging DC:** 10 <br>
+This river meanders through the wooded hills of a small kingdom, lazily passing villages as it goes.  Though it is often used as a means of transport between towns, travelers must be wary of the dangers the unassuming river poses.  Bandits will set traps for merchant boats, and aggressive river animals will spontaneously attack travelers.  Though bandits and dangerous wildlife pose the most direct threat, the locals are most suspicious of the river fairies known for playing pranks on any who cross their path. 
+
+
+
+##### Loblolly River Encounters
+| d100  | Encounter     | 
+|:---:|:-------------:|
+| 1-4  | River rapids with DC 10       |
+| 5-6  | River rapids with a DC 15| 
+| 7-8  | A beaver dam blocking the river    | 
+| 9-10  | Fallen trees blocking the river and being used to setup an ambush by 3d6 **bandits**   |
+
+
+
+\columnbreak
+
+| &emsp;&emsp;&emsp;d100 | Encounter     | 
+|:---:|:-------------:|
+| 11-15  | A waterfall 1d4 x 10 feet tall      |
+| 16-17 | 1d4 + 4 **giant otters***   |
+| 18-19| 1d8 + 1 **giant frogs**   |
+| 20-21| A **giant toad**   |
+| 22-23| 1d4 + 2 **wolves**   |
+| 24-25| 1d3 **black bears**   |
+| 26-27| 1 **badger** or 1d4 **poisonous snakes**   |
+| 29-30| 1d4 + 4 **giant badgers**   |
+| 31-32| 1 **swarm of insects**  |
+| 33-34| 1 **awakened tree**  |
+| 35-36| 1d6 + 2 **pixies**  |
+| 37-38| 1d8 + 1 **sprites**  |
+| 39-45| A traveling merchant boat  |
+| 46-53| A fisherman (**commoner**)  |
+| 54-58| A drowning villager (**commoner**)        |
+| 59-67| A roaming hunter (**spy**)  | 
+| 68-73| Floating debris from a smashed boat   |
+| 74-79 | A riverside fort, either built by children or fairies   |
+| 80-86 | A traveling salesman (**commoner**) willing to pay the party to escort him to a nearby village they are all traveling to    |
+| 87-92 | 2d6 **bandits** willing to work with the party to recover a loot stash that was pilfered by **pixies**      |
+| 94-97 | A crate of valuable goods floating into dangerous rapids  (DC 15)   |
+| 98-00 | 1d4 + 1 **pixies** promising the party a reward if they win a game of hide and seek along the river   |
+
+<img src='https://i.ibb.co/4Y4tGqB/Wooded-River-Landscape-1913-Peder-M-rk-M-nsted.jpg' style='position:absolute;bottom:-70px;right:-0px;width:820px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:-40px' />
+
+\pagebreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Akhmuten River (Level 5-10)
+**Activity Level:** 1 Encounter per 4 Hrs. of Travel <br>
+**Foraging DC:** 15 <br>
+This calm river runs through an otherwise arid wasteland, providing the most significant water source in the region.  Civilization flocks to it, as do all manner of ferocious beasts.  Kingdoms have risen and fallen along the river’s banks, and many of the crumbling temples looming over its waters are no longer inhabited by their original creators.  
+
+The humans living here have an uneasy relationship with the crocodile worshipping lizardfolk who dwell along the untamed stretches of river and in the ruins of temples lost to previous generations.  Though both groups avoid outright aggression between settlements, the lizardfolk have no qualms about preying upon stray travelers who don’t have anything of value to offer for trade.  
+
+| d100 &emsp;&emsp;&emsp;| Encounter     | 
+|:---:|:-------------:|
+| 1-5  | A massive obelisk that has collapsed into the river, leaving a treacherous hazard for boats; DC 15 Strength (Athletics) check to cross by boat|
+| 6-10 | 3d6 + 2 **lizardfolk**   |
+| 11-15| 1d12 **crocodiles***   |
+| 16-20| 1 **giant crocodile***  |
+| 21-25 | 1 **lizardfolk shaman** with 2d6 + 3 **lizardfolk**   |
+| 26-30| 1d8 + 1 locust swarms (**swarm of insects**)  |
+| 31-35| 1d3 **hippos***   |
+| 36-40| 1 **hippopotamus gorgops***   |
+| 41-45| 1d6 **crocodiles** + 2d4 **lizardfolk** |
+| 46-50| 1 **giant crocodile** + 1d3 **lizardfolk** |
+| 51-55| 1 **deinosuchus***  |
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+| d100 &emsp;&emsp;&emsp;   | Encounter     | 
+|:---:|:-------------:|
+| 56-60| 1d3 **lions**  |
+| 61-65 | 1d10 **giant hyenas**  |
+| 66-69 | A **lizardfolk** looking for other humanoids to trade goods with  |
+| 70-74 | A traveling merchant ship   |
+| 75-78 | A boat with 2d4 frantic **commoners** that has been damaged and is slowly sinking into the river    |
+| 79-81 | Human limbs, gently floating down stream  | 
+| 82-84 | A royal barge, flanked by multiple boats   |
+| 85-87 | A stampede of herd animals attempting to make it across the river as a group of 2d6 **crocodiles** closes in     |
+| 88-90 | A baby in a bassinet, gently floating down the river  |
+| 91-93 | A group of humans repairing and refurbishing once abandoned ruins in an attempt to reoccupy a lost settlement    |
+| 94-96 | A boat containing a **priest** and 4 **acolytes** performing a river ceremony   |
+| 97-98 | A group of 2d6+3 wounded **bandits** fleeing by boat from a group 3d6 + 3 **lizardfolk** |
+| 99-00 | An overgrown ruin now home to a lizardfolk village    |
+
+<img
+src='https://i.ibb.co/jy6g7Cn/Luxa-River-Art-Detail-Sam-Burley.png'
+style='position:absolute;top:-190px;left:-400px;width:1300px;transform: scaleX(1)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-135px;left:0px;width:916px' />
+
+<div style='margin-top:350px;'></div>
+
+\pagebreak
+
+### Crag Tooth River (Level 11-16)
+**Activity Level:** 1 Encounter per 3 Hrs. of Travel <br>
+**Foraging DC:** 20 <br>
+This river runs through a treacherous mountain valley, with other streams constantly feeding into it.  As the river charts its course through the crags, it forms deadly rapids and massive waterfalls.  These mountains are home to dangerous beasts and once housed a military outpost built atop its highest peak, near the mountain spring, which serves as the river’s source.  The abundance of food and ideally placed keep eventually caught the eye of Shirrys, a red dragon who declared war on the keep’s defenders.  After a long bitter battle, the keep was lost and became her lair. 
+
+Now, Shirrys and her children rule the valley and hunt its inhabitants with impunity.  As a result, few people attempt to traverse it, though soldiers continue to scout the area in hopes of finding a way to retake their mountain holdings.  For those braving the journey, the river provides one of the few reliable ways of navigating the crags without becoming lost and subsequently dragon food.  Those who follow it to its source will find a mountain spring scorched bare by dragon fire and the charred remains of those who challenged the valley’s new ruler.
+
+| &emsp; d100 &emsp;| Encounter     | 
+|:---:|:-------------:|
+| 1-5  | River rapids with DC 20       |
+| 6-10  | River rapids with a DC 25 | 
+| 11-13  | Rocks and rubble blocking the river   | 
+| 14-21  | A waterfall 1d12 x 10 feet tall      |
+
+
+
+\columnbreak
+
+| d100 &emsp;&emsp;&emsp;| Encounter     | 
+|:---:|:-------------:|
+| 22-25| A rock slide requiring a DC 15 Dexterity save.  Creatures take 8d8 bludgeoning damage on a failed save and are pinned under the rock.  On a pass they take half as much and are not pinned.  A DC 20 Strength check is required to unpin a creature.   |
+| 26-27| 1d10 **air elementals**   |
+| 28-29| 1d10 **earth elementals**   |
+| 30-31| 2d4 **trolls** |
+| 32-33| 1d8 + 1 **ettins**  |
+| 34-35| 1d8 + 1 **basilisks**  |
+| 36-45| 2d6 former soldiers (**veterans**) who've turned to banditry   |
+| 46-55 | 2d4 charred, undead soldiers (**wights**)   |
+| 56-65 | 3d4 **red dragon wyrmlings** soaring above the river  |
+| 66-70| 1 **young red dragon** intruding on Shyrris's territory  |
+| 71-75| Shyrris (**adult red dragon**) patrolling her valley  |
+| 76-80| A helplessly lost merchant (**spy**), trying to escape the valley in one piece |
+| 81-82| 1 **young silver dragon** seeking to oppose Shyrris |
+| 83-86| 1d6 **spies** attempting to scout the valley and determine the dragons' whereabouts |
+| 87-89| 2d6 + 2 **veterans** and 3d8 + 5 **guards** attempting to establish a beachhead in the valley |
+| 90-94| Smashed debris from supply wagons floating down the river |
+| 95-97|  1d8 + 3 **veterans** and 2d6 + 4 **guards** attempting to fend off 2d6 + 2 **red dragon wyrmlings** |
+| 98-00|  The mountain keep serving as Shirrys's lair, looming on a peak overhead |
+
+<img src='https://i.pinimg.com/originals/f9/e0/f4/f9e0f40447cca276fd8e732592999861.png' style='position:absolute;left:-240px;bottom:-195px;width:1000px' />
+
+<img
+src='https://www.gmbinder.com/images/VxJ8X1u.png'
+style='position:absolute;bottom:-20px;left:330px;width:860px;transform:scaleY(-1);transform:rotate(200deg)' />
+
+<img
+src='https://www.gmbinder.com/images/VxJ8X1u.png'
+style='position:absolute;bottom:230px;left:-120px;width:850px;transform:scaleY(-1);transform:rotate(160deg)' />
+
+
+
+\pagebreak
+
+### River Styx (Level 17-20)
+**Activity Rating:** 1 Encounter per 3 Hrs. of Travel <br>
+**Foraging DC:** 25 (Disadvantage unless *remove curse* spell is used while foraging)<br>
+This legendary river crosses the lower planes of the multiverse, linking together multiple underworlds and serving as a common mode of transportation for fiends.  Those who drink from its waters are said to lose all memory of their past lives, and lost souls, as well as other underworld creatures, can often be found crossing its waters. 
+
+A creature that drinks from the Styx or enters its waters is targeted by a *feeblemind* spell (save DC 20).  A creature must repeat the saving throw whenever it starts its turn in the river until it fails the save.  A feebleminded creature can drink from the Styx and swim in its waters without suffering any additional effects.
+If a creature fails its saving throw and remains under the spell's effect for 30 consecutive days, the effect becomes permanent (no save) and the creature loses all its memories, becoming a near-mindless shell of its former self.  At that point, nothing short of a *wish* spell or divine intervention can undo the effect.
+
+
+| d100 &emsp;&emsp;&emsp; | Encounter     | 
+|:---:|:-------------:|
+| 1-4  | River rapids, in the form of grasping spectral hands, with a DC 20.  Damage from these rapids deals an additional 5d6 necrotic damage     |
+| 5-8  | River rapids, in the form of grasping spectral hands, with a DC 25.  Damage from these rapids deals an additional 8d6 necrotic damage  | 
+| 9-12 | Massive skeletal remains blocking river passage for miles   | 
+| 13-16  | A waterfall 1d8 x 10 feet tall   |
+| 17-20  | A waterfall 3d10 x 10 feet tall that crosses into another lower plane    |
+
+| d100 &emsp;&emsp;&emsp; | Encounter     | 
+|:---:|:-------------:|
+| 21-24 | 3 **night hags** in a coven and 2d6 **wights**  |
+| 25-28| 2d10 **wraiths**  |
+| 29-32| 1 **death knight** with 2d4 + 2 **wights**   |
+| 33-36 | A **demilich**   |
+| 37-40 | A **lich**   |
+| 41-44| 1 greater demon  (**goristro** or **marilith**) accompanied by 2d4 lesser demons (**barlguras**, **shadow demons**, or **vrocks**)   |
+| 45-48| 2d6 + 1 **hezrou**, **yochlol**, or **glabrezu** demons   |
+| 49-52| 1d3 **nalfeshnee** demons  |
+| 53-56| 2d10 + 3 **barlguras**, **shadow demons**, or **vrocks** |
+| 57-60|  1 **balor** |
+| 61-64| 1d4 **ice devils** leading 2d4 **barbed devils**  |
+| 65-68| 2d6 + 1 **erinyes**  |
+| 69-72| 2d6 + 2 **chain devils**  |
+| 73-76| 1d4 + 1 devil commanders (**bone devils** or **horned devils**) leading a unit of 3d6 + 3 **bearded devils** |
+| 77-80| 1 **pit fiend** |
+| 81-84| 1 yugoloth commander (**arcanaloth** or **ultroloth**) leading 2d6 + 2 **mezzoloths** |
+| 85-88| 2d10 **mezzoloths** |
+| 89-92| 2d6 + 2 **nycaloths** |
+| 93-96|  A battle between devils and demons.  Pick results from this table to determine the composition of each side. Demons: 41-60.  Devils: 61-80. |
+| 97-00|  A **ghost** seeking help escaping  the lower planes |
+
+
+
+
+<img src='https://i.ibb.co/yqS31sL/styx-river-wesley-burt.jpg' style='position:absolute; top:420px; right:-180px; width:1100px' />
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-190px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+## New River Animal Stats
+
+___
+> ## Crocodile
+>*Large beast, unaligned*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 37 (5d10 + 10)
+> - **Speed** 20 ft., swim 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|12 (+1)|14 (+2)|3 (-4)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Perception +4, Stealth +3
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +2
+> ___
+> ***Hold Breath.*** The crocodile can hold its breath for 15 minutes.
+>
+> ***Watery Lurker.*** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. 
+>
+> ***Death Roll.*** One creature the crocodile has grappled in the water must make a DC 14 Strength saving throw, taking 17 (4d6 + 3) piercing damage on a failed save or half as much damage on a successful one.
+
+\columnbreak
+___
+> ## Deinosuchus
+>*Huge beast, unaligned*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 126 (12d12 + 48)
+> - **Speed** 30 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|25 (+7)|9 (-1)|18 (+4)|3 (-4)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Stealth +2, Perception +5
+> - **Senses** darkvision 30 ft., passive Perception 15
+> - **Languages** ━
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp;&nbsp; **Proficiency Bonus** +3
+> ___
+> ***Hold Breath.*** The deinosuchus can hold its breath for 15 minutes.
+>
+> ***Watery Lurker.*** The deinosuchus has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
+> ### Actions
+> ***Multiattack.*** The deinosuchus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 34 (5d10 + 7) piercing damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the deinosuchus can't bite another target.
+>
+> ***Tail.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target not grappled by the deinosuchus. Hit: 20 (3d8 + 7) bludgeoning damage.
+>
+> ***Death Roll.*** One creature the deinosuchus has grappled in the water must make a DC 18 Strength saving throw, taking 67 (11d10 + 7) piercing damage on a failed save or half as much damage on a successful one.
+
+<img src='https://www.hipstersofthecoast.com/wp-content/uploads/2019/04/1.Wardscale-Final.jpg' style='position:absolute;left:-120px;bottom:-70px;width:650px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-160px; right:100px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:90px; right:-380px; width:850px; transform:rotate(90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+
+___
+> ## Giant Crocodile
+>*Huge beast, unaligned*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 85 (9d12 + 27)
+> - **Speed** 20 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|10 (+0)|17 (+3)|3 (-4)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Perception +5, Stealth +3 
+> - **Senses** darkvision 30 ft., passive Perception 15
+> - **Languages** ━
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&ensp;&nbsp; **Proficiency Bonus** +3
+> ___
+> ***Hold Breath.*** The crocodile can hold its breath for 15 minutes.
+>
+> ***Watery Lurker.*** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
+> ### Actions
+> ***Multiattack.*** The crocodile makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 22 (3d10 + 6) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. 
+>
+> ***Tail.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target not grappled by the crocodile. *Hit:* 15 (2d8 + 6) bludgeoning damage.
+>
+> ***Death Roll.*** One creature the crocodile has grappled in the water must make a DC 17 Strength saving throw, taking 44 (7d10 + 6) piercing damage on a failed save or half as much damage on a successful one.  
+
+\columnbreak
+___
+> ## Giant River Otter
+>*Small beast, unaligned*
+> ___
+> - **Armor Class** 12
+> - **Hit Points** 4 (1d6 + 1)
+> - **Speed** 20 ft., swim 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|8 (-1)|14 (+2)|12 (+1)|6 (-2)|12 (+1)|6 (-2)|
+>___
+> - **Skills** Perception +3 
+> - **Senses** darkvision 30 ft., passive Perception 13
+> - **Languages** ━
+> - **Challenge** 1/8 (25 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> ***Hold Breath.*** The otter can hold its breath for 8 minutes.
+>
+> ***Keen Sight.*** The otter has advantage on Wisdom (Perception) checks that rely on sight.
+>
+> ***Pack Tactics.*** The otter has advantage on an attack roll against a creature if at least one of the otter's allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage. 
+
+<img src='https://i.ibb.co/3fX4Nxg/giant-crocodile.jpg' style='position:absolute; bottom:-140px; right:-64px; width:880px; transform:scaleX(-1);'/>
+
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:70px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:120px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+\pagebreak
+
+___
+> ## Hippopotamus
+>*Large beast, unaligned*
+> ___
+> - **Armor Class** 14 (natural Armor)
+> - **Hit Points** 76 (8d10 + 32)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|21 (+5)|8 (-1)|18 (+4)|4 (-3)|12 (+1)|7 (-2)|
+>___
+> - **Skills** Intimidation +7 
+> - **Senses** darkvision 30 ft., passive Perception 11
+> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +2
+> ___
+> ***Blood Sweat.*** The hippopotamus has advantage on saving throws against disease. 
+>
+> ***Dense.*** The hippopotamus can move along the ground while underwater without having its movement speed reduced and does not suffer disadvantage on its bite attack while underwater.
+>
+>  ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) piercing damage. 
+>
+> ### Bonus Actions
+> ***Aggressive.*** The hippopotamus moves up to its speed toward a hostile creature that it can see.
+
+<br>
+
+### Art Credit
+* You Come to a River - Viko Menezes, Wizards of the Coast
+* Thornwood Falls - Eytan Zana, Wizards of the Coast
+* Wooded River Landscape (1913) - Peder Mørk Mønsted
+* Luxa River Art Detail - Sam Burley
+* Swiftwater Cliffs - Eytan Zana, Wizards of the Coast
+* River Styx, D&D Baldur's Gate: Descent Into Avernus - Wesley Burt
+* Wardscale Crocodile  - Zezhou Chen, Magic the Gathering
+* Crocodile of the Crossing - Kev Walker, Wizards of the Coast
+* Tierleben 1920 - Wilhelm Kuhnert
+
+
+\columnbreak
+
+___
+> ## Hippopotamus Gorgops
+>*Huge beast, unaligned*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 115 (10d12 + 50)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|23 (+6)|8 (-1)|20 (+5)|4 (-3)|12 (+1)|8 (-1)|
+>___
+> - **Skills** Intimidation +9 
+> - **Senses** darkvision 30 ft., passive Perception 11
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&ensp;&nbsp; **Proficiency Bonus** +3
+> ___
+> ***Blood Sweat.*** The hippopotamus has advantage on saving throws against disease. 
+>
+> ***Dense.*** The hippopotamus can move along the ground while underwater without having its movement speed reduced and does not suffer disadvantage on its bite attack while underwater.
+>
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 32 (4d12 + 6) piercing damage. 
+>
+> ### Bonus Actions
+> ***Aggressive.*** The hippopotamus moves up to its speed toward a hostile creature that it can see.
+
+<!-- Main Image -->
+
+<img 
+  src='https://i.pinimg.com/564x/a1/2c/2b/a12c2bea6f8e8491c969b2aa55060aea.jpg' 
+  style='position:absolute;right:-230px;bottom:-35px;width:110%;' />
+
+<!-- Colored Blends, clockwise from bottom -->
+
+
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-200px;
+  left:-930px;
+  width:1270px;
+  transform:
+    scalex(1.12);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)
+  '
+/>
+
+
+<img
+   src='https://www.gmbinder.com/images/tFcatIg.png'
+   style='position:absolute;
+  bottom:-50px;
+  right:355px;
+  width:300px;
+  transform:
+    rotate(0deg);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)'
+/>
+
+
+<img
+   src='https://www.gmbinder.com/images/TN3SKuL.png'
+   style='position:absolute;
+  bottom:380px;
+  right:305px;
+  width:300px;
+  transform:
+    rotate(270deg);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%) '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/qAcqsv8.png'
+   style='position:absolute;
+  bottom:530px;
+  right:275px;
+  width:300px;
+  transform:
+    rotate(110deg);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%) '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/qAcqsv8.png'
+   style='position:absolute;
+  bottom:610px;
+  right:235px;
+  width:200px;
+  transform:
+    rotate(150deg);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%) '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/TN3SKuL.png'
+   style='position:absolute;
+  bottom:460px;
+  right:-10px;
+  width:300px;
+  transform:
+    rotate(0deg);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%) '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/hf69hrN.png'
+   style='position:absolute;
+  bottom:440px;
+  right:-40px;
+  width:200px;
+  transform:
+    rotate(350deg);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%) '
+/>
+
+<!-- Circle Blends, clockwise from bottom -->
+
+<img
+   src='https://www.gmbinder.com/images/IQENPZX.png'
+   style='position:absolute;
+   bottom:-70px;
+   right:400px;
+  transform: 
+     rotate(100deg);
+  filter:
+     opacity(100%)
+     hue-rotate(0deg)
+     brightness(100%)
+     contrast(100%)
+     saturate(100%)
+     grayscale(00%)
+     brightness(97%); '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/IQENPZX.png'
+   style='position:absolute;
+   bottom:350px;
+   right:380px;
+   transform:
+      scaleY(4);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)
+   '
+/>
+  
+
+
+<img
+   src='https://www.gmbinder.com/images/IQENPZX.png'
+   style='position:absolute;
+   bottom:390px;
+   right:60px;
+   transform:
+      scaleX(4);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/IQENPZX.png'
+   style='position:absolute;
+   bottom:700px;
+   right:60px;
+   transform:
+      scaleX(4)
+      scaleY(3);
+      filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)
+   '
+/>
+
+<!-- Splotch Blends, clockwise from bottom -->
+
+<img
+   src='https://www.gmbinder.com/images/tFcatIg.png'
+   style='position:absolute;
+  bottom:0px;
+  right:385px;
+  width:300px;
+  transform:
+    rotate(50deg);
+    filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%);
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/tFcatIg.png'
+   style='position:absolute;
+  bottom:170px;
+  right:325px;
+  width:300px;
+  transform:
+    rotate(150deg);
+    filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%);
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/qAcqsv8.png'
+   style='position:absolute;
+  bottom:680px;
+  right:330px;
+  width:200px;
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/qAcqsv8.png'
+   style='position:absolute;
+  bottom:390px;
+  right:185px;
+  width:200px;
+  transform:
+    rotate(30deg);
+  filter:
+    brightness(103%)
+    hue-rotate(5deg)
+  grayscale(00%)
+  brightness(97%)    
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/TN3SKuL.png'
+   style='position:absolute;
+  bottom:400px;
+  right:-25px;
+  width:250px;
+  transform:
+    rotate(0deg);
+  filter:
+  opacity(70%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
+
+\pagebreak
+
+#### 1.0.0 Changes
+ * Public Release
+
+#### 1.1.0 Changes
+ * Revised document
+ * Updated all creature statblock references
+
+#### 1.1.1 Changes
+* Replace Loblolly River art
+
+\columnbreak
+
+### Referenced Documents
+* Crocodilians 1.1.3
+* Hippopotamus 1.1.0
+* Otters 1.1.0
+
