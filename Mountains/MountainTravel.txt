@@ -59,20 +59,22 @@ If a player who is belaying falls while climbing, the rope their partner are att
 Mountains are among the most hazardous natural environments. Extreme cold, strong wind, heavy precipitation, high altitude, and slippery ice are all common mountain hazards and described in the DMG (pg. 110). Other hazards include falling debris, unpredictable weather, and ledges or ravines hidden by snow. 
 
 ### Avalanches & Rockslides
-When one of these events occurs, all creatures near its path must roll intiative. The debris travels its move speed twice each round, on intiative counts 10 and 0, and continues moving this way for as long as it’s able. When the debris moves, any creature in its space moves along with it and falls prone before making a Strength saving throw. On a failed save, the creature takes an amount of bludgeoning damage determined by the severity of the faling debris, and on a successful save, it takes half as much damage.
+When one of these events occurs, all creatures near its path must roll intiative. The debris travels its move speed twice each round, on intiative counts 10 and 0, and continues moving this way for as long as it’s able. When the debris moves, any creature in its space moves along with it and falls prone before making a Strength saving throw. On a failed save, the creature takes an amount of bludgeoning damage determined by the size catagory of the falling debris, and on a successful save, it takes half as much damage.
 
 When the debris stops, it settles and buries any creatures in its space. A creature buried this way is blinded restrained and has total cover. The creature gains 1 level of exhaustion for every 5 minutes it spends buried. It can try to dig itself free as an action my making a Strength check against the DC of the event. It has advantage on this check if it has a burrow speed. On a success, the creature breaks up through the surface, ending the blinded an restrained condition on itself. A creature that fails this check three times can’t attempt to dig itself out again. 
 
 A creature that is not buried in the debris can spend 1 minute freeing a buried creature if it know approximately where it is in the debris.
 
+Creatures can't be buried by the debris if their size is larger than the event's Depth. They also can't be carried along by the sliding the debris if their size is two sizes larger than the Depth of the event. (Example: A Size Category 2 event can't bury a creature that's Large or larger and can't move a creature that's Huge or larger.)
+
 #### Avalanches
-Speed equals a number of d4s equal to the size catagory times 100ft. Damage is always 1d10 bludgeoning damage.
+Speed equals a number of d4s equal to the size category times 100ft. Damage is always 1d10 bludgeoning damage.
 
 #### Rock Slides
 Damage is equal to a number of d10s equal to the size catagory. Speed is always 3d4 times 50ft.
 
 ##### Avlanche & Rock Slide Sizes and DC
-|      Size Catagory       | Hazard DC |  Size: <br> Length |  Size: <br> Width | Size: Depth | 
+|      Size Category       | Hazard DC |  Size: <br> Length |  Size: <br> Width | Size: Depth | 
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:| 
 |           1         |         10      |         1d12x10ft.          |         1d4x10ft.          | Small
 |           2         |         15         |          (1d6+4)x30ft.          |         2d6x10ft.          | Medium
@@ -85,17 +87,17 @@ Damage is equal to a number of d10s equal to the size catagory. Speed is always 
 
 ##### Isolated Debris
 
-In the event there there is a few rocks or boulders falling rather than an entire rock slide, have characters in its path make a Dexterity save against the Hazard DC. On a failed save, they take 2d10 bludgeoning damage per Size Category, are pushed 5 feet per Size Category, and are knocked prone. On a successful save, the dodge the rocks, take no damage, and are not pushed or knocked prone. Pass or fail, the rocks pass by or shatter and the creatures are not moved any further.
+In the event there there is a few rocks or boulders falling rather than an entire rock slide, have characters in its path make a Dexterity save against the Hazard DC. On a failed save, they take 2d10 bludgeoning damage per Size Category, are pushed 5 feet per Size Category, and are knocked prone. On a successful save, they dodge the rocks, take no damage, and are not pushed or knocked prone. Pass or fail, the rocks pass by or shatter and the creatures are not moved any further.
 
 ### Falls
 Mountains are filled with cliffs and suddan drops. Most will be easily visable to players and won’t need to be mentioned as they travel. However, if the players are unable to see falls for any reason, or there is combat or some other dangerous event that risks pushing players off a drop, it may become nessesary to determine the height of these falls. 
 It may be convenient to brake these falls up into general sizes.
 
-**Small Falls:** These are the most numerous drops, ranging in the 10s of feet, and many mountain encounters will feature at least one or two of these drops. You can make their height 1d10x10ft.
+**Small Falls:** These are the most numerous drops, ranging in the 10s of feet, and many mountain encounters will feature at least one or two of these drops. You can make their height **1d10x10ft**.
 
-**Medium Falls:** These much more severe drops, reaching hundreds of feet. They will be more notable hazards during the players’ journey. You can make their height 1d4x100ft.
+**Medium Falls:** These much more severe drops, reaching hundreds of feet. They will be more notable hazards during the players’ journey. You can make their height **1d4x100ft**.
 
-**Large Falls:** These the larges of drops, reaching thousands of feet. Many mountains won’t have any drops this extreme, and they make for dramatic highlights in the environment. You can make their height 1d8x500ft.
+**Large Falls:** These the larges of drops, reaching thousands of feet. Many mountains won’t have any drops this extreme, and they make for dramatic highlights in the environment. You can make their height **1d8x500ft**.
 
 You can add falls throughout the players mountain journey when you feel it’s appropriate and use the sizes that best fit the type of mountain environment they’re traveling through. 
 
@@ -142,18 +144,97 @@ Moutain weather is more unpredictable, changeable, and extreme than in the lowla
 |      d20             |     Precipitation (Afternoon)     |
 |:--------------------:|:--------------------:|
 |           7         |         None          |
-|           8-14      |         Moderate          | 
-|           15-20     |         Heavy          |
+|           8-14      |         Fog          | 
+|           8-14      |         Lightning           | 
+|           8-14      |        Heavy Rain/Snow          | 
+|           15-20     |         Heavy Rain/Snow With Lightning          |
 
 
 #### Fog
+Fog can be heavy or light. You can roll a d6 to determine the type of fog. On a roll of 1-4, it’s light fog, and on a roll of 5-6, it’s heavy fog. 
+
+Light fog lightly obscures terrain and imposes disadvantage on checks that rely on sight. Heavy fog completely obscures terrain and makes checks that rely on sight impossible. 
+
+Cliffs and crevases that would have been obvious can become hidden falls in any type of fog (see Hidden Falls).
+
+
+\columnbreak
+
 #### Lightning
-#### Rain/Snow
-##### Chance of Hail
+
+Periodically Roll 1d20 To Represent a Potential Lightning Strike in the Area
+
+**Sparse Lightning:** Roll Every 30 Minutes<br>
+**Frequent Lightning:** Roll Every 10 Minutes<br>
+**Dense Lightning:** Roll Every 1 Minute
+
+<br>
+
+Result of the Roll Determines if the Lightning Strikes in the Proximity of the Players
+
+| Proximity of Storm  | Result Needed for Lighting to Strike In Area |
+|:---:|:-----------:|
+|  Distant  | 17+ |
+|  Nearby  | 12+ |
+|  Centered on Players  | 7+ |
+
+If the lightning is striking in their proximity, each player rolls a d20 and you roll a d20 for each NPC creature. Creatures who roll low enough based on their size are potential targets for lightning. 
+
+| Creature Size  | Result Needed to Be Struck |
+|:---:|:-----------:|
+|  Tiny  | 1 |
+|  Small  | 5 or Less |
+|  Medium  | 10 or Less |
+|  Large  | 14 or Less |
+|  Huge  | 17 or Less |
+|  Gargantuan  | 19 or Less |
+
+Creatures wearing metal, wielding large metal objects, or in bodies of water have disadvantage on this roll. Creatures who are prone and not in bodies of water have advantage.
+
+It multiple creatures roll a result needed to be struck, the tallest creature among them is struck. This height includes standing on an elevated surface.
+
+If no creature rolls the result needed to be struck, the lightning strikes a surface nearby in a flash of light accompanied by a resounding boom, warning everyone of the near miss they just had.
+
+If a creature is struck by lightning, it takes 3d10 lightning damage and each creature in a 15 foot cube centered on the struck creature is subjected to the effects of the *thunderwave* spell (DC 15).
+
+\pagebreakNum
+
+#### Rain, Snow, or Hail 
+Heavy Precipitation such as rain and snow is described on page 110 of the DMG. However, hail storms are also more likely in mountainous environments, and if you wish to add them as a possible hazard, you can can use the following effects to represent them:
+
+Each creature out in the open of a hail storm at the start of their turn must make Constitution save. Creatures not wearing armor have disadvantage on this save, and creatures wearing heavy armor have advantage. A creature takes an amount of bludgeoning and cold damage determined by the size of the hail on a failed save, and half as much damage on a success.
+
+
+|      Hail Size      | Hail Save DC |  Damage |  
+|:--------------------:|:--------------------:|:--------------------:|
+|           Modest         |         10      |        1d8 Bludgeoning & 1d4 Cold           | 
+|           Large         |         15         |          2d8 Bludgeoning & 2d4 Cold          | 
+|           Huge         |         20         |           3d8 Bludgeoning & 3d4 Cold    |   
+|           Massive         |         25         |           4d8 Bludgeoning & 4d4 Cold    |   
+|           Supernatural         |         30         |           5d8 Bludgeoning & 5d4 Cold    |   
+
+You can have hail storms appear when you feel it fits the game or roll for them to randomly replace other types of precipitation 1/6th of the time.
+
 #### Winds
+Rules for strong winds are described one page 110 of the DMG. If you wish to make your winds particularly hazardous, you can modify them in the following ways.
 
+##### Extreme Cold
+This wind carries a chill that cuts to core. For every 1 minute a creature without cold resistance spends in the wind, it must make a Constitution save. On a failure, the creature takes an amount of cold damage dependent on the severity of the cold, and on a pass, it takes half as much damage. Creatures with insulating fur or clothing have advantage on this save.
 
-\pagebreak
+##### Sudden Gusts
+This wind will unexpectedly pick up gusts capable of bowling over creatures. At the start of every round of combat roll 1d6. On a result of 5 or 6, all creatures not behind at least half cover are subjected to the effects of the *gust of wind* spell, except the distance they are moved on a failed save is dependent on the severity of the wind. 
+
+If the players aren't in combat, this wind will greatly hamper travel for those not behind cover and make traveling near ledges very dangerous. If players are traveling for an extended period of time through an open area subjected to sudden gusts, have each of them make a Strength save for each hour of travel. On a success, they are able to push through the winds, and on a failure, they treat the terrain areas as though it's rough terrain while they struggle to fight against the winds. If the terrain is already rough terrain, creatures can only move through it at 1/4th the speed. 
+
+|      Wind Severity      | Wind Save DC |  Cold Damage |  Gust Push Distance | 
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|           Mild         |         10      |        1d8          |         5ft.          | 
+|           Moderate         |         15         |          2d8          |         5ft.          | 
+|           Intense         |         20         |           4d8    |        10ft.          | 
+|           Extreme         |         25          |        6d8          |         10ft.          |
+|           Supernatural         |         30         |        8d8         |         15ft.          |
+
+\pagebreakNum
 
 
 
