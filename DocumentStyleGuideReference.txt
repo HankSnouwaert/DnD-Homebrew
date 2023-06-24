@@ -1,3 +1,5 @@
+
+
 <style>
 
  /* Footers */
@@ -23,6 +25,11 @@
         display          : none;
     }
     /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
 
 </style>
 
@@ -240,7 +247,9 @@ piercing, and slashing from nonmagical attacks
 > The monster can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The monster regains spent legendary actions at the start of its turn.
 > 
 > **Bite.** The monster makes a bite attack.
-> 
+>
+>  **Tenacious Will.** If the monster is suffering from an effect that allows it to make a saving throw as an action or at the beginning or end of its next turn, it may immediately make that save against the effect with advantage. It can use this legendary action while incapacitated.
+>
 > **Check (Costs 2 Actions).** The monster makes a skill check that would normally require an action.
 >
 > **Reconstitute (Costs 3 Actions).** If the monster is suffering from one or more conditions that require it to make a saving throw to end, it may immediately make a save against each condition, ending the condition on a success. The only saving throws that this action can be used for are saves made at the end or the start of its next turn or using its action. It can use this action while incapacitated.
@@ -394,4 +403,11 @@ You can use this ability a number of times equal to your proficiency modifier an
 ### Change Log
 * Add spell attack description to spell casting feature of Big Monster
 * Add art credit
+* Add Tenacious Will legendary action to stat block
+
+
+
+
+
+
 
