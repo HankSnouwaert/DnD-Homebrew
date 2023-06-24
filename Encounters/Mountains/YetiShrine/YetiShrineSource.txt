@@ -61,7 +61,7 @@ The players arrive through the massive doors at the entrance. Any entrance into 
 \columnbreak
 
 
-##### Encounter Map: Furnace Chamber
+##### Encounter Map: Yeti Shrine
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -95,10 +95,9 @@ The primary goal of the meh-teh yetis is to repel the players from the shrine or
 
 The yetis will include a grapple attempt as part of their multiattacks, and on their next turn, bite and throw grappled creatures towards the exit or at players near the exit. They will move grappled creatures closer to the exit when possible to help accomplish this if doing so doesn't provoke attacks of opportunity. 
 
-More general yeti tactics can be found later in this document.
-
 The yetis don't factor in who's performing prayers when choosing their targets. However, once the ritual is complete, they will retreat through the windows into the wilderness unless one of them has been killed, in which case the remaining yeti will still be hostile toward the players.
 
+More general yeti tactics can be found later in this document.
 
 ### Aftermath
 If the players complete the ritual, the temple will be safe for the remaining monks to return to and restore. If the players flee, the yeti will not give chase. 
@@ -128,14 +127,16 @@ The degree of success the players have in sanctifying the shrine can affect thei
 
 
 ### Adventure Follow Ups
-If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration:
+If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration. 
 
 | d4  | Adventure Hook |
 |:---:|:-----------:|
-|  1  |**The Iron Citadel:** The party is tasked with infiltrating a chaos dwarf hold known as the Iron Citadel, which is rumored to be manufacturing a new breed of infernal destroyers. They must find a way to sneak into the fortified stronghold, locate the production facilities, and put an end to the construction of these terrifying machines of war. Along the way, they may uncover the intricate workings of the chaos dwarf society and potentially encounter other dangerous constructs and weapons in development.|
-|  2  | **The Laborers' Plea:** A group of slaves have managed to send out a desperate message from within a chaos dwarf manufacturing facility. They speak of being forced to work on creating infernal destroyers and other lethal weapons. The party's mission is to infiltrate the facility, free the slaves, and halt the production of these deadly devices. However, the facility is heavily guarded and the slaves are held under harsh conditions, making this rescue mission a challenging endeavor. |
-|  3  | **Infernal Genesis:** A wealthy benefactor tasks the adventurers with stealing the design schematics of the infernal destroyers from a chaos dwarf hold. The party must delve into the heart of the fortress, navigating its labyrinthine tunnels filled with traps, guards, and potentially active infernal destroyers. The adventure could become more complex if the party discovers the moral implications of their benefactor's desire to build their own infernal destroyer. |
-|  4  | **The Demon's Heart:** A chaos dwarf facility is rumored to hold a powerful demonic entity that the dwarves intend to bind into the most powerful infernal destroyer ever built. The party's objective is to destroy the Demon's Heart, an artifact used in the binding process, before this unstoppable engine of destruction comes to life. |
+|  1  |**The Evil Within.** The temple corruption was caused by an ancient evil sealed in the chambers below that is close to escaping its bindings. The party must venture into the depths below the temple to reseal this malevolent force. |
+|  2  | **The Dzu-Teh Defilers.** The act of cleansing the temple angers a nearby clan of dzu-teh yetis, who were the ones to defile it in the first place. In retaliation, they seek to lay siege to the temple and destroy it entirely. |
+|  3  | **Restoring the Monastery.** The temple, now cleansed, once housed a community of monks who had to flee when the spirits were angered. The party is tasked with finding these monks and ensuring their safe return to the temple. |
+|  4  | **The Desecrator's Identity.** The party discovers clues pointing to the identity of the original desecrators of the temple. They must track down those responsible and bring them to justice or learn their motivations to prevent further conflicts. |
+
+Note that for any of these adventures, you could provide an opportunity for the players to find and ally themselves with the meh-teh yeti to accomplish their shared goals, assuming the players didn't slay them.
 
 <br>
 
@@ -143,6 +144,104 @@ If you wish to connect this encounter to a larger adventure, the following hooks
 * Encounter Map - Joseph Snouwaert
 
 \pagebreakNum
+
+# Encounter Reference Material
+
+## Encounter Stat Blocks
+
+___
+___
+> ## Yeti, Meh-teh 
+>*Large monstrosity, lawful good*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 114 (12d10 + 48)
+> - **Speed** 40 ft., climb 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|19 (+4)|14 (+2)|18 (+4)|8 (-1)|18 (+4)|12 (+1)|
+>___
+> - **Damage Immunities** cold
+> - **Skills** Athletics +7, Intimidation +4, Perception +7, Stealth +5, Survival +7
+> - **Senses** darkvision 60 ft., passive Perception 17
+> - **Languages** Yeti
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp;    **Proficiency Bonus** +3
+> ___
+> ***Chilling Grasp.*** Any creature that ends its turn grappled by the yeti must succeed 
+on a DC 15 Constitution saving throw or take 10 (3d6) cold damage and then be paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to the Chilling 
+Grasp of all yeti for 1 hour.
+>
+> ***Fear of Fire.*** If the yeti takes fire damage, it has disadvantage 
+on attack rolls and ability checks until the end of its next turn.
+>
+> ***Ghost of the Mountains.*** The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy or mountainous terrain and may do so even if it is only lightly obscured while in such terrain.
+>
+> ***Keen Smell.*** The yeti has advantage on Wisdom (Perception) 
+checks that rely on smell. 
+> 
+> ***Snow Strider.*** The yeti ignores difficult terrain and slipping hazards caused by ice and snow.
+> 
+> ### Actions
+> ***Multiattack.*** The yeti makes two attacks: one with its bite and one with its fist. It can replace its fist attack with a fling.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage plus 7 (2d6) cold damage.
+>
+> ***Fist.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) cold damage.
+>
+> ***Cold Fling.*** The yeti chooses one Medium object or creature it is holding or grappling and throws it up to 15 feet away. If the target hits a solid surface, it takes 7 (1d6 + 4) and lands prone. <br>
+> If the thrown target would hit another creature, the creature that would be hit must make a 14 Dexterity saving throw. On a failed save, the creature is hit, takes 7 (1d6 + 4) bludgeoning damage plus 14 (4d6) cold damage if the thrown creature was under the effects of Chilling Gaze, and is knocked prone.
+> 
+> ### Bonus Actions
+> ***Brawler.*** When the yeti attacks a creature with its fist, hit or miss, it can attempt to grapple the target.
+
+<br>
+
+## Yeti Tactics
+
+Yetis are ambush predators well adapted to moving through mountainous alpine terrain. They rely on surprise attacks in snowy or rocky environments. If their ambush is thwarted, they will retreat and attempt to sneak up on their targets later. Most yetis have a way of paralyzing their victims, rendering them helpless. However, a common weakness all yetis share is their fear of fire. Constant fire damage can deter a determined yeti, forcing it to retreat temporarily and target the individual responsible for the fire damage in future encounters.
+
+\columnbreak
+
+<br><br><br>
+
+**Meh-Teh.** Meh-teh are rarely provoked to anger, but when they are, it is for a righteous cause. They never give up on punishing those they deem guilty. Meh-teh initiate combat with an all-out attack, aiming to grapple their foes and drag them away from allies. On the next turn, their actions depend on whether the target is still grappled. If it is, they deliver a bite before attempting to throw the frozen victim into their allies for additional damage. If the target is not grappled, the meh-teh continues to attempt to grapple and bite the victim as they drag it further away. They may consider throwing grappled victims off a high cliff if possible.
+
+\pagebreakNum
+
+## Yeti Loot
+The valuable items looted from yetis will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest hide. 
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+While yetis don't use much in the way of equipment, they may wear or keep more valuable items they’ve collected. If you’re using a yeti important to a story for a climactic battle, it is usually good to provide some high-value “art objects” from the DMG they’ve collected or crafted for players to find.
+
+### Yeti Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+#### Meh-teh Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 5gp Item |
+|  8-10 | 1d4(2) 5gp Items | 
+|  11-16 | 1d4(2) 10gp Items  |  
+|  17-22 | 1d6(3) 10gp Items |  
+|  23+ |  1d4(2) 20gp Items |  
+ 
+#### Example Yeti Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Uncommon Yeti Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Greater Yeti Bone |  Greater Yeti Bone |  Pristine Greater Yeti Bone  | 
+| 2 <br> (Flesh) | Stringy Greater Yeti Meat| Greater Yeti Meat|  Prime Greater Yeti Meat  | 
+| 3 (Fluid)  | Clotted Greater Yeti Blood | Greater Yeti Blood |  Pristine Greater Yeti Blood  | 
+| 4 <br> (Hide)  | Tattered Greater Yeti Pelt | Greater Yeti Pelt |  Pristine Greater Yeti Pelt  | 
+
+ 
+
+\columnbreak
 
 ### Changelog
 #### 0.0.0
