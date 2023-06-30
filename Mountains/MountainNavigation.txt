@@ -1,0 +1,757 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after, .phb#p5:after, .phb#p6:after, .phb#p7:after, .phb#p8:after, .phb#p9:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Mountain Navigation
+Mountains are among the most hazardous environments for overland travel. Unless there are established paths, they are almost entirely made up of rough terrain filled with hidden dangers. They are difficult to navigate, provide few resources, and host unpredictable weather. Travelers who venture too high will be exposed to brutally cold winds and thin air, and those who become lost risk stumbling into the lair of a mountain-dwelling monster. Still, adventurers often choose to risk mountain travel to attempt a shortcut on their journey, face foes dwelling among the peaks, or to simply challenge themselves to ascend to the roof of the world.
+
+## Travel Activities
+When the players travel long distances overland, mountains can be a significant challenge in their journey. You may modify the overland travel activities detailed in the *Player's Handbook* in the following ways when the players travel through mountains.
+
+### Travel Pace
+If the players are traveling through mountains without the aid of a relatively smooth trail, it is considered rough terrain unless they have a climb speed. This is the case even if the players are traveling down the mountain slope. If the players have to scale difficult cliff faces, you may even treat the travel as though they are climbing through difficult terrain, which would reduce their travel speed to ¼ the usual pace.
+
+### Navigation
+Mountains can be challenging to navigate, and the DMG suggests a navigation DC of around 15 for most mountain ranges. 
+
+\columnbreak
+
+
+<br><br>
+
+
+If the players can climb a peak with an advantageous view of the landscape, you can give them advantage on their check. Players in low valleys or ravines will likely have disadvantage on navigation attempts if they have no landmarks to gauge their progress against.
+
+### Foraging
+Mountains tend to have little to no natural resources at higher altitudes. In the alpine zone, the foraging DC should be 20 or higher. At lower altitudes with vegetation, it is usually easier to find food and water.
+
+### Belaying
+There may be situations where the players are scaling a cliff together using ropes and climbing equipment. They may opt to use the practice of belaying up the cliff as a safety precaution. This involves one player climbing up a short distance while attached to a rope secured to a piton hammered into the mountainside below and securing a rope into the cliff face with another piton. A player below who is attached to this rope can then remove the first piton and climb to catch up with the first player while secured by the piton they just hammered into the mountain. This process repeats throughout the climb, and in this way, no one is ever climbing without being secured by a rope to a piton a short distance down.
+
+If a player who is belaying falls while climbing, the rope their partner attached can catch their fall. If you wish to introduce the possibility of a belay not being secured properly and thus being yanked out by the force of the fall, you can have the player who secured the belay make a Dexterity (Survival) check to see how well the rope was secured. Set the DC to be 5 less than the DC required to climb the cliff. On a success, the rope holds, and the falling player is saved. On a failure, the rope wasn't secured properly, and the player continues to plummet. 
+
+
+
+
+<img src='https://i.ibb.co/GkB0d3q/Seek-the-Wilds-Battle-for-Zendikar-Mt-G-Art.jpg' style='position:absolute; top:-80px; right:-0px; width:820px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:25px; right:10px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(11deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:270px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+## Mountain Hazards
+Mountains are among the most hazardous natural environments. Extreme cold, strong wind, heavy precipitation, high altitude, and slippery ice are all common mountain hazards described in the DMG (pg. 110). Other hazards include falling debris, sudden drops, and unpredictable weather. 
+
+### Avalanches & Rockslides
+These events are triggered by small cascades of debris that knock other debris loose, starting a chain reaction that results in large waves, snow, or earth barreling down a mountainside. The speed, size, save DC imposed on creatures, and damage inflicted by these events depends on their severity and materials.
+When one of these events occurs, all creatures near its path must roll intiative. The wave of debris travels its move speed twice each round, on intiative counts 10 and 0, and continues moving this way for as long as it's able. When the debris moves, any creature in its space moves along with it and falls prone before making a Strength saving throw. On a failed save, the creature takes an amount of bludgeoning damage determined by the size category of the falling debris, and on a successful save, it takes half as much damage.
+
+When the debris stops, it settles and buries any creatures in its space. A creature buried this way is blinded, restrained, and has total cover. The creature gains 1 level of exhaustion for every 5 minutes it spends buried. It can try to dig itself free as an action by making a Strength check against the DC of the event. It has advantage on this check if it has a burrow speed. On a success, the creature breaks up through the surface, ending the blinded and restrained condition on itself. A creature that fails this check three times can't attempt to dig itself out again. 
+
+A creature that is not buried in the debris can spend 1 minute freeing a buried creature if it knows approximately where it is in the debris.
+
+Creatures can't be buried by the debris if their size is larger than the event's Depth (see the table below). They also can't be carried along by the sliding debris if their size is two sizes larger than the Depth of the event. (Example: A Size Category 2 event can't bury a creature that's Large or larger and can't move a creature that's Huge or larger.)
+
+#### Avalanches
+These events are primarily made up of cascading snow. Their speed equals the roll of a number of d4s equal to their size category times 100ft. Regardless of their severity, their damage is always 1d10 bludgeoning damage.
+
+#### Rock Slides
+These events are primarily made up of cascading rocks, boulders, and dirt. Their speed is 3d4 times 50ft. Their damage equals the roll of a number of d10s equal to <br> their size category. 
+
+\columnbreak
+
+
+
+##### Avlanche & Rock Slide Sizes and DC
+|      Size Category       | Hazard DC |  Size: <br> Length |  Size: <br> Width | Size: Depth | 
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:| 
+|           1         |         10      |         1d12x10ft.          |         1d4x10ft.          | Small
+|           2         |         15         |          (1d6+4)x30ft.          |         2d6x10ft.          | Medium
+|           3         |         20         |           (1d8+2)x300ft.    |        1d10x100ft.          | Large
+|           4         |         25          |        1d4/2 Miles          |         1d4x1,000ft.          | Huge
+|           5         |         30         |        1d4x2 Miles         |         1d4/2 Miles          | Gargantuan
+
+
+
+##### Isolated Debris
+
+If there are a few rocks or boulders falling rather than an entire rock slide, have characters in its path make a Dexterity save against the Hazard DC. On a failed save, they take 2d10 bludgeoning damage per Size Category, are pushed 5 feet per Size Category, and are knocked prone. On a successful save, they dodge the rocks, take no damage, and are not pushed or knocked prone. Pass or fail, the rocks pass by or shatter, and the creatures are not moved any further.
+
+> ##### Growing Events
+> Avalanches and rockslides often start as small events that pick up speed and size as they progress. Most of the time, this won't be important to note when players encounter them. But, if you need to track the progress of the event, you can have its size category increase by 1 for every few rounds it travels and increase its stats accordingly, 
+
+<img src='https://i.ibb.co/vVsm409/Ride-The-Avalanche-Andrew-Mar.png' style='position:absolute; bottom:0px; right:-100px; width:670px;transform:scaleX(-1)' />
+
+  
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-600px;bottom:-200px; transform:rotate(-81deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:50px;bottom:120px; transform:rotate(10deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-66px;bottom:120px; transform:rotate(-10deg)' />
+
+
+\pagebreakNum
+
+### Steep Falls
+Mountains are filled with cliffs and sudden drops. Most will be easily visible to players and won't need to be mentioned as they travel. However, if the players are unable to see a drop for any reason, or there is combat or some other dangerous event that risks pushing players off a drop, it may become necessary to determine its height. 
+It may be convenient to brake these drops up into general sizes.
+
+**Small Falls:** These are the most numerous drops, ranging in the 10s of feet, and many mountain encounters will feature at least one or two of these drops. You can make their height **1d10x10ft.**
+
+**Medium Falls:** These are much more severe drops, reaching hundreds of feet. They will be more notable hazards during the players' journey. You can make their height **1d4x100ft.**
+
+**Large Falls:** These are the largest of drops, reaching thousands of feet. Many mountains won't have any drops this extreme, and they make for dramatic highlights in the environment. You can make their height **1d8x500ft**.
+
+You can add falls throughout the players' mountain journey when you feel it's appropriate and use the sizes that best fit the type of mountain environment they're traveling through. 
+
+\columnbreak
+
+#### Hidden Falls
+Snow and ice can conceal sudden drops in a similar way to pit traps. Cornices are structures made of snow that hang over cliff edges, hiding where solid land ends. Creatures that step on them risk falling through and over the cliff edge. Other times, snow and thin ice will cover deep crevasses, hiding them from view until a creature falls through.
+##### Spotting Falls
+Rather than using passive Perception to spot hidden falls, you may opt to use the passive Survival of any characters keeping a lookout. The DC to spot the fall can be anywhere from 10 (barely hidden falls) to 30 (supernaturally hidden falls). You can pick what's appropriate for your environment or roll to determine one randomly.
+##### Falling Through
+If a creature doesn't spot the fall and falls through, it can make a Dexterity save to try to catch a ledge and prevent the fall. The DC of this save depends on the nature of the fall. A relatively narrow crag may only have a DC 10. A large cornice stretching out from a ledge covered in cursed ice may have a DC 30. This save DC can be independent of the DC to spot the fall, and you can pick one you feel is appropriate to the situation or roll to determine it randomly.
+
+If a creature fails to grab a ledge, it falls the full length of the cliff or crevasse. 
+
+<img src='https://i.ibb.co/vkKf323/Sudden-Demise-Mt-G-Art.jpg' style='position:absolute; bottom:0px; right:-0px; width:820px;transform:scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:140px; transform:rotate(0deg)' />
+
+\pagebreakNum
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Weather
+Mountain weather is more unpredictable, changeable, and extreme than in the lowlands. This is particularly true in the higher alpine zones.
+As the players travel through mountainous areas, you can roll on the following tables at each time of day to determine the wind and precipitation levels. The afternoon tends to have the most extreme weather variance and has its own tables.
+
+
+
+##### Weather
+|      d20             |     Wind (Morning, Evening, Night)     |
+|:--------------------:|:--------------------:|
+|           1-12         |         Light          |
+|           13-18      |         Strong          | 
+|           19-20      |         Violent          |
+
+|      d20             |     Wind (Afternoon)     |
+|:--------------------:|:--------------------:|
+|           1-7         |         Light          |
+|           8-14      |         Strong          | 
+|           15-20     |         Violent          |
+
+|      d20             |     Precipitation (Morning, Evening, Night)     |
+|:--------------------:|:--------------------:|
+|           1-9         |         None          |
+|           10-15      |         Fog          | 
+|           16-17      |         Lightning           | 
+|           18-19      |        Heavy Rain/Snow          | 
+|           20     |         Heavy Rain/Snow With Lightning          |
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+|      d20             |     Precipitation (Afternoon)     |
+|:--------------------:|:--------------------:|
+|           1-7         |         None          |
+|           8-9      |         Fog          | 
+|           10-13      |         Lightning           | 
+|           14-16      |        Heavy Rain/Snow          | 
+|           17-20     |         Heavy Rain/Snow With Lightning          |
+
+
+
+> ##### Mountain Temperature
+> Mountains have extreme temperature drops between night and day when there are clear skies, partly because the sun's rays are more intense at higher altitudes. The average temperature also drops by about 3.5 degrees Fahrenheit per 1000 ft. of elevation gain (about 18-19 degrees per mile). There's no exact science to determining the temperature at any given time, but you can keep these factors in mind when determining the level of cold the players are facing.
+
+
+#### Fog
+Fog can be heavy or light. You can roll a d6 to determine the type of fog. On a roll of 1-4, it’s light fog, and on a roll of 5-6, it’s heavy fog. 
+
+Light fog lightly obscures terrain and imposes disadvantage on checks that rely on sight. Heavy fog completely obscures terrain and makes checks that rely on sight impossible. 
+
+Cliffs and crevasses that would have been obvious can become hidden falls in any type of fog (see the Hidden Falls section).
+
+If there are heavy or violent winds present, the fog will be less likely to stay in the area for long and may pass more quickly.
+
+<img src='https://mdl.artvee.com/sftb/503282ld.jpg' style='position:absolute; top:0px; right:-0px; width:820px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:130px; right:-50px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(-8deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:150px; right:-50px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+\pagebreakNum
+
+#### Lightning
+Storms are especially dangerous in mountainous environments where the odds of being struck by lightning are significantly higher. When a storm approaches the players' location, and you wish to add the possibility of them being struck by lightning, you can roll periodically to determine if there will be a lightning strike at their location.
+
+Periodically roll 1d20 to determine if there will be a lightning strike in the area. Rolling this way keeps the threat of lightning unpredictable. How often you make this check depends on how often you want lightning to threaten the players. Below are some suggested frequencies.
+
+**Sparse Lightning:** Roll Every 30 Minutes<br>
+&emsp;**Frequent Lightning:** Roll Every 10 Minutes<br>
+&emsp;**Dense Lightning:** Roll Every 1 Minute
+
+
+
+The result of your roll determines whether there is a lightning strike. You can determine what result is needed based on how much of the storm is centered on the players' location. Below are some suggested ranges.
+
+| Proximity of Storm  | Result Needed for Lighting to Strike In Area |
+|:---:|:-----------:|
+|  Distant  | 16+ |
+|  Nearby  | 11+ |
+|  Centered on Players  | 6+ |
+
+
+
+\columnbreak
+
+If the lightning is striking in their proximity, each player rolls a d20, and you roll a d20 for each NPC creature. Creatures who roll low enough based on their size are potential targets for lightning. Creatures wearing metal, wielding large metal objects, or in bodies of water have disadvantage on this roll. Creatures who are prone and not in bodies of water have advantage. 
+
+You can use the table below to determine who is a target for the lightning strike.
+
+##### Lighting Strike Check Table
+| Creature Size  | Result Needed to Be Struck |
+|:---:|:-----------:|
+|  Tiny  | 1 |
+|  Small  | 5 or Less |
+|  Medium  | 10 or Less |
+|  Large  | 14 or Less |
+|  Huge  | 17 or Less |
+|  Gargantuan  | 19 or Less |
+
+
+If multiple creatures roll low enough to be struck, the tallest creature among them is struck. This height includes standing on an elevated surface.
+
+If no creature rolls the result needed to be struck, the lightning strikes a surface nearby in a flash of light accompanied by a resounding boom, warning everyone of the near miss they just had.
+
+If a creature is struck by lightning, it takes 3d10 lightning damage, and each creature in a 15-foot cube centered on the struck creature is subjected to the effects of the *thunderwave* spell (DC 15).
+
+<img src='https://i.ibb.co/Nrdg2M5/lightning-storm.jpg' style='position:absolute; bottom:0px; right:-0px; width:816px;transform:scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-66px;bottom:40px; transform:rotate(9deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Rain, Snow, or Hail 
+Heavy precipitation, such as rain and snow, is described on page 110 of the DMG. However, hail storms are also more likely in mountainous environments, and if you wish to add them as a possible hazard, you can use the following mechanics to represent them.
+
+##### Hail
+
+Each creature out in the open of a hail storm at the start of its turn must make Constitution save. Creatures not wearing armor have disadvantage on this save, and creatures wearing heavy armor have advantage. A creature takes an amount of bludgeoning and cold damage determined by the size of the hail on a failed save, and half as much damage on a success.
+
+
+|      Hail Size      | Hail Save DC |  Damage |  
+|:--------------------:|:--------------------:|:--------------------:|
+|           Modest (Grape-Sized)         |         10      |        1d6 Bludgeoning & 1d4 Cold           | 
+|           Large  (Orange-Sized)       |         15         |          2d6 Bludgeoning & 2d4 Cold          | 
+|           Huge (Coconut-Sized)        |         20         |           3d6 Bludgeoning & 3d4 Cold    |   
+|           Massive (Melon-Sized)        |         25         |           4d6 Bludgeoning & 4d4 Cold    |   
+|           Supernatural  (Large Watermelon-Sized)       |         30         |           5d6 Bludgeoning & 5d4 Cold    |   
+
+You can have hail storms appear when you feel it fits the game or roll for them to randomly replace other types of precipitation 1/6th of the time.
+
+#### Winds
+Rules for strong winds are described on page 110 of the DMG. If you wish to make your winds particularly hazardous, you can modify them in the following ways; the save DCs and severity of the effects these winds have are determined by the Wind Severity table.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+##### Extreme Cold
+This wind carries a chill that cuts to the core. For every 1 minute a creature without cold resistance spends in the wind, it must make a Constitution save. On a failure, the creature takes an amount of cold damage dependent on the severity of the cold, and on a pass, it takes half as much damage. Creatures with insulating fur or clothing have advantage on this save.
+
+##### Sudden Gusts
+This wind will unexpectedly pick up gusts capable of bowling over creatures. At the start of every round of combat with this wind, roll 1d6. On a result of 5 or 6, all creatures not behind at least half cover are subjected to the effects of the *gust of wind* spell, except the distance they are moved on a failed save is dependent on the severity of the wind. 
+
+If the players aren't in combat, this wind will greatly hamper travel for those not behind cover and make traveling near ledges very dangerous. If players are traveling for an extended period of time through an open area subjected to sudden gusts, have each of them make a Strength save for each hour of travel. On a success, they are able to push through the winds, and on a failure, they treat the terrain areas as though it's rough terrain while they struggle to fight against the winds. If the terrain is already rough terrain, creatures can only move through it at 1/4th the speed. 
+
+##### Wind Severity
+|      Wind Severity      | Wind Save DC |  Cold Damage |  Gust Push Distance | 
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|           Mild         |         10      |        1d8          |         5ft.          | 
+|           Moderate         |         15         |          2d8          |         5ft.          | 
+|           Intense         |         20         |           4d8    |        10ft.          | 
+|           Extreme         |         25          |        6d8          |         10ft.          |
+|           Supernatural         |         30         |        8d8         |         15ft.          |
+
+<img src='https://i.ibb.co/YPvTYWV/cover-of-winter.png' style='position:absolute; top:-90px; right:-0px; width:818px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:75px; right:30px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(8deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:125px; right:-70px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+\pagebreakNum
+
+
+
+## Example Random Encounter Tables
+The following are different mountain environments across varying levels of gameplay, complete with random encounter tables you can use when the players are traversing them.  You can plug these right into your games, modify them to better suit your campaign, or simply use them as inspiration for creating and running your own river encounters.
+
+Each mountain range has a DC determining its foraging difficulty and an activity level suggesting how often to roll for a random encounter.  Creature names with asterisks have new stat blocks listed at the end of the document. There is also some information on the types of weather events likely to happen in these environments and what their DC range should be.
+
+Not every encounter is meant to be a fight the players should be forced into. If the players are on the lower end of the level range, some of the encounters might be overwhelming for them, and they should have the option to attempt to avoid combat through other interactions, hiding, or fleeing. You can avoid encounters that seem like they wouldn't fit the current situation or modify them as needed.
+
+### Howling Ridge (Level 1-4)
+**Activity Level:** 1 Encounter per 4 Hrs. of Travel <br>
+**Foraging DC:** 20 <br>
+**Navigation DC:** 10 (15 without roads or markers) <br>
+**Weather:** Any weather events from the Weather hazard section, except use the Afternoon tables when rolling during Evening and Night. Save DCs for weather events can range from 10-15.
+
+This mountain passed was once considered relatively safe and well-traveled. The paths through it are well-worn and marked to make the pass as navigable as possible. However, things took a turn for the worst when a werewolf pack moved into the area and, over the course of just a few nights, slaughtered an entire convoy of settlers making their way through the pass to start a new life on the other side. This act of brutality cursed the mountain ridge and earned it its new name. Since then, the pack has mostly disbanded into lone werewolves or, at most, very small packs who continue to stalk the mountain paths for foolhardy travelers. The mountain's curse ensures that those who die here can find no peace, and the pass is filled with roaming undead who occasionally even attempt to enact vengeance against the murderous werewolves.
+
+
+
+##### Howling Ridge Encounters
+| &emsp;&emsp;&emsp;d100  | Encounter     | 
+|:---:|:-------------:|
+| 1-4  | Size 1 Avalanche or Rockslide     |
+| 5-6  | Size 2 Avalanche or Rockslide  | 
+| 7-8  | Size 1 Falling Debris    | 
+| 9-10  | Size 2 Falling Debris   |
+| 11-15  | A Small Fall Hidden by Fog or Snow (DC 15 to Spot)      |
+
+\columnbreak
+
+
+
+| &emsp;&emsp;&emsp;d100 | Encounter     | 
+|:---:|:-------------:|
+| 16-17 | A Medium Fall by Fog or Snow (DC 10 to Spot)   |
+| 18-19| 1d8 + 1 **mountain goats**   |
+| 20-21| 1d4 + 2 **bighorn sheep**    |
+| 22-23| 2 **dire bighorn sheep**   |
+| 24-25| 1d4 + 2 **wolves**   |
+| 26-27| 2 **dire wolves**  |
+| 29-30| 1 **werewolf loner**    |
+| 31-32| 1 **werewolf packmate** + 2 **wolves** feeding on the remains of some mountain goats |
+| 33-34| 1d3 **specters**  |
+| 35-36| 1d6 + 2 **zombies**  |
+| 37-38| 1d6 + 2 **skeletons**  |
+| 39-45| A traveling merchant wagon protected by 1d4 + 2 **guards**  |
+| 46-53| A lost traveller (**commoner**)  |
+| 54-58| A seemingly lost traveller (**werewolf loner**)        |
+| 59-67| A roaming hunter (**spy**) with 1d3 + 1 hunting dogs (**mastiffs**)  | 
+| 68-73| The ravaged remains of a cart with blood splatters everywhere, but no bodies present  |
+| 74-79 | 2 **werewolf packmates** fighting off a hoard of 2d6 + 4 **zombies** or **skeletons** |
+| 80-86 | A **revenant** seeking vengeance on the werewolf who slew it    |
+| 87-92 | A mountain stream which flows into a cascading waterfall.      |
+| 94-97 | A hidden werewolf nesting area (DC 18 Perception to spot) which is currently unoccupied and contains loot from past victims, including 2d6x10 gold pieces. If anything is taken, the werewolves will seek out the thieves.   |
+| 98-00 | The entrance to a cave with multiple sets of wolf prints leading into it   |
+
+<img src='https://basiclandart.com/wp-content/uploads/2020/08/isd-259-mountain-paick.jpg' style='position:absolute;bottom:-180px;right:-0px;width:820px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:-40px' />
+
+\pagebreakNum
+
+
+
+### Xiocoatl Peaks (Level 5-10)
+**Activity Level:** 1 Encounter per 4 Hrs. of Travel <br>
+**Foraging DC:** 10 <br>
+**Navigation DC:** 20 <br>
+**Weather:** Any weather events from the Weather hazard section, except use the Afternoon tables when rolling during Evening and Night for Precipitation. Save DCs for weather events can range from 15-20.
+
+These primordial jungle mountains are home to many overgrown temples and roads built by the lizardmen in ages past. The lizardmen recently moved an expeditionary force into these ruins to begin restoring them for reoccupation. Many bands of gorillas who made these ruins their home were driven out in the process. 
+
+Unfortunately for the lizardmen, these apes have deeper ties to the land than they'd realized, and they seemed to have formed into an intelligent fighting force capable of performing hit-and-run attacks against their reptilian foes. The gorilla troops seem to have been unified by a mighty titanic ape that has arisen from its long slumber to lead the simian army against lizardmen.
+
+##### Xiocoatl Peaks Encounters
+| d100 &emsp;&emsp;&emsp;| Encounter     | 
+|:---:|:-------------:|
+| 1-8  | Size 2 Falling Debris    | 
+| 9-10  | Size 3 Falling Debris   |
+| 11-15  | A Small Fall Hidden by Fog (DC 15 to Spot)      |
+| 16-17 | A Medium Fall Hidden by Fog (DC 15 to Spot)   |
+| 18-20| 2d6 **skink cohorts** + 1d6 **skink skirmishers**  |
+| 21-25| 1 **skink chieftain** + 2d4 **skink cohorts** + 1d4 **skink skirmishers**  |
+| 26-27 | 2d4 **saurus warriors**  |
+| 28-30| 2 **saurus warriors** (with the Blessing of the Beast God) riding **cold ones**  |
+| 31-35| 1d4 **saurus warriors** + 2d4 **skink skirmishers**    |
+| 36-40| 1d6 + 1 **cold ones**   |
+| 46-50| 2d12 **chimpanzees** |
+| 41-45| 2d4 **gorillas** |
+| 46-50| 1d6 **gorillas** + 2d6 **chimpanzees** |
+| 51-55| 1 **giant ape** + 1d4 + 1 **chimpanzees**   |
+
+\columnbreak
+
+<br><br><br><br>
+
+| d100 &emsp;&emsp;&emsp;   | Encounter     | 
+|:---:|:-------------:|
+| 56-60| 2 **giant apes**  |
+| 61-65 | 2d10 **condors** feeding on the remains left by an ape vs. lizardmen battle  |
+| 66-69 | 2d8 **agentavis** feeding on the remains left by an ape vs. lizardmen battle   |
+| 70-74 | 2d6 **dread agentavis** feeding on the remains left by an ape vs. lizardmen battle    |
+| 75-78 | A random encounter of lizardmen battling a random encounter of apes    |
+| 79-81 | Treasure hunters (2d6 + 2 **bandits**) hoping to plunders some of the ruins  | 
+| 82-84 | A **skink skirmisher** offering to aid the players if they help it repel an ape attack against one of their holdings   |
+| 85-87 | A **gorilla** trying to lead the players back to its nest so they can aid its troop in fighting off an incoming wave of lizardmen     |
+| 88-90 | A river leading into a mountain pond  |
+| 91-93 | An ancient ruin occupied by apes or lizardmen|
+| 94-96 | 1d4 **swarms of poisonous snakes**   |
+| 94-96 | 2d8 **giant poisonous snakes**   |
+| 94-96 | 1d3 **giant constrictor snakes**   |
+| 97-98 | The **titanic ape** leading an assault against a lizardman temple |
+| 99-00 | An overgrown ruin carved into the mountainside with unknown occupants   |
+
+<img
+src='https://i.ibb.co/RPWHWb1/xln-274-mountain-vitale.png'
+style='position:absolute;top:-190px;left:-00px;width:900px;transform: scaleX(1)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-135px;left:0px;width:916px' />
+
+<div style='margin-top:350px;'></div>
+
+\pagebreak
+
+### The Ashen Crags (Level 11-16)
+**Activity Level:** 1 Encounter per 3 Hrs. of Travel <br>
+**Foraging DC:** 20 <br>
+This river runs through a treacherous mountain valley, with other streams constantly feeding into it.  As the river charts its course through the crags, it forms deadly rapids and massive waterfalls.  These mountains are home to dangerous beasts and once housed a military outpost built atop its highest peak, near the mountain spring, which serves as the river’s source.  The abundance of food and ideally placed keep eventually caught the eye of Shirrys, a red dragon who declared war on the keep’s defenders.  After a long bitter battle, the keep was lost and became her lair. 
+
+Now, Shirrys and her children rule the valley and hunt its inhabitants with impunity.  As a result, few people attempt to traverse it, though soldiers continue to scout the area in hopes of finding a way to retake their mountain holdings.  For those braving the journey, the river provides one of the few reliable ways of navigating the crags without becoming lost and subsequently dragon food.  Those who follow it to its source will find a mountain spring scorched bare by dragon fire and the charred remains of those who challenged the valley’s new ruler.
+
+| &emsp; d100 &emsp;| Encounter     | 
+|:---:|:-------------:|
+| 1-5  |Size 3 Rockslide        |
+| 6-10  | Size 4 Rockslide  | 
+| 11-13  | Size 3 Falling Debris   | 
+| 14-21  | Size 4 Falling Debris     |
+
+
+
+\columnbreak
+
+| d100 &emsp;&emsp;&emsp;| Encounter     | 
+|:---:|:-------------:|
+| 22-25| A Small Fall Hidden by Ash Clouds (DC 15 to Spot)  |
+| 26-27| A Medium Fall Hidden by Ash Clouds (DC 15 to Spot)   |
+| 28-29| 1d10 **fire elementals**   |
+| 30-31| An Expeditionary Force of 1d6 + 1 **chaos dwarf blazing beard warriors** and 1d6 + 1 **chaos dwarf blunderbussiers** |
+| 32-33| An Elite Expeditionary Force of 1d4 + 1 **chaos dwarf infernal guard, axemen** and 1d4 + 1 **chaos dwarf infernal guard, fireglaivadiers**  |
+| 34-35| A squad of 1d8 + 1 **chaos dwarf infernal ironsworn**  |
+| 36-45| 2d4 **hell hounds**   |
+| 46-55 | 1 renegade **infernal destroyer**  |
+| 56-65 | 1 **iron golem** |
+| 66-70| 1d4 **soul grinders** |
+| 71-75| 1 **daemon prince** with the wings enhancement accompanied by a flock of 3d4 **chaos furies** |
+| 76-80| A helplessly lost merchant (**spy**), trying to escape the valley in one piece |
+| 81-82| 1 **young silver dragon** seeking to oppose Shyrris |
+| 83-86| 1d6 **spies** attempting to scout the valley and determine the dragons' whereabouts |
+| 87-89| 2d6 + 2 **veterans** and 3d8 + 5 **guards** attempting to establish a beachhead in the valley |
+| 90-94| Smashed debris from supply wagons floating down the river |
+| 95-97|  1d8 + 3 **veterans** and 2d6 + 4 **guards** attempting to fend off 2d6 + 2 **red dragon wyrmlings** |
+| 98-00|  The mountain keep serving as Shirrys's lair, looming on a peak overhead |
+
+<img src='https://i.pinimg.com/originals/f9/e0/f4/f9e0f40447cca276fd8e732592999861.png' style='position:absolute;left:-240px;bottom:-195px;width:1000px' />
+
+<img
+src='https://www.gmbinder.com/images/VxJ8X1u.png'
+style='position:absolute;bottom:-20px;left:330px;width:860px;transform:scaleY(-1);transform:rotate(200deg)' />
+
+<img
+src='https://www.gmbinder.com/images/VxJ8X1u.png'
+style='position:absolute;bottom:230px;left:-120px;width:850px;transform:scaleY(-1);transform:rotate(160deg)' />
+
+
+
+\pagebreak
+
+### River Styx (Level 17-20)
+**Activity Rating:** 1 Encounter per 3 Hrs. of Travel <br>
+**Foraging DC:** 25 (Disadvantage unless *remove curse* spell is used while foraging)<br>
+This legendary river crosses the lower planes of the multiverse, linking together multiple underworlds and serving as a common mode of transportation for fiends.  Those who drink from its waters are said to lose all memory of their past lives, and lost souls, as well as other underworld creatures, can often be found crossing its waters. 
+
+A creature that drinks from the Styx or enters its waters is targeted by a *feeblemind* spell (save DC 20).  A creature must repeat the saving throw whenever it starts its turn in the river until it fails the save.  A feebleminded creature can drink from the Styx and swim in its waters without suffering any additional effects.
+If a creature fails its saving throw and remains under the spell's effect for 30 consecutive days, the effect becomes permanent (no save) and the creature loses all its memories, becoming a near-mindless shell of its former self.  At that point, nothing short of a *wish* spell or divine intervention can undo the effect.
+
+
+| d100 &emsp;&emsp;&emsp; | Encounter     | 
+|:---:|:-------------:|
+| 1-4  | River rapids, in the form of grasping spectral hands, with a DC 20.  Damage from these rapids deals an additional 5d6 necrotic damage     |
+| 5-8  | River rapids, in the form of grasping spectral hands, with a DC 25.  Damage from these rapids deals an additional 8d6 necrotic damage  | 
+| 9-12 | Massive skeletal remains blocking river passage for miles   | 
+| 13-16  | A waterfall 1d8 x 10 feet tall   |
+| 17-20  | A waterfall 3d10 x 10 feet tall that crosses into another lower plane    |
+
+| d100 &emsp;&emsp;&emsp; | Encounter     | 
+|:---:|:-------------:|
+| 21-24 | 3 **night hags** in a coven and 2d6 **wights**  |
+| 25-28| 2d10 **wraiths**  |
+| 29-32| 1 **death knight** with 2d4 + 2 **wights**   |
+| 33-36 | A **demilich**   |
+| 37-40 | A **lich**   |
+| 41-44| 1 greater demon  (**goristro** or **marilith**) accompanied by 2d4 lesser demons (**barlguras**, **shadow demons**, or **vrocks**)   |
+| 45-48| 2d6 + 1 **hezrou**, **yochlol**, or **glabrezu** demons   |
+| 49-52| 1d3 **nalfeshnee** demons  |
+| 53-56| 2d10 + 3 **barlguras**, **shadow demons**, or **vrocks** |
+| 57-60|  1 **balor** |
+| 61-64| 1d4 **ice devils** leading 2d4 **barbed devils**  |
+| 65-68| 2d6 + 1 **erinyes**  |
+| 69-72| 2d6 + 2 **chain devils**  |
+| 73-76| 1d4 + 1 devil commanders (**bone devils** or **horned devils**) leading a unit of 3d6 + 3 **bearded devils** |
+| 77-80| 1 **pit fiend** |
+| 81-84| 1 yugoloth commander (**arcanaloth** or **ultroloth**) leading 2d6 + 2 **mezzoloths** |
+| 85-88| 2d10 **mezzoloths** |
+| 89-92| 2d6 + 2 **nycaloths** |
+| 93-96|  A battle between devils and demons.  Pick results from this table to determine the composition of each side. Demons: 41-60.  Devils: 61-80. |
+| 97-00|  A **ghost** seeking help escaping  the lower planes |
+
+
+
+
+<img src='https://i.ibb.co/yqS31sL/styx-river-wesley-burt.jpg' style='position:absolute; top:420px; right:-180px; width:1100px' />
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-190px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+## New River Animal Stats
+
+___
+> ## Crocodile
+>*Large beast, unaligned*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 37 (5d10 + 10)
+> - **Speed** 20 ft., swim 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|12 (+1)|14 (+2)|3 (-4)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Perception +4, Stealth +3
+> - **Senses** darkvision 30 ft., passive Perception 14
+> - **Languages** ━
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +2
+> ___
+> ***Hold Breath.*** The crocodile can hold its breath for 15 minutes.
+>
+> ***Watery Lurker.*** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. 
+>
+> ***Death Roll.*** One creature the crocodile has grappled in the water must make a DC 14 Strength saving throw, taking 17 (4d6 + 3) piercing damage on a failed save or half as much damage on a successful one.
+
+\columnbreak
+___
+> ## Deinosuchus
+>*Huge beast, unaligned*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 126 (12d12 + 48)
+> - **Speed** 30 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|25 (+7)|9 (-1)|18 (+4)|3 (-4)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Stealth +2, Perception +5
+> - **Senses** darkvision 30 ft., passive Perception 15
+> - **Languages** ━
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp;&nbsp; **Proficiency Bonus** +3
+> ___
+> ***Hold Breath.*** The deinosuchus can hold its breath for 15 minutes.
+>
+> ***Watery Lurker.*** The deinosuchus has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
+> ### Actions
+> ***Multiattack.*** The deinosuchus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 34 (5d10 + 7) piercing damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the deinosuchus can't bite another target.
+>
+> ***Tail.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target not grappled by the deinosuchus. Hit: 20 (3d8 + 7) bludgeoning damage.
+>
+> ***Death Roll.*** One creature the deinosuchus has grappled in the water must make a DC 18 Strength saving throw, taking 67 (11d10 + 7) piercing damage on a failed save or half as much damage on a successful one.
+
+<img src='https://www.hipstersofthecoast.com/wp-content/uploads/2019/04/1.Wardscale-Final.jpg' style='position:absolute;left:-120px;bottom:-70px;width:650px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-160px; right:100px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:90px; right:-380px; width:850px; transform:rotate(90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreak
+
+
+___
+> ## Giant Crocodile
+>*Huge beast, unaligned*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 85 (9d12 + 27)
+> - **Speed** 20 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|10 (+0)|17 (+3)|3 (-4)|14 (+2)|5 (-3)|
+>___
+> - **Skills** Perception +5, Stealth +3 
+> - **Senses** darkvision 30 ft., passive Perception 15
+> - **Languages** ━
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&ensp;&nbsp; **Proficiency Bonus** +3
+> ___
+> ***Hold Breath.*** The crocodile can hold its breath for 15 minutes.
+>
+> ***Watery Lurker.*** The crocodile has advantage on Dexterity (Stealth) checks while submerged in water.
+> 
+> ### Actions
+> ***Multiattack.*** The crocodile makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 22 (3d10 + 6) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. 
+>
+> ***Tail.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target not grappled by the crocodile. *Hit:* 15 (2d8 + 6) bludgeoning damage.
+>
+> ***Death Roll.*** One creature the crocodile has grappled in the water must make a DC 17 Strength saving throw, taking 44 (7d10 + 6) piercing damage on a failed save or half as much damage on a successful one.  
+
+\columnbreak
+___
+> ## Giant River Otter
+>*Small beast, unaligned*
+> ___
+> - **Armor Class** 12
+> - **Hit Points** 4 (1d6 + 1)
+> - **Speed** 20 ft., swim 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|8 (-1)|14 (+2)|12 (+1)|6 (-2)|12 (+1)|6 (-2)|
+>___
+> - **Skills** Perception +3 
+> - **Senses** darkvision 30 ft., passive Perception 13
+> - **Languages** ━
+> - **Challenge** 1/8 (25 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> ***Hold Breath.*** The otter can hold its breath for 8 minutes.
+>
+> ***Keen Sight.*** The otter has advantage on Wisdom (Perception) checks that rely on sight.
+>
+> ***Pack Tactics.*** The otter has advantage on an attack roll against a creature if at least one of the otter's allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage. 
+
+<img src='https://i.ibb.co/3fX4Nxg/giant-crocodile.jpg' style='position:absolute; bottom:-140px; right:-64px; width:880px; transform:scaleX(-1);'/>
+
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:70px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:120px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+\pagebreak
+
+___
+> ## Hippopotamus
+>*Large beast, unaligned*
+> ___
+> - **Armor Class** 14 (natural Armor)
+> - **Hit Points** 76 (8d10 + 32)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|21 (+5)|8 (-1)|18 (+4)|4 (-3)|12 (+1)|7 (-2)|
+>___
+> - **Skills** Intimidation +7 
+> - **Senses** darkvision 30 ft., passive Perception 11
+> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +2
+> ___
+> ***Blood Sweat.*** The hippopotamus has advantage on saving throws against disease. 
+>
+> ***Dense.*** The hippopotamus can move along the ground while underwater without having its movement speed reduced and does not suffer disadvantage on its bite attack while underwater.
+>
+>  ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) piercing damage. 
+>
+> ### Bonus Actions
+> ***Aggressive.*** The hippopotamus moves up to its speed toward a hostile creature that it can see.
+
+<br>
+
+### Art Credit
+* Seek the Wilds - Anna Steinbauer, Wizards of the Coast
+* Ride the Avalanche - Andrew Mar, Wizards of the Coast
+* Sudden Demise - Dan Scott, Wizards of the Coast
+* A Storm in the Rocky Mountains, Mt. Rosalie - Albert Bierstadt
+* Lightning Storm - Luca Zontini, Wizards of the Coast
+* Cover of Winter - Wayne Reynolds, Wizards of the Coast
+* 
+
+
+
+\pagebreak
+
+#### 1.0.0 Changes
+ * Public Release
+
+#### 1.1.0 Changes
+ * Revised document
+ * Updated all creature statblock references
+
+#### 1.1.1 Changes
+* Replace Loblolly River art
+
+\columnbreak
+
+### Referenced Documents
+* Crocodilians 1.1.3
+* Hippopotamus 1.1.0
+* Otters 1.1.0
+
