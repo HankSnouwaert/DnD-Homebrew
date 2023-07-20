@@ -1,0 +1,146 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+# Two-Creature Weapons
+Some weapons are so massive they require two creatures to move and operate them effectively. These weapons may be oversized firearms, large incendiary devices, or unwieldy melee weapons such as large drills. 
+
+## Two-Creature Weapon Rules
+Two-creature weapons require at least two creatures to operate them, and they come with the following additional considerations:
+
+
+### The Weapons Team
+The two creatures operating a two-creature weapon are known as the weapons team. The weapons team consists of a leader and a follower. Only one creature can be assigned to each role, and they cannot switch roles once assigned, even if one of the roles becomes vacant, unless they leave the weapons team and rejoin.
+
+#### Joining a Weapons Team
+
+Joining a two-creature weapons team costs a creature's action and half of its movement as it equips its part of the weapon. If one creature is already part of the weapons team, it may use its reaction to make an opportunity attack against the creature joining the team. Leaving a weapon team requires no action as the creature drops its part of the weapon.
+
+A creature must have both hands available to be on a weapons team and can't pick anything else up without dropping its part of the weapon.
+
+The creatures within a weapons team must stay within 5 feet of each other and the weapon at all times. If one of them is ever more than 5 feet away from the weapon or the other team member, it is no longer part of the team. 
+
+#### Moving Two-Creature Weapons
+The follower can no longer move on its turn except to leave the weapons team. The leader's speed becomes equal to the lowest speed among the creatures on the weapons team. Whenever the leader moves, it can choose to move the follower along with it if the follower is willing, even when the leader is moved against its will. 
+
+#### Stealth
+While part of a weapons team, a creature has disadvantage on Dexterity (Stealth) checks. Additionally, activating a two-creature weapon reveals the weapons team's location if they are hidden.
+
+\columnbreak
+
+### Repairing Weapons
+If a weapon has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the required tools. If the check succeeds, the weapon regains 2d4 + the creature's Intelligence modifier + the creature's proficiency bonus hit points. If the check fails, the weapon does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+
+\pagebreakNum
+
+## Two-Creature Weapon Attributes
+In addition to the common attributes of size, weight, AC, HP, and damage immunity, these weapons have the following additional attributes and considerations:
+
+### Hit Points 
+A weapon has hit points that can be restored through repairs. When its hit points reach 0, the weapon becomes inoperative and irreparably damaged.
+
+### Weapon DC 
+The weapon's DC is used whenever a creature needs to make a check for fixing mishaps, when a creature is repairing the weapon, or the weapon forces a creature to make a saving throw.
+
+### Challenge Rating
+When players face enemies equipped with fully functioning two-creature weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
+
+### Ammo / Fuel
+Weapons may require ammunition, such as bullets, or fuel, such as flammable chemicals, to make attacks. This part of the stat block includes the cost of the ammo and the number of charges it has, which represents the number of times the weapon can be used before it needs to be reloaded.
+
+### Actions station
+By default, weapons can have three different functions, which can each be activated as an action by creatures on their weapons teams. The Load and Crank functions can be activated by the follower, and the Fire function can be activated by the leader. Each function can only be activated once per round. 
+
+#### Load
+This function is used by the follower to reload the weapon's ammunition up to its full capacity. It requires the follower to have the weapon's ammunition in hand, and creatures can use their reaction to make opportunity attacks against it. If a creature hits the follower this way, it drops the ammo and wastes its action.
+
+#### Crank
+Not all weapons have this function. If a weapon does, it must be activated by the follower before each use of the Fire function to move the ammo or fuel through the weapon.
+
+\columnbreak
+
+#### Fire
+The function is activated by the leader to fire the weapon. When this function is activated, but before its effect occurs, roll to see if a Mishap occurs. If a Mishap occurs, its effects happen before the effects of the Fire. This function can't be used if the weapon is out of ammo or if the weapon has a Crank function that hasn't been used since the weapon was last loaded or fired.
+
+### Mishaps
+Mishaps represent the weapon experiencing a significant malfunction. There is always a risk of this when firing the weapon, and some weapons have other circumstances that risk a mishap. Whenever this risk occurs, roll a d6. On a result of 1, a Mishap occurs, and the creature who triggered it must roll on the weapon's Mishap Table to determine the nature of this malfunction (see the Mishap Table section).
+
+If the weapon has less than half its hit points, roll 2d6 and take the lowest result when checking for a mishap. 
+
+Unless stated otherwise, you must always check for a mishap when activating the Fire function.
+
+### Passive Traits
+This section describes any traits of the weapon has that don't require actions to utilize.
+
+### Mishaps table
+Most weapons have a Mishaps Table, which describes different ways their functionality can go awry under adverse conditions. When certain abilities or conditions dictate, roll on this Mishap Table.
+
+A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+\pagebreakNum
+
+
+___
+> ## Ratling Gun
+> *medium two-creature weapon (90 lb.)*
+> ___
+> - **Armor Class** 14 
+> - **Hit Points**  40
+>___
+> - **Weapon DC** 15
+> - **Damage Immunities** poison, psychic,
+> - **Challenge** 3 (10,000 XP)
+> - **Ammo** Warp Ammo Belt (18, 200g).
+> ___
+>
+> ### Action Stations
+>
+> ***Load. (follower station).*** Ratling Gun is loaded with a Warp Ammo Belt.
+>
+> ***Crank. (follower station).*** Team member Cranks the Ratling Gun.
+>
+> ***Fire! (leader station).*** Team leader chooses a target with in 200 feet of it, the target must make a DC 15 dexterity saving throw for each time it has been targeted. On a failed save, it takes 13 (2d12) piercing damage plus 7 (2d6) radiant damage. The Team leader can choose to Fire! weapon again with the same action immediately, it can repeat this up to 6 times, it spends additional Ammo for shot it fires stopping if their is no ammo left, it must also roll to see if it has a Mishap for each shot, rolling additional dice for each time it has been fired beyond the first.
+
+##### Ratling Gun Table
+| d6  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-------------------------:| :-----------------:|
+| 1    | Slam! | The weapon has a critical failure, it does not Fire! and, each creature with in 10 feet must make DC dexterity saving throw or take 26 (4d12) piercing damage plus 14 (4d6) radiant damage| none
+| 2-3    | Bbbbrrrrrttt! | Creatures that fail their saving throws against the Fire! ability take only half damage | Str
+| 4-5    | Feeew! | The Ratling Gun does not Fire! It also can no longer fire more the one shot per turn. |Str
+| 6    | Jam. | The weapons does not Fire! and the weapons actions can't be used until this mishap ends. | Str
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
