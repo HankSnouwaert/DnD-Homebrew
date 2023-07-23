@@ -280,12 +280,12 @@ ___
 |:----:|:---------------------:| :-----------------:| :-----------------:|
 | 1    | Chemical Explosion |The weapon has a critical failure, does not fire, and is destroyed in an explosion. Each creature within 15 feet of it must make a DC Dexterity saving throw, taking 20 (8d4) piercing damage on a failed save, or half as much damage on a successful one. Any ammunition loaded in the weapon shatters at the point of the team leader.| none
 | 2-3 &emsp;&emsp;    | Gas Leak | Any creature that starts its turn as part of the weapons team is poisoned until the start of its next turn. While poisoned this way, it can't take reactions and, on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. | Dex
-| 4-5    | Damaged Propulsion | The range of the Fire function is reduced by 100 feet. This mishap can occur multiple times, and a single successful repair check ends all occurances.  | Str
+| 4-5    | Damaged Propulsion | The range of the Fire function is reduced by 100 feet. This mishap can occur multiple times, and a single successful repair check ends all occurrences.  | Str
 | 6    | Clogged |The weapon's functions can't be used until this mishap ends. | Str
 
 ### Poisoned Wind Mortar Upgrades
 
-You can apply any of the following upgrades to a Poisoned Wind Mortor. Doing so increases its CR by 1 per upgrade applied.
+You can apply any of the following upgrades to a Poisoned Wind Mortar. Doing so increases its CR by 1 per upgrade applied.
 
 * **Acid Blast.** When the weapon's ammo shatter at a point, each creature within 15 feet of the point must make the Dexterity saving throw against the weapon's save DC. A creature takes 7 (3d4) acid damage on a failed save and half as much damage on a successful one. (The orb still releases its gas cloud as usual.)
 
@@ -314,9 +314,166 @@ ___
 >
 > ### Actions
 >
-> ***Load. (Follower Action).*** The death mortar is loaded with a Death Mortar Globe. If the follower drops the globe while trying to load it this way, the globe shatters at the follower's location.
+> ***Load (Follower Action).*** The death mortar is loaded with a Death Mortar Globe. If the follower drops the globe while trying to load it this way, the globe shatters at the follower's location.
 >
 > ***Fire (Leader Action).*** The leader targets a point within 300 feet of it that it can see and launches a Death Mortor Globe at that location. Each creature within 5 feet of that point is showered in broken glass from the globe and must make a DC 17 Dexterity saving throw, taking 12 (6d4) piercing damage on a failed save, or half as much damage on a successful one. The Death Mortar Globe shatters at the point
+
+\pagebreakNum
+
+___
+> ## Warpfire Thrower
+> *medium two-creature weapon (85 lb.)*
+> ___
+> - **Armor Class** 16 
+> - **Hit Points**  60
+>___
+> - **Weapon DC** 15
+> - **Damage Immunities** poison, psychic
+> - **Challenge** 3 (700 XP)
+> - **Ammo** Warp Fuel (10 rounds, 500g).
+> ___
+>
+> ### Functions
+>
+> ***Load (Follower Action).*** The warpfire thrower is loaded with Warp Fuel.
+>
+> ***Crank (Follower Action).*** The warpfire thrower is cranked so it can be fired. The follower can choose to override safety protocol while doing this. If the safety protocol is overridden, the next time there is a roll to check for a weapon Mishap, an extra dice is rolled. 
+>
+> ***Fire (Leader Action).*** The weapon lets a loses a torrent of fire in a 20-foot cone pointing in the direction the leader is facing. If the safety protocol has been overridden, it is a 40-foot cone instead. Each creature in the cone must make a DC 15 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much damage on a successful one.
+
+##### Warpfire Thrower Mishap Table
+| d6  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1    | Whompfff! |The weapon has a critical failure, does not fire, and is destroyed in an explosion. Each creature within 15 feet of the weapon is subjected to the effects of its Fire function. | None
+| 2-3 &emsp;&emsp;    | Fuel Rupture | When the Fire function is used, the weapon and each member of the weapons team take 13 (3d8) fire damage. | Str
+| 4-5    | Damaged Fuel Pump |The weapon's Fire function deals 9 (2d8) less damage until the mishap ends. This mishap can occur multiple times, and a single successful repair check ends all occurrences. | Str
+| 6    | Clogged | The weapon's functions can't be used until this mishap ends. | Dex
+
+\columnbreak
+
+### Warpfire Thrower Upgrades
+
+You can apply any of the following upgrades to a Poisoned Wind Mortar. Doing so increases its CR by 1 per upgrade applied.
+
+**Self-Destruct Mechanism.** The team follower may use their bonus action to activate the weapon's self-destruction sequence. At the end of that creature's next turn, the weapon is destroyed in an explosion, and every creature within 30 feet of it is subjected to the weapon's Fire function.
+
+**Motorized Pumps.** Each time the warpfire thrower is cranked, it gains a level of heat that lasts until the weapon goes one full round without being cranked. If the safety protocol is overridden, the warpfire thrower gains two levels of heat. The warpfire thrower's Fire function deals an additional 4 (1d8) fire damage for each level of heat, and when checking for a mishap, a mishap occurs if the number rolled on a d6 is equal to or less than the current heat level.
+
+**Warp Napalm.** If a creature or a flammable object fails a saving throw against the weapon's Fire function, it ignites. Until an action is taken to douse the fire, the target suffers 9 (2d8) fire damage at the end of each of its turns.
+
+\pagebreakNum
+
+___
+> ## Warpfire Thrower, Doombringer
+> *medium two-creature weapon (85 lb.)*
+> ___
+> - **Armor Class** 17 
+> - **Hit Points**  120
+>___
+> - **Weapon DC** 17
+> - **Damage Immunities** poison, psychic
+> - **Challenge** 5 (1,800 XP)
+> - **Ammo** Doom Fuel (10 rounds, 1000g).
+> ___
+>
+> ### Action Stations
+>
+> ***Load (Follower Action).*** The warpfire thrower is loaded with Doom Fuel.
+>
+> ***Crank (Follower Action).*** The warpfire thrower is cranked so it can be fired. The follower can choose to override safety protocol while doing this. If the safety protocol is overridden, the next time there is a roll to check for a weapon Mishap, an extra dice is rolled. 
+>
+> ***Fire (Leader Action).*** The weapon lets a loses a torrent of fire in a 20-foot cone pointing in the direction the leader is facing. If the safety protocol has been overridden, it is a 40-foot cone instead. Each creature in the cone must make a DC 17 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one.
+
+\pagebreakNum
+
+___
+> ## Warp-grinder
+> *medium two-creature weapon (85 lb.)*
+> ___
+> - **Armor Class** 15 
+> - **Hit Points**  60
+>___
+> - **Weapon DC** 15
+> - **Damage Immunities** poison, psychic
+> - **Challenge** 3 (700 XP)
+> - **Ammo** Warp Battery (12 rounds, 100g). 
+> ___
+>
+> ***Tunneler.*** The Warp-grinder does not roll to see if it has a Mishap when the Fire function is used.
+>
+> ***Stealth Machine.*** A creature doesn't have disadvantage on Dexterity (Stealth) checks while part of the weapons team, and creatures on the weapons team can traverse or halt in a space large enough to accommodate an object one size smaller than themselves without squeezing. Additionally, using the weapon doesn't reveal the weapons team's position to other creatures they are more than 30 feet away from.
+>
+> ### Functions
+>
+> ***Load (Follower Action).*** The warp-grinder is loaded with a Warp Battery.
+>
+> ***Crank (Follower Action).*** Warp-grinder is cranked so it can be fired. The follower can choose to override safety protocol while doing this. If the safety protocol is overridden, the next time there is a roll to check for a weapon Mishap, an extra dice is rolled. 
+>
+> ***Fire (Leader Action).*** If the team leader is Medium or Small sized, it gains a burrow speed of 15 ft until the end of its turn. It can also burrow through solid rock, leaving a 5-foot-wide, 5-foot-high tunnel in its wake. Once during the leader's turn, while it is part of the weapons team, it may attempt to use the drill against a target within 5 feet of it, forcing the target to make a DC 15 Dexterity saving throw. On a failed save, the target takes 19 (3d12) piercing damage and 13 (4d8) thunder damage, and is knocked prone if it is a creature. Objects and structures take double damage.
+> 
+> If the safety protocol has been overridden, the burrow speed increases to 30 feet, and instead of using the drill against a single target within 5 feet, the leader can target each creature and structure in a 15-foot cube originating from the weapon and touching the ground, forcing them all to make the saving throw agianst the drill's effect. If the ground in that area is made of earth or stone, it becomes difficult terrain until cleared.
+>
+> At the end of the turn, the leader must roll to check for a Mishap.
+
+\columnbreak
+
+##### Warp-grinder Mishap Table
+| d6  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-------------------------:| :-----------------:|
+| 1    | Cave-in! | Any tunnels created by the weapon within 30 feet of its location collapse. Creatures inside these tunnels must make a DC Strength saving throw. On a failed save, a creature takes 36 (8d8) bludgeoning damage and becomes buried. On a successful save, it takes half as much damage but still becomes buried. <br> A buried creature is blinded, restrained, and has total cover. The creature gains 1 level of exhaustion for every 5 minutes it remains buried. It can attempt to dig itself free as an action by making a Strength check, with advantage if it has a burrow speed. <br> On a successful check, the creature is no longer blinded or restrained and can move up to half its speed through the collapsed tunnel area until the end of its turn. However, if it ends its turn within the collapsed tunnel area, it must make the check again or risk becoming buried again. A creature that fails this check three times can no longer attempt to dig itself out. <br> An unburied creature can spend 1 minute freeing a buried creature if it knows approximately where the buried creature is located within the debris. | none
+| 2-3 &emsp;&emsp;    |Broken Shock Absorbers| Until this mishap ends, any creature that starts its turn as a member of the weapons team is knocked prone.| Str
+| 4-5    | Energy Loss | Until this mishap ends, the burrow speed it granted by the Fire function is reduced by 20 feet, and it no longer deals thunder damage to creatures that fail saving throws against its effect. |  Dex
+| 6    | Power Down | The weapon's functions can't be used until this mishap ends. | Str
+
+\pagebreakNum
+
+___
+___
+> ## Warp-Grinder, Earth Ripper
+> *medium two-creature weapon (85 lb.)*
+> ___
+> - **Armor Class** 17 
+> - **Hit Points**  120
+>___
+> - **Weapon DC** 17
+> - **Damage Immunities** poison, psychic
+> - **Challenge** 3 (700 XP)
+> - **Ammo** Warp Core (12 rounds, 200g). 
+> ___
+>
+> ***Tunneler.*** The Warp-grinder does not roll to see if it has a Mishap when the Fire function is used.
+>
+> ***Stealth Machine.*** A creature doesn't have disadvantage on Dexterity (Stealth) checks while part of the weapons team, and creatures on the weapons team can traverse or halt in a space large enough to accommodate an object one size smaller than themselves without squeezing. Additionally, using the weapon doesn't reveal the weapons team's position to other creatures they are more than 30 feet away from.
+>
+> ### Functions
+>
+> ***Load. (follower station).*** The warp-grinder is loaded with a Warp Core.
+>
+> ***Crank (Follower Action).*** Warp-grinder is cranked so it can be fired. The follower can choose to override safety protocol while doing this. If the safety protocol is overridden, the next time there is a roll to check for a weapon Mishap, an extra dice is rolled. 
+>
+> ***Fire (Leader Action).*** If the team leader is Medium or Small sized, it gains a burrow speed of 15 ft until the end of its turn. It can also burrow through solid rock, leaving a 5-foot-wide, 5-foot-high tunnel in its wake. Once during the leader's turn, while it is part of the weapons team, it may attempt to use the drill against a target within 5 feet of it, forcing the target to make a DC 17 Dexterity saving throw. On a failed save, the target takes 26 (4d12) piercing damage and 18 (4d8) thunder damage, and is knocked prone if it is a creature. Objects and structures take double damage.
+> 
+> If the safety protocol has been overridden, the burrow speed increases to 30 feet, and instead of using the drill against a single target within 5 feet, the leader can target each creature and structure in a 15-foot cube originating from the weapon and touching the ground, forcing them all to make the saving throw agianst the drill's effect. If the ground in that area is made of earth or stone, it becomes difficult terrain until cleared.
+>
+> At the end of the turn, the leader must roll to check for a Mishap.
+
+\columnbreak
+
+### Warp-grinder Upgrades
+
+You can apply any of the following upgrades to a Warp-grinder. Doing so increases its CR by 1 per upgrade applied.
+
+
+**Seismic Snare.** When a creature fails the saving throw against the weapon's Fire function and is standing on earth or stone, it becomes buried as it sinks into the ground. A buried creature is restrained. Any creature, including the buried one, can use its action to free the buried creature by succeeding on a Strength check against the weapon's DC. This check has advantage if the creature making it has a burrow speed.
+
+**Emboldening Fumes.** When the Fire function is used, each creature that is part of the weapons team gains 10 temporary hit points at the end of the turn. While a creature has these temporary hit points, it is poisoned and immune to being frightened or charmed. A creature immune to the poisoned condition cannot gain these temporary hit points. If the weapon's safety protocol has been overridden, the team gains 20 temporary hit points instead. If the weapon has a Mishap, they gain 30 temporary hit points instead.
+
+**Warp-Quake.** Whenever a creature fails its saving throw against the weapon's Fire function while standing on difficult terrain created by any warp-grinder within the last minute, it takes an extra 13(2d12) plus 9(2d8) thunder damage.
+
+\pagebreakNum
+
+
+
 
 ### Change Log
 #### 0.0.0
