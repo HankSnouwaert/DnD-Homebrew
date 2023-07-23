@@ -82,7 +82,7 @@ Weapons may require ammunition, such as bullets, or fuel, such as flammable chem
 By default, weapons can have three different functions, which can each be activated as an action by creatures on their weapons teams. The Load and Crank functions can be activated by the follower, and the Fire function can be activated by the leader. Each function can only be activated once per round. 
 
 #### Load
-This function is used by the follower to reload the weapon's ammunition up to its full capacity. It requires the follower to have the weapon's ammunition in hand, and creatures can use their reaction to make opportunity attacks against it. If a creature hits the follower this way, it drops the ammo and wastes its action.
+This function is used by the follower to reload the weapon's ammunition up to its full capacity. It requires the follower to have immediate access to the weapon's ammunition, and creatures can use their reaction to make opportunity attacks against it. If a creature hits the follower this way, it drops the ammo and wastes its action.
 
 #### Crank
 Not all weapons have this function. If a weapon does, it must be activated by the follower before each use of the Fire function to move the ammo or fuel through the weapon.
@@ -119,27 +119,204 @@ ___
 >___
 > - **Weapon DC** 15
 > - **Damage Immunities** poison, psychic,
-> - **Challenge** 3 (10,000 XP)
-> - **Ammo** Warp Ammo Belt (18, 200g).
+> - **Challenge** 3 (5,900 XP)
+> - **Ammo** Warp Ammo Belt (18 rounds, 200g)
 > ___
 >
-> ### Action Stations
+> ### Functions
 >
-> ***Load. (follower station).*** Ratling Gun is loaded with a Warp Ammo Belt.
+> ***Load (Follower Action).*** The ratling gun is loaded with a Warp Ammo Belt.
 >
-> ***Crank. (follower station).*** Team member Cranks the Ratling Gun.
+> ***Crank (Follower Action).*** The ratling gun if cranked so it can be fired.
 >
-> ***Fire! (leader station).*** Team leader chooses a target with in 200 feet of it, the target must make a DC 15 dexterity saving throw for each time it has been targeted. On a failed save, it takes 13 (2d12) piercing damage plus 7 (2d6) radiant damage. The Team leader can choose to Fire! weapon again with the same action immediately, it can repeat this up to 6 times, it spends additional Ammo for shot it fires stopping if their is no ammo left, it must also roll to see if it has a Mishap for each shot, rolling additional dice for each time it has been fired beyond the first.
+> ***Fire (Leader Action).*** The leader picks a target within a 200 feet to fire at. The team leader has the option to immediately fire the weapon again using the same action. This action can be repeated up to 6 times, with each shot consuming additional ammunition. The action ceases if there is no remaining ammo. 
+<br>For each shot fired, the team leader must roll to determine if a mishap occurs. For each shot fired after the first one, the leader must roll a d6 for each shot fired this turn when checking for a mishap (2d6 for the second shot, 3d6 for the third, etc.) If a mishap occurs for any given shot is fired, that mishap must be resolved before more shots can be taken.
+<br> The chosen target must make a DC 15 Dexterity saving throw for each time it has been targeted. For each failed save, the target suffers 13 (2d12) piercing damage and an additional 7 (2d6) radiant damage.
 
-##### Ratling Gun Table
+\columnbreak
+
+##### Ratling Gun Mishap Table
 | d6  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
 |:----:|:---------------------:| :-------------------------:| :-----------------:|
-| 1    | Slam! | The weapon has a critical failure, it does not Fire! and, each creature with in 10 feet must make DC dexterity saving throw or take 26 (4d12) piercing damage plus 14 (4d6) radiant damage| none
-| 2-3    | Bbbbrrrrrttt! | Creatures that fail their saving throws against the Fire! ability take only half damage | Str
-| 4-5    | Feeew! | The Ratling Gun does not Fire! It also can no longer fire more the one shot per turn. |Str
-| 6    | Jam. | The weapons does not Fire! and the weapons actions can't be used until this mishap ends. | Str
+| 1    | Rapid Misfires| The weapon has a critical failure, does not fire, and each creature within 10 feet of it must succeed on a Dexterity saving throw or take 26 (4d12) piercing damage plus 14 (4d6) radiant damage stray bullets fire everywhere.| none
+| 2-3 &emsp;&emsp;    | Dulled Fire | Creatures that fail their saving throws against the weapon's Fire function take only half damage. | Str
+| 4-5    | Stalled Gearing | The weapon does not fire and can no longer fire more than one shot per turn. |Str
+| 6    | Jam | The weapon does not fire, and its functions can't be used until this mishap ends. | Str
+
+### Ratling Gun Upgrades
+
+You can apply any of the following upgrades to a ratling gun. Doing so increases its CR by 1 per upgrade applied.
+
+**Ratling Coolant.** When rolling to check for a mishap with the weapon, you can choose to disregard one of the d6s you roll (if you're only rolling 1d6, you can negate the need to roll.) If the weapon incurs damage that reduces its hit points to half or less, or if a mishap occurs, the coolant bursts. The burst coolant forces each creature within a 10-foot radius of the weapon to make a DC 15 Constitution saving throw, suffering 22 (5d8) cold damage on a failed save and half as much on a successful one. The coolant burst is resolved prior to any Mishaps that triggered this event. Oncet the coolant bursts, the weapon loses this ability until it fully regains its hit points.
+
+**Rot Shots.** Whenever a creature fails a saving throw against the weapon's Fire function, it sustains a wound. At the end of each of the wounded creature's turns, it takes 2 (1d4) necrotic damage per wound. A creature can have multiple wounds simultaneously. Wounds can be healed if the creature regains 10 or more hit points, or if a use of a healer's kit is expended on it. Alternatively, the wounded creature or another creature within 5 feet can make a DC 16 Wisdom (Medicine) check as an action, ending all wounds on a success.
+
+**On-Board Ammo Assembler.** When the follower is using the weapon's Load function, they can choose to salvage parts from an unmanned two-creature weapon or vehicle with a CR of 3 or higher within 5 feet, provided it has at least 30 hit points. Doing so inflicts 30 damage to the salvaged weapon or vehicle. If this reduces the target to 0 hit points, it is dismantled and cannot be used for further salvaging. The follower gains a special ammo belt made from the salvaged parts that lasts for one minute. While using this ammo, the weapon deals an additional 13 (2d12) damage with its Fire function, but the function triggers a Mishap on a roll of 1 or 2 when using this ammo.
+
+
 
 \pagebreakNum
+
+___
+> ## Ratling Gun, Death Dealer
+> *medium two-creature weapon (90 lb.)*
+> ___
+> - **Armor Class** 16
+> - **Hit Points**  80
+>___
+> - **Weapon DC** 17
+> - **Damage Immunities** poison, psychic,
+> - **Challenge** 5 (1,800 XP)
+> - **Ammo** Claw-Crafted Bullets (18 rounds, 400g).
+> ___
+>
+> ### Functions
+>
+> ***Load (Follower Action).*** The ratling gun is loaded with a Claw-Crafted Bullets.
+>
+> ***Crank (Follower Action).*** The ratling gun if cranked so it can be fired.
+> 
+> ***Fire (Leader Action).*** The leader picks a target within a 200 feet to fire at. The team leader has the option to immediately fire the weapon again using the same action. This action can be repeated up to 6 times, with each shot consuming additional ammunition. The action ceases if there is no remaining ammo. 
+<br>For each shot fired, the team leader must roll to determine if a mishap occurs. For each shot fired after the first one, the leader must roll a d6 for each shot fired this turn when checking for a mishap (2d6 for the second shot, 3d6 for the third, etc.) If a mishap occurs for any given shot is fired, that mishap must be resolved before more shots can be taken.
+<br> The chosen target must make a DC 17 Dexterity saving throw for each time it has been targeted. For each failed save, the target suffers 19 (3d12) piercing damage and an additional 7 (2d6) radiant damage.
+
+\pagebreakNum
+
+___
+> ## Warplock Jezzail
+> *medium two-creature weapon (60 lb.)*
+> ___
+> - **Armor Class** 14 
+> - **Hit Points**  40
+>___
+> - **Weapon DC** 15
+> - **Damage Immunities** poison, psychic
+> - **Challenge** 3 (700 XP)
+> - **Ammo** Warp Lead Round (1 round, 50g).
+> ___
+>
+> ***Shielded Gun-Mount.*** Any creature part of the warplock jezzail weapons team gets +2 to its AC.
+>
+> ### Functions
+>
+> ***Load. (Follower Action).*** The warplock jezzail is loaded with a Warp Lead Round.
+>
+> ***Fire (Leader Action).*** The leader fires the weapon at a target of its choice that it can see that's within 400 feet but more than 5 feet away. The target must succeed on a DC 15 Dexterity saving throw or suffer 39 (6d12) piercing damage and 15 (6d4) radiant damage. The target gains advantage on this saving throw if the leader is within 5 feet of a hostile creature or if the target moved during its last turn.
+
+
+
+\columnbreak
+
+##### Warplock Jezzail Mishap Table
+| d6  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1    | Unstable Ammunition |The weapon suffers a critical failure, does not Fire, and is destroyed. The team leader must make Dexterity saving throw as though it was targeted by the weapon's Fire function.  | none
+| 2-3 &emsp;&emsp; | Off Target | Until the end of the round, the Fire function only does half damage to any creature that fails its saving throw against the effect as the shot grazes the target.  | none
+| 4-5    | Wildly off Target | Until the end of the round, the Fire function targets a randomly determined creature within 5 feet of the original target instead of the target. If no creatures are within 5 feet of it, the shot flies past the creature and does nothing | none
+| 6    | Jammed. | The weapon does not Fire, and the weapon's functions can't be used until this mishap ends. | Str
+
+### Warplock Jezzail Upgrades
+
+You can apply any of the following upgrades to a Warplock Jezzail. Doing so increases its CR by 1 per upgrade applied.
+
+**Rat-Eye Scopes.** At the end of the team leader's turn, if they have not moved, they can choose to take aim at a creature within 400 feet that they can see. The leader maintains its aim at the target until the leader moves, or the leader can no longer see the target, or the target moves more than 400 feet away from the team leader. While the leader maintains this aim, the target has disadvantage on saving throws against the weapon's Fire function.
+
+**Sniper Jezzail.** A creature doesn't have disadvantage on Dexterity (Stealth) checks while part of the weapons team, and creatures on the weapons team can traverse or halt in a space large enough to accommodate an object one size smaller than themselves without squeezing. Additionally, using the weapon doesn't reveal the weapons team's position to other creatures they are more than 30 feet away from.
+
+**Embedding Rounds.** When a creature fails a saving throw against the weapon's Fire ability, the bullet embeds in the target for one minute. While embedded, the creature cannot regain hit points, and at the end of each of its turns, it takes 10 (3d6) radiant damage. The target creature or another creature within 5 feet can use an action to make a DC Wisdom (Medicine) check, attempting to extract the bullet. The target creature has disadvantage on this check if it attempts to remove the bullet from itself. On a successful check, the bullet is removed; however, on a failed check, the creature suffers 10 (3d6) radiant damage.
+
+\pagebreakNum
+
+___
+> ## Warplock Jezzail, Eye-Taker
+> *medium two man weapon (60 lb.)*
+> ___
+> - **Armor Class** 17 
+> - **Hit Points**  80
+>___
+> - **Weapon DC** 17
+> - **Damage Immunities** poison, psychic
+> - **Challenge** 5 (1,800 XP)
+> - **Ammo** Craven Rounds (1 round, 100g).
+> ___
+>
+> ***Shielded Gun-Mount.*** Any creature part of the warplock jezzail weapons team gets +2 to its AC.
+>
+> ### Functions
+>
+> ***Load. (Follower Action).*** The warplock jezzail is loaded with a Craven Round.
+>
+> ***Fire (Leader Action).*** The leader fires the weapon at a target of its choice that it can see that's within 400 feet but more than 5 feet away. The target must succeed on a DC 17 Dexterity saving throw or suffer 52 (8d12) piercing damage and 20 (8d4) radiant damage. The target gains advantage on this saving throw if the leader is within 5 feet of a hostile creature or if the target moved during its last turn.
+
+\pagebreakNum
+
+___
+> ## Poisoned Wind Mortar
+> *medium two-creature weapon (85 lb.)*
+> ___
+> - **Armor Class** 15 
+> - **Hit Points**  60
+>___
+> - **Weapon DC** 15
+> - **Damage Immunities** poison, psychic
+> - **Challenge** 3 (700 XP)
+> - **Ammo** Mortar Globe (1 round, 50g).
+> ___
+>
+> ***Mortar Globe*** This weapon fires glass mortar globes filled with poison gas. When a mortar globe shatters, it releases a 15-foot radius sphere of poisonous gas from the point of impact, heavily obscuring the area. This cloud persists for one round or until it is dispersed by a moderate or greater wind (at least 10 miles per hour). 
+>
+> When a creature enters the gas cloud-covered area for the first time on its turn or begins its turn in one or more of these clouds, it must succeed on a DC 15 Constitution saving throw. On a failure, the creature takes 13 (3d8) poison damage and becomes poisoned until the end of its next turn. On a successful save, it takes half as much damage and isn't poisoned.
+>
+> ### Functions
+>
+> ***Load. (Follower Action).*** The poisoned wind mortar is loaded with a Mortar Globe. If the follower drops the globe while trying to load it this way, the globe shatters at the follower's location.
+>
+> ***Fire (Leader Action).*** The leader targets a point within 300 feet of it that it can see and launches a Mortor Globe at that location. Each creature within 5 feet of that point is showered in broken glass from the globe and must make a DC 15 Dexterity saving throw, taking 10 (5d4) piercing damage on a failed save, or half as much damage on a successful one. The mortar globe shatters at the point
+
+\columnbreak
+
+##### Poisoned Wind Mortar Mishap Table
+| d6  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1    | Chemical Explosion |The weapon has a critical failure, does not fire, and is destroyed in an explosion. Each creature within 15 feet of it must make a DC Dexterity saving throw, taking 20 (8d4) piercing damage on a failed save, or half as much damage on a successful one. Any ammunition loaded in the weapon shatters at the point of the team leader.| none
+| 2-3 &emsp;&emsp;    | Gas Leak | Any creature that starts its turn as part of the weapons team is poisoned until the start of its next turn. While poisoned this way, it can't take reactions and, on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. | Dex
+| 4-5    | Damaged Propulsion | The range of the Fire function is reduced by 100 feet. This mishap can occur multiple times, and a single successful repair check ends all occurances.  | Str
+| 6    | Clogged |The weapon's functions can't be used until this mishap ends. | Str
+
+### Poisoned Wind Mortar Upgrades
+
+You can apply any of the following upgrades to a Poisoned Wind Mortor. Doing so increases its CR by 1 per upgrade applied.
+
+* **Acid Blast.** When the weapon's ammo shatter at a point, each creature within 15 feet of the point must make the Dexterity saving throw against the weapon's save DC. A creature takes 7 (3d4) acid damage on a failed save and half as much damage on a successful one. (The orb still releases its gas cloud as usual.)
+
+* **Rot-Spice.** The clouds created by the weapon's ammo deal necrotic damage when shattered instead of poison damage, and creatures poisoned by the gases gain a level of exhaustion.
+
+* **Warp Razors.** When a creature moves into or within the cloud created by the weapon's ammo, it takes 5 (2d4) slashing damage for every 5 feet it travels.
+
+\pagebreakNum
+
+___
+> ## Death Mortar
+> *medium two-creature weapon (85 lb.)*
+> ___
+> - **Armor Class** 17 
+> - **Hit Points**  80
+>___
+> - **Weapon DC** 17
+> - **Damage Immunities** poison, psychic
+> - **Challenge** 5 (1,800 XP)
+> - **Ammo** Death Mortar Globe (1, 100g).
+> ___
+>
+> ***Death Mortar Globe*** This weapon fires glass death mortar globes filled with poison gas. When a death mortar globe shatters, it releases a 15-foot radius sphere of poisonous gas from the point of impact, heavily obscuring the area. This cloud persists for one round or until it is dispersed by a moderate or greater wind (at least 10 miles per hour). 
+>
+> When a creature enters the gas cloud-covered area for the first time on its turn or begins its turn in one or more of these clouds, it must succeed on a DC 17 Constitution saving throw. On a failure, the creature takes 22 (5d8) poison damage and becomes poisoned until the end of its next turn. On a successful save, it takes half as much damage and isn't poisoned.
+>
+> ### Actions
+>
+> ***Load. (Follower Action).*** The death mortar is loaded with a Death Mortar Globe. If the follower drops the globe while trying to load it this way, the globe shatters at the follower's location.
+>
+> ***Fire (Leader Action).*** The leader targets a point within 300 feet of it that it can see and launches a Death Mortor Globe at that location. Each creature within 5 feet of that point is showered in broken glass from the globe and must make a DC 17 Dexterity saving throw, taking 12 (6d4) piercing damage on a failed save, or half as much damage on a successful one. The Death Mortar Globe shatters at the point
 
 ### Change Log
 #### 0.0.0
