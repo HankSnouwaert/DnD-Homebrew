@@ -1,0 +1,119 @@
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#  Siege Weapons
+These weapons have been engineered for large-scale warfare against enemy armies and settlements. What sets them apart from other weapons is their size and the number of creatures required to operate them effectively (generally more than two). These weapons range from highly sophisticated cannons and rocket launchers to crude catapults and giant slingshots. Regardless of their form, they are all large enough that moving them is a slow process and labor-intensive enough to use that they require a team of creatures to operate them effectively.
+
+## Repairing Weapons
+If a weapon has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the required tools. If the check succeeds, the weapon regains 2d4 + the creature's Intelligence modifier + the creature's proficiency bonus hit points. If the check fails, the weapon does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+\columnbreak
+
+## Siege Weapon Attributes
+In addition to the common attributes of size, weight, AC, HP, and damage immunity, these weapons have the following additional attributes and considerations:
+
+### Hit Points 
+A weapon has hit points that can be restored through repairs. When its hit points reach 0, the weapon becomes inoperative and irreparably damaged. 
+
+Many weapons have a damage threshold. Any source of damage less than this threshold only inflicts superficial damage and doesn't lower the weapon's hit points.
+
+### Weapon DC 
+The weapon's DC is used whenever a creature makes a check to fix mishaps, when a creature is repairing the weapon, or the weapon forces a creature to make a saving throw.
+
+### Challenge Rating
+When players face enemies equipped with fully functioning siege weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
+
+\pagebreakNum
+
+
+
+### Ammo / Fuel
+Weapons may require ammunition, such as bullets, or fuel, such as flammable chemicals, to make attacks. This part of the stat block includes the cost of the ammo and the number of charges it has, which represents the number of times the weapon can be used before it needs to be reloaded.
+
+### Functions
+By default, siege weapons have three different functions, which can each be activated as an action by its operators: Prep, Load, and Fire. Each function can only be performed once per round unless it states otherwise. Creatures within reach of a creature performing one of these functions can make opportunity attacks against them.
+
+#### Prep
+Siege weapons need to be prepped in different ways between being fired. This preparation could be cranking a ballista or cleaning the barrel of a cannon. Many siege weapons have multiple Prep functions that must be performed before they can be used again. In these cases, the different Prep actions can be done by different creatures within the same round. Unless stated otherwise, all the Prep functions must be completed before the weapon can be loaded.
+
+#### Load
+This function is used to reload the weapon's ammunition up to its full capacity. It requires the creature loading it to have immediate access to the weapon's ammunition. If a creature doing the loading is hit by an opportunity it provoked by doing this, it drops the ammo and wastes its action.
+
+#### Fire
+This function is used to aim and fire the weapon at a target chosen by the creature performing the function.
+
+### Passive Traits
+This section describes any traits of the weapon has that don't require actions to utilize.
+
+### Mishaps table
+Some weapons can suffer a malfunction when certain functions are used. When such an event occurs, it will suffer a mishap and need to roll on its Mishap Table to determine what adverse effect it suffers. 
+
+A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+\pagebreak
+
+___
+> ## Warp Lightning Cannon 
+> *Huge siege weapon (8,500 pounds lb.)*
+> ___
+> - **Armor Class** 18 
+> - **Hit Points** 150 (damage threshold: 10)
+>___
+> - **Damage Immunities** poison, psychic
+> - **Ammo** Warp Lighting Core (6 rounds, 1,000g).
+> - **Challenge** 6 (2,300 XP)
+> ___
+>
+> ### Functions
+>
+> ***Load.*** The weapon is loaded with a Warp Lightning Core. This must be done before it is prepped.
+>
+> ***Prep (2)*** The weapon is prepped to fire its next shot. This prep must be done while it is loaded. It must be prepped two times before it can fire.
+>
+>
+> ***Fire.*** The weapon fires a line of lightning that forms a line 4d4 x 10 feet long and 5 feet wide, which blasts out from it in the direction of user's choice. Each creature in the line must make a DC 17 Dexterity saving throw. A creature takes 36 (8d8) lightning damage on a failed save, or half as much damage on a successful one. The lightning ignites flammable objects in the area that aren't being worn or carried. If three or more of the d4s rolled have the same number, the weapon has a mishap. If it has half its health or less, it has a mishap if two or more d4s roll the same number. If a mishap occurs, resolve it before having the weapon fire.
+
+
+##### Warp Lightning Mishaps
+| d6  |    Mishap Name               | Mishap Effect             | 
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1   | Meltdown | The cannon explodes, preventing it from firing and destroying it. Each creature within 15 feet of it must succeed on a Dexterity saving throw or take 21 (6d8) priercing damage plus 21 (6d8) radiant damage  |
+| 2-3 &emsp;&emsp;   | Electrical Feedback | The cannon takes 71 (8d8) + 35) lightning damage.|
+| 4-5    | Sputtering Fizzle | The cannon does not fire and must be fully prepped again before it can be fired.|
+| 6    | Energy Overload | Unfathomable energies send the cannon spinning wildly. The cannon fires in a random direction, and the length of its blast is 300 ft (no roll needed). To determine the direction, roll a d8 and assign a direction to each die face.|
+
+\pagebreakNum
+
+___
+> ## Warp Lightning Cannon, Zappp-Zappp Cannon
+> *Huge siege object (8,500 pounds lb.)*
+> ___
+> - **Armor Class** 20 
+> - **Hit Points** 200 (damage threshold: 10)
+>___
+> - **Damage Immunities** poison, psychic
+> - **Ammo** Warp Lighting Core (6, 1,000g).
+> - **Challenge** 8 (3,900 XP)
+> ___
+>
+> ### Functions
+>
+> ***Load.*** The weapon is loaded with a Warp Lightning Core. This must be done before it is prepped.
+>
+> ***Prep (2)*** The weapon is prepped to fire its next shot. This prep must be done while it is loaded. It must be prepped two times before it can fire.
+>
+> ***Fire.*** The weapon fires a line of lightning that forms a line 4d4 x 10 feet long and 5 feet wide, which blasts out from it in the direction of user's choice. Each creature in the line must make a DC 19 Dexterity saving throw. A creature takes 45 (10d8) lightning damage on a failed save, or half as much damage on a successful one. The lightning ignites flammable objects in the area that aren't being worn or carried. If three or more of the d4s rolled have the same number, the weapon has a mishap. If it has half its health or less, it has a mishap if two or more d4s roll the same number. If a mishap occurs, resolve it before having the weapon fire.
+
+### Warp Lightning Cannon Upgrades
+
+You can apply any of the following upgrades to a warp lightning cannon. Doing so increases its CR by 1 per upgrade applied.
+
+* **Warp Conduit:** When a creature makes a saving throw against the cannon's Fire function due to being in the area of its lightning, all other creatures within 5 feet of that creature must also make the saving throw against the effect as the electricity arcs between them. This arcing causes the original creature, and everyone the lightning arced to, to suffer disadvantage on their saving throws.
+* **Regenerating Radiation:** When a creature preps or loads the cannon, it must make a DC 15 Constitution saving throw (which it can choose to fail). On a failed save, it gains a level of exhaustion and regains 15 hit points. A creature immune to exhaustion cannot gain hit points this way.
+* **Warpstone Dynamos:** The cannon no longer experiences mishaps when rolling for the length of its lightning blast. Instead, when the cannon rolls for the length of the line, it gains a charge for each 4 rolled on a d4 that lasts one minute. The cannon deals an additional 4 (1d8) damage per charge it has. However, if the weapon ever gains 4 or more charges, it suffers the Energy Overload Mishap. This mishap causes the cannon to take 71 (8d8) + 35 lightning damage and lose all its charges. If reduced to 0 hit points this way, the cannon experiences the Meltdown mishap.
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0 
+* Document creation
