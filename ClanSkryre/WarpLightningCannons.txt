@@ -1,4 +1,37 @@
 
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p4:after, .phb#p5:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #  Siege Weapons
@@ -23,6 +56,15 @@ The weapon's DC is used whenever a creature makes a check to fix mishaps, when a
 ### Challenge Rating
 When players face enemies equipped with fully functioning siege weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
 
+<img src='https://i.ibb.co/JjYPNWK/Unleash-Shell-The-Brothers-War-Mt-G-Art.jpg' style='position:absolute; top:-40px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:195px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(19deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:249px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:470px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
 \pagebreakNum
 
 
@@ -35,6 +77,8 @@ By default, siege weapons have three different functions, which can each be acti
 
 #### Prep
 Siege weapons need to be prepped in different ways between being fired. This preparation could be cranking a ballista or cleaning the barrel of a cannon. Many siege weapons have multiple Prep functions that must be performed before they can be used again. In these cases, the different Prep actions can be done by different creatures within the same round. Unless stated otherwise, all the Prep functions must be completed before the weapon can be loaded.
+
+\columnbreak
 
 #### Load
 This function is used to reload the weapon's ammunition up to its full capacity. It requires the creature loading it to have immediate access to the weapon's ammunition. If a creature doing the loading is hit by an opportunity it provoked by doing this, it drops the ammo and wastes its action.
@@ -50,7 +94,31 @@ Some weapons can suffer a malfunction when certain functions are used. When such
 
 A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
 
-\pagebreak
+<img src='https://64.media.tumblr.com/97957bfd89fc58990ebbe31b4b543960/a95157cb330b1736-23/s1280x1920/c9807add3c7fc2bd781c456d1f8a9cee5de0f6e2.png' style='position:absolute; botom:-0px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-485px; right:-100px; width:1000px; transform:rotate(8deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-455px; right:-200px; width:1000px; transform:rotate(-2deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-451px; right:-00px; width:1000px; transform:rotate(-4deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Warp Lightning Cannons
+The warp lightning wannon is a massive, wheeled contraption that bristles with crackling energy. Constructed from a combination of scavenged metal and mysterious components, the cannons are powered by a rare and volatile energy source harnessed from the raw forces of chaos. Ratfolk engineers channel this energy into the cannon's twisted mechanisms, preparing it to unleash its devastating power.
+
+When activated, the warp lightning cannon fires lethal bolts of crackling, coruscating energy. These electrifying projectiles surge forth, capable of piercing through the toughest armor and obliterating enemy formations with explosive force. The destructive potential of the warp lightning cannon is unmatched, making it a prized asset in the ratfolk's arsenal of war machines.
+
+However, its power is not easily controlled, and warp lightning cannons are as dangerous to their operators as they are to their enemies. The unleashed energy often surges uncontrollably, causing catastrophic feedback that can result in explosions or the cannon tearing itself apart. Only the most skilled and daring ratfolk engineers dare to operate these deadly devices, often as a testament to their ambition and thirst for power.
+
+The ratfolk clans jealously guard the secrets of creating and operating warp lightning cannons, considering them a potent symbol of their supremacy and a means to assert dominance over their rivals. Despite the best efforts of the ratfolk, warp lightning cannons do occasionally fall into the hands of their rivals, who are quick to modify them for their own uses in war. When brought to bear on the battlefield, the eerie glow of the cannon's energy casts a chilling pall over friend and foe alike, foretelling the chaos and destruction to come.
+
+
+\columnbreak
+
+<Br>
 
 ___
 > ## Warp Lightning Cannon 
@@ -73,7 +141,6 @@ ___
 >
 > ***Fire.*** The weapon fires a line of lightning that forms a line 4d4 x 10 feet long and 5 feet wide, which blasts out from it in the direction of user's choice. Each creature in the line must make a DC 17 Dexterity saving throw. A creature takes 36 (8d8) lightning damage on a failed save, or half as much damage on a successful one. The lightning ignites flammable objects in the area that aren't being worn or carried. If three or more of the d4s rolled have the same number, the weapon has a mishap. If it has half its health or less, it has a mishap if two or more d4s roll the same number. If a mishap occurs, resolve it before having the weapon fire.
 
-
 ##### Warp Lightning Mishaps
 | d6  |    Mishap Name               | Mishap Effect             | 
 |:----:|:---------------------:| :-----------------:| :-----------------:|
@@ -81,6 +148,19 @@ ___
 | 2-3 &emsp;&emsp;   | Electrical Feedback | The cannon takes 71 (8d8) + 35) lightning damage.|
 | 4-5    | Sputtering Fizzle | The cannon does not fire and must be fully prepped again before it can be fired.|
 | 6    | Energy Overload | Unfathomable energies send the cannon spinning wildly. The cannon fires in a random direction, and the length of its blast is 300 ft (no roll needed). To determine the direction, roll a d8 and assign a direction to each die face.|
+
+
+
+<img src='https://i.ibb.co/TPs6wrp/lightning-rig-crew.png' style='position:absolute;left:-147px;top:-5px;width:615px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-680px;top:-70px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:130px; right:-00px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:151px; right:34px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(16deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:379px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
 
@@ -104,13 +184,128 @@ ___
 >
 > ***Fire.*** The weapon fires a line of lightning that forms a line 4d4 x 10 feet long and 5 feet wide, which blasts out from it in the direction of user's choice. Each creature in the line must make a DC 19 Dexterity saving throw. A creature takes 45 (10d8) lightning damage on a failed save, or half as much damage on a successful one. The lightning ignites flammable objects in the area that aren't being worn or carried. If three or more of the d4s rolled have the same number, the weapon has a mishap. If it has half its health or less, it has a mishap if two or more d4s roll the same number. If a mishap occurs, resolve it before having the weapon fire.
 
+\columnbreak
+
+
+
 ### Warp Lightning Cannon Upgrades
 
 You can apply any of the following upgrades to a warp lightning cannon. Doing so increases its CR by 1 per upgrade applied.
 
-* **Warp Conduit:** When a creature makes a saving throw against the cannon's Fire function due to being in the area of its lightning, all other creatures within 5 feet of that creature must also make the saving throw against the effect as the electricity arcs between them. This arcing causes the original creature, and everyone the lightning arced to, to suffer disadvantage on their saving throws.
-* **Regenerating Radiation:** When a creature preps or loads the cannon, it must make a DC 15 Constitution saving throw (which it can choose to fail). On a failed save, it gains a level of exhaustion and regains 15 hit points. A creature immune to exhaustion cannot gain hit points this way.
-* **Warpstone Dynamos:** The cannon no longer experiences mishaps when rolling for the length of its lightning blast. Instead, when the cannon rolls for the length of the line, it gains a charge for each 4 rolled on a d4 that lasts one minute. The cannon deals an additional 4 (1d8) damage per charge it has. However, if the weapon ever gains 4 or more charges, it suffers the Energy Overload Mishap. This mishap causes the cannon to take 71 (8d8) + 35 lightning damage and lose all its charges. If reduced to 0 hit points this way, the cannon experiences the Meltdown mishap.
+* **Warp Conduit.** When a creature makes a saving throw against the cannon's Fire function due to being in the area of its lightning, all other creatures within 5 feet of that creature must also make the saving throw against the effect as the electricity arcs between them. This arcing causes the original creature, and everyone the lightning arced to, to suffer disadvantage on their saving throws.
+* **Regenerating Radiation.** When a creature preps or loads the cannon, it must make a DC 15 Constitution saving throw (which it can choose to fail). On a failed save, it gains a level of exhaustion and regains 15 hit points. A creature immune to exhaustion cannot gain hit points this way.
+* **Warpstone Dynamos.** The cannon no longer experiences mishaps when rolling for the length of its lightning blast. Instead, when the cannon rolls for the length of the line, it gains a charge for each 4 rolled on a d4 that lasts one minute. The cannon deals an additional 4 (1d8) damage per charge it has. However, if the weapon ever gains 4 or more charges, it suffers the Energy Overload Mishap. This mishap causes the cannon to take 71 (8d8) + 35 lightning damage and lose all its charges. If reduced to 0 hit points this way, the cannon experiences the Meltdown mishap.
+
+   <img src='https://i.ibb.co/VJn3yf2/consulate-turret.png' style='position:absolute;right:0px;bottom:-60px;width:860px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-440px; right:-10px; width:1000px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Warp Lightning Cannon Tactics
+
+The warp lightning cannon serves as a powerful piece of artillery. Unlike many other artillery pieces, it fires in a straight line, which means that allied troops in front of it must clear a path for its lightning blast. Alternatively, the crew can choose to fire through expendable allies to reach prime enemy targets. Bogging down foes in such allies can be an effective way to ensure they can't escape the cannon's blasts.
+
+#### Warp Lightning Cannon Upgrade Tactics
+
+**Warp Conduit.** This upgrade is particularly useful when there are many expendable units on the front line. These additional bodies can be utilized to impose disadvantage on enemies' saving throws by triggering the arcing lightning effect.
+
+**Regenerating Radiation.** This upgrade works best with expendable, less capable creatures working the cannon, as it keeps them alive but limits their combat effectiveness. However, its usefulness diminishes when the crew is more proficient in combat, as engaging with foes directly can be used as a last resort if the cannon becomes inoperable for some reason.
+
+**Warpstone Dynamos.** This upgrade turns the weapon into a truly chaotic device. The predictability of its operations can be drastically reduced, leading to unforeseen outcomes on the battlefield.
+
+\columnbreak
+
+##### Warp Lightning Cannon Adventure Hooks
+
+| d4 | Plot Hook |
+|:---:|:-----------:|
+|  1  | **Unstable Power:** Reports surface of a rogue Warp Lightning Cannon that has fallen into the hands of an unscrupulous warlord. However, the cannon's energy source has been tampered with, causing it to emit uncontrollable and increasingly unstable bursts of warp energy. The players are hired to neutralize the cannon and prevent a catastrophic explosion that could devastate nearby settlements. As they close in on the warlord's stronghold, they must contend with the cannon's erratic power and the warlord's minions fiercely guarding their newfound weapon. |
+|  2  |**The Forbidden Auction:** Rumors spread of a clandestine auction where dangerous and forbidden weapons, including a fully operational Warp Lightning Cannon, are up for sale to the highest bidder. The players' attention is drawn to this dark gathering when they learn that rival factions and hostile nations are sending representatives. The adventurers must infiltrate the auction, posing as buyers, to prevent these deadly weapons from falling into the wrong hands.  |
+|  3 |**Do The Time Warp:** During a fierce battle, a Warp Lightning Cannon suffers a meltdown that triggers a temporal anomaly. The players find themselves trapped in a pocket of time that repeats the battle over and over. Each time the loop resets, they must learn from their mistakes and find a way to prevent the cannon from causing the temporal disruption.|
+|  4  |**Capturing Lightning:** The players find themselves fighting on a wartorn battlefield against a ratfolk army, attempting to defeat a group of ratfolk who have secured a key position using a warp lighting cannon. As the players battle the ratfolk operating the cannon, overwhelming amounts of ratfolk reinforcements arrive, and the players must secure the cannon so they can use it to blast apart verminous soldiers. |
+
+   <img src='https://i.ibb.co/pwxBT62/suzanne-helmigh-radiating-bolt-online.jpg' style='position:absolute;right:0px;bottom:-190px;width:950px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-330px; right:-200px; width:1000px; transform:rotate(23deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-400px; right:-20px; width:1000px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Warp Lightning Cannon Loot
+Most of the valuable goods that can be looted from these weapons are materials salvaged from their remains. Salvaged material can usually be gathered using an Intelligence (Smith’s Tools) or Intelligence (Tinker’s Tools) check. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Warp Lightning Cannon Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Warp Lightning Cannon Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1d6(3) 5gp Items & 3d6(10) 5sp Items |
+|  8-10 | 1d4(2) 10gp Items & 2d6(7) 1gp Items | 
+|  11-17 | 1d6(3) 10gp Items & 2d4(5) 2gp Items | 
+|  18-22 | 1d6(3) 20gp Items & 2d6(7) 2gp Items | 
+|  23+ | 2d4(5) 20gp Items & 2d6(7) 2gp Items | 
+
+
+
+##### Zappp-Zappp Cannon Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 50gp Item & 1d6(3) 5gp Items |
+|  9-12 | 1 50gp Item & 2d4(5) 5gp Items | 
+|  13-18 | 1 100gp Item & 2d4(5) 5gp Items | 
+|  19-22 | 1 100gp Item & 1d6(3) 10gp Items | 
+|  23+ | 1 200gp Item & 1d6(3) 20gp Items | 
+
+<Br>
+
+### Art Credit
+* Unleash Shell - Campbell White, Wizards of the Coast
+* Goblin Artillery - Alex Horley-Orlandelli, Wizards of the Coast
+* Lightning-Rig Crew - Filip Burburan, Wizards of the Coast
+* Consulate Turret - Eric Deschamps, Wizards of the Coast
+* Radiating Lightning - Suzanne Helmigh, Wizards of the Coast
+
+\columnbreak
+
+#### Example Warp Lightning Cannon Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Common Warp Lightning Cannon Item Names
+|1d4 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Fluid)  |  Recycled Weapon Oil |  Weapon Oil |  Purified Weapon Oil   | 
+| 2-4 <br> (Metal) | Recycled Weapon Scraps | Weapon Scraps | Masterwork Weapon Scraps  |
+
+
+##### Example Uncommon Warp Lightning Cannon Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Fluid)  |  Recycled Warp Core Fluid |  Warp Core Fluid|  Purified Warp Core Fluid   | 
+| 2-4 <br> (Metal) | Recycled Warp Lightning Core | Warp Lightning Core | Masterwork Warp Lightning Core  |
+
+
+#### Example Zappp-Zappp Cannon Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Uncommon Zappp-Zappp Cannon Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Fluid)  |  Recycled Warp Oil |  Warp Oil|  Purified Warp Oil   | 
+| 2-4 <br> (Metal) | Recycled Zappp Scraps | Zappp Scraps | Masterwork Zappp Scraps  |
+
+##### Example Rare Zappp-Zappp Cannon Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Fluid)  |  Recycled Zappp Core Fluid |  Zappp Core Fluid|  Purified Zappp Core Fluid   | 
+| 2-4 <br> (Metal) | Recycled Zappp Lightning Core | Zappp Lightning Core | Masterwork Zappp Lightning Core  |
+
+
 
 \pagebreakNum
 
