@@ -1,0 +1,204 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+\pagebreakNum
+
+____
+____
+> ## The Wanderer
+> *Large monstrosity, lawful neutral*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 299 (26d10 + 156)
+> - **Speed** 40 ft., swim 40 ft.
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|26 (+8)|10 (+0)|22 (+6)|6 (-2)|18 (+4)|10 (+0)|
+> ___
+> - **Saving Throws** Dex +4, Int +1, Wis +9, Cha +5
+> - **Skills** Athletics +11, Perception +9, Stealth +5, Survival +9
+> - **Condition Immunities** Exhaustion
+> - **Senses** Darkvision 30 ft., passive Perception 19
+> - **Languages** Draconic 
+> - **Challenge** 16 (15,000 XP) &emsp;&emsp;&ensp;  **Proficiency Bonus** +5
+> ___
+>
+> ***Cold Blooded.*** The wanderer has advantage on saving throws against being charmed or frightened.
+>
+> ***Hulking Protector.*** Any ally smaller than the wanderer and within 5 feet of it has half cover, and its movement doesn't provoke attacks of opportunity. Allies can move through the space the wanderer occupies without it being treated as difficult terrain.
+>
+> ***Primal Roar (Recharges after a Short or Long Rest).*** When the wanderer's hit points drop to 150 or lower, or it becomes incapacitated, it lets loose a roar. Every creature of the wanderer's choice within 120 feet of it that can hear the roar must succeed a DC 17 Wisdom saving throw or be frightened for one minute. Creatures frightened this way that end their turn 10 feet or more away from the wanderer can repeat the saving throw, ending the effect on a success. Additionally, the wanderer and allies of its choice within 120 feet of it enter a rampage for one minute. While rampaging this way, their weapon attacks deal an additional 5 (1d10) damage.
+> 
+> ### Actions
+>
+> ***Mighty Swing.*** The wanderer makes a Maul attack against any number of creatures within a 5-foot cube within 10 feet of it.
+>
+> ***Vice-like Jaws.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 24 (3d10 + 8) piercing damage, and the target is grappled (escape DC 21). Until this grapple ends, the target is restrained, and the wanderer can't bite another target. If the bite hits a creature already grappled by the wanderer, the attack is a critical hit.
+>
+> ***Maul.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 22 (4d6 + 8) bludgeoning damage.
+>
+> ***Raking Claw.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 15 (2d6 + 8) slashing damage. If the attack hits, the wanderer can immediately make another claw attack against the target as part of this action, but only once per turn.
+>
+> ***Tail Trip.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target not grappled by the wanderer. *Hit:* 17 (2d8 + 8) bludgeoning damage. If the target is a creature, it must make a DC 21 Strength saving throw or be knocked prone. If it fails the save by 5 or more, it cannot stand up until the end of its next turn.
+>
+> ### Legendary Actions
+> The wanderer can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The wanderer regains spent legendary actions at the start of its turn.
+> 
+> **Attack.** The wanderer makes one of its attacks. Once it uses this action, it can't use the same attack as a legendary action until the start of its next turn.
+>
+> **Check.** The wanderer makes a skill check that would normally require an action.
+> 
+> **Move.** The wanderer moves up to 15 feet without provoking attacks of opportunity.
+>
+> **Tenacious Will.** If the wanderer is affected by a condition that allows a saving throw to end it either as an action or at the start/end of its turn, it can make that saving throw immediately with advantage. It can use this legendary action even if incapacitated. <br><br>
+>
+
+
+\pagebreakNum
+
+
+### Favor of the Old Ones
+For a mythic encounter with The Wanderer, increase his hit points to 600 HP and enhance his Primal Roar trait with the following effects. His Challenge Rating (CR) increases to 23.
+Primal Roar Modification: The Wanderer's Primal Roar trait changes such that it triggers three different times as his hit points drop to 450, 300, and 150 rather than only triggering once. The damage bonus granted to allies from each roar can stack, and a single instance of damage to The Wanderer can trigger multiple roars.
+
+Each time Primal Roar is triggered, a unique set of effects occurs. These effects persist until The Wanderer is reduced to 0 hit points or 1 hour has passed.
+
+#### 1st Roar (450 HP): Beasts of Itzl
+The Wanderer's roar summons a razordon in an unoccupied space it can see within 300 feet, subject to the following conditions:
+* The summoned razordon has an initiative count of 20 and benefits from the effects of the roar that called it forth.
+* This razordon remains for 10 minutes or until either it or The Wanderer are reduced to 0 hit points.
+* Each subsequent use of The Wanderer's Primal Roar will summon another Razordon in the same manner.
+
+#### 2nd Roar (300 HP): Storm of Xholankha
+The Wanderer's roar summons a tempest centered on a point it can see within 100 feet. The tempest is up to 1 mile high with a diameter of 150 feet. The Wanderer can choose any number of creatures to remain unaffected by the storm, but all other creatures suffer the following effects while in its area:
+* The storm is difficult terrain for flying creatures.
+* Ranged attacks that travel more than 30 feet through the storm automatically miss.
+* On initiative count 20, every creature within the storm must succeed on a DC 17 Strength saving throw or be pulled 15 feet toward its center.
+
+#### 3rd Roar: Protection of Quetzl
+The Wanderer's roar causes it to begin glowing with divine light, and at the start of his next turn, he forms a 20-foot cube of shimmering magical protection centered on himself that lasts until the start of his next turn. He can choose any creatures within this area of the cube to be rendered immune to all forms of damage while they continue to be within it.
+
+\pagebreak
+___
+___
+
+> ## Razordons
+> *Large beast, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 90 (12d10+24)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|18 (+4)|14 (+2)|3 (-4)|12 (+1)|4 (-3)|
+>___
+> - **Skills** Perception +7, stealth +7
+> - **Senses** darkvision 30 ft., passive Perception 17
+> - **Challenge** 5 (700 XP) &emsp;&emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +3
+> ___
+>
+> ***Cold Blooded.*** The cold one has advantage on saving throws against being charmed or frightened.
+>
+> ***Primal Instinct (30 HP, Recharges after a Short or Long Rest).*** When the cold one’s hit points drop to 30 or lower, or it becomes charmed or frightened, it enters a rampage that lasts for one minute.
+>
+> Spiky Hide. A creature that touches the Razordon or miss it with a melee attack while within 5 feet of it takes 5 (2d4) piercing damage.
+>
+> ### Actions
+>
+> ***Multiattack.*** The Razordon one makes one bite attack and one with its claw or three with its spikes.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage.
+>
+> ***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) Slashing damage.
+>
+> ***Spike.*** Ranged Weapon Attack: +7 to hit, range 100/200 ft., 
+one target. Hit: 9 (2d4 + 4) piercing damage. 
+>
+> ### Reactions 
+>
+> ***Instinctive Defence.*** When a creature moves towards the Razordon and is with in 15 feet of it, it may make a Spike attack against it. 
+>
+
+\pagebreak
+___
+___
+
+> ## Amaxon Barbs
+> *Large beast, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 90 (12d10+24)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|18 (+4)|14 (+2)|3 (-4)|12 (+1)|4 (-3)|
+>___
+> - **Skills** Perception +7, stealth +7
+> - **Damage Resistances** Poison
+> - **Senses** darkvision 30 ft., passive Perception 17
+> - **Challenge** 7 (700 XP) &emsp;&emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +3
+> ___
+>
+> **Fervor** The Razordon has advantage on saving throws against being charmed, frightened, poisoned, and diseased.
+>
+> ***Barb Toxins.*** At the end of the turn, each creature hit by one or more weapons that inflict Barb Toxins must succeed on a DC 15 Constitution saving throw or be poisoned for 1 hour. A creature that has been hit by two or more attacks from weapons with Barb Toxins this turn makes the saving throw with disadvantage. The target repeats the saving throw at the end of each of its turns, ending the effect on a success or taking 9 (2d8) poison damage on a failure.
+>
+> ***Primal Instinct (30 HP, Recharges after a Short or Long Rest).*** When the cold one’s hit points drop to 30 or lower, or it becomes charmed or frightened, it enters a rampage that lasts for one minute.
+>
+> Spiky Toxic Hide. A creature that touches the Razordon or miss it with a melee attack while within 5 feet of it takes 5 (2d4) piercing damage and the target is inflicted with Barb Toxins.
+>
+> ### Actions
+>
+> ***Multiattack.*** The Razordon one makes one bite attack and one with its claw or three with its spikes.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage and the target is inflicted with Barb Toxins.
+>
+> ***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) Slashing damage and the target is inflicted with Barb Toxins.
+>
+> ***Spike.*** Ranged Weapon Attack: +7 to hit, range 100/200 ft., 
+one target. Hit: 9 (2d4 + 4) piercing damage and the target is inflicted with Barb Toxins. 
+>
+> ### Reactions 
+>
+> ***Instinctive Defence.*** When a creature moves towards the Razordon and is with in 15 feet of it, it may make a Spike attack against it. 
+>
+
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
