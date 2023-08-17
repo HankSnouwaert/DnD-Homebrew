@@ -267,6 +267,9 @@ When a howdah is destroyed, riders that were in it are knocked prone and land in
 ## Howdah Attributes
 Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, howdahs have the following additional attributes and considerations:
 
+### Howdah DC 
+Whenever the howdah requires a creature to make a check or saving throw, that creature uses this value for the DC.
+
 ### Damage Threshold
 Most howdahs possess bulk or armor that enables them to withstand minor hits. A howdah with a damage threshold is immune to all damage unless the amount of damage it takes is equal to or greater than its damage threshold value. In such cases, the howdah takes the damage as usual. Damage that fails to meet or exceed the howdah's damage threshold is considered superficial and does not reduce the howdah's hit points.
 
@@ -278,9 +281,6 @@ Creature capacity determines the number of creatures that can ride in the howdah
 
 ### Constitution Modifier
 This is the modifier the howdah adds to any Constitution saves it makes. 
-
-### Howdah DC 
-Whenever the howdah requires a creature to make a check or saving throw, that creature uses this value for the DC.
 
 ### Challenge Rating
 When players face enemies that are equipped with a fully functioning howdah, the challenge rating (CR) of the encounter should be calculated as if the howdah is an additional creature with its own CR.
@@ -294,12 +294,13 @@ A howdah may have one or more built-in siege weapons. These siege weapons are bu
 
 \pagebreak
 
-## Example Howdahs
+## Lizardmen Howdahs
 
 ___
 > ## Large Howdah
 >*Large Howdah, 600 lbs.*
 > ___
+> - **Howdah DC** NOTE: This is missing
 > - **Armor Class** 15
 > - **Hit Points** 75 (Damage threshold 10)
 > - **Damage Immunities** Poison, Psychic 
@@ -316,6 +317,7 @@ ___
 > ## Huge Howdah
 > *Huge Howdah, 1000 lbs.*
 > ___
+> - **Howdah DC** NOTE: This is missing
 > - **Armor Class** 16
 > - **Hit Points** 100 (Damage threshold 10)
 > - **Damage Immunities** Poison, Psychic 
@@ -328,11 +330,20 @@ ___
 > ***Howdah Protection.*** Creatures within the howdah have three-quarters cover from attacks and effects originating from outside the howdah as long as the howdah is attached to a steed that is not prone. To make a melee attack against a target in the howdah while outside of it, a creature must be within 5 feet of the steed, and if the attacking creature isn’t Huge or larger, the attack must have a reach of at least 10 feet.
 >
 
+\columnbreak
+
+## Lizardmen Howdah Upgrades
+
 
 Huge Howdah and Large Howdah can gain flowing upgrades, each upgrade increases its CR by 1
 
-## Sacred Howdah
-The Howdah counts as a magic object and the three-quarters cover granted by the Howdah gives a +5 bonus to all saving throws from effects outside the Howdah, not just Dexterity saves. If a creature in the howdah is subjected to an effect from outside that allows it to make a saving throw to take only half damage, it takes no damage if it succeeds on the saving throw, and half damage if it fails.
+
+### Sacred Howdah
+The howdah counts as a magic object, and the three-quarters cover granted by the howdah gives a +5 bonus to all saving throws from effects outside the howdah, not just Dexterity saves. If a creature in the howdah is subjected to an effect from outside that allows it to make a saving throw to take only half damage, it takes no damage if it succeeds on the saving throw, and half damage if it fails.
+
+### Poison Ballista
+
+
 
 \pagebreakNum
 
@@ -341,9 +352,11 @@ The Howdah counts as a magic object and the three-quarters cover granted by the 
 A Poison Ballista is a Siege Weapon attached to the Howdah
 ___
 > ## Poison Ballista 
-> *Siege weapon (Howdah attachment)*
+> *Medium siege weapon (howdah attachment)*
 >___
-> - **Ammo** Poison Bolt (1 rounds, 100g).
+> - **Weapon DC** 15
+> - **Ammo** Poison Bolt (1 round, 100g)
+> - **Howdah Challenge Increase** 1 
 > ___
 >
 > ### Functions
@@ -352,25 +365,27 @@ ___
 >
 > ***Prep.*** The weapon is prepped to fire its next shot. This prep must be done while it is loaded.
 >
-> ***Fire.*** When fired, the arrow flies in a straight line up to 480 feet in a direction of the user's choice before falling to the ground. If the arrow would strike a target, the target must make a DC 15 Dexterity saving throw. The target has advantage on the saving throw if the arrow has flown 120 feet or more. On a failed save, the target takes 33 (6d10) piercing damage and is inflicted with Jungle Toxins. If the target is reduced to 0 hit points or destroyed, the bolt keeps flying and deals 11 (2d10) less damage if it hits another target. Otherwise, the arrow's flight ends early.
+> ***Fire.*** The ballista fires a bolt that flies in a straight line up to 480 feet in the direction of the user's choice before falling to the ground. If the bolt would strike a target, that target must make a DC 15 Dexterity saving throw. The target has advantage on the saving throw if the bolt has flown 120 feet or more. On a failed save, the target takes 33 (6d10) piercing damage and is inflicted with Jungle Toxins. If the target is reduced to 0 hit points or destroyed, the bolt keeps flying and deals 11 (2d10) less damage if it hits another target. Otherwise, the bolt's flight ends at the target's location. 
 
 ## Giant Blowpipe  
 
 A Giant Blowpipe is a Siege Weapon attached to the Howdah
 ___
 > ## Giant Blowpipe 
-> *Siege weapon (Howdah attachment)*
+> *Medium siege weapon (howdah attachment)*
 >___
-> - **Ammo** Poison Dart Cluster (1 rounds, 100g).
+> - **Weapon DC** 15
+> - **Ammo** Poison Dart Cluster (1 round, 100g)
+> - **Howdah Challenge Increase** 1 
 > ___
 >
 > ### Functions
 >
-> ***Load.*** The weapon is loaded with a Poison dart cluster. This must be done before it is prepped.
+> ***Load.*** The weapon is loaded with a Poison Dart Cluster. This must be done before it is prepped.
 >
 > ***Prep.*** The weapon is prepped to fire its next shot. This prep must be done while it is loaded.
 >
-> ***Fire.*** Darts rain down at a point of the user's choice within 120 feet. Each creature in a 5-foot radius centered on the point must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 12 (5d4) piercing damage and is inflicted with Jungle Toxins, and makes the saving throw at the end of its turn against the poison with disadvantage. On a successful save, a creature takes half damage and is inflicted with Jungle Toxins, but does not have disadvantage on the saving throw at the end of its turn against the poison.
+> ***Fire.*** The blowpipe fires a barrage of darts that rain down at a point of the user's choice within 120 feet. Each creature in a 5-foot radius centered on that point must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 12 (5d4) piercing damage, is inflicted with Jungle Toxins, and makes the saving throw at the end of its turn against the toxins with disadvantage. On a successful save, a creature takes half damage, is still inflicted with Jungle Toxins, but does not have disadvantage on the saving throw at the end of its turn against the toxins.
 
 > ##### Jungle Toxins
 > At the end of the turn, each creature hit by one or more weapons that inflict Jungle Toxins must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. A creature that has been hit by two or more attacks from weapons with Jungle Toxins this turn makes the saving throw with disadvantage. The target repeats the saving throw at the end of each of its turns, ending the effect on a success or taking 5 (2d4) poison damage on a failure.
