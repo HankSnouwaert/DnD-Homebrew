@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after  {
+    .phb#p3:after, .phb#p4:after, .phb#p5:after, .phb#p8:after, .phb#p9:after, .phb#p10:after  {
         display          : none;
     }
     /* End Footers */
@@ -248,13 +248,13 @@ Finally, the ratfolk can't be moved or teleported from a vehicle it's piloting a
 
 ### Power Conduits
 
-If the chief warlock engineer is fighting in its lair, you can increase the challenge of the encounter by giving it access to power conduits built to charge the ratfolk's powers. Each power conduit is a large magical object with 60 hit points, resistance to all damage, and an AC of 19. You can place one or more of these power conduits throughout the lair, and each power conduit added increases the chief warlock engineer's Challenge Rating by 1.
+If the chief warlock engineer is fighting in his lair, you can increase the challenge of the encounter by giving him access to power conduits built to charge his powers. Each power conduit is a large magical object with 60 hit points, resistance to all damage, and an AC of 19. You can place one or more of these power conduits throughout the lair, and each power conduit added increases the chief warlock engineer's Challenge Rating by 1.
 
-At the end of ratfolk's turn, it can choose to start drawing power from the nearest conduit, creating a beam between it and the conduit; the ratfolk can do this even if it is incapacitated. While the beam is active, the conduit loses all resistances. The beam will break if the ratfolk moves more than 100 feet away from it, if it has total cover from the conduit, or if either the ratfolk or the conduit is reduced to 0 hit points. 
+At the end of the chief engineer's turn, he can choose to start drawing power from the nearest conduit, creating a beam between him and the conduit; the chief engineer can do this even if he is incapacitated. While the beam is active, the conduit loses all resistances. The beam will break if the chief engineer moves more than 100 feet away from it, if he has total cover from the conduit, or if either the chief engineer or the conduit is reduced to 0 hit points. 
 
 **Note: This pair of sentences is confusing** *Any creature or object that breaks the beam by providing cover between the ratfolk and the conduit takes 22 (5d8) lightning damage. A creature that moves through the beam can choose to take the damage to end the beam as well.*
 
-If the ratfolk starts its next turn with the beam still intact, the beam dissipates, and the ratfolk may choose to either roll an additional 2d4 when activating its Unlimited Power trait this turn or end a spell of 4th level or lower in its lair.
+If the chief engineer starts his next turn with the beam still intact, the beam dissipates, and he may choose to either roll an additional 2d4 when activating his Unlimited Power trait this turn or end a spell of 4th level or lower in his lair.
 
 \columnbreak
 
@@ -269,13 +269,17 @@ If the ratfolk starts its next turn with the beam still intact, the beam dissipa
 
 <img src='https://i.ibb.co/HBm8N1d/Evolving-Wilds-The-Brothers-War-Mt-G-Art.jpg' style='position:absolute; bottom:-90px; left:-0px; width:820px; transform: scaleX(-1)' />
 
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-300px;top:-245px;height:1400px;width:1416px;transform:rotate(-10deg)' />
+<img src='https://i.ibb.co/mB7LvPY/Nezumi-Bone-Reader-Jumpstart-2022-Mt-G-Art.jpg' style='position:absolute; bottom:-220px; left:-00px; width:820px; transform: scaleX(-1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-300px;top:-280px;height:1400px;width:1416px;transform:rotate(0deg)' />
+  style='position:absolute;right:-300px;top:-260px;height:1400px;width:1416px;transform:rotate(-10deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-300px;top:-290px;height:1400px;width:1416px;transform:rotate(0deg)' />
 
 \pagebreakNum
+
+
 
 ### Chief Warlock Engineer Tactics
 
@@ -292,9 +296,6 @@ When the chief warlock engineer employs a device selected for his Forbidden Augm
 
 **Brass Orb and Earth Render.** The legendary actions these devices grant should be used to manipulate enemy positioning to maximize their impact when they're used as actions
 
-\columnbreak
-
-
 
 **Warp Scorcher and Warp Lightning Generator.** The legendary actions of these devices can be used to bait opponents into aiding their allies, tricking them into grouping together so they can all be hit by the device's actions.
 
@@ -302,9 +303,6 @@ When the chief warlock engineer employs a device selected for his Forbidden Augm
 
 #### Legendary Actions and Scurry Away
 The chief warlock engineer uses standard legendary actions when he needs to escape perilous situations or when his capabilities are hampered in a way that diminishes his ability to act. Should he remain in jeopardy even after exhausting all his legendary actions, he will use Scurry Away as a last resort.
-
-
-
 
 
 #### Epic Chief Warlock Engineer Battle
@@ -315,13 +313,6 @@ While operating the doom wheel, the chief warlock engineer refrains from deployi
 
 #### Power Conduits 
 While a battle with these items present doesn't drastically alter the chief warlock engineer's tactics, it does make him prioritize targets attempting to attack the conduits he's channeling.
-
-<img src='https://i.ibb.co/mB7LvPY/Nezumi-Bone-Reader-Jumpstart-2022-Mt-G-Art.jpg' style='position:absolute; bottom:-260px; left:-100px; width:1065px; transform: scaleX(1)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-300px;top:-430px;height:1400px;width:1416px;transform:rotate(0deg)' />
-
-\pagebreakNum
 
 ### Chief Warlock Engineer Loot
 Because ratfolk are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying or hiding nearby. Most of the challenge of looting ratfolk engineers is identifying what devices they're carrying still have any functional value.
@@ -334,7 +325,7 @@ Finding valuables can be done using an **Intelligence (Investigation)** or **Wis
 #### Chief Warlock Engineer Loot Table
 The following table describes the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll.
 
-\columnbreak
+
 
 ##### Chief  Warlock Engineer Loot Table 
 
@@ -357,15 +348,7 @@ You can give the different types of items unique names based on their material a
 | 1-2 <br> (Metal)  |   Rusted Warp-Steel Gizmo |  Warp-Steel Gizmo |  Energized Warp-Steel Gizmo  | 
 | 3-4 <br> (Gem) | Faded Warp Jewel| Warp Jewel|  Potent Warp Jewel  | 
 
-<img src='https://i.ibb.co/t8dW3YB/voracious-vacuum.png' style='position:absolute; bottom:-210px; left:-635px; width:1451px; transform: scaleX(1)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-300px;top:-570px;height:1400px;width:1416px;transform:rotate(0deg)' />
-
 \pagebreakNum
-
-
-
 
 ## Doom Wheels
 
