@@ -1,0 +1,639 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p4:after, .phb#p5:after, .phb#p7:after, .phb#p9:after, .phb#p11:after, .phb#p12:after, .phb#p14:after, .phb#p16:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p24:after, .phb#p25:after, .phb#p30:after, .phb#p33:after, .phb#p38:after, .phb#p39:after, .phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p43:after, .phb#p44:after, .phb#p50:after, .phb#p53:after, .phb#p54:after, .phb#p61:after, .phb#p63:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<style>/*ToC Styling*/
+  .toc a {color: inherit !important;}
+  .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+  .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;content:" ........................................""........................................."".........................................";}
+  .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;margin-left:1px;}
+  .toc li h3 span:nth-child(2):after{content: " ";}
+  .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+  .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+  .toc li h3 span:first-child{line-height: 2.3em !important;}
+  .toc ul ul {margin-left: 10px !important;}
+  .toc>ul>li {margin-bottom: initial !important;}
+  .phb#p3:after{display:none;}
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Ratfolk Compendium
+
+These beautiful and treacherous environments are a staple in many fantasy adventures. Mountains can serve as imposing impediments to travel as players try to pass them to reach their destination, or they can be the location of the player's goal, serving as a dangerous and dramatic setting for an adventure. Even in the heart of relatively tame and civilized lands, mountains serve as bastions of untamed and unforgiving wilderness, for there are few environments that pose as many hazards to travelers.
+
+This document provides content to help you run games that feature mountains of any shape and size in any environment. This content ranges from character options for players who want their characters to be associated with mountains, to mechanics for running sessions with travel through mountains, to a bestiary of mountain creatures to populate the peaks in your games. Whether the players are only spending a day traveling through mountains or your entire campaign features mountains, any of the content here can be used to enhance your games.
+
+
+
+
+
+<img src='https://scg-static.starcitygames.com/articles/2023/06/d3a30c2f-mountain-scaled.jpg' style='position:absolute; top:-0px; right:-100px; width:1090px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:308px; right:0px; width:900px; transform:rotate(10deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:500px; right:0px; width:900px; transform:rotate(10deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:560px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+<div class='toc'>
+
+- ## Table of Contents
+    - [<span>3</span><span>Introducing Ratfolk</span>](#p3)
+- ### [<span>10</span><span>Running Ratfolk  Adventures</span>](#p10)
+  - [<span>2</span><span>General Ratfolk Clans</span>](#p2)
+  - [<span>3</span><span>Ratfolk Ninja Clans</span>](#p3)
+- ### [<span>10</span><span>New Player Options</span>](#p10)
+  - [<span>10</span><span>Player Race: Ratfolk</span>](#p10)
+  - [<span>11</span><span>New Items</span>](#p11)
+  - [<span>16</span><span>New Spells</span>](#p16)
+  - [<span>16</span><span>New Magic Items</span>](#p16)
+- ### [<span>20</span><span>New Types of Items</span>](#p20)
+  - #### [<span>20</span><span>Two-Creature Weapons</span>](#p20)
+    - [<span>41</span><span>Two-Creature Weapon Rules</span>](#p41)
+    - [<span>41</span><span>Poisoned Wind Mortars</span>](#p41)
+    - [<span>41</span><span>Ratling Guns</span>](#p41) 
+    - [<span>41</span><span>Warpfire Throwers</span>](#p41) 
+    - [<span>41</span><span>Warp Grinders</span>](#p41) 
+    - [<span>41</span><span>Warplock Jezzails</span>](#p41) 
+    - [<span>41</span><span>Two-Creature Weapon Loot</span>](#p41) 
+  - #### [<span>30</span><span>Siege Weapons</span>](#p30)
+    - [<span>41</span><span>Siege Weapon Rules</span>](#p41)
+    - [<span>41</span><span>Warp Lightning Cannons</span>](#p41)
+  - #### [<span>37</span><span>Self-Powered Vehicles</span>](#p37)
+    - [<span>41</span><span>Self-Powered Vehicle</span>](#p41)
+    - [<span>41</span><span>Doom Flayers</span>](#p41)
+    - [<span>41</span><span>Doom Wheels</span>](#p41)
+- ### [<span>20</span><span>New Creatures</span>](#p20)
+    - #### [<span>20</span><span>Ratfolk Soldiers</span>](#p20)
+    - #### [<span>20</span><span>Rats</span>](#p20)
+    - #### [<span>20</span><span>Ninja Ratfolk</span>](#p20)
+    - #### [<span>20</span><span>Rat Monstrosities</span>](#p20)
+    - #### [<span>20</span><span>Ratfolk Engineers</span>](#p20)
+        - [<span>41</span><span>Snow Leopards</span>](#p41)
+        - [<span>46</span><span>Stonehorns</span>](#p46)
+        - [<span>51</span><span>Yetis</span>](#p51)
+        - [<span>59</span><span>Zheng</span>](#p59)
+- ### [<span>20</span><span>Example Encounters</span>](#p20)
+-  [<span>65</span><span>Encounter: Rise Of The Gorilla God</span>](#p65)
+
+
+
+
+<div align="right">
+
+
+
+<div style='margin-top:55px;'></div>
+
+
+</div>
+
+</div>
+
+\pagebreakNum
+
+# Introducing Ratfolk
+
+These devious and opportunistic humanoids scurry within the shadowy recesses of other civilizations, where they scheme ways to advance themselves and bring ruin upon their hated enemies.  And the enemies of a ratfolk are many, for most other humanoids view them with fear and disdain.  Thus, ratfolk live hidden within swamps, caves, sewers, or the ruins of other humanoids.  From here, they can launch raids into the territory of other races to take whatever they need to survive.  
+Some ratfolk find it in their best interest to bargain with and even form alliances with other races.  These alliances are almost always created out of a sense of survivalist pragmatism, and most ratfolk won't hesitate to cast them aside once they are no longer of use.  But some exceptional or desperate ratfolk will find themselves tangled in long-term partnerships with members of other races to achieve common goals.  These ratfolk are almost always adventurers of some sort and can make for useful and dangerous allies.
+
+### Nimble and Devious
+Though ratfolk possess natural agility and a vicious bite, they don't typically confront their foes head-on.  Their smaller frames and lack of resources have made ratfolk accustomed to fighting at a disadvantage.  As such, ratfolk rarely believe in fighting fair.  They are twitchy and quick to scurry away if they perceive themselves in a losing fight.  
+
+Skilled ratfolk can use this natural tendency to their advantage as they whittle enemies down with hit and run tactics.  Ratfolk also become more confident when attacking in numbers and quickly become more vicious when they are part of a swarm overwhelming their foes.
+
+If worst comes to worst and they are forced to flee, ratfolk can quickly squeeze their way into tight crevices to escape attackers.  This ability also gives them a substantial combat advantage when fighting in their claustrophobic underground homes, where they can pop from hidden alcoves to attack unsuspecting intruders.
+
+### Bringers of Plague and Ruin
+Most ratfolk live brutal lives in which pure survival is prioritized above all else.  The idea of shunning a source of power out of fear of corruption or avoiding tactics because they are dishonorable is absurd to them.  As such, ratfolk are known to be masters of many powers and abilities other races consider sinister.  Many ratfolk become deadly assassins, some possessing a supernatural mastery of their wicked craft.  Others tap into the notoriety of rats for swarming through civilization and spreading plagues.  These ratfolk may become carriers for terrible diseases which they can inflict upon their victims, or they may learn to command swarms of other vermin to overwhelm their foes.  Even ratfolk who pursue power through more conventional martial means utilize fear and underhanded tactics to obtain that power.
+
+\columnbreak
+
+### Crafty Innovators
+In their scramble to find new ways to survive, many ratfolk find innovative ways to use the limited resources at their disposal.  These ratfolk make for natural tinkerers, artificers, and engineers, and their creations are built to deliver powerful results at any cost.  This mindset results in many brilliant but perilous designs.  The weapons created by ratfolk are often as dangerous to the wielder as the weapon's target.  Successful engineers have others test their devices for them, only using the most tried and true designs themselves.  
+
+### Ratfolk Names
+In some settings, ratfolk take names similar to those of nearby humanoids.  Other times, ratfolk develop naming conventions of their own.  First names are usually short, squeaky, and chittering.  Surnames emphasize imposing traits or deeds, and ratfolk often take on new surnames they find useful for maintaining their status.  Some ratfolk will even discard their first name altogether and only be referred to by an imposing title.  Ratfolk names generally don't distinguish between the genders.
+<br>**Ratfolk Names:** Skeetch Plaguebreath, Threk Bonechewer, Rikket Demoneyes, Gutterking, Kreet Craventail, Rotfang
+
+\pagebreakNum
+
+# Running Ratfolk Adventures 
+
+The nature of ratfolk and the names they go by varies from setting to setting. However, adventures that pit players against evil ratfolk usually feature them as unscrupulous and underhanded adversaries who utilize stealth and overwhelming numbers to compensate for other shortcomings. Ratfolk often dwell in formerly abandoned towns or the sewers of cities occupied by other humanoids. They may also construct their own hidden settlements underground or within deadly swamps. From these dwellings, they can launch raids into the territory of other races to take whatever they need to survive.  
+
+Players may come into conflict with ratfolk who are launching an attack on other humanoids, or they might stumble across ratfolk lairs in the wild or while exploring urban ruins. The most common types of ratfolk players are likely to encounter are foot soldiers, who range from lowly slaves to mighty warlords leading entire clans. Some ratfolk forces may also include a grey seer who serves as a powerful mystic and spiritual leader for the clan.
+
+## General Ratfolk  Clans
+TALK ABOUT THEM A BIT
+
+### Ratfolk Motivations
+Ratfolk, at their core, seek power above all else. Many carry an everpresent sense of fear and inferiority and thus grab at power as a means of mitigating these insecurities. The form this power takes can vary between ratfolk, depending on where their talents lie. Ratfolk with specialized skills will seek mastery in that skill as a means of elevating themselves while also seeking to sabotage any rivals. 
+
+Lowly ratfolk slaves will leap at any chance to bully another creature, and ratfolk warlords seek to expand the size of their territory and clan. All ratfolk take particular glee in seeing the works of rival races reduced to ruin and will bring about such ruin for its own sake as it facilitates a sense of superiority amongs their kind.
+
+
+
+Ratfolk with more mystical inclinations, such as grey seers, may appear to give up this selfish drive in service of their divine calling, but they, too, seek power. Their service is merely a means of gaining access to eldritch powers, which they can use to elevate themselves amongst their clan, and they often walk the fine line between doing what their divine masters require of them and utilizing their gifts to achieve their selfish ends.
+
+
+
+#### General Ratfolk Motivations
+* Securing resources or territory for a clan
+* Bringing ruin upon a feared enemy
+* Acquiring items that enhance the ratfolk’s power or can serve as a status symbol
+* Increasing status among the clan
+* Avoiding the wrath of higher-ranking clan members
+
+\columnbreak
+
+#### Grey Seer Motivations
+* Serving the will of an otherworldly master
+* Securing eldritch lore or powerful magic items
+* Gaining influence over other clans
+ 
+
+
+### Ratfolk Tactics
+Ratfolk rarely have the advantage over their foes in terms of individual power and must instead rely upon cunning and numbers. Grand strategic goals are pursued using deception, betrayal, and securing large numbers of allies. Ratfolk are opportunistic schemers by nature and can flip from cowering hesitation to brutal aggression the moment they see an opening to pursue their goals. Though ratfolk are quick to backstab one another to pursue their ends, they naturally unite into overwhelming verminous mobs when faced with an outside threat. These tactics carry over into how ratfolk engage the players in combat.
+
+#### Engagement
+Ratfolk rarely engage enemies on anything approaching even footing. They don’t start a fight unless they’ve caught the players off-guard, have overwhelming numbers, or have a terrain advantage. If they’re able, ratfolk will surround the players before making their presence known using their natural stealthiness. They will also try to fight in dark and claustrophobic environments where their darkvision and Crevice Crawler abilities allow them to sneak up from unexpected directions.
+
+
+#### Combat
+
+So long as they believe they have the upper hand, ratfolk are vicious combatants to the point of recklessness. They will dogpile an isolated or otherwise vulnerable opponent and utilize their Overwhelming Mass feature to rack up brutal amounts of damage. If the players manage to regroup to support whoever is being ganged up on, the ratfolk will scatter using their Scurry Away feature before rallying to reattempt the same tactic. Fighting in an environment with tight spaces the players can’t easily move through helps facilitate this fighting style.
+
+#### Retreat
+Ratfolk aren’t shy about retreating if a fight doesn’t appear to be going well. If ratfolk force as a whole is doing well, individual ratfolk will often fight to the death. However, their morale plummets once they no longer perceive themselves as having the upper hand. This may happen if the ratfolk lose more than half their fighting force or their leader is slain, and their enemies don’t appear to be near defeat. Under these circumstances, most ratfolk will flee if they have lost at least half their health, face a foe they don’t outnumber, or see multiple nearby allies flee.
+
+\pagebreakNum
+
+## Ninja Ratfolk Clans
+
+The nature of ratfolk and the names they go by varies from setting to setting. However, adventures that pit players against evil ratfolk with ninja-like capabilities usually feature them as unscrupulous and underhanded adversaries who utilize speed, stealth, and agility to catch players off-guard and exploit their weaknesses. These ninja ratfolk dwell within secret lairs or hidden dispersed amongst larger populations where they can better remain hidden. 
+
+Players may come into conflict with ninja ratfolk who are launching raids on other humanoids or performing sinister covert operations. Players may be called upon to foil a ninja clan’s attempts at assassination, theft, espionage, or sabotage. They may also be sent to hunt down ninja ratfolk or discover the whereabouts of their masters or the location of their clan’s lair.
+
+
+### Ninja Ratfolk Motivations
+
+
+Ratfolk, at their core, seek power above all else. The form this power takes can vary between ratfolk, depending on where their talents lie. Ratfolk of the ninja clans see obtaining mastery of their deadly arts as the most reliable means of obtaining power and elevating their status. Mastery and status are obtained by carrying out missions on behalf of their clan or whoever is paying for their services. As such, most of their motivations will be tied to carrying out whatever task has been assigned to them. Individuals within the clan may have their own personal agendas, but should they be caught crossing the clan, they will be quickly eliminated.
+
+#### Ninja Ratfolk Motivations
+* Carrying out missions on behalf of their clan
+* Seeking esoteric knowledge, training, or items to help further the mastery of their art
+* Ascending through the ranks of their clan
+* Finding formidable challenges to overcome, so as to prove their worth
+* Acquiring secrets that can be leveraged for power
+
+### Ninja Ratfolk Tactics
+Ninja ratfolk utilize cunning, stealth, and ruthless opportunism to achieve their goals. These tactics apply to both grand strategic goals and moment-to-moment combat maneuvers. They are never obvious about their intentions or how they plan to achieve their ends, and these ratfolk almost always have a trick up their sleeve or some contingency plan to fall back on should they face challenging resistance.
+
+\columnbreak
+
+#### Engagement
+
+Ninja ratfolk never engage enemies on fair terms and will always look to strike when and where they are least expected. They usually avoid fights where they can’t dictate how the battle is started and almost always attempt to begin engagements with an ambush. Attacking players under cover of darkness is their preferred method. Still, they may also hide their agents amongst other ratfolk forces and only reveal themselves once the players have left one of their more vulnerable party members open to a sneak attack. 
+
+Ratfolk ninjas also enjoy attacking players who are engaged with other foes, making it much easier to sneak up on unsuspecting party members. If the players manage to catch them on the back foot, most ratfolk ninjas will attempt to retreat and regroup for a surprise counterattack when the players are more vulnerable.
+
+
+#### Combat
+
+Ratfolk ninjas all make heavy use of hit-and-run tactics. They rarely stand toe-to-toe with formidable opponents and prefer to focus their attacks on players who are easy to hit and quick to bring down. Their high mobility and ability to disengage from fights make it hard for players to pin them down and easy for them to reach fragile players. 
+
+Beyond these skirmishing strategies, ratfolk ninjas still make use of their standard racial abilities. They attack in groups whenever possible, enabling both their sneak attacks and their Overwhelming Mass ability. Scurry Away and Crevice Crawler also make retreat into tight spaces where players cannot follow all the easier.
+
+#### Retreat
+Ninja ratfolk quickly flee if they find themselves on the back foot, and many of their strategies involve retreating from surprise attacks the moment the players have had the chance to gain their bearings. The fact that they can use their Cunning Action feature while frightened as a result of their Scurry Away feature helps facilitate this. 
+
+They will leave the players wounded with their resources drained and wait to strike again when their guard is down to slowly sap the players of their fighting capability. If the players manage to deal severe damage to the ratfolk ninja force and successful counterattacks seem unlikely, they will flee the area entirely. 
+
+Though ninja ratfolk are quick to flee, those who have ascended beyond the rank of night runner rarely due so with the blind panic of ordinary ratfolk. Their disciplined training allows them to maintain a level head, and their retreats are made in a much more tactical manner. 
+
+\pagebreakNum
+
+# New Player Options
+Bleep blee blah blah blah
+
+<Br><br><br><br><Br><br>
+
+## New Race: Ratfolk
+You can use these stats for a ratfolk player race option.
+
+### Ratfolk Traits
+Your ratfolk has the following racial traits.
+
+***Ability Score Increase.*** Your Dexterity score increases by 2, and one other ability score of your choice increases by 1.
+
+***Age.*** Ratfolk mature quickly and usually live brutally short lives.  They reach adulthood at 8 and have a natural lifespan of 40 years, though most don't even live half that long.
+
+***Alignment.*** The cutthroat nature of ratfolk society results in them leaning heavily towards chaos over order.  Their emphasis on survival at all costs pulls ratfolk towards neutrality, if not outright evil, though exceptional individuals may push back against this. 
+
+
+
+***Size.*** Ratfolk are usually shorter and scrawnier than the average human.  Adult ratfolk usually reach 4 to 5 feet in height and weigh 70 to 110 pounds, with exceptionally well-fed individuals reaching 6 feet and weighing as much as 160 pounds.  Most ratfolk walk with a hunch, making them appear shorter.  Your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet
+
+***Darkvision.*** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.  You can't discern color in darkness, only shades of gray. 
+
+***Crevice Crawler.*** You can move through and stop in a space large enough to fit a creature one size smaller than you without squeezing.
+
+***Bite.*** Your razor-sharp jaws are a natural weapon you can use to make unarmed strikes.  If you hit with them, you deal piercing damage equal to 1d4 + your Strength or Dexterity modifier (your choice) instead of the bludgeoning damage normal for an unarmed strike.  You can also use Dexterity instead of Strength for the attack rolls you make with your bite.
+
+***Overwhelming Swarm.***  When you damage a target with an attack or a spell, you can cause the attack or spell to deal an extra 1d4 damage for each of your allies within 5 feet of the target that isn't incapacitated.  You can benefit from up to 3 allies this way.  Once you use this trait, you can't use it again until you finish a short or long rest.
+
+At 5th level, the damage dice change to d6s.  At 10th level, they become d8s.  At 15th level, they become d10s.  And at 20th level, they become d12s.
+
+***Scurry Away.*** When a creature you can see ends its turn, you can move up to half your speed away from it as a reaction, and you become frightened of it until the end of your next turn.  This movement doesn't provoke opportunity attacks.  While frightened this way, you can only take the Dash, Disengage, Dodge, or Hide action.  This ability ignores immunity to the frightened condition.
+
+***Verminous Instincts.*** You gain proficiency in Perception. 
+
+***Languages.*** You can speak, read, and write Common and Undercommon.
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Ratfolk Adventurers
+Most settings do not feature ratfolk, let alone playable ratfolk.  However, the DM and some players in the group may want the opportunity to try playing such a character without needing to shoehorn an entire race into the world.  In this case, the following options can provide some possible origins for ratfolk individuals in settings otherwise devoid of them:
+
+##### Ratfolk Adventurer Orgins
+| d10  | Adventurer Origin |
+|:---:|:-----------:|
+|  1  | One of your parents was a wererat, leaving you born with bizarre ratlike traits. |
+|  2  | Your attempt at curing yourself of your wererat lycanthropy left you trapped in a hybrid rat-humanoid state.   |
+|  3  | You were once an ordinary rat living in a town subjected to a dark curse, causing its rodent population to mutate into humanoids and overrun its former inhabitants. |
+|  4  | You were once a lab rat used in a twisted project to mutate and rapidly evolve rodents.  You were one of the first successes.  |
+|  5  |You were testing an experimental new form of teleportation but didn't notice the rat with you.  When you both finished your journey, you had fused into a single entity. |
+|  6  | You were once the familiar of a powerful and reclusive archmage.  Tired of having one-way conversations with you, the mage transformed you into an intelligent humanoid.   |
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+|  |  |
+|:---:|:-----------:|
+|  7  | You betrayed the secrets of a powerful fey, who devised an ironic way of punishing you for "ratting" them out. |
+|  8  | You stole a cursed item crafted with a unique way of punishing "thieving rats."  |
+|  9  |You serve an otherworldly being strongly associated with rats and vermin, and this being has chosen to "bless" you with its gifts. |
+|  10  |A powerful magical individual with delusions of godhood is attempting to craft a new race of verminous worshippers, and you are one of the first members of this fledgling species. |
+
+## New Ratfolk Feats
+
+### Cunning Crafter
+*Prerequisite : Ratfolk Race*<Br>
+
+You've become adept at tinkering and using devices in devious ways, granting you the following benefits:
+* Increase your Dexterity or Intelligence score by 1, to a maximum of 20.
+* You can use your action to perform object interactions and use magic items while frightened by your Scurry Away trait.
+* You gain proficiency with one type of artisan's tools of your choice, and you can use that type of tool as a spellcasting focus for any spell you cast that uses Intelligence as its spellcasting ability.
+
+
+<img src='https://i.ibb.co/xYMg368/Nezumi-Prowler-Kamigawa-Neon-Dynasty-Mt-G-Art.jpg' style='position:absolute; bottom:400px; right:-100px; width:1000px; transform:rotate(0deg);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-370px;top:110px;height:1400px;width:1416px;transform:rotate(185deg)scaleX(1);' />
+
+\pagebreak
+
+### Devious Adversary
+*Prerequisite : Ratfolk Race*<Br>
+
+You've practiced scurrying in and out of combat and dispatching foes in underhanded ways, granting you the following benefits:
+
+* Increase your Strength or Dexterity score by 1, to a maximum of 20.
+* When you use your Scurry Away trait on a creature within 5 feet of you, you may choose to make a bite attack with disadvantage against that creature as part of the same reaction before you move.
+* When a creature you have been frightened of by your Scurry Away feature since the start of your last turn misses an attack against you, any fear you have of that creature ends. You may then use your reaction to move up to half your speed towards it.  If this movement brings you within 5 feet of the creature, or you were already within 5 feet of it, you may make a bite attack against it with advantage as part of your reaction.
+
+
+
+### Hordemaster
+*Prerequisite : Ratfolk Race*<Br>
+
+You’ve learned how to summon and command hordes of rats to devour your foes, granting you the following benefits:
+
+* Increase your Strength or Wisdom score by 1, to a maximum of 20.
+
+* As an action, you can summon a number of **giant rats** equal to your proficiency bonus, which appear in unoccupied spaces that you can see within 30 feet of you.  The summoned rats are friendly to you and your companions.  In combat, the rats share your initiative count, but they each take their turns immediately after yours in any order you choose.  
+On each of your turns, you can use a bonus action to command any of the rats within 30 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one).  You decide what action the rats will take and where they will move during their next turn, or you can issue a general command, such as to guard a particular area or run up and attack a specific creature.  
+If you issue no commands, they can move and use their reaction on their own, but the only action they take on their turn is the Dodge action.  Once given an order, the rats continue to follow it until their task is complete or they end their turn more than 30 feet away from you.  Each rat disappears after it drops to 0 hit points, after 10 minutes have passed, or you use this feature to summon more rats.  
+Once you summon rats this way, you can’t do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher.  When you summon rats this way, you create a number of rats equal to twice the level of the spell slot expended.
+
+\columnbreak
+___
+> ## Rat, Giant
+>*Small beast, unaligned*
+> ___
+> - **Armor Class** 12
+> - **Hit Points** 7 (2d6)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|7 (-2)|15 (+2)|11 (+0)|3 (-4)|12 (+1)|4 (-3)|
+>___
+> - **Skills** Perception +3
+> - **Senses** darkvision 60 ft., passive Perception 13
+> - **Languages** ━
+> - **Challenge** 1/8 (25 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Crevice Crawler.***  The rat can move through and stop in a space large enough to fit a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The rat has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass (1).*** The first time each turn that the rat hits a creature with an attack, it deals an extra 1 damage per ally it has within 5 feet of its target that isn't incapacitated. The rat can benefit from up to 3 allies this way.
+>
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.
+>
+> ### Reactions
+>
+> ***Scurry Away.*** When an enemy the rat can see ends its turn, the rat can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the rat can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+>
+
+<img src='https://i.ibb.co/k0RJTsZ/ruin-rat.jpg' style='position:absolute; bottom:-50px; right:-85px; width:600px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:30px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:00px;top:-355px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+
+\pagebreak
+
+### Plague Rat
+*Prerequisite : Ratfolk Race*<Br>
+
+Your body is riddled with diseases that perversely grant you vitality while also allowing your bites to inflict debilitating infections, thus granting you the following benefits:
+* Increase your Constitution or Strength score by 1, to a maximum of 20.
+* Once per turn, when you hit a creature with your bite attack, you can force it to make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become infected by your disease.  While it is diseased, whenever the infected creature makes an ability check, attack roll, or saving throw, it must roll a d4 and subtract the number rolled from the ability check, attack roll, or saving throw.  The creature can repeat the saving throw at the end of each of its turns, ending the disease on a success.  Once a creature is cured of the disease, or it succeeds on saving throw against the disease, it can't become infected by this disease again for 24 hours.
+
+### Tail Master
+*Prerequisite : Ratfolk Race*<Br>
+You've trained your tail coordination to the point where you can use it like a third hand.  You may use your tail to perform actions you would normally need a free hand for.  Your tail can wield simple weapons with the light property, but no other types of weapons and no shields.  When you take an attack action while wielding a weapon with your tail, you may make an additional off-hand attack, allowing you a maximum of two off-hand attacks.
+
+### Under Speaker
+*Prerequisite : Ratfolk Race*<Br>
+You've learned how to communicate with your fellow rodents, keeping you well informed by a vast network of verminous spies and granting you the following benefits:
+
+
+\columnbreak
+
+
+* Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.
+* You gain the ability to cast the *beast sense* and *speak with animals*, but only as rituals and only targeting rats.  The spells' spell casting ability is the ability increased by this feat.
+
+* You can cast *animal friendship* and *animal messenger*, but only targeting rats.  Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest.  You can also cast these spells using spell slots you have of the appropriate level.  The spells' spellcasting ability is the ability increased by this feat.
+
+### Unrivalled Killer
+*Prerequisite : Ratfolk Race*<Br>
+You know how best to capitalize on any opening left by your opponent, granting you the following benefits:
+* Increase your Dexterity or Wisdom score by 1, to a maximum of 20.
+* You learn the *true strike* cantrip. You can cast it without somatic components, and Wisdom is your spellcasting ability when casting it. You can cast this spell even while you are frightened by your Scurry Away trait. If an attack that was granted advantage by the spell hits, you can use your Overwhelming Swarm trait even if you have no uses of the feature left, and doing so does not expend any uses of it.
+* When you use your Overwhelming Swarm feature against a creature that can't see you, you gain the maximum number of additional damage dice possibly granted by that feature, regardless of the number of allies within 5 feet of your target.
+
+<img src='https://i.ibb.co/bQk7FPN/ink-eyes-servent-of-oni.png' style='position:absolute; bottom:-180px; right:00px; width:817px; transform:rotate(0deg);filter:opacity(100%);transform:scaleX(1);'/>
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-160px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+## New Items
+These are new items.
+
+### Plague Censers
+
+These insidious weapons have the appearance of a ceremonial censer used for burning incense, but they are shaped into the form of a flail.  Each day, a plague censor can be filled with toxic incense, and as the censor is swung in combat, it unleashes necrotic fumes deadly to all in the vicinity, including the wielder.    
+
+
+#### Plague Censer
+*melee weapon (martial, flail)*
+___
+- **Damage:** 1d8
+- **Damage Type:** Bludgeoning
+- **Properties:** Heavy, two-handed, reach, special
+- **Cost:** 50 gp
+- **Weight:** 3 lb
+___
+
+***Plague Censor.*** When you make an attack with a plague censer, it releases its putrid incense everywhere within 10 feet of you.  Each creature in that area takes 1d6 necrotic damage, including the wielder.  Once a plague censer releases its putrid incense, it can't do so again until the next round.
+
+The plague censer must be filled every 24 hours with 10gp worth of putrid incense to maintain this trait.
+
+
+
+#### Feat: Plague Censer Fanatic
+You've learned how to develop a supernatural bond with a plague censor, drawing perverse fortitude from it even as you are withered by its toxic fumes, and you can use this bond as a focus for your magical abilities.   You gain the following benefits:
+* Increase your Strength or Constitution score by 1, to a maximum of 20, or gain proficiency with plague censers.
+
+*  As long as you are wielding a plague censer containing putrid incense, you can use it as a spellcasting focus for your spells, and you can perform the somatic components of spells even when it is occupying both your hands.
+
+* When you cast a spell that has somatic components using your plague censer as your spellcasting focus, you may have it release its putrid incense everywhere within 10 feet of you.
+
+* When you release putrid incense from a plague censer you are wielding, you may have it deal 1d8 necrotic damage rather than 1d6.
+
+* When you take necrotic damage from a plague censer you are wielding, you get +2 to your AC until the start of your next turn or until you stop wielding the plague censor in both hands. 
+
+\columnbreak
+
+### Poisoned Wind Globes
+
+#### Poisoned Wind Globes
+___
+- **Cost:** 50 gp
+- **Weight:** 1 lb
+ 
+Poisoned wind globes are orbs made of glass or crystal and filled with deadly gas. When shattered, the spheres release billowing toxic clouds so lethal that mere skin contact can cause severe pain or even death.
+
+You can use an action to throw the globe up to 30 feet where it shatters on impact. Once shattered, it releases a cloud of poison gas in a 5-foot radius sphere, heavily obscuring the area. The cloud lasts for one round or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+
+When a creature enters an area covered by one or more of these gas clouds for the first time on a turn or starts its turn in one or more gas clouds, that creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 2d8 poison damage and is poisoned until the end of its next turn. On a successful save, the creature takes half as much damage and isn’t poisoned.
+
+When you use your action to attempt to throw the globe, creatures can use their reaction to make attacks of opportunity against you as though you moved out of their reach. If a creature hits you this way, you drop the globe, and it detonates at your location.
+
+\pagebreakNum
+
+#### Death Globes
+___
+- **Cost:** 100 gp
+- **Weight:** 1 lb
+ 
+Death globes are built with the same function as poisoned wind globes, but the gasses they carry are far more potent and capable of enveloping a much larger area.
+
+You can use an action to throw the globe up to 30 feet where it shatters on impact. Once shattered, it releases a cloud of poison gas in a 10-foot radius sphere, heavily obscuring the area. The cloud lasts for one round or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+
+When a creature enters an area covered by one or more of these gas clouds for the first time on a turn or starts its turn in one or more gas clouds, that creature must make a DC 15 Constitution saving throw. On a failed save, the creature takes 3d8 poison damage and is poisoned until the end of its next turn. On a successful save, the creature takes half as much damage and isn’t poisoned.
+
+When you use your action to attempt to throw the globe, creatures can use their reaction to make attacks of opportunity against you as though you moved out of their reach. If a creature hits you this way, you drop the globe, and it detonates at your location.
+
+\columnbreak
+
+#### Poisoned Wind Globe & Death Globe Upgrades
+
+These effects can be added to poisoned wind globes or death globes to enhance their lethality. The cost of the globe is increased by 100 gold per upgrade added. If they're added to the globes used ratfolk poisoned wind globadiers or ratfolk death globe bombardiers, their CR goes up by 1 per <br>upgrade applied to their globes.
+
+* **Acid Blast.** When the orb shatters at a point, each creature within 15 feet of the point must make the Dexterity saving throw against the orb's save DC. A creature takes 7 (3d4) acid damage on a failed save and half as much damage on a successful one. (This orb still releases its gas cloud as usual.)
+
+* **Rot-Spice.** The clouds created by the orb deal necrotic damage when shattered instead of poison damage, and creatures poisoned by the gases gain a level of exhaustion.
+
+* **Warp Razors.** When a creature moves into or within the cloud created by the orb, it takes 5 (2d4) slashing damage for every 5 feet it travels.
+
+#### New Feat: Poisoned Wind Fumigator
+You've become a master of crafting and utilizing poisoned wind globes to maximum effect, and you can even implement globes with gases specialized in poisoning creatures normally resistant or immune to such effects. You gain the following benefits:
+
+* Increase your Intelligence score by 1, to a maximum of 20, or gain proficiency with alchemist's supplies, poisoner's kit, or glassblower's tools
+
+* You may have the saving throw for a poisoned wind globe or death globe you throw become 8 + your proficiency bonus + your Intelligence modifier, and you may add your Intelligence modifier to the poison damage its gas cloud deals.
+
+* At the end of each long rest, choose a creature type other than construct. Creatures of the chosen creature type don't benefit from resistance or immunity to poison damage from poisoned wind globes and death globes you throw unless they are under the effect of the *protection from poison* spell.
+
+* If you are proficient with glassblowers tools and either alchemist's supplies or poisoner's kits, and you have them in hand, you can create a new poisoned wind globe from the remains of one that has shattered within the last hour. To do so, you must expend 25 gp worth of alchemist's supplies or poisons over the course of 1 minute to turn the shattered globe into a new poisoned wind globe. 
+
+
+\pagebreakNum
+
+### Spike Fists
+These vicious weapons are gauntlets, bracers, or metal knuckle rings fitted with one or more metal spikes or blades. They are used by brutal warriors who specialize in setting up cheap shots and attacking opponents when they are most vulnerable.
+
+#### Spike Fist
+*melee weapon (martial)*
+___
+- **Damage:** 1d4
+- **Damage Type:** Piercing
+- **Properties:** light, special
+- **Cost:** 5 gp
+- **Weight:** 1 lb
+___
+***Spike Fist.***  When you hit with an attack with this weapon that had advantage, its damage increases to 2d4 piercing damage.
+
+
+
+#### Feat: Spike Fist Brutalist
+You've mastered the underhanded tactics necessary to brutalize your foes with spike fists, granting you the following benefits:
+* Increase your Strength by 1, to a maximum of 20, or gain proficiency with spike fists.
+
+* Attacks you make with spike fists deal 1d6 piercing damage or 2d6 piercing damage if they have advantage.
+
+* When you make a spike fist attack with advantage, you can forgo advantage for that roll to increase the damage you deal to 4d6 piercing damage if you hit.
+
+
+
+
+### Things Catchers
+This two-handed polearm has a large, tong-like head with the inside of its grips lined with spikes. The weapon is designed to be thrust around the torsos and extremities of foes to grab and painfully subdue them.
+
+#### Things Catcher
+*melee weapon (martial)*
+___
+- **Damage:** 1d4
+- **Damage Type:** Piercing
+- **Properties:** reach, special, two-handed
+- **Cost:** 2 gp
+- **Weight:** 3 lb
+___
+***Things Catcher.***  A large or smaller creature you hit with a things catcher is automatically grappled by you. Until the grapple ends, you can't attack any other targets with the things catcher. A creature can use its action to make a DC 10 Strength or Dexterity check (its choice), freeing itself or another creature within its reach on a success. If a creature has multiple attacks with the Attack action, it can replace any number of them with these checks. The grapple also ends if you drop the things catcher.
+
+\columnbreak
+
+#### Feat: Things Wrangler
+You developed the abilities needed to wield things catchers in more versatile ways and make them more difficult to escape from, granting you the following benefits:
+
+* Increase your Strength score by 1, to a maximum of 20, or gain proficiency with things catchers.
+
+* You treat things catchers as though they have the versatile property, dealing 1d6 piercing damage with two hands and 1 piercing damage with one hand.
+
+* You can use two-weapon fighting while wielding a things catcher as long as one of the weapons you are wielding is light.
+
+* You may have the grapple escape DC of a things catcher you are wielding be 8 + your proficiency bonus + your Strength modifier.
+
+### Throwing Stars
+
+These small, sharpened metal stars can be thrown or used as a stabbing weapon to deal small amounts of damage and potentially deliver poisoned attacks.  Their small size and unassuming nature make them ideal concealed weapons.
+
+
+#### Throwing Star
+*ranged weapon (simple)*
+___
+- **Damage:** 1
+- **Damage Type:** Piercing
+- **Properties:** Finesse, light, thrown(20/60), special
+- **Cost:** 5 sp
+- **Weight:** 1/10 lb
+___
+
+***Throwing Star.*** You can use two-weapon fighting to make off-hand attacks with throwing stars as though they are melee weapons, and you can use throwing stars to make melee weapon attacks as though they are light melee weapons. However, you still have disadvantage on these attack rolls if you are within 5 feet of a hostile creature that can see you and isn't incapacitated. 
+
+#### Feat: Throwing Star Master
+You mastered the art of using the normally unassuming throwing star to disrupt your foes and set up brutal follow-on attacks, granting you the following benefits:  
+
+* Increase your Dexterity score by 1, to a maximum of 20, or gain proficiency with throwing stars.
+
+* You can draw a throwing star as part of the attack you make with it.
+
+* Once per turn, when you hit a creature with an attack using a throwing star that did not suffer from disadvantage, you can gain advantage on the next melee weapon attack or unarmed strike you make against that creature this turn.
+
+
+\pagebreakNum
+
+# Change Log
+
+## Document
+#### 0.0.0
+* Document creation
+
+
+## Player Options
+### Referenced Content
+* Player Race: Ratfolk 1.1.2
+* Feat: Cunning Crafter 1.0.0
+* Feat: Devious Adversary 1.1.0
+* Feat: Hordemaster 1.2.1
+* Feat: Plague Rat 1.0.0
+* Feat: Tail Master 1.0.0
+* Feat: Under Speaker 1.0.0
+* Feat: Unrivalled Killer 1.0.0
+
+
+
+
