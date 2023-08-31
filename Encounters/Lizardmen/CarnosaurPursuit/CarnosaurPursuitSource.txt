@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-       .phb#p2:after, .phb#p3:after, .phb#p8:after  {
+       .phb#p5:after, .phb#p8:after {
         display          : none;
     }
     /* End Footers */
@@ -55,23 +55,20 @@ This encounter utilizes the rules for Chases described starting on page 252 of t
 
 * The players ever get 250 or more feet away from Guldbloom's Terror
 * The cart is destroyed
-* Guldbloom's Terror gets within melee range of a player not in the cart and is able to make an attack against that player on its turn
+* Guldbloom's Terror gets within melee range of a player not in the cart
 * The players reach the ceradon described in The Ceradon section later in the document
 
 
 
 \columnbreak
 
-<br><br><br><br><br>
+<br><br><br><br>
 
-##### Encounter Map: Temple Plaza
+##### Encounter Map: Jungle Path
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-##### Map Legend
-* <font color="Green">**Green:** Walls & Pillars</font>
-* <font color="DD941C">**Orange:** Damaged & Climbable Walls</font>
-* <font color="FF33F9">**Pink:** Foliage (Light Obscurement)</font>
+
 
 
 
@@ -85,14 +82,15 @@ The following considerations and rules modifications should be used for Guldbloo
 * Guldbloom's Terror doesn't roll for intuitive but acts on intuitive 1.
 * Guldbloom's Terror should not have access to any of its legendary actions except Tenacious Will during the chase. If the chase ends and traditional combat begins, it gains access to all its legendary actions as usual.
 * Guldbloom's Terror can use its Frightful Presence when taking the Dash action during the chase (which will give it disadvantage on Constitution checks made as a result of dashing.)
+* Blood Tracking will allow Guldbloom's Terror to move an extra 25 feet if any of the players in the cart (including the explorer who was wounded at the start of the chase) have a carnosaur wound.
+* If Guldbloom's Terror reaches the cart, it rips a piece off the cart. If it rips three or more pieces off the cart this way, the cart is destroyed, and the chase ends.
 
 
 
 
 
 
-
-<img src='https://i.ibb.co/drM34Kt/The-chase-5.jpg' style='position:absolute; top:145px; right:5px; width:415px; ' />
+<img src='https://i.ibb.co/drM34Kt/The-chase-5.jpg' style='position:absolute; top:130px; right:5px; width:415px; ' />
 
 
 
@@ -100,8 +98,7 @@ The following considerations and rules modifications should be used for Guldbloo
 
 \pagebreakNum
 
-* Blood Tracking will allow Guldbloom's Terror to move an extra 25 feet if any of the players in the cart (including the explorer who was wounded at the start of the chase) have a carnosaur wound.
-* If Guldbloom's Terror reaches the cart during its turn and is able to take an action, it rips a piece off the cart. If it rips three or more pieces off the cart, the cart is destroyed, and the chase ends.
+
 
 #### Chase Complications
 Instead of rolling for complications for each player, roll once at the start of the horses' turn and have the complication happen immediately. Use the following table to determine the complication:
@@ -112,23 +109,27 @@ Instead of rolling for complications for each player, roll once at the start of 
 |:---:|:-----------:|
 |  1  | **Brush:** The cart travels through thick brush. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the brush becomes 10 feet of difficult terrain for the cart.|
 |  2  | **Uneven Ground:** The cart encounters rough terrain. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the terrain becomes 20 feet of difficult terrain for the cart. |
-|  3  | **Sharp Turn:** The cart must make an abrupt turn. All passengers must succeed on a DC 15 Strength saving throw or be thrown over the cart's side, rendering their hands unusable as they hang from the edge. They or another creature in the cart can make a DC 15 Strength check to pull them back in. A creature in the cart has advantage on this check. Failing the save or check by 5 or more results in the creature falling prone beside the cart.   |
-|  4  | **Venomous Swarm:** The cart speeds past foliage containing swarms of venomous creatures. Each passenger is targeted by a melee weapon attack (+5 to hit) from these angered animals. On a hit, the creature must succeed on a DC 15 Constitution saving throw or be poisoned. The creature repeats the save at the end of each of its turns, ending the effect on a success. |
-|  5  | **Spore Cloud:** The cart runs over mushroom clusters, which release blinding spores. The horses and passengers must succeed on a DC 15 Constitution saving throw or be blinded until the end of their next turn. While blinded this way, their speed is halved.|
-|  6  | The lizardmen are attempting to eradicate the civilizations of the warmbloods, and the dread saurian leads the siege of a capital city. |
-|  7  | **Razor-Sharp Bramble:** The cart moves through sharp brambles. The horses and passengers must succeed on a DC 15 Dexterity saving throw or receive a Carnosaur Wound. |
-|  8  | **Tangled Roots:** Thick roots obstruct the cart's path. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the cart's wheels become tangled with roots, cutting its speed in half until they are removed. A creature can use its action to make a DC 15 Strength check to free the roots from the cart. |
+|  3  | **Sharp Turn:** The cart must make an abrupt turn. All passengers must succeed on a DC 15 Strength saving throw or be thrown over the cart's side, rendering their hands unusable as they hang from the edge. They or another creature in the cart can make a DC 15 Strength check to pull them back in. A creature in the cart has advantage on this check. Failing a save or check by 5 or more results in the creature falling prone beside the cart.   |
+|  4  | **Low Hanging Branches:** The cart moves through an area with particularly low tree branches. Each creature in the cart must make a DC 15 Dexterity saving throw to avoid being hit by a branch and knocked out of the cart. On a failed save, a creature is knocked over the cart's side, as described in the Sharp Turn complication (result 3). If they fail a save or check by 5 or more, they fall prone beside the cart.
+|  5  | **Snake Statue:** The cart passes by a mysterious snake statue that emits a mesmerizing aura. Passengers must succeed on a DC 15 Wisdom saving throw or stumble over the side of the cart as described in the Sharp Turn complication (result 3). If they fail a save or check by 5 or more, they fall prone beside the cart.
+|  6  | **Venomous Swarm:** The cart speeds past foliage containing swarms of venomous creatures. Each passenger is targeted by a melee weapon attack (+5 to hit) from these angered animals. On a hit, the creature must succeed on a DC 15 Constitution saving throw or be poisoned. The creature repeats the save at the end of each of its turns, ending the effect on a success. |
+|  7  | **Spore Cloud:** The cart runs over mushroom clusters, which release blinding spores. The horses and passengers must succeed on a DC 15 Constitution saving throw or be blinded until the end of their next turn. While blinded this way, their speed is halved.|
+|  8  | **Razor-Sharp Bramble:** The cart moves through sharp brambles. The horses and passengers must succeed on a DC 15 Dexterity saving throw or receive a Carnosaur Wound.|
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br>
+
 
 |   | |
 |:---:|:-----------:|
-|  9  | **Fallen Log:** A massive log blocks the way. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the log becomes 20 feet of difficult terrain and damages the cart as if Guldbloom's Terror tore a piece off it.|
-|  10  | **Snake Statue:** The cart passes by a mysterious snake statue that emits a mesmerizing aura. Passengers must succeed on a DC 15 Wisdom saving throw or stumble out of the cart. If they fail by 5 or more, they fall prone beside the cart. |
-|  11  | **Low Hanging Branches:** The cart moves through an area with particularly low tree branches. Each creature in the cart must make a DC 15 Dexterity saving throw to avoid being hit by a branch and knocked out of the cart. On a failed save, a creature is knocked over the cart's side, rendering its hands unusable as it hangs from the edge. That creature or another creature in the cart can make a DC 15 Strength check to pull it back in. A creature in the cart has advantage on this check. Failing the save or check by 5 or more results in the creature falling prone beside the cart.  |
-|  12  | **Dinosaur Stampede:** A herd of frightened dinosaurs crosses the cart's path. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the cart is damaged as if it has a piece torn out by Guldbloom's Terror. |
-|  13  | **Blood Suckers:** Swarms of bloodthirsty insects attack. Each passenger and the horses are targeted by a melee weapon attack (+5 to hit). On a hit, the target receives a Carnosaur Wound.|
-|  14  | **Muddy Ground:** The cart enters a muddy area. The driver must succeed on a DC 15 Dexterity (Land Wehicle) check or the mud becomes 30 feet of difficult terrain for the cart. |
-|  15  | **Shrine of the Beast God:** The cart passes a shrine dedicated to an ancient beast god that hums with power and seems to be visibly invigorating Guldbloom's Terror. The shrine has 40 hit points and an AC of 15. If not destroyed within one round, it boosts the speed of Guldbloom's Terror by 10 feet for an hour.  |
-|  16-20  | No complication |
+|  9  | **Tangled Roots:** Thick roots obstruct the cart's path. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the cart's wheels become tangled with roots, cutting its speed in half until they are removed. A creature can use its action to make a DC 15 Strength check to free the roots from the cart. |
+|  10  | **Fallen Log:** A massive log blocks the way. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the log becomes 20 feet of difficult terrain and damages the cart as if Guldbloom's Terror tore a piece off it. |
+|  11  | **Dinosaur Stampede:** A herd of frightened dinosaurs crosses the cart's path. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the cart is damaged as if it has a piece torn out by Guldbloom's Terror.  |
+|  12  | **Blood Suckers:** Swarms of bloodthirsty insects attack. Each passenger and the horses are targeted by a melee weapon attack (+5 to hit). On a hit, the target receives a Carnosaur Wound. |
+|  13  | **Muddy Ground:** The cart enters a muddy area. The driver must succeed on a DC 15 Dexterity (Land Wehicle) check or the mud becomes 30 feet of difficult terrain for the cart.|
+|  14  | **Shrine of the Beast God:** The cart passes a shrine dedicated to an ancient beast god that hums with power and seems to be visibly invigorating Guldbloom's Terror. The shrine has 40 hit points and an AC of 15. If not destroyed within one round, it boosts the speed of Guldbloom's Terror by 10 feet for an hour.  |
+|  15-20 &emsp;&emsp;&emsp;  | No complication |
 
 <br>
 
@@ -170,7 +171,7 @@ The degree of success the players have in escaping or defeating Guldbloom's Terr
 ### Adjusting the Difficulty
 The encounter assumes you are playing with 4 players in the suggested level range. If you're playing with a group of significantly lower-level players, you can use the easier variant of this encounter described below:
 
-**Easier Encounter (Level 6-8).** Replace Guldbloom's Terror with a normal carnosaur with Blessing of the Hunter God and change the DCs for chase complications to 14. Change the XP Award to 6,000 XP.
+**Easier Encounter (Level 6-8).** Replace Guldbloom's Terror with a normal carnosaur with Blessing of the Hunter God (described in the Blessings of the Old Ones section later in this document) and change the DCs for chase complications to 14. <Br> Change the XP Award to 6,000 XP.
 
 
 
@@ -180,15 +181,17 @@ If you wish to connect this encounter to a larger adventure, the following hooks
  
 | d4  | Adventure Hook |
 |:---:|:-----------:|
-|  1  | The players have successfully retrieved a powerful artifact needed to save the world, but the dread saurian presents the final obstacle to their escape.|
-|  2  | The lizardmen are attempting to eradicate the civilizations of the warmbloods, and the dread saurian leads the siege of a capital city. |
-|  3  | The players have defeated a lizardman leader who was threatening the world with a campaign of genocidal conquest. However, his skink attendants now seek revenge from atop the back of their dread saurian.  |
-|  4  | The world is being racked by tears in space and time which have carried a dread saurian from the primordial past into the present. |
+|  1  | **Explorer's Secrets:** The wounded explorer, in gratitude or in desperation, shares a secret map with the players. This map leads to an ancient temple hidden deep within the jungle. Guldbloom's Terror was guarding the entrance to this sacred site, and now, with the beast out of the picture or at least distracted, the players have a chance to uncover its secrets.|
+|  2  | **The Resurrection Ritual:** Word spreads of Guldbloom's Terror's confrontation with the players. A faction seeking to harness the creature's power attempts to resurrect it using dark magic. The players must stop the ritual or, if too late, deal with a now undead or magically enhanced version of Guldbloom's Terror. |
+|  3  | **Guldbloom's Lair:** The players stumble upon the lair of Guldbloom's Terror, a complex of caverns filled with treasure, traps, and remnants of the creature's past kills. However, other predators have started to move in, and some of the treasures may have owners who want them back.  |
+|  4  | **Memories of The Hunted:** The explorer died during the escape, and now his spirit begins to visit one of the players in dreams, sharing fragmented memories of something significant he discovered before being chased. These clues lead to a hidden jungle wonder, but piecing the memories together and finding the location proves challenging.|
 
 
 
 
 \pagebreakNum
+
+# Encounter Reference Material
 
 ## Encounter Stat Blocks
 
@@ -250,15 +253,7 @@ ___
 >
 > **Bloody Roar (Costs 2 Actions).** The carnosaur lets loose a reverberating roar. Each creature in a 120-foot cone originating from the carnosaur in the direction it's facing that can hear it must succeed on a DC 18 Wisdom saving throw or lose concentration and be knocked prone. If a creature fails the save by 5 or more (DC 13), it is also stunned. At the end of each of the stunned creature's turns, and each time it takes damage, it can make another Wisdom saving throw against the effect. The target has advantage on the saving throw if it's triggered by damage. On a success, the effect ends. <br><br>
 
-<img src='https://mdl.artvee.com/sftb/510400ld.jpg' style='position:absolute; bottom:-220px; right:-60px; width:1000px; transform:scaleX(1)' />
 
-  <img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-100px;bottom:-60px;transform:rotate(10deg)' />
-
-  <img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-460px;bottom:-60px;transform:rotate(-10deg)' />
 
 \pagebreakNum
 
@@ -307,301 +302,275 @@ ___
 >
 > ***Tail.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage, or 32 (3d8 + 2d10 + 8) if the carnosaur is rampaging.
 
+<img src='https://mdl.artvee.com/sftb/510400ld.jpg' style='position:absolute; bottom:-200px; right:-60px; width:1000px; transform:scaleX(1)' />
+
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-100px;bottom:-60px;transform:rotate(10deg)' />
+
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-460px;bottom:-60px;transform:rotate(-10deg)' />
+
 \pagebreakNum
 
 ___
-> ## Skink Behemoth Keeper 
-> *Medium humanoid (skink), lawful neutral*
+___
+> ## Ceradon
+> *Huge monstrosity, unaligned*
 > ___
-> - **Armor Class** 18 (shield and natural armor)
-> - **Hit Points** 27 (5d8 + 5)
-> - **Speed** 35 ft, swim 30 ft, climb 25 ft.
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 220 (21d12 + 84)
+> - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|12 (+1)|16 (+3)|12 (+1)|12 (+1)|14 (+2)|12 (+1)|
+>|24 (+7)|9 (-1)|18 (+4)|2 (-4)|12 (+1)|10 (0)|
 >___
-> - **Skills** Animal Handling +6, Nature +3, Perception +4, Stealth +5, Survival +4
-> - **Senses** darkvision 30 ft., passive Perception 14
-> - **Languages** Draconic 
-> - **Challenge** 2 (450 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> - **Saving Throws** Dex +3, Int +0
+> - **Skills** Perception +5
+> - **Senses** passive Perception 15
+> - **Challenge** 11 (7,200 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +4
 > ___
 >
-> ***Behemoth Bond.***  The skink has a bond to a Large or larger creature that it is charged with shepherding. While the skink is within 5 feet of the bonded creature, it has advantage on saving throws and ranged attack rolls. Additionally, at the start of the bonded creature's turn, the bounded creature gains a number of temporary hit points equal to 10 x the number of skinks bonded to it using this feature.
+> ***Cold Blooded.*** The ceradon has advantage on saving throws against being charmed or frightened.
 >
-> ***Cold Blooded.*** The skink has advantage on saving throws against being charmed or frightened.
+> ***Immutable Form.*** The ceradon is immune to any spell or effect that would alter its form.
 >
-> ***Evasion.*** When the skink makes a Dexterity saving throw to reduce the damage of an effect by half, it
-instead takes no damage on a success and only half damage on a failure.
+> ***Impale.*** If the ceradon moves at least 20 feet straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, the ceradon impales the target on its horns, grappling it if it is a Large or smaller creature (escape DC 19). Until the grapple ends, the target is restrained, takes 20 (3d8 + 7) piercing damage at the start of each of the ceradon's turns, and the ceradon can't use its Gore attack.
 >
-> ***Hold Breath.*** The skink can hold its breath for 1 hour.
+> ***Primal Instinct (73 HP, Recharges after a Short or Long Rest).*** When the ceradon's hit points drop to 73 or fewer or it becomes charmed or frightened, it enters a rampage that lasts for one minute.
 >
-> ***Jungle Toxins.*** At the end of the turn, each creature hit by one or more weapons that inflict Jungle Toxins must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. A creature that has been hit by two or more attacks from weapons with Jungle Toxins this turn makes the saving throw with disadvantage. The target repeats the saving throw at the end of each of its turns, ending the effect on a success or taking 5 (2d4) poison damage on a failure.
->
-> ***Mask of the Jungle.*** The Skink has advantage on Dexterity (Stealth) checks made to hide using foliage and may do so even if it is only lightly obscured while hiding this way
->
-> ***Savage Strikes.*** The skink deals an extra 3 (1d6) damage when it hits with a weapon attack (included in the attacks).
+> ***Territorial.*** The ceradon and any creature mounted on it have advantage on saving throws and checks against effects that would knock them prone or move them against their will. If any of them fail such a saving throw or check that they had advantage on, the ceradon enters a Rampage that lasts for one minute.  <br><br><br><br>
 >
 > ### Actions
 >
-> ***Javelin.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage and the target is inflicted with Jungle Toxin.
+> ***Multiattack.*** The ceradon can make a Stomp attack against any number of creatures within 5 feet of it and then a Gore or Bite attack. It can forgo all of its Stomp attacks to use its Trample action.
 >
-
-<br><br>
-
-> ##### Jungle Toxins
-> At the end of the turn, each creature hit by one or more weapons that inflict Jungle Toxins must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. A creature that has been hit by two or more attacks from weapons with Jungle Toxins this turn makes the saving throw with disadvantage. The target repeats the saving throw at the end of each of its turns, ending the effect on a success or taking 5 (2d4) poison damage on a failure.
-
-<br>
-
-### Dread Saurian Artifacts
-
-The dread saurian can be equipped with a magical artifact that grants it additional abilities and increases its CR by 2.
-
-#### Spirit Eye
-
-*A mystic crystal is embedded in the dread saurian, which allows it to call forth primal warriors from ages past.*
-
-At the start of its turn, the dread saurian can summon three specters in unoccupied spaces within 90 feet of it. The specters act immediately after the dread saurian on the same initiative count and fight until they are destroyed. They disappear after 1 minute or when the dread saurian dies. The specters summoned with this ability have the following changes:
-* They are not affected by Sunlight Sensitivity.
-* They have a melee spell attack instead of Life Drain. The attack has a +8 to hit, a reach of 5 feet, and targets one creature. On a hit, the attack deals 10 (3d6) force damage
-
-
-#### Heart of Stone
-
-*A large, eldritch stone is fused into the back of the dread saurian. The dread saurian can use the stone to draw the power of the earth into its body and become as unyielding as a mountain.*
-
-At the end of the dread saurian's turn, if it has not moved on that turn and is standing on earth or stone, it gains a +3 bonus to AC, saving throws, and opposed checks. This ability can stack up to two times. The dread saurian loses all stacks if it moves or is forced to move.
-
-While equipped with this artifact, the dread saurian's Primal Instinct ability is triggered only by it becoming charmed or frightened.
-
-
-
-#### Mantle of the Blazing Dawn 
-
-*Strange golden patterns are etched across the dread saurian’s scales. As the beast charges, the markings flare and burn with divine radiance.*
-
-Claw attacks made by the dread saurian when using its Obliterating Charge ability deal an additional 10 (3d6) fire damage and 10 (3d6) radiant damage on hit.
-
-
-
+> ***Bite.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 17 (3d6 + 7) piercing damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target not in the ceradon's space. *Hit:* 20 (3d8 + 7) piercing damage.
+>
+> ***Stomp.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 18 (2d10 + 7) bludgeoning damage. If the target is prone and in the same space as the ceradon, the stomp instead deals 29 (4d10 + 7) bludgeoning damage.
+>
+> ***Trample.*** The ceradon moves up to its speed in a straight line. During this move, it can attempt to enter Large or smaller creatures' spaces if it has moved at least 10 ft in a straight line beforehand. A creature whose space the ceradon would enter must succeed on a DC 19 Dexterity or Strength saving throw (the target's choice). On a failed save, the creature falls prone and takes 18 (2d10 + 7) bludgeoning damage, and the ceradon moves into its space. <br>On a successful Dexterity save, the target takes no damage, is not knocked prone, and is pushed 5 feet to the nearest space out of the ceradon's path. On a successful Strength save, the creature takes half damage, is not knocked prone, and the ceradon's movement ends.<br> If the ceradon remains in a prone creature's space, the creature is also restrained until it's no longer in the same space as the ceradon. While a creature is restrained in this way, it, or another creature within 5 feet of it, can make a DC 19 Strength check. On a success, the creature is pulled to an unoccupied space of its choice within 5 feet of the ceradon and is no longer restrained.
+>
+> ### Reactions
+>
+> ***Armored Crest.*** When an attacker the ceradon can see makes an attack roll against the ceradon or a creature within 5 feet of it, the ceradon can impose disadvantage on the attack roll.
 
 \pagebreakNum
 
-#### Primal Jaws
+### Blessings of the Old Ones
 
-*The dread saurian’s teeth are etched with runes and gilded with rare metal to honor the most ancient of bestial gods. When the dread suarian crushes foes with its sacred jaws, it awakens a primal vigor in its allies.*
-
-When the dread saurian uses its Crushing Jaws on a hostile creature, it and each ally within 100 feet of it gain 20 temporary hit points for the next minute. If the creature fails the saving throw against Crushing Jaws, they each gain 30 temporary hit points instead. If it fails by 10 or more, they each gain 40 temporary hit points instead.
-
-#### Rebus of the Jungle
-
-*Stange, magical, light-bending vines grow across the dread saurian and help mask its presence. These plants also help it to move through dense undergrowth undetected by its prey.*   
-
-The dread saurian gets +11 to stealth checks and can move though plants without being slowed, taking damage, being grappled or restrained.
-
-While dread saurian is lightly obscured, it is invisible to any creatures more then 10 feet away form it. If the dread saurian has a Howdah, the Howdah and the  Creatures inside of it gain this benefit as well
-
-#### Figures of Dread
-
-*The dread saurian wears a massive headdress lined with menacing statues, amplifying its already terrifying nature such that none can look upon it without experiencing mortal terror.*
-
-The following ability replaces the dread saurian’s Frightful Presence:
-
- ***Dread Presence.*** Each creature of the dread saurian's choice within 120 feet that is aware of it must make a DC 18 Wisdom saving throw or become frightened for 1 minute. All creatures have disadvantage on the saving throw unless they are within 5 feet of an ally. Creatures normally immune to being frightened can still be affected, but have advantage on their saves. While frightened, the creature can only use its actions to Dash, Disengage, Dodge, Hide, or steel its resolve. A creature that uses its action to steel its resolve can repeat the saving throw, ending the effect on itself on a success. If a creature succeeds on the saving throw or the effect ends, it becomes immune to the dread saurian's Dread Presence for the next 24 hours.
-
-### Howdahs
-
-You can choose to equip a dread saurian with a small, armored fort on its back known as a howdah. This howdah is a magic object with 100 hit points and an AC 19. Up to 10 Medium or smaller creatures can ride in the howdah without squeezing. All creatures within the howdah count as being within 5 feet of each other. 
-
-**Entering the Howdah.** While there is space in the howdah, a creature can spend all its movement to enter or leave the howdah or only half its movement if it has a climbing speed. While the dread saurian is not incapacitated, it can make an opposed Strength (Athletics) check against a creature attempting to enter the howdah. If the dread saurian succeeds, the creature can't enter the howdah until the start of its next turn, and any movement it used to try to enter the howdah is wasted. 
-
-The dread saurian may then immediately make an opportunity attack against the creature. If the dread saurian fails, the creature enters the howdah.
-
-**Melee Attacks Against Creatures Within The Howdah.** To make a melee attack against a target in the howdah while outside of it, a creature must be within 5 feet of the dread saurian, and if the creature isn’t Huge or larger, the attack must have a reach of at least 20 feet.
-
-**Protective Effects** When creatures are in the howdah, they are protected by powerful wards. They have three-quarters cover against attacks and effects from outside of it and a +5 bonus to all saving throws, not just Dexterity saves. If a creature in the howdah is subjected to an effect from outside that allows it to make a saving throw to take only half damage, it takes no damage if it succeeds on the saving throw, and half damage if it fails.
-
-**Being Knocked Prone** If the dread saurian is knocked prone, the howdah takes 30 bludgeoning damage.
-
-**Teleporting.** If the dread saurian is teleported, the howdah is teleported with it. Creatures in the howdah may choose to teleport with the dread saurian.
-
-**Destruction.** If the dread saurian dies, the howdah is destroyed. When the howdah is destroyed, creatures that were in it are knocked prone and land in unoccupied spaces within 5 feet of the dread saurian.
+Some lizardmen and dinosaurs are created with enhanced abilities attributed to their ancient gods. These creatures bear colorations that signify their specialized abilities and the unique ways they can serve their masters. You can apply one of these blessings to any of the creature stat blocks described in this document. Doing so increases that creature’s CR by 1. 
 
 
 
+#### Blessing of the Blood God
 
+*These hyper-aggressive lizardmen are marked with blood-red scales and infused with a ferocity that drives them to slaughter in their god’s name.*
 
+While the creature is rampaging, its has advantage on attack rolls and deals additional 11 (2d10) damage on hit.
 
-#### Howdah Weapons
+#### Blessing of the God of Fate
 
-The howdah has built-in weapons that can be fired by the creature's within. Each weapon can only be fired once per turn. For every giant bow or giant blowpipe you equip the howdah with, increase the dread saurian's CR by 1.
+*These lizardmen are marked by the oldest of gods with pure white scales and are said to be destined for greatness as fate itself bends to their will.*
 
-##### Ballista
+At the start of creature’s turns, it can choose to be under the effects of the *foresight* spell until the end of its next turn.
 
-When using a giant bow, it takes one action to load the weapon, one action to aim it, and one action to fire it. The creature aiming the weapon chooses the target and must also be the one to fire it. When fired, the arrow flies in a straight line up to 480 feet in a direction of the user's choice before falling to the ground.
+Once the creature uses this feature, it can't use it again until it finishes a long rest.
 
-If the arrow would strike a target, the target must make a DC 15 Dexterity saving throw. The target has advantage on the saving throw if the arrow has flown 120 feet or more. On a failed save, the target takes 33 (6d10) piercing damage and is inflicted with Jungle Toxins. If the target is reduced to 0 hit points or destroyed, the bolt keeps flying and deals 11 (2d10) less damage if it hits another target. Otherwise, the arrow's flight ends early.
+#### Blessing of the Hunter God
 
+ *These lizardmen are marked with a brown spotted coloration to help them blend into the wilderness, and they possess superior predatory instincts that allow them to stalk prey through the thickest jungles.*
 
-##### Giant Blowpipe
+The creature has advantage on Dexterity (Stealth) checks made to hide using foliage and may do so even if it is only lightly obscured. 
 
-When using a giant blowpipe, it takes one action to load the weapon, one action to aim it, and one action to fire it. The creature aiming the weapon must be the one to fire it. When fired, it does the following:
+Additionally, the creature has advantage on Wisdom (Perception), Wisdom (Survival) checks and can make them as a bonus action. 
 
-Darts rain down at a point of the user's choice within 120 feet. Each creature in a 5-foot radius centered on the point must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 12 (5d4) piercing damage and is inflicted with Jungle Toxins, and makes the saving throw at the end of its turn against the poison with disadvantage. On a successful save, a creature takes half damage and is inflicted with Jungle Toxins, but does not have disadvantage on the saving throw at the end of its turn against the poison.
+Finally, the creature can move through plants without being slowed, taking damage, or being grappled or restrained by them.
 
- 
- \pagebreakNum
- 
- ### Dread Saurian Loot
-The valuable items looted from dread saurians will generally come from whatever can be harvested from them and whatever sacred items they’ve been adorned with. Harvesting a dread saurian’s body can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. Looting their adornments will usually involve an **Intelligence (Arcana)** or **Intelligence (Religion)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest its hide.
+#### Blessing of the Protector God
 
-Players should be able to do both forms of harvesting at once using separate checks for most dread saurians. 
+*These lizardmen are marked with bony nobs and thick scales of a glittering silver color that deflect ranged attacks.*
 
-If a dread saurian is equipped with an artifact, you can make a second roll for adornment loot. Alternatively, the players may recover a functional magic item from the artifact.
-
-
-#### Dread Saurian Loot Tables
-The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. 
-
-
-##### Dread Saurian Loot Table: <br> Harvesting The Body
-
-| Looting Check Result <br> or 1d20 + 7 | Loot  |
-|:---:|:-----------:|
-|  1-9  | 3d6(10) 50gp Items |
-|  10-11 | 3d6(10) 100gp Items | 
-|  12-18 | 6d6(20) 100gp Item  |  
-|  19-23 | 9d6(30) 100gp Items |  
-|  24+ | 9d6(30) 200gp Items |  
-
-
-##### Dread Saurian Loot Table: <br> Looting Its Adornments
-
-| Looting Check Result <br> or 1d20 + 7 | Loot  |
-|:---:|:-----------:|
-|  1-13  | 2d4(5) 500gp Items |
-|  14-24 | 2d4(5) 1,000gp Item  |  
-|  25+ | 2d4(5) 2,000gp Items |  
-
-
-##### Dread Saurian Shredder Loot Table: <br> Harvesting The Body
-
-| Looting Check Result <br> or 1d20 + 7 | Loot  |
-|:---:|:-----------:|
-|  1-9  | 3d6(10) 500gp Items |
-|  10-11 | 3d6(10) 1,000gp Items | 
-|  12-17 | 6d6(20) 1,000gp Item  |  
-|  18-23 | 6d6(20) 2,000gp Items |  
-|  24+ | 9d6(30) 2,000gp Items |  
-
+While the creature isn’t rampaging, when a creature 10 or more feet away from it hits it with an attack or deals damage to it with a spell, the damage is halved.
 
 \columnbreak
 
-##### Dread Saurian Shredder Loot Table: <br> Looting Its Adornments
+#### Blessing of the River God
 
-| Looting Check Result <br> or 1d20 + 7 | Loot  |
-|:---:|:-----------:|
-|  1-9  | 2d4(5) 5,000gp Items |
-|  10-19 | 2d4(5) 10,000gp Item  |  
-|  20+ | 2d4(5) 20,000gp Items |  
+*These aquatic lizardmen are marked with sea-green hues, gills, webbed claws, and crocodilian jaws they can use to drag their foes to a watery grave.* <br>
+The creature has a swim speed of 40 ft. and can breathe underwater. If the creature already has a swim speed, it is increased by 20 feet.
 
+When the creature hits a creature with its bite attack, the target is grappled (escape DC equal to 8 + the creature’s Strength Modifier + Its Proficiency Bonus). Until this grapple ends, the target is restrained, and the creature can't bite another target.
 
 
 
-#### Example Dread Saurian Loot Names
-The following tables provide some example names you give to different items based on their material.
 
 
 
-##### Example Dread Saurian Item Names (Harvest From Body)
-|1d6 | 50gp Item | 100gp Item | 200gp Item | 
-|:--:|:---:|:-----------:|:-----------:|
-| 1 <br> (Bone)  |   Cracked Saurian Bone |  Saurian Bone |  Pristine Saurian Bone  | 
-| 2 (Flesh)  | Stringy Saurian Meat| Saurian Meat|  Prime Saurian Meat  | 
-| 3 <br> (Fluid)  | Clotted Saurian Blood| Saurian Blood |  Pristine Saurian Blood  | 
-| 5 <br> (Hide)  | Tattered Saurian Hide| Saurian Hide |  Pristine Saurian Hide  |
 
+#### Blessing of the Stoic God
 
-##### Example Dread Saurian Item Names <Br>(Looted From Adornments)
-|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
-|:--:|:---:|:-----------:|:-----------:|
-| 1-2 <br> (Gem) | Chipped Emerald | Emerald  |  Flawless Emerald  |
-| 3-4 <br> (Stone) | Cracked Idol of the Old Ones| Idol of the Old Ones |  Pristine Idol of the Old Ones  |
+*These lizardmen are marked with yellow lines down their body that signify their impassive nature and level-headedness during combat.*
 
+The creature adds +3 to its Wisdom, Charisma, and Intelligence saving throws and has resistance to psychic damage.
 
+Additionally, its Primal Instinct feature is only triggered by it becoming charmed or frightened.
 
-##### Example Dread Saurian Shredder Item Names (Harvest From Body)
-|1d6 | 500gp Item | 1,000gp Item | 2,000gp Item | 
-|:--:|:---:|:-----------:|:-----------:|
-| 1 <br> (Bone)  |   Cracked Elder Saurian Bone | Elder &nbsp; Saurian Bone |  Pristine Elder Saurian Bone  | 
-| 2 (Flesh)  | Stringy Elder Saurian Meat| Elder &nbsp; Saurian Meat|  Prime Elder Saurian Meat  | 
-| 3 <br> (Fluid)  | Clotted Elder Saurian Blood| Elder Saurian Blood |  Pristine Elder Saurian Blood  | 
-| 5 <br> (Hide)  | Tattered Elder Saurian Hide| Elder Saurian Hide |  Pristine Elder Saurian Hide  |
+#### Blessing of the Sun God
 
+*These energetic lizardmen are marked with the orange of the setting sun across their scales, and their sun god's power drives them to chase down their prey at alarming speeds.*
 
-##### Example Dread Saurian Shredder Item Names (Looted From Adornments)
-|1d4 | 5,000gp Item | 10,000gp Item | 20,000gp Item | 
-|:--:|:---:|:-----------:|:-----------:|
-| 1-2 <br> (Gem) | Chipped Diamond | Diamond  |  Flawless Diamond  |
-| 3-4 <br> (Stone) | Cracked Relic of the Old Ones| Relic of the Old Ones |  Pristine Relic of the Old Ones  |
+The creature has advantage on intuitive rolls, and its speed is increased by 10 feet. If it would enter a rampage, it may use its reaction to move up to its speed toward any enemy it can see without provoking attacks of opportunity before its rampage begins.
+
+#### Blessing of the Wind God
+
+*These mystical lizardmen are marked with shimmering purple scales and possess primal wards that can sweep away enemy magics.*
+
+The creature can cast *counterspell* once per day without any components, using Wisdom as its spellcasting ability. Its Primal Instinct ability is triggered when it casts the spell this way. (It can't cast the spell while rampaging.)
 
 \pagebreakNum
 
-### Dread Saurian Tactics
-Dread Saurians are extremely belligerent and consistently seek to attack the largest group of enemies to inflict the most damage possible. They rarely consider going after the weakest targets. Their belligerence is so extreme that dread saurians will usually fight to the death, rampaging to the very end.
+## Tactics & Loot
 
-#### Dread Saurian Shredder Tactics
-The only real difference in tactics with a dread saurian shredder involves its legendary actions, which are used in the following circumstances:
+### Carnosaur Tactics
 
-* **Swat.** This is used when dread saurian has a creature in its mouth, and another creature is causing a large amount of damage that it wishes to be rid of.
-* **Mangle.** If the dread saurian doesn't have any creature in its mouth and is attempting to catch fleeing prey, it will usually use this after using an obliterating charge.
-* **Gnaw.** The dread saurian will use this action whenever possible, unless under the effects of a debilitating condition where it needs to use Tenacious Will.
-* **Obliterating Charge.** The dread saurian uses this action to catch up with fleeing prey.
 
-#### Dread Saurian Howdah Tactics
-Dread saurians on their own are generally not a significant threat to high-level parties as their dimwitted tactics and basic attacks can usually be countered by the many options players have at those levels. However, a howdah allows dread saurians to be directed by intelligent creatures and should be filled with riders equipped with ranged attacks to create a more well-rounded threat.
+Carnosaurs are apex predators, unafraid of any other creature. At the slightest hint of movement, they charge, using their claws to wound their target, followed by a powerful biting attack that sends them into a rampage. They use their tail attack to hit a secondary threat, but always prioritize hitting their primary prey with claw and bite attacks.
 
-The creatures in the howdah do not have to be tough, as the +5 to all saving throws, AC from cover, and damage reduction mean that the crew is well-defended as long as they stay within the structure. Their job should be to eliminate targets the dread saurian cannot reach.
+Despite their straightforward rampaging tendencies, carnosaurs have some tactical options. Their Blood Tracking ability allows them to pursue the most wounded prey in the area, bypassing the limitations of their rampaging condition. This is especially useful if the wounded target tries to flee. However, outside of this tactic, they still adhere to the standard rampage rules.
+
+The carnosaur's innate lust for blood drives it to attack the most injured target with claw and bite attacks. If that creature manages to heal its wounds, the carnosaur promptly shifts its attention to the next nearest prey.
+
+When lizardmen use carnosaurs as mounts, they shouldn't be treated as fully under the control of their rider unless that rider possesses the 'Blessing of the Beast God' from the lizardmen Blessings of the Old Ones list. A rider without this blessing is limited to guiding the carnosaur toward the most prominent target on the battlefield to unleash its wounding attacks. However, once the carnosaur begins to rampage, the rider loses all control, and the creature behaves as if it were wild.
+
+
+#### Guldbloom's Terror 
+
+Guldbloom's Terror exhibits unparalleled cunning compared to other carnosaurs. With its ambush ability and the Jungle Stalker trait, it patiently waits for the perfect moment to strike an unsuspecting target, often choosing the largest prey. Despite its sly nature, this creature is fearless and prioritizes kills that offer the most sustenance.
+Guldbloom's Terror employs the same tactics as a standard carnosaur but doesn't risk entering into a rampage. It focuses on the most injured target it can detect, tearing it apart with cold precision rather than reckless rampaging.
 
 \columnbreak
 
-#### Dread Saurian Artifact Tactics
-Dread Saurian upgrades can allow it to present a higher-level and more complex challenge. Here are some basic tactics for several upgrades:
-* **Spirit Eye.** This is similar to the howdah in that it compensates for the dread saurian’s weakness to ranged attacks and flying creatures. The summoned spirits can disrupt enemies the dread saurian can’t reach, and their intelligence allows them to do this in tactical ways that support the dread saurian.
-* **Heart of Stone.** With this upgrade, it’s best to grab one target and chew it relentlessly, only moving if there’s no one left to attack. It works well in combination with a howdah.
-* **Mantle of the Blazing Dawn** With this upgrade, the dread saurian should make an obliterating charge whenever it can hit three or more targets.
-* **Jaws of the Savage** This upgrade works well in combination with a howdah or other minions.
-* **Rebus of the Jungle** This upgrade allows the dread saurian to behave more like an ambush predator. When it’s not rampaging, the dread saurian’s strategy should be to lure targets into underbrush and darkness.
-* **Figures of Dread** This upgrade does little to change the dread saurian’s tactics.
+This carnosaur also possesses legendary actions used in specific situations:
 
-<br>
+**Blood Tracking and Tenacious Will:** These are employed whenever something prevents the carnosaur from attacking a severely wounded target.
 
-### Art Credit
+**Claw:** The carnosaur uses this attack when it's adjacent to the most injured prey or if it aims to start wounding a new creature.
+Bloody Roar: This ability is used when the carnosaur can affect four or more targets with it or if it can impact at least two targets that are either concentrating on spells or flying beyond its reach. Possessing a natural instinct for magic detection, if Guldbloom's Terror senses a spell of seventh level or higher being concentrated upon, it will seek to disrupt it this way.
+
+
+
+### Ceradon Tactics
+
+Ceradons are territorial, highly aggressive, and omnivorous creatures. While they don't actively hunt prey, they will readily attack anything within charging distance. In battle, a ceradon is resolute and acts primarily on instinct. It focuses on adversaries it perceives as the greatest threat, often choosing targets dealing significant damage or those of considerable size. However, it lacks the intelligence to realize the potential benefits of trampling multiple targets for increased damage output.
+
+If a ceradon starts an encounter already in melee combat, it will retreat, even if doing so exposes itself to opportunity attacks. To defend against such attacks, it employs its Armored Crest reaction. Following the retreat, it starts charging foes with its Trample action. The ceradon will follow this up with its Gore attack. While it can't gore a target right beneath it, it can trample over a target before circling back to Gore, often doing so with an advantage. Once an opponent is impaled on its horns, the ceradon shifts focus to trampling nearby threats. If it pins another creature under its feet, it will continue its stomp attacks while standing atop the pinned foe.
+ 
+ ### Art Credit
 * Encounter Map - Joseph Snouwaert
-* Roman Landscape with Ruins - Pieter Anthonisz. van Groenewegen
-*  Florida Jungle - Winslow Homer
 * Javanese Jungle - Raden Saleh
+* Florida Jungle - Winslow Homer
 
-
-
-
-<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Winslow_Homer_-_Florida_Jungle_%2802%29.jpg/640px-Winslow_Homer_-_Florida_Jungle_%2802%29.jpg' style='position:absolute; bottom:-200px; right:-60px; width:900px; transform:scaleX(-1)' />
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Winslow_Homer_-_Florida_Jungle_%2802%29.jpg/640px-Winslow_Homer_-_Florida_Jungle_%2802%29.jpg' style='position:absolute; bottom:-280px; right:-60px; width:900px; transform:scaleX(-1)' />
 
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-100px;bottom:30px;transform:rotate(-10deg)' />
+  style='position:absolute;left:-100px;bottom:-90px;transform:rotate(-10deg)' />
   
   
   <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-100px;bottom:-30px;transform:rotate(0deg)' />
-  
-  
-  \pagebreakNum
+  style='position:absolute;left:-100px;bottom:-120px;transform:rotate(0deg)' />
+ 
+ \pagebreakNum
+ 
+
+
+### Carnosaur Loot
+The valuable items looted from carnosaur will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide of a carnosaur. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Carnosaur Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Carnosaur Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 2d4(5) 50gp Item |
+|  9-11 | 2d6(7) 50gp Items | 
+|  12-18 | 2d4(5) 100gp Items  |  
+|  17-23 | 2d4(5) 200gp Items |  
+|  24+ |  2d6(7) 200gp Items |  
+ 
+##### Guldbloom's Terror Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 2d6(7) 500gp Item |
+|  10-12 | 2d6(7) 1,000gp Items | 
+|  13-18 | 3d6(10) 1,000gp Items  |  
+|  19-23 | 2d6(7) 2,000gp Items |  
+|  24+ |  3d6(10) 2,000gp Items |  
+
+
+
+#### Example Carnosaur Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide  example names.
+
+##### Example Carnosaur Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Carnosaur Bone |  Carnosaur Bone |  Pristine Carnosaur Bone  | 
+| 2 (Flesh)  | Stringy Carnosaur Meat| Carnosaur Meat|  Prime Carnosaur Meat  | 
+| 3 <br> (Fluid)  | Clotted Carnosaur Blood| Carnosaur Blood |  Pristine Carnosaur Blood  | 
+| 5 <br> (Hide)  | Tattered Carnosaur Hide| Carnosaur Hide |  Pristine Carnosaur Hide  |
+
+\columnbreak
+
+##### Example Guldbloom's Terror Item Names
+|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Terror Bone |  Terror Bone |  Pristine Terror Bone  | 
+| 2 (Flesh)  | Stringy Terror Flesh| Terror Flesh|  Prime Terror Flesh  | 
+| 3 <br> (Fluid)  | Clotted Terror Blood| Terror Blood |  Pristine Terror Blood  | 
+| 5 <br> (Hide)  | Tattered Terror Hide| Terror Hide |  Pristine Terror Hide  |
+
+### Ceradon Loot
+The valuable items looted from Ceradon will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Ceradon Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Ceradon Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-10  | 2d4(5) 50gp Item |
+|  11-15 | 2d6(7) 50gp Items | 
+|  16-22 | 2d4(5) 100gp Items  |  
+|  23-25 | 2d6(7) 100gp Items |  
+|  26+ |  3d6(10) 100gp Items |  
+
+#### Example Cerasaur Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Cerasaur Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Cerasaur Bone |  Cerasaur Bone |  Primeval Cerasaur Bone  | 
+| 2 (Flesh)  | Stringy Cerasaur Meat| Cerasaur Meat|  Primeval Cerasaur Meat  | 
+| 3 <br> (Fluid)  | Clotted Cerasaur Blood| Cerasaur Blood |  Primeval Cerasaur Blood  | 
+| 5 <br> (Hide)  | Tattered Cerasaur Hide| Cerasaur Hide |  Primeval Cerasaur Hide  |
+
+
+\pagebreakNum
   
 ### Change Log
   
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
