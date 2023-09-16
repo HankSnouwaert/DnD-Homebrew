@@ -1,0 +1,799 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+
+</style>
+    
+    
+<br>
+
+# Spells
+
+#### Acid Arrow (Revised)
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 feet
+- **Components:** V, S, M (powdered rhubarb leaf and an adder’s stomach)
+- **Duration:**  Instantaneous
+- **Classes:**  Sorcerer, Wizard
+___
+A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 4d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn. 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd
+
+#### Acid Rain
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (a few pine needles)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Druid, Sorcerer, Wizard 
+___
+
+Acidic rain falls in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. When a creature enters the spell’s area for the first time on a turn or starts its turn there, it takes 4d4 acid damage and is covered in acid for the spell’s duration or until it, or another creature uses its action to scrape or wash the acid off. A creature covered in the acid takes 4d4 acid damage at the end of its turns.
+
+***At Higher Levels.*** The initial acid damage, as well as the acid damage dealt at the end of each of the acid-covered creature’s turns, is increased by 1d4 for each slot level above 5th.
+
+#### Acid Wave
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (a lemon slice)
+- **Duration:**   Instantaneous
+- **Classes:**  Druid, Sorcerer, Wizard, 
+___
+
+You conjure up a wave of acid that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes 6d4 bludgeoning damage and 6d4 acid damage, is knocked prone, and is covered in acid until the end of its next turn or until it or another creature uses its action to scrape or wash the acid off. On a success, a creature takes half the initial damage and isn’t knocked prone or covered in acid.
+
+A creature covered in the acid takes 6d4 acid damage at the end of its turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the initial acid damage, initial bludgeoning damage, and the acid damage taken at the end of an acid-covered creature’s turn are all increased by 1d4 for each slot level above 6th.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+#### Black Whirlwind
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** S, M (a moth wing)
+- **Duration:** 1 round
+- **Classes:** Druid, Wizard, Warlock
+___
+
+You cause a whirlwind of vile smoke and stinging ashes to rush up at a point you choose within range. Each creature in a 20-foot radius of that point must make a Constitution saving throw. On a failed save, a creature takes 5d10 necrotic damage and loses any darkvision it has until the end of its next turn. On a successful save,  a creature takes half as much damage and doesn't lose its darkvision.
+
+If any of this spell's area overlaps with an area of light created by a spell of 5th level or lower, the spell that created the light is dispelled. The spell also snuffs out any non-magical fire in its area.
+
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.
+
+\columnbreak
+
+#### Bolt of Change
+*4th-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 feet
+- **Components:** V, S, M, (a caterpillar cocoon)
+- **Duration:**   1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d10 force damage and must make a Charisma saving throw.  On a failed save, the target suffers one of the random mutations described in the Mutation Table below.  The target repeats the saving throw at the end of each of its turns, ending all mutations affecting it on a success. 
+
+A creature can't suffer from two instances of the same mutation at once.
+
+
+##### Mutation Table
+| d6  | Mutation |  Creature Effect  |
+|:---:|:---------:| :---------:|
+|  1  |  Wild Spasms | The target can't take reactions, and on each of its turns it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+|  2  | Degeneration  | The target's form becomes unstable.  The first time it takes damage each turn, it takes an extra 1d10 force damage.|
+|  3  | Twisted Arms |  The target can no longer wield weapons or cast spells with somatic components and it has disadvantage on all weapon attack rolls.|
+|  4  | Inverted Eyes | The target is blinded.|
+|  5  | Gelatinous Legs | The target falls prone as its legs can no longer support its weight. At the end of each of its turns, its legs give out again, causing it to fall prone again.|
+|  6  | Regeneration | The target regains 10 hit points at the start of its turn.  The target only dies if it starts its turn with 0 hit points and doesn't regenerate any hit points.|
+
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.
+
+\pagebreakNum
+
+#### Brittle Bones
+*4th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (a broken twig)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:** Bard, Sorcerer, Warlock, Wizard
+___
+
+
+Choose a creature that you can see within range. The target must succeed on a Constitution saving throw or become brittle for the duration. While a creature is brittle, any attack that hits the creature is a critical hit. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target. Effects and spells that remove the paralyzed condition will remove the brittle condition.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
+
+#### Cacophonic Caress
+*3rd-level  evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (30-foot radius)
+- **Components:** V 
+- **Duration:**   Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock
+___
+
+You throw back your head and emit an ululating scream.  Each creature within range takes 4d4 thunder damage and must succeed on a Wisdom saving throw or take 4d4 additional psychic damage and be deafened for 1 minute.  On a successful save, a creature takes half as much psychic damage and isn't deafened.  A creature deafened this way can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the thunder and psychic damage increase by 1d4 for each slot level above 3rd.
+
+\columnbreak
+
+#### Chaos Storm
+*9th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (A bit of demon ichor)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+You open a gateway to a realm of pure chaos and untold destruction.  A 30-foot-radius sphere of chaotic shifting colors appears centered on a point within range that lasts for the spell's duration.  This sphere is filled with indescribable noises that can be heard up to 100 feet away.  No light, magical or otherwise, can illuminate the area, and creatures fully within the area are blinded and deafened.  A creature moving through this area must spend 2 feet of movement for every 1 foot it moves.
+
+Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw.  It takes 10d12 force damage on a failed save or half as much damage on a successful one.  Any nonmagical object that is not bearing worn or carried in the area takes 10d12 force damage at the start of your turn.  A creature or object reduced to 0 hit points by this damage is disintegrated and sucked into the chaotic rift.  A creature killed this way can be brought back to life only by means of a *true resurrection* or a *wish* spell.
+
+On each of your turns, until the spell ends, you can use your action to open another gateway, targeting a point within 100 feet of the original gate.  A creature in the area of more than one gateway is only affected once.  You can also close a gateway as a bonus action or as a reaction to a creature entering its area.
+
+If you drop concentration on the spell early, make a DC 20 ability check using your spellcasting ability.  On a failure, you open another gate centered on yourself, and the spell continues for its full duration without your control.  During this time, you can no longer open additional gateways or close existing ones, and the radius of each existing gateway expands by 10 feet at the start of each of your turns.
+
+#### Creeping Strike 
+*Evocation cantrip*
+___
+- **Casting Time:** 1 action
+- **Range:** 10 feet
+- **Components:** V S
+- **Duration:** Sorcerer, Warlock, Wizard
+___
+
+You lash out at an enemy with chilling shadows. Make a melee spell attack against the target. You have advantage on the attack roll if the target is in darkness. On a hit, the target takes 1d8 cold damage.
+
+***At Higher Levels.*** This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
+\pagebreakNum
+
+
+
+
+#### Death Frenzy
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S, M (a sharp tooth)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Warlock
+___
+
+You send a creature into a frenzy that pushes its body beyond its limits. Choose a willing creature you can see within range. Until the spell ends, it takes 1d10 necrotic damage at the start of each of its turns and has advantage on weapon and unarmed strike attack rolls until that turn ends. This damage can’t be reduced or prevented in any way.
+
+***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. All the creatures must be within 30 feet of each other when you target them.
+
+#### Elemental Weapon (Revised)
+*3nd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 hour
+- **Classes:** Artificer, Druid, Paladin, Ranger, Sorcerer, Wizard
+___
+
+A weapon you touch becomes bathed in elemental power. Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, it deals an extra 1d4 damage of the chosen type when it hits. If the weapon you touch is a nonmagical weapon, that weapon becomes a magic weapon with a +1 bonus to attack rolls as well.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.
+
+#### Fireworks
+*4th-level  evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 150 feet
+- **Components:** V, S, M (A pitch of black powder)
+- **Duration:**   Instantaneous
+- **Classes:**  Artificer, Bard, Sorcerer, Wizard
+___
+You launch up to three pyrotechnic bolts, each to a point within range. Each explodes, creating a sphere of light and sound that spreads out from its center point and lasts until the end of your next turn. 
+
+Each sphere can have a radius of up to 20 feet, and its space is filled with bright light and sheds dim light an additional 40 feet. Any creature in the sphere when it first appears must make a Constitution saving throw or become blinded and deafened until the end of your next turn. If the creature is flying, it is also knocked prone, and if the creature is concentrating on a spell, it also loses concentration. 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you create an additional bolt for each slot level above 4th. 
+
+\columnbreak
+
+#### Frighten
+*Enchantment cantrip*
+___
+- **Casting Time:** 1 action
+- **Range:** 15 feet
+- **Components:** V
+- **Duration:** 1 round
+- **Classes:** Bard, Druid, Sorcerer, Warlock, Wizard
+___
+
+You startle a creature you can see within range with a screech that rips into its mind. The target must succeed on a Wisdom saving throw or take 1d8 psychic damage. If it is surprised, it has disadvantage on the saving throw, and if it can't see you, it instead takes 1d12 psychic damage.
+
+Creatures immune to fear automatically succeed on this save.
+
+***At Higher Levels.*** The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
+
+\pagebreakNum
+
+#### Fissure
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (60-foot line)
+- **Components:** V, S,
+- **Duration:** Instantaneous
+- **Classes:** Druid
+___
+
+You strike a non-magical surface, causing a fissure to erupt out from you and split it down a line up to 60 feet long.  The fissure opens up to 20 feet wide and 40 feet deep.  If the ground is not deep enough to accommodate the fissure, the ground opens up to whatever lies beneath.  
+
+A creature standing in the area of the fissure must succeed on a Dexterity saving throw or fall prone and into the fissure.  Creatures that succeed on the save move to the edge of the fissure and may choose which side it moves to. 
+
+The fissure deals 50 bludgeoning damage to any structure it comes in contact with it when it appears. The fissure lasts indefinitely, and the ground within it is difficult terrain.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
+
+
+#### Flame Arrows (Revised)
+*2nd-level evocation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 hour
+- **Classes:** Artificer, Druid, Ranger, Sorcerer, Wizard, 
+___
+
+You touch up to twelve arrows or bolts. When a target is hit by a ranged weapon attack using one of these pieces of ammunition, the target takes an extra 1d6 fire damage, and if it is a flammable object, it is ignited. The spell’s magic ends on the piece of ammunition when it hits or misses a target, and the spell ends when all the ammunition has lost its magic.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
+
+
+#### Flame Blade (Revised)
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, S M (leaf of sumac)
+- **Duration:** Up to 10 minutes
+- **Classes:** Druid, Sorcerer
+___
+
+You evoke a fiery blade, similar in size and shape to a scimitar, in your free hand. When you cast this spell, you may make two melee spell attacks with the blade against any targets within your reach. On a hit, a target takes fire damage equal to 1d6 + your spellcasting ability modifier. 
+
+The blade remains for the spell's duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can make the two attacks with the blade again on each of your turns as an action. The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional attack with the blade per action for every two slot levels above 2nd.
+
+
+#### Frost Nova
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (20-foot radius)
+- **Components:** V, S
+- **Duration:**   Instantaneous
+- **Classes:**  Wizard, Sorcerer
+___
+
+You cause a ring of ice and frost to burst out from you to a radius of up to a 20-feet. Each creature other than you in that area must make a Constitution saving throw.
+ On a failed save, a creature takes 4d8 cold damage, and until the end of your next turn, its speed is reduced by 20 feet, and it has disadvantage on weapon attack rolls. On a successful save, a creature takes half as much damage and suffers no other effects.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the damage increases by 1d8 and the maximum possible radius increases by 5 feet for each slot level above 3rd.
+
+#### Glean Magic
+*3rd-level divination*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**   Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You reach deep into the mind of a spell caster you can see in range and attempt to steal their magic.  The target must make an Intelligence saving throw which it can choose to fail.  On a failed save, you can attempt to steal a spell of 3rd level or lower the target knows.
+
+Name the spell you wish to steal from the creature.  If the creature does not know that spell, the DM chooses a spell of the same level the creature knows at random.  If the creature knows no other spells of the same level, the DM chooses a spell of one level lower at random.  Repeat this process until a spell is stolen or there are no possible spells to steal, in which case the spell fails.
+
+If a spell is successfully stolen, the target loses a spell slot of the spell's level and the ability to cast that spell for 1 hour.  If the target prepares spells at the beginning of the day or can cast the spell a certain number of times per day innately, the target loses one use of the spell.
+
+After stealing a spell, you gain the ability to cast it once as though it were from the same class spell list you used to cast this spell.  When you cast it this way, it does not expend a spell slot, and you cast it at the same spell level at which it was stolen.  You must still supply the stolen spell's required components (including verbal, somatic, and material).  You lose the stolen spell after completing a long rest.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can attempt to steal a spell if its level is less than or equal to the level of the spell slot you used to cast this spell.
+
+\pagebreakNum
+
+####  Inflict Rot
+*4th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:**   1 minute
+- **Classes:**  Druid, Cleric, Warlock
+___
+
+Make a melee spell attack against a creature you can reach. On a hit, it takes 3d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
+
+A creature afflicted by this disease takes 3d10 necrotic damage at the end of each of its turns and must then make a Constitution saving throw, ending the disease on a success. 
+
+If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to unleash a wave of rot. Each creature of your choice that you can see within 30 feet of it must make a Constitution saving throw, taking 3d10 necrotic damage on a failed save or half as much damage on a successful one. You may choose to have one of the creatures that failed the saving throw become infected with the same disease, which lasts for the remainder of the spell's duration.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
+
+
+#### Miasma of Pestilence
+*1st-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 20 feet
+- **Components:** V S M (A bit of durian fruit)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Wizard
+___
+
+A cloud of putrescent vapor appears in a 10-foot-radius sphere centered on a point within range. The cloud spreads around corners, and its area is lightly obscured. The cloud lingers in the air for the duration or until a moderate wind (at least 5 miles per hour) disperses it after 4 rounds. A strong wind (at least 10 miles per hour) disperses it after 1 round.
+
+Each creature completely within the cloud at the start of its turn must make a Constitution saving throw. On a failed save, the creature is poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions. Creatures that don't need to breathe automatically succeed on this saving throw.
+
+
+#### Overdrive
+*5th-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Components:** V, S, M (a strand of horse hair)
+- **Duration:**   Concentration, up to 10 minutes
+- **Classes:**  Artificer, Sorcerer, Wizard, 
+___
+
+You touch a creature, causing it to become electrically charged. Until the spell ends, the target’s speed is doubled, it has advantage on Dexterity saving throws, and all its unarmed strikes and attacks with melee weapons made of metal deal an extra 2d6 lightning damage on hit.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for every two levels above 5th.
+
+
+#### Phantasmagoria
+*6th-level  illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S 
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Bard, Warlock
+___
+
+You summon illusory creatures who flit and broil within a 30-foot radius sphere centered on a point within range you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
+
+
+#### Puddle of Ooze
+*3rd-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (a bit of slug slime)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Artificer, Druid, Sorcerer 
+___
+
+You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
+
+When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
+
+\pagebreakNum
+
+#### Ray of Sickness (Revised)
+*1st-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:** Sorcerer, Warlock, Wizard
+___
+A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d12 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
+
+
+#### Slicing Shards
+*4th-level  conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (a piece of broken glass)
+- **Duration:**   Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You conjure a cloud of razor-sharp glass capable of slicing through mind and body and send it flying toward a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 10d4 slashing damage and must make a Wisdom saving throw.  The target takes 10d4 additional psychic damage on a failed save and half as much damage on a successful one.  If the attack misses, the glass grazes the target, and it takes half as much of the initial slashing damage and does not make the Wisdom saving throw or take any additional psychic damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, both the slashing and psychic damage increase by 1d4 for each slot level above 4th.
+
+\pagebreakNum
+
+#### Smoke Shroud
+*2nd-level transmutation*
+___
+- **Casting Time:** bonus action
+- **Range:** Self
+- **Components:** S, M (a pitch of ash)
+- **Duration:** 1 round
+- **Classes:**  Bard, Ranger
+___
+
+A 20-foot-radius sphere of smoke appears centered on yourself, and you may immediately move up to 30 feet. The area within the smoke is heavily obscured. While inside the smoke, you may move through the space of other creatures. If you end your movement inside a creature's space, you are pushed into the nearest unoccupied space.   After you end your movement, you may immediately take the hide action as part of this bonus action. The smoke lasts until the end of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.  
+
+***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can move an additional 15 feet for each slot level above 2nd.
+
+
+#### Snilloc's Snowball Swarm (Revised)
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, S M (a piece of ice or a small white rock chip)
+- **Duration:** Up to 10 minutes
+- **Classes:** Druid, Sorcerer, Wizard
+___
+
+You summon a flurry of magic snowballs to bombard your enemies. When you cast the spell, you may make two ranged spell attacks with the snowballs against any targets within 90 feet of you. On a hit, a target takes cold damage equal to 1d4 + your spellcasting ability modifier. During the spell's duration, you can use an action to form two more snowballs and make the attacks again.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two slot levels above 2nd.
+
+
+#### Static Field
+*2nd-level evocation*
+___
+- **Casting Time:** 1 reaction, which you take in response to being hit with a melee attack by a creature.
+- **Range:** Self
+- **Components:** V, S, M (a piece of wool or copper wire)
+- **Duration:**   1 minute
+- **Classes:**  Artificer, Sorcerer, Wizard
+___
+
+You cause yourself to become electrically charged for the duration of the spell and immediately deal 1d8 lighting damage to your attacker. Until the spell ends, whenever a creature hits you with a melee attack, you can use your reaction to discharge electricity from yourself and deal 1d8 lighting damage to the attacker.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
+
+\columnbreak
+
+#### Storm of Vengeance (Revised)
+*9th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** Sight
+- **Components:** V, S 
+- **Duration:** Concentration, up to 1 hour
+- **Classes:** Druid
+___
+
+
+A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet.  Lightning flashes in the area, thunder booms, and strong winds roar.  The cloud and an area stretching up to 5,000 feet beneath are affected in the following ways:
+
+* A creature moving through this area must make a Strength saving throw or spend 4 feet of movement for every 1 foot it moves within the area until the start of its next turn.  
+
+* This area is heavily obscured to creatures other than you.  
+
+* Ranged weapon attacks in this area are impossible unless you allow them.  
+
+* The wind and rain in this area are considered a severe distraction for the purposes of maintaining concentration on spells.  
+
+* Gusts of strong wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical.
+
+Additionally, you may choose an additional effect from the options listed below.  At the start of each of your turns, you may choose another effect from this options that you have not already picked since you cast this spell.
+
+***Hail.***  Hailstones rain down from the cloud.  Each creature within its affected area must make a Dexterity saving throw.  The creature takes 4d6 bludgeoning damage on a failed save, or half as much damage on a successful one.  Objects in this area not being worn or carried automatically take 4d6 bludgeoning damage.
+
+***Lightning.*** You call down 6 bolts of lightning from the cloud to strike 6 creatures or objects of your choice within its affected area.  Any given creature or object can't be struck by more than one bolt.  A struck creature must make a Dexterity saving throw.  The creature takes 10d8 lightning damage on a failed save, or half as much damage on a successful one.  Objects automatically take 10d8 lightning damage.
+
+***Rain.*** Acidic rain falls from the cloud.  Each creature and object within its affected area takes 3d4 acid damage.
+
+***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
+
+\pagebreakNum
+
+#### Stream of Corruption
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (30-foot cone) or 100 feet
+- **Components:** S, M (a vial of meltwater)
+- **Duration:**   Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+Bile spews forth from you in a 30-foot cone.  Each creature in that area must make a Constitution saving throw.  A creature takes 3d8 necrotic damage on a failed save, or half as much damage on a successful one.
+
+When you cast this spell, you may instead choose a creature within 100 feet of you that you can see and force it to make a Constitution saving throw.  On failed save, it takes 3d8 necrotic damage, and you may cause the cone of bile described above to spew forth from the creature in the direction you choose.  On a successful save, a creature takes half as much damage and does not spew bile.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and creatures in the area of the cone of bile by 1d8 for each slot level above 2nd.
+
+
+
+#### Summon Swarm
+*3rd-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (a gilded cage worth at least 300 gp)
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Bard, Druid, Ranger
+___
+
+You call forth a swarm of tiny creatures that manifest in an unoccupied space you can see within range.  This swarm uses the Swarm Spirit stat block*.  When you cast the spell, choose a type of creature: Bats, Insects, Rats, or Snakes.  The creatures of the swarm resemble the chosen creature, which determines some of its traits in its stat block.  The swarm disappears when it drops to 0 hit points or when the spell ends.
+
+The swarm is an ally to you and your companions.  In combat, the swarm shares your initiative count, but it takes its turn immediately after yours.  It obeys your verbal commands (no action required by you).  If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.  Additionally, increase the swarm's size by one category for every two slot levels above 3rd level.
+
+
+___
+> ## Swarm of Bats
+>*Medium swarm of tiny beasts, unaligned*
+> ___
+> - **Armor Class** 10 + the level of the spell (natural armor)
+> - **Hit Points** 20 + 10 for each spell level above 3rd
+> - **Speed** 5 ft., flying 30ft. 
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (0)|14 (+2)|10 (+0)|4 (-3)|16 (+3)|8 (-1)|
+>___
+> - **Damage Resistance** bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses**  blindsight 60ft., passive Perception 13
+> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***Echolocation..*** The swarm can't use its blindsight 
+while deafened.
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny creature. The swarm can't regain hit points or gain temporary hit points.
+> 
+> ### Actions
+> ***Multiattack.*** The swarm makes a number of attacks equal to half this spell’s level (rounded down).
+> 
+> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 or 2d6 piercing damage if the swarm has half of its hit points or fewer.
+
+<br>
+
+\pagebreakNum
+
+___
+___
+> ## Swarm of Insects 
+>*Medium swarm of tiny beasts, unaligned*
+> ___
+> - **Armor Class** 10 + the level of the spell (natural armor)
+> - **Hit Points** 20 + 10 for each spell level above 3rd
+> - **Speed** 30 ft., burrow 10 ft., climb 30ft.   
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (0)|14 (+2)|10 (+0)|4 (-3)|16 (+3)|8 (-1)|
+>___
+> - **Damage Resistance** bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses**  blindsight 10ft., passive Perception 13
+> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***Spider Climb.*** The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. 
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny creature. The swarm can't regain hit points or gain temporary hit points.
+> 
+> ### Actions
+> ***Multiattack.*** The swarm makes a number of attacks equal to half this spell’s level (rounded down).
+> 
+> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 or 2d6 piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, it can't regain hit point until the start of the swarm's next turn.
+
+___
+___
+> ## Swarm of Rats
+>*Medium swarm of tiny beasts, unaligned*
+> ___
+> - **Armor Class** 10 + the level of the spell (natural armor)
+> - **Hit Points** 20 + 10 for each spell level above 3rd
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (0)|14 (+2)|10 (+0)|4 (-3)|16 (+3)|8 (-1)|
+>___
+> - **Damage Resistance** bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses** darkvision 30 ft., passive Perception 13
+> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus 
+> ___
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny creature. The swarm can't regain hit points or gain temporary hit points.
+>
+> ***Overwhelming Mass.*** The first time each turn that the swarm hits a creature with a weapon attack, it deals extra damage equal to the spell’s level if a ally is within 5 feet of the target that isn't incapacitated.
+> 
+> ### Actions
+> ***Multiattack.*** The swarm makes a number of attacks equal to half this spell’s level (rounded down).
+> 
+> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 or 2d6 piercing damage if the swarm has half of its hit points or fewer.
+>
+> ### Reactions
+>
+> ***Scurry Away.*** When an enemy the swarm can see ends its turn, the swarm can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the swarm can only take the dash, disengage, dodge, or hide action. This feature ignores immunity to the frightened condition.
+
+\pagebreakNum
+
+___
+> ## Swarm of Snakes
+>*Medium swarm of tiny beasts, unaligned*
+> ___
+> - **Armor Class** 10 + the level of the spell (natural armor)
+> - **Hit Points** 20 + 10 for each spell level above 3rd
+> - **Speed** 30 ft., swim 30ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (0)|14 (+2)|10 (+0)|4 (-3)|16 (+3)|8 (-1)|
+>___
+> - **Damage Resistance** bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses**  blindsight 10ft., passive Perception 13
+> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***Poison Fangs.*** The first time each turn that the swarm hits a creature with a weapon attack, that creature must make a Constitution saving throw against your spell save DC or take additional poison damage equal to the spell’s level and be poisoned until the start of its next turn.
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny creature. The swarm can't regain hit points or gain temporary hit points.
+> 
+> ### Actions
+> ***Multiattack.*** The swarm makes a number of attacks equal to half this spell’s level (rounded down).
+> 
+> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 or 2d6 piercing damage if the swarm has half of its hit points or fewer.
+
+
+#### Toxic Coating
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Components:** S, M (An apple seed)
+- **Duration:** Concentration, up to 1 hour
+- **Classes:** Artificer, Druid, Ranger
+___
+You touch a weapon, piece of ammunition, or component of a mechanical trap, which becomes coated with venom. The next time the coated object deals piercing or slashing damage to a creature during the spell’s duration, the target must make a Constitution saving throw. On a failed save, a creature takes 5d6 poison damage and is poisoned for 1 minute. On a success, a creature takes half as much damage and isn’t poisoned.
+
+\columnbreak
+
+At the end of each of its turns, a creature poisoned this way can repeat the Constitution saving throw, ending the effect on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3nd level or higher, the poison damage increases by 2d6 for each slot level above 2nd.
+
+
+
+
+#### Witch Bolt (Revised)
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S M (a twig from a tree that has been struck by lightning)
+- **Duration:** Up to 1 minute
+- **Classes:** Sorcerer, Warlock, Wizard
+___
+
+When you cast this spell, and as an action each round for the duration, you can make a ranged spell attack that targets one creature. On a hit, the target takes 1d12 lightning damage and a sustained arc of lightning forms between you and it. On each of your turns for the duration, you can use an action to automatically deal 1d12 lightning damage to one target with which you have an arc. The arc ends for a target if it is ever outside the spell's range or if it gains total cover from you. The spell also ends if you use your action to do anything other than attack or deal damage using this spell.
+
+***At Higher Levels.***  When you cast this spell using a spell slot of 3th level or higher, the initial damage and automatic damage increase by 1d12 for every two slot levels above 1st.
+
+#### World Sore
+*1st-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:** 1 minute
+- **Classes:**  Warlock
+___
+
+You cause a boil to grow from a surface in an unoccupied space you can see.  The boil occupies a 5-foot sphere centered on the chosen space.  The surface where a boil appears must be wide enough to accommodate its size.
+
+The boil has AC 10, 20 hit points, immunity to psychic damage, and vulnerability to piercing damage.  When reduced to 0 hit points, it explodes into puss, and each creature within 5 feet of it must make a Dexterity save.  Creatures take 1d8 necrotic damage on a failed save, or half as much damage on a successful one.
+
+On each of your turns, while you are within 100 feet of the boil and can see it, you can use your bonus action to either cause the boil to explode, as described above, or grow it.  Growing it increases its radius by 5 feet, increases the damage it deals when it blows up by 1d8, and extends the range of its explosion by 5 feet.  If there is no room for the boil to expand when you attempt to grow it, which includes being blocked by a creature, it remains its current size and explodes instead.  
+The boil immediately explodes when the spell ends.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage when the boil explodes increases by 1d8 for each slot level above 1st.
+
+\pagebreakNum
+
+
+#### Revision Numbers
+* Acid Arrow (Revised) 1.0.0
+* Acid Rain 1.0.0
+* Acid Wave 1.0.0
+* Black Whirlwind 1.0.0
+* Brittle Bones 1.0.0
+* Bolt of Change 1.0.0
+* Cacophonic Caress 1.0.0
+* Chaos Storm 1.0.0
+* Creeping Strike 1.0.0
+* Death Frenzy 1.0.0
+* Elemental Weapon (Revised) 1.0.0
+* Fireworks 1.0.0
+* Fissure 1.0.0
+* Flame Arrows (Revised) 1.0.0
+* Flame Blade (Revised) 1.0.0
+* Frighten 1.0.0
+* Frost Nova 1.0.0
+* Glean Magic 1.0.0
+* Inflict Rot 1.0.0
+* Miasma of Pestilence 1.0.0
+* Overdrive 1.0.0
+* Phantasmagoria 1.0.0
+* Puddle of Ooze 1.0.0
+* Ray of Sickness (Revised) 1.0.0
+* Slicing Shards 1.0.0
+* Smoke Shroud 1.1.0
+* Snilloc's Snowball Swarm (Revised) 1.0.0
+* Static Field 1.0.0
+* Storm of Vengeance (Revised) 1.0.0
+* Stream of Corruption 1.0.0
+* Summon Swarm 1.0.0
+* Toxic Coating 1.0.0
+* Witch Bolt (Revised) 1.0.0
+* World Sore 1.0.0
+
+
+\columnbreak
+
+## Change Log
+### Document
+#### 1.0.0
+* Add change log
+
+### Smoke Shroud
+#### 1.1.0
+* Clarify that the area of Smoke Shroud is heavily obscured
