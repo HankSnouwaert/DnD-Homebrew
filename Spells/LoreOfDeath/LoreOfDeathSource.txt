@@ -74,26 +74,26 @@ You afflict a creature within range with an agonizing curse, causing its body to
 
 While wracked with pain, every time the creature takes a move, an action, a bonus action, or a reaction, it takes an additional 3d6 necrotic damage.
 
-***At Higher Levels.***   When you cast this spell using a spell slot of 4th level or higher, the initial damage increases by 1d6 for each slot level above 3rd.
+***At Higher Levels.***   When you cast this spell using a spell slot of 4th level or higher, the initial damage is increases by 2d6 for each slot level above 3rd.
 
 
 #### Horrifying Laughter
-*5th-level enchantment*
+*6th-level enchantment*
 ___
 - **Casting Time:** 1 action
 - **Range:** 30 feet
 - **Components:** V, S, M (A tiny tarts and a feather that is waved in the air)
 - **Duration:**  Concentration, up to 1 minute
-- **Classes:**  Bard
+- **Classes:**  Bard, Wizard
 ___
 
-You target a creature you can see within range, causing it to collapse into debilitating fits of deranged laughter. The target must make a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand for the duration. Creatures with an Intelligence score of 4 or less aren't affected.
+You target a creature you can see within range, causing it to collapse into debilitating fits of deranged laughter. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand for the duration. Creatures with an Intelligence score of 4 or less aren't affected.
 
-At the start of the laughing creature's turn, any creature within 30 feet of it that can hear the laughter must make a Wisdom saving throw or become frightened of the laughing creature until the start of its next turn. You can choose any number of creatures you see to be immune to this effect.
+At the end of each of your turns for the duration, any creature within 30 feet of the laughing creature that can hear the laughter must succeed on a Wisdom saving throw or become frightened of the laughing creature until the end of its next turn. You can choose any number of creatures you can see to be immune to this effect.
 
-At the end of each of its turns, the laughing creature can attempt another Wisdom saving throw. On a success, the spell ends. On a failure, the creature takes 3d10 force damage. If this damage reduces the target to 0 hit points, it stabilizes but remains laughing and can no longer attempt saving throws against the spell. If the spell ends while the creature has 0 hit points, it dies.
+At the end of each of its turns, the laughing creature takes 3d10 force damage and can attempt another Wisdom saving throw. On a success, the spell ends. If this damage reduces the target to 0 hit points, it stabilizes but remains laughing and can no longer attempt saving throws against the spell. If the spell ends while the creature has 0 hit points, it dies.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d10 for each slot level above 6th.
 
  <img src='https://m.media-amazon.com/images/I/51+A6aJV1lL.jpg' style='position:absolute;right:-16px;top:-110px;width:848px;transform:scaleX(-1)' />
 
@@ -114,7 +114,7 @@ ___
 - **Classes:**  Bard, Cleric, Warlock 
 ___
 
-You target a creature within range, sapping its determination and resolve to go on. The target must make a Charisma saving throw. On a failed save, the creature is filled with a sense of impending doom, and for the duration, whenever it makes a saving throw or an ability check against an effect not triggered by this spell, it automatically fails if the roll is 5 or lower, as the creature feels an overwhelming sense of defeat.
+You target a creature within range, sapping its determination and resolve to go on. The target must make a Charisma saving throw. On a failed save, the creature is filled with a sense of impending doom, and for the duration, whenever it makes an attack roll, ability check, or saving throw against an effect not triggered by this spell, it automatically misses or fails if the roll is 6 or lower, as the creature feels an overwhelming sense of defeat.
 
 The affected creature can make a Charisma saving throw at the end of each of its turns, ending the spell's effect on a success.
 
@@ -130,7 +130,7 @@ ___
 - **Classes:**  Sorcerer, Wizard, Warlock
 ___
 
-You conjure a radiant sphere of purple light at a point you designate within range. The sphere has a maximum radius of 60 feet and illuminates its area with dim light.
+You conjure a grim sphere of purple light at a point you designate within range. The sphere has a maximum radius of 60 feet and illuminates its area with dim light.
 
 Any creature that either enters the sphere's area for the first time on its turn or begins its turn inside the sphere must make a Constitution saving throw. On a failed save, the creature is petrified for the duration. At the end of <br> each of its turns, the target can make another <br> Constitution saving throw. On a success, the <br> spell ends on the target. However, if a creature <br> accumulates three failed saves against this <br> spell (including the initial failed save), it <br> remains petrified indefinitely until the <br> condition is cured by other means.
 
@@ -184,5 +184,8 @@ You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of y
 
 ### Change Log
 
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
+
+#### 1.1.0
+*  Changed  *horrifying laughter* so the frightened condition happens at the end of the caster's turn, and the condition ends at the end of the creature's turn.
