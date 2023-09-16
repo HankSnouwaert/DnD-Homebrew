@@ -73,6 +73,8 @@ A creature covered in the acid takes 6d4 acid damage at the end of its turn.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the initial acid damage, initial bludgeoning damage, and the acid damage taken at the end of an acid-covered creature’s turn are all increased by 1d4 for each slot level above 6th.
 
+\pagebreakNum
+
 #### Barkskin (Revised) 0.0.0 
 *2nd-level transmutation*
 ___
@@ -104,7 +106,24 @@ The chain has AC 15 and 20 hit points.  When it is reduced to 0 hit points, the 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the chain gains an additional 20 hit points for each slot level above 1st.
 
-\pagebreakNum
+#### Black Whirlwind 1.0.0
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** S, M (a moth wing)
+- **Duration:** 1 round
+- **Classes:** Druid, Wizard, Warlock
+___
+
+You cause a whirlwind of vile smoke and stinging ashes to rush up at a point you choose within range. Each creature in a 20-foot radius of that point must make a Constitution saving throw. On a failed save, a creature takes 5d10 necrotic damage and loses any darkvision it has until the end of its next turn. On a successful save,  a creature takes half as much damage and doesn't lose its darkvision.
+
+If any of this spell's area overlaps with an area of light created by a spell of 5th level or lower, the spell that created the light is dispelled. The spell also snuffs out any non-magical fire in its area.
+
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.
+
+
 
 #### Bolt of Change 1.0.0
 *4th-level transmutation*
@@ -134,8 +153,21 @@ A creature can't suffer from two instances of the same mutation at once.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.
 
-\columnbreak
+\pagebreakNum
 
+#### Brittle Bones 1.0.0
+*4th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (a broken twig)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:** Bard, Sorcerer, Warlock, Wizard
+___
+
+Choose a creature that you can see within range. The target must succeed on a Constitution saving throw or become brittle for the duration. While a creature is brittle, any attack that hits the creature is a critical hit. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target. Effects and spells that remove the paralyzed condition will remove the brittle condition.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
 
 #### Burning Gaze 1.0.0
 *1st-level evocation*
@@ -152,6 +184,9 @@ You choose two points within 10 feet of each other and within the spell's range.
 ***At Higher Levels.***  When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases 1d6, the radiant damage increases by 1d4, the range increases by 20 feet, and the maximum possible distance between the two points increases by 10 feet for each slot level above 1st.
 
 
+\pagebreakNum
+
+
 #### Cacophonic Caress 1.0.0
 *3rd-level  evocation*
 ___
@@ -165,8 +200,6 @@ ___
 You throw back your head and emit an ululating scream.  Each creature within range takes 4d4 thunder damage and must succeed on a Wisdom saving throw or take 4d4 additional psychic damage and be deafened for 1 minute.  On a successful save, a creature takes half as much psychic damage and isn't deafened.  A creature deafened this way can repeat the saving throw at the end of each of its turns, ending the effect on a success.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the thunder and psychic damage increase by 1d4 for each slot level above 3rd.
-
-\pagebreakNum
 
 #### Chaos Storm 1.0.0
 *9th-level evocation*
@@ -185,6 +218,7 @@ On each of your turns, until the spell ends, you can use your action to open ano
 
 If you drop concentration on the spell early, make a DC 20 ability check using your spellcasting ability.  On a failure, you open another gate centered on yourself, and the spell continues for its full duration without your control.  During this time, you can no longer open additional gateways or close existing ones, and the radius of each existing gateway expands by 10 feet at the start of each of your turns.
 
+\columnbreak
 
 #### Compelled Duel (Revised) 0.0.0
 *1st-level enchantment*
@@ -199,6 +233,21 @@ ___
 You attempt to compel a creature into a duel.  One creature that you can see within range must make a Wisdom saving throw.  The creature fails the saving throw automatically if it hasn't been the target of harmful effects from creatures friendly to you within the last hour.  On a failed save, the creature is drawn to you, compelled by your divine demand.  For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this spell doesn't restrict the target's movement for that turn.
 
 The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.
+
+\pagebreakNum
+
+#### Creeping Strike 1.0.0
+*Evocation cantrip*
+___
+- **Casting Time:** 1 action
+- **Range:** 10 feet
+- **Components:** V S
+- **Duration:** Sorcerer, Warlock, Wizard
+___
+
+You lash out at an enemy with chilling shadows. Make a melee spell attack against the target. You have advantage on the attack roll if the target is in darkness. On a hit, the target takes 1d8 cold damage.
+
+***At Higher Levels.*** This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
 #### Creeping Smite 0.0.0
 *1st-level evocation*
@@ -259,6 +308,8 @@ A weapon you touch becomes bathed in elemental power. Choose one of the followin
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.
 
 
+\pagebreakNum
+
 #### Fiery Temper 0.0.0
 *1st-level evocation*
 ___
@@ -270,7 +321,7 @@ ___
 ___
 Vengeful flames strike out at a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 fire damage. When you make the attack, you can choose to gain advantage on the attack roll. If you do so, attack rolls against you have advantage until the start of your next turn.
 
-\columnbreak
+
 
 #### Find Hazards (Replaces Find Traps) 0.0.0
 *2nd-level divination*
@@ -298,6 +349,7 @@ Each sphere can have a radius of up to 20 feet, and its space is filled with bri
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you create an additional bolt for each slot level above 4th. 
 
+\columnbreak
 
 #### Fissure 1.0.0
 *6th-level evocation*
@@ -317,8 +369,6 @@ The fissure deals 50 bludgeoning damage to any structure it comes in contact wit
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
 
-\pagebreakNum
-
 #### Flame Arrows (Revised) 1.0.0
 *2nd-level evocation*
 ___
@@ -333,6 +383,7 @@ You touch up to twelve arrows or bolts. When a target is hit by a ranged weapon 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
 
+\pagebreakNum
 
 #### Flame Blade (Revised) 1.0.0
 *2nd-level evocation*
@@ -363,6 +414,23 @@ ___
 For the duration, you have advantage on all Charisma ability checks. 
 
 Any creature that observes you can attempt a Wisdom (Insight) check against your spell save DC. On a success, the creature becomes aware that you are using magic to influence others. The consequences of this are at the DM’s discretion, but most creatures do not take kindly to such magical trickery, and whatever benefits you might have gained from your successful Charisma checks are usually reversed.
+
+#### Frighten
+*Enchantment cantrip*
+___
+- **Casting Time:** 1 action
+- **Range:** 15 feet
+- **Components:** V
+- **Duration:** 1 round
+- **Classes:** Bard, Druid, Sorcerer, Warlock, Wizard
+___
+
+You startle a creature you can see within range with a screech that rips into its mind. The target must succeed on a Wisdom saving throw or take 1d8 psychic damage. If it is surprised, it has disadvantage on the saving throw, and if it can't see you, it instead takes 1d12 psychic damage.
+
+Creatures immune to fear automatically succeed on this save.
+
+***At Higher Levels.*** The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
+
 
 \columnbreak
 
@@ -538,7 +606,7 @@ You touch a creature, causing it to become electrically charged. Until the spell
 
 
 #### Phantasmagoria 1.0.0
-*6th-level  illusion*
+*6th-level illusion*
 ___
 - **Casting Time:** 1 action
 - **Range:** 60 feet
@@ -596,7 +664,7 @@ A black beam of enervating energy springs from your finger toward a creature wit
 
 \columnbreak
 
-#### Ray of Sickness (Revised) 0.0.0
+#### Ray of Sickness (Revised) 1.0.0
 *1st-level necromancy*
 ___
 - **Casting Time:** 1 action
@@ -636,7 +704,7 @@ You conjure a cloud of razor-sharp glass capable of slicing through mind and bod
 
 \pagebreakNum
 
-#### Smoke Shroud 1.0.0
+#### Smoke Shroud 1.1.0
 *2nd-level transmutation*
 ___
 - **Casting Time:** bonus action
@@ -646,7 +714,7 @@ ___
 - **Classes:**  Bard, Ranger
 ___
 
-A 20-foot-radius sphere of smoke appears centered on yourself, and you may immediately move up to 30 feet. While inside the smoke, you may move through the space of other creatures. If you end your movement inside a creature's space, you are pushed into the nearest unoccupied space.   After you end your movement, you may immediately take the hide action as part of this bonus action. The smoke lasts until the end of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.  
+A 20-foot-radius sphere of smoke appears centered on yourself, and you may immediately move up to 30 feet. The area within the smoke is heavily obscured. While inside the smoke, you may move through the space of other creatures. If you end your movement inside a creature's space, you are pushed into the nearest unoccupied space.   After you end your movement, you may immediately take the hide action as part of this bonus action. The smoke lasts until the end of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.  
 
 ***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can move an additional 15 feet for each slot level above 2nd.
 
@@ -695,7 +763,7 @@ You cause yourself to become electrically charged for the duration of the spell 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
 
-\columnbreak
+\pagebreakNum
 
 #### Storm of Vengeance (Revised) 1.0.0
 *9th-level conjuration*
@@ -730,7 +798,7 @@ Additionally, you may choose an additional effect from the options listed below.
 
 ***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
 
-\pagebreakNum
+\columnbreak
 
 #### Stream of Corruption 1.0.0
 *2nd-level evocation*
@@ -753,17 +821,15 @@ When you cast this spell, you may instead choose a creature within 100 feet of y
 *6th-level evocation*
 ___
 - **Casting Time:** 1 action
-- **Range:** Self (40-foot cone)
-- **Components:** V
-- **Duration:** Up to 1 minute
+- **Range:** Self (30-foot cone)
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
 - **Classes:** Sorcerer, Wizard
 ___
 
-You spew forth a 30-foot cone of fire in a direction of your choice. For the duration of the spell, the cone moves with you while staying pointed in the same direction. You may switch the direction of the cone at the start of your turn. 
-
-When the spell is cast, each creature in the cone of fire must make a Dexterity saving throw. A creature takes 10d6 fire damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or starts its turn there.
+You spew forth a 30-foot cone of fire in a direction of your choice. For the duration of the spell, each creature in the cone of fire must make a Dexterity saving throw. A creature takes 8d6 fire damage on a failed save, or half as much damage on a successful one.
  
-On your subsequent turns, you must use your action to maintain control over the spell, or it ends. It also ends if you are incapacitated. You can end the spell at any time.
+On your subsequent turns, you must use your action to spew forth a another cone this way
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
 
@@ -921,6 +987,21 @@ You begin to build up intense heat, debilitating those around you. Each creature
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.
 
+#### Toxic Coating 1.0.0
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Components:** S, M (An apple seed)
+- **Duration:** Concentration, up to 1 hour
+- **Classes:** Artificer, Druid, Ranger
+___
+You touch a weapon, piece of ammunition, or component of a mechanical trap, which becomes coated with venom. The next time the coated object deals piercing or slashing damage to a creature during the spell’s duration, the target must make a Constitution saving throw. On a failed save, a creature takes 5d6 poison damage and is poisoned for 1 minute. On a success, a creature takes half as much damage and isn’t poisoned.
+
+At the end of each of its turns, a creature poisoned this way can repeat the Constitution saving throw, ending the effect on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3nd level or higher, the poison damage increases by 2d6 for each slot level above 2nd.
+
 #### Tranquility 0.0.0
 *5th-level conjuration*
 ___
@@ -949,7 +1030,7 @@ You extend your hand and point a finger at a target in range. Your magic grants 
 
 The dice rolled changes to a d8 when you reach 5th level, a d10 at 11th level, and a d12 at 17th level.
 
-\columnbreak
+\pagebreakNum
 
 #### Water Whip 0.1.0
 *1st-level conjuration*
@@ -979,7 +1060,8 @@ Once a creature succeeds on its save against the spell, it can't be affected by 
 
 As an action on your subsequent turns, you can move the sphere up to 60 feet to a point you can see.
 
-\pagebreakNum
+
+\columnbreak
 
 
 #### Witch Bolt (Revised) 1.0.0
@@ -1020,6 +1102,10 @@ The boil immediately explodes when the spell ends.
 ### Rancid Visitation
 #### 2.0.0
 * Replace inflict rot with Rancid Visitation
+
+### Smoke Shroud
+#### 1.1.0
+* Clarify that the area of Smoke Shroud is heavily obscured
 
 ### Water Whip
 #### 0.1.0
