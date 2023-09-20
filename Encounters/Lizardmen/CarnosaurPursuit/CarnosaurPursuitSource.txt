@@ -1,0 +1,576 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+       .phb#p5:after, .phb#p8:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Carnosaur Pursuit <br> (Player Level: 11-13)
+In this encounter, the players are attempting to escape a deadly carnosaur who pursues them as they race a horse-drawn cart through a hazardous jungle.
+
+### Encounter Context
+This encounter assumes the players are traveling through a primordial jungle filled with dinosaurs and other hazards. The encounter features a wounded explorer with a horse-drawn cart used to make the getaway. The explorer may be an NPC the players have already met or one they're meeting for the first time. In either case, the players should have good reason to take his instructions to flee seriously, and when they see the carnosaur emerge from the jungle, it should be apparent that it is too much for them to handle.
+
+### Lead Up
+The encounter begins with the players either seeking out the explorer to meet with him or happening to stumble upon him in the jungle. Whatever the case, they will find him fleeing for his life from the carnosaur known as Guldbloom's Terror. The explorer only has roughly half his hit points, is suffering from a level of exhaustion, and has a carnosaur wound (described in the Bite attack of Guldbloom's Terror.) He will shout at the players to get in the cart quickly and ask one of them to drive, as he is too exhausted to do so competently. Shortly after the players situate themselves in the cart, Guldbloom's Terror will emerge into view 75 feet away from them. 
+
+
+### Environment Description
+The map for this encounter represents a possible section of the jungle where combat could take place. If this happens because the cart is destroyed, you can use the map variant with the destroyed cart present.
+* **Lighting.** It should be daytime for this encounter, leading the environment to be well-lit.
+* **Foliage.** The plants throughout the jungle can lightly or heavily obscure creatures, depending on how dense they are. They also create rough terrain.
+
+
+
+### The Chase
+This encounter utilizes the rules for Chases described starting on page 252 of the Dungeon Master's Guide. The chase ends under any of the following conditions:
+
+* The players ever get 250 or more feet away from Guldbloom's Terror
+* The cart is destroyed
+* Guldbloom's Terror gets within melee range of a player not in the cart
+* The players reach the ceradon described in The Ceradon section later in the document
+
+
+
+\columnbreak
+
+<br><br><br><br>
+
+##### Encounter Map: Jungle Path
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+#### The Cart & Horses
+The cart is drawn by 2 warhorses that can only take the Dash action on each of their turns. The horses don't roll for initiative, but instead, both act in unison on initiative count 20. Stats for the cart can be found under the Encounter Reference Material later in this document.
+
+#### Guldbloom's Terror
+The following considerations and rules modifications should be used for Guldbloom's Terror during this chase:
+
+* Guldbloom's Terror doesn't roll for intuitive but acts on intuitive 1.
+* Guldbloom's Terror should not have access to any of its legendary actions except Tenacious Will during the chase. If the chase ends and traditional combat begins, it gains access to all its legendary actions as usual.
+* Guldbloom's Terror can use its Frightful Presence when taking the Dash action during the chase (which will give it disadvantage on Constitution checks made as a result of dashing.)
+* Blood Tracking will allow Guldbloom's Terror to move an extra 25 feet if any of the players in the cart (including the explorer who was wounded at the start of the chase) have a carnosaur wound.
+* If Guldbloom's Terror reaches the cart, it rips a piece off the cart. If it rips three or more pieces off the cart this way, the cart is destroyed, and the chase ends.
+
+
+
+
+
+
+<img src='https://i.ibb.co/drM34Kt/The-chase-5.jpg' style='position:absolute; top:130px; right:5px; width:415px; ' />
+
+
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+#### Chase Complications
+Instead of rolling for complications for each player, roll once at the start of the horses' turn and have the complication happen immediately. Use the following table to determine the complication:
+
+
+##### Carnosaur Pursuit Chase Complications
+| d20  | Complication |
+|:---:|:-----------:|
+|  1  | **Brush:** The cart travels through thick brush. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the brush becomes 10 feet of difficult terrain for the cart.|
+|  2  | **Uneven Ground:** The cart encounters rough terrain. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the terrain becomes 20 feet of difficult terrain for the cart. |
+|  3  | **Sharp Turn:** The cart must make an abrupt turn. All passengers must succeed on a DC 15 Strength saving throw or be thrown over the cart's side, rendering their hands unusable as they hang from the edge. They or another creature in the cart can make a DC 15 Strength check to pull them back in. A creature in the cart has advantage on this check. Failing a save or check by 5 or more results in the creature falling prone beside the cart.   |
+|  4  | **Low Hanging Branches:** The cart moves through an area with particularly low tree branches. Each creature in the cart must make a DC 15 Dexterity saving throw to avoid being hit by a branch and knocked out of the cart. On a failed save, a creature is knocked over the cart's side, as described in the Sharp Turn complication (result 3). If they fail a save or check by 5 or more, they fall prone beside the cart.
+|  5  | **Snake Statue:** The cart passes by a mysterious snake statue that emits a mesmerizing aura. Passengers must succeed on a DC 15 Wisdom saving throw or stumble over the side of the cart as described in the Sharp Turn complication (result 3). If they fail a save or check by 5 or more, they fall prone beside the cart.
+|  6  | **Venomous Swarm:** The cart speeds past foliage containing swarms of venomous creatures. Each passenger is targeted by a melee weapon attack (+5 to hit) from these angered animals. On a hit, the creature must succeed on a DC 15 Constitution saving throw or be poisoned. The creature repeats the save at the end of each of its turns, ending the effect on a success. |
+|  7  | **Spore Cloud:** The cart runs over mushroom clusters, which release blinding spores. The horses and passengers must succeed on a DC 15 Constitution saving throw or be blinded until the end of their next turn. While blinded this way, their speed is halved.|
+|  8  | **Razor-Sharp Bramble:** The cart moves through sharp brambles. The horses and passengers must succeed on a DC 15 Dexterity saving throw or receive a Carnosaur Wound.|
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br>
+
+
+|   | |
+|:---:|:-----------:|
+|  9  | **Tangled Roots:** Thick roots obstruct the cart's path. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the cart's wheels become tangled with roots, cutting its speed in half until they are removed. A creature can use its action to make a DC 15 Strength check to free the roots from the cart. |
+|  10  | **Fallen Log:** A massive log blocks the way. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the log becomes 20 feet of difficult terrain and damages the cart as if Guldbloom's Terror tore a piece off it. |
+|  11  | **Dinosaur Stampede:** A herd of frightened dinosaurs crosses the cart's path. The driver must succeed on a DC 15 Dexterity (Land Vehicle) check or the cart is damaged as if it has a piece torn out by Guldbloom's Terror.  |
+|  12  | **Blood Suckers:** Swarms of bloodthirsty insects attack. Each passenger and the horses are targeted by a melee weapon attack (+5 to hit). On a hit, the target receives a Carnosaur Wound. |
+|  13  | **Muddy Ground:** The cart enters a muddy area. The driver must succeed on a DC 15 Dexterity (Land Wehicle) check or the mud becomes 30 feet of difficult terrain for the cart.|
+|  14  | **Shrine of the Beast God:** The cart passes a shrine dedicated to an ancient beast god that hums with power and seems to be visibly invigorating Guldbloom's Terror. The shrine has 40 hit points and an AC of 15. If not destroyed within one round, it boosts the speed of Guldbloom's Terror by 10 feet for an hour.  |
+|  15-20 &emsp;&emsp;&emsp;  | No complication |
+
+<br>
+
+#### The Ceradon
+If the chase lasts for 5 rounds, on the 5th round, instead of rolling for a complication, the cart passes by a ceradon, which is provoked into attacking Guldbloom's Terror. The players can chose to stop and fight Guldbloom's Terror while it is being attacked by the ceradon, or they can flee while they have this opportunity.
+
+\pagebreakNum
+
+### Aftermath
+The aftermath of this encounter will depend on how the chase ends:
+
+* **The Players Get 250 Ft. or More Away From Guldbloom's Terror:**<br>
+At this point, the players have gotten far enough away from the carnosaur that they can make their escape unimpeded.
+
+* **The Cart is Destroyed**<br>
+If the carnosaur disables the cart, Guldbloom's Terror will prioritize devouring the explorer and the cart's horses before turning to the players unless any of the players go out of their way to aggravate it and get its attention. This distraction can give the players the chance to flee into the dense jungle and attempt to hide if a direct fight is too much for them to handle.<br> Otherwise, if they've managed to damage the carnosaur enough over the course of the chase, they may attempt to stand their ground and finish it off. If you run a combat encounter in this scenario, use the encounter map with the broken wagon.
+
+* **Guldbloom's Terror Gets Within Melee Range of a Player Not in The Cart** <br>
+In this scenario, Guldbloom's Terror is able to initiate combat against a player who has no easy means of fleeing. If the players don't quickly find a way to slip away back into a chase, you will likely need to begin combat. You can use the version of the encounter map without a broken wagon for this.
+
+* **The Players Reach the Ceradon:**<br> In this scenario, a ceradon attacks Guldbloom's Terror, allowing the players to make their getaway. Alternatively, they can choose to assist the ceradon in attempting to kill Guldbloom's Terror. You can use the version of the encounter map without a broken wagon to run combat for this.<br>As long as the players keep their distance from the ceradon and don't provoke it, it will not bother attacking them and be content with killing and eating the carnosaur. 
+
+#### Loot
+If you wish to provide a significant loot reward for this encounter, you can have the explorer (or his next of kin) award the players with approximately 1000 gp worth of treasure he looted during his jungle explorations. This treasure can come in the form of gold pieces or gems and art objects. If this was the final encounter of a larger adventure, you could award an entire treasure hoard.
+
+If the players manage to slay Guldbloom's Terror, they may also be able to harvest its body using the loot tables described in the Encounter Reference Material. However, if they slay the carnosaur with the aid of the ceradon, the ceradon will claim the body for itself and attempt to drive off anyone trying to harvest it.
+
+\columnbreak
+
+#### XP Award: 14,000xp 
+The degree of success the players have in escaping or defeating Guldbloom's Terror can affect their XP reward. You can use the following potential outcomes as guidelines to modify how much XP you award your players.
+
+* **150% XP:** The players slay Guldbloom's Terror and are able to harvest its body for loot.
+* **100% XP:** The players escape Guldbloom's Terror or slay it with the aid of the cer0don, but the cerodon drives them off.
+* **50% XP:** The players escape Guldbloom's Terror but the cart is destroyed or the explorer is killed.
+* **10% XP:** The players lose the cart and are now fleeing for their lives through the jungle on foot.
+
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If you're playing with a group of significantly lower-level players, you can use the easier variant of this encounter described below:
+
+**Easier Encounter (Level 6-8).** Replace Guldbloom's Terror with a normal carnosaur with Blessing of the Hunter God (described in the Blessings of the Old Ones section later in this document) and change the DCs for chase complications to 14. <Br> Change the XP Award to 6,000 XP.
+
+
+
+
+### Adventure Follow Ups
+If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration:
+ 
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | **Explorer's Secrets:** The wounded explorer, in gratitude or in desperation, shares a secret map with the players. This map leads to an ancient temple hidden deep within the jungle. Guldbloom's Terror was guarding the entrance to this sacred site, and now, with the beast out of the picture or at least distracted, the players have a chance to uncover its secrets.|
+|  2  | **The Resurrection Ritual:** Word spreads of Guldbloom's Terror's confrontation with the players. A faction seeking to harness the creature's power attempts to resurrect it using dark magic. The players must stop the ritual or, if too late, deal with a now undead or magically enhanced version of Guldbloom's Terror. |
+|  3  | **Guldbloom's Lair:** The players stumble upon the lair of Guldbloom's Terror, a complex of caverns filled with treasure, traps, and remnants of the creature's past kills. However, other predators have started to move in, and some of the treasures may have owners who want them back.  |
+|  4  | **Memories of The Hunted:** The explorer died during the escape, and now his spirit begins to visit one of the players in dreams, sharing fragmented memories of something significant he discovered before being chased. These clues lead to a hidden jungle wonder, but piecing the memories together and finding the location proves challenging.|
+
+
+
+
+\pagebreakNum
+
+# Encounter Reference Material
+
+## Encounter Stat Blocks
+
+___
+___
+> ## Carnosaur, Guldbloom's Terror 
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 345 (30d12 + 150)
+> - **Speed** 50 ft
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|26 (+8)|16 (+3)|20 (+5)|6 (-2)|18 (+4)|12 (+1)|
+>___
+> - **Saving Throws** Int +2
+> - **Skills** Perception +10, Stealth +15
+> - **Condition Immunities** charmed, frightened
+> - **Senses** Darkvision 60 ft., passive Perception 20
+> - **Challenge** 19 (22,000 XP) &emsp;&emsp;&emsp;  **Proficiency Bonus** +6
+> ___
+>
+> ***Keen Smell.*** The carnosaur has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Feeding Frenzy.*** When the carnosaur hits a creature with a weapon attack, it deals an extra 5 (1d10) damage per carnosaur wound that creature has.
+>
+> ***Jungle Stalker.*** The carnosaur has advantage on Dexterity (Stealth) checks made to hide using foliage and may do so even if it is only lightly obscured. Additionally, the carnosaur can move through plants without being slowed, taking damage, or being grappled or restrained by them.
+>
+> ***Frightful Presence.*** Each creature of the carnosaur's choice that is within 120 feet of it and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the carnosaur's Frightful Presence for the next 24 hours.
+>
+> ***Wounded Fury.*** While the carnosaur has 115 hit points or fewer, it has advantage on attack rolls.
+>
+> ### Bonus Action
+>
+> ***Blood Tracking.*** The carnosaur learns the exact location of each creature with a carnosaur wound within 300 feet of it. It may then move up to 25 feet toward a creature wounded this way without provoking attacks of opportunity.
+>
+> ### Actions
+>
+> ***Multiattack.*** The carnosaur can use its Frightful Presence. It then makes two attacks: one with its bite, and one with its tail. It can't make both attacks against the same target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 34 (4d12 + 8) piercing damage. If the target is a creature, it sustains two carnosaur wounds and is grappled (escape DC 19).Until this grapple ends, the target is restrained, and the carnosaur can't bite another target. At the end of each of the wounded creature's turns, it takes 2 (1d4) necrotic damage per carnosaur wound it has sustained. Carnosaur wounds can be healed if the creature regains 10 or more hit points or if a use of a healer's kit is expended on it. Alternatively, the wounded creature or another creature within 5 feet can make a DC 15 Wisdom (Medicine) check as an action, ending all carnosaur wounds on a success.
+>
+> ***Claws.*** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 17 (2d8 + 8) slashing damage. If the target is a creature, it sustains a carnosaur wound as described in the Bite attack.
+>
+> ***Tail.*** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage.
+>
+> ### Legendary Actions
+>
+> The carnosaur can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The carnosaur regains spent legendary actions at the start of its turn.
+> 
+> **Blood Tracking.** The carnosaur uses its Blood Tracking bonus action.
+>
+> **Check.** The carnosaur makes a skill check that would normally require an action.
+>
+> **Claw.** The carnosaur makes a claw attack.
+>
+> **Tenacious Will.** If the carnosaur is suffering from an effect that allows it to make a saving throw as an action or at the beginning or end of its next turn, it may immediately make that save against the effect with advantage. It can use this legendary action while incapacitated.
+>
+> **Bloody Roar (Costs 2 Actions).** The carnosaur lets loose a reverberating roar. Each creature in a 120-foot cone originating from the carnosaur in the direction it's facing that can hear it must succeed on a DC 18 Wisdom saving throw or lose concentration and be knocked prone. If a creature fails the save by 5 or more (DC 13), it is also stunned. At the end of each of the stunned creature's turns, and each time it takes damage, it can make another Wisdom saving throw against the effect. The target has advantage on the saving throw if it's triggered by damage. On a success, the effect ends. <br><br>
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Carnosaur
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 230 (20d12 + 100)
+> - **Speed** 50 ft
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|26 (+8)|16 (+3)|20 (+5)|2 (-4)|16 (+3)|10 (0)|
+> ___
+> - **Saving Throws** Int +1
+> - **Skills** Perception +8
+> - **Senses** Darkvision 60 ft., passive Perception 18
+> - **Challenge** 13 (10,000 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +5
+> ___
+>
+> ***Bloody Rampage.*** While the carnosaur is rampaging, it has advantage on attack rolls and deals an additional 11 (2d10) damage on hit.
+>
+> ***Cold Blooded.*** The carnosaur has advantage on saving throws against being charmed or frightened.
+>
+> ***Frightful Presence.*** Each creature of the carnosaur's choice that is within 120 feet of the carnosaur and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the carnosaur's Frightful Presence for the next 24 hours.
+>
+> ***Keen Smell.*** The carnosaur has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Primal Instinct (Recharges after a Short or Long Rest).*** When the carnosaur's hit points drop to 75 or fewer or it becomes charmed or frightened, it enters a rampage that lasts for one minute. 
+>
+> ***Taste of Blood.*** If the carnosaur starts its turn grappling a creature with a carnosaur wound or hits a creature with a carnosaur wound with its bite attack, it enters a rampage that lasts 1 minute. 
+>
+> ### Bonus Action
+>
+> ***Blood Tracking.*** The carnosaur learns the exact location of each creature with a carnosaur wound within 300 feet of it. It may then move up to 25 feet toward a creature wounded this way without provoking attacks of opportunity.
+>
+> ### Actions
+>
+> ***Multiattack.*** The carnosaur can use its Frightful Presence. It then makes three attacks: one with its bite, one with its claws, and one with its tail. It can't make its tail attack against the same target as its claw and bite attacks.
+>
+> ***Bite.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 34 (4d12 + 8) piercing damage, or 45 (4d12 + 2d10 + 8) if the carnosaur is rampaging. If the target is a creature, it sustains two carnosaur wounds and is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the carnosaur can't bite another target. At the end of each of the wounded creature's turns, it takes 2 (1d4) necrotic damage per carnosaur wound it has sustained. Carnosaur wounds can be healed if the creature regains 10 or more hit points or if a use of a healer's kit is expended on it. Alternatively, the wounded creature or another creature within 5 feet can make a DC 15 Wisdom (Medicine) check as an action, ending all carnosaur wounds on a success.
+>
+> ***Claws.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 17 (2d8 + 8) slashing damage, or 28 (2d8 + 2d10 + 8) if the carnosaur is rampaging. If the target is a creature, it sustains a carnosaur wound as described in the Bite attack.
+>
+> ***Tail.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage, or 32 (3d8 + 2d10 + 8) if the carnosaur is rampaging.
+
+<img src='https://mdl.artvee.com/sftb/510400ld.jpg' style='position:absolute; bottom:-200px; right:-60px; width:1000px; transform:scaleX(1)' />
+
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-100px;bottom:-60px;transform:rotate(10deg)' />
+
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-460px;bottom:-60px;transform:rotate(-10deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Ceradon
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 220 (21d12 + 84)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|24 (+7)|9 (-1)|18 (+4)|2 (-4)|12 (+1)|10 (0)|
+>___
+> - **Saving Throws** Dex +3, Int +0
+> - **Skills** Perception +5
+> - **Senses** passive Perception 15
+> - **Challenge** 11 (7,200 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +4
+> ___
+>
+> ***Cold Blooded.*** The ceradon has advantage on saving throws against being charmed or frightened.
+>
+> ***Immutable Form.*** The ceradon is immune to any spell or effect that would alter its form.
+>
+> ***Impale.*** If the ceradon moves at least 20 feet straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, the ceradon impales the target on its horns, grappling it if it is a Large or smaller creature (escape DC 19). Until the grapple ends, the target is restrained, takes 20 (3d8 + 7) piercing damage at the start of each of the ceradon's turns, and the ceradon can't use its Gore attack.
+>
+> ***Primal Instinct (73 HP, Recharges after a Short or Long Rest).*** When the ceradon's hit points drop to 73 or fewer or it becomes charmed or frightened, it enters a rampage that lasts for one minute.
+>
+> ***Territorial.*** The ceradon and any creature mounted on it have advantage on saving throws and checks against effects that would knock them prone or move them against their will. If any of them fail such a saving throw or check that they had advantage on, the ceradon enters a Rampage that lasts for one minute.  <br><br><br><br>
+>
+> ### Actions
+>
+> ***Multiattack.*** The ceradon can make a Stomp attack against any number of creatures within 5 feet of it and then a Gore or Bite attack. It can forgo all of its Stomp attacks to use its Trample action.
+>
+> ***Bite.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 17 (3d6 + 7) piercing damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target not in the ceradon's space. *Hit:* 20 (3d8 + 7) piercing damage.
+>
+> ***Stomp.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 18 (2d10 + 7) bludgeoning damage. If the target is prone and in the same space as the ceradon, the stomp instead deals 29 (4d10 + 7) bludgeoning damage.
+>
+> ***Trample.*** The ceradon moves up to its speed in a straight line. During this move, it can attempt to enter Large or smaller creatures' spaces if it has moved at least 10 ft in a straight line beforehand. A creature whose space the ceradon would enter must succeed on a DC 19 Dexterity or Strength saving throw (the target's choice). On a failed save, the creature falls prone and takes 18 (2d10 + 7) bludgeoning damage, and the ceradon moves into its space. <br>On a successful Dexterity save, the target takes no damage, is not knocked prone, and is pushed 5 feet to the nearest space out of the ceradon's path. On a successful Strength save, the creature takes half damage, is not knocked prone, and the ceradon's movement ends.<br> If the ceradon remains in a prone creature's space, the creature is also restrained until it's no longer in the same space as the ceradon. While a creature is restrained in this way, it, or another creature within 5 feet of it, can make a DC 19 Strength check. On a success, the creature is pulled to an unoccupied space of its choice within 5 feet of the ceradon and is no longer restrained.
+>
+> ### Reactions
+>
+> ***Armored Crest.*** When an attacker the ceradon can see makes an attack roll against the ceradon or a creature within 5 feet of it, the ceradon can impose disadvantage on the attack roll.
+
+\pagebreakNum
+
+### Blessings of the Old Ones
+
+Some lizardmen and dinosaurs are created with enhanced abilities attributed to their ancient gods. These creatures bear colorations that signify their specialized abilities and the unique ways they can serve their masters. You can apply one of these blessings to any of the creature stat blocks described in this document. Doing so increases that creature’s CR by 1. 
+
+
+
+#### Blessing of the Blood God
+
+*These hyper-aggressive lizardmen are marked with blood-red scales and infused with a ferocity that drives them to slaughter in their god’s name.*
+
+While the creature is rampaging, its has advantage on attack rolls and deals additional 11 (2d10) damage on hit.
+
+#### Blessing of the God of Fate
+
+*These lizardmen are marked by the oldest of gods with pure white scales and are said to be destined for greatness as fate itself bends to their will.*
+
+At the start of creature’s turns, it can choose to be under the effects of the *foresight* spell until the end of its next turn.
+
+Once the creature uses this feature, it can't use it again until it finishes a long rest.
+
+#### Blessing of the Hunter God
+
+ *These lizardmen are marked with a brown spotted coloration to help them blend into the wilderness, and they possess superior predatory instincts that allow them to stalk prey through the thickest jungles.*
+
+The creature has advantage on Dexterity (Stealth) checks made to hide using foliage and may do so even if it is only lightly obscured. 
+
+Additionally, the creature has advantage on Wisdom (Perception), Wisdom (Survival) checks and can make them as a bonus action. 
+
+Finally, the creature can move through plants without being slowed, taking damage, or being grappled or restrained by them.
+
+#### Blessing of the Protector God
+
+*These lizardmen are marked with bony nobs and thick scales of a glittering silver color that deflect ranged attacks.*
+
+While the creature isn’t rampaging, when a creature 10 or more feet away from it hits it with an attack or deals damage to it with a spell, the damage is halved.
+
+\columnbreak
+
+#### Blessing of the River God
+
+*These aquatic lizardmen are marked with sea-green hues, gills, webbed claws, and crocodilian jaws they can use to drag their foes to a watery grave.* <br>
+The creature has a swim speed of 40 ft. and can breathe underwater. If the creature already has a swim speed, it is increased by 20 feet.
+
+When the creature hits a creature with its bite attack, the target is grappled (escape DC equal to 8 + the creature’s Strength Modifier + Its Proficiency Bonus). Until this grapple ends, the target is restrained, and the creature can't bite another target.
+
+
+
+
+
+
+
+#### Blessing of the Stoic God
+
+*These lizardmen are marked with yellow lines down their body that signify their impassive nature and level-headedness during combat.*
+
+The creature adds +3 to its Wisdom, Charisma, and Intelligence saving throws and has resistance to psychic damage.
+
+Additionally, its Primal Instinct feature is only triggered by it becoming charmed or frightened.
+
+#### Blessing of the Sun God
+
+*These energetic lizardmen are marked with the orange of the setting sun across their scales, and their sun god's power drives them to chase down their prey at alarming speeds.*
+
+The creature has advantage on intuitive rolls, and its speed is increased by 10 feet. If it would enter a rampage, it may use its reaction to move up to its speed toward any enemy it can see without provoking attacks of opportunity before its rampage begins.
+
+#### Blessing of the Wind God
+
+*These mystical lizardmen are marked with shimmering purple scales and possess primal wards that can sweep away enemy magics.*
+
+The creature can cast *counterspell* once per day without any components, using Wisdom as its spellcasting ability. Its Primal Instinct ability is triggered when it casts the spell this way. (It can't cast the spell while rampaging.)
+
+\pagebreakNum
+
+## Tactics & Loot
+
+### Carnosaur Tactics
+
+
+Carnosaurs are apex predators, unafraid of any other creature. At the slightest hint of movement, they charge, using their claws to wound their target, followed by a powerful biting attack that sends them into a rampage. They use their tail attack to hit a secondary threat, but always prioritize hitting their primary prey with claw and bite attacks.
+
+Despite their straightforward rampaging tendencies, carnosaurs have some tactical options. Their Blood Tracking ability allows them to pursue the most wounded prey in the area, bypassing the limitations of their rampaging condition. This is especially useful if the wounded target tries to flee. However, outside of this tactic, they still adhere to the standard rampage rules.
+
+The carnosaur's innate lust for blood drives it to attack the most injured target with claw and bite attacks. If that creature manages to heal its wounds, the carnosaur promptly shifts its attention to the next nearest prey.
+
+When lizardmen use carnosaurs as mounts, they shouldn't be treated as fully under the control of their rider unless that rider possesses the 'Blessing of the Beast God' from the lizardmen Blessings of the Old Ones list. A rider without this blessing is limited to guiding the carnosaur toward the most prominent target on the battlefield to unleash its wounding attacks. However, once the carnosaur begins to rampage, the rider loses all control, and the creature behaves as if it were wild.
+
+
+#### Guldbloom's Terror 
+
+Guldbloom's Terror exhibits unparalleled cunning compared to other carnosaurs. With its ambush ability and the Jungle Stalker trait, it patiently waits for the perfect moment to strike an unsuspecting target, often choosing the largest prey. Despite its sly nature, this creature is fearless and prioritizes kills that offer the most sustenance.
+Guldbloom's Terror employs the same tactics as a standard carnosaur but doesn't risk entering into a rampage. It focuses on the most injured target it can detect, tearing it apart with cold precision rather than reckless rampaging.
+
+\columnbreak
+
+This carnosaur also possesses legendary actions used in specific situations:
+
+**Blood Tracking and Tenacious Will:** These are employed whenever something prevents the carnosaur from attacking a severely wounded target.
+
+**Claw:** The carnosaur uses this attack when it's adjacent to the most injured prey or if it aims to start wounding a new creature.
+Bloody Roar: This ability is used when the carnosaur can affect four or more targets with it or if it can impact at least two targets that are either concentrating on spells or flying beyond its reach. Possessing a natural instinct for magic detection, if Guldbloom's Terror senses a spell of seventh level or higher being concentrated upon, it will seek to disrupt it this way.
+
+
+
+### Ceradon Tactics
+
+Ceradons are territorial, highly aggressive, and omnivorous creatures. While they don't actively hunt prey, they will readily attack anything within charging distance. In battle, a ceradon is resolute and acts primarily on instinct. It focuses on adversaries it perceives as the greatest threat, often choosing targets dealing significant damage or those of considerable size. However, it lacks the intelligence to realize the potential benefits of trampling multiple targets for increased damage output.
+
+If a ceradon starts an encounter already in melee combat, it will retreat, even if doing so exposes itself to opportunity attacks. To defend against such attacks, it employs its Armored Crest reaction. Following the retreat, it starts charging foes with its Trample action. The ceradon will follow this up with its Gore attack. While it can't gore a target right beneath it, it can trample over a target before circling back to Gore, often doing so with an advantage. Once an opponent is impaled on its horns, the ceradon shifts focus to trampling nearby threats. If it pins another creature under its feet, it will continue its stomp attacks while standing atop the pinned foe.
+ 
+ ### Art Credit
+* Encounter Map - Joseph Snouwaert
+* Javanese Jungle - Raden Saleh
+* Florida Jungle - Winslow Homer
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Winslow_Homer_-_Florida_Jungle_%2802%29.jpg/640px-Winslow_Homer_-_Florida_Jungle_%2802%29.jpg' style='position:absolute; bottom:-280px; right:-60px; width:900px; transform:scaleX(-1)' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-100px;bottom:-90px;transform:rotate(-10deg)' />
+  
+  
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-100px;bottom:-120px;transform:rotate(0deg)' />
+ 
+ \pagebreakNum
+ 
+
+
+### Carnosaur Loot
+The valuable items looted from carnosaur will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide of a carnosaur. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Carnosaur Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Carnosaur Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 2d4(5) 50gp Item |
+|  9-11 | 2d6(7) 50gp Items | 
+|  12-18 | 2d4(5) 100gp Items  |  
+|  17-23 | 2d4(5) 200gp Items |  
+|  24+ |  2d6(7) 200gp Items |  
+ 
+##### Guldbloom's Terror Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 2d6(7) 500gp Item |
+|  10-12 | 2d6(7) 1,000gp Items | 
+|  13-18 | 3d6(10) 1,000gp Items  |  
+|  19-23 | 2d6(7) 2,000gp Items |  
+|  24+ |  3d6(10) 2,000gp Items |  
+
+
+
+#### Example Carnosaur Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide  example names.
+
+##### Example Carnosaur Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Carnosaur Bone |  Carnosaur Bone |  Pristine Carnosaur Bone  | 
+| 2 (Flesh)  | Stringy Carnosaur Meat| Carnosaur Meat|  Prime Carnosaur Meat  | 
+| 3 <br> (Fluid)  | Clotted Carnosaur Blood| Carnosaur Blood |  Pristine Carnosaur Blood  | 
+| 5 <br> (Hide)  | Tattered Carnosaur Hide| Carnosaur Hide |  Pristine Carnosaur Hide  |
+
+\columnbreak
+
+##### Example Guldbloom's Terror Item Names
+|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Terror Bone |  Terror Bone |  Pristine Terror Bone  | 
+| 2 (Flesh)  | Stringy Terror Flesh| Terror Flesh|  Prime Terror Flesh  | 
+| 3 <br> (Fluid)  | Clotted Terror Blood| Terror Blood |  Pristine Terror Blood  | 
+| 5 <br> (Hide)  | Tattered Terror Hide| Terror Hide |  Pristine Terror Hide  |
+
+### Ceradon Loot
+The valuable items looted from Ceradon will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Ceradon Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Ceradon Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-10  | 2d4(5) 50gp Item |
+|  11-15 | 2d6(7) 50gp Items | 
+|  16-22 | 2d4(5) 100gp Items  |  
+|  23-25 | 2d6(7) 100gp Items |  
+|  26+ |  3d6(10) 100gp Items |  
+
+#### Example Cerasaur Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Cerasaur Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Cerasaur Bone |  Cerasaur Bone |  Primeval Cerasaur Bone  | 
+| 2 (Flesh)  | Stringy Cerasaur Meat| Cerasaur Meat|  Primeval Cerasaur Meat  | 
+| 3 <br> (Fluid)  | Clotted Cerasaur Blood| Cerasaur Blood |  Primeval Cerasaur Blood  | 
+| 5 <br> (Hide)  | Tattered Cerasaur Hide| Cerasaur Hide |  Primeval Cerasaur Hide  |
+
+
+\pagebreakNum
+  
+### Change Log
+  
+#### 1.0.0
+* Document release
