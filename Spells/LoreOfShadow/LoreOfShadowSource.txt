@@ -96,13 +96,15 @@ ___
 - **Casting Time:** 1 action
 - **Range:** 120 ft
 - **Components:** V, S
-- **Duration:** 1 round
-- **Classes:**  Ranger
+- **Duration:** 1 minute
+- **Classes:**  Sorcerer, Wizard
 ___
 
-You conjure a spectral pendulum that swings <br> through a 60-foot-long, 5-foot-wide, and 5-foot-tall <br> line of your choice within range. Each creature <br> within this area can choose to make a Dexterity or Intelligence saving throw (its choice). A creature <br> takes 7d10 psychic damage on a failed save and <br> no damage on a successful one.
+You conjure a spectral pendulum that swings through a 60-foot-long, 5-foot-wide, and 5-foot-tall line of your choice within range. Each creature in this area can make a Dexterity or Intelligence saving throw (its choice). A creature takes 6d10 psychic damage on a failed save and no damage on a success.
 
-***At Higher Levels.*** When you cast this spell <br> using a spell slot of 5th level or higher, the damage <br> increases by 1d10 for each slot level above 4th.
+On each of your subsequent turns during the spell's duration, you can use your action to cause the pendulum to swing back from the opposite direction it swang last, repeating the effect across the same line each time. If your turn ends without you using this action, the spell ends.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot.
 
 #### Pit of Shadows
 *6th-level abjuration*
@@ -130,13 +132,15 @@ At the end of each of its turns, the banished creature takes 3d8 psychic damage 
 - **Classes:**   Sorcerer, Warlock, Wizard
 ___
 
-You release a surge of chilling shadows in a 15-foot-long, 5-foot-wide line that extends from you in a direction you choose. Each creature within the line must make a Wisdom saving throw. Creatures take 1d10 cold damage, and on a failed save, and half as much on a success.
+You release a surge of chilling shadows in a 15-foot-long, 5-foot-wide line that extends from you in a direction you choose. Each creature within the line must make a Constitution saving throw. Creatures take 1d10 cold damage, and on a failed save, and half as much on a success.
 
-The the line's area is then plunged into magical darkness until the end of your next turn. This darkness is impenetrable to darkvision and unaffected by nonmagical light sources.
+
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+The the line's area is then plunged into magical darkness until the end of your next turn. This darkness is impenetrable to darkvision and unaffected by nonmagical light sources.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 and the length of the line extends by an additional 5 feet for each slot level above 1st.
 
@@ -170,16 +174,16 @@ Choose a creature within range that can hear you. The target must succeed on a W
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
 
- <img src='https://i.ibb.co/hDpWQz9/TheAbyss.png' style='position:absolute;right:-15px;top:-10px;width:510px;transform:scaleX(-1)' />
+ <img src='https://i.ibb.co/hDpWQz9/TheAbyss.png' style='position:absolute;right:-0px;top:-20px;width:450px;transform:scaleX(-1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-style='position:absolute;right:-486px;top:-30px;height:1400px;width:1416px;transform:rotate(180deg)' />
+style='position:absolute;right:-100px;top:-67px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-80px;top:-30px;height:1400px;width:1416px;transform:rotate(200deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-style='position:absolute;right:105px;top:-170px;height:1400px;width:1416px;transform:rotate(-90deg)' />
+style='position:absolute;right:0px;top:-170px;height:1400px;width:1416px;transform:rotate(-98deg)' />
 
 
 \pagebreakNum
@@ -189,4 +193,9 @@ style='position:absolute;right:105px;top:-170px;height:1400px;width:1416px;trans
 #### 1.0.0
 * Document release
 
+#### 1.1.0
+* Change saving throw for Shroud of Dusk to Con save
 
+#### 1.2.0
+* Reworked Penumbral Pendulum so it can be swung multiple times
+* Fixed typo with what classes gained access to Penumbral Pendulum
