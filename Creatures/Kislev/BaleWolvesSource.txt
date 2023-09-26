@@ -1,0 +1,176 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+## Bale Wolves
+
+___
+___
+> ## Bale Wolf
+>*Large monstrosity, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 85 (10d10 + 30)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|15 (+2)|16 (+3)|5 (-3)|14 (+2)|8 (-1)|
+>___
+> - **Skills** Athletics +5, Perception +6, Stealth +4
+> - **Senses** Darkvision 120 ft., passive Perception 15
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp;&emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Keen Hearing and Smell.*** The bale wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+> ***Woodland Stalker.*** The bale wolf has advantage on Dexterity (Stealth) checks made to hide using foliage. Additionally, the bale wolf can move through plants without being slowed, taking damage, or being grappled or restrained by them.
+>
+> ***Pack Tactics.*** The bale wolf has advantage on an attack roll against a creature if at least one of the bale wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ### Actions
+>
+> ***Multiattack.*** The bale wolf makes three attacks: two with its bite and one with its claws.
+>
+> ***Vicious Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone. If the attack is made with advantage, the bale wolf scores a critical hit on a roll of 17-20.
+>
+> ***Pinning Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage. If the target is a prone creature, the target is grappled (escape DC 14). Until this grapple ends, the bale wolf's speed is 0, and it can't claw another target.
+
+
+\pagebreak
+___
+___
+> ## Bale Wolf Dark Blood
+>*Large monstrosity, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 110 (13d10+39)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|15 (+2)|16 (+3)|5 (-3)|14 (+2)|10 (0)|
+>___
+> - **Saving Throws** Str +7, Dex +5
+> - **Skills** Athletics +7, Perception +8, Stealth +5
+> - **Senses** Darkvision 120 ft., passive Perception 18
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp;&emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Keen Hearing and Smell.*** The bale wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+> ***Regeneration.*** The bale wolf regains 10 hit points at the start of its turn. If the creature takes 5 or more fire or acid damage in a single turn or damage from a critical hit, this trait doesn't function at the start of its next turn. The bale wolf dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ***Woodland Stalker.*** The bale wolf has advantage on Dexterity (Stealth) checks made to hide using foliage. Additionally, the bale wolf can move through plants without being slowed, taking damage, or being grappled or restrained by them.
+>
+> ***Pack Tactics.*** The bale wolf has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ### Actions
+>
+> ***Multiattack.*** The bale wolf makes three attacks: two with its bite and one with its claws.
+>
+> ***Vicious Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. If the attack is made with advantage, the bale wolf scores a critical hit on a roll of 17-20. If the target is a humanoid, it must also make on a DC 15 Constitution saving throw, making the save with disadvantage if the attack was a critical hit. On a failure, it suffers the Bale Wolf curse (described later in this document).
+>
+> ***Pinning Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage. If the target is a prone creature, the target is grappled (escape DC 15). Until this grapple ends, the bale wolf dark blood's speed is 0, and it can't claw another target.
+
+
+\pagebreakNum
+
+
+### The Bale Wolf Curse
+**Dark Transformation.** A creature afflicted with the Bale Wolf Curse is immediately subjected to a dark transformation into a bale wolf. The creature adopts the statistics of a **bale wolf**, with the following exceptions: it retains its original hit points, hit dice, and Constitution score. The creature's alignment and personality remain unchanged. 
+
+Any equipment the creature was using or wearing drops to the ground at its current location, and for the duration of the transformation, the creature cannot interact with or benefit from its dropped equipment. Additionally, it cannot speak, cast spells, or perform any action requiring hands or speech.
+
+**Dark Instincts.** At the start of each of its turns, the creature must make a DC 10 Constitution saving throw. On a failure, its psyche is overcome by the darkness within until the start of its next turn. During this time, it suffers from the following effects:
+
+* It perceives all non-Balewolf creatures as enemies and all Balewolfs as allies until the start of its next turn.
+
+* If there is a non-Balewolf creature within its reach, it must use the Attack action against the nearest one.
+
+* If there are no creatures within its reach, it uses the Dash action to approach the nearest non-Balewolf creature it is aware of.
+
+**Cured or Permanent Transformation.** Should the creature succeed on this saving throw three times, the curse is lifted, and it reverts back to its original form. However, if the creature fails the save three times, the transformation becomes permanent. The creature then adopts the maximum hit points and Constitution score of a Balewolf, becomes an NPC under the DM's control, and can regain hit points as the Balewolf would (NOTE: What is this regain hit points part about?).
+
+Casting *dispel evil and good* or *remove curse* within the first hour of the transformation can reverse the curse. After this initial hour, only *dispel evil and good* or *remove curse*  spells cast at 9th level, the *wish* spell, or divine intervention can restore the creature to its original form.
+
+\pagebreakNum
+
+### Bale Wolves Loot
+The valuable items looted from cold ones will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide of a bale wolf. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Bale Wolf Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Bale Wolf Loot Table
+
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5gp Item |
+|  6-10 | 1d4(2) 5gp Items | 
+|  11-17 | 1d6(3) 5gp Items  |  
+|  18-22 |  1d4(2) 10gp Items |  
+|  18-23 |  1d6(3) 10gp Items |  
+
+##### Bale Wolf Dark Blood Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 10gp Item |
+|  9-13 | 1d4(2) 10gp Items | 
+|  14-21 | 1d6(3) 10gp Items  |  
+|  22-24 | 1d4(2) 20gp Items |  
+|  25+ |  1d6(3) 20gp Items |  
+ 
+
+\columnbreak
+
+#### Example Bale Wolf Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+
+##### Example Bale Wolf Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Bale Wolf Bone |  Bale Wolf Bone |  Dark Bale Wolf Bone  | 
+| 2 (Flesh)  | Stringy Bale Wolf Meat| Bale Wolf Meat|  Dark Cold One Meat  | 
+| 3 <br> (Fluid)  | Clotted Bale Wolf Blood| Bale Wolf Blood |  Dark Bale Wolf Blood  | 
+| 4 <br> (Hide) | Tattered Bale Wolf Hide| Bale Wolf Hide |  Dark Bale Wolf Hide  |
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
