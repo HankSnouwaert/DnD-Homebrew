@@ -1,0 +1,317 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+## Lore of Beasts
+
+#### Summon Flock
+
+*1st-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:**  V, S, M (A worm or bug)
+- **Duration:**  Concentration, up to 1 hour
+- **Classes:**   Druid, Ranger
+___
+
+Upon casting, you summon three crows that circle above you for the duration of the spell. As a bonus action, you can direct one of the crows to dive at a creature or object within 120 feet. Make a ranged spell attack against the target. On a hit, it takes 2d4 piercing damage. If the attack is a critical hit, the target is blinded until the start of your next turn. Regardless of the outcome, the directed crow is expended. The spell ends if all crows are expended. For each crow circling above you, you gain a +1 bonus to Wisdom (Perception) checks.
+
+
+***At Higher Levels.***  When you cast this spell using a 2nd-level spell slot or higher, you summon an additional crow for each slot level above 1st.
+
+#### Subdue the Savage
+
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V, S
+- **Duration:**  10 minutes
+- **Classes:**   Bard, Druid, Ranger
+___
+
+You emanate a commanding presence, compelling a primal creature to submit. Choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you. If the creature's Intelligence is 8 or higher, the spell has no effect. Otherwise, it must make a Wisdom saving throw. On a failed save, it becomes charmed and frightened by you until the end of your next turn. Regardless of the save's outcome, you gain a +5 bonus to Charisma (Intimidation) and Wisdom (Animal Handling) checks when interacting with that creature until the spell concludes.
+
+***At Higher Levels.*** When you cast this spell using a 3rd-level spell slot or higher, you can target one additional creature for each slot level above 2nd.
+
+#### Amber Spear
+
+*3rd-level conjuration* (NOTE: Should this be evocation?)
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:**  V S M (A Piece of Amber)
+- **Duration:**  Instantaneous
+- **Classes:**   Druid, Ranger
+___
+
+You conjure a large amber hunting spear and launch it in a straight line at a point you can see within range. Upon reaching its destination or striking a solid surface, the spear shatters, producing an explosion within a 10-foot-radius sphere centered on that point. The spear can pass through spaces occupied by creatures and objects of large size or smaller.
+Every creature or object the spear moves through, as well as those within the explosion's radius, must make a Dexterity saving throw. On a failed save, a creature takes 6d6 piercing damage; on a successful one, the damage is halved.
+
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
+
+#### Wild Surge
+
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V S M (a tuft of fur and a fang)
+- **Duration:**  Concentration, up to 10 minutes
+- **Classes:**   Druid, Ranger
+___
+
+Select a willing creature within range to tap into its primal nature, transforming it into a bestial form. For the duration of the spell, the creature receives the following benefits:
+
+* It gains 20 temporary hit points.
+* It gains a +2 bonus to AC.
+* It gains a +2 bonus to Strength saving throws and checks.
+* It gains a +2 bonus to Wisdom (Perception) checks and Charisma (Intimidation) checks.
+* When it hits with a melee weapon attack or unarmed strike, it deals an additional 1d8 damage.
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the targeted creature gains an additional 5 temporary hit points for each slot level above 3rd.
+
+\pagebreakNum
+
+#### Bestial Spirit
+
+*4th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**   Druid, Ranger
+___
+
+A Large spectral beast appears at a location you choose within range. Though it appears substantial, it is intangible and can be passed through and occupied by other creatures.
+
+Any hostile creature within 5 feet of the beast is so distracted by its presence that it has disadvantage on attack rolls. At the end of each of its turns, a hostile creature within 5 feet of the beast must make a Dexterity saving throw as the beast assaults it. The creature takes 3d10 force damage on a failed save, or half as much on a successful save. 
+
+If a hostile creature moves more than 5 feet away from the beast, that creature must make the same saving throw against the beast's damage effect unless it took the Disengage action.
+
+At the start of each of your turns, if no hostile creatures are within 5 feet of the beast, it moves up to 40 feet toward the closest hostile creature it can see. The beast has blindsight out to 120 feet and is blind beyond this range.
+
+
+***At Higher Levels.***  When casting this spell using a 5th-level spell slot or higher, the beast's damage increases by 1d10 for each slot level above 4th.
+
+#### Aspect of the Beast
+
+*4th-level  transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:**  V, S
+- **Duration:**  Concentration, Up to 1 hour.
+- **Classes:**   Druid, Ranger
+___
+
+Upon touching a willing creature, you imbue it with bestial might. For the duration, the creature manifests a bestial weapon of your choice from the list below. When it takes the Attack action on its turn, it can make an additional attack with the bestial weapon as part of that action. The weapon is treated as a simple weapon with which the creature is proficient. Unless otherwise stated, it uses its Strength modifier for attack and damage rolls made with the weapon.
+
+**Ripping Jaws.** The creature's mouth becomes filled with dagger-like teeth. Its jaws deal 2d8 piercing damage on a hit. If the bite damages a creature, the user gains temporary hit points equal to the damage dealt.
+
+**Tearing Claws.** The creature's hands transform into blade-like claws. These claws deal 2d6 slashing damage on a hit and count as finesse weapons. The creature can choose to replace any of its melee attacks made with the Attack action with its claws, including any off-hand attacks.
+
+**Ramming Horns.** Gnarled horns grow from the creature's head. The horns deal 2d8 bludgeoning damage on a hit. If the creature moves at least 15 feet straight toward a target and then hits it with a horn attack, the attack deals an extra 2d8 bludgeoning damage, and if the target is Large or smaller, the creature can choose to push it up to 15 feet away.
+
+#### Impenetrable Pelt
+
+*4th-level  transmutation*
+___
+- **Casting Time:** 1  action
+- **Range:** 60 feet
+- **Components:**  V, S, M (a tuft of fur)
+- **Duration:**  Concentration, Up to 10 minutes
+- **Classes:**   Druid, Ranger
+___
+
+You weave magic to sheathe a willing creature you can see within range in a layer of tough fur and hide. For the spell's duration, any bludgeoning, piercing, or slashing damage the target takes is reduced by 5. This reduction applies before any resistances.
+
+***At Higher Levels.***  When you cast this spell using a spell slot of 6th level or higher, the damage reduction increases by 1 for each slot level above 5th.
+
+#### Call of the Pack
+
+*5th-level enchantment*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:** 60 feet
+- **Components:**  V
+- **Duration:**  1 round
+- **Classes:**   Ranger
+___
+
+Unleashing a primal howl, you stir the wild fervor within your allies. You and up to three other creatures you are aware of within range that can hear you are quickened until the start of your next turn. While quickened this way, these creatures gain advantage on attack rolls against any enemy if at least one of their allies is within 5 feet of that enemy and the ally isn't incapacitated.
+
+\pagebreak
+
+#### Transformation
+
+*6th-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:**  V
+- **Duration:**  Until dispelled
+- **Classes:**   Druid, Sorcerer, Warlock
+___
+
+Drawing from wild energies, you transform into a mighty primal form of your choice: a Feral Manticore, a Ravenous Hydra, or a Savage Dragon. While transformed, you adopt the stat block of the selected beast (found later in this document). Your game statistics, including mental ability scores, are replaced by those of the chosen form, but you maintain your alignment and personality.
+
+While in this new form:
+* You assume its hit points.
+* Your spell attack modifier and spell save DC replace its attack modifiers and saving throw DCs.
+* If you're reduced to 0 hit points, you make death saving throws as usual. If you die, you revert to your true form.
+* You can't speak, cast spells, or undertake any action requiring hands or speech.
+* Your gear melds into your new form, rendering it inaccessible. As such, you can't activate, wield, or benefit from any of your equipment.
+
+To attempt to end the spell, you may use your action to make a DC 15 saving throw using your original form's spellcasting ability modifier. On a successful save, the spell ends. However, if you fail this save three or more times within 8 hours, you must complete a long rest before attempting to end the spell again. A remove curse spell will also end the transformation.
+
+***At Higher Levels.***  When cast using a spell slot of 7th level or higher, the new form gains an additional 25 hit points for each slot level above 6th. If cast using a 9th-level slot, any features the new form can use only once per day can now be used three times per day.
+
+\pagebreak
+
+___
+___
+> ## Savage Dragon
+>*Huge Dragon, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., climb 40 ft., fly 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|14 (+2)|20 (+5)|12 (+1)|10 (0)|14 (+2)|
+>___
+> - **Skills** Perception +4.
+> - **Damage Resistances** Dragon's Power damage type.
+> - **Senses**  Blindsight 30 ft., darkvision 120 ft., passive Perception 14
+> - **Languages** Draconic, understands the languages your normal form can speak
+> - **Challenge** 9 (8,400 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +4       
+> ___
+>
+> Dragon's Power When you turn into transform into the this shape, choose one of the following damage types: acid, cold, fire, lightning, or poison. The damage type is used by your features.
+>
+> ### Actions
+>**Multiattack.** The dragon makes two attacks: one with its bite and one with its claws.
+>
+> **Bite.** Melee Weapon Attack: your spell attack modifier to hit., reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 14 (4d6) damage of your Dragon's Power damage type.
+>
+> **Claw.** Melee Weapon Attack: your spell attack modifier to hit., one target. Hit: 20 (4d6 + 6) slashing damage.
+>
+> Fire Breath (1/Day). The dragon exhales fire in a 40-foot cone. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 35 (10d6) Dragon's Power damage type on a failed save, or half as much damage on a successful one.
+
+
+
+
+___
+___
+> ## Ravenous Hydra
+>*Huge Monstrosity, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., swim 40 ft.,
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|8 (-1)|10 (+0)|12 (+1)|
+>___
+> - **Senses**  Darkvision 60 ft., passive Perception 20 (Multiple Heads)
+> - **Languages** Draconic, understands the languages your normal form can speak
+> - **Challenge** 9 (8,400 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +4       
+> ___
+>
+> ** Multiple Heads.** The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious, and gets a +2 to Wisdom (Perception) checks for each head.
+> 
+> Whenever the hydra takes 25 or more damage in a single turn while it has one or more of it's heads, a heads dies.
+>
+> **Reactive Heads.**  For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+>
+> **Wakeful.** While the hydra sleeps, at least one of its heads is awake.
+>
+> ### Actions
+>
+>**Multiattack.** The hydra makes as many bite attacks as it has heads.
+>
+> **Bite.** Melee Weapon Attack: your spell attack modifier to hit., reach 10 ft., one target. Hit: 11 (1d10 + 6) piercing damage.
+>
+> Regrow (1/Day). The Hydra gains 75 hit points grows back all of it's missing heads, for each head regrown this way, it may make a bite attack against a creature with in 10 feet of it.
+>
+
+\pagebreak
+
+___
+___
+> ## Feral Manticore
+>*Huge Monstrosity, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., climb 40 ft., fly 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
+>___
+> - **Skills** Perception +7, Stealth +7
+> - **Senses**  Darkvision 60 ft., passive Perception 17
+> - **Languages** Draconic, understands the languages your normal form can speak
+> - **Challenge** 9 (8,400 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +4       
+> ___
+>
+> **Tail Spikes.** The manticore has twelve tail spikes.
+>
+> **Pounce.** If the Manticore jumps at least 10 feet straight towards a creature and then hits it with a claw attack on the same turn, the target must succeed on a Strength saving throw against your spell save DC or be knocked prone. 
+> ### Actions
+>
+>**Multiattack.** The manticore makes two attacks: one with its bite,one with its claws, or two with it's tail spines. If both claw and bite attack hit the same target, the target is grappled (escape DC equal to your spell save. Until this grapple ends, the manticore bite or claw another another target.
+>
+> **Bite.** Melee Weapon Attack: your spell attack modifier to hit., reach 5 ft., one target. Hit: 19 (2d12 + 6) piercing damage. If the target is prone, it takes 32 (4d12 + 6) piercing damage instead.
+>
+> **Claw.** Melee Weapon Attack: spell attack modifier to hit., reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.
+>
+> **Tail Spike.** Ranged Weapon Attack: your spell attack modifier to hit., range 100/200 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 10 (3d6) poison damage.
+>
+> **Toxic Volly.** The manticore uses six of it's Tail Spikes and choose a point it can see and hurls cluster of spikes in a 15-foot-radius, 15-foot-high cylinder centered on that point. Each creature in the area must make a Dexterity saving throw against your spell save DC. A creature takes 15 (2d8 + 6) piercing damage plus 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+>
+> **Regrow Spikes (1/Day).** The manticore regrows all of it's spent spikes.
+>
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
