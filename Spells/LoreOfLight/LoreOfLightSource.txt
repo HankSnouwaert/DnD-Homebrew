@@ -8,15 +8,15 @@ This magic taps into the power of light and its <br> many aspects. Its users not
 *1st-level evocation*
 ___
 - **Casting Time:** 1 action
-- **Range:** 10 feet
+- **Range:** 20 feet
 - **Components:** V
 - **Duration:**  Instantaneous
 - **Classes:**  Cleric
 ___
 
-You fixate on two points within the spell's range, no more than 10 feet apart, that you can see. Beams of searing light erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. Creatures take 1d4 fire damage and 1d4 radiant damage on a failed save and half as much on a success. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
+You fixate on two points within the spell's range, no more than 20 feet apart, that you can see. Beams of searing light erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. Creatures take 1d6 fire damage and 1d6 radiant damage on a failed save. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases by 1d4, the radiant damage increases by 1d4, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 1st.
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases by 1d6, the radiant damage increases by 1d6, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 1st.
 
 #### Dazzling Light
 *3rd-level evocation*
@@ -138,3 +138,8 @@ style='position:absolute;right:100px;top:-95px;height:1400px;width:1416px;transf
 ### Change Log
 #### 1.0.0
 * Document release
+
+#### 1.1.0
+* Update Burning Gaze to deal no damage on a successful save
+* Increase Range of Burning Gaze
+* Increase the damage of Burning Gaze
