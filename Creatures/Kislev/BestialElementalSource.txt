@@ -1,0 +1,89 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after, .phb#p5:after, .phb#p6:after, .phb#p7:after, .phb#p13:after, .phb#p15:after, .phb#p17:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p22:after, .phb#p23:after, .phb#p25:after, .phb#p26:after  {
+        display          : none;
+    }
+    /* End Footers */
+    
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+
+</style>
+
+
+## Bestial Elemental
+
+\pagebreakNum
+
+___
+___
+> ## Bestial Elemental
+> *Huge elemental, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 276 (24d12 + 120)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|25 (+7)|18 (+4)|20 (+5)|7 (-2)|20 (+5)|16 (+3)|
+>___
+> - **Skills** Athletics +12, Perception +15, Intimidation +8, Stealth +9, Survival +10
+> - **Senses** blindsight 60 ft., darkvision 120 ft., passive Perception 25
+> - **Condition Immunities** charmed, frightened
+> - **Challenge** 15 (13,000 XP) &emsp;&emsp; **Proficiency Bonus** +5
+> ___
+>
+> ***Crashing Charge.*** If the elemental moves at least 20 ft. straight toward a creature and then hits it with a Gore attack on the same turn, the target takes an extra 11 (2d10) damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be knocked prone. The creature makes the saving throw with disadvantage if the attack was made using its Bestial Take Down bonus action.
+>
+> ***One with the Wild.*** The elemental has advantage on Dexterity (Stealth) checks made to hide in foliage, heavy rain, falling snow, mist, and other natural phenomena and can do so when only lightly obscured. Additionally, the elemental can move through plants without being slowed, taking damage, or being grappled or restrained by them, and can move through trees as if they were difficult terrain. It takes 10 force damage if it ends its turn inside a tree.
+>
+> ***Primal Senses.*** The elemental has advantage on Wisdom (Perception) checks and does not suffer disadvantage on the checks in areas that are lightly obscured.
+>
+> ***Talons of the Forest.*** When the elemental makes an attack, it ignores half and three-quarters cover provided by foliage.
+>
+> ### Actions
+>
+> ***Multiattack.*** The elemental makes two attacks.
+>
+> ***Gore.*** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 23 (3d10 + 7) piercing damage.
+>
+> ***Savage Talons.*** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 23 (3d10 + 7) slashing damage plus 11 (2d10) for each time this turn the target has already been hit with its Talon attack this turn.
+>
+> ***Pulverizing Stomp.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 23 (3d10 + 7) bludgeoning damage. If the target is a prone creature, it cannot stand up until the end of the elemental's next turn unless it uses its action to succeed on a DC 20 Constitution check.
+>
+> ***Amber Breath (1/day).*** The elemental exhales amber light in a 60-foot line that is 15 feet wide. Each creature in that area must make a DC 18 Dexterity saving throw, taking 27 (5d10) radiant damage on a failed save, or half as much damage on a successful one. The creatures gain no benefit from cover given by foliage for this saving throw.
+>
+> ***Flock of Doom.*** The elemental fills a 20-foot-radius sphere centered on a point within 100 feet of it with shadowy crows. The elemental can designate any number of creatures it is aware of to be unaffected by the crows. The sphere spreads around corners, and it lasts until the elemental uses the ability again, is more than 100 feet away from the area, or loses concentration (as if concentrating on a spell). The sphere's area is difficult terrain, and creatures in it have disadvantage on ranged attack rolls. At the end of each of the elemental's turns, each creature in the area must make a DC 18 Dexterity saving throw, taking 15 (6d4) piercing damage on a failed save, or half as much damage on a successful one. A creature has disadvantage on the saving throw if it is surprised. If it fails by 10 or more (DC 8), it is blinded until the end of the elemental's next turn. On each of the elemental's turns, the elemental may move the crows 50 feet in any direction (no action required). Using this ability does not reveal the elemental if it is hidden from a creature.
+> 
+> ### Bonus Actions
+>
+> ***Howl of the Great Beast (1/day).*** The elemental lets out a primeval howl. The elemental can designate any number of creatures it is aware of to be unaffected by it. Each affected creature within 120 feet of it that can hear it must make a DC 18 Wisdom saving throw. On a failed save, the creature drops whatever it is holding, loses concentration, and becomes frightened of the elemental. The creature can't take reactions and must take the Dash action to move away from the elemental by the safest available route on each of its turns, unless there is nowhere to move. It can then make a Wisdom saving throw, ending the effect on it on a success. (NOTE: When does it make the saving throws?)
+>
+> ***Bestial Take Down.*** The elemental makes one weapon attack. After the attack, the elemental falls prone. If it has 90 or fewer hit points, the attack is made with advantage.
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
