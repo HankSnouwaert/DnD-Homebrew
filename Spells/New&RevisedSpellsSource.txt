@@ -184,7 +184,7 @@ Choose a creature that you can see within range. The target must succeed on a Co
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
 
-#### Burning Gaze 1.0.0
+#### Burning Gaze 2.0.0
 *1st-level evocation*
 ___
 - **Casting Time:** 1 action
@@ -194,9 +194,9 @@ ___
 - **Classes:**  Cleric
 ___
 
-You choose two points within 10 feet of each other and within the spell's range. Searing beams of light shoot from your eyes, moving between the two points. Each creature caught in the path of the beams must make a Dexterity saving throw. A creature takes 1d6 fire damage and 1d4 radiant damage on a failed save, or half as much damage on a successful one. 
+You fixate on two points within the spell's range, no more than 20 feet apart, that you can see. Beams of searing light erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. Creatures take 1d6 fire damage and 1d6 radiant damage on a failed save. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
 
-***At Higher Levels.***  When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases 1d6, the radiant damage increases by 1d4, the range increases by 20 feet, and the maximum possible distance between the two points increases by 10 feet for each slot level above 1st.
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases by 1d6, the radiant damage increases by 1d6, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 1st.
 
 
 \pagebreakNum
@@ -325,6 +325,17 @@ You imbue a weapon within range with the essence of death. When this weapon hits
 
 \pagebreakNum
 
+#### Dazzling Light
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 fee
+- **Components:** V, S
+- **Duration:**   Instantaneous
+- **Classes:**  Cleric, Bard
+
+You unleash a burst of radiant light at a point you choose within range.  Each creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw. On a failed save, a creature becomes blinded until the end of your next turn.
+
 #### Death Frenzy 1.0.0
 *2nd-level transmutation*
 ___
@@ -352,6 +363,8 @@ ___
 You attempt to drain the vitality of a creature within range, leaving it feeble and vulnerable. The target must succeed on a Constitution saving throw or have its speed halved and its Strength and Dexterity scores reduced to 1. At the end of each of its turns, the affected creature can attempt another Constitution saving throw, ending the spell's effect on a success.
 
 ***At Higher Levels.*** If you cast this spell using a spell slot of 6th level or higher, the duration becomes 24 hours and the affected creature can only attempt a new saving throw after completing a short or long rest. If you use an 8th-level spell slot, the spell lasts until dispelled and no longer requires Concentration; the affected creature can only attempt a new saving throw after completing a long rest.
+
+\columnbreak
 
 #### Elemental Fist 0.0.0
 *2nd-level transmutation*
@@ -616,6 +629,21 @@ You summon a potent gust of wind, forming a 10-foot-radius sphere centered on a 
 
 \pagebreakNum
 
+#### Holy Nova 1.0.0
+*4th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (30-foot radius)
+- **Components:** V
+- **Duration:**   Instantaneous
+- **Classes:**  Cleric, Paladin
+
+A burst of divine light emanates from you, enveloping all creatures within 30 feet. Each creature in this area must make a Constitution saving throw. Creatures take 3d6 + your Wisdom modifier radiant damage on a failed save, and half as much on a success.
+
+You and up to four creatures of your choice within the area automatically succeed on this saving throw, taking no damage. Instead, you and the chosen creatures are bathed in the healing radiance, regaining hit points equal to the total radiant damage dealt.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.
+
 #### Horrifying Laughter 1.1.0
 *6th-level enchantment*
 ___
@@ -634,6 +662,8 @@ At the end of each of its turns, the laughing creature takes 3d10 force damage a
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d10 for each slot level above 6th.
 
+\columnbreak
+
 #### Impending Doom 1.0.0
 *4th-level enchantment*
 ___
@@ -650,7 +680,6 @@ The affected creature can make a Charisma saving throw at the end of each of its
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
 
-\columnbreak
 
 #### Incantation of Protection 1.0.0
 *2nd-level abjuration*
@@ -681,6 +710,8 @@ A brilliant light emanates from a point within range, forming a 10-foot-radius s
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
+\pagebreakNum
+
 #### Leap Slam 0.0.0
 *3rd-level transmutation*
 ___
@@ -696,8 +727,16 @@ You may leap up to 20 feet into the air and may then slam back down into an unoc
 If you slam into the ground, each other creature within 10 feet of you must make a Strength saving throw. On a failed save, it is knocked prone, and until the end of its next turn, it can take either an action or a bonus action on its turn, not both, and can't take reactions.
 
 
-\pagebreakNum
+#### Mass Haste 1.0.0
+*8th-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60
+- **Components:** V S M (a shaving of licorice root)
+- **Duration:**  Concentration, up to 1 minute.
+- **Classes:**  Sorcerer, Wizard
 
+Choose up to six willing creatures in a 30-foot-radius sphere centered on a point within range. Until the spell ends, each chosen creature has its speed doubled, gains a +2 bonus to AC, has advantage on Dexterity saving throws, and is quickened.
 
 
 
@@ -715,6 +754,7 @@ A cloud of putrescent vapor appears in a 10-foot-radius sphere centered on a poi
 
 Each creature completely within the cloud at the start of its turn must make a Constitution saving throw. On a failed save, the creature is poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions. Creatures that don't need to breathe automatically succeed on this saving throw.
 
+\columnbreak
 
 #### Molten Sphere 0.0.0
 *6th-level conjuration*
@@ -732,7 +772,7 @@ Any surface the sphere rolls across or in the range of its explosion is covered 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the bludgeoning damage and fire damage from the explosion both increase by 1d8 for each slot level above 6th.
 
-\columnbreak
+
 
 #### Mud Ball 0.0.0 
 *2nd-level conjuration*
@@ -747,6 +787,23 @@ ___
 You summon forth a 10-foot-diameter sphere of mud in an unoccupied space of your choice within range.  The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw.  On a failed save, the sphere strikes the target and explodes.  When the sphere explodes, each creature within a 10-foot radius must succeed on a Dexterity saving throw or be blinded until the end of its next turn.  A creature hit by the sphere fails the save automatically.   Any surface the sphere rolls across or in the range of its explosion is covered in 3-inch-thick mud.  The mud is difficult terrain until cleared.
 
 \pagebreakNum
+
+#### Net of Light 1.0.0
+*4th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60
+- **Components:** V S M (A white thread)
+- **Duration:**  Concentration, up to 1 minute.
+- **Classes:**  Cleric, Paladin
+
+You weave a radiant web of binding light at a location you can see within range. This web encompasses a 20-foot cube and lingers for the spell's duration, shedding bright light throughout the area and turning it into difficult terrain.
+
+When a creature starts its turn within the web or enters the web during its turn, it must make a Charisma saving throw. On a failed save, the creature becomes restrained and blinded for as long as it remains in the web or until it manages to break free.
+
+Should a creature inside the web attempt to use teleportation or interplanar travel to escape, it must first succeed on a Charisma saving throw. A successful save allows the creature to utilize its spell or ability to exit the web, while a failure causes the spell or ability to be expended without effect. Notably, this net of light also extends into the Ethereal Plane, preventing ethereal escape.
+
+A restrained creature can take an action on its turn to attempt another Charisma saving throw, ending its restrained condition on a success.
 
 #### Overdrive 1.0.0
 *5th-level transmutation*
@@ -763,6 +820,8 @@ You touch a creature, causing it to become electrically charged. Until the spell
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for every two levels above 5th.
 
 
+\pagebreakNum
+
 #### Phantasmagoria 1.0.0
 *6th-level illusion*
 ___
@@ -774,6 +833,7 @@ ___
 ___
 
 You summon illusory creatures who flit and broil within a 30-foot radius sphere centered on a point within range you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
+
 
 
 #### Puddle of Ooze 1.0.0
@@ -789,8 +849,6 @@ ___
 You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
-
-\columnbreak
 
 ####  Purple Sun 1.0.0
 *9th-level transmutation*
@@ -1245,6 +1303,20 @@ The dice rolled changes to a d8 when you reach 5th level, a d10 at 11th level, a
 
 \pagebreakNum
 
+#### Warding Light 1.0.0
+*1st level abjuration*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60
+- **Components:** V S M, (sliver coin)
+- **Duration:**  1 round.
+- **Classes:**  Cleric, Paladin
+___
+
+You envelop a creature of your choice within range in a protective radiant light. Until the start of your next turn, the creature illuminates bright light out to a 10-foot radius and dim light out an additional 10 feet. During this time, attack rolls made against the creature have disadvantage. This effect doesn't hinder attackers who don't depend on sight, such as those with blindsight or those who cannot be blinded.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. The chosen creatures must be within 30 feet of each other when you target them.
+
 #### Water Whip 0.1.0
 *1st-level conjuration*
 ___
@@ -1268,6 +1340,8 @@ ___
 - **Classes:** Warlock, Wizard
 ___
 You create a 30-foot-radius sphere of nightmares centered on a point of your choice within range.  When a creature enters the area for the first time on a turn or starts its turn there, it takes 4d10 psychic damage, and it must make a Wisdom saving throw.  On a failed save, the creature drops whatever it is holding, loses concentration on any spells or abilities it is concentrating on, and becomes frightened for the duration.  While frightened by this spell, the creature can't take reactions and must take the Dash action to move away from the sphere by the safest available route on each of its turns, unless there is nowhere to move.   A creature frightened this way dakes 4d10 psychic damage at the end of each of its turns.  It can then make a Wisdom saving throw, ending the spell's effect on it on a success.  The creature has disadvantage on the saving throw if it has line of sight of the sphere.
+
+\columnbreak
 
 Once a creature succeeds on its save against the spell, it can't be affected by it again for the remainder of the spell's duration.
 
@@ -1304,6 +1378,8 @@ ___
 You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 4d6 cold damage and 4d6 necrotic damage on a failed save, and half as much on a success.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, either the cold or the necrotic damage (your choice) increases by 1d6 for each slot level above 5th.
+
+\pagebreakNum
 
 #### World Sore 1.0.0
 *1st-level transmutation*
