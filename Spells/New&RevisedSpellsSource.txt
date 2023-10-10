@@ -309,6 +309,20 @@ On each of its turns, the charmed target must move up to its speed and use its a
 
 On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Additionally, the target can make a Wisdom saving throw at the end of each of its turns, ending the effects of the spell on a success.
 
+#### Cursed Blades 1.0.0
+*1st-level enchantment*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 feet
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Warlock
+___
+
+You imbue a weapon within range with the essence of death. When this weapon hits a creature, the target becomes cursed for the spell's duration. At the start of your turn, each creature cursed this way within 90 feet of you takes 1d6 necrotic damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target an additional weapon for each slot level above 1st. Using a 3rd-level spell slot or higher increases the damage by 1d6 for every two slot levels above 1st.
+
 \pagebreakNum
 
 #### Death Frenzy 1.0.0
@@ -324,6 +338,20 @@ ___
 You send a creature into a frenzy that pushes its body beyond its limits. Choose a willing creature you can see within range. Until the spell ends, it takes 1d10 necrotic damage at the start of each of its turns and has advantage on weapon and unarmed strike attack rolls until that turn ends. This damage can’t be reduced or prevented in any way.
 
 ***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. All the creatures must be within 30 feet of each other when you target them.
+
+#### Decrepify 1.0.0
+*4th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 150 feet
+- **Components:** V, S, M (A handful of shriveled weeds)
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Cleric, Sorcerer, Warlock, Wizard
+___
+
+You attempt to drain the vitality of a creature within range, leaving it feeble and vulnerable. The target must succeed on a Constitution saving throw or have its speed halved and its Strength and Dexterity scores reduced to 1. At the end of each of its turns, the affected creature can attempt another Constitution saving throw, ending the spell's effect on a success.
+
+***At Higher Levels.*** If you cast this spell using a spell slot of 6th level or higher, the duration becomes 24 hours and the affected creature can only attempt a new saving throw after completing a short or long rest. If you use an 8th-level spell slot, the spell lasts until dispelled and no longer requires Concentration; the affected creature can only attempt a new saving throw after completing a long rest.
 
 #### Elemental Fist 0.0.0
 *2nd-level transmutation*
@@ -572,6 +600,20 @@ The vine has AC 14, 80 hit points, and vulnerability to slashing damage.  When i
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the vine gains an additional 20 hit points for each slot level above 4th.
 
+#### Guiding Wind 1.0.0
+*1st-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (A legume seed)
+- **Duration:** Instantaneous
+- **Classes:**  Druid, Cleric
+___
+
+You summon a potent gust of wind, forming a 10-foot-radius sphere centered on a point within range. This wind then moves in a straight line up to 30 feet in a direction you choose. When the sphere initially forms, any Medium or smaller creature or unsecured object within its area is lifted and carried by the wind for the distance it travels. Creatures can choose to resist and remain stationary instead of being carried by the wind.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the sphere can travel an additional 10 feet for each slot level above 1st.
+
 \pagebreakNum
 
 #### Horrifying Laughter 1.1.0
@@ -609,6 +651,35 @@ The affected creature can make a Charisma saving throw at the end of each of its
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
 
 \columnbreak
+
+#### Incantation of Protection 1.0.0
+*2nd-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**  1 round
+- **Classes:**  Cleric, Bard, Paladin
+___
+
+A barrier of mystical glyphs forms a 10-foot-radius sphere centered on a point you choose within range. Up to three creatures of your choice within the sphere gain resistance to bludgeoning, piercing, and slashing damage and lose any vulnerability to these damage types until the start of your next turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot.
+
+#### Incantation of Zeal 1.0.0
+
+*2nd-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:**  1 round.
+- **Classes:**  Cleric, Bard, Paladin
+___
+
+A brilliant light emanates from a point within range, forming a 10-foot-radius sphere. Up to three creatures of your choice within the sphere are quickened until the start of your next turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
 #### Leap Slam 0.0.0
 *3rd-level transmutation*
@@ -796,6 +867,25 @@ ___
 ___
 You attempt to trigger a mad frenzy in a creature you can see within range. The creature must succeed on a Wisdom saving throw (the target can choose to fail), or become consumed with rage for the duration of the spell. While enraged this way, any charmed or frightened conditions on the creature are suppressed, its melee attacks deal an extra 1d4 damage on hit, and it can only take actions, bonus actions, and reactions that involve it moving or making an attack.
 
+#### Skull Storm 1.0.0
+*6th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (A tooth)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Cleric, Warlock
+___
+
+You summon a swirling tempest of skulls in a 15-foot-radius sphere centered on a point within range. This whirlwind lasts for the spell's duration, and its area is lightly obscured and considered difficult terrain. The tempest spreads around corners, seeping through openings large enough for a tiny creature.
+When you cast the spell, choose a direction. When the storm first appears, and at the start of each of your turns afterward, the swirling skulls move 30 feet in the chosen direction. Any creature the storm passes though when moving must make a Dexterity saving throw. A creature takes 8d6 piercing damage on a failed save, or half as much on a successful one.
+
+As a bonus action on your turn, you can direct a cluster of skulls from the storm to streak toward a point you can see within 30 feet of the sphere. Once the skulls reach their destination or hit a solid surface, they lash out, biting at everything nearby. Every creature within 5 feet of where they stopped must make a Dexterity saving throw, taking 4d6 piercing damage on a failed save, or half as much on a successful one. The skulls then return to the storm.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, damage dealt by the storm and the skull clusters increases by 1d6 for each slot level above 6th.
+
+\columnbreak
+
 #### Slicing Shards 1.0.0
 *4th-level  conjuration*
 ___
@@ -824,7 +914,7 @@ A 20-foot-radius sphere of smoke appears centered on yourself, and you may immed
 
 ***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can move an additional 15 feet for each slot level above 2nd.
 
-\columnbreak
+
 
 #### Snilloc's Snowball Swarm (Revised) 1.0.0
 *2nd-level evocation*
@@ -839,6 +929,8 @@ ___
 You summon a flurry of magic snowballs to bombard your enemies. When you cast the spell, you may make two ranged spell attacks with the snowballs against any targets within 90 feet of you. On a hit, a target takes cold damage equal to 1d4 + your spellcasting ability modifier. During the spell's duration, you can use an action to form two more snowballs and make the attacks again.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two slot levels above 2nd.
+
+\pagebreakNum
 
 #### Spirit Leech 1.0.0
 *1st-level necromancy*
@@ -855,6 +947,7 @@ You extend a hand towards a target creature within range and siphon away its ess
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
 
 
+
 #### Static Field 1.0.0
 *2nd-level evocation*
 ___
@@ -868,8 +961,6 @@ ___
 You cause yourself to become electrically charged for the duration of the spell and immediately deal 1d8 lighting damage to your attacker. Until the spell ends, whenever a creature hits you with a melee attack, you can use your reaction to discharge electricity from yourself and deal 1d8 lighting damage to the attacker.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
-
-\pagebreakNum
 
 #### Storm of Vengeance (Revised) 1.0.0
 *9th-level conjuration*
@@ -904,7 +995,6 @@ Additionally, you may choose an additional effect from the options listed below.
 
 ***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
 
-\columnbreak
 
 #### Stream of Corruption 1.0.0
 *2nd-level evocation*
@@ -922,6 +1012,7 @@ When you cast this spell, you may instead choose a creature within 100 feet of y
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and creatures in the area of the cone of bile by 1d8 for each slot level above 2nd.
 
+\pagebreakNum
 
 #### Stream of Flames 0.0.0
 *6th-level evocation*
@@ -939,7 +1030,7 @@ On your subsequent turns, you must use your action to spew forth a another cone 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
 
-\pagebreakNum
+
 
 #### Summon Swarm 1.0.0
 *3rd-level conjuration*
@@ -1093,6 +1184,20 @@ You begin to build up intense heat, debilitating those around you. Each creature
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.
 
+#### Tomb Strike 1.0.0
+*Necromancy cantrip*
+___
+- **Casting Time:** 1 action
+- **Range:** 60
+- **Components:** V, S
+- **Duration:**  Instantaneous.
+- **Classes:**  Cleric, Warlock, Wizard
+___
+
+You or one of your undead servants lash out with a surge of malignant power. Make a melee spell attack against one creature within 5 feet of you or a willing undead creature you can see within range. On a hit, the target takes 1d12 necrotic damage.
+
+***At Higher Levels.*** The spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).
+
 #### Toxic Coating 1.0.0
 *2nd-level transmutation*
 ___
@@ -1107,6 +1212,8 @@ You touch a weapon, piece of ammunition, or component of a mechanical trap, whic
 At the end of each of its turns, a creature poisoned this way can repeat the Constitution saving throw, ending the effect on a success.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3nd level or higher, the poison damage increases by 2d6 for each slot level above 2nd.
+
+\columnbreak
 
 #### Tranquility 0.0.0
 *5th-level conjuration*
