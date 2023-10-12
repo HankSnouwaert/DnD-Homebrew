@@ -251,7 +251,7 @@ The spell ends if you attack any other creature, if you cast a spell that target
 
 \pagebreakNum
 
-#### Creeping Strike 1.0.0
+#### Creeping Strike 
 *Evocation cantrip*
 ___
 - **Casting Time:** 1 action
@@ -260,7 +260,7 @@ ___
 - **Duration:** Sorcerer, Warlock, Wizard
 ___
 
-You lash out at an enemy with chilling shadows. Make a melee spell attack against the target. You have advantage on the attack roll if the target is in darkness. On a hit, the target takes 1d8 cold damage.
+You lash out at an enemy with chilling shadows. Make a melee spell attack against the target. You have  advantage on the attack roll if the target is in darkness. On a hit, the target takes 1d8 cold damage.
 
 ***At Higher Levels.*** This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
@@ -756,6 +756,36 @@ Each creature completely within the cloud at the start of its turn must make a C
 
 \columnbreak
 
+#### Mindrazors 1.0.0
+*5th-level illusion*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Warlock, Bard
+___
+
+You envelop up to three weapons you can see within range in phantasmal shadows, allowing them to slice through the minds of their targets. For the duration, when a creature is hit by an attack from one of these infused weapons, it takes an additional 1d12 psychic damage.
+
+If a creature takes an action to examine one of the weapons and succeeds on an Intelligence (Investigation) check against your spell save DC, they discern the illusion and will no longer take the additional psychic damage from any of the infused weapons.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, you can target one additional weapon for each slot level above 5th.
+
+#### Mirror Dance 1.0.0
+*2nd-level conjuration*
+
+- **Casting Time:** 1 bonus action
+- **Range:** Self 
+- **Components:** S
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+___
+You weave a shadowy link between yourself and a willing creature you can see within 30 feet, causing you and the creature to instantly swap places. 
+The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
+
+\pagebreakNum
+
 #### Molten Sphere 0.0.0
 *6th-level conjuration*
 ___
@@ -785,6 +815,24 @@ ___
 ___
 
 You summon forth a 10-foot-diameter sphere of mud in an unoccupied space of your choice within range.  The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw.  On a failed save, the sphere strikes the target and explodes.  When the sphere explodes, each creature within a 10-foot radius must succeed on a Dexterity saving throw or be blinded until the end of its next turn.  A creature hit by the sphere fails the save automatically.   Any surface the sphere rolls across or in the range of its explosion is covered in 3-inch-thick mud.  The mud is difficult terrain until cleared.
+
+\columnbreak
+
+#### Mystifying Miasma 1.0.0
+*2nd-level illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Ranger, Bard
+___
+
+You conjure a 20-foot-radius sphere of illusory fog at a point you choose within range. 
+
+This miasma fills the air, spreading around corners and making the area heavily obscured for all creatures lacking true sight.
+
+Any creature that starts its turn fully within the cloud must make a Wisdom saving throw. On a failed save, it uses its movement to travel in a random direction, determined by rolling a d8, until it exits the fog, after which it falls prone. The creature can then take the rest of its turn as normal.
 
 \pagebreakNum
 
@@ -822,6 +870,22 @@ You touch a creature, causing it to become electrically charged. Until the spell
 
 \pagebreakNum
 
+#### Penumbral Pendulum 2.0.0
+*4th-level illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** 1 minute
+- **Classes:**  Sorcerer, Wizard
+___
+
+You conjure a spectral pendulum that swings through a 60-foot-long, 5-foot-wide, and 5-foot-tall line of your choice within range. Each creature in this area can make a Dexterity or Intelligence saving throw (its choice). A creature takes 6d10 psychic damage on a failed save and no damage on a success.
+
+On each of your subsequent turns during the spell's duration, you can use your action to cause the pendulum to swing back from the opposite direction it swang last, repeating the effect across the same line each time. If your turn ends without you using this action, the spell ends.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot.
+
 #### Phantasmagoria 1.0.0
 *6th-level illusion*
 ___
@@ -834,7 +898,23 @@ ___
 
 You summon illusory creatures who flit and broil within a 30-foot radius sphere centered on a point within range you can see.  The creatures whisper dark promises of fulfillment, seducing and bewildering hapless foes.  You can designate any number of creatures you can see to be unaffected by the spell.  An affected creature in the area of the spell suffers disadvantage on Charisma, Intelligence, and Wisdom saving throws and checks to maintain concentration.  The spell ends if you move more than 60 feet away from the area under its effect.
 
+#### Pit of Shadows 1.0.0
+*6th-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V, S, M (A black cloth)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Cleric, Sorcerer, Warlock, Wizard
+___
 
+You conjure a portal to a shadowy plane, opening a 20-foot square pit on an area of the ground you can see within range. Creatures within this area must make a Dexterity saving  throw. On a failed save, a creature is banished to a realm of darkness for the spell's duration. While in this realm, the creature is incapacitated.
+
+\columnbreak
+
+At the end of each of its turns, the banished creature takes 3d8 psychic damage and must then make a Charisma saving throw. On a success, the spell ends for that creature. When the spell ends for a creature, it reappears in its original space or the nearest unoccupied space if its original space is occupied. If a creature dies while banished, its body remains in the shadow realm; however, any magical items it was wearing or carrying return to the original location.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the pit's dimensions by 10 feet for each slot level above 6th.
 
 #### Puddle of Ooze 1.0.0
 *3rd-level conjuration*
@@ -925,6 +1005,23 @@ ___
 ___
 You attempt to trigger a mad frenzy in a creature you can see within range. The creature must succeed on a Wisdom saving throw (the target can choose to fail), or become consumed with rage for the duration of the spell. While enraged this way, any charmed or frightened conditions on the creature are suppressed, its melee attacks deal an extra 1d4 damage on hit, and it can only take actions, bonus actions, and reactions that involve it moving or making an attack.
 
+#### Shroud of Dusk 1.1.0
+___
+*1st-level evocation*
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, M (A drop of pitch or piece of coal)
+- **Duration:**  1 round
+- **Classes:**   Sorcerer, Warlock, Wizard
+___
+
+You release a surge of chilling shadows in a 15-foot-long, 5-foot-wide line that extends from you in a direction you choose. Each creature within the line must make a Constitution saving throw. Creatures take 1d10 cold damage, and on a failed save, and half as much on a success.
+
+The line's area is then plunged into magical darkness until the end of your next turn. This darkness is impenetrable to darkvision and unaffected by nonmagical light sources.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 and the length of the line extends by an additional 5 feet for each slot level above 1st.
+
+
 #### Skull Storm 1.0.0
 *6th-level necromancy*
 ___
@@ -938,11 +1035,13 @@ ___
 You summon a swirling tempest of skulls in a 15-foot-radius sphere centered on a point within range. This whirlwind lasts for the spell's duration, and its area is lightly obscured and considered difficult terrain. The tempest spreads around corners, seeping through openings large enough for a tiny creature.
 When you cast the spell, choose a direction. When the storm first appears, and at the start of each of your turns afterward, the swirling skulls move 30 feet in the chosen direction. Any creature the storm passes though when moving must make a Dexterity saving throw. A creature takes 8d6 piercing damage on a failed save, or half as much on a successful one.
 
+\columnbreak
+
 As a bonus action on your turn, you can direct a cluster of skulls from the storm to streak toward a point you can see within 30 feet of the sphere. Once the skulls reach their destination or hit a solid surface, they lash out, biting at everything nearby. Every creature within 5 feet of where they stopped must make a Dexterity saving throw, taking 4d6 piercing damage on a failed save, or half as much on a successful one. The skulls then return to the storm.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, damage dealt by the storm and the skull clusters increases by 1d6 for each slot level above 6th.
 
-\columnbreak
+
 
 #### Slicing Shards 1.0.0
 *4th-level  conjuration*
@@ -972,9 +1071,9 @@ A 20-foot-radius sphere of smoke appears centered on yourself, and you may immed
 
 ***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can move an additional 15 feet for each slot level above 2nd.
 
+\pagebreakNum
 
-
-#### Snilloc's Snowball Swarm (Revised) 1.0.0
+#### Snowball Swarm (Revised) 1.0.0
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 action
@@ -988,7 +1087,7 @@ You summon a flurry of magic snowballs to bombard your enemies. When you cast th
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two slot levels above 2nd.
 
-\pagebreakNum
+
 
 #### Spirit Leech 1.0.0
 *1st-level necromancy*
@@ -1004,8 +1103,6 @@ You extend a hand towards a target creature within range and siphon away its ess
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
 
-
-
 #### Static Field 1.0.0
 *2nd-level evocation*
 ___
@@ -1019,6 +1116,8 @@ ___
 You cause yourself to become electrically charged for the duration of the spell and immediately deal 1d8 lighting damage to your attacker. Until the spell ends, whenever a creature hits you with a melee attack, you can use your reaction to discharge electricity from yourself and deal 1d8 lighting damage to the attacker.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
+
+\columnbreak
 
 #### Storm of Vengeance (Revised) 1.0.0
 *9th-level conjuration*
@@ -1053,6 +1152,7 @@ Additionally, you may choose an additional effect from the options listed below.
 
 ***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
 
+\pagebreakNum
 
 #### Stream of Corruption 1.0.0
 *2nd-level evocation*
@@ -1070,7 +1170,7 @@ When you cast this spell, you may instead choose a creature within 100 feet of y
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and creatures in the area of the cone of bile by 1d8 for each slot level above 2nd.
 
-\pagebreakNum
+
 
 #### Stream of Flames 0.0.0
 *6th-level evocation*
@@ -1088,7 +1188,7 @@ On your subsequent turns, you must use your action to spew forth a another cone 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
 
-
+\pagebreakNum
 
 #### Summon Swarm 1.0.0
 *3rd-level conjuration*
@@ -1100,9 +1200,9 @@ ___
 - **Classes:**  Bard, Druid, Ranger
 ___
 
-You call forth a swarm of tiny creatures that manifest in <br> an unoccupied space you can see within range.  This <br> swarm uses the Swarm Spirit stat block*.  When you cast <br> the spell, choose a type of creature: Bats, Insects, Rats, or Snakes.  The creatures of the swarm resemble the chosen creature, which determines some of its traits in its stat <br> block.  The swarm disappears when it drops to 0 hit points <br> or when the spell ends.
+You call forth a swarm of tiny creatures that manifest in an unoccupied space you can see within range.  This swarm uses the Swarm Spirit stat block*.  When you cast the spell, choose a type of creature: Bats, Insects, Rats, or Snakes.  The creatures of the swarm resemble the chosen creature, which determines some of its traits in its stat block.  The swarm disappears when it drops to 0 hit points or when the spell ends.
 
-The swarm is an ally to you and your companions.  In combat, the swarm shares your initiative count, but it <br> takes its turn immediately after yours.  It obeys your verbal commands (no action required by you).  If you don’t issue <br> any, it takes the Dodge action and uses its move to avoid danger.
+The swarm is an ally to you and your companions.  In combat, the swarm shares your initiative count, but it takes its turn immediately after yours.  It obeys your verbal commands (no action required by you).  If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.  Additionally, increase the swarm's size by one category for every two slot levels above 3rd level.
 
@@ -1301,6 +1401,20 @@ You extend your hand and point a finger at a target in range. Your magic grants 
 
 The dice rolled changes to a d8 when you reach 5th level, a d10 at 11th level, and a d12 at 17th level.
 
+#### Unseen Lurker 1.0.0
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60 ft
+- **Components:** V
+- **Duration:** 1 round
+- **Classes:**  Ranger
+___
+
+Choose a willing creature you can see within range. The chosen creature becomes enveloped in a shroud of mist, enabling it to move with unseen swiftness. Until the start of your next turn, the creature's movement speed is doubled, it's quickened, and it becomes invisible along with everything it's wearing or carrying.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for every two slot levels above 3rd.
+
 \pagebreakNum
 
 #### Warding Light 1.0.0
@@ -1347,7 +1461,19 @@ Once a creature succeeds on its save against the spell, it can't be affected by 
 
 As an action on your subsequent turns, you can move the sphere up to 60 feet to a point you can see.
 
+#### Wind of Death 1.0.0
+*5th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, S, M (A owl feather)
+- **Duration:**  Instantaneous
+- **Classes:**  Cleric
+___
 
+You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 4d6 cold damage and 4d6 necrotic damage on a failed save, and half as much on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, either the cold or the necrotic damage (your choice) increases by 1d6 for each slot level above 5th.
 
 #### Witch Bolt (Revised) 1.0.0
 *1st-level evocation*
@@ -1365,21 +1491,21 @@ On each of your turns for the duration, you can use an action to automatically d
 
 ***At Higher Levels.***  When you cast this spell using a spell slot of 3th level or higher, the initial damage and automatic damage increase by 1d12 for every two slot levels above 1st.
 
-#### Wind of Death 1.0.0
-*5th-level necromancy*
+\pagebreakNum
+
+#### Withering Resolve 1.0.0
+*3rd-level enchantment*
 ___
 - **Casting Time:** 1 action
-- **Range:** Self
-- **Components:** V, S, M (A owl feather)
-- **Duration:**  Instantaneous
-- **Classes:**  Cleric
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard
 ___
 
-You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 4d6 cold damage and 4d6 necrotic damage on a failed save, and half as much on a success.
+Choose a creature within range that can hear you. The target must succeed on a Wisdom saving throw, or its mind becomes filled with crippling doubt and inner turmoil. On a failed save, for the duration of the spell, the target has disadvantage on all checks and saving throws not triggered by this spell, and attack rolls against it have advantage. At the end of each of its turns, the target can make another Wisdom saving throw, ending the effects on a success.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, either the cold or the necrotic damage (your choice) increases by 1d6 for each slot level above 5th.
-
-\pagebreakNum
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
 
 #### World Sore 1.0.0
 *1st-level transmutation*
@@ -1410,9 +1536,18 @@ The boil immediately explodes when the spell ends.
 #### 1.1.0
 * Changed horrifying laughter so the frightened condition happens at the end of the caster's turn, and the condition ends at the end of the creature's turn.
 
+### Penumbral Pendulum
+#### 2.0.0
+* Reworked Penumbral Pendulum so it can be swung multiple times
+* Fixed typo with what classes gained access to Penumbral Pendulum
+
 ### Rancid Visitation
 #### 2.0.0
 * Replace inflict rot with Rancid Visitation
+
+### Shroud of Dusk
+#### 1.1.0
+* Change saving throw for Shroud of Dusk to Con save
 
 ### Smoke Shroud
 #### 1.1.0
