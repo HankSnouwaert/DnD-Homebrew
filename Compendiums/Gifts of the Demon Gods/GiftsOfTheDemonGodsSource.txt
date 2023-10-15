@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p2:after, .phb#p3:after, .phb#p8:after, .phb#p11:after, .phb#p15:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p23:after, .phb#p25:after, .phb#p26:after, .phb#p27:after, .phb#p28:after, .phb#p30:after, .phb#p31:after, .phb#p33:after, .phb#p35:after, .phb#p36:after, .phb#p37:after  {
+    .phb#p2:after, .phb#p3:after, .phb#p8:after, .phb#p11:after, .phb#p15:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p23:after, .phb#p25:after, .phb#p26:after, .phb#p27:after, .phb#p28:after, .phb#p30:after, .phb#p31:after, .phb#p33:after, .phb#p35:after, .phb#p36:after, .phb#p37:after, .phb#p39:after  {
         display          : none;
     }
     /* End Footers */
@@ -263,7 +263,7 @@ ___
 - **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
-You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d10 force damage and must make a Charisma saving throw.  On a failed save, the target suffers one of the random mutations described in the Mutation Table below.  The target repeats the saving throw at the end of each of its turns, ending all mutations affecting it on a success. 
+You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d10 force damage and must make a Charisma saving throw.  On a failed save, the target suffers a mutation.  The target repeats the saving throw at the end of each of its turns, ending all mutations caused by this spell it on a success. 
 
 A creature can't suffer from two instances of the same mutation at once.
 
@@ -618,7 +618,7 @@ When the gifted creature casts a spell that requires concentration, it can choos
 <img src='https://i.ibb.co/4Mmwp8W/conduit-of-emakrul.jpg' style='position:absolute; top:-1px; right:-260px; width:776px; transform:scaleX(-1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:45px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
 
 
 \pagebreakNum
@@ -646,8 +646,6 @@ The disease can be cured if the creature regains 10 or more hit points or if a c
 When the gifted creature drops to half its hit points or fewer, it gains a +3 bonus to its AC for the next hour.
 
 Once this ability triggers, it can’t do so again until the creature finishes a short or long rest.
-
-
 
 #### Grasping Filth
 *The creature oozes slime that sticks to anything it touches.*
@@ -685,7 +683,7 @@ Observers can tell what state the creature is in by looking at it. For example, 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:275px; right:0px; width:1000px; transform: rotate(0deg)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:45px;top:-70px;height:1400px;width:1416px;transform:rotate(270deg)' />
+  style='position:absolute;right:40px;top:-70px;height:1400px;width:1416px;transform:rotate(270deg)' />
 
 
 \pagebreakNum
@@ -1151,8 +1149,8 @@ While a daemon prince is a terrifying opponent, it is also a cautionary tale, a 
 |:---:|:-----------:|
 |  1  | **The Fallen Kingdom:** A once prosperous kingdom has fallen into chaos and ruin. Whispers say that its king has been replaced by a Demon Prince who now rules with an iron fist. The party is tasked with investigating the truth and, if necessary, dethroning the Demon Prince and restoring the rightful king.|
 |  2  |**The Lost Hero:** A celebrated hero of the realm, presumed dead, has resurfaced as a pawn of a powerful demon lord. The adventurers must follow the trail of chaos and destruction left in his wake, confront the fallen hero who has been warped into a demon prince.  |
-|  1  | **The Demonic Tome:** An ancient tome has surfaced in the black market, said to contain the true name of a demon orince. Possession of this name could grant significant power over the demon, and the adventurers must retrieve the tome before it falls into the wrong hands.|
-|  2  |**Path to Damnation:** A powerful, ambitious warlock in a city has made a pact with a powerful demon lord and has started the transformation process into a demon prince. As a part of this, the warlock is enacting a grand ritual that will cause widespread destruction. The adventurers must uncover the details of this ritual, stop the warlock (who is potentially now a demon prince), and deal with the wrathful demonic patron.  |  |
+|  3  | **The Demonic Tome:** An ancient tome has surfaced in the black market, said to contain the true name of a demon orince. Possession of this name could grant significant power over the demon, and the adventurers must retrieve the tome before it falls into the wrong hands.|
+|  4  |**Path to Damnation:** A powerful, ambitious warlock in a city has made a pact with a powerful demon lord and has started the transformation process into a demon prince. As a part of this, the warlock is enacting a grand ritual that will cause widespread destruction. The adventurers must uncover the details of this ritual, stop the warlock (who is potentially now a demon prince), and deal with the wrathful demonic patron.  |  |
 
 
  <img src='https://i.ibb.co/H7bSNTh/2245-rune-scarred-demon.jpg' style='position:absolute; top:-0px; right:-0px; width:820px; transform:scaleX(-1)' />
@@ -1250,8 +1248,8 @@ This fate is said to befall demons who were defeated and unable to fully reform 
 |:---:|:-----------:|
 |  1  | **The Artificer's Madness:** A renowned artificer, known for his creations of intricate mechanical devices, has fallen into madness and obsession. He has begun to create soul grinders, binding lesser daemons in his constructs. The adventurers must stop the artificer before he releases more of these horrors into the world.|
 |  2  |**The Iron Maiden:** The adventurers discover an ancient, rusted doul grinder known as the Iron Maiden. A group of cultists seeks to restore and activate this monstrosity, believing it will grant them immense power. The party must prevent the Iron Maiden from being unleashed.  |
-|  1  | **The Infernal Factory:** A mysterious factory has appeared overnight on the outskirts of a town. It churns day and night, releasing foul smoke and strange, tortured noises. The townsfolk live in fear as the factory seems to be manufacturing soul grinders. The adventurers are hired to investigate and shut down this infernal factory.|
-|  2  |**Grinding Vendetta:** A cadre of demons slain by the party has made a pact with a mechanized entity to have their shattered forms twisted into soul grinders. They now seek vengeance on the party who slew them with relentless determination.  |
+|  3  | **The Infernal Factory:** A mysterious factory has appeared overnight on the outskirts of a town. It churns day and night, releasing foul smoke and strange, tortured noises. The townsfolk live in fear as the factory seems to be manufacturing soul grinders. The adventurers are hired to investigate and shut down this infernal factory.|
+|  4  |**Grinding Vendetta:** A cadre of demons slain by the party has made a pact with a mechanized entity to have their shattered forms twisted into soul grinders. They now seek vengeance on the party who slew them with relentless determination.  |
 
 <img src='https://i.ibb.co/LdCK7Vr/Scrapwork-Rager-The-Brothers-War-Mt-G-Art-1024x752.jpg' style='position:absolute; bottom:-140px; right:0px; width:820px;' />
 
@@ -2168,8 +2166,8 @@ ___
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
 
 \columnbreak
 
@@ -2210,3 +2208,87 @@ ___
 * Xenagos, the Reveler - Jason Chan, Wizards of the Coast
 * Daybreak Charger - Forrest Imel, Wizards of the Coast
 * Vivid Grove - Howard Lyon, Wizards of the Coast
+
+
+\pagebreakNum
+
+# See Full Document for Soul Grinders & Examples of Modified Creatures From The Monster Manual!
+
+
+
+### Art Credit
+* Archfiend of Despair - Josh Hass, Wizards of the Coast
+* Lose Calm - Jason A. Engle, Wizards of the Coast
+* Geistflame - Scott Chou, Wizards of the Coast
+* Windcaller Aven - Uriah Voth, Wizards of the Coast
+* Festergloom - Mathias Kollros, Wizards of the Coast 
+* Flood of Recollection - Magali Villeneuve, Wizards of the Coast
+* In Thrall to the Pit - Andrey Kuzinskiy, Wizards of the Coast
+* Conduit of Emrakul - Raymond Swanland, Wizards of the Coast
+* Festering Goblin - Thomas M. Baxa, Wizards of the Coast
+* Hypnotic Siren - James Ryman, Wizards of the Coast
+
+\columnbreak
+
+<br><br>
+
+* Lightning Axe - Jason A. Engle, Wizards of the Coast
+* Flameskull - Xavier Ribeiro, Wizards of the Coast
+* Illusory Demon - Nils Hamm, Wizards of the Coast
+* Deathcap Glade - Sam Burley, Wizards of the Coast
+* Heirloom Mirror - Josh Hass, Wizards of the Coast
+* Daggerdrome Imp - Jack Wang, Wizards of the Coast
+* Rune-Scarred Demon - Michael Komarck, Wizards of the Coast
+* Ob Nixilis, Unshackled - Karl Kopinski, Wizards of the Coast
+* Scrapwork Rager - Michal Ivan, Wizards of the Coast
+
+
+<img src='https://i.ibb.co/LdCK7Vr/Scrapwork-Rager-The-Brothers-War-Mt-G-Art-1024x752.jpg' style='position:absolute; bottom:-0px; right:0px; width:820px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-555px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+# Revision Numbers
+## Local Content
+### Demonic Abilities
+* Gifts of Rage 1.0.0
+* Gifts of Change 1.0.0
+* Gifts of Decay 1.0.0
+* Gifts of Excess 1.0.0
+
+### Lair Actions of Chaos
+* Lair Actions of Rage 1.0.0
+* Lair Actions of Change 1.0.0
+* Lair Actions of Decay 1.0.0
+* Lair Actions of Excess 1.0.0
+
+### Demons of Chaos
+* Chaos Fury 1.0.0
+* Daemon Prince 1.0.0
+* Soul Grinder 1.0.0
+
+## Referenced Content
+
+### Conditions
+* Berserk 1.0.0
+* Mutated 1.0.0
+* Obsessed 1.0.0
+* Quickened 1.0.0
+
+### Spells
+#### Spells of Change
+* Bolt of Change 1.0.0
+* Chaos Storm 1.0.0
+* Glean Magic 1.0.0
+
+#### Spells of Decay
+* Miasma of Pestilence 1.0.0
+* Puddle of Ooze 1.0.0
+* Rancid Visitation 2.0.0
+
+#### Spells of Excess
+* Cacophonic Caress 1.0.0
+* Phantasmagoria 1.0.0
+* Slicing Shards 1.0.0
