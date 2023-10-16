@@ -1,4 +1,42 @@
-# Items and Equipment
+
+<br><br>
+
+# Items & Equipment
+
+## Chaos Dwarf Weaponry
+Chaos dwarves are known for their wicked ingenuity and have invented destructive firearms beyond the capabilities of most other races. The following firearm weapons are used by some of the chaos dwarf infantry described later and can be made available to players at the DM’s discretion. 
+
+***Blunderbuss.*** Crafted in the dark forges of the chaos dwarves, blunderbusses are marvels of dark engineering, combining the dwarven knack for craftsmanship with cruel, destructive intent. Larger and more potent than the firearms wielded by their kin, these weapons are loaded with a lethal mix of shot, black powder, and arcane substances. When fired, they unleash devastating projectiles capable of decimating enemy ranks and piercing the strongest armor.
+
+***Fire Glaive.*** These infernal weapons combine the melee capabilities of a traditional glaive with a rifle capable of shooting flaming projectiles. Fire glaives are rare and expensive to produce and, as such, are only used by the most elite chaos dwarf soldiers. Soldiers utilizing these weapons are able to act as hybrid warriors, alternating between melee and ranged combat depending on the needs of the battle.
+
+#### Blunderbuss 1.0.0
+*ranged weapon (martial)*
+___
+- **Damage:** 3d10
+- **Damage Type:** Piercing
+- **Properties:** Ammunition (range 80/320), reload (1), heavy, two-handed
+- **Cost:** 75 gp
+- **Weight:** 18 lb.
+
+#### Fire Glaive 1.0.0
+*melee weapon (martial)*
+___
+- **Damage:** 1d10
+- **Damage Type:** Piercing
+- **Properties:** ammunition (range 100/400), heavy, reach, reload (1), two-handed, special
+- **Cost:** 125 gp
+- **Weight:** 18 lb
+___
+
+### New Weapon Properties 
+&emsp;**Fire Glaive.** This weapon can be used to make ranged attacks that use its ammunition property. Attacks made this way deal an additional 1d10 fire damage on hit.
+
+**Reload (X).**  This weapon can be fired X times before it must be reloaded using an action or in place of an attack that's part of an attack action or in place of an off-hand attack while duel wielding. The weapon can be reloaded early without losing any ammunition.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:10px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
 
 ## Harpoons 
 
@@ -109,29 +147,61 @@ You've learned how to develop a supernatural bond with a plague censor, drawing 
 
 ## Poisoned Wind Globes
 
-#### Poisoned Wind Globes 1.0.0
+### Poisoned Wind Globe Items 2.0.0
+
+#### Poisoned Wind Globes
 ___
 - **Cost:** 50 gp
 - **Weight:** 1 lb
  
 Poisoned wind globes are orbs made of glass or crystal and filled with deadly gas. When shattered, the spheres release billowing toxic clouds so lethal that mere skin contact can cause severe pain or even death.
 
-You can use an action to throw the globe up to 20 feet where it shatters on impact. Once shattered, it releases a cloud of poison gas in a 5-foot radius sphere, heavily obscuring the area. The cloud lasts for one round or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+You can use an action to throw the globe up to 30 feet where it shatters on impact. Once shattered, it releases a cloud of poison gas in a 5-foot radius sphere, heavily obscuring the area. The cloud lasts for one round or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
 
 When a creature enters an area covered by one or more of these gas clouds for the first time on a turn or starts its turn in one or more gas clouds, that creature must make a DC 13 Constitution saving throw. On a failed save, the creature takes 2d8 poison damage and is poisoned until the end of its next turn. On a successful save, the creature takes half as much damage and isn’t poisoned.
+
+When you use your action to attempt to throw the globe, creatures can use their reaction to make attacks of opportunity against you as though you moved out of their reach. If a creature hits you this way, you drop the globe, and it detonates at your location.
+
+
+
+#### Death Globes
+___
+- **Cost:** 100 gp
+- **Weight:** 1 lb
+ 
+Death globes are built with the same function as poisoned wind globes, but the gasses they carry are far more potent and capable of enveloping a much larger area.
+
+You can use an action to throw the globe up to 30 feet where it shatters on impact. Once shattered, it releases a cloud of poison gas in a 10-foot radius sphere, heavily obscuring the area. The cloud lasts for one round or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+
+When a creature enters an area covered by one or more of these gas clouds for the first time on a turn or starts its turn in one or more gas clouds, that creature must make a DC 15 Constitution saving throw. On a failed save, the creature takes 3d8 poison damage and is poisoned until the end of its next turn. On a successful save, the creature takes half as much damage and isn’t poisoned.
+
+When you use your action to attempt to throw the globe, creatures can use their reaction to make attacks of opportunity against you as though you moved out of their reach. If a creature hits you this way, you drop the globe, and it detonates at your location.
+
+\pagebreakNum
+
+#### Poisoned Wind Globe & Death Globe Upgrades
+
+These effects can be added to poisoned wind globes or death globes to enhance their lethality. The cost of the globe is increased by 100 gold per upgrade added. If they're added to the globes used ratfolk poisoned wind globadiers or ratfolk death globe bombardiers, their CR goes up by 1 per upgrade applied to their globes.
+
+* **Acid Blast.** When the orb shatters at a point, each creature within 15 feet of the point must make the Dexterity saving throw against the orb's save DC. A creature takes 7 (3d4) acid damage on a failed save and half as much damage on a successful one. (This orb still releases its gas cloud as usual.)
+
+* **Rot-Spice.** The clouds created by the orb deal necrotic damage when shattered instead of poison damage, and creatures poisoned by the gases gain a level of exhaustion.
+
+* **Warp Razors.** When a creature moves into or within the cloud created by the orb, it takes 5 (2d4) slashing damage for every 5 feet it travels.
 
 ### Feat: Poisoned Wind Fumigator 1.0.0
 You've become a master of crafting and utilizing poisoned wind globes to maximum effect, and you can even implement globes with gases specialized in poisoning creatures normally resistant or immune to such effects. You gain the following benefits:
 
 * Increase your Intelligence score by 1, to a maximum of 20, or gain proficiency with alchemist's supplies, poisoner's kit, or glassblower's tools
 
-* You may have the saving throw for a poisoned wind globe you throw become 8 + your proficiency bonus + your Intelligence modifier, and you may add your Intelligence modifier to the poison damage its gas cloud deals.
+* You may have the saving throw for a poisoned wind globe or death globe you throw become 8 + your proficiency bonus + your Intelligence modifier, and you may add your Intelligence modifier to the poison damage its gas cloud deals.
 
-* At the end of each long rest, choose a creature type other than construct. Creatures of the chosen creature type don't benefit from resistance or immunity to poison damage from poisoned wind globes you throw unless they are under the effect of the *protection from poison* spell.
+* At the end of each long rest, choose a creature type other than construct. Creatures of the chosen creature type don't benefit from resistance or immunity to poison damage from poisoned wind globes and death globes you throw unless they are under the effect of the *protection from poison* spell.
 
-* If you are proficient with glassblowers tools and either alchemist's supplies or poisoner's kits, and you have them in hand, you can create a new poisoned wind globe from the remains of one that has shattered within the last hour. To do so, you must expend 25 gp worth of alchemist's supplies or poisons over the course of 1 minute to turn the shattered globe into a new poisoned wind globe.
+* If you are proficient with glassblowers tools and either alchemist's supplies or poisoner's kits, and you have them in hand, you can create a new poisoned wind globe from the remains of one that has shattered within the last hour. To do so, you must expend 25 gp worth of alchemist's supplies or poisons over the course of 1 minute to turn the shattered globe into a new poisoned wind globe. 
 
-\pagebreak
+
+\columnbreak
 
 ## Scythes
 
@@ -144,6 +214,8 @@ ___
 - **Cost:** 1 gp
 - **Weight:** 4 lb
 ___
+
+\pagebreakNum
 
 
 ## Spike Fists
@@ -226,8 +298,48 @@ You mastered the art of using the normally unassuming throwing star to disrupt y
 
 * Once per turn, when you hit a creature with an attack using a throwing star that did not suffer from disadvantage, you can gain advantage on the next melee weapon attack or unarmed strike you make against that creature this turn.
 
+\columnbreak
+
+## Warpstone Firearms 1.0.0
+### New Weapons
+
+#### Warpmusket
+*ranged weapon (martial)*
+___
+- **Damage:** 2d8
+- **Damage Type:** Piercing
+- **Properties:** Ammunition (range 150/450), reload (1), heavy, two-handed, warpbullets 
+- **Cost:** 150 gp
+- **Weight:** 18 lb
+___
+
+
+#### Warplock Pistol
+*melee weapon (martial)*
+___
+- **Damage:** 1d12
+- **Damage Type:** Piercing
+- **Properties:** Ammunition (range 60/120), Reload (1), light, warpbullets
+- **Cost:** 250 gp
+- **Weight:** 18 lb
+___
+
+### New Weapon Properties 
+&emsp;**Reload (X).** This weapon can be fired X times before it must be reloaded using an action or in place of an attack that's part of an attack action or in place of an off-hand attack while duel wielding. The weapon can be reloaded early without losing any ammunition.
+
+**Warpbullets.** This weapon requires special ammunition known as warpbullets which weapons cannot use unless they have this property. Attacks using this ammunition count as magical, and on hit, their target takes additional 2d6 radiant damage. When you make an attack using warpbullets, if the result of your attack roll is 3 or less, the attack automatically misses as the weapon misfires, and you take damage as though the weapon attack has hit you.
+
+
 \pagebreak
+
+## Change Log
+
+### Document
 
 #### 1.0.0
 * Give everything its own revision number
 
+### Poisoned Wind Globe Items 2.0.0
+* Revise Poisoned Wind Globes
+* Create Death Globes
+* Create Upgrades for Poisoned Wind Globes and Death Globes
