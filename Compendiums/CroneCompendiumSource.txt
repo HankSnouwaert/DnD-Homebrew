@@ -1,0 +1,2537 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after, .phb#p4:after, .phb#p5:after, .phb#p6:after, .phb#p7:after, .phb#p11:after, .phb#p12:after, .phb#p13:after, .phb#p14:after, .phb#p17:after, .phb#p19:after, .phb#p27:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Woodland Crone Compendium
+
+The ancient and inscrutable lizardmen dwell within their jungle cities, constructed in ages past and dedicated to a now crumbling world order. What remains of this civilization serves as a reminder of the primordial powers that once shaped the land, and the lizardmen make full use of the ancient power they still have at their disposal. This power ranges from ancient relics left over from their golden age to mighty dinosaurs used as beasts of burden and living weapons.
+
+The lizardmen themselves come in several subspecies, each with a dedicated role to serve within the larger empire. All of these lizardmen regard outsiders with suspicion, if not outright hostility, and some lizardmen will even form conquering armies determined to restore the old order.
+
+The players are most likely to encounter the lizardmen when exploring in or near their jungle homes. The players may be attempting to traverse jungles, explore ruins, or acquire relics within the realm of the lizardmen, which will naturally lead to confrontations. Alternatively, the lizardmen may be marching from their realm to impose their unfathomable will upon the world, which could lead to the players having to fend off their reptilian invasion.
+
+### Art Credit
+* Yurlok of Scorch Thrash - 
+Jesper Ejsing, Wizards of the Coast
+
+\columnbreak
+
+## Running Lizardmen Encounters
+The setting you're running your adventures in will help determine the background of these lizardmen and their lore. They may be the primordial cousins of the lizardfolk in other settings, or they may be the stewards of an ancient empire. They may be noble protectors against ancient, long-forgotten evils or heartless conquers that eliminate other species without remorse.
+
+Regardless of the specifics, there are some commonalities that tie lizardmen together, each of which could lead to conflict with the players:
+* **Ancient:** Lizardmen are a primordial race, and their civilization is older than that of most mortals. This leads to them living in ancient cities and possessing powerful and valuable relics, which could put them at odds with treasure-hunting players.
+* **Instructable:** Lizardmen possess a cold-blooded psychology that seems alien to most other races. They rarely display recognizable emotions and carry out their actions in a way that often seems callous to others. This behavior can often lead to conflicts with other races that the players could be pulled into.
+
+
+<img src='https://i.ibb.co/7RTSWkz/6005-yurlok-of-scorch-thrash.jpg' style='position:absolute; top:-50px; right:0px; width:850px;' />
+  
+<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:-50px; right:-100px; width:820px; transform:rotate(-20deg);filter:opacity(100%);'/>  
+  
+<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:-90px; right:-100px; width:920px; transform:rotate(-10deg);filter:opacity(20%);'/>
+
+<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:-10px; right:-00px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:-120px; right:-100px; width:920px; transform:rotate(-20deg);filter:opacity(20%);'/>
+
+
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:455px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+* **Primal:** Despite lacking humanoid emotions, lizardmen are closely tied to their bestial natures and prone to bouts of primal aggression. This primal nature allows them to easily bond with other reptilian creatures, such as dinosaurs, which they often use in battle. Should the players wander into their territory, they may quickly find themselves on the receiving end of lizardmen’s primal aggression. 
+* **Devoted:** Despite their primal natures, lizardmen are prone to following orders from more powerful beings. They make for loyal and surprisingly orderly soldiers and will fight to the death for their cause. Should the players interfere with the plans of their masters, the lizardmen will show them no mercy.
+
+### Lizardmen Motivations
+The long-term motivations of the lizardmen almost always involve executing the great plan they believe their gods left for them to safeguard. This plan is meant to keep the world in order and guard against chaos. All other short-term goals are meant only to serve this greater plan. The only exceptions to this are when some of the lizardmen succumb to their more primeval natures and begin operating on base instinct. 
+
+When role-playing lizardmen it’s usually best to keep their motivations both simple and difficult to read. When defending their territory or attacking those in possession of their relics, their motivations are as straightforward as a territorial animal’s. But when executing grand campaigns, they believe with further the great plan of their gods, their motivations may be indecipherable to outsiders. 
+
+#### Common Lizardmen Motivations
+* Destroy Intruders
+* Protect or Reclaim Sacred Sites Artifacts
+* Exterminate Members of Other Races Working Against the Great Plan (Whether They Know They Are Or Not)
+* Collect Sacrifices for Their Ancient Gods
+* Eliminate Otherworldly Forces of Chaos Entering the World
+* Acquire Jungle Beasts for Labor and Wartime Use
+
+<br>
+
+> ##### The Rampaging Condition
+> Many creatures in this document have abilities that cause them to enter a rampage. Rampages last for one minute and have the following effect on a creature unless an ability states otherwise: <br>
+> &#8226;  Any charmed or frightened effects on the creature are suspended.<br>
+> &#8226; The creature must take the Attack action on each of its turns, targeting the nearest hostile creature it can see unless there are no creatures it can reach with an attack. <br>
+> &#8226;  If no hostile creatures are within range of any of the creature’s attacks, it must use a Dash action to move toward the closest hostile creature it is aware of. <br>
+> &#8226;  The creature can’t maintain concentration on spells or other effects.
+
+\columnbreak
+
+### Lizardmen Tactics
+Lizardmen are highly resilient and resourceful combatants who combine primal aggression with instinctive tactical acumen. While each subspecies and the various dinosaurs they make use of all fight differently, there are some general commonalities:
+
+***Melee Oriented.*** Lizardmen usually have better melee options than ranged options. Skinks are exceptions to this, but for most other lizardmen and their dinosaurs, it’s usually best to close into melee range with the players as quickly as possible.
+
+***Mixed Forces.*** Lizardmen forces generally benefit from mixing nimble skinks in with mightier saurus and dinosaurs. The skinks can debilitate foes while their kin move in for the kill.
+
+***Rampaging.*** Most lizardmen, other than skinks, will begin rampaging when they drop to a third of their HP or less and other some other special circumstances. This condition forces them to engage their closest enemies in melee combat and can be used against them by cunning players. However, some lizardmen abilities boost their combat potential while they’re rampaging, so some lizardmen may intentionally drive themselves into a rampage.
+
+#### Engagement
+How the lizardmen engage in combat will largely depend on whether they have skinks among their forces. Skinks are master ambushers and will usually try to catch players by surprise and put them on the back foot before directing their harder-hitting allies to close in. Lizardmen operating without skinks tend to be less stealthy and forgo the element of surprise to try to close in on the players as quickly as possible. That’s not to say they lack tactical nuance. Saurus warriors will still try to attack from optimal angles, surround foes, and pick off prime targets whenever possible.
+
+#### Combat
+In combat, lizardmen combine cold-blooded, brutal efficiency with primal ferocity. They execute orders they are given to a tee and are hyperfocused on their mission to the exclusion of almost all else. However, the targets of their wrath are subjected to animalistic brutality. When playing them, keep them focused on their objective and allow them to execute complex plans and make intelligent tactical decisions, but make sure any players they’re attacking feel like they’re being brutalized by an unrelenting beast.
+
+#### Retreat
+Lizardmen are utterly devoted to their cause, and most will fight to the death if it is in service to the great plan of their gods. This is not to say they are utterly unflappable. Skinks are skittish and may give in to their fear if the odds seem stacked heavily against them, causing them to scamper away from threats. Most other lizardmen struggle with the opposite instinct. When things start looking dire, they will enter a bloody rampage that leads to them fighting to the death, regardless of whether it's in the best interest of the lizardman force as a whole. 
+Should the players retreat, most lizardmen will give chase if they have the strength to do so. They are remorseless and unforgiving by nature, and once they’ve marked prey for death, they rarely abandon their mission.
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# New Spells
+
+## Lore of Beasts
+This brand of magic draws on the power of the wilds and the animals that inhabit them. Those who practice it avoid civilization and live hermitic lives in the savage and untamed wilderness. Their magic harnesses the power of the beasts they dwell alongside, often by summoning wild spirits or unleashing the inner savagery of themselves and others to transform them into primeval creatures. The following spells are examples of the types of magic users of the Lore of Beasts often wield.
+
+#### Amber Spear
+
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:**  V S M (A Piece of Amber)
+- **Duration:**  Instantaneous
+- **Classes:**   Druid, Ranger
+___
+
+You conjure a large amber hunting spear and launch it in a straight line at a point you can see within range. Upon reaching its destination or striking a solid surface, the spear shatters, producing an explosion within a 10-foot-radius sphere centered on that point. The spear can pass through spaces occupied by creatures and objects of large size or smaller. Each creature the spear moves through, as well as those within the explosion's radius, must make a Dexterity saving throw. On a failed save, a creature takes 6d6 piercing damage; on a successful one, the damage is halved.
+
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
+
+\columnbreak
+
+<br><br>
+
+
+#### Aspect of the Beast
+
+*4th-level  transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:**  V, S
+- **Duration:**  Concentration, Up to 1 hour.
+- **Classes:**   Druid, Ranger
+___
+
+Upon touching a willing creature, you imbue it with bestial might. For the duration, the creature manifests a bestial weapon of your choice from the list below. When it takes the Attack action on its turn, it can make an additional attack with the bestial weapon as part of that action. The weapon is treated as a simple weapon with which the creature is proficient. Unless otherwise stated, it uses its Strength modifier for attack and damage rolls made with the weapon.
+
+**Ripping Jaws.** The creature's mouth becomes filled with dagger-like teeth. Its jaws deal 2d8 piercing damage on a hit. If the bite damages a creature, the user gains temporary hit points equal to half the piercing damage dealt, which last until the spell ends.
+
+**Tearing Claws.** The creature's hands transform into blade-like claws. These claws deal 2d6 slashing damage on a hit and count as finesse weapons. The creature can choose to replace any of its melee attacks made with the Attack action with its claws, including any off-hand attacks.
+
+**Ramming Horns.** Gnarled horns grow from the creature's head. The horns deal 2d8 bludgeoning damage on a hit. If the creature moves at least 15 feet straight toward a target and then hits it with a horn attack, the attack deals an extra 2d8 bludgeoning damage, and if the target is Large or smaller, the creature can choose to push it up to 15 feet away.
+
+ <img src='https://i.ibb.co/LN1X4rk/Shaman-of-Forgotten-Ways-Mt-G-Art-1024x750.png' style='position:absolute;right:-0px;top:-20px;width:820px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:88px;height:1400px;width:1416px;transform:rotate(191deg)' />
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Bestial Spirit
+
+*4th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 40 feet
+- **Components:**  V
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**   Druid, Ranger
+___
+
+A Large spectral beast appears at a location you choose within range. Though it appears substantial, it is intangible and can be passed through and occupied by other creatures.
+
+Any hostile creature within 5 feet of the beast is so distracted by its presence that it has disadvantage on attack rolls. At the end of each of your turns, each hostile creature within 5 feet of the beast must make a Dexterity saving throw as the beast assaults it. The creature takes 4d8 force damage on a failed save, or half as much on a successful save. 
+
+If a hostile creature moves more than 5 feet away from the beast, that creature must make the same saving throw against the beast's damage effect unless it took the Disengage action.
+
+At the start of each of your turns, if no hostile creatures are within 5 feet of the beast, it moves up to 40 feet toward the closest hostile creature it can see. The beast has blindsight out to 120 feet and is blind beyond this range.
+
+
+***At Higher Levels.***  When casting this spell using a 5th-level spell slot or higher, the beast's damage increases by 1d4 for each slot level above 4th.
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Call of the Pack
+
+*5th-level enchantment*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:** 60 feet
+- **Components:**  V
+- **Duration:**  1 round
+- **Classes:**   Ranger
+___
+
+Unleashing a primal howl, you stir the wild fervor within your allies. You and up to three other creatures you are aware of within range that can hear you are quickened until the start of your next turn. While quickened this way, these creatures gain advantage on attack rolls against any enemy if at least one of their allies is within 5 feet of that enemy and the ally isn't incapacitated.
+
+#### Impenetrable Pelt
+
+*5th-level  transmutation*
+___
+- **Casting Time:** 1  action
+- **Range:** 60 feet
+- **Components:**  V, S, M (a tuft of fur)
+- **Duration:**  Concentration, Up to 1 hour
+- **Classes:**   Druid, Ranger
+___
+
+You weave magic to sheathe a willing creature you can see within range in a layer of tough fur and hide. For the spell's duration, any bludgeoning, piercing, or slashing damage the target takes is reduced by 5. This reduction applies before any resistances.
+
+***At Higher Levels.***  When you cast this spell using a spell slot of 6th level or higher, the damage reduction increases by 1 for each slot level above 5th.
+
+ <img src='https://i.ibb.co/2cTRzC2/Spirit-of-the-Aldergard-Kaldheim-Mt-G-Art.jpg' style='position:absolute;right:-50px;top:-90px;width:1100px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:105px;height:1400px;width:1416px;transform:rotate(170deg)' />
+
+\pagebreakNum
+
+
+
+#### Monstrous Transformation
+
+*6th-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:**  V
+- **Duration:**  Until dispelled
+- **Classes:**   Druid, Sorcerer, Warlock
+___
+
+Drawing from wild energies, you transform into a mighty primal form of your choice: a **Feral Manticore**, a **Ravenous Hydra**, or a **Savage Dragon**. While transformed, you adopt the stat block of the selected beast (found later in this document). Your game statistics, including mental ability scores, are replaced by those of the chosen form, but you maintain your alignment and personality.
+
+While in this new form:
+* You assume its hit points.
+* Your spell attack modifier and spell save DC replace its attack modifiers and saving throw DCs.
+* If you're reduced to 0 hit points, you make death saving throws as usual. If you die, you revert to your true form.
+* You can't speak, cast spells, or undertake any action requiring hands or speech.
+* Your gear melds into your new form, rendering it inaccessible. As such, you can't activate, wield, or benefit from any of your equipment.
+
+To attempt to end the spell, you may use your action to make a DC 15 saving throw using your original form's spellcasting ability modifier. On a successful save, the spell ends. However, if you fail this save three or more times within 8 hours, you must complete a long rest before attempting to end the spell again. A remove curse spell will also end the transformation.
+
+If you take a long or short rest in your new form, only your new form gains the benefits of the rest
+
+***At Higher Levels.***  When cast using a spell slot of 7th level or higher, the new form gains an additional 25 hit points for each slot level above 6th. If cast using a 9th-level slot, any features the new form can use only once per day can now be used three times per day.
+
+\columnbreak
+
+#### Primal Dominance
+
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V, S
+- **Duration:**  10 minutes
+- **Classes:**   Bard, Druid, Ranger
+___
+
+You emanate a commanding presence, compelling a primal creature to submit. Choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you. If the creature's Intelligence is 8 or higher, the spell has no effect. Otherwise, it must make a Wisdom saving throw. On a failed save, it becomes charmed and frightened by you until the end of your next turn. Regardless of the save's outcome, you gain a +5 bonus to Charisma (Intimidation) and Wisdom (Animal Handling) checks when interacting with that creature until the spell concludes.
+
+***At Higher Levels.*** When you cast this spell using a 3rd-level spell slot or higher, you can target one additional creature for each slot level above 2nd.
+
+
+
+
+#### Summon Flock
+
+*1st-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:**  V, S, M (A worm or bug)
+- **Duration:**  Concentration, up to 1 hour
+- **Classes:**   Druid, Ranger
+___
+
+Upon casting, you summon three crows that circle above you for the duration of the spell. As a bonus action, you can direct one of the crows to dive at a creature or object within 120 feet. Make a ranged spell attack against the target. On a hit, it takes 2d4 piercing damage. If the attack is a critical hit, the target is blinded until the start of your next turn. Regardless of the outcome, the directed crow is expended. The spell ends if all crows are expended. For each crow circling above you, you gain a +1 bonus to Wisdom (Perception) checks.
+
+
+***At Higher Levels.***  When you cast this spell using a 2nd-level spell slot or higher, you summon an additional crow for each slot level above 1st.
+
+ <img src='https://i.ibb.co/fkt8Cbf/Crow-Storm-Ixalan-Mt-G-Art-1024x756.jpg' style='position:absolute;right:-0px;bottom:-80px;width:820px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-340px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+#### Wild Surge
+
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V S M (a tuft of fur and a fang)
+- **Duration:**  Concentration, up to 10 minutes
+- **Classes:**   Druid, Ranger
+___
+
+Select a willing creature within range to tap into its primal nature, transforming it into a bestial form. For the duration of the spell, the creature receives the following benefits:
+
+<br>
+
+* It gains 20 temporary hit points.
+* It gains a +2 bonus to AC.
+* It gains a +2 bonus to Strength saving throws and checks.
+* It gains a +2 bonus to Wisdom (Perception) checks and Charisma (Intimidation) checks.
+* When it hits with a melee weapon attack or unarmed strike, it deals one extra die of its damage.
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the targeted creature gains an additional 5 temporary hit points for each slot level above 3rd.
+
+
+___
+___
+> ## Feral Manticore
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., climb 40 ft., fly 50 ft.
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
+> ___
+> - **Skills** Perception +7, Stealth +7
+> - **Senses** Darkvision 60 ft., passive Perception 17
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> ___
+>
+> ***Tail Spikes.*** You have twelve tail spikes.
+>
+> ***Pounce.*** If you move at least 10 feet straight toward a creature and then hit it with a claw attack on the same turn, the target must succeed on a DC 16 Strength saving throw or be knocked prone.
+>
+> <br>
+>
+> ### Actions
+>
+> ***Multiattack.*** You make three attacks: one with your bite, one with your claws, and one with your tail spines. If both the claw and bite attacks hit the same target, the target is grappled (escape DC 16). Until this grapple ends, you can't use its bite or claw on another target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 19 (2d12 + 6) piercing damage. If the target is prone, it takes 32 (4d12 + 6) piercing damage instead.
+>
+> ***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) slashing damage.
+>
+> ***Tail Spike.*** *Ranged Weapon Attack:* +7 to hit, range 100/200 ft., one target. *Hit:* 15 (2d8 + 6) piercing damage plus 10 (3d6) poison damage.
+>
+> ***Toxic Volley.*** You fire six of your tail spikes at a point you can see within 100 feet. Each creature in a 15-foot-radius, 15-foot-high cylinder centered on that point must make a Dexterity saving throw against your spell save DC, taking 15 (2d8 + 6) piercing damage and 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+>
+> ***Regrow Spikes (1/Day).*** You regrow all of your spent spikes.
+
+ <img src='https://i.ibb.co/zN3SjnJ/Manticore-Adventures-in-the-Forgotten-Realms-Mt-G-Art.jpg' style='position:absolute;right:0px;bottom:-100px;width:817px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-430px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Ravenous Hydra
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (+0)|14 (+2)|
+>___
+> - **Senses** Darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> ___
+>
+> ***Multiple Heads.*** You have five heads. While you have more than one head, you have advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Additionally, you get a +2 bonus to Wisdom (Perception) checks for each head. Whenever you take 25 or more damage in a single turn and still have one or more heads, one head dies.
+>
+> ***Reactive Heads.*** For each head you have beyond the first, you get an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While you sleep and have more than one head, at least one of your heads can remain awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make as many bite attacks as you have heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 10 ft., one target. *Hit:* 11 (1d10 + 6) piercing damage.
+>
+> ***Regrow Heads (1/Day).*** You regain 75 hit points and grow back all of your missing heads. For each head regrown in this way, you can make a bite attack against a creature within 10 feet of you.
+
+___
+___
+> ## Savage Dragon
+> *Huge dragon, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., climb 40 ft., fly 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|14 (+2)|20 (+5)|12 (+1)|10 (0)|14 (+2)|
+>___
+> - **Skills** Perception +4
+> - **Damage Resistances** The damage type chosen using your Dragon's Power feature
+> - **Senses** Blindsight 30 ft., darkvision 120 ft., passive Perception 14
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> ___
+>
+> ***Dragon's Power.*** When you transform into this shape, you choose one of the following damage types: acid, cold, fire, lightning, or poison. This chosen type affects other features.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make two attacks: one with your bite and one with your claws.
+>
+> ***Bite.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 14 (4d6) of the chosen Dragon's Power damage type.
+>
+> ***Claw.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 5 ft., one target. *Hit:* 20 (4d6 + 6) slashing damage.
+>
+> ***Breath Attack (1/Day).*** You exhale your breath attack in a 40-foot cone. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 35 (10d6) damage of the damage type chosen by your Dragon's Power trait on a failed save, or half as much damage on a successful one.
+
+### Lore of Beasts Art Credit
+* Shaman of Forgotten Ways - Viktor Titov, Wizards of the Coast
+* Spirit of the Aldergard - Lars Grant-West, Wizards of the Coast
+
+\columnbreak
+
+<Br><Br>
+
+####
+* Crow Storm - YW Tang, Wizards of the Coast
+* Manticore  - Billy Christian, Wizards of the Coast
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Lore of Death
+
+This brand of magic plays on the nature of mortality and fragility of life, though it is strictly distinct from traditional necromancy, as it embraces the inevitability of death rather than attempting to deny it. Its users can manipulate negative energy, sap the vitality of foes, and instill mortal terror in those around them. The following spells are examples of the types of magic users of the Lore of Death often wield.
+
+#### Aspect of Dread
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (A white feather)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard 
+___
+
+You envelop a creature you can see within range in a terrifying aura. Every other creature within 10 feet of the target must make a Wisdom saving throw or become frightened of the target for the duration.
+A creature frightened in this way can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself with a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the radius of the aura increases by 10 feet for each slot level above 2nd.
+
+#### Crippling Pain
+*3rd-level necromancy*
+
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (A broken bone)
+- **Duration:**  1 round
+- **Classes:**  Cleric Warlock, Wizard
+
+You afflict a creature within range with an agonizing curse, causing its body to wither as it's wracked with necrotic energy. The target must make a Constitution saving throw.  On a failed save, it takes 6d6 necrotic damage and is wracked with pain until the end of your next turn.
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ On a successful save, the creature takes half the damage and is not affected by the pain.
+
+While wracked with pain, every time the creature takes a move, an action, a bonus action, or a reaction, it takes an additional 3d6 necrotic damage.
+
+***At Higher Levels.***   When you cast this spell using a spell slot of 4th level or higher, the initial damage is increases by 2d6 for each slot level above 3rd.
+
+
+#### Horrifying Laughter
+*6th-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S, M (A tiny tarts and a feather that is waved in the air)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Bard, Wizard
+___
+
+You target a creature you can see within range, causing it to collapse into debilitating fits of deranged laughter. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand for the duration. Creatures with an Intelligence score of 4 or less aren't affected.
+
+At the end of each of your turns for the duration, any creature within 30 feet of the laughing creature that can hear the laughter must succeed on a Wisdom saving throw or become frightened of the laughing creature until the end of its next turn. You can choose any number of creatures you can see to be immune to this effect.
+
+At the end of each of its turns, the laughing creature takes 3d10 force damage and can attempt another Wisdom saving throw. On a success, the spell ends. If this damage reduces the target to 0 hit points, it stabilizes but remains laughing and can no longer attempt saving throws against the spell. If the spell ends while the creature has 0 hit points, it dies.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d10 for each slot level above 6th.
+
+ <img src='https://m.media-amazon.com/images/I/51+A6aJV1lL.jpg' style='position:absolute;right:-16px;top:-110px;width:848px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-15px;height:1400px;width:1416px;transform:rotate(191deg)' />
+
+
+\pagebreakNum
+
+#### Impending Doom 
+*4th-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (A black feather)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Bard, Cleric, Warlock 
+___
+
+You target a creature within range, sapping its determination and resolve to go on. The target must make a Charisma saving throw. On a failed save, the creature is filled with a sense of impending doom, and for the duration, whenever it makes an attack roll, ability check, or saving throw against an effect not triggered by this spell, it automatically misses or fails if the roll is 6 or lower, as the creature feels an overwhelming sense of defeat.
+
+The affected creature can make a Charisma saving throw at the end of each of its turns, ending the spell's effect on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
+
+####  Purple Sun
+*9th-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (A pinch of lime, water, and earth)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You conjure a grim sphere of purple light at a point you designate within range. The sphere has a maximum radius of 60 feet and illuminates its area with dim light.
+
+Any creature that either enters the sphere's area for the first time on its turn or begins its turn inside the sphere must make a Constitution saving throw. On a failed save, the creature is petrified for the duration. At the end of <br> each of its turns, the target can make another <br> Constitution saving throw. On a success, the <br> spell ends on the target. However, if a creature <br> accumulates three failed saves against this <br> spell (including the initial failed save), it <br> remains petrified indefinitely until the <br> condition is cured by other means.
+
+If a petrified creature is physically <br> damaged or broken during this state, it <br> will manifest the same damage upon <br> being reverted to its original form.
+
+<br>
+
+#### Lore of Shadows: <Br> Art Credit
+* Cavalier of Night - Viktor Titov, <br> Wizards of the Coast
+* Damnation - Kev Walker, <Br> Wizards of the Coast
+
+\columnbreak
+
+#### Spirit Leech
+*1st-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (A mosquito)
+- **Duration:**  1 hour
+- **Classes:**  Warlock
+___
+
+You reach out and drain the life force of a target creature you can see within range. The target must make a Charisma saving throw. On a failed save, it takes 1d12 necrotic damage, or half as much on a successful one. You gain temporary hit points equal to the damage dealt. Constructs are immune to this spell's effects.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
+
+#### Wind of Death
+*5th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, S, M (A owl feather)
+- **Duration:**  Instantaneous
+- **Classes:**  Cleric
+___
+
+You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 4d6 cold damage and 4d6 necrotic damage on a failed save, and half as much on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, either the cold or the necrotic damage (your choice) increases by 1d6 for each slot level above 5th.
+
+<img src='https://i.ibb.co/gj9XwYB/Damnation-Art-1024x819.jpg' style='position:absolute; bottom:-180px; right:-150px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-600px;top:-450px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:135px;top:-40px;height:1400px;width:1416px;transform:rotate(-80deg)' />
+
+\pagebreakNum
+
+<br>
+
+## Lore of Shadow
+This magic specializes in trickery, illusion, <br> and twisting the minds of its targets. Its <br> users primarily rely on illusory magic, though <br> they also wield spells that manipulate shadows <br> and even the nature of space and time as others <br> are able to perceive it, constantly leaving their <br> foes seconding guessing what they're seeing. <br> The following spells are examples of the types <br> of magic users of the Lore of Shadow often wield.
+
+#### Creeping Strike 
+*Evocation cantrip*
+___
+- **Casting Time:** 1 action
+- **Range:** 10 feet
+- **Components:** V S
+- **Duration:** Sorcerer, Warlock, Wizard
+___
+
+You lash out at an enemy with chilling shadows. <Br> Make a melee spell attack against the target. You <Br> have  advantage on the attack roll if the target is in <Br> darkness. On a hit, the target takes 1d8 cold damage.
+
+***At Higher Levels.*** This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
+#### Mindrazors
+*5th-level illusion*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Warlock, Bard
+___
+
+You envelop up to three weapons you can see within range in phantasmal shadows, allowing them to slice through the minds of their targets. For the duration, when a creature is hit by an attack from one of these infused weapons, it takes an additional 1d12 psychic damage.
+
+If a creature takes an action to examine one of the weapons and succeeds on an Intelligence (Investigation) check against your spell save DC, they discern the illusion and will no longer take the additional psychic damage from any of the infused weapons.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, you can target one additional weapon for each slot level above 5th.
+
+#### Mirror Dance
+*2nd-level conjuration*
+
+- **Casting Time:** 1 bonus action
+- **Range:** Self 
+- **Components:** S
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+
+You weave a shadowy link between yourself and a willing creature you can see within 30 feet, causing you and the creature to instantly swap places. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### The Quickened Condition
+> This document references the quickened condition. A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+<br>
+
+The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
+
+#### Mystifying Miasma
+*2nd-level illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Ranger, Bard
+___
+
+You conjure a 20-foot-radius sphere of illusory fog at a point you choose within range. 
+
+
+ This miasma fills the air, spreading around corners and making the area heavily obscured for all creatures lacking true sight.
+
+Any creature that starts its turn fully within the cloud must make a Wisdom saving throw. On a failed save, it uses its movement to travel in a random direction, determined by rolling a d8, until it exits the fog, after which it falls prone. The creature can then take the rest of its turn as normal.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the radius of the fog increases by 20 feet for each slot level above 2nd.
+
+#### Lore of Shadow Art Credit
+* Myrkul's Invoker - Aaron J. Riley, Wizards of the Coast
+* The Abyss - Pete Venters, Wizards of the Coast
+
+ <img src='https://cdn.cardsrealm.com/images/cartas/clb-commander-legends-battle-for-baldurs-gate/en/crop-med/myrkuls-invoker-136.jpeg?6625' style='position:absolute;right:-10px;top:-20px;width:600px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:40px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:40px;top:0px;height:1400px;width:1416px;transform:rotate(-99deg)' />
+
+
+\pagebreakNum
+
+#### Penumbral Pendulum
+*4th-level illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** 1 minute
+- **Classes:**  Sorcerer, Wizard
+___
+
+You conjure a spectral pendulum that swings through a 60-foot-long, 5-foot-wide, and 5-foot-tall line of your choice within range. Each creature in this area can make a Dexterity or Intelligence saving throw (its choice). A creature takes 6d10 psychic damage on a failed save and no damage on a success.
+
+On each of your subsequent turns during the spell's duration, you can use your action to cause the pendulum to swing back from the opposite direction it swang last, repeating the effect across the same line each time. If your turn ends without you using this action, the spell ends.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot.
+
+#### Pit of Shadows
+*6th-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V, S, M (A black cloth)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Cleric, Sorcerer, Warlock, Wizard
+___
+
+You conjure a portal to a shadowy plane, opening a 20-foot square pit on an area of the ground you can see within range. Creatures within this area must make a Dexterity saving  throw. On a failed save, a creature is banished to a realm of darkness for the spell's duration. While in this realm, the creature is incapacitated.
+
+At the end of each of its turns, the banished creature takes 3d8 psychic damage and must then make a Charisma saving throw. On a success, the spell ends for that creature. When the spell ends for a creature, it reappears in its original space or the nearest unoccupied space if its original space is occupied. If a creature dies while banished, its body remains in the shadow realm; however, any magical items it was wearing or carrying return to the original location.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the pit's dimensions by 10 feet for each slot level above 6th.
+
+#### Shroud of Dusk
+
+*1st-level evocation*
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, M (A drop of pitch or piece of coal)
+- **Duration:**  1 round
+- **Classes:**   Sorcerer, Warlock, Wizard
+___
+
+You release a surge of chilling shadows in a 15-foot-long, 5-foot-wide line that extends from you in a direction you choose. Each creature within the line must make a Constitution saving throw. Creatures take 1d10 cold damage, and on a failed save, and half as much on a success.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+The the line's area is then plunged into magical darkness until the end of your next turn. This darkness is impenetrable to darkvision and unaffected by nonmagical light sources.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 and the length of the line extends by an additional 5 feet for each slot level above 1st.
+
+
+
+#### Unseen Lurker
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60 ft
+- **Components:** V
+- **Duration:** 1 round
+- **Classes:**  Ranger
+___
+
+Choose a willing creature you can see within range. The chosen creature becomes enveloped in a shroud of mist, enabling it to move with unseen swiftness. Until the start of your next turn, the creature's movement speed is doubled, it's quickened, and it becomes invisible along with everything it's wearing or carrying.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for every two slot levels above 3rd.
+
+#### Withering Resolve
+*3rd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard
+___
+
+Choose a creature within range that can hear you. The target must succeed on a Wisdom saving throw, or its mind becomes filled with crippling doubt and inner turmoil. On a failed save, for the duration of the spell, the target has disadvantage on all checks and saving throws not triggered by this spell, and attack rolls against it have advantage. At the end of each of its turns, the target can make another Wisdom saving throw, ending the effects on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
+
+ <img src='https://i.ibb.co/hDpWQz9/TheAbyss.png' style='position:absolute;right:-0px;top:-20px;width:450px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-100px;top:-67px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:-30px;height:1400px;width:1416px;transform:rotate(200deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:0px;top:-170px;height:1400px;width:1416px;transform:rotate(-98deg)' />
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# New Creatures
+
+## Avatar of Beasts
+
+From the echoing roars of ancient beasts to the silent stalk of the predator, nature begets a power all its own, an unchecked and relentless force. It is this raw, untamed energy that gives birth to an elemental known as an avatar of beasts, enigmatic entities born from the very soul of the wilderness.
+
+**Primeval Visage.** These towering creatures walk upon the land with long, powerful strides. Their body is a blend of various animal spirits, giving them an almost unpredictable look, though most are bipedal with a vaguely humanoid body shape. A constant is their skull-like head adorned with antlers that rise like darkened spires. Eyes, pools of haunting luminescence, observe the world with primal intensity. Their vast hooved feet, capable of pulverizing any caught in their step, and their supernatural claws, an embodiment of nature's fury, are weapons of unparalleled savagery. With each individual avatar drawing upon various primal animal spirits, no two are exactly alike. One might have the scales of a serpent intermixed with the fur of a lion, while another might possess the feathery mantle and claws of an eagle combined with the armored hide of a rhino.
+
+**Veil of the Wilds.** Despite their daunting size, avatars of beasts possess an uncanny ability to meld with the wilderness. They move through forests, mountains, and swamps as if they were phantoms, impervious to natural barriers and ever-prepared to ambush the unwary. 
+
+\columnbreak
+
+<br><br><br><br><br><br>
+
+Their harmony with nature allows them to bypass any plant obstructions their forest homes might impose, making them almost impossible to anticipate.
+
+**Supernatural Savagery.** In battle, these elementals are a spectacle of raw might and eldritch power. While their natural weapons—claws, antlers, and hooves—are deadly enough, their supernatural abilities add another level of terror. They can summon flocks of relentless birds whose sharp talons and beaks dive upon foes with murderous intent, often blinding their victims. When their foes amass to charge them head-on, avatars of beasts are even known to unleash rays of eerie and deadly supernatural light, thought to be the essence of the magic that makes up their being.
+
+**Summoning the Beast.** While these elementals are free spirits of the wild, there are those with the knowledge to call upon them. Druids, shamans, and other mystics of the wilderness, in times of sheer desperation, might perform ancient and savage rituals to summon these mighty beings. These ceremonies are not to be taken lightly, often demanding a primeval sacrifice, where the essence of the wild is offered in exchange for the avatar's aid.
+
+ <img src='https://i.ibb.co/NZyHRtH/Old-Stickfingers-Innistrad-Midnight-Hunt-Mt-G-Art.jpg' style='position:absolute;right:-100px;top:-25px;width:1000px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-93px;top:135px;height:1400px;width:1416px;transform:rotate(190deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-270px;top:260px;height:1400px;width:1416px;transform:rotate(190deg)' />
+
+
+\pagebreakNum
+
+___
+___
+> ## Avatar of Beasts
+> *Huge elemental, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 276 (24d12 + 120)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|25 (+7)|18 (+4)|20 (+5)|7 (-2)|20 (+5)|16 (+3)|
+>___
+> - **Skills** Athletics +12, Perception +15, Intimidation +8, Stealth +9, Survival +10
+> - **Senses** blindsight 60 ft., darkvision 120 ft., passive Perception 25
+> - **Condition Immunities** charmed, frightened
+> - **Challenge** 15 (13,000 XP) &emsp;&emsp; **Proficiency Bonus** +5
+> ___
+>
+> ***Crashing Charge.*** If the avatar moves at least 20 ft. straight toward a creature and then hits it with a Gore attack on the same turn, the target takes an extra 11 (2d10) damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be knocked prone. The creature makes the saving throw with disadvantage if the attack was made using its Bestial Take Down bonus action.
+>
+> ***One with the Wild.*** The avatar has advantage on Dexterity (Stealth) checks made to hide in foliage, heavy rain, falling snow, mist, and other natural phenomena and can do so when only lightly obscured. Additionally, the avatar can move through plants without being slowed, taking damage, or being grappled or restrained by them, and can move through trees as if they were difficult terrain. It takes 10 force damage if it ends its turn inside a tree.
+>
+> ***Primal Senses.*** The avatar has advantage on Wisdom (Perception) checks and does not suffer disadvantage on the checks in areas that are lightly obscured.
+>
+> ***Talons of the Forest.*** When the avatar makes an attack, it ignores half and three-quarters cover provided by foliage.
+>
+> ### Actions
+>
+> ***Multiattack.*** The avatar makes two attacks.
+>
+> ***Gore.*** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 23 (3d10 + 7) piercing damage.
+>
+> ***Savage Talons.*** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 23 (3d10 + 7) slashing damage plus 11 (2d10) for each time this turn the target has already been hit with its Talon attack this turn.
+>
+> ***Pulverizing Stomp.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 23 (3d10 + 7) bludgeoning damage. If the target is a prone creature, it cannot stand up until the end of the avatar's next turn unless it uses its action to succeed on a DC 20 Constitution check.
+>
+> ***Amber Breath (1/day).*** The avatar exhales amber light in a 60-foot line that is 15 feet wide. Each creature in that area must make a DC 18 Dexterity saving throw, taking 27 (5d10) radiant damage on a failed save, or half as much damage on a successful one. The creatures gain no benefit from cover given by foliage for this saving throw.
+>
+> ***Flock of Doom.*** The avatar fills a 20-foot-radius sphere centered on a point within 100 feet of it with shadowy crows. The avatar can designate any number of creatures it is aware of to be unaffected by the crows. The sphere spreads around corners, and it lasts until the avatar uses the ability again, is more than 100 feet away from the area, or loses concentration (as if concentrating on a spell). The sphere's area is difficult terrain, and creatures in it have disadvantage on ranged attack rolls. At the end of each of the avatar's turns, each creature in the area must make a DC 18 Dexterity saving throw, taking 15 (6d4) piercing damage on a failed save, or half as much damage on a successful one. A creature has disadvantage on the saving throw if it is surprised. If it fails by 10 or more (DC 8), it is blinded until the end of the avatar's next turn. On each of the avatar's turns, the avatar may move the crows 50 feet in any direction (no action required). Using this ability does not reveal the avatar if it is hidden from a creature.
+> 
+> ### Bonus Actions
+>
+> ***Howl of the Great Beast (1/day).*** The avatar lets out a primeval howl. The avatar can designate any number of creatures it is aware of to be unaffected by it. Each affected creature within 120 feet of it that can hear it must make a DC 18 Wisdom saving throw. On a failed save, the creature drops whatever it is holding, loses concentration, and becomes frightened of the avatar. The creature can't take reactions and must take the Dash action to move away from the avatar by the safest available route on each of its turns, unless there is nowhere to move. At the end of its turn, the creature repeats the Wisdom save, ending the effect on it on a success.
+>
+> ***Bestial Take Down.*** The avatar makes one weapon attack. After the attack, the avatar falls prone. If it has 90 or fewer hit points, the attack is made with advantage.
+
+\pagebreakNum
+
+### Avatar of Beasts Tactics
+Avatars of Beasts are ambush predators and experts at stealthily navigating woodland environments to attack from optimal hidden positions. Knocking enemies prone will be their primary tactic throughout the fight as it allows them to stack successive talon attacks on a single target more easily. The avatar never flees from combat unless directed to by someone controlling it.
+
+#### Special Abilities
+
+&emsp;**Flock of Doom.** The avatar generally uses this ability at the start of the fight, ideally before it's even spotted by the players. The avatar will stay hidden for as long as possible while withering away the players with the flock. The avatar will only charge into combat if it manages to blind a vulnerable player it can reach, or one of the players spot it. While the flock is active during combat, the avatar will position it to hinder ranged attackers. 
+
+**Amber Breath.** This ability is deployed when the avatar can hit three or more targets simultaneously. 
+
+#### Attack Sequence
+
+The avatar's primary targets are those blinded by its flock and any vulnerable prey it can reach. The target's distance and whether it's prone affects how the avatar will attack.<br><br>
+
+**Targets Within 60ft. & Howl of The Great Beast is Available.** 
+* The avatar uses Howl of the Great Beast.
+* It then closes the distance and makes a Gore attack, repositioning itself to get the bonus from Crashing Charge if necessary so it can attempt to knock its target prone. 
+* If finishes with a stomp attack.
+
+**Targets Within 60ft. & Howl of The Great Beast is Not Available.** 
+* The avatar uses its Bestial Takedown bonus action to make a Gore attack, repositioning itself to get the bonus from Crashing Charge if necessary so it can attempt to knock its target prone. 
+* If it manages to knock the target prone, it will follow up with two stomp attacks; otherwise, it will make two talon attacks.
+
+**Targets Beyond 60ft.**
+* The avatar dashes to its target.
+* The avatar uses the Bestial Take Down bonus action to make a gore attack.
+* The avatar stands back up.
+Note, if the avatar lacks the remaining movement to stand back up, it will be unlikely to use Bestial Takedown and leave itself vulnerable.
+
+**Targets Already Prone.**
+* The avatar attacks with two talon attacks.
+* If both attacks hit, it will follow up with a Bestial Takedown bonus action to make another talon attack.
+* If any of the attacks miss, it will follow up with a Bestial Takedown bonus action to make a stomp attack.
+
+\columnbreak
+
+### Avatar of Beasts Adventures
+The following table provides some ways to create adventures featuring these primal monsters in your games:
+
+##### Avatar of Beasts Adventure Hooks
+
+| d6  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | **Awakened Fury:** Recent logging activity in a revered forest has awakened an avatar of beasts. The avatar has started attacking nearby settlements, and the players must find a way to either appease it or confront it directly.|
+|  2  | **Lost Ritual**: An ancient tablet describes the ritual to summon an avatar of beasts. Various factions are in a race to obtain and decipher the tablet, with the intention of harnessing the avatar's power for their own purposes.|
+|  3  |**The Woodland Cult:** A cult of wilderness mystics plans to summon an avatar of beasts to cleanse the land of civilization. The players must find their ancient woodland shrine and disperse the cult before they can unleash the monster on the world. |
+|  4  | **Bane of the Festival:** During a grand harvest festival, an old enemy of the town uses forbidden rituals to summon an avatar of beasts as an act of revenge. The festivities turn to chaos, with the players at the forefront of the defense. |
+|  5  | **Bestial Pursuit:** While on a hunting expedition in a vast wilderness, the players disturb sacred grounds, and an avatar of beasts is summoned to repel the intruders. The players must navigate treacherous terrains while being stalked by the relentless elemental. |
+|  6  | **Conduit of Rage:** A corrupted druid has found a way to channel their anger and hatred through an avatar of beasts, directing it to attack their enemies. The players, having crossed paths with the druid, find themselves in the avatar's path.|
+
+ <img src='https://i.ibb.co/gWYWZZM/Dawnhart-Rejuvenator-Innistrad-Midnight-Hunt-Mt-G-Art.jpg' style='position:absolute;right:-140px;bottom:-189px;width:850px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:-393px;height:1400px;width:1416px;transform:rotate(360deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:50px;top:-200px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Avatar of Beasts Loot
+Because these creatures are elementals, they don't have flesh and blood like mundane other creatures, and most of their body disintegrates when they die. Amidst the smokey ashes they leave behind, players may be able to salvage some bone or hide that remained corporeal or even some of their magical essence before it evaporates. This harvesting can usually be done using an **Intelligence (Arcana)** or **Wisdom (Nature)** check. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Avatar of Beasts Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Avatar of Beasts Loot Table
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-10  | 1 500gp Item |
+|  11-15 | 1d4(2) 500gp Items | 
+|  16-21 | 1d4(2) 1,000gp Items  |  
+|  22-25 |  1d6(3) 1,000gp Items |  
+|  25+ |  1d4(2) 2,000gp Items |  
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Example Avatar of Beasts Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Avatar of Beasts Item Names
+|1d6 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Bone)  |   Cracked Eldritch Bone |  Eldritch Bone |  Pristine Eldritch Bone  | 
+| 3-4 <br> (Essence)  | Clotted Eldritch Blood| Eldritch Blood |  Thick Eldritch Blood  | 
+| 5-6 <br> (Hide) | Tattered Eldritch Hide| Eldritch Hide |  Pristine Eldritch Hide  |
+
+<br>
+
+### Avatar of Beasts: Art Credit
+* Old Stickfingers - Jehan Choo, Wizards of the Coast
+* Dawnhart Rejuvenator - Darren Tan, <br> Wizards of the Coast
+* Marauding Boneslasher - Simon Dominic, <br> Wizards of the Coast
+
+<img
+src='https://i.ibb.co/0fFSXzh/Marauding-Boneslasher-Hour-of-Devastation-Mt-G-Art-1024x750.jpg'
+style='position:absolute;top:-40px;right:-200px;width:1200px;transform: scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-70px;bottom:-675px;transform:rotate(180deg)' />
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Bale Wolves
+
+Deep within the ancient groves and <br> the silent, enveloping darkness of primeval <br> woodlands, lurk creatures whose very presence <br> chills the blood of seasoned warriors and sows <br> dread in the heart of travelers. These are the bale <br> wolves, monstrous predators that are the stuff of legends.
+
+***Physical Appearance.*** Their haunting visage is a grotesque fusion of wolf and the undead. A skull-like face, stark white and cruelly mocking in its semblance to death, gazes out with eyes that burn with a hunger that's more than just physical. These beasts, larger than any natural wolf, possess claws so strong and sharp that they can easily pin their prey, leaving them helpless before delivering the fatal bite. Their huge fangs, reminiscent of ancient drakes or behemoths, are not just for display. When their jaws close in on vulnerable prey, these fangs eviscerate their victim, often killing them instantly.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+***Hunting Tactics.*** A bale wolf is not one to announce its presence prematurely. It stalks, often in a pack. With patient and deliberate intent, it traverses the dark woods, moving like a shadow against the midnight canvas. Any creature wandering carelessly in their territory is at risk of becoming prey to a sneak attack. Before one even senses danger, a pack of bale wolves might be right upon them, poised to strike.
+
+___
+___
+> ## Bale Wolf
+>*Large monstrosity, chaotic evil*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 85 (10d10 + 30)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|15 (+2)|16 (+3)|5 (-3)|14 (+2)|8 (-1)|
+>___
+> - **Skills** Athletics +6, Perception +6, Stealth +4
+> - **Senses** Darkvision 120 ft., passive Perception 15
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp;&emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Keen Hearing and Smell.*** The bale wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+> ***Woodland Stalker.*** The bale wolf has advantage on Dexterity (Stealth) checks made to hide using foliage. Additionally, the bale wolf can move through plants without being slowed, taking damage, or being grappled or restrained by them.
+>
+> ***Pack Tactics.*** The bale wolf has advantage on an attack roll against a creature if at least one of the bale wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ### Actions
+>
+> ***Multiattack.*** The bale wolf makes three attacks: two with its bite and one with its claws.
+>
+> ***Vicious Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone. If the attack is made with advantage, the bale wolf scores a critical hit on a roll of 17-20.
+>
+> ***Pinning Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage. If the target is a prone creature, the target is grappled (escape DC 14). Until this grapple ends, the bale wolf's speed is 0, and it can't claw another target.
+
+<img src='https://assets.echomtg.com/magic/cards/cropped/21943.hq.jpg' style='position:absolute; top:-10px; right:-80px; width:860px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:75px; right:168px; width:900px; transform: rotate(39deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:190px; right:-50px; width:900px; transform: rotate(0deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-170px; right:435px; width:900px; transform: rotate(63deg)' />
+
+\pagebreakNum
+
+&emsp;***Mysterious Origins.*** Where these abominations came from is a question that has baffled scholars and hunters alike. The most widely accepted theory is that they are the result of the mutating energies of chaos, an otherworldly and malevolent force that touches the very essence of a creature, reshaping it into something far more sinister.
+
+***The Dark Bindings.*** There are those with knowledge, dark and forbidden, who have learned to bind these creatures to their will. Among them, the crones of the northern forests are particularly notorious. With incantations whispered in the dead of night and sacrifices made under the crescent moon, they can summon bale wolves, bending their savage wills to serve as monstrous soldiers.
+
+***The Dark Bloods.*** If the bale wolves weren’t terrifying enough, there exists a cursed variant known as the dark bloods. The bites of these monsters hold a danger beyond the physical. Any victim bitten by a dark blood faces a fate potentially worse than death. They are infected with a curse which transforms them into a bale wolf and threatens their free will. The transformation is as much psychological as it is physical, as the newly transformed wrestle with dark instincts threatening to overtake their very identity. Those who manage to resist, to hold onto that last shred of their self, can eventually repel the curse, returning to their original form. But many are not so fortunate. Those who succumb are lost forever, their old identities consumed, leaving behind only the ravenous creature of the night.
+
+### The Bale Wolf Curse
+&emsp;**Dark Transformation.** A creature afflicted with the Bale Wolf Curse is immediately subjected to a dark transformation into a bale wolf. The creature adopts the statistics of a bale wolf, with the following exceptions: it retains its original hit points, hit dice, and Constitution score. The creature's alignment and personality remain unchanged. 
+
+\columnbreak
+
+Any equipment the creature was using or wearing drops to the ground at its current location, and for the duration of the transformation, the creature cannot interact with or benefit from its dropped equipment. Additionally, it cannot speak, cast spells, or perform any action requiring hands or speech.
+
+**Dark Instincts.** At the start of each of its turns, the creature must make a DC 10 Constitution saving throw. On a failure, its psyche is overcome by the darkness within until the start of its next turn. During this time, it suffers from the following effects:
+
+* It perceives all non-Balewolf creatures as enemies and all Balewolfs as allies until the start of its next turn.
+
+* If there is a non-Balewolf creature within its reach, it must use the Attack action against the nearest one.
+
+* If there are no creatures within its reach, it uses the Dash action to approach the nearest non-Balewolf creature it is aware of.
+
+
+
+**Ending the Curse.** Should the creature succeed on this saving throw three times, the curse is lifted, and it reverts back to its original form. However, if the creature fails the save three times, the transformation becomes permanent. The creature then adopts the maximum hit points and Constitution score of a Balewolf, becomes an NPC under the DM's control.
+
+
+
+Casting *dispel evil and good* or *remove curse* within the first hour of the transformation can reverse the curse. After this initial hour, only *dispel evil and good* or *remove curse*  spells cast at 9th level, the *wish* spell, or divine intervention can restore the creature to its original form.
+
+___
+___
+> ## Bale Wolf Dark Blood
+>*Large monstrosity, chaotic evil*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 110 (13d10+39)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|15 (+2)|16 (+3)|5 (-3)|14 (+2)|10 (0)|
+>___
+> - **Saving Throws** Str +7, Dex +5
+> - **Skills** Athletics +7, Perception +8, Stealth +5
+> - **Senses** Darkvision 120 ft., passive Perception 18
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp;&emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Keen Hearing and Smell.*** The bale wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+> ***Regeneration.*** The bale wolf regains 10 hit points at the start of its turn. If the creature takes 5 or more fire or acid damage in a single turn or damage from a critical hit, this trait doesn't function at the start of its next turn. The bale wolf dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ***Woodland Stalker.*** The bale wolf has advantage on Dexterity (Stealth) checks made to hide using foliage. Additionally, the bale wolf can move through plants without being slowed, taking damage, or being grappled or restrained by them.
+>
+> ***Pack Tactics.*** The bale wolf has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ### Actions
+>
+> ***Multiattack.*** The bale wolf makes three attacks: two with its bite and one with its claws.
+>
+> ***Vicious Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. If the attack is made with advantage, the bale wolf scores a critical hit on a roll of 17-20. If the target is a humanoid, it must also make on a DC 15 Constitution saving throw, making the save with disadvantage if the attack was a critical hit. On a failure, it suffers the Bale Wolf curse (described later in this document).
+>
+> ***Pinning Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage. If the target is a prone creature, the target is grappled (escape DC 15). Until this grapple ends, the bale wolf dark blood's speed is 0, and it can't claw another target.
+
+
+
+
+
+
+
+\pagebreakNum
+
+### Bale Wolf Adventures
+The following table provides some ways to create adventures featuring these twisted beasts in your games:
+
+##### Bale Wolf Adventure Hooks 
+
+| d6  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | **Bale Wolf Bounty:** The local lord has issued a challenge: rid the northern forests of the bale wolves, which have been attacking travelers and trade caravans. The reward is substantial, but rumors suggest that a previous group of hunters never returned.|
+|  2  | **The Crone's Pack:** A child has gone missing in the woods, and the only clue left behind is a single bale wolf's paw print. The adventurers must venture deep into the forest to rescue the child, only to discover an old crone manipulating the bale wolves for her own dark purposes.|
+|  3  |**The Bale Wolf's Curse:** A village bordering a dark woodland is cursed; every full moon, one villager turns into a bale wolf. The adventurers must find the source of the curse and stop it before the entire village succumbs. |
+|  4  | **The Druid's Plea:** An old druid seeks the party's assistance. The balance of the forest is threatened by the increasing numbers of bale wolves. They're an unnatural presence that must be removed. But as the party investigates, they find that the druid himself might have connections to the origin of these beasts. |
+|  5  | **The Old Catacombs:** A city built near ancient woods is plagued by bale wolf attacks. However, these wolves aren't coming from the forest; they’re emerging from old catacombs beneath the city. What old secrets does the city hide that attracts these creatures?  |
+|  6  | **Dark Blood Festival:** During a grand festival, a series of attacks by dark bloods plunges the celebrations into chaos. The adventurers must protect the attendees, uncover the culprits behind the coordinated assault, and find a way to prevent the spread of the curse among the wounded.|
+
+\columnbreak
+
+### Bale Wolf Tactics
+
+&emsp;**Initiating Combat.**
+These are ambush-oriented creatures, using darkness and woodland cover to make their sneak attacks. They will patiently stalk prey until they see the opportunity to attack from stealth and surprise their victims.
+
+**When to Retreat.**
+Once bale wolves initiate their attack, they will only retreat when being commanded by another more powerful creature. Otherwise, they will fight to the death and relentlessly pursue fleeing players.
+
+
+**Getting Advantage on Vicious Bite.**
+In combat, the bale wolf's tactics revolve around it getting advantage on its bite attack to increase the odds of getting a crit with it. There are a few ways they can go about securing advantage:
+
+* Utilizing their Pack Tactics
+* Attacking from a hidden position
+* Focusing their bites on a single target until they can knock it prone and pin it with their claws
+
+**Working As a Pack.**
+When bale wolves are operating as a pack, they instinctively hunt down the physically weakest player, relentlessly attacking until one of the bale wolves has the player prone and pinned. They will then move from player to player, repeating this process until they are all pinned, or there are only two bale wolves left. The remaining two bale wolves will then focus on the player closest to death. 
+
+#### Dark Bloods
+The key difference between these bale wolves and their "ordinary" kin is the curse they can inflict with their bite. There are some key strategies to keep in mind when cursing players:
+
+* Prioratize attacking non-cursed players over cursed players to spread the curse to as many players as possible. Only focus on cursed players when they are doing something very disruptive, like pinning a bale wolf with their claws or scoring a critical hit on it.
+
+* Cursed players who've lost control for a round and are attacking their allies can be used to trigger the bale wolf's Pack Tactics ability since they are momentarily on the same side.
+
+<img src='https://basiclandart.com/wp-content/uploads/2020/08/eld-267-forest-jedruszek.png' style='position:absolute; top:680px; right:-0px; width:820px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-150px; right:-25px; width:900px; transform: rotate(180deg)' />
+
+\pagebreakNum
+
+### Bale Wolves Loot
+The valuable items looted from cold ones will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide of a bale wolf. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Bale Wolf Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Bale Wolf Loot Table
+
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5gp Item |
+|  6-10 | 1d4(2) 5gp Items | 
+|  11-17 | 1d6(3) 5gp Items  |  
+|  18-22 |  1d4(2) 10gp Items |  
+|  18-23 |  1d6(3) 10gp Items |  
+
+##### Bale Wolf Dark Blood Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 10gp Item |
+|  9-13 | 1d4(2) 10gp Items | 
+|  14-21 | 1d6(3) 10gp Items  |  
+|  22-24 | 1d4(2) 20gp Items |  
+|  25+ |  1d6(3) 20gp Items |  
+
+<br>
+
+### Bale Wolves: Art Credit
+* Drekavac - Syuichi Obata, Wizards of the Coast
+* Forest, Throne of Eldraine - Tomasz Jedruszek, <br> Wizards of the Coast
+* Skyclave Shadowcat - Simon Dominic, <br> Wizards of the Coast
+
+\columnbreak
+
+#### Example Bale Wolf Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Bale Wolf Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Bale Wolf Bone |  Bale Wolf Bone |  Dark Bale Wolf Bone  | 
+| 2 (Flesh)  | Stringy Bale Wolf Meat| Bale Wolf Meat|  Dark Bale Wolf One Meat  | 
+| 3 <br> (Fluid)  | Clotted Bale Wolf Blood| Bale Wolf Blood |  Dark Bale Wolf Blood  | 
+| 4 <br> (Hide) | Tattered Bale Wolf Hide| Bale Wolf Hide |  Dark Bale Wolf Hide  |
+
+
+<img src='https://i.ibb.co/ccDt0SC/Skyclave-Shadowcat-Zendikar-Rising-Mt-G-Art.jpg' style='position:absolute; bottom:-50px; right:-520px; width:1400px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:30px; right:250px; width:900px; transform: rotate(107deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-500px; right:-0px; width:900px; transform: rotate(180deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Woodland Crones
+In the depths of the primeval woods, where shadows dance with the ethereal whispers of the past, the woodland crones have carved out their existence. These mysterious women are an enigma, both protectors of the ancient ways and potential agents of darkness.
+
+Woodland crones, with the weight of ages upon them, appear as supernaturally aged and grizzled women. Their long, tangled hair often interweaves with the very elements of the forests they call home. Around their necks, wrists, and waists, they adorn themselves with primeval witch charms, each with its own tale and power.
+
+Deeply connected to the spirit world, these crones serve as wise women, their eyes perceiving the unseen and their voices communing with the spirits. While some offer their guidance to remote rural communities, others opt for solitude, living as hermits amidst the thickets and glades.
+Those who live near or even alongside these crones are torn between respect and trepidation. To the rural folks, they are indispensable spiritual leaders and guides in times of uncertainty. However, to more "civilized" individuals, these crones are often seen with suspicion and distrust, their primal ways misunderstood and feared.
+
+For all the good they might offer, the Woodland Crones dance a dangerous line. The spirits they commune with are not always benevolent, and some crones find themselves seduced by darker entities, leading them to pursue more nefarious goals.
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Beyond their spellcasting prowess, the crones hold the ability to beseech the spirits to inflict curses upon their enemies. From causing physical frailty to fraying one's mind, their curses are both varied and potent.
+
+When crones come together, forming secretive covens, they are led by the eldest among them. These leaders, bearing the title of "Mother," are reservoirs of ancient knowledge and power, their decisions shaping the actions of their coven. They alone possess the power to channel dark spirits through their body in times of need to become wicked avatars of the vengeful forest known as Ancient Widows.
+Covens often form deep, mystical bonds with specific forests. This bond allows them to tap into the very essence of the land, drawing strength from its spirits and sharing the mystic powers that the forest bestows.
+
+With mere whispers, the crones can call upon the creatures of the woods. From simple animals like ravens and wolves to the more monstrous denizens of the deep forest, these beings serve the crones, driven by an unseen bond.
+In times of great conflict, the crones take to the battlefield in chariots, atop which sit their magical cauldrons which serve as a focus for their eldritch power. Pulled by mystic woodland harts, these chariots provide not only mobility but also protection, allowing the crones to unleash devastating curses upon their adversaries.
+
+<img src='https://i.ibb.co/Sxdgbhh/barrow-witches.jpg' style='position:absolute; top:-110px; right:-140px; width:1100px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:235px; right:105px; width:900px; transform: rotate(21deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:315px; right:-25px; width:900px; transform: rotate(-3deg)' />
+
+\pagebreakNum
+___
+> ## Woodland Crone Apprentice
+> *Medium humanoid (human), neutral*
+> ___
+> - **Armor Class** 13 (hide)
+> - **Hit Points** 60 (11d8 + 11)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|12 (+1)|12 (+1)|16 (+3)|14 (+2)|12 (+1)|
+>___
+> - **Saving Throws** Int +5, Wis +4
+> - **Skills** Arcana +4, Medicine +4, Nature +4, Survival +4
+> - **Senses** darkvision 120 ft., passive Perception 12
+> - **Languages** Druidic, plus any two languages
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2      
+> ___
+>
+> ***Forest Camouflage.*** The crone has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of her traits and the spells she knows.
+>
+> ***Survivor (30 HP, 1/Day).*** When the crone's hit points drop to half or less, for the next minute, she gains advantage on all saving throws and also gains 10 temporary hit points at the start of each of her turns.
+>
+> ### Bonus Actions
+>
+> ***Crone's Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+>
+> ### Actions
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The spells the crone knows depend on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+
+\columnbreak
+
+### Woodland Crone Apprentice <Br> Lore of Magic Options 
+Select one of the following lores or magic to determine a crone apprentice's additional passive trait, curse option, and spell list. <Br>
+**New spells listed at the end of the document*
+
+<br>
+
+> #### Crone Apprentice: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the crone targets only herself or one monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, she can choose for the spell to no longer require concentration. The spell ends early if the crone is incapacitated or uses this feature to alter another spell. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outnumbered or outsized. While cursed, if the creature is within 5 feet of two hostile creatures that are not incapacitated, or within 5 feet of a creature one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *eldritch blast*, *guidance*, *primal savagery*<br>
+> **1/Day:** *amber spear**, *augury*, *summon flock** (2nd level), *wild surge**
+
+<img src='https://media.wizards.com/2017/images/daily/jZhcGU3gE8_Curse_of_Bounty.jpg' style='position:absolute; bottom:-0px; right:-30px; width:540px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:320px; width:900px; transform: rotate(90deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:300px; width:900px; transform: rotate(135deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-80px; right:-715px; width:900px; transform: rotate(207deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-200px; right:00px; width:850px; transform:rotate(0deg);' />
+
+\pagebreakNum
+
+> #### Crone Apprentice: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the crone's spells of 1st level or higher, the crone gets a +1 to her spell save DC and spell attack rolls for the next minute. She can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Mortality's Grip (1/Day)*** The crone places a curse on a creature she can see within 90 feet, causing it to be overwhelmed by frailty. While cursed, if the creature fails a saving throw by 5 or more, it is stunned until the end of its next turn. The curse ends if the witch dies, curses another creature, or uses an action to end it.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *chill touch*, *druidcraft*, *eldritch blast*, *guidance*,<br>
+> **1/Day:** *augury*, *aspect of dread**, *crippling pain**, *spirit leech** (2nd level)
+
+<br>
+
+> #### Crone Apprentice: Lore of Shadows
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the crone casts a spell of 1st level or higher, she may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of her that she can see. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Harrowing Coil (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing dark spirits to lurk in the shadows around the cursed creature. Until the curse ends, the creature treats dim light and darkness as difficult terrain. When the creature moves into or within an area of dim light or darkness, it takes 1d8 psychic damage for every 5 feet it travels. The curse ends once the crone dies, curses another creature, or ends it as an action.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *creeping strike**, *druidcraft*, *eldritch blast*,  *guidance*
+>
+> **1/Day:** *augury*, *mystifying miasma**, *shroud of dusk** (2nd level),  *unseen lurker**, *withering resolve**
+
+
+___
+> ## Woodland Crone
+>*Medium humanoid (human), neutral*
+> ___
+> - **Armor Class** 14 (chain shirt)
+> - **Hit Points** 104 (16d8 + 32)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|12 (+1)|14 (+2)|16 (+3)|18 (+4)|14 (+2)|
+>___
+> - **Saving Throws** Int +6, Wis +7
+> - **Skills** Arcana + 6, Medicine +7, Nature +6, Survival +7
+> - **Senses** darkvision 120 ft, passive Perception 14.
+> - **Languages** Druidic, plus any two languages
+> - **Challenge** 5 (1,800 XP)   &emsp;&emsp;  **Proficiency Bonus** +3      
+> ___
+>
+> ***Forest Camouflage.*** The crone has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of her traits and the spells she knows.
+>
+> **Survivor. (52 HP, 1/day).** When the crone's hit points drop to half or less, for the next minute, she gains advantage on all saving throws and also gains 15 temporary hit points at the start of each of her turns.
+>
+> ### Bonus Action
+>
+> ***Crone's Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+>
+> ### Action
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +3 to hit reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The spells the crone knows depend on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+>
+
+\pagebreakNum
+
+### Woodland Crone <Br> Lore of Magic Options 
+Select one of the following lores or magic to determine a crone's additional passive trait, curse option, and spell list. <Br>
+**New spells listed at the end of the document*
+
+<br>
+
+> #### Crone: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the crone targets only herself or one monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, she can choose for the spell to no longer require concentration. The spell ends early if the crone is incapacitated or uses this feature to alter another spell. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outnumbered or outsized. While cursed, if the creature is within 5 feet of two hostile creatures that are not incapacitated, or within 5 feet of a creature one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *eldritch blast* (two attacks), *guidance*, *primal savagery* (2d10)<br>
+> **2/Day:** *amber spear**, *augury*, *summon flock** (3rd level), *wild surge**<br>
+> **1/Day:** *bestial spirit**, *scrying*
+
+\columnbreak
+
+> #### Crone: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the crone's spells of 1st level or higher, the crone gets a +1 to her spell save DC and spell attack rolls for the next minute. She can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Mortality's Grip (1/Day)*** The crone places a curse on a creature she can see within 90 feet, causing it to be overwhelmed by frailty. While cursed, if the creature fails a saving throw by 5 or more, it is stunned until the end of its next turn. The curse ends if the witch dies, curses another creature, or uses an action to end it.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *chill touch* (2d8), *druidcraft*, *eldritch blast* (two attacks), *guidance*<br>
+> **2/Day:** *augury*, *aspect of dread**, *crippling pain**, *spirit leech** (3rd level)<br>
+> **1/Day:** *impending doom**, *scrying*
+
+<br>
+
+> #### Crone: Lore of Shadows
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the crone casts a spell of 1st level or higher, she may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of her that she can see. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Harrowing Coil (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing dark spirits to lurk in the shadows around the cursed creature. Until the curse ends, the creature treats dim light and darkness as difficult terrain. When the creature moves into or within an area of dim light or darkness, it takes 1d8 psychic damage for every 5 feet it travels. The curse ends once the crone dies, curses another creature, or ends it as an action.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *creeping strike** (2d8), *druidcraft*, *eldritch blast* (two attacks),  *guidance*<br>
+> **2/Day:** *augury*, *mystifying miasma**, *shroud of dusk** (3rd level),  *unseen lurker**, *withering resolve**<br>
+> **1/Day:** *penumbral pendulum**, *scrying*
+
+<img src='https://i.ibb.co/m4dhb62/neva-stalked-by-nightmares.png' style='position:absolute; bottom:-00px; left:-60px; width:550px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:-380px; width:900px; transform: rotate(270deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:-480px; width:900px; transform: rotate(210deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:700px; width:900px; transform: rotate(138deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-230px; right:00px; width:850px; transform:rotate(0deg);' />
+
+\pagebreakNum
+
+___
+___
+> ## Woodland Crone Mother
+>*Medium humanoid (human), neutral*
+> ___
+> - **Armor Class** 15 (chain shirt)
+> - **Hit Points** 136 (21d8 + 42)
+> - **Speed** 30 ft. (50 ft. in Ancient Widow form)
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|12 (+1)|16 (+3)|18 (+4)|20 (+5)|16 (+3)|
+>___
+> - **Saving Throws** Int +8, Wis +9
+> - **Skills** Arcana + 8, Medicine +9, Nature +8, Survival +9
+> - **Senses** truesight 30, darkvision 120 ft, passive Perception 15.
+> - **Languages** Druidic, plus any two languages
+> - **Challenge** 9 (5,000 XP)   &emsp;&emsp;  **Proficiency Bonus** +4      
+> ___
+>
+>
+> ***Ancient Widow. (68 HP, 1/day).*** When the crone's hit points drop to half or less, she transforms into an Ancient Widow. While transformed this way, she gains flowing benefits:
+> 
+> * Her movement speed Becomes 50 ft.
+> * She gains advantage on all saving throws.
+> * She gains 20 temporary hit points at the start of each of her turns 
+> * Her Strength becomes 20
+> *  When she uses her action to cast a spell, she can make one weapon attack as a bonus action
+>
+> Anything the crone is wearing or carrying isn't transformed. She reverts to her true form if she dies or after one minute has passed.
+>
+> ***Forest Camouflage.*** The crone has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of her traits and the spells she knows.
+>
+> ### Bonus Action
+>
+> ***Crone's Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+>
+> ### Action
+>
+> ***Multiattack. (Ancient Widow Form Only).*** The crone makes two attacks
+>
+> ***Iron Claws. (Ancient Widow Form Only).*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:* 18 (2d12 + 5) slashing damage.
+>
+> ***Quarterstaff (Humanoid Form Only).*** *Melee Weapon Attack:* +4 to hit reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The spells the crone knows depend on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+>
+
+<img src='https://i.ibb.co/gDCxq7n/Kindly-Stranger-Shadows-over-Innistrad-Art.jpg' style='position:absolute; bottom:-200px; right:-10px; width:900px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-230px; right:00px; width:850px; transform:rotate(0deg);' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Woodland Crone Mother <Br> Lore of Magic Options 
+Select one of the following lores or magic to determine a crone mohter's additional passive trait, curse option, and spell list. <Br>
+**New spells listed at the end of the document*
+
+<br>
+
+> #### Crone Mother: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the crone targets only herself or one monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, she can choose for the spell to no longer require concentration. The spell ends early if the crone is incapacitated or uses this feature to alter another spell. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outnumbered or outsized. While cursed, if the creature is within 5 feet of two hostile creatures that are not incapacitated, or within 5 feet of a creature one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *eldritch blast* (three attacks), *guidance*, *primal savagery* (3d10)<br>
+> **2/Day:** *amber spear**, *augury*, *summon flock** (4th level), *wild surge**<br>
+> **1/Day:** *bestial spirit**, *impenetrable pelt** (6th level), *scrying*
+
+\columnbreak
+
+> #### Crone Mother: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the crone's spells of 1st level or higher, the crone gets a +1 to her spell save DC and spell attack rolls for the next minute. She can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Mortality's Grip (1/Day)*** The crone places a curse on a creature she can see within 90 feet, causing it to be overwhelmed by frailty. While cursed, if the creature fails a saving throw by 5 or more, it is stunned until the end of its next turn. The curse ends if the witch dies, curses another creature, or uses an action to end it.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *chill touch* (3d8), *druidcraft*, *eldritch blast* (three attacks), *guidance*<br>
+> **2/Day:** *augury*, *aspect of dread**, *crippling pain**, *spirit leech** (4th level)<br>
+> **1/Day:** *horrifying laughter**, *impending doom**, *scrying*
+
+<br>
+
+> #### Crone Mother: Lore of Shadows
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the crone casts a spell of 1st level or higher, she may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of her that she can see. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Harrowing Coil (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing dark spirits to lurk in the shadows around the cursed creature. Until the curse ends, the creature treats dim light and darkness as difficult terrain. When the creature moves into or within an area of dim light or darkness, it takes 1d8 psychic damage for every 5 feet it travels. The curse ends once the crone dies, curses another creature, or ends it as an action.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *creeping strike** (3d8), *druidcraft*, *eldritch blast* (three attacks),  *guidance*<br>
+> **2/Day:** *augury*, *mystifying miasma**, *shroud of dusk** (4th level),  *unseen lurker**, *withering resolve**<br>
+> **1/Day:** *penumbral pendulum**, *pit of shadows** *scrying*
+
+<img src='https://i.ibb.co/zJSBnk3/Infectious-Curse-Shadows-over-Innistrad-Art.jpg' style='position:absolute; top:-100px; left:-80px; width:650px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-400px; right:-380px; width:900px; transform: rotate(270deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:10px; right:-0px; width:900px; transform: rotate(0deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Crone's Hart
+> *Large fey, unaligned*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 90 (12d10 + 24)
+> - **Speed** 50 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |17 (+3)|16 (+3)|14 (+2)|7 (-2)|14 (+2)|12 (+1)|
+> ___
+> - **Saving Throws** Dex +5, Str +6
+> - **Damage Resistances** cold
+> - **Skills** Perception +4, Stealth +5
+> - **Senses** Darkvision 60 ft., passive Perception 14
+> - **Languages** Giant Elk, understands Druidic and Sylvan but can't speak them
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2       
+> ___
+>
+> ***Wild Charge.*** If the hart moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 6 (1d12) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the hart can make one stomp attack against it as a bonus action.
+>
+> ### Actions
+>
+> ***Ram.*** Melee Weapon Attack: +5 to hit, reach 10 ft., one target. *Hit:* 9 (1d12 + 3) bludgeoning damage.
+>
+> ***Stomp.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. *Hit:* 14 (2d10 + 3) bludgeoning damage.
+>
+
+\columnbreak
+
+> ##### Chariots
+> The Crone's Sled is considered a chariot. Rules for using chariots can be found at the end of the document.
+
+
+___
+> ## Crone's Sled
+>*Large chariot, 50 lbs*
+> ___
+> - **Armor Class** 14
+> - **Hit Points**  90 (12d10 + 24)
+> - **Damage Immunities** Poison, Psychic, Cold 
+> - **Max Speed** 50ft. 
+> - **Steed Capacity** 2 Large creature
+> - **Carriage Capacity** 1 Medium creature
+> - **Constitution Modifier** +2 
+> - **Challenge** 3 (700 XP)
+>___
+>
+> ***Hexed Cauldron.***  A creature can attune to the sled as a magic item. When a creature riding the sled that is attuned to it casts a spell that requires concentration, it can choose to have the sled maintain concentration on the spell in its stead. The sled only loses concentration if it is destroyed, if it starts concentrating on a new spell, or if the attuned creature is either dead or moves more than 60 feet from the sled.
+>
+> ***Trample.*** The chariot and its steeds can move through the space of a prone hostile creature without using additional movement if that creature is Medium-sized or smaller. If the chariot or its steeds end their turn within the creature's space, the creature becomes restrained. While restrained this way, the affected creature, or another creature within 5 feet of it, can make a DC 12 Strength check to try to free it. On a success, the restrained creature is moved to an unoccupied space of its choosing within 5 feet of the chariot and is no longer restrained.
+>
+> ***Winter Thicket Runner.*** The sled and its steeds are unaffected by non-magical, difficult terrain. Additionally, they can traverse through plants and ice without being slowed, grappled, restrained, knocked prone, or taking damage from thorny, spiky, or other hazardous plant features.
+>
+>
+> ### Steed Actions
+>
+> ***Freezing Charge.*** When a steed moves at least 20 feet in a straight line, it can then make a melee weapon attack against each creature it's facing within 5 feet. On a hit, each attack deals an additional 10 (3d6) cold damage. If this attack knocks a target prone, ice forms around the target, restraining it for 1 minute. The restrained creature, or another creature within its reach, can use an action to break the ice and end the restrained condition.
+>
+
+
+<img src='https://assets.echomtg.com/magic/cards/cropped/62934.hq.jpg' style='position:absolute; top:-0px; left:-70px; width:600px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-400px; right:-380px; width:900px; transform: rotate(270deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:120px; right:-0px; width:900px; transform: rotate(0deg)' />
+
+\pagebreakNum
+
+### Crones' Huts
+Birthed from the mystical mastery of The Crone Grandmother, the crone's huts stand as legendary embodiments of the woodland's might and the mystical power of the crones. Towering on colossal chicken legs, these huts are more than mere dwellings; they're animated entities with a semblance of life. Adorned with elements of the forest, their windows gleam eerily like living eyes, and their structure can produce haunting melodies.
+
+\columnbreak
+
+<br>
+
+These huts serve as mobile sanctuaries, effortlessly relocating to keep their crone inhabitants safe. Their natural camouflage lets them meld with the forest surroundings, becoming nearly invisible. If threatened, they can ruthlessly stomp and punt would-be intruders. The creation of such a hut requires immense power and elaborate rituals, binding the crone's essence to the dwelling. Once bound, the hut obeys the crone's every command and desire, becoming an extension of her will. Should the crone perish, the hut may go on a vengeful rampage or simply become dormant as its will slowly fades away.
+
+
+___
+___
+> ## Crone's Hut
+>*Huge Construct, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 310 (20d20 + 100)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|26 (+8)|16 (+3)|20 (+5)|1 (-5)|3 (-4)|18 (+4)|
+>___
+> - **Saving Throws** Int +0, Wis +1
+> - **Damage Immunities** poison, psychic
+> - **Damage Resistances** cold
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** blindsight 120 ft. (blind beyond this radius), passive Perception 6
+> - **Languages** Understands the languages of its creator but can't speak
+> - **Challenge** 13 (10,000 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +5       
+> ___
+>
+> ***Bound.*** The hut is magically bound to a creature. As long as the hut and the creature are on the same plane of existence, the creature can telepathically call the hut to it, and the hut knows the distance and direction of the creature. If a creature inside the hut casts a spell that requires concentration, it can choose to have the hut maintain concentration on the spell in its stead. The hut doesn't make concentration saving throws unless the damage that would force the save is from a critical hit.
+>
+> ***Extradimensional Walls.*** Creatures can't teleport into the hut unless it allows them to. Additionally, creatures with incorporeal movement or similar abilities can't move through its walls. The walls also extend into the Ethereal Plane, blocking ethereal travel.
+>
+> ***Immutable Form.*** The hut is immune to any spell or effect that would alter its form.
+>
+> ***Interior.*** A Large or smaller creature can spend all its movement to enter inside the hut or leave it, or only half its movement if it has a climbing speed. While the hut is not incapacitated, it can make an opposed Strength (Athletics) check against a creature attempting to enter. If the hut succeeds, the creature can't enter. Any movement it used to try to enter is wasted, and it can't try to enter again until the start of its next turn. 
+> 
+> The interior is a 15-foot-square space. While a creature is inside the hut, it has total cover against attacks and other effects outside the hut. Any attack that hits the hut from the inside is a critical hit.
+>
+> ***Sure-Footed.*** The hut has advantage on Strength and Dexterity saving throws made against effects that would knock it prone or move it against its will.
+>
+> ***Warded Home.*** The hut and creatures inside it have advantage on saving throws against spells and other magical effects originating from outside the hut. Additionally, creatures in the hut are shielded against divination magic, as though protected by a *nondetection* spell.
+>
+> ***Woodland Stalker.*** The hut has advantage on Dexterity (Stealth) checks made to hide using foliage. Additionally, the hut can move through plants without being slowed, taking damage, or being grappled or restrained by them.
+>
+> ### Actions
+> ***Multiattack.*** The hut makes two *Pinning Claw* attacks and uses *Expel*. It can replace one of its *Pinning Claw* with a *Punt* attack as long it is not grappling two or more creatures.
+>
+> ***Pinning Claw.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target not inside the hut. *Hit:* 30 (4d10 + 8) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 21 Strength saving throw or be knocked prone and grappled. The hut has two claws, each of which can grapple only one target.
+>
+> ***Punt.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target not inside the hut or grappled by it. *Hit:* 30 (4d10 + 8) bludgeoning damage. The target must succeed on a DC 21 Strength saving throw or be pushed 20 feet away. It has disadvantage on the saving throw if it is prone. If it fails by 10 or more (DC 11), it is pushed 40 feet away instead.
+>
+> ***Expel.*** The hut spins and attempts to force a number of creatures of its choice inside it to leave. Each chosen creature must succeed on a DC 17 Strength saving throw or be thrown anywhere between 20 to 40 feet away (the hut's choice). If the thrown target would hit another creature, that creature must succeed on a DC 17 Dexterity saving throw or be hit, taking 24 (3d10 + 8) bludgeoning damage and becoming prone. On a successful save, the creature dodges and takes no damage.
+
+\pagebreakNum
+
+### Boons of the Forest
+
+Crones can invoke the power of the ancient forests they protect to call upon powerful boons. One or more crones may be tied to the same forest this way, granting them access to the same boons.
+
+While a crone is within the forest she's tied to, on initiative count 20 (losing initiative ties), she can take a lair action to invoke one of the boons described below. Once a crone uses one of the effects, it can't be used again by any crone in the forest for the next hour. Only one crone can invoke the power of the forest this way each round. Each boon a crone has access to increases her CR by 2.
+
+Each boon gains its power from a specific Large object or creature within the forest. If such an object is destroyed or creature killed, the crones lose the ability to use that boon. A forest controlled by one more crones could have multiple objects or creatures that each provide access to a boon.
+
+Examples of these objects or creatures could include:
+* A large totem or stone marker
+* An ancient tree
+* A powerful beast that lives in the woods
+* One of the crones herself
+
+#### Woodland Boons
+
+&emsp;***Bewitching Lure.*** The crone targets any number of creatures she is aware of within 120 feet. Each chosen creature must succeed on a DC 15 Wisdom saving throw or drop whatever it is holding and become charmed by the crone until the end of its next turn. While charmed in this way, the creature must use the Dash action to move toward the crone by the safest available route unless it has nowhere to move.
+
+***Chant of Purification.*** The crone selects a point within 120 feet that she can see. For each creature within 60 feet of that point, the crone can end one disease, curse, or one of the following conditions afflicting it: blinded, charmed, deafened, frightened, paralyzed, or poisoned.
+
+***Grasping Forest.*** Foliage reaches out to grasp any creatures of the crone's choosing that she is aware of within 120 feet. Any chosen creature within 5 feet of a plant must succeed on a DC 15 Strength saving throw or be restrained by entangling roots and vines. While restrained, the creature can't teleport or use extradimensional or interplanar means of travel. The restraint can be ended if the creature or another creature that can reach it uses an action to make a DC 15 Strength check to rip away the plants. The entangling plants wither away after 1 minute.
+
+***Jinxed Land.*** The crone, any chariot she is riding, and any number of willing creatures within 15 feet of her are teleported to a spot within 5 feet of a tree within 100 feet. Any creature teleported this way becomes invisible until the start of its next turn.
+
+
+***Wild Spirit.*** The crone summons a spirit with the stats of a Cave Bear at a point within 60 feet of her. The summoned creature acts as an ally to the crone and her companions. It acts on initiative count 19. It obeys any verbal commands given by the crone (no action required). If no commands are given, it attacks any hostile creatures within its line of sight. The bear vanishes after one minute.
+
+
+\columnbreak
+
+<bR>
+
+> ##### Designer's Note: Player Incentives
+> If you're running an adventure where the players are exploring woods controlled by multiple crones, having various objects imbued with hexes can provide players with additional objectives to destroy these objects, making their journey through the woods easier. Alternatively, you may have the players assist the crones in their battle against the foreign threat. In this case, the crowns could grant the players permission to use the hexes while they travel through the woods.
+
+<br>
+
+### Woodland Crone Adventures
+The following table provides some ways to create adventures featuring these undying lore keepers in your games:
+
+##### Woodland Crone Adventure Hooks
+
+| d6  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | **Wandering Children:** Children from a nearby village have started disappearing, with the last seen heading towards the woods. Rumors circulate that a woodland crone has been seen in the vicinity. Is she responsible, or is there a deeper mystery at play?|
+|  2  | **The Crone's Cure:** A deadly disease has struck a city, and the only known cure is a potion brewed by a Woodland Crone. The party is tasked with venturing into the forest, locating the crone, and obtaining the remedy.|
+|  3  |**The Crone's Curse:** A local lord has been cursed by a crone after he desecrated a sacred grove. The party is hired either to lift the curse or to convince the crone to do so. |
+|  4  | **Mother's Conclave:** Every few decades, the crone mothers from different covens gather for a secretive conclave. Rumors suggest they plan to summon a powerful spirit entity. The party can either aid or hinder their ritual. |
+|  5  | **Darkness Beckons:** A coven of crones, swayed by dark spirits, is amassing power, threatening both the balance of the forests and the neighboring lands. The party must either join forces with benevolent crones or confront this dark coven head-on.  |
+|  6  | **The Crone's Quarral:** The party finds themselves caught in a feud between three crones. The have the option to join forces with one of the crones and gain her blessings, but doing so causes the other two to unite against them.|
+
+\pagebreakNum
+
+### Woodland Crone Tactics
+
+These tactics focus on how crones riding sleds drawn by 2 harts will fight. The tactics will vary significantly if the crone doesn't have a sled, and it is important the crone has the support of minions in such situations, as a lone crone is highly vulnerable and unlikely to last long in a fight.
+
+#### Crone's Sled
+While riding her sled, the crone employs hit-and-run strategies, utilizing her harts to ram into vulnerable targets.
+
+The sled's Hexed Cauldron ability allows it to maintain concentration on a spell for the crone. This enables her to maintain two spells that require concentration at once. Typically, the crone assigns her most powerful spell to her sled as it retains concentration unless destroyed.
+
+#### Ancient Widow Form
+Crone mothers transform into Ancient Widows when reduced to half health or less, enhancing their melee combat abilities. Despite this transformation, they do not become full-fledged frontline fighters and shouldn't be recklessly thrown into melee combat.
+
+
+#### Crones of Shadow
+More than any other type of crone, crones of shadow depend on their minions to be effective.
+
+**Shadow Paths.** The crone will only use this ability to leave her sled if the sled becomes immobilized. The minion she swaps places with will be charged with restoring the sled's mobility. Once mobile again, the crone will swap back to reassume her position on the sled.
+
+**Harrowing Coil .** Deploy Harrowing Coil on agile skirmishers such as rogues or monks.
+
+
+##### Spell-Casting Hierarchy
+&emsp;**Pit of Shadows.** Prioritize casting this spell on two or more targets with below-average Dexterity.
+
+**Withering Resolve or Penumbral Pendulum.** Opt for penumbral pendulum if it can hit two or more targets or an immobilized target that will be struck again by the pendulum on the subsequent turn.
+Alternatively, cast withering resolve on the target with the lowest Wisdom saving throw. Follow up with a charge using the crone's harts to exploit the attacks now made with advantage.
+
+**Mystifying Miasma.** Cast when two or more targets can be hit, with one of them being under the effects of Harrowing Coil, so the conjured shadows inflict extra damage to the cursed creature.
+
+**Shroud of Dusk or Unseen Lurker.** Use Shroud of Dusk when it can hit two or more targets. Unseen Lurker serves as an escape tool or an alternative attack facilitator for the crone. It's particularly effective when used in the crone's Ancient Widow Form to hide her actions or position.
+
+
+\columnbreak
+
+#### Crones of Death
+Crones adept in this lore of magic typically reserve their more potent spells for later combat stages.
+
+**Life Leech Trait.** Crones start off with their lower-level spells to ramp up the bonus from this trait. They will then leverage their increased power to maximize their most powerful spells.
+
+**Inversus Curse.** This curse should target a creature with low Charisma and Wisdom, who will then become a prime target for the crone's single-target spells.
+
+##### Spell-Casting Strategies
+&emsp;**Aspect of Dread.** This is a potent opening spell forcing multiple targets to make saving throws, thereby fueling the Life Leech trait. Beware that this spell can also affect allies.
+
+**Impending Doom.** This is best used against a target marked with the Inversus curse. The crone can then follow this up with an assault by her harts and sled to take advantage of its poor saving throws.
+
+**Spirit Leech.** Use this spell against creatures maked with the Inversus curse target before the crone's hit points drop to half so the temporary hit points gained don't cancel out any she will get from her Survivor or Ancient Widow trait.
+
+**Crippling Pain.** Cast this on either the Inversus-cursed target or a creature encased in ice by the Freezing Charge ability of the harts.
+
+**Horrifying Laughter.** Cast upon the Inversus-cursed target once the Life Leech trait has enhanced the crone's saving throws by +2.
+
+
+#### Crones of Beasts
+Because many of these crones' spells have a duration of an hour, and they have ways to maintain several of them at once, crones of beasts can be significantly more dangerous if they have time to prepare for a fight. 
+
+**Wild Heart Trait.** This trait, when coupled with the crone riding on a sled, enables her to maintain concentration on three spells simultaneously, with the harts being prime targets for her spells. 
+
+**Craven Scent Curse.** This curse is best targeted at frontline fighters.
+
+##### Spell-Casting Strategies
+&emsp;**Impenetrable Pelt.** The crone casts this defensive spell on herself to bolster her survivability.
+
+**Bestial Spirit.** The summoned spirit should be positioned next to melee fighters possessing low Dexterity or targets slow enough that they can't outrun the Bestial Spirit.
+
+**Wild Surge.** This spell works well with the Wild Heart trait and should target the crone's most formidable minion or herself while she is in Ancient Widow Form and has lost concentration on Impenetrable Pelt.
+
+**Amber Spear.** This spell is particularly effective when it can hit three targets simultaneously (or at least two targets with low Dexterity).
+
+**Summon Flock.** This spell is generally a lower priority among the crone's concentration spells. It's mostly useful when the crone doesn't have access to Impenetrable Pelt or she's scouting for enemies within her forest domain. The spell inflicts minimal damage, and its primary utility lies in disrupting the concentration of opposing spell casters.
+
+\pagebreakNum
+
+
+### Crone's Hut Tactics
+The crone's hut is created by and loyal to the crones and dutifully carries out any command they give it. Its primary function is safeguarding a crone's magical items or the crone herself. When occupied by a crone, the hut transforms into a mobile fortress, offering protection and mobility.
+Despite its formidable presence, the hut tends to avoid direct confrontations with creatures that have high Strength and Athletics scores. The risk lies in these foes being able to break inside the hut and either harm the crone within or inflict damage on the hut from the inside out. Instead, the hut prioritizes targeting those with less Strength.
+
+#### Combat Tactics
+The hut prioritizes attacking two creatures within 30 feet of each other. This tactic allows it to utilize its pinning claw attacks without needing to move and allows it to grapple two adversaries simultaneously.
+
+If the hut begins its turn with a melee-focused enemy grappled, it will use an attack to punt the enemy away to maintain distance.
+
+#### Special Expel Combos
+
+&emsp;**Punt and Expel Combo:** If the hut has an enemy grappled, it can punt that creature and then swiftly expel another creature from inside itself 
+toward the enemy it just punted.
+
+**Expel, Claw, Punt Combo:** If the hut doesn't have any adversaries grappled, it can approach an expelled creature, lash out with a claw attack, and subsequently punt the creature away.
+
+### Woodland Crone Loot
+Most of the valuable goods that can be looted from woodland crones come in the form of items they wear or carry. Most dropped valuables can be found using an **Intelligence (Investigation)** or identified using an **Intelligence (Religion)** check. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Woodland Crone Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Woodland Crone Apprentice Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 2d4(5) 5sp Items |
+|  6-8 | 1d6(3) 1gp Items | 
+|  9-14 | 2d4(5) 1gp Items  |  
+|  15-19 | 1d6(3) 2gp Items |  
+|  20+ |  2d4(5) 2gp Items |   
+
+\columnbreak
+
+##### Woodland Crone Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 2d4(2) 5gp Items |
+|  8-12 | 1d6(3) 5gp Items | 
+|  13-18 | 1d4(2) 10gp Items  |  
+|  19-22 | 1d6(3) 10gp Items |  
+|  23+ |  1d4(2) 20gp Items |  
+
+
+
+
+##### Woodland Crone Mother Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 50gp Item |
+|  8-11 | 1 100gp Item | 
+|  12-18 | 1d4(2) 100gp Items  |  
+|  19-23 | 1 200gp Item |  
+|  24+ |  1d4(2) 200gp Items |  
+
+##### Crone's Sled Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1 5gp Item |
+|  7-18 | 1d4(2) 5gp Items | 
+|  19-22 | 1 10gp Item |  
+|  23+ |  1d4(2) 10gp Items |  
+
+##### Crone's Hart Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 2d4(5) 5sp Items |
+|  6-8 | 1d6(3) 1gp Items | 
+|  9-14 | 2d4(5) 1gp Items  |  
+|  15-19 | 1d6(3) 2gp Items |  
+|  20+ |  2d4(5) 2gp Items |  
+
+
+
+<img src='https://i.ibb.co/jz38d76/Ragged-Recluse-Innistrad-Crimson-Vow-Mt-G-Art.jpg' style='position:absolute; bottom:-130px; right:-90px; width:720px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-130px; right:-70px; width:850px; transform:rotate(-0deg);' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:120px; right:270px; width:850px; transform:rotate(-90deg);' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:120px; right:290px; width:850px; transform:rotate(-50deg);' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-420px; right:270px; width:850px; transform:rotate(-0deg);' />
+
+\pagebreakNum
+
+
+#### Example Woodland Crone Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Common Crone Item Names
+|1d6 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Animal Bone |  Animal Bone |  Pristine Preserved Bone  | 
+| 2 <br> (Cloth)  | Tattered Apprentice's Cowl|  Apprentice's Cowl |  Masterwork Apprentice's Cowl  | 
+| 3 <br> (Hide)  | Damaged Hide Scraps|  Hide Scraps |  Masterwork Hide Scraps  | 
+| 4 (Jewelry)  | Damaged Quartz Charm| Quartz Charm |  Masterwork Quartz Charm  |
+| 5 <br> (Liquid) | Watery Apprentice Brew| Apprentice Brew|  Masterful Apprentice Brew| 
+| 6 <br> (Wood) | Damaged Apprentice's Staff | Apprentice's Staff |  Masterwork Apprentice's Staff | 
+
+
+##### Example Uncommon Crone Item Names
+|1d6 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Monstrous Bone |  Monstrous Bone |  Pristine Monstrous Bone  | 
+| 2 <br> (Cloth)  | Tattered Crone's Cowl|  Crone's Cowl |  Masterwork Crone's Cowl  | 
+| 3 <br> (Hide)  | Damaged Monster Pelt|  Monster Pelt |  Pristine Monster Pelt  | 
+| 4 (Jewelry)  | Damaged Lapis Lazuli Charm| Lapis Lazuli Charm |  Masterwork Lapis Lazuli Charm  |
+| 5 <br> (Liquid) | Watery Crone Brew| Crone Brew|  Masterful Crone Brew| 
+| 6 <br> (Wood) | Damaged Crone's Staff | Crone's Staff |  Masterwork Crone's Staff | 
+
+
+
+\columnbreak
+
+##### Example Rare Crone Item Names
+|1d6 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Runed Bone |  Runed Bone |  Pristine Runed Bone | 
+| 2 <br> (Cloth)  | Tattered Crone Mother's Cowl|  Crone Mother's Cowl |  Masterwork Crone Mother's Cowl  | 
+| 3 <br> (Hide)  | Damaged Runed Pelt|  Runed Pelt |  Masterwork Runed Pelt  | 
+| 4 (Jewelry)  | Damaged Garnet Charm| Garnet Charm |  Masterwork Garnet Charm  |
+| 5 <br> (Liquid) | Watery Crone Mother Brew| Crone Mother Brew|  Masterful Crone Mother Brew| 
+| 6 <br> (Wood) | Damaged Crone Mother's Staff| Crone Mother's Staff|  Masterwork Crone Mother's Staff| 
+
+##### Example Crone's Sled Item Names
+|1d4 | 5gp Item | 10gp Item |
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Wood)  |  Cracked Crone Sled Scraps |  Crone Sled Scraps |
+| 3-4 <br> (Metal) | Cracked Crone Cauldron Scraps | Crone Cauldron Scraps |
+
+##### Example Crone's Hart Item Names
+|1d6 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Hart Bone |  Hart Bone |  Pristine Hart Bone | 
+| 4 <br> (Hide)  | Damaged Hart Pelt|  Hart Pelt |  Pristine Hart Pelt  | 
+| 5 <br> (Liquid) | Clotted Hart Blood | Hart Blood|  Pristine Hart Blood | 
+| 6 <br> (Flesh) | Stringy Hart Meat | Hart Meat |  Prime Hart Meat | 
+
+##### Example Crone's Hut Item Names
+|1d6 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 (Bone)  | Cracked Crone's Hut Bone| Crone's Hut Bone|  Pristine Crone's Hut Bone |
+| 2-4 <br> (Wood) | Damaged Crone's Hut Fragments| Crone's Hut Fragments| Pristine Crone's Hut Fragments| 
+
+#### Woodland Crone Art Credit
+* Barrow Witches - Alex Brock, Wizards of the Coast
+* Curse of Bounty - Kieran Yanner, Wizards of the Coast
+* Neva, Stalked by Nightmares - Tyler Jacobson, <Br> Wizards of the Coast
+* Kindly Stranger - Ryan Pancoast, Wizards of the Coast
+* Infectious Curse - Wesley Burt, Wizards of the Coast
+* Great Sable Stag - Matt Cavotta, Wizards of the Coast
+* Ragged Recluse - Lie Setiawan,  Wizards of the Coast
+* Ward of Bones - David Martin, Wizards of the Coast
+
+<img src='https://assets.moxfield.net/cards/card-k762p-art_crop.jpg' style='position:absolute; bottom:-40px; left:-90px; width:510px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:40px; right:-320px; width:900px; transform: rotate(-90deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:-270px; width:900px; transform: rotate(220deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-120px; right:-15px; width:900px; transform: rotate(180deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-200px; right:00px; width:850px; transform:rotate(0deg);' />
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## The Crone Grandmother
+
+Whispered tales of darkness and caution, shared by the crackling fire or told to frightful children in their beds, often speak of The Crone Grandmother. She is a figure looming large in the folklore of countless civilizations. Those who have truly crossed her path know her not merely as a tale, but as a force of nature, one that they'd rather forget.
+
+Her visage is as haunting as the stories suggest. Many say she resembles a decrepit old woman, bent but unbroken by her countless years. Her skin is sallow, riddled with the markings of the arcane. Eyes as deep as the darkest forest pools seem to hold eons of knowledge and wrath, while long, bony fingers end in sharpened claws. The Grandmother's gnarled form is adorned with trinkets and fetishes of old, her raiment crafted from the very creatures of the woods she calls home. 
+
+It is said she emerged from the deepest corners of the ancient woodlands. As the guardian of her homeland, her power is intimately tied to it. Any who would dare harm her cherished woods would find themselves cursed by her magic. This isn't just any curse; it's a blight that seeps into one's very essence, causing their talents and strengths to wane, followed by an inexorable ebbing of life itself. 
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Even as she withers her foes away, her own vigor is restored as she draws vitality from the very soil she protects.
+
+Yet, for all her terrifying might, there exists an even darker form that she can assume. When pushed beyond her limits, she allows herself to be consumed by the primeval spirit known as the ancient widow. This spirit transforms her into a hulking monstrosity, towering over her foes. In this form, her claws brim with ancient curses, and her iron teeth, now grotesquely pronounced, can grind to emit a shrill, maddening noise that lays her enemies low.
+
+But for all her terrifying reputation, one thing is clear. The Crone Grandmother is a guardian first and foremost, a protector of her sacred homeland. To those who would harm it, she is a nightmare incarnate. Yet, to those who show respect and tread lightly, she remains a distant myth, a story to be shared in hushed tones, a warning to heed. Respect the wilds, and the wilds will respect you. But cross the Crone Grandmother, and you may just find the tales to be terrifyingly real.
+
+
+
+ <img src='https://i.ibb.co/K61w8R9/Baba-Lysaga-Night-Witch-Battle-for-Baldurs-Gate-Mt-G-Art.jpg' style='position:absolute; top:-80px; right:-70px; width:1100px; transform:scaleX(-1)' />
+ 
+ <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:295px; right:0px; width:900px; transform:rotate(10deg)' />
+
+
+\pagebreakNum
+
+___
+___
+> ## The Crone Grandmother
+> *Medium humanoid (human), neutral*
+> ___
+> - **Armor Class** 15 (chain shirt)
+> - **Hit Points** 212 (25d8 + 100)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|12 (+1)|18 (+4)|20 (+5)|18 (+4)|18 (+4)|
+>___
+> - **Saving Throws** Str +5, Dex +6, Int +9, Wis +10
+> - **Skills** Arcana +9, Medicine +10, Nature +9, Survival +10
+> - **Senses** darkvision 120 ft., truesight 120 ft., passive Perception 15
+> - **Languages** Druidic, plus any two languages
+> - **Challenge** 13 (10,000 XP) &emsp;&emsp; **Proficiency Bonus** +5      
+> ___
+>
+> ***Draw from the Earth.*** When the crone casts a spell of 1st level or higher, she may cause a 10-foot square of ground centered on herself to become bewitched for one minute. She can have up to three different areas bewitched at one time. At the start of the crone's turn, she or a creature she can see within 30 feet of her regains 10 hit points for each bewitched area within 60 feet of her that does not have a hostile creature occupying it. A *dispel magic* spell or similar magic will end the bewitchment on any given area.
+>
+> ***Forest Camouflage.*** The crone has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Malediction of Ruin (1/Day).*** On initiative count 20 (losing initiative ties), the crone names up to six creatures, cursing each of them for one minute or until the crone dies. When a creature cursed this way starts its turn within 120 feet of the crone, it must make a DC 18 saving throw; on failure, one of its ability scores is reduced by 1d4 until the curse ends. The target dies if this reduces its score to 0. The saving throw type and the ability score that is reduced is the creature's highest ability score other than Constitution. If two or more ability scores are tied for the highest value, the crone chooses one. A *remove curse* spell cannot remove the curse from a creature unless cast at a 6th level or higher; if it is cast at a lower level, it instead allows the creature to automatically succeed on its next saving throw against the curse.
+>
+> ***Spirits' Wrath.*** When the crone hits with a spell attack, she adds her Wisdom modifier to the damage dealt on a hit (5), and if the target is a creature, she can push it up to 10 feet away from her in a straight line.
+>
+> ***Survivor (30 HP, 1/Day).*** When the crone's hit points drop to half or less, for the next minute, she gains advantage on all saving throws and also gains 25 temporary hit points at the start of each of her turns.
+>
+> ### Actions
+>
+> ***Multiattack.*** The crone can make two Quarterstaff attacks or cast two cantrips.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The crone casts one of the following spells, requiring no components and using Wisdom as her spellcasting ability (spell save DC 18, +10 to hit with spell attacks):
+>
+> **At will:** druidcraft, *eldritch blast (three attacks)*, guidance
+>
+> **2/Day:** *amber spear** (4th level), *augury*, *crippling pain** (4th level), *summon flock** (5th level), *withering resolve**
+>
+> **1/Day:** *bestial spirit**, *impending doom**, *scrying*, *mindrazors**
+>
+> ### Legendary Actions
+>
+> The crone can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The crone regains spent legendary actions at the start of her turn.
+> 
+> **Blast.** The crone casts *eldritch blast*, making only one attack.
+>
+> **Check.** The crone makes a skill check that would normally require an action.
+>
+> **Teleport.** The crone teleports herself to any other spot within 15 feet. She arrives at exactly the spot desired. It can be a place she can see, one she can visualize, or one she can describe by stating distance and direction. If she would arrive in a place already occupied by an object or a creature, the ability fails to teleport her.
+>
+> **Tenacious Will.** If the crone is suffering from an effect that allows her to make a saving throw as an action or at the beginning or end of her next turn, she may immediately make that save against the effect with advantage. She can use this legendary action while incapacitated.
+>
+> **Spell Casting (Costs 3 Actions).** The crone casts a spell.
+
+
+
+\pagebreakNum
+
+### Form of the Ancient Widow
+When the Crone Grandmother would drop to 0 hit points or die, instead, her body begins twisting, twitching, and contorting as she becomes possessed by the Ancient Widow. The Crone Grandmother instantly changes into her Ancient Widow form in an unoccupied space within 5 feet of where her first form disappeared. Her initiative count doesn't change. 
+
+When she has access to this ability, both her forms combined are treated as a CR 18 creature.
+
+<br><br><br><br><br><br><br>
+
+\columnbreak
+
+___
+___
+> ## Ancient Widow 
+>*Large* fey, unaligned
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 218 (23d10+92)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|20 (+5)|18 (+4)|20 (+5)|18 (+4)|18 (+4)|
+>___
+> - **Saving Throws** Str +10, Dex +10, Int +9, Wis +10
+> - **Skills** Arcana +9, Medicine +10, Nature +9, Survival +10
+> - **Senses** darkvision 120 ft., truesight 120 ft., passive Perception 15
+> - **Languages** Druidic, plus any two languages
+> - **Challenge** 13 (10,000 XP) &emsp;&emsp; **Proficiency Bonus** +5      
+> ___
+>
+> ***One with the Wild.*** The widow has advantage on Dexterity (Stealth) checks made to hide in foliage, heavy rain, falling snow, mist, and other natural phenomena and can do so when only lightly obscured. Additionally, the widow can move through plants without being slowed, taking damage, or being grappled or restrained by them. She also can move through trees as if they were difficult terrain, taking 10 force damage if she ends her turn inside a tree.
+>
+> ***Avatar of the Land.*** At the start of the widow's turn, she regains 10 hit points for each bewitched area within 60 feet of her that does not have a hostile creature occupying it. The widow dies only if she starts her turn with 0 hit points and doesn't regenerate.
+>
+> ### Actions
+>
+> ***Bewitched Bolt.*** *Ranged Spell Attack:* +10 to hit, range 120 ft., one creature. *Hit:* 16 (2d10 + 5) necrotic damage. If the target is a creature suffering from the Malediction of Ruin curse, the ability score chosen by the curse is reduced by 1d4 until the curse ends. The attack has advantage if the widow is standing on bewitched ground and the target is not.
+>
+> ***Cursed Metal Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) piercing damage plus 9 (2d8) poison damage. If the target is a creature suffering from the Malediction of Ruin curse, the ability score chosen by the curse is reduced by 1d4 until the curse ends.
+>
+> ***Iron Claws.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:* 18 (2d12 + 5) slashing damage.
+>
+> ### Legendary Actions
+>
+> The widow can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The widow regains spent legendary actions at the start of its turn.
+> 
+> **Check.** The widow makes a skill check that would normally require an action.
+>
+> **Claw.** The widow makes a claw attack.
+>
+> **Teleport.** The widow teleports herself to any other spot within 15 feet. She arrives at exactly the spot desired. It can be a place she can see, one she can visualize, or one she can describe by stating distance and direction. If she would arrive in a place already occupied by an object or a creature, the ability fails to teleport her.
+>
+> **Tenacious Will.** If the widow is suffering from an effect that allows her to make a saving throw as an action or at the beginning or end of its next turn, she may immediately make that save against the effect with advantage. She can use this legendary action while incapacitated.
+>
+> **Grinding Teeth. (Costs 2 Actions)** The widow grinds her metal teeth together, making an ear-splitting sound. Each other creature within 120 feet of the widow must make a DC 18 Constitution saving throw. On a failed save, a creature takes 10 (3d6) thunder damage and falls prone. On a successful save, a creature takes half as much damage and doesn't fall prone.
+
+ <img src='https://assets.echomtg.com/magic/cards/cropped/40361.hq.jpg' style='position:absolute; top:-50px; right:-275px; width:800px; transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:140px;top:-230px;height:1400px;width:1416px;transform:rotate(282deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:100px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+\pagebreakNum
+
+
+### The Crone Grandmother Adventures
+The following table provides some ways to create adventures featuring the wisened grandmother in your games:
+
+##### Crone Grandmother Adventure Hooks
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | **The Blighted Land:** Crops are failing and livestock are dying in the nearby lands. The local leaders suspect that it is the work of The Crone Grandmother, cursing the lands for some unknown transgression. They seek the party's aid to negotiate with her or, if that fails, to put an end to her curse.|
+|  2  | **Cursed Bloodline:** A local noble seeks the party's help after being cursed by The Crone Grandmother, causing their lineage to slowly transform into wild beasts. To break the curse, they must delve into the heart of the haunted woods, confront the crone, and unravel her reasons for enmity against the noble family.|
+|  3  |**The Walking Hut:** Reports abound of a massive hut on chicken legs terrorizing remote settlements. Each attack corresponds with an ancient stone being stolen from the village. The adventurers must track down the hut, confront The Crone Grandmother who commands it, and uncover her plan involving these ancient stones. |
+|  4  | **The Crones' Coup:** A rogue faction of woodland crones, disapproving of the Grandmother’s methods, threatens to upend the balance of the forests. Reluctantly, she and the adventurers must come together to restore equilibrium. |
+
+### The Crone Grandmother Tactics
+
+&emsp;**Malediction of Ruin:** This curse ensures the crone's adversaries will slowly wither away, losing their effectiveness over time before finally perishing. Assuming she is able to utilize it effectively, she will fight defensively and use attrition to wear her enemies down.
+
+**Draw from the Earth:** The crone aims to disseminate the bewitched ground across the battlefield, positioning them at intervals within 60 feet of each other. Her focus is on keeping adversaries away from these grounds, thus granting her the stamina to outlast her foes.
+
+#### Concentration Spells & Their Priority
+&emsp;**Impending Doom:** This spell accelerates the effects of Malediction of Ruin and should target characters with poor Charisma saves.
+
+**Bestial Spirit:** The summoned spirit should be positioned atop foes standing on the bewitched ground, compelling them to relocate or suffer its damage.
+
+**Withering Resolve:** This spell accelerates the effects of Malediction of Ruinand should target characters with poor Wisdom saves. If the crone can maintain concentration on two spells—by using a crone's sled or crone's hut—she will use this spell twice on the same target.
+
+**Summon Flock:** The attacks from this spell gain potency from the crone's Spirit's Wrath trait, and she uses them to drive enemies off her bewitched terrain.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+**Mindrazors:** This spell excels when the crone has weapon-wielding allies. If so, it takes precedence; otherwise, it's of limited value.
+
+#### Non-Concentration Spells & Their Casting Priority
+
+&emsp;**Amber Spear:** This spell is best used when it can affect three or more targets (or two targets with low Dexterity saves).
+
+**Eldritch Blast:** Leveraging her Spirit's Wrath trait, the crone uses this spell to push foes away from her bewitched ground.
+
+**Crippling Pain:** This spell is ideally cast upon agile players, such as monks or rogues.
+
+ <img src='https://i.ibb.co/YQ4xhL2/Baba-Yaga-Hut5e.jpg' style='position:absolute; top:-10px; right:-15px; width:440px; transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:-230px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:370px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:200px;height:1400px;width:1416px;transform:rotate(210deg)' />
+
+\pagebreakNum
+
+#### Ancient Widow Form
+The crone retains the same combat priorities as her standard form. Her overarching objective remains to prolong battles, allowing her Malediction of Ruin to erode her adversaries.
+
+**Cursed Metal Bite:** This attack is reserved for the most vulnerable foes. The crone uses it on the player whose ability score has suffered the greatest reduction.
+
+**Legendary Claw Attacks:** Her legendary actions are primarily employed to unleash claw strikes on the most wounded enemy.
+
+**Countering Melee Denial:** If opponents are staying out of her melee range, the crone retaliates with her Bewitched Bolt attacks. Furthermore, she utilizes her legendary actions to employ the devastating Grinding Teeth ability to damage and knock foes prone, giving her a chance to close in on them.
+
+### Crone Grandmother Loot
+Most of the valuable goods that can be looted from The Crone Grandmother comes in the form of items she wears <Br> or carries. Most dropped valuables can be found using an **Intelligence (Investigation)** or identified using an **Intelligence (Religion)** check. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+If the players are looting her hut for materials that were part of its construction, they could use Intelligence checks with the appropriate tools such as Carpenter's Tools or Woodcarver's Tools.
+
+#### Crone Grandmother Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Crone Grandmother Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 2d4(5) 100gp Items |
+|  9-11 | 2d6(7) 100gp Items | 
+|  12-18 | 1d6(3) 200gp Items  |  
+|  19-23 | 2d4(5) 200gp Items |  
+|  24+ |  2d6(7) 200gp Items |  
+
+<br>
+
+### Art Credit
+* Baba Lysaga, Night Witch - Slawomir Maniak, Wizards of the Coast
+* Hag Hedge-Mage - Scott Altmann, Wizards of the Coast
+* Baba Yaga's Hut, 5e Dungeon Master's Guide - Wizards of the Coast
+
+\columnbreak
+
+##### Crone Grandmother + Ancient Widow <Br> Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 2d4(5) 500gp Items |
+|  10-12 | 1d6(3) 1,000gp Items | 
+|  13-19 | 2d4(5) 1,000gp Items  |  
+|  20-24 | 2d4(5) 2,000gp Items |  
+|  25+ |  2d6(7) 2,000gp Items |  
+
+#### Example Crone Grandmother Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+##### Example Rare Crone Item Names
+|1d6 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Runed Bone |  Runed Bone |  Pristine Runed Bone | 
+| 2 <br> (Cloth)  | Tattered Crone Mother's Cowl|  Crone Mother's Cowl |  Masterwork Crone Mother's Cowl  | 
+| 3 <br> (Hide)  | Damaged Runed Pelt|  Runed Pelt |  Masterwork Runed Pelt  | 
+| 4 (Jewelry)  | Damaged Garnet Charm| Garnet Charm |  Masterwork Garnet Charm  |
+| 5 <br> (Liquid) | Watery Crone Mother Brew| Crone Mother Brew|  Masterful Crone Mother Brew| 
+| 6 <br> (Wood) | Damaged Crone Mother's Staff| Crone Mother's Staff|  Masterwork Crone Mother's Staff| 
+
+##### Example Very Rare Crone Item Names
+|1d6 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Bewitched Bone |  Bewitched Bone |  Pristine Bewitched Bone | 
+| 2 <br> (Cloth)  | Tattered Crone Grandmother's Cowl|  Crone Grandmother's Cowl |  Masterwork Crone Grandmother's Cowl  | 
+| 3 <br> (Hide)  | Damaged Bewitched Pelt|  Bewitched Pelt |  Masterwork Bewitched Pelt  | 
+| 4 (Jewelry)  | Damaged Emerald Charm| Emerald Charm |  Masterwork Emerald Charm  |
+| 5 <br> (Liquid) | Watery Crone Grandmother's Brew| Crone Grandmother's Brew|  Masterful Crone Grandmother's Brew| 
+| 6 <br> (Wood) | Damaged Crone Grandmother's Staff| Crone Grandmother's Staff|  Masterwork Crone Grandmother's Staff| 
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Woodland Ambushers
+In the shadowed expanse of the northern woods, a particular breed of warriors has honed their deadly craft over generations. Known simply as the woodland ambushers, these elusive figures are the stuff of legends among those who live in the realms where they roam.
+
+ 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
+
+**Garb of the Forest.** These warriors seamlessly blend into the woodland, donning clothing made from the very essence of the woods they call home.
+Their attire is a blend of leather hides and animal pelts, interwoven with bones from prized kills and various other forest remnants, designed not only for camouflage but also as an homage to the spirits of the forest.
+
+___
+___
+> ## Woodland Ambusher
+> *Medium humanoid (human), lawful neutral*
+> ___
+> - **Armor Class** 15 (studded leather)
+> - **Hit Points** 58 (9d8 + 18)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|16 (+3)|14 (+2)|12 (+1)|16 (+3)|10 (+0)|
+> ___
+> - **Saving Throws** Str +3, Dex +5
+> - **Skills** Acrobatics +5, Perception +7, Insight +5, Intimidation +2, Stealth +7, Survival +7
+> - **Senses** passive Perception 15
+> - **Languages** Any two languages
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Archery.*** The ambusher adds +2 to the attack rolls it makes with ranged weapons (included in the attack).
+>
+> ***Bull's Eye (1/Turn).*** The ambusher deals an extra 21 (6d6) damage when it hits a target with a ranged weapon attack that deals piercing damage and has advantage on the attack roll.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain costs the ambusher no extra movement.
+>
+> ***Mask of the Wild.*** The ambusher can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+>
+> ***Surprise Attack.*** If the ambusher surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.
+>
+> ***Survivor (29 HP, 1/Day).*** When the ambusher's hit points drop to half or less, for the next minute, it gains advantage on all saving throws and also gains 10 temporary hit points at the start of each of its turns.
+>
+> ### Actions
+>
+> ***Multiattack.*** The ambusher makes two attacks with its scimitar.
+>
+> ***Heavy Crossbow.*** *Ranged Weapon Attack:* +7 to hit, range 100/400 ft., one target. *Hit:* 8 (1d10 + 3) piercing damage.
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage.
+>
+> ### Bonus Actions
+>
+> ***Vanish.*** The ambusher takes the Hide action.
+
+<img
+src='https://64.media.tumblr.com/951f2da44c9ead6d3f722e7e503a30bf/tumblr_o4v4x0AMen1vn68joo1_1280.jpg'
+style='position:absolute;top:-40px;left:-40px;width:870px;transform: scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-200px;top:100px;height:1400px;width:1416px;transform:rotate(183deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-59px;top:80px;height:1400px;width:1416px;transform:rotate(195deg)' />
+
+
+\pagebreakNum
+
+&emsp;**Shadowy Enforcers.** The woodland ambushers act as secretive scouts and enforcers operating outside any form of structured or traditional law. Employed to silently eliminate any threat to those they owe allegiance to, their reputation precedes them. An enemy marked by the ambushers seldom lives to tell the tale.
+
+**Master Hunters.** Navigating the challenging terrain of the northern woods demands not just strength but also a unique understanding of the land. The ambushers are survivalists, trained from a young age in tracking, trapping, and hunting. They are equally known for their uncanny precision with the crossbow, a weapon they've mastered over countless years. Their shots, always taken from the shadows, strike their targets with pinpoint precision.
+
+**Dark Allegiances.** While their skills often find them in the service of royalty, protecting borders or scouting enemy lines, the woodland ambushers also have a darker side to their allegiances. It's whispered that they serve the enigmatic dark crones of the woodlands. These mysterious figures, wielding ancient and arcane powers, often call upon the ambushers to enforce their will upon the woods.
+
+
+**The Wolfhearts.** This elite unit of ambushers is revered and feared in equal measure. Not just satisfied with ranged combat, the Wolfhearts have honed the deadly art of close-quarters combat. With swift agility, they employ nets in battle, trapping and incapacitating foes before finishing them off with point-blank crossbow fire. Their emblem, a wolf's heart, is a symbol of  unmatched prowess and unyielding courage.
+
+
+
+\columnbreak
+
+
+
+
+
+___
+___
+> ## Wolfheart Ambusher
+> *Medium humanoid (human), lawful neutral*
+> ___
+> - **Armor Class** 16 (studded leather)
+> - **Hit Points** 58 (9d8 + 18)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|18 (+4)|14 (+2)|12 (+1)|16 (+3)|12 (+1)|
+>___
+> - **Saving Throws** Str +4, Dex +7, Wis +6
+> - **Skills** Acrobatics +7, Perception +9, Insight +6, Intimidation +3, Stealth +10, Survival +9
+> - **Senses** passive Perception 19
+> - **Languages** Any two languages
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Archery.*** The ambusher adds +2 to the attack rolls it makes with ranged weapons (included in the attack).
+>
+> ***Bull's Eye (1/Turn).*** The ambusher deals an extra 28 (8d6) damage when it hits a target with a ranged weapon attack that deals piercing damage and has advantage on the attack roll.
+>
+> ***Close Quarters Shooter.*** A hostile creature within 5 feet of the ambusher doesn't impose disadvantage on its ranged weapon attack rolls, and it ignores half cover and three-quarters cover against targets within 30 feet of it.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain costs the ambusher no extra movement.
+>
+> ***Mask of the Wild.*** The ambusher can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+>
+> ***Surprise Attack.*** If the ambusher surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 17 (5d6) damage from the attack.
+>
+> ***Survivor (29 HP, 1/Day).*** When the ambusher's hit points drop to half or less, for the next minute, it gains advantage on all saving throws and also gains 15 temporary hit points at the start of each of its turns.
+>
+> ### Actions
+>
+> ***Multiattack.*** The ambusher makes two attacks with its scimitar.
+>
+> ***Heavy Crossbow.*** *Ranged Weapon Attack:* +9 to hit, range 100/400 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage.
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage.
+>
+> ***Ambusher's Net (1/Day).*** *Ranged Weapon Attack:* +9 to hit, range 5/15 ft., one Large or smaller creature. *Hit:* The target is restrained. A creature can use its action to make a DC 15 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 15) frees the target without harming it and destroys the net.
+>
+> ### Bonus Actions
+>
+> ***Ambusher's Net.*** The ambusher draws a net and makes an attack with it. It may then draw a weapon.
+>
+> ***Vanish.*** The ambusher takes the Hide action.
+
+<img src='https://i.ibb.co/3swSkY9/igor-kieryluk-421309-camouflaged-cadet.jpg' style='position:absolute; top:-0px; right:-140px; width:735px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-30px; right:-10px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Woodland Ambusher Adventures
+The following table provides some ways to create adventures featuring these elite hunters in your games:
+
+##### Woodland Ambusher Adventure Hooks
+
+| d6  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | **The Wounded Ambusher:** While exploring the woods, the party stumbles upon a wounded ambusher. Helping him might earn the party a powerful ally in the forest, but it also draws them into the internal politics and feuds of the Ambushers.|
+|  2  | **The Forbidden Ritual:** Whispers speak of a ritual the dark crones are planning to perform that could threaten the entire region. The Woodland Ambushers are divided on their stance. The party must decide whether to intervene and how best to navigate the conflicting loyalties of the Ambushers.|
+|  3  |**The Hunter's Game:** The party, while traversing the woods, becomes the target of a deadly hunt organized by a rogue faction of Ambushers seeking to prove their prowess. The players must survive and turn the tables on their hunters. |
+|  4  | **The Foul Forest Shrine:** A group of woodland ambushers have taken to worshipping a corrupted nature spirit, building a shrine to it deep in the forest. The players must find and destroy this shrine while dealing with the twisted ambushers who protect it. |
+|  5  | **The Wolfheart's Vendetta:** A member of the elite Wolfhearts holds a personal grudge against one of the player characters or their allies. The party is constantly harassed and ambushed by the Wolfhearts, leading to a confrontation with this elite warrior.  |
+|  6  | **The Crones' Deception:** The dark crones of the woods have manipulated the Ambushers into believing the party threatens their sacred sites. As a result, the party faces relentless attacks and must find a way to dispel this deception or confront the crones themselves.|
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Woodland Ambusher Tactics
+&emsp;**Initiating Combat.** As their name implies, ambushers always wait until they have the element of surprise and an environmental advantage before engaging in combat. They initiate their attack from a distance, preferably with rough terrain and land features they can use as cover between them and the players.
+
+
+**Avoiding Melee Combat.** Ambushers avoid melee combat whenever possible, preferring to maintain a distance of at least 60 feet from their targets. This distance hinders most targets from engaging them in melee combat yet allows the ambusher to pursue them if they decide to flee. 
+
+**Spreading Out.** Ambushers never form tight formations; they always spread out from each other, thereby forcing enemies to traverse a significant amount of difficult terrain to reach any single target.
+
+**Retreating.** Ambushers are quick to flee if it's clear the fight is not going their way. If their foes manage to repeatedly thwart their bull's-eye damage bonus, or if they fail to execute a surprise attack on the first turn, they will retreat into dense foliage or other natural cover, aiming to ambush the party later when an opportunity arises. Their high survival skill allows them to easily track down their enemies for a subsequent ambush.
+
+#### Wolfheart Ambushers
+Wolfheart ambushers follow the same tactics as regular ambushers, with two notable differences:
+
+**Close Quarters Shooter.** Unlike regular ambushers, wolfheart ambushers are not as averse to being in melee range due to their Close Quarters Shooter ability. This means they are more willing to launch ambushes in environments where they can't initiate from as far away.
+
+**Ambusher's Net.** The ambusher's net serves as an escape tool and a way to enable their bull's-eye ability. When a creature engages in melee combat with a wolfheart ambusher, the ambusher responds by throwing its net on the creature as a bonus action, then shoots at point-blank range. If unsuccessful, the wolfheart ambusher will distance itself from the target, continuing to shoot at it each turn.
+
+<img src='https://i.ibb.co/zstFZtg/briarbridge-tracker.png' style='position:absolute; top:-35px; right:-0px; width:819px; transform:scaleX(1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:0px;top:-15px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Woodland Ambusher Loot
+Most of the valuable goods that can be looted from woodland ambushers are the remains of the equipment they were using or valuables they were carrying. Most dropped valuables can be found using an **Intelligence (Investigation)** or **Wisdom (Perception)** check. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Woodland Ambusher Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Woodland Ambusher Loot Table
+
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5gp Item |
+|  6-10 | 1d4(2) 5gp Items | 
+|  11-17 | 1d6(3) 5gp Items  |  
+|  18-22 |  1d4(2) 10gp Items |  
+|  18-23 |  1d6(3) 10gp Items |  
+
+### Art Credit
+* Daybreak Ranger - Steve Prescott, Wizards of the Coast
+* Cloaked Cadet - Igor Kieryluk, Wizards of the Coast
+* Briarbridge Tracker - Mathias Kollros, Wizards of the Coast
+* Silver Bolt - Anna Fehr, Wizards of the Coast
+
+\columnbreak
+
+##### Wolfheart Ambusher Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 10gp Item |
+|  9-13 | 1d4(2) 10gp Items | 
+|  14-21 | 1d6(3) 10gp Items  |  
+|  22-24 | 1d4(2) 20gp Items |  
+|  25+ |  1d6(3) 20gp Items |  
+
+#### Example Woodland Ambusher Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Woodland Ambusher Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Monstrous Bone |  Monstrous Bone |  Pristine Monstrous Bone  |
+| 2 <br> (Hide) | Tattered Monstrous Hide| Monstrous Hide |  Pristine Monstrous Hide  |
+| 3 (Metal)  | Rusted Intact Blade| Intact Blade|  Masterwork Intact Blade  | 
+| 4 <br> (Wood)  | Cracked Heavy Crossbow Stock| Heavy Crossbow Stock |  Masterwork Heavy Crossbow Stock  | 
+
+
+
+<img
+src='https://cards.scryfall.io/large/front/e/b/eb2c05a8-db56-4397-9b6c-5accb2d3f81f.jpg?1637114684'
+style='position:absolute;bottom:-755px;left:-130px;width:1050px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-235px; right:0px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
