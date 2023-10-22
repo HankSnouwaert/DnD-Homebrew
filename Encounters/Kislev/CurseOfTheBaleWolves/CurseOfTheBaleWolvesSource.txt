@@ -19,7 +19,7 @@
 
     
         /* Hide the footer on some pages */
-    .phb#p2:after, .phb#p3:after, .phb#p4:after  {
+    .phb#p2:after  {
         display          : none;
     }
     /* End Footers */
@@ -45,10 +45,11 @@ The players may have been asked to visit this trading post or simply come across
 The trading post lies at the edge of an ancient forest. When the players approach, they will see the front door has been smashed in, and there are signs of violence. A DC 15 Wisdom Survival check done near the entrance will reveal there was a fight between the inhabitants of the trading post and a large beast of unnatural origin and that this struggle occurred several hours ago. 
 
 The bale wolf dark blood that carried out this attack and the two former occupants who have been cursed into bale wolves lie within the trading post, waiting to ambush the players when they enter.
+
 ### Map Description
 * **The Trading Post Walls.** The building is a wooden structure with a 10-foot high interior.
 * **The Trading Post Doors.** Some of the doors inside are still functional and have an AC 15 and 25 hit points. The doorways are small enough that Large creatures must squeeze to move through them. 
-* **Wooden Furniture.** The pieces of furniture still standing have an AC 15 and 25 hit points each. They provide half-cover.
+* **Wooden Furniture.** Intact pieces of furniture have an AC 15 and 25 hit points each. They provide half-cover.
 
 ### Running the Encounter
 Below are general tactics for how to most effectively use the bale wolves in combat against the players.
@@ -58,7 +59,6 @@ Bale wolves are ambush-oriented creatures, using darkness and cover to make thei
 
 **When to Retreat.**
 Once bale wolves initiate their attack, they will fight to the death and relentlessly pursue fleeing players.
-
 
 **Getting Advantage on Vicious Bite.**
 In combat, the bale wolf's tactics revolve around it getting advantage on its bite attack to increase the odds of getting a crit with it. There are a few ways they can go about securing advantage:
@@ -75,8 +75,9 @@ In combat, the bale wolf's tactics revolve around it getting advantage on its bi
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Map Legend
-* <font color="Red">**Red Areas:** Destroyed Furniture (NOTE: No outline for intact furniture?) </font>
-* <font color="Magenta">**Pink Lines:** (NOTE: What are these?) </font>
+* <font color="Red">**Red Areas:** Destroyed Furniture </font>
+* <font color="Magenta">**Pink Areas:** Intact Furniture </font>
+* <font color="Purple">**Purple Lines:** Destroyed Doors </font>
 * <font color="918007">**Yellow Outline:** Walls</font>
 * <font color="Green">**Green Areas:** Difficult Terrain Caused By Trees</font>
 * <font color="Teal">**Teal Lines:** Functional Doors </font>
@@ -93,9 +94,9 @@ The key difference between these bale wolves and their "ordinary" kin is the cur
 
 * Prioratize attacking non-cursed players over cursed players to spread the curse to as many players as possible. Only focus on cursed players when they are doing something very disruptive, like pinning a bale wolf with their claws or scoring a critical hit on it.
 
-* Cursed players who've lost control for a round and are attacking their allies can be used to trigger the bale wolf's Pack Tactics ability since they are momentarily on the same side.
+* Cursed players who've lost control and are attacking their allies can be used to trigger the bale wolf's Pack Tactics ability since they are momentarily on the same side.
 
-<img src='https://i.ibb.co/Wy3NLzs/the-trade-post-guide.png' style='position:absolute; top:70px; right:2px; width:415px;' />
+<img src='https://i.ibb.co/447Yg2f/the-trade-post-guide.png' style='position:absolute; top:70px; right:2px; width:415px;' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -284,5 +285,5 @@ You can give the different types of items unique names based on their material a
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
