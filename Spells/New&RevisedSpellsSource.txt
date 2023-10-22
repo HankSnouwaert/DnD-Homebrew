@@ -73,6 +73,21 @@ A creature covered in the acid takes 6d4 acid damage at the end of its turn.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the initial acid damage, initial bludgeoning damage, and the acid damage taken at the end of an acid-covered creature’s turn are all increased by 1d4 for each slot level above 6th.
 
+#### Amber Spear 1.0.0
+
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:**  V S M (A Piece of Amber)
+- **Duration:**  Instantaneous
+- **Classes:**   Druid, Ranger
+___
+
+You conjure a large amber hunting spear and launch it in a straight line at a point you can see within range. Upon reaching its destination or striking a solid surface, the spear shatters, producing an explosion within a 10-foot-radius sphere centered on that point. The spear can pass through spaces occupied by creatures and objects of large size or smaller. Each creature the spear moves through, as well as those within the explosion's radius, must make a Dexterity saving throw. On a failed save, a creature takes 6d6 piercing damage; on a successful one, the damage is halved.
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
+
 #### Aspect of Dread 1.0.1
 *2nd-level enchantment*
 ___
@@ -90,6 +105,27 @@ A creature frightened in this way can make a Wisdom saving throw at the end of e
 
 \pagebreakNum
 
+#### Aspect of the Beast 1.0.0
+
+*4th-level  transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:**  V, S
+- **Duration:**  Concentration, Up to 1 hour.
+- **Classes:**   Druid, Ranger
+___
+
+Upon touching a willing creature, you imbue it with bestial might. For the duration, the creature manifests a bestial weapon of your choice from the list below. When it takes the Attack action on its turn, it can make an additional attack with the bestial weapon as part of that action. The weapon is treated as a simple weapon with which the creature is proficient. Unless otherwise stated, it uses its Strength modifier for attack and damage rolls made with the weapon.
+
+**Ripping Jaws.** The creature's mouth becomes filled with dagger-like teeth. Its jaws deal 2d8 piercing damage on a hit. If the bite damages a creature, the user gains temporary hit points equal to half the piercing damage dealt, which last until the spell ends.
+
+**Tearing Claws.** The creature's hands transform into blade-like claws. These claws deal 2d6 slashing damage on a hit and count as finesse weapons. The creature can choose to replace any of its melee attacks made with the Attack action with its claws, including any off-hand attacks.
+
+**Ramming Horns.** Gnarled horns grow from the creature's head. The horns deal 2d8 bludgeoning damage on a hit. If the creature moves at least 15 feet straight toward a target and then hits it with a horn attack, the attack deals an extra 2d8 bludgeoning damage, and if the target is Large or smaller, the creature can choose to push it up to 15 feet away.
+
+\pagebreakNum
+
 #### Barkskin (Revised) 0.0.0 
 *2nd-level transmutation*
 ___
@@ -100,6 +136,28 @@ ___
 - **Classes:** Druid, Ranger
 ___
 You touch a willing creature who isn’t wearing armor, and a the target’s skin has a rough, bark-like appearance, until the spell ends. The target’s base AC becomes 15 + its Dexterity modifier (max 2). The spell ends if the target dons armor or if you dismiss the spell as an action. additional while the creature is in foliage, Wisdom (Perception) checks made to see it have disadvantage, and it has advantage on Dexterity (Stealth) checks made to hide
+
+#### Bestial Spirit 1.0.0
+
+*4th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 40 feet
+- **Components:**  V
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**   Druid, Ranger
+___
+
+A Large spectral beast appears at a location you choose within range. Though it appears substantial, it is intangible and can be passed through and occupied by other creatures.
+
+Any hostile creature within 5 feet of the beast is so distracted by its presence that it has disadvantage on attack rolls. At the end of each of your turns, each hostile creature within 5 feet of the beast must make a Dexterity saving throw as the beast assaults it. The creature takes 4d8 force damage on a failed save, or half as much on a successful save. 
+
+If a hostile creature moves more than 5 feet away from the beast, that creature must make the same saving throw against the beast's damage effect unless it took the Disengage action.
+
+At the start of each of your turns, if no hostile creatures are within 5 feet of the beast, it moves up to 40 feet toward the closest hostile creature it can see. The beast has blindsight out to 120 feet and is blind beyond this range.
+
+
+***At Higher Levels.***  When casting this spell using a 5th-level spell slot or higher, the beast's damage increases by 1d4 for each slot level above 4th.
 
 #### Binding Chain  0.0.0
 *1st-level conjuration*
@@ -138,7 +196,7 @@ If any of this spell's area overlaps with an area of light created by a spell of
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.
 
-
+\pagebreakNum
 
 #### Bolt of Change 1.0.0
 *4th-level transmutation*
@@ -168,7 +226,7 @@ A creature can't suffer from two instances of the same mutation at once.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.
 
-\pagebreakNum
+\columnbreak
 
 #### Brittle Bones 1.0.0
 *4th-level necromancy*
@@ -216,6 +274,19 @@ You throw back your head and emit an ululating scream.  Each creature within ran
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the thunder and psychic damage increase by 1d4 for each slot level above 3rd.
 
+#### Call of the Pack 1.0.0
+
+*5th-level enchantment*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:** 60 feet
+- **Components:**  V
+- **Duration:**  1 round
+- **Classes:**   Ranger
+___
+
+Unleashing a primal howl, you stir the wild fervor within your allies. You and up to three other creatures you are aware of within range that can hear you are quickened until the start of your next turn. While quickened this way, these creatures gain advantage on attack rolls against any enemy if at least one of their allies is within 5 feet of that enemy and the ally isn't incapacitated.
+
 #### Chaos Storm 1.0.0
 *9th-level evocation*
 ___
@@ -227,13 +298,15 @@ ___
 ___
 You open a gateway to a realm of pure chaos and untold destruction.  A 30-foot-radius sphere of chaotic shifting colors appears centered on a point within range that lasts for the spell's duration.  This sphere is filled with indescribable noises that can be heard up to 100 feet away.  No light, magical or otherwise, can illuminate the area, and creatures fully within the area are blinded and deafened.  A creature moving through this area must spend 2 feet of movement for every 1 foot it moves.
 
+\columnbreak
+
 Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw.  It takes 10d12 force damage on a failed save or half as much damage on a successful one.  Any nonmagical object that is not bearing worn or carried in the area takes 10d12 force damage at the start of your turn.  A creature or object reduced to 0 hit points by this damage is disintegrated and sucked into the chaotic rift.  A creature killed this way can be brought back to life only by means of a *true resurrection* or a *wish* spell.
 
 On each of your turns, until the spell ends, you can use your action to open another gateway, targeting a point within 100 feet of the original gate.  A creature in the area of more than one gateway is only affected once.  You can also close a gateway as a bonus action or as a reaction to a creature entering its area.
 
 If you drop concentration on the spell early, make a DC 20 ability check using your spellcasting ability.  On a failure, you open another gate centered on yourself, and the spell continues for its full duration without your control.  During this time, you can no longer open additional gateways or close existing ones, and the radius of each existing gateway expands by 10 feet at the start of each of your turns.
 
-\columnbreak
+
 
 #### Compelled Duel (Revised) 0.0.0
 *1st-level enchantment*
@@ -680,6 +753,20 @@ The affected creature can make a Charisma saving throw at the end of each of its
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
 
+#### Impenetrable Pelt 1.0.0
+
+*5th-level  transmutation*
+___
+- **Casting Time:** 1  action
+- **Range:** 60 feet
+- **Components:**  V, S, M (a tuft of fur)
+- **Duration:**  Concentration, Up to 1 hour
+- **Classes:**   Druid, Ranger
+___
+
+You weave magic to sheathe a willing creature you can see within range in a layer of tough fur and hide. For the spell's duration, any bludgeoning, piercing, or slashing damage the target takes is reduced by 5. This reduction applies before any resistances.
+
+***At Higher Levels.***  When you cast this spell using a spell slot of 6th level or higher, the damage reduction increases by 1 for each slot level above 5th.
 
 #### Incantation of Protection 1.0.0
 *2nd-level abjuration*
@@ -694,6 +781,8 @@ ___
 A barrier of mystical glyphs forms a 10-foot-radius sphere centered on a point you choose within range. Up to three creatures of your choice within the sphere gain resistance to bludgeoning, piercing, and slashing damage and lose any vulnerability to these damage types until the start of your next turn.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot.
+
+\pagebreakNum
 
 #### Incantation of Zeal 1.0.0
 
@@ -737,7 +826,6 @@ ___
 - **Classes:**  Sorcerer, Wizard
 
 Choose up to six willing creatures in a 30-foot-radius sphere centered on a point within range. Until the spell ends, each chosen creature has its speed doubled, gains a +2 bonus to AC, has advantage on Dexterity saving throws, and is quickened.
-
 
 
 #### Miasma of Pestilence 1.0.0
@@ -802,7 +890,142 @@ Any surface the sphere rolls across or in the range of its explosion is covered 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the bludgeoning damage and fire damage from the explosion both increase by 1d8 for each slot level above 6th.
 
+\pagebreakNum
 
+#### Monstrous Transformation 1.0.0
+
+*6th-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:**  V
+- **Duration:**  Until dispelled
+- **Classes:**   Druid, Sorcerer, Warlock
+___
+
+Drawing from wild energies, you transform into a mighty primal form of your choice: a **Feral Manticore**, a **Ravenous Hydra**, or a **Savage Dragon**. While transformed, you adopt the stat block of the selected beast (found later in this document). Your game statistics, including mental ability scores, are replaced by those of the chosen form, but you maintain your alignment and personality.
+
+While in this new form:
+* You assume its hit points.
+* Your spell attack modifier and spell save DC replace its attack modifiers and saving throw DCs.
+* If you're reduced to 0 hit points, you make death saving throws as usual. If you die, you revert to your true form.
+* You can't speak, cast spells, or undertake any action requiring hands or speech.
+* Your gear melds into your new form, rendering it inaccessible. As such, you can't activate, wield, or benefit from any of your equipment.
+
+To attempt to end the spell, you may use your action to make a DC 15 saving throw using your original form's spellcasting ability modifier. On a successful save, the spell ends. However, if you fail this save three or more times within 8 hours, you must complete a long rest before attempting to end the spell again. A remove curse spell will also end the transformation.
+
+If you take a long or short rest in your new form, only your new form gains the benefits of the rest
+
+***At Higher Levels.***  When cast using a spell slot of 7th level or higher, the new form gains an additional 25 hit points for each slot level above 6th. If cast using a 9th-level slot, any features the new form can use only once per day can now be used three times per day.
+
+
+
+___
+> ## Feral Manticore
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., climb 40 ft., fly 50 ft.
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
+> ___
+> - **Skills** Perception +7, Stealth +7
+> - **Senses** Darkvision 60 ft., passive Perception 17
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> ___
+>
+> ***Tail Spikes.*** You have twelve tail spikes.
+>
+> ***Pounce.*** If you move at least 10 feet straight toward a creature and then hit it with a claw attack on the same turn, the target must succeed on a DC 16 Strength saving throw or be knocked prone.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make three attacks: one with your bite, one with your claws, and one with your tail spines. If both the claw and bite attacks hit the same target, the target is grappled (escape DC 16). Until this grapple ends, you can't use its bite or claw on another target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 19 (2d12 + 6) piercing damage. If the target is prone, it takes 32 (4d12 + 6) piercing damage instead.
+>
+> ***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) slashing damage.
+>
+> ***Tail Spike.*** *Ranged Weapon Attack:* +7 to hit, range 100/200 ft., one target. *Hit:* 15 (2d8 + 6) piercing damage plus 10 (3d6) poison damage.
+>
+> ***Toxic Volley.*** You fire six of your tail spikes at a point you can see within 100 feet. Each creature in a 15-foot-radius, 15-foot-high cylinder centered on that point must make a Dexterity saving throw against your spell save DC, taking 15 (2d8 + 6) piercing damage and 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+>
+> ***Regrow Spikes (1/Day).*** You regrow all of your spent spikes.
+
+
+
+\pagebreakNum
+
+
+___
+___
+> ## Ravenous Hydra
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (+0)|14 (+2)|
+>___
+> - **Senses** Darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> ___
+>
+> ***Multiple Heads.*** You have five heads. While you have more than one head, you have advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Additionally, you get a +2 bonus to Wisdom (Perception) checks for each head. Whenever you take 25 or more damage in a single turn and still have one or more heads, one head dies.
+>
+> ***Reactive Heads.*** For each head you have beyond the first, you get an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While you sleep and have more than one head, at least one of your heads can remain awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make as many bite attacks as you have heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 10 ft., one target. *Hit:* 11 (1d10 + 6) piercing damage.
+>
+> ***Regrow Heads (1/Day).*** You regain 75 hit points and grow back all of your missing heads. For each head regrown in this way, you can make a bite attack against a creature within 10 feet of you.
+
+___
+___
+> ## Savage Dragon
+> *Huge dragon, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft., climb 40 ft., fly 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|14 (+2)|20 (+5)|12 (+1)|10 (0)|14 (+2)|
+>___
+> - **Skills** Perception +4
+> - **Damage Resistances** The damage type chosen using your Dragon's Power feature
+> - **Senses** Blindsight 30 ft., darkvision 120 ft., passive Perception 14
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> ___
+>
+> ***Dragon's Power.*** When you transform into this shape, you choose one of the following damage types: acid, cold, fire, lightning, or poison. This chosen type affects other features.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make two attacks: one with your bite and one with your claws.
+>
+> ***Bite.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 14 (4d6) of the chosen Dragon's Power damage type.
+>
+> ***Claw.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 5 ft., one target. *Hit:* 20 (4d6 + 6) slashing damage.
+>
+> ***Breath Attack (1/Day).*** You exhale your breath attack in a 40-foot cone. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 35 (10d6) damage of the damage type chosen by your Dragon's Power trait on a failed save, or half as much damage on a successful one.
+
+\pagebreakNum
 
 #### Mud Ball 0.0.0 
 *2nd-level conjuration*
@@ -816,7 +1039,6 @@ ___
 
 You summon forth a 10-foot-diameter sphere of mud in an unoccupied space of your choice within range.  The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw.  On a failed save, the sphere strikes the target and explodes.  When the sphere explodes, each creature within a 10-foot radius must succeed on a Dexterity saving throw or be blinded until the end of its next turn.  A creature hit by the sphere fails the save automatically.   Any surface the sphere rolls across or in the range of its explosion is covered in 3-inch-thick mud.  The mud is difficult terrain until cleared.
 
-\columnbreak
 
 #### Mystifying Miasma 1.0.0
 *2nd-level illusion*
@@ -916,6 +1138,21 @@ At the end of each of its turns, the banished creature takes 3d8 psychic damage 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the pit's dimensions by 10 feet for each slot level above 6th.
 
+#### Primal Dominance 1.0.0
+
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V, S
+- **Duration:**  10 minutes
+- **Classes:**   Bard, Druid, Ranger
+___
+
+You emanate a commanding presence, compelling a primal creature to submit. Choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you. If the creature's Intelligence is 8 or higher, the spell has no effect. Otherwise, it must make a Wisdom saving throw. On a failed save, it becomes charmed and frightened by you until the end of your next turn. Regardless of the save's outcome, you gain a +5 bonus to Charisma (Intimidation) and Wisdom (Animal Handling) checks when interacting with that creature until the spell concludes.
+
+***At Higher Levels.*** When you cast this spell using a 3rd-level spell slot or higher, you can target one additional creature for each slot level above 2nd.
+
 #### Puddle of Ooze 1.0.0
 *3rd-level conjuration*
 ___
@@ -929,6 +1166,8 @@ ___
 You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
+
+\pagebreakNum
 
 ####  Purple Sun 1.0.0
 *9th-level transmutation*
@@ -955,7 +1194,7 @@ ___
 - **Range:** Touch
 - **Components:** V, S
 - **Duration:**   1 minute
-- **Classes:**  Druid, Cleric, Warlock
+- **Classes:**  Cleric, Druid, Warlock
 ___
 
 Make a melee spell attack against a creature you can reach. On a hit, it takes 4d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
@@ -976,8 +1215,6 @@ ___
 - **Classes:** Warlock, Wizard
 ___
 A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength or Dexterity until the spell ends. At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.  
-
-\columnbreak
 
 #### Ray of Sickness (Revised) 1.0.0
 *1st-level necromancy*
@@ -1078,7 +1315,7 @@ A 20-foot-radius sphere of smoke appears centered on yourself, and you may immed
 ___
 - **Casting Time:** 1 action
 - **Range:** Self
-- **Components:** V, S M (a piece of ice or a small white rock chip)
+- **Components:** V, S, M (a piece of ice or a small white rock chip)
 - **Duration:** Up to 10 minutes
 - **Classes:** Druid, Sorcerer, Wizard
 ___
@@ -1087,14 +1324,12 @@ You summon a flurry of magic snowballs to bombard your enemies. When you cast th
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two slot levels above 2nd.
 
-
-
 #### Spirit Leech 1.0.0
 *1st-level necromancy*
 ___
 - **Casting Time:** 1 action
 - **Range:** 90 feet
-- **Components:** V S
+- **Components:** V, S
 - **Duration:**  1 hour
 - **Classes:**  Warlock
 ___
@@ -1187,6 +1422,22 @@ You spew forth a 30-foot cone of fire in a direction of your choice. For the dur
 On your subsequent turns, you must use your action to spew forth a another cone this way
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
+
+#### Summon Flock
+
+*1st-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:**  V, S, M (A worm or bug)
+- **Duration:**  Concentration, up to 1 hour
+- **Classes:**   Druid, Ranger
+___
+
+Upon casting, you summon three crows that circle above you for the duration of the spell. As a bonus action, you can direct one of the crows to dive at a creature or object within 120 feet. Make a ranged spell attack against the target. On a hit, it takes 2d4 piercing damage. If the attack is a critical hit, the target is blinded until the start of your next turn. Regardless of the outcome, the directed crow is expended. The spell ends if all crows are expended. For each crow circling above you, you gain a +1 bonus to Wisdom (Perception) checks.
+
+
+***At Higher Levels.***  When you cast this spell using a 2nd-level spell slot or higher, you summon an additional crow for each slot level above 1st.
 
 \pagebreakNum
 
@@ -1461,6 +1712,29 @@ Once a creature succeeds on its save against the spell, it can't be affected by 
 
 As an action on your subsequent turns, you can move the sphere up to 60 feet to a point you can see.
 
+#### Wild Surge 1.0.0
+
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V S M (a tuft of fur and a fang)
+- **Duration:**  Concentration, up to 10 minutes
+- **Classes:**   Druid, Ranger
+___
+
+Select a willing creature within range to tap into its primal nature, transforming it into a bestial form. For the duration of the spell, the creature receives the following benefits:
+
+<br>
+
+* It gains 20 temporary hit points.
+* It gains a +2 bonus to AC.
+* It gains a +2 bonus to Strength saving throws and checks.
+* It gains a +2 bonus to Wisdom (Perception) checks and Charisma (Intimidation) checks.
+* When it hits with a melee weapon attack or unarmed strike, it deals one extra die of its damage.
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the targeted creature gains an additional 5 temporary hit points for each slot level above 3rd.
+
 #### Wind of Death 1.0.0
 *5th-level necromancy*
 ___
@@ -1474,6 +1748,8 @@ ___
 You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 4d6 cold damage and 4d6 necrotic damage on a failed save, and half as much on a success.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, either the cold or the necrotic damage (your choice) increases by 1d6 for each slot level above 5th.
+
+\pagebreakNum
 
 #### Witch Bolt (Revised) 1.0.0
 *1st-level evocation*
@@ -1490,8 +1766,6 @@ When you cast this spell, and as an action each round for the duration, you can 
 On each of your turns for the duration, you can use an action to automatically deal 1d12 lightning damage to one target with which you have an arc. The arc ends for a target if it is ever outside the spell's range or if it gains total cover from you. The spell also ends if you use your action to do anything other than attack or deal damage using this spell.
 
 ***At Higher Levels.***  When you cast this spell using a spell slot of 3th level or higher, the initial damage and automatic damage increase by 1d12 for every two slot levels above 1st.
-
-\pagebreakNum
 
 #### Withering Resolve 1.0.0
 *3rd-level enchantment*
