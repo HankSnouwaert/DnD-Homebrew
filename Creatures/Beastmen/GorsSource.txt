@@ -54,7 +54,7 @@ ___
 >
 > ***Beast Man.*** The gor is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
 >
-> ***Beastial Ambush.*** When the gor takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 5 (2d4) damage.
+> ***Bestial Ambush.*** When the gor takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 5 (2d4) damage.
 >
 > ***Charge.*** If the gor moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 >
@@ -97,7 +97,7 @@ ___
 >
 > ***Beast Man.*** The gor is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
 >
-> ***Beastial Ambush.*** When the gor takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 5 (2d4) damage.
+> ***Bestial Ambush.*** When the gor takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 5 (2d4) damage.
 >
 > ***Charge.*** If the gor moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
 >
@@ -321,71 +321,97 @@ ___
 > ***Javelin.*** *Melee or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 12 (2d6 + 5) damage in melee or 9 (1d6 + 5) piercing damage at range.
 >
 
+### Managing Primal Fury At Scale
+ 
+If you're managing a lot of beastmen in combat and prefer not to roll each of the Primal Fury checks individually each time they come up, the following set of alternative rules can streamline this process.
+
+
+At the beginning of combat, all beastmen enter combat with their Primal Fury active. On initiative count 20 each turn (losing all initiative ties), roll a d20. If the roll is 11 or higher, the Primal Fury of all beastmen remains active; if it is less, the Primal Fury ends for all beastmen until the next initiative count 20. Add a cumulative +1 bonus to the roll for each beastman in the encounter that is neither charmed nor frightened. Subtract 1 from the roll for each beastman that has been reduced to 0 hit points since the last roll.
+
+Specific abilities of some of the beastmen modify these rules as follows:
+
+**Will of the Dark Gods, Apocalyptic Vision.** If there is a beastman in the battle with one of these abilities, add a +5 bonus to the roll rather than providing advantage, as long as the beastman providing the ability is not charmed or frightened. 
+
+**Crown of Horns.** If there is a beastman in the battle with one of these abilities, add a +5 bonus to the roll rather than providing advantage, as long as the beastman providing the ability is not charmed or frightened. 
+
+**NOTE.** Are these bonuses cumulative?
 
 \pagebreakNum
 
-## Mutations
- The following are list of mutations can be applied to any of the beast men above to represent the Constant mutating power of chaos.
-If they are applied to a on Ungor its CR becomes 1/2
-if it is applied to a Ungor radar or a Gor it's Cr becomes 1
-it is applied to any beast men of a CR of 1 or higher, it CR is increased by one.
+## Beastmen Mutations
 
-## 1 Crown of Horns 
- ""Especially large and elaborate twisting horns From beastmen's head. Such an individual is extremely confident for the dark gods have truly blessed it.""
+The following is a list of mutations that can be applied to any gor or ungor to represent the effects the constant mutating power of chaos can have on them.
+
+Applying a mutation increases a creature's CR by 1 (fractional CRs are doubled, e.g., a CR 1/4 creature becomes CR 1/2.)
+
+### Crown of Horns 
+*This creature is gifted with especially large and grandiose twisting horns, granting it extreme confidence, for it knows it has been blessed by the dark gods.*
+
+When the beastman makes a Wisdom check caused by its Primal Fury ability, it automatically succeeds unless it has disadvantage on the roll.
+
+### Gnarled Hide
+
+*The beastman's hide has toughed up to the point that it serves as a layer of living armor.*
+
+The beastman gets +2 to its AC.
+
+### Gouging Tusks 
+
+*The beastman has a large pair of tusks sprouting from its lower jaw, granting it an even more devastating charge attack.*
+
+Creatures that fail their save against the beastman's charge attack take 16 (3d10) piercing damage on a failed save rather than the normal amount of damage and half as much on a success. NOTE: This seems wrong. Is this a flat damage replacement?
+
+### Many Limbed Monster
+
+*The beastman sports an extra pair of clawed arms to tear at its enemies.*
+
+When the beastman takes the attack action, it makes one additional attack as part of the action, which uses the attack modifier of its Gore attack. On hit, the target takes 2d4 slashing damage. (The attack also gains the benefits of Primal Fury.)
+
+### Rune of the Beast
+
+*The beastman has a large eldritch rune carved into its flesh. When it becomes enraged, the rune glows red hot and distorting the winds of magic around it.*
+
+While the beastman's Primal Fury ability is active, it has resistance to damage from spells, and when it is affected by a spell that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+
+### Shadow Hide
+
+*The beastman's black fur melds perfectly with the darkness around it, allowing it to stalk its prey from the shadows while completely unseen.*
+
+While in darkness, the beastman is invisible to any creature that relies on darkvision to see it in that darkness. Additionally, it does not suffer disadvantage on Dexterity (Stealth) checks from wearing Armor.
+Finally, it gains the Bestial Ambush ability as described below. If it already has a Bestial Ambush ability, the damage bonus of its Bestial Ambush is increased by 10 (4d4).
+
+***Bestial Ambush.*** When the beastman takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 7 (3d4) damage.
+
+### Slug-Skin
+
+*This beastman's disgusting skin oozes thick, slippery, toxic slime.*
+
+At the end of the beastman's turn, any ground within 5 feet of it is covered in slime for the next minute, causing it to become difficult terrain. Creatures standing in the area have disadvantage on saving throws against being knocked prone, and prone creatures in the area must spend all their movement to stand up instead of half. If a creature ends its turn in the area, it takes 10 (3d6) poison damage. 
+
+Beastmen (NOTE: what counts as a beastman?) ignore the effects of the slime. A gallon or more of water moving more than 5 miles per hour will wash the slime away from a 5-foot square area.
+
+### Uncanny Senses
+
+*The beastman's primal senses have been heightened to new levels, allowing it to perceive even the most well-hidden prey and the stealthiest of threats.*
  
-When the beastmen makes a wisdom check for it's Primal Fury ability, it atomically succeed unless it had disadvantage on the roll.
+The beastman has advantage on initiative rolls and Wisdom (Perception) checks and does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured. It also gains blindsight out to 120 feet.
 
-## 2 Slug-Skin
+<br>
 
-""This creatures repulsive skin oozes a thick coating of slippery toxic slime.
-
-At the end of the beastmens turn, any ground with in 5 feet of it is covered in slime for the next minute, causing it to become difficult  terrain for one minute. Creatures standing in the area have disadvantage on saving throws against being knock prone and must spend all their movement to stand up instead of half, if a creature end it's turn in the area it takes 10 (3d6) poison damage. Beastmen ignore the effects of the slime. Any water moving more then 5 miles hour will wash the slime away.
-
-## 3 Many Limbed Fiend
-
-""The beastman sprouts another pair of clawed appendages from its body to tear at it's enemies with.""
-
-When the beast men takes the attack action, it makes one additional attack as part of the action, the attack use  the attack modfire of it's gore attack, on hit the target takes 2d4 slashing damage. (The attack will also gain the benefits of Primal Fury)
-
-## 4 Gouge Tusks 
-
-""The creature has a large pair of tusks sprouting from its lower jaw. Allowing it's charge to be even more devastating""
-
-When a Creature makes a saving throw against the Beastmen's Charge  feature, on a failed save,  the creature takes 16 (3d10) pricing damage in addition to being knocked prone, or half as much on a success.
-
-
-## 5 Gnarled Hid
-
-""The beastman's hide is rough and has a layer of thick crust, acting as armor for the predator""
-
-The Beastmen gets + 2 to it's AC.
-
-## 6 Rune of the Beast
-
-""The creature has a large rune started into it's flesh, when the creature's becomes enraged, the rune glows red hot and distorting the winds of magic around it.""
-
-While the beastmen's Primal Fury ability is active, it has  resistance to damage from spells and when spell that allows it to make a saving throw to take only half damage, it instead take no damage if it succeed on the saving throw, and only half damage if it fails.
-
-## 7 Uncanny Senses
-
-""The beastman senses have been heightened to new levels, allowing it to perceived all danger around it.""
- 
-The Beastmen has advantage on intuitive rolls and on Wisdom (Perception) checks and does not suffer disadvantage on the checks in areas that are lightly obscured, it also gains blindsight out to 120 feet.
-
-## 8 Shadow Hide
-
-""Beastman's black first  melts perfectly with the darkness around it allowing it to stock its prey""
-
-While in darkness, beastmen is invisible to any creature that relies on darkvision to see it in that darkness and it does not gain disadvantage on Dexterity (Stealth) checks form wearing Armor.
-finally the beastmen gets the Beastial Ambush. (3d4) ability, if it already has Beastial Ambush, the damage is incrased by 10 (4d4) instead
-
-
-> ## Implementing Mutations
-> If your players are going through multiple encounters of beast men, mutations can be used as a ticking clock to motivate your players, have it so that as time passes the beast men gain further mutations increasing the difficulty the longer the players wait. You can roll d8 to decided if you wish for the outcome to be random.
+> ##### Using Mutations To Create Urgency In Adventures
+> If you're running an adventure that focuses heavily on encounters with beastmen and you want to create a sense of urgency, you can have the beastmen in the adventure gain mutations as time passes. This means the more slowly and carefully the players progress, the more dangerous the beastmen will become. This can help keep the players from playing too conservatively. 
+> 
+> If you want the mutations to be random, you can roll a d8 to determine what mutation they will gain (number each of the abilities in alphabetical order).
 >
+> The rate at which they gain mutations could be on the scale of hours or days, depending on the scope and pacing of your adventure.
+>
+> NOTE: Do they all get the mutation, and will this be cumulative?
 
 \pagebreakNum
 
 ### Change Log
 #### 0.0.0
 * Document creation
+
+#### 0.1.0
+* Clean up Beastmen Mutations
