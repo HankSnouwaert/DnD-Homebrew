@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p4:after, .phb#p5:after, .phb#p7:after, .phb#p9:after, .phb#p11:after, .phb#p12:after, .phb#p14:after, .phb#p16:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p24:after, .phb#p25:after, .phb#p30:after, .phb#p33:after, .phb#p38:after, .phb#p39:after, .phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p43:after, .phb#p44:after, .phb#p50:after, .phb#p53:after, .phb#p54:after, .phb#p61:after, .phb#p63:after  {
+    .phb#p5:after, .phb#p7:after, .phb#p14:after, .phb#p15:after, .phb#p16:after, .phb#p17:after, .phb#p18:after, .phb#p19:after, .phb#p24:after, .phb#p26:after, .phb#p27:after, .phb#p28:after, .phb#p36:after, .phb#p39:after, .phb#p40:after, .phb#p42:after, .phb#p45:after, .phb#p48:after, .phb#p49:after, .phb#p53:after, .phb#p54:after, .phb#p56:after, .phb#p59:after, .phb#p61:after, .phb#p64:after, .phb#p66:after, .phb#p67:after, .phb#p69:after  {
         display          : none;
     }
     /* End Footers */
@@ -77,28 +77,94 @@ This document provides content to help you run games that heavily feature the de
 <div class='toc'>
 
 - ## Table of Contents
-    - [<span>3</span><span>Introducing Ratfolk</span>](#p3)
-- ### [<span>10</span><span>Running Ratfolk  Adventures</span>](#p10)
-  - [<span>2</span><span>General Ratfolk Clans</span>](#p2)
-  - [<span>3</span><span>Ratfolk Ninja Clans</span>](#p3)
-- ### [<span>10</span><span>New Player Options</span>](#p10)
-  - [<span>16</span><span>New Spells</span>](#p16)
-  - [<span>16</span><span>New Magic Items</span>](#p16)
-- ### [<span>20</span><span>New Types of Items</span>](#p20)
-  - #### [<span>30</span><span>Chariots</span>](#p30)
-    - [<span>41</span><span>Chariot Rules</span>](#p41)
-    - [<span>41</span><span>Tomb Kingdom Chariots</span>](#p41)
-- ### [<span>20</span><span>New Creatures</span>](#p20)
-    - #### [<span>20</span><span>Ratfolk Soldiers & Seers</span>](#p20)
-    - #### [<span>20</span><span>Rats</span>](#p20)
-    - #### [<span>20</span><span>Ninja Ratfolk</span>](#p20)
-    - #### [<span>20</span><span>Rat Monstrosities</span>](#p20)
-    - #### [<span>20</span><span>Ratfolk Engineers</span>](#p20)
-        - [<span>41</span><span>Snow Leopards</span>](#p41)
-        - [<span>46</span><span>Stonehorns</span>](#p46)
-        - [<span>51</span><span>Yetis</span>](#p51)
-        - [<span>59</span><span>Zheng</span>](#p59)
-
+    - [<span>3</span><span>Running Tomb Kingdom Adventures</span>](#p3)
+  - ### [<span>4</span><span>New Player Options</span>](#p4)
+    - #### [<span>4</span><span>New Spells</span>](#p4)
+      - ##### [<span>4</span><span>Lore of Death</span>](#p4)
+        - [<span>4</span><span>Aspect of Dread</span>](#p4)
+        - [<span>4</span><span>Crippling Pain</span>](#p4)
+        - [<span>4</span><span>Horrying Laughter</span>](#p4)
+        - [<span>5</span><span>Impending Doom</span>](#p5)
+        - [<span>5</span><span>Purple Sun</span>](#p5)
+        - [<span>5</span><span>Spirit Leech</span>](#p5)
+        - [<span>5</span><span>Wind of Death</span>](#p5)
+      - ##### [<span>6</span><span>Lore of Liche-Priests</span>](#p6)
+        - [<span>6</span><span>Cursed Blades</span>](#p6)
+        - [<span>6</span><span>Decrepify</span>](#p6)
+        - [<span>6</span><span>Guiding Wind</span>](#p6)
+        - [<span>6</span><span>Incantation of Protection</span>](#p6)
+        - [<span>7</span><span>Incantation of Zeal</span>](#p7)
+        - [<span>7</span><span>Skull Storm</span>](#p7)
+        - [<span>7</span><span>Tomb Strike</span>](#p7)
+      - ##### [<span>8</span><span>Lore of Light</span>](#p8)
+        - [<span>8</span><span>Burning Gaze</span>](#p8)
+        - [<span>8</span><span>Dazzling Light</span>](#p8)
+        - [<span>8</span><span>Holy Nova</span>](#p8)
+        - [<span>9</span><span>Mass Haste</span>](#p9)
+        - [<span>9</span><span>Net of Light</span>](#p9)
+        - [<span>9</span><span>Warding Light</span>](#p9)
+       - ##### [<span>10</span><span>Lore of Shadow</span>](#p10)
+        - [<span>10</span><span>Creeping Strike</span>](#p10)
+        - [<span>10</span><span>Mindrazors</span>](#p10)
+        - [<span>10</span><span>Mirror Dance</span>](#p10)
+        - [<span>10</span><span>Mystifying Miasma</span>](#p10)
+        - [<span>11</span><span>Penumbral Pendulum</span>](#p11)
+        - [<span>11</span><span>Pit of Shadows</span>](#p11)
+        - [<span>11</span><span>Shroud of Dusk</span>](#p11)
+        - [<span>11</span><span>Unseen Lurker</span>](#p11)
+        - [<span>11</span><span>Withering Resolve</span>](#p11)
+    - #### [<span>12</span><span>Tomb Kingdom Magic Items</span>](#p12)
+        - [<span>12</span><span>Amulet of Nullification</span>](#p12)
+        - [<span>12</span><span>Collar of The Exalted</span>](#p12)
+        - [<span>12</span><span>Hieratic Jar</span>](#p12)
+        - [<span>13</span><span>Scroll of the Cursing Word</span>](#p13)
+        - [<span>13</span><span>Spell Bane Canopic Jar</span>](#p13)
+        - [<span>13</span><span>Staff of the Grand Hierophant</span>](#p13)
+        - [<span>13</span><span>Vambraces of the Sun</span>](#p13)
+        - [<span>14</span><span>Existing Tomb Kingdom Themed Magic Items</span>](#p14)
+- ### [<span>15</span><span>Chariots</span>](#p15)
+- ### [<span>17</span><span>Tomb Kingdom Legions</span>](#p17)
+    - #### [<span>17</span><span>Tomb Lords</span>](#p17)
+        - [<span>17</span><span>Tomb Prince</span>](#p17)
+        - [<span>18</span><span>Tomb King</span>](#p18)    
+     - #### [<span>22</span><span>Tomb Kingdom Infantry</span>](#p22)
+        - [<span>22</span><span>Skeleton Spearmen</span>](#p22)
+        - [<span>23</span><span>Scorpion Legion Spearmen</span>](#p23)
+        - [<span>24</span><span>Skeleton Archer</span>](#p24)
+        - [<span>24</span><span>Hawk Legion Archer</span>](#p24)
+        - [<span>25</span><span>Tomb Warrior</span>](#p25)
+        - [<span>26</span><span>Legion of the Netherworld</span>](#p26)
+        - [<span>27</span><span>Tomb Guard</span>](#p27)
+        - [<span>28</span><span>Eternal Guard</span>](#p28)
+     - #### [<span>32</span><span>Tomb Chariots & Cavalry</span>](#p32)
+        - [<span>32</span><span>Chariot of The Dead</span>](#p32)
+        - [<span>33</span><span>Royal Warhorse Mummy</span>](#p33)
+        - [<span>34</span><span>Skeletal Horseman of The Desert Storm</span>](#p34)
+        - [<span>35</span><span>Skeletal Archer of The Desert Storm</span>](35)
+        - [<span>35</span><span>Warhorse Skeleton of The Desert Storm</span>](#p35)
+     - #### [<span>38</span><span>Liche-Priests</span>](#p38)        
+        - [<span>39</span><span>Liche Acolyte</span>](#p39)
+        - [<span>40</span><span>Liche Priest</span>](#p40)
+        - [<span>42</span><span>High Liche Priest</span>](#p42)
+     - #### [<span>47</span><span>Casket of Souls</span>](#p47)        
+        - [<span>47</span><span>Casket of Souls Mechanics</span>](#p47)        
+        - [<span>47</span><span>Liche Keeper of Rites</span>](#p47)
+     - #### [<span>50</span><span>The Grand Hierophant</span>](#p50)        
+        - [<span>51</span><span>The Grand Hierophant</span>](#p51)     
+     - #### [<span>55</span><span>Bone Giants</span>](#p55)
+        - [<span>56</span><span>Bone Giant</span>](#p56)      
+     - #### [<span>58</span><span>Titans of the Gods</span>](#p58)
+        - [<span>59</span><span>Titan of the Gods</span>](#p59)
+     - #### [<span>61</span><span>Tomb Carrion</span>](#p61)        
+        - [<span>61</span><span>Tomb Carrion</span>](#p61)
+        - [<span>62</span><span>Sacred Tomb Carrion</span>](#p62)   
+     - #### [<span>64</span><span>Tomb Swarms</span>](#p64)        
+        - [<span>65</span><span>Tomb Swarm</span>](#p65)
+        - [<span>65</span><span>Large Tomb Swarm</span>](#p65)
+     - #### [<span>67</span><span>Ushabti</span>](#p67)
+        - [<span>67</span><span>Ushabti</span>](#p67)
+        - [<span>68</span><span>Ushabti, Chosen of the Gods</span>](#p68)
+        - [<span>69</span><span>Ushabti, Soul Warden</span>](#p69)
 
 <div align="right">
 
@@ -111,7 +177,7 @@ This document provides content to help you run games that heavily feature the de
 
 </div>
 
-\columnbreak
+<br><br><br><br><br><br><br><br><br><br>
 
 ### Front Page Art Credit
 * Mountain (Amonkhet) - Chris Rahn, Wizards of the Coast
@@ -460,7 +526,7 @@ You or one of your undead servants lash out with a surge of malignant power. Mak
 
 <br>
 
-> ##### The Quickened Condition
+> ##### The Quickened Condition (NOTE: Move this?)
 > This document references the quickened condition. A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
 
 
@@ -1139,11 +1205,317 @@ These are new action options the chariot grants to its steeds. The steeds may us
 
 \pagebreakNum
 
+<br><br>
+
+# Tomb <br> Kingdom <br> Legions
+
+## Tomb Lords
+These monarchs ruled vast <br> kingdoms when civilization was <br> still young. Their ruthless ambition <br> saw them conquer huge territories <br> and amass untold troves of wealth. <br> Their egos were such that they saw <br> themselves as above death. So, they <br> had themselves mummified so they <br> could rule their kingdoms for eternity. <br> However, they’ve awoken to find their <br> bodies as shriveled husks and their kingdoms <br> crumbling and pillaged of treasures. Though <br> they still possess immense physical might, they <br> can no longer enjoy the sensations of life. Though they <br> still have many riches, much of it was stolen. Though they still have loyal subjects, they are undead minions only possessing a shadow of their former selves.
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+___
+___
+> ## Tomb Prince
+>*Medium undead, lawful evil*
+> ___
+> - **Armor Class** 16 (breastplate) (17 with Eternal Empire)
+> - **Hit Points** 85 (9d8+45)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|14 (+2)|20 (+5)|12 (+1)|14 (+2)|18 (+4)|
+>___
+> - **Saving Throws** +7 to all saves with My Will Be Done
+> - **Skills** Athletics +7, History +5, Religion +5, Persuasion +7
+> - **Damage Vulnerabilities** fire
+> - **Damage resistance** bludgeoning, piercing, and slashing from nonmagical attacks
+> - **Damage Immunities** necrotic, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 12
+> - **Languages** The languages it knew in life
+> - **Challenge** 6 (2,300 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3      
+> ___
+>
+> ***Eternal Empire.*** While the tomb prince is not incapacitated, it and any other undead creatures within 30 feet of it can choose to make its AC equal to 10 + the Tomb Prince’s Charisma modifier + its Proficiency Bonus (AC 17).
+>
+> ***Marshal Undead.*** Unless the tomb prince is incapacitated, it and undead creatures of its choice within 30 feet of it have advantage on saving throws against features that turn undead.
+>
+> ***My Will Be Done.*** While the tomb prince is not incapacitated, whenever it or any other undead creature within 30 feet of it makes an attack or saving throw, that creature can use the tomb prince’s Charisma modifier + its Proficiency Bonus (+7) on the roll the rather use its own modifier.
+> 
+> ***Tyrannical Strike.*** The tomb prince’s melee weapon attacks deal an additional 10 (3d6) psychic damage (included in the attack.) Once per turn, when the tomb prince hits a creature with a melee weapon attack, it may force that creature to make a DC 15 Wisdom saving throw. On a failure, the creature falls prone in prostration and is frightened of the tomb prince until the end of the tomb prince's next turn or until the tomb prince is incapacitated. While frightened this way, the target can't stand up.
+>
+> ***Vengeful Curse.*** A creature that kills the tomb prince must make a DC 15 Charisma saving throw or become cursed. While cursed this way, the target automatically fails any death saving throws it makes and treats the roll as if it rolled a 1.
+>
+> ### Action
+>
+> ***Multiattack.*** The tomb prince makes two attacks. 
+>
+> ***Khopesh.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage plus 10 (3d6) psychic damage. 
+
+<img
+src='https://cdna.artstation.com/p/assets/images/images/006/832/270/large/josu-hernaiz-mummy-paramount.jpg?1501591841'
+style='position:absolute;top:-90px;left:90px;width:980px;transform: scaleX(1)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-65px;left:30px;width:916px' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-200px;left:-180px;width:916px; transform: rotate(49deg)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-500px;left:-380px;width:916px; transform: rotate(56deg)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:600px;left:-180px;width:916px; transform: rotate(39deg)' />
+
+
+\pagebreakNum
+
+The rage at what they’ve lost and their desire to retake <br> what they feel the afterlife owes them drives the tomb <br> lords ruthlessly reclaim their territory and punish any trespassers in their domain. This indomitable will <br> manifests itself in their undead subjects, who become <br> much more formidable in the presence of their lord.
+
+***Chosen of the Gods.*** The monarchy of these <br> long-lost kingdoms claimed to be divinely blessed, if <br> not the direct descendants of gods themselves. Those <br> struck by tomb lords experience direct evidence to <br> back this claim, for these undying monarchs strike <br> with the divine fury of their patron gods. This blessing <br> may come in the form of poisonous strikes, attacks <br> enhanced with solar radiance, or an onslaught so <br> vicious it mentally scars victims and forces them to <br> drop to their knees in prostration. 
+
+The most sinister of these divine manifestations is <br> not a blessing on the tomb lord but a curse on anyone <br> who strikes it down. These curses reflect the gods <br> who favored the tomb lord and may leave victims <br> racked with poison, unable to recall learned <br> knowledge, or feeling the inevitable pull of death <br> tugging at their souls.
+
+***Tomb Princes.*** Most members of ancient royalty <br> were not destined for the throne. The sons of mighty monarchs who were not heirs to the throne served as commanders and enforcers for their father’s will. <br> Many strive to earn favor with their king, performing <br> deeds in his name as they jockey for positions in the <br> royal hierarchy. Others seek to gather enough power <br> to dethrone their father and take his place at the <br> head of an undying kingdom of their own.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Tomb King
+>*Medium undead, lawful evil*
+> ___
+> - **Armor Class** 17 (half plate) (19 with Eternal Empire)
+> - **Hit Points** 171 (18d8+90)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|16 (+3)|20 (+5)|16 (+3)|14 (+2)|20 (+5)|
+>___
+> - **Saving Throws** +9 to all saves with My Will Be Done
+> - **Skills** Athletics +9, History +7, Religion +7, Persuasion +9.
+> - **Damage Vulnerabilities** fire
+> - **Damage resistance** bludgeoning, piercing, and slashing from nonmagical attacks
+> - **Damage Immunities** necrotic, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 12
+> - **Languages** The languages it knew in life
+> - **Challenge** 10 (5,900 XP)   &emsp;&emsp;&emsp;&nbsp;  **Proficiency Bonus** +4      
+> ___
+>
+> ***Eternal Empire.*** While the tomb king is not incapacitated, it and any other undead creature within 30 feet of it can choose to make its AC equal to 10 + the Tomb King’s Charisma modifier + its Proficiency Bonus (AC 19).
+>
+> ***Marshal Undead.*** Unless the tomb king is incapacitated, it and undead creatures of its choice within 30 feet of it have advantage on saving throws against features that turn undead.
+>
+> ***My Will Be Done.*** While the tomb king is not incapacitated, whenever it or any other undead creature within 30 feet of it makes an attack or saving throw, that creature can use the tomb king’s Charisma modifier + its Proficiency Bonus (+9) on the roll the rather use its own modifier.
+>
+> ***Tyrannical Strike.*** The tomb king’s melee weapon attacks deal an additional 10 (3d6) psychic damage (included in the attack.) Once per turn, when the tomb king hits a creature with a melee weapon attack, it may force that creature to make a DC 17 Wisdom saving throw. On a failure, the creature falls prone in prostration and is frightened of the tomb king until the end of the tomb king's next turn or until the tomb king is incapacitated. While frightened this way, the target can't stand up.
+>
+> ***Vengeful Curse.*** A creature that kills the tomb king must make a DC 17 Charisma saving throw or become cursed. While cursed this way, the target automatically fails any death saving throws it makes and treats the roll as if it rolled a 1.
+>
+> ### Action
+>
+> ***Multiattack.*** The tomb king makes three attacks. 
+>
+> ***Khopesh.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage plus 10 (3d6) psychic damage. 
+
+<img src='https://i.ibb.co/RvjwG43/Unraveling-Mummy-Mt-G-Art.jpg' style='position:absolute;top:-20px;right:-120px;width:760px' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:78px;top:-0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-550px;top:240px;height:1400px;width:1416px;transform:rotate(160deg)' />
+
+\pagebreakNum
+
+### Additional Curses of the Gods
+
+Many tomb lords have a specific god they regard as their patron. These gods enact divine punishments on those who strike the tomb lord down in a unique way that makes it clear which deity has been angered. You may replace the effects of the tomb prince’s or tomb king’s Vengeful Curse with one of the following curses.
+
+#### Curse of Death's Grip
+This is the most common curse tomb lords inflict and is the default curse listed in their stat blocks. The curse is inflicted by gods associated with death and funerary rites. Those under its effect feel the inevitable pull of the grave tugging at their soul.
+
+While cursed this way, the target automatically fails any death saving throws it makes and treats the roll as if it rolled a 1.
+
+#### Curse of the Glaring Sun
+Many of the greatest kings of old claimed to be blessed by, or even descendent from, the god of the sun. Those who cut down these monarchs are cursed by the sun’s perpetual glare. 
+
+Whenever a creature cursed this way is in direct sunlight, it has disadvantage on attack rolls and ability checks.
+
+\columnbreak
+
+<br><br>
+
+#### Curse of the Lost Lessons
+Some monarchs made gods of knowledge their patron deities in hopes of receiving their wisdom. Those who earn the ire of these gods soon find themselves stripped of such wisdom.
+
+The cursed creature can't add its proficiency bonus to skill checks, tool checks, or saving throws.
+
+#### Curse of the Marked Prey
+Monarchs who were fierce warriors and hunters earned the favor of gods of the wild. Those cursed by such gods become easy prey to their enemies. 
+
+Weapon attacks against the cursed creature can't suffer from disadvantage.
+
+
+#### Curse of the Serpent's Kiss
+The cursed creature loses any immunity or resistance it has to poison damage and the poisoned condition. Additionally, if this curse originated from a tomb prince, and the creature takes any piercing, slashing, or poison damage, the creature takes an additional 2(1d4) poison damage. If the curse originated from a tomb king, it instead takes an additional 4 (1d8) poison damage.
+
+<img src='https://i.pinimg.com/564x/a2/c7/bd/a2c7bd239a5e3b9338fc59d6a5b0a74f.jpg' style='position:absolute;bottom:-40px;right:-10px;width:836px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-90px;bottom:150px' />
+
+\pagebreakNum
+
+
+
+### Additional Magic Strikes
+
+If you wish to replace the effects of the Tyrannical <br> Strike ability for a tomb prince or tomb king, you <br> can use one of the following effects instead. The <br> save DC for a tomb prince is 15, and for a tomb <br> king, it’s 17. The tomb monarch in the descriptions <br> refers to the tomb prince or tomb king with this <br> ability.
+
+#### Nullifying Strike
+
+The tomb monarch’s melee weapon attacks deal an <br> additional 10 (3d6) force damage. Once per turn, when <br> the tomb monarch hits another creature with a melee weapon attack, it may force that creature to make a <br> Strength saving throw. On a failure, the creature drops <br> an object of the tomb monarch’s choice, and the tomb monarch can have the object flung up to 10 feet away in <br> the direction of its choice. If the object is magical, its <br> magical properties are suppressed for the next minute. 
+ 
+#### Siphoning Strike
+
+The tomb monarch’s melee weapon attacks deal an additional 10 (3d6) necrotic damage. Once per turn, when the tomb monarch hits another creature with a melee weapon attack, it may force that creature to make a Consitution saving throw. On a failure, the creature gains a level of exhaustion, and the tomb monarch gains advantage on attack rolls and saving throws. These effects last until the end of the tomb monarch’s next turn. 
+ 
+#### Sun Strike
+
+The tomb monarch’s melee weapon attacks deal an additional 10 (3d6) radiant damage. Once per turn, when the tomb monarch hits another creature with a melee weapon attack, it may force that creature to make a Consitution saving throw. On a failure, the creature is blinded until the end of the tomb monarch’s next turn. 
+
+#### Tyrannical Strike
+
+The tomb monarch’s melee weapon attacks deal an additional 10 (3d6) psychic damage. Once per turn, when the tomb monarch hits a creature with a melee weapon attack, it may force that creature to make a Wisdom saving throw. On a failure, the creature falls prone in prostration and is frightened of the tomb monarch until the end of the tomb monarch's next turn or until the tomb monarch is incapacitated. While frightened this way, the target can't stand up.
+
+#### Venom Strike
+
+The tomb monarch’s melee weapon attacks deal an additional 10 (3d6) poison damage. Once per turn, when the tomb monarch hits another creature with a melee weapon attack, it may force that creature to make a Consitution saving throw. On a failure, the creature is poisoned until the end of the tomb monarch’s next turn. While it is poisoned this way, if it fails another saving throw against a poison effect, it becomes stunned until the end of its next turn.
+
+\columnbreak
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-# Tomb Kingdom Creatures
 
-This document contains a compilation of ancient Egyptian-inspired undead and construct creatures that you can use to represent the undying forces of a long-lost tomb kingdom. These forces range from lowly skeletal soldiers to towering spirit-powered statues and tyrannical tomb kings.
+
+### Tomb Lord Adventures
+The following table provides some ways to create adventures featuring these undead monarchs in your games:
+
+##### Tomb Lord Adventure Hooks
+
+| d6  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | A tomb prince wanders the border of his ruined kingdom raising soldiers and conquering settlements as he tries to improve his standing in the power hierarchy of his dynasty.  |
+|  2  |A tomb prince is launching raids into the lands of the living in search of a stolen artifact he needs to resurrect his father.  |
+|  3  | A tomb king conquers a village of living subjects and demands brutal tributes from them. The villagers ask the players for aid and offer to help sneak them into the meeting chamber, where their tributes are presented to the unliving king.   |
+|  4  | A tomb king determines that one of the player characters is a long-lost descendant and seeks to capture the player character to use in a sacrificial ritual to restore his former life. |
+|  5  | The players reach the end of a tomb to find what they believe to be the tomb lord’s sarcophagus, only to find it’s a booby-trapped decoy meant to leave the players vulnerable to a sneak attack from the tomb lord.     |
+|  6  | A tomb prince seeks the players’ aid in overthrowing his tyrannical tomb king father.|
+
+### Tomb Lord Art Credit
+* Mummy Paramount - Josu Hernaiz, Wizards of the Coast
+* Unraveling Mummy - Tomasz Jedruszek, Wizards of the Coast
+* Curse of Misfortunes - Terese Nielsen, Wizards of the Coast
+* Sunscourge Champion Zombie Token - Josu Hernaiz, Wizards of the Coast
+
+<img src='https://i.ibb.co/CvK1n0r/josu-hernaiz-divine-champion-eternal-401879.jpg' style='position:absolute;top:-0px;right:-20px;width:574px; transform: scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-8px;top:40px;height:1400px;width:1416px;transform:rotate(260deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:80px;top:0px;height:1400px;width:1416px;transform:rotate(263deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-50px;top:0px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Tomb Lords Tactics
+
+Tomb lords are generals who lead their undead forces from the front. They always have an entourage of undead minions at their side, and in battle, a tomb lord will attempt to stay in the middle of these minions so they can all benefit from its abilities. Ensuring their minions are empowered this way is usually a higher priority than moving to strike higher-priority targets. That’s dirty work better left to minions. 
+
+Tomb lords are fearless in battle but have enough foresight to withdraw from a losing fight. If the tomb lord has lost most of its minions or is low on health, it will usually retreat to a secure location where it can regroup and plot its revenge. If the tomb lord is fighting in its home or a site sacred to it, it will stubbornly fight to the end rather than risk disgrace.
+
+### Tomb Lords Loot
+Most of the valuable goods that can be looted from the lordsof the Tomb Kingdoms come in the form of relics and weapon fragments they leave behind. Most dropped valuables can be found using an **Intelligence (Investigation)** or identified using an **Intelligence (History)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Tomb Lords Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Tomb Prince Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-7  | 1d6(3) 10gp Items |
+|  8-12 | 1d6(3) 20gp Items | 
+|  13-17 | 2d4(2) 50gp Items  |  
+|  18-24 | 2d4(2) 100gp Items |  
+|  25+ |  1d4(2) 200gp Items |  
+
+##### Tomb King Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  8-9  | 1d4(2) 100gp Items |
+|  10-14 | 1d4(2) 200gp Items | 
+|  15-20 | 1 1,000gp Items  |  
+|  21-26 | 1 2,000gp Items |  
+|  27+ |  1d4(2) 2,000gp Items |  
+
+\columnbreak
+
+#### Example Tomb Lord Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
+
+##### Example Uncommon Tomb Kingdom Item Names
+|1d10 |  10gp Item | 20gp Item | 
+|:--:|:-----------:|:-----------:|
+| 1-2 <br> (Cloth)  |   Ornate Cloth  |  Pristine Ornate Cloth  | 
+| 3-4 <br> (Bone)  | Preserved Bone | Pristine Preserved Bone | 
+| 5-6 <br> (Gem)  |   Lapis Lazuli | Pristine Lapis Lazuli | 
+| 7-8 <br> (Metal) |  Intact Blade | Masterwork Intact Blade | 
+| 9-10 <br> (Wood) |  Preserved Wood  | Masterwork Preserved Wood  | 
+
+##### Example Rare Tomb Kingdom Item Names
+|1d10 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Cloth)  |   Tattered Ritual Garb | Ritual Garb  |  Pristine Ritual Garb  | 
+| 3-4 (Bone)  |Cracked Runed Bone | Runed Bone | Pristine Runed Bone | 
+| 5-6 <br> (Gem)  |  Flawed Amethyst |  Amethyst | Pristine Amethyst | 
+| 7-8 <br> (Metal) | Rusted Ritual-Blade Fragment |  Ritual-Blade Fragment | Masterwork Ritual-Blade Fragment | 
+| 9-10 <br> (Wood) | Cracked Runed Wood  |  Runed Wood  | Masterwork Runed Wood  | 
+
+##### Example Very Rare Tomb Kingdom Item Names
+|1d10 | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Cloth)  | Sacred Garb  |  Pristine Sacred Garb  | 
+| 3-4 (Bone)  | Sacred Bone | Pristine Sacred Bone | 
+| 5-6 <br> (Gem)  |  Emerald | Pristine Emerald | 
+| 7-8 <br> (Metal) | Ritual-Blade | Masterwork Ritual-Blade | 
+| 9-10 <br> (Wood) | Sacred Wood  | Masterwork Sacred Wood  | 
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Tomb Kingdoms Infantry
 
@@ -1156,6 +1528,7 @@ These undead represent the most numerous and lowest-ranking soldiers of the tomb
 
 \columnbreak
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ___
 > ## Skeleton Spearmen
@@ -1185,12 +1558,11 @@ ___
 > ***Spear.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 10 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.
 >
 
-<img src='https://i.ibb.co/hsd6d9Y/cardart-WAR-Dreadhorde-Invasion.jpg' style='position:absolute; top:-10px; right:00px; width:820px' />
+<img src='https://i.ibb.co/hsd6d9Y/cardart-WAR-Dreadhorde-Invasion.jpg' style='position:absolute; top:-0px; right:00px; width:900px' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:40px; right:0px; width:900px; transform: rotate(8deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:220px; right:0px; width:900px; transform: rotate(8deg)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:180px; right:-165px; width:900px; transform: rotate(0deg)' />
-
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:230px; right:-165px; width:900px; transform: rotate(0deg)' />
 
 
 \pagebreakNum
@@ -2070,1316 +2442,6 @@ You can give the different types of items unique names based on their material a
 
 \pagebreakNum
 
-## Ushabti
-
-The people of the ancient tomb kingdoms <br> worshipped pantheons of gods who were <br> said to blend aspects of animal and <br> human. They possessed the heads of <br> powerful desert beasts, the bodies of <br> humans, and each presided over their <br> respective domains. The people of <br> these kingdoms created many imposing <br> statues of these deities, and when their <br> priests learned how to preserve and bind <br> the spirits of the fallen, they began the <br> practice of enshrining the spirits of their <br> most powerful warriors within these statues. <br> Known as ushabti, they stand watch over the <br> most important temples and necropolises <br> of the tomb kingdoms, where they remain <br> motionless but ever vigilant. 
-
-Ushabtis awaken only when they detect <br> intruders or hear the summons of a <br> powerful tomb priest. In either case, they <br> stride into battle, wielding giant ornate <br> weapons, from intricately etched blades <br> capable of cutting a horse in half to gilded <br> longbows with blessed arrows the size of <br> spears. Ushabtis use their weapons with ease, <br> cutting a swath through would-be intruders and <br> invaders, making them the perfect sentries and <br> monstrous soldiers for their eternal kingdom. 
-
-### Art Credit
-* God-Eternal Bontu - Lius Lasahido, Wizards of the Coast
-* God-Eternal Oketra - Grzegorz Rutkowski, Wizards of the Coast
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-* God-Eternal Rhonas - Lius Lasahido, Wizards of the Coast
-
-
-
-___
-___
-> ## Ushabti
->*Large construct, unaligned*
-> ___
-> - **Armor Class** 20 (natural armor)
-> - **Hit Points** 93 (11d10 + 33)
-> - **Speed** 40 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+4)|16 (+3)|16 (+3)|12 (+1)|18 (+4)|12 (+1)|
->___
-> - **Skills** Athletics +7, Perception +7
-> - **Damage Resistances** necrotic, psychic, radiant
-> - **Damage Immunities** poison
-> - **Condition Immunities** exhaustion, petrified, poisoned
-> - **Senses** Darkvision 60 ft., passive Perception 17
-> - **Languages** understands the languages of its creator but 
-can't speak.
-> - **Challenge** 5 (1,800)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
-> ___
->
-> ***Animated Construct.*** The ushabti is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
->
-> ***Desert Sight.*** The ushabti does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
->
-> ***False Appearance.*** While the ushabti remains motionless, it is 
-indistinguishable from an inanimate statue. 
->
-> ***Immutable Form.*** The ushabti is immune to any spell or effect 
-that would alter its form. 
->
-> ***Powerful Draw.*** The ushabti uses its Strength rather than its Dexterity when determining the attack and damage bonuses for attacks with its great bow.
->
-> ***Turning Defiance.***  The ushabti has advantage on saving throws against effects that turn undead.
->
-> ***Sacred Arrows.*** The ushabti's ranged attacks ignore half cover and three-quarters cover.
->
-> ### Actions
-> ***Multiattack.*** The ushabti makes two attacks.
->
-> ***Greataxe.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) slashing damage.
->
-> ***Great Bow.*** *Ranged Weapon Attack:* +7 to hit, reach 200/800 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage.
-> 
-
-<img
-src='https://i.ibb.co/2ZbMWKy/god-eternal-bontu-art-mtg-1200x900.jpg'
-style='position:absolute;top:-0px;left:190px;width:696px;transform: scaleX(1)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:140px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-50px;left:-5px;width:916px' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:0px;top:139px;height:1400px;width:1416px;transform:rotate(180deg)' />
-
-
-\pagebreakNum
-
-&emsp;***Chosen of the Gods.*** These ushabtis are <br> possessed by the spirits of mighty archers who <br> have earned the blessings of their gods. While <br> all ushabtis utilize blessed arrows, these <br> warriors are capable of performing miraculous <br> feats with their divine ammunition, such as <br> raining volleys of radiant arrows down upon <br> foes in a deadly barrage. The elevated rank of <br> these archers means they are available only to <br> the most powerful of tomb lords and employed <br> for only the most important of duties, such as <br> providing ranged support in critical battles or <br> protecting the most sacred of temples.
-
-***Soul Wardens.*** These ushabtis are built to <br> imprison the souls of those who have earned a <br> special ire from the tomb lords. They are capable <br> of tearing out the souls of their victims and <br> trapping them within their construct bodies. <br> Some transport the souls of the victims to their <br> masters for further punishment, but many serve <br> as a prison for the soul of an especially powerful transgressor, such as a traitorous priest, <br> renegade necromancer, or even a powerful <br> demon. The presence of a tomb warden serves <br> as a grim reminder to would-be tomb robbers <br> that a fate worse than death awaits them should <br> they fall into the clutches of these dreaded <br> guardians.
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-___
-___
-> ## Ushabti, Chosen of the Gods
->*Large construct, unaligned*
-> ___
-> - **Armor Class** 20 (natural armor)
-> - **Hit Points** 153 (18d10 + 54)
-> - **Speed** 40 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|20 (+5)|16 (+3)|18 (+4)|12 (+1)|18 (+4)|14 (+2)|
->___
-> - **Saving Throws** Cha +5
-> - **Skills** Athletics +8, Perception +7
-> - **Damage Resistances** necrotic, psychic, radiant
-> - **Damage Immunities** poison
-> - **Condition Immunities** exhaustion, petrified, poisoned
-> - **Senses** darkvision 120 ft., passive Perception 17
-> - **Languages** understands the languages of its creator but 
-can't speak.
-> - **Challenge** 8 (3,900 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
-> ___
->
-> ***Animated Construct.*** The ushabti is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
->
-> ***Blessed Arrows.*** The ushabti's ranged attacks ignore half cover and three-quarters cover. When the ushabti hits with any ranged weapon, it deals an extra 9 (2d8) radiant damage (included in its great bow attack).
->
-> ***Desert Sight.*** The ushabti does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
->
-> ***False Appearance.*** While the ushabti remains motionless, it is 
-indistinguishable from an inanimate statue. 
->
-> ***Immutable Form.*** The ushabti is immune to any spell or effect 
-that would alter its form. 
->
-> ***Powerful Draw.*** The ushabti uses its Strength rather than its Dexterity when determining the attack and damage bonuses for attacks with its great bow.
->
-> ***Turning Defiance.***  The ushabti has advantage on saving throws against effects that turn undead.
->
-> ### Actions
-> ***Multiattack.*** The ushabti makes two attacks which can be any combination of greataxe and great bow attacks.
->
-> ***Greataxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) slashing damage.
->
-> ***Great Bow.*** *Ranged Weapon Attack:* +8 to hit, reach 200/800 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage  plus 9 (2d8) radiant damage.
-> 
-> ***Divine Barrage.*** The ushabti makes a great bow attack against any number of creatures within 15 feet of a point it can see within its great bow’s range. Attacks against creatures at the weapon’s long range are made with disadvantage.
-
-
-<img
-src='https://i.ibb.co/sgvGgsc/God-Eternal-Oketra-War-of-the-Spark-Art.jpg'
-style='position:absolute;top:-0px;left:90px;width:900px;transform: scaleX(1)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:110px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:0px;top:150px;height:1400px;width:1416px;transform:rotate(180deg)' />
-
-\pagebreakNum
-
-<br>
-
-___
-___
-> ## Ushabti, Soul Warden
->*Large construct, unaligned*
-> ___
-> - **Armor Class** 20 (natural armor)
-> - **Hit Points** 153 (18d10 + 54)
-> - **Speed** 40 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|20 (+5)|16 (+3)|18 (+4)|12 (+1)|18 (+4)|14 (+2)|
->___
-> - **Saving Throws** Cha +5
-> - **Skills** Athletics +8, Perception +7
-> - **Damage Resistances** necrotic, psychic, radiant
-> - **Damage Immunities** poison
-> - **Condition Immunities** exhaustion, petrified, poisoned
-> - **Senses** darkvision 120 ft., passive Perception 17
-> - **Languages** understands the languages of its creator but 
-can't speak.
-> - **Challenge** 8 (3,900 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
-> ___
->
-> ***Animated Construct.*** The ushabti is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
->
-> ***Desert Sight.*** The ushabti does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
->
-> ***Ethereal Sight.*** The ushabti can see 60 ft. into the Ethereal Plane when it is on the Material Plane, and vice versa.
->
-> ***False Appearance.*** While the ushabti remains motionless, it is 
-indistinguishable from an inanimate statue. 
->
-> ***Immutable Form.*** The ushabti is immune to any spell or effect 
-that would alter its form. 
->
-> ***Spectral Reaper.*** The ushabti's melee attacks are magical and deal an extra 9 (2d8) force damage (included in its greataxe attack). The ushabti may also make melee attacks against and deal damage to creatures on the Ethereal Plane, even when it is on the Material Plane.
->
-> ***Turning Defiance.*** The ushabti has advantage on saving throws against effects that turn undead.
->
-> ### Actions
-> ***Multiattack.*** The ushabti makes two attacks.
->
-> ***Greataxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) slashing damage plus 9 (2d8) force damage.
->
-> ***Capture Soul.*** The ushabti makes one melee attack against a creature. If the attack hits, the target must succeed on a DC 15 Charisma saving throw or become incapacitated and have its speed become 0 as the ushabti begins ripping the target's soul from its body. This effect ends if the ushabti dies, is incapacitated, or uses this ability again. The creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the creature fails the repeated saving throw by 10 or more (DC 5) it dies instantly, and its soul is trapped within the ushabti until it the ushabti dies or traps another soul. While a creature's soul is trapped, it can't be resurrected. <br> If a creature is struck by this attack again while already incapacitated by its effect, it doesn't make another save, but instead makes its next save against the effect with disadvantage.
-> 
-
-### Ushabti Adventures
-Below are some ways to introduce ushabtis into your games:
-
-##### Ushabti Adventure Hooks
-
-| d4  | Adventure Hook |
-|:---:|:-----------:|
-|  1  | A town the players are visiting has been established among ancient ruins. While the players are exploring one of the underground ruins, they awaken a regiment of ushabti set on clearing the settlement of "intruders." |
-|  2  |The players are raiding a tomb for rare magical items. However, they soon discover that any who possess the artifacts are relentlessly hunted by vengeful ushabti. |
-|  3  | While traveling through an unforgiving desert, the players find an oasis blessed by the gods but guarded by their chosen ushabti. |
-|  4  | The players discover an ancient vault protected by ushabti soul wardens who themselves contain the spirits of powerful demons who will be free to roam the world once more should the ushabti be destroyed.|
-
-
-<img
-src='https://bleedingcool.com/wp-content/uploads/2019/11/god-eternal-rhonas-art-mtg-1200x900.jpg'
-style='position:absolute;bottom:-180px;left:340px;width:800px;transform: scaleX(-1)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-600px;top:-415px;height:1400px;width:1416px;transform:rotate(10deg)' />
-
-\pagebreakNum
-
-### Ushabti Tactics
-
-Though these creatures are unwaveringly loyal constructs, they are not mindless. They possess the souls of mighty champions, complete with all their tactical skills. Though they are single-minded in pursuing a given task, they can adapt their strategies and tactics as needed. They generally don’t rush into combat but slowly stride toward foes while taking shots from their great bows. If it’s clear they have ranged superiority, they may keep their distance. Otherwise, they will close in and engage in melee combat. 
-
-If ushabtis are charged with guarding a specific character or location, they will never leave their post unless commanded otherwise. They will also prioritize attacking whichever character is the biggest threat to whatever they’re protecting.
-
-If ushabtis are serving as sentries, they will usually stand motionless and attempt to catch intruders off guard with surprise attacks when they are most vulnerable.
-
-***Chosen of the Gods.*** These ushabtis make an extra effort to stay at a range, even if it means taking opportunity attacks, and their Blessed Arrows ability allows them to be more flexible in where they can fire from. Their Divine Barrage attack is best used when it can hit at least 3 enemies at once.
-
-***Soul Wardens.***  When a soul warden acts as part of a general attack force, it will rush in and use its Capture Soul on whichever player is easiest to reach or looks most likely to fail the saving throw. Once it has a player incapacitated, it will start using its multiattacks to dispatch everyone else. 
-
-If the soul warden has been tasked with capturing a specific soul, or one of the players is guilty of some particularly egregious offense, it will focus on that target, striking it repeatedly with its Capture Soul ability. Once it captures the desired soul, the soul warden will often flee the battle, taking its prize with it.
-
-
-### Ushabti Loot
-The valuable items looted from ushabti will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (Nature)** or **Intelligence (History)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
-
-Alternatively, you can roll for the loot randomly using a flat modifier.
-
-#### Ushabti Loot Tables
-The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
-
-\columnbreak
-
-##### Ushabti Loot Table
-
-| Looting Check Result or 1d20 + 5 |  Loot  |
-|:---:|:-----------:|
-|  6-7  | 1d6(3) 5gp Items |
-|  8-10 | 2d4(5) 5gp Items | 
-|  11-16 | 2d4(5) 10gp Items  |  
-|  17-22 | 3d6(7) 10gp Items |  
-|  23+ |  2d4(5) 20gp Items |  
-
-##### Chosen Ushabti of the Gods & Ubshati Soul Warden Loot Table
-
-| Looting Check Result or 1d20 + 5 |  Loot  |
-|:---:|:-----------:|
-|  6-7  | 1d6(3) 10gp Items |
-|  8-12 | 2d4(7) 10gp Items | 
-|  13-17 | 1d6(3) 20gp Items  |  
-|  18-23 | 2d4(5) 100gp Items |  
-|  24+ |  2d4(5) 200gp Items |  
-
-#### Example Ushabti Loot Names
-You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
-
-##### Example Uncommon Ushabti Item Names
-|1d10 | 5gp Item | 10gp Item | 20gp Item | 
-|:--:|:---:|:-----------:|:-----------:|
-| 1 <br> (Cloth)  |   Tattered Ornate Cloth | Ornate Cloth  |  Pristine Ornate Cloth  | 
-| 2-3 <br> (Gem)  |  Flawed Lapis Lazuli |  Lapis Lazuli | Pristine Lapis Lazuli | 
-| 4-6 <br> (Metal) | Tarnished Ushabti Armaments |  Ushabti Armaments | Masterwork Ushabti Armaments | 
-| 7-9 (Stone)  |Cracked Ushabti Stone | Ushabti Stone | Pristine Ushabti Stone | 
-| 10 <br> (Wood) | Cracked Preserved Wood  |  Preserved Wood  | Masterwork Preserved Wood  | 
-
-##### Example Rare Ushabti Item Names
-|1d10 | 100gp Item | 200gp Item | 
-|:--:|:-----------:|:-----------:|
-| 1 <br> (Cloth)  |  Ritual Garb  |  Pristine Ritual Garb  | 
-| 2-3 <br> (Gem)  | Amethyst | Pristine Amethyst | 
-| 4-6 <br> (Metal) |  Ushabti-Elite Armaments | Masterwork Ushabti-Elite Armaments | 
-| 7-9 (Stone)  | Ushabti-Elite Stone | Pristine Ushabti-Elite Stone | 
-| 10 <br> (Wood) | Runed Wood  | Masterwork Runed Wood  | 
-
-
-\pagebreakNum
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-## Bone Giant
-
-Though these mighty beings appear to be the skeletons of enormous giants, they are, in fact, constructs carved from wood and stone. In ancient times, they were created as monumental tributes to legendary kings and heroes. As the death priests learned to bind souls and manipulate the death, they began binding powerful spirits to these statues. These spirits remain dormant for ages at a time until they are called upon to serve their lost kingdom. 
-
-When they're stirred into action, bone giants draw huge bows and unleash blessed arrows the size of a ballista bolt capable. Even those who manage to overcome the sheer terror of the bone giant's presence and engage it in close quarters will still need to contend with melee attacks capable of pulverizing most humanoids in a single blow. And those who survive long enough to land a blow will be unlikely to overcome the defenses of its nearly indestructible frame.
-
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-### Bone Giant Adventures
-The following table provides some ways to introduce bone giants into your games:
-
-##### Bone Giant Adventure Hooks
-
-| d4  | Adventure Hook |
-|:---:|:-----------:|
-|  1  | A bone giant in the image of a powerful ancient queen has awakened and begun roaming through the ruins of the queen's lost empire, resulting in an army of loyal statues awakening and following in their queen's wake.|
-|  2  |The players find themselves attempting to escape an underground vault with stolen treasure while its guardian bone giant attempts to cause a cave-in at the exit, trapping them all there forever.  |
-|  3  | A spirit of a powerful tomb lord thought to have been destroyed has instead possessed a bone giant and now seeks vengeance on those who slew it.   |
-|  4  | The players find them beset by ushabti while searching a tomb for a rare artifact. They soon realize the only way to obtain the artifact is to awaken the tomb's most deadly guardian: the bone giant.  |
-
-
-
-<img
-src='https://i.ibb.co/5jnTGcZ/5741-underworld-sentinel.jpg'
-style='position:absolute;top:-80px;left:-140px;width:1100px;transform: scaleX(1) ' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-50px;left:-100px;width:1016px; transform: rotate(-0deg) scaleX(-1)' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-110px;left:40px;width:1016px; transform: rotate(-30deg) scaleX(-1)' />
-
-
-\pagebreakNum
-
-___
-___
-> ## Bone Giant
->*Huge construct, unaligned*
-> ___
-> - **Armor Class** 20 (natural armor)
-> - **Hit Points** 225 (18d12+108)
-> - **Speed** 50 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|27 (+8)|16 (+3)|22 (+6)|10 (0)|20 (+5)|16 (+3)|
->___
-> - **Saving Throws** Int +4
-> - **Skills** Athletics +12, Perception +9
-> - **Damage Resistances** necrotic, psychic, radiant.
-> - **Damage Immunities** poison
-> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
-> - **Senses** darkvision 120 ft., passive Perception 19
-> - **Languages** understands the languages of its creator but 
-can't speak.
-> - **Challenge** 12 (8,400 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +4       
-> ___
->
-> ***Animated Construct.*** The bone giant is infused with the souls of the dead. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
->
-> ***Immutable Form.*** The bone giant is immune to any spell or effect that would alter its form. 
->
-> ***Powerful Draw.*** The bone giant uses its Strength rather than its Dexterity when determining the attack and damage bonuses for attacks with its great bow.
->
-> ***Sacred Arrows.*** The bone giant's ranged attacks ignore half cover and three-quarters cover.
->
-> ***Sleeping Giant.*** While the bone giant remains motionless, it is indistinguishable from an inanimate statue. It is also immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells or other magic that would detect it is a creature. 
->
-> ***Turning Defiance.***  The bone giant has advantage on saving throws against effects that turn undead.
->
-> ### Actions
-> ***Multiattack.*** The bone giant can use its Frightful Presence. It then makes two attacks with its greatsword or two attacks with its Bow of The Desert.
->
-> ***Greatsword.*** *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 29 (6d6 + 8) slashing damage. If the target is reduced to 0 hit points by the attack, the bone giant may make another attack with the same weapon against a different creature within 10 feet of the original target and within range of the weapon. This attack does not gain another attack if it reduces the new target to 0 hit points.
->
-> ***Bow of The Desert.*** *Ranged Weapon Attack:* +12 to hit, reach 300/900 ft., one target. *Hit:* 27 (3d12 + 8) piercing damage. If the target is reduced to 0 hit points by the attack, the bone giant may make another attack with the same weapon against a different creature directly behind the first target and within range of the weapon. This attack does not gain another attack if it reduces the new target to 0 hit points.
->
-> ***Frightful Presence.*** Each creature of the bone giant's choice that is within 120 feet of the bone giant and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the bone giant's Frightful Presence for the next 24 hours.
->
-
-<img src='https://www.mtgnexus.com/img/gallery/4033-cradle-of-the-accursed.jpg' style='position:absolute;bottom:-40px;right:0px;width:820px' />
-
-<img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;bottom:0px' />
-  
-\pagebreakNum
-
-### Bone Giant Tactics
-Though bone giants are huge and capable of smashing through enemies, they prefer staying at a range, picking off targets with their bow of the desert. Their huge range and high speed mean they can even kite players if they have enough space to move and shoot. They’ll set up their attacks to allow their piercing shots to potentially hit multiple targets in the event they reduce the first target to 0 hit points. Their Frightful Presence ability is also useful for keeping players at bay. It will switch to melee attacks if enough players overcome its Frightful Presence and manage to close into melee range. 
-
-Bone giants are very patient and will remain motionless if they’re undetected, even if the players do something that would incur their wrath. They will often wait to make their presence known until the players have left the area, and which point they can use their speed to catch up to their foes and start sniping them from a distance. 
-
-### Bone Giant Loot
-The valuable items looted from bone giants will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (History)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
-
-Alternatively, you can roll for the loot randomly using a flat modifier.
-
-#### Bone Giant Loot Table
-The following table describes the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
-
-##### Bone Giant Loot Table
-
-| Looting Check Result or 1d20 + 7 |  Loot  |
-|:---:|:-----------:|
-|  8  | 2d4(5) 50gp Items |
-|  9-15 | 2d4(5) 100gp Items | 
-|  16-23 | 2d8(8) 100gp Items  |  
-|  24-26 | 2d4(5) 1,000gp Items |  
-|  27+ |  1d6(3) 2,000gp Items | 
-
-<br>
-
-### Bone Giant Art Credit
-* Underworld Sentinel - Vincent Proce, Wizards of the Coast
-* Cradle of the Accursed - Noah Bradley, Wizards of the Coast
-* Champion of Stray Souls - Aleksi Briclot, Wizards of the Coast
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-#### Example Bone Giant Loot Names
-You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
-
-##### Example Bone Giant Item Names
-|1d10 | 50gp | 100gp Item | 1,000gp Item |  2,000gp Item | 
-|:--:|:-----------:|:-----------:|:-----------:|:-----------:|
-| 1 <br> (Cloth)  | Tattered Ritual Garb |  Ritual Garb  |  Sacred Garb  | Pristine Sacred Garb |
-| 2-3 <br> (Gem)  | Flawed Amethyst | Amethyst | Emerald | Pristine Emerald  |
-| 4-6 <br> (Metal) | Tarnished Bone Giant Armaments |  Bone Giant Armaments | Emblem of The Gods | Masterwork Emblem of the Gods  |
-| 7-9 (Stone)  | Cracked Bone Giant Stone | Bone Giant Stone | Bone Giant Skull Fragment | Masterwork Bone Giant Skull Fragment   |
-| 10 <br> (Wood) | Cracked Runed Wood | Runed Wood  | Bone Giant Weapon Haft  | Masterwork Bone Giant Weapon Haft  |
-
-<img src='https://i.ibb.co/Pmps5SR/Champion-Of-Stray-Souls.jpg' style='position:absolute; top:-2px; right:-20px; width:797px; transform:rotate(0deg);filter:opacity(100%);'/>
-
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:40px;top:-130px;height:1400px;width:1416px;transform:rotate(270deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-110px;top:200px;height:1400px;width:1416px;transform:rotate(180deg)' />
-
-
-\pagebreakNum
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-## Titan of the Gods
-
-These massive ornate constructs were built to serve as conduits to the netherworld. They preside over the tombs of ancient kings, ensuring they are guided to the afterlife. In one hand, they wield a massive sun staff that lights the way through the netherworld and allows them to unleash solar rays through their burning eyes. In the other hand, they carry a set of scales used to judge the worthiness of souls and rip apart the life force of those still living. 
-
-When stirred to battle, the titan of the gods serves as an avatar of the divine that walks the mortal realm. Its connection to the realm of the gods allows divine beings to hear the prayers and rituals beseeching them for power more clearly. Those who draw on the gods for power find they can more freely call upon that power in the presence of this titan, and the titan serves as a messenger to communicate the gods' will to their supplicants.
-
-
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-### Titan of the Gods Adventures
-The following table provides some ways to introduce titans of the gods into your games:
-
-##### Titan of the Gods Adventure Hooks
-
-| d4  | Adventure Hook |
-|:---:|:-----------:|
-|  1  | A cabal of rogue priests has constructed a titan of the gods and begun worshipping it as a false idol. They now seek to destroy all temples to "false gods."|
-|  2  |The players need divine guidance and must seek out a titan of the gods to make contact with one or more gods who may use the titan to test their worth.   |
-|  3  | A god, bitter that it is being forgotten, has awoken an ancient titan built in its honor and is using it raise an army and exact vengeance on the descendants of its former worshippers.    |
-|  4  | The players are tasked with freeing a titan of the gods from the clutches of a wicked liche priest and guiding it back to its rightful caretakers. The titan will aid the players as they escape through hordes of the liche's undead minions. |
-
-
-
-<img
-src='https://mtgazone.com/wp-content/uploads/2020/08/hou-163-hollow-one.jpg'
-style='position:absolute;top:-0px;left:-60px;width:900px;transform: scaleX(1)' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-120px;left:-0px;width:1016px; transform: rotate(-0deg) scaleX(-1)' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-170px;left:80px;width:1016px; transform: rotate(-39deg) scaleX(-1)' />
-
-
-
-
-\pagebreakNum
-
-___
-___
-> ## Titan of the Gods
->*Huge construct, unaligned*
-> ___
-> - **Armor Class** 20 (natural armor)
-> - **Hit Points** 250 (20d12 + 120)
-> - **Speed** 50 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|27 (+8)|16 (+3)|22 (+6)|16 (+3)|20 (+5)|18 (+4)|
->___
-> - **Saving Throws** Int +8, Wis +10
-> - **Skills** Athletics +13, Arcana +8, History +8, Insight + 10, Religion +8, Perception +10
-> - **Damage Resistance** necrotic, psychic, radiant
-> - **Damage Immunities** poison
-> - **Condition Immunities** charmed, exhaustion, frightened, 
-paralyzed, petrified, poisoned
-> - **Senses** truesight 120 ft., passive Perception 20
-> - **Languages** Understands the languages of its creator but 
-can't speak.
-> - **Challenge** 15 (10,000 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +5       
-> ___
->
-> ***Animated Construct.*** The titan is infused with the souls of the dead. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
->
-> ***Divine Awareness.*** The titan knows if it hears a lie.
->
-> ***Immutable Form.*** The titan is immune to any spell or effect that would alter its form. 
->
-> ***Sleeping Giant.*** While the titan remains motionless, it is indistinguishable from an inanimate statue. It is also immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells or other magic that would detect it is a creature. 
->
-> ***Spirit Caster.*** Spells the titan casts on the Material Plane can affect creatures on the Ethereal Plane. 
->
-> ***Turning Defiance.***  The titan has advantage on saving throws against effects that turn undead.
->
-> ### Actions
-> ***Multiattack.*** The titan can use its Frightful Presence. It then makes two attacks with its Sun Staff.
->
-> ***Sun Staff.*** *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage plus 13 (3d8) radiant damage.
->
-> ***Frightful Presence.*** Each creature of the titan's choice that is within 120 feet of the titan and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the titan's Frightful Presence for the next 24 hours.
->
-> ***Spellcasting.*** The titan casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 18, +10 to hit with spell attacks):
->
-> 2/Day: *burning gaze** (5th level), *spirit leech** (5th level)
->
-> 1/Day: *dispel evil and good*, *forbiddance*
->
-> **new spell found at end of document*
->
-> ### Bonus Actions
-> ***Battle Magic*** When the titan uses its action to cast a spell, it can use its Frightful Presence and make one Sun Staff attack.
->
-> ### Reactions
->
-> ***Spirit Conduit (5/Day).*** Whenever another friendly creature within 60 feet of the titan would cast a spell of 5th level or lower using Wisdom as its spellcasting ability, the titan may allow the creature to ignore any material component requirements the spell has. Additionally, if the spell has a chance of failing, such as the *commune* or *divination* spells do, the spell can't fail. Finally, if the creature used a spell slot or daily use of an ability to cast the spell, it regains that spell slot or daily use.
-
-<img src='https://www.hipstersofthecoast.com/wp-content/uploads/2019/06/11.LGW_.jpg' style='position:absolute;bottom:-170px;right:0px;width:820px' />
-
-<img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:0px;bottom:0px' />
-
-\pagebreakNum
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-#### Titan of the Gods Tactics
-
-These constructs possess the divine insight of the gods, which makes them quite good at accessing which players are least likely to be able to resist their spells. As such, they will usually avoid targeting dexterous players with their *burning gaze* or charismatic players with their *spirit leech*. 
-
-The titan will use its Frightful Presence ability to control the positioning of players while closing in to smash softer targets with its sun staff while targeting players with weak saving throws with its spells. 
-Below are tips on how to use its spells:
-
-***Burning gaze.*** The titan will use this whenever it can hit at least three players who don’t have the Evasion ability with it.
-
-***Dispel evil and good.*** The titan will only have use for this spell if the players have an allied creature with them who can be affected by it.
-
-***Forbiddance.*** The titan casts this on any area it has been charged with protecting. It will try to engage players in the area affected by this spell whenever possible.
-
-***Spirit leech.*** The titan will use this if there are no grouped-up players, and it could use some healing.
-
-### Titan of the Gods Loot
-The valuable items looted from bone giants will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (History)**, **Intelligence (Nature)**, or **Intelligence (Religion)** or check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
-
-Alternatively, you can roll for the loot randomly using a flat modifier.
-
-#### Titan of the Gods Loot Tables
-The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-##### Titan of the Gods Loot Table
-
-| Looting Check Result or 1d20 + 7 |  Loot  |
-|:---:|:-----------:|
-|  8-9  | 1d6(3) 500gp Items |
-|  10-12 | 1d6(3) 1,000gp Items | 
-|  13-18 | 2d4(5) 1,000gp Items  |  
-|  19-24 | 2d8(9) 1,000gp Items |  
-|  25+ |  1d6(3) 2,000gp Items |  
-
-
-#### Example Titan of the Gods Loot Names
-You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
-
-##### Example Titan of the Gods Item Names
-|1d10 | 500gp Item | 1,000gp Item | 2,000gp Item | 
-|:--:|:-----------:|:-----------:|:-----------:|:-----------:|
-| 1 <br> (Cloth)  | Tattered Ritual Garb  |  Sacred Garb  | Pristine Sacred Garb |
-| 2-3 <br> (Gem)  | Flawed Emerald | Emerald | Pristine Emerald  |
-| 4-6 <br> (Metal) | Tarnished Emblem of The Gods | Emblem of The Gods | Masterwork Emblem of the Gods  |
-| 7-9 (Stone)  | Cracked Titan Stone | Titan Stone | Masterwork Titan Stone  |
-| 10 <br> (Wood) | Cracked Titan Weapon Haft | Titan Weapon Haft  | Masterwork Titan Weapon Haft  |
-
-<br>
-
-#### Titan of the Gods Art Credit
-* Hollow One - Anthony Palumbo, Wizards of the Coast
-* Plains, Hour of Devastation  - Lars Grant-West, Wizards of the Coast
-* Hour of Revelation - Raymond Swanland, Wizards of the Coast
-
-<img src='https://i.ibb.co/RcHGc5N/Hour-of-Revelation-Hour-of-Devastation-Mt-G-Art.jpg' style='position:absolute;top:-100px;right:0px;width:820px' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-110px;top:-50px;height:1400px;width:1416px;transform:rotate(180deg)' />
-
-\pagebreakNum
-
-<br><br><br><br><br><br><br><br><br><br><br>
-
-## Tomb Lords
-These monarchs ruled vast <br> kingdoms when civilization was <br> still young. Their ruthless ambition <br> saw them conquer huge territories <br> and amass untold troves of wealth. <br> Their egos were such that they saw <br> themselves as above death. So, they <br> had themselves mummified so they <br> could rule their kingdoms for eternity. <br> However, they’ve awoken to find their <br> bodies as shriveled husks and their kingdoms <br> crumbling and pillaged of treasures. Though <br> they still possess immense physical might, they <br> can no longer enjoy the sensations of life. Though they <br> still have many riches, much of it was stolen. Though they still have loyal subjects, they are undead minions only possessing a shadow of their former selves.
-
-
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-___
-___
-> ## Tomb Prince
->*Medium undead, lawful evil*
-> ___
-> - **Armor Class** 16 (breastplate) (17 with Eternal Empire)
-> - **Hit Points** 85 (9d8+45)
-> - **Speed** 30 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+4)|14 (+2)|20 (+5)|12 (+1)|14 (+2)|18 (+4)|
->___
-> - **Saving Throws** +7 to all saves with My Will Be Done
-> - **Skills** Athletics +7, History +5, Religion +5, Persuasion +7
-> - **Damage Vulnerabilities** fire
-> - **Damage resistance** bludgeoning, piercing, and slashing from nonmagical attacks
-> - **Damage Immunities** necrotic, poison
-> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
-> - **Senses** darkvision 120 ft., passive Perception 12
-> - **Languages** The languages it knew in life
-> - **Challenge** 6 (2,300 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3      
-> ___
->
-> ***Eternal Empire.*** While the tomb prince is not incapacitated, it and any other undead creatures within 30 feet of it can choose to make its AC equal to 10 + the Tomb Prince’s Charisma modifier + its Proficiency Bonus (AC 17).
->
-> ***Marshal Undead.*** Unless the tomb prince is incapacitated, it and undead creatures of its choice within 30 feet of it have advantage on saving throws against features that turn undead.
->
-> ***My Will Be Done.*** While the tomb prince is not incapacitated, whenever it or any other undead creature within 30 feet of it makes an attack or saving throw, that creature can use the tomb prince’s Charisma modifier + its Proficiency Bonus (+7) on the roll the rather use its own modifier.
-> 
-> ***Tyrannical Strike.*** The tomb prince’s melee weapon attacks deal an additional 10 (3d6) psychic damage (included in the attack.) Once per turn, when the tomb prince hits a creature with a melee weapon attack, it may force that creature to make a DC 15 Wisdom saving throw. On a failure, the creature falls prone in prostration and is frightened of the tomb prince until the end of the tomb prince's next turn or until the tomb prince is incapacitated. While frightened this way, the target can't stand up.
->
-> ***Vengeful Curse.*** A creature that kills the tomb prince must make a DC 15 Charisma saving throw or become cursed. While cursed this way, the target automatically fails any death saving throws it makes and treats the roll as if it rolled a 1.
->
-> ### Action
->
-> ***Multiattack.*** The tomb prince makes two attacks. 
->
-> ***Khopesh.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage plus 10 (3d6) psychic damage. 
-
-<img
-src='https://cdna.artstation.com/p/assets/images/images/006/832/270/large/josu-hernaiz-mummy-paramount.jpg?1501591841'
-style='position:absolute;top:-90px;left:90px;width:980px;transform: scaleX(1)' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-60px;left:30px;width:916px' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:-200px;left:-180px;width:916px; transform: rotate(39deg)' />
-
-<img
-src='https://www.gmbinder.com/images/rNOAD8A.png'
-style='position:absolute;top:600px;left:-180px;width:916px; transform: rotate(39deg)' />
-
-\pagebreakNum
-
-The rage at what they’ve lost and their desire to retake <br> what they feel the afterlife owes them drives the tomb <br> lords ruthlessly reclaim their territory and punish any trespassers in their domain. This indomitable will <br> manifests itself in their undead subjects, who become <br> much more formidable in the presence of their lord.
-
-***Chosen of the Gods.*** The monarchy of these <br> long-lost kingdoms claimed to be divinely blessed, if <br> not the direct descendants of gods themselves. Those <br> struck by tomb lords experience direct evidence to <br> back this claim, for these undying monarchs strike <br> with the divine fury of their patron gods. This blessing <br> may come in the form of poisonous strikes, attacks <br> enhanced with solar radiance, or an onslaught so <br> vicious it mentally scars victims and forces them to <br> drop to their knees in prostration. 
-
-The most sinister of these divine manifestations is <br> not a blessing on the tomb lord but a curse on anyone <br> who strikes it down. These curses reflect the gods <br> who favored the tomb lord and may leave victims <br> racked with poison, unable to recall learned <br> knowledge, or feeling the inevitable pull of death <br> tugging at their souls.
-
-***Tomb Princes.*** Most members of ancient royalty <br> were not destined for the throne. The sons of mighty monarchs who were not heirs to the throne served as commanders and enforcers for their father’s will. <br> Many strive to earn favor with their king, performing <br> deeds in his name as they jockey for positions in the <br> royal hierarchy. Others seek to gather enough power <br> to dethrone their father and take his place at the <br> head of an undying kingdom of their own.
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-___
-___
-> ## Tomb King
->*Medium undead, lawful evil*
-> ___
-> - **Armor Class** 17 (half plate) (19 with Eternal Empire)
-> - **Hit Points** 171 (18d8+90)
-> - **Speed** 30 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|20 (+5)|16 (+3)|20 (+5)|16 (+3)|14 (+2)|20 (+5)|
->___
-> - **Saving Throws** +9 to all saves with My Will Be Done
-> - **Skills** Athletics +9, History +7, Religion +7, Persuasion +9.
-> - **Damage Vulnerabilities** fire
-> - **Damage resistance** bludgeoning, piercing, and slashing from nonmagical attacks
-> - **Damage Immunities** necrotic, poison
-> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
-> - **Senses** darkvision 120 ft., passive Perception 12
-> - **Languages** The languages it knew in life
-> - **Challenge** 10 (5,900 XP)   &emsp;&emsp;&emsp;&nbsp;  **Proficiency Bonus** +4      
-> ___
->
-> ***Eternal Empire.*** While the tomb king is not incapacitated, it and any other undead creature within 30 feet of it can choose to make its AC equal to 10 + the Tomb King’s Charisma modifier + its Proficiency Bonus (AC 19).
->
-> ***Marshal Undead.*** Unless the tomb king is incapacitated, it and undead creatures of its choice within 30 feet of it have advantage on saving throws against features that turn undead.
->
-> ***My Will Be Done.*** While the tomb king is not incapacitated, whenever it or any other undead creature within 30 feet of it makes an attack or saving throw, that creature can use the tomb king’s Charisma modifier + its Proficiency Bonus (+9) on the roll the rather use its own modifier.
->
-> ***Tyrannical Strike.*** The tomb king’s melee weapon attacks deal an additional 10 (3d6) psychic damage (included in the attack.) Once per turn, when the tomb king hits a creature with a melee weapon attack, it may force that creature to make a DC 17 Wisdom saving throw. On a failure, the creature falls prone in prostration and is frightened of the tomb king until the end of the tomb king's next turn or until the tomb king is incapacitated. While frightened this way, the target can't stand up.
->
-> ***Vengeful Curse.*** A creature that kills the tomb king must make a DC 17 Charisma saving throw or become cursed. While cursed this way, the target automatically fails any death saving throws it makes and treats the roll as if it rolled a 1.
->
-> ### Action
->
-> ***Multiattack.*** The tomb king makes three attacks. 
->
-> ***Khopesh.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage plus 10 (3d6) psychic damage. 
-
-<img src='https://i.ibb.co/RvjwG43/Unraveling-Mummy-Mt-G-Art.jpg' style='position:absolute;top:-20px;right:-120px;width:760px' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:78px;top:-0px;height:1400px;width:1416px;transform:rotate(270deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-550px;top:240px;height:1400px;width:1416px;transform:rotate(160deg)' />
-
-\pagebreakNum
-
-### Additional Curses of the Gods
-
-Many tomb lords have a specific god they regard as their patron. These gods enact divine punishments on those who strike the tomb lord down in a unique way that makes it clear which deity has been angered. You may replace the effects of the tomb prince’s or tomb king’s Vengeful Curse with one of the following curses.
-
-#### Curse of Death's Grip
-This is the most common curse tomb lords inflict and is the default curse listed in their stat blocks. The curse is inflicted by gods associated with death and funerary rites. Those under its effect feel the inevitable pull of the grave tugging at their soul.
-
-While cursed this way, the target automatically fails any death saving throws it makes and treats the roll as if it rolled a 1.
-
-#### Curse of the Glaring Sun
-Many of the greatest kings of old claimed to be blessed by, or even descendent from, the god of the sun. Those who cut down these monarchs are cursed by the sun’s perpetual glare. 
-
-Whenever a creature cursed this way is in direct sunlight, it has disadvantage on attack rolls and ability checks.
-
-\columnbreak
-
-<br><br>
-
-#### Curse of the Lost Lessons
-Some monarchs made gods of knowledge their patron deities in hopes of receiving their wisdom. Those who earn the ire of these gods soon find themselves stripped of such wisdom.
-
-The cursed creature can't add its proficiency bonus to skill checks, tool checks, or saving throws.
-
-#### Curse of the Marked Prey
-Monarchs who were fierce warriors and hunters earned the favor of gods of the wild. Those cursed by such gods become easy prey to their enemies. 
-
-Weapon attacks against the cursed creature can't suffer from disadvantage.
-
-
-#### Curse of the Serpent's Kiss
-The cursed creature loses any immunity or resistance it has to poison damage and the poisoned condition. Additionally, if this curse originated from a tomb prince, and the creature takes any piercing, slashing, or poison damage, the creature takes an additional 2(1d4) poison damage. If the curse originated from a tomb king, it instead takes an additional 4 (1d8) poison damage.
-
-<img src='https://i.pinimg.com/564x/a2/c7/bd/a2c7bd239a5e3b9338fc59d6a5b0a74f.jpg' style='position:absolute;bottom:-40px;right:-10px;width:836px' />
-
-<img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-90px;bottom:150px' />
-
-\pagebreakNum
-
-
-
-### Additional Magic Strikes
-
-If you wish to replace the effects of the Tyrannical <br> Strike ability for a tomb prince or tomb king, you <br> can use one of the following effects instead. The <br> save DC for a tomb prince is 15, and for a tomb <br> king, it’s 17. The tomb monarch in the descriptions <br> refers to the tomb prince or tomb king with this <br> ability.
-
-#### Nullifying Strike
-
-The tomb monarch’s melee weapon attacks deal an <br> additional 10 (3d6) force damage. Once per turn, when <br> the tomb monarch hits another creature with a melee weapon attack, it may force that creature to make a <br> Strength saving throw. On a failure, the creature drops <br> an object of the tomb monarch’s choice, and the tomb monarch can have the object flung up to 10 feet away in <br> the direction of its choice. If the object is magical, its <br> magical properties are suppressed for the next minute. 
- 
-#### Siphoning Strike
-
-The tomb monarch’s melee weapon attacks deal an additional 10 (3d6) necrotic damage. Once per turn, when the tomb monarch hits another creature with a melee weapon attack, it may force that creature to make a Consitution saving throw. On a failure, the creature gains a level of exhaustion, and the tomb monarch gains advantage on attack rolls and saving throws. These effects last until the end of the tomb monarch’s next turn. 
- 
-#### Sun Strike
-
-The tomb monarch’s melee weapon attacks deal an additional 10 (3d6) radiant damage. Once per turn, when the tomb monarch hits another creature with a melee weapon attack, it may force that creature to make a Consitution saving throw. On a failure, the creature is blinded until the end of the tomb monarch’s next turn. 
-
-#### Tyrannical Strike
-
-The tomb monarch’s melee weapon attacks deal an additional 10 (3d6) psychic damage. Once per turn, when the tomb monarch hits a creature with a melee weapon attack, it may force that creature to make a Wisdom saving throw. On a failure, the creature falls prone in prostration and is frightened of the tomb monarch until the end of the tomb monarch's next turn or until the tomb monarch is incapacitated. While frightened this way, the target can't stand up.
-
-#### Venom Strike
-
-The tomb monarch’s melee weapon attacks deal an additional 10 (3d6) poison damage. Once per turn, when the tomb monarch hits another creature with a melee weapon attack, it may force that creature to make a Consitution saving throw. On a failure, the creature is poisoned until the end of the tomb monarch’s next turn. While it is poisoned this way, if it fails another saving throw against a poison effect, it becomes stunned until the end of its next turn.
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-### Tomb Lord Adventures
-The following table provides some ways to create adventures featuring these undead monarchs in your games:
-
-##### Tomb Lord Adventure Hooks
-
-| d6  | Adventure Hook |
-|:---:|:-----------:|
-|  1  | A tomb prince wanders the border of his ruined kingdom raising soldiers and conquering settlements as he tries to improve his standing in the power hierarchy of his dynasty.  |
-|  2  |A tomb prince is launching raids into the lands of the living in search of a stolen artifact he needs to resurrect his father.  |
-|  3  | A tomb king conquers a village of living subjects and demands brutal tributes from them. The villagers ask the players for aid and offer to help sneak them into the meeting chamber, where their tributes are presented to the unliving king.   |
-|  4  | A tomb king determines that one of the player characters is a long-lost descendant and seeks to capture the player character to use in a sacrificial ritual to restore his former life. |
-|  5  | The players reach the end of a tomb to find what they believe to be the tomb lord’s sarcophagus, only to find it’s a booby-trapped decoy meant to leave the players vulnerable to a sneak attack from the tomb lord.     |
-|  6  | A tomb prince seeks the players’ aid in overthrowing his tyrannical tomb king father.|
-
-### Tomb Lord Art Credit
-* Mummy Paramount - Josu Hernaiz, Wizards of the Coast
-* Unraveling Mummy - Tomasz Jedruszek, Wizards of the Coast
-* Curse of Misfortunes - Terese Nielsen, Wizards of the Coast
-* Sunscourge Champion Zombie Token - Josu Hernaiz, Wizards of the Coast
-
-<img src='https://i.ibb.co/CvK1n0r/josu-hernaiz-divine-champion-eternal-401879.jpg' style='position:absolute;top:-0px;right:-20px;width:574px; transform: scaleX(-1)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-8px;top:40px;height:1400px;width:1416px;transform:rotate(260deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:80px;top:0px;height:1400px;width:1416px;transform:rotate(263deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-50px;top:0px;height:1400px;width:1416px;transform:rotate(180deg)' />
-
-\pagebreakNum
-
-### Tomb Lords Tactics
-
-Tomb lords are generals who lead their undead forces from the front. They always have an entourage of undead minions at their side, and in battle, a tomb lord will attempt to stay in the middle of these minions so they can all benefit from its abilities. Ensuring their minions are empowered this way is usually a higher priority than moving to strike higher-priority targets. That’s dirty work better left to minions. 
-
-Tomb lords are fearless in battle but have enough foresight to withdraw from a losing fight. If the tomb lord has lost most of its minions or is low on health, it will usually retreat to a secure location where it can regroup and plot its revenge. If the tomb lord is fighting in its home or a site sacred to it, it will stubbornly fight to the end rather than risk disgrace.
-
-### Tomb Lords Loot
-Most of the valuable goods that can be looted from the lordsof the Tomb Kingdoms come in the form of relics and weapon fragments they leave behind. Most dropped valuables can be found using an **Intelligence (Investigation)** or identified using an **Intelligence (History)** check.
-
-Alternatively, you can roll for the loot randomly using a flat modifier.
-
-#### Tomb Lords Loot Tables
-The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
-
-
-##### Tomb Prince Loot Table
-
-| Looting Check Result or 1d20 + 5 |  Loot  |
-|:---:|:-----------:|
-|  6-7  | 1d6(3) 10gp Items |
-|  8-12 | 1d6(3) 20gp Items | 
-|  13-17 | 2d4(2) 50gp Items  |  
-|  18-24 | 2d4(2) 100gp Items |  
-|  25+ |  1d4(2) 200gp Items |  
-
-##### Tomb King Loot Table
-
-| Looting Check Result or 1d20 + 7 |  Loot  |
-|:---:|:-----------:|
-|  8-9  | 1d4(2) 100gp Items |
-|  10-14 | 1d4(2) 200gp Items | 
-|  15-20 | 1 1,000gp Items  |  
-|  21-26 | 1 2,000gp Items |  
-|  27+ |  1d4(2) 2,000gp Items |  
-
-\columnbreak
-
-#### Example Tomb Lord Loot Names
-You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
-
-##### Example Uncommon Tomb Kingdom Item Names
-|1d10 |  10gp Item | 20gp Item | 
-|:--:|:-----------:|:-----------:|
-| 1-2 <br> (Cloth)  |   Ornate Cloth  |  Pristine Ornate Cloth  | 
-| 3-4 <br> (Bone)  | Preserved Bone | Pristine Preserved Bone | 
-| 5-6 <br> (Gem)  |   Lapis Lazuli | Pristine Lapis Lazuli | 
-| 7-8 <br> (Metal) |  Intact Blade | Masterwork Intact Blade | 
-| 9-10 <br> (Wood) |  Preserved Wood  | Masterwork Preserved Wood  | 
-
-##### Example Rare Tomb Kingdom Item Names
-|1d10 | 50gp Item | 100gp Item | 200gp Item | 
-|:--:|:---:|:-----------:|:-----------:|
-| 1-2 <br> (Cloth)  |   Tattered Ritual Garb | Ritual Garb  |  Pristine Ritual Garb  | 
-| 3-4 (Bone)  |Cracked Runed Bone | Runed Bone | Pristine Runed Bone | 
-| 5-6 <br> (Gem)  |  Flawed Amethyst |  Amethyst | Pristine Amethyst | 
-| 7-8 <br> (Metal) | Rusted Ritual-Blade Fragment |  Ritual-Blade Fragment | Masterwork Ritual-Blade Fragment | 
-| 9-10 <br> (Wood) | Cracked Runed Wood  |  Runed Wood  | Masterwork Runed Wood  | 
-
-##### Example Very Rare Tomb Kingdom Item Names
-|1d10 | 1,000gp Item | 2,000gp Item | 
-|:--:|:---:|:-----------:|:-----------:|
-| 1-2 <br> (Cloth)  | Sacred Garb  |  Pristine Sacred Garb  | 
-| 3-4 (Bone)  | Sacred Bone | Pristine Sacred Bone | 
-| 5-6 <br> (Gem)  |  Emerald | Pristine Emerald | 
-| 7-8 <br> (Metal) | Ritual-Blade | Masterwork Ritual-Blade | 
-| 9-10 <br> (Wood) | Sacred Wood  | Masterwork Sacred Wood  | 
-
-
-\pagebreakNum
-
-
-
-## Tomb Swarms
-In the unforgiving sands of the desert and the echoing silence of ancient crypts, a menace lurks unseen. A creeping, crawling, writhing menace emerges from the very ground to consume and annihilate those who dare to trespass on the sacred grounds of the Tomb Kingdoms.
-
-Tomb Swarms resemble a horrifying cascade of skeletal and desiccated small desert creatures, moving as one, with the sole intent of overwhelming their prey. From a distance, they might appear like shifting sands, but upon closer inspection, one can discern the countless creatures that form these swarms, their tiny bones, carapaces, and withered forms glistening under the desert sun or the dim torchlight of a crypt.
-
-***Swarm Composition.*** Comprised of a myriad of smaller undead beings, Tomb Swarms are most notably made up of scarabs and scorpions, though various other small creatures might be found within the mix. Each creature, though small and seemingly insignificant on its own, becomes a formidable force when part of the swarm.
-
-
-\columnbreak
-
-<br><br><br>
-
-The scarabs are especially feared for their gruesome method of attack, burrowing into the flesh of their unfortunate victims. Once inside, they consume their prey from the inside out, causing immense pain and inevitable death.
-
-The undead scorpions inject a potent necrotic venom with each sting. The poison not only causes excruciating pain but also debilitates the victim, making counterattacks nearly impossible.
-
-***Deadly Ambushers.*** The Tomb Swarms do not exist by mere chance. They are animated by the ambient magic wielded by the liche-priests of the Tomb Kingdoms. In combat, these swarms serve as perfect ambushers, bursting forth from beneath the sands or creeping out of shadowed crypt corners, taking enemies by surprise. 
-
-With an appetite that seems insatiable, Tomb Swarms will skeletonize their surprised prey. The speed at which they devour flesh and bone is unnatural, leaving behind only empty armor and weapons, a grim testament to their efficiency.
-
-
-<img src='https://i.ibb.co/qnYb2vw/Nest-of-Scarabs-Amonkhet-Mt-G-Art.jpg' style='position:absolute; bottom:0px; right:-35px; width:860px; transform: scaleX(1)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-500px;top:-595px;height:1400px;width:1416px;transform:rotate(0deg)' />
-
-
-\pagebreakNum
-
-___
-> ## Tomb Swarm
->*Medium swarm of tiny undead, neutral evil*
-> ___
-> - **Armor Class** 13 (natural armor)
-> - **Hit Points**  33 (6d8 + 6)
-> - **Speed** 30 ft., borrow 30 ft., climb 30 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|3 (-4)|14 (+2)|13 (+1)|1 (-5)|12 (+1)|1 (-5)|
->___
-> - **Damage Resistance** bludgeoning, piercing, slashing
-> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
-> - **Senses** tremorsense 60 ft., passive Perception 11
-> - **Languages** ━
-> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
-> ___
->
-> ***Burrowing Scarabs.*** When a creature with flesh is hit by the swarm's Bite attack, undead scarabs burrow into its body. While the scarabs are burrowed in the creature this way, it takes 2 (1d4) piercing damage at the start of each of its turns. This effect can stack multiple times on the same creature. Any creature can use an action to remove and destroy all the scarabs within a creature using an attack that deals fire or piercing damage. This process deals 1 damage of the appropriate type to the target. 
->
->
-> ***Devouring Mass.*** If the swarm starts its turn in the space of a dead creature that's Large or smaller, that creature is stripped of all flesh, leaving behind only bone and objects it was wearing or carrying. Additionally, any creature with flesh that is reduced to 0 hit points by piercing damage dealt by the swarm dies and is stripped of flesh in this way.
->
-> ***Spider Climb.*** The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
->
-> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny insect. The swarm can't regain hit points or gain temporary hit points.
->
-> ### Actions
-> ***Bite.*** *Melee Weapon Attack*: +4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half its hit points or fewer. The creature must then make a DC 12 Constitution saving throw or take an additional 10 (4d4) poison damage, or 5 (2d4) poison damage if the swarm has half its hit points or fewer, and become poisoned. The creature repeats the save at the start of each of its turns, ending the effect on a success and taking 5 (2d4) poison damage on a failure.
->
-
-\columnbreak
-
-___
-> ## Large Tomb Swarm
->*Large swarm of tiny undead, neutral evil*
-> ___
-> - **Armor Class** 13 (natural armor)
-> - **Hit Points**  65 (10d10+10)
-> - **Speed** 30 ft., borrow 30 ft., climb 30 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|6 (-3)|14 (+2)|13 (+1)|1 (-5)|12 (+1)|1 (-5)|
->___
-> - **Damage Resistance** bludgeoning, piercing, slashing
-> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
-> - **Senses** tremorsense 60 ft., passive Perception 11
-> - **Languages** ━
-> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +3
-> ___
->
-> ***Burrowing Scarabs.*** When a creature with flesh is hit by the swarm's Bite attack, undead scarabs burrow into its body. While the scarabs are burrowed in the creature this way, it takes 2 (1d4) piercing damage at the start of each of its turns. This effect can stack multiple times on the same creature. Any creature can use an action to remove and destroy all the scarabs within a creature using an attack that deals fire or piercing damage. This process deals 1 damage of the appropriate type to the target. 
->
->
-> ***Devouring Mass.*** If the swarm starts its turn in the space of a dead creature that's Large or smaller, that creature is stripped of all flesh, leaving behind only bone and objects it was wearing or carrying. Additionally, any creature with flesh that is reduced to 0 hit points by piercing damage dealt by the swarm dies and is stripped of flesh in this way.
->
-> ***Spider Climb.*** The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
->
-> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny insect. The swarm can't regain hit points or gain temporary hit points.
->
-> ### Actions
->
-> ***Multiattack.*** The swarm makes two attacks or one attack if the swarm has half of its hit points or fewer.
->
-> ***Bite.*** *Melee Weapon Attack*: +5 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (4d4) piercing damage. The creature must then make a DC 13 Constitution saving throw or take an additional 10 (4d4) poison damage and become poisoned. The creature repeats the save at the start of each of its turns, ending the effect on a success and taking 5 (2d4) poison damage on a failure.
->
-
-\pagebreakNum
-
-### Tomb Swarm Adventures
-The following table provides some ways to create adventures featuring these undead beasts in your games:
-
-##### Tomb Swarm Adventure Hooks
-
-| d4  | Adventure Hook |
-|:---:|:-----------:|
-|  1  | **The Scarab Gem:** An infamous gem, said to be cursed, resurfaces in the market. Anyone who possesses it is found dead, their body grotesquely skeletonized. The adventurers are tasked with tracing the gem's origin and dealing with tomb swarms it summons.|
-|  2  |**Lost to the Swarm:** An earlier expedition into the Tomb Kingdoms has not returned. The adventurers are tasked with finding them. As they explore deeper into the ancient ruins, they find evidence of the expedition's encounters with tomb swarms.  |
-|  3  | **Master of the Swarm:** A rogue necromancer seeks to control the tomb swarms for their own nefarious goals. As they conduct dark rituals to bend the swarms to their will, the adventurers must intervene, navigating through the chaos of swarming undead.  |
-|  4  | **The Desiccated Oasis:** A once-lush oasis is now completely dry. Those who ventured to investigate never returned. But their last messages spoke of the ground awakening with swarming undead creatures.|
-
-### Tomb Swarm Tactics
-Tomb swarms are made up of a mass of mindless undead creatures acting with just enough collective intelligence to maintain a unified cohesion as they hunt. Beyond this, they are mindless in their tactics. They remain hidden in crevasses or underground until they detect prey, then they burst forth for a surprise attack. They focus on attacking the closest prey available, using their numbers to overwhelm and devour their victim.
-
-When in the service of the tomb kingdoms, they act as ambushers designed to surprise and distract high-priority targets such as spell casters.
-
-\columnbreak
-
-### Tomb Swarm Loot
-The valuable items looted from tomb swarms will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. 
-
-Alternatively, you can roll for the loot randomly using a flat modifier.
-
-#### Tomb Swarm Loot Tables
-The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
-
-
-##### Tomb Swarm Loot Table
-
-| Looting Check Result or 1d20 + 3 |  Loot  |
-|:---:|:-----------:|
-|  1-5  | 2d6(7) 5sp Items |
-|  6-9 | 3d6(10) 5sp Items | 
-|  10-17 | 2d6(7) 1gp Items  |  
-|  18-21 | 3d6(10) 1gp Items  |  
-|  22+ |  2d6(7) 2gp Items | 
-
-
-##### Large Tomb Swarm Loot Table
-
-| Looting Check Result or 1d20 + 5 |  Loot  |
-|:---:|:-----------:|
-|  1-7  | 5d6(17) 5sp Items |
-|  8-11 | 6d6(21) 5sp Items | 
-|  12-19 | 5d6(17) 1gp Items  |   
-|  20-23 | 6d6(21) 1gp Items  |  
-|  24+ |  5d6(17) 2gp Items | 
-
-
-#### Example Tomb Swarm Loot Names
-You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
-
-##### Example Tomb Swarm Item Names
- 5sp Item | 1gp Item | 2gp Item | 
-|:---:|:-----------:|:-----------:|
- |   Cracked Tomb Carapaces | Tomb Carapaces  |  Pristine Tomb Carapaces  | 
-
-<br>
-
-### Tomb Swarms Art Credit
-* Nest of Scarabs - Jason A. Engle, Wizards of the Coast
-* Insect Token from Amonkhet - Jason A. Engle, Wizards of the Coast
-
-
-<img src='https://i.ibb.co/W6CMhj5/Insect-Token-Mt-G-Art.jpg' style='position:absolute; bottom:-30px; left:-0px; width:420px; transform:rotate(0deg);filter:opacity(100%);'/>
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-60px;top:-340px;height:1400px;width:1416px;transform:rotate(0deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-620px;top:-40px;height:1400px;width:1416px;transform:rotate(87deg)' />
-  
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-630px;top:-40px;height:1400px;width:1416px;transform:rotate(50deg)' />  
-  
-\pagebreakNum
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-## Tomb Carrion
-In the shadowed dunes and desolate plains of the eternal desert lie the remnants of the once-glorious Tomb Kingdoms. These vast lands are inhabited not only by the buried undead legions but also by the chilling specters of the skies: the tomb carrion.
-
-Tomb carrion are monstrous, reanimated vultures bearing an unholy union of decayed flesh and preserved remains. The scale of these creatures is intimidating, with wingspans reaching that of several men laid end to end. Their desiccated skin clings tightly to their skeletal form, and their lifeless eyes gleam with an eerie light, signaling the dark magic that reanimates them.
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-In days of old, the giant carrion vultures were revered creatures, considered sacred to the denizens of the Tomb Kingdoms. Seen as messengers and intermediaries between the mortal realm and the heavens, they were embalmed upon their death and preserved with archaic rituals. Thus, the vast necropolises of the empire, home to its departed rulers and warriors, became the resting place for countless such vultures.
-
-___
-___
-> ## Tomb Carrion
-> *Large undead, neutral evil*
-> ___
-> - **Armor Class** 13 (natural armor)
-> - **Hit Points** 95 (10d10 + 40)
-> - **Speed** 20 ft., fly 60 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|16 (+3)|12 (+1)|18 (+4)|4 (–3)|14 (+2)|7 (-2)|
->___
-> - **Saving Throws** Con +6
-> - **Skills** Perception +6
-> - **Damage Immunities** poison, necrotic
-> - **Condition Immunities** exhaustion, poisoned
-> - **Senses** darkvision 60 ft., passive Perception 16
-> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
-> ___
-> ***Keen Sight and Smell.*** The carrion has advantage on Wisdom (Perception) checks that rely on sight or smell.
->
-> ***Stench.*** Any creature that starts its turn within 10 feet of the carrion must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the stench of all carrion for 1 hour. The save DC increases by 2 for each other carrion within 10 feet of the creature, up to a maximum of 18.
->
-> ***Prey on the Dying.*** The carrion gains a bonus to its attack rolls against a creature equal to the number of levels of exhaustion the creature has.
->
-> ### Actions
-> ***Multiattack.*** The carrion makes two attacks: one with its beak and one with its talons. It can use Spew Filth in place of its beak attack.
->
-> ***Beak.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage. If the target is a creature, until the start of the carrion's next turn, it can’t regain hit points and if it fails a death saving throw, it gains a level of exhaustion.
->
-> ***Talons.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) slashing damage.
->
-> ***Spew Filth (Recharges after a Short or Long Rest).*** The carrion exhales rotting breath in a 15-foot line that is 5 feet wide. Each creature in that line must succeed on a DC 14 Constitution saving throw or gain a level of exhaustion and become unable to regain hit points until the start of the carrion's next turn. If it fails by 5 or more, it gains an additional level of exhaustion.
->
-> ***Feast.*** The carrion feasts on a corpse within 5 feet of it, destroying it. It regains 15 (2d10 + 4) hit points and recharges its Spew Filth ability.
->
-
-<img src='https://i.ibb.co/nRNj0sf/Carrion-Screecher-Hour-of-Devastation-Mt-G-Art.jpg' style='position:absolute; top:-17px; right:-10px; width:900px; transform: scaleX(-1)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:56px; right:100px; width:900px; transform: rotate(21deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:135px; right:-25px; width:900px; transform: rotate(0deg)' />
-
-\pagebreakNum
-
-The Tomb Kingdoms may have been long silent, but they are far from lifeless. The powerful liche-priests, guardians of ancient rituals and forbidden magics, possess the capability to awaken the embalmed vultures. Summoned forth from their aeons of slumber, the tomb carrion soar the skies once more, providing invaluable aerial support to the ground-bound legions of the undead.
-
-These creatures are not mere tools of war. They are deadly hunters of the arid desert, preying on wanderers and creatures already enfeebled by the scorching sun and relentless sandstorms. With dread inevitability, they descend upon the vulnerable, leaving little but bones in their wake.
-
-But the tomb carrion have evolved beyond mere talons and beaks as weapons. Through the dark rituals that bind them, they've gained the ability to spew forth a vile, necrotic filth. This foul substance weakens their prey, sapping them of strength and vitality, rendering them all the easier to subdue.
-
-Among the tomb carrion, there are those that stand a class apart. These are the blessed ones, chosen by the very gods of the Tomb Kingdoms. These sacred creatures are not only larger and more formidable, but they also possess the unique ability to release torrents of necrotic filth from high above. Like unholy bombers, they soar the heavens, raining down decay and death upon the enemies of the Tomb Kingdoms.
-
-The tomb carrion are a testament to the enduring might and dark majesty of the Tomb Kingdoms. As long as the liche-priests chant their spells and the necropolises stand, these creatures of dread will continue to haunt the desert skies, symbols of an empire that refuses to fade into the annals of history.
-
-\columnbreak
-
-### Tomb Carrion Adventures
-The following table provides some ways to create adventures featuring these undead beasts in your games:
-
-##### Tomb Carrion Adventure Hooks
-
-| d4  | Adventure Hook |
-|:---:|:-----------:|
-|  1  | **Carrion Hunting Grounds:** Caravans traveling through a particular desert route have been mysteriously disappearing. Eyewitnesses speak of dark shadows in the sky before an eerie silence falls. The adventurers are hired to escort the next caravan and investigate the menace from above.|
-|  2  |**Rain of Filth:** A town is plagued by a rain of necrotic filth from the skies, causing disease and decay. The party must trace the source of this aerial assault and put an end to the sacred tomb carrion causing the havoc.  |
-|  3  | **Feathered Shadows:** Every night, one household in a desert village witnesses a tomb carrion's shadow passing over their home. By dawn, a member of that household goes missing. The adventurers are called upon to uncover the mystery behind these disappearances.  |
-|  4  | **Waiting in the Wings:** As the players travel through a brutal desert, they constantly catch glimpses of tomb carrion off in the distance that seem to be following them. Should the players begin to falter in the harsh environment or fall prey to other dangers, the tomb carrion will rush in to finish off their weakened victims.|
-
-___
-___
-> ## Sacred Tomb Carrion
->*Large undead, neutral evil*
-> ___
-> - **Armor Class** 15 (natural armor)
-> - **Hit Points** 115 (11d10 + 55)
-> - **Speed** 20 ft., fly 60 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|18 (+4)|16 (+3)|20 (+5)|4 (–3)|14 (+2)|8 (-1)|
->___
-> - **Saving Throws** Con +8, Dex +6
-> - **Skills** Stealth +6, Perception +8
-> - **Damage Immunities** poison, necrotic
-> - **Condition Immunities** exhaustion, poisoned
-> - **Senses** Darkvision 60 ft., passive Perception 18
-> - **Challenge** 6 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +3
-> ___
-> ***Keen Sight and Smell.*** The carrion has advantage on Wisdom (Perception) checks that rely on sight or smell.
->
-> ***Aura of Rot.*** Any creature that starts its turn within 10 feet of the carrion must succeed on a DC 16 Constitution saving throw or gain a level of exhaustion. On a successful saving throw, the creature is immune to the Aura of Rot of all sacred carrion for 1 hour. The save DC increases by 2 for each other sacred carrion within 10 feet of the creature, up to a maximum of 20.
->
-> ***Prey on the Dying.*** The carrion gets a bonus to its attack rolls against a creature equal to the number of levels of exhaustion it has.
->
-> ### Actions
-> ***Multiattack.*** The carrion makes two attacks: one with its beak and one with its talons. It can use Filth Bombardment in place of its beak attack.
->
-> ***Beak.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the target is a creature, until the start of the carrion's next turn, it can’t regain hit points and if it fails a death saving throw, it gains a level of exhaustion.
->
-> ***Talons.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage plus 7 (2d6) necrotic damage.
->
-> ***Filth Bombardment (Recharges after a Short or Long Rest).*** The carrion drops a ball of filth at a point up to 100 feet below it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a DC 16 Constitution saving throw or gain a level of exhaustion and become unable to regain hit points until the start of the carrion's next turn. If it fails by 5 or more, it gains an additional level of exhaustion.
->
-> ***Feast.*** The carrion feasts on a corpse within 5 feet of it, destroying it. It regains 27 (4d10 + 5) hit points and recharges its Filth Bombardment. 
->
-
-\pagebreakNum
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-### Tomb Carrion Tactics
-These vulturous undead specialize in harrying their prey and picking off the weak. 
-
-When operating independently, tomb carrion will track down desert-traveling players suffering from exhaustion and attempt to swoop in to finish them off. They usually initiate with their Spew Filth and then focus their attacks on whoever has the most levels of exhaustion. They will typically stop their attacks to use Feast whenever the opportunity presents itself.
-
-When working with other Tomb Kingdom forces, they will harass and weaken players, focusing on which ever player the other Tomb Kingdom forces may be having the most trouble reaching. They are also good at helping Tomb Kingdom forces catch fleeing foes.
-
-The sacred carrion fight in much the same way as their other kin. The biggest difference is that they have Filth Bombardment rather than Spew Filth. This ability allows sacred carrion to weaken their prey from afar before having to move in closer, where they risk facing stronger counterattacks.
-
-<br>
-
-### Tomb Carrion Art Credit
-* Carrion Screecher - Aaron Miller, Wizards of the Coast
-* Pestilent Kathari - Dave Kendall, Wizards of the Coast
-
-\columnbreak
-
-### Tomb Carrion Loot
-The valuable items looted from tomb carrion will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest hide. 
-Alternatively, you can roll for the loot randomly using a flat modifier.
-
-#### Tomb Carrion Loot Tables
-The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
-
-
-##### Tomb Carrion Loot Table
-
-| Looting Check Result or 1d20 + 3 |  Loot  |
-|:---:|:-----------:|
-|  1-8  | 1 5gp Item |
-|  9-12 | 1d4(2) 5gp Items  |  
-|  12-16| 1 10gp Item  |  
-|  17+| 1d4(2) 10gp Items  |  
-
-
-
-##### Sacred Carrion Loot Table
-
-| Looting Check Result or 1d20 + 5 |  Loot  |
-|:---:|:-----------:|
-|  1-7  | 1 10gp Items |
-|  8-10 | 1d4(2) 10gp Items | 
-|  11-16 | 1d6(3) 10gp Items  |  
-|  17-21 | 1d4(2) 20gp Items  |  
-|  22+ |  1d6(3) 20gp Items | 
-
-
-#### Example Tomb Carrion Loot Names
-You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
-
-##### Example Tomb Carrion Item Names
-|1d4 | 5gp Item | 10gp Item | 20gp Item | 
-|:--:|:---:|:-----------:|:-----------:|
-| 1 <br> (Bone)  |   Withered Carrion Bone | Carrion Bone  |  Sacred Carrion Bone  | 
-| 2 (Flesh)  |Withered Carrion Meat| Carrion Meat  | Sacred Carrion Meat | 
-| 3 <br> (Cloth)  |  Tattered Carrion Wrappings |  Carrion Wrappings | Sacred Carrion Blood | 
-| 4 <br> (Hide) |Tattered Carrion Feathers |  Carrion Feathers | Sacred Carrion Feathers | 
-
-
-<img src='https://i.ibb.co/0mzQQgJ/pestilent-kathari.png' style='position:absolute; top:-10px; left:-490px; width:920px; transform:scaleX(1)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:0px; width:900px; transform: rotate(0deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:0px; width:900px; transform: rotate(-22deg)' />
-
-
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-350px; right:-280px; width:850px; transform:rotate(90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:-430px; width:900px; transform: rotate(-90deg)' />
-
-\pagebreakNum
-
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Liche-Priests
@@ -3404,10 +2466,9 @@ In the heart of the vast desert, where timeless pyramids touch the sky and ancie
 
 <img src='https://i.ibb.co/X8rmHsr/cristi-balanescu-m20-tomebound-lich.jpg' style='position:absolute; top:0px; right:-10px; width:900px; transform: scaleX(1)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:295px; right:100px; width:900px; transform: rotate(21deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:300px; right:100px; width:900px; transform: rotate(15deg)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:340px; right:-25px; width:900px; transform: rotate(0deg)' />
-
 
 
 \pagebreakNum
@@ -4382,7 +3443,7 @@ You can give the different types of items unique names based on their material a
 
 <img
 src='https://pbs.twimg.com/media/C99QI_wVwAAjlZq.jpg:large'
-style='position:absolute;bottom:-190px;right:0px;width:816px;transform: scaleX(-1)' />
+style='position:absolute;bottom:-190px;right:0px;width:817px;transform: scaleX(-1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:-40px;top:-280px;height:1400px;width:1416px;transform:rotate(3deg)' />
@@ -4391,6 +3452,1015 @@ style='position:absolute;bottom:-190px;right:0px;width:816px;transform: scaleX(-
   style='position:absolute;right:0px;top:-440px;height:1400px;width:1416px;transform:rotate(-0deg)' />
 
 \pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Bone Giants
+
+Though these mighty beings appear to be the skeletons of enormous giants, they are, in fact, constructs carved from wood and stone. In ancient times, they were created as monumental tributes to legendary kings and heroes. As the death priests learned to bind souls and manipulate the death, they began binding powerful spirits to these statues. These spirits remain dormant for ages at a time until they are called upon to serve their lost kingdom. 
+
+When they're stirred into action, bone giants draw huge bows and unleash blessed arrows the size of a ballista bolt capable. Even those who manage to overcome the sheer terror of the bone giant's presence and engage it in close quarters will still need to contend with melee attacks capable of pulverizing most humanoids in a single blow. And those who survive long enough to land a blow will be unlikely to overcome the defenses of its nearly indestructible frame.
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Bone Giant Adventures
+The following table provides some ways to introduce bone giants into your games:
+
+##### Bone Giant Adventure Hooks
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | A bone giant in the image of a powerful ancient queen has awakened and begun roaming through the ruins of the queen's lost empire, resulting in an army of loyal statues awakening and following in their queen's wake.|
+|  2  |The players find themselves attempting to escape an underground vault with stolen treasure while its guardian bone giant attempts to cause a cave-in at the exit, trapping them all there forever.  |
+|  3  | A spirit of a powerful tomb lord thought to have been destroyed has instead possessed a bone giant and now seeks vengeance on those who slew it.   |
+|  4  | The players find them beset by ushabti while searching a tomb for a rare artifact. They soon realize the only way to obtain the artifact is to awaken the tomb's most deadly guardian: the bone giant.  |
+
+
+
+<img
+src='https://i.ibb.co/5jnTGcZ/5741-underworld-sentinel.jpg'
+style='position:absolute;top:-80px;left:-140px;width:1100px;transform: scaleX(1) ' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-50px;left:-100px;width:1016px; transform: rotate(-0deg) scaleX(-1)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-110px;left:40px;width:1016px; transform: rotate(-30deg) scaleX(-1)' />
+
+
+\pagebreakNum
+
+___
+___
+> ## Bone Giant
+>*Huge construct, unaligned*
+> ___
+> - **Armor Class** 20 (natural armor)
+> - **Hit Points** 225 (18d12+108)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|27 (+8)|16 (+3)|22 (+6)|10 (0)|20 (+5)|16 (+3)|
+>___
+> - **Saving Throws** Int +4
+> - **Skills** Athletics +12, Perception +9
+> - **Damage Resistances** necrotic, psychic, radiant.
+> - **Damage Immunities** poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 19
+> - **Languages** understands the languages of its creator but 
+can't speak.
+> - **Challenge** 12 (8,400 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +4       
+> ___
+>
+> ***Animated Construct.*** The bone giant is infused with the souls of the dead. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+>
+> ***Immutable Form.*** The bone giant is immune to any spell or effect that would alter its form. 
+>
+> ***Powerful Draw.*** The bone giant uses its Strength rather than its Dexterity when determining the attack and damage bonuses for attacks with its great bow.
+>
+> ***Sacred Arrows.*** The bone giant's ranged attacks ignore half cover and three-quarters cover.
+>
+> ***Sleeping Giant.*** While the bone giant remains motionless, it is indistinguishable from an inanimate statue. It is also immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells or other magic that would detect it is a creature. 
+>
+> ***Turning Defiance.***  The bone giant has advantage on saving throws against effects that turn undead.
+>
+> ### Actions
+> ***Multiattack.*** The bone giant can use its Frightful Presence. It then makes two attacks with its greatsword or two attacks with its Bow of The Desert.
+>
+> ***Greatsword.*** *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 29 (6d6 + 8) slashing damage. If the target is reduced to 0 hit points by the attack, the bone giant may make another attack with the same weapon against a different creature within 10 feet of the original target and within range of the weapon. This attack does not gain another attack if it reduces the new target to 0 hit points.
+>
+> ***Bow of The Desert.*** *Ranged Weapon Attack:* +12 to hit, reach 300/900 ft., one target. *Hit:* 27 (3d12 + 8) piercing damage. If the target is reduced to 0 hit points by the attack, the bone giant may make another attack with the same weapon against a different creature directly behind the first target and within range of the weapon. This attack does not gain another attack if it reduces the new target to 0 hit points.
+>
+> ***Frightful Presence.*** Each creature of the bone giant's choice that is within 120 feet of the bone giant and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the bone giant's Frightful Presence for the next 24 hours.
+>
+
+<img src='https://www.mtgnexus.com/img/gallery/4033-cradle-of-the-accursed.jpg' style='position:absolute;bottom:-40px;right:0px;width:820px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:0px' />
+  
+\pagebreakNum
+
+### Bone Giant Tactics
+Though bone giants are huge and capable of smashing through enemies, they prefer staying at a range, picking off targets with their bow of the desert. Their huge range and high speed mean they can even kite players if they have enough space to move and shoot. They’ll set up their attacks to allow their piercing shots to potentially hit multiple targets in the event they reduce the first target to 0 hit points. Their Frightful Presence ability is also useful for keeping players at bay. It will switch to melee attacks if enough players overcome its Frightful Presence and manage to close into melee range. 
+
+Bone giants are very patient and will remain motionless if they’re undetected, even if the players do something that would incur their wrath. They will often wait to make their presence known until the players have left the area, and which point they can use their speed to catch up to their foes and start sniping them from a distance. 
+
+### Bone Giant Loot
+The valuable items looted from bone giants will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (History)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Bone Giant Loot Table
+The following table describes the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Bone Giant Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  8  | 2d4(5) 50gp Items |
+|  9-15 | 2d4(5) 100gp Items | 
+|  16-23 | 2d8(8) 100gp Items  |  
+|  24-26 | 2d4(5) 1,000gp Items |  
+|  27+ |  1d6(3) 2,000gp Items | 
+
+<br>
+
+### Bone Giant Art Credit
+* Underworld Sentinel - Vincent Proce, Wizards of the Coast
+* Cradle of the Accursed - Noah Bradley, Wizards of the Coast
+* Champion of Stray Souls - Aleksi Briclot, Wizards of the Coast
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Example Bone Giant Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
+
+##### Example Bone Giant Item Names
+|1d10 | 50gp | 100gp Item | 1,000gp Item |  2,000gp Item | 
+|:--:|:-----------:|:-----------:|:-----------:|:-----------:|
+| 1 <br> (Cloth)  | Tattered Ritual Garb |  Ritual Garb  |  Sacred Garb  | Pristine Sacred Garb |
+| 2-3 <br> (Gem)  | Flawed Amethyst | Amethyst | Emerald | Pristine Emerald  |
+| 4-6 <br> (Metal) | Tarnished Bone Giant Armaments |  Bone Giant Armaments | Emblem of The Gods | Masterwork Emblem of the Gods  |
+| 7-9 (Stone)  | Cracked Bone Giant Stone | Bone Giant Stone | Bone Giant Skull Fragment | Masterwork Bone Giant Skull Fragment   |
+| 10 <br> (Wood) | Cracked Runed Wood | Runed Wood  | Bone Giant Weapon Haft  | Masterwork Bone Giant Weapon Haft  |
+
+<img src='https://i.ibb.co/Pmps5SR/Champion-Of-Stray-Souls.jpg' style='position:absolute; top:-2px; right:-20px; width:797px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:-130px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-110px;top:200px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Titan of the Gods
+
+These massive ornate constructs were built to serve as conduits to the netherworld. They preside over the tombs of ancient kings, ensuring they are guided to the afterlife. In one hand, they wield a massive sun staff that lights the way through the netherworld and allows them to unleash solar rays through their burning eyes. In the other hand, they carry a set of scales used to judge the worthiness of souls and rip apart the life force of those still living. 
+
+When stirred to battle, the titan of the gods serves as an avatar of the divine that walks the mortal realm. Its connection to the realm of the gods allows divine beings to hear the prayers and rituals beseeching them for power more clearly. Those who draw on the gods for power find they can more freely call upon that power in the presence of this titan, and the titan serves as a messenger to communicate the gods' will to their supplicants.
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Titan of the Gods Adventures
+The following table provides some ways to introduce titans of the gods into your games:
+
+##### Titan of the Gods Adventure Hooks
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | A cabal of rogue priests has constructed a titan of the gods and begun worshipping it as a false idol. They now seek to destroy all temples to "false gods."|
+|  2  |The players need divine guidance and must seek out a titan of the gods to make contact with one or more gods who may use the titan to test their worth.   |
+|  3  | A god, bitter that it is being forgotten, has awoken an ancient titan built in its honor and is using it raise an army and exact vengeance on the descendants of its former worshippers.    |
+|  4  | The players are tasked with freeing a titan of the gods from the clutches of a wicked liche priest and guiding it back to its rightful caretakers. The titan will aid the players as they escape through hordes of the liche's undead minions. |
+
+
+
+<img
+src='https://mtgazone.com/wp-content/uploads/2020/08/hou-163-hollow-one.jpg'
+style='position:absolute;top:-0px;left:-60px;width:900px;transform: scaleX(1)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-120px;left:-0px;width:1016px; transform: rotate(-0deg) scaleX(-1)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-170px;left:80px;width:1016px; transform: rotate(-39deg) scaleX(-1)' />
+
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Titan of the Gods
+>*Huge construct, unaligned*
+> ___
+> - **Armor Class** 20 (natural armor)
+> - **Hit Points** 250 (20d12 + 120)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|27 (+8)|16 (+3)|22 (+6)|16 (+3)|20 (+5)|18 (+4)|
+>___
+> - **Saving Throws** Int +8, Wis +10
+> - **Skills** Athletics +13, Arcana +8, History +8, Insight + 10, Religion +8, Perception +10
+> - **Damage Resistance** necrotic, psychic, radiant
+> - **Damage Immunities** poison
+> - **Condition Immunities** charmed, exhaustion, frightened, 
+paralyzed, petrified, poisoned
+> - **Senses** truesight 120 ft., passive Perception 20
+> - **Languages** Understands the languages of its creator but 
+can't speak.
+> - **Challenge** 15 (10,000 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +5       
+> ___
+>
+> ***Animated Construct.*** The titan is infused with the souls of the dead. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+>
+> ***Divine Awareness.*** The titan knows if it hears a lie.
+>
+> ***Immutable Form.*** The titan is immune to any spell or effect that would alter its form. 
+>
+> ***Sleeping Giant.*** While the titan remains motionless, it is indistinguishable from an inanimate statue. It is also immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells or other magic that would detect it is a creature. 
+>
+> ***Spirit Caster.*** Spells the titan casts on the Material Plane can affect creatures on the Ethereal Plane. 
+>
+> ***Turning Defiance.***  The titan has advantage on saving throws against effects that turn undead.
+>
+> ### Actions
+> ***Multiattack.*** The titan can use its Frightful Presence. It then makes two attacks with its Sun Staff.
+>
+> ***Sun Staff.*** *Melee Weapon Attack:* +12 to hit, reach 10ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage plus 13 (3d8) radiant damage.
+>
+> ***Frightful Presence.*** Each creature of the titan's choice that is within 120 feet of the titan and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the titan's Frightful Presence for the next 24 hours.
+>
+> ***Spellcasting.*** The titan casts one of the following spells, requiring no components and using Wisdom as its spellcasting ability (spell save DC 18, +10 to hit with spell attacks):
+>
+> 2/Day: *burning gaze** (5th level), *spirit leech** (5th level)
+>
+> 1/Day: *dispel evil and good*, *forbiddance*
+>
+> **new spell found at end of document*
+>
+> ### Bonus Actions
+> ***Battle Magic*** When the titan uses its action to cast a spell, it can use its Frightful Presence and make one Sun Staff attack.
+>
+> ### Reactions
+>
+> ***Spirit Conduit (5/Day).*** Whenever another friendly creature within 60 feet of the titan would cast a spell of 5th level or lower using Wisdom as its spellcasting ability, the titan may allow the creature to ignore any material component requirements the spell has. Additionally, if the spell has a chance of failing, such as the *commune* or *divination* spells do, the spell can't fail. Finally, if the creature used a spell slot or daily use of an ability to cast the spell, it regains that spell slot or daily use.
+
+<img src='https://www.hipstersofthecoast.com/wp-content/uploads/2019/06/11.LGW_.jpg' style='position:absolute;bottom:-170px;right:0px;width:820px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:0px' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Titan of the Gods Tactics
+
+These constructs possess the divine insight of the gods, which makes them quite good at accessing which players are least likely to be able to resist their spells. As such, they will usually avoid targeting dexterous players with their *burning gaze* or charismatic players with their *spirit leech*. 
+
+The titan will use its Frightful Presence ability to control the positioning of players while closing in to smash softer targets with its sun staff while targeting players with weak saving throws with its spells. 
+Below are tips on how to use its spells:
+
+***Burning gaze.*** The titan will use this whenever it can hit at least three players who don’t have the Evasion ability with it.
+
+***Dispel evil and good.*** The titan will only have use for this spell if the players have an allied creature with them who can be affected by it.
+
+***Forbiddance.*** The titan casts this on any area it has been charged with protecting. It will try to engage players in the area affected by this spell whenever possible.
+
+***Spirit leech.*** The titan will use this if there are no grouped-up players, and it could use some healing.
+
+### Titan of the Gods Loot
+The valuable items looted from bone giants will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (History)**, **Intelligence (Nature)**, or **Intelligence (Religion)** or check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Titan of the Gods Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+##### Titan of the Gods Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  8-9  | 1d6(3) 500gp Items |
+|  10-12 | 1d6(3) 1,000gp Items | 
+|  13-18 | 2d4(5) 1,000gp Items  |  
+|  19-24 | 2d8(9) 1,000gp Items |  
+|  25+ |  1d6(3) 2,000gp Items |  
+
+
+#### Example Titan of the Gods Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
+
+##### Example Titan of the Gods Item Names
+|1d10 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:-----------:|:-----------:|:-----------:|:-----------:|
+| 1 <br> (Cloth)  | Tattered Ritual Garb  |  Sacred Garb  | Pristine Sacred Garb |
+| 2-3 <br> (Gem)  | Flawed Emerald | Emerald | Pristine Emerald  |
+| 4-6 <br> (Metal) | Tarnished Emblem of The Gods | Emblem of The Gods | Masterwork Emblem of the Gods  |
+| 7-9 (Stone)  | Cracked Titan Stone | Titan Stone | Masterwork Titan Stone  |
+| 10 <br> (Wood) | Cracked Titan Weapon Haft | Titan Weapon Haft  | Masterwork Titan Weapon Haft  |
+
+<br>
+
+#### Titan of the Gods Art Credit
+* Hollow One - Anthony Palumbo, Wizards of the Coast
+* Plains, Hour of Devastation  - Lars Grant-West, Wizards of the Coast
+* Hour of Revelation - Raymond Swanland, Wizards of the Coast
+
+<img src='https://i.ibb.co/RcHGc5N/Hour-of-Revelation-Hour-of-Devastation-Mt-G-Art.jpg' style='position:absolute;top:-100px;right:0px;width:820px' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-110px;top:-50px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Tomb Carrion
+In the shadowed dunes and desolate plains of the eternal desert lie the remnants of the once-glorious Tomb Kingdoms. These vast lands are inhabited not only by the buried undead legions but also by the chilling specters of the skies: the tomb carrion.
+
+Tomb carrion are monstrous, reanimated vultures bearing an unholy union of decayed flesh and preserved remains. The scale of these creatures is intimidating, with wingspans reaching that of several men laid end to end. Their desiccated skin clings tightly to their skeletal form, and their lifeless eyes gleam with an eerie light, signaling the dark magic that reanimates them.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+In days of old, the giant carrion vultures were revered creatures, considered sacred to the denizens of the Tomb Kingdoms. Seen as messengers and intermediaries between the mortal realm and the heavens, they were embalmed upon their death and preserved with archaic rituals. Thus, the vast necropolises of the empire, home to its departed rulers and warriors, became the resting place for countless such vultures.
+
+___
+___
+> ## Tomb Carrion
+> *Large undead, neutral evil*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 95 (10d10 + 40)
+> - **Speed** 20 ft., fly 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|12 (+1)|18 (+4)|4 (–3)|14 (+2)|7 (-2)|
+>___
+> - **Saving Throws** Con +6
+> - **Skills** Perception +6
+> - **Damage Immunities** poison, necrotic
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+> ***Keen Sight and Smell.*** The carrion has advantage on Wisdom (Perception) checks that rely on sight or smell.
+>
+> ***Stench.*** Any creature that starts its turn within 10 feet of the carrion must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the stench of all carrion for 1 hour. The save DC increases by 2 for each other carrion within 10 feet of the creature, up to a maximum of 18.
+>
+> ***Prey on the Dying.*** The carrion gains a bonus to its attack rolls against a creature equal to the number of levels of exhaustion the creature has.
+>
+> ### Actions
+> ***Multiattack.*** The carrion makes two attacks: one with its beak and one with its talons. It can use Spew Filth in place of its beak attack.
+>
+> ***Beak.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage. If the target is a creature, until the start of the carrion's next turn, it can’t regain hit points and if it fails a death saving throw, it gains a level of exhaustion.
+>
+> ***Talons.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) slashing damage.
+>
+> ***Spew Filth (Recharges after a Short or Long Rest).*** The carrion exhales rotting breath in a 15-foot line that is 5 feet wide. Each creature in that line must succeed on a DC 14 Constitution saving throw or gain a level of exhaustion and become unable to regain hit points until the start of the carrion's next turn. If it fails by 5 or more, it gains an additional level of exhaustion.
+>
+> ***Feast.*** The carrion feasts on a corpse within 5 feet of it, destroying it. It regains 15 (2d10 + 4) hit points and recharges its Spew Filth ability.
+>
+
+<img src='https://i.ibb.co/nRNj0sf/Carrion-Screecher-Hour-of-Devastation-Mt-G-Art.jpg' style='position:absolute; top:-17px; right:-10px; width:900px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:56px; right:100px; width:900px; transform: rotate(21deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:135px; right:-25px; width:900px; transform: rotate(0deg)' />
+
+\pagebreakNum
+
+The Tomb Kingdoms may have been long silent, but they are far from lifeless. The powerful liche-priests, guardians of ancient rituals and forbidden magics, possess the capability to awaken the embalmed vultures. Summoned forth from their aeons of slumber, the tomb carrion soar the skies once more, providing invaluable aerial support to the ground-bound legions of the undead.
+
+These creatures are not mere tools of war. They are deadly hunters of the arid desert, preying on wanderers and creatures already enfeebled by the scorching sun and relentless sandstorms. With dread inevitability, they descend upon the vulnerable, leaving little but bones in their wake.
+
+But the tomb carrion have evolved beyond mere talons and beaks as weapons. Through the dark rituals that bind them, they've gained the ability to spew forth a vile, necrotic filth. This foul substance weakens their prey, sapping them of strength and vitality, rendering them all the easier to subdue.
+
+Among the tomb carrion, there are those that stand a class apart. These are the blessed ones, chosen by the very gods of the Tomb Kingdoms. These sacred creatures are not only larger and more formidable, but they also possess the unique ability to release torrents of necrotic filth from high above. Like unholy bombers, they soar the heavens, raining down decay and death upon the enemies of the Tomb Kingdoms.
+
+The tomb carrion are a testament to the enduring might and dark majesty of the Tomb Kingdoms. As long as the liche-priests chant their spells and the necropolises stand, these creatures of dread will continue to haunt the desert skies, symbols of an empire that refuses to fade into the annals of history.
+
+\columnbreak
+
+### Tomb Carrion Adventures
+The following table provides some ways to create adventures featuring these undead beasts in your games:
+
+##### Tomb Carrion Adventure Hooks
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | **Carrion Hunting Grounds:** Caravans traveling through a particular desert route have been mysteriously disappearing. Eyewitnesses speak of dark shadows in the sky before an eerie silence falls. The adventurers are hired to escort the next caravan and investigate the menace from above.|
+|  2  |**Rain of Filth:** A town is plagued by a rain of necrotic filth from the skies, causing disease and decay. The party must trace the source of this aerial assault and put an end to the sacred tomb carrion causing the havoc.  |
+|  3  | **Feathered Shadows:** Every night, one household in a desert village witnesses a tomb carrion's shadow passing over their home. By dawn, a member of that household goes missing. The adventurers are called upon to uncover the mystery behind these disappearances.  |
+|  4  | **Waiting in the Wings:** As the players travel through a brutal desert, they constantly catch glimpses of tomb carrion off in the distance that seem to be following them. Should the players begin to falter in the harsh environment or fall prey to other dangers, the tomb carrion will rush in to finish off their weakened victims.|
+
+___
+___
+> ## Sacred Tomb Carrion
+>*Large undead, neutral evil*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 115 (11d10 + 55)
+> - **Speed** 20 ft., fly 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|16 (+3)|20 (+5)|4 (–3)|14 (+2)|8 (-1)|
+>___
+> - **Saving Throws** Con +8, Dex +6
+> - **Skills** Stealth +6, Perception +8
+> - **Damage Immunities** poison, necrotic
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** Darkvision 60 ft., passive Perception 18
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+> ***Keen Sight and Smell.*** The carrion has advantage on Wisdom (Perception) checks that rely on sight or smell.
+>
+> ***Aura of Rot.*** Any creature that starts its turn within 10 feet of the carrion must succeed on a DC 16 Constitution saving throw or gain a level of exhaustion. On a successful saving throw, the creature is immune to the Aura of Rot of all sacred carrion for 1 hour. The save DC increases by 2 for each other sacred carrion within 10 feet of the creature, up to a maximum of 20.
+>
+> ***Prey on the Dying.*** The carrion gets a bonus to its attack rolls against a creature equal to the number of levels of exhaustion it has.
+>
+> ### Actions
+> ***Multiattack.*** The carrion makes two attacks: one with its beak and one with its talons. It can use Filth Bombardment in place of its beak attack.
+>
+> ***Beak.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 4) piercing damage plus 7 (2d6) necrotic damage. If the target is a creature, until the start of the carrion's next turn, it can’t regain hit points and if it fails a death saving throw, it gains a level of exhaustion.
+>
+> ***Talons.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage plus 7 (2d6) necrotic damage.
+>
+> ***Filth Bombardment (Recharges after a Short or Long Rest).*** The carrion drops a ball of filth at a point up to 100 feet below it. Each creature in a 20-foot-radius sphere centered on that point must succeed on a DC 16 Constitution saving throw or gain a level of exhaustion and become unable to regain hit points until the start of the carrion's next turn. If it fails by 5 or more, it gains an additional level of exhaustion.
+>
+> ***Feast.*** The carrion feasts on a corpse within 5 feet of it, destroying it. It regains 27 (4d10 + 5) hit points and recharges its Filth Bombardment. 
+>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Tomb Carrion Tactics
+These vulturous undead specialize in harrying their prey and picking off the weak. 
+
+When operating independently, tomb carrion will track down desert-traveling players suffering from exhaustion and attempt to swoop in to finish them off. They usually initiate with their Spew Filth and then focus their attacks on whoever has the most levels of exhaustion. They will typically stop their attacks to use Feast whenever the opportunity presents itself.
+
+When working with other Tomb Kingdom forces, they will harass and weaken players, focusing on which ever player the other Tomb Kingdom forces may be having the most trouble reaching. They are also good at helping Tomb Kingdom forces catch fleeing foes.
+
+The sacred carrion fight in much the same way as their other kin. The biggest difference is that they have Filth Bombardment rather than Spew Filth. This ability allows sacred carrion to weaken their prey from afar before having to move in closer, where they risk facing stronger counterattacks.
+
+<br>
+
+### Tomb Carrion Art Credit
+* Carrion Screecher - Aaron Miller, Wizards of the Coast
+* Pestilent Kathari - Dave Kendall, Wizards of the Coast
+
+\columnbreak
+
+### Tomb Carrion Loot
+The valuable items looted from tomb carrion will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest hide. 
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Tomb Carrion Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Tomb Carrion Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 5gp Item |
+|  9-12 | 1d4(2) 5gp Items  |  
+|  12-16| 1 10gp Item  |  
+|  17+| 1d4(2) 10gp Items  |  
+
+
+
+##### Sacred Carrion Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 10gp Items |
+|  8-10 | 1d4(2) 10gp Items | 
+|  11-16 | 1d6(3) 10gp Items  |  
+|  17-21 | 1d4(2) 20gp Items  |  
+|  22+ |  1d6(3) 20gp Items | 
+
+
+#### Example Tomb Carrion Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
+
+##### Example Tomb Carrion Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Withered Carrion Bone | Carrion Bone  |  Sacred Carrion Bone  | 
+| 2 (Flesh)  |Withered Carrion Meat| Carrion Meat  | Sacred Carrion Meat | 
+| 3 <br> (Cloth)  |  Tattered Carrion Wrappings |  Carrion Wrappings | Sacred Carrion Blood | 
+| 4 <br> (Hide) |Tattered Carrion Feathers |  Carrion Feathers | Sacred Carrion Feathers | 
+
+
+<img src='https://i.ibb.co/0mzQQgJ/pestilent-kathari.png' style='position:absolute; top:-10px; left:-490px; width:920px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:0px; width:900px; transform: rotate(0deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:0px; width:900px; transform: rotate(-22deg)' />
+
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-350px; right:-280px; width:850px; transform:rotate(90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:-430px; width:900px; transform: rotate(-90deg)' />
+
+\pagebreakNum
+
+
+## Tomb Swarms
+In the unforgiving sands of the desert and the echoing silence of ancient crypts, a menace lurks unseen. A creeping, crawling, writhing menace emerges from the very ground to consume and annihilate those who dare to trespass on the sacred grounds of the Tomb Kingdoms.
+
+Tomb Swarms resemble a horrifying cascade of skeletal and desiccated small desert creatures, moving as one, with the sole intent of overwhelming their prey. From a distance, they might appear like shifting sands, but upon closer inspection, one can discern the countless creatures that form these swarms, their tiny bones, carapaces, and withered forms glistening under the desert sun or the dim torchlight of a crypt.
+
+***Swarm Composition.*** Comprised of a myriad of smaller undead beings, Tomb Swarms are most notably made up of scarabs and scorpions, though various other small creatures might be found within the mix. Each creature, though small and seemingly insignificant on its own, becomes a formidable force when part of the swarm.
+
+
+\columnbreak
+
+<br><br><br>
+
+The scarabs are especially feared for their gruesome method of attack, burrowing into the flesh of their unfortunate victims. Once inside, they consume their prey from the inside out, causing immense pain and inevitable death.
+
+The undead scorpions inject a potent necrotic venom with each sting. The poison not only causes excruciating pain but also debilitates the victim, making counterattacks nearly impossible.
+
+***Deadly Ambushers.*** The Tomb Swarms do not exist by mere chance. They are animated by the ambient magic wielded by the liche-priests of the Tomb Kingdoms. In combat, these swarms serve as perfect ambushers, bursting forth from beneath the sands or creeping out of shadowed crypt corners, taking enemies by surprise. 
+
+With an appetite that seems insatiable, Tomb Swarms will skeletonize their surprised prey. The speed at which they devour flesh and bone is unnatural, leaving behind only empty armor and weapons, a grim testament to their efficiency.
+
+
+<img src='https://i.ibb.co/qnYb2vw/Nest-of-Scarabs-Amonkhet-Mt-G-Art.jpg' style='position:absolute; bottom:0px; right:-35px; width:860px; transform: scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-500px;top:-595px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+___
+> ## Tomb Swarm
+>*Medium swarm of tiny undead, neutral evil*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points**  33 (6d8 + 6)
+> - **Speed** 30 ft., borrow 30 ft., climb 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|3 (-4)|14 (+2)|13 (+1)|1 (-5)|12 (+1)|1 (-5)|
+>___
+> - **Damage Resistance** bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses** tremorsense 60 ft., passive Perception 11
+> - **Languages** ━
+> - **Challenge** 3 (700 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Burrowing Scarabs.*** When a creature with flesh is hit by the swarm's Bite attack, undead scarabs burrow into its body. While the scarabs are burrowed in the creature this way, it takes 2 (1d4) piercing damage at the start of each of its turns. This effect can stack multiple times on the same creature. Any creature can use an action to remove and destroy all the scarabs within a creature using an attack that deals fire or piercing damage. This process deals 1 damage of the appropriate type to the target. 
+>
+>
+> ***Devouring Mass.*** If the swarm starts its turn in the space of a dead creature that's Large or smaller, that creature is stripped of all flesh, leaving behind only bone and objects it was wearing or carrying. Additionally, any creature with flesh that is reduced to 0 hit points by piercing damage dealt by the swarm dies and is stripped of flesh in this way.
+>
+> ***Spider Climb.*** The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny insect. The swarm can't regain hit points or gain temporary hit points.
+>
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack*: +4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half its hit points or fewer. The creature must then make a DC 12 Constitution saving throw or take an additional 10 (4d4) poison damage, or 5 (2d4) poison damage if the swarm has half its hit points or fewer, and become poisoned. The creature repeats the save at the start of each of its turns, ending the effect on a success and taking 5 (2d4) poison damage on a failure.
+>
+
+\columnbreak
+
+___
+> ## Large Tomb Swarm
+>*Large swarm of tiny undead, neutral evil*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points**  65 (10d10+10)
+> - **Speed** 30 ft., borrow 30 ft., climb 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|6 (-3)|14 (+2)|13 (+1)|1 (-5)|12 (+1)|1 (-5)|
+>___
+> - **Damage Resistance** bludgeoning, piercing, slashing
+> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
+> - **Senses** tremorsense 60 ft., passive Perception 11
+> - **Languages** ━
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +3
+> ___
+>
+> ***Burrowing Scarabs.*** When a creature with flesh is hit by the swarm's Bite attack, undead scarabs burrow into its body. While the scarabs are burrowed in the creature this way, it takes 2 (1d4) piercing damage at the start of each of its turns. This effect can stack multiple times on the same creature. Any creature can use an action to remove and destroy all the scarabs within a creature using an attack that deals fire or piercing damage. This process deals 1 damage of the appropriate type to the target. 
+>
+>
+> ***Devouring Mass.*** If the swarm starts its turn in the space of a dead creature that's Large or smaller, that creature is stripped of all flesh, leaving behind only bone and objects it was wearing or carrying. Additionally, any creature with flesh that is reduced to 0 hit points by piercing damage dealt by the swarm dies and is stripped of flesh in this way.
+>
+> ***Spider Climb.*** The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny insect. The swarm can't regain hit points or gain temporary hit points.
+>
+> ### Actions
+>
+> ***Multiattack.*** The swarm makes two attacks or one attack if the swarm has half of its hit points or fewer.
+>
+> ***Bite.*** *Melee Weapon Attack*: +5 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (4d4) piercing damage. The creature must then make a DC 13 Constitution saving throw or take an additional 10 (4d4) poison damage and become poisoned. The creature repeats the save at the start of each of its turns, ending the effect on a success and taking 5 (2d4) poison damage on a failure.
+>
+
+\pagebreakNum
+
+### Tomb Swarm Adventures
+The following table provides some ways to create adventures featuring these undead beasts in your games:
+
+##### Tomb Swarm Adventure Hooks
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | **The Scarab Gem:** An infamous gem, said to be cursed, resurfaces in the market. Anyone who possesses it is found dead, their body grotesquely skeletonized. The adventurers are tasked with tracing the gem's origin and dealing with tomb swarms it summons.|
+|  2  |**Lost to the Swarm:** An earlier expedition into the Tomb Kingdoms has not returned. The adventurers are tasked with finding them. As they explore deeper into the ancient ruins, they find evidence of the expedition's encounters with tomb swarms.  |
+|  3  | **Master of the Swarm:** A rogue necromancer seeks to control the tomb swarms for their own nefarious goals. As they conduct dark rituals to bend the swarms to their will, the adventurers must intervene, navigating through the chaos of swarming undead.  |
+|  4  | **The Desiccated Oasis:** A once-lush oasis is now completely dry. Those who ventured to investigate never returned. But their last messages spoke of the ground awakening with swarming undead creatures.|
+
+### Tomb Swarm Tactics
+Tomb swarms are made up of a mass of mindless undead creatures acting with just enough collective intelligence to maintain a unified cohesion as they hunt. Beyond this, they are mindless in their tactics. They remain hidden in crevasses or underground until they detect prey, then they burst forth for a surprise attack. They focus on attacking the closest prey available, using their numbers to overwhelm and devour their victim.
+
+When in the service of the tomb kingdoms, they act as ambushers designed to surprise and distract high-priority targets such as spell casters.
+
+\columnbreak
+
+### Tomb Swarm Loot
+The valuable items looted from tomb swarms will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. 
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Tomb Swarm Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Tomb Swarm Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 2d6(7) 5sp Items |
+|  6-9 | 3d6(10) 5sp Items | 
+|  10-17 | 2d6(7) 1gp Items  |  
+|  18-21 | 3d6(10) 1gp Items  |  
+|  22+ |  2d6(7) 2gp Items | 
+
+
+##### Large Tomb Swarm Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 5d6(17) 5sp Items |
+|  8-11 | 6d6(21) 5sp Items | 
+|  12-19 | 5d6(17) 1gp Items  |   
+|  20-23 | 6d6(21) 1gp Items  |  
+|  24+ |  5d6(17) 2gp Items | 
+
+
+#### Example Tomb Swarm Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Tomb Swarm Item Names
+ 5sp Item | 1gp Item | 2gp Item | 
+|:---:|:-----------:|:-----------:|
+ |   Cracked Tomb Carapaces | Tomb Carapaces  |  Pristine Tomb Carapaces  | 
+
+<br>
+
+### Tomb Swarms Art Credit
+* Nest of Scarabs - Jason A. Engle, Wizards of the Coast
+* Insect Token from Amonkhet - Jason A. Engle, Wizards of the Coast
+
+
+<img src='https://i.ibb.co/W6CMhj5/Insect-Token-Mt-G-Art.jpg' style='position:absolute; bottom:-30px; left:-0px; width:420px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-60px;top:-340px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-620px;top:-40px;height:1400px;width:1416px;transform:rotate(87deg)' />
+  
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-630px;top:-40px;height:1400px;width:1416px;transform:rotate(50deg)' />  
+  
+\pagebreakNum
+
+
+## Ushabti
+
+The people of the ancient tomb kingdoms <br> worshipped pantheons of gods who were <br> said to blend aspects of animal and <br> human. They possessed the heads of <br> powerful desert beasts, the bodies of <br> humans, and each presided over their <br> respective domains. The people of <br> these kingdoms created many imposing <br> statues of these deities, and when their <br> priests learned how to preserve and bind <br> the spirits of the fallen, they began the <br> practice of enshrining the spirits of their <br> most powerful warriors within these statues. <br> Known as ushabti, they stand watch over the <br> most important temples and necropolises <br> of the tomb kingdoms, where they remain <br> motionless but ever vigilant. 
+
+Ushabtis awaken only when they detect <br> intruders or hear the summons of a <br> powerful tomb priest. In either case, they <br> stride into battle, wielding giant ornate <br> weapons, from intricately etched blades <br> capable of cutting a horse in half to gilded <br> longbows with blessed arrows the size of <br> spears. Ushabtis use their weapons with ease, <br> cutting a swath through would-be intruders and <br> invaders, making them the perfect sentries and <br> monstrous soldiers for their eternal kingdom. 
+
+### Art Credit
+* God-Eternal Bontu - Lius Lasahido, Wizards of the Coast
+* God-Eternal Oketra - Grzegorz Rutkowski, Wizards of the Coast
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+* God-Eternal Rhonas - Lius Lasahido, Wizards of the Coast
+
+
+
+___
+___
+> ## Ushabti
+>*Large construct, unaligned*
+> ___
+> - **Armor Class** 20 (natural armor)
+> - **Hit Points** 93 (11d10 + 33)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|16 (+3)|16 (+3)|12 (+1)|18 (+4)|12 (+1)|
+>___
+> - **Skills** Athletics +7, Perception +7
+> - **Damage Resistances** necrotic, psychic, radiant
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, petrified, poisoned
+> - **Senses** Darkvision 60 ft., passive Perception 17
+> - **Languages** understands the languages of its creator but 
+can't speak.
+> - **Challenge** 5 (1,800)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
+> ___
+>
+> ***Animated Construct.*** The ushabti is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+>
+> ***Desert Sight.*** The ushabti does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***False Appearance.*** While the ushabti remains motionless, it is 
+indistinguishable from an inanimate statue. 
+>
+> ***Immutable Form.*** The ushabti is immune to any spell or effect 
+that would alter its form. 
+>
+> ***Powerful Draw.*** The ushabti uses its Strength rather than its Dexterity when determining the attack and damage bonuses for attacks with its great bow.
+>
+> ***Turning Defiance.***  The ushabti has advantage on saving throws against effects that turn undead.
+>
+> ***Sacred Arrows.*** The ushabti's ranged attacks ignore half cover and three-quarters cover.
+>
+> ### Actions
+> ***Multiattack.*** The ushabti makes two attacks.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) slashing damage.
+>
+> ***Great Bow.*** *Ranged Weapon Attack:* +7 to hit, reach 200/800 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage.
+> 
+
+<img
+src='https://i.ibb.co/2ZbMWKy/god-eternal-bontu-art-mtg-1200x900.jpg'
+style='position:absolute;top:-0px;left:190px;width:696px;transform: scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:140px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-50px;left:-5px;width:916px' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:0px;top:139px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+\pagebreakNum
+
+&emsp;***Chosen of the Gods.*** These ushabtis are <br> possessed by the spirits of mighty archers who <br> have earned the blessings of their gods. While <br> all ushabtis utilize blessed arrows, these <br> warriors are capable of performing miraculous <br> feats with their divine ammunition, such as <br> raining volleys of radiant arrows down upon <br> foes in a deadly barrage. The elevated rank of <br> these archers means they are available only to <br> the most powerful of tomb lords and employed <br> for only the most important of duties, such as <br> providing ranged support in critical battles or <br> protecting the most sacred of temples.
+
+***Soul Wardens.*** These ushabtis are built to <br> imprison the souls of those who have earned a <br> special ire from the tomb lords. They are capable <br> of tearing out the souls of their victims and <br> trapping them within their construct bodies. <br> Some transport the souls of the victims to their <br> masters for further punishment, but many serve <br> as a prison for the soul of an especially powerful transgressor, such as a traitorous priest, <br> renegade necromancer, or even a powerful <br> demon. The presence of a tomb warden serves <br> as a grim reminder to would-be tomb robbers <br> that a fate worse than death awaits them should <br> they fall into the clutches of these dreaded <br> guardians.
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+___
+___
+> ## Ushabti, Chosen of the Gods
+>*Large construct, unaligned*
+> ___
+> - **Armor Class** 20 (natural armor)
+> - **Hit Points** 153 (18d10 + 54)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|16 (+3)|18 (+4)|12 (+1)|18 (+4)|14 (+2)|
+>___
+> - **Saving Throws** Cha +5
+> - **Skills** Athletics +8, Perception +7
+> - **Damage Resistances** necrotic, psychic, radiant
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, petrified, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 17
+> - **Languages** understands the languages of its creator but 
+can't speak.
+> - **Challenge** 8 (3,900 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
+> ___
+>
+> ***Animated Construct.*** The ushabti is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+>
+> ***Blessed Arrows.*** The ushabti's ranged attacks ignore half cover and three-quarters cover. When the ushabti hits with any ranged weapon, it deals an extra 9 (2d8) radiant damage (included in its great bow attack).
+>
+> ***Desert Sight.*** The ushabti does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***False Appearance.*** While the ushabti remains motionless, it is 
+indistinguishable from an inanimate statue. 
+>
+> ***Immutable Form.*** The ushabti is immune to any spell or effect 
+that would alter its form. 
+>
+> ***Powerful Draw.*** The ushabti uses its Strength rather than its Dexterity when determining the attack and damage bonuses for attacks with its great bow.
+>
+> ***Turning Defiance.***  The ushabti has advantage on saving throws against effects that turn undead.
+>
+> ### Actions
+> ***Multiattack.*** The ushabti makes two attacks which can be any combination of greataxe and great bow attacks.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) slashing damage.
+>
+> ***Great Bow.*** *Ranged Weapon Attack:* +8 to hit, reach 200/800 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage  plus 9 (2d8) radiant damage.
+> 
+> ***Divine Barrage.*** The ushabti makes a great bow attack against any number of creatures within 15 feet of a point it can see within its great bow’s range. Attacks against creatures at the weapon’s long range are made with disadvantage.
+
+
+<img
+src='https://i.ibb.co/sgvGgsc/God-Eternal-Oketra-War-of-the-Spark-Art.jpg'
+style='position:absolute;top:-0px;left:90px;width:900px;transform: scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:110px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:0px;top:150px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+<br>
+
+___
+___
+> ## Ushabti, Soul Warden
+>*Large construct, unaligned*
+> ___
+> - **Armor Class** 20 (natural armor)
+> - **Hit Points** 153 (18d10 + 54)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|16 (+3)|18 (+4)|12 (+1)|18 (+4)|14 (+2)|
+>___
+> - **Saving Throws** Cha +5
+> - **Skills** Athletics +8, Perception +7
+> - **Damage Resistances** necrotic, psychic, radiant
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, petrified, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 17
+> - **Languages** understands the languages of its creator but 
+can't speak.
+> - **Challenge** 8 (3,900 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
+> ___
+>
+> ***Animated Construct.*** The ushabti is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+>
+> ***Desert Sight.*** The ushabti does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***Ethereal Sight.*** The ushabti can see 60 ft. into the Ethereal Plane when it is on the Material Plane, and vice versa.
+>
+> ***False Appearance.*** While the ushabti remains motionless, it is 
+indistinguishable from an inanimate statue. 
+>
+> ***Immutable Form.*** The ushabti is immune to any spell or effect 
+that would alter its form. 
+>
+> ***Spectral Reaper.*** The ushabti's melee attacks are magical and deal an extra 9 (2d8) force damage (included in its greataxe attack). The ushabti may also make melee attacks against and deal damage to creatures on the Ethereal Plane, even when it is on the Material Plane.
+>
+> ***Turning Defiance.*** The ushabti has advantage on saving throws against effects that turn undead.
+>
+> ### Actions
+> ***Multiattack.*** The ushabti makes two attacks.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) slashing damage plus 9 (2d8) force damage.
+>
+> ***Capture Soul.*** The ushabti makes one melee attack against a creature. If the attack hits, the target must succeed on a DC 15 Charisma saving throw or become incapacitated and have its speed become 0 as the ushabti begins ripping the target's soul from its body. This effect ends if the ushabti dies, is incapacitated, or uses this ability again. The creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the creature fails the repeated saving throw by 10 or more (DC 5) it dies instantly, and its soul is trapped within the ushabti until it the ushabti dies or traps another soul. While a creature's soul is trapped, it can't be resurrected. <br> If a creature is struck by this attack again while already incapacitated by its effect, it doesn't make another save, but instead makes its next save against the effect with disadvantage.
+> 
+
+### Ushabti Adventures
+Below are some ways to introduce ushabtis into your games:
+
+##### Ushabti Adventure Hooks
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | A town the players are visiting has been established among ancient ruins. While the players are exploring one of the underground ruins, they awaken a regiment of ushabti set on clearing the settlement of "intruders." |
+|  2  |The players are raiding a tomb for rare magical items. However, they soon discover that any who possess the artifacts are relentlessly hunted by vengeful ushabti. |
+|  3  | While traveling through an unforgiving desert, the players find an oasis blessed by the gods but guarded by their chosen ushabti. |
+|  4  | The players discover an ancient vault protected by ushabti soul wardens who themselves contain the spirits of powerful demons who will be free to roam the world once more should the ushabti be destroyed.|
+
+
+<img
+src='https://bleedingcool.com/wp-content/uploads/2019/11/god-eternal-rhonas-art-mtg-1200x900.jpg'
+style='position:absolute;bottom:-180px;left:340px;width:800px;transform: scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-600px;top:-415px;height:1400px;width:1416px;transform:rotate(10deg)' />
+
+\pagebreakNum
+
+### Ushabti Tactics
+
+Though these creatures are unwaveringly loyal constructs, they are not mindless. They possess the souls of mighty champions, complete with all their tactical skills. Though they are single-minded in pursuing a given task, they can adapt their strategies and tactics as needed. They generally don’t rush into combat but slowly stride toward foes while taking shots from their great bows. If it’s clear they have ranged superiority, they may keep their distance. Otherwise, they will close in and engage in melee combat. 
+
+If ushabtis are charged with guarding a specific character or location, they will never leave their post unless commanded otherwise. They will also prioritize attacking whichever character is the biggest threat to whatever they’re protecting.
+
+If ushabtis are serving as sentries, they will usually stand motionless and attempt to catch intruders off guard with surprise attacks when they are most vulnerable.
+
+***Chosen of the Gods.*** These ushabtis make an extra effort to stay at a range, even if it means taking opportunity attacks, and their Blessed Arrows ability allows them to be more flexible in where they can fire from. Their Divine Barrage attack is best used when it can hit at least 3 enemies at once.
+
+***Soul Wardens.***  When a soul warden acts as part of a general attack force, it will rush in and use its Capture Soul on whichever player is easiest to reach or looks most likely to fail the saving throw. Once it has a player incapacitated, it will start using its multiattacks to dispatch everyone else. 
+
+If the soul warden has been tasked with capturing a specific soul, or one of the players is guilty of some particularly egregious offense, it will focus on that target, striking it repeatedly with its Capture Soul ability. Once it captures the desired soul, the soul warden will often flee the battle, taking its prize with it.
+
+
+### Ushabti Loot
+The valuable items looted from ushabti will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (Nature)** or **Intelligence (History)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Ushabti Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+\columnbreak
+
+##### Ushabti Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-7  | 1d6(3) 5gp Items |
+|  8-10 | 2d4(5) 5gp Items | 
+|  11-16 | 2d4(5) 10gp Items  |  
+|  17-22 | 3d6(7) 10gp Items |  
+|  23+ |  2d4(5) 20gp Items |  
+
+##### Chosen Ushabti of the Gods & Ubshati Soul Warden Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-7  | 1d6(3) 10gp Items |
+|  8-12 | 2d4(7) 10gp Items | 
+|  13-17 | 1d6(3) 20gp Items  |  
+|  18-23 | 2d4(5) 100gp Items |  
+|  24+ |  2d4(5) 200gp Items |  
+
+#### Example Ushabti Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
+
+##### Example Uncommon Ushabti Item Names
+|1d10 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Cloth)  |   Tattered Ornate Cloth | Ornate Cloth  |  Pristine Ornate Cloth  | 
+| 2-3 <br> (Gem)  |  Flawed Lapis Lazuli |  Lapis Lazuli | Pristine Lapis Lazuli | 
+| 4-6 <br> (Metal) | Tarnished Ushabti Armaments |  Ushabti Armaments | Masterwork Ushabti Armaments | 
+| 7-9 (Stone)  |Cracked Ushabti Stone | Ushabti Stone | Pristine Ushabti Stone | 
+| 10 <br> (Wood) | Cracked Preserved Wood  |  Preserved Wood  | Masterwork Preserved Wood  | 
+
+##### Example Rare Ushabti Item Names
+|1d10 | 100gp Item | 200gp Item | 
+|:--:|:-----------:|:-----------:|
+| 1 <br> (Cloth)  |  Ritual Garb  |  Pristine Ritual Garb  | 
+| 2-3 <br> (Gem)  | Amethyst | Pristine Amethyst | 
+| 4-6 <br> (Metal) |  Ushabti-Elite Armaments | Masterwork Ushabti-Elite Armaments | 
+| 7-9 (Stone)  | Ushabti-Elite Stone | Pristine Ushabti-Elite Stone | 
+| 10 <br> (Wood) | Runed Wood  | Masterwork Runed Wood  | 
+
+
+\pagebreakNum
+
 
 # Revision Numbers
 ## New Player Options
