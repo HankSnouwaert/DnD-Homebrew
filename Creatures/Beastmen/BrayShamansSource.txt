@@ -1,0 +1,308 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+## Bray Shamans
+
+___
+___
+> ## Lesser Bray Shaman
+> *Medium humanoid, chaotic evil*
+> ___
+> - **Armor Class** 12 (natural armor)
+> - **Hit Points** 91 (14d8 + 28)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|14 (+2)|7 (-2)|16 (+3)|12 (+1)|
+>___
+> - **Saving Throws** Int +0, Wis +5
+> - **Skills** Athletics +4, Intimidation +5, Religion +2, Perception +5, Stealth +4, Survival +5
+> - **Senses** darkvision 60 ft., passive Perception 14
+> - **Languages** Abyssal
+> - **Challenge** 3 (700 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The shaman is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+>
+> ***Charge.*** If the shaman moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shaman has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Keen Senses.*** The shaman has advantage on Wisdom (Perception) checks.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shaman extra movement.
+>
+> ***Lore of Magic.*** The shaman is specialized in one of the following lores of magic: Beasts, Death, Shadow, or Wild. The chosen lore determines one of its traits and the spells it knows.
+> 
+> ***Primal Fury (2d8).*** The shaman deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Actions
+>
+> ***Primal Magic.*** When the shaman takes the Attack action while its Primal Fury is active, it can cast a spell this turn with a casting time of one action as a bonus action.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The shaman is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The spells the shaman knows depend on the lore of magic it has specialized in, as described in its Lore of Magic trait.
+>
+
+
+\pagebreak
+
+
+
+> #### Lesser Bray Shaman: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the shaman targets only itself or one monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery*<br>
+> **1/Day:** *amber spear**, *arcane signal**, *heroism**, *pass without trace**
+
+> #### Lesser Bray Shaman: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *toll of the dead***<br>
+> **1/Day:** *arcane signal**, *aspect of dread** *crippling pain**, *inflict wounds*
+
+> #### Lesser Bray Shaman: Lore of Shadow
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
+>
+> ##### **Spell List:**
+> **At will:** *creeping strike**, *druidcraft* <br>
+> **1/Day:** *arcane signal**, *mystifying miasma** *shroud of dusk**, *unseen lurker**
+
+> #### Lesser Bray Shaman: Lore of The Wild
+>
+> ##### **Trait:**
+> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *infestation***<br>
+> **1/Day:** *arcane signal**, *bray scream**, *devolve**, *vile tide**
+
+\pagebreak
+
+___
+___
+> ## Bray Shaman
+> *Medium humanoid, chaotic evil*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 135 (18d8 + 54)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|16 (+3)|16 (+3)|8 (-1)|18 (+4)|12 (+1)|
+>___
+> - **Saving Throws** Int +1, Wis +8, Cha +4
+> - **Skills** Athletics +5, Intimidation +7, Religion +5, Perception +7, Stealth +6, Survival +7
+> - **Senses** darkvision 60 ft., passive Perception 17
+> - **Languages** Abyssal
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Beast Man.*** The shaman is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+>
+> ***Charge.*** If the shaman moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shaman has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Keen Senses.*** The shaman has advantage on Wisdom (Perception) checks.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shaman extra movement.
+>
+> ***Lore of Magic.*** The shaman is specialized in one of the following lores of magic: Beasts, Death, Shadow, or Wild. The chosen lore determines one of its traits and the spells it knows.
+>
+> ***Primal Fury (3d8).*** The shaman deals an extra 13 (3d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Actions
+>
+> ***Primal Magic.*** When the shaman takes the Attack action while its Primal Fury is active, it can cast a spell this turn with a casting time of one action as a bonus action.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The shaman is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The spells the shaman knows depend on the lore of magic it has specialized in, as described in its Lore of Magic trait.
+>
+
+
+
+\pagebreak
+
+> #### Bray Shaman: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the shaman targets only itself or one monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery(2d10)** <br>
+> **1/Day:** *amber spear**, *arcane signal**, aspect of the beast, *find The path*, *heroism (2nd level)*, *pass without trace**
+
+> #### Bray Shaman: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *toll of the dead (2d6)*<br>
+> **1/Day:** *arcane sgnal**, *aspect of dread** *crippling pain**, **impending doom**, *inflict wounds (2nd level)**, *find the path*
+
+> #### Bray Shammon: Lore of Shadow
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
+>
+> ##### **Spell List:**
+> **At will:** *creeping strike (2d8)*, *druidcraft*<br>
+> **1/Day:** *arcane signal**, *find the path*, *mystifying miasma**, *penumbral pendulum**, *shroud of dusk (2nd level)**, *unseen lurker**   
+
+> #### Bray Shammon: Lore of The Wild
+>
+> ##### **Trait:**
+> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *infestation (2d6)*<br>
+> **1/Day:** *arcane signal**, *bray scream**, *devolve (2nd level)**, *find the path*, *mad rampage**, *vile tide** 
+
+
+
+
+\pagebreak
+___
+___
+> ## Great Bray Shaman
+> *Medium humanoid, unaligned*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 170 (20d8 + 80)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|16 (+3)|18 (+4)|10 (0)|20 (+5)|12 (+1)|
+>___
+> - **Saving Throws** Int +2, Wis +9, Cha +5, Con +8
+> - **Skills** Athletics +6, Religion +8, Perception +9, Intimidation +9, Stealth +7, Survival +9
+> - **Senses** Darkvision 60 ft., Passive Perception 19
+> - **Languages** Abyssal
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+>
+> ***Beast Man.*** The shaman is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+>
+> ***Charge.*** If the shaman moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shaman has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Keen Senses.*** The shaman has advantage on Wisdom (Perception) checks.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shaman extra movement.
+>
+> ***Lore of Magic.*** The shaman is specialized in one of the following lores of magic: Beasts, Death, Shadow, or Wild. The chosen lore determines one of its traits and the spells it knows.
+>
+> ***Primal Fury (4d8).*** The shaman deals an extra 18 (4d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Actions
+>
+> ***Primal Magic.*** When the shaman takes the Attack action while its Primal Fury is active, it can cast a spell this turn with a casting time of one action as a bonus action.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The shaman is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The spells the shaman knows depend on the lore of magic it has specialized in, as described in its *Lore of Magic* trait.
+>
+
+
+
+\pagebreak
+
+> #### Great Bray Shaman: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the shaman targets only itself or one monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery (3d10)*<br>
+> **1/Day:** *amber spear**, *arcane signal**, *aspect of the beast**, *find the path*, *heroism (3rd level)**, *monstrous transformation**, *pass without trace**,   
+
+> #### Great Bray Shammon: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *toll of the dead (3d6)*<br>
+> **1/Day:** *arcane signal**, *aspect of dread**, circle of death (7th level), *crippling pain**, *find the path*, *impending doom**, *inflict wounds (3rd level)**,  
+
+> #### Bray Shammon: Lore of Shadow
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
+>
+> ##### **Spell List:**
+> **At will:** *creeping strike (3d8)*, *druidcraft* <br>
+> **1/Day:** *arcane signal**, *find the path*, *mystifying miasma**, *penumbral pendulum**, pit of shadows (7th level), *shroud of dusk (3rd level)**, *unseen lurker**
+
+> #### Great Bray Shamon: Lore of The Wild
+>
+> ##### **Trait:**
+> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.<br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *infestation (3d6)*<br>
+> **1/Day:** *arcame signal**, *bray scream**, *devolve (3rd level)**, *find the path*, *mad rampage**, *savage dominion**, *vile tide** 
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
