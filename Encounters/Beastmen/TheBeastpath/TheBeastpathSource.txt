@@ -1,0 +1,217 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+        /* Hide the footer on some pages */
+    .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+<br><br>
+
+## The Beastpath  <br> (Player Level: 5-7)
+In this encounter, the players stumble upon a beastpath intersection deep in the woods, where they face off against waves of incoming beastmen attackers.
+
+### Encounter Context
+The players have arrived knowing they will be facing off against The Crone Grandmother. This will likely be the final encounter of an adventure with The Grandmother as the primary antagonist. As such, they may have had the opportunity to learn about her and the tools she has at her disposal before the fight.
+
+### Lead Up
+The encounter assumes the players have traveled deep enough into the woods to find the beastpath intersection. They may have been searching for it or found it by accident. In either case, there should be enough hoofprints and human remains strewn along the path to indicate it has been well-trodden by vicious creatures of the forest.
+
+### Map Description
+* **Forest Foliage.** These areas are non-magical difficult terrain that provide cover and heavily obscure creatures within them.
+* **Trees.** The trees have varying heights and can be climbed with a DC 15 Strength (Athletics) check. 
+* **Rock Cliffs.** These land features can be climbed with a DC 15 Strength (Athletics) check.
+
+### Running the Encounter
+At the start of the encounter, a group of beastmen will appear at a random entrance on the map. To determine what types of beastmen appear, roll on the beastmen mob table below. To determine where they appear, roll a d4 and match the result to the numbered entrance on the map. (If the result is a location already occupied by beastmen or the players, reroll.) Before the beastmen appear, you can have them make a Dexterity (Stealth) check to determine if they sneak up on the players.
+
+After the beastmen mob appears, repeat this process to determine another beastmen mob that will appear 3 rounds later on initiative count 1. Have the new mob make a Dexterity (Stealth) check now to determine if the players will hear them coming in advance, in which case, the players will also know what entrance they are coming from.
+
+Repeat this process until 3 randomly generated mobs have appeared. When the final mob appears, have it accompanied by the beastman "boss." For this encounter's default difficulty, it will be a besthorn. (NOTE: Should this be a manripper?)
+
+\columnbreak
+
+
+
+
+<br><br><br>
+
+
+##### Encounter Map: Beastpath Intersection
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Map Legend
+* <font color="Green">**Green Areas:** Forest Foliage </font>
+* <font color="Orange">**Orange Areas:** Climbable Trees </font>
+* <font color="918007">**Yellow Lines:** Rock Cliffs </font>
+* <font color="Teal">**Blue Numbers:** Map Entrances   </font>
+* <font color="Purple">**H** Crone's Hut </font>
+* **C:** The Crone Grandmother
+
+<br>
+
+#### Tips for Speeding Up Combat
+If you find that beastmen's turns are taking too long, there are a few ways you can speed up the process.
+
+* **Shared Initiative.** Have each beastmen mob that appears share the same initiative count, with all the creature's in the mob taking their turns back-to-back in any order you choose. This can save you a lot of time rolling for initiative.
+
+*  **Use Damage Averages.** Whenever a beastman hits with an attack, you can skip the damage roll to just use the average damage listed on the statblock.
+
+* **Use The Alternate Primal Fury Rules.** These alternate rules can be handy when running combat with large numbers of beastmen. They are described in the Managing Primal Fury At Scale section listed after the beastmen tactics later in the document.
+
+<img src='https://i.ibb.co/fqykBV4/beastmen-road-guide.png' style='position:absolute; top:117px; right:2px; width:415px;' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+##### Beastmen Mob Table: Player Level 5-7
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 6 Longhorns |
+|  2  | 8 Shorthorns |
+|  3  | 6 Shorthorn Raiders |
+|  4  | 2 Besthorns |
+
+ **Boss: 1 Besthorn** NOTE: This seems wrong for the boss
+
+
+
+
+### Aftermath
+Depending on the nature of your adventure, if the Grandmother is losing the fight, she may attempt to flee, surrender, or fight to the death. If the players flee and she still has access to her hut, she will likely pursue them. 
+
+#### Loot
+You can use the loot tables found later in this document to determine what valuables The Crone Grandmother and her hut leave behind if they're looted. Considering this encounter is likely to be a major boss battle at the end of an adventure, it may be fitting to reward the players with a magic item or loot from the Challenge 17+ treasure hoard table in the DMG. This treasure might be what the players plunder from the hut or something being carried by The Crone Grandmother. If you're running this encounter at a lower difficulty, change which loot table you're using accordingly.
+
+#### XP Award: 4,000xp
+The degree of success the players have in defeating the beastmen can affect their XP reward. You can use the following potential outcomes as guidelines to modify how much XP you award your players.
+
+* **150% XP:** The players defeat all the beastmen without taking much damage or allowing any to escape.
+* **100% XP:** The players defeat all the beastmen, but it was a close victory, or some of the beastmen escaped (either the boss or about one mob's worth). 
+* **50% XP:** The players defeat most of the beastmen, but flee before winning the battle (either the boss or about one mob's worth of beastmen remain.)
+* **10% XP:** The players flee with more than a mob's worth of beastmen remaining.
+
+
+
+\columnbreak
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty by using different beastmen mob tables and changing the XP award accordingly. 
+
+
+##### Beastmen Mob Table: Player Level 2 
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 2 Longhorns |
+|  2  | 3 Shorthorns |
+|  3  | 2 Shorthorn Raiders |
+|  4  | 1 Besthorn |
+
+ **Boss: None**<br>
+&emsp;**Encounter XP Award: 1,000**
+
+##### Beastmen Mob Table: Player Level 3-4 
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 2 Longhorns With Gouging Tusks Mutation |
+|  2  | 2 Shorthorns With Uncanny Sense Mutation |
+|  3  | 4 Shorthorn With Rune of the Beast Mutation |
+|  4  | 1 Besthorn with Gnarled Hide Mutation |
+
+ **Boss: 1 Besthorn Manripper**<br>
+&emsp;**Encounter XP Award: 2,000**
+
+##### Beastmen Mob Table: Player Level 8-10 
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 4 Longhorn Ravagers |
+|  2  | 8 Shorthorn Tormentors |
+|  3  | 4 Shorthorn Stalkers |
+|  4  | 2 Besthorn Manrippers |
+
+ **Boss: 1 Beastlord**<br>
+&emsp;**Encounter XP Award: 8.000**
+
+##### Beastmen Mob Table: Player Level 11-13 
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 5 Longhorn Ravagers With Rune of the Beast Mutation |
+|  2  | 5 Shorthorns Stalkers With Shadow Hide Mutation |
+|  3  | 6 Shorthorn Raiders |
+|  4  | 2 Besthorns |
+
+ **Boss: 1 Besthorn**<br>
+&emsp;**Encounter XP Award: 16,000**
+
+\pagebreakNum
+
+
+### Adventure Lead Ups (TODO)
+If you wish to make this the final encounter of a larger adventure, the following hooks can help provide some inspiration. 
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  |**The Tainted Forest:** The once-sacred woods have been corrupted, with creatures going mad and the very trees oozing dark energy. As the players investigate, they learn that the Crone Grandmother is channeling dark spirits to amplify her own power. Stopping her becomes the key to saving the forest. |
+|  2  | **The Missing Children:** Children from nearby villages have started disappearing. Whispered tales speak of the Crone Grandmother seeking to rejuvenate her life force through youth sacrifice. The heroes must navigate her twisted woods, face her challenges, and ultimately confront her to save the innocent.|
+
+\columnbreak
+
+<br><br><br><br><br><br>
+
+|  | |
+|:---:|:-----------:|
+|  3  | **Revenge of the Coven:** After upsetting or defeating a local crone, the party attracts the attention of the Crone Grandmother, the leader of all woodland crones. The party must defend themselves against her wrath, which culminates in a climactic battle in her forest lair.|
+|  4  |**Nature’s Balance:** A circle of druids pleads with the heroes for help. The Crone Grandmother has disrupted the balance of nature. While she was once a protector of the wilds, her recent actions threaten to plunge the world into chaos. The party must uncover the reason behind her change and stop her. |
+
+
+
+<br>
+
+### Art Credit
+* Encounter Map - Joseph Snouwaert
+* The Forest in Winter at Sunset - Théodore Rousseau
+
+<img src='https://mdl.artvee.com/sftb/516387ld.jpg' style='position:absolute; bottom:-250px; right:-500px; width:1400px; transform:scaleX(-1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-240px;top:-590px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+# Encounter Reference Material
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
