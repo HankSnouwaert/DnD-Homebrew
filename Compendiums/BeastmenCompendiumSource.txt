@@ -31,12 +31,1358 @@
 
 </style>
 
-## Ungors
+<style>/*ToC Styling*/
+  .toc a {color: inherit !important;}
+  .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+  .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;content:" ........................................""........................................."".........................................";}
+  .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;margin-left:1px;}
+  .toc li h3 span:nth-child(2):after{content: " ";}
+  .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+  .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+  .toc li h3 span:first-child{line-height: 2.3em !important;}
+  .toc ul ul {margin-left: 10px !important;}
+  .toc>ul>li {margin-bottom: initial !important;}
+  .phb#p3:after{display:none;}
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Beastmen Compendium
+
+In the heart of a vast and merciless desert, hidden by relentless sandstorms and mirages, lie the remnants of a once-grand civilization: the Tomb Kingdoms. These ancient lands are etched with the memory of a forgotten empire, where colossal statues of deities and kings gaze emptily across the dunes, and monumental pyramids break the horizon's flat line, a testament to the past glory and the architectural prowess of its people.
+
+The Tomb Kingdoms, as the scholars of the neighboring realms refer to them, are shrouded in mystery and the whispers of curses long past. These were the domains where death was but a doorway to eternity, where rulers were gods in their own right, commanding great power and reverence. Their obsession with immortality led them to construct vast necropolises, a complex labyrinth of tombs and mortuary temples, designed to secure their place in the afterlife.
+
+But death in the Tomb Kingdoms was never the end. Through dark rituals and forbidden pacts, liche-priests, the keepers of ancient secrets, learned to bind their souls and those of their kings to their mortal remains, achieving a twisted semblance of eternal life. 
+
+
+\columnbreak
+
+Now, with the aid of the priests, the ancient rulers of old oversee legions of undead, maintaining order within the sun-beaten walls and desolate courtyards. The vast desert is their domain, and they guard it with a possessive zeal, dispatching their skeletal armies and titanic constructs to ward off the curious and the covetous. 
+
+Venture forth into the heart of the Tomb Kingdoms, and you will find a land of eternal undeath. Here, the living are not welcome, and the dead do not rest. It is a place where treasures beyond imagining lie side by side with dangers that threaten not just the body, but the soul. Only the bravest or most foolish would dare to uncover the secrets of the Tomb Kingdoms, for what is buried in these sands refuses to fade into history.
+
+This document provides content to help you run games that heavily feature the denizens of the Tomb Kingdoms. This content ranges from new spells used by the spellcasters of their domain, to rules for implementing the types of combat equipment they use, to a bestiary of the different creatures that can be found in their legions. Whether the players only have a minor side quest featuring Tomb Kingdoms or an entire campaign, any of the content here can be used to enhance your games.
+
+<img src='https://i.ibb.co/QNmRbNb/Mountain-4-Amonkhet-Mt-G-Art.jpg' style='position:absolute; top:-30px; right:-00px; width:900px;' />
+  
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-160px;top:190px;height:1400px;width:1416px;transform:rotate(187deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:528px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+<div class='toc'>
+
+- ## Table of Contents
+    - [<span>3</span><span>Running Beastmen Adventures</span>](#p3)
+  - ### [<span>4</span><span>New Spells</span>](#p4)
+    - #### [<span>4</span><span>Lore of Death</span>](#p4)
+        - [<span>4</span><span>Aspect of Dread</span>](#p4)
+        - [<span>4</span><span>Crippling Pain</span>](#p4)
+        - [<span>4</span><span>Horrying Laughter</span>](#p4)
+        - [<span>5</span><span>Impending Doom</span>](#p5)
+        - [<span>5</span><span>Purple Sun</span>](#p5)
+        - [<span>5</span><span>Spirit Leech</span>](#p5)
+        - [<span>5</span><span>Wind of Death</span>](#p5)
+    - #### [<span>10</span><span>Lore of Shadow</span>](#p10)
+        - [<span>10</span><span>Creeping Strike</span>](#p10)
+        - [<span>10</span><span>Mindrazors</span>](#p10)
+        - [<span>10</span><span>Mirror Dance</span>](#p10)
+        - [<span>10</span><span>Mystifying Miasma</span>](#p10)
+        - [<span>11</span><span>Penumbral Pendulum</span>](#p11)
+        - [<span>11</span><span>Pit of Shadows</span>](#p11)
+        - [<span>11</span><span>Shroud of Dusk</span>](#p11)
+        - [<span>11</span><span>Unseen Lurker</span>](#p11)
+        - [<span>11</span><span>Withering Resolve</span>](#p11)
+  - ### [<span>17</span><span>Beastmen Forces</span>](#p17)
+    - #### [<span>17</span><span>Beastmen Mutations</span>](#p17)
+    - #### [<span>17</span><span>Bray Shamans</span>](#p17)
+        - [<span>17</span><span>Lesser Bray Shaman</span>](#p17)
+        - [<span>18</span><span>Bray Shaman</span>](#p18) 
+        - [<span>18</span><span>Great Bray Shaman</span>](#p18)   
+    - #### [<span>22</span><span>Beastmen Infantry</span>](#p22)
+        - [<span>22</span><span>Shorthorn</span>](#p22)
+        - [<span>23</span><span>Shorthorn Tormentor</span>](#p23)
+        - [<span>24</span><span>Shorthorn Raider</span>](#p24)
+        - [<span>24</span><span>Shorthorn Stalker</span>](#p24)
+        - [<span>25</span><span>Longhorn</span>](#p25)
+        - [<span>26</span><span>Longhorn Ravager</span>](#p26)
+        - [<span>27</span><span>Besthorn</span>](#p27)
+        - [<span>28</span><span>Besthorn Manripper</span>](#p28)
+        - [<span>28</span><span>Warhorn</span>](#p28)
+        - [<span>28</span><span>Beastlord</span>](#p28)
+
+<div align="right">
+
+
+
+<div style='margin-top:55px;'></div>
+
+
+</div>
+
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+### Front Page Art Credit
+* Mountain (Amonkhet) - Chris Rahn, Wizards of the Coast
+
+
+\pagebreakNum
+
+# Running Tomb Kingdom Adventures 
+
+The tomb kingdoms are all that remain of an ancient empire that had grown so powerful it believed it could conquer death. The egos of this empire's pharaohs were such that they could not accept the prospect of their end or that of their kingdom. Thus, incalculable resources went into the study of necromantic magics and the construction of massive statues and necropolises meant to immortalize their kingdom. The rulers of these realms have been preserved along with their armies, and they seek to reclaim the lost glory of their kingdom.
+
+Players are most likely to come into conflict with denizens of the tomb kingdoms while exploring the lands they once ruled. The tombs, temples, and vaults of the tomb kingdoms all make for excellent adventuring locations that pit the players against these eternal warriors. The players may also encounter tomb kingdom forces outside their homes if they are seeking to reclaim lost treasure or exact vengeance on any who earned their ire.
+
+
+### Tomb Kingdom Motivations
+
+
+***Tomb Lords.*** The royal lords of the tomb kingdoms are egotistical and self-righteous, with most believing that their empires and territory were given to them by divine right. Tomb lords may adhere to ancient governmental or religious codes. Their behavior may also be dictated by the nature of the magic that caused them to awaken. In all these cases, the tomb lord may behave contrary to its best interest to adhere to these codes or magical compulsions. 
+
+When bringing a tomb lord into your world, you can use these codes of conduct to shape its personality and behavior. A tomb lord may fanatically focus the wrath of its minions on anyone who defaces its sacred monuments, even if they’re not the soundest tactical target. A different tomb lord may be honor-bound to accept duals from a challenging player. Another tomb lord may have awoken from its slumber specifically to exact vengeance on someone who stole a treasure. These quirks can make your tomb lord more memorable and give players personal weaknesses to learn and exploit.
+
+***Tomb Kingdom Minions.*** The motivations of most tomb kingdom minions are fairly straightforward. They exist to serve their kingdom and carry out the will of their undying lords. Most have specific duties they were assigned in ages past, and barring intervention from a tomb lord, they will carry out these duties to the best of their ability.
+
+#### Tomb Kingdom Motivations
+* Punish trespassers
+* Reclaim lost treasures
+* Carry out last received orders
+* Reclaim territory formerly held in life
+* Exact vengeance for past grievances
+* Gather knowledge of necromantic arts
+* Rebuild ruined structures or statues
+* Carry out wishes of a patron deity
+
+\columnbreak
+
+### Tomb Kingdom Tactics
+The armies of the tomb kingdoms are varied, and their tactics will depend on their goals, the environment, and what creatures they have at their disposal. Still, there are some commonalities between many of their creatures. Skeleton warriors are used en masse to distract or overwhelm players, but their methods of attack are usually straightforward. The large construct monsters provide much heavier hitting forces, each serving a more specialized role that can be combined with the more general-purpose skeletons. The leaders of the tomb kingdoms are powerful in their own right, but they rely on their minions to truly shine, each possessing spells or abilities that enhance other undead.
+
+
+
+
+
+#### Engagement
+
+Most tomb kingdom creatures either lie in wait beneath the sands, or they can appear indistinguishable from inanimate statues. This means tomb kingdom creatures will generally attempt ambushes whenever possible. They are patient and will usually wait to attack until they are spotted or they have the opportunity to attack from an advantageous position. 
+When an ambush isn't possible, tomb kingdom creatures march implacably after the players, letting nothing deter them from their goal.
+
+
+#### Combat
+
+Tomb kingdom creatures and implacable and utterly focused on their objectives in combat. While the exact tactics of each creature vary, the discipline with which the creatures execute their tactics does not. The sophistication and adaptability of different creatures depend on the level of sentience of the highest-ranking creature there. Skeletons acting without a leader may execute their techniques without fail, but they aren't very adaptable. 
+
+When using leaderless statues and low-level soldiers, have them execute their standard tactics and fight to the death regardless of changes to the situation. Leadership from tomb king priests or nobles can allow them to adapt to changing circumstances more easily and better counter whatever the players are attempting.
+
+#### Retreat
+Tomb kingdom creatures are entirely fearless and utterly devoted to following any orders given to them. They will never lose their morale or flee and will only retreat when ordered to. The kings and priests may flee to save themselves, but they are unlikely to panic, and many will stubbornly fight to the end if they feel the stakes are high enough. A tomb kingdom ruler who is forced to retreat will undoubtedly hold a grudge and likely seek vengeance in the future, even if it takes years.
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# New Spells
+
+## Lore of Beasts
+This brand of magic draws on the power of the wilds and the animals that inhabit them. Those who practice it avoid civilization and live hermitic lives in the savage and untamed wilderness. Their magic harnesses the power of the beasts they dwell alongside, often by summoning wild spirits or unleashing the inner savagery of themselves and others to transform them into primeval creatures. The following spells are examples of the types of magic users of the Lore of Beasts often wield.
+
+#### Amber Spear
+
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:**  V S M (A Piece of Amber)
+- **Duration:**  Instantaneous
+- **Classes:**   Druid, Ranger
+___
+
+You conjure a large amber hunting spear and launch it in a straight line at a point you can see within range. Upon reaching its destination or striking a solid surface, the spear shatters, producing an explosion within a 10-foot-radius sphere centered on that point. The spear can pass through spaces occupied by creatures and objects of large size or smaller. Each creature the spear moves through, as well as those within the explosion's radius, must make a Dexterity saving throw. On a failed save, a creature takes 6d6 piercing damage; on a successful one, the damage is halved.
+
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
+
+\columnbreak
+
+<br><br>
+
+
+#### Aspect of the Beast
+
+*4th-level  transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:**  V, S
+- **Duration:**  Concentration, Up to 1 hour.
+- **Classes:**   Druid, Ranger
+___
+
+Upon touching a willing creature, you imbue it with bestial might. For the duration, the creature manifests a bestial weapon of your choice from the list below. When it takes the Attack action on its turn, it can make an additional attack with the bestial weapon as part of that action. The weapon is treated as a simple weapon with which the creature is proficient. Unless otherwise stated, it uses its Strength modifier for attack and damage rolls made with the weapon.
+
+**Ripping Jaws.** The creature's mouth becomes filled with dagger-like teeth. Its jaws deal 2d8 piercing damage on a hit. If the bite damages a creature, the user gains temporary hit points equal to half the piercing damage dealt, which last until the spell ends.
+
+**Tearing Claws.** The creature's hands transform into blade-like claws. These claws deal 2d6 slashing damage on a hit and count as finesse weapons. The creature can choose to replace any of its melee attacks made with the Attack action with its claws, including any off-hand attacks.
+
+**Ramming Horns.** Gnarled horns grow from the creature's head. The horns deal 2d8 bludgeoning damage on a hit. If the creature moves at least 15 feet straight toward a target and then hits it with a horn attack, the attack deals an extra 2d8 bludgeoning damage, and if the target is Large or smaller, the creature can choose to push it up to 15 feet away.
+
+ <img src='https://i.ibb.co/LN1X4rk/Shaman-of-Forgotten-Ways-Mt-G-Art-1024x750.png' style='position:absolute;right:-0px;top:-20px;width:820px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:88px;height:1400px;width:1416px;transform:rotate(191deg)' />
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Bestial Spirit
+
+*4th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 40 feet
+- **Components:**  V
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**   Druid, Ranger
+___
+
+A Large spectral beast appears at a location you choose within range. Though it appears substantial, it is intangible and can be passed through and occupied by other creatures.
+
+Any hostile creature within 5 feet of the beast is so distracted by its presence that it has disadvantage on attack rolls. At the end of each of your turns, each hostile creature within 5 feet of the beast must make a Dexterity saving throw as the beast assaults it. The creature takes 4d8 force damage on a failed save, or half as much on a successful save. 
+
+If a hostile creature moves more than 5 feet away from the beast, that creature must make the same saving throw against the beast's damage effect unless it took the Disengage action.
+
+At the start of each of your turns, if no hostile creatures are within 5 feet of the beast, it moves up to 40 feet toward the closest hostile creature it can see. The beast has blindsight out to 120 feet and is blind beyond this range.
+
+
+***At Higher Levels.***  When casting this spell using a 5th-level spell slot or higher, the beast's damage increases by 1d4 for each slot level above 4th.
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### The Quickened Condition
+> This document references the quickened condition. A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+<br>
+
+#### Call of the Pack
+
+*5th-level enchantment*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:** 60 feet
+- **Components:**  V
+- **Duration:**  1 round
+- **Classes:**   Ranger
+___
+
+Unleashing a primal howl, you stir the wild fervor within your allies. You and up to three other creatures you are aware of within range that can hear you are quickened until the start of your next turn. While quickened this way, these creatures gain advantage on attack rolls against any enemy if at least one of their allies is within 5 feet of that enemy and the ally isn't incapacitated.
+
+#### Impenetrable Pelt
+
+*5th-level  transmutation*
+___
+- **Casting Time:** 1  action
+- **Range:** 60 feet
+- **Components:**  V, S, M (a tuft of fur)
+- **Duration:**  Concentration, Up to 1 hour
+- **Classes:**   Druid, Ranger
+___
+
+You weave magic to sheathe a willing creature you can see within range in a layer of tough fur and hide. For the spell's duration, any bludgeoning, piercing, or slashing damage the target takes is reduced by 5. This reduction applies before any resistances.
+
+***At Higher Levels.***  When you cast this spell using a spell slot of 6th level or higher, the damage reduction increases by 1 for each slot level above 5th.
+
+ <img src='https://i.ibb.co/2cTRzC2/Spirit-of-the-Aldergard-Kaldheim-Mt-G-Art.jpg' style='position:absolute;right:-50px;top:-90px;width:1100px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:105px;height:1400px;width:1416px;transform:rotate(170deg)' />
+
+\pagebreakNum
+
+
+
+#### Monstrous Transformation
+
+*6th-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:**  V
+- **Duration:**  Until dispelled
+- **Classes:**   Druid, Sorcerer, Warlock
+___
+
+Drawing from wild energies, you transform into a mighty primal form of your choice: a **Feral Manticore**, a **Ravenous Hydra**, or a **Savage Dragon**. While transformed, you adopt the stat block of the selected beast (found later in this document). Your game statistics, including mental ability scores, are replaced by those of the chosen form, but you maintain your alignment and personality.
+
+While in this new form:
+* You assume its hit points.
+* Your spell attack modifier and spell save DC replace its attack modifiers and saving throw DCs.
+* If you're reduced to 0 hit points, you make death saving throws as usual. If you die, you revert to your true form.
+* You can't speak, cast spells, or undertake any action requiring hands or speech.
+* Your gear melds into your new form, rendering it inaccessible. As such, you can't activate, wield, or benefit from any of your equipment.
+
+To attempt to end the spell, you may use your action to make a DC 15 saving throw using your original form's spellcasting ability modifier. On a successful save, the spell ends. However, if you fail this save three or more times within 8 hours, you must complete a long rest before attempting to end the spell again. A remove curse spell will also end the transformation.
+
+If you take a long or short rest in your new form, only your new form gains the benefits of the rest
+
+***At Higher Levels.***  When cast using a spell slot of 7th level or higher, the new form gains an additional 25 hit points for each slot level above 6th. If cast using a 9th-level slot, any features the new form can use only once per day can now be used three times per day.
+
+\columnbreak
+
+#### Primal Dominance
+
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V, S
+- **Duration:**  10 minutes
+- **Classes:**   Bard, Druid, Ranger
+___
+
+You emanate a commanding presence, compelling a primal creature to submit. Choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you. If the creature's Intelligence is 8 or higher, the spell has no effect. Otherwise, it must make a Wisdom saving throw. On a failed save, it becomes charmed and frightened by you until the end of your next turn. Regardless of the save's outcome, you gain a +5 bonus to Charisma (Intimidation) and Wisdom (Animal Handling) checks when interacting with that creature until the spell concludes.
+
+***At Higher Levels.*** When you cast this spell using a 3rd-level spell slot or higher, you can target one additional creature for each slot level above 2nd.
+
+
+
+
+#### Summon Flock
+
+*1st-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:**  V, S, M (A worm or bug)
+- **Duration:**  Concentration, up to 1 hour
+- **Classes:**   Druid, Ranger
+___
+
+Upon casting, you summon three crows that circle above you for the duration of the spell. As a bonus action, you can direct one of the crows to dive at a creature or object within 120 feet. Make a ranged spell attack against the target. On a hit, it takes 2d4 piercing damage. If the attack is a critical hit, the target is blinded until the start of your next turn. Regardless of the outcome, the directed crow is expended. The spell ends if all crows are expended. For each crow circling above you, you gain a +1 bonus to Wisdom (Perception) checks.
+
+
+***At Higher Levels.***  When you cast this spell using a 2nd-level spell slot or higher, you summon an additional crow for each slot level above 1st.
+
+ <img src='https://i.ibb.co/fkt8Cbf/Crow-Storm-Ixalan-Mt-G-Art-1024x756.jpg' style='position:absolute;right:-0px;bottom:-80px;width:820px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-340px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+#### Wild Surge
+
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V S M (a tuft of fur and a fang)
+- **Duration:**  Concentration, up to 10 minutes
+- **Classes:**   Druid, Ranger
+___
+
+Select a willing creature within range to tap into its primal nature, transforming it into a bestial form. For the duration of the spell, the creature receives the following benefits:
+
+<br>
+
+* It gains 20 temporary hit points.
+* It gains a +2 bonus to AC.
+* It gains a +2 bonus to Strength saving throws and checks.
+* It gains a +2 bonus to Wisdom (Perception) checks and Charisma (Intimidation) checks.
+* When it hits with a melee weapon attack or unarmed strike, it deals one extra die of its damage.
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the targeted creature gains an additional 5 temporary hit points for each slot level above 3rd.
+
 
 ___
 ___
-> ## Ungor
+> ## Feral Manticore
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
+> - **Speed** 40 ft., climb 40 ft., fly 50 ft.
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
+> ___
+> - **Skills** Perception +6, Stealth +6
+> - **Senses** Darkvision 60 ft., passive Perception 16
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> ___
+>
+> ***Tail Spikes.*** You have twelve tail spikes.
+>
+> ***Pounce.*** If you move at least 10 feet straight toward a creature and then hit it with a claw attack on the same turn, the target must succeed on a DC 16 Strength saving throw or be knocked prone.
+> 
+> <br><br>
+> 
+> ### Actions
+>
+> ***Multiattack.*** You make three attacks: one with your bite, one with your claws, and one with your tail spines. If both the claw and bite attacks hit the same target, the target is grappled (escape DC 16). Until this grapple ends, you can't use its bite or claw on another target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 19 (2d12 + 6) piercing damage. If the target is prone, it takes 32 (4d12 + 6) piercing damage instead.
+>
+> ***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) slashing damage.
+>
+> ***Tail Spike.*** *Ranged Weapon Attack:* +7 to hit, range 100/200 ft., one target. *Hit:* 15 (2d8 + 6) piercing damage plus 10 (3d6) poison damage.
+>
+> ***Toxic Volley.*** You fire six of your tail spikes at a point you can see within 100 feet. Each creature in a 15-foot-radius, 15-foot-high cylinder centered on that point must make a Dexterity saving throw against your spell save DC, taking 15 (2d8 + 6) piercing damage and 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+>
+> ***Regrow Spikes (1/Day).*** You regrow all of your spent spikes.
+
+ <img src='https://i.ibb.co/zN3SjnJ/Manticore-Adventures-in-the-Forgotten-Realms-Mt-G-Art.jpg' style='position:absolute;right:0px;bottom:-100px;width:817px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-430px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Ravenous Hydra
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
+> - **Speed** 40 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (+0)|14 (+2)|
+>___
+> - **Senses** Darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> ___
+>
+> ***Multiple Heads.*** You have five heads. While you have more than one head, you have advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Additionally, you get a +2 bonus to Wisdom (Perception) checks for each head. Whenever you take 25 or more damage in a single turn and still have one or more heads, one head dies.
+>
+> ***Reactive Heads.*** For each head you have beyond the first, you get an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While you sleep and have more than one head, at least one of your heads can remain awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make as many bite attacks as you have heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 10 ft., one target. *Hit:* 11 (1d10 + 6) piercing damage.
+>
+> ***Regrow Heads (1/Day).*** You regain 75 hit points and grow back all of your missing heads. For each head regrown in this way, you can make a bite attack against a creature within 10 feet of you.
+
+___
+___
+> ## Savage Dragon
+> *Huge dragon, unaligned*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
+> - **Speed** 40 ft., climb 40 ft., fly 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|14 (+2)|20 (+5)|12 (+1)|10 (0)|14 (+2)|
+>___
+> - **Skills** Perception +3
+> - **Damage Resistances** The damage type chosen using your Dragon's Power feature
+> - **Senses** Blindsight 30 ft., darkvision 120 ft., passive Perception 13
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> ___
+>
+> ***Dragon's Power.*** When you transform into this shape, you choose one of the following damage types: acid, cold, fire, lightning, or poison. This chosen type affects other features.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make two attacks: one with your bite and one with your claws.
+>
+> ***Bite.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 14 (4d6) of the chosen Dragon's Power damage type.
+>
+> ***Claw.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 5 ft., one target. *Hit:* 20 (4d6 + 6) slashing damage.
+>
+> ***Breath Attack (1/Day).*** You exhale your breath attack in a 40-foot cone. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 35 (10d6) damage of the damage type chosen by your Dragon's Power trait on a failed save, or half as much damage on a successful one.
+
+#### Lore of Beasts: Art Credit
+* Shaman of Forgotten Ways - Viktor Titov, Wizards of the Coast
+* Spirit of the Aldergard - Lars Grant-West, Wizards of the Coast
+
+\columnbreak
+
+<Br><Br>
+
+####
+* Crow Storm - YW Tang, Wizards of the Coast
+* Manticore  - Billy Christian, Wizards of the Coast
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Lore of Death
+
+This brand of magic plays on the nature of mortality and fragility of life, though it is strictly distinct from traditional necromancy, as it embraces the inevitability of death rather than attempting to deny it. Its users can manipulate negative energy, sap the vitality of foes, and instill mortal terror in those around them. The following spells are examples of the types of magic users of the Lore of Death often wield.
+
+#### Aspect of Dread
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (A white feather)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard 
+___
+
+You envelop a creature you can see within range in a terrifying aura. Every other creature within 10 feet of the target must make a Wisdom saving throw or become frightened of the target for the duration.
+A creature frightened in this way can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself with a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the radius of the aura increases by 10 feet for each slot level above 2nd.
+
+#### Crippling Pain
+*3rd-level necromancy*
+
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (A broken bone)
+- **Duration:**  1 round
+- **Classes:**  Cleric Warlock, Wizard
+
+You afflict a creature within range with an agonizing curse, causing its body to wither as it's wracked with necrotic energy. The target must make a Constitution saving throw.  On a failed save, it takes 6d6 necrotic damage and is wracked with pain until the end of your next turn.
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ On a successful save, the creature takes half the damage and is not affected by the pain.
+
+While wracked with pain, every time the creature takes a move, an action, a bonus action, or a reaction, it takes an additional 3d6 necrotic damage.
+
+***At Higher Levels.***   When you cast this spell using a spell slot of 4th level or higher, the initial damage is increases by 2d6 for each slot level above 3rd.
+
+
+#### Horrifying Laughter
+*6th-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S, M (A tiny tarts and a feather that is waved in the air)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Bard, Wizard
+___
+
+You target a creature you can see within range, causing it to collapse into debilitating fits of deranged laughter. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand for the duration. Creatures with an Intelligence score of 4 or less aren't affected.
+
+At the end of each of your turns for the duration, any creature within 30 feet of the laughing creature that can hear the laughter must succeed on a Wisdom saving throw or become frightened of the laughing creature until the end of its next turn. You can choose any number of creatures you can see to be immune to this effect.
+
+At the end of each of its turns, the laughing creature takes 3d10 force damage and can attempt another Wisdom saving throw. On a success, the spell ends. If this damage reduces the target to 0 hit points, it stabilizes but remains laughing and can no longer attempt saving throws against the spell. If the spell ends while the creature has 0 hit points, it dies.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d10 for each slot level above 6th.
+
+ <img src='https://m.media-amazon.com/images/I/51+A6aJV1lL.jpg' style='position:absolute;right:-16px;top:-110px;width:848px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-15px;height:1400px;width:1416px;transform:rotate(191deg)' />
+
+
+\pagebreakNum
+
+#### Impending Doom 
+*4th-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (A black feather)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Bard, Cleric, Warlock 
+___
+
+You target a creature within range, sapping its determination and resolve to go on. The target must make a Charisma saving throw. On a failed save, the creature is filled with a sense of impending doom, and for the duration, whenever it makes an attack roll, ability check, or saving throw against an effect not triggered by this spell, it automatically misses or fails if the roll is 6 or lower, as the creature feels an overwhelming sense of defeat.
+
+The affected creature can make a Charisma saving throw at the end of each of its turns, ending the spell's effect on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
+
+#### Purple Sun
+*9th-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (A pinch of lime, water, and earth)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You conjure a grim sphere of purple light at a point you designate within range. The sphere has a maximum radius of 60 feet and illuminates its area with dim light.
+
+Any creature that either enters the sphere's area for the first time on its turn or begins its turn inside the sphere must make a Constitution saving throw. On a failed save, the creature is petrified for the duration. At the end of <br> each of its turns, the target can make another <br> Constitution saving throw. On a success, the <br> spell ends on the target. However, if a creature <br> accumulates three failed saves against this <br> spell (including the initial failed save), it <br> remains petrified indefinitely until the <br> condition is cured by other means.
+
+If a petrified creature is physically <br> damaged or broken during this state, it <br> will manifest the same damage upon <br> being reverted to its original form.
+
+<br>
+
+#### Lore of Shadows: <Br> Art Credit
+* Cavalier of Night - Viktor Titov, <br> Wizards of the Coast
+* Damnation - Kev Walker, <Br> Wizards of the Coast
+
+\columnbreak
+
+#### Spirit Leech
+*1st-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (A mosquito)
+- **Duration:**  1 hour
+- **Classes:**  Warlock
+___
+
+You reach out and drain the life force of a target creature you can see within range. The target must make a Charisma saving throw. On a failed save, it takes 1d12 necrotic damage, or half as much on a successful one. You gain temporary hit points equal to the damage dealt. Constructs are immune to this spell's effects.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
+
+#### Wind of Death
+*5th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, S, M (A owl feather)
+- **Duration:**  Instantaneous
+- **Classes:**  Cleric
+___
+
+You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 4d6 cold damage and 4d6 necrotic damage on a failed save, and half as much on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, either the cold or the necrotic damage (your choice) increases by 1d6 for each slot level above 5th.
+
+<img src='https://i.ibb.co/gj9XwYB/Damnation-Art-1024x819.jpg' style='position:absolute; bottom:-180px; right:-150px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-600px;top:-450px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:135px;top:-40px;height:1400px;width:1416px;transform:rotate(-80deg)' />
+
+\pagebreakNum
+
+<br>
+
+## Lore of Shadow
+This magic specializes in trickery, illusion, <br> and twisting the minds of its targets. Its <br> users primarily rely on illusory magic, though <br> they also wield spells that manipulate shadows <br> and even the nature of space and time as others <br> are able to perceive it, constantly leaving their <br> foes seconding guessing what they're seeing. <br> The following spells are examples of the types <br> of magic users of the Lore of Shadow often wield.
+
+#### Creeping Strike 
+*Evocation cantrip*
+___
+- **Casting Time:** 1 action
+- **Range:** 10 feet
+- **Components:** V S
+- **Duration:** Sorcerer, Warlock, Wizard
+___
+
+You lash out at an enemy with chilling shadows. <Br> Make a melee spell attack against the target. You <Br> have  advantage on the attack roll if the target is in <Br> darkness. On a hit, the target takes 1d8 cold damage.
+
+***At Higher Levels.*** This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
+#### Mindrazors
+*5th-level illusion*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Warlock, Bard
+___
+
+You envelop up to three weapons you can see within range in phantasmal shadows, allowing them to slice through the minds of their targets. For the duration, when a creature is hit by an attack from one of these infused weapons, it takes an additional 1d12 psychic damage.
+
+If a creature takes an action to examine one of the weapons and succeeds on an Intelligence (Investigation) check against your spell save DC, they discern the illusion and will no longer take the additional psychic damage from any of the infused weapons.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, you can target one additional weapon for each slot level above 5th.
+
+#### Mirror Dance
+*2nd-level conjuration*
+
+- **Casting Time:** 1 bonus action
+- **Range:** Self 
+- **Components:** S
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+
+You weave a shadowy link between yourself and a willing creature you can see within 30 feet, causing you and the creature to instantly swap places. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### The Quickened Condition
+> This document references the quickened condition. A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+<br>
+
+The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
+
+#### Mystifying Miasma
+*2nd-level illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Ranger, Bard
+___
+
+You conjure a 20-foot-radius sphere of illusory fog at a point you choose within range. 
+
+
+ This miasma fills the air, spreading around corners and making the area heavily obscured for all creatures lacking true sight.
+
+Any creature that starts its turn fully within the cloud must make a Wisdom saving throw. On a failed save, it uses its movement to travel in a random direction, determined by rolling a d8, until it exits the fog, after which it falls prone. The creature can then take the rest of its turn as normal.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the radius of the fog increases by 20 feet for each slot level above 2nd.
+
+#### Lore of Shadow: Art Credit
+* Myrkul's Invoker - Aaron J. Riley, Wizards of the Coast
+* The Abyss - Pete Venters, Wizards of the Coast
+
+ <img src='https://cdn.cardsrealm.com/images/cartas/clb-commander-legends-battle-for-baldurs-gate/en/crop-med/myrkuls-invoker-136.jpeg?6625' style='position:absolute;right:-10px;top:-20px;width:600px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:40px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:40px;top:0px;height:1400px;width:1416px;transform:rotate(-99deg)' />
+
+
+\pagebreakNum
+
+#### Penumbral Pendulum
+*4th-level illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** 1 minute
+- **Classes:**  Sorcerer, Wizard
+___
+
+You conjure a spectral pendulum that swings through a 60-foot-long, 5-foot-wide, and 5-foot-tall line of your choice within range. Each creature in this area can make a Dexterity or Intelligence saving throw (its choice). A creature takes 6d10 psychic damage on a failed save and no damage on a success.
+
+On each of your subsequent turns during the spell's duration, you can use your action to cause the pendulum to swing back from the opposite direction it swang last, repeating the effect across the same line each time. If your turn ends without you using this action, the spell ends.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot.
+
+#### Pit of Shadows
+*6th-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V, S, M (A black cloth)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Cleric, Sorcerer, Warlock, Wizard
+___
+
+You conjure a portal to a shadowy plane, opening a 20-foot square pit on an area of the ground you can see within range. Creatures within this area must make a Dexterity saving  throw. On a failed save, a creature is banished to a realm of darkness for the spell's duration. While in this realm, the creature is incapacitated.
+
+At the end of each of its turns, the banished creature takes 3d8 psychic damage and must then make a Charisma saving throw. On a success, the spell ends for that creature. When the spell ends for a creature, it reappears in its original space or the nearest unoccupied space if its original space is occupied. If a creature dies while banished, its body remains in the shadow realm; however, any magical items it was wearing or carrying return to the original location.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the pit's dimensions by 10 feet for each slot level above 6th.
+
+#### Shroud of Dusk
+*1st-level evocation*
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, M (A drop of pitch or piece of coal)
+- **Duration:**  1 round
+- **Classes:**   Sorcerer, Warlock, Wizard
+___
+
+You release a surge of chilling shadows in a 15-foot-long, 5-foot-wide line that extends from you in a direction you choose. Each creature within the line must make a Constitution saving throw. Creatures take 1d10 cold damage, and on a failed save, and half as much on a success.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+The the line's area is then plunged into magical darkness until the end of your next turn. This darkness is impenetrable to darkvision and unaffected by nonmagical light sources.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 and the length of the line extends by an additional 5 feet for each slot level above 1st.
+
+
+
+#### Unseen Lurker
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60 ft
+- **Components:** V
+- **Duration:** 1 round
+- **Classes:**  Ranger
+___
+
+Choose a willing creature you can see within range. The chosen creature becomes enveloped in a shroud of mist, enabling it to move with unseen swiftness. Until the start of your next turn, the creature's movement speed is doubled, it's quickened, and it becomes invisible along with everything it's wearing or carrying.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for every two slot levels above 3rd.
+
+#### Withering Resolve
+*3rd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard
+___
+
+Choose a creature within range that can hear you. The target must succeed on a Wisdom saving throw, or its mind becomes filled with crippling doubt and inner turmoil. On a failed save, for the duration of the spell, the target has disadvantage on all checks and saving throws not triggered by this spell, and attack rolls against it have advantage. At the end of each of its turns, the target can make another Wisdom saving throw, ending the effects on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
+
+ <img src='https://i.ibb.co/hDpWQz9/TheAbyss.png' style='position:absolute;right:-0px;top:-20px;width:450px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-100px;top:-67px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:-30px;height:1400px;width:1416px;transform:rotate(200deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:0px;top:-170px;height:1400px;width:1416px;transform:rotate(-98deg)' />
+
+
+\pagebreakNum
+
+\pagebreakNum
+
+### Managing Primal Fury At Scale
+ 
+If you're managing a lot of beastmen in combat and prefer not to roll each of the Primal Fury checks individually each time they come up, the following set of alternative rules can streamline this process.
+
+
+At the beginning of combat, all beastmen enter combat with their Primal Fury active. On initiative count 20 each turn (losing all initiative ties), roll a d20. If the roll is 11 or higher, the Primal Fury of all beastmen remains active; if it is less, the Primal Fury ends for all beastmen until the next initiative count 20. Add a cumulative +1 bonus to the roll for each beastman in the encounter that is neither charmed nor frightened. Subtract 1 from the roll for each beastman that has been reduced to 0 hit points since the last roll.
+
+Specific abilities of some of the beastmen modify these rules as follows:
+
+**Crown of Horns, Will of the Dark Gods, and Apocalyptic Vision.** If there is a beastman in the battle with one of these abilities, add a +5 bonus to the roll rather than providing advantage, as long as the beastman providing the ability is not charmed or frightened. If there are multiple beastmen with these abilities, the effects are cumulative.
+
+\pagebreakNum
+
+## Beastmen Mutations
+
+The following is a list of mutations that can be applied to any beastman to represent the effects the constant mutating power of chaos can have on them.
+
+Applying a mutation increases a creature's CR by 1 (fractional CRs are doubled, e.g., a CR 1/4 creature becomes CR 1/2.)
+
+### Crown of Horns 
+*This creature is gifted with especially large and grandiose twisting horns, granting it extreme confidence, for it knows it has been blessed by the dark gods.*
+
+When the beastman makes a Wisdom check caused by its Primal Fury ability, it automatically succeeds unless it has disadvantage on the roll.
+
+### Gnarled Hide
+
+*The beastman's hide has toughed up to the point that it serves as a layer of living armor.*
+
+The beastman gets +2 to its AC.
+
+### Gouging Tusks 
+
+*The beastman has a large pair of tusks sprouting from its lower jaw, granting it an even more devastating charge attack.*
+
+Beastman's charge deals extra 16 (3d10) piercing damage in addition to it's normal damage.
+
+### Many Limbed Monster
+
+*The beastman sports an extra pair of clawed arms to tear at its enemies.*
+
+When the beastman takes the attack action, it makes one additional attack as part of the action, which uses the attack modifier of its Gore attack. On hit, the target takes 2d4 slashing damage. (The attack also gains the benefits of Primal Fury.)
+
+### Rune of the Beast
+
+*The beastman has a large eldritch rune carved into its flesh. When it becomes enraged, the rune glows red hot and distorting the winds of magic around it.*
+
+While the beastman's Primal Fury ability is active, it has resistance to damage from spells, and when it is affected by a spell that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+
+### Shadow Hide
+
+*The beastman's black fur melds perfectly with the darkness around it, allowing it to stalk its prey from the shadows while completely unseen.*
+
+While in darkness, the beastman is invisible to any creature that relies on darkvision to see it in that darkness. Additionally, it does not suffer disadvantage on Dexterity (Stealth) checks from wearing Armor.
+Finally, it gains the Bestial Ambush ability as described below. If it already has a Bestial Ambush ability, the damage bonus of its Bestial Ambush is increased by 10 (4d4).
+
+***Bestial Ambush.*** When the beastman takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 7 (3d4) damage.
+
+### Slug-Skin
+
+*This beastman's disgusting skin oozes thick, slippery, toxic slime.*
+
+At the end of the beastman's turn, any ground within 5 feet of it is covered in slime for the next minute, causing it to become difficult terrain. Creatures standing in the area have disadvantage on saving throws against being knocked prone, and prone creatures in the area must spend all their movement to stand up instead of half. If a creature ends its turn in the area, it takes 10 (3d6) poison damage. 
+
+Creatures with Primal Fury trait ignore the effects of the slime (regardless of whether their Primal Fury is active or not). A gallon or more of water moving more than 5 miles per hour will wash the slime away from a 5-foot square area.
+
+### Uncanny Senses
+
+*The beastman's primal senses have been heightened to new levels, allowing it to perceive even the most well-hidden prey and the stealthiest of threats.*
+ 
+The beastman has advantage on initiative rolls and Wisdom (Perception) checks and does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured. It also gains blindsight out to 120 feet.
+
+<br>
+
+> ##### Using Mutations To Create Urgency In Adventures
+> If you're running an adventure that focuses heavily on encounters with beastmen and you want to create a sense of urgency, you can have the beastmen in the adventure gain mutations as time passes. This means the more slowly and carefully the players progress, the more dangerous the beastmen will become. This can help keep the players from playing too conservatively. 
+> 
+> If you want the mutations to be random, you can roll a d8 to determine what mutation they will gain (number each of the abilities in alphabetical order).
+>
+> The rate at which they gain mutations could be on the scale of hours or days, depending on the scope and pacing of your adventure.
+>
+
+\pagebreakNum
+
+## Bray Shamans
+
+___
+___
+> ## Lesser Bray Shaman
 > *Medium humanoid, chaotic evil*
+> ___
+> - **Armor Class** 12 (natural armor)
+> - **Hit Points** 91 (14d8 + 28)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|14 (+2)|7 (-2)|16 (+3)|12 (+1)|
+>___
+> - **Saving Throws** Int +0, Wis +5
+> - **Skills** Athletics +4, Intimidation +5, Religion +2, Perception +5, Stealth +4, Survival +5
+> - **Senses** darkvision 60 ft., passive Perception 15
+> - **Languages** Abyssal
+> - **Challenge** 3 (700 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The shaman is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+>
+> ***Charge.*** If the shaman moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shaman has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shaman extra movement.
+>
+> ***Lore of Magic.*** The shaman is specialized in one of the following lores of magic: Beasts, Death, Shadow, or Wild. The chosen lore determines one of its traits and the spells it knows.
+> 
+> ***Primal Fury (2d8).*** The shaman deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Actions
+>
+> ***Primal Magic.*** When the shaman takes the Attack action while its Primal Fury is active, it can cast a spell this turn with a casting time of one action as a bonus action.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The shaman is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The spells the shaman knows depend on the lore of magic it has specialized in, as described in its Lore of Magic trait.
+>
+
+
+\pagebreakNum
+
+
+
+> #### Lesser Bray Shaman: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the shaman targets only itself or beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery*<br>
+> **1/Day:** *amber spear**, *arcane signal**, *heroism**, *pass without trace**
+
+> #### Lesser Bray Shaman: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *toll of the dead***<br>
+> **1/Day:** *arcane signal**, *aspect of dread** *crippling pain**, *inflict wounds*
+
+> #### Lesser Bray Shaman: Lore of Shadow
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
+>
+> ##### **Spell List:**
+> **At will:** *creeping strike**, *druidcraft* <br>
+> **1/Day:** *arcane signal**, *mystifying miasma** *shroud of dusk**, *unseen lurker**
+
+> #### Lesser Bray Shaman: Lore of The Wild
+>
+> ##### **Trait:**
+> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *infestation***<br>
+> **1/Day:** *arcane signal**, *bray scream**, *devolve**, *vile tide**
+
+\pagebreakNum
+
+___
+___
+> ## Bray Shaman
+> *Medium humanoid, chaotic evil*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 135 (18d8 + 54)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|16 (+3)|16 (+3)|8 (-1)|18 (+4)|12 (+1)|
+>___
+> - **Saving Throws** Int +1, Wis +8, Cha +4
+> - **Skills** Athletics +5, Intimidation +7, Religion +5, Perception +7, Stealth +6, Survival +7
+> - **Senses** darkvision 60 ft., passive Perception 17
+> - **Languages** Abyssal
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Beast Man.*** The shaman is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+>
+> ***Charge.*** If the shaman moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shaman has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shaman extra movement.
+>
+> ***Lore of Magic.*** The shaman is specialized in one of the following lores of magic: Beasts, Death, Shadow, or Wild. The chosen lore determines one of its traits and the spells it knows.
+>
+> ***Primal Fury (3d8).*** The shaman deals an extra 13 (3d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Actions
+>
+> ***Primal Magic.*** When the shaman takes the Attack action while its Primal Fury is active, it can cast a spell this turn with a casting time of one action as a bonus action.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The shaman is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The spells the shaman knows depend on the lore of magic it has specialized in, as described in its Lore of Magic trait.
+>
+
+
+
+\pagebreakNum
+
+
+> #### Bray Shaman: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the shaman targets only itself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery(2d10)** <br>
+> **1/Day:** *amber spear**, *arcane signal**, aspect of the beast, *find The path*, *heroism (2nd level)*, *pass without trace**
+
+> #### Bray Shaman: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *toll of the dead (2d8)*<br>
+> **1/Day:** *arcane sgnal**, *aspect of dread** *crippling pain**, *impending doom**, *inflict wounds (2nd level)**, *find the path*
+
+> #### Bray Shammon: Lore of Shadow
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
+>
+> ##### **Spell List:**
+> **At will:** *creeping strike (2d8)*, *druidcraft*<br>
+> **1/Day:** *arcane signal**, *find the path*, *mystifying miasma**, *penumbral pendulum**, *shroud of dusk (2nd level)**, *unseen lurker**   
+
+> #### Bray Shammon: Lore of The Wild
+>
+> ##### **Trait:**
+> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *infestation (2d6)*<br>
+> **1/Day:** *arcane signal**, *bray scream**, *devolve (2nd level)**, *find the path*, *mad rampage**, *vile tide** 
+
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Great Bray Shaman
+> *Medium humanoid, chaotic evil*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 170 (20d8 + 80)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|16 (+3)|18 (+4)|10 (0)|20 (+5)|12 (+1)|
+>___
+> - **Saving Throws** Int +2, Wis +9, Cha +5, Con +8
+> - **Skills** Athletics +6, Religion +8, Perception +9, Intimidation +9, Stealth +7, Survival +9
+> - **Senses** Darkvision 60 ft., Passive Perception 19
+> - **Languages** Abyssal
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+>
+> ***Beast Man.*** The shaman is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+>
+> ***Charge.*** If the shaman moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shaman has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shaman extra movement.
+>
+> ***Lore of Magic.*** The shaman is specialized in one of the following lores of magic: Beasts, Death, Shadow, or Wild. The chosen lore determines one of its traits and the spells it knows.
+>
+> ***Primal Fury (4d8).*** The shaman deals an extra 18 (4d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Actions
+>
+> ***Primal Magic.*** When the shaman takes the Attack action while its Primal Fury is active, it can cast a spell this turn with a casting time of one action as a bonus action.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+>
+> ***Spellcasting.*** The shaman is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The spells the shaman knows depend on the lore of magic it has specialized in, as described in its *Lore of Magic* trait.
+>
+
+
+
+\pagebreak
+
+> #### Great Bray Shaman: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the shaman targets only itself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery (3d10)*<br>
+> **1/Day:** *amber spear**, *arcane signal**, *aspect of the beast**, *find the path*, *heroism (3rd level)**, *monstrous transformation**, *pass without trace**,   
+
+> #### Great Bray Shammon: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *toll of the dead (3d8)*<br>
+> **1/Day:** *arcane signal**, *aspect of dread**, circle of death (7th level), *crippling pain**, *find the path*, *impending doom**, *inflict wounds (3rd level)**,  
+
+> #### Bray Shammon: Lore of Shadow
+>
+> ##### **Trait:**
+> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
+>
+> ##### **Spell List:**
+> **At will:** *creeping strike (3d8)*, *druidcraft* <br>
+> **1/Day:** *arcane signal**, *find the path*, *mystifying miasma**, *penumbral pendulum**, pit of shadows (7th level), *shroud of dusk (3rd level)**, *unseen lurker**
+
+> #### Great Bray Shamon: Lore of The Wild
+>
+> ##### **Trait:**
+> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.<br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *infestation (3d6)*<br>
+> **1/Day:** *arcame signal**, *bray scream**, *devolve (3rd level)**, *find the path*, *mad rampage**, *savage dominion**, *vile tide** 
+
+\pagebreakNum
+
+### Bray Shaman Tactics
+
+Bray shamans serve as the primary spellcasters of the beastmen war herds. Unlike most other spellcasters, they are fairly durable and can engage in melee combat while using their spells. With their Primal Fury active, bray shamans can cast spells while also making attacks. This makes them formidable foes as they don't suffer the vulnerabilities of most spellcasters and won't hesitate to dive into melee combat.
+
+The following tactics assume the bray shaman is accompanied by at least two other beastmen.
+
+The lore of magic a bray shaman is specialized in significantly influences its combat tactics. Below are tactics specific to the different lores and their spells:
+
+#### Lore of Beasts
+
+These bray shamans primarily serve a support role, which is helped by the fact that their Wild Heart trait works with most beastmen creatures.
+
+##### Lore of Beasts Spells
+
+**Pass Without Trace:** This ideally cast before combat begins. However, if allies can hide as a bonus action during combat, this spell remains useful during the fight.
+
+**Amber Spear:** This should be cast when there's an opportunity to hit two or more targets.
+
+**Aspect of the Beast:** This is typically cast on the shaman's most powerful ally. Ripping Jaws is generally the most useful for the Beastmen. With it, a beastman can use its Charge ability to topple a target and then bite with a higher chance of success. Additionally, the extra piercing damage from Primal Fury boosts the temporary hit points gained from the Ripping Jaws attack.
+
+**Heroism:** This spell can be useful for either other beastmen or the shaman. It ensures the target isn't easily frightened, helping to mainain their Primal Fury. 
+
+It's important to remember that this spell only benefits from the Wild Heart trait when cast at 1st level. For higher-level shamans, this often becomes their primary concentration spell.
+
+**Monstrous Transformation:** This spell acts as a reset for the shaman. Upon transformation, the likelihood of reverting to their original form during combat is minimal. This spell is generally activated when the shaman's health drops below half or when it loses Primal Fury. While the transformed creature can't cast spells, any prior ongoing spells persist. 
+
+Depending on the situation, the shaman might transform into a:
+
+* **Manticore.** Preferable when adversaries have limited ranged capabilities
+
+* **Hydra.** Chosen when foes have a lower damage output or can't focus their attacks on the transformed shaman
+
+* **Dragon.** Optimal when opponents are grouped together, allowing the dragon's breath to hit multiple targets or when facing adversaries with high elemental damage output.
+
+\columnbreak
+
+#### Lore of Shadows
+The Shadow Paths trait of this lore works well when combined with Beastmen who have the Charge ability. By swapping places with units like bestigors or wargors, the shaman can help them get in repeated charges during a fight.
+
+##### Lore of Shadows Spells
+**Pit of Shadows:** This spell is used at the earliest opportunity when it can affect two or more targets.
+
+**Mystifying Miasma:** This is the shaman's go-to opening spell, unless *Pit of shadows* is available. It's used to disperse tightly packed enemy formations.
+
+**Penumbral Pendulum:** This is employed when it can strike two or more foes. After casting it, the shaman's allies may attempt to grapple and restrain adversaries, ensuring they remain within the pendulum's path.
+
+**Unseen Lurker:** This spell generally targets the shaman's strongest ally and is cast when no other spells take precedence or if the shaman requires an urgent retreat.
+
+**Shroud of Dusk:** This spell is particularly handy during close-quarters combat. If the bray shaman knows it will have disadvantage on its next attack, this spell's darkness can level the playing field by canceling out any sources of advantage and disadvantage for most creatures in its area.
+
+#### Lore of Death
+
+Bray shamans practicing the Lore of Death tend to reserve their more potent spells for later rounds of combat, capitalizing on the enhanced power derived from their Leech Life ability.
+
+##### Lore of Death Spells
+
+**Circle of Death:** Given its vast area of effect, shamans prefer to cast this spell prior to engaging in melee combat, ensuring maximum enemy exposure.
+
+**Aspect of Dread:** This spell is typically used after the shaman engages in melee combat. After charging in and making a Gore attack, the shaman will cast this spell while surrounded by foes to sow fear.
+
+**Impending Doom:** This spell should target formidable enemy frontline fighters. This will help other beastmen knock them over with charging attacks.
+
+**Inflict Wounds:** Shamans are patient with this spell, waiting for an opportune moment to strike a target when they have advantage.
+
+**Crippling Pain:** This is best cast on agile skirmishers like monks or rogues. Its potency is amplified when targeting a prone adversary, as the act of standing further exacerbates the damage the target takes.
+
+\pagebreakNum
+
+#### Lore of the Wild
+Bray shamans dedicated to this lore tend to be less melee-focused, especially those with access to the Savage Domain spell. The majority of their spells require concentration, and a significant portion are good at disrupting opponents' concentration.
+
+##### Lore of the Wild Spells
+
+**Savage Domain:** This spell is cast pre-combat unless doing so would jeopardize a surprise attack. While maintaining concentration on this spell, the shaman keeps its distance, remaining within 60 feet of the summoned monster. The type of summoned creature is typically random unless the shaman possesses prior knowledge about adversaries.
+
+The choices are:
+
+* **Giant:** Chosen if adversaries are adept at avoiding melee or are fighting at a distance
+
+* **Jabberwocky:** Chosen when the objective is to hamper foes with the creature's Burble and other debilitating effects. (Remember that the Burble ability is indiscriminate, potentially affecting even the shaman if it gets too close.)
+
+* **Behemoth:** A versatile monster, adept at singling out and consuming targets, as well as attacking groups with its Rend ability
+
+**Mad Rampage:** This should be cast on a unit with multiple attacks. Great Shamans might cast it on the creature summoned with *savage domain*.
+
+**Vile Tide:** This should be used when it can target two or more opponents or disrupt a spell-concentrating foe, especially if *devolve* has already been used on them.
+
+**Bray Scream:** This should be reserved for critical moments. It's typically cast on the shaman itself or on powerful allies like a Wargor or a creature summoned by *savage domain*. It's most effective when the targeted unit is at half-health and can affect at least two foes with the scream.
+
+**Devolve:** This spell is saved for when the shaman can target an enemy spellcaster with it.
+
+\pagebreakNum
+
+### Bray Shaman Loot
+Because beastmen are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+
+#### Gor Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Lesser Bray Shaman Loot Table
+
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-10  | 1 5gp Item |
+|  11-17 | 1d4(2) 5gp Items  |  
+|  18-21 | 1 10gp Items |  
+|  22+ |  1d4(2) 10gp Items |  
+
+
+##### Bray Shaman Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 10gp Items |
+|  8-10 | 1d4(2) 10gp Items | 
+|  11-16 | 1d6(3) 10gp Items  |  
+|  17-21 | 1d4(2) 20gp Items |  
+|  22+ |  1d6(3) 20gp Items |  
+
+
+##### Great Bray Shaman Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 50gp Item |
+|  9-13 | 1 100gp Item | 
+|  14-20 | 1d4(2) 100gp Items  |  
+|  21-23 | 1d6(3) 100gp Items |  
+|  24+ |  1d4(2) 200gp Items |  
+
+\columnbreak
+
+#### Example Bray Shaman Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Uncommon Bray Shaman Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item |
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Lesser Shaman Horn | Lesser Shaman Horn or Cracked Shaman Horn |  Shaman Horn | 
+| 3 (Cloth)  | Tattered Sigiled Cloth | Sigiled Cloth |  Eldritch Sigiled Cloth | 
+| 2 <br> (Hide)  | Tattered Shaman's Cloak | Shaman's Cloak | Beast-Blessed Shaman's Cloak |  
+| 4 <br> (Wood) | Cracked Shaman Staff | Shaman Staff |  Eldritch Shaman Staff | 
+
+
+##### Example Rare Bray Shaman Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Great Shaman Horn | Great Shaman Horn |  Eldritch Great Shaman Horn  | 
+| 3 (Metal)  | Tattered Runic Cloth | Runic Cloth |  Eldritch Runic Cloth | 
+| 2 <br> (Hide)  | Tattered Great Shaman Cloak | Great Shaman Cloake | Chaos-Blessed Great Shaman Cloak  | 
+| 4 <br> (Wood) | Cracked Great Shaman Staff | Great Shaman Staff |  Eldritch Great Shaman Staff  |
+
+\pagebreakNum
+
+## Shorthorns
+
+___
+___
+> ## Shorthorn
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 11 (2d8 + 2)
@@ -52,19 +1398,17 @@ ___
 > - **Challenge** 1/4 (50 XP) &emsp;&emsp;    **Proficiency Bonus** +2
 > ___
 >
-> ***Beast Man.*** The ungor is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+> ***Beast Man.*** The shorthorn is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
 >
-> ***Bestial Ambush (2d4).*** When the ungor takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 5 (2d4) damage.
+> ***Bestial Ambush (2d4).*** When the shorthorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 5 (2d4) damage.
 >
-> ***Charge.*** If the ungor moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+> ***Charge.*** If the shorthorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
 >
-> ***Forest Camouflage.*** The ungor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+> ***Forest Camouflage.*** The shorthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
 >
-> ***Keen Senses.*** The ungor has advantage on Wisdom (Perception) checks.
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shorthorn extra movement.
 >
-> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the ungor extra movement.
->
-> ***Primal Fury (1d8).*** The ungor deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+> ***Primal Fury (1d8).*** The shorthorn deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
 >
 > ### Actions
 >
@@ -77,8 +1421,8 @@ ___
 
 ___
 ___
-> ## Ungor Tormentor
-> *Medium humanoid, chaotic evil*
+> ## Shorthorn Tormentor
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 15 (shield)
 > - **Hit Points** 27 (5d8 + 5)
@@ -86,44 +1430,44 @@ ___
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|12 (+1)|16 (+3)|12 (+1)|7 (-2)|12 (+1)|7 (-2)|
+>|12 (+1)|16 (+3)|12 (+1)|7 (-2)|14 (+2)|7 (-2)|
 >___
 > - **Saving Throws** Str +3
-> - **Skills** Athletics +3, Intimidation +2, Perception +5, Stealth +5, Survival +3
-> - **Senses** darkvision 60 ft., passive Perception 15
+> - **Skills** Athletics +3, Intimidation +2, Perception +6, Stealth +5, Survival +3
+> - **Senses** darkvision 60 ft., passive Perception 16
 > - **Languages** Abyssal
 > - **Challenge** 1 (200 XP) &emsp;&emsp;    **Proficiency Bonus** +2
 > ___
 >
-> ***Beast Man.*** The ungor is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+> ***Beast Man.*** The shorthorn is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
 >
-> ***Bestial Ambush (3d4).*** When the ungor takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 7 (3d4) damage.
+> ***Bestial Ambush (3d4).*** When the shorthorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 7 (3d4) damage.
 >
-> ***Charge.*** If the ungor moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+> ***Charge.*** If the shorthorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
 >
-> ***Forest Camouflage.*** The ungor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+> ***Forest Camouflage.*** The shorthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
 >
-> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the ungor extra movement.
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shorthorn extra movement.
 >
-> ***Primal Fury (1d8).*** The ungor deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+> ***Primal Fury (1d8).*** The shorthorn deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
 >
 > ### Actions
 >
 > ***Gore.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) piercing damage.
 >
-> ***Tormenting Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack. The target must make a DC 13 Constitution saving throw; it has disadvantage on the saving throw if it is poisoned. On a failed save, it takes 9 (2d8) poison damage and is poisoned until the end of the ungor's next turn. While poisoned this way, it has disadvantage on Strength saving throws. On a successful save, it takes half as much damage and is not poisoned.
+> ***Tormenting Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack. The target must make a DC 13 Constitution saving throw; it has disadvantage on the saving throw if it is poisoned. On a failed save, it takes 9 (2d8) poison damage and is poisoned until the end of the shorthorn's next turn. While poisoned this way, it has disadvantage on Strength saving throws. On a successful save, it takes half as much damage and is not poisoned.
 >
 > ### Reactions
 >
-> ***Pin Down.*** If a creature within 5 feet of the ungor stands up, the ungor can use its reaction to make an attack with advantage against it. If it hits, the target falls prone again.
+> ***Pin Down.*** If a creature within 5 feet of the shorthorn stands up, the shorthorn can use its reaction to make an attack with advantage against it. If it hits, the target falls prone again.
 >
 
 \pagebreakNum
 
 ___
 ___
-> ## Ungor Raider
-> *Medium humanoid, chaotic evil*
+> ## Shorthorn Raider
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 11 (2d8 + 2)
@@ -139,19 +1483,19 @@ ___
 > - **Challenge** 1/2 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
 > ___
 >
-> ***Beast Man.*** The ungor is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+> ***Beast Man.*** The shorthorn is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
 >
-> ***Bestial Ambush (3d4).*** When the ungor takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 7 (3d4) damage.
+> ***Bestial Ambush (3d4).*** When the shorthorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 7 (3d4) damage.
 >
-> ***Charge.*** If the ungor moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+> ***Charge.*** If the shorthorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
 >
-> ***Forest Camouflage.*** The ungor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+> ***Forest Camouflage.*** The shorthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
 >
-> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the ungor extra movement.
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shorthorn extra movement.
 >
-> ***Opportunistic Marksman.*** The ungor does not suffer disadvantage on ranged attack rolls against prone targets.
+> ***Opportunistic Marksman.*** The shorthorn does not suffer disadvantage on ranged attack rolls against prone targets.
 >
-> ***Primal Fury (1d8).*** The ungor deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+> ***Primal Fury (1d8).*** The shorthorn deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
 >
 > ### Actions
 >
@@ -166,8 +1510,8 @@ ___
 
 ___
 ___
-> ## Ungor Stalker
-> *Medium humanoid, chaotic evil*
+> ## Shorthorn Stalker
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 33 (6d8 + 6)
@@ -184,23 +1528,23 @@ ___
 > - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
 > ___
 >
-> ***Beast Man.*** The ungor is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+> ***Beast Man.*** The shorthorn is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
 >
-> ***Bestial Ambush (4d4).*** When the ungor takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 10 (4d4) damage.
+> ***Bestial Ambush (4d4).*** When the shorthorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 10 (4d4) damage.
 >
-> ***Charge.*** If the ungor moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+> ***Charge.*** If the shorthorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
 >
-> ***Forest Camouflage.*** The ungor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+> ***Forest Camouflage.*** The shorthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
 >
-> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the ungor extra movement.
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shorthorn extra movement.
 >
-> ***Opportunistic Marksman.*** The ungor does not suffer disadvantage on ranged attack rolls against prone targets.
+> ***Opportunistic Marksman.*** The shorthorn does not suffer disadvantage on ranged attack rolls against prone targets.
 >
-> ***Primal Fury (2d8).*** The ungor deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+> ***Primal Fury (2d8).*** The shorthorn deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
 >
 > ### Bonus Action
 >
-> **Bestial Cunning.** While the ungor's Primal Fury ability is active, it can move up to 30 feet, or take the Disengage or Hide action. (NOTE: Why not just say Dash?)
+> **Bestial Cunning.** While the shorthorn's Primal Fury ability is active, it can take the Disengage or Hide action.
 >
 > ### Actions
 >
@@ -211,88 +1555,16 @@ ___
 > ***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 >
 
-### Ungor Tactics
-These beastmen are weak and cowardly by nature and will usually only press an attack if they feel they have an advantage that tips the odds in their favor. This advantage could range from a surprise attack to overwhelming numbers or the use of forested terrain to launch hit-and-run attacks. Once they feel they're on the winning side, ungors will charge in with the same reckless ferocity common to most beastmen.
 
-#### Ungor Tormentors
-These beastmen typically move ahead of the rest of their warband, setting up ambushes that their allies can capitalize on. If they can pull off the ambush, they'll use their poisonous attacks to weaken players and leave them more susceptible to the charges of other beastmen. Once an enemy is prone, the tormentors will surround it and ensure it can't get back up. These tactics make tormentors ideal allies for stronger beastmen like gors and bestigors.
-
-#### Ungor Raiders and Stalkers
-These beastmen are unique in that they avoid rushing into battle to use their Charge ability. Instead, they specialize in targeting foes their allies can't reach in close combat. They are skillful and opportunistic archers and will take cover between their attacks whenever possible.
 
 \pagebreakNum
 
-### Ungor Loot
-Because beastmen are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
-
-Alternatively, you can roll for the loot randomly using a flat modifier.
-
-
-#### Ungor Loot Tables
-The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
-
-
-##### Ungor Loot Table (1/4)
-
-| Looting Check Result or 1d20 + 3 |  Loot  |
-|:---:|:-----------:|
-|  1-5  | Nothing |
-|  6-10 | 1 5sp Item | 
-|  11-17 | 1d4(2) 5sp Items  |  
-|  18-22 | 1d6(3) 5sp Items |  
-|  23+ |  2d4(5) 5sp Items |  
-
-
-##### Ungor Tormentor Loot Table (1)
-
-| Looting Check Result or 1d20 + 3 |  Loot  |
-|:---:|:-----------:|
-|  1-5  | 1 5sp Item |
-|  6-8 | 1d4(2) 5sp Items | 
-|  9-15 | 1d4(2) 5sp Items  |  
-|  16-20 | 1d4(2) 1gp Items |  
-|  21+ |  1d6(3) 1gp Items |  
-
-##### Ungor Raider Table (1/2)
-
-| Looting Check Result or 1d20 + 3 |  Loot  |
-|:---:|:-----------:|
-|  1-4  | Nothing |
-|  5-8 | 1 5sp Item | 
-|  9-15 | 1d4(2) 5sp Items  |  
-|  16-20 | 1d6(3) 5sp Items |  
-|  21+ |  2d4(5) 5sp Items |  
-
-
-##### Ungor Stalker Loot Table (2)
-
-| Looting Check Result or 1d20 + 3 |  Loot  |
-|:---:|:-----------:|
-|  1-6  | 2d4(5) 5sp Items |
-|  7-10 | 2d6(7) 5sp Items | 
-|  11-17 | 1d6(3) 1gp Items  |  
-|  18-21 | 2d4(5) 1gp Items |  
-|  22+ |  2d6(7) 1gp Items |  
-
-#### Example Ungor Loot Names
-You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
-
-##### Example Common Beastmen Item Names
-|1d4 | 5sp Item | 1gp Item |
-|:--:|:---:|:-----------:|
-| 1 <br> (Bone)  |   Cracked Beastman Horn |  Beastman Horn | 
-| 2 <br> (Hide)  | Tattered Hide| Intact Hide |  
-| 3 (Metal)  | Rusted Blade/Armor Fragment| Blade/Armor Fragment |  
-| 4 <br> (Wood) | Cracked Beastwood | Beastwood |  
-
-\pagebreakNum
-
-## Gors
+## Longhorns
 
 ___
 ___
-> ## Gor
-> *Medium humanoid, chaotic evil*
+> ## Longhorn
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 12
 > - **Hit Points** 13 (2d8 + 4)
@@ -308,17 +1580,17 @@ ___
 > - **Challenge** 1/2 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
 > ___
 >
-> ***Beast Man.*** The gor is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+> ***Beast Man.*** The longhorn is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
 >
-> ***Bestial Ambush (2d4).*** When the gor takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 5 (2d4) damage.
+> ***Bestial Ambush (2d4).*** When the longhorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 5 (2d4) damage.
 >
-> ***Charge.*** If the gor moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
+> ***Charge.*** If the longhorn moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 >
-> ***Forest Camouflage.*** The gor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+> ***Forest Camouflage.*** The longhorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
 >
-> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the gor extra movement.
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the longhorn extra movement.
 >
-> ***Primal Fury (1d8).*** The gor deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+> ***Primal Fury (1d8).*** The longhorn deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
 >
 > ### Actions
 >
@@ -333,8 +1605,8 @@ ___
 
 ___
 ___
-> ## Gor, Ravager
-> *Medium humanoid, chaotic evil*
+> ## Longhorn Ravager
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 15 (makeshift shield)
 > - **Hit Points** 60 (8d8 + 24)
@@ -351,23 +1623,23 @@ ___
 > - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
 > ___
 >
-> ***Beast Man.*** The gor is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
+> ***Beast Man.*** The longhorn is considered a beast in addition to its humanoid type when determining the effects of features such as a *dominate beast* spell.
 >
-> ***Bestial Ambush (2d4).*** When the gor takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 5 (2d4) damage.
+> ***Bestial Ambush (2d4).*** When the longhorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage, it deals an extra 5 (2d4) damage.
 >
-> ***Charge.*** If the gor moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+> ***Charge.*** If the longhorn moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
 >
-> ***Forest Camouflage.*** The gor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+> ***Forest Camouflage.*** The longhorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
 >
-> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the gor extra movement.
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the longhorn extra movement.
 >
-> ***Makeshift Shield.*** If the gor is holding a mug, keg, or other drinking vessel, it gains the benefits of wielding a shield.
+> ***Makeshift Shield.*** If the longhorn is holding a mug, keg, or other drinking vessel, it gains the benefits of wielding a shield.
 >
-> ***Primal Fury (2d8).*** The gor deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+> ***Primal Fury (2d8).*** The longhorn deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
 >
 > ### Bonus Actions
 >
-> ***Swig (2/Day).*** If the gor is not poisoned, it can take a swing of its drink, becoming poisoned for the next minute and gaining 20 temporary hit points for the same duration. While it has these temporary hit points, it suppresses any effect causing it to be charmed or frightened, its Primal Fury trait is active even if it has lost it, and it automatically succeeds on Wisdom checks caused by its Primal Fury ability. The gor can make a DC 15 Constitution saving throw at the start of each of its turns; on a success, the poison ends (this does not end the other effects).
+> ***Swig (2/Day).*** If the longhorn is not poisoned, it can take a swig of its drink, gaining 20 temporary hit points and becoming poisoned for the next minute. While the longhorn is poisoned this way, it suppresses any effect causing it to be charmed or frightened, its Primal Fury trait is active even if it has lost it, and it automatically succeeds on Wisdom checks caused by its Primal Fury ability. The longhorn must make a DC 15 Constitution saving throw at the start of each of its turns; on a success, the poison ends. 
 >
 > ### Actions
 >
@@ -377,7 +1649,7 @@ ___
 
 
 > ##### Number of Swig Uses
-> The default number of uses of the Swig represents the average amount of drink a gor is carrying with it at any given time. There may be a reason why a gor would have more or less drink on its person, and you can adjust the number of daily uses of the Swig ability to reflect this.
+> The default number of uses of the Swig represents the average amount of drink a longhorn is carrying with it at any given time. There may be a reason why a longhorn would have more or less drink on its person, and you can adjust the number of daily uses of the Swig ability to reflect this.
 
 
 
@@ -386,8 +1658,8 @@ ___
 
 ___
 ___
-> ## Bestigor
-> *Medium humanoid, chaotic evil*
+> ## Besthorn
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 16 (scale mail)
 > - **Hit Points** 67 (9d8 + 27)
@@ -428,8 +1700,8 @@ ___
 
 ___
 ___
-> ## Bestigor, Manripper
-> *Medium humanoid, chaotic evil*
+> ## Besthorn Manripper
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 16 (scale mail)
 > - **Hit Points** 90 (12d8 + 36)
@@ -474,8 +1746,8 @@ ___
 
 ___
 ___
-> ## Wargor
-> *Medium humanoid, chaotic evil*
+> ## Warhorn
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 16 (chain mail)
 > - **Hit Points** 102 (12d8 + 48)
@@ -529,7 +1801,7 @@ ___
 ___
 ___
 > ## Beastlord
-> *Medium humanoid, chaotic evil*
+> *Medium humanoid (beastman), chaotic evil*
 > ___
 > - **Armor Class** 17 (splint)
 > - **Hit Points** 152 (16d8 + 80)
@@ -577,91 +1849,7 @@ ___
 > ***Javelin.*** *Melee or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 12 (2d6 + 5) damage in melee or 9 (1d6 + 5) piercing damage at range.
 >
 
-### Managing Primal Fury At Scale
- 
-If you're managing a lot of beastmen in combat and prefer not to roll each of the Primal Fury checks individually each time they come up, the following set of alternative rules can streamline this process.
 
-
-At the beginning of combat, all beastmen enter combat with their Primal Fury active. On initiative count 20 each turn (losing all initiative ties), roll a d20. If the roll is 11 or higher, the Primal Fury of all beastmen remains active; if it is less, the Primal Fury ends for all beastmen until the next initiative count 20. Add a cumulative +1 bonus to the roll for each beastman in the encounter that is neither charmed nor frightened. Subtract 1 from the roll for each beastman that has been reduced to 0 hit points since the last roll.
-
-Specific abilities of some of the beastmen modify these rules as follows:
-
-**Will of the Dark Gods, Apocalyptic Vision.** If there is a beastman in the battle with one of these abilities, add a +5 bonus to the roll rather than providing advantage, as long as the beastman providing the ability is not charmed or frightened. 
-
-**Crown of Horns.** If there is a beastman in the battle with one of these abilities, add a +5 bonus to the roll rather than providing advantage, as long as the beastman providing the ability is not charmed or frightened. 
-
-**NOTE.** Are these bonuses cumulative?
-
-\pagebreakNum
-
-## Beastmen Mutations
-
-The following is a list of mutations that can be applied to any gor or ungor to represent the effects the constant mutating power of chaos can have on them.
-
-Applying a mutation increases a creature's CR by 1 (fractional CRs are doubled, e.g., a CR 1/4 creature becomes CR 1/2.)
-
-### Crown of Horns 
-*This creature is gifted with especially large and grandiose twisting horns, granting it extreme confidence, for it knows it has been blessed by the dark gods.*
-
-When the beastman makes a Wisdom check caused by its Primal Fury ability, it automatically succeeds unless it has disadvantage on the roll.
-
-### Gnarled Hide
-
-*The beastman's hide has toughed up to the point that it serves as a layer of living armor.*
-
-The beastman gets +2 to its AC.
-
-### Gouging Tusks 
-
-*The beastman has a large pair of tusks sprouting from its lower jaw, granting it an even more devastating charge attack.*
-
-Creatures that fail their save against the beastman's charge attack take 16 (3d10) piercing damage on a failed save rather than the normal amount of damage and half as much on a success. NOTE: This seems wrong. Is this a flat damage replacement?
-
-### Many Limbed Monster
-
-*The beastman sports an extra pair of clawed arms to tear at its enemies.*
-
-When the beastman takes the attack action, it makes one additional attack as part of the action, which uses the attack modifier of its Gore attack. On hit, the target takes 2d4 slashing damage. (The attack also gains the benefits of Primal Fury.)
-
-### Rune of the Beast
-
-*The beastman has a large eldritch rune carved into its flesh. When it becomes enraged, the rune glows red hot and distorting the winds of magic around it.*
-
-While the beastman's Primal Fury ability is active, it has resistance to damage from spells, and when it is affected by a spell that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
-
-### Shadow Hide
-
-*The beastman's black fur melds perfectly with the darkness around it, allowing it to stalk its prey from the shadows while completely unseen.*
-
-While in darkness, the beastman is invisible to any creature that relies on darkvision to see it in that darkness. Additionally, it does not suffer disadvantage on Dexterity (Stealth) checks from wearing Armor.
-Finally, it gains the Bestial Ambush ability as described below. If it already has a Bestial Ambush ability, the damage bonus of its Bestial Ambush is increased by 10 (4d4).
-
-***Bestial Ambush.*** When the beastman takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 7 (3d4) damage.
-
-### Slug-Skin
-
-*This beastman's disgusting skin oozes thick, slippery, toxic slime.*
-
-At the end of the beastman's turn, any ground within 5 feet of it is covered in slime for the next minute, causing it to become difficult terrain. Creatures standing in the area have disadvantage on saving throws against being knocked prone, and prone creatures in the area must spend all their movement to stand up instead of half. If a creature ends its turn in the area, it takes 10 (3d6) poison damage. 
-
-Beastmen (NOTE: what counts as a beastman?) ignore the effects of the slime. A gallon or more of water moving more than 5 miles per hour will wash the slime away from a 5-foot square area.
-
-### Uncanny Senses
-
-*The beastman's primal senses have been heightened to new levels, allowing it to perceive even the most well-hidden prey and the stealthiest of threats.*
- 
-The beastman has advantage on initiative rolls and Wisdom (Perception) checks and does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured. It also gains blindsight out to 120 feet.
-
-<br>
-
-> ##### Using Mutations To Create Urgency In Adventures
-> If you're running an adventure that focuses heavily on encounters with beastmen and you want to create a sense of urgency, you can have the beastmen in the adventure gain mutations as time passes. This means the more slowly and carefully the players progress, the more dangerous the beastmen will become. This can help keep the players from playing too conservatively. 
-> 
-> If you want the mutations to be random, you can roll a d8 to determine what mutation they will gain (number each of the abilities in alphabetical order).
->
-> The rate at which they gain mutations could be on the scale of hours or days, depending on the scope and pacing of your adventure.
->
-> NOTE: Do they all get the mutation, and will this be cumulative?
 
 \pagebreakNum
 
@@ -676,38 +1864,91 @@ There are a few abilities common to all beastmen infantry.
 
 **Primal Fury.** Beastmen will never flee while this ability is active. This ability underscores the importance of ensuring beastmen do whatever they can to help their attacks hit. This most commonly includes attacking surprised or prone enemies.
 
-#### Gor Ravagers
+#### Shorthorn Tactics
+These beastmen are weak and cowardly by nature and will usually only press an attack if they feel they have an advantage that tips the odds in their favor. This advantage could range from a surprise attack to overwhelming numbers or the use of forested terrain to launch hit-and-run attacks. Once they feel they're on the winning side, shorthorns will charge in with the same reckless ferocity common to most beastmen.
+
+##### Shorthorn Tormentors
+These beastmen typically move ahead of the rest of their warband, setting up ambushes that their allies can capitalize on. If they can pull off the ambush, they'll use their poisonous attacks to weaken players and leave them more susceptible to the charges of other beastmen. Once an enemy is prone, the tormentors will surround it and ensure it can't get back up. These tactics make tormentors ideal allies for stronger beastmen like longhorns and besthorns.
+
+##### Shorthorn Raiders and Stalkers
+These beastmen are unique in that they avoid rushing into battle to use their Charge ability. Instead, they specialize in targeting foes their allies can't reach in close combat. They are skillful and opportunistic archers and will take cover between their attacks whenever possible.
+
+#### Longhorn Tactics
+Longhorns make up the bulk of most beastmen warherds. When fighting together, they form a rowdy mob drunk on their confidence and recklessly charging into enemies. If the fight doesn't quickly go in their favor, sobering reality may set in, causing them to break and flee if they don't have a leader keeping them in line.
+
+##### Longhorn Ravagers
 These beastmen's signature ability is Swig. They will typically expend a use of the ability just before combat, letting the poisoned condition clear while retaining the temporary hit points. 
 
 In the heat of battle, they will use the Swig ability again if they lose their Primal Fury or they drop below half health. It's important that they use Swig after they've made their attacks for the turn so they can minimize the disadvantage from being poisoned.
 
 Because of their drunken nature, these beastmen will be even more wild and reckless than the rest of their kin, and you can reflect this by having them take more foolhardy actions in combat.
 
-#### Bestigors
-Because these elite warriors wear heavy armor, they often can't rely on stealth and ambush tactics unless they have cover from heavy vegetation. If they're unlikely to successfully sneak up on players, but they're teamed up with other beastmen who can, the bestigors will charge the players head-on. This will allow the sneakier beastmen an opportunity to move around and attack from behind while the players are distracted.
+#### Besthorns
+Because these elite warriors wear heavy armor, they often can't rely on stealth and ambush tactics unless they have cover from heavy vegetation. If they're unlikely to successfully sneak up on players, but they're teamed up with other beastmen who can, the besthorns will charge the players head-on. This will allow the sneakier beastmen an opportunity to move around and attack from behind while the players are distracted.
 
-#### Manrippers
+##### Besthorn Manrippers
 These beastmen prioritize attacking targets with low Strength so they can best utilize their Hewing Greataxe attacks. However, if the enemies they can reach all have high AC or abilities that make them hard to hit, the manrippers will change their strategy to attacking foes that are grouped up so they can attempt to make use of their Arcing Swing ability.
 
-#### Wargors and Beastlords
+#### Warhorns and Beastlords
 These beastmen leaders fight from within the center of their minions, extending their aura to as many beastmen as possible. Because they're constantly seeking the favor of their dark gods, they will often challenge the most powerful adversaries they can find to prove their worth.
 
-Because of their armor, their ambush options are often limited, and so they typically use the same combat initiation tactics as bestigors.
+Because of their armor, their ambush options are often limited, and so they typically use the same combat initiation tactics as besthorns.
 
 \pagebreakNum
 
-### Gor Loot
+### Longhorn Loot
 Because beastmen are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
 
 Alternatively, you can roll for the loot randomly using a flat modifier.
 
 
-#### Gor Loot Tables
+#### Longhorn Loot Tables
 The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
 
+##### Shorthorn Loot Table
 
-##### Gor Loot Table
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | Nothing |
+|  6-10 | 1 5sp Item | 
+|  11-17 | 1d4(2) 5sp Items  |  
+|  18-22 | 1d6(3) 5sp Items |  
+|  23+ |  2d4(5) 5sp Items |  
 
+
+##### Shorthorn Tormentor Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5sp Item |
+|  6-8 | 1d4(2) 5sp Items | 
+|  9-15 | 1d4(2) 5sp Items  |  
+|  16-20 | 1d4(2) 1gp Items |  
+|  21+ |  1d6(3) 1gp Items |  
+
+##### Shorthorn Raider Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | Nothing |
+|  5-8 | 1 5sp Item | 
+|  9-15 | 1d4(2) 5sp Items  |  
+|  16-20 | 1d6(3) 5sp Items |  
+|  21+ |  2d4(5) 5sp Items |  
+
+
+##### Shorthorn Stalker Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 2d4(5) 5sp Items |
+|  7-10 | 2d6(7) 5sp Items | 
+|  11-17 | 1d6(3) 1gp Items  |  
+|  18-21 | 2d4(5) 1gp Items |  
+|  22+ |  2d6(7) 1gp Items |  
+
+
+##### Longhorn Loot Table
 
 | Looting Check Result or 1d20 + 3 |  Loot  |
 |:---:|:-----------:|
@@ -718,7 +1959,7 @@ The following tables describe the number of items and value of those items the p
 |  22+ |  1d6(3) 1gp Items |  
 
 
-##### Gor, Ravager Loot Table
+##### Longhorn Ravager Loot Table
 
 | Looting Check Result or 1d20 + 3 |  Loot  |
 |:---:|:-----------:|
@@ -729,7 +1970,7 @@ The following tables describe the number of items and value of those items the p
 |  20+ |  2d6(7) 1gp Items |  
 
 
-##### Bestigor Loot Table
+##### Besthorn Loot Table
 
 | Looting Check Result or 1d20 + 3 |  Loot  |
 |:---:|:-----------:|
@@ -739,7 +1980,7 @@ The following tables describe the number of items and value of those items the p
 |  18-21 | 2d4(5) 2gp Items |  
 |  22+ |  2d6(7) 2gp Items |  
 
-##### Bestigor, Manripper Loot Table
+##### Besthorn Manripper Loot Table
 
 | Looting Check Result or 1d20 + 3 |  Loot  |
 |:---:|:-----------:|
@@ -749,10 +1990,10 @@ The following tables describe the number of items and value of those items the p
 |  17-21 | 1d4(2) 10gp Items |  
 |  22+ |  1d6(3) 10gp Items |  
 
-\columnbreak
+\pagebreakNum
 
 
-##### Wargor Loot Table
+##### Warhorn Loot Table
 
 | Looting Check Result or 1d20 + 5 |  Loot  |
 |:---:|:-----------:|
@@ -772,9 +2013,9 @@ The following tables describe the number of items and value of those items the p
 |  21-23 | 1d6(3) 100gp Items |  
 |  24+ |  1d4(2) 200gp Items |  
 
-\pagebreakNum
 
-#### Example Gor Loot Names
+
+#### Example Longhorn Loot Names
 You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
 
 ##### Example Common Beastmen Item Names
@@ -803,7 +2044,36 @@ You can give the different types of items unique names based on their material a
 
 \pagebreakNum
 
-### Change Log
+# Revision Numbers
+
+## Referenced Content
+### New Spells
+
+## Local Content
+### New Creatures
+
+#### Bray Shamans
+* Lesser Bray Shaman 0.0.0
+* Bray Shaman 0.0.0
+* Great Bray Shaman 0.0.0
+
+
+#### Beastmen Infantry
+* Shorthorn 0.0.0
+* Shorthorn Tormentor 0.0.0
+* Shorthorn Raider 0.0.0
+* Shorthorn Stalker 0.0.0
+* Longhorn 0.0.0
+* Longhorn Ravager 0.0.0
+* Besthorn 0.0.0
+* Besthorn Manripper 0.0.0
+* Warhorn 0.0.0
+* Beastlord 0.0.0
+
+
+\pagebreakNum
+
+# Change Log
 #### 0.0.0
 * Document creation
 
@@ -821,3 +2091,9 @@ You can give the different types of items unique names based on their material a
 
 #### 0.5.0
 * Add ungor tactics
+
+#### 0.6.0
+* Change names of ungors to shorthorns
+
+#### 0.7.0
+* Address notes
