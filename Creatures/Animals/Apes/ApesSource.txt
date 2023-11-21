@@ -1,4 +1,4 @@
-<style>
+ <style>
 
  /* Footers */
     
@@ -69,7 +69,7 @@ ___
 > ***Slam.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage.
 >
 > ***Fling.*** The chimpanzee chooses one Small object or creature it is holding or grappling and throws it up to 10 feet away. If the target hits a solid surface, it takes 4 (1d4 + 2) damage and lands prone. <br>
-> If the thrown target would hit another creature, the creature that would be hit must make a DC 12 Dexterity saving throw. On a failed save, the creature is hit, takes 4 (1d4 + 2) bludgeoning damage, and is knocked prone. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
+> If the thrown target would hit another creature, the creature that would be hit must make a DC 12 Dexterity saving throw. On a failed save, the creature is hit, takes 4 (1d4 + 2) bludgeoning damage, and is knocked prone if it is Large or smaller. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
 > 
 > ### Bonus Actions
 > ***Brawler.*** After the chimpanzee makes a slam attack, it can attempt to grapple the target, regardless of whether the attack hits or misses.
@@ -107,7 +107,7 @@ ___
 > - **Senses** passive Perception 14.
 > - **Challenge** 0 (10 XP) &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
 > ___
-> ***Arboreal.*** The gibbon has advantage on Strength and Dexterity checks related to climbing through trees, rigging, or similar terrain, and has advantage on Dexterity saving throws while in such terrain. It also does not provoke attacks of opportunity when moving through trees, rigging, or similar terrain.
+> ***Arboreal.*** The gibbon has advantage on Strength and Dexterity checks related to climbing through trees, rigging, or similar terrain, and has advantage on Dexterity saving throws while in such terrain. It also does not provoke opportunity attacks when moving through trees, rigging, or similar terrain.
 >
 > ***Swinging Leap.*** When using its climb speed, the gibbon's long jump distance can be up to 40 feet when it has a running start.
 > 
@@ -164,7 +164,7 @@ ___
 > - **Senses** passive Perception 14
 > - **Challenge** 2 (450 XP) &emsp;&emsp;&emsp;&nbsp;    **Proficiency Bonus** +2
 > ___
-> ***Powerful Build.*** The gorilla counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift. <br><br><br><br><br>
+> ***Powerful Build.*** The gorilla counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift.
 >
 > ### Actions
 > ***Multiattack.*** The gorilla makes two attacks: one with its bite and one with its slam. It can replace its slam attack with a fling.
@@ -174,10 +174,10 @@ ___
 > ***Slam.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage.
 >
 > ***Fling.*** The gorilla chooses one Medium object or creature it is holding or grappling and throws it up to 15 feet away. If the target hits a solid surface, it takes 7 (1d6 + 4) damage and lands prone. <br>
-> If the thrown target would hit another creature, the creature that would be hit must make a DC 15 Dexterity saving throw. On a failed save, the creature is hit, takes 7 (1d6 + 4) bludgeoning damage, and is knocked prone. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
+> If the thrown target would hit another creature, the creature that would be hit must make a DC 15 Dexterity saving throw. On a failed save, the creature is hit, takes 7 (1d6 + 4) bludgeoning damage, and is knocked prone if it is Huge or smaller. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
 >
 > ### Bonus Actions
-> ***Brawler.*** After the gorilla makes a slam attack, it can attempt to grapple the target, regardless of whether the attack hits or misses.
+> ***Brawler.*** After the gorilla makes a slam attack, it can attempt to grapple the target, regardless of whether the attack hits or misses.<br><br>
 
 <img src='https://assets.echomtg.com/magic/cards/cropped/13318.hq.jpg' style='position:absolute; top:-50px; right:-0px; width:816px;' />
 
@@ -232,7 +232,7 @@ ___
 >
 > ***Slam.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) bludgeoning damage.
 >
-> ***Fling.*** The ape chooses one large object or creature it is holding or grappling and throws it up to 30 feet away. If the target hits a solid surface, it takes 15 (2d8 + 6) bludgeoning damage and lands prone. <br>
+> ***Fling.*** The ape chooses one Large object or creature it is holding or grappling and throws it up to 30 feet away. If the target hits a solid surface, it takes 15 (2d8 + 6) bludgeoning damage and lands prone. <br>
 > If the thrown target would hit another creature, the creature that would be hit must make a 17 Dexterity saving throw. On a failed save, the creature is hit, takes 15 (2d8 + 6) bludgeoning damage, and is knocked prone. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
 > 
 > ### Bonus Actions
@@ -624,7 +624,7 @@ You can give the different types of items unique names based on their material a
 * Ape Token - Lars Grant-West, Wizards of the Coast
 * Kogla, the Titan Ape - Chris Rahn, Wizards of the Coast
 * Unclaimed Territory - Dimitar Marinski, Wizards of the Coast
-* Kird Ape -  Kird Ape, Wizards of the Coast
+* Kird Ape -  Terese Nielsen, Wizards of the Coast
 * Kird Chieftain - Lars Grant-West, Wizards of the Coast
 * Simian Grunts - Pete Venters, Wizards of the Coast
 * Silverback Shaman - Mathias Kollros, Wizards of the Coast
@@ -640,6 +640,42 @@ You can give the different types of items unique names based on their material a
 
 \pagebreakNum
 
-### Change Log
-#### 1.0.0
+# Revision Numbers
+## New Creatures
+* Chimpanzee 1.1.0
+* Gibbon 1.0.1
+* Gorilla 1.1.0
+* Giant Ape 1.1.0
+* Jufu 1.0.0
+* Titanic Ape 1.1.0
+
+\pagebreakNum
+
+# Change Log
+## Document
+#### 1.0.0 
 * Document release
+
+#### 1.0.1
+* Add revision numbers of creatures
+
+## Chimpanzee
+#### 1.1.0
+* Add size limits on what can be knocked down by fling
+
+## Gibbon
+#### 1.0.1
+* Fix opportunity attack wording in gibbon stat block
+
+## Gorilla
+#### 1.1.0
+* Add size limits on what can be knocked down by fling
+ 
+## Giant Ape
+#### 1.1.0
+* Add size limits on what can be knocked down by fling
+
+## Titanic Ape
+#### 1.1.0
+* Add size limits on what can be knocked down by fling
+
