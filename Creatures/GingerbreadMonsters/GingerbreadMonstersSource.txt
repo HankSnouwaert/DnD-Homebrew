@@ -1,0 +1,251 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+## Gingerbread Monsters
+
+#### Berserk
+Berserk creatures gain the following effects unless an ability states otherwise:
+ * The creature can only use its movement to move closer to an enemy it can see or hear.
+ * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+ * The creature can't maintain concentration on spells or other effects.
+ * The creature can't be frightened or charmed.
+
+#### Quickened
+A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+\pagebreakNum
+
+___
+___
+> ## Ginger Runner
+> *Tiny construct, chaotic neutral*
+> ___
+> - **Armor Class** 14
+> - **Hit Points** 4 (1d4 + 2)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|6 (-2)|18 (+4)|14 (+2)|8 (-1)|4 (-3)|14 (+2)|
+>___
+> - **Saving Throws** Str +0, Dex +6, Con +4
+> - **Skills** Acrobatics +8, Perception +1
+> - **Damage Immunities** poison, psychic
+> - **Damage Resistances** fire
+> - **Condition Immunities** exhaustion, frightened, paralyzed, petrified
+> - **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 11
+> - **Languages** Understands and speaks the languages of its creator
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Avoidance.*** If the ginger runner is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+>
+> ***Immutable Form.*** The ginger runner is immune to any spell or effect that would alter its form.
+>
+> ***Uncatchable.*** The ginger runner has advantage on Strength, Dexterity, and Constitution saving throws and checks made against effects that would stun, grapple, restrain, knock it prone, or move it against its will.
+>
+> ***Naive.*** The ginger runner has disadvantage on saving throws against being charmed and on Wisdom (Insight) checks.
+>
+> ***False Appearance.*** While the ginger runner remains motionless, it is indistinguishable from a normal gingerbread man.
+>
+> ***Quick to Action.*** When not charmed, the ginger runner is quickened, has advantage on initiative rolls and Wisdom (Perception) checks, and can't be surprised.
+>
+> ***Quick Snack.*** If the ginger runner is reduced to 0 hit points by an attack that did not deal bludgeoning or thunder damage, it drops a *snack of swiftness* that lasts for 1 hour before going bad. Otherwise, its body is destroyed. If the creature that reduces the ginger runner to 0 hit points hits it with an attack using its jaws or mouth, it immediately eats the snack as part of the attack, even if the attack dealt bludgeoning or thunder damage.
+>
+> ### Bonus Actions
+>
+> ***Quick Feet.*** The ginger runner takes the Dash, Disengage, or Dodge action.
+>
+> ### Actions
+>
+> ***Slam.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 (1d1) bludgeoning damage.
+>
+> ### Reactions
+>
+> ***Masterful Dodge.*** If the ginger runner is hit by an attack made from more than 5 feet away and it can see the attacker, it can cause the attack to miss instead. 
+>
+
+#### Snack of Swiftness
+*Wondrous item, rare (200g)*
+
+When you eat this treat, you are quickened for 1 minute.
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Ginger Golem
+> *Large construct, chaotic neutral*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 133 (14d10 + 56)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|10 (+0)|18 (+4)|4 (-3)|4 (-3)|5 (-3)|
+>___
+> - **Damage Immunities** poison, psychic
+> - **Damage Resistances** fire, lightning
+> - **Condition Immunities** exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Skills** Perception +1
+> - **Senses** blindsight 30 ft., darkvision 60 ft., passive Perception 11
+> - **Languages** Understands and speaks the languages of its creator
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Crumble.*** Whenever the ginger golem takes at least 10 bludgeoning or thunder damage from a single source, or at least 20 damage of any time from a single source, roll a d10 to determine if and how it begins to crumble. If it has 60 hit points or less, roll 2d10 and apply the effects for each dice:
+> * 1-2: Nothing happens. 
+> * 3-4: One leg breaks off the ginger golem if it has any legs left. 
+> * 5-6: One arm breaks off the ginger golem if it has any arms left. 
+> * 7-8: Its gumdrop button falls off if it still has it. 
+> * 9-10: The ginger golem is decapitated if it still has a head. The ginger golem does not die from this.
+>
+> A broken part lands in a random spot within 5 feet of the ginger golem, becoming a small object. If its head is severed, the ginger golem is blinded. Its speed is halved if it's missing a leg. If it loses both legs, it falls prone and can't stand up. With both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed. The ginger golem dies if all of its parts are broken off.
+>
+> ***Gumdrop Button.*** The ginger golem has a gumdrop button, which falls off if it takes 5 or more fire damage or lightning damage from a single source. If the gumdrop button falls off, the ginger golem goes berserk for the next 10 minutes. While berserk, it is quickened and has advantage on all melee weapon attacks.
+>
+> ***Magic Resistance.*** The ginger golem has advantage on saving throws against spells and other magical effects.
+>
+> ***Naive.*** The ginger golem has disadvantage on saving throws against being charmed and on Wisdom (Insight) checks.
+>
+> ### Actions
+>
+> ***Multiattack.*** The ginger golem makes a Slam attack, and a Fist attack for each arm it has.
+>
+> ***Fist.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (2d4 + 5) bludgeoning damage.
+>
+> ***Slam.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) bludgeoning damage.
+
+
+\pagebreakNum
+
+___
+___
+> ## Ginger Colossus
+> *Gargantuan construct, chaotic neutral*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 248 (16d20 + 80)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|24 (+7)|10 (+0)|20 (+5)|4 (-3)|4 (-3)|5 (-3)|
+>___
+> - **Saving Throws** Int +1, Cha +1
+> - **Damage Immunities** poison, psychic
+> - **Damage Resistances** fire, lightning
+> - **Condition Immunities** exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Skills** Perception +1
+> - **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 11
+> - **Languages** Understands and speaks the languages of its creator
+> - **Challenge** 11 (7,200 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+>
+> ***Crumble.*** Whenever the ginger golem takes at least 20 bludgeoning or thunder damage from a single source, or at least 40 damage of any time from a single source, roll a d10 to determine if and how it begins to crumble. If it has 100 hit points or less, roll 2d10 and apply the effects for each dice:
+> * 1-2: Nothing happens. 
+> * 3-4: One leg breaks off the ginger colossus if it has any legs left. 
+> * 5-6: One arm breaks off the ginger colossus if it has any arms left. 
+> * 7-8: Its gumdrop button falls off if it still has one. 
+> * 9-10: The ginger colossus is decapitated if it still has a head. The ginger colossus does not die from this.
+>
+> A broken part lands in a random spot within 5 feet of the ginger golem, becoming a small object. If its head is severed, the ginger golem is blinded. Its speed is halved if it's missing a leg. If it loses both legs, it falls prone and can't stand up. With both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed. The ginger golem dies if all of its parts are broken off.
+>
+> ***Gumdrop Button.*** The ginger colossus has a gumdrop button, which falls off if it takes 10 or more fire damage or lightning damage from a single source. If the gumdrop button falls off, the ginger colossus goes berserk for the next 10 minutes. While berserk, it is quickened and has advantage on all melee weapon attacks.
+>
+> ***Magic Resistance.*** The ginger colossus has advantage on saving throws against spells and other magical effects.
+>
+> ***Naive.*** The ginger colossus has disadvantage on saving throws against being charmed and on Wisdom (Insight) checks.
+>
+> ***Siege Monster.*** The ginger colossus deals double damage to objects and structures.
+>
+> ### Actions
+>
+> ***Multiattack.*** The ginger colossus makes a Slam attack, a Fist attack for each arm it has, and a Kick attack if it has two legs and is not prone.
+>
+> ***Fist.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 25 (3d10 + 7) bludgeoning damage.
+>
+> ***Slam.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 29 (4d10 + 7) bludgeoning damage.
+>
+> ***Punt.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one prone target. *Hit:* 25 (3d10 + 7) bludgeoning damage. If the target is Large or smaller, it must make a DC 18 Strength saving throw or be thrown up to 120 feet away. If the target hits a solid surface, it takes 25 (3d10 + 7) bludgeoning damage and lands prone. If the thrown target would hit another creature, that creature must make a DC 18 Dexterity saving throw. On a failed save, the creature is hit, takes 23 (3d10 + 7) bludgeoning damage, and is knocked prone if it is Large or smaller. NOTE: Does it need arms or legs to do this?
+>
+
+\pagebreakNum
+
+### Gingerbread Monster Loot
+Because gingerbread monsters are made of magical gingerbread, most of the valuables that can be harvested from them will be in the form of magical treats. These treats can be represented by *snacks of swiftness* (described earlier in this document.) 
+
+Ginger runners naturally drop a *snack of swiftness* as part of their **Quick Snack** ability. You can let players try to harvest more *snacks of swiftness* from the remains of larger gingerbread monsters as well.
+
+#### Looting a Ginger Golem
+A player that succeeds on a DC 15 Intelligence (Arcana) or Intelligence (Cook's Utensils) check, can harvest 2d4 (5) *snacks of swiftness* that each expire after 8 hours. If the check fails by 5 or less (DC 10), 1d4(2) are found instead. If the check succeeds by 5 or more (DC 20), 3d4 (7) are found instead.
+
+#### Looting a Ginger Colossus 
+A player that succeeds on a DC 18 Intelligence (Arcana) or Intelligence (Cook's Utensils) check, can harvest 3d6 (10) *snacks of swiftness* that each expire after 1 week. If the check fails by 5 or less (DC 13), 2d6(7) are found instead. If the check succeeds by 5 or more (DC 23), 4d6 (14) are found instead.
+
+### Gingerbread Monster Tactics
+#### Ginger Runner Tactics
+The ginger runner is best utilized in chase sequences, leveraging their attitudes and abilities for swift and evasive maneuvers. In combat encounters, they excel in hit-and-run tactics, darting in and out of the fray to gradually wear down opponents. When paired with an ally capable of dealing significant damage, the ginger runner focuses on providing support to more powerful creatures. They use the Help action to assist their ally while using their bonus action and extra action (gained from being quickened) to stay out of their enemies' reach.
+
+#### Ginger Golem and Ginger Colossus Tactics
+Both the ginger golem and ginger colossus are simple-minded creatures with straightforward tactics and two key aspects to remember:
+* **Blindsight.** Even if the ginger golem or ginger colossus loses its head, it retains blindsight up to a range of 30 feet, allowing it to perceive its surroundings without relying on sight.
+* **Improvised Projectiles.** The ginger colossus possesses the unique ability to punt its own broken limbs. This is particularly useful if it finds itself unable to reach enemies in melee combat, turning its dismembered parts into effective ranged weapons.
+
+\pagebreakNum
+
+# Revision Numbers
+## New Creatures
+* Ginger Runner 0.0.0
+* Ginger Golem 0.0.0
+* Ginger Colossus 0.0.0
+
+## New Magic Item
+* Snack of Swiftness 0.0.0
+
+## Referenced Conditions
+* Berserk 1.0.0
+* Quickened 1.0.0
+
+\pagebreakNum
+
+
+# Change Log
+## Document
+#### 0.0.0 
+* Document creation
