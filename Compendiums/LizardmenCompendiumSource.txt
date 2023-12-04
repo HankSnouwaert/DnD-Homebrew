@@ -629,14 +629,14 @@ ___
 You summon a chilling wind, affecting an area within range that can be up to 40 feet long, 10 feet wide, and 10 feet tall. Up to six creatures of your choice within this area feel their fortune wane. Each targeted creature must succeed on a Charisma saving throw or be cursed by this spell for its duration.
 
 While cursed:
-* If the creature rolls an 18 or higher on an attack roll, ability check, or saving throw against an effect not caused by this spell, it must reroll and take the new result.
-* When another creature makes an attack against the cursed target and rolls a 3 or lower on the attack roll, the attacking creature may reroll and must use the new result.
+* If the creature rolls an 18 or higher on an attack roll, ability check, or saving throw against an effect not caused by this spell, it automatically fails.
+* When another creature makes an attack against the cursed target and rolls a 3 or lower on the attack roll, the attacking creature automatically hits.
 
 At the end of its turn, an affected creature can attempt another Charisma saving throw, ending the curse's effect on it on a success.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
 
-#### Lore of Heavens: Art Credit
+#### Art Credit
 * Meteor Swarm - Olivier Bernard, Wizards of the Coast
 * Oracle's Insight - Raymond Swanland, Wizards of the Coast
 
@@ -647,6 +647,7 @@ style='position:absolute;right:-295px;top:10px;height:1400px;width:1416px;transf
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-295px;top:50px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
 
 \pagebreakNum
 
@@ -728,6 +729,9 @@ ___
 You summon a powerful gust of wind emanating from a 20-foot-radius sphere centered on a point within range and blasting out in the direction of your choice. Medium or smaller objects in this area that aren't secured and aren't being worn or carried are pushed up to 15 feet in the chosen direction. Each creature in the area must make a Strength saving throw. On a failed save, a creature is pushed in the chosen direction and knocked prone. The wind also disperses gas and vapor and extinguishes candles, torches, and similar unprotected flames in its area.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the wind pushes creatures and objects an additional 5 feet for each slot level above 3rd.
+
+
+
 
  <img src='https://i.ibb.co/R6wZjXp/Oracles-Insight.png' style='position:absolute;right:-0px;top:-20px;width:469px;transform:scaleX(-1)' />
 
@@ -2716,22 +2720,7 @@ ___
 >
 > ***Wounded Charge.*** When the dread saurian's hit points drop to 0 or it triggers its Primal Instinct ability, it can use its Obliterating Charge action. After using this action, the dread saurian dies if its hit points are 0.
 >
-> ### Legendary Actions
-> The dread saurian can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dread saurian regains spent legendary actions at the start of its turn.
-> 
-> **Check.** The dread saurian makes a skill check that would normally require an action.
->
-> **Gnaw.** A creature that just ended its turn and that is grappled by dread saurian's bite attack must make a DC 24 Strength saving throw, taking 39 (6d12) piercing damage on a failed save or half as much damage on a successful one. If it fails the saving throw by 10 or more (DC 14), the damage is doubled. If this damage reduces the creature to 0 hit points, it dies.
->
-> **Mangle.** The dread saurian makes a Claw attack. A creature hit by the attack has its speed reduced by 20 feet until the end of its next turn.
->
-> **Swat.** The dread saurian makes a Tail attack. If a creature fails the saving throw caused by the hit, it is pushed 30 feet away.
->
->
-> **Obliterating Charge (Costs 2 Actions)**. The dread saurian uses its Obliterating Charge.
->
-> **Tenacious Will.** If the dread saurian is suffering from an effect that allows it to make a saving throw as an action or at the beginning or end of its next turn, it may immediately make that save against the effect with advantage. It can use this legendary action while incapacitated.
->
+ 
 
 \pagebreakNum
 
@@ -5006,13 +4995,13 @@ style='position:absolute;bottom:-10px;right:0px;width:820px;transform: scaleX(-1
 * Wild Surge 1.0.0
 
 #### Lore of Heavens
-* Comet's Call 0.0.0
-* Curse of the Midnight Wind 0.0.0
-* Harmonic Convergence 0.0.0
-* Ice Storm 0.0.0
-* Lighting Strike 0.0.0
-* Second Sight 0.0.0
-* Wind Blast 0.0.0
+* Comet's Call 1.0.0
+* Curse of the Midnight Wind 1.1.0
+* Harmonic Convergence 1.0.0
+* Ice Storm 1.0.0
+* Lighting Strike 1.0.0
+* Second Sight 1.0.0
+* Wind Blast 1.0.0
 
 ### Mechanics
 * Siege Weapon Rules 1.0.0

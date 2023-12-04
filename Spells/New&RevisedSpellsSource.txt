@@ -340,7 +340,7 @@ The spell ends if you attack any other creature, if you cast a spell that target
 
 \pagebreakNum
 
-#### Comet's Call 0.0.0
+#### Comet's Call 1.0.0
 *5th-level evocation*
 ___
 - **Casting Time:** 1 action
@@ -358,7 +358,7 @@ Each creature or object the comet comes in contact with, as well as those within
 
 ***At Higher Levels.*** Casting this spell using a 6th-level spell slot or higher increases either the fire damage or the bludgeoning damage (your choice) by 1d8 for every slot level above 5th.
 
-#### Curse of the Midnight Wind 0.0.0
+#### Curse of the Midnight Wind 1.1.0
 *3rd-level enchantment*
 ___
 - **Casting Time:** 1 action
@@ -371,8 +371,8 @@ ___
 You summon a chilling wind, affecting an area within range that can be up to 40 feet long, 10 feet wide, and 10 feet tall. Up to six creatures of your choice within this area feel their fortune wane. Each targeted creature must succeed on a Charisma saving throw or be cursed by this spell for its duration.
 
 While cursed:
-* If the creature rolls an 18 or higher on an attack roll, ability check, or saving throw against an effect not caused by this spell, it must reroll and take the new result.
-* When another creature makes an attack against the cursed target and rolls a 3 or lower on the attack roll, the attacking creature may reroll and must use the new result.
+* If the creature rolls an 18 or higher on an attack roll, ability check, or saving throw against an effect not caused by this spell, it automatically fails.
+* When another creature makes an attack against the cursed target and rolls a 3 or lower on the attack roll, the attacking creature automatically hits.
 
 At the end of its turn, an affected creature can attempt another Charisma saving throw, ending the curse's effect on it on a success.
 
@@ -825,7 +825,7 @@ You summon a potent gust of wind, forming a 10-foot-radius sphere centered on a 
 
 \pagebreakNum
 
-#### Harmonic Convergence 0.0.0
+#### Harmonic Convergence 1.0.0
 *1st-level divination*
 ___
 - **Casting Time:** 1 bonus action
@@ -876,7 +876,7 @@ At the end of each of its turns, the laughing creature takes 3d10 force damage a
 
 \pagebreakNum
 
-#### Ice Storm (Revised) 0.0.0
+#### Ice Storm (Revised) 1.0.0
 *4th-level enchantment*
 ___
 - **Casting Time:** 1 action
@@ -970,7 +970,7 @@ You may leap up to 20 feet into the air and may then slam back down into an unoc
 
 If you slam into the ground, each other creature within 10 feet of you must make a Strength saving throw. On a failed save, it is knocked prone, and until the end of its next turn, it can take either an action or a bonus action on its turn, not both, and can't take reactions.
 
-#### Lighting Strike 0.0.0
+#### Lighting Strike 1.0.0
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 action
@@ -1558,7 +1558,7 @@ ___
 
 \pagebreakNum
 
-#### Second Sight 0.0.0
+#### Second Sight 1.0.0
 *2nd-level divination*
 ___
 - **Casting Time:** 1 action
@@ -2115,7 +2115,7 @@ Select a willing creature within range to tap into its primal nature, transformi
 
 ***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the targeted creature gains an additional 5 temporary hit points for each slot level above 3rd.
 
-#### Wind Blast 0.0.0
+#### Wind Blast 1.0.0
 *3rd-level enchantment*
 ___
 - **Casting Time:** 1 action
@@ -2230,3 +2230,7 @@ The boil immediately explodes when the spell ends.
 ### Water Whip
 #### 0.1.0
 * Change to melee spell attack
+
+### Curse of the Midnight Wind
+#### 1.1.0
+* Now causes automatic hits, miss and fails.
