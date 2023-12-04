@@ -17,7 +17,11 @@
         text-shadow      : 0px 0px 5px white;
     }
 
-
+    /* Hide the footer on some pages */
+    .phb#p4:after, .phb#p5:after, .phb#p7:after  {
+        display          : none;
+    }
+    /* End Footers */
 
     .phb hr + hr + section blockquote {
     
@@ -311,6 +315,8 @@ ___
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ### Shorthorn Adventures
 The following adventure hooks can provide you with some ways to incorporate beastmen shorthorns into your adventures:
 
@@ -326,6 +332,8 @@ The following adventure hooks can provide you with some ways to incorporate beas
 
 
 \columnbreak
+
+<br><br><br><br><br><br><br><br>
 
 ### Beastmen Infantry Tactics
 The beastmen are hard-hitting ambushers. They aren't as effective if they can't catch their foes by surprise or are stuck in a prolonged fight. Nonetheless, their recklessly aggressive nature and intense disdain for civilization will often drive them into fights where they may not have the best tactical advantages. 
@@ -346,6 +354,14 @@ These beastmen typically move ahead of the rest of their warband, setting up amb
 
 ##### Shorthorn Raiders and Stalkers
 These beastmen are unique in that they avoid rushing into battle to use their Charge ability. Instead, they specialize in targeting foes their allies can't reach in close combat. They are skillful and opportunistic archers and will take cover between their attacks whenever possible.
+
+<img src='https://i.ibb.co/f2G78Jz/pyretic-prankster-glistening-goremonger-157.webp' style='position:absolute; top:-10px; left:-80px; width:640px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-500px;top:-50px;height:1400px;width:1416px;transform:rotate(111deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-80px;top:-20px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
 \pagebreakNum
 
@@ -412,6 +428,15 @@ You can give the different types of items unique names based on their material a
 | 2 <br> (Hide)  | Tattered Hide| Intact Hide |  
 | 3 (Metal)  | Rusted Blade/Armor Fragment| Blade/Armor Fragment |  
 | 4 <br> (Wood) | Cracked Beastwood | Beastwood | 
+
+<img src='https://i.ibb.co/JxSTRx2/Devil-Token-Innistrad-Midnight-Hunt-Mt-G-Art.jpg' style='position:absolute; bottom:-70px; right:-110px; width:640px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:-50px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-80px;top:-690px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
 
 \pagebreakNum
 
@@ -483,6 +508,14 @@ The beastman has advantage on initiative rolls and Wisdom (Perception) checks an
 > The rate at which they gain mutations could be on the scale of hours or days, depending on the scope and pacing of your adventure.
 >
 
+### Art Credit
+* Riot Devils - Svetlin Velinov, Wizards of the Coast
+* Gang of Devils - Erica Yang, Wizards of the Coast
+* Sin Prodder - Jack Wang, Wizards of the Coast
+* Dance with Devils - Wayne England, Wizards of the Coast
+* Glistening Goremonger - Francis Tneh, Wizards of the Coast
+* Devil Token, Innistrad: Midnight Hunt - Campbell White, Wizards of the Coast
+
 \pagebreakNum
 
 ### Change Log
@@ -491,3 +524,6 @@ The beastman has advantage on initiative rolls and Wisdom (Perception) checks an
 
 #### 0.1.0
 * Add flavor text
+
+#### 0.2.0
+* Add art
