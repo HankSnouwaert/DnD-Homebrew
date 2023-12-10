@@ -423,18 +423,16 @@ ___
 You summon a chilling wind, affecting an area within range that can be up to 40 feet long, 10 feet wide, and 10 feet tall. Up to six creatures of your choice within this area feel their fortune wane. Each targeted creature must succeed on a Charisma saving throw or be cursed by this spell for its duration.
 
 While cursed:
-* If the creature rolls an 18 or higher on an attack roll, ability check, or saving throw against an effect not caused by this spell, it must reroll and take the new result.
-* When another creature makes an attack against the cursed target and rolls a 3 or lower on the attack roll, the attacking creature may reroll and must use the new result.
+* If the creature rolls an 18 or higher on an attack roll, ability check, or saving throw against an effect not caused by this spell, it automatically fails.
+* When another creature makes an attack against the cursed target and rolls a 3 or lower on the attack roll, the attacking creature automatically hits.
 
 At the end of its turn, an affected creature can attempt another Charisma saving throw, ending the curse's effect on it on a success.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
 
 
-
-
 #### Ice Storm (Revised)
-*4th-level enchantment*
+*4th-level evocation*
 ___
 - **Casting Time:** 1 action
 - **Range:** 300 feet
@@ -465,9 +463,8 @@ You summon a bolt of lightning to strike a point you can see within range. Each 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can summon an additional lightning bolt for each slot level above 2nd. These bolts can target the same or different points. If a creature is in the area of more than one lightning bolt, it is affected only once.
 
 
-
 #### Wind Blast
-*3rd-level enchantment*
+*3rd-level evocation*
 ___
 - **Casting Time:** 1 action
 - **Range:** 90 feet
@@ -488,4 +485,5 @@ You summon a powerful gust of wind emanating from a 20-foot-radius sphere center
 #### 1.0.0
 * Document release
 
-
+#### 1.1.0
+* Update spells
