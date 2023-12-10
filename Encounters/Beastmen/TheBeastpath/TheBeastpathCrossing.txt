@@ -1,0 +1,712 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+        /* Hide the footer on some pages */
+    .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+<br><br>
+
+## The Beastpath Crossing <br> (Player Level: 5-7)
+In this encounter, the players stumble upon a beastpath intersection deep in the woods, where they face off against waves of incoming beastmen attackers.
+
+### Encounter Context
+The players have arrived knowing they will be facing off against The Crone Grandmother. This will likely be the final encounter of an adventure with The Grandmother as the primary antagonist. As such, they may have had the opportunity to learn about her and the tools she has at her disposal before the fight.
+
+### Lead Up
+The encounter assumes the players have traveled deep enough into the woods to find the beastpath intersection. They may have been searching for it or found it by accident. In either case, there should be enough hoofprints and human remains strewn along the path to indicate it has been well-trodden by vicious creatures of the forest.
+
+### Map Description
+* **Forest Foliage.** These areas are non-magical difficult terrain that provide cover and heavily obscure creatures within them.
+* **Trees.** The trees have varying heights and can be climbed with a DC 15 Strength (Athletics) check. 
+* **Rock Cliffs.** These land features can be climbed with a DC 15 Strength (Athletics) check.
+
+### Running the Encounter
+At the start of the encounter, a group of beastmen will appear at a random entrance on the map. To determine what types of beastmen appear, roll on the beastmen mob table below. To determine where they appear, roll a d4 and match the result to the numbered entrance on the map. (If the result is a location already occupied by beastmen or the players, reroll.) Before the beastmen appear, you can have them make a Dexterity (Stealth) check to determine if they sneak up on the players.
+
+After the beastmen mob appears, repeat this process to determine another beastmen mob that will appear 3 rounds later on initiative count 1. Have the new mob make a Dexterity (Stealth) check now to determine if the players will hear them coming in advance, in which case, the players will also know what entrance they are coming from.
+
+Repeat this process until 3 randomly generated mobs have appeared. When the final mob appears, have it accompanied by the beastman "boss." For this encounter's default difficulty, it will be a Warhorn.
+
+\columnbreak
+
+
+
+
+<br><br><br>
+
+
+##### Encounter Map: Beastpath Crossing
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Map Legend
+* <font color="Green">**Green Areas:** Forest Foliage </font>
+* <font color="Orange">**Orange Areas:** Climbable Trees </font>
+* <font color="918007">**Yellow Lines:** Rock Cliffs </font>
+* <font color="Teal">**Blue Numbers:** Map Entrances   </font>
+* <font color="Purple">**H** Crone's Hut </font>
+* **C:** The Crone Grandmother
+
+<br>
+
+#### Tips for Speeding Up Combat
+If you find that beastmen's turns are taking too long, there are a few ways you can speed up the process.
+
+* **Shared Initiative.** Have each beastmen mob that appears share the same initiative count, with all the creature's in the mob taking their turns back-to-back in any order you choose. This can save you a lot of time rolling for initiative.
+
+*  **Use Damage Averages.** Whenever a beastman hits with an attack, you can skip the damage roll to just use the average damage listed on the statblock.
+
+* **Use The Alternate Primal Fury Rules.** These alternate rules can be handy when running combat with large numbers of beastmen. They are described in the Managing Primal Fury At Scale section listed after the beastmen tactics later in the document.
+
+<img src='https://i.ibb.co/fqykBV4/beastmen-road-guide.png' style='position:absolute; top:117px; right:2px; width:415px;' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+##### Beastmen Mob Table: Player Level 5-7
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 6 Longhorns |
+|  2  | 8 Shorthorns |
+|  3  | 6 Shorthorn Raiders |
+|  4  | 2 Besthorns |
+
+ **Boss: 1 Warhorn**
+
+
+
+
+### Aftermath
+If the battle is clearly not going their way, the beastmen will retreat into the woods. Once they've recovered from any injuries, they may attempt to gather reinforcements to hunt down the players and exact their revenge. Or, if the players won an overwhelming victory, they may avoid another engagement.
+
+If the players flee, the beastmen will give chase unless they are very wounded or their numbers are depleted. 
+
+#### Loot
+You can use the loot tables found later in this document to determine what valuables the beastmen leave behind. Because this is a random encounter in the wilderness and beastmen aren't known for carrying much of value, there isn't any need to include much loot beyond this. But, if you want to include a portion of a treasure hoard, you could have coins and other valuables strewn about the beast path left behind by previous victims of the traveling beastmen.
+
+#### XP Award: 4,000xp
+The degree of success the players have in defeating the beastmen can affect their XP reward. You can use the following potential outcomes as guidelines to modify how much XP you award your players.
+
+* **150% XP:** The players defeat all the beastmen without taking much damage or allowing any to escape.
+* **100% XP:** The players defeat all the beastmen, but it was a close victory, or some of the beastmen escaped (either the boss or about one mob's worth). 
+* **50% XP:** The players defeat most of the beastmen, but flee before winning the battle (either the boss or about one mob's worth of beastmen remain.)
+* **10% XP:** The players flee with more than a mob's worth of beastmen remaining.
+
+<br><br><br><br>
+
+### Art Credit
+* Encounter Map - Joseph Snouwaert
+
+\columnbreak
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty by using different beastmen mob tables and changing the XP award accordingly. 
+
+
+##### Beastmen Mob Table: Player Level 2 
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 2 Longhorns |
+|  2  | 3 Shorthorns |
+|  3  | 2 Shorthorn Raiders |
+|  4  | 1 Besthorn |
+
+ **Boss: None**<br>
+&emsp;**Encounter XP Award: 1,000**
+
+##### Beastmen Mob Table: Player Level 3-4 
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 2 Longhorns With Gouging Tusks Mutation |
+|  2  | 2 Shorthorn Raiders With Uncanny Sense Mutation |
+|  3  | 4 Shorthorn With Rune of the Beast Mutation |
+|  4  | 1 Besthorn with Gnarled Hide Mutation |
+
+ **Boss: 1 Besthorn Manripper**<br>
+&emsp;**Encounter XP Award: 2,000**
+
+##### Beastmen Mob Table: Player Level 8-10 
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 4 Longhorn Ravagers |
+|  2  | 8 Shorthorn Tormentors |
+|  3  | 4 Shorthorn Stalkers |
+|  4  | 2 Besthorn Manrippers |
+
+ **Boss: 1 Beastlord**<br>
+&emsp;**Encounter XP Award: 8.000**
+
+##### Beastmen Mob Table: Player Level 11-13 
+| d4  | Loot |
+|:---:|:-----------:|
+|  1  | 5 Longhorn Ravagers With Rune of the Beast Mutation |
+|  2  | 5 Shorthorns Stalkers With Shadow Hide Mutation |
+|  3  | 6 Shorthorn Tormentors with Slug-Skin Mutation|
+|  4  | 2 Besthorn with Many Limbed Fiend Mutation |
+
+ **Boss: 1 Beastlord with Crown of Horns**<br>
+&emsp;**Encounter XP Award: 16,000**
+
+\pagebreakNum
+
+
+### Adventure Follow Ups
+If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration:
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  |**The Heart of the Forest:** After surviving the onslaught at the beastpath intersection, the players discover that it's a strategic point leading to the heart of the forest, where a powerful chieftain is amassing an army. They must venture deeper to either spy on or confront the chieftain. |
+|  2  | **The Lost Scouts:** The players learn that a group of scouts sent to monitor beastmen movements has gone missing near the beastpath intersection. Their mission is to track down the scouts, rescue any survivors, and gather crucial intelligence on the beastmen's activities in the region.|
+
+\columnbreak
+
+<br><br><br><br><br>
+
+|  | |
+|:---:|:-----------:|
+|  3  | **The Beastpath Labyrinth:** The players discover that the beastpath intersection is part of an ancient, magical forest labyrinth. Venturing deeper, they encounter various challenges, puzzles, and further beastmen ambushes, leading them to a central clearing with a powerful artifact or ancient secret guarded by a primeval monster.|
+|  4  |**The Shaman's Vengeance:** The players' battle at the intersection has drawn the attention of a powerful bray shaman who seeks vengeance. The players must prepare for retaliatory strikes, track down the shaman to his lair, and face him in a climactic showdown, possibly uncovering greater plots at work. |
+
+# Encounter Reference Material
+
+___
+___
+> ## Shorthorn
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 12
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|14 (+2)|12 (+1)|7 (-2)|14 (+2)|7 (-2)|
+>___
+> - **Skills** Athletics +3, Intimidation +2, Perception +6, Stealth +4, Survival +4
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** Abyssal
+> - **Challenge** 1/4 (50 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The shorthorn is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Bestial Ambush (1d8).*** When the shorthorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage from the shorthorn being unseen, it deals an extra 4 (1d8) damage.
+>
+> ***Charge.*** If the shorthorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shorthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shorthorn extra movement.
+>
+> ***Primal Fury (1d8).*** The shorthorn deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) piercing damage.
+>
+> ***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage in melee, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.
+>
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Shorthorn Tormentor
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 15 (shield)
+> - **Hit Points** 44 (8d8+8)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|16 (+3)|12 (+1)|7 (-2)|14 (+2)|7 (-2)|
+>___
+> - **Saving Throws** Str +3
+> - **Skills** Athletics +3, Intimidation +2, Perception +6, Stealth +5, Survival +3
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** Abyssal
+> - **Challenge** 1 (200 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The shorthorn is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Bestial Ambush (2d8).*** When the shorthorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage from the shorthorn being unseen, it deals an extra 9 (2d8) damage.
+>
+> ***Charge.*** If the shorthorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shorthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shorthorn extra movement.
+>
+> ***Primal Fury (2d8).*** The shorthorn deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) piercing damage.
+>
+> ***Tormenting Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack. The target must make a DC 13 Constitution saving throw or be poisoned for the next minute. While poisoned this way, it has disadvantage on Strength saving throws. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+>
+> ### Reactions
+>
+> ***Pin Down.*** If a creature within 5 feet of the shorthorn stands up, the shorthorn can use its reaction to make an attack with advantage against it. If it hits, the target falls prone again.
+>
+
+
+\pagebreakNum
+
+___
+___
+> ## Shorthorn Raider
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 13
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|14 (+2)|12 (+1)|7 (-2)|14 (+2)|7 (-2)|
+>___
+> - **Skills** Athletics +3, Intimidation +2, Perception +6, Stealth +6, Survival +6
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** Abyssal
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The shorthorn is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Bestial Ambush (1d8).*** When the shorthorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage from the shorthorn being unseen, it deals an extra 4 (1d8) damage.
+>
+> ***Charge.*** If the shorthorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shorthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shorthorn extra movement.
+>
+> ***Opportunistic Marksman.*** The shorthorn does not suffer disadvantage on ranged attack rolls against prone targets.
+>
+> ***Primal Fury (1d8).*** The shorthorn deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Actions
+>
+> ***Handaxe.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) slashing damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) piercing damage.
+>
+> ***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+
+\pagebreakNum
+
+___
+___
+> ## Shorthorn Stalker
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 13
+> - **Hit Points** 38 (7d8+7)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|14 (+2)|12 (+1)|8 (-1)|14 (+2)|7 (-2)|
+>___
+> - **Saving Throws** Int +1
+> - **Skills** Athletics +3, Intimidation +2, Perception +6, Stealth +6, Survival +6
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** Abyssal
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The shorthorn is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Bestial Ambush (2d8).*** When the shorthorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage from the shorthorn being unseen, it deals an extra 9 (2d8) damage.
+>
+> ***Charge.*** If the shorthorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The shorthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the shorthorn extra movement.
+>
+> ***Opportunistic Marksman.*** The shorthorn does not suffer disadvantage on ranged attack rolls against prone targets.
+>
+> ***Primal Fury (2d8).*** The shorthorn deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Action
+>
+> ***Bestial Cunning.*** While the shorthorn's Primal Fury ability is active, it can take the Disengage or Hide action.
+>
+> ### Actions
+>
+> ***Handaxe.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) slashing damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) piercing damage.
+>
+> ***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+
+\pagebreakNum
+
+___
+___
+> ## Longhorn
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 12 (natural armor)
+> - **Hit Points** 13 (2d8 + 4)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|12 (+1)|14 (+2)|7 (-2)|14 (+2)|8 (-1)|
+>___
+> - **Skills** Athletics +4, Perception +6, Intimidation +3, Stealth +3, Survival +4
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** Abyssal
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The longhorn is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Bestial Ambush (1d8).*** When the longhorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage from the longhorn being unseen, it deals an extra 4 (1d8) damage.
+>
+> ***Charge.*** If the longhorn moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The longhorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the longhorn extra movement.
+>
+> ***Primal Fury (1d8).*** The longhorn deals an extra 4 (1d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 8 (1d12 + 2) slashing damage if used with two hands.
+>
+
+\pagebreakNum
+
+___
+___
+> ## Longhorn Ravager
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 15 (makeshift shield and natural armor)
+> - **Hit Points** 60 (8d8 + 24)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|14 (+2)|16 (+3)|7 (-2)|12 (+1)|8 (-1)|
+>___
+> - **Saving Throws** Con +5
+> - **Skills** Athletics +5, Perception +5, Intimidation +3, Stealth +4, Survival +3
+> - **Senses** darkvision 60 ft., passive Perception 15
+> - **Languages** Abyssal
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The longhorn is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Bestial Ambush (1d8).*** When the longhorn takes the Attack action for the first time each combat, it may move up to 20 feet either immediately before or immediately after it makes its first attack. If the attack has advantage from the longhorn being unseen, it deals an extra 4 (1d8) damage.
+>
+> ***Charge.*** If the longhorn moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The longhorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the longhorn extra movement.
+>
+> ***Makeshift Shield.*** If the longhorn is holding a mug, keg, or other drinking vessel, it gains the benefits of wielding a shield.
+>
+> ***Primal Fury (2d8).*** The longhorn deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Actions
+>
+> ***Swig (2/Day).*** If the longhorn is not poisoned, it can take a swig of its drink, gaining 20 temporary hit points and becoming poisoned for the next minute. While the longhorn is poisoned this way, it suppresses any effect causing it to be charmed or frightened, its Primal Fury trait is active even if it has lost it, and it automatically succeeds on Wisdom checks caused by its Primal Fury ability. The longhorn must make a DC 15 Constitution saving throw at the start of each of its turns; on a success, the poison ends. 
+>
+> ### Actions
+>
+> ***Battleaxe.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.
+>
+> ***Gore.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 6 (1d6 + 3) piercing damage.
+
+\pagebreakNum
+
+___
+___
+> ## Besthorn
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 16 (scale mail)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|14 (+2)|16 (+3)|7 (-2)|14 (+2)|8 (-1)|
+>___
+> - **Skills** Athletics +5, Perception +6, Intimidation +3, Stealth +4, Survival +4
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** Abyssal
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+> 
+> ***Beast Man.*** The gor is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the gor hits with it (included in the attack).
+>
+> ***Charge.*** If the gor moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The gor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the gor extra movement.
+>
+> ***Primal Fury (2d8).*** The gor deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 12 (2d8 + 3) piercing damage.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16 (2d12 + 3) slashing damage.
+>
+
+___
+___
+> ## Besthorn Manripper
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 16 (scale mail)
+> - **Hit Points** 90 (12d8 + 36)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|14 (+2)|16 (+3)|7 (-2)|16 (+3)|8 (-1)|
+>___
+> - **Saving Throws** Dex +4
+> - **Skills** Athletics +5, Perception +7, Intimidation +3, Stealth +4, Survival +5
+> - **Senses** darkvision 60 ft., passive Perception 17
+> - **Languages** Abyssal
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The gor is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the gor hits with it (included in the attack).
+>
+> ***Charge.*** If the gor moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The gor has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the gor extra movement.
+>
+> ***Primal Fury (2d8).*** The gor deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Action
+>
+> ***Arcing Swing.*** When the gor scores a critical hit with a melee weapon, reduces a creature to 0 hit points with one, or misses a creature with one, it can immediately make one attack with the same weapon against another creature within reach.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 13 (2d8 + 4) piercing damage.
+>
+> ***Hewing Greataxe.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) slashing damage. The target must succeed on a DC 14 Strength saving throw, or the gor automatically hits the target with another Hewing Greataxe attack as part of this action. If the target fails by 10 or more (DC 3), the attack is a critical hit. The gor can only make one extra attack this way.
+>
+
+\pagebreakNum
+
+### Beastmen Infantry Tactics
+The beastmen are hard-hitting ambushers. They aren't as effective if they can't catch their foes by surprise or are stuck in a prolonged fight. Nonetheless, their recklessly aggressive nature and intense disdain for civilization will often drive them into fights where they may not have the best tactical advantages. 
+
+There are a few abilities common to all beastmen infantry.
+
+**Bestial Ambush.** This ability's primary purpose is to give beastmen an offensive edge when they first engage with players. However, it doesn't always need to be used in the first round of combat. Some stealthier beastmen can wait until they've snuck up on a better target before making their first attack and triggering the ability.
+
+**Charge & Gore.** While every beastman can use their Charge ability to knock a foe prone, most can't capitalize on the advantage it grants them due to not having multiattack. Therefore, it works best to have multiple beastmen gang up on a single target so others can make follow-up attacks on prone targets.
+
+**Primal Fury.** Beastmen will never flee while this ability is active. This ability underscores the importance of ensuring beastmen do whatever they can to help their attacks hit. This most commonly includes attacking surprised or prone enemies.
+
+#### Shorthorn Tactics
+These beastmen are weak and cowardly by nature and will usually only press an attack if they feel they have an advantage that tips the odds in their favor. This advantage could range from a surprise attack to overwhelming numbers or the use of forested terrain to launch hit-and-run attacks. Once they feel they're on the winning side, shorthorns will charge in with the same reckless ferocity common to most beastmen.
+
+##### Shorthorn Tormentors
+These beastmen typically move ahead of the rest of their warband, setting up ambushes that their allies can capitalize on. If they can pull off the ambush, they'll use their poisonous attacks to weaken players and leave them more susceptible to the charges of other beastmen. Once an enemy is prone, the tormentors will surround it and ensure it can't get back up. These tactics make tormentors ideal allies for stronger beastmen like longhorns and besthorns.
+
+##### Shorthorn Raiders and Stalkers
+These beastmen are unique in that they avoid rushing into battle to use their Charge ability. Instead, they specialize in targeting foes their allies can't reach in close combat. They are skillful and opportunistic archers and will take cover between their attacks whenever possible.
+
+\columnbreak
+
+<br>
+
+#### Longhorn Tactics
+Longhorns make up the bulk of most beastmen warherds. When fighting together, they form a rowdy mob drunk on their confidence and recklessly charging into enemies. If the fight doesn't quickly go in their favor, sobering reality may set in, causing them to break and flee if they don't have a leader keeping them in line.
+
+##### Longhorn Ravagers
+These beastmen's signature ability is Swig. They will typically expend a use of the ability just before combat, letting the poisoned condition clear while retaining the temporary hit points. 
+
+In the heat of battle, they will use the Swig ability again if they lose their Primal Fury or they drop below half health. It's important that they use Swig after they've made their attacks for the turn so they can minimize the disadvantage from being poisoned.
+
+Because of their drunken nature, these beastmen will be even more wild and reckless than the rest of their kin, and you can reflect this by having them take more foolhardy actions in combat.
+
+#### Besthorns
+Because these elite warriors wear heavy armor, they often can't rely on stealth and ambush tactics unless they have cover from heavy vegetation. If they're unlikely to successfully sneak up on players, but they're teamed up with other beastmen who can, the besthorns will charge the players head-on. This will allow the sneakier beastmen an opportunity to move around and attack from behind while the players are distracted.
+
+##### Besthorn Manrippers
+These beastmen prioritize attacking targets with low Strength so they can best utilize their Hewing Greataxe attacks. However, if the enemies they can reach all have high AC or abilities that make them hard to hit, the manrippers will change their strategy to attacking foes that are grouped up so they can attempt to make use of their Arcing Swing ability.
+
+#### Warhorns and Beastlords
+These beastmen leaders fight from within the center of their minions, extending their aura to as many beastmen as possible. Because they're constantly seeking the favor of their dark gods, they will often challenge the most powerful adversaries they can find to prove their worth.
+
+Because of their armor, their ambush options are often limited, and so they typically use the same combat initiation tactics as besthorns.
+
+\pagebreakNum
+
+### Beastmen Loot
+Because beastmen are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+
+#### Beastmen Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Shorthorn Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | Nothing |
+|  6-10 | 1 5sp Item | 
+|  11-17 | 1d4(2) 5sp Items  |  
+|  18-22 | 1d6(3) 5sp Items |  
+|  23+ |  2d4(5) 5sp Items |  
+
+
+##### Shorthorn Tormentor Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5sp Item |
+|  6-8 | 1d4(2) 5sp Items | 
+|  9-15 | 1d4(2) 5sp Items  |  
+|  16-20 | 1d4(2) 1gp Items |  
+|  21+ |  1d6(3) 1gp Items |  
+
+
+
+##### Shorthorn Raider Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | Nothing |
+|  5-8 | 1 5sp Item | 
+|  9-15 | 1d4(2) 5sp Items  |  
+|  16-20 | 1d6(3) 5sp Items |  
+|  21+ |  2d4(5) 5sp Items |  
+
+
+
+
+##### Shorthorn Stalker Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 2d4(5) 5sp Items |
+|  7-10 | 2d6(7) 5sp Items | 
+|  11-17 | 1d6(3) 1gp Items  |  
+|  18-21 | 2d4(5) 1gp Items |  
+|  22+ |  2d6(7) 1gp Items |  
+
+
+
+
+##### Longhorn Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1 5sp Item |
+|  7-11 | 1d4(2) 5sp Items | 
+|  12-17 | 1d6(3) 5sp Items  |  
+|  18-21 | 1d4(2) 1gp Items |  
+|  22+ |  1d6(3) 1gp Items |  
+
+
+##### Longhorn Ravager Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 2d4(5) 5sp Items |
+|  6-8 | 2d6(7) 5sp Items | 
+|  9-14 | 1d6(3) 1gp Items  |  
+|  15-19 | 2d4(5) 1gp Items |  
+|  20+ |  2d6(7) 1gp Items |  
+
+
+##### Besthorn Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1 2gp Item |
+|  7-10 | 1d4(2) 2gp Items | 
+|  11-17 | 1d6(3) 2gp Items  |  
+|  18-21 | 2d4(5) 2gp Items |  
+|  22+ |  2d6(7) 2gp Items |  
+
+##### Besthorn Manripper Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5gp Item |
+|  6-9 | 1d4(2) 5gp Items | 
+|  10-16 | 1d6(3) 5gp Items  |  
+|  17-21 | 1d4(2) 10gp Items |  
+|  22+ |  1d6(3) 10gp Items |  
+
+
+\pagebreakNum
+
+
+### Change Log
+#### 0.0.0
+* Document creation
+
+#### 0.1.0
+* Create first draft of encounter content
+
+#### 0.2.0
+* Add adventure hooks and reference materials
