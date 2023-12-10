@@ -550,6 +550,70 @@ ___
 
 \pagebreakNum
 
+### Beastmen Mutations
+
+The following is a list of mutations that can be applied to any beastman to represent the effects the constant mutating power of chaos can have on them.
+
+Applying a mutation increases a creature's CR by 1 (fractional CRs are doubled, e.g., a CR 1/4 creature becomes CR 1/2.)
+
+#### Crown of Horns 
+*This creature is gifted with especially large and grandiose twisting horns, granting it extreme confidence, for it knows it has been blessed by the dark gods.*
+
+When the beastman makes a Wisdom check caused by its Primal Fury ability, it automatically succeeds unless it has disadvantage on the roll.
+
+#### Gnarled Hide
+
+*The beastman's hide has toughed up to the point that it serves as a layer of living armor.*
+
+The beastman gets +2 to its AC.
+
+#### Gouging Tusks 
+
+*The beastman has a large pair of tusks sprouting from its lower jaw, granting it an even more devastating charge attack.*
+
+Beastman's charge deals extra 16 (3d10) piercing damage in addition to it's normal damage.
+
+#### Many Limbed Monster
+
+*The beastman sports an extra pair of clawed arms to tear at its enemies.*
+
+When the beastman takes the attack action, it makes one additional attack as part of the action, which uses the attack modifier of its Gore attack. On hit, the target takes 2d4 slashing damage. (The attack also gains the benefits of Primal Fury.)
+
+#### Rune of the Beast
+
+*The beastman has a large eldritch rune carved into its flesh. When it becomes enraged, the rune glows red hot and distorting the winds of magic around it.*
+
+While the beastman's Primal Fury ability is active, it has resistance to damage from spells, and when it is affected by a spell that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+
+\columnbreak
+
+<br>
+
+#### Shadow Hide
+
+*The beastman's black fur melds perfectly with the darkness around it, allowing it to stalk its prey from the shadows while completely unseen.*
+
+While in darkness, the beastman is invisible to any creature that relies on darkvision to see it in that darkness. Additionally, it does not suffer disadvantage on Dexterity (Stealth) checks from wearing Armor.
+Finally, it gains the Bestial Ambush ability as described below. If it already has a Bestial Ambush ability, the damage bonus of its Bestial Ambush is increased by 9 (2d8).
+
+***Bestial Ambush.*** When the beastman takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 9 (2d8) damage.
+
+#### Slug-Skin
+
+*This beastman's disgusting skin oozes thick, slippery, toxic slime.*
+
+At the end of the beastman's turn, any ground within 5 feet of it is covered in slime for the next minute, causing it to become difficult terrain. Creatures standing in the area have disadvantage on saving throws against being knocked prone, and prone creatures in the area must spend all their movement to stand up instead of half. If a creature ends its turn in the area, it takes 10 (3d6) poison damage. 
+
+Creatures with Primal Fury trait ignore the effects of the slime (regardless of whether their Primal Fury is active or not). A gallon or more of water moving more than 5 miles per hour will wash the slime away from a 5-foot square area.
+
+#### Uncanny Senses
+
+*The beastman's primal senses have been heightened to new levels, allowing it to perceive even the most well-hidden prey and the stealthiest of threats.*
+ 
+The beastman has advantage on initiative rolls and Wisdom (Perception) checks and does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured. It also gains blindsight out to 120 feet.
+
+\pagebreakNum
+
 ### Beastmen Infantry Tactics
 The beastmen are hard-hitting ambushers. They aren't as effective if they can't catch their foes by surprise or are stuck in a prolonged fight. Nonetheless, their recklessly aggressive nature and intense disdain for civilization will often drive them into fights where they may not have the best tactical advantages. 
 
@@ -595,7 +659,9 @@ These beastmen leaders fight from within the center of their minions, extending 
 
 Because of their armor, their ambush options are often limited, and so they typically use the same combat initiation tactics as besthorns.
 
+
 \pagebreakNum
+
 
 ### Beastmen Loot
 Because beastmen are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
@@ -710,3 +776,6 @@ The following tables describe the number of items and value of those items the p
 
 #### 0.2.0
 * Add adventure hooks and reference materials
+
+#### 0.3.0
+* Add mutations
