@@ -125,8 +125,53 @@ Though The Dark Omen doesn't have lair actions, any region where he is dwelling 
 * Beasts within the area become highly aggressive and agitated, causing creatures other than The Dark Omen to have disadvantage on Wisdom (Animal Handling) checks while in the area.
 * Crows and carrion birds become predominant in the area and can telepathically communicate with The Dark Omen while he is in the area.
 
-
 If Dark Omen dies, these effects fade over the course of 1d10 days.
+
+### Dark Omen Tactics
+The Dark Omen is a formidable spellcaster who is also adept in melee combat. He specializes in casting spells that are most effective at close range. Thanks to his fly speed, The Dark Omen excels in repositioning himself for optimal attacks and spellcasting.
+
+**Minion Interaction:** While The Dark Omen can be an effective solo encounter, he works best with minions.
+
+#### Spells
+The Dark Omen's primary ability is Unholy Frenzy, which enhances his spellcasting power as combat progresses. Creatures attempting to charm, frighten, or interfere with the Dark Omen's ability to make Wisdom checks become his primary targets. The Dark Omen is a tactical spellcaster and avoids using spells on targets likely to resist them.
+
+##### Summon Flock
+The Dark Omen can cast this spell at will and should always have it active so that he gains a +12 bonus to Perception, bringing his passive Perception up to 22. Attacks made with this spell also benefit from the Unholy Frenzy trait.
+
+##### Withering Resolve
+Cast this spell on creatures likely to interfere with The Dark Omen's Unholy Frenzy checks, particularly targets lacking proficiency in Wisdom saving throws.
+
+\columnbreak
+
+##### Bray Scream
+* **Use Case 1:** Cast when it can affect more than two targets.
+* **Use Case 2:** Cast if The Dark Omen is airborne and is confronted by another flying opponent with low Constitution.
+
+##### Impending Doom 
+Best cast on targets with low Charisma or on those already under the effects of Withering Resolve
+
+##### Wind of Death
+Effective when it can hit two or more targets
+
+##### Horrifying Laughter vs. Pit of Shadows
+* **Horrifying Laughter:** Preferable when targeting a creature whose saving throw has been lowered, especially if it's already affected by *Withering Resolve* or *Impending Doom*
+* **Pit of Shadows:** Generally a better choice when it can affect two or more creatures with lower Dexterity, particularly if no target is affected by *Withering Resolve* or *Impending Doom*
+* 
+
+##### Savage Dominion vs. Purple Sun
+Both spells are extremely devastating, but their usage depends on specific conditions:
+
+* **Purple Sun:** Cast this spell when Dark Omen has 100 or more hit points and is not suffering from any crippling conditions.
+* **Savage Dominion:** Opt for this spell if Dark Omen's action economy is low or he anticipates defeat in the next round. The summoned creature persists even after Dark Omen's demise.
+
+##### Creatures Summoned With Savage Dominion
+The preferred creature can depend on the state of the battle:
+* **Giant:** Ideal for situations where adversaries excel in avoiding melee combat or are engaged in long-range fighting
+* **Jabberwocky:** Ideal for disrupting enemies with its Burble ability and other debilitating effects. Note that the Burble ability can affect anyone in proximity, including The Dark Omen
+* **Behemoth:** A versatile choice suited for targeting and consuming individual targets as well as attacking groups with its Rend ability
+
+#### Legendary Actions
+When The Dark Omen is not in debilitating terrain and is surrounded by less than two enemies, it primarily uses its legendary actions to cast spells. If The Dark Omen finds itself in debilitating terrain or surrounded by two or more enemies, it will prioritize using its actions to reposition itself. When moving, The Dark Omen aims to move from one target. This strategic movement is designed to maximize the benefits of its Charge ability for its Gore attack at the end of its movement.
 
 \pagebreakNum
 
@@ -193,3 +238,6 @@ You can give the different types of items unique names based on their material a
 
 #### 0.1.0
 * Add loot tables
+
+#### 0.2.0
+* Add tactics
