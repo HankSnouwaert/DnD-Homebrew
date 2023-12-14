@@ -1,0 +1,185 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+# Howdahs
+War howdahs are small armored structured mounted to the backs of large war beasts that can hold multiple creatures. 
+
+The following rules can help you codify how to use different types of howdahs in your games. They can be applied to howdahs of different shapes and sizes and used as tools for designing your own howdahs. 
+
+## Howdah Rules
+Howdahs are generally structures that provide cover to multiple creatures mounted on a larger war beast of some kind. The creatures within the howdah are referred to as riders, and the creature the howdah is mounted upon is referred to as its steed. If one of the riders is controlling the steed, that creature is the pilot. Howdah riders and steeds follow the mounted combat rules described in the Player's Handbook, but with the following differences:
+
+### Movement & Initiative
+
+* **Forced Movement.** If an effect moves a howdah or its steed, the howdah and its steed are moved together.
+
+* **Controlled & Independant Steeds.** The howdah's steed can be a controlled or independent mount as described in the player's handbook. If it is controlled, there must be a pilot who is controlling it.
+
+
+
+\columnbreak
+
+* **Entering & Exiting Howdahs.** While there is space in the howdah, a creature can spend all its movement to enter or leave the howdah or only half its movement if it has a climbing speed. While the steed is not incapacitated, it can make an opposed Strength (Athletics) check against a creature attempting to enter the howdah. If the steed succeeds, the creature can't enter the howdah. Any movement it used to try to enter the howdah is wasted, and it can't try to enter again until the start of its next turn. Each passenger already inside the howdah may use its reaction to make an opportunity attack against the creature entering or exiting the howdah.
+
+
+
+### Howdah Saving Throws
+While objects normally automatically fail all Strength, Dexterity, and Constituion saving throws, howdahs are active parts of combat, meaning it often doesn't make sense for them to ignore effects that deal types of damage they are not immune to. As such, you can use the following rules when howdahs are subject to such saving throws.
+
+
+
+<img src='https://i.ibb.co/GtD871x/Linebreaker-Baloth-Dominaria-United-Mt-G-Art-1024x752.jpg' style='position:absolute; bottom:-110px; right:-80px; width:930px; transform:scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-290px;bottom:95px;transform:rotate(-8deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-290px;bottom:140px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+#### Strength & Dexterity Saves
+Howdahs equipped on an unencumbered steed do not automatically fail their Strength and Dexterity saving throws, as they can rely on their steed to make the save for them. If a howdah is subjected to a Strength or Dexterity saving throw, its steed must make the saving throw against the effect. If the steed succeeds on the save, the howdah passes the save.
+
+#### Constitution Saves
+Howdahs can make their own Constitution saving throws against effects capable of damaging them and have their own modifier they apply to these saves. The howdah may make these saves regardless of whether or not it is mounted on a steed.
+
+### Opportunity Attacks
+When the howdah steed provokes an opportunity attack, the attacker can target the howdah itself. Passengers cannot provoke opportunity attacks from creatures outside the howdah.
+
+### Spacing Within Howdah
+All creatures inside a howdah are considered to be within 5 feet of each other.
+
+### Prone Howdahs
+If the steed is knocked prone, the howdah takes bludgeoning damage equal to a roll of three of the steed's largest hit dice.
+
+### Teleporting
+If the steed is teleported, the howdah and its riders can choose to teleport with it.
+
+### Falling Howdahs
+When a howdah's steed falls from a height of 10 feet or more, it and all its riders take fall damage as usual, and the riders fall prone.
+
+### Repairing Howdahs
+If a howdah has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting repairs, provided it has the necessary tools and parts. After 1 hour of work, the creature makes an Intelligence check, adding its proficiency bonus if proficient with the required tools. On success, the howdah regains 2d4 + the creature's Intelligence modifier + its proficiency bonus hit points. On failure, the howdah doesn't regain any hit points, but repairs can be reattempted with the same tools and parts.
+
+### Howdah Destruction
+When a howdah is destroyed, riders that were in it are knocked prone and land in unoccupied spaces within 5 feet of its steed.
+
+#### Art Credit
+* Linebreaker Baloth - Brent Hollowell, Wizards of the Coast
+
+
+
+\columnbreak
+
+
+## Howdah Attributes
+Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, howdahs have the following additional attributes and considerations:
+
+### Howdah DC 
+Whenever the howdah requires a creature to make a check or saving throw, that creature uses this value for the DC.
+
+### Damage Threshold
+Most howdahs possess bulk or armor that enables them to withstand minor hits. A howdah with a damage threshold is immune to all damage unless the amount of damage it takes is equal to or greater than its damage threshold value. In such cases, the howdah takes the damage as usual. Damage that fails to meet or exceed the howdah's damage threshold is considered superficial and does not reduce the howdah's hit points.
+
+###  Steed Size
+This is the minimum size a creature must be to be the howdah's steed. If a creature ever becomes too small to carry the howdah, the howdah falls off the creature and is knocked over as though its steed was knocked prone, described in the Prone Howdahs section.
+
+### Creature Capacity 
+Creature capacity determines the number of creatures that can ride in the howdah comfortably. Additional creatures may be able to fit by squeezing or clinging to the outside of the howdah at the DM's discretion.
+
+### Constitution Modifier
+This is the modifier the howdah adds to any Constitution saves it makes. 
+
+### Challenge Rating
+When players face enemies that are equipped with a fully functioning howdah, the challenge rating (CR) of the encounter should be calculated as if the howdah is an additional creature with its own CR.
+
+### Passive Traits
+This section describes any traits the howdah has that don't
+require actions to utilize.
+
+### Siege Weapons
+A howdah may have one or more built-in siege weapons. These siege weapons are built into the howdah and share its Hit Points, AC, and Damage Threshold and are destroyed when the howdah is destroyed. These siege weapons can only be operated by riders in the howdah, and riders can't provoke attacks of opportunity from creatures outside the howdah while operating these weapons. The weapons can't be used if the howdah is not attached to a steed or the steed is prone.
+
+\pagebreakNum
+
+## Example Howdahs
+
+___
+> ## Large Howdah
+>*Large howdah, 600 lbs.*
+> ___
+> - **Howdah DC** 15
+> - **Armor Class** 15
+> - **Hit Points** 75 (Damage threshold 10)
+> - **Damage Immunities** Poison, Psychic 
+> - **Steed Size** Huge
+> - **Creature Capacity** 5 Medium creatures
+> - **Constitution Modifier** +3
+> - **Challenge** 1 (200 XP)     
+> ___
+>
+> ***Howdah Protection.*** Creatures within the howdah have three-quarters cover from attacks and effects originating from outside the howdah as long as the howdah is attached to a steed that is not prone. To make a melee attack against a target in the howdah while outside of it, a creature must be within 5 feet of the steed, and if the attacking creature isn’t Large or larger, the attack must have a reach of at least 10 feet.
+
+
+___
+> ## Huge Howdah
+> *Huge howdah, 1000 lbs.*
+> ___
+> - **Howdah DC** 16
+> - **Armor Class** 16
+> - **Hit Points** 100 (Damage threshold 10)
+> - **Damage Immunities** Poison, Psychic 
+> - **Steed size** Gargantuan
+> - **Carriage Capacity** 10 Medium creatures
+> - **Constitution Modifier** +4
+> - **Challenge** 2 (450 XP)     
+> ___
+>
+> ***Howdah Protection.*** Creatures within the howdah have three-quarters cover from attacks and effects originating from outside the howdah as long as the howdah is attached to a steed that is not prone. To make a melee attack against a target in the howdah while outside of it, a creature must be within 5 feet of the steed, and if the attacking creature isn’t Huge or larger, the attack must have a reach of at least 10 feet.
+>
+
+\columnbreak
+
+## Change Log
+
+### Document Creation
+#### 1.0.0
+* Document creation
+
+### Howdahs
+* Large Howdah 1.0.0
+* Huge Howdah 1.0.0
+
