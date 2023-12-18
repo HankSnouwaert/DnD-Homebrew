@@ -1,0 +1,114 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#  Siege Weapons
+These weapons have been engineered for large-scale warfare against enemy armies and settlements. What sets them apart from other weapons is their size and the number of creatures required to operate them effectively (generally more than two). These weapons range from highly sophisticated cannons and rocket launchers to crude catapults and giant slingshots. Regardless of their form, they are all large enough that moving them is a slow process and labor-intensive enough to use that they require a team of creatures to operate them effectively.
+
+## Repairing Weapons
+If a weapon has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the required tools. If the check succeeds, the weapon regains 2d4 + the creature's Intelligence modifier + the creature's proficiency bonus hit points. If the check fails, the weapon does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+\columnbreak
+
+## Siege Weapon Attributes
+In addition to the common attributes of size, weight, AC, HP, and damage immunity, these weapons have the following additional attributes and considerations:
+
+### Hit Points 
+A weapon has hit points that can be restored through repairs. When its hit points reach 0, the weapon becomes inoperative and irreparably damaged. 
+
+Many weapons have a damage threshold. Any source of damage less than this threshold only inflicts superficial damage and doesn't lower the weapon's hit points.
+
+### Weapon DC 
+The weapon's DC is used whenever a creature makes a check to fix mishaps, when a creature is repairing the weapon, or the weapon forces a creature to make a saving throw.
+
+### Challenge Rating
+When players face enemies equipped with fully functioning siege weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
+
+<img src='https://i.ibb.co/JjYPNWK/Unleash-Shell-The-Brothers-War-Mt-G-Art.jpg' style='position:absolute; top:-40px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:195px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(19deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:249px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:470px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+### Ammo / Fuel
+Weapons may require ammunition, such as bullets, or fuel, such as flammable chemicals, to make attacks. This part of the stat block includes the cost of the ammo and the number of charges it has, which represents the number of times the weapon can be used before it needs to be reloaded.
+
+### Functions
+By default, siege weapons have three different functions, which can each be activated as an action by its operators: Prep, Load, and Fire. Each function can only be performed once per round unless it states otherwise. Creatures within reach of a creature performing one of these functions can make opportunity attacks against them.
+
+#### Prep
+Siege weapons need to be prepped in different ways between being fired. This preparation could be cranking a ballista or cleaning the barrel of a cannon. Many siege weapons have multiple Prep functions that must be performed before they can be used again. In these cases, the different Prep actions can be done by different creatures within the same round. Unless stated otherwise, all the Prep functions must be completed before the weapon can be loaded.
+
+
+
+### Art Credit
+* Unleash Shell - Campbell White, Wizards of the Coast
+* Goblin Artillery - Alex Horley-Orlandelli, Wizards of the Coast
+
+\columnbreak
+
+#### Load
+This function is used to reload the weapon's ammunition up to its full capacity. It requires the creature loading it to have immediate access to the weapon's ammunition. If a creature doing the loading is hit by an opportunity it provoked by doing this, it drops the ammo and wastes its action.
+
+#### Fire
+This function is used to aim and fire the weapon at a target chosen by the creature performing the function.
+
+### Passive Traits
+This section describes any traits of the weapon has that don't require actions to utilize.
+
+### Mishaps table
+Some weapons can suffer a malfunction when certain functions are used. When such an event occurs, it will suffer a mishap and need to roll on its Mishap Table to determine what adverse effect it suffers. 
+
+A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+<img src='https://64.media.tumblr.com/97957bfd89fc58990ebbe31b4b543960/a95157cb330b1736-23/s1280x1920/c9807add3c7fc2bd781c456d1f8a9cee5de0f6e2.png' style='position:absolute; botom:-0px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-485px; right:-100px; width:1000px; transform:rotate(8deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-455px; right:-200px; width:1000px; transform:rotate(-2deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-451px; right:-00px; width:1000px; transform:rotate(-4deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document creation
