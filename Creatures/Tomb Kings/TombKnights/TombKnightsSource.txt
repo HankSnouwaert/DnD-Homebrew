@@ -1,0 +1,251 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+## Tomb Knights
+
+
+
+> ### Just beneath the surface
+>Here are a few things to consider when running the encounter with burrowing creatures
+>a few things to consider well running creatures that have a borough speed, attacks within reach greater then five feet can not pierce through the solid surface of the ground. Generally a burrowing creature should be within 5 feet of a creature it's about to attack if it's underground. Creatures to make opportunity attacks if a creature boroughs beneath the ground leaving its attack range. Additionally creatures mounted on a burrowing creature are dismounted if the creature decides borough more than 5 feet beneath the surface. As long as it is within 5 feet of the surface, the creature moves along the surface but the amount cannot be seen.
+
+\pagebreakNum
+
+___
+___
+> ## Necroserpent
+> *Large construct, unaligned*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 76 (8d10 + 32)
+> - **Speed** 50 ft., burrow 50 ft.
+> ___
+> | STR | DEX | CON | INT | WIS | CHA |
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> | 18 (+4) | 16 (+3) | 16 (+3) | 4 (-3) | 18 (+4) | 8 (-1) |
+> ___
+> - **Skills** Perception +7, Stealth +6
+> - **Damage Resistances** necrotic, psychic, radiant
+> - **Damage Immunities** poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** darkvision 120 ft., blindsight 10 ft., tremorsense 60 ft., passive Perception 17
+> - **Languages** understands the languages of its creator but can't speak
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+> 
+> ***Animated Construct.*** The necroserpent is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+> 
+> ***Crevice Crawler.*** The necroserpent can move through and stop in a space large enough to fit a creature one size smaller than it without squeezing.
+> 
+> ***False Appearance.*** While the necroserpent remains motionless, it is indistinguishable from an inanimate statue.
+> 
+> ***Immutable Form.*** The necroserpent is immune to any spell or effect that would alter its form.
+> 
+> ### Actions
+> ***Multiattack.*** The necroserpent makes two attacks: one with its bite and one with its tail.
+> 
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature. *Hit:* 15 (2d10 + 4) piercing damage, and the target must make a DC 14 Constitution saving throw, which it has disadvantage on if it is poisoned. On a failed save, the target takes 14 (4d6) poison damage and is poisoned. On a successful save, the target takes half as much damage and is not poisoned. While poisoned this way, the target can't regain hit points. At the end of each of its turns, the target repeats the saving throw. It takes 7 (2d6) poison damage on a failed save, and the effect ends on a successful one.
+> 
+> ***Tail.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage, and the necroserpent can push the target up to 5 feet away if it is Large or smaller.
+> 
+
+___
+___
+> ## Tomb Knight 
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 15 (studded leather)
+> - **Hit Points** 71 (11d8 + 22)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|16 (+3)|14 (+2)|9 (-1)|16 (+3)|9 (-1)|
+>___
+> - **Skills** Athletics +5, Perception +5
+> - **Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 15
+> - **Languages** understands the languages it knew in life but can't speak
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Desert Sight.*** The tomb knight does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***Mount Bound.*** The tomb knight is bound to one other undead creature with an Intelligence of 4 or less. As long as it is mounted on the creature it is bound to, it can't be grappled, knocked prone, or moved against its will if it is conscious. Additionally, the tomb knight and the bound creature only die if they both have 0 hit points at the same time.
+>
+> ***Mounted Skewer.*** If the tomb knight is mounted and moves at least 20 feet straight toward a creature and then hits it with a Lance attack on the same turn, the target takes an extra 7 (2d6) piercing damage.
+>
+> ### Actions
+>
+> ***Multiattack.*** If the tomb knight is mounted, it may have its mount take the attack action if it is a controlled mount and it has not taken an action this turn. The tomb knight then makes a Lance attack.
+>
+> ***Lance.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 9 (1d12 + 3) piercing damage. This attack has disadvantage if the target is within 5 feet of the tomb knight.
+>
+> ### Reactions
+>
+> ***Redirect.*** The tomb knight can force an attack targeted at its mount to target it instead.
+
+
+\pagebreakNum
+
+
+___
+___
+> ## Venom Knight
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 16 (scale mail)
+> - **Hit Points** 104 (16d8 + 32)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|16 (+3)|14 (+2)|9 (-1)|16 (+3)|9 (-1)|
+>___
+> - **Skills** Athletics +5, Perception +5
+> - **Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 15
+> - **Languages** understands the languages it knew in life but can't speak
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Blessing of the Asp.*** The venom knight's melee weapon attacks deal an additional 10 (3d6) poison damage (included in the attacks). Additionally, the venom knight and the creature it is bound to have advantage on melee weapon attacks against poisoned creatures.
+>
+> ***Desert Sight.*** The venom knight does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***Mount Bound.*** The venom knight is bound to one other undead creature with an Intelligence of 4 or less. As long as it is mounted on the creature it is bound to, it can't be grappled, knocked prone, or moved against its will if it is conscious. Additionally, the venom knight and the bound creature only die if they both have 0 hit points at the same time.
+>
+> ***Mounted Skewer.*** If the venom knight is mounted and moves at least 20 feet straight toward a creature and then hits it with a *Lance* attack on the same turn, the target takes an extra 14 (4d6) piercing damage.
+>
+> ### Actions
+>
+> ***Multiattack.*** If the venom knight is mounted, it may have its mount take the attack action if it is a controlled mount and it has not taken an action this turn. The venom knight then makes a Lance attack.
+>
+> ***Lance.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 10 (1d12 + 4) piercing damage plus 10 (3d6) poison damage. This attack has disadvantage if the target is within 5 feet of the venom knight.
+>
+> ### Reactions
+>
+> ***Redirect.*** The venom knight can force an attack targeted at its mount to target it instead.
+
+### Tomb Knight Tactics
+#### Necroserpents
+
+Necroserpents are ambush creatures that either pretend to be inanimate statues or hide beneath the sand, waiting for prey to pass by. In sandy environments, they will wait 25 feet beneath the sand and emerge 10 feet away from their intended victim. They attack with a bite and tail attack, then dive 25 feet below the surface again before repeating the process on their next turn.
+
+Necroserpents act as skirmishers, attempting to poison as many targets as possible. They always leverage their reach and burrow speed to stay out of melee reach from their targets. They will also use their tails to push back any creature that could potentially make an attack of opportunity against them as they retreat underground.
+
+#### Tomb Knights
+These warriors serve as elite cavalry for the Tomb Kingdoms and focus on charging into the vulnerable flanks of foes. Their Mount Bound ability and Redirect reaction work well together as the knight can redirect attacks to itself if it is at 0 hit points. However, if the mount has been reduced to zero hit points and the knight still has the majority of its hit points, it will not use this reaction.
+
+When they're riding necroserpents, you can utilize their steed's pushing tail attacks to set up effective lance attacks from the knight.
+
+##### Venom Knights
+Using the same tactics as Tomb Knights, a Venom Knight should always have a mount capable of poisoning targets. Necroserpents are ideal, as, along with their poison, their tail attack can push targets away, ensuring the knight's lance does not gain disadvantage.
+
+These elite variants use most of the same tactics as typical tomb knights. They should always have mounts capable of poisoning enemies. Necroserpents are ideal for this as they can poison foes and push them away, ensuring the knight's lance attacks can be used optimally.
+
+\pagebreakNum
+
+### Tomb Knight Loot
+The valuable items looted from necroserpents will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (History)** or **Intelligence (Religion)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
+
+Most of the valuable goods that can be looted from the tomb knights comes in the form of relics and weapon fragments they leave behind. Most dropped valuables can be found using an **Intelligence (Investigation)** or identified using an **Intelligence (History)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Tomb Knight Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Necroserpent Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-7  | 1d6(3) 5gp Items |
+|  8-10 | 2d4(5) 5gp Items | 
+|  11-16 | 2d4(5) 10gp Items  |  
+|  17-22 | 3d6(7) 10gp Items |  
+|  23+ |  2d4(5) 20gp Items |  
+
+##### Tomb Knight Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 1 1gp Items |
+|  5-6 | 1d6(3) 1gp Items | 
+|  7-10 | 1 5gp Item  |  
+|  11-17 | 1d4(2) 5gp Items |  
+|  18+ |  1d4(2) 10gp Items | 
+
+##### Venom Knight Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-7  | 1d6(3) 5gp Items |
+|  8-10 | 1d4(2) 10gp Items | 
+|  11-17 | 1d6(3) 10gp Items  |  
+|  18-21 | 1d4(2) 20gp Items |  
+|  22+ |  1d6(3) 20gp Items |  
+
+\columnbreak
+
+#### Example Tomb Knight Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
+
+##### Example Necroserpent Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Gem)  |  Flawed Lapis Lazuli |  Lapis Lazuli | Pristine Lapis Lazuli | 
+| 2 <br> (Metal) | Tarnished Necroserpent Plating |  Necroserpent Plating | Masterwork Necroserpent Plating | 
+| 3 (Stone)  |Cracked Necroserpent Stone | Necroserpent Stone | Pristine Necroserpent Stone | 
+| 4 <br> (Wood) | Cracked Preserved Wood  |  Preserved Wood  | Masterwork Preserved Wood  | 
+
+
+##### Example Tomb Knight Item Names
+|1d10 | 1gp Item | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|:-----------:|
+| 1-2 <br> (Cloth)  | Ancient Cloth | Tattered Ornate Cloth | Ornate Cloth  |  Pristine Ornate Cloth  | 
+| 3-4 (Bone)  | Pristine Dried Bone | Cracked Preserved Bone | Preserved Bone | Pristine Preserved Bone | 
+| 5-6 <br> (Gem)  | Polished Stone |  Flawed Lapis Lazuli |  Lapis Lazuli | Pristine Lapis Lazuli | 
+| 7-8 <br> (Metal) | Blade Fragment | Rusted Intact Blade |  Intact Blade | Masterwork Intact Blade | 
+| 9-10 <br> (Wood) | Ancient Wood | Cracked Preserved Wood  |  Preserved Wood  | Masterwork Preserved Wood  | 
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
+
