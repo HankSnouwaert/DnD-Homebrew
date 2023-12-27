@@ -1,0 +1,679 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+        /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p4:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+<br><br>
+
+## The Sphinx's Sanctum <br> (Player Level: 11-13)
+In this encounter, the players enter a temple chamber recently restored by a necrotect and do battle with the war sphinx housed within.
+
+### Encounter Context
+This encounter works well as part of a larger dungeon. Because it pits the players against a necrotect with lair actions and a mighty war sphinx, it works well as the final battle of a dungeon adventure.
+
+### Lead Up
+There likely won't be much opportunity for the players or the necrotect to catch each other by surprise. The players should have some idea of what lies in store for them in the chamber, and the necrotic should know the players are coming and be prepared accordingly. The necrotect will most likely detect the players when they trip the *alarm* spell at the entrance of the room.
+
+### Map Description
+* **Alarm.** An *alarm* spell has been cast by the necrotect by the entrance to the door. If you're running the more difficult version of the encounter, there is also an explosive rune created by a *glyph of warding* spell in the center of this area, which triggers when the alarm is triggered and deals 5d8 cold damage.
+* **Pillars & Statues.** These ancient decorative pillars are objects with 40 hit points, a damage threshold of 10, an AC of 17, and resistance to all damage except thunder and bludgeoning damage. They are immune to psychic and poison damage. 
+When a pillar is destroyed, each creature within 10 feet of it must make a DC 17 Dexterity or Strength saving throw (creature's choice). On a failed save, a creature takes 27 (6d8) bludgeoning damage and is knocked prone. 
+If a creature fails the saving throw by 5 or more (DC 12), it is also buried in rubble. A buried creature is restrained, and it or another creature must use an action to make a DC 17 Strength (Athletics) to free it. 
+On a successful save, a creature takes half damage and isn't knocked prone or buried. A Huge or larger creature has advantage on the saving throw.
+The area within 10 feet of a destroyed pillar becomes difficult terrain.
+
+### Running the Encounter
+The necrotect and the war sphinx will fight using their standard tactics. The other factor to consider is the pillars and how the sphinx will knock them down with the damage from its Thunder Stomps and how the necrotect can use them to its advantage with its lair actions.
+
+
+
+
+
+
+
+
+
+\columnbreak
+
+<br><br><br>
+
+
+##### Encounter Map: The Sphinx's Sanctum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Map Legend
+* <font color="Red">**Red Square:** Pillars & Statues</font>
+* **Green & Yellow Lines:** Changes In Elevation
+* **W:** Start Location of **War Sphinx**
+* **N:** Start Location of **Necrotect Master**
+
+<br>
+
+### War Sphinx Tactics
+
+It's generally best for the warsphinx to start combat by getting a running start to empower its Thunder Crash and use it on the largest group of opponents. If one of them fails the saving throw by 5 or more, it will not be able to stand up, allowing the warsphinx to gain bonus damage on its Bite attack. If it is able to frighten the majority of its enemies with Frightful Presence, it will run off with a grappled target.
+
+#### Warsphinx Enhancement Tactics
+
+Warsphinxes are able to gain two of the following upgrades:
+
+**Envenomed Stinger:** This is used in place of its Claw attack on a target that is not frightened of the warsphinx. When a more intelligent creature is guiding the Warsphinx in battle, it will prioritize using the stinger against creatures with low Constitution.
+
+**Burning Roar:** This is immediately used when it can hit three or more targets. If any targets are stunned, it will use its Thunder Crash on them.
+
+
+<img src='https://i.ibb.co/42sPV8D/temple-room-Guide.png' style='position:absolute; top:115px; right:2px; width:415px;' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Necrotect Tactics
+
+Although necrotects are highly intelligent, they are quick to anger if any of their constructs are destroyed or damaged. This results in them making decisions on which creature to attack based on the amount of damage dealt to its constructs. 
+
+It uses the Wrath of the Creator ability anytime it can reach a target with the ability and hit it. It prioritizes using Restoration on the largest construct present, as this will be the most precious to it. Necrotect Masters save their uses of Fortify for such constructs.
+
+
+
+#### Necrotect Visionary Tactics <br> (Harder Encounter)
+Necrotect visionaries follow similar tactics to normal necrotects, using Imbue rather than Fortify on the largest construct available. The imbued construct always goes after the target that is the largest threat to itself or positions itself for a Soul Jolt if the enemies are close enough together to be hit by the ability. It has two unique legendary actions it uses under the following circumstances:
+
+**Frenetic Fervor.** This is used similarly to Wrath of the Creator; it will use this ability whenever it doesn't need to use Tenacious Will, or there aren't enough targets for Soul Jolt.
+
+**Soul Jolt.** This is used whenever it can hit three or more targets. Constructs should attempt to position themselves in the largest groups of enemies for this ability.
+
+### Necrotect Lair Actions
+For this encounter, the necrotect has lair actions available. On initiative count 20 (losing initiative ties), the necrotect can use one of the following lair actions; it can't use the same effect two rounds in a row:
+
+* **Grasping Pillar.** The necrotect chooses a point on the surface of a pillar it can see to form a grasping hand. The hand strikes out at a creature within 10 feet of it. The targeted creature must make a DC 15 Dexterity or Strength saving throw (creature's choice). On a failed save, the creature is pulled to the pillar and restrained. The restrained creature, or another creature, must use an action and succeed on a DC 15 Strength (Athletics) check to free it. The creature is also freed if the pillar is destroyed.
+* **Pillar Restoration.** The necrotect can choose up to two pillars within the lair that have been destroyed and fully restore them. All difficult terrain created by the destruction of these pillars is removed. Any creature standing in the area where a pillar is restored must make a DC 15 Dexterity saving throw. On a failed save, the creature is pushed to one side of the pillar of the necrotect's choice. On a successful save, the creature chooses the side to which it is pushed.
+* **Stone Wall.** A nonmagical wall of solid stone springs into existence at a point the necrotect chooses within range. The wall is 6 inches thick, up to 30 feet tall, and up to 30 feet long. If the wall cuts through a creature's space when it appears, that creature can make a DC 15 Dexterity saving throw. On a failed save, the creature is pushed to one side of the wall of the Necrotect's choice. On a successful save, the creature chooses the side to which it is pushed. The wall is an object made of stone with 30 hit points, a damage threshold of 10, an AC of 17, and resistance to all damage except thunder and bludgeoning. It is immune to psychic and poison damage. Reducing a panel (NOTE: How large is a panel?) to 0 hit points destroys it. Only one wall can be created at a time; if this lair action is used while a wall is already in place, the previous wall is destroyed.
+
+### Ushabti Tactics (Easier Encounter)
+
+Though these creatures are unwaveringly loyal constructs, they are not mindless. They possess the souls of mighty champions, complete with all their tactical skills. Though they are single-minded in pursuing a given task, they can adapt their strategies and tactics as needed. They generally don’t rush into combat but slowly stride toward foes while taking shots from their great bows. If it’s clear they have ranged superiority, they may keep their distance. Otherwise, they will close in and engage in melee combat. 
+
+If ushabtis are charged with guarding a specific character or location, they will never leave their post unless commanded otherwise. They will also prioritize attacking whichever character is the biggest threat to whatever they’re protecting.
+
+If ushabtis are serving as sentries, they will usually stand motionless and attempt to catch intruders off guard with surprise attacks when they are most vulnerable.
+
+***Soul Wardens.***  When a soul warden acts as part of a general attack force, it will rush in and use its Capture Soul on whichever player is easiest to reach or looks most likely to fail the saving throw. Once it has a player incapacitated, it will start using its multiattacks to dispatch everyone else. 
+
+If the soul warden has been tasked with capturing a specific soul, or one of the players is guilty of some particularly egregious offense, it will focus on that target, striking it repeatedly with its Capture Soul ability. Once it captures the desired soul, the soul warden will often flee the battle, taking its prize with it.
+
+\pagebreakNum
+
+### Aftermath
+The necrotect and the war sphinx will most likely fight to the bitter end to protect the sanctity of the chamber. If the the players flee, the war sphinx may pursue them through the rest of the sanctum, leading to a chase encounter.
+
+#### Loot
+You can use the loot tables found in the Encounter Reference Materials section to determine what the players are able to loot from defeated enemies. Because this is likely a climactic battle that may even be the final fight of an adventure, it is an opportune time to award the players part of, if not an entire, treasure hoard appropriate to their level. This treasure will come in the form of riches and finely crafted items being kept by the necrotect, which will likely include a magic item or two.
+
+#### XP Award: 15,000xp 
+The degree of success the players have in defeating the guardians can affect their XP reward. You can use the following potential outcomes as guidelines to modify how much XP you award your players.
+
+* **150% XP:** The players defeat all the foes without taking much damage or expending many resources.
+* **100% XP:** The players defeat all the foes but take heavy damage or expend unnecessary resources due to poor tactics.
+* **50% XP:** The players either defeat the war sphinx or the necrotect but flee the remaining foe.
+* **10% XP:** The players flee without defeating the war sphinx or the necrotect.
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, <br> you can adjust the encounter's difficulty accordingly. 
+
+**Easiest Encounter (Level 5-7).** Replace the necrotect master with a **necrotect** without lair actions and the war sphinx with an **ubshati**. Change the XP Award to 4,000 XP.
+
+**Easier Encounter (Level 8-10).** Replace the necrotect master with a **necrotect** without lair actions and the war sphinx with an **ubshati, soul warden**. Change the XP Award to 8,000 XP.
+
+**Harder Encounter (Level 14-16).** Replace the necrotect master with a necrotect visionary and give the war sphinx the Burning Roar and Envenomed Stinger upgrades. Change the XP Award to 22,000 XP.
+
+
+\columnbreak
+
+### Adventure Follow Ups
+If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration:
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  |**Rescue Mission:** The adventurers learn that an archaeological team or a group of treasure hunters has gone missing inside the temple. Tasked with a rescue mission, they enter the temple only to discover the cryptect and its creations standing between them and the missing party. |
+|  2  | **Artifact Reclamation:** A caravan carrying valuable artifacts from the Tomb Kingdoms vanishes near the temple's supposed location. The adventurers are hired to track down the caravan and soon discover that its disappearance is linked to the reawakened guardians of the temple.|
+|  3  | **The Disgraced Scholar:** A disgraced scholar believes that the key to restoring their reputation lies within the temple. They enlist the adventurers to escort them, promising knowledge and treasure in return for their help in navigating the temple's dangers. |
+|  4  |**The Collector’s Request:** A wealthy collector of antiquities tasks the adventurers with retrieving a specific relic rumored to be inside the temple. However, they soon find that retrieving the relic means facing the cryptect and its war sphinx guardian. |
+
+<br>
+
+### Art Credit
+* Encounter Map - Joseph Snouwaert
+* Approach of the simoom. Desert of Gizeh - David Roberts
+
+
+<img src='https://mdl.artvee.com/sftb/533687ld.jpg' style='position:absolute; bottom:-300px; right:-230px; width:1400px; transform:scaleX(1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:55px;top:0px;height:1400px;width:1416px;transform:rotate(300deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:0px;top:-410px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+# Encounter Reference Material
+___
+___
+> ## Necroficer
+>*Medium undead, lawful evil*
+> ___
+> - **Armor Class** 15 (chain shirt)
+> - **Hit Points** 85 (15d8 + 60)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|18 (+4)|16 (+3)|10 (+0)|12 (+1)|
+>___
+> - **Saving Throws** Con +6, Int +5
+> - **Skills** Arcana +5, History +5, Religion +5, Mason's Tools +4
+> - **Damage Vulnerabilities** fire
+> - **Damage Resistances** bludgeoning, piercing, and slashing from nonmagical attacks
+> - **Damage Immunities** necrotic, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 10
+> - **Languages** the languages it knew in life
+> - **Challenge** 4 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +2      
+> ___
+>
+> ***Spellcasting.*** The necroficer is a spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It knows the following spells:
+> 
+> *At will*: *guidance*, *mending*, *thaumaturgy*
+>
+> *1/Day:* *alarm*, *glyph of warding*, *stone shape*
+>
+> ***Whip Expertise.*** When the necroficer attacks with a whip weapon, it can use its Intelligence modifier, instead of its Dexterity modifier, for the attack and damage rolls. Additionally, the weapon deals one extra die of its damage when the necroficer hits with it (included in the attack).
+>
+> ### Action
+>
+> ***Multiattack.*** The necroficer makes two attacks. 
+>
+> ***Whip.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 8 (2d4 + 3) slashing damage.
+>
+> ### Bonus Action
+>
+> ***Restoration (3/Day).*** The necroficer begins to chant a mantra that mends stone, restoring up to 20 hit points to allied constructs. It can choose any number of constructs within 60 feet of it and divide those hit points among them.
+>
+> ### Reaction
+>
+> ***Wrath of the Creator.*** When the necroficer sees another creature deal damage to a construct, it may move up to half its speed toward the creature without provoking attacks of opportunity. At the end of the movement, it may make a Whip attack against the creature if it is within reach of the weapon. If the attack hits, it deals an additional 10 (4d4) damage.
+>
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Necroficer Master 
+>*Medium undead, lawful evil*
+> ___
+> - **Armor Class** 16 (breastplate)
+> - **Hit Points** 127 (15d8 + 60)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|18 (+4)|18 (+4)|10 (+0)|12 (+1)|
+>___
+> - **Saving Throws** Con +7, Int +7
+> - **Skills** Arcana +7, History +7, Religion +7, Mason's Tools +6
+> - **Damage Vulnerabilities** fire
+> - **Damage Resistance** bludgeoning, piercing, and slashing from nonmagical attacks
+> - **Damage Immunities** necrotic, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 10
+> - **Languages** The languages it knew in life
+> - **Challenge** 7 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +3      
+> ___
+>
+> ***Spellcasting.*** The necroficer is a spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It knows the following spells:
+> 
+> *At will:* guidance, thaumaturgy, mending<br>
+> *1/Day:* alarm, fabricate, glyph of warding, stone shape 
+>
+> ***Whip Mastery.*** When the necroficer attacks with a whip weapon, it can use its Intelligence modifier, instead of its Dexterity modifier, for the attack and damage rolls. Additionally, the weapon deals two extra dice of its damage when the necroficer hits with it (included in the attack).
+>
+> ### Bonus Action
+>
+> ***Restoration (3/Day).*** The necroficer begins to chant a mantra that mends stone, restoring up to 30 hit points to allied constructs. It can choose any number of constructs within 60 feet of it and divide those hit points among them.
+>
+> ### Action
+>
+> ***Multiattack.*** The necroficer makes three attacks. It can replace one attack with Fortify. 
+>
+> ***Whip.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 11 (3d4 + 4) slashing damage.
+>
+> ***Fortify (3/Day).*** The necroficer chooses one construct it can see within 60 feet of it, granting it a +1 to AC and saving throws for the next minute. This ability can stack up to three times on a single creature.
+>
+> ### Reaction
+>
+> ***Wrath of the Creator.*** When the necroficer sees another creature deal damage to a construct, it may move up to half its speed towards the creature without provoking attacks of opportunity. At the end of the movement, it may make a whip attack against the creature if it is within reach of the weapon. If the attack hits, it deals an additional 18 (4d8) damage.
+>
+
+\pagebreakNum
+
+___
+___
+> ## Necroficer Visionary
+>*Medium undead, lawful evil*
+> ___
+> - **Armor Class** 16 (breastplate)
+> - **Hit Points** 199 (21d10 + 84)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|18 (+4)|20 (+5)|10 (+0)|12 (+1)|
+>___
+> - **Saving Throws** Con +8, Wis +4, Int +9
+> - **Skills** Arcana +9, History +9, Religion +9, Mason's Tools +8
+> - **Damage Vulnerabilities** fire
+> - **Damage Resistance** bludgeoning, piercing, and slashing from nonmagical attacks
+> - **Damage Immunities** necrotic, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 10
+> - **Languages** The languages it knew in life
+> - **Challenge** 9 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +4      
+> ___
+>
+> ***Spellcasting.*** The necroficer is a spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). It knows the following spells:
+> 
+> *At will:* *guidance*, *mending*, *thaumaturgy* <br>
+> *1/Day:* *alarm*, *fabricate*, *glyph of warding*, *stone shape*
+>
+> ***Whip Mastery.*** When the necroficer attacks with a whip weapon, it can use its Intelligence modifier, instead of its Dexterity modifier, for the attack and damage rolls. Additionally, the weapon deals two extra dice of its damage when the necroficer hits with it (included in the attack).
+>
+> ### Action
+> ***Whip.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 11 (3d4 + 4) slashing damage.
+>
+> ***Imbue (3/Day).*** The necroficer chooses one construct it can see within 60 feet of it, granting it a +1 to AC, saving throws, and attack rolls for the next minute. 
+>
+>The construct may use its reaction to move up to half its speed without provoking attacks of opportunity and may then make a melee weapon attack against a creature within reach. This ability can stack up to three times on a single creature.
+>
+> ### Bonus Action
+>
+> ***Restoration (3/Day).*** The necroficer begins to chant a mantra that mends stone, restoring up to 40 hit points to allied constructs. It can choose any number of constructs within 60 feet of it and divide those hit points among them.
+>
+> ### Legendary Actions
+> 
+> The necroficer can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The necroficer regains spent legendary actions at the start of its turn.
+> 
+> ***Check.*** The necroficer makes a skill check that would normally require an action.
+>
+> ***Frenetic Fervor.*** The necroficer may move up to half its speed without provoking attacks of opportunity. At the end of the movement, it may make a whip attack against a creature within reach of the weapon. If the creature dealt damage to a construct this turn, the attack deals an additional 18 (4d8) damage.
+>
+> ***Tenacious Will.*** If the necroficer is suffering from an effect that allows it to make a saving throw as an action or at the beginning or end of its next turn, it may immediately make that save against the effect with advantage. It can use this legendary action while incapacitated.
+>
+> ***Soul Jolt (Cost 2 Actions).*** The necroficer chooses one willing Undead Construct within 60 feet of it that is Large or larger and has just taken its turn, and the necroficer causes the soul animating the construct to strike out at any number of creatures of the necroficer's choice within 10 feet of the construct. Each chosen creature must make a DC 17 Charisma saving throw, taking 18 (4d8) necrotic damage on a failed save, or half as much on success.
+>
+
+\pagebreakNum
+
+### Warsphinx Enhancments
+If you wish to enhance the power of a warsphinx, you can give it one of the following upgrades. Each upgrade increases its CR by 1.
+
+####  Burning Roar
+*The war sphinx can let loose a roar that burns the air with the heat of a funeral pyre and the force to shatter bones. The roar's raw power can stop even the most stalwart warriors in their tracks.*
+ 
+The warsphinx gains the Burning Roar action, which it can use in place of its Thunder Crash during a Multiattack.
+
+***Burning Roar (Recharges after a Short or Long Rest).*** The warsphinx lets out a roar that burns the air in a 60-foot cone in front of it. Each creature in that area must make a DC 19 Constitution saving throw, taking 17 (5d6) fire damage plus 17 (5d6) thunder damage on a failed save, or half as much damage on a successful one. If the creature fails the saving throw by 5 or more (DC 14), it is stunned until the end of the warsphinx's next turn.
+
+\columnbreak
+
+<br><br><br><br>
+
+#### Envenomed Stinger
+*The warsphinx is enhanced with a scorpion's tail, complete with a stinger the size of a man. Its venom causes blood to boil and limbs to freeze.* 
+
+
+The warsphinx gains the Sting attack action, which it can use in place of one of its attacks during a Multiattack.
+ 
+***Sting.*** *Melee Weapon Attack:* +11 to hit, reach 15 ft., one creature. *Hit:* 20 (3d8 + 7) piercing damage. If the target is a creature, it must make a DC 19 Constitution saving throw. On a failed save, it takes 17 (5d6) poison damage and is poisoned. On a successful save, it takes half as much damage and is not poisoned. At the end of each of its turns, the target repeats the saving throw. It takes 10 (3d6) poison damage on a failed save, and the effect ends on a successful one. If the creature fails this repeated saving throw by 5 more (DC 14), it becomes paralyzed until the poison ends.
+
+
+
+___
+___
+> ## Warsphinx
+>*Huge construct, unaligned*
+> ___
+> - **Armor Class** 20
+> - **Hit Points**  202 (15d12 + 105)
+> - **Speed** 40 ft., climb 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|25 (+7)|18 (+4)|24 (+7)|4 (-3)|18 (+4)|15 (+3)|
+>___
+> - **Saving Throws** Int +1
+> - **Skills** Perception +8, Stealth +8
+> - **Damage Resistances** necrotic, psychic, radiant
+> - **Damage Immunities** poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 18
+> - **Languages** understands the languages of its creator but can't speak
+> - **Challenge** 11 (7,200 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +4       
+> ___
+>
+> ***Animated Construct.*** The warsphinx is infused with the spirits of the dead. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+>
+> ***Desert Sight.*** The warsphinx does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***Immutable Form.*** The warsphinx is immune to any spell or effect that would alter its form. 
+>
+> ***Sleeping Giant.*** While the warsphinx remains motionless, it is indistinguishable from an inanimate statue. It is also immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells or other magic that would detect it as a creature.
+>
+> ***Standing Leap.*** The warsphinx's long jump is up to 30 feet, and its high jump is up to 12 feet, with or without a running start.
+>
+> ***Thunder Pounce.*** If the warsphinx moves at least 20 feet straight before using its Thunder Crash, the ability deals an extra 13 (3d8) thunder damage.
+>
+> ### Actions
+> ***Multiattack.*** The warsphinx can use its Frightful Presence. It can then use its Thunder Crash or make two attacks: one with its Bite and one with its Claws. If both attacks hit the same target, the target is grappled (escape DC 19). Until this grapple ends, the warsphinx can't Bite or Claw another target or use its Thunder Crash.
+>
+> ***Bite.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 26 (3d12 + 7) piercing damage. If the target is prone, it deals 46 (6d12 + 7) piercing damage instead.
+>
+> ***Claw.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 29 (4d10 + 7) slashing damage.
+>
+> ***Thunder Crash.*** The warsphinx rears up and slams down to let loose a shockwave. Each creature in a 15-foot cube originating from it must make a DC 19 Strength saving throw, taking 22 (5d8) damage and being knocked prone on a failed save, or half as much damage and not being knocked prone on a successful save. If the creature fails by 5 or more (DC 14), or automatically fails, it can't stand up until after the end of its next turn. Objects and structures in this area take double the thunder damage dealt.
+>
+> ***Frightful Presence.*** Each creature of the warsphinx's choice that is within 120 feet of the warsphinx and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the warsphinx's Frightful Presence for the next 24 hours.
+>
+
+
+\pagebreakNum
+
+___
+___
+> ## Ushabti
+>*Large construct, unaligned*
+> ___
+> - **Armor Class** 20 (natural armor)
+> - **Hit Points** 93 (11d10 + 33)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|16 (+3)|16 (+3)|12 (+1)|18 (+4)|12 (+1)|
+>___
+> - **Skills** Athletics +7, Perception +7
+> - **Damage Resistances** necrotic, psychic, radiant
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, petrified, poisoned
+> - **Senses** Darkvision 60 ft., passive Perception 17
+> - **Languages** understands the languages of its creator but 
+can't speak.
+> - **Challenge** 5 (1,800)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
+> ___
+>
+> ***Animated Construct.*** The ushabti is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+>
+> ***Desert Sight.*** The ushabti does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***False Appearance.*** While the ushabti remains motionless, it is 
+indistinguishable from an inanimate statue. 
+>
+> ***Immutable Form.*** The ushabti is immune to any spell or effect 
+that would alter its form. 
+>
+> ***Powerful Draw.*** The ushabti uses its Strength rather than its Dexterity when determining the attack and damage bonuses for attacks with its great bow.
+>
+> ***Turning Defiance.***  The ushabti has advantage on saving throws against effects that turn undead.
+>
+> ***Sacred Arrows.*** The ushabti's ranged attacks ignore half cover and three-quarters cover.
+>
+> ### Actions
+> ***Multiattack.*** The ushabti makes two attacks.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) slashing damage.
+>
+> ***Great Bow.*** *Ranged Weapon Attack:* +7 to hit, reach 200/800 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage.
+> 
+
+\pagebreakNum
+
+___
+___
+> ## Ushabti, Soul Warden
+>*Large construct, unaligned*
+> ___
+> - **Armor Class** 20 (natural armor)
+> - **Hit Points** 153 (18d10 + 54)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|16 (+3)|18 (+4)|12 (+1)|18 (+4)|14 (+2)|
+>___
+> - **Saving Throws** Cha +5
+> - **Skills** Athletics +8, Perception +7
+> - **Damage Resistances** necrotic, psychic, radiant
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, petrified, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 17
+> - **Languages** understands the languages of its creator but 
+can't speak.
+> - **Challenge** 8 (3,900 XP)   &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +3       
+> ___
+>
+> ***Animated Construct.*** The ushabti is infused with the soul of a dead champion. Its type is Undead in addition to Construct when determining the effects of features such as a paladin’s Divine Smite.
+>
+> ***Desert Sight.*** The ushabti does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***Ethereal Sight.*** The ushabti can see 60 ft. into the Ethereal Plane when it is on the Material Plane, and vice versa.
+>
+> ***False Appearance.*** While the ushabti remains motionless, it is indistinguishable from an inanimate statue. 
+>
+> ***Immutable Form.*** The ushabti is immune to any spell or effect 
+that would alter its form. 
+>
+> ***Spectral Reaper.*** The ushabti's melee attacks are magical and deal an extra 9 (2d8) force damage (included in its greataxe attack). The ushabti may also make melee attacks against and deal damage to creatures on the Ethereal Plane, even when it is on the Material Plane.
+>
+> ***Turning Defiance.*** The ushabti has advantage on saving throws against effects that turn undead.
+>
+> ### Actions
+> ***Multiattack.*** The ushabti makes two attacks.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) slashing damage plus 9 (2d8) force damage.
+>
+> ***Capture Soul.*** The ushabti makes one melee attack against a creature. If the attack hits, the target must succeed on a DC 15 Charisma saving throw or become incapacitated and have its speed become 0 as the ushabti begins ripping the target's soul from its body. This effect ends if the ushabti dies, is incapacitated, or uses this ability again. The creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If the creature fails the repeated saving throw by 10 or more (DC 5) it dies instantly, and its soul is trapped within the ushabti until it the ushabti dies or traps another soul. While a creature's soul is trapped, it can't be resurrected. <br> If a creature is struck by this attack again while already incapacitated by its effect, it doesn't make another save, but instead makes its next save against the effect with disadvantage.
+> 
+
+\pagebreakNum
+
+## Creature Loot
+
+### Necroficer Loot
+Most of the valuable goods that can be looted from necroficers come in the form of relics and tools they carry. Most dropped valuables can be found using an **Intelligence (Investigation)** or identified using an Intelligence check using proficiency in any type of Artisan's Tools. 
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Necroficer Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Necroficer Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-7  | 1 10gp Item |
+|  8-10 | 1d4(2) 10gp Items | 
+|  11-17 | 1d6(3) 10gp Items  |  
+|  18-21 | 1d4(2) 20gp Items |  
+|  22+ |  1d6(3) 20gp Items |  
+
+
+##### Master Necroficer Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 2d4(5) 10gp Items |
+|  7-10 | 2d6(7) 10gp Items | 
+|  11-16 | 1d6(3) 20gp Items  |  
+|  17-21 | 2d4(5) 20gp Items |  
+|  22+ |  2d6(7) 20gp Items |  
+
+##### Necroficer Visionary Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 100gp Item |
+|  9-13 | 1d4(2) 100gp Items | 
+|  14-20 | 1 200gp Item  |  
+|  21-24 | 1d4(2) 200gp Items |  
+|  25+ |  1d6(3) 200gp Items |  
+
+\columnbreak
+
+#### Example Necroficer Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide example names.
+
+##### Example Uncommon Necroficer Item Names
+|1d6 |  10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|
+| 1 <br> (Bone)  |  Preserved Bone |  Pristine Preserved Bone  | 
+| 2 <br> (Cloth)  |   Ornate Cloth |  Masterwork Ornate Cloth  | 
+| 3 (Jewelry)  |Lapis Lazuli Amulet |  Masterwork Lapis Lazuli Amulet  |
+| 4 <br> (Metal)  | Platinum Tool |  Masterwork Platinum Tool  | 
+| 5 <br> (Stone) | Etched Stone Tool|  Masterwork Etched Stone Tool| 
+| 6 <br> (Wood) | Etched Wood Tool Haft |  Masterwork Etched Wood Tool | 
+
+##### Example Rare Necroficer Item Names
+|1d6 | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Runed Bone |  Pristine Runed Bone | 
+| 2 <br> (Cloth)  |  Ritual Garb |  Masterwork Ritual Garb  | 
+| 3 (Jewelry)  |  Amethyst Amulet |  Masterwork Amethyst Amulet  |
+| 4 <br> (Metal)  |  Ritual-Blade Fragment |  Masterwork Ritual-Blade Fragment  | 
+| 5 <br> (Stone) | Blessed Stone Tool |  Blessed Masterwork Stone Tool | 
+| 6 <br> (Wood) |  Blessed Wood Tool|  Blessed Masterwork Wood Tool| 
+
+### Ushabti Loot
+The valuable items looted from ushabti will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (History)** or **Intelligence (Religion)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Ushabti Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+\pagebreakNum
+
+##### Ushabti Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-7  | 1d6(3) 5gp Items |
+|  8-10 | 2d4(5) 5gp Items | 
+|  11-16 | 2d4(5) 10gp Items  |  
+|  17-22 | 3d6(7) 10gp Items |  
+|  23+ |  2d4(5) 20gp Items |  
+
+##### Chosen Ushabti of the Gods & Ubshati Soul Warden Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-7  | 1d6(3) 10gp Items |
+|  8-12 | 2d4(7) 10gp Items | 
+|  13-17 | 1d6(3) 20gp Items  |  
+|  18-23 | 2d4(5) 100gp Items |  
+|  24+ |  2d4(5) 200gp Items |  
+
+
+
+#### Example Ushabti Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
+
+##### Example Uncommon Ushabti Item Names
+|1d10 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Cloth)  |   Tattered Ornate Cloth | Ornate Cloth  |  Pristine Ornate Cloth  | 
+| 2-3 <br> (Gem)  |  Flawed Lapis Lazuli |  Lapis Lazuli | Pristine Lapis Lazuli | 
+| 4-6 <br> (Metal) | Tarnished Ushabti Armaments |  Ushabti Armaments | Masterwork Ushabti Armaments | 
+| 7-9 (Stone)  |Cracked Ushabti Stone | Ushabti Stone | Pristine Ushabti Stone | 
+| 10 <br> (Wood) | Cracked Preserved Wood  |  Preserved Wood  | Masterwork Preserved Wood  | 
+
+##### Example Rare Ushabti Item Names
+|1d10 | 100gp Item | 200gp Item | 
+|:--:|:-----------:|:-----------:|
+| 1 <br> (Cloth)  |  Ritual Garb  |  Pristine Ritual Garb  | 
+| 2-3 <br> (Gem)  | Amethyst | Pristine Amethyst | 
+| 4-6 <br> (Metal) |  Ushabti-Elite Armaments | Masterwork Ushabti-Elite Armaments | 
+| 7-9 (Stone)  | Ushabti-Elite Stone | Pristine Ushabti-Elite Stone | 
+| 10 <br> (Wood) | Runed Wood  | Masterwork Runed Wood  | 
+
+\columnbreak
+
+### Warsphinx Loot
+The valuable items looted from warsphinxes will generally come from whatever can be harvested from their remains. This harvesting can usually be done using an **Intelligence (History)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Jewler's Tools) check to harvest gems. 
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Warsphinx Loot Table
+The following table describes the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Warsphinx Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-10  | 2d4(5) 50gp Items |
+|  11-16 | 2d4(5) 100gp Items | 
+|  17-23 | 2d8(8) 100gp Items  |  
+|  24-26 | 1d6(3) 1,000gp Items |  
+|  27+ |  1d6(3) 2,000gp Items | 
+
+#### Example Warsphinx Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following table provides some example names.
+
+##### Example Warsphinx Item Names
+|1d4 | 50gp | 100gp Item | 1,000gp Item |  2,000gp Item | 
+|:--:|:-----------:|:-----------:|:-----------:|:-----------:|
+| 1 <br> (Gem)  | Flawed Amethyst | Amethyst | Emerald | Pristine Emerald  |
+| 2 <br> (Metal) | Tarnished Warsphinx Armaments |  Warsphinx Armaments | Emblem of The Gods | Masterwork Emblem of the Gods  |
+| 3 (Stone)  | Cracked Warsphinx Stone | Warsphinx Stone | Warsphinx Skull Fragment | Masterwork Warsphinx Skull Fragment   |
+| 4 <br> (Wood) | Cracked Runed Wood | Runed Wood  | Sacred Wood  | Masterwork Sacred Wood |
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
