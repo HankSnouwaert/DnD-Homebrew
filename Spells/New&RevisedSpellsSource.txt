@@ -228,21 +228,7 @@ A creature can't suffer from two instances of the same mutation at once.
 
 \columnbreak
 
-#### Bray Scream 0.0.0
-*3rd-level evocation*
-___
-- **Casting Time:** 1 action
-- **Range:** 60 feet
-- **Components:** V, S, M (A goat hair)
-- **Duration:**   Instantaneous
-- **Classes:**  Druid, Bard
-___
 
-You or a willing creature of your choice within range is filled with primal vigor and releases a powerful howling roar in a 30-foot cone. If the target is prone, it can immediately stand up without using any movement. Each creature in the cone must make a Constitution saving throw. On a failed save, a creature takes 3d8 thunder damage and is knocked prone. On a success, a creature takes half as much damage and isn’t knocked prone.
-
-Additionally, the creature releasing the roar regains 3d8 hit points. Constructs and undead cannot regain hit points from this spell.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the damage and healing increase by 1d8 for each slot level above 3rd.
 
 #### Brittle Bones 1.0.0
 *4th-level necromancy*
@@ -257,8 +243,6 @@ ___
 Choose a creature that you can see within range. The target must succeed on a Constitution saving throw or become brittle for the duration. While a creature is brittle, any attack that hits the creature is a critical hit. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target. Effects and spells that remove the paralyzed condition will remove the brittle condition.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
-
-\pagebreakNum
 
 #### Burning Gaze 2.0.0
 *1st-level evocation*
@@ -538,7 +522,7 @@ You attempt to drain the vitality of a creature within range, leaving it feeble 
 
 \columnbreak
 
-#### Devolve 0.0.0
+#### Devolve 1.0.0
 *1st-level enchantment*
 ___
 - **Casting Time:** 1 action
@@ -986,7 +970,7 @@ You summon a bolt of lightning to strike a point you can see within range. Each 
 
 \pagebreakNum
 
-####  Mad Rampage 0.0.0
+#### Mad Rampage 1.0.0
 
 *4th-level enchantment*
 ___
@@ -1230,13 +1214,13 @@ ___
 
 You summon forth a 10-foot-diameter sphere of mud in an unoccupied space of your choice within range.  The sphere then rolls along the ground in a straight line up to 60 feet in a direction you choose before exploding.  The sphere explodes early if it impacts a solid surface or falls more than 10 feet.  If the sphere would strike a creature, that creature must make a Dexterity saving throw.  On a failed save, the sphere strikes the target and explodes.  When the sphere explodes, each creature within a 10-foot radius must succeed on a Dexterity saving throw or be blinded until the end of its next turn.  A creature hit by the sphere fails the save automatically.   Any surface the sphere rolls across or in the range of its explosion is covered in 3-inch-thick mud.  The mud is difficult terrain until cleared.
 
-#### Mystic Signal 0.0.0
+#### Mystic Signal 1.0.0
 
 *5th-level transmutation (ritual)*
 ___
 - **Casting Time:** 1 action
 - **Range:** self
-- **Components:**  V, S, M (A focus worth at least 500 gp, such as a war horn, marble bird, or a gem encrusted jaw bone)
+- **Components:**  V, S, M (A focus worth at <br> least 500 gp, such as a war horn, marble <br> bird, or a gem encrusted jaw bone)
 - **Duration:**  1 round
 - **Classes:**  Bard, Cleric, Druid, Ranger, Wizard
 ___
@@ -1364,6 +1348,24 @@ You emanate a commanding presence, compelling a primal creature to submit. Choos
 
 ***At Higher Levels.*** When you cast this spell using a 3rd-level spell slot or higher, you can target one additional creature for each slot level above 2nd.
 
+#### Primal Scream 1.0.0
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (A goat hair)
+- **Duration:**   Instantaneous
+- **Classes:**  Druid, Bard
+___
+
+You or a willing creature of your choice within range is filled with primal vigor and releases a powerful howling roar in a 30-foot cone. If the target is prone, it can immediately stand up without using any movement. Each creature in the cone must make a Constitution saving throw. On a failed save, a creature takes 3d8 thunder damage and is knocked prone. On a success, a creature takes half as much damage and isn’t knocked prone.
+
+Additionally, the creature releasing the roar regains 3d8 hit points. Constructs and undead cannot regain hit points from this spell.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the damage and healing increase by 1d8 for each slot level above 3rd.
+
+\pagebreakNum
+
 #### Puddle of Ooze 1.0.0
 *3rd-level conjuration*
 ___
@@ -1377,8 +1379,6 @@ ___
 You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
-
-\pagebreakNum
 
 ####  Purple Sun 1.0.0
 *9th-level transmutation*
@@ -1442,7 +1442,7 @@ A ray of sickening greenish energy lashes out toward a creature within range. Ma
 
 \pagebreakNum
 
-#### Savage Dominion 0.0.0
+#### Savage Dominion 1.0.0
 
 *7th-level conjuration*
 ___
@@ -1463,6 +1463,7 @@ If your concentration is broken, the creature doesn't disappear but becomes stun
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 8th level or higher, the summoned creature gains an additional 25 hit points for each slot level above 7th. If cast using a 9th-level slot, the spell's duration extends to 8 hours.
 
+\columnbreak
 
 ___
 > ## Hungering Behemoth
@@ -1478,7 +1479,7 @@ ___
 >___
 > - **Senses** passive Perception 9
 > - **Languages** Abyssal
-> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +3
 > ___
 >
 > ***Charge.*** If the behemoth moves at least 20 feet straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 11 (2d10) piercing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be pushed up to 10 feet away and knocked prone.
@@ -1497,6 +1498,36 @@ ___
 \pagebreakNum
 
 ___
+> ## Stone Hurling Giant
+> *Huge giant, unaligned*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (0)|8 (-1)|
+>___
+> - **Senses** passive Perception 10
+> - **Languages** Giant
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> ___
+>
+> ### Actions
+>
+> ***Multiattack.*** The giant makes a fist attack and a stomp attack.
+>
+> ***Fist.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 23 (4d8 + 5) bludgeoning damage. Instead of dealing damage, the giant can choose grapple the target (escape DC equal to your spell save) provided the target is Huge or smaller. The giant has two fists, each of which can grapple only one target.
+>
+> ***Stomp.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage. If the target is a prone creature or Medium or smaller in size, it takes 27 (4d10 + 5) instead.
+>
+> ***Fling.***  The giant chooses one object or creature it is holding or grappling that is its size or smaller and throws it up to 120 feet away. If the target lands on a solid surface, it takes 21 (3d10 + 5) damage and lands prone. If the thrown creature or object would land in the space of one or more creatures, each of those creatures must make a Dexterity save against your spell save DC. On a failed save, a creature is hit by the thrown creature, takes 21 (3d10 + 5) bludgeoning damage, and is knocked prone. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
+> 
+
+\columnbreak
+
+___
 > ## Maddening Jabberwocky
 > *Huge dragon, unaligned*
 > ___
@@ -1510,7 +1541,7 @@ ___
 >___
 > - **Senses** passive Perception 10
 > - **Languages** Draconic
-> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
 >
 > ***Burble.*** At the end of the jabberwocky's turn, each creature within 30 feet of it that can hear it must make a Wisdom saving against you spell save DC. On a failed save, a creature is frightened until the start of its next turn. While frightened this way, it is dazed. If a creature’s saving throw is successful, it is immune to the Burble of the jabberwocky for the next hour.
@@ -1525,36 +1556,6 @@ ___
 > ***Snatching Claws.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 15 (3d6 + 5) slashing damage. The target is grappled (escape DC equal to your spell save throw). The jabberwocky has two claws, each of which can grapple only one target.
 >
 > ***Eyes of Flame.*** The jabberwocky shoots a beam of fire from its eyes in a 30-foot long f-foot wide line. Each creature in the line's area must make a Dexterity save against your spell save DC. On a failed save, a creature takes 10 (4d4) fire damage and is set on fire; until a creature uses its action to douse the fire on itself or another creature, the target takes 5 (2d4) fire damage at the end of each of its turns. On a successful save, a creature takes half as much damage and is not set on fire.
-
-\columnbreak
-
-___
-> ## Stone Hurling Giant
-> *Huge giant, unaligned*
-> ___
-> - **Armor Class** 15 (natural armor)
-> - **Hit Points** 150
-> - **Speed** 40 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (0)|8 (-1)|
->___
-> - **Senses** passive Perception 10
-> - **Languages** Giant
-> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
-> ___
->
-> ### Actions
->
-> ***Multiattack.*** The giant makes a fist attack and a stomp attack.
->
-> ***Fist.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 23 (4d8 + 5) bludgeoning damage. Instead of dealing damage, the giant can choose grapple the target (escape DC equal to your spell save) provided the target is Huge or smaller. The giant has two fists, each of which can grapple only one target.
->
-> ***Stomp.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage. If the target is a prone creature or Medium or smaller in size, it takes 27 (4d10 + 5) instead.
->
-> ***Fling.***  The giant chooses one object or creature it is holding or grappling that is its size or smaller and throws it up to 120 feet away. If the target lands on a solid surface, it takes 21 (3d10 + 5) damage and lands prone. If the thrown creature or object would land in the space of one or more creatures, each of those creatures must make a Dexterity save against your spell save DC. On a failed save, a creature is hit by the thrown creature, takes 21 (3d10 + 5) bludgeoning damage, and is knocked prone. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
-> 
 
 \pagebreakNum
 
@@ -1768,7 +1769,7 @@ On your subsequent turns, you must use your action to spew forth a another cone 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
 
-#### Summon Flock
+#### Summon Flock 1.0.0
 
 *1st-level conjuration*
 ___
@@ -1969,7 +1970,7 @@ At the end of each of its turns, a creature poisoned this way can repeat the Con
 
 \columnbreak
 
-#### Traitor-Kin 0.0.0
+#### Traitor-Kin 1.0.0
 
 *3rd-level enchantment*
 ___
@@ -2030,7 +2031,9 @@ Choose a willing creature you can see within range. The chosen creature becomes 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for every two slot levels above 3rd.
 
-#### Vile Tide 0.0.0
+\columnbreak
+
+#### Vile Tide 1.0.0
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 action
