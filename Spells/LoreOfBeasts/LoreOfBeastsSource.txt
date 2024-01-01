@@ -50,7 +50,6 @@ ___
 
 You conjure a large amber hunting spear and launch it in a straight line at a point you can see within range. Upon reaching its destination or striking a solid surface, the spear shatters, producing an explosion within a 10-foot-radius sphere centered on that point. The spear can pass through spaces occupied by creatures and objects of large size or smaller. Each creature the spear moves through, as well as those within the explosion's radius, must make a Dexterity saving throw. On a failed save, a creature takes 6d6 piercing damage; on a successful one, the damage is halved.
 
-
 ***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
 
 \columnbreak
@@ -114,7 +113,12 @@ At the start of each of your turns, if no hostile creatures are within 5 feet of
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### The Quickened Condition
+> This document references the quickened condition. A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+<br>
 
 #### Call of the Pack
 
@@ -251,25 +255,23 @@ ___
 > ## Feral Manticore
 > *Huge monstrosity, unaligned*
 > ___
-> - **Armor Class** 18 (natural armor)
-> - **Hit Points** 150
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
 > - **Speed** 40 ft., climb 40 ft., fly 50 ft.
 > ___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
 > ___
-> - **Skills** Perception +7, Stealth +7
-> - **Senses** Darkvision 60 ft., passive Perception 17
+> - **Skills** Perception +6, Stealth +6
+> - **Senses** darkvision 60 ft., passive Perception 16
 > - **Languages** You understand the languages you can speak in your normal form
-> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
 >
 > ***Tail Spikes.*** You have twelve tail spikes.
 >
-> ***Pounce.*** If you move at least 10 feet straight toward a creature and then hit it with a claw attack on the same turn, the target must succeed on a DC 16 Strength saving throw or be knocked prone.
->
-> <br>
+> ***Pounce.*** If you move at least 10 feet straight toward a creature and then hit it with a claw attack on the same turn, the target must succeed on a DC 16 Strength saving throw or be knocked prone. <br><br><br>
 >
 > ### Actions
 >
@@ -297,17 +299,17 @@ ___
 > ## Ravenous Hydra
 > *Huge monstrosity, unaligned*
 > ___
-> - **Armor Class** 18 (natural armor)
-> - **Hit Points** 150
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
 > - **Speed** 40 ft., swim 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (+0)|14 (+2)|
 >___
-> - **Senses** Darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
+> - **Senses** darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
 > - **Languages** You understand the languages you can speak in your normal form
-> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
 >
 > ***Multiple Heads.*** You have five heads. While you have more than one head, you have advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Additionally, you get a +2 bonus to Wisdom (Perception) checks for each head. Whenever you take 25 or more damage in a single turn and still have one or more heads, one head dies.
@@ -329,19 +331,19 @@ ___
 > ## Savage Dragon
 > *Huge dragon, unaligned*
 > ___
-> - **Armor Class** 18 (natural armor)
-> - **Hit Points** 150
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
 > - **Speed** 40 ft., climb 40 ft., fly 60 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|22 (+6)|14 (+2)|20 (+5)|12 (+1)|10 (0)|14 (+2)|
 >___
-> - **Skills** Perception +4
+> - **Skills** Perception +3
 > - **Damage Resistances** The damage type chosen using your Dragon's Power feature
-> - **Senses** Blindsight 30 ft., darkvision 120 ft., passive Perception 14
+> - **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 13
 > - **Languages** You understand the languages you can speak in your normal form
-> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
 >
 > ***Dragon's Power.*** When you transform into this shape, you choose one of the following damage types: acid, cold, fire, lightning, or poison. This chosen type affects other features.
@@ -370,6 +372,20 @@ ___
 
 \pagebreakNum
 
-### Change Log
+## Document Change Log
 #### 1.0.0
 * Document release
+
+#### 1.1.0
+* Add quickened condition
+
+## Referenced Content
+* Amber Spear 1.0.0
+* Aspect of the Beast 1.0.0
+* Bestial Spirit 1.0.0
+* Call of the Pack 1.0.0
+* Impenetrable Pelt 1.0.0
+* Monstrous Transformation 1.1.1
+* Primal Dominance 1.0.0
+* Summon Flock 1.1.0
+* Wild Surge 1.0.0
