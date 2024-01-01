@@ -1067,7 +1067,7 @@ Any surface the sphere rolls across or in the range of its explosion is covered 
 
 \pagebreakNum
 
-#### Monstrous Transformation 1.1.0
+#### Monstrous Transformation 1.1.1
 
 *6th-level transmutation*
 ___
@@ -1108,7 +1108,7 @@ ___
 >|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
 > ___
 > - **Skills** Perception +6, Stealth +6
-> - **Senses** Darkvision 60 ft., passive Perception 16
+> - **Senses** darkvision 60 ft., passive Perception 16
 > - **Languages** You understand the languages you can speak in your normal form
 > - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
@@ -1149,7 +1149,7 @@ ___
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (+0)|14 (+2)|
 >___
-> - **Senses** Darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
+> - **Senses** darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
 > - **Languages** You understand the languages you can speak in your normal form
 > - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
@@ -1183,7 +1183,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Damage Resistances** The damage type chosen using your Dragon's Power feature
-> - **Senses** Blindsight 30 ft., darkvision 120 ft., passive Perception 13
+> - **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 13
 > - **Languages** You understand the languages you can speak in your normal form
 > - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
@@ -1442,7 +1442,7 @@ A ray of sickening greenish energy lashes out toward a creature within range. Ma
 
 \pagebreakNum
 
-#### Savage Dominion 1.0.0
+#### Savage Dominion 1.0.1
 
 *7th-level conjuration*
 ___
@@ -1555,7 +1555,7 @@ ___
 >
 > ***Snatching Claws.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 15 (3d6 + 5) slashing damage. The target is grappled (escape DC equal to your spell save throw). The jabberwocky has two claws, each of which can grapple only one target.
 >
-> ***Eyes of Flame.*** The jabberwocky shoots a beam of fire from its eyes in a 30-foot long f-foot wide line. Each creature in the line's area must make a Dexterity save against your spell save DC. On a failed save, a creature takes 10 (4d4) fire damage and is set on fire; until a creature uses its action to douse the fire on itself or another creature, the target takes 5 (2d4) fire damage at the end of each of its turns. On a successful save, a creature takes half as much damage and is not set on fire.
+> ***Eyes of Flame.*** The jabberwocky shoots a beam of fire from its eyes in a 30-foot line that is 5 feet wide. Each creature in the line's area must make a Dexterity save against your spell save DC. On a failed save, a creature takes 10 (4d4) fire damage and is set on fire; until a creature uses its action to douse the fire on itself or another creature, the target takes 5 (2d4) fire damage at the end of each of its turns. On a successful save, a creature takes half as much damage and is not set on fire.
 
 \pagebreakNum
 
@@ -1970,7 +1970,7 @@ At the end of each of its turns, a creature poisoned this way can repeat the Con
 
 \columnbreak
 
-#### Traitor-Kin 1.0.0
+#### Traitor-Kin 1.0.1
 
 *3rd-level enchantment*
 ___
@@ -1981,7 +1981,7 @@ ___
 - **Classes:**   Bard, Druid, Ranger
 ___
 
-You choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you with an Intelligence score of 7 or lower and instill it with a surge of betrayal, compelling it to attack its allies. The creature must succeed on a Wisdom saving throw or become charmed until the end of your next turn. 
+You choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you with an Intelligence score of 7 or lower and instill it with a surge of betrayal, compelling it to attack its allies. The creature must succeed on a Wisdom saving throw or become charmed by you until the end of your next turn. 
 
 While charmed this way, all attack rolls against it have advantage, it cannot take reactions or bonus actions, and on the creature's next turn, you may dictate another creature for it to attack (no action required). On its turn, the charmed creature must move towards the chosen target by the safest route possible if it is aware of where the chosen creature is, and it must use its Attack action to make all its attacks against the target, which are made with advantage. If it is unaware of the chosen creature's location, it does nothing on its turn.
 
@@ -2032,9 +2032,9 @@ Choose a willing creature you can see within range. The chosen creature becomes 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for every two slot levels above 3rd.
 
 \columnbreak
-
-#### Vile Tide 1.0.0
-*2nd-level evocation*
+ 
+#### Vile Tide 1.1.0
+*2nd-level conjuration*
 ___
 - **Casting Time:** 1 action
 - **Range:** 60 feet
@@ -2205,22 +2205,37 @@ The boil immediately explodes when the spell ends.
 #### 1.0.1
 * Name Change
 
+### Curse of the Midnight Wind
+#### 1.1.0
+* Now causes automatic hits, miss and fails.
+
 ### Horrying Laughter
 #### 1.1.0
 * Changed horrifying laughter so the frightened condition happens at the end of the caster's turn, and the condition ends at the end of the creature's turn.
+
+### Ice Storm
+#### 1.1.0
+* Change spell to evocation
+
+### Monstrous Transformation
+#### 1.1.0
+* Update stat blocks
+
+#### 1.1.1
+* Fix stat block formatting typo
 
 ### Penumbral Pendulum
 #### 2.0.0
 * Reworked Penumbral Pendulum so it can be swung multiple times
 * Fixed typo with what classes gained access to Penumbral Pendulum
 
-### Monstrous Transformation
-#### 1.1.0
-* Update stat blocks
-
 ### Rancid Visitation
 #### 2.0.0
 * Replace inflict rot with Rancid Visitation
+
+### Savage Dominion 
+#### 1.0.1
+* Fix typos in Eyes of Flame ability of jabberwocky
 
 ### Shroud of Dusk
 #### 1.1.0
@@ -2230,17 +2245,17 @@ The boil immediately explodes when the spell ends.
 #### 1.1.0
 * Clarify that the area of Smoke Shroud is heavily obscured
 
+### Traitor-Kin 
+#### 1.0.1
+* Add clarification that target is charmed by caster
+
+### Vile Tide
+#### 1.1.0
+* Change spell to conjuration
+
 ### Water Whip
 #### 0.1.0
 * Change to melee spell attack
-
-### Curse of the Midnight Wind
-#### 1.1.0
-* Now causes automatic hits, miss and fails.
-
-### Ice Storm
-#### 1.1.0
-* Change spell to evocation
 
 ### Wind Blast
 #### 1.1.0

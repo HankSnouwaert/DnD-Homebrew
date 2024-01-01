@@ -447,7 +447,7 @@ ___
 >|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
 > ___
 > - **Skills** Perception +6, Stealth +6
-> - **Senses** Darkvision 60 ft., passive Perception 16
+> - **Senses** darkvision 60 ft., passive Perception 16
 > - **Languages** You understand the languages you can speak in your normal form
 > - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
@@ -492,7 +492,7 @@ ___
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (+0)|14 (+2)|
 >___
-> - **Senses** Darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
+> - **Senses** darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
 > - **Languages** You understand the languages you can speak in your normal form
 > - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
@@ -526,7 +526,7 @@ ___
 >___
 > - **Skills** Perception +3
 > - **Damage Resistances** The damage type chosen using your Dragon's Power feature
-> - **Senses** Blindsight 30 ft., darkvision 120 ft., passive Perception 13
+> - **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 13
 > - **Languages** You understand the languages you can speak in your normal form
 > - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
@@ -1046,7 +1046,7 @@ ___
 - **Classes:**   Bard, Druid, Ranger
 ___
 
-You choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you with an Intelligence score of 7 or lower and instill it with a surge of betrayal, compelling it to attack its allies. The creature must succeed on a Wisdom saving throw or become charmed until the end of your next turn. 
+You choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you with an Intelligence score of 7 or lower and instill it with a surge of betrayal, compelling it to attack its allies. The creature must succeed on a Wisdom saving throw or become charmed by you until the end of your next turn. 
 
 While charmed this way, all attack rolls against it have advantage, it cannot take reactions or bonus actions, and on the creature's next turn, you may dictate another creature for it to attack (no action required). On its turn, the charmed creature must move towards the chosen target by the safest route possible if it is aware of where the chosen creature is, and it must use its Attack action to make all its attacks against the target, which are made with advantage. If it is unaware of the chosen creature's location, it does nothing on its turn.
 
@@ -1057,7 +1057,7 @@ While charmed this way, all attack rolls against it have advantage, it cannot ta
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Vile Tide
-*2nd-level evocation*
+*2nd-level conjuration*
 ___
 - **Casting Time:** 1 action
 - **Range:** 60 feet
@@ -1097,7 +1097,7 @@ ___
 >___
 > - **Senses** passive Perception 9
 > - **Languages** Abyssal
-> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
 >
 > ***Charge.*** If the behemoth moves at least 20 feet straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 11 (2d10) piercing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be pushed up to 10 feet away and knocked prone.
@@ -1184,7 +1184,7 @@ ___
 >
 > ***Snatching Claws.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 15 (3d6 + 5) slashing damage. The target is grappled (escape DC equal to your spell save throw). The jabberwocky has two claws, each of which can grapple only one target.
 >
-> ***Eyes of Flame.*** The jabberwocky shoots a beam of fire from its eyes in a 30-foot long f-foot wide line. Each creature in the line's area must make a Dexterity save against your spell save DC. On a failed save, a creature takes 10 (4d4) fire damage and is set on fire; until a creature uses its action to douse the fire on itself or another creature, the target takes 5 (2d4) fire damage at the end of each of its turns. On a successful save, a creature takes half as much damage and is not set on fire.
+> ***Eyes of Flame.*** The jabberwocky shoots a beam of fire from its eyes in a 30-foot line that is 5 feet wide. Each creature in the line's area must make a Dexterity save against your spell save DC. On a failed save, a creature takes 10 (4d4) fire damage and is set on fire; until a creature uses its action to douse the fire on itself or another creature, the target takes 5 (2d4) fire damage at the end of each of its turns. On a successful save, a creature takes half as much damage and is not set on fire.
 
 
 
@@ -1195,11 +1195,11 @@ ___
 # The Warherd
 This section lists the different <br> types of beastmen along with <br> the savage monsters they <br> often utilize in battle. The <br> different types of beastmen <br> include the shorthorns, <br> longhorns, and besthorns. The <br> various horrific monsters they utilize can be <br> found living alongside the beastmen or lurking <br> the wilds of their dark forest homelands. 
 
-## Managing Primal <br> Fury At Scale
+### Managing Primal <br> Fury At Scale
 
 Many beastmen have an ability known as Primal Fury, <br> which, when active, can force them to make a Wisdom <br> check at the end of their turn. If you're managing a lot <br> of beastmen in combat and prefer not to roll each of the Primal Fury checks individually each time they come up, <br> the following set of alternative rules can streamline this process.
 
-### Primal Fury <br> (Alternative Mass Combat Version) 
+#### Primal Fury <br> (Alternative Mass Combat Version) 
 At the beginning of combat, all beastmen enter combat with their Primal Fury active. On initiative count 20 each turn (losing all initiative ties), roll a d20. If the roll is 11 or higher, the Primal Fury of all beastmen remains active; if it is less, the Primal Fury ends for all beastmen until the next initiative count 20. Add a cumulative +1 bonus to the roll for each beastman in the encounter that is neither charmed nor frightened. Subtract 1 from the roll for each beastman that has been reduced to 0 hit points since the last roll.
 
 Specific abilities of some of the beastmen modify these rules as follows:
@@ -1588,7 +1588,7 @@ ___
 >
 > ***Gore.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
 >
-> ***Quarterstaff.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+> ***Quarterstaff.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
 >
 
 
@@ -1606,7 +1606,8 @@ ___
 
 ### Lesser Bray Shaman <Br> Lore of Magic Options 
 Select one of the following lores or magic to determine a lesser bray shaman's additional passive trait and spell list. <Br>
-**New spells listed at the end of the document*
+**New spells listed at the end of the document*<Br>
+***Spell found in* The Xanathar's Guide to Everything
 
 > #### Lesser Bray Shaman: Lore of Beasts
 >
@@ -1614,8 +1615,8 @@ Select one of the following lores or magic to determine a lesser bray shaman's a
 > ***Wild Heart.*** Whenever the shaman targets only itself or beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
 >
 > ##### **Spell List:**
-> **At will:** *druidcraft*, *primal savagery*<br>
-> **1/Day:** *amber spear**, *arcane signal**, *heroism**, *pass without trace**
+> **At will:** *druidcraft*, *primal savagery***<br>
+> **1/Day:** *amber spear**, *heroism*, *mystic signal**, *pass without trace*
 
 > #### Lesser Bray Shaman: Lore of Death
 >
@@ -1624,7 +1625,7 @@ Select one of the following lores or magic to determine a lesser bray shaman's a
 >
 > ##### **Spell List:**
 > **At will:** *druidcraft*, *toll of the dead***<br>
-> **1/Day:** *arcane signal**, *aspect of dread** *crippling pain**, *inflict wounds*
+> **1/Day:**  *aspect of dread**, *crippling pain**, *inflict wounds*, *mystic signal**
 
 \columnbreak
 
@@ -1633,22 +1634,22 @@ Select one of the following lores or magic to determine a lesser bray shaman's a
 > #### Lesser Bray Shaman: Lore of Shadow
 >
 > ##### **Trait:**
-> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
+> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.  <br><br>
 >
 > ##### **Spell List:**
 > **At will:** *creeping strike**, *druidcraft* <br>
-> **1/Day:** *arcane signal**, *mystifying miasma** *shroud of dusk**, *unseen lurker**
+> **1/Day:** *mystic signal**, *mystifying miasma** *shroud of dusk**, *unseen lurker**
 
 <br>
 
 > #### Lesser Bray Shaman: Lore of The Wild
 >
 > ##### **Trait:**
-> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.
+> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.  <br><br>
 >
 > ##### **Spell List:**
 > **At will:** *druidcraft*, *infestation***<br>
-> 1/Day: *bray scream**, *devolve**, *mystic signal**, *vile tide**
+> **1/Day:** *devolve**, *mystic signal**, *primal scream**, *vile tide**
 
 <img src='https://i.postimg.cc/vTx1R3Td/Oracle-of-Bones-Art-by-Greg-Staples.jpg' style='position:absolute; bottom:-160px; right:-20px; width:850px; transform: scaleX(-1)' />
 
@@ -1657,6 +1658,33 @@ Select one of the following lores or magic to determine a lesser bray shaman's a
   style='position:absolute;left:-400px;bottom:0px;transform:rotate(-0deg)' />
 
 \pagebreakNum
+
+### Bray Shaman <Br> Lore of Magic Options 
+Select one of the following lores or magic to determine a bray shaman's additional passive trait and spell list. <Br>
+**New spells listed at the end of the document*<Br>
+***Spell found in The Xanathar's Guide to Everything*
+
+> #### Bray Shaman: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the shaman targets only itself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery*** (2d10) <br>
+> **1/Day:** *amber spear**, *aspect of the beast**, *find the path*, *heroism* (2nd level), *mystic signal**, *pass without trace*
+
+\columnbreak
+
+<br><br><br><br><br><br>
+
+> #### Bray Shaman: Lore of Death
+>
+> ##### **Trait:**
+> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *toll of the dead*** (2d8)<br>
+> **1/Day:**  *aspect of dread**, *crippling pain**, *impending doom**, *inflict wounds* (2nd level), *find the path*, *mystic signal**
 
 ___
 ___
@@ -1704,47 +1732,16 @@ ___
 >
 
 
-
-
-
-### Bray Shaman <Br> Lore of Magic Options 
-Select one of the following lores or magic to determine a bray shaman's additional passive trait and spell list. <Br>
-**New spells listed at the end of the document*
-
-
-
-> #### Bray Shaman: Lore of Beasts
->
-> ##### **Trait:**
-> ***Wild Heart.*** Whenever the shaman targets only itself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
->
-> ##### **Spell List:**
-> **At will:** *druidcraft*, *primal savagery(2d10)** <br>
-> **1/Day:** *amber spear**, *arcane signal**, aspect of the beast, *find The path*, *heroism (2nd level)*, *pass without trace**
-
-\columnbreak
-
-<br><br><br><br><br><br>
-
-> #### Bray Shaman: Lore of Death
->
-> ##### **Trait:**
-> ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
->
-> ##### **Spell List:**
-> **At will:** *druidcraft*, *toll of the dead (2d8)*<br>
-> **1/Day:** *arcane sgnal**, *aspect of dread** *crippling pain**, *impending doom**, *inflict wounds (2nd level)**, *find the path*
-
 \pagebreakNum
 
 > #### Bray Shaman: Lore of Shadow
 >
 > ##### **Trait:**
-> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
+> ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.<br><br>
 >
 > ##### **Spell List:**
-> **At will:** *creeping strike (2d8)*, *druidcraft*<br>
-> **1/Day:** *arcane signal**, *find the path*, *mystifying miasma**, *penumbral pendulum**, *shroud of dusk (2nd level)**, *unseen lurker**   
+> **At will:** *creeping strike** (2d8), *druidcraft* <br>
+> **1/Day:** *find the path*, *mystic signal**, *mystifying miasma**, *penumbral pendulum**, *shroud of dusk** (2nd level), *unseen lurker**   
 
 <br>
 
@@ -1753,11 +1750,11 @@ Select one of the following lores or magic to determine a bray shaman's addition
 > #### Bray Shaman: Lore of The Wild
 >
 > ##### **Trait:**
-> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.
+> ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.<br><br>
 >
 > ##### **Spell List:**
-> **At will:** *druidcraft*, *infestation* (2d6)<br>
-> 1/Day: *bray scream**, *devolve** (2nd level), *find the path*, *mystic signal**, *mad rampage**, *vile tide**  
+> **At will:** *druidcraft*, *infestation*** (2d6)<br>
+> **1/Day:** *devolve** (2nd level), *find the path*, *mad rampage**, *mystic signal**, *primal scream**, *vile tide**  
 
 <br><br>
 
@@ -1775,7 +1772,7 @@ ___
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|14 (+2)|16 (+3)|18 (+4)|10 (0)|20 (+5)|12 (+1)|
+>|16 (+3)|16 (+3)|18 (+4)|10 (0)|20 (+5)|12 (+1)|
 >___
 > - **Saving Throws** Int +2, Wis +9, Cha +5, Con +8
 > - **Skills** Athletics +6, Religion +8, Perception +9, Intimidation +9, Stealth +7, Survival +9
@@ -1786,7 +1783,7 @@ ___
 >
 > ***Beast Man.*** The shaman is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
 >
-> ***Charge.*** If the shaman moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+> ***Charge.*** If the shaman moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
 >
 > ***Forest Camouflage.*** The shaman has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
 >
@@ -1804,9 +1801,9 @@ ___
 >
 > ### Actions
 >
-> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+> ***Gore.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 6 (1d6 + 3) piercing damage.
 >
-> ***Quarterstaff.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+> ***Quarterstaff.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if wielded with two hands.
 >
 
 \pagebreakNum
@@ -1816,6 +1813,8 @@ ___
 ### Great Bray Shaman <Br> Lore of Magic Options 
 Select one of the following lores or magic to determine <br> a great bray shaman's additional passive trait and spell list. <Br>
 **New spells listed at the end of the document*
+<Br>
+***Spell found in* The Xanathar's Guide to Everything
 
 > #### Great Bray Shaman: Lore of Beasts
 >
@@ -1823,9 +1822,8 @@ Select one of the following lores or magic to determine <br> a great bray shaman
 > ***Wild Heart.*** Whenever the shaman targets only itself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the shaman is incapacitated or uses this feature to alter another spell. <br><br>
 >
 > ##### **Spell List:**
-> **At will:** *druidcraft*, *primal savagery (3d10)*<br>
-> **1/Day:** *amber spear**, *arcane signal**, *aspect of the beast**, *find the path*, *heroism* (3rd level), *monstrous transformation**, *pass without trace**  
-
+> **At will:** *druidcraft*, *primal savagery*** (3d10)<br>
+> **1/Day:** *amber spear**, *aspect of the beast**, *find the path*, *heroism* (3rd level), *monstrous transformation**, *mystic signal**, *pass without trace*  
 
 
 > #### Great Bray Shaman: Lore of Death
@@ -1834,8 +1832,8 @@ Select one of the following lores or magic to determine <br> a great bray shaman
 > ***Life Leech.*** Whenever a non-undead, non-construct creature fails a saving throw against or is hit by a spell attack from one of the shaman's spells of 1st level or higher, the shaman gets a +1 to its spell save DC and spell attack rolls for the next minute. It can only gain this bonus once per casting of a spell, and this bonus can stack up to 3 times (+3). <br><br>
 >
 > ##### **Spell List:**
-> **At will:** *druidcraft*, *toll of the dead (3d8)*<br>
-> **1/Day:** *arcane signal**, *aspect of dread**, circle of death (7th level), *crippling pain**, *find the path*, *impending doom**, *inflict wounds (3rd level)**,  
+> **At will:** *druidcraft*, *toll of the dead*** (3d8)<br>
+> **1/Day:** *aspect of dread**, *circle of death* (7th level), *crippling pain**, *find the path*, *impending doom**, *inflict wounds* (3rd level), *mystic signal**  
 
 \columnbreak
 
@@ -1847,11 +1845,8 @@ Select one of the following lores or magic to determine <br> a great bray shaman
 > ***Shadow Paths.*** When the shaman casts a spell of 1st level or higher, it may use teleportation to swap places with a willing Small, Medium, or Large creature within 30 feet of it that it can see.
 >
 > ##### **Spell List:**
-> **At will:** *creeping strike (3d8)*, *druidcraft* <br>
-> **1/Day:** *arcane signal**, *find the path*, *mystifying miasma**, *penumbral pendulum**, pit of shadows (7th level), *shroud of dusk (3rd level)**, *unseen lurker**
-
-
-
+> **At will:** *creeping strike** (3d8), *druidcraft* <br>
+> **1/Day:** *arcane signal**, *find the path*, *mystifying miasma**, *penumbral pendulum**, *pit of shadows** (7th level), *shroud of dusk** (3rd level), *unseen lurker**
 
 
 > #### Great Bray Shaman: Lore of The Wild
@@ -1860,8 +1855,8 @@ Select one of the following lores or magic to determine <br> a great bray shaman
 > ***Bestial Surge.*** When the shaman casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the shaman loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.<br><br>
 >
 > ##### **Spell List:**
-> **At will:** *druidcraft*, *infestation (3d6)*<br>
-> 1/Day: *bray scream**, *devolve** (3rd level), *find the path*, *mystic signal**, *mad rampage**, *savage dominion**, *vile tide**
+> **At will:** *druidcraft*, *infestation*** (3d6)<br>
+> 1/Day: *devolve** (3rd level), *find the path*, *mystic signal**, *mad rampage**, *primal scream**, *savage dominion**, *vile tide**
 
 
 <img src='https://i.postimg.cc/hv2yX8qv/Felhide-Spiritbinder-Mt-G-Art.jpg' style='position:absolute; top:-30px; right:-0px; width:870px; transform: scaleX(-1)' />
@@ -1960,8 +1955,8 @@ Bray shamans practicing the Lore of Death tend to reserve their more potent spel
 **Crippling Pain:** This is best cast on agile skirmishers like monks or rogues. Its potency is amplified when targeting a prone adversary, as the act of standing further exacerbates the damage the target takes.
 
 
-#### Lore of the Wild
-Bray shamans dedicated to this lore tend to be less melee-focused, especially those with access to the Savage Domain spell. The majority of their spells require concentration, and a significant portion are good at disrupting opponents' concentration.
+#### Lore of The Wild
+Bray shamans dedicated to this lore tend to be less melee-focused, especially those with access to the Savage Domain spell. The majority of their spells require concentration, but their Bestial Surge trait allows them to maintain multiple spells at once, and they will often have at least one spell going that can help them disrupt the concentration of enemy spellcasters.
 
 
 \columnbreak
@@ -2047,7 +2042,7 @@ The following tables describe the number of items <br> and value of those items 
 |  21-23 | 1d6(3) 100gp Items |  
 |  24+ |  1d4(2) 200gp Items |  
 
-### Art Credit
+### Bray Shaman Art Credit
 * Ragemonger - Karl Kopinski, Wizards of the Coast
 * Soulreaper of Mogis - Dmitry Burmak, Wizards of the Coast
 * Oracle of Bones - Greg Staples, Wizards of the Coast
@@ -3363,7 +3358,7 @@ You can give the different types of items unique names based on their material a
 * Bestial Spirit 1.0.0
 * Call of the Pack 1.0.0
 * Impenetrable Pelt 1.0.0
-* Monstrous Transformation 1.1.0
+* Monstrous Transformation 1.1.1
 * Primal Dominance 1.0.0
 * Summon Flock 1.0.0
 * Wild Surge 1.0.0
@@ -3393,9 +3388,9 @@ You can give the different types of items unique names based on their material a
 * Mad Rampage 1.0.0
 * Mystic Signal 1.0.0
 * Primal Scream 1.0.0
-* Savage Dominion 1.0.0
-* Traitor-Kin 1.0.0
-* Vile Tide 1.0.0
+* Savage Dominion 1.0.1
+* Traitor-Kin 1.0.1
+* Vile Tide 1.1.0
 
 ## Local Content
 ### New Creatures
