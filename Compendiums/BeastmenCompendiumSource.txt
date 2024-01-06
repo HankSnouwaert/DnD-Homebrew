@@ -1507,7 +1507,7 @@ style='position:absolute;top:-40px;right:-200px;width:1200px;transform: scaleX(1
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## Bray Shaman
+## Bray Shamans
 
 
 Beastman bray shamans occupy a <br> mystical and revered position within the <br> beastmen society, serving as the conduit between <br> the physical world and the dark, chaotic realms of their deities. Adorned with gnarled staves and a collection of arcane charms, icons, and fetishes - many of which are intricately woven into their fur - bray shamans present an eerie and formidable presence. 
@@ -1856,7 +1856,7 @@ Select one of the following lores or magic to determine <br> a great bray shaman
 >
 > ##### **Spell List:**
 > **At will:** *druidcraft*, *infestation*** (3d6)<br>
-> 1/Day: *devolve** (3rd level), *find the path*, *mystic signal**, *mad rampage**, *primal scream**, *savage dominion**, *vile tide**
+> **1/Day:** *devolve** (3rd level), *find the path*, *mystic signal**, *mad rampage**, *primal scream**, *savage dominion**, *vile tide**
 
 
 <img src='https://i.postimg.cc/hv2yX8qv/Felhide-Spiritbinder-Mt-G-Art.jpg' style='position:absolute; top:-30px; right:-0px; width:870px; transform: scaleX(-1)' />
@@ -1981,7 +1981,7 @@ The choices are:
 
 **Vile Tide:** This should be used when it can target two or more opponents or disrupt a spell-concentrating foe, especially if *devolve* has already been used on them.
 
-**Bray Scream:** This should be reserved for critical moments. It's typically cast on the shaman itself or on powerful allies like a warhorn or a creature summoned by *savage domain*. It's most effective when the targeted unit is at half-health and can affect at least two foes with the scream.
+**Primal Scream:** This should be reserved for critical moments. It's typically cast on the shaman itself or on powerful allies like a warhorn or a creature summoned by *savage domain*. It's most effective when the targeted unit is at half-health and can affect at least two foes with the scream.
 
 **Devolve:** This spell is saved for when the shaman can target an enemy spellcaster with it.
 
@@ -2704,7 +2704,7 @@ ___
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|18 (+4)|14 (+2)|18 (+4)|8 (-1)|16 (+3)|12 (+1)|
 >___
-> - **Saving Throws** Str +7, Dex +5, Int +2, Cha +6
+> - **Saving Throws** Str +7, Dex +5, Int +2, Cha +4
 > - **Skills** Athletics +7, Perception +9, Intimidation +7, Stealth +5, Survival +6
 > - **Senses** darkvision 60 ft., passive Perception 16
 > - **Languages** Abyssal
@@ -3238,7 +3238,7 @@ The Dark Omen can cast this spell at will and should always have it active so th
 ##### Withering Resolve
 Cast this spell on creatures likely to interfere with The Dark Omen's Unholy Frenzy checks, particularly targets lacking proficiency in Wisdom saving throws.
 
-##### Bray Scream
+##### Primal Scream
 * **Use Case 1:** Cast when it can affect more than two targets.
 * **Use Case 2:** Cast if The Dark Omen is airborne and is confronted by another flying opponent with low Constitution.
 
@@ -3410,7 +3410,7 @@ You can give the different types of items unique names based on their material a
 * Longhorn Ravager 1.0.0
 * Besthorn 1.0.0
 * Besthorn Manripper 1.0.0
-* Warhorn 1.0.0
+* Warhorn 1.1.0
 * Beastlord 1.0.0
 
 #### The Dark Omen
@@ -3465,3 +3465,6 @@ You can give the different types of items unique names based on their material a
 * Add remainder of spells
 * Update intro pages
 * Complete table of contents
+
+#### 0.14.0
+* Fix Cha save bonus of Warhorn
