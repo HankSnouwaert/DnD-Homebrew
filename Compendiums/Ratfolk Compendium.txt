@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p4:after, .phb#p5:after, .phb#p7:after, .phb#p9:after, .phb#p11:after, .phb#p12:after, .phb#p14:after, .phb#p16:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p24:after, .phb#p25:after, .phb#p30:after, .phb#p33:after, .phb#p38:after, .phb#p39:after, .phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p43:after, .phb#p44:after, .phb#p50:after, .phb#p53:after, .phb#p54:after, .phb#p61:after, .phb#p63:after  {
+    .phb#p3:after, .phb#p5:after, .phb#p9:after, .phb#p10:after, .phb#p11:after, .phb#p13:after, .phb#p14:after, .phb#p15:after, .phb#p17:after, .phb#p20:after, .phb#p22:after, .phb#p25:after, .phb#p26:after, .phb#p29:after, .phb#p31:after, .phb#p32:after, .phb#p34:after, .phb#p38:after, .phb#p40:after, .phb#p42:after, .phb#p43:after, .phb#p46:after, .phb#p47:after, .phb#p48:after, .phb#p51:after, .phb#p52:after, .phb#p53:after, .phb#p54:after, .phb#p57:after, .phb#p58:after, .phb#p59:after, .phb#p65:after, .phb#p67:after, .phb#p69:after, .phb#p70:after, .phb#p72:after, .phb#p74:after, .phb#p80:after, .phb#p81:after, .phb#p82:after, .phb#p84:after, .phb#p85:after, .phb#p89:after, .phb#p90:after, .phb#p92:after, .phb#p96:after, .phb#p99:after, .phb#p100:after, .phb#p101:after, .phb#p102:after, .phb#p103:after, .phb#p104:after, .phb#p105:after, .phb#p106:after, .phb#p107:after, .phb#p113:after, .phb#p114:after, .phb#p117:after, .phb#p120:after   {
         display          : none;
     }
     /* End Footers */
@@ -74,42 +74,95 @@ The document contains ratfolk-themed player options, including a player race, ra
 
 - ## Table of Contents
     - [<span>3</span><span>Introducing Ratfolk</span>](#p3)
-- ### [<span>10</span><span>Running Ratfolk  Adventures</span>](#p10)
-  - [<span>2</span><span>General Ratfolk Clans</span>](#p2)
-  - [<span>3</span><span>Ratfolk Ninja Clans</span>](#p3)
-- ### [<span>10</span><span>New Player Options</span>](#p10)
-  - [<span>10</span><span>Player Race: Ratfolk</span>](#p10)
+- ### [<span>4</span><span>Running Ratfolk  Adventures</span>](#p4)
+  - [<span>4</span><span>General Ratfolk Clans</span>](#p4)
+  - [<span>5</span><span>Ratfolk Ninja Clans</span>](#p5)
+  - [<span>6</span><span>Ratfolk Engineers</span>](#p6)
+- ### [<span>7</span><span>New Player Options</span>](#p7)
+  - [<span>7</span><span>Player Race: Ratfolk</span>](#p7)
+  - [<span>8</span><span>New Ratfolk Feats</span>](#p8)  
   - [<span>11</span><span>New Items</span>](#p11)
-  - [<span>16</span><span>New Spells</span>](#p16)
-  - [<span>16</span><span>New Magic Items</span>](#p16)
-- ### [<span>20</span><span>New Types of Items</span>](#p20)
-  - #### [<span>20</span><span>Two-Creature Weapons</span>](#p20)
-    - [<span>41</span><span>Two-Creature Weapon Rules</span>](#p41)
-    - [<span>41</span><span>Poisoned Wind Mortars</span>](#p41)
-    - [<span>41</span><span>Ratling Guns</span>](#p41) 
-    - [<span>41</span><span>Warpfire Throwers</span>](#p41) 
-    - [<span>41</span><span>Warp Grinders</span>](#p41) 
-    - [<span>41</span><span>Warplock Jezzails</span>](#p41) 
-    - [<span>41</span><span>Two-Creature Weapon Loot</span>](#p41) 
-  - #### [<span>30</span><span>Siege Weapons</span>](#p30)
-    - [<span>41</span><span>Siege Weapon Rules</span>](#p41)
+  - [<span>15</span><span>New Spells</span>](#p15)
+    - [<span>15</span><span>Lore of Vermin</span>](#p15) 
+    - [<span>19</span><span>Lore of Stealth</span>](#p19) 
+  - [<span>21</span><span>New Magic Items</span>](#p21)
+    - [<span>15</span><span>Ninja Ratfolk Magic Items</span>](#p15) 
+    - [<span>19</span><span>Ratfolk Engineer Magic Items</span>](#p19) 
+- ### [<span>20</span><span>Two-Creature Weapons Teams</span>](#p20)
+    - [<span>24</span><span>Two-Creature Weapon Rules</span>](#p24)
+    - [<span>24</span><span>Two-Creature Weapon Attributes</span>](#p24)
+    - [<span>26</span><span>Poisoned Wind Mortars</span>](#p26)
+    - [<span>28</span><span>Ratling Guns</span>](#p28) 
+    - [<span>30</span><span>Warpfire Throwers</span>](#p30) 
+    - [<span>32</span><span>Warp Grinders</span>](#p32) 
+    - [<span>35</span><span>Warplock Jezzails</span>](#p35) 
+    - [<span>38</span><span>Two-Creature Weapon Loot</span>](#p38) 
+- ### [<span>39</span><span>Siege Weapons</span>](#p39)
+    - [<span>39</span><span>Siege Weapon Attributes</span>](#p39)
     - [<span>41</span><span>Warp Lightning Cannons</span>](#p41)
-  - #### [<span>37</span><span>Self-Powered Vehicles</span>](#p37)
-    - [<span>41</span><span>Self-Powered Vehicle</span>](#p41)
-    - [<span>41</span><span>Doom Flayers</span>](#p41)
-    - [<span>41</span><span>Doom Wheels</span>](#p41)
-- ### [<span>20</span><span>New Creatures</span>](#p20)
-    - #### [<span>20</span><span>Ratfolk Soldiers & Seers</span>](#p20)
-    - #### [<span>20</span><span>Rats</span>](#p20)
-    - #### [<span>20</span><span>Ninja Ratfolk</span>](#p20)
-    - #### [<span>20</span><span>Rat Monstrosities</span>](#p20)
-    - #### [<span>20</span><span>Ratfolk Engineers</span>](#p20)
-        - [<span>41</span><span>Snow Leopards</span>](#p41)
-        - [<span>46</span><span>Stonehorns</span>](#p46)
-        - [<span>51</span><span>Yetis</span>](#p51)
-        - [<span>59</span><span>Zheng</span>](#p59)
-- ### [<span>20</span><span>Example Encounters</span>](#p20)
--  [<span>65</span><span>Encounter: Rise Of The Gorilla God</span>](#p65)
+- ### [<span>45</span><span>Self-Propelled Vehicles</span>](#p45)
+    - [<span>45</span><span>Self-Propelled Vehicle Rules</span>](#p45)
+    - [<span>46</span><span>Self-Propelled Vehicle Attributes</span>](#p46)    
+    - [<span>48</span><span>Doom Flayers</span>](#p48)
+    - [<span>51</span><span>Doom Wheels</span>](#p51)
+- ### [<span>56</span><span>Ratfolk Creatures</span>](#p56)
+    - #### [<span>56</span><span>Rats</span>](#p56)
+        - [<span>56</span><span>Rat</span>](#p56)
+        - [<span>57</span><span>Rat, Giant</span>](#p57)
+        - [<span>57</span><span>Rat, Monstrous</span>](#p57)
+        - [<span>58</span><span>Rat Swarm</span>](#p58)
+        - [<span>59</span><span>Rat Tide</span>](#p59)
+        - [<span>59</span><span>Rat Queen</span>](#p59)
+    - #### [<span>61</span><span>Rat Monstrosities</span>](#p61)
+        - [<span>61</span><span>Brood Horror</span>](#p61)
+        - [<span>62</span><span>Hell Pit Abominations</span>](#p62)
+        - [<span>64</span><span>Rat Ogres</span>](#p64)
+        - [<span>65</span><span>Wolf Rats</span>](#p65)
+- ## [<span></span></span>]()
+    -  #### [<span>67</span><span>Ninja Ratfolk</span>](#p67)
+        - [<span>67</span><span>Ratfolk Deathmaster</span>](#p67)
+        - [<span>69</span><span>Ratfolk Death Runner</span>](#p69)
+        - [<span>70</span><span>Ratfolk Death Runner of Renown</span>](#p70) 
+        - [<span>71</span><span>Ratfolk Gutter Runner</span>](#p71)
+        - [<span>72</span><span>Ratfolk Night Runner</span>](#p72)
+        - [<span>73</span><span>Ratfolk Ninja Assassin</span>](#p73)
+        - [<span>74</span><span>Ratfolk Master Assassin</span>](#p74)
+        - [<span>75</span><span>Ratfolk Ninja Sorcerer</span>](#p75)
+        - [<span>76</span><span>Ratfolk Triad</span>](#p76)
+        - [<span>77</span><span>Ratfolk Triad of Duplicity</span>](#p77)
+    - #### [<span>79</span><span>Ratfolk Packmaster</span>](#p79)
+    - #### [<span>80</span><span>Ratfolk Plague Censer Bearers</span>](#p80)
+    - #### [<span>81</span><span>Ratfolk Poisoned Wind Bombardiers</span>](#p81)
+        - [<span>81</span><span>Ratfolk Poisoned Wind Bombardier</span>](#p81)
+        - [<span>82</span><span>Ratfolk Death Globe Bombardier</span>](#p82)
+    - #### [<span>84</span><span>Ratfolk Soldiers & Seers</span>](#p84)
+        - [<span>84</span><span>Ratfolk Chieftains</span>](#p84)
+        - [<span>85</span><span>Ratfolk Clan Rats</span>](#p85)
+            - [<span>85</span><span>Ratfolk Clan Rat</span>](#p85)
+            - [<span>86</span><span>Ratfolk Volcanic Slasher</span>](#p86)
+        - [<span>87</span><span>Ratfolk Grey Seer</span>](#p87)
+        - [<span>88</span><span>Ratfolk Slave</span>](#p87)
+        - [<span>89</span><span>Ratfolk Storm Vermin</span>](#p89)
+            - [<span>89</span><span>Ratfolk Storm Vermin</span>](#p89)
+            - [<span>90</span><span>Ratfolk Council Guard</span>](#p90)
+        - [<span>91</span><span>Ratfolk Warlords</span>](#p91)
+    - #### [<span>94</span><span>Ratfolk Warlock Engineers</span>](#p94)
+        - [<span>95</span><span>Ratfolk Warlock Engineer</span>](#p95)
+        - [<span>96</span><span>Ratfolk Warlock Master</span>](#p96)
+        - [<span>97</span><span>Ratfolk Chief Warlock Engineer</span>](#p97)
+        - [<span>103</span><span>Warlock Engineer Tactics</span>](#p103)
+        - [<span>105</span><span>Warlock Engineer Loot</span>](#p105)
+    - #### [<span>106</span><span>Ratfolk Weapons Operators</span>](#p106)
+        - [<span>106</span><span>Ratfolk Weapons Operator</span>](#p106)
+        - [<span>107</span><span>Ratfolk Veteran Weapons Operator</span>](#p107)
+    - #### [<span>109</span><span>Vermin Lords</span>](#p109)
+        - [<span>110</span><span>Vermin Lord Corruptor</span>](#p110)
+        - [<span>111</span><span>Vermin Lord Deceiver</span>](#p111)
+        - [<span>112</span><span>Vermin Lord Warbringer</span>](#p112)
+        - [<span>113</span><span>Vermin Lord Warpseer</span>](#p113)
+- ### [<span>115</span><span>Example Encounters</span>](#p115)
+-  [<span>115</span><span>Encounter: The Vermin Tide</span>](#p115)
+-  [<span>118</span><span>Encounter: The Ruinous Ritual</span>](#p118)
 
 <br><br><br>
 
@@ -163,7 +216,7 @@ In some settings, ratfolk take names similar to those of nearby humanoids.  Othe
 #### Art Credit
 Nezumi Graverobber - Jim Nelson, Wizards of the Coast
 
-<img src='https://i.ibb.co/yQKYtjn/nezumi-graverobber-nighteyes-the-desecrator.png' style='position:absolute;left:-40px;bottom:-0px;width:940px;transform:rotate(180deg)' />
+<img src='https://i.ibb.co/yQKYtjn/nezumi-graverobber-nighteyes-the-desecrator.png' style='position:absolute;left:-40px;bottom:-3px;width:945px;transform:rotate(180deg)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:-60px;top:-530px;height:1400px;width:1416px;transform:rotate(2deg)' />
@@ -1254,7 +1307,7 @@ At the end of each of its turns, a creature poisoned this way can repeat the Con
 ## New Magic Items
 As creatures who are always looking for ways to tip the odds in their favor, ratfolk are quick to utilize a variety of magic items. The following are examples of magic items that are commonly utilized by ratfolk and less often found in the hands of other creatures. The items are divided into sections based on theme; the warp stone tokens listed below don't belong to any given theme as they are commonly used by most ratfolk.
 
-#### Warp Stone Token 1.0.0
+#### Warp Stone Token 
 *Wonderous item, rare, 200g*<br>
 These palm-size wafers of magical minerals can be consumed to boost one's magical abilities. However, their hazardous nature means most non-ratfolk creatures aren't willing to take such a reckless risk for the extra power.
 
@@ -4895,7 +4948,7 @@ Death globe bombardiers are often assigned critical missions that require the co
 
 ___
 ___
-> ## Ratfolk Death Globe Bombardiers
+> ## Ratfolk Death Globe Bombardier
 >*Medium humanoid (ratfolk), chaotic evil*
 > ___
 > - **Armor Class** 15 (chain shirt)
@@ -5010,7 +5063,7 @@ You can give the different types of items unique names based on their material a
 ## Ratfolk Soldiers & Seers
 The following creatures represent the ratfolk who make up the bulk of their combat-ready forces, including their martial and mystical leadership.
 
-### Chieftains
+### Ratfolk Chieftains
 These ratfolk occupy some of the highest positions of authority within their society. Chieftans are accomplished warriors and commanders who often command smaller groups of ratfolk within a clan. They usually answer to a more powerful warlord who may have several chieftains at his command. Though they must obey their commander without question, chieftains usually rule their given domain with absolute authority and quickly quash any potential usurpers. By the same token, chieftains usually eye the position of warlord with envy, and those who are bold and opportunistic enough will eventually make a bid for greater power. 
 
 In combat, chieftains command other ratfolk much the same way as their warlord superiors. They possess elite training, equipment, and resolve, and their commanding presence helps keep other ratfolk from routing. As such, chieftains are often put in command of strike forces charged with dangerous missions that require higher levels of bravery than ratfolk are typically inclined to provide.
@@ -5137,7 +5190,7 @@ ___
 
 
 
-### Clan Rats
+### Ratfolk Clan Rats
 
 Ratfolk are a prolific, though short-lived, race. They rarely want for numbers, though few of their kind have the opportunity to develop specialized skills. In battle, ratfolk clans leverage the quantity-over-quality approach of their race to field overwhelming numbers of otherwise unremarkable troops. All healthy ratfolk are equipped with basic weapons and armor and given enough rudimentary training to put it to use. These clan rats then utilize their overwhelming mass to break enemy fighters they would otherwise be unable to defeat in a one-on-one fight.
 
@@ -5250,7 +5303,7 @@ ___
 \pagebreakNum
 
 
-### Grey Seers
+### Ratfolk Grey Seers
 
 These eldritch ratfolk are born with grey or white fur and small horns that set them apart from their kin and mark them for a path of arcane greatness. They are trained to be grey seers, the spiritual leaders of ratfolk society who serve as messengers for their verminous god. This position of divine authority allows grey seers to remain somewhat above the petty machinations and power plays of other ratfolk, and even powerful warlords are weary of incurring the ire of a grey seer and, by proxy, its rat god.
 
@@ -5378,7 +5431,7 @@ style='position:absolute;right:-80px;top:160px;height:1400px;width:1416px;transf
 
 \pagebreakNum
 
-### Storm Vermin
+### Ratfolk Storm Vermin
 
 
 These ratfolk soldiers are the most massive and elite of their kind. Future storm vermin are identified at a young age by their clan as their size, aggressiveness, and dark fur easily distinguish them from the rest of their litter. They are then raised via brutal training regiments designed to shape them into elite warriors. Packs of storm vermin are given the best equipment in the clan and go on to serve as heavy infantry and personal retinues for powerful ratfolk commanders.
@@ -5490,7 +5543,7 @@ ___
 
 
 
-### Warlords
+### Ratfolk Warlords
 
 Though ratfolk aren’t known for their valor or powers of leadership, those that rise to the top of their martial <br> hierarchy possess an underhanded ferocity that can’t <br> be denied. These warlords combine martial skill, <br> devious tactics, and the ability to rally their otherwise <br> cowardly kin, making them foes that are <br> underestimated all too often. Even when a ratfolk <br> force appears to be routing, one rallying cry from <br> their warlord can turn them from a fleeing army <br> to one that’s quickly overwhelming their <br> overconfident enemies. 
 
