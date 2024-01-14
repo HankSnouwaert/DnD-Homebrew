@@ -17,12 +17,7 @@
         text-shadow      : 0px 0px 5px white;
     }
 
-    
-        /* Hide the footer on some pages */
-    .phb#p3:after  {
-        display          : none;
-    }
-    /* End Footers */
+
 
     .phb hr + hr + section blockquote {
     
@@ -139,7 +134,7 @@ ___
 >*Large construct, unaligned*
 > ___
 > - **Armor Class** 18 (natural armor)
-> - **Hit Points** 106 (10d10 + 30)
+> - **Hit Points** 110 (13d10 + 39)
 > - **Speed** 50 ft., burrow 50 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -166,7 +161,7 @@ ___
 > 
 > ***Immutable Form.*** The stalker is immune to any spell or effect that would alter its form.
 >
-> ***Living Mirage (1/Day).*** On initiative count 20 (losing initiative ties), if the stalker is not incapacitated, it may animate a 10-foot cube of sand into a double of itself. The stalker can swap places with the double when it is created. 
+> ***Living Mirage (1/Day).*** On initiative count 20 (losing initiative ties), if the stalker is not incapacitated, it may animate a 10-foot cube of sand with in 30 feet of it that it can see into a double of itself. The stalker can swap places with the double when it is created. 
 > 
 > The double shares the stalker's initiative count and has the same statistics as the stalker, except it has Intelligence 1 and Charisma 1, lacks this feature, and creatures automatically pass saves against its Transmogrifying Gaze ability. 
 > 
@@ -262,5 +257,8 @@ You can give the different types of items unique names based on their material a
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
+
+#### 1.1.0
+* Fix HP of Eyes of the Desert
