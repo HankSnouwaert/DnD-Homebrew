@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after  {
+    .phb#p3:after, .phb#p4:after, .phb#p5:after, .phb#p6:after, .phb#p8:after, .phb#p9:after, .phb#p11:after, .phb#p12:after  {
         display          : none;
     }
     /* End Footers */
@@ -72,7 +72,7 @@ In terms of behavior, pudus are herbivorous, feeding primarily on leaves, twigs,
 
 Survival for pudus involves a blend of agility and instinct. They are adept at escaping predators, using rapid, zig-zag running patterns and their ability to swim. These tactics are a testament to their adaptability and resilience in the wild, which belies their small and seemingly helpless appearance. 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ___
 > ## Pudu
@@ -80,7 +80,7 @@ ___
 > ___
 > - **Armor Class** 13
 > - **Hit Points** 2 (1d4)
-> - **Speed** 40 ft., climb 20 ft.
+> - **Speed** 40 ft., swim 20 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -93,14 +93,14 @@ ___
 >
 > ***Charge.*** If the pudu moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 1 damage.
 >
+> ***Keen Hearing and Smell.*** The pudu has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
 > ### Actions
 > ***Ram.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 bludgeoning damage.
 >
-> ***Hooves.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 bludgeoning damage.
->
 > ### Reactions
 >
-> ***Back Kick.*** If a creature makes an opportunity attack against the pudu, the pudu may make a Hooves attack against the creature with disadvantage after the attack.
+> ***Zig-Zag.*** If a creature makes an opportunity attack against the pudu, the pudu imposes disadvantage on the attack roll.
 
 <img src='https://i.ibb.co/6gMzMGz/640px-Pudu-mephistophiles.png' style='position:absolute; top:-100px; right:-0px; width:820px; transform: scaleX(1)' />
 
@@ -133,6 +133,8 @@ ___
 >
 > ***Charge.*** If the deer moves at least 20 ft. straight toward a target and then hits it with a Ram attack on the same turn, the target takes an extra 2 (1d4) damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.
 >
+> ***Keen Hearing and Smell.*** The deer has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
 > ### Actions
 > ***Ram.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.
 >
@@ -151,7 +153,7 @@ Fallow deer are skilled at adapting to various environments. Their ability to ru
 In the realms they inhabit, fallow deer are admired for their beauty and the sense of tranquility they bring to their surroundings. Their grazing habits play a significant role in shaping the vegetation of their habitats, underlining their importance in the ecological balance of their ecosystems. Wilderness protectors such as druids and rangers ensure their numbers remain robust as they are vital to the health of their environment and provide an important food source to most large predators. 
 
 
-<img src='https://i.ibb.co/3dFt57t/Fallow-Deer-3.jpg' style='position:absolute; bottom:-10px; right:-280px; width:930px; transform: scaleX(1)' />
+<img src='https://i.ibb.co/3dFt57t/Fallow-Deer-3.jpg' style='position:absolute; bottom:-50px; right:-270px; width:977px; transform: scaleX(1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:95px;top:5px;height:1400px;width:1416px;transform:rotate(270deg)' />
@@ -191,6 +193,8 @@ ___
 >
 > ***Charge.*** If the caribou moves at least 20 ft. straight toward a target and then hits it with a Ram attack on the same turn, the target takes an extra 3 (1d6) damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 >
+> ***Keen Hearing and Smell.*** The caribou has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
 > ### Actions
 > ***Ram.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage.
 >
@@ -212,7 +216,7 @@ Known for their impressive stature and striking antlers, elk are among the large
 
 Elk are known for their herd behavior. While females and young typically form large herds, males may either join these herds or form smaller groups of their own. These herds are dynamic and can change in size and composition with the seasons. Elks' diet is predominantly grass-based, but they also feed on leaves, bark, and shrubs, showing adaptability in their feeding habits to suit the environment.
 
-During mating season, bulls engage in dramatic displays of strength and dominance to attract mates, including bugling, a loud series of vocalizations, and displaying their antlers. Calves are born with spotted coats for camouflage, a critical survival trait in their early days.
+
 
 ___
 > ## Elk
@@ -233,6 +237,8 @@ ___
 >
 > ***Charge.*** If the elk moves at least 20 ft. straight toward a target and then hits it with a Ram attack on the same turn, the target takes an extra 4 (1d8) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
 >
+> ***Keen Hearing and Smell.*** The elk has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
 > ### Actions
 > ***Ram.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage.
 >
@@ -244,14 +250,16 @@ ___
 
 \columnbreak
 
+During mating season, bulls engage in dramatic displays of strength and dominance to attract mates, including bugling, a loud series of vocalizations, and displaying their antlers. Calves are born with spotted coats for camouflage, a critical survival trait in their early days.
+
 Survival for elk involves a blend of physical prowess and keen instincts. Their large size and strength are their primary defenses against predators. Additionally, their acute hearing and sense of smell enable them to detect danger early. These senses, combined with their speed and power, allow them to fight or flee depending on the threat they face.
 
 In the various realms they inhabit, elk are revered for their beauty and strength. Their majestic presence and mighty antlers make them a prized game for hunters, and many grand hunts focus center on the pursuit of a majestic elk. Creatures tied to the fey wild, such as elves, sometimes utilize elk as swift and powerful mounts, allowing them to gracefully bound through the wilds before crashing into foes with the antlers of their wild steed.
 
-<img src='https://i.ibb.co/317kDPK/Wapiti-American-Elk.jpg' style='position:absolute; top:210px; right:-90px; width:650px; transform: scaleX(1)' />
+<img src='https://i.ibb.co/317kDPK/Wapiti-American-Elk.jpg' style='position:absolute; top:270px; right:-90px; width:650px; transform: scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-style='position:absolute;right:-200px;top:-740px;height:1400px;width:1416px;transform:rotate(0deg)' />
+style='position:absolute;right:-200px;top:-670px;height:1400px;width:1416px;transform:rotate(0deg)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:130px;top:5px;height:1400px;width:1416px;transform:rotate(282deg)' />
@@ -272,7 +280,7 @@ During mating season, male moose engage in <br> fierce competitions for the atte
 
 Once they are fully grown, moose can rely on <br> their size and strength to fend off threats. Their <br> large antlers serve as a deterrent to predators, <br> and their long legs are capable of powerful kicks. <br> Moose are also excellent swimmers, an ability that <br> aids them in foraging for aquatic plants and <br> escaping predators.
 
-As some of the most imposing creatures of their <br> northern habits, moose are often utlized as prized <br> guardians and steeds by druids. Moose are typically <br> not trainable by mundane means, and only those <br> with a supernatural connection to the wild can hope <br> to leverage the mighty strength of these majestic <br> creatures.
+As some of the most imposing creatures of their <br> northern habits, moose are often utlized as prized <br> guardians and steeds by druids. Moose are typically <br> not trainable by mundane means, and only those <br> with a supernatural connection to the wild can hope <br> to leverage their mighty.
 
 \columnbreak
 
@@ -283,7 +291,7 @@ ___
 > ___
 > - **Armor Class** 12 (natural armor)
 > - **Hit Points** 37 (5d10 + 10)
-> - **Speed** 50 ft.
+> - **Speed** 50 ft., swim 30 ft
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -294,7 +302,11 @@ ___
 > - **Challenge** 1 (200 XP) &emsp;&emsp; **Proficiency Bonus** +2
 > ___
 >
-> ***Charge.*** If the moose moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 5 (1d10) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
+> ***Charge.*** If the moose moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 5 (1d10) piercing damage. 
+> 
+> If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
+>
+> ***Keen Hearing and Smell.*** The Moose has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 >
 > ### Actions
 > ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage.
@@ -328,7 +340,7 @@ Survival for megaloceros, given their size and habitat, involves a blend of shee
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ___
 > ## Megaloceros
@@ -348,6 +360,8 @@ ___
 > ___
 >
 > ***Charge.*** If the megaloceros moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
+>
+> ***Keen Hearing and Smell.*** The Moose has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 >
 > ### Actions
 > ***Gore.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 12 (2d6 + 5) piercing damage.
@@ -399,6 +413,8 @@ ___
 > ***Ice Antlers.*** At the end of the caribou's turn, a pair of large ice antlers grow from its head. The caribou loses these antlers if it takes 5 or more fire damage from a single source.
 >
 > ***Ice Walk.*** The caribou can move across and climb icy surfaces without needing to make ability checks. Icy surfaces can't cause it to fall prone. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement.
+>
+> ***Keen Hearing and Smell.*** The caribou has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 >
 > ***Shattering Charge.*** If the caribou moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone. If the caribou has ice antlers, they shatter after the attack, even if it misses. The target and each creature within 5 feet of it must make a DC 14 Dexterity saving throw, taking 14 (4d6) cold damage on a failed save or half as much on a successful save.
 > 
@@ -454,6 +470,8 @@ ___
 > ***Charge.*** If the caribou moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
 >
 > ***Illumination.*** The caribou sheds magical bright light in a 10-foot radius and magical dim light for an additional 10 feet.
+>
+> ***Keen Hearing and Smell.*** The caribou has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 > 
 > ### Actions
 >
@@ -475,13 +493,46 @@ style='position:absolute;right:00px;top:-520px;height:1400px;width:1416px;transf
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### Deer Steeds & Familars
+> The following deer can be summoned via spells that summon steeds or familiars: <br>
+> &#8226; *Find Familiar*: **Pudu** <br>
+> &#8226; *Find Steed*: **Elk** <br>
+> &#8226; *Find Greater Steed*: **Cosmic Caribou** <br>
+
+<br>
+
 ### Deer Tactics
 Most deer, from tiny pudus to supernatural caribou, generally don't seek out combat as they are herbivores. If there is some supernatural compulsion driving them to attack, they will utilize hit-and-run tactics. They charge in with their horns before running out of reach to repeat the process on their next turn, using their Back Kick against anyone who makes an opportunity attack against them.
 
 #### Ice Caribou
 These creatures will focus on bringing down anyone capable of dealing fire damage. Their ice attacks help enable their hit-and-run tactics by slowing down their targets.
 
-<img src='https://i.ibb.co/pRrk1h4/fey-steed.png' style='position:absolute; top:0px; right:-140px; width:820px; transform: scaleX(1)' />
+\columnbreak
+
+### Deer Adventure Hooks
+
+| d10  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **The Vanishing Pudu:** A group of sacred pudu have mysteriously disappeared from the woods. A local druid fears that the disappearance is linked to a disturbance in the natural balance and asks the adventurers to track down the pudu.|
+|  2  |**The Enchanted Stag:** A legendary fallow deer stag with a coat that shimmers like the night sky is said to roam the forest. A local noble offers a handsome reward for its capture, believing it will bring prestige. The adventurers must decide whether to protect the mystical creature or capture it for the bounty.|
+|  3 | **The Vanishing Caribou:** A tribe in the far north relies on caribou for their survival. Recently, the caribou herds have been mysteriously disappearing. The tribe seeks the adventurers' help to investigate. They must track the herds across icy tundras, facing harsh weather and whatever threatens the caribou. |
+|  4  |**The Elk Stampede:** An unprecedented natural event causes a massive elk stampede that threatens to overrun nearby settlements. The adventurers must find a way to safely redirect the stampede and discover what caused this unusual behavior.|
+|  5  |**The Mooseback Marauders:** A notorious gang of ranger-bandits, known as the Mooseback Marauders, has been raiding caravans along a critical trade route. Riding their formidable moose mounts, they're too fast and powerful for regular patrols to catch, and the adventurers are hired to put an end to their raids.  |
+|  6  | **The Cursed Megaloceros:** A herd of cursed megaloceros revived from ancient times by dark magic is terrorizing the countryside, leaving destruction in its wake. The adventures have been tasked with finding a way to end the curse or put the herd to rest.|
+|  7  | **The Frozen Herd:** A herd of ice caribou, essential for maintaining the balance of a mystical winter landscape, has started to mysteriously disappear. The adventurers are hired to track down the missing caribou, leading them into a perilous frozen wilderness.|
+|  8  |  **The Caribou Glade:** The players enter a winter glade populated by icy caribou under the thrall of a wicked crone. Can they defeat the crone and free the hostile caribou without harming them?|
+|  9  |**The Celestial Convergence:** A herd of celestial caribou gathers at a sacred glade to perform a mystical ritual that maintains the harmony of the stars and the natural world. This time, however, dark forces seek to disrupt the convergence. The adventurers must protect the caribou and ensure the completion of their celestial ritual. |
+|  10  |  **The Cosmic Sleigh:** The players must gain the aid of cosmic caribou, who can pull a sacred sleigh needed for a sacred arctic mission. Players must find a way to summon the caribou and prove their worth through a test of strength to secure their service. |
+
+<img src='https://i.ibb.co/pRrk1h4/fey-steed.png' style='position:absolute; top:-4px; left:-110px; width:750px; transform: scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-640px;top:-325px;height:1400px;width:1416px;transform:rotate(-270deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-100px;top:160px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
 \pagebreakNum
 
@@ -624,11 +675,3 @@ You can give the different types of items unique names based on their material a
 ### Change Log
 #### 0.0.0
 * Document Creation
-
-<img src='https://i.ibb.co/mtS25Yk/Stampeding-Elk-Herd-Mt-G-Art.jpg' style='position:absolute; bottom:-80px; right:-0px; width:820px; transform: scaleX(1)' />
-
-
-
-\pagebreakNum
-
-<img src='https://i.ibb.co/GV3PVZ1/bellowing-elk.png' style='position:absolute; bottom:-80px; right:-0px; width:820px; transform: scaleX(1)' />
