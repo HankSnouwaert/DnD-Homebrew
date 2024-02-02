@@ -1,0 +1,168 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+ \pagebreak
+___
+> ## Juggernaut
+>*Large fiend (demon of rage), chaotic evil*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 94 (9d10 + 45)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|6 (-2)|20 (+5)|4 (-3)|8 (-1)|4 (-3)|
+>___
+> - **Saving Throws** Str +8, Wis +2
+> - **Skills** Intimidation +3
+> - **Damage Resistances** cold, lightning
+> - **Damage Immunities** poison, fire
+> - **Condition Immunities** poisoned
+> - **Senses** darkvision 120 ft., passive Perception 10
+> - **Languages** understands Abyssal but can't speak
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +3       
+> ___
+>
+> ***Brass Behemoth.*** Any creature mounted on the juggernaut benefits from half cover.
+>
+> ***Brass Body.*** The juggernaut is made of demon flesh and brass fused as one. It is treated as a construct for effects that specify constructs, such as a *cure wounds* spell or a ranger’s Primeval Awareness.
+>
+> ***Magic Resistance.*** The juggernaut has advantage on saving throws against spells and other magical effects.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 19 (3d8 + 6) piercing damage. If the juggernaut moved at least 20 feet straight toward the target immediately before hitting, the target takes an extra 9 (2d8) piercing damage, and, if the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the juggernaut can make one Pulverizing Stomp attack against it as a bonus action. NOTE: Does knocking the target prone require the charge?
+>
+> ***Pulverizing Stomp.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one prone target. *Hit:* 22 (3d10 + 6) bludgeoning damage. A prone creature cannot stand up until the end of the juggernaut's next turn unless it uses all of its movement to make a DC 16 Constitution saving throw, standing up on a success.
+
+
+\pagebreakNum
+
+___
+> ## Searing Juggernaut
+>*Large fiend (demon of rage), chaotic evil*
+> ___
+> - **Armor Class** 18 (natural armor)
+> - **Hit Points** 105 (10d10 + 50)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|6 (-2)|20 (+5)|4 (-3)|8 (-1)|4 (-3)|
+>___
+> - **Saving Throws** Int +0, Wis +2, Str +9
+> - **Skills** Intimidation +3
+> - **Damage Resistances** cold, lightning
+> - **Damage Immunities** poison, fire
+> - **Condition Immunities** poisoned
+> - **Senses** darkvision 120 ft., passive Perception 10
+> - **Languages** understands Abyssal but can't speak
+> - **Challenge** 7 (2,900 XP) &emsp;&emsp; **Proficiency Bonus** +3       
+> ___
+>
+> ***Brass Body.*** The juggernaut is made of demon flesh and brass fused as one. It is treated as a construct for effects that specify constructs, such as a *cure wounds* spell or a ranger’s Primeval Awareness.
+>
+> ***Brass Behemoth.*** Any creature mounted on the juggernaut benefits from half cover.
+>
+> ***Magic Resistance.*** The juggernaut has advantage on saving throws against spells and other magical effects.
+>
+> ***Mantle of Immolation.*** The juggernaut emits a 10-foot aura of scorching heat. The first time each turn a creature within the aura takes fire damage, that creature takes an additional 7 (2d6) fire damage, and loses any resistance to fire damage until the end of its next turn. If the juggernaut takes 5 or more cold damage in a single instance, this aura is lost until the end of its next turn. NOTE: Should the wording be "a single source"?
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 19 (3d8 + 6) piercing damage. If the juggernaut moved at least 20 feet straight toward the target immediately before hitting, the target takes an extra 9 (2d8) piercing damage, and, if the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the juggernaut can make one Pulverizing Stomp attack against it as a bonus action. NOTE: Does knocking the target prone require the charge?
+>
+> ***Pulverizing Stomp.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one prone creature. *Hit:* 22 (3d10 + 6) bludgeoning damage plus 1 fire damage. A prone creature cannot stand up until the end of the juggernaut's next turn unless it uses all of its movement to make a DC 16 Constitution saving throw, standing up on a success.
+
+\pagebreakNum
+
+### Juggernaut Tactics
+Juggernauts serve as shock cavalry, often mounted by bloodletters. In combat, a juggernaut charges targets to knock them prone and stomp them. It will then stay in melee range to keep its prey from fleeing without risking an opportunity attack. At the start of its next turn, if the juggernaut has 30 or more hit points, it will back up and charge the target again.
+
+#### Searing Juggernauts
+Searing juggernauts prefer to engage groups of enemies, maximizing the impact of their Mantle of Immolation. They are most effective when paired with creatures that deal fire damage. Since the Mantle of Immolation can be triggered once per turn, a searing juggernaut can activate this ability on its own turn with its Gore or Pulverizing Stomp attacks (Note: Gore doesn't do fire damage). 
+
+
+### Juggernaut Loot
+The bodies of most demons dissolve or fade away when they're slain anywhere but their home plane. However, you may have these demons leave behind traces of themselves to be harvested by players. These items could be fragments of the demons that didn’t dissolve or the players managed to prevent from fading away into the aether. This could be done using an **Intelligence (Arcana)** or **Wisdom (Religion)** check. 
+
+If you don’t want the demons to leave anything behind, you can instead have the players search the area where the demons were slain to see if they find any valuables formed the corrupting presence of the fiends. This could be done using an **Intelligence (Arcana)**, or **Wisdom (Survival)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Juggernaught Loot Table
+The following table describes the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Juggernaut Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1d4(2) 5gp Items |
+|  8-12 | 1d6(3) 5gp Items | 
+|  13-18 | 1d4(2) 10gp Items  |  
+|  19-22 | 1d6(3) 10gp Item |  
+|  23+ |  2d4(5) 10gp Items | 
+
+\columnbreak
+
+##### Searing Juggernaut Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1d4(2) 10gp Items |
+|  7-10 | 1d6(3) 10gp Items | 
+|  11-17 | 2d4(5) 10gp Item  |  
+|  18-22 | 1d6(3) 20gp Item |  
+|  23+ |  2d4(5) 20gp Item | 
+
+
+
+#### Example Juggernaut Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Juggernaut Item Names
+|1d10 |  5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Bone)  |   Cracked War Skull |  War Skull |  Searing War Skull | 
+| 3-4 <br> (Fluid)  | Diluted Juggernaut Blood | Juggernaut Blood | Searing Juggernaut Blood |
+| 5-6 <br> (Flesh)  |   Stringy Juggernaut Flesh | Juggernaut Flesh | Searing Juggernaut Flesh |
+| 7-8 (Hide)  |   Torn Juggernaut Hide | Juggernaut Hide | Searing Juggernaut Hide |
+| 9-10 <br> (Metal) |  Damaged Juggernaut Plate | Juggernaut Plate | Searing Juggernaut Plate |
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0 
+* Document creation
