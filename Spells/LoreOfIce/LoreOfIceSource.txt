@@ -1,4 +1,35 @@
+<style>
 
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -181,15 +212,15 @@ style='position:absolute;bottom:-30px;right:-60px;width:770px;transform: scaleX(
 \pagebreakNum
 
 ### Referenced Content
-* Deathly Frost 0.0.0
-* Frost Blade 0.0.0
+* Deathly Frost 1.0.0
+* Frost Blade 1.0.0
 * Frost Nova 2.0.0
-* Ice Sheet 0.0.0
-* Icy Tomb 0.0.0
-* Soul of Winter 0.0.0
-* Winter's Kiss 0.0.0
+* Ice Sheet 1.0.0
+* Icy Tomb 1.0.0
+* Soul of Winter 1.0.0
+* Winter's Kiss 1.0.0
 
 
 ### Change Log
-#### 0.0.0
+#### 1.0.0
 * Document creation

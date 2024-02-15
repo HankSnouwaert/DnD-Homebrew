@@ -356,6 +356,19 @@ You send a creature into a frenzy that pushes its body beyond its limits. Choose
 
 ***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. All the creatures must be within 30 feet of each other when you target them.
 
+#### Deathly Frost
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 ft
+- **Components:** V, S, M
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Wizard.
+
+You cause a creature to be gripped by freezing cold. Until the spell ends, at the end of each of your turns, if the target is within 90 feet of you, it must make Constitution saving throw. On a failed save, it takes 5d8 cold damage and suffers one level of exhaustion. On a successful save, the creature takes half as much damage and does not suffer a level of exhaustion. A creature immune to cold damage can't gain exhaustion this way. Any levels of exhaustion caused by this spell go away after the spell ends.
+
+\columnbreak
+
 #### Decrepify
 *4th-level necromancy*
 ___
@@ -370,7 +383,7 @@ You attempt to drain the vitality of a creature within range, leaving it feeble 
 
 ***At Higher Levels.*** If you cast this spell using a spell slot of 6th level or higher, the duration becomes 24 hours and the affected creature can only attempt a new saving throw after completing a short or long rest. If you use an 8th-level spell slot, the spell lasts until dispelled and no longer requires Concentration; the affected creature can only attempt a new saving throw after completing a long rest.
 
-\columnbreak
+
 
 #### Elemental Weapon (Revised)
 *3nd-level transmutation*
@@ -419,6 +432,25 @@ Creatures immune to fear automatically succeed on this save.
 
 ***At Higher Levels.*** The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
 
+#### Frost Blade
+*3rd-level evocation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Artificer, Druid, Ranger, Sorcerer
+
+You invoke a sword of sharp ice in your hand or that of another willing creature you can see within range that has a free hand. This magic sword lasts until the spell ends. 
+
+**The Blade's Properties.** It counts as a magical, simple melee weapon with which you and any number of creatures of your choice upon casting the spell are proficient with. It deals 2d10 slashing damage on hit and has the finesse, versatile (2d12), and thrown (range 60/90) properties. 
+
+\columnbreak
+
+**Throwing The Blade.** When a creature uses the sword to make a thrown attack, hit or miss, the weapon explodes, and the spell ends. The target and each creature within 10 feet of it must succeed on a Dexterity saving throw or take 4d6 cold damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you may create an additional sword for every two levels above 3rd level.
+
 #### Fissure
 *6th-level evocation*
 ___
@@ -434,8 +466,6 @@ You strike a non-magical surface, causing a fissure to erupt out from you and sp
 A creature standing in the area of the fissure must succeed on a Dexterity saving throw or fall prone and into the fissure.  Creatures that succeed on the save move to the edge of the fissure and may choose which side it moves to. 
 
 The fissure deals 50 bludgeoning damage to any structure it comes in contact with it when it appears. The fissure lasts indefinitely, and the ground within it is difficult terrain.
-
-\columnbreak
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
 
@@ -455,6 +485,8 @@ You touch up to twelve arrows or bolts. When a target is hit by a ranged weapon 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
 
 
+\pagebreakNum
+
 #### Flame Blade (Revised)
 *2nd-level evocation*
 ___
@@ -471,22 +503,19 @@ The blade remains for the spell's duration. If you let go of the blade, it disap
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional attack with the blade per action for every two slot levels above 2nd.
 
-\pagebreakNum
-
 #### Frost Nova
-*3rd-level evocation*
+*2nd-level evocation*
 ___
 - **Casting Time:** 1 action
-- **Range:** Self (20-foot radius)
-- **Components:** V, S
+- **Range:** Self (15-foot radius)
+- **Components:** V, S, M (a drop of water <br> or piece of ice)
 - **Duration:**   Instantaneous
-- **Classes:**  Wizard, Sorcerer
+- **Classes:**  Sorcerer, Wizard
 ___
 
-You cause a ring of ice and frost to burst out from you to a radius of up to a 20-feet. Each creature other than you in that area must make a Constitution saving throw.
- On a failed save, a creature takes 4d8 cold damage, and until the end of your next turn, its speed is reduced by 20 feet, and it has disadvantage on weapon attack rolls. On a successful save, a creature takes half as much damage and suffers no other effects.
+You cause a ring of ice and frost to burst out from you to a radius of up to a 15-feet. Each creature other than you in that area must make a Constitution saving throw. On a failed save, a creature takes 2d10 cold damage, and until the end of your next turn, its speed is reduced by 20 feet, and it has disadvantage on weapon attack rolls. On a successful save, a creature takes half as much damage and suffers no other effects.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the damage increases by 1d8 and the maximum possible radius increases by 5 feet for each slot level above 3rd.
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, both the damage increases by 1d10, and the maximum possible radius increases by 5 feet for each slot level above 3rd.
 
 \pagebreakNum
 
@@ -561,6 +590,47 @@ At the end of each of its turns, the laughing creature takes 3d10 force damage a
 
 \pagebreakNum
 
+#### Ice Sheet 
+*2nd-level evocation*
+___
+- **Casting Time:** 1 Action
+- **Range:** 30 feet
+- **Components:** S, M (a drop of water or piece of ice)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Druid
+___
+
+A wave of cold 30 feet long and 15 feet wide emanates from you in a direction you choose. The ground in the area is covered with ice, turning it into difficult terrain for the duration. Any surface of a body of water or a liquid that is principally water-based within the area freezes to a depth of 6 inches for the duration. Creatures may move across the frozen surfaces as if they are difficult terrain. 
+
+**Destroying The Ice.** A 5-foot square area of ice can be destroyed by attacking it (AC equal to your spell save; HP 20; vulnerability to fire, thunder bludgeoning damage; immunity to cold, poison, and psychic damage). 
+
+**Slipping On The Ice.** When the ice appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone. 
+
+**Being Caught In The Water.** If a creature is swimming in an area where ice appears, it must make a Strength saving throw instead or become restrained by ice for the duration. A creature restrained by the ice or another creature that can reach it can also use its action to make a Strength check against your spell save DC. On a success, the target is freed. The target is also freed if any ice where at its location is destroyed. On a successful save, the creature can move below or above the now frozen surface.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the length of the line increases by 10 feet for each slot level above 2nd.
+
+#### Icy Tomb
+*5th-level evocation*
+___
+- **Casting Time:** 1 reaction, which you take when you or a creature you can see within range would take damage or make a death saving throw.
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Druid, Sorcerer, Warlock, Wizard
+
+Ice encases one willing Medium or smaller creature you can see within range. It is trapped inside a Medium-sized ice block object that occupies its space for the duration of the spell or until the ice is reduced to 0 hit points. The ice has an AC equal to your spell save; HP 50; vulnerability to fire, thunder bludgeoning damage; immunity to cold, poison, and psychic damage). A creature trapped inside the ice is blinded, restrained, incapacitated, has total cover against attacks and other effects outside the ice, and becomes stable if it is at 0 hit points.
+
+**Casting It As An Action.** You can choose to cast this spell as an action on your turn, choosing any creature within range. If the creature is not willing, it may make a Strength saving throw; on success, the spell ends and has no effect on the creature.
+
+\columnbreak
+
+**Damaging The Ice From Within.** A creature inside the ice can choose to deal bludgeoning damage to the ice equal to 1d6 + its Strength modifier at the end of each of its turns.
+
+**Casting It On Yourself.** If you cast the spell on yourself, it does not require Concentration, and you can choose to end the spell at the start of your turn. 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the ice block gains 10 additional Hit Points for each slot level above 5th.
+
 #### Impending Doom 
 *4th-level enchantment*
 ___
@@ -592,6 +662,8 @@ You weave magic to sheathe a willing creature you can see within range in a laye
 
 ***At Higher Levels.***  When you cast this spell using a spell slot of 6th level or higher, the damage reduction increases by 1 for each slot level above 5th.
 
+\pagebreakNum
+
 #### Incantation of Protection
 *2nd-level abjuration*
 ___
@@ -606,7 +678,6 @@ A barrier of mystical glyphs forms a 10-foot-radius sphere centered on a point y
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot.
 
-\columnbreak
 
 #### Incantation of Zeal
 
@@ -708,24 +779,24 @@ If you take a long or short rest in your new form, only your new form gains the 
 
 ***At Higher Levels.***  When cast using a spell slot of 7th level or higher, the new form gains an additional 25 hit points for each slot level above 6th. If cast using a 9th-level slot, any features the new form can use only once per day can now be used three times per day.
 
-\columnbreak
+
 
 ___
 > ## Feral Manticore
 > *Huge monstrosity, unaligned*
 > ___
-> - **Armor Class** 18 (natural armor)
-> - **Hit Points** 150
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
 > - **Speed** 40 ft., climb 40 ft., fly 50 ft.
 > ___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
 > ___
-> - **Skills** Perception +7, Stealth +7
-> - **Senses** Darkvision 60 ft., passive Perception 17
+> - **Skills** Perception +6, Stealth +6
+> - **Senses** Darkvision 60 ft., passive Perception 16
 > - **Languages** You understand the languages you can speak in your normal form
-> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
 >
 > ***Tail Spikes.*** You have twelve tail spikes.
@@ -746,15 +817,18 @@ ___
 >
 > ***Regrow Spikes (1/Day).*** You regrow all of your spent spikes.
 
+
+
 \pagebreakNum
+
 
 ___
 ___
 > ## Ravenous Hydra
 > *Huge monstrosity, unaligned*
 > ___
-> - **Armor Class** 18 (natural armor)
-> - **Hit Points** 150
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
 > - **Speed** 40 ft., swim 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -763,7 +837,7 @@ ___
 >___
 > - **Senses** Darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
 > - **Languages** You understand the languages you can speak in your normal form
-> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
 >
 > ***Multiple Heads.*** You have five heads. While you have more than one head, you have advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Additionally, you get a +2 bonus to Wisdom (Perception) checks for each head. Whenever you take 25 or more damage in a single turn and still have one or more heads, one head dies.
@@ -785,19 +859,19 @@ ___
 > ## Savage Dragon
 > *Huge dragon, unaligned*
 > ___
-> - **Armor Class** 18 (natural armor)
-> - **Hit Points** 150
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
 > - **Speed** 40 ft., climb 40 ft., fly 60 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|22 (+6)|14 (+2)|20 (+5)|12 (+1)|10 (0)|14 (+2)|
 >___
-> - **Skills** Perception +4
+> - **Skills** Perception +3
 > - **Damage Resistances** The damage type chosen using your Dragon's Power feature
-> - **Senses** Blindsight 30 ft., darkvision 120 ft., passive Perception 14
+> - **Senses** Blindsight 30 ft., darkvision 120 ft., passive Perception 13
 > - **Languages** You understand the languages you can speak in your normal form
-> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +4
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp;&ensp; **Proficiency Bonus** +3
 > ___
 >
 > ***Dragon's Power.*** When you transform into this shape, you choose one of the following damage types: acid, cold, fire, lightning, or poison. This chosen type affects other features.
@@ -1073,6 +1147,25 @@ You summon a flurry of magic snowballs to bombard your enemies. When you cast th
 
 \pagebreakNum
 
+#### Soul of Winter
+*9th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S, M (sapphire worth 100 gp)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Druid, Sorcerer, Wizard
+
+A 30-foot-radius sphere of whirling sub-zero cold springs into existence centered on a point you choose within range. The sphere remains for the spell's duration. 
+
+**Creatures In the Sphere When It's First Cast.** Each creature in the sphere, when it first appears, must succeed on a Strength saving. On a failed save, a creature takes 5d8 cold damage and is restrained by ice for 1 minute. It or another creature within reach of it can use its action to make a Strength check against your spell save, shattering the ice on a success. The ice can also be attacked and destroyed (AC equal to your spell save; HP 20; vulnerability to fire, thunder bludgeoning damage; immunity to cold, poison, and psychic damage). On a successful save, a creature takes half as much damage and isn't restrained.
+
+**Icy Surfaces.** The surfaces within the sphere are coated in ice, making any ground in the area difficult terrain for one minute. The first time each turn that a creature either moves into or out of any difficult terrain created by the spell, it must make a Dexterity saving throw. On a failed save, it falls prone. 
+
+**Creatures Ending Their Turn In The Sphere.** Any creature that ends its turn in the area must succeed on a Constitution saving throw. On a failed save, it takes 5d8 cold damage and suffers one level of exhaustion. On a successful save, it takes half as much damage and does not suffer a level of exhaustion. A creature immune to cold damage can't gain exhaustion this way.
+
+**The Spell's End.** When the spell ends, either because your concentration is broken or because you decide to end it, the ice in the sphere shatters in an explosion. Each creature in the sphere must make a Dexterity saving throw. A creature takes piercing damage equal to the total accumulated damage on a failed save, or half as much damage on <br> a successful one. The spell's base damage is 2d8. <br> At the end of each of your subsequent turns after <br> the spell has been cast, if the sphere has not yet <br> exploded, the damage increases by 2d8.
+
 #### Spirit Leech
 *1st-level necromancy*
 ___
@@ -1087,6 +1180,8 @@ You reach out and drain the life force of a target creature you can see within r
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
 
+\columnbreak
+
 #### Static Field
 *2nd-level evocation*
 ___
@@ -1100,6 +1195,8 @@ ___
 You cause yourself to become electrically charged for the duration of the spell and immediately deal 1d8 lighting damage to your attacker. Until the spell ends, whenever a creature hits you with a melee attack, you can use your reaction to discharge electricity from yourself and deal 1d8 lighting damage to the attacker.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
+
+\pagebreakNum
 
 #### Storm of Vengeance (Revised)
 *9th-level conjuration*
@@ -1120,8 +1217,6 @@ A churning storm cloud forms, centered on a point you can see and spreading to a
 
 * Ranged weapon attacks in this area are impossible unless you allow them.  
 
-\columnbreak
-
 * The wind and rain in this area are considered a severe distraction for the purposes of maintaining concentration on spells.  
 
 * Gusts of strong wind (ranging from 20 to 50 miles per hour) automatically disperse fog, mists, and similar phenomena in the area, whether mundane or magical.
@@ -1135,6 +1230,8 @@ Additionally, you may choose an additional effect from the options listed below.
 ***Rain.*** Acidic rain falls from the cloud.  Each creature and object within its affected area takes 3d4 acid damage.
 
 ***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
+
+\columnbreak
 
 #### Stream of Corruption
 *2nd-level evocation*
@@ -1151,9 +1248,6 @@ Bile spews forth from you in a 30-foot cone.  Each creature in that area must ma
 When you cast this spell, you may instead choose a creature within 100 feet of you that you can see and force it to make a Constitution saving throw.  On failed save, it takes 3d8 necrotic damage, and you may cause the cone of bile described above to spew forth from the creature in the direction you choose.  On a successful save, a creature takes half as much damage and does not spew bile.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and creatures in the area of the cone of bile by 1d8 for each slot level above 2nd.
-
-\pagebreakNum
-
 
 #### Summon Flock
 
@@ -1410,6 +1504,21 @@ You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of y
 
 \columnbreak
 
+#### Winter's Kiss
+*3rd-level evocation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Wizard
+
+A burst of cold energy emanates from you in a 40-foot cone. Each creature in that area must make a Strength saving throw. 
+
+On a failed save, a creature takes 4d6 cold damage and is restrained by ice until the spell ends. At the end of each of its turns, while restrained this way, the target takes 2d6 cold damage. It or another creature within reach of it can use its action to make a Strength check against your spell save, shattering the ice on a success. The ice can also be attacked and destroyed (AC equal to your spell save; HP 20; vulnerability to fire, thunder bludgeoning damage; immunity to cold, poison, and psychic damage). On a successful save, a creature takes half as much damage and isn't restrained.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the initial damage and the damage at the end of the restrained target's turn are increased by 1d6 for each slot level above 3rd.
+
 #### Witch Bolt (Revised)
 *1st-level evocation*
 ___
@@ -1424,6 +1533,8 @@ When you cast this spell, and as an action each round for the duration, you can 
 
 ***At Higher Levels.***  When you cast this spell using a spell slot of 3th level or higher, the initial damage and automatic damage increase by 1d12 for every two slot levels above 1st.
 
+\pagebreakNum
+
 #### Withering Resolve
 *3rd-level enchantment*
 ___
@@ -1437,10 +1548,6 @@ ___
 Choose a creature within range that can hear you. The target must succeed on a Wisdom saving throw, or its mind becomes filled with crippling doubt and inner turmoil. On a failed save, for the duration of the spell, the target has disadvantage on all checks and saving throws not triggered by this spell, and attack rolls against it have advantage. At the end of each of its turns, the target can make another Wisdom saving throw, ending the effects on a success.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
-
-
-
-\pagebreakNum
 
 #### World Sore
 *1st-level transmutation*
@@ -1484,6 +1591,7 @@ The boil immediately explodes when the spell ends.
 * Cursed Blades 1.0.0
 * Dazzling Light 1.0.0
 * Death Frenzy 1.0.0
+* Deathly Frost 1.0.0
 * Decrepify 1.0.0
 * Elemental Weapon (Revised) 1.0.0
 * Fireworks 1.0.0
@@ -1491,11 +1599,14 @@ The boil immediately explodes when the spell ends.
 * Flame Arrows (Revised) 1.0.0
 * Flame Blade (Revised) 1.0.0
 * Frighten 1.0.0
-* Frost Nova 1.0.0
+* Frost Blade 1.0.0
+* Frost Nova 2.0.0
 * Glean Magic 1.0.0
 * Guiding Wind 1.0.0
 * Holy Nova 1.0.0
 * Horrifying Laughter 1.1.0
+* Ice Sheet 1.0.0
+* Icy Tomb 1.0.0
 * Impending Doom 1.0.0
 * Impenetrable Pelt 1.0.0
 * Incantation of Protection 1.0.0
@@ -1504,7 +1615,7 @@ The boil immediately explodes when the spell ends.
 * Miasma of Pestilence 1.0.0
 * Mindrazors 1.0.0
 * Mirror Dance 1.0.0
-* Monstrous Transformation 1.0.0
+* Monstrous Transformation 1.1.0
 * Mystifying Miasma 1.0.0
 * Net of Light 1.0.0
 * Overdrive 1.0.0
@@ -1520,7 +1631,8 @@ The boil immediately explodes when the spell ends.
 * Skull Storm 1.0.0
 * Slicing Shards 1.0.0
 * Smoke Shroud 1.1.0
-* Snilloc's Snowball Swarm (Revised) 1.0.0
+* Snowball Swarm (Revised) 1.0.0
+* Soul of Winter 1.0.0
 * Spirit Leech 1.0.0
 * Static Field 1.0.0
 * Storm of Vengeance (Revised) 1.0.0
@@ -1533,6 +1645,7 @@ The boil immediately explodes when the spell ends.
 * Warding Light 1.0.0
 * Wild Surge 1.0.0
 * Wind of Death 1.0.0
+* Winter's Kiss 1.0.0
 * Witch Bolt (Revised) 1.0.0
 * Withering Resolve 1.0.0
 * World Sore 1.0.0
