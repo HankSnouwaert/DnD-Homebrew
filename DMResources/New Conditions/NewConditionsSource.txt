@@ -33,6 +33,15 @@ Unless an ability states otherwise, a creature suffering from one or more mutati
 
 \columnbreak
 
+#### Obsessed 
+The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
+* While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
+* While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
+*  The creature can't willingly move away from a source of its obsession.
+
+
+#### Quickened
+A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
 #### Rampaging
 Rampages last for one minute and have the following effect on a creature unless an ability states otherwise: 
 * Any charmed or frightened effects on the creature are suspended.
@@ -40,16 +49,18 @@ Rampages last for one minute and have the following effect on a creature unless 
 *  If no hostile creatures are within range of any of the creature’s attacks, it must use a Dash action to move toward the closest hostile creature it is aware of.
 * The creature can’t maintain concentration on spells or other effects.
 
-#### Obsessed 
-The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
-* While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
-* While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
-*  The creature can't willingly move away from a source of its obsession.
-
-#### Quickened
-A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
-
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+#### Wounds
+While most creatures are wounded in combat, in this context, the wound is a special form of injury that causes severe bleeding over a short period of time and only specialized attacks and effects can cause wounds. A creature can suffer from multiple wounds at once and at the end of its turn, a wounded creature takes 2 (1d4) necrotic damage for every wound it has sustained. Only creatures with blood (or something equivalent to blood) can suffer wounds. Wounds can be removed in the following ways:
+
+ * When a creature is healed, one wound is removed for every 5 hit points of healing it receives. 
+ * A creature can expend one use of a healer's kit to remove two wounds from itself or another creature. 
+ * A wounded creature, or another creature within 5 feet of it, can make a DC 10 Wisdom (Medicine) check as an action to remove one wound on a success. For every 5 points by which the check exceeds the DC, an additional wound is removed.
+
+
 
 \pagebreakNum
 
@@ -60,3 +71,4 @@ A quickened creature gains an additional action on each of its turns. That actio
 * Rampaging 1.0.0
 * Obsessed 1.0.0
 * Quickened 1.0.0
+* Wounds 0.0.0
