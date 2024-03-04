@@ -19,7 +19,7 @@
 
     
         /* Hide the footer on some pages */
-    .phb#p3:after  {
+    .phb#p2:after  {
         display          : none;
     }
     /* End Footers */
@@ -79,8 +79,8 @@ Here are some things to keep in mind when using elemental bears:
 
 #### Avatar of Winter Tactics
 Here are some things to keep in mind when using the Avatar of Winter:
-* The *heart of winter* spell is its best way of initiating combat, and it will cast it the most critical battlefield area as it isn't affected by the spell's adverse effects.
-* The Grasp of Winter legendary action can be used to pull targets back into the area of *heart of winter*.
+* The *soul of winter* spell is its best way of initiating combat, and it will cast it the most critical battlefield area as it isn't affected by the spell's adverse effects.
+* The Grasp of Winter legendary action can be used to pull targets back into the area of *soul of winter*.
 * The Whirlwind of Frost action should be saved for situations where the bear is either unable to move or able to hit three or more enemies with it (assuming the bear ends up in a favorable location.)
 
 
@@ -275,7 +275,7 @@ ___
 >
 > ***Hail Breath (Recharges on a Short or Long Rest).*** The bear exhales hail in a 90-foot cone. Each creature in that area must make a DC 20 Dexterity saving throw. A creature takes 22 (5d8) cold damage and 22 (5d8) bludgeoning damage on a failure, or half as much damage on a success. If a creature fails the save by 5 or more (DC 15), it is dazed until the end of the bear's next turn.
 >
-> ***Winter's Wrath (Recharges on a Short or Long Rest).*** The bear casts the *heart of winter* spell (described on the next page) without any spell components or requiring Concentration, using Wisdom as its spellcasting modifier (Spell save DC 20). The spell ends only after 1 minute or when the bear dies and cannot be dispelled by spells of 8th level or lower.
+> ***Winter's Wrath (Recharges on a Short or Long Rest).*** The bear casts the *soul of winter* spell (described on the next page) without any spell components or requiring Concentration, using Wisdom as its spellcasting modifier (Spell save DC 20). The spell ends only after 1 minute or when the bear dies and cannot be dispelled by spells of 8th level or lower.
 > 
 > ### Legendary Actions
 > The bear can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The bear regains spent legendary actions at the start of its turn.
@@ -284,11 +284,30 @@ ___
 >
 > **Tenacious Will.** If the bear is suffering from an effect that allows it to make a saving throw as an action or at the beginning or end of its next turn, it may immediately make that save against the effect with advantage. It can use this legendary action while incapacitated.
 >
-> **Grasp of Winter (Costs 2 Actions).** The bear chooses a creature within 120 feet of it that just took its turn and is not restrained. That creature must succeed on a DC 20 Strength saving throw. On a failed save, it is restrained by a claw of ice that forms around it. A creature can use its action to make a DC 20 Strength check, shattering the ice on a success. The ice can also be attacked and destroyed (AC 20; hp 20; vulnerability to fire, thunder, bludgeoning damage; immunity to cold, poison, and psychic damage). On a successful save, a creature isn't restrained. At the end of each of a creature's turns, while restrained by the ice, it is pulled 30 feet towards the bear or the center of its *heart of winter* spell if it is active (bear's choice).
+> **Grasp of Winter (Costs 2 Actions).** The bear chooses a creature within 120 feet of it that just took its turn and is not restrained. That creature must succeed on a DC 20 Strength saving throw. On a failed save, it is restrained by a claw of ice that forms around it. A creature can use its action to make a DC 20 Strength check, shattering the ice on a success. The ice can also be attacked and destroyed (AC 20; hp 20; vulnerability to fire, thunder, bludgeoning damage; immunity to cold, poison, and psychic damage). On a successful save, a creature isn't restrained. At the end of each of a creature's turns, while restrained by the ice, it is pulled 30 feet towards the bear or the center of its *soul of winter* spell if it is active (bear's choice).
 >
 > **Whirlwind of Frost (Costs 2 Actions).** The bear magically transforms into a whirlwind of ice, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the bear is immune to all damage and under the effects of the *gaseous form* spell. If it passes through another creature's space during this movement, that creature must succeed on a DC 20 Constitution saving throw. On a failed save, the target takes 14 (4d6) cold damage.
 
 \pagebreakNum
+
+#### New Spell: Soul of Winter
+*9th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S, M (sapphire worth 100 gp)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Druid, Sorcerer, Wizard
+
+A 30-foot-radius sphere of whirling sub-zero cold springs into existence centered on a point you choose within range. The sphere remains for the spell's duration. 
+
+**Creatures In the Sphere When It's First Cast.** Each creature in the sphere, when it first appears, must succeed on a Strength saving. On a failed save, a creature takes 5d8 cold damage and is restrained by ice for 1 minute. It or another creature within reach of it can use its action to make a Strength check against your spell save, shattering the ice on a success. The ice can also be attacked and destroyed (AC equal to your spell save; HP 20; vulnerability to fire, thunder bludgeoning damage; immunity to cold, poison, and psychic damage). On a successful save, a creature takes half as much damage and isn't restrained.
+
+**Icy Surfaces.** The surfaces within the sphere are coated in ice, making any ground in the area difficult terrain for one minute. The first time each turn that a creature either moves into or out of any difficult terrain created by the spell, it must make a Dexterity saving throw. On a failed save, it falls prone. 
+
+**Creatures Ending Their Turn In The Sphere.** Any creature that ends its turn in the area must succeed on a Constitution saving throw. On a failed save, it takes 5d8 cold damage and suffers one level of exhaustion. On a successful save, it takes half as much damage and does not suffer a level of exhaustion. A creature immune to cold damage can't gain exhaustion this way.
+
+**The Spell's End.** When the spell ends, either because your concentration is broken or because you decide to end it, the ice in the sphere shatters in an explosion. Each creature in the sphere must make a Dexterity saving throw. A creature takes piercing damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one. The spell's base damage is 2d8. At the end of each of your subsequent turns after the spell has been cast, if the sphere has not yet exploded, the damage increases by 2d8.
 
 ### Arctic Bear Loot
 
@@ -298,10 +317,10 @@ Being elementals, most of an elemental bear's form will disintegrate when it is 
 
 Alternatively, you can roll for the loot randomly using a flat modifier.
 
+\columnbreak
+
 #### Arctic Bears Loot Tables
 The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
-
- 
 
 
 ##### Ice Bear Loot Table
@@ -325,7 +344,7 @@ The following tables describe the number of items and value of those items the p
 |  19-22 |1d4(2) 2,000gp Items |  
 |  23+ |  2d4(5) 2,000gp Items  |  
 
-\columnbreak
+
 
 ##### Avatar of Winter Loot Table
 
@@ -339,9 +358,12 @@ The following tables describe the number of items and value of those items the p
 
 
 
+
+
+\pagebreakNum
+
 #### Example Arctic Bear Loot Names
 You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide  example names.
-
 
 
 ##### Example Ice Bear Item Names
@@ -353,7 +375,6 @@ You can give the different types of items unique names based on their material a
 | 4 <br> (Hide) | Tattered Ice Bear Hide| Ice Bear Hide |  Prime Ice Bear Hide |
 
 
-
 ##### Example Elemental Bear Item Names
 |1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
 |:--:|:---:|:-----------:|:-----------:|
@@ -361,8 +382,6 @@ You can give the different types of items unique names based on their material a
 | 2 <br> (Fluid)  | Diluted Elemental Bear Blood |  Elemental Bear Blood |  Icy Elemental Bear Blood  |
 | 3 <br> (Plant)  |   Cracked Winter-Blessed Branch |  Winter-Blessed Branch |  Prime Winter-Blessed Branch  | 
 | 4 <br> (Stone) | Cracked Elemental Bear Bone | Elemental Bear Bone |  Gleaming Elemental Bear Bone |
-
-\pagebreakNum
 
 ##### Example Legendary Elemental Bear, Avatar of Winter Item Names
 |1d4 | 5,000gp Item | 10,000gp Item | 20,000gp Item | 
@@ -383,22 +402,22 @@ You can give the different types of items unique names based on their material a
 > These items are so rare they will typically deserve special descriptions and even lore background, giving them more relevance to the setting.
 
 
+\pagebreakNum
 
-\columnbreak
 
 ## Revision Numbers
 
 ### Document Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
 
 <br>
 
 
 ### Referenced Content
-* **Spell:** Heart of Winter 0.0.0
+* **Spell:** Soul of Winter 1.0.0
 * **Condition:** Dazed 1.0.0
 #### Creatures
-* Ice Bear 0.0.0
-* Elemental Bear 0.0.0
-* Elemental Bear, The Avatar of Winter 0.0.0
+* Ice Bear 1.0.0
+* Elemental Bear 1.0.0
+* Elemental Bear, The Avatar of Winter 1.0.0
