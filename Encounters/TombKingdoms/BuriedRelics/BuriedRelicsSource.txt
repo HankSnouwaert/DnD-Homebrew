@@ -1,0 +1,667 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p5:after, .phb#p7:after, .phb#p8:after, .phb#p9:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Buried Relics <br> (Player Level: 2-4)
+In this encounter, the players excavate a dig site for as much treasure as possible before an incoming storm buries it out of their reach. However, each time they dig, they risk unearthing hostile skeletal soldiers from ages past.
+
+### Encounter Context
+This encounter assumes the players have found themselves at an established dig site. The excavators who established it have warned the players of the hostile skeletons below the dig site guarding the buried treasure. The excavators are now retreating to a more secure location to make camp and protect themselves from the incoming storm and inform the players that the storm is likely to bury the entire site out of their reach by the time it passes. They offer the players the use of their digging equipment if they'd like to try their hand at any last-minute excavating before the site is lost.
+
+### Lead Up
+
+When the players arrive at the dig site, all is quiet. Threats won't appear until they start unearthing them.
+
+### Map Description
+* **Lighting.** This depends on the time of day, and there will likely be daylight at the start of the encounter. Be sure to track daylight as the players spend time at the dig and reduce the lighting accordingly. 
+* **Elevated Areas.** The areas of the map marked in green are each roughly 10 feet higher than the next lowest area. Ladders will be on hand to aid the players in moving up and down the cliffs surrounding the dig site.
+* **Rough Terrain.** The rocks and the statue head marked in yellow are all rough terrain.
+
+### Digging for Treasure
+This encounter centers on the players making best guesses as to where to dig for treasure while managing their time and the risk of unearthing skeletal foes. The mechanics below can help you run this scenario.
+
+#### How To Dig
+Any number of the players can work to excavate a 10-foot by 10-foot area of the dig site over one or more hours. Over the course of an hour, a player working at digging exerts an amount of Effort equal to their Strength score. Players working together combine their Effort. After 44 Effort has been expended on a given area, it is excavated. 
+A player can choose to double their Effort, but they must succeed on a DC 13 Constitution saving throw after doing so or suffer a level of exhaustion. 
+
+
+\columnbreak
+
+<br><br><br><br>
+
+##### Encounter Map: Dig Site
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+> ##### Digging Through Unusual Means
+> A creature with the ability to magically move earth each round, such as using the *mold earth* cantrip, can apply an Effort of 20 rather than use its Strength score. A creature with a burrow speed can apply Effort equal to twice its Strength score. Other spells and abilities that explicitly move earth may be used to excavate areas even faster.
+
+<br>
+
+#### Is There is Anything to Dig Up?
+
+
+Once the party decides to excavate or assess a 10-foot by 10-foot area, roll a d4. On a result of 4, there is something there for them to dig up. 
+
+Before attempting a dig, the party can make an Intelligence (History), Intelligence (Investigation), Intelligence (Nature), or Wisdom (Survival) check to attempt to assess if an area contains anything worth digging up. This check should be rolled by you, and the result should be kept secret from the players. What they learn is determined by how well they do on their check, as shown in the Dig Assessment Result table on the next page.
+
+
+
+<img src='https://i.ibb.co/1KQ11JG/Dig-sight-Guide.png' style='position:absolute; top:130px; right:5px; width:415px; ' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+##### Dig Assessment Result
+| Assessment Check Result  | Information Result | 
+|:---:|:-----------:
+|  8 or Less |  The players come to the wrong conclusion as to whether something is buried there. | 
+|  9-15 | The players learn nothing. |  
+|  16-19| The players accurately determine if there’s something to dig up. |  
+|  20 or More | The players accurately determine if there’s something to dig up and if it’s loot or a treasure horde. |  
+#### What's Dug Up?
+
+Roll on the Unearthed Contents Table below to determine what the party digs up. Then roll on the appropriate treasure table to determine what the players find. To determine the descriptions for the items the players find, you can use Tomb Kingdom Loot Guide, use treasure examples of similar value from the DMG, or make up items of your own. If the players unearth an encounter, consult The Encounters section below.
+
+##### Unearthed Contents Table
+| 1d8  | What's Unearthed | 
+|:---:|:-----------:
+|  1-2 | Minor Treasure | 
+|  3| Major Treasure |  
+|  4-7 | Minor Treasure & An Encounter |
+|  8 | Major Treasure & An Encounter |
+
+##### Minor Treasure Loot Table
+
+| 1d20 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1d4(2) 5gp Items |
+|  6-11 | 1d4(2) 10gp Items | 
+|  12-17 | 1d6(3) 10gp Items  |  
+|  18-20 |  1d4(2) 20gp Items |  
+
+##### Major Treasure Loot Table
+
+| 1d20 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1d4(2) 20gp Items |
+|  8-12 | 1 50gp Item | 
+|  13-16 | 1d4(2) 50gp Items  |  
+|  17-20 |  1d4(2) 100gp Items |  
+
+
+
+### The Encounters
+When the players unearth an encounter, roll on the Unearthed Encounters below to determine the enemies they face. You can spread the creatures out anywhere within 30 feet of the excavated area as they burrow out into better positions. All the creatures appear at the same time, and having to crawl through the sand means they roll for initiative with disadvantage and start their turns prone.
+
+\columnbreak
+
+##### Unearthed Encounters
+| 1d8  | Encounter Composition | 
+|:---:|:-----------:
+|  1 | Skeleton Archer x2, Skeleton Spearman x2  | 
+|  2 | Skeleton Spearman x2, Tomb Warrior x1 |  
+|  3 | Tomb Warrior x3  |
+|  4 | Skeleton Archer x1, Sepulchral Guard x1 |
+|  5 | Sepulchral Guard x2 | 
+|  6 | Skeleton Spearman x5 |  
+|  7 | Skeleton Archer x2, Tomb Warrior x2 |
+|  8 | Skeleton Archer x1, Skeleton Spearman x1, Sepulchral Guard x1, Tomb Warrior x1 |
+
+#### Encounter Tactics
+The tactics of the different types of skeletons are described later in this document. They have no thought other than to guard the treasures they were buried with. If the players flee the dig site, the skeletons pursue them if they are carrying any treasure from the dig site. If the players have no treasure or escape the skeletons, they will turn their attention to slaying those in the nearby camp to reclaim the treasures the excavators took. 
+
+### The Approaching Storm
+A slow-moving but very intense storm is bearing down on the dig site, threatening to tear apart everything in its path. Every 3 hours, the storm gets worse, making digging more difficult. Use the table below to determine how much effort it takes to dig and save DC to avoid exhaustion for digging at a faster rate based on how much time has passed.
+
+##### Dig Assessment Result
+| Hours Passed  | Exhaustion Constitution Save DC | Effort Required to Excavate
+|:---:|:----:|:----:|
+|  0-3 | 13 | 44 | 
+|  3-6 | 15 | 55 |
+|  6-9 | 17 | 66 |
+|  9-12 | 19 | 77 |
+|  12+ | 21 | 88 |
+
+After 12 hours, the storm starts dealing 1d4 slashing damage to creatures every minute they spend exposed to its winds.
+
+### Aftermath
+The encounter ends whenever the players decide to retreat from the dig site to the sheltered camp. The camp is about a 5-minute run away from the dig site, though players encumbered with treasure will take 10 minutes to reach it. The players will be allowed to keep everything they found.
+
+\pagebreakNum
+
+#### XP Award
+For each treasure stash the players successfully recover, award them 400 XP. 
+
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty accordingly.
+
+**Harder Encounter (Levels 5-7).** Replace skeleton spearmen with scorpion legion spearmen, skeleton archers with hawk legion archers, tomb warriors with netherworld legion warriors, and sepulchral guards with eternal guards. 
+
+Increase the XP awarded for each recovered treasure stash to 2,900 XP. 
+
+Use the high-level treasure tables below in place of the treasure tables listed in the encounter’s description.
+
+##### Minor Treasure Loot Table (High Level)
+
+| 1d20 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 1d4(2) 50gp Items |
+|  5-8 | 1d6(3) 50gp Items | 
+|  9-16 | 1d4(2) 100gp Items  |  
+|  17-20 |  1d4(2) 200gp Items |  
+
+##### Major Treasure Loot Table (High Level)
+
+| 1d20 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1d6(3) 100gp Items |
+|  7-11 | 1 500gp Item | 
+|  12-18 | 1 1,000gp Item  |  
+|  19-20 |  1d4(2) 1,000gp Items |  
+
+
+
+### Adventure Follow Ups
+If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration:
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  | The treasures the players have unearthed belonged to a powerful undead monarch who is now intent on reclaiming the stolen valuables. |
+|  2  | The dig site’s excavators ask the players for protection as they attempt to escape the desert with the goods they’ve unearthed.  |
+|  3  | One of the artifacts the players unearthed was an encrypted map showing the way to a legendary temple said to contain long-lost artifacts. |
+|  4  | The dig site’s excavators are impressed with the players’ capabilities and offer to hire them to recover more treasures from dangerous desert ruins.|
+
+\columnbreak
+
+### The Skeletal Soldiers
+These undead represent the most numerous and lowest-ranking soldiers of the tomb pharaoh armies. They were given only the most rudimentary of burial rites, resulting in almost none of their former personality surviving. They possess only the knowledge and skills needed to serve as efficient and loyal soldiers. Though they cannot speak, they can understand and carry out orders with flawless efficiency. Each skeletal regiment retains the years of training and experience with its weapons and combat role that it had in life, and the long years have not dulled their skills.
+
+#### Skeletal Spearmen
+These soldiers make up the backbone of most tomb pharaoh armies. They march in seemingly endless ranks of bone and bronze, wielding ancient spears and impaling every foe before them. Though they are not the most powerful soldiers, they make up for this with numbers and unshakable resolve. Skeletal spearmen will fight against even the most overwhelming odds, never fleeing and fighting to the last soldier. 
+
+<Br>
+
+___
+> ## Skeleton Spearmen
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 12 (armor scraps)
+> - **Hit Points** 19 (3d8 + 6)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|12 (+1)|14 (+2)|6 (-2)|10 (+0)|5 (-3)|
+>___
+> - **Skills** Perception +2
+> - **Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 12
+> - **Languages** understands the languages it knew in life but can't speak.
+> - **Challenge** 1/4 (50 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +2       
+> ___
+>
+> ### Actions
+>
+> ***Spear.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 10 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.
+>
+
+
+\pagebreakNum
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+##### The Scorpion Legion
+The spearmen of this notorious legion are known for crafting their spears from the tails of deadly desert scorpions. These skeletal soldiers wield their venomous weapons with brutal skill, and foes that survive the initial stab will often succumb to the poisonous aftereffects. 
+
+#### Skeletal Archers
+These warriors served as the ranged support to their ancient armies. Armed with bows and an ever-ready supply of bronze-tipped arrows, these archers rained death on their foes to wound and demoralize armies before they could even engage in melee combat. In death, these archers continue to fulfill their ancient role, unleashing streams of arrows with no thought other than to carry out the orders of their eternal masters.
+
+##### The Hawk Legion
+These renowned archers were not only expertly trained soldiers but devoted disciples of the hawk god, whose domains were discernment and the hunt. In exchange for their devotion, the hawk god granted them his heightened senses and blessed their arrows such that they would unerringly find their quarry, regardless of any obstacle.
+
+\columnbreak
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+___
+> ## Scorpion Legion Spearmen
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 15 (armor scraps, shield)
+> - **Hit Points** 65 (10d8 + 20)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|14 (+2)|6 (-2)|10 (+0)|5 (-3)|
+>___
+> - **Skills** Perception +2
+> - **Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 12
+> - **Languages** understands the languages it knew in life but can't speak.
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
+> ___
+>
+> ***Spearmen.***  The skeleton gains the reach feature for its spear (included in the attack).
+>
+> ### Actions
+>
+> ***Scorpion Spear.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 10 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack. The target must make a DC 12 Constitution saving throw; it has disadvantage on the saving throw if it is poisoned. On a failed save, it takes 15 (3d8) poison damage and is poisoned until the start of the skeleton's next turn. On a successful save, it takes half as much damage and is not poisoned. 
+
+<img src='https://i.ibb.co/zRvzPsz/Vizier-Of-The-Scorpion.png' style='position:absolute; top:-20px; right:00px; width:680px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:120px; right:0px; width:900px; transform: rotate(10deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:490px; width:900px; transform: rotate(90deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:440px; width:900px; transform: rotate(60deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:150px; right:-60px; width:900px; transform: rotate(0deg)' />
+
+\pagebreakNum
+
+___
+> ## Skeleton Archer
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 13 (armor scraps)
+> - **Hit Points** 19 (3d8 + 6)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|15 (+2)|14 (+2)|6 (-2)|10 (+0)|5 (-3)|
+>___
+> - **Skills** Perception +2
+> - **Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 12
+> - **Languages** understands the languages it knew in life but can't speak.
+> - **Challenge** 1/4 (50 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +2       
+> ___
+>
+> ### Actions
+>
+> ***Longbow.*** *Ranged Weapon Attack:* +4 to hit, reach 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage.
+>
+> ***Khopesh.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
+>
+
+___
+> ## Hawk Legion Archer
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 14 (armor scraps)
+> - **Hit Points** 58 (9d8 + 18)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|16 (+3)|14 (+2)|6 (-2)|10 (+0)|5 (-3)|
+>___
+> - **Skills** Perception +4
+> - **Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 14
+> - **Languages** understands the languages it knew in life but can't speak.
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
+> ___
+>
+> ***Desert Sight.*** The skeleton does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***Far Shot.*** The skeleton's ranged weapons deal two extra damage die when it hits a target with an attack that didn't suffer from disadvantage due to a hostile creature being within 5 feet of it (included in the attack).
+>
+> ***Sacred Arrows.*** The skeleton's ranged attacks ignore half cover and three-quarters cover.
+>
+> ### Actions
+>
+> ***Longbow.*** *Ranged Weapon Attack:* +5 to hit, reach 150/600 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage or 16 (3d8 + 3) if the attack roll did not have disadvantage due to a hostile creature being within 5 feet of it.
+>
+> ***Khopesh.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage.
+>
+
+<img src='https://i.ibb.co/7V2Tc71/Skeletal-Archer.jpg' style='position:absolute; bottom:-20px; right:00px; width:820px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-320px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Tomb Warriors
+In life, these soldiers were among the most fanatically loyal to their monarch. These warriors eschewed the protection of a shield and spear, instead duel-wielding curved blades known as khopeshes to maximize their killing potential. Their khopesh blades allow them to knock weapons out of their foes’ grips, potentially sending them flying out of reach. These warriors then ruthlessly cut down their defenseless victims before continuing their bloody rampage. Tomb warriors have lost none of their fervor in death and continue to charge headlong into battle, headless of any danger.
+
+#### Netherworld Legion
+When mortals died and passed into the afterlife, it was said their souls would be judged by the discerning gaze of the god of the underworld. Those who displeased this god or were found unworthy would be cast down to the netherworld to suffer for eternity. However, some warriors could bargain for a better fate by offering their service as enforcers of their god’s will in the mortal realm. 
+
+This netherworld legion of warriors can be summoned by those who curry favor with the god of the underworld. Even in the land of the living, they are spectral warriors who flicker in and out of the Material Plane. Their otherworldly nature can even transfer into objects they disarm from foes, preventing their retrieval. And when these warriors are defeated and banished back to the netherworld, they can leave a lingering curse that partially unmoors mortals from the Material Plane.
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Tomb Warrior
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 14 (armor scraps)
+> - **Hit Points** 39 (6d8 + 12)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|14 (+2)|7 (-2)|12 (+1)|5 (-3)|
+>___
+> - **Skills** Athletics +4
+> - **Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 11
+> - **Languages** understands the languages it knew in life but can't speak.
+> - **Challenge** 1/2 (100 XP)   &emsp;&emsp;&ensp;  **Proficiency Bonus** +2       
+> ___
+>
+> ### Actions
+>
+> ***Multiattack.***  The skeleton makes two khopesh attacks. If both attacks hit the same creature, that creature must succeed on a DC 12 Strength saving throw or drop an object of the skeleton's choice. The object lands at the creature's feet, and if the creature fails the save by 5 or more (DC 7), the skeleton can have the object flung up to 10 feet away from the creature in the direction of the skeleton's choice.
+>
+> ***Khopesh.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
+>
+
+<img src='https://i.ibb.co/cY0c48r/Grim-Initiate-War-of-the-Spark-Arts-1024x752.jpg' style='position:absolute; top:-20px; right:00px; width:870px; transform: scaleX(-1)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-25px;left:0px;width:916px; transform: rotate(-20deg)' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:220px;left:-50px;width:916px; transform: rotate(-20deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Legion of the Netherworld
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 58 (9d8 + 18)
+> - **Speed** 30 ft., fly 15 ft. (hover)
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|14 (+2)|8 (-1)|14 (+2)|6 (-2)|
+>___
+> - **Skills** Athletics +4, Stealth +4
+> - **Vulnerabilities** magical bludgeoning damage
+> - **Damage Resistances** acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
+> - **Damage Immunities** cold, necrotic, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
+> - **Senses** darkvision 60 ft., passive Perception 12
+> - **Languages** understands the languages it knew in life but can't speak.
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2       
+> ___
+>
+> ***Curse of the Netherworld.*** When the skeleton dies, it curses each non-undead creature within 10 feet of it, forcing each of those creatures to succeed on a DC 13 Charisma saving throw (which it can choose to fail) or be cursed for 1 minute. A creature cursed this way has disadvantage on Strength checks and saving throws, has the skeleton's Etherealness bonus action, has the skeleton's Ethereal Sight trait, and gains a fly speed of 15 ft. with the ability to hover.
+>
+>  As an action, a cursed creature can repeat the saving throw to attempt to end the curse. If a creature would return to Material Plane in a space occupied by a solid object or creature, it is immediately shunted to the nearest unoccupied space that it can occupy and takes force damage equal to twice the number of feet it is moved.   
+>
+> ***Ethereal Sight.*** The skeleton can see 60 ft. into the Ethereal Plane when it is on the Material Plane, and vice versa.
+>
+> ***Incorporeal Movement.*** The skeleton can move through other creatures and objects as if they are difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+>
+> ### Actions
+>
+> ***Multiattack.***  The skeleton makes two spectral khopesh attacks. If both attacks hit the same creature, that creature must succeed on a DC 13 Strength saving throw or drop an object of the skeleton's choice. The object lands at the creature's feet, and if the creature fails the save by 5 or more (DC 8), the skeleton can have the object flung up to 10 feet away from the creature in the direction of the skeleton's choice. The skeleton can choose for the flung item to enter the Ethereal Plane from the Material Plane, or vice versa. The item returns to the plane it was shunted from after 1 minute.
+>
+> ***Spectral Khopesh.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:*  12 (3d6 + 2) force damage.
+>
+> ### Bonus Action
+>
+> ***Etherealness.*** The skeleton enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.
+>
+
+
+
+
+> ##### Option Rules: Binding Curses or Longer lasting Curses
+>If you're running an adventure where your players turning ethereal and being able to move through objects would be problematic, you can modify the curse so that creatures under its effects can't move, be moved, or be teleported more than 30 feet away from where the skeleton that cursed them died. On the flip side, if you want to make the curse a key part of how players explore an adventure location, you can extend its duration.
+>
+
+<img src='https://i.ibb.co/VqrNynm/war-of-the-spark-zombie-token.jpg' style='position:absolute; top:657px; right:-140px; width:680px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-116px; right:-500px; width:850px; transform:rotate(18deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-116px; right:200px; width:850px; transform:rotate(-18deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:100px; right:330px; width:850px; transform:rotate(-90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+\pagebreakNum
+
+### Sepulchral Guard
+These soldiers served as elite infantry and personal guards to their kings. As a reward for their service, they were granted more elaborate burial rites upon their death. Though these rites were nowhere near the complexity of those reserved for royalty, they allowed the sepulchral guard to retain some semblance of their personality into undeath. In addition to being excellent soldiers and bodyguards, these soldiers are capable of verbal communication, abstract reasoning, and carrying out higher-level strategic plans. They answer directly to their kingdom’s rulers and ensure their will is carried out in the field of battle. 
+
+#### Eternal Guard
+Though all sepulchral guard legions consider themselves to be “eternal,” this legion takes the expression to the extreme by courting the favor of their death god in exchange for regenerative abilities. This blessed regeneration allows the enteral guard to suffer devastating assaults and rise again to ruthlessly cut down those who thought they could best the elite soldiers of the death god. Such is their tenacity that they don’t bother with using shields for protection and instead duel-wield khopeshes so they may better cut down their comparatively fragile foes.
+
+\columnbreak
+
+
+
+___
+> ## Sepulchral Guard
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 16 (studded leather, shield)
+> - **Hit Points** 71 (11d8+22)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|14 (+2)|14 (+2)|9 (-1)|16 (+3)|9 (-1)|
+>___
+> - **Saving Throws** Wis +5
+> - **Skills** Athletics +5, Perception +5
+> - **Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 15
+> - **Languages** understands the languages it knew in life but can't speak.
+> - **Challenge** 1 (200 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +2       
+> ___
+>
+> ***Desert Sight.*** The sepulchral guard does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***Guardian.*** Immediately after a creature within 5 feet the sepulchral guard takes the Disengage Action or hits a
+target other then the sepulchral guard with an attack, The sepulchral guard can make an Opportunity Attack against that creature.
+>
+> ***Halting Strikes.*** When the sepulchral guard hits a creature with an attack made using its reaction, that creature's speed becomes 0 for the rest of the turn.
+>
+> ### Actions
+>
+> ***Khopesh.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage.
+>
+
+<img src='https://i.ibb.co/x2ZF4fy/Steadfast-Sentinel-Token-Art.jpg' style='position:absolute; bottom:-23px; right:100px; width:810px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-332px; right:100px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:160px; right:-470px; width:850px; transform:rotate(90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+___
+___
+> ## Eternal Guard
+>*Medium undead, lawful neutral*
+> ___
+> - **Armor Class** 15 (chain shirt)
+> - **Hit Points** 97 (15d8 + 30)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|16 (+3)|14 (+2)|9 (-1)|17 (+3)|10 (+0)|
+>___
+> - **Saving Throws** Wis +5, Cha +2
+> - **Skills** Athletics +6, Perception +7
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 17
+> - **Languages** understands the languages it knew in life but can't speak.
+> - **Challenge** 4 (1,100 XP)   &emsp;&emsp;&emsp;  **Proficiency Bonus** +2       
+> ___
+>
+> ***Brutal Sentinel.*** Whenever the eternal guard hits with an attack it made as part of its reaction, it deals one extra die of damage (included in the attack).
+>
+> ***Desert Sight.*** The sepulchral guard does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured.
+>
+> ***Halting Strikes.*** When the sepulchral guard hits a creature with an attack made using its reaction, that creature's speed becomes 0 for the rest of the turn.
+>
+> ***Magic Weapons.*** The eternal guard's weapon attacks are magical.
+>
+> ***Guardian.*** Immediately after a creature within 5 feet the sepulchral guard takes the Disengage Action or hits a
+target other then the sepulchral guard with an attack, The sepulchral guard can make an Opportunity Attack against that creature.
+>
+> ***Regeneration.*** The eternal guard regains 10 hit points at the start of its turn. If the eternal guard takes magical bludgeoning damage, this trait doesn't function at the start of the eternal guard's next turn. The eternal guard dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ***Twin Opportunity Attacks.*** If the eternal guard would make a single attack using its reaction, it instead attacks twice. It must be wielding two khopeshes to do this. 
+>
+> ### Actions
+> ***Multiattack.*** The eternal guard makes two attacks.
+>
+> ***Khopesh.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage or 11 (2d6 + 4) if the attack was made using it's reaction. If the creature has already been hit by a khopesh attack from the eternal guard this turn, it must succeed on a DC 14 Strength saving throw or drop an object of the eternal guard's choice. The object lands at the creature's feet, and if the creature fails the save by 5 or more (DC 9), the eternal guard can have the object flung up to 10 feet away from the creature in the direction of the eternal guard's choice.
+>
+
+<img src='https://i.ibb.co/Ybb6BDp/zombie-warrior-token-war-of-the-spark.png' style='position:absolute; top:400px; right:00px; width:820px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-350px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+#### Skeletal Soldier Tactics
+
+These soldiers are the least sentient and most expendable tomb kingdom creatures. Isolated groups of them can serve as low-level threats to players, and at higher levels, they can be used to overwhelm the players with numbers or to bog them down and set up attacks from more powerful creatures. In the event of a retreat, skeletons can also slow down the players and allow more important creatures to escape. 
+
+Skeletal soldiers still retain their intuition for battle tactics and know how to position themselves for the optimal use of their weapons. They can also recognize high-threat targets, such as players dealing bludgeoning damage, and they will focus on eliminating such threats. However, they are usually not intelligent enough to recognize a threat before it becomes obvious. For example, they won’t understand a mace will deal extra damage, only that the player with the mace appears to be doing more damage and is, therefore, a more significant threat. They can also recognize when players are resistant to their damage or have such high defense that attacking them would be inefficient.
+
+***Skeleton Spearmen.*** These skeletons have retained enough of their training to know how to maneuver and optimally use the reach of their spears while making counterattacks against them difficult. Each spearman has two extra spears on hand. 
+
+***The Scorpion Legion.*** These skeletons are excellent at ganging up on a single player and debuffing them with the poisoned condition while racking up large amounts of poison damage.
+
+***Skeleton Archers.*** These skeletons will stay out of melee range, using the Disengage action when needed to keep players at a distance. They will keep other melee skeletons between themselves and the players when possible.
+
+***The Hawk Legion.*** While most archers should stay out of melee combat, this legion's Sacred Arrows ability allows them to snipe players from more flexible locations, making it even easier to keep them out of reach of the players.
+
+
+
+
+##### Tomb Warriors
+These soldiers combine the skeleton’s lack of self-preservation with zealous bloodlust. They should be played very aggressively and will usually charge after the highest threat target they can reach. Most of the time, this will be any player wielding a bludgeoning weapon. They are intelligent enough to assess how difficult it will be to knock a given weapon out of someone’s hands and will usually start with easier targets. 
+
+If they are being directed by a more intelligent commander, it can also often be advantageous to command them to knock a spell focus from a caster’s hands. Once the caster can no longer cast defensive spells, a squad of tomb warriors can quickly cut them down to size.
+
+***Legion of the Netherworld.***  These warriors fight similarly to normal tomb warriors, but their ethereal abilities add an extra layer of complexity. Use their Incorporeal Movement to sneak up on high-priority targets more easily while evading counterattacks. Players with magical bludgeoning weapons are the highest priority, and netherworld warriors will focus on disarming them and knocking their weapons into the Ethereal Plane if possible.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+##### Sepulchral Guard
+These elite soldiers and bodyguards retain more of their sentience than other skeletons. They can execute more complex strategies and have enough awareness to change their tactics when needed. However, they still lack a true sense of self-preservation and will throw their unlives away at the command of their masters. If they are left masterless, they will continue to guard anything belonging to the master and will seek vengeance on any who slay their master. 
+
+The combination of their Halting Strikes and Reactive Strike abilities allows sepulchral guards to prevent players from reaching those they are charged with protecting. If their master is present, they will stay within 10 feet of it to ensure no one gets by. This then gives the master the opportunity to move further out of reach while the sepulchral guards harry the players. If sepulchral guards are working alongside other ranged units, they can protect them in a similar way.
+
+While sepulchral guards are aware of their weakness to bludgeoning damage, their highest priority will be whoever is the greatest threat to their master.
+
+***Eternal Guard.*** These skeletons operate similarly to normal sepulchral guards.
+
+#### Art Credit
+* Encounter Map - Joseph Snouwaert
+* Vizier of the Scorpion - Zack Stella, Wizards of the Coast
+* Skeleton Archer - Randy Vargas, Wizards of the Coast
+* Grim Initiate - Jason Felix, Wizards of the Coast
+* Zombie Token, War of the Spark - Simon Dominic, Wizards of the Coast
+* Grim Initiate - Jason Felix, Wizards of the Coast
+* Steadfast Sentinel Zombie Token - Karl Kopinski, Wizards of the Coast
+* Zombie Warrior Token, War of the Spark - Mike Bierek, Wizards of the Coast
+* Herald of the Dreadhorde - Heonhwa Choe, Wizards of the Coast
+* Army Token, War of the Spark - Tomasz Jedruszek, Wizards of the Coast
+
+<img src='https://i.ibb.co/nCSJmMK/zome-army-token-war-of-the-spark.png' style='position:absolute; top:-10px; right:-175px; width:777px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:-130px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-110px;top:30px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+### Referenced Content
+* Skeleton Spearmen 1.0.0
+* Scorpion Legion Spearmen 1.0.0
+* Skeleton Archer 1.0.0
+* Hawk Legion Archer 1.0.0
+* Tomb Warrior 1.0.0
+* Legion of the Netherworld 1.0.0
+* Sepulchral Guard 1.0.0
+* Eternal Guard 1.0.0
