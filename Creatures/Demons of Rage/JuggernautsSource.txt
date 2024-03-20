@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p3:after   {
+      {
         display          : none;
     }
     /* End Footers */
@@ -59,6 +59,7 @@ Only the mightiest of warriors and demons are deemed worthy to mount these colos
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:530px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
+
 
 ___
 > ## Juggernaut
@@ -147,13 +148,13 @@ ___
 Juggernauts serve as shock cavalry, often mounted by bloodletters. In combat, a juggernaut charges targets to knock them prone and stomp them. It will then stay in melee range to keep its prey from fleeing without risking an opportunity attack. At the start of its next turn, if the juggernaut has 30 or more hit points, it will back up and charge the target again.
 
 #### Searing Juggernauts
-Searing juggernauts prefer to engage groups of enemies, maximizing the impact of their Mantle of Immolation. They are most effective when paired with creatures that deal fire damage. Since the Mantle of Immolation can be triggered once per turn, a searing juggernaut can activate this ability on its own turn with its Gore or Pulverizing Stomp attacks. 
+Searing juggernauts prefer to engage groups of enemies, maximizing the impact of their Mantle of Immolation. They are most effective when paired with creatures that deal fire damage. Since the Mantle of Immolation can be triggered once per turn, a searing juggernaut can activate this ability on its own turn with its Gore or Pulverizing Stomp attacks and on the enemies turn if the creature ends it's in the juggernaut aura. 
 
 
 ### Juggernaut Loot
 The bodies of most demons dissolve or fade away when they're slain anywhere but their home plane. However, you may have these demons leave behind traces of themselves to be harvested by players. These items could be fragments of the demons that didn’t dissolve or the players managed to prevent from fading away into the aether. This could be done using an **Intelligence (Arcana)** or **Wisdom (Religion)** check.  
 
-<br>
+
 
 ##### Art Credit
 * Traxos, Scourge of Kroog (Promo) - Titus Lunter, Wizards of the Coast
@@ -209,5 +210,5 @@ You can give the different types of items unique names based on their material a
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0 
-* Document creation
+#### 1.0.0 
+* Document release
