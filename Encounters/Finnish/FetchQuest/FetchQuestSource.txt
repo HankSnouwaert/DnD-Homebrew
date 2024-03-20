@@ -1,0 +1,251 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+        /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+<br><br>
+
+## Fetch Quest <br> (Player Level: 9-11)
+In this encounter, the players attempt to collect sacred wood fragments from a shattered shrine along an icy shore. However, they soon find themselves in competition with iron dog constructs sent to collect the wood by any means necessary.
+
+### Encounter Context
+Below are some possible setups for this encounter.
+* The shrine was shattered upstream by the iron dogs, and priests hired the players to collect what's left of it before the dogs do.
+* The players are traveling along the river and notice that wooden shrine fragments with intricate carvings on them are drifting to shore, at which point the iron dogs arrive. 
+* The players have been hired to track down and stop the iron dogs before they can collect the sacred objects needed for their master's dark ritual.
+
+### Lead Up
+When the players approach the river (from their start location shown on the map), they will see the iron dogs arrive and move to their start locations (shown on the map.) The players should have the chance to identify the locations where pieces of wood have washed up on the shore before the encounter begins.
+
+
+### Collecting The Wood
+The sacred wood planks are Tiny objects that can be picked up using a free action by both the players and the iron dogs. The dogs eat the wood upon picking it up. 
+
+The dogs' entire focus is to acquire two pieces of wood each before leaving the area. If all the wood is picked up in the area and they each haven't eaten two pieces yet, they will eat the player with the most pieces of wood. Their magical smell will allow them to know exactly who has the most pieces of wood on them. Once they have the proper amounts of wood, they will retreat, carrying with them any creatures they've swallowed.
+
+**Heated Howl.** If the dogs see three or more adversaries close to each other, or at least two adversaries with one wearing metal, they prefer utilizing their heated howl ability over engaging in melee combat. 
+
+
+#### Vile Iron Dog Tactics
+The only tactical difference with vile iron dogs is their poison breath. They use this ability when they can target two or more adversaries simultaneously. Their toxic breath serves a secondary purpose as area control, as they can't be damaged by their own fog.
+
+\columnbreak
+
+<br><br><br>
+
+##### Encounter Map: Icy River Shore
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Map Legend
+* <font color="Green">**Green Areas:** Dry Land </font>
+* <font color="Blue">**Blue Areas:** Water </font>
+* <font color="918007">**Yellow, Orange, & Red Areas:** Climbable Rocks, DC 15 Strength (Athletics) check </font>
+* **H:** Vile Iron Hound Start Location
+* <font color="Red">**H:** Extra Iron Hound (Harder Difficulty)  </font>
+
+### Loot
+You can use the loot tables found later in this document to determine what can be harvested from the remains of the iron dogs. As the purpose of the encounter is to collect the sacred wood planks, this could serve as an additional form of treasure.
+
+### XP Award
+Award the players 2,000 XP for each item they are able to successfully collect.
+
+<br>
+
+> ##### Alternative Collectables
+> The items being collected don't have to be magical wooden planks. They can be anything that better suits your adventure, so long as its Tiny, magical, and capable of washing up on a river shore.
+
+
+<img src='https://i.ibb.co/DbT73YC/Iron-Dog-Tactitcs.png' style='position:absolute; top:117px; right:2px; width:415px;' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty accordingly. 
+
+**Easier Encounter (Level 7-9).** Replace the vile iron hounds with black iron hounds. Change the XP award to 1,200 XP per item collected.
+
+**Harder Encounter (Level 11-13).** Replace the vile iron hounds with black iron hounds and add an extra black iron hound. Change the XP award to 3,000 XP per item collected.
+
+**Hardest Encounter (Level 14-16).** Add an extra vile iron hound. Change the XP award to 5,000 XP per item collected.
+
+<br>
+
+### Art Credit
+* Encounter Map - Joseph Snouwaert
+
+\columnbreak
+
+
+### Adventure Follow Ups
+If you wish to make this part of a larger adventure, the following hooks can help provide some inspiration. 
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  |**Reconstructing the Shrine:** The sacred wood fragments are part of a larger puzzle. The adventurers must travel to various icy and treacherous locations to gather the remaining pieces of the shrine. As they do, they uncover the shrine's history and the divine entity associated with it. |
+|  2  | **The Iron Dogs' Master:** The defeat of the iron dogs attracts the attention of the constructs' creator, a powerful shamanistic blacksmith who seeks to reclaim the fragments for their own mysterious purposes. |
+|  3  | **Shadow in the Ice:** The destruction of the shrine awakens a dormant entity trapped within the ice, threatening the region with its malevolent influence. The adventurers must track this entity, uncovering its connections to the shrine, and find a way to  banish it. |
+|  4  | **Curse of the Shattered Shrine:** The shrine's destruction has cursed the land and caused environmental anomalies. The adventurers must find a way to lift the curse, possibly requiring a quest to find a ritual to appease spirits angered by the shrine's destruction. |
+
+___
+___
+> ## Black Iron Dog
+>*Large construct, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 93 (11d10 + 33)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|19 (+4)|16 (+3)|16 (+3)|10 (+0)|17 (+3)|14 (+2)|
+>___
+> - **Saving Throws** Str +7, Con +6
+> - **Skills** Investigation +6, Perception +6
+> - **Damage Immunities** fire, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** truesight 30 ft., darkvision 120 ft., passive Perception 16
+> - **Languages** understands the languages of its creator but can't speak
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Keen Hearing and Smell.*** The iron dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+> ***Pack Tactics.*** The iron dog has advantage on an attack roll against a creature if at least one of the iron dog's allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ***Powerful Build.*** The iron dog counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift.
+>
+> ***Smell Magic.*** The iron dog is under the effects of the *detect magic* spell at all times, except it uses its sense of smell rather than sight to detect magical effects.
+>
+> ***Supernatural Senses.*** The iron dog's senses are considered magical for the purposes of spells and effects, such as *pass without trace*, that prevent tracking through non-magical means.
+>
+> ### Actions
+> 
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) piercing damage. If the target is a creature (NOTE: What Size?), it must succeed on a DC 15 Dexterity saving throw or be swallowed by the iron dog. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the iron dog, and it can't teleport out of the stomach. At the start of each of the iron dog's turns, it can choose to have each creature in its stomach take 22 (5d8) fire damage. A creature trapped inside the iron dog can make a DC 15 Strength check as an action. On a success, one swallowed creature of its choice is freed, which falls prone in a space within 5 feet of the iron dog. If the iron dog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+>
+> ***Heated Howl (Recharges after a Short or Long Rest).*** The iron dog emits a wave of heat in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 22 (5d8) fire damage on a failed save, or half as much damage on a successful one. Creatures wearing metal armor or holding a metal object have disadvantage on the saving throw.
+
+
+
+\pagebreakNum
+
+
+
+
+___
+___
+> ## Vile Iron Dog
+>*Large construct, unaligned*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 110 (13d10 + 39)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|19 (+4)|16 (+3)|16 (+3)|10 (+0)|17 (+3)|14 (+2)|
+>___
+> - **Saving Throws** Str +7, Con +6, Int +3
+> - **Skills** Investigation +6, Perception +6
+> - **Damage Immunities** fire, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** truesight 30 ft., darkvision 120 ft., passive Perception 16
+> - **Languages** understands the languages of its creator but can't speak
+> - **Challenge** 7 (2,900 XP) &emsp;&emsp;**Proficiency Bonus** +3
+> ___
+>
+> ***Keen Hearing and Smell.*** The iron dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+> ***Pack Tactics.*** The iron dog has advantage on an attack roll against a creature if at least one of the iron dog's allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ***Powerful Build.*** The iron dog counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift.
+>
+> ***Supernatural Senses.*** The iron dog's senses are considered magical for the purposes of spells and effects, such as *pass without trace*, that prevent tracking through non-magical means.
+>
+> ***Smell Magic.*** The iron dog is under the effects of the *detect magic* spell at all times, except it uses its sense of smell rather than sight to detect magical effects.
+>
+> ### Actions
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) piercing damage. If the target is a creature (NOTE: What Size?), it must succeed on a DC 15 Dexterity saving throw or be swallowed by the iron dog. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the iron dog, and it can't teleport out of the stomach. At the start of each of the iron dog's turns, the iron dog can choose to have each creature in its stomach take 22 (5d8) poison damage. A creature trapped inside the iron dog can make a DC 15 Strength check as an action. On a success, one swallowed creature of its choice is freed, which falls prone in a space within 5 feet of the iron dog. If the iron dog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+>
+> ***Toxic Breath (Recharges after a Short or Long Rest).*** The iron dog exhales a breath of poison in a 30-foot cube originating from it, filling the area with fog that lasts for one minute or until strong wind disperses it. The area is lightly obscured. When a creature ends its turn in the area or enters the area for the first time on a turn, it must make a DC 15 Constitution saving throw. On a failed save, the creature takes 22 (5d8) poison damage and is poisoned for one minute. On a successful save, the creature takes half as much damage and isn't poisoned. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+\pagebreakNum
+
+### Iron Dogs Loot
+
+The valuable items looted from iron dogs will generally come from whatever can be harvested from them. This harvesting can usually be done using an **Intelligence (Arcana)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make an Intelligence (Smith’s Tools) check to harvest metal.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Iron Dog Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Black Iron Dog Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1d6(3) 5gp Items |
+|  8-10 | 1d4(2) 10gp Items | 
+|  11-17 | 1d6(3) 10gp Items  |  
+|  18-21 | 1d4(2) 20gp Items |  
+|  22+ |  1d6(3) 20gp Items |  
+
+##### Vile Iron Dog Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 2d4(5) 5gp Items |
+|  7-9 | 1d6(3) 10gp Items | 
+|  10-16 | 1d4(2) 20gp Items  |  
+|  17-21 | 1d6(3) 20gp Items |  
+|  22+ |  2d4(5) 20gp Items | 
+
+#### Example Iron Dog Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names. You can choose the burning or toxic descriptor based on whether the creature is a black iron hound or a vile iron hound.
+
+
+##### Example Iron Dog Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Essence)  | Faint Burning/Toxic Essense | Burning/Toxic Essense | Vital Burning/Toxic Essense   
+| 2-4 <br> (Metal) | Rusted Iron Dog Flesh |  Iron Dog Flesh | Pristine Iron Dog Flesh
+
+\columnbreak
+
+### Change Log
+#### 0.0.0
+* Document creation
