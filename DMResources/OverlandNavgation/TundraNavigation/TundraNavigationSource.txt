@@ -168,7 +168,7 @@ This mountain passed was once considered relatively safe and well-traveled. The 
 |37-40|1 **brown bear**|
 |41-48|1d4 + 2 **kallikantzaroi** waiting in a tree to attack anyone passing by|
 |49-54|2 **kallikantzaroi** & a **kallikantzaros foreman** riding atop a tormented **moose**|
-|55-60|1d4+1 **kallikantzaroi** & a **kallikantzaros foreman* being chased by a **brown bear**|
+|55-60|1d4+1 **kallikantzaroi** & a **kallikantzaros foreman** being chased by a **brown bear**|
 |55-60|1 **crone apprentice of shadow** attempting to bind 2 **kallikantzaroi** to her will |
 |61-65|1 **crone apprentice of beasts** riding atop a **caribou**|
 |66-70|1 **crone apprentice of death** with a **skeletal greater black bear** under her control|
@@ -408,34 +408,32 @@ These mountains were once part of the ancient empire of the giants. Since the co
 \pagebreakNum
 
 ___
-> ## Gibbering Mouther
->*Medium aberration, neutral*
+> ## Skeletal Greater Black Bear
+> *Medium undead, unaligned*
 > ___
-> - **Armor Class** 9
-> - **Hit Points**  67 (9d8 + 27)
-> - **Speed** 10 ft., swim 10 ft.
+> - **Armor Class** 11 (hide scraps)
+> - **Hit Points** 32 (5d8 + 10)
+> - **Speed** 40 ft., climb 25 ft., swim 25 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (+0)|8 (-1)|16 (+3)|3 (-4)|10 (+0)|6 (-2)|
+>|15 (+2)|11 (+0)|15 (+2)|6 (-2)|8 (-1)|5 (-3)|
 >___
-> - **Condition Immunities** prone
-> - **Senses** darkvision 60 ft., passive Perception 10
-> - **Languages** ━
-> - **Challenge** 2 (450 XP) &emsp;&emsp;    **Proficiency Bonus** +2
+> - **Damage Vulnerabilities** bludgeoning
+> - **Damage Immunities** poison
+> - **Condition Immunities** exhaustion, poisoned
+> - **Senses** darkvision 60 ft., passive Perception 9
+> - **Languages** — 
+> - **Challenge** 1 (200 XP) &emsp;&emsp; **Proficiency Bonus** +2
 > ___
->
-> ***Aberrant Ground.*** The ground in a 10-foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a DC 10 Strength saving throw or have its speed reduced to 0 until the start of its next turn.
->
-> ***Gibbering.*** The mouther babbles incoherently while it can see any creature and isn’t incapacitated. Each creature that starts its turn within 20 feet of the mouther and can hear the gibbering must succeed on a DC 10 Wisdom saving throw. On a failure, the creature can’t take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can’t make such an attack.
->
+> 
 > ### Actions
+> ***Multiattack.*** The bear makes two attacks: one with its bite and one with its claws.
 >
-> ***Multiattack.*** The gibbering mouther makes one bite attack and, if it can, uses its Blinding Spittle.
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage.
 >
-> ***Bite.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:* 17 (5d6) piercing damage. If the target is Medium or smaller, it must succeed on a DC 10 Strength saving throw or be knocked prone. If the target is killed by this damage, it is absorbed into the mouther.
->
-> ***Blinding Spittle (Recharge 5–6).*** The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a DC 13 Dexterity saving throw or be blinded until the end of the mouther’s next turn.
+> ***Claws.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) slashing damage.
+
 
 \columnbreak
 ___
@@ -443,7 +441,7 @@ ___
 >*Large aberration, neutral*
 > ___
 > - **Armor Class** 12 (natural armor)
-> - **Hit Points**  133 (14d10+56)
+> - **Hit Points**  133 (14d10 + 56)
 > - **Speed** 20 ft., swim 20 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -500,16 +498,17 @@ ___
 >
 > ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 15 ft., one creature. *Hit:* 49 (9d10) piercing damage. If the target is Huge or smaller, it must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is killed by this damage, it is absorbed into the mouther.
 >
-> ***Blinding Spittle (Recharge 3–6).*** The mouther spits a chemical glob at a point it can see within 45 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 20 feet of the flash must succeed on a DC 16 Dexterity saving throw or be blinded until the end of the mouther’s next turn. (NOTE: Not sure if it should get more uses)
+> ***Blinding Spittle (Recharge 3–6).*** The mouther spits a chemical glob at a point it can see within 45 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 20 feet of the flash must succeed on a DC 16 Dexterity saving throw or be blinded until the end of the mouther’s next turn. 
 
-\pagebreak
+\pagebreakNum
+
 ___
 ___
 > ## Gibbering Horror
 >*Gargantuan aberration, neutral*
 > ___
 > - **Armor Class** 16 (natural armor)
-> - **Hit Points**  310 (20d20+100)
+> - **Hit Points**  310 (20d20 + 100)
 > - **Speed** 30 ft., swim 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -520,7 +519,7 @@ ___
 > - **Condition Immunities** prone
 > - **Senses** darkvision 120 ft., passive Perception 10
 > - **Languages** ━
-> - **Challenge** 16 (450 XP) &emsp;&emsp;    **Proficiency Bonus** +5
+> - **Challenge** 16 (15,000 XP) &emsp;&emsp;    **Proficiency Bonus** +5
 > ___
 >
 > ***Aberrant Ground.*** The ground in a 20-foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a DC 18 Strength saving throw or have its speed reduced to 0 until the start of its next turn.
@@ -533,25 +532,25 @@ ___
 >
 > ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 15 ft., one creature. *Hit:* 49 (9d10) piercing damage. If the target is Huge or smaller, it must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is killed by this damage, it is absorbed into the mouther.
 >
-> ***Blinding Spittle.*** The mouther spits a chemical glob at a point it can see within 60 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 20 feet of the flash must succeed on a DC 18 Dexterity saving throw or be blinded until the end of the mouther’s next turn. (NOTE: Not sure if it should get more uses)
+> ***Blinding Spittle.*** The mouther spits a chemical glob at a point it can see within 60 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 20 feet of the flash must succeed on a DC 18 Dexterity saving throw or be blinded until the end of the mouther’s next turn. 
 >
 > ### Legendary Actions
 > 
 > The  gibbering mouther can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The gibbering mouther regains spent legendary actions at the start of its turn.
 > 
-> ***Move.*** The gibbering mouther may move up to 15 without provoking attacks of opportunity.
->
 > ***Check.*** The gibbering mouther makes a skill check that would normally require an action.
+>
+> ***Flesh Tendril.*** The mouther sends a pseudopod at a Huge or smaller creature that just took its turn that the mouther can see within 60 feet of it. The creature must succeed on a DC 18 Dexterity saving throw or take 16 (3d10) bludgeoning damage and be grappled (escape DC 18). At the start of the mouther's turn, it can pull any creatures grappled this way 30 feet closer to it. 
+>
+> ***Maddening Whisper.*** The mouther whispers to a creature within 5 feet of it that can hear it that just took its turn. The creature must succeed on a DC 18 Wisdom saving throw or take 16 (3d10) psychic damage. It has disadvantage on this save if it is under the effect of the mouther's Gibbering ability
+>
+> ***Move.*** The gibbering mouther may move up to 15 without provoking attacks of opportunity.
 > 
 > ***Tenacious Will.*** If the gibbering mouther is suffering from an effect that allows it to make a saving throw as an action or at the beginning or end of its next turn, it may immediately make that save against the effect with advantage. It can use this legendary action while incapacitated.
 >
-> ***Flesh tendril.*** If the gibbering sends Pseudopod at a huge or smaller creature that just took it's turn that it can see with in 60 feet of it. It must succeed on a DC 18 Dexterity saving throw or take 16 (3d10) bludgeoning damage be grappled (escape DC 18). At the start of horror turn, it can pull any creatures grappled this way 30 feet closer to it. 
->
-> ***Maddening Whisper.*** Gibbering mouther whispers to a creature that can hear it that just took it's turn with in 5 feet of it. It must succeed on a DC 18 wisdom saving throw or take 16 (3d10) psychic damage, it has disadvantage on this save if it is under the effects of the mouther's Gibbering ability
->
-> 
  
+\pagebreakNum
 
-
+### Change Log
 #### 0.0.0
  * Document creation
