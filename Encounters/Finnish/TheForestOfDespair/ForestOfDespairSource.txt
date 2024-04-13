@@ -73,10 +73,13 @@ If the players flee, the hiiden hirvi (along with the sorrow carriers) will like
 ##### Map Legend
 * <font color="Purple">**Purple Lines:** Areas of Trees That Can Be Climbed With A DC 15 Strength (Athletics) Check </font>
 * <font color="Green">**Green & Yellow Lines Areas:** Steep Increases In Elevation (From Green Up To Yellow) That Can Be Climbed With A DC 15 Strength (Athletics) Check </font>
-* **H:** Hiiden Hirvi Starting Location (NOTE: There's an E on the map)
+* **H:** Hiiden Hirvi Starting Location 
 * **S:** Sorrow Carrier Starting Locations
 
+<br>
 
+### Loot
+You can use the loot tables found later in this document to determine what can be harvested from the remains of the constructs. As this is likely a random encounter, there won't be a need for much loot beyond this. 
 
 <img src='https://i.ibb.co/JywBXR5/Forest-of-Despair-Guide.png' style='position:absolute; top:70px; right:2px; width:415px;' />
 
@@ -84,12 +87,9 @@ If the players flee, the hiiden hirvi (along with the sorrow carriers) will like
 
 \pagebreakNum
 
-### Loot
-You can use the loot tables found later in this document to determine what can be harvested from the remains of the constructs. As this is likely a random encounter, there won't be a need for much loot beyond this. 
 
-### XP Award: 12,000xp 
-(NOTE: This is a Deadly encounter for players at level 7)
 
+### XP Award: 5,000xp 
 The degree of success the players have in defeating the bale wolves can affect their XP reward. You can use the following potential outcomes as guidelines to modify how much XP you award your players.
 
 * **150% XP:** The players defeat all the enemies and destroy the hiiden hirivi without taking much damage or expending many resources.
@@ -101,11 +101,11 @@ The degree of success the players have in defeating the bale wolves can affect t
 ### Adjusting the Difficulty
 The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty accordingly. 
 
-**Easier Encounter (Level 4-5).** Remove the sorrow carriers. Change the XP award to 2,900 XP. (NOTE: This is deadly for level 4 players)
+**Easier Encounter (Level 4-5).** Remove the sorrow carriers. Change the XP award to 2,000 XP.
 
-**Harder Encounter (Level 12-14).** Add a second hiiden hirvi. Change the XP award to 18,000 XP.
+**Harder Encounter (Level 12-14).** Add a second hiiden hirvi. Change the XP award to 8,000 XP.
 
-\columnbreak
+
 
 ### Adventure Follow Ups
 If you wish to make this part of a larger adventure, the following hooks can help provide some inspiration. 
@@ -117,20 +117,152 @@ If you wish to make this part of a larger adventure, the following hooks can hel
 |  3  | **Trail of Frozen Shadows:** With the hiiden hirvi defeated, a previously obscured path in the dark forest becomes visible, leading to a hidden valley where the malevolent entities that created the hiiden hirvi reside. |
 |  4  |**The Sorrow Wells:** While investigating the locations where the sorrow carriers disposed of collected sorrow, the adventurers discover wells of condensed emotional energy. These sites, now unguarded, pose a risk of corrupting the surrounding area or being exploited by dark forces. The party must find a way to neutralize these wells or safeguard them against misuse. |
 
+\columnbreak
+
+___
+> ## Sorrow Carrier
+> *Small construct, unaligned*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 52 (8d8 + 16)
+> - **Speed** 10 ft., fly 50 ft.
+>___
+>| STR | DEX | CON | INT | WIS | CHA |
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>| 6 (-2) | 14 (+2) | 14 (+2) | 8 (-1) | 14 (+2) | 14 (+2) |
+>___
+> - **Saving Throws** Int +1
+> - **Skills** Investigation +3, Insight +6, Perception +6
+> - **Damage Immunities** psychic, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** truesight 30 ft., darkvision 120 ft., passive Perception 16
+> - **Languages** speaks the languages of its creator
+> - **Challenge** 1 (200 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+> ***Death Sorrow.*** When the sorrow carrier dies, it releases the sadness it was carrying. The nearest humanoid creature within 100 feet of the sorrow carrier must make a DC 13 Wisdom saving throw, taking 21 (6d6) psychic damage and becoming overcome with sorrow on a failed save, or half as much damage on a successful one without becoming overcome with sorrow. A creature overcome with sorrow has disadvantage on attack rolls and ability checks if another creature is within 5 feet of it and isn't incapacitated. A creature can take an action to make a DC 13 Wisdom (Insight) check, ending the sorrow on a success.
+> 
+> ### Actions
+> ***Sting.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage plus 7 (2d6) psychic damage. The target must succeed on a DC 13 Wisdom saving throw or become overcome with sorrow as described in the Death Sorrow trait.
+
 <br>
 
 ### Art Credit
 * Encounter Map - Joseph Snouwaert
 
+\pagebreakNum
 
+___
+___
+> ## Hiiden Hirvi
+> *Large construct, unaligned*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 114 (12d10+48)
+> - **Speed** 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|16 (+3)|18 (+4)|6 (-2)|16 (+3)|14 (+2)|
+>___
+> - **Saving Throws** Str +8, Dex +6
+> - **Skills** Survival +6, Perception +6
+> - **Damage Immunities** cold
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified
+> - **Senses** darkvision 120 ft., passive Perception 16
+> - **Languages** understands the languages of its creator but can't speak
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Aura of Numbing.*** The hirvi sheds dim light out to 20 feet. Creatures that regain hit points within the light regain only half that amount. Any creature that ends its turn in the light must make a DC 14 Constitution saving throw. On a failed save, a creature takes 7 (3d4) cold damage and gains a level of exhaustion, and on a success, it takes half as much damage and does not suffer a level of exhaustion. Creatures immune to cold damage are immune to this aura's effects.
+>
+> ***Charge.*** If the hirvi moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
+>
+> ***Ice Walk.*** The hirvi can move across and climb icy surfaces without needing to make an ability check, and icy surfaces can't cause it to fall prone. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement.
+> 
+> ### Actions
+> ***Gore.*** Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) piercing damage.
+>
+> ***Hooves.*** Melee Weapon Attack: +8 to hit, reach 5 ft.,  one target. Hit: 12 (2d6 + 5) bludgeoning damage.
+> 
+> ### Bonus Actions
+>
+> ***Luring Chase (3/Day).*** The hirvi targets one creature it can see within 120 feet of itself. The target must make a DC 14 Wisdom saving throw or become obsessed with hunting the hirvi until the hirvi uses this ability again. An obsessed creature knows the hirvi's location if they are on the same plane of existence and cannot be slowed by exhaustion. If the target is more than 10 feet away from the hirvi, it must move on its turn toward the hirvi by the most direct route, trying to get within 10 feet, and can then take the rest of its turn as normal. The creature doesn't avoid opportunity attacks, but before moving into damaging terrain or whenever it takes damage from a source other than the hirvi, the target can repeat the saving throw. An obsessed target can also repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A target that successfully saves is immune to this hirvi's Luring Chase for 24 hours.
+>
+> ### Reactions
+>
+> ***Back Kick.*** If a creature makes an opportunity attack against the hirvi, the hirvi may make a Hooves attack against the creature with disadvantage after the attack.
 
 \pagebreakNum
 
+### Hirvi Loot
+
+The valuable items looted from hirvi will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest hide.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Hirvi Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
 
 
+##### Hirvi & Hiiden Hirvi Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1d4(2) 5gp Items |
+|  8-12 | 1d6(3) 5gp Items | 
+|  13-18 | 1d4(2) 10gp Items  |  
+|  19-22 | 1d6(3) 10gp Item |  
+|  23+ |  1d4(2) 20gp Items | 
+
+
+#### Example Hiirvi Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+##### Example Hiirvi Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 100gp Item | 
+|:--:|:---:|:-----------:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Hirvi Bone |  Hirvi Bone |  Glowing Hirvi Bone | Glowing Master Hirvi Bone
+| 2 <br> (Essence)  | Faded Hirvi Mote | Hirvi Mote | Radiant Hirvi Mote  | Radiant Master Hirvi Mote
+| 3 <br> (Plant)  | Tattered Hirvi Moss| Hirvi Moss| Glowing Hirvi Moss  | Glowing Master Hirvi Moss
+| 4 <br> (Wood) | Rotted Hirvi Bone | Hirvi Bone | Glowing Hirvi Bone  | Glowing Master Hirvi Bone
+
+\columnbreak
+
+### Sorrow Carrier Loot
+The valuable items looted from sorrow carriers will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Carver’s Tools) check to harvest the wood scraps from the sorrow carrier
+
+
+
+#### Sorrow Carrier Loot Table
+The following table describes the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Sorrow Carrier Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5gp Item |
+|  6-9  | 1d4(2) 5gp Items |
+|  10-16 | 1  10gp Item | 
+|  17-21 | 1d4(2) 10gp Items  |  
+|  22+ |  1d4(2) 20gp Items |  
+ 
+
+#### Example Sorrow Carrier Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+##### Example Sorrow Carrier Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Sorrow Carrier Beak |  Sorrow Carrier Beak |  Sorrow Carrier Beak of Despair | 
+| 2 (Cloth)  | Tattered Sorrow Carrier Wing| Sorrow Carrier Wing|  Sorrow Carrier Wing of Despair  | 
+| 3 <br> (Hide)  | Tattered Sorrow Carrier Skin | Sorrow Carrier Skin |  Sorrow Carrier Skin of Despair  | 
+| 4 <br> (Wood) | Rotted Sorrow Carrier Bone | Sorrow Carrier Bone |  Sorrow Carrier Bone Hide of Despair  |
 
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
