@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after  {
+    .phb#p2:after, .phb#p4:after  {
         display          : none;
     }
     /* End Footers */
@@ -44,7 +44,7 @@ Not only are the dogs used for their tracking abilities, but they also serve as 
 
 **Furnace Stomach.** Perhaps the most disturbing feature of these beast-like constructs is their ability to open their jaws at a 90-degree angle, allowing them to swallow substantially large objects or creatures into their spacious metal stomach. Inside the stomach, objects can be stored and carried back to their master. 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 The hound can also serve as a furnace; often, these hounds are sent to find rare magical ores, and on their trip back, after finding these resources, their stomach burns hot, melting down the newly found prize.  Ultimately, they defecate the slag byproduct and vomit up purified metal. They can also dispose of foes this way, cooking them in their metal stomach until there’s nothing but ash to cough up.
 
@@ -98,7 +98,7 @@ ___
 >
 > ### Actions
 > 
-> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) piercing damage. If the target is a creature (NOTE: What Size?), it must succeed on a DC 15 Dexterity saving throw or be swallowed by the iron dog. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the iron dog, and it can't teleport out of the stomach. At the start of each of the iron dog's turns, it can choose to have each creature in its stomach take 22 (5d8) fire damage. A creature trapped inside the iron dog can make a DC 15 Strength check as an action. On a success, one swallowed creature of its choice is freed, which falls prone in a space within 5 feet of the iron dog. If the iron dog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Dexterity saving throw or be swallowed by the iron dog. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the iron dog, and it can't teleport out of the stomach. At the start of each of the iron dog's turns, it can choose to have each creature in its stomach take 22 (5d8) fire damage. A creature trapped inside the iron dog can make a DC 15 Strength check as an action. On a success, one swallowed creature of its choice is freed, which falls prone in a space within 5 feet of the iron dog. If the iron dog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
 >
 > ***Heated Howl (Recharges after a Short or Long Rest).*** The iron dog emits a wave of heat in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 22 (5d8) fire damage on a failed save, or half as much damage on a successful one. Creatures wearing metal armor or holding a metal object have disadvantage on the saving throw.
 
@@ -114,7 +114,7 @@ style='position:absolute;top:580px;left:0px;width:816px;transform:scaleX(1)' />
 
 ##### Iron Dog Adventure Hooks
 
-| d4  | Plot Hook |
+| d6  | Plot Hook |
 |:---:|:-----------:|
 |  1  | **The Forge of Creation:** Rumors tell of a legendary forge that can create constructs of immense power, which is said to be guarded by a pack of ancient black iron dogs. The adventurers must find this forge, facing its guardians, and decide what to do with such knowledge and power.|
 |  2  | **The Iron Plague:** A strange sickness is affecting black iron dogs across the land, causing them to malfunction and attack their owners or wander off into the wilderness. The adventurers are hired to investigate the cause. |
@@ -164,7 +164,7 @@ ___
 >
 > ### Actions
 >
-> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) piercing damage. If the target is a creature (NOTE: What Size?), it must succeed on a DC 15 Dexterity saving throw or be swallowed by the iron dog. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the iron dog, and it can't teleport out of the stomach. At the start of each of the iron dog's turns, the iron dog can choose to have each creature in its stomach take 22 (5d8) poison damage. A creature trapped inside the iron dog can make a DC 15 Strength check as an action. On a success, one swallowed creature of its choice is freed, which falls prone in a space within 5 feet of the iron dog. If the iron dog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Dexterity saving throw or be swallowed by the iron dog. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the iron dog, and it can't teleport out of the stomach. At the start of each of the iron dog's turns, the iron dog can choose to have each creature in its stomach take 22 (5d8) poison damage. A creature trapped inside the iron dog can make a DC 15 Strength check as an action. On a success, one swallowed creature of its choice is freed, which falls prone in a space within 5 feet of the iron dog. If the iron dog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.
 >
 > ***Toxic Breath (Recharges after a Short or Long Rest).*** The iron dog exhales a breath of poison in a 30-foot cube originating from it, filling the area with fog that lasts for one minute or until strong wind disperses it. The area is lightly obscured. When a creature ends its turn in the area or enters the area for the first time on a turn, it must make a DC 15 Constitution saving throw. On a failed save, the creature takes 22 (5d8) poison damage and is poisoned for one minute. On a successful save, the creature takes half as much damage and isn't poisoned. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
@@ -176,19 +176,25 @@ Black iron dogs possess the ability to perform basic reasoning and think indepen
 #### Guarding an Area
 &emsp;**Pack Tactics.** While guarding a territory, black iron dogs operate in groups of three or more so they can employ pack tactics. They work together to isolate and surround targets, giving them advantage on attacks.
 
-**Swallowing Foes.** The dogs will work together to each swallow one of their attackers. By diving up enemies this way, they can keep any individual dog from being surrounded. (NOTE: I may have changed this from the Strategy section you had before, since the way you worded dividing enemies out made it sound like they wouldn't be able to use pack tactics since they'd all be spread out.)
+**Swallowing Foes.** The dogs will work together to each swallow one of their attackers. By diving up enemies this way, they can keep any individual dog from being surrounded.
 
 **Heated Howl.** If the dogs see three or more adversaries close to each other, or at least two adversaries with one wearing metal, they prefer utilizing their heated howl ability over engaging in melee combat. 
-#### Resource Collection
-In their role as collectors, Black Iron Dogs are tasked with acquiring specific objects. They focus on swiftly seizing these items and retreating without delay.
 
-Encountering Resistance: In situations where an item is already in the possession of a creature, the dogs have a simple countermeasure: they eliminate the creature to retrieve the item, then promptly evacuate the area with both the item and the creature. This direct approach ensures the fulfillment of their retrieval mission while minimizing prolonged conflict. (NOTE: Why are they leaving with the creature?)
+#### Resource Collection
+In their role as collectors, black iron dogs are tasked with acquiring specific objects. They focus on swiftly seizing these items and retreating without delay.
+
+**Encountering Resistance:** In situations where an item is already in the possession of a creature, the dogs have a simple countermeasure: they swallow the creature to retrieve the item, then promptly evacuate the area with both the item and the creature. This direct approach ensures the fulfillment of their retrieval mission while minimizing prolonged conflict. 
 
 
 #### Vile Iron Dog Tactics
 The only tactical difference with vile iron dogs is their poison breath. They use this ability when they can target two or more adversaries simultaneously. Their toxic breath serves a secondary purpose as area control, as they can't be damaged by their own fog.
 
+### Art Credit
+* Iron Mastiff - James Paick, Wizards of the Coast
+* Scrapwork Mutt - Sidharth Chaturvedi, Wizards of the Coast
+* Labro Bot - Carl Critchlow, Wizards of the Coast
 
+\columnbreak
 
 ### Iron Dogs Loot
 
@@ -196,7 +202,7 @@ The valuable items looted from iron dogs will generally come from whatever can b
 
 Alternatively, you can roll for the loot randomly using a flat modifier.
 
-\columnbreak
+
 
 #### Iron Dog Loot Tables
 The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
@@ -233,9 +239,13 @@ You can give the different types of items unique names based on their material a
 
 <br>
 
-#### Art Credit
-* Iron Mastiff - James Paick, Wizards of the Coast
-* Scrapwork Mutt - Sidharth Chaturvedi, Wizards of the Coast
+<img src='https://i.ibb.co/BgTCSGH/Labro-Bot-5000x.jpg' style='position:absolute; bottom:-195px; left:-60px; width:800px; transform: scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-620px;top:0px;height:1400px;width:1416px;transform:rotate(80deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-240px;top:-260px;height:1400px;width:1416px;transform:rotate(4deg)' />
 
 \pagebreakNum
 
