@@ -19,7 +19,7 @@
 
     
         /* Hide the footer on some pages */
-    .phb#p2:after  {
+    .phb#p3:after  {
         display          : none;
     }
     /* End Footers */
@@ -49,12 +49,12 @@ When the players first enter the chamber, the cats are inactive, and the flame t
 
 
 ### The Flame Trap
-This magical trap spreads throughout a room filled with 5' x 5' tiles. It activates when a Small or larger creature moves across specific tiles. Triggered tiles emit a jet of flame that extends from the tile to the ceiling. Any creature within the flame's area must make a DC 13 Dexterity saving throw, taking 7 (2d6) fire damage on a failure and half as much on a success. Each activated tile becomes inactive for one minute before it can trigger again.
+This magical trap spreads throughout a room filled with 5' x 5' tiles. It activates when a Small or larger creature moves across specific tiles (this includes creatures moving across the tile without stepping on it.) Triggered tiles emit a jet of flame that extends from the tile to the ceiling. Any creature within the flame's area must make a DC 14 Dexterity saving throw, taking 14 (4d6) fire damage on a failure and half as much on a success. Each activated tile becomes inactive for one minute before it can trigger again.
 
-The trap is designed to be obvious to players, with a passive Perception score of 13 revealing faint scorch marks on both the floor and ceiling. A DC 13 Investigation check allows a character to identify which tiles are safe to traverse. The trap serves as a dynamic challenge, particularly when players are under pressure to escape the cats in a hurried escape.
+The trap is designed to be obvious to players, with a passive Perception score of 13 revealing faint scorch marks on both the floor and ceiling. A DC 14 Investigation check allows a character to identify which tiles are safe to traverse. The trap serves as a dynamic challenge, especially when players are rushing to escape the cats. 
 
 ### The Coffin
-&emsp;**Description:** Elevated 5 feet above the ground on an altar, this wooden coffin is securely bolted down and latched shut. Picking the coffin's lock requires a DC 13 Thieves' Tools check. The lock has an AC of 13, 10 hit points, and a damage threshold of 10.
+&emsp;**Description:** Elevated 5 feet above the ground on an altar, this wooden coffin is securely bolted down and latched shut. Picking the coffin's lock requires a DC 14 Thieves' Tools check. The lock has an AC of 13, 10 hit points, and a damage threshold of 10.
 
 **Contents:** Within the coffin rests a skeleton clutching the object the players are after. Removing the object from the coffin or attempting to move or destroy the coffin triggers a trap: all torches within the tomb ignite, and the coffin bursts into flames, summoning 2 hiisi's cats at any of the starting locations shown on the map. The magical fire consuming the coffin lasts for one hour and can only be extinguished by magic, specifically by spells of 4th level or higher that create water or wind.
 
@@ -67,7 +67,7 @@ The trap is designed to be obvious to players, with a passive Perception score o
 ##### Map Legend
 * <font color="Red">**Flame Trap Tiles**  </font>
 * <font color="Green">**Green & Blue Lines & Areas:** Changes In Elevation </font>
-* **C:** Potential Hiisi Cat Starting Locations
+* **C:** Potential Hiisi's Cat Starting Locations
 * **T:** Coffin Location
 
 
@@ -85,27 +85,31 @@ The trap is designed to be obvious to players, with a passive Perception score o
 A successful DC 17 Investigation check reveals the presence of a trap linked to the removal of the item from the coffin.
 A DC 21 Investigation check uncovers the precise mechanics of the summoning trap, including details about the creatures it summons. However, there is no way to disable it.
 
-### The Hiisi Cats
+### The Hiisi's Cats
 When the cats are created, the object the players took becomes their bound object, and they will stop at nothing to prevent it from being taken. Their primary strategy involves attacking the individual in possession of the object and using their claws to inflict a curse. If the cursed individual drops the item, a cat will seize the opportunity to grab the object and attempt to return it to the coffin. When engaged in combat, the cats will quickly close the gap on players to prevent their escape and leverage their Scrape reaction to make escape hazardous. 
 
 ### Ending the Encounter
-The hiisi cats cannot leave the chamber to pursue the players. If the players drop the item, the cats will bring it back near the coffin. One hour after the coffin trap has been activated, it will magically reset, causing the coffin to return to its previous state with the cats hidden within. If the item is within the chamber, it will be teleported back into the coffin where it was before.
+The hiisi's cats cannot leave the chamber to pursue the players. If the players drop the item, the cats will bring it back near the coffin. One hour after the coffin trap has been activated, it will magically reset, causing the coffin to return to its previous state with the cats hidden within. If the item is within the chamber, it will be teleported back into the coffin where it was before.
 
 ### Loot
-The hiisi cat's likely can't be looted because they continually regenerate within the coffin. If the players find a way to destroy the coffin and the cats, you can use their loot tables found later in the document to determine what the players can harvest from them. 
+The hiisi's cats likely can't be looted because they continually regenerate within the coffin. If the players find a way to destroy the coffin and the cats, you can use their loot tables found later in the document to determine what the players can harvest from them. 
 
 ### XP Award: 4,000xp 
 If the players find a way to go above and beyond (such as destroying the coffin), you can award them 50% more XP. If they perform poorly in some way but still get the item, you can reduce the XP by 50%.
 
 
+\columnbreak
+
 ### Adjusting the Difficulty
 The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty accordingly. 
 
-**Easier Encounter (Level 3-4).** Reduce the number of hiisi cats the coffin creates to 1. Change the XP award to 1,200 XP.
+**Easier Encounter (Level 3-4).** Reduce the number of hiisi's cats the coffin creates to 1. Decrease the damage dealt by the traps to 7 (2d6) fire damage, and decrease the DCs for checks and saves related to the fire traps to 13. 
 
-**Harder Encounter (Level 7-9).** Increase the number of hiisi cats the coffin creates to 3. Change the XP award to 7,000 XP.
+Change the XP award to 1,200 XP.
 
-\columnbreak
+**Harder Encounter (Level 7-9).** Increase the number of hiisi's cats the coffin creates to 3. Increase the damage dealt by the traps to 21 (6d6) fire damage, and increase the DCs for checks and saves related to the fire traps to 15. 
+
+Change the XP award to 7,000 XP.
 
 ### Adventure Follow Ups
 If you wish to make this part of a larger adventure, the following hooks can help provide some inspiration. 
@@ -126,7 +130,87 @@ If you wish to make this part of a larger adventure, the following hooks can hel
 
 \pagebreakNum
 
+### Hiisi's Cat Loot
+The valuable items looted from hiisi's cats will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Arcana)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Carver’s Tools) check to harvest the wood scraps from the hiisi's cat.
 
+#### Hiisi's Cat Loot Table
+The following table describes the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+\columnbreak
+
+##### Hiisi's Cat Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1 5gp Item |
+|  7-11  | 1d4(2) 5gp Items |
+|  12-18 | 1d4(2)  5gp Items | 
+|  19-22 | 1 10gp Item  |  
+|  23+ |  1 20gp Item |  
+ 
+
+#### Example Hiisi's Cat Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+##### Example Hiisi's Cat Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Essence)  |   Faded Hiisi Ashes |  Hiisi Ashes |  Smoldering Hiisi Ashes | 
+| 3-4 <br> (Wood) | Rotted Hiisi Wood | Hiisi Wood |  Smoldering Hiisi Wood  |
+
+___
+___
+> ## Hiisi's Cat
+>*Small construct, unaligned*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 88 (16d6 + 32)
+> - **Speed** 40 ft., climb 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|16 (+3)|14 (+2)|6 (-2)|14 (+2)|14 (+2)|
+>___
+> - **Saving Throws** Dex +5, Int +1, Wis +4
+> - **Skills** Investigation +2, Perception +4, Stealth +5
+> - **Damage Immunities** fire, poison
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned
+> - **Senses** darkvision 120 ft., passive Perception 14
+> - **Languages** understands the languages of its creator but can't speak
+> - **Challenge** 3 (700 XP) &emsp;&emsp;**Proficiency Bonus** +2
+> ___
+>
+> ***Bound Object.*** The cat is bound to one object upon its creation. This can be any object its creator owns. The cat knows the direction and distance to its object as long as the two of them are on the same plane of existence.
+>
+> ***False Appearance.*** While the cat remains motionless, it is indistinguishable from a pile of burnt wood or a pile of burning wood if its Illumination is active.
+>
+> ***Inflame (1/Turn).*** The cat deals an extra 9 (2d8) fire damage when it hits a target with a claw attack and the target is cursed by it.
+>
+> ***Keen Sight.*** The cat has advantage on Wisdom (Perception) checks that rely on sight.
+>
+> ### Actions
+>
+> ***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) slashing damage plus 9 (2d8) fire damage if its Illumination is active. If the target is a creature holding, wearing, or carrying the object the cat is bound to, it becomes cursed. 
+> <br><br> **The Hiisi's Cat Curse.** While cursed, the creature's spells can't move or teleport the object the cat is bound to.  If the cursed creature comes into contact with the object at any point, it takes 4 (1d8) fire damage at the end of its turn and suffers the following effects until the end of its next turn:
+>
+>  &#8226; Its speed is halved
+>
+>  &#8226; It has disadvantage on attack rolls and ability checks
+>
+>  &#8226; It can't cast spells other than cantrips
+>
+> At the end of the creature's turn, if it has not touched the object since the end of its last turn, it makes a DC 13 Charisma saving throw, ending the curse on a success.
+>
+> ### Bonus Action
+>
+> ***Fetch.*** As a bonus action, the Hiisi's Cat can move up to its speed towards the object it is bound to without provoking opportunity attacks, provided it can see the object.
+>
+> ***Illumination.*** The cat can choose to shed bright light in a 15-foot radius and dim light in an additional 15 feet. It can end the light as a bonus action on its turn.
+>
+> ### Reaction
+>
+> ***Scrape.*** If a creature within 5 feet of the cat takes the Disengage action, the cat can make an attack against that creature.
 
 
 \pagebreakNum
