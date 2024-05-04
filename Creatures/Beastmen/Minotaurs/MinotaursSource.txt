@@ -407,9 +407,9 @@ Applying a mutation increases a creature's CR by 1 (fractional CRs are doubled, 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-### Crown of Horns (Requires Primal Fury) (Note Reworded)
+### Crown of Horns <br> (Requires Primal Fury) 
 *This creature is gifted with especially large and grandiose twisting horns, granting it extreme confidence, for it knows it has been blessed by the dark gods.*
 
 When the beastman makes a Wisdom check caused by its Primal Fury ability, it automatically succeeds unless it has disadvantage on the roll.
@@ -419,6 +419,12 @@ When the beastman makes a Wisdom check caused by its Primal Fury ability, it aut
 *The beastman's hide has toughed up to the point that it serves as a layer of living armor.*
 
 The beastman gets +2 to its AC.
+
+### Goregreed (Requires Blood Greed)
+
+*The beastman's hunger for flesh can not be stated; the more blood it tastes, the greater it hungers.*
+
+When the beastman's Blood Greed trait activates, it gets +2 to attack rolls. This ability can stack up to three times. It loses all stacks if it ends its turn without activating Blood Greed.
 
 ### Gouging Tusks 
 
@@ -433,13 +439,13 @@ Beastman's Gore attack deals extra 16 (3d10) piercing damage in addition to it's
 When the beastman takes the attack action, it makes one additional attack as part of the action, which uses the attack modifier of its Gore attack. On hit, the target takes 2d4 slashing damage. (The attack also gains the benefits of Primal Fury and Blood Greed.)
 
 
-<img src='https://assets.echomtg.com/magic/cards/cropped/61280.hq.jpg' style='position:absolute; top:-0px; right:-50px; width:690px;' />
+<img src='https://assets.echomtg.com/magic/cards/cropped/61280.hq.jpg' style='position:absolute; top:-0px; right:-10px; width:550px;' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:30px;top:-50px;height:1400px;width:1416px;transform:rotate(256deg)' />
+  style='position:absolute;right:30px;top:-50px;height:1400px;width:1416px;transform:rotate(260deg)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-500px;top:120px;height:1400px;width:1416px;transform:rotate(180deg)' />
+  style='position:absolute;right:-500px;top:-10px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
 
 
@@ -451,7 +457,7 @@ When the beastman takes the attack action, it makes one additional attack as par
 
 *The beastman has a large eldritch rune carved into its flesh. When it becomes enraged, the rune glows red hot and distorting the winds of magic around it.*
 
-While the beastman's Primal Fury or Blood Greed ability is active, it has resistance to damage from spells, and when it is affected by a spell that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. (Note Reworded)
+While the beastman's Primal Fury or Blood Greed ability is active, it has resistance to damage from spells, and when it is affected by a spell that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
 
 ### Shadow Hide
 
@@ -503,9 +509,8 @@ The beastman has advantage on initiative rolls and Wisdom (Perception) checks an
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-80px;top:99px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
+\pagebreakNum
 
-### Goregreed (Requires Blood Greed)
-
-*The beastman hunger for flesh can not be stated, the more blood it tastes the greater it hunger*
-
-When the beastman activates it's blood greed ability, it gets +2 to attack rolls, this ability can stack up to three times, it loses all stacks if it ends it's turn with out activating blood greed.
+### Change Log
+#### 0.0.0
+* Document creation
