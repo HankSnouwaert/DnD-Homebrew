@@ -64,7 +64,7 @@ Rat ogres also wake up early if their tank is destroyed. Each tank is an object 
 
 \columnbreak
 
-<br>
+
 
 ##### Encounter Map: Rat Ogre Lab
 
@@ -75,6 +75,7 @@ Rat ogres also wake up early if their tank is destroyed. Each tank is an object 
 * <font color="Green">**Green Shaded Areas:** Elevation Changes </font>
 * <font color="Purple">**Purple Areas:** Rat Ogre Tanks </font>
 * <font color="Red">**Red Areas:** Control Panels </font>
+* <font color="Red">**Red Line:** Area of *alarm* spell </font>
 * <font color="918007">**Yellow Border:** 20ft. Tall Walls and Ceiling </font>
 * **R:** Ratfolk Packmaster
 * **O:** Rat Ogre Starting Areas
@@ -91,7 +92,7 @@ Rat ogres also wake up early if their tank is destroyed. Each tank is an object 
 |  5  | ***Nothing Happens.*** |
 |  6  | ***The Rat Ogre Awakens.*** |
 
-<img src='https://i.ibb.co/c1BTxy0/Growth-Vats.jpg' style='position:absolute; top:85px; right:2px; width:420px; ' />
+<img src='https://i.ibb.co/c1BTxy0/Growth-Vats.jpg' style='position:absolute; top:70px; right:2px; width:420px; ' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -391,7 +392,7 @@ ___
 >
 > ***Things-Catcher.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage. The target is grappled (escape DC 13) if it is a Large or smaller creature. Until this grapple ends, the ratfolk can't use the things-catcher on another target.
 >
-> ***Whip.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. Hit: 4 (1d4 + 2) slashing damage. The attack automatically hits if the target is an allied beast or monstrosity with an Intelligence score of 8 or lower. Any charmed or frightened conditions end for that creature, and it can immediately use its reaction to make one weapon attack. (NOTE: Only for allied creatures? Yes)
+> ***Whip.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. Hit: 4 (1d4 + 2) slashing damage. The attack automatically hits if the target is an allied beast or monstrosity with an Intelligence score of 8 or lower. Any charmed or frightened conditions end for the allied creature, and it can immediately use its reaction to make one weapon attack.
 >
 >
 > ### Reactions
@@ -439,18 +440,19 @@ a creature if at least one of the ratfolk's allies is within 5 feet of the creat
 >
 > ***Things-Catcher.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage. The target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends, the ratfolk can't use the things-catcher on another target.
 >
-> ***Whip.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 5 (1d4 + 3) slashing damage. The attack automatically hits if the target is an allied beast or monstrosity with an Intelligence score of 8 or lower. Any charmed or frightened conditions end for that creature, and it can immediately use its reaction to make one weapon attack. (NOTE: Only for allied creatures? Yes)
+> ***Whip.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 5 (1d4 + 3) slashing damage. The attack automatically hits if the target is an allied beast or monstrosity with an Intelligence score of 8 or lower. Any charmed or frightened conditions end for the allied creature, and it can immediately use its reaction to make one weapon attack.
 >
 > ### Bonus Action
 >
-> ***Mutagen.*** The ratfolk injects a willing or incapacitated creature and it gain the fallowing random effect. the effects can stack.
+> ***Mutagen (3/Day).*** The ratfolk injects a mutagen into a willing or incapacitated creature, which gains one of the following random effects, determined by rolling a d4; these effects can stack if multiple doses are administered, and each lasts for 1 minute:
 >
-> | d4  | effect |
+> ##### Mutagen Effect
+> | d4  | Effect |
 > |:---:|:-----------:|
-> |  1  | ***Rapid Healing.***  For the next minute, The creature regains 10 hit points at the start of its turn if it has at least 1 hit point and it has advantage on Constitution saving throws. 
-> |  2  | ***Rapid Grow.***  the creature becomes one size larger for next minute, If the creature lacks the room to become Large, it's size doesn't change. while it is one size larger it has advantage on Strength checks and Strength saving throws. and any attacks it makes with a weapon or an unarmed strike deal an extra 7 (2d6) damage to a target on a hit.
-> |  3  | ***Rapid Acceleration.*** For the next minute, the creature The target’s speed increases by 30 and it's movement doesn’t provoke opportunity attacks, additional it has advantage on Dexterity checks and Dexterity saving throws.|
->|  4  | ***Rapid Degeneration.*** For the next minute, at the end of each of its turns, the creature takes 10 (3d6) force damage and must make a DC 15 Constitution saving throw, ending the effect on a success. If the creature dies from this effect, it explodes, forcing each creature within 10 feet to make a DC 15 Dexterity saving throw. Creatures take 21 (6d6) acid damage on a failed save, and half as much damage on a successful.
+> |  1  | ***Rapid Healing.***  The creature regains 10 hit points at the start of its turn if it has at least 1 hit point. Additionally, it has advantage on Constitution saving throws. |
+> |  2  | ***Rapid Grow.***  The creature becomes one size larger. If there isn’t enough space to grow, its size doesn't change. While one size larger, it has advantage on Strength checks and Strength saving throws, and its attacks with weapons or unarmed strikes deal an extra 7 (2d6) damage.|
+> |  3  | ***Rapid Acceleration.*** The creature's speed increases by 30 feet, and its movement doesn’t provoke opportunity attacks. It also has advantage on Dexterity checks and Dexterity saving throws. |
+>|  4  | ***Rapid Degeneration.*** At the end of each of its turns, the creature takes 10 (3d6) force damage and must make a DC 15 Constitution saving throw, ending the effect on a success. If the creature dies from this effect, it explodes, and each creature within 10 feet must make a DC 15 Dexterity saving throw, taking 21 (6d6) acid damage on a failed save, or half as much on a successful one. |
 >
 > ### Reactions
 >
@@ -532,5 +534,5 @@ You can give the different types of items unique names based on their material a
 
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
