@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p4:after, .phb#p5:after, .phb#p7:after, .phb#p9:after, .phb#p11:after, .phb#p12:after, .phb#p14:after, .phb#p16:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p24:after, .phb#p25:after, .phb#p30:after, .phb#p33:after, .phb#p38:after, .phb#p39:after, .phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p43:after, .phb#p44:after, .phb#p50:after, .phb#p53:after, .phb#p54:after, .phb#p61:after, .phb#p63:after  {
+    .phb#p2:after, .phb#p5:after, .phb#p6:after, .phb#p7:after, .phb#p8:after, .phb#p9:after, .phb#p10:after, .phb#p12:after, .phb#p13:after, .phb#p14:after, .phb#p17:after, .phb#p20:after, .phb#p22:after, .phb#p23:after, .phb#p24:after, .phb#p29:after, .phb#p30:after, .phb#p39:after, .phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p43:after, .phb#p44:after, .phb#p45:after, .phb#p47:after, .phb#p48:after, .phb#p56:after, .phb#p59:after, .phb#p65:after, .phb#p66:after, .phb#p69:after, .phb#p70:after, .phb#p73:after, .phb#p74:after, .phb#p75:after, .phb#p76:after, .phb#p77:after, .phb#p79:after, .phb#p80:after, .phb#p82:after, .phb#p83:after, .phb#p85:after {
         display          : none;
     }
     /* End Footers */
@@ -72,24 +72,65 @@ This document provides content to help you run games that feature tundras of var
 
 - ## Table of Contents
 
-  - [<span>2</span><span>Mountain Adventure Ideas</span>](#p2)
-- ### [<span>10</span><span>Player Options</span>](#p10)
-  - [<span>3</span><span>Druid Circle: Cicle of the Mountains</span>](#p3)
-  - [<span>3</span><span>New Spells: Lore of Ice</span>](#p3)
-- ### [<span>10</span><span>Tundra Navigation</span>](#p10)
-  - [<span>10</span><span>Travel Activities</span>](#p10)
-  - [<span>11</span><span>Tundra Hazards</span>](#p11)
-  - [<span>16</span><span>Example Random Encounter Tables</span>](#p16)
-- ### [<span>20</span><span>Mountain Creatures</span>](#p20)
-  - [<span>20</span><span>Bears</span>](#p20)
-  - [<span>20</span><span>Deer</span>](#p20)
-  - [<span>30</span><span>Kallikantzaroi</span>](#p30)
-  - [<span>37</span><span>Owls</span>](#p37)
-  - [<span>41</span><span>Tigers</span>](#p41)
-  - [<span>46</span><span>Werewolves</span>](#p46)
-  - [<span>46</span><span>Wolves</span>](#p46)
-  - [<span>51</span><span>Wolverines</span>](#p51)
-  - [<span>59</span><span>Yule Cats</span>](#p59)
+  - [<span>3</span><span>Tundra Adventure Ideas</span>](#p3)
+- ### [<span>4</span><span>Player Options</span>](#p4)
+  - [<span>4</span><span>Druid Circle: Cicle of the Tundra</span>](#p4)
+  - [<span>11</span><span>New Spells: Lore of Ice</span>](#p11)
+- ### [<span>15</span><span>Tundra Navigation</span>](#p15)
+  - [<span>15</span><span>Travel Activities</span>](#p15)
+  - [<span>16</span><span>Tundra Hazards</span>](#p16)
+  - [<span>17</span><span>Example Random Encounter Tables</span>](#p17)
+- ### [<span>25</span><span>Tundra Creatures</span>](#p25)
+  - #### [<span>25</span><span>Bears</span>](#p25)
+    - [<span>26</span><span>Lesser Black Bear</span>](#p26)
+    - [<span>26</span><span>Greater Black Bear</span>](#p26)
+    - [<span>27</span><span>Brown Bear</span>](#p27)
+    - [<span>27</span><span>Grizzly Bear</span>](#p27)
+    - [<span>28</span><span>Polar Bear</span>](#p28)
+    - [<span>29</span><span>Tyrant Polar Bear</span>](#p29)
+    - [<span>30</span><span>Arctotherium</span>](#p30)
+    - [<span>31</span><span>Ice Bear</span>](#p31)
+    - [<span>32</span><span>Elemental Bear</span>](#p32)
+    - [<span>33</span><span>Elemental Bear, The Avatar of Winter</span>](#p33)
+  - #### [<span>38</span><span>Deer</span>](#p38)
+    - [<span>39</span><span>Fallow Deer</span>](#p39)
+    - [<span>40</span><span>Caribou</span>](#p40)
+    - [<span>41</span><span>Elk</span>](#p41)
+    - [<span>42</span><span>Moose</span>](#p42)
+    - [<span>43</span><span>Megaloceros</span>](#p43)
+    - [<span>44</span><span>Ice Caribou</span>](#p44)
+    - [<span>45</span><span>Cosmic Caribou</span>](#p45)
+  - #### [<span>49</span><span>Kallikantzaroi</span>](#p49)
+    - [<span>50</span><span>Kallikantzaros</span>](#p50)
+    - [<span>51</span><span>Kallikantzaros Foreman</span>](#p51)
+  - #### [<span>52</span><span>Owls</span>](#p52)
+    - [<span>52</span><span>Owl</span>](#p52)
+    - [<span>53</span><span>Great Horned Owl</span>](#p53)
+    - [<span>54</span><span>Giant Owl</span>](#p54)
+    - [<span>54</span><span>Monstrous Owl</span>](#p54)
+    - [<span>55</span><span>Owlbear</span>](#p55)
+    - [<span>55</span><span>Snowy Owlbear</span>](#p55)
+    - [<span>56</span><span>Cursed Strix</span>](#p56)
+  - #### [<span>58</span><span>Tigers</span>](#p58)
+    - [<span>58</span><span>Tiger</span>](#p58)
+    - [<span>59</span><span>Dire Tiger</span>](#p59)
+    - [<span>60</span><span>Weretiger</span>](#p60)
+  - #### [<span>62</span><span>Werewolves</span>](#p62)
+    - [<span>63</span><span>Werewolf Loner</span>](#p63)
+    - [<span>64</span><span>Werewolf Packmate</span>](#p64)
+    - [<span>65</span><span>Werewolf Moon Mystic</span>](#p65)
+    - [<span>66</span><span>Werewolf Pack Leader</span>](#p66)
+  - #### [<span>71</span><span>Wolves</span>](#p71)
+    - [<span>72</span><span>Wolf</span>](#p72)
+    - [<span>72</span><span>Dire Wolf</span>](#p72)
+    - [<span>73</span><span>Ascendant Packleader</span>](#p73)
+  - #### [<span>77</span><span>Wolverines</span>](#p77)
+    - [<span>77</span><span>Wolverine</span>](#p77)
+    - [<span>78</span><span>Megalictis</span>](#p78)
+    - [<span>79</span><span>Werewolverine</span>](#p79)
+    - [<span>80</span><span>Burning Rage Wolverine</span>](#p80)
+  - #### [<span>84</span><span>Yule Cats</span>](#p84)
+    - [<span>85</span><span>Yule Cat</span>](#p85)
 
 
 <div align="right">
@@ -103,10 +144,26 @@ This document provides content to help you run games that feature tundras of var
 
 </div>
 
+<br>
+
+##### Front Page & Table of Contents Art Credit
+* Arctic Treeline - Alayna Danner, Wizards of the Coast
+* Snow-Covered Swamp - Rob Alexander, Wizards of the Coast
+
+<img
+src='https://www.robalexander.com/wp-content/uploads/2017/01/snow-covered-swamps-final.png'
+style='position:absolute;bottom:-90px;left:-210px;width:1014px;transform: scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-860px;bottom:340px; transform: rotate(-0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-640px;top:0px;height:1400px;width:1416px;transform:rotate(90deg)' />
 
 \pagebreakNum
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Tundra Adventure Ideas
 
@@ -120,17 +177,17 @@ Tundra and winter environments make for natural adventure locales. The following
 |  2  | 	T**he Frozen Heart:** A powerful artifact known as the Frozen Heart has been stolen, plunging the region into an eternal winter. The adventurers are hired to retrieve the artifact and restore balance to the climate. |
 |  3  | **Icebound Expedition:** An expedition team searching for a lost city of ice has gone missing. The adventurers are hired to find the team and explore the secrets of the lost city. |
 
-##### Cover & Tundra Adventure Ideas Art Credit
-* Arctic Treeline - Alayna Danner, Wizards of the Coast
+##### Tundra Adventure Ideas Art Credit
+
 * Winter Wolves - Robson Michel, Wizards of the Coast
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 |   |  |
 |:---:|:-----------:|
-|  3  | **Frozen Shipwreck:** An ancient ship has been found frozen in the ice, its crew preserved in time. The adventurers must investigate the ship, uncover its history, and deal with any dangers that still linger. The ship holds valuable cargo and secrets of a lost civilization, but its former crew may not be as dead as they appear. |
+|  4  | **Frozen Shipwreck:** An ancient ship has been found frozen in the ice, its crew preserved in time. The adventurers must investigate the ship, uncover its history, and deal with any dangers that still linger. The ship holds valuable cargo and secrets of a lost civilization, but its former crew may not be as dead as they appear. |
 |  5  | **Winter's Wrath:** A powerful winter spirit has cursed a region with unending blizzards. The adventurers must appease the spirit or break its curse to bring back the warmth of spring. |
 |  6  | **Frozen Refuge:** Refugees from a neighboring kingdom seek shelter in the tundra after their homeland is invaded. The adventurers must escort them to safety, navigating the harsh terrain and avoiding pursuers.  |
 |  7  | **The Glacial Crypt:** A glacier has receded to reveal the entrance to an ancient crypt. The adventurers are hired to explore the crypt and retrieve any magical artifacts within, facing undead guardians and treacherous traps. |
@@ -140,9 +197,7 @@ Tundra and winter environments make for natural adventure locales. The following
 
 <img src='https://i.ibb.co/k8Bm58L/robson-michel-winter-wolves-x-media-rgb.jpg' style='position:absolute; top:-20px; right:-80px; width:940px; transform:scalex(-1);filter:opacity(100%);'/>
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:250px; right:0px; width:900px; transform:rotate(5deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:250px; right:0px; width:900px; transform:rotate(0deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:247px; right:0px; width:900px; transform:rotate(0deg)' />
 
 \pagebreakNum
 
@@ -1374,7 +1429,9 @@ Driven by their infernal devotion, demon-worshipping barbarian tribes flock to t
  
 \pagebreakNum
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Tundra <br> Creatures
 
 ## Bears 
 
@@ -1382,13 +1439,16 @@ Driven by their infernal devotion, demon-worshipping barbarian tribes flock to t
 
 Despite their substantial size, bears possess an unexpected speed and navigational versatility, enabling them to traverse challenging terrains, climb, and swim with remarkable proficiency. This agility complements their physical might, making them adept at catching swift prey or evading dangers in their natural habitats. Moreover, bears are equipped with keen senses, particularly an exceptional sense of smell, which aids them in tracking down food, sensing danger, and navigating their environment with an acute awareness.
 
-Bears also display notable intelligence and problem-solving skills, especially when foraging for food or navigating obstacles. This cognitive ability, combined with their capacity to learn from experiences, highlights their adaptability and interaction with their surroundings in innovative ways.
+Bears also display notable intelligence and problem-solving skills, especially when foraging for food or navigating obstacles.
 
 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+ This cognitive ability, combined with their capacity to learn from experiences, highlights their adaptability and interaction with their surroundings in innovative ways.
+
 Adaptable to a wide range of environments, from arctic tundras to dense forests and mountainous regions, bears exemplify versatility and resilience. Their ability to thrive in various terrains speaks to their remarkable adaptability, ensuring their survival and prominence in the animal kingdom. The characteristics of bears, from their strength and agility to their intelligence and adaptability, make them awe-inspiring and deeply respected by those living in the wilder parts of the world.
 
 The following are examples of different types of bears across a variety of sizes and power levels that can be found in boreal climates. Though it's not a comprehensive list of every type of bear, most other types could still be represented using the stat block of one of the bears presented here.
@@ -1397,12 +1457,10 @@ The following are examples of different types of bears across a variety of sizes
 <img src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/67199786-3498-496b-b0ea-b370ae392068/d4ngn42-e1148b85-2af8-439b-ada5-447119db8b73.jpg/v1/fill/w_900,h_655,q_75,strp/ulvenwald_bear_by_jasonengle_d4ngn42-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU1IiwicGF0aCI6IlwvZlwvNjcxOTk3ODYtMzQ5OC00OTZiLWIwZWEtYjM3MGFlMzkyMDY4XC9kNG5nbjQyLWUxMTQ4Yjg1LTJhZjgtNDM5Yi1hZGE1LTQ0NzExOWRiOGI3My5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.0L4GdZ7AefObWUu2VA4fJ6vFY-jzPDJ49NWfZTFePbU' style='position:absolute; top:-20px; right:-200px; width:1080px; transform: scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-style='position:absolute;right:-245px;top:300px;height:1400px;width:1416px;transform:rotate(195deg)' />
+style='position:absolute;right:-270px;top:250px;height:1400px;width:1416px;transform:rotate(195deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-160px;top:400px;height:1400px;width:1416px;transform:rotate(180deg)' />
-
-
 
 \pagebreakNum
 
@@ -3494,7 +3552,7 @@ style='position:absolute;top:-240px;left:-100px;width:916px;; transform:rotate(2
 <div style='margin-top:350px;'></div>
 
 
-\pagebreak
+\pagebreakNum
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
