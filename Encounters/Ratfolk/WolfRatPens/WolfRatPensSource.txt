@@ -17,8 +17,11 @@
         text-shadow      : 0px 0px 5px white;
     }
 
-    
-       
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after {
+        display          : none;
+    }
+    /* End Footers */
 
     .phb hr + hr + section blockquote {
     
@@ -44,7 +47,7 @@ Once the ratfolk are aware of the players' presence, each packmaster will attemp
 ### The Caged Wolf Rats
 There are two cell pits, each with an entrance covered by a grate and containing a different type of wolf rat.
 
-**Opening and Closing the Grates.** The grate over the entrance to the underground cell is springloaded and can be opened with an object interaction. Closing it takes an action from a creature with a free hand. A creature can make a DC 20 Strength check to force the pen open if it's closed.
+**Opening and Closing the Grates.** The grate over the entrance to the underground cell is springloaded and can be opened with an object interaction. Closing it takes an action from a creature with a free hand.
 
 **When The Wolf Rats Appear.** On initiative count 1 of each round (losing ties), a wolf rat comes out of each open pen and immediately takes its turn. There are 20 wolf rats in each pen.
 
@@ -77,7 +80,7 @@ There are two cell pits, each with an entrance covered by a grate and containing
 * <font color="918007">**Yellow Outline:** 25ft. high wall </font>
 * <font color="Red">**Red Line:** Door to pen </font>
 * **P:** Ratfolk Packmaster Start Location
-* <font color="Red">**M:** Ratfolk Packlord Start Location (NOTE: Change to L)  </font>
+* <font color="Red">**M:** Ratfolk Packlord Start Location  </font>
 * <font color="Green">**R:** Pit with wolf rats with Rabid mutation </font>
 * <font color="Green">**A:** Pit with wolf rats with Acidic Saliva mutation </font>
 
@@ -95,7 +98,7 @@ Packlords mostly use the same tactics as packmasters, with the primary differenc
 * Encounter Map - Joseph Snouwaert
 
 
-<img src='https://i.ibb.co/dm8T5ws/Beast-pen-guide.jpg' style='position:absolute; top:70px; right:2px; width:415px;' />
+<img src='https://i.ibb.co/TP3gQGy/Beast-pen-guide.jpg' style='position:absolute; top:70px; right:2px; width:415px;' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -132,7 +135,7 @@ The encounter assumes you are playing with 4 players in the suggested level rang
 
 **Easier Encounter (Level 5-7).** Remove the packlord and the Acidic Saliva and Rabid mutations from the wolf rats. Change the XP award to 5,000 XP.
 
-**Harder Encounter (Level 11-13).** Replace the packmasters with packlords, the packlord with Gnawtooth, and the wolf rats with trained wolf rats (with the same mutations). Change the XP award to 14,000 XP per item collected.
+**Harder Encounter (Level 15-17).** Replace the packmasters with packlords, the packlord with Gnawtooth, and the wolf rats with trained wolf rats (with the same mutations). Change the XP award to 24,000 XP per item collected.
 
 
 ### Adventure Follow Ups
@@ -488,5 +491,5 @@ You can give the different types of items unique names based on their material a
 \columnbreak
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
