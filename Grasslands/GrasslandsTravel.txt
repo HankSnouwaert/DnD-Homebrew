@@ -1,0 +1,294 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after, .phb#p6:after, .phb#p8:after, .phb#p9:after, .phb#p10:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Grasslands Travel
+Grasslands can go by many other names depending on their region, from hot savannahs to windy prairies to the frigid steppe. Regardless of what they're called, they are all vast open plains covered with grass and, at most, sparse populations of trees that do little to impede movement or vision. These properties generally make grasslands easier to navigate and survive in than other environments. The greatest hazards tend to come from weather and other creatures inhabiting them, as their open, resource-rich nature makes it easy for them to harbor fearsome megafauna.
+
+## Travel Activities
+When players travel long distances overland, grasslands can be some of the most optimal environments to travel through. You may modify the overland travel activities detailed in the *Player's Handbook* in the following ways when the players travel through such terrain.
+
+### Navigation
+Grasslands are one of the easiest environments to navigate, and the DMG suggests using a navigation DC of 5. The fact that they provide good visibility while having regular landmarks such as hills and optional trees means players will usually be able to use points of reference to keep from getting lost.
+
+\columnbreak
+
+
+
+### Foraging 
+The difficulty of foraging in grassland environments depends on how sparsely populated they are. Rivers and watering holes make for some of the best foraging, and the foraging DC can vary from 10 to 15 depending on the variety of flora and fauna in a given area.
+
+
+### Tall Grass
+Tall grass provides one of the few means of sneaking up on a creature in an open grassland. Outside of magical means or traveling at night, players generally won't have the option to move stealthily unless moving through tall grass. This works both ways, though, and moving through tall grass will also allow other creatures to attempt to sneak up on them.
+
+
+
+<img src='https://i.ibb.co/mTbpLfN/xinto-the-north-111-jpg-pagespeed-ic-AP4j1-YMse7.jpg' style='position:absolute; top:-95px; right:-0px; width:816px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:80px; right:30px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(17deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:140px; right:-50px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(5deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:300px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+
+
+## Grasslands Hazards
+Extreme cold or heat, strong wind, heavy precipitation, quicksand, and razorvine are all common tundra hazards described in the DMG (pg. 110). Other hazards include wildfires, flash floods, sinkholes, and even tornadoes.  
+
+
+### Bushfires
+* Explain what wildfires and how they start
+* Noticing the Fire's Edge: Players can generally notice the edge of the forest fire when it's 2d6 x 100ft. away.
+* Touch on how the different factors in their creation affect their size and speed.
+* Sometimes, embers carried on the wind can start new fires ahead of the main fire, leading to unpredictable spreading patterns
+* Size: 
+   * Minor
+     * Less than a square mile 
+   * Local
+     * Several square miles 
+   * Regional:
+     * Dozens of square miles 
+   * Continental
+     * Hundreds of square miles
+* Speed:
+   * Forest vs. Grassland
+* Go over what happens to players who are caught in the area
+* Go over how long it takes for them to burn out
+
+
+
+| Speed in Feet <Br> (Round To Nearest 5ft.) | Moisture |
+|:----:|:--------------------:|
+| 2d4 | Light Precipitation    |
+| 2d6 |    High Humidity     | 
+|  2d8  |  Average Humidity          |
+|  2d10  |  Arid          |
+|  2d12  |  Drought Condition        |
+
+ | Wind Multiplier |  Wind Severity |
+|:----:|:--------------------:|
+| x0.25 | Against Strong     | 
+| x0.5 | Against Light    |
+| 0 |  None  |
+| x2 | With Light     | 
+| x4 | With Strong       |
+
+
+
+##### Hill Multiplier
+| Slope | Multiplier | 
+|:------:|:------:|
+|   Downhill    | 0.5  |
+|  Flat    | 1  |
+|   Uphill    | 2  |
+
+
+
+##### Bushfires
+| dX |      Wind Severity      | Wind Save DC |  Cold Damage |  Gust Push Distance | 
+|:--:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|    |       Mild         |         10      |        1d8          |         5ft.          | 
+|    |       Moderate         |         15         |          2d8          |         5ft.          | 
+|    |       Intense         |         20         |           4d8    |        10ft.          | 
+|    |       Extreme         |         25          |        6d8          |         10ft.          |
+|    |       Supernatural         |         30         |        8d8         |         15ft.          |
+
+\pagebreakNum
+
+### Flash Floods
+Intro explanation
+Noticing them
+Determining their height
+Minor: 1d4 feet
+Average: 2d4 feet
+Large: 2d6 feet
+Extreme: Add d6s
+When a creature enters the area of the flood, it must make a Strength saving throw. On a failed save, a creature takes xd10 bludgeoning damage, or half as much damage on a successful save.
+
+At the start of each turn, the leading edge of the flood, along with any creatures in it, moves Y feet downhill. Any Huge or smaller creature inside the flood or whose space the flood enters when it moves must succeed on a Strength saving throw or take Xd10 bludgeoning damage. A creature can take this damage only once per round. 
+
+A creature caught in the flood can move by swimming. Because of the force of the water, though, the creature must make a successful Strength (Athletics) check against the flood's save DC in order to move at all. If it fails the check, it can’t move. 
+
+
+\pagebreakNum
+
+### Sinkholes
+Explain what sinkholes are
+Explain how most how most of the time, the players will see them and be able to avoid them. However, they could make for good dungeon entrances and adventure locals.
+However, if the players are unable to see a drop for any reason, or there is combat or some other dangerous event that risks pushing players off a drop, it may become necessary to determine its height. This is also true if something suddenly triggers the formation of the sinkhole under the player's feet. 
+
+It may be convenient to break these drops up into general sizes. Roll for the depth and width separately.
+
+**Small Holes:** These sinkholes range in the 10s of feet deep. You can make their diameter and depth **1d6x10ft.**
+
+**Medium Falls:** These sinkholes range in the 100s of feet deep. You can make their diameter and depth **1d6x50ft.**
+
+**Large Falls:** These sinkholes can reach up to 1000s of feet deep. You can make their diameter and depth **1d8x250ft**.
+
+#### Spotting Sinkholes
+Rather than using passive Perception to spot hidden sinkholes (or areas about to become sinkholes), you may opt to use the passive Survival of any characters keeping a lookout. The DC to spot the fall can be anywhere from 10 (barely hidden crevasses) to 30 (supernaturally hidden crevasses). You can pick what's appropriate for your environment or roll to determine one randomly.
+
+#### Falling In
+If a creature and falls through a sinkhole, it can make a Dexterity save to try to catch a ledge and prevent the fall. The DC of this save depends on the nature of the fall. If the players steps into a sinkhole, grabbing a ledge may be easy. If a large sinkhole forms under the players feet, or the ledges are crumbling, scrabbling to safety may be difficult, if not impossible.
+
+This save DC can be independent of the DC to spot the fall, and you can pick one you feel is appropriate to the situation or roll to determine it randomly.
+
+If a creature fails to grab a ledge, it falls the full length of the sinkhole. 
+
+\pagebreakNum
+
+### Tornadoes
+Intro explanation 
+Noticing them can be obvious or extremely difficult.
+Their size and shape can vary wildly
+Go over the effects when near a tornado
+High winds
+Flying debris
+Random Dex saves to avoid debris
+The danger zone around the tornado can vary depending on the size and other random factors
+1/2 Width x Severity Level
+What happens when caught in the area of the tornado
+Strength Save
+Pass By More Than 5: No Effect
+Pass By Less Than 5: Get Pushed by Half Throw Distance
+Fail: Get Thrown
+Fail By More Than 5: Get Picked Up By Tornado
+Make a Dex save every turn in a tornado to avoid debris
+
+##### Land Speed (Roll Each Round)
+| 1d20|     Speed (ft.)   | 
+|:---:|:--------------------:|
+| 1-3 |   Same As Current         |   
+| 4-6 |   Increase One Rank        |     
+| 7-9 |   Decrease One Rank        |     
+| 10  |           0         |     
+| 11  |           1d6x10     |     
+| 12  |           2d6x10    |     
+| 13-15 |           4d6x10    |      
+| 16-18 |           8d6x10    |  
+| 19    |           8d10x10    |   
+| 20    |           8d12x10    |     
+
+##### Size
+
+| 1d20|     Diameter (ft.)  | 
+|:---:|:--------------------:|
+| 1-3 |   3d6        |   
+| 4-6 |   3d6x5        |     
+| 7-9 |   3d6x10        |     
+| 10  |   3d6x50         |     
+| 11  |   3d6x100     |     
+| 12  |   3d6x500    |     
+| 13-15 | 3d6x1000    |      
+ 
+##### Wind Speeds
+| d6 |      Wind Severity      | Save DC |  Debris Damage |  Time In Tornado (Rounds)  |  Distance Thrown (ft.) | 
+|:--:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|  1  |       Gale         |         10      |        1d10          |          0          |        1d10x5           | 
+|  2  |       Moderate         |         15         |          2d10          |       1          |         1d10x10          | 
+|  3 |       Significant         |         20         |           4d10    |       1d4          |        1d10x50          | 
+|  4  |       Severe         |         25          |        6d10          |       1d8          |         1d10x100          |
+|  5  |       Devastating         |         30         |        8d10         |          1d12          |      1d10x500          |
+|  6  |       Incredible         |         35         |        10d10         |          1d20          |      1d10x1000          |  
+
+Drop height is 1d6 x 100ft. per round spent in the tornado
+
+\pagebreakNum
+
+### Winds
+Rules for strong winds are described on page 110 of the DMG. If you wish to make your winds particularly hazardous, you can modify them in the following ways; the save DCs and severity of the effects these winds have are determined by the Wind Severity table.
+
+
+
+##### Extreme Cold
+This wind carries a chill that cuts to the core. For every 1 minute a creature without cold resistance spends in the wind, it must make a Constitution save. On a failure, the creature takes an amount of cold damage dependent on the severity of the cold, and on a pass, it takes half as much damage. Creatures with insulating fur or clothing have advantage on this save.
+
+##### Sudden Gusts
+This wind will unexpectedly pick up gusts capable of bowling over creatures. At the start of every round of combat with this wind, roll 1d6. On a result of 5 or 6, all creatures not behind at least half cover are subjected to the effects of the *gust of wind* spell, except the distance they are moved on a failed save is dependent on the severity of the wind. 
+
+If the players aren't in combat, this wind will greatly hamper travel for those not behind cover and make traveling near crevasses very dangerous. If players are traveling for an extended period of time through an open area subjected to sudden gusts, have each of them make a Strength save for each hour of travel. On a success, they are able to push through the winds, and on a failure, they treat the terrain areas as though it's rough terrain while they struggle to fight against the winds. If the terrain is already rough terrain, creatures can only move through it at 1/4th the speed. 
+
+##### Wind Severity
+|      Wind Severity      | Wind Save DC |  Cold Damage |  Gust Push Distance | 
+|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
+|           Mild         |         10      |        1d8          |         5ft.          | 
+|           Moderate         |         15         |          2d8          |         5ft.          | 
+|           Intense         |         20         |           4d8    |        10ft.          | 
+|           Extreme         |         25          |        6d8          |         10ft.          |
+|           Supernatural         |         30         |        8d8         |         15ft.          |
+
+
+
+
+\pagebreakNum
+
+ 
+### Wildfires
+Explain what wildfires and how they start
+Noticing the Fire's Edge: Players can generally notice the edge of the forest fire when it's 2d6 x 100ft. away.
+Touch on how the different factors in their creation affect their size and speed.
+Sometimes, embers carried on the wind can start new fires ahead of the main fire, leading to unpredictable spreading patterns
+Size: 
+Minor
+Less than a square mile 
+Local
+Several square miles 
+Regional:
+Dozens of square miles 
+
+Continental:
+Hundreds of square miles
+Speed:
+Forest vs. Grassland
+Dryness (Number of Die)
+Uphill vs. Downhill (Die Size)
+Wind (Multiplying Effect)
+Go over what happens to players who are caught in the area
+Go over how long it takes for them to burn out
+
+
+
+ 
+\pagebreakNum
+
+
+
+
+### Change Log
+#### 0.0.0
+ * Document creation
