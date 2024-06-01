@@ -25,6 +25,11 @@
     }
     /* End Footers */
 
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
 </style>
 
 
@@ -49,12 +54,12 @@ ___
 >*Large beast, unaligned*
 > ___
 > - **Armor Class** 13
-> - **Hit Points** 67 (9d10 + 18)
+> - **Hit Points** 42 (5d10+15)
 > - **Speed** 40 ft., climb 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|19 (+4)|16 (+3)|14 (+2)|4 (-3)|14 (+2)|12 (+1)|
+>|19 (+4)|16 (+3)|16 (+3)|4 (-3)|14 (+2)|12 (+1)|
 >___
 > - **Skills** Intimidation +6, Perception +4, Stealth +5
 > - **Senses** darkvision 60 ft., passive Perception 14
@@ -72,7 +77,7 @@ ___
 > ### Actions
 > ***Multiattack.*** The tiger makes two attacks: one with its bite and one with its claws. If both attacks hit the same target, the target is grappled (escape DC 14). Until this grapple ends, the tiger can't attack another target.
 >
-> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage.  If the target is prone, it deals 23 (4d8 + 5) piercing damage instead.
+> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage.  If the target is prone, it deals 22 (4d8 + 4) piercing damage instead.
 >
 > ***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage.
 
@@ -153,12 +158,12 @@ ___
 >*Medium humanoid (human, shapechanger), neutral*
 > ___
 > - **Armor Class** 13
-> - **Hit Points** 60 (8d8 + 24)
+> - **Hit Points** 90 (12d8+36)
 > - **Speed** 30. (40 ft., climb 30 ft. in tiger form)
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|20 (+5)|16 (+3)|16 (+3)|12 (+1)|14 (+2)|12 (+1)|
+>|19 (+4)|16 (+3)|16 (+3)|12 (+1)|14 (+2)|12 (+1)|
 >___
 > - **Skills** Intimidation +7, Perception +4, Stealth +5
 > - **Senses** darkvision 60 ft., passive Perception 14
@@ -170,20 +175,20 @@ ___
 >
 > ***Mask of the Jungle. (Tiger or Hybrid Form Only)*** The weretiger has advantage on Dexterity (Stealth) checks made to hide using foliage and may do so even if it is only lightly obscured while hiding this way.
 >
-> ***Pounce. (Tiger or Hybrid Form Only)*** If the weretiger jumps at least 10 feet straight towards a creature and then hits it with a claw attack on the same turn, the target must succeed on a DC 15 Strength saving throw or be knocked prone.
+> ***Pounce. (Tiger or Hybrid Form Only)*** If the weretiger jumps at least 10 feet straight towards a creature and then hits it with a claw attack on the same turn, the target must succeed on a DC 14 Strength saving throw or be knocked prone.
 >
 > ***Regeneration.*** The weretiger regains 10 hit points at the start of its turn. If the weretiger takes lightning damage or damage from a silvered weapon this trait doesn't function at the start of the weretiger's next turn. The weretiger dies only if it starts its turn with 0 hit points and doesn't regenerate. 
 >
 > ***Standing Leap. (Tiger or Hybrid Form Only)*** The weretiger's long jump is up to 30 feet, and its high jump is up to 12 feet, with or without a running start.
 >
 > ### Actions
-> ***Multiattack.*** The weretiger makes two attacks, only one of which can be a bite attack. If the weretiger hits the same target with a bite attack and claw attack while in tiger form, the target is grappled (escape DC 15). Until this grapple ends, the weretiger can't attack another target.
+> ***Multiattack.*** The weretiger makes two attacks, only one of which can be a bite attack. If the weretiger hits the same target with a bite attack and claw attack while in tiger form, the target is grappled (escape DC 14). Until this grapple ends, the weretiger can't attack another target.
 >
-> ***Bite. (Tiger or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage.  If the target is prone, it deals 23 (4d8+5) piercing damage instead. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with weretiger lycanthropy.
+> ***Bite. (Tiger or Hybrid Form Only).*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage.  If the target is prone, it deals 22 (4d8+4) piercing damage instead. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with weretiger lycanthropy.
 >
-> ***Claw. (Tiger or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (1d12 + 5) slashing damage.
+> ***Claw. (Tiger or Hybrid Form Only).*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage.
 >
->***Scimitar. (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage.
+>***Scimitar. (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage.
 >
 >***Longbow. (Humanoid or Hybrid Form Only).*** *Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage.
 >
@@ -277,10 +282,22 @@ The following tables provide some ways to incorporate tigers and weretigers into
 
 <div style='margin-top:450px;'></div>
 
-\pagebreak
+\pagebreakNum
+
+### Revision Numbers
+* Tiger 1.0.0
+* Dire Tiger 1.0.0
+* Weretiger 1.0.0
+
+\columnbreak
 
 #### 1.0.0 Changes
  * Public Release
 
 #### 1.1.0 Changes
  * Document clean up
+
+#### 1.2.0 Changes
+ * Weretiger's Hit points increased.
+ * Weretiger's strength Lowered.
+ * Weretiger's claw deals 2d6 damage instead of 1d12.
