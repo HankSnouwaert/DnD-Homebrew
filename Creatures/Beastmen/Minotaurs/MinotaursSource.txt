@@ -76,12 +76,12 @@ ___
 
 <br>
 
-#### New Condition: Berserk
-Berserk creatures gain the following effects unless an ability states otherwise:
- * The creature can only use its movement to move closer to an enemy it can see or hear.
- * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
- * The creature can't maintain concentration on spells or other effects.
- * The creature can't be frightened or charmed.
+> ##### New Condition: Berserk
+> Berserk creatures gain the following effects unless an ability states otherwise:
+> * The creature can only use its movement to move closer to an enemy it can see or hear.
+> * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+> * The creature can't maintain concentration on spells or other effects.
+> * The creature can't be frightened or charmed.
 
 <img src='https://i.ibb.co/8PNwHZB/minotaur-token.png'
 style='position:absolute;top:-5px;left:-20px;width:475px;transform:scalex(-1)' />
@@ -225,7 +225,7 @@ ___
 >|:---:|:---:|:---:|:---:|:---:|:---:|
 >|20 (+5)|11 (+0)|18 (+4)|6 (-2)|18 (+4)|12 (+1)|
 >___
-> - **Saving Throws** Int +2, Cha +4
+> - **Saving Throws** Int +2, Cha +5
 > - **Skills** Athletics +9, Perception +12, Intimidation +9, Stealth +4, Survival +8
 > - **Senses** darkvision 60 ft., passive Perception 22
 > - **Languages** Abyssal
@@ -263,6 +263,18 @@ style='position:absolute;top:-0px;right:-140px;width:700px;transform: scaleX(1)'
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Dazed 
+>A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+
+
+
+\columnbreak
+
+
+
 ___
 ___
 > ## Minotaur, Doombull
@@ -295,7 +307,7 @@ ___
 >
 > ***Multiattack.*** The minotaur makes two melee attacks.
 >
-> ***Barbed Fist.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 19 (3d8 + 6) piercing damage. If the target is a creature, it must make a DC 19 Strength saving throw. On failure, the target takes an additional 13 (3d8) piercing damage and becomes wounded. While wounded, the target has disadvantage on Strength, Dexterity, and Constitution saving throws, checks, and attacks, and its speed is halved. The wounded condition can be ended by a DC 19 Wisdom (Medicine) check by the creature or an ally within 5 feet, or if the creature regains 15 or more hit points. (NOTE: Is this not the same as the Wounds condition?)
+> ***Barbed Fist.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 19 (3d8 + 6) piercing damage. If the target is a creature, it must make a DC 19 Strength saving throw. On failure, the target takes an additional 13 (3d8) piercing damage and suffers a rending wound. While wounded this way, the target has disadvantage on Strength, Dexterity, and Constitution saving throws, checks, and attacks, and its speed is halved. The injured creature, or a creature within 5 feet of it, can use an action to make a DC 19 Wisdom (Medicine) check, ending the effect on a success. The effect also ends if the creature regains 15 or more hit points.
 >
 > ***Dazing Gore.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one creature. *Hit:* 18 (3d8 + 6) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be pushed up to 10 feet away and knocked prone. If the target fails by 10 or more, the creature is dazed until the end of its next turn.
 >
@@ -305,28 +317,21 @@ ___
 >
 > ***Slaughterer's Call.*** Up to three creatures of the minotaur's choice that are within 60 feet may choose to become berserk until the end of the minotaur's next turn. If a targeted creature has Blood Greed, it becomes active until the end of the minotaur's next turn. Each creature that becomes berserk uses its reaction to move up to half its speed and then make one melee weapon attack. The minotaur can only use this ability if it is berserk.
 
-#### New Condition: Dazed 
-A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
 
-\columnbreak
 
-#### New Condition: Wounds
-While most creatures are wounded in combat, in this context, the wound is a special form of injury that causes severe bleeding over a short period of time and only specialized attacks and effects can cause wounds. A creature can suffer from multiple wounds at once and at the end of its turn, a wounded creature takes 2 (1d4) necrotic damage for every wound it has sustained. Only creatures with blood (or something equivalent to blood) can suffer wounds. Wounds can be removed in the following ways:
+<img src='https://i.ibb.co/VwZQqhq/canyon-minotaur.jpg' style='position:absolute; top:-80px; right:-140px; width:960px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
 
- * When a creature is healed, one wound is removed for every 5 hit points of healing it receives. 
- * A creature can expend one use of a healer's kit to remove two wounds from itself or another creature. 
- * A wounded creature, or another creature within 5 feet of it, can make a DC 10 Wisdom (Medicine) check as an action to remove one wound on a success. For every 5 points by which the check exceeds the DC, an additional wound is removed.
 
-<img src='https://i.ibb.co/VwZQqhq/canyon-minotaur.jpg' style='position:absolute; bottom:-20px; left:0px; width:420px; transform: scaleX(1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-130px;top:-260px;height:1400px;width:1416px;transform:rotate(356deg)' />
+  style='position:absolute;right:-300px;top:120px;height:1400px;width:1416px;transform:rotate(187deg)' />
 
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-630px;top:-30px;height:1400px;width:1416px;transform:rotate(90deg)' />
 
 \pagebreakNum
 
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -542,7 +547,7 @@ When the beastman's Blood Greed trait activates, it gets +2 to attack rolls. Thi
 
 *The beastman has a large pair of tusks sprouting from its lower jaw, granting it an even more devastating charge attack.*
 
-Beastman's Gore attack deals extra 16 (3d10) piercing damage in addition to it's normal damage if it moved at least 20 feet straight toward the target immediately before the hit. (Note Reworded)
+Beastman's Gore attack deals extra 16 (3d10) piercing damage in addition to it's normal damage if it moved at least 20 feet straight toward the target immediately before the hit.
 
 ### Many Limbed Monster
 
