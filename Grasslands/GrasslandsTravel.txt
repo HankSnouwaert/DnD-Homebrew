@@ -33,7 +33,7 @@
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Grasslands Travel
-Grasslands can go by many other names depending on their region, from hot savannahs to windy prairies to the frigid steppe. Regardless of what they're called, they are all vast open plains covered with grass and, at most, sparse populations of trees that do little to impede movement or vision. These properties generally make grasslands easier to navigate and survive in than other environments. The greatest hazards tend to come from weather and other creatures inhabiting them, as their open, resource-rich nature makes it easy for them to harbor fearsome megafauna.
+Grasslands can go by many other names depending on their region, from hot savannas to windy prairies to the frigid steppe. Regardless of what they're called, they are all vast open plains covered with grass and, at most, sparse populations of trees that do little to impede movement or vision. These properties generally make grasslands easier to navigate and survive in than other environments. The greatest hazards tend to come from weather and other creatures inhabiting them, as their open, resource-rich nature makes it easy for them to harbor fearsome megafauna.
 
 ## Travel Activities
 When players travel long distances overland, grasslands can be some of the most optimal environments to travel through. You may modify the overland travel activities detailed in the *Player's Handbook* in the following ways when the players travel through such terrain.
@@ -72,161 +72,229 @@ Extreme cold or heat, strong wind, heavy precipitation, quicksand, and razorvine
 
 
 ### Bushfires
-* Explain what wildfires and how they start
-* Noticing the Fire's Edge: Players can generally notice the edge of the forest fire when it's 2d6 x 100ft. away.
-* Touch on how the different factors in their creation affect their size and speed.
-* Sometimes, embers carried on the wind can start new fires ahead of the main fire, leading to unpredictable spreading patterns
-* Size: 
-   * Minor
-     * Less than a square mile 
-   * Local
-     * Several square miles 
-   * Regional:
-     * Dozens of square miles 
-   * Continental
-     * Hundreds of square miles
-* Speed:
-   * Forest vs. Grassland
-* Go over what happens to players who are caught in the area
-* Go over how long it takes for them to burn out
 
+Wildfires, or bushfires, are uncontrolled fires that spread rapidly through vegetation. They can start due to natural causes like lightning or human activities such as unattended campfires. Embers carried on the wind can start new fires ahead of the main fire, leading to unpredictable spreading patterns.
 
+#### Bushfire Sizes
+- **Minor:** Less than a square mile
+- **Local:** Several square miles
+- **Regional:** Dozens of square miles
+- **Continental:** Hundreds of square miles
 
-| Speed in Feet <Br> (Round To Nearest 5ft.) | Moisture |
+#### Duration of Bushfires
+The duration of a bushfire can vary greatly depending on several factors, including weather conditions, available fuel, and firefighting efforts. Minor fires may burn out within a few hours to a day, while larger fires can last for weeks or even months.
+
+#### Noticing the Fire's Edge
+Players can generally notice the edge of the forest fire when it's 2d6 x 100 ft. away. The DC to spot the fire starts at 12 and decreases by 1 for every 50 ft. closer they get.
+
+#### Bushfire Speeds
+The speed of a bushfire depends on wind conditions and terrain. Use the table below to determine the fire's movement rate in feet per round:
+
+| Bushfire Speed in Feet | Wind Factor    |
 |:----:|:--------------------:|
-| 2d4 | Light Precipitation    |
-| 2d6 |    High Humidity     | 
-|  2d8  |  Average Humidity          |
-|  2d10  |  Arid          |
-|  2d12  |  Drought Condition        |
-
- | Wind Multiplier |  Wind Severity |
-|:----:|:--------------------:|
-| x0.25 | Against Strong     | 
-| x0.5 | Against Light    |
-| 0 |  None  |
-| x2 | With Light     | 
-| x4 | With Strong       |
+| 5 ft. | Moving Against Strong Wind   |
+| 1d4 x 5 ft. | Moving Against Light Wind  | 
+|  2d4 x 5 ft.  | No Wind           |
+|  3d6 x 5 ft.  | Moving With Light Wind   |
+|  6d6 x 5 ft.  | Moving With Strong Wind  |
 
 
 
-##### Hill Multiplier
-| Slope | Multiplier | 
+##### Hill Speed Multiplier
+The slope of the terrain affects the speed of the bushfire. Fires move faster uphill due to the rising heat preheating the vegetation ahead of the fire, making it easier to ignite. Conversely, fires move slower downhill as the flames have less access to preheated fuel.
+
+| Slope    | Speed Multiplier |
 |:------:|:------:|
-|   Downhill    | 0.5  |
-|  Flat    | 1  |
-|   Uphill    | 2  |
+| Downhill | 0.5     |
+| Flat     | 1       |
+| Uphill   | 2       |
+
+\columnbreak
+
+#### Getting Caught in a Bushfire
+Being caught in a bushfire can be extremely dangerous, presenting multiple hazards to creatures in the area.
+
+##### Contact With Fire
+Direct contact with the fire can cause severe burns and ignite creatures. Creatures that come in direct contact with the fire must make a Dexterity saving throw (DC equal to the fire's base DC + 5). On a failed save, the creature takes the full fire damage of the bushfire and catches fire. On a successful save, it takes half as much damage and doesn't catch fire. A creature that's caught fire takes the full fire damage at the end of each of its turns. A creature can use an action to put out a creature that's caught on fire.
+
+##### Ambient Heat Damage
+The intense heat in the vicinity of the fire can cause exhaustion and burns over time. Every minute spent in the area of the forest fire, a creature must make a Constitution saving throw (DC equal to the fire's base DC + 1 per previous check). On a failed save, the creature takes fire damage and suffers a level of exhaustion. On a successful save, it takes half as much damage and doesn't suffer a level of exhaustion. Creatures that aren't breathing in the burning air have advantage on this save.
+
+##### Smoke
+Thick smoke from the fire can obscure vision and cause respiratory issues. Areas of smoke created by the bushfire are lightly obscured. At the end of every round spent in this smoke, a creature breathing in the air must make a Constitution saving throw (DC equal to the fire's base DC + 1 per previous check). On a failed save, the creature becomes incapacitated as it begins coughing and wheezing. If a creature fails this save twice in a row, it suffers a level of exhaustion.
+
+##### Bushfire Severity Table
+Use the table below to determine the severity of the bushfire, the saving throw DC, and the fire damage:
+
+| d10 | Fire Severity  | Bushfire Save DC | Fire Damage |
+|:--:|:--------------------:|:--------------------:|:--------------------:|
+| 1-2 | Mild               | 7                     | 1d8                  |
+| 3-4 | Moderate           | 12                    | 2d8                  |
+| 5-6 | Intense            | 17                    | 4d8                  |
+| 7-8 | Extreme            | 19                    | 6d8                  |
+| 9-10 | Supernatural      | 24                    | 8d8                  |
 
 
 
-##### Bushfires
-| dX |      Wind Severity      | Wind Save DC |  Cold Damage |  Gust Push Distance | 
-|:--:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
-|    |       Mild         |         10      |        1d8          |         5ft.          | 
-|    |       Moderate         |         15         |          2d8          |         5ft.          | 
-|    |       Intense         |         20         |           4d8    |        10ft.          | 
-|    |       Extreme         |         25          |        6d8          |         10ft.          |
-|    |       Supernatural         |         30         |        8d8         |         15ft.          |
+
+
 
 \pagebreakNum
 
 ### Flash Floods
-Intro explanation
-Noticing them
-Determining their height
-Minor: 1d4 feet
-Average: 2d4 feet
-Large: 2d6 feet
-Extreme: Add d6s
-When a creature enters the area of the flood, it must make a Strength saving throw. On a failed save, a creature takes xd10 bludgeoning damage, or half as much damage on a successful save.
+Flash floods are sudden, rapid flooding events caused by intense rainfall, dam breaks, or other sudden water releases. They can occur with little warning and have devastating effects on both the landscape and any creatures caught in their path.
 
-At the start of each turn, the leading edge of the flood, along with any creatures in it, moves Y feet downhill. Any Huge or smaller creature inside the flood or whose space the flood enters when it moves must succeed on a Strength saving throw or take Xd10 bludgeoning damage. A creature can take this damage only once per round. 
+#### Noticing Floods
+Players can generally notice the onset of a flash flood when it's 3d6 x 10 ft. away. The DC to spot the flood starts at 12 and decreases by 1 for every 10 ft. closer they get.
 
-A creature caught in the flood can move by swimming. Because of the force of the water, though, the creature must make a successful Strength (Athletics) check against the flood's save DC in order to move at all. If it fails the check, it can’t move. 
+#### Getting Caught in a Flood
+Being caught in a flash flood can be extremely dangerous, presenting multiple hazards to creatures in the area.
+
+##### Initial Impact
+When a creature enters the area of the flood, it must make a Strength saving throw. On a failed save, the creature takes the flood's full amount of bludgeoning damage. On a successful save, it takes half as much damage.
+
+##### Movement and Further Impact
+At the start of each turn, the leading edge of the flood, along with any creatures in it, moves 50 feet downhill. Any Huge or smaller creature inside the flood when it moves must succeed on a Strength saving throw or take half the flood's bludgeoning damage. A creature can take this damage only once per round.
+
+##### Swimming in the Flood
+A creature caught in the flood can move by swimming. Because of the force of the water, though, the creature must make a successful Strength (Athletics) check against the flood's save DC in order to move at all. If it fails the check, it can’t move.
+
+##### Flood Severity Table
+Use the table below to determine the severity of the flood, the saving throw DC, and the bludgeoning damage:
+
+| d6 | Flood Size | Flood Depth (ft.) | Flood Save DC | Flood Damage |
+|:--:|:---------:|:-----------------:|:-------------:|:-------------:|
+| 1  | Minor     | 1d4               | 10            | 2             |
+| 2  | Small     | 2d4               | 12            | 2d4           |
+| 3  | Moderate  | 2d6               | 15            | 2d6           |
+| 4  | Large     | 4d6               | 17            | 4d6           |
+| 5  | Massive   | 4d10              | 20            | 4d10          |
+| 6  | Extreme   | 5d12              | 25            | 5d12          |
+
+> ##### But I'm Taller Than The Flood!
+> For tall creatures in small floods, it may be easier to resist the being swept away. You can use the following rule of thumb for these situations (assuming the creature isn't prone): 
+> 
+> If a creature is at least twice as tall as the flood's depth, it has advantage on saves against the flood, and if the creature is at least four times as tall as the flood's depth, it automatically passes saves against the flood.
+
 
 
 \pagebreakNum
 
 ### Sinkholes
-Explain what sinkholes are
-Explain how most how most of the time, the players will see them and be able to avoid them. However, they could make for good dungeon entrances and adventure locals.
-However, if the players are unable to see a drop for any reason, or there is combat or some other dangerous event that risks pushing players off a drop, it may become necessary to determine its height. This is also true if something suddenly triggers the formation of the sinkhole under the player's feet. 
+Sinkholes are sudden depressions or holes in the ground caused by the collapse of a surface layer. They can form naturally due to erosion or human activities such as mining. Sinkholes can present significant hazards, but they can also serve as intriguing dungeon entrances and adventure locations.
 
+#### Noticing Sinkholes
+Most of the time, players will see sinkholes and be able to avoid them. However, they can make for good dungeon entrances and adventure locales. If a sinkhole is hidden, rather than using passive Perception to spot hidden sinkholes (or areas about to become sinkholes), you may opt to use the passive Survival of any characters keeping a lookout. The DC to spot the fall can range from 10 (barely hidden crevasses) to 30 (supernaturally hidden crevasses). Choose what's appropriate for your environment or roll to determine one randomly.
+
+Sometimes, something may suddenly trigger the formation of a sinkhole under the player's feet, making spotting it in time more difficult.
+
+#### Sinkhole Sizes
 It may be convenient to break these drops up into general sizes. Roll for the depth and width separately.
 
-**Small Holes:** These sinkholes range in the 10s of feet deep. You can make their diameter and depth **1d6x10ft.**
+**Small Holes:** These sinkholes range in the tens of feet deep. You can make their diameter and depth **1d6 x 10 ft.**.
 
-**Medium Falls:** These sinkholes range in the 100s of feet deep. You can make their diameter and depth **1d6x50ft.**
+**Medium Falls:** These sinkholes range in the hundreds of feet deep. You can make their diameter and depth **1d6 x 50 ft.**.
 
-**Large Falls:** These sinkholes can reach up to 1000s of feet deep. You can make their diameter and depth **1d8x250ft**.
-
-#### Spotting Sinkholes
-Rather than using passive Perception to spot hidden sinkholes (or areas about to become sinkholes), you may opt to use the passive Survival of any characters keeping a lookout. The DC to spot the fall can be anywhere from 10 (barely hidden crevasses) to 30 (supernaturally hidden crevasses). You can pick what's appropriate for your environment or roll to determine one randomly.
+**Large Falls:** These sinkholes can reach up to thousands of feet deep. You can make their diameter and depth **1d8 x 250 ft.**.
 
 #### Falling In
-If a creature and falls through a sinkhole, it can make a Dexterity save to try to catch a ledge and prevent the fall. The DC of this save depends on the nature of the fall. If the players steps into a sinkhole, grabbing a ledge may be easy. If a large sinkhole forms under the players feet, or the ledges are crumbling, scrabbling to safety may be difficult, if not impossible.
+If a creature falls through a sinkhole, it can make a Dexterity saving throw to try to catch a ledge and prevent the fall. The DC of this save depends on the nature of the fall. If the player steps into a sinkhole, grabbing a ledge may be easy. If a large sinkhole forms under the player's feet or the ledges are crumbling, scrambling to safety may be difficult, if not impossible.
 
-This save DC can be independent of the DC to spot the fall, and you can pick one you feel is appropriate to the situation or roll to determine it randomly.
+This save DC can be independent of the DC to spot the fall, and you can choose one you feel is appropriate to the situation or roll to determine it randomly.
 
-If a creature fails to grab a ledge, it falls the full length of the sinkhole. 
+If a creature fails to grab a ledge, it falls the full length of the sinkhole.
+
 
 \pagebreakNum
 
 ### Tornadoes
-Intro explanation 
-Noticing them can be obvious or extremely difficult.
-Their size and shape can vary wildly
-Go over the effects when near a tornado
-High winds
-Flying debris
-Random Dex saves to avoid debris
-The danger zone around the tornado can vary depending on the size and other random factors
-1/2 Width x Severity Level
-What happens when caught in the area of the tornado
-Strength Save
-Pass By More Than 5: No Effect
-Pass By Less Than 5: Get Pushed by Half Throw Distance
-Fail: Get Thrown
-Fail By More Than 5: Get Picked Up By Tornado
-Make a Dex save every turn in a tornado to avoid debris
 
-##### Land Speed (Roll Each Round)
-| 1d20|     Speed (ft.)   | 
+Tornadoes are violent windstorms characterized by a twisting, funnel-shaped cloud. They can cause severe damage to the environment and present significant dangers to any creatures caught in their path. Tornadoes can form quickly and are often unpredictable in their movement and intensity.
+
+#### Spotting Tornadoes
+Spotting tornadoes can be challenging due to various factors, including weather conditions and visibility. DMs will need to make their own judgment call on the DC to spot tornadoes. Those with proficiency in Nature may have advantage on checks to spot them.
+
+#### Size
+Tornadoes vary wildly in size and shape. Their height will always stretch up into clouds, but if you want to randomly determine a tornado's diameter, you can use the following table:
+
+##### Tornado Diameter
+
+| 1d20 | Diameter (ft.)  |
 |:---:|:--------------------:|
-| 1-3 |   Same As Current         |   
-| 4-6 |   Increase One Rank        |     
-| 7-9 |   Decrease One Rank        |     
-| 10  |           0         |     
-| 11  |           1d6x10     |     
-| 12  |           2d6x10    |     
-| 13-15 |           4d6x10    |      
-| 16-18 |           8d6x10    |  
-| 19    |           8d10x10    |   
-| 20    |           8d12x10    |     
+| 1-2  | 3d6                |
+| 3-5  | 3d6 x 5            |
+| 6-8  | 3d6 x 10           |
+| 9-13   | 3d6 x 50           |
+| 14-17   | 3d6 x 100          |
+| 18-19| 3d6 x 500          |
+| 20    | 3d6 x 1000         |
 
-##### Size
+#### Land Speed
+Tornadoes can have erratic speeds. If you want to randomize the speed, you can roll for it every round.
 
-| 1d20|     Diameter (ft.)  | 
+##### Tornado Land Speed
+
+| 1d20 | Speed (ft.)   |
 |:---:|:--------------------:|
-| 1-3 |   3d6        |   
-| 4-6 |   3d6x5        |     
-| 7-9 |   3d6x10        |     
-| 10  |   3d6x50         |     
-| 11  |   3d6x100     |     
-| 12  |   3d6x500    |     
-| 13-15 | 3d6x1000    |      
- 
-##### Wind Speeds
-| d6 |      Wind Severity      | Save DC |  Debris Damage |  Time In Tornado (Rounds)  |  Distance Thrown (ft.) | 
-|:--:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
-|  1  |       Gale         |         10      |        1d10          |          0          |        1d10x5           | 
-|  2  |       Moderate         |         15         |          2d10          |       1          |         1d10x10          | 
-|  3 |       Significant         |         20         |           4d10    |       1d4          |        1d10x50          | 
-|  4  |       Severe         |         25          |        6d10          |       1d8          |         1d10x100          |
-|  5  |       Devastating         |         30         |        8d10         |          1d12          |      1d10x500          |
-|  6  |       Incredible         |         35         |        10d10         |          1d20          |      1d10x1000          |  
+| 1-3  | Same As Current     |
+| 4-6  | Increase One Level  |
+| 7-9  | Decrease One Level  |
+| 10   | 0                   |
+| 11   | 1d6 x 10            |
+| 12   | 2d6 x 10            |
+| 13-15| 4d6 x 10            |
+| 16-18| 8d6 x 10            |
+| 19   | 8d10 x 10           |
+| 20   | 8d12 x 10           |
 
-Drop height is 1d6 x 100ft. per round spent in the tornado
+\columnbreak
+
+
+
+
+\pagebreakNum
+
+#### Severity
+Much of the danger posed by a tornado will depend on its wind speed, which determines its severity. The following table can help you determine its characteristics based on its severity.
+
+##### Tornado Severity 
+| d6 (Severity Level)  | Wind Severity  | Save DC | Debris Damage | Time In Tornado (Rounds) | Throw Distance (ft.) |
+|:--:|:---------------:|:-------:|:-------------:|:------------------------:|:--------------------:|
+|  1  | Gale           | 10      | 1d10          | 0                        | 1d10 x 5             |
+|  2  | Moderate       | 15      | 2d10          | 1                        | 1d10 x 10            |
+|  3  | Significant    | 20      | 4d10          | 1d4                      | 1d10 x 50            |
+|  4  | Severe         | 25      | 6d10          | 1d8                      | 1d10 x 100           |
+|  5  | Devastating    | 30      | 8d10          | 1d12                     | 1d10 x 500           |
+|  6  | Incredible     | 35      | 10d10         | 1d20                     | 1d10 x 1000          |
+
+#### Effects Near a Tornado
+The area near a tornado is extremely dangerous due to high winds and flying debris. This danger zone around the tornado can vary depending on its size and severity. 
+
+**Determining Danger Zone Size.** The following formula is a good guideline for determining how many feet the danger zone should stretch out from the tornado: 
+
+Danger Zone Distance = 1/2 Tornado Diameter x Severity Level. 
+
+**High Winds.** Use the rules for high winds described in the DMG for a guideline on how to handle their effect in the danger zone. 
+
+##### Flying Debris
+While in the danger zone, players are in danger of getting hit by flying debris. To randomly determine if a piece of debris is flying at a creature, roll a d10 at the start of each of its turns. If the result is less than or equal to the Wind Severity level, the player must succeed on a Dexterity save against the tornado's save DC or take bludgeoning damage equal to the tornado's debris damage. You can increase or decrease the size of the die used to account for tornadoes with more or less debris flying about.
+
+\columnbreak
+
+#### Getting Caught in a Tornado
+Though tornadoes can't pull creatures into their vortex, any creature that is blown into the funnel is likely to suffer catastrophic effects.
+
+##### Initial Contact
+A creature that comes in contact with a tornado must make a Strength save against the tornado's save DC, with the following potential outcomes:
+* **Pass By 5 Or More:** No effect.
+* **Pass By Less Than 5:** The creature is pushed by half the tornado's throw distance.
+* **Fail By Less Than 5:** The creature is thrown the tornado's throw distance.
+* **Fail By 5 Or More:** The creature gets picked up by the tornado. (Tornadoes with a Severity Level of 1 can't pick up creatures)
+
+##### Being Picked Up by a Tornado
+Once a creature is picked up by a tornado, it remains carried by the wind for a number of rounds determined by the tornado's severity. The creature must make a Dexterity save every turn to avoid debris, as described in the Flying Debris section. After the time in the tornado has expired, the creature is thrown the tornado's Throw Distance from a height of 1d6 x 100 ft. per round spent in the tornado.
+
+
 
 \pagebreakNum
 
@@ -251,35 +319,6 @@ If the players aren't in combat, this wind will greatly hamper travel for those 
 |           Intense         |         20         |           4d8    |        10ft.          | 
 |           Extreme         |         25          |        6d8          |         10ft.          |
 |           Supernatural         |         30         |        8d8         |         15ft.          |
-
-
-
-
-\pagebreakNum
-
- 
-### Wildfires
-Explain what wildfires and how they start
-Noticing the Fire's Edge: Players can generally notice the edge of the forest fire when it's 2d6 x 100ft. away.
-Touch on how the different factors in their creation affect their size and speed.
-Sometimes, embers carried on the wind can start new fires ahead of the main fire, leading to unpredictable spreading patterns
-Size: 
-Minor
-Less than a square mile 
-Local
-Several square miles 
-Regional:
-Dozens of square miles 
-
-Continental:
-Hundreds of square miles
-Speed:
-Forest vs. Grassland
-Dryness (Number of Die)
-Uphill vs. Downhill (Die Size)
-Wind (Multiplying Effect)
-Go over what happens to players who are caught in the area
-Go over how long it takes for them to burn out
 
 
 
