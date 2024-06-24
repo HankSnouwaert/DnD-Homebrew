@@ -1,0 +1,383 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+        /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p4:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Lab of The <Br> Master Mutator <br> (Player Level: 15-17)
+In this encounter, the players break into the dread ratfolk laboratory of Thrat, The Foul, for a showdown against him and his horrific creations.
+
+### Encounter Context
+This encounter will work best as the final battle of an adventure. Thrat is a dangerous foe, and even more so in his lab. So, this will make for a good climactic finish to an adventure where he's the antagonist.
+
+### Lead Up
+Thrat will be moving around the lab as he works. The room is guarded by an *alarm* spell that will alert him to any intruders. Once he is aware of the players' presence, he will release a screech, awakening the creeping experiments in the vats throughout his lab.
+
+
+### Experimental Vats
+
+Each vat is a large magical object with an Armor Class (AC) of 16 and 60 hit points. On initiative count 20 (losing ties), each vat spawns a **creeping experiment** with a random Experimental Attack. These experiments take their turns immediately after spawning. Each vat can spawn a maximum number five experiments, enhancing the complexity and dynamics of the encounter.
+
+
+### Thrat, The Foul Tactics
+
+**Minion Dependency:** Thrat constantly requires a supply of minions to command and consume to stave off his Ravening Hunger.
+
+#### Attacks
+**Creature-Killer:** Used when not grappling a target. This attack grants advantage to Thrat and his minions for future attacks, and should target foes with large hit dice and low AC.
+Ravening 
+
+**Bite:** Employed at least once each round to prevent the activation of Ravening Hunger. Target restrained creatures or consume corpses with beneficial mutations.
+
+**Whip of Domination:** Primarily used with his Surge of Cruelty legendary action unless he is consuming a corpse or restraining a target with Creature-Killer.
+
+
+<br>
+
+##### Art Credit
+* Encounter Map - Joseph Snouwaert
+
+
+
+\columnbreak
+
+
+
+##### Encounter Map: Thrat's Lab
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Map Legend
+
+* <font color="918007">**Yellow Shaded V:** Experimental Vat </font>
+* <font color="Purple">**Purple Areas:** Lab Equipment That Small Creatures Can Squeeze Through (Or Medium Creature's With Crevice Crawler) </font>
+* <font color="Red">**Red Lines:** 30 Foot High Walls (Ceiling Is Same Height) </font>
+* <font color="Blue">**Blue Line:** Area of *alarm* spell </font>
+* <font color="E39903">**Orange Line:** 5 Foot Drop </font>
+* **T:** Thrat, The Foul Starting Location
+* <font color="Red">**O:** Mutant Rat Ogre Starting Area (Harder Difficulty) </font> 
+
+
+
+#### Creeping Experiments Tactics
+**Target Selection:** Thrat uses his mutagen ability to enhance creatures in the best position to wreak havoc on the players.
+
+**Acid Smear:** Used if the opponent has high AC or can impose disadvantage on attack rolls.
+
+**Withering Touch:** Used if the opponent relies heavily on weapon attacks.
+
+**Electrical Surge:** Employed against opponents who benefit significantly from bonus actions, such as monks or rogues.
+
+**Flailing Limbs:** Used against opponents with lower than usual AC.
+
+### Rat Ogre Tactics
+Rat ogres are tormented and unnatural creatures with no tactical awareness or regard for their safety. Without the guidance of a pack master or other intelligent leaders, they mindlessly attack the nearest targets. When commanded by more intelligent masters, they serve as shock cavalry, overwhelming weaker foes with brute force.
+
+<img src='https://i.ibb.co/b7pwLwH/Vat-lab-Guidesmall.jpg' style='position:absolute; top:70px; right:2px; width:420px; ' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+#### Rat Ogre Mutant Tactics
+Rat ogre mutants possess a Sweep attack that allows them to deal significant damage to clusters of enemies. If guided by more intelligent creatures, these mutants are directed toward groups to maximize their destructive potential.
+
+
+### Ending The Encounter
+If the players flee the encounter, Thrat will likely gather his forces and pursue them. If he realizes he's going to lose the fight, he may try to use his experiments to stall the players as he makes his escape. Alternatively, the contents of his lab may be so valuable to him that he dies fighting.
+
+If the players defeat Thrat, award them 30,000 XP.
+
+### New Magic Item: Mutagen
+*Potion, rare, 400gp*
+
+This crude syringe is filled with a thick green sludge, ready to be injected into those who dare to risk its potent effects.
+
+As a bonus action, you can inject this mutagen into a willing or incapacitated creature, which gains one of the following random effects, determined by rolling a d4; these effects can stack if multiple doses are administered, and each lasts for 1 minute:
+
+##### Mutagen Effect
+| d4  | Effect |
+|:---:|:-----------:|
+ |  1  | ***Rapid Healing.***  The creature regains 10 hit points at the start of its turn if it has at least 1 hit point. Additionally, it has advantage on Constitution saving throws. |
+ |  2  | ***Rapid Grow.***  The creature becomes one size larger. If there isn’t enough space to grow, its size doesn't change. While one size larger, it has advantage on Strength checks and Strength saving throws, and its attacks with weapons or unarmed strikes deal an extra 7 (2d6) damage.|
+ |  3  | ***Rapid Acceleration.*** The creature's speed increases by 30 feet, and its movement doesn’t provoke opportunity attacks. It also has advantage on Dexterity checks and Dexterity saving throws. |
+|  4  | ***Rapid Degeneration.*** At the end of each of its turns, the creature takes 10 (3d6) force damage and must make a DC 15 Constitution saving throw, ending the effect on a success. If the creature dies from this effect, it explodes, and each creature within 10 feet must make a DC 15 Dexterity saving throw, taking 21 (6d6) acid damage on a failed save, or half as much on a successful one. |
+
+
+\columnbreak
+
+### Adjusting the Difficulty
+The encounter assumes you are playing with 4 players in the suggested level range. If the players' levels are outside the suggested level range, or you have a different group size, you can adjust the encounter's difficulty accordingly. 
+
+**Easier Encounter (Level 12-14).** Change the experimental tanks so they each only create a creeping experiment on the 1st and 3rd rounds of combat.<br> Change the XP award to 14,000XP.
+
+**Harder Encounter (Level 20).** Add 2 mutant rat ogres to the encounter.<br> Change the XP award to 60,000XP.
+
+
+### Adventure Follow Ups
+If you wish to connect this encounter to a larger adventure, the following hooks can help provide some inspiration. 
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  |**Escapee from the Depths:** The adventurers encounter a creature that has escaped from Thrat’s lab. This creature, although dangerous, possesses intelligence and memories of the horrors within the lab. It begs the adventurers to stop Thrat before he can finalize his most terrifying creation yet.  |
+|  2  | **Unnatural Disturbances:** Local wildlife has begun exhibiting strange and aggressive behaviors, attacking nearby settlements. Investigation reveals that these mutations are the result of Thrat’s experiments leaking into the environment, pointing the adventurers toward his lab for answers.
+|  3  | **An Unlikely Alliance:** The players are approached by a rival ratfolk packlord Thrat, offering an alliance. This uneasy cooperation could provide additional resources and information but at the cost of trusting a dubious ally who has their own motives.   |
+|  4  | **The Collector’s Request:** A mysterious collector who specializes in oddities and forbidden knowledge hires the adventurers to retrieve a unique specimen from Thrat’s latest batch of creations. This mission could serve as a cover for the adventurers to infiltrate the lab and confront Thrat directly.  |
+
+<br>
+
+> ##### New Condition: Berserk
+> Berserk creatures gain the following effects unless an ability states otherwise:
+> * The creature can only use its movement to move closer to an enemy it can see or hear.
+> * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+> * The creature can't maintain concentration on spells or other effects.
+> * The creature can't be frightened or charmed.
+
+
+
+
+
+\pagebreakNum
+
+
+
+___
+___
+> ## Thrat, The Foul
+>*Medium humanoid (ratfolk), chaotic evil*
+> ___
+> - **Armor Class** 16 (Chain Shirt)
+> - **Hit Points** 228 (24d8 + 120)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|14 (+2)|20 (+5)|20 (+5)|18 (+4)|14 (+2)|
+>___
+> - **Saving Throws** Str +10, Con +10
+> - **Skills** Animal Handling +14, Perception +9, Alchemist's Supplies +10
+> - **Senses** Darkvision 60 ft., Passive Perception 18
+> - **Languages** Common, Undercommon
+> - **Challenge** 13 (10,000 XP) &emsp;&emsp;**Proficiency Bonus** +5
+> ___
+>
+> ***Crevice Crawler.*** Thrat can move through and stop in a space large enough to fit a creature one size smaller than him without squeezing.
+>
+> ***Keen Smell.*** Thrat has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass (x5).*** The first time each turn that Thrat hits a creature with an attack, he deals an extra 5 damage per ally he has within 5 feet of his target that isn't incapacitated. Thrat can benefit from up to 3 allies this way.
+>
+> ***Pack Leader.***  As long as Thrat isn't incapacitated, allied beasts and monstrosities within 15 feet of him with an Intelligence score of 8 or lower may add +5 to any Intelligence, Wisdom, or Charisma saving throws they make.
+>
+> ***Pack Tactics.*** Thrat has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ***Ravening Hunger.*** When Thrat ends his turn in combat and has not regained hit points with his bite attack, he takes 10 necrotic damage that can't be prevented.
+>
+> ### Actions
+>
+> ***Multiattack.*** Thrat makes two attacks: one with his bite and one with his Creature-Killer.
+>
+> ***Creature-Killer.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one creature. *Hit:* 5 + A Roll of The Creature's Largest Hit Die piercing damage. The target is grappled (escape DC 16) if it is Huge or smaller. Until this grapple ends, the target is restrained, and Thrat can't use the Creature-Killer on another target.
+>
+> ***Ravenous Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:* 10 (2d4 + 5) piercing damage, and Thrat regains hit points equal to the damage dealt. If the target is Small or larger, and killed by this attack or hit as a corpse, it is destroyed, and Thrat gains any mutagen effects the creature or corpse had for himself for the next minute.
+>
+> ***Whip of Domination.*** *Melee Weapon Attack:* +10 to hit, reach 15 ft., one target. *Hit:* 7 (1d4 + 5) slashing damage. Thrat may command the target to attack another creature, allowing the struck creature to use its reaction to end any charmed or frightened conditions affecting it. It then must move up to half its speed towards a target of Thrat's choice and make one weapon attack against it. If the target creature does not use this reaction, it must make a DC 15 Wisdom saving throw or be frightened of Thrat until the end of his next turn. While frightened, the creature can't cast spells other than cantrips. A creature can't be affected by the whip again until the end of its next turn.
+>
+> ### Bonus Action
+>
+> ***Mutagen (6/Day).*** Thrat injects a mutagen into a willing or incapacitated creature, which gains one of the random effects defined by the *mutagen* magic item (described at the end of the document), determined by rolling a d4; these effects can stack if multiple doses are administered, and each lasts for 1 minute:
+>
+> ### Legendary Actions
+> Thrat can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Thrat regains spent legendary actions at the start of his turn.
+>
+> **Check.** Thrat makes a skill check that would normally require an action.
+> 
+> **Surge of Cruelty.** Thrat moves up to half his movement speed and may make an attack against a creature that has just taken its turn; the attack automatically hits if the creature is an ally.
+>
+> **Tenacious Will.** If Thrat is suffering from an effect that allows him to make a saving throw at the beginning or end of his turn or as an action, he may immediately make that save with advantage. He can use this legendary action while incapacitated.
+>
+> ### Reactions
+>
+> ***Verminous Bodyguard.*** When a creature Thrat can see targets him with an attack, he swaps places with another allied beast or monstrosity within 5 feet of him. The chosen creature becomes the target instead.
+
+\pagebreakNum
+
+___
+> ## Creeping Experiment
+>*Small monstrosity, unaligned*
+> ___
+> - **Armor Class** 10
+> - **Hit Points** 21 (6d6)
+> - **Speed** 25 ft., climb 25 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|10 (+0)|10 (+0)|1 (-5)|1 (-5)|1 (-5)|
+>___
+> - **Senses** darkvision 30 ft., passive Perception 5
+> - **Languages** ━
+> - **Challenge** 1/4 (50 XP) &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ***Bio Surge.*** Whenever the experiment is injected with mutagen, it gains 20 temporary hit points.
+>
+> ***Creeping Strike.*** The experiment gains a +3 bonus to its attack rolls.
+>
+> ### Actions
+>
+> ***Experimental Attack.*** When the Creeping Experiment is created, it gains one of the following actions at random:
+>
+> | 1d4  | Effect |
+> |:---:|:-------|
+> |  1  | ***Acid Smear.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (2d6) acid damage. If the target is a creature and the experiment is under the effects of a mutagen, hit or miss, the target is covered in acid and takes 7 (2d6) acid damage at the end of its next turn unless a creature uses an action to scrape or wash the acid off before that time. |
+> |  2  | ***Withering Touch.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (2d6) necrotic damage. If the target is a creature and the experiment is under the effects of a mutagen, the target only deals half damage with weapon attacks until the start of the experiment's next turn. |
+> |  3  | ***Electrical Surge.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (2d6) lightning damage. If the target is a creature and the experiment is under the effects of a mutagen, the target can’t take reactions or bonus actions until the start of the experiment's next turn. |
+>|  4  | ***Flailing Limbs.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (2d6) slashing damage. If the target is a creature and the experiment is under the effects of a mutagen, hit or miss, it makes another Flailing Limbs attack as a bonus action against the target with disadvantage. |
+
+
+
+### Thrat, The Foul Loot
+Because ratfolk are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying or hiding nearby. 
+
+Finding valuables can be done using an **Intelligence (Investigation)** or **Wisdom (Perception)** check, depending on the circumstance. In the case of a ninja sorcerer, you may use an **Intelligence (Arcana)** check instead. 
+
+
+#### Thrat, The Foul Loot Tables
+The following table describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Thrat, The Foul Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 2d4(5) 100gp Items |
+|  9-11 | 2d6(7) 100gp Items | 
+|  12-18 | 1d6(3) 200gp Items  |  
+|  19-23 | 2d4(5) 200gp Items |  
+|  24+ |  2d6(7) 200gp Items |  
+
+
+#### Example Thrat, The Foul Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+##### Example Thrat, The Foul Item Names
+|1d4 |  100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |  Thrat's Trophy Bone | Thrat's Special Trophy Bone |
+| 2 <br> (Gem) | Warp Gem |  Pristine Warp Gem  | 
+| 3 <br> (Hide) | Mutant Hide |  Irradiated Mutant Hide  | 
+| 4 <br> (Metal) | Thrat's Monster Collar  | Thrat's Masterwork Monster Collar   | 
+
+
+
+\pagebreakNum
+
+
+___
+> ## Rat Ogre Mutant
+> *Huge monstrosity, chaotic evil*
+> ___
+> - **Armor Class** 17 natural armor
+> - **Hit Points**  218 (19d12 + 95)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|23 (+6)|16 (+3)|20 (+5)|2 (-4)|6 (-2)|2 (-4)|
+>___
+> - **Skills** Perception +6
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** ━
+> - **Challenge** 11 (7,200 XP) &emsp;&emsp;&nbsp;    **Proficiency Bonus** +4
+> ___
+>
+> ***Blood-Crazed.*** When the rat ogre hits a creature with its bite attack and deals damage, the rat ogre goes berserk for the next minute. While berserk this way, it can make a bite attack as a bonus action, and attack rolls against it have advantage.
+>
+> ***Crevice Crawler.*** The rat ogre can move through and stop in a space large enough to fit a creature one size smaller than it without squeezing.
+>
+> ***Implacable.*** The rat ogre has advantage on saving throws against being charmed, frightened, or incapacitated.
+>
+> ***Keen Smell.*** The rat ogre has advantage on Wisdom (Perception) checks that rely on smell.
+>
+>  ***Overwhelming Mass (4).*** The first time each turn that the rat ogre hits a creature with an attack, it deals an extra 4 damage per ally it has within 5 feet of its target that isn't incapacitated. The rat ogre can benefit from up to 3 allies this way.
+>
+> ### Actions
+>
+> ***Multiattack.*** The rat ogre makes two attacks, one with its claws and one with its bite.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 27 (6d6 + 6) piercing damage.
+>
+> ***Claws.*** *Melee Weapon Attack:* +10 to hit, reach 15 ft., one target. *Hit:* 33 (6d8 + 6) slashing damage. If the rat ogre moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a DC 18 Strength saving throw or be knocked prone.
+>
+> ***Sweep*** The rat ogre makes a claw attack against any number of creatures in a 15-foot cube originating from the 
+rat ogre. It can only use this action if it is berserk and must also expend its bonus action (it can't take this action if its bonus action is unavailable).
+
+
+\columnbreak
+
+### Rat Ogre Loot
+The valuable items looted from rat ogres will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest hide. 
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Rat Ogre Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Rat Ogre Mutant Loot Table 
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1d4(2) 50gp Items |
+|  9-11 | 1d6(3) 50gp Items | 
+|  12-18 | 1d4(2) 100gp Items  |  
+|  19-23 | 1d4(2) 200gp Items  |  
+|  24+ |  1d6(3) 200gp Items  | 
+
+#### Example Rat Ogres Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Rat Ogre Mutant Item Names
+|1d6 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  | Fractured Mutant Rat Bone |   Mutant Rat Bone |  Prime Mutant Rat Bone  | 
+| 2 (Flesh)  | Stringy Mutant Rat Meat | Mutant Rat Meat|  Prime Mutant Rat Meat  | 
+| 3 <br> (Fluid) | Clotted Mutant Rat Blood |  Mutant Rat Blood |  Prime Mutant Rat Blood  | 
+| 4 <br> (Gem)| Flawed Hex-Gem |Hex-Gem |  Pristine Hex-Gem  |
+| 5 <br> (Hide)| Tattered Mutant Rat Hide |Mutant Rat Hide |  Prime Mutant Rat Hide  |
+| 6 <br> (Metal)| Rusted Hex-Steel Blade Fragment  |Hex-Steel Blade Fragment |  Masterwork Hex-Steel Blade Fragment |
+
+\pagebreakNum
+
+
+### Change Log
+#### 1.0.0
+* Document release
