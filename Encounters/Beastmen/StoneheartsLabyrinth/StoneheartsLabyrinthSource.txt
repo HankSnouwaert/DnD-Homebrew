@@ -1,0 +1,1248 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+        /* Hide the footer on some pages */
+    .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+<br><br>
+
+## Stoneheart's Labyrinth <br> (Player Level: 15-17)
+In this encounter, the players must navigate a labyrinth inhabited by savage minotaurs and confront the shamanistically possessed minotaur lord known as Stoneheart, who lies within.
+
+
+### Encounter Context
+This encounter works well as a standalone mini-dungeon or as part of a much larger dungeon crawl. All that is needed for context is that the players have a reason to reach the end of the maze, either to specifically slay Stoneheart or to retrieve something he's guarding.
+
+### Labyrinth Encounters
+The labyrinth map features several groups of monsters scattered across various locations. Though, in the setting, the monsters may be wandering throughout the labyrinth, for the purposes of running the game, you can treat them as though they are in these static locations and have them "find" the players whenever the party comes too close.
+
+**Starting an Encounter.**  Whenever the players reach a location on the map marked with "Encounter Start," there's the potential for them to come into contact with the creatures there. As all the monsters in the labyrinth are actively being stealthy, have the creatures associated with that encounter make Dexterity (Stealth) checks against the players' passive Perception. If the players are attempting to move stealthily, you can do the same for the players. If one side notices the other without being noticed, they can surprise their opponents in combat.
+
+If the players make an excessive amount of noise near one of the encounter locations, you may also opt to have the monsters there strike out and hunt down the players.
+
+**Ending Encounters.** The labyrinth's monsters want nothing more than to slay and devour the players. Once they detect the players, they will pursue them until they've hunted down their quarry. If a group of monsters is badly losing a fight, it may opt to retreat and later ambush the players when they least suspect it.
+
+
+### Labyrinth Loot (NOTE: No Loot?)
+The locations marked with 'L' on the map contain spare loot the players can discover. This should generally come in the form of a consumable magic item or wealth. For example, each location could contain 1d6 1,000gp gems and a magic item from Magic Item Table C of the Dungeon Master's Guide. The final encounter could also contain a larger portion of an entire treasure hoard. You can adjust the value of this loot based on the difficulty level of the labyrinth.
+
+<br>
+
+#### Art Credit
+* Encounter Map - Joseph Snouwaert
+
+\columnbreak
+
+<br><br><br><br><br>
+
+##### Encounter Map: Stoneheart's Labyrinth
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Map Legend (NOTE: Not Up To Date)
+* <font color="Red">**Red Lines:**</font> 20 Foot Walls Connecting to 20 Foot Ceiling
+* <font color="918007">**Yellow Lines:**</font> Walls Lined With Sharp Spikes Which Deal 10 (3d6) piercing damage to any creature pushed into them
+* **B:** Besthorn Enemy
+* **M:** Minotaur Enemy
+* **S:** Bray Speaker of Beasts Enemy 
+* **W:** Bray Speaker of The Wilds Enemy  
+* **H:** Stoneheart 
+* **L:** Loot Location (NOTE: No Loot?)
+* **Dotted Line:** Optimal Route Through Labyrinth
+
+<br>
+
+
+
+### Running The Maze Without A Map
+If you're playing using theater of the mind and do not wish to describe every turn and hallway in the labyrinth, you can instead have them make six different Wisdom (Survival) checks to attempt to reach the final chamber. For each check they pass, they choose the correct path and avoid an encounter. Every time they fail a check, they take a wrong turn, which leads them into an encounter.
+
+
+
+<img src='https://i.ibb.co/R2Fcfvs/Mintor-maze-stone-heart.jpg' style='position:absolute; top:145px; right:2px; width:415px;' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+### Minotaur Tactics
+Below are some tips for running the minotaurs in the labyrinth.
+#### Common Traits
+* Formidable melee fighters.
+* Lower health but higher damage output.
+* Possess Blood Greed trait, increasing damage and appetite for flesh.
+* After a kill, they may gorge on the prey rather than pursue other nearby enemies.
+
+#### Minotaur Combat Style
+* Favors a full gore attack, knocking targets back 10 feet.
+* Typically backs up to charge again, unless blood greed is active.
+* When blood greed is active, uses a greataxe or charges at an accessible enemy, risking opportunity attacks.
+
+#### Minotaur Butcher
+* Higher defense than regular Minotaurs.
+* Blood Greed activation enhances Hewing Cleaver attack and triggers Blood Regeneration for better survivability.
+
+#### Gorebull
+* Capable of making two attacks per turn; first a gore to knock a target prone, then a greataxe attack with advantage.
+* Can charge at two different targets if able.
+* While under the effects of Blood Greed, prefers two Hewing Greataxe attacks for increased damage.
+* Uses Slaughterer’s Call before combat to rally minotaurs and gain tactical advantage.
+
+#### Doombull
+* Begins combat by charging to knock a target prone.
+* Follows up with Barbed Fist to inflict wounds that can be exploited by fellow minotaurs.
+* Coordinates attacks to keep the target prone, maximizing damage with Hewing Greataxe.
+* Prioritizes reapplying wounds to maintain tactical advantage if the target recovers.
+
+### Beastmen Infantry Tactics
+The beastmen are hard-hitting ambushers. They aren't as effective if they can't catch their foes by surprise or are stuck in a prolonged fight. Nonetheless, their recklessly aggressive nature and intense disdain for civilization will often drive them into fights where they may not have the best tactical advantages. 
+
+There are a few abilities common to all beastmen infantry.
+
+**Charge & Gore.** While every beastman can use their Charge ability to knock a foe prone, most can't capitalize on the advantage it grants them due to not having multiattack. Therefore, it works best to have multiple beastmen gang up on a single target so others can make follow-up attacks on prone targets.
+
+
+
+\columnbreak
+
+**Primal Fury.** Beastmen will never flee while this ability is active. This ability underscores the importance of ensuring beastmen do whatever they can to help their attacks hit. This most commonly includes attacking surprised or prone enemies.
+
+##### Besthorn Manrippers
+These beastmen prioritize attacking targets with low Strength so they can best utilize their Hewing Greataxe attacks. However, if the enemies they can reach all have high AC or abilities that make them hard to hit, the manrippers will change their strategy to attacking foes that are grouped up so they can attempt to make use of their Arcing Swing ability.
+
+### Bray Speaker Tactics
+
+Bray speakers serve as the primary spellcasters of the beastmen war herds. Unlike most other spellcasters, they are fairly durable and can engage in melee combat while using their spells. With their Primal Fury active, bray speakers can cast spells while also making attacks. This makes them formidable foes as they don't suffer the vulnerabilities of most spellcasters and won't hesitate to dive into melee combat.
+
+The lore of magic a bray speaker is specialized in significantly influences its combat tactics. Below are tactics specific to the different lores and their spells:
+
+
+#### Lore of Beasts
+
+These bray speakers primarily serve a support role, which is helped by the fact that their Wild Heart trait works with most beastmen creatures.
+
+
+
+##### Lore of Beasts Spells
+
+&emsp;**Pass Without Trace:** This ideally cast before combat begins. However, if allies can hide as a bonus action during combat, this spell remains useful during the fight.
+
+**Amber Spear:** This should be cast when there's an opportunity to hit two or more targets.
+
+**Aspect of the Beast:** This is typically cast on the speaker's most powerful ally. Ripping Jaws is generally the most useful for the Beastmen. With it, a beastman can use its Charge ability to topple a target and then bite with a higher chance of success. Additionally, the extra piercing damage from Primal Fury boosts the temporary hit points gained from the Ripping Jaws attack.
+
+**Heroism:** This spell can be useful for either other beastmen or the speaker. It ensures the target isn't easily frightened, helping to mainain their Primal Fury. 
+
+It's important to remember that this spell only benefits from the Wild Heart trait when cast at 1st level. For higher-level speakers, this often becomes their primary concentration spell.
+
+
+
+**Monstrous Transformation:** This spell acts as a reset for the speaker. Upon transformation, the likelihood of reverting to their original form during combat is minimal. This spell is generally activated when the speaker's health drops below half or when it loses Primal Fury. While the transformed creature can't cast spells, any prior ongoing spells persist. 
+
+\pagebreakNum
+
+Depending on the situation, the speaker might transform into a:
+
+* **Manticore.** Preferable when adversaries have limited ranged capabilities
+
+* **Hydra.** Chosen when foes have a lower damage output or can't focus their attacks on the transformed speaker
+
+* **Dragon.** Optimal when opponents are grouped together, allowing the dragon's breath to hit multiple targets or when facing adversaries with high elemental damage output.
+
+#### Lore of The Wild
+Bray speakers dedicated to this lore tend to be less melee-focused, especially those with access to the Savage Domain spell. The majority of their spells require concentration, but their Bestial Surge trait allows them to maintain multiple spells at once, and they will often have at least one spell going that can help them disrupt the concentration of enemy spellcasters.
+
+
+
+
+
+##### Lore of the Wild Spells
+
+**Savage Dominion:** This spell is cast pre-combat unless doing so would jeopardize a surprise attack. While maintaining concentration on this spell, the speaker keeps its distance, remaining within 60 feet of the summoned monster. The type of summoned creature is typically random unless the speaker possesses prior knowledge about adversaries.
+
+The choices are:
+
+* **Giant:** Chosen if adversaries are adept at avoiding melee or are fighting at a distance
+
+* **Jabberwocky:** Chosen when the objective is to hamper foes with the creature's Burble and other debilitating effects. (Remember that the Burble ability is indiscriminate, potentially affecting even the speaker if it gets too close.)
+
+* **Behemoth:** A versatile monster, adept at singling out and consuming targets, as well as attacking groups with its Rend ability
+
+**Mad Rampage:** This should be cast on a unit with multiple attacks. Great speakers might cast it on the creature summoned with *savage domain*.
+
+**Vile Tide:** This should be used when it can target two or more opponents or disrupt a spell-concentrating foe, especially if *devolve* has already been used on them.
+
+**Primal Scream:** This should be reserved for critical moments. It's typically cast on the speaker itself or on powerful allies like a warhorn or a creature summoned by *savage domain*. It's most effective when the targeted unit is at half-health and can affect at least two foes with the scream.
+
+**Devolve:** This spell is saved for when the speaker can target an enemy spellcaster with it.
+
+\columnbreak
+
+### Stoneheart Tactics
+
+#### Not Possessed
+* Engages primarily in melee combat.
+* **Typical Attack Sequence:** 
+    * Gores a target, follows with a strike from his Hewing Greataxe.
+    * If movement permits, may gore two different targets.
+    * Against aerial opponents, uses Wing Puncturing Javelin.
+* Utilizes legendary actions to maximize movement and damage output.
+
+
+
+#### Possessed
+
+* Shifts to a spellcasting role, focusing on area control and debuffs.
+* Maintains distance from opponents
+* Starts turns by maximizing Corrupting Influence effects, targeting multiple opponents with spells.
+* **Sequence in combat:**
+    * Casts a spell
+    * Follows up with Hewing Greataxe for close <Br> targets, or Atrophy Blot for ranged attacks.
+    * Uses legendary actions  for Dark Surge to <br> maintain battlefield control.
+
+
+
+### XP Award
+Because the goal of the labyrinth is to reach its end rather than clear it of enemies, you may opt not to award XP for players defeating groups of enemies because they took wrong turns. When the players reach the end of the labyrinth and defeat the chieftain, you can award them an extra XP determined by the difficulty of the labyrinth in addition to normal XP from defeating the monsters.
+
+<br>
+
+**Easier Encounter (Levels 11-13).** <br>
+**B:** Besthorn <br>
+**M:** Minotaur Flesh Gorger <br>
+**S:** Bray Speaker With Lore of Beasts <br>
+**W:** Bray Speaker With Lore of Wilds <br>
+**H:** Stoneheart (Remove the 2 Besthorns From His Chamber)
+
+**Bonus XP For Completing Labyrinth:** 7,500XP <br>
+
+<br>
+
+**Medium Encounter (Levels 15-17).** <br>
+**B:** Besthorn Manripper <br>
+**M:** Minotaur Butcher <br>
+**S:** Great Bray Speaker With Lore of Beasts <br>
+**W:** Great Bray Speaker With Lore of Wilds <br>
+**H:** Stoneheart
+
+**Bonus XP For Completing Labyrinth:** 10,000XP <br>
+
+<br>
+
+\pagebreakNum
+
+**Harder Encounter (Levels 17-19).** <br>
+**B:** Besthorn Manripper With Uncanny Senses & Crown of Horns Mutations <br>
+**M:** Minotaur Warbull With Goregreed & Uncanny Senses Mutations <br>
+**S:** Great Bray Speaker With Lore of Beasts & Uncanny Senses & Crown of Horns Mutations <br>
+**W:** Great Bray Speaker With Lore of Wilds & Uncanny Senses & Crown of Horns Mutations <br>
+**H:** Stoneheart Epic Battle Version of Stoneheart With Uncanny Senses & Rune of the Beast Mutations
+
+**Bonus XP For Completing Labyrinth:** 15,000XP <br>
+
+
+
+
+
+
+### Adventure Lead Ups
+If you wish to make this the final encounter of a larger adventure, the following hooks can help provide some inspiration. 
+
+| d4  | Adventure Hook |
+|:---:|:-----------:|
+|  1  |**The Rescue Mission:** Villagers have been abducted by beastmen and taken into the labyrinth. The players must enter the maze, fight through the minotaurs and other beastmen, and rescue the captives from Stoneheart’s clutches in the final chamber before they are sacrificed.  |
+|  2  | **The Labyrinth Siege:** A fortified outpost near the labyrinth is under constant siege by beastmen. The players must break the siege by entering the labyrinth, defeating the minotaur and beastmen forces, and taking down Stoneheart, who commands the siege, in the final chamber.|
+|  3  | **Labyrinth of the Lost:** The labyrinth is filled with the spirits of those who perished within. The players must navigate the haunted maze, put the spirits to rest by defeating the beastmen and minotaurs who guard it, and confront Stoneheart, who commands the restless dead, in the final chamber.|
+|  4  |**The Ascension Ritual:** Stoneheart plans to ascend to a higher form of power using a dark ritual. The players must navigate the labyrinth, disrupt the ritual by defeating the beastmen and minotaurs guarding it, and confront Stoneheart in the final chamber to stop his ascension. |
+
+<br>
+
+> ##### New Condition: Berserk
+> Berserk creatures gain the following effects unless an ability states otherwise:
+> * The creature can only use its movement to move closer to an enemy it can see or hear.
+> * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+> * The creature can't maintain concentration on spells or other effects.
+> * The creature can't be frightened or charmed.
+
+\columnbreak
+
+## Minotaur Mutations
+
+The following is a list of mutations that can be applied to any beastman to represent the effects the constant mutating power of chaos can have on them. You may apply these mutations to creatures who don't have the beastman creature type, but some of the effects may require the creature to have the Primal Fury, Blood Greed or Charge abilities.
+
+Applying a mutation increases a creature's CR by 1 (fractional CRs are doubled, e.g., a CR 1/4 creature becomes CR 1/2.)
+
+### Crown of Horns 
+*This creature is gifted with especially large and grandiose twisting horns, granting it extreme confidence, for it knows it has been blessed by the dark gods.*
+
+When the beastman makes a Wisdom check caused by its Primal Fury ability, it automatically succeeds unless it has disadvantage on the roll.
+
+### Goregreed (Requires Blood Greed)
+
+*The beastman's hunger for flesh can not be stated; the more blood it tastes, the greater it hungers.*
+
+When the beastman's Blood Greed trait activates, it gets +2 to attack rolls. This ability can stack up to three times. It loses all stacks if it ends its turn without activating Blood Greed.
+
+
+### Rune of the Beast
+
+*The beastman has a large eldritch rune carved into its flesh. When it becomes enraged, the rune glows red hot and distorting the winds of magic around it.*
+
+While the beastman's Primal Fury or Blood Greed ability is active, it has resistance to damage from spells, and when it is affected by a spell that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
+
+### Uncanny Senses
+
+*The beastman's primal senses have been heightened to new levels, allowing it to perceive even the most well-hidden prey and the stealthiest of threats.*
+ 
+The beastman has advantage on initiative rolls and Wisdom (Perception) checks and does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured. It also gains blindsight out to 120 feet.
+
+
+
+\pagebreakNum
+
+___
+> ## Minotaur, Flesh Gorger 
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 136 (16d10+48)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|11 (+0)|16 (+3)|6 (-2)|16 (+3)|9 (-1)|
+>___
+> - **Skills** Athletics +7, Perception +9, Intimidation +5, Stealth +3, Survival +6
+> - **Senses** darkvision 60 ft., passive Perception 19
+> - **Languages** Abyssal
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Blood Greed.*** At the end of the minotaur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the minotaur hits with it (included in the attack).
+>
+> ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the minotaur extra movement.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 24 (3d12 + 5) slashing damage.
+>
+
+
+\columnbreak
+
+
+___
+> ## Minotaur Butcher
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 18 (natural armor, shield)
+> - **Hit Points** 142 (15d10+60)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|11 (+0)|18 (+4)|6 (-2)|18 (+4)|12 (+1)|
+>___
+> - **Saving Throws** Int +1
+> - **Skills** Athletics +7, Perception +9, Intimidation +5, Stealth +3, Survival +6
+> - **Senses** darkvision 60 ft., passive Perception 19
+> - **Languages** Abyssal
+> - **Challenge** 7 (2,900 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Blood Greed.*** At the end of the minotaur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Blood Regeneration.*** The minotaur regains 10 hit points at the start of its turn if it is berserk. The minotaur dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the minotaur hits with it (included in the attack).
+>
+> ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the minotaur extra movement.
+>
+> ### Actions
+>
+> ***Hewing Cleaver.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 17 (3d8 + 5) slashing damage, or 20 (3d10 + 5) slashing damage if used with two hands. The target must succeed on a DC 16 Strength saving throw, or the minotaur automatically hits the target with another Hewing Cleaver attack as part of this action. If the target fails by 10 or more, the attack is a critical hit. The minotaur can only make one extra attack this way.
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+
+
+\pagebreakNum
+
+
+___
+___
+> ## Minotaur, Warbull
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 199 (21d10+84)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|11 (+0)|18 (+4)|6 (-2)|18 (+4)|12 (+1)|
+>___
+> - **Saving Throws** Int +2, Cha +5
+> - **Skills** Athletics +9, Perception +12, Intimidation +9, Stealth +4, Survival +8
+> - **Senses** darkvision 60 ft., passive Perception 22
+> - **Languages** Abyssal
+> - **Challenge** 10 (5,900 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+>
+> ***Blood Greed.*** At the end of the minotaur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the minotaur hits with it (included in the attack).
+>
+> ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the minotaur extra movement.
+>
+> ### Actions
+>
+> ***Multiattack.*** The minotaur makes two melee attacks.
+>
+> ***Hewing Greataxe.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 24 (3d12 + 5) slashing damage. The target must succeed on a DC 17 Strength saving throw, or the minotaur automatically hits the target with another Hewing Greataxe attack as part of this action. If the target fails by 10 or more, the attack is a critical hit. The minotaur can only make one extra attack this way.
+>
+> ***Gore.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+> ### Bonus Action
+>
+> ***Slaughterer's Call.*** Up to three creatures of the minotaur's choice that are within 60 feet may choose to become berserk until the end of the minotaur's next turn. If a targeted creature has Blood Greed, it becomes active until the end of the minotaur's next turn. Each creature that becomes berserk uses its reaction to move up to half its speed and then make one melee weapon attack. The minotaur can only use this ability if it is berserk.
+
+
+\pagebreakNum
+
+### Bray Speaker <Br> Lore of Magic Options 
+Select one of the following lores or magic to determine a bray speaker's additional passive trait and spell list. <Br>
+**New Spells Found In New Spells Section*<Br>
+***Spell found in The Xanathar's Guide to Everything*
+
+> #### Bray Speaker: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the speaker targets only itself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the speaker is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery*** (2d10) <br>
+> **1/Day:** *amber spear**, *aspect of the beast**, *find the path*, *heroism* (2nd level), *mystic signal**, *pass without trace*
+
+\columnbreak
+
+<br><br><br><br><br><br><br>
+
+> #### Bray Speaker: Lore of The Wild
+>
+> ##### **Trait:**
+> ***Bestial Surge.*** When the speaker casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the speaker loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.<br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *infestation*** (2d6)<br>
+> **1/Day:** *devolve** (2nd level), *find the path*, *mad rampage**, *mystic signal**, *primal scream**, *vile tide**  
+
+___
+___
+> ## Bray Speaker
+> *Medium humanoid, chaotic evil*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 135 (18d8 + 54)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|16 (+3)|16 (+3)|8 (-1)|18 (+4)|12 (+1)|
+>___
+> - **Saving Throws** Int +1, Wis +8, Cha +4
+> - **Skills** Athletics +5, Intimidation +7, Religion +5, Perception +7, Stealth +6, Survival +7
+> - **Senses** darkvision 60 ft., passive Perception 17
+> - **Languages** Abyssal
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Beast Man.*** The speaker is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Charge.*** If the speaker moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The speaker has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the speaker extra movement.
+>
+> ***Lore of Magic.*** The speaker is specialized in one of the following lores of magic: Beasts, Death, Shadow, or Wild. The chosen lore determines one of its traits and the spells it knows.
+>
+> ***Primal Fury (3d8).*** The speaker deals an extra 13 (3d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ***Spellcasting.*** The speaker is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The spells the speaker knows depend on the lore of magic it has specialized in, as described in its Lore of Magic trait.
+>
+> ### Bonus Actions
+>
+> ***Primal Magic.*** When the speaker takes the Attack action while its Primal Fury is active, it can cast a spell this turn with a casting time of one action.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands.
+>
+
+\pagebreakNum
+
+### Great Bray Speaker <Br> Lore of Magic Options 
+Select one of the following lores or magic to determine <br> a great bray speaker's additional passive trait and spell list. <Br>
+**New Spells Found In New Spells Section*
+<Br>
+***Spell found in* The Xanathar's Guide to Everything
+
+> #### Great Bray Speaker: Lore of Beasts
+>
+> ##### **Trait:**
+> ***Wild Heart.*** Whenever the speaker targets only itself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, it can choose for the spell to no longer require concentration. The spell ends early if the speaker is incapacitated or uses this feature to alter another spell. <br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *primal savagery*** (3d10)<br>
+> **1/Day:** *amber spear**, *aspect of the beast**, *find the path*, *heroism* (3rd level), *monstrous transformation**, *mystic signal**, *pass without trace*  
+
+\columnbreak
+
+<br><br><br><br><br><br>
+
+> #### Great Bray Speaker: Lore of The Wild
+>
+> ##### **Trait:**
+> ***Bestial Surge.*** When the speaker casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the speaker loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.<br><br>
+>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *infestation*** (3d6)<br>
+> **1/Day:** *devolve** (3rd level), *find the path*, *mystic signal**, *mad rampage**, *primal scream**, *savage dominion**, *vile tide**
+
+___
+___
+> ## Great Bray Speaker
+> *Medium humanoid, chaotic evil*
+> ___
+> - **Armor Class** 13 (natural armor)
+> - **Hit Points** 170 (20d8 + 80)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|16 (+3)|18 (+4)|10 (0)|20 (+5)|12 (+1)|
+>___
+> - **Saving Throws** Int +2, Wis +9, Cha +5, Con +8
+> - **Skills** Athletics +6, Religion +8, Perception +9, Intimidation +9, Stealth +7, Survival +9
+> - **Senses** darkvision 60 ft., passive Perception 19
+> - **Languages** Abyssal
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+>
+> ***Beast Man.*** The speaker is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Charge.*** If the speaker moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The speaker has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the speaker extra movement.
+>
+> ***Lore of Magic.*** The speaker is specialized in one of the following lores of magic: Beasts, Death, Shadow, or Wild. The chosen lore determines one of its traits and the spells it knows.
+>
+> ***Primal Fury (4d8).*** The speaker deals an extra 18 (4d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ***Spellcasting.*** The speaker is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It can cast the following spells:
+>
+> At will: *druidcraft*, *infestation*** (2d6)<br>
+> 1/Day: *devolve** (2nd level), *find the path*, *mad rampage**, *mystic signal**, *primal scream**, *vile tide**  
+>
+> ### Bonus Actions
+>
+> ***Primal Magic.*** When the speaker takes the Attack action while its Primal Fury is active, it can cast a spell this turn with a casting time of one action.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 6 (1d6 + 3) piercing damage.
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if wielded with two hands.
+>
+
+\pagebreakNum
+
+___
+___
+> ## Besthorn
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 15 (chain shirt)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|14 (+2)|16 (+3)|7 (-2)|16 (+3)|8 (-1)|
+>___
+> - **Skills** Athletics +5, Perception +7, Intimidation +3, Stealth +4, Survival +5
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** Abyssal
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+> 
+> ***Beast Man.*** The besthorn is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the besthorn hits with it (included in the attack).
+>
+> ***Charge.*** If the besthorn moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The besthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the besthorn extra movement.
+>
+> ***Primal Fury (2d8).*** The besthorn deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 12 (2d8 + 3) piercing damage.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16 (2d12 + 3) slashing damage.
+>
+
+___
+___
+> ## Besthorn Manripper
+> *Medium humanoid (beastman), chaotic evil*
+> ___
+> - **Armor Class** 15 (chain shirt)
+> - **Hit Points** 90 (12d8 + 36)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|14 (+2)|16 (+3)|7 (-2)|16 (+3)|8 (-1)|
+>___
+> - **Saving Throws** Dex +4
+> - **Skills** Athletics +6, Perception +7, Intimidation +3, Stealth +4, Survival +5
+> - **Senses** darkvision 60 ft., passive Perception 17
+> - **Languages** Abyssal
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Beast Man.*** The besthorn is considered a beast in addition to its humanoid type when determining the effects of features, spells, and abilities such as the *dominate beast* spell.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the besthorn hits with it (included in the attack).
+>
+> ***Charge.*** If the besthorn moves at least 20 ft. straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.
+>
+> ***Forest Camouflage.*** The besthorn has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the besthorn extra movement.
+>
+> ***Primal Fury (2d8).*** The besthorn deals an extra 9 (2d8) damage on hit with weapon attacks. At the end of its turn, if it missed with all of its attacks this turn, is charmed or frightened, or has less than half of its hit points, it must make a DC 15 Wisdom check. On a failure, it loses this trait until it finishes a short or long rest.
+>
+> ### Bonus Action
+>
+> ***Arcing Swing.*** When the besthorn scores a critical hit with a melee weapon, reduces a creature to 0 hit points with one, or misses a creature with one, it can immediately make one attack with the same weapon against another creature within reach.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 13 (2d8 + 4) piercing damage.
+>
+> ***Hewing Greataxe.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) slashing damage. The target must succeed on a DC 14 Strength saving throw, or the besthorn automatically hits the target with another Hewing Greataxe attack as part of this action. If the target fails by 10 or more (DC 3), the attack is a critical hit. The besthorn can only make one extra attack this way.
+>
+
+\pagebreakNum
+
+___
+___
+> ## Stoneheart
+> *Large Monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 315 (30d10+150)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|11 (+0)|20 (+5)|6 (-2)|20 (+5)|14 (+2)|
+>___
+> - **Saving Throws** Str +11, Iin +3, Cha +7
+> - **Skills** Athletics +12, Perception +17, Intimidation +14, Stealth +6, Survival +12
+> - **Senses** darkvision 60 ft., passive Perception 26
+> - **Languages** Abyssal
+> - **Challenge** 17 (18,000 XP) &emsp;&emsp; **Proficiency Bonus** +6
+> ___
+>
+> ***Blood Greed.*** At the end of Stoneheart's turn, if he dealt damage to a creature with a weapon attack since the end of his last turn, he goes berserk until the end of his next turn. While berserk, he deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when Stoneheart hits with it (included in the attack).
+>
+> ***Corrupting Influence.*** At the start of Stoneheart's turn, each creature under the effects of his spells or cursed by his Atrophy Bolt takes 10 (3d6) necrotic damage.
+>
+> ***Labyrinthine Recall.*** Stoneheart can perfectly recall any path he has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost Stoneheart extra movement.
+>
+> ***Possessed.*** At the end of each turn, if Stoneheart took 30 or more damage and was not already Possessed, he makes a DC 18 Charisma saving throw. On a failure, he is Possessed by the spirit, changing his Intelligence to 10 (Int +6), ending any Berserk effects, and making his concentration unbreakable. If Stoneheart takes 30 or more damage in a turn while Possessed, he can attempt another Charisma saving throw to end the Possession and any spells he has cast.
+>
+> ### Actions
+>
+> ***Multiattack.*** Stoneheart makes two attacks.
+>
+> ***Dazing Gore.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 18 (3d8 + 6) piercing damage. If Stoneheart moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be pushed up to 10 feet away and knocked prone. If the target fails by 10 or more, the creature is dazed until the end of its next turn.
+>
+> ***Hewing Greataxe.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 25 (3d12 + 6) slashing damage. The target must succeed on a DC 18 Strength saving throw, or Stoneheart automatically hits the target with another Hewing Greataxe attack as part of this action. If the target fails by 10 or more, the attack is a critical hit.
+>
+> ***Tackle.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 4 (1d8) bludgeoning damage. If Stoneheart moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) bludgeoning damage.
+>
+> ***Wing Puncturing Javelin.*** *Melee or Ranged Weapon Attack:* +12 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 16 (3d6 + 6) damage in melee or 12 (2d6 + 6) piercing damage at range. If the attack targets a flying creature, it has advantage, and on hit, the target must succeed on a DC 19 Strength saving throw or be knocked prone and dazed until the end of the creature until the end of its next turn.
+>
+> ***Atrophy Bolt (Only While Possessed).*** *Ranged Spell Attack:* +11 to hit, range 150 ft., one target. *Hit:* 10 (3d6) necrotic damage, and the target is cursed for 1 minute or until Stoneheart is no longer possessed.
+>
+> ***Spellcasting (Only While Possessed).*** Stoneheart is a spellcaster. His spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). He knows the following spells:
+> - **3/Day:** *devolve** (5th level), *impending doom** (5th level), *vile tide** (5th level)
+>
+> **New Spells Found Later in Document*
+>
+> ### Bonus Action
+>
+> ***Battle Cast.*** When Stoneheart uses his action to cast a spell, he can make one weapon attack or two Atrophy Bolt attacks.
+>
+> ### Legendary Actions
+> Stoneheart can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Stoneheart regains spent legendary actions at the start of its turn.
+>
+> **Check.** Stoneheart makes a skill check that would normally require an action.
+>
+> **Dark Surge (Only While Possessed).** Stoneheart moves up to 20 feet in a straight line then makes an Atrophy Bolt attack.
+>
+> **Move.** Stoneheart moves up to 20 feet without provoking attacks of opportunity.
+>
+> **Slam.** Stoneheart moves up to 20 feet in a straight line then makes a Tackle attack.
+>
+> **Tenacious Will.** If Stoneheart is suffering from an effect that allows him to make a saving throw at the beginning or end of his turn, he may immediately make that save against the effect with advantage. He can use this legendary action while incapacitated.
+>
+\pagebreakNum
+
+### Epic Battle: Dual Souls
+
+For an epic encounter with Stoneheart, give the Bray Speaker spirit possessing him its own pool of 310 hit points, which it regains after a short or long rest. 
+
+Whenever Stoneheart takes damage while possessed, the damage is instead dealt to the Bray Speaker. If this damage reduces the Bray Speaker to 0 hit points, Stoneheart takes the remaining damage and loses the Possessed trait. Conversely, if Stoneheart is reduced to 0 hit points, the Bray Speaker takes the remaining damage. In this case, the Stoneheart automatically becomes possessed, losing the ability to make saving throws to end the possession.
+
+Stoneheart only dies if both he and the Bray Speaker are reduced to 0 hit points.
+
+For this encounter, increase Stoneheart's challenge rating (CR) to 22.
+
+### New Lore of Beasts Spells
+#### Amber Spear
+
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:**  V S M (A Piece of Amber)
+- **Duration:**  Instantaneous
+- **Classes:**   Druid, Ranger
+___
+
+You conjure a large amber hunting spear and launch it in a straight line at a point you can see within range. Upon reaching its destination or striking a solid surface, the spear shatters, producing an explosion within a 10-foot-radius sphere centered on that point. The spear can pass through spaces occupied by creatures and objects of large size or smaller. Each creature the spear moves through, as well as those within the explosion's radius, must make a Dexterity saving throw. On a failed save, a creature takes 6d6 piercing damage; on a successful one, the damage is halved.
+
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
+
+#### Aspect of the Beast
+
+*4th-level  transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:**  V, S
+- **Duration:**  Concentration, Up to 1 hour.
+- **Classes:**   Druid, Ranger
+___
+
+Upon touching a willing creature, you imbue it with bestial might. For the duration, the creature manifests a bestial weapon of your choice from the list below. When it takes the Attack action on its turn, it can make an additional attack with the bestial weapon as part of that action. The weapon is treated as a simple weapon with which the creature is proficient. Unless otherwise stated, it uses its Strength modifier for attack and damage rolls made with the weapon.
+
+**Ripping Jaws.** The creature's mouth becomes filled with dagger-like teeth. Its jaws deal 2d8 piercing damage on a hit. If the bite damages a creature, the user gains temporary hit points equal to half the piercing damage dealt, which last until the spell ends.
+
+**Tearing Claws.** The creature's hands transform into blade-like claws. These claws deal 2d6 slashing damage on a hit and count as finesse weapons. The creature can choose to replace any of its melee attacks made with the Attack action with its claws, including any off-hand attacks.
+
+**Ramming Horns.** Gnarled horns grow from the creature's head. The horns deal 2d8 bludgeoning damage on a hit. If the creature moves at least 15 feet straight toward a target and then hits it with a horn attack, the attack deals an extra 2d8 bludgeoning damage, and if the target is Large or smaller, the creature can choose to push it up to 15 feet away.
+
+#### Monstrous Transformation
+
+*6th-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:**  V
+- **Duration:**  Until dispelled
+- **Classes:**   Druid, Sorcerer, Warlock
+___
+
+Drawing from wild energies, you transform into a mighty primal form of your choice: a **Feral Manticore**, a **Ravenous Hydra**, or a **Savage Dragon**. While transformed, you adopt the stat block of the selected beast (found later in this document). Your game statistics, including mental ability scores, are replaced by those of the chosen form, but you maintain your alignment and personality.
+
+While in this new form:
+* You assume its hit points.
+* Your spell attack modifier and spell save DC replace its attack modifiers and saving throw DCs.
+* If you're reduced to 0 hit points, you make death saving throws as usual. If you die, you revert to your true form.
+* You can't speak, cast spells, or undertake any action requiring hands or speech.
+* Your gear melds into your new form, rendering it inaccessible. As such, you can't activate, wield, or benefit from any of your equipment.
+
+To attempt to end the spell, you may use your action to make a DC 15 saving throw using your original form's spellcasting ability modifier. On a successful save, the spell ends. However, if you fail this save three or more times within 8 hours, you must complete a long rest before attempting to end the spell again. A remove curse spell will also end the transformation.
+
+If you take a long or short rest in your new form, only your new form gains the benefits of the rest
+
+***At Higher Levels.***  When cast using a spell slot of 7th level or higher, the new form gains an additional 25 hit points for each slot level above 6th. If cast using a 9th-level slot, any features the new form can use only once per day can now be used three times per day.
+
+\pagebreakNum
+
+### New Lore of The Wilds Spells
+#### Devolve
+*1st-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 ft
+- **Components:** V, S, M (A bit of lizard brain)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard, Druid, Sorcerer
+
+You choose a creature you can see within range. It must succeed on an Intelligence saving throw or be overwhelmed by the primal aspects of its psyche for the duration of the spell. Constructs and undead are immune to this effect. 
+
+While affected, the creature:
+* Has disadvantage on Intelligence and Charisma checks
+* Cannot cast or concentrate on spells
+* Cannot activate magic items
+* Cannot speak or understand any language
+* Is treated as a beast with an Intelligence score of 4 when targeted by spells and abilities that normally only target beasts, such as *dominate beast* or *beast bond* (This doesn't change its actual Intelligence score)
+
+At the end of each of its turns, the target can make another Intelligence saving throw. On a successful save, the spell ends for that creature.
+
+***At Higher Levels.*** When you cast this spell using a 2nd-level spell slot, the affected creature takes 1d10 psychic damage at the end of each of its turns while under this spell's effects before it makes the saving throw. When cast this spell using a spell slot of 3rd level or higher, the psychic damage increases by 1d10 for each slot level above 2nd.
+
+#### Mad Rampage
+
+*4th-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:**  V, S, M (a stinger)
+- **Duration:**  1 minute
+- **Classes:**   Bard, Sorcerer, Warlock
+___
+
+You plunge a willing creature within range that you can see into a frenzied state, making it reckless and heedless of danger. 
+
+For the duration of the spell:
+* The creature incurs a −2 penalty to AC and Dexterity saving throws.
+* The creature becomes quickened.
+* When the creature hits with a melee weapon attack or unarmed strike, it deals an additional die of its damage. If the creature moves at least 10 feet in a straight line immediately before making the attack, the attack deals two additional dice of its damage, and it scores a critical hit on a roll of 19 or 20.
+
+If the creature is charmed or frightened, these effects are suspended for the duration of this spell.
+
+\columnbreak
+
+
+
+
+#### Primal Scream
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (A goat hair)
+- **Duration:**   Instantaneous
+- **Classes:**  Druid, Bard
+___
+
+You or a willing creature of your choice within range is filled with primal vigor and releases a powerful howling roar in a 30-foot cone. If the target is prone, it can immediately stand up without using any movement. Each creature in the cone must make a Constitution saving throw. On a failed save, a creature takes 3d8 thunder damage and is knocked prone. On a success, a creature takes half as much damage and isn’t knocked prone.
+
+Additionally, the creature releasing the roar regains 3d8 hit points. Constructs and undead cannot regain hit points from this spell.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the damage and healing increase by 1d8 for each slot level above 3rd.
+
+#### Savage Dominion
+
+*7th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V, S
+- **Duration:**  Concentration, up to 1 hour
+- **Classes:**   Druid, Warlock
+___
+
+You call forth a formidable creature of your choice: a **Stone Hurling Giant**, a **Madding Jabberwocky**, or a **Hungering Behemoth** (stat blocks found on next two pages). It materializes in an unoccupied space within range and vanishes when reduced to 0 hit points or when the spell ends.
+
+This primitive creature is allied with you and your companions. It acts on your initiative count, taking its turn immediately after yours. You can telepathically communicate with the creature while you are on the same plane, and you are both aware of each other's locations. It follows your telepathic commands without requiring an action from you. If not given any commands, it automatically moves toward and attacks the nearest creature it detects.
+
+If the creature moves more than 100 feet from you, your concentration on the spell is broken. Additionally, at the start of its turn, if the creature has taken damage since its last turn, you must succeed on a DC 10 Constitution saving throw or lose concentration.
+
+If your concentration is broken, the creature doesn't disappear but becomes stunned until the end of its next turn, and you lose control over it. The uncontrolled creature cannot be dismissed by you and will disappear 1 hour after it was summoned.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 8th level or higher, the summoned creature gains an additional 25 hit points for each slot level above 7th. If cast using a 9th-level slot, the spell's duration extends to 8 hours.
+
+\pagebreakNum
+
+
+#### Vile Tide
+*2nd-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M  (A few grains of sugar, some kernels of grain, and a smear of fat)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Cleric, Druid, Sorcerer
+___
+
+You cause a swarm of insects to erupt from the ground within a 10-foot square area at a point you choose within range. Each creature standing in this area must make a Dexterity saving throw. On a failed save, a creature takes 4d4 piercing damage, and insects burrow into the creature, remaining there for the spell's duration. On a successful save, a creature takes half the initial damage, and the insects do not burrow into it. 
+
+While the insects are burrowed in a creature, the creature has disadvantage on checks, cannot regain hit points, and takes 2d4 piercing damage at the end of each of its turns. 
+
+Any creature within reach can use an action to perform a Wisdom (Medicine) check against your spell save DC to try to remove the insects from a creature. This check must be done using a weapon or object that deals fire, piercing, or slashing damage, and it causes 1d4 damage of its damage type to the target. On a successful check, all the insects are destroyed, and the spell ends for that creature. The creature making the check can choose to gain advantage by more aggressively trying to remove the insects, but if it does, the target takes 3d4 damage instead. 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the initial damage increases by 2d4 for each slot level above 2nd.
+
+\columnbreak
+
+___
+> ## Stone Hurling Giant
+> *Huge giant, unaligned*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (0)|8 (-1)|
+>___
+> - **Senses** passive Perception 10
+> - **Languages** Giant
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> ___
+>
+> ### Actions
+>
+> ***Multiattack.*** The giant makes a fist attack and a stomp attack.
+>
+> ***Fist.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 23 (4d8 + 5) bludgeoning damage. Instead of dealing damage, the giant can choose grapple the target (escape DC equal to your spell save) provided the target is Huge or smaller. The giant has two fists, each of which can grapple only one target.
+>
+> ***Stomp.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage. If the target is a prone creature or Medium or smaller in size, it takes 27 (4d10 + 5) instead.
+>
+> ***Fling.***  The giant chooses one object or creature it is holding or grappling that is its size or smaller and throws it up to 120 feet away. If the target lands on a solid surface, it takes 21 (3d10 + 5) damage and lands prone. If the thrown creature or object would land in the space of one or more creatures, each of those creatures must make a Dexterity save against your spell save DC. On a failed save, a creature is hit by the thrown creature, takes 21 (3d10 + 5) bludgeoning damage, and is knocked prone. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
+> 
+
+\pagebreakNum
+
+___
+> ## Maddening Jabberwocky
+> *Huge dragon, unaligned*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft, fly 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (0)|8 (-1)|
+>___
+> - **Senses** passive Perception 10
+> - **Languages** Draconic
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> ___
+>
+> ***Burble.*** At the end of the jabberwocky's turn, each creature within 30 feet of it that can hear it must make a Wisdom saving against you spell save DC. On a failed save, a creature is frightened until the start of its next turn. While frightened this way, it is dazed. If a creature’s saving throw is successful, it is immune to the Burble of the jabberwocky for the next hour.
+>
+>
+> ### Actions
+>
+> ***Multiattack.*** The jabberwocky makes two attacks.
+>
+> ***Dripping Jaws.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 16 (2d8 + 5) piercing damage and the target covered in acid for one minute or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 5 (2d4) acid damage at the end of each of its turns.
+>
+> ***Snatching Claws.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 15 (3d6 + 5) slashing damage. The target is grappled (escape DC equal to your spell save throw). The jabberwocky has two claws, each of which can grapple only one target.
+>
+> ***Eyes of Flame.*** The jabberwocky shoots a beam of fire from its eyes in a 30-foot line that is 5 feet wide. Each creature in the line's area must make a Dexterity save against your spell save DC. On a failed save, a creature takes 10 (4d4) fire damage and is set on fire; until a creature uses its action to douse the fire on itself or another creature, the target takes 5 (2d4) fire damage at the end of each of its turns. On a successful save, a creature takes half as much damage and is not set on fire.
+
+\columnbreak
+
+___
+> ## Hungering Behemoth
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 150
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|6 (-2)|20 (+5)|7 (-2)|8 (-1)|8 (-1)|
+>___
+> - **Senses** passive Perception 9
+> - **Languages** Abyssal
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> ___
+>
+> ***Charge.*** If the behemoth moves at least 20 feet straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 11 (2d10) piercing damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be pushed up to 10 feet away and knocked prone.
+>
+> ### Actions
+>
+> ***Multiattack.*** The behemoth makes two attacks.
+>
+> ***Rend.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 21 (3d10 + 5) slashing damage. If the target is reduced to 0 hit points by the attack, the behemoth may make another Rend attack against a different creature within 10 feet of the original target and within range of this attack. The behemoth does not gain another attack if it reduces the new target to 0 hit points.
+>
+> ***Gore.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 21 (3d10 + 5) piercing.
+>
+> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 21 (3d10 + 5) piercing, and the target is grappled (escape DC equal to your spell save). Until this grapple ends, the target is restrained, and the behemoth can't bite another target. If the target is a Large or smaller and already grappled by the behemoth, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the behemoth, and it takes 18 (4d8) acid damage at the start of each of the behemoth's turns. If the behemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.
+> 
+
+
+\pagebreakNum
+
+### New Spell
+
+#### Mystic Signal
+
+*5th-level transmutation (ritual)*
+___
+- **Casting Time:** 1 action
+- **Range:** self
+- **Components:**  V, S, M (A focus worth at least 500 gp, such as a war horn, marble bird, or a gem encrusted jaw bone)
+- **Duration:**  1 round
+- **Classes:**  Bard, Cleric, Druid, Ranger, Wizard
+___
+
+This spell enables you to broadcast a brief message, no longer than four seconds in length, to each creature within 3 miles of your location. Recipients of the message hear it in their minds and, if they know you, recognize you as the sender. Additionally, they discern your distance and direction at the time of casting. The spell ensures that creatures with an Intelligence score of at least 1 can comprehend the message's meaning. 
+
+A sleeping creature can hear the message and may choose to awaken upon hearing it.
+
+You can tailor the spell to target specific types of creatures only, such as humans, giants, unicorns, etc.
+
+The message cannot be received by any creature if there is any thickness of lead, even a thin sheet, blocking a direct path between you and the creature.
+
+### Beastmen Loot
+Because beastmen are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+
+#### Beastmen Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Besthorn Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1 2gp Item |
+|  7-10 | 1d4(2) 2gp Items | 
+|  11-17 | 1d6(3) 2gp Items  |  
+|  18-21 | 2d4(5) 2gp Items |  
+|  22+ |  2d6(7) 2gp Items |  
+
+\columnbreak
+
+##### Besthorn Manripper Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5gp Item |
+|  6-9 | 1d4(2) 5gp Items | 
+|  10-16 | 1d6(3) 5gp Items  |  
+|  17-21 | 1d4(2) 10gp Items |  
+|  22+ |  1d6(3) 10gp Items |  
+
+
+
+#### Example Beastmen Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Common Beastmen Item Names
+|1d4 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Beastman Horn |  Beastman Horn |  Majestic Beastman Horn  | 
+| 2 <br> (Hide)  | Tattered Hide| Intact Hide |  Pristine Hide  | 
+| 3 (Metal)  | Rusted Blade/Armor Fragment| Blade/Armor Fragment |  Masterwork Blade/Armor Fragment  | 
+| 4 <br> (Wood) | Cracked Beastwood | Beastwood |  Prime Beastwood  |
+
+
+
+##### Example Uncommon Beastmen Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Elite Beastman Horn | Elite Beastman Horn |  Majestic Elite Beastman Horn  | 
+| 2 <br> (Hide)  | Tattered Reinforced Hide | Intact Reinforced Hide |  Pristine Reinforced Hide | 
+| 3 (Metal)  | Rusted Armor Plate/Blade| Armor Plate/Blade |  Masterwork Armor Plate/Blade  | 
+| 4 <br> (Wood) | Cracked Warpwood | Warpwood |  Prime Warpwood  |
+
+\pagebreakNum
+
+### Minotaur Loot
+Most of the valuable goods that can be looted from minotaurs are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+
+#### Minotaur Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+
+##### Minotaur, Flesh Gorger Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1 5gp Item |
+|  7-9 | 1d4(2) 5gp Items | 
+|  10-16 | 1 10gp Items  |  
+|  17-21 | 1d4(2) 10gp Items |  
+|  22+ |  1d6(3) 10gp Items |  
+
+
+
+##### Minotaur Butcher Table 
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 10gp Item |
+|  9-12 | 1d4(2) 10gp Items | 
+|  13-19 | 1d4(2) 20gp Items  |  
+|  20-24 | 1d6(3) 20gp Items |  
+|  25+ |  2d4(5) 20gp Items |  
+
+
+##### Minotaur, Warbull Loot Table 
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 50gp Item |
+|  8-11 | 1d4(2) 50gp Items | 
+|  12-18 | 1 100gp Item  |  
+|  19-23 | 1d4(2) 100gp Items |  
+|  24+ |  1d6(3) 100gp Items |  
+
+\columnbreak
+
+
+
+
+#### Example Minotaur Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Common Minotaur Item Names
+|1d4 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Minotaur Horn |  Minotaur Horn |  Majestic Minotaur Horn  | 
+| 2 <br> (Hide)  | Tattered Hide| Intact Hide |  Pristine Hide  | 
+| 3 (Metal)  | Rusted Blade/Armor Fragment| Blade/Armor Fragment |  Masterwork Blade/Armor Fragment  | 
+| 4 <br> (Wood) | Cracked Beastwood | Beastwood |  Prime Beastwood  |
+
+
+
+##### Example Uncommon Minotaur Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Minotaur Warrior Horn | Elite Minotaur Warrior Horn |  Majestic Minotaur Warrior Horn  | 
+| 2 <br> (Hide)  | Tattered Monstrous Hide | Intact Monstrous Hide |  Pristine Monstrous Hide | 
+| 3 (Metal)  | Rusted Intact Blade| Intact Blade |  Masterwork Intact Blade  | 
+| 4 <br> (Wood) | Cracked Warpwood | Warpwood |  Prime Warpwood  |
+
+##### Example Rare Minotaur Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Minotaur Lord Horn | Minotaur Lord Horn |  Majestic Minotaur Lord Horn  | 
+| 2 <br> (Hide)  | Tattered Minotaur Lord Hide| Intact Minotaur Lord Hide |  Prisitine Minotaur Lord Hide  | 
+| 3 (Metal)  | Rusted Runic Blade| Runic Blade |  Masterwork Runic Blade  | 
+| 4 <br> (Wood) | Cracked Runewood | Runewood |  Prime Runewood  |
+
+
+\pagebreakNum
+
+### Stoneheart Loot
+Most of the valuable goods that can be looted from minotaurs are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Stoneheart Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Stoneheart Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 1d4(2) 500gp Items  |
+|  10-11 | 1d6(3) 500gp Items  | 
+|  12-18 | 1d4(2) 1,000gp Items   |  
+|  19-22 |1d4(2) 2,000gp Items |  
+|  23+ |  2d4(5) 2,000gp Items  |  
+
+##### Stoneheart Epic Loot Table
+
+| Looting Check Result <br> or 1d20 + 7 | Loot  |
+|:---:|:-----------:|
+|  1-9  | 1d4(2) 5,000gp Items |
+|  10-13 | 1d6(3) 10,000gp Items | 
+|  14-23 | 1d4(2) 20,000gp Item  |  
+|  24+ | 1d6(3) 20,000gp Items |  
+
+
+\columnbreak
+
+
+#### Example Stoneheart Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Very Rare Stoneheart Item Names
+|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Possessed Minotaur Lord Horn | Possessed Minotaur Lord Horn |  Pristine Possessed Minotaur Lord Horn  | 
+| 2 <br> (Hide)  | Tattered Possessed Minotaur Lord Hide| Intact Possessed Minotaur Lord Hide |  Pristine Possessed Minotaur Lord Hide  | 
+| 3 (Metal)  | Rusted Bray-Blessed Runic Blade| Bray-Blessed Runic Blade |  Masterwork Bray-Blessed Runic Blade  | 
+| 4 <br> (Wood) | Cracked Bray-Blessed Runewood | Bray-Blessed Runewood |  Prime Bray-Blessed Runewood  |
+
+##### Example Legendary Stoneheart Item Names
+|1d4 | 5,000gp Item | 10,000gp Item | 20,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Eldritch Horn of Damnation | Eldritch Horn of Damnation |  Mighty Eldritch Horn of Damnation  | 
+| 2 <br> (Hide)  | Tattered Eldritch Hide of Damnation | Eldritch Hide of Damnation |  Prisitine Eldritch Hide of Damnation  | 
+| 3 (Metal)  | Rusted Blade of Torment | Blade of Torment |  Masterwork Blade of Torment  | 
+| 4 <br> (Wood) | Cracked Doomwood | Doomwood |  Prime Doomwood  |
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
