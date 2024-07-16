@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p3:after, .phb#p6:after, .phb#p7:after, .phb#p10:after, .phb#p16:after, .phb#p22:after, .phb#p26:after, .phb#p36:after, .phb#p37:after, .phb#p38:after, .phb#p41:after, .phb#p44:after, .phb#p47:after, .phb#p48:after, .phb#p51:after, .phb#p53:after  {
+    .phb#p3:after, .phb#p6:after, .phb#p7:after, .phb#p10:after, .phb#p16:after, .phb#p22:after, .phb#p30:after, .phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p45:after, .phb#p48:after, .phb#p51:after, .phb#p52:after, .phb#p55:after, .phb#p57:after, .phb#p59:after, .phb#p63:after, .phb#p66:after, .phb#p71:after, .phb#p72:after  {
         display          : none;
     }
     /* End Footers */
@@ -123,23 +123,36 @@ This document provides content to help you run games that heavily feature the be
     - [<span>18</span><span>Beastmen Mutations</span>](#p18)
     - #### [<span>20</span><span>Avatar of Beasts</span>](#p20)
         - [<span>21</span><span>Avatar of Beasts</span>](#p21)
-    - #### [<span>24</span><span>Bray Speakers</span>](#p24)
-        - [<span>25</span><span>Lesser Bray Speaker</span>](#p25)
-        - [<span>27</span><span>Bray Speaker</span>](#p27) 
-        - [<span>28</span><span>Great Bray Speaker</span>](#p28)   
-    - #### [<span>33</span><span>Beastmen Infantry</span>](#p33)
-        - [<span>34</span><span>Shorthorn</span>](#p34)
-        - [<span>35</span><span>Shorthorn Tormentor</span>](#p35)
-        - [<span>36</span><span>Shorthorn Raider</span>](#p36)
-        - [<span>37</span><span>Shorthorn Stalker</span>](#p37)
-        - [<span>38</span><span>Longhorn</span>](#p38)
-        - [<span>39</span><span>Longhorn Ravager</span>](#p39)
-        - [<span>40</span><span>Besthorn</span>](#p40)
-        - [<span>41</span><span>Besthorn Manripper</span>](#p41)
-        - [<span>43</span><span>Warhorn</span>](#p43)
-        - [<span>44</span><span>Beastlord</span>](#p44)
-     - #### [<span>49</span><span>The Dark Omen</span>](#p49)
-        - [<span>50</span><span>The Dark Omen</span>](#p50)
+    - #### [<span>24</span><span>The Brass Bull</span>](#p24)
+        - [<span>25</span><span>The Brass Bull</span>](#p25)
+    - #### [<span>28</span><span>Bray Speakers</span>](#p28)
+        - [<span>29</span><span>Lesser Bray Speaker</span>](#p29)
+        - [<span>31</span><span>Bray Speaker</span>](#p31) 
+        - [<span>32</span><span>Great Bray Speaker</span>](#p32)   
+    - #### [<span>37</span><span>Beastmen Infantry</span>](#p37)
+        - [<span>38</span><span>Shorthorn</span>](#p38)
+        - [<span>39</span><span>Shorthorn Tormentor</span>](#p39)
+        - [<span>40</span><span>Shorthorn Raider</span>](#p40)
+        - [<span>41</span><span>Shorthorn Stalker</span>](#p41)
+        - [<span>42</span><span>Longhorn</span>](#p42)
+        - [<span>43</span><span>Longhorn Ravager</span>](#p43)
+        - [<span>44</span><span>Besthorn</span>](#p44)
+        - [<span>45</span><span>Besthorn Manripper</span>](#p45)
+        - [<span>47</span><span>Warhorn</span>](#p47)
+        - [<span>48</span><span>Beastlord</span>](#p48)
+    - #### [<span>53</span><span>The Dark Omen</span>](#p53)
+        - [<span>54</span><span>The Dark Omen</span>](#p54)
+    - #### [<span>58</span><span>Megataurs</span>](#p58)
+        - [<span>59</span><span>Megataur</span>](#p59)
+        - [<span>60</span><span>Megataur, Blood Brute</span>](#p60)
+    - #### [<span>62</span><span>Minotaurs</span>](#p62)
+        - [<span>62</span><span>Minotaur</span>](#p62)
+        - [<span>63</span><span>Minotaur Flesh Gorger</span>](#p63)
+        - [<span>64</span><span>Minotaur Butcher</span>](#p64)
+        - [<span>65</span><span>Minotaur Warbull</span>](#p65)
+        - [<span>66</span><span>Minotaur Doombull</span>](#p66)
+    - #### [<span>69</span><span>Stoneheart</span>](#p69)
+        - [<span>70</span><span>Stoneheart</span>](#p70)
 
 <div align="right">
 
@@ -152,7 +165,7 @@ This document provides content to help you run games that heavily feature the be
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### Front Page Art Credit
 * Karplusan Minotaur - Wayne England, Wizards of the Coast
@@ -1271,9 +1284,9 @@ Finally, it gains the Bestial Ambush ability as described below. If it already h
 
 ***Bestial Ambush.*** When the beastman takes the Attack action for the first time each combat, its walking speed increases by 20 feet, which lasts until the end of that turn. If it hits with an attack during that turn that has advantage, it deals an extra 9 (2d8) damage.
 
-#### Art Credit
+#### Beastmen Mutations Art Credit
 * Ruinous Minotaur - Raymond Swanland, Wizards of the Coast
-* Rage-Scarred Berserker - Antonio José Manzanedo, Wizards of the Coast
+* Nyxborn Marauder - Steve Prescott, Wizards of the Coast
 
 \columnbreak
 
@@ -1307,10 +1320,12 @@ Creatures with Primal Fury trait ignore the effects of the slime (regardless of 
  
 The beastman has advantage on initiative rolls and Wisdom (Perception) checks and does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured. It also gains blindsight out to 120 feet.
 
- <img src='https://i.ibb.co/g45MTVF/Rage-Scarred-Berserker-Theros-Beyond-Death-Art-1024x752.jpg' style='position:absolute;right:-0px;top:-30px;width:850px;transform:scaleX(1)' />
+ <img src='https://i.ibb.co/RHGnNx1/thb-109-nyxborn-marauder-cropped.jpg' style='position:absolute;right:0px;top:-70px;width:850px;transform:scaleX(-1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-80px;top:99px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
 
 
 
@@ -1504,6 +1519,243 @@ style='position:absolute;top:-40px;right:-200px;width:1200px;transform: scaleX(1
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;left:-70px;bottom:-675px;transform:rotate(180deg)' />
 
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## The Brass Bull
+
+The Brass Bull was once a formidable chieftain of a <br> powerful minotaur tribe, feared and respected by his kin. His reign took a dark turn when, in a fit of insatiable hunger and rage, he devoured the tribe's bray speaker shaman, a sacred figure who communed with their dark gods. This sacrilegious act incurred the wrath of the gods, who sent a host of demons to punish him for his blasphemy. However, in a display of unparalleled ferocity and strength, the Brass Bull consumed the very demons sent to destroy him.
+
+As punishment for this defiance, the demons cursed him with a bloodthirsty madness, transforming him into a relentless slaughtering machine. The Brass Bull rampaged across the land, driven by an unending desire to kill, his sanity consumed by the curse. He would have continued his rampage until death from exhaustion, but the dark gods, intrigued by his indomitable will and savage power, intervened once more. They remade him with metallic flesh, rendering him immune to fatigue and making him an eternal engine of destruction.
+
+Now, the Brass Bull burns with an infernal heat, his metallic body glowing with an unholy fire as he leads his clan on a never-ending rampage. His presence on the battlefield is a harbinger of doom, his unstoppable fury leaving a trail of carnage in his wake. His metallic hide is nearly impenetrable, a testament to the dark gods' craftsmanship. However, a single weak point exists—a spot that glows with a reddish heat where the metal is weakest. Those who dare to challenge the Brass Bull must strike this precise point to bring him down, a near-impossible feat given his ferocity and the chaos that surrounds him in battle. 
+
+\columnbreak
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Brass Bull Adventure Hooks
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **The Fiery Siege:** A fortified city lies in the path of The Brass Bull's rampage. The players are hired to bolster the city's defenses, train its militia, and prepare for the inevitable assault. |
+|  2  | **The Tortured Battlefield:** The site of one of The Brass Bull’s bloodiest massacres has become a haunted battlefield, filled with restless spirits. The players must cleanse the battlefield and use the information they gather to plan their assault on The Brass Bull. |
+|  3  | **The Brass Secret:** A legendary blacksmith knows the secret to piercing The Brass Bull's hide. The players must protect the blacksmith from beastmen, gather rare materials for a special weapon, and then use this weapon to exploit The Brass Bull's weak point.
+|  3  |**The Shaman's Vengeance:** The spirit of the bray speaker shaman originally devoured by The Brass Bull seeks revenge and reaches out to the players for assistance, offering them the power needed to slay the beast. 
+
+<img src='https://i.ibb.co/r0nRbN1/wisnu-tan-rage-bellower-uplox.jpg' style='position:absolute; top:-50px; right:-50px; width:930px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-210px;top:165px;height:1400px;width:1416px;transform:rotate(199deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:250px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## The Brass Bull
+> *Huge monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 20 (natural armor)
+> - **Hit Points** 299 (26d10+156)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|11 (+0)|22 (+6)|6 (-2)|20 (+5)|14 (+2)|
+>___
+> - **Saving Throws** Str +12, Dex +6, Int +4, Cha +8, Wis +11
+> - **Damage Resistances** all damage
+> - **Damage Immunities** fire, bludgeoning, piercing, and slashing from nonmagical attacks
+> - **Condition Immunities** charmed, exhaustion, frightened
+> - **Skills** Athletics +12, Perception +17, Intimidation +14, Stealth +6, Survival +17
+> - **Senses** darkvision 60 ft., passive Perception 27
+> - **Languages** Abyssal
+> - **Challenge** 18 (20,000 XP) &emsp;&emsp; **Proficiency Bonus** +6
+> ___
+>
+> ***Labyrinthine Recall.*** The Brass Bull can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the Brass Bull extra movement.
+>
+> ***Weak Point.*** Whenever a creature has advantage on an attack roll against the Brass Bull, it can choose to roll only one die instead of two as it aims for the Brass Bull's weak point. If the attack hits, the Brass Bull has vulnerability to the damage from the attack. The attack still counts as having advantage for the purposes of other abilities such as a rogue's Sneak Attack. If any damage would reduce the Brass Bull to 0 hit points that did not target its weak point, it is reduced to 1 hit point instead. The Brass Bull only dies if reduced to 0 hit points from damage dealt to its weak point.
+>
+> ### Actions
+>
+> ***Multiattack.*** The Brass Bull uses its Dread Presence and makes two attacks with its Rune-Tortured Axe.
+>
+> ***Charge.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* The target takes an extra 4 (1d8) piercing damage for each 10 feet the Brass Bull moved in a straight line before the attack.
+>
+> ***Crushing Gore.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 18 (3d8 + 6) piercing damage, the target takes an extra 4 (1d8) piercing damage for each 10 feet the Brass Bull moved in a straight line before the attack. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away and knocked prone. If the target fails by 10 or more, the creature is dazed until the end of its next turn.
+>
+> ***Dread Presence.*** Each creature of the Brass Bull's choice that is within 120 feet of it and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. While frightened, the creature can't cast spells other than cantrips. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Brass Bull's Dread Presence for the next 24 hours.
+>
+> ***Rune-Tortured Axe.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 19 (3d8 + 6) slashing damage, plus 3 (1d6) fire damage for each level of rampage the Brass Bull has.
+>
+> ### Legendary Actions
+> The Brass Bull can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Brass Bull regains spent legendary actions at the start of its turn.
+>
+> **Check.** The Brass Bull makes a skill check that would normally require an action.
+>
+> **Blood Call.** The Brass Bull chooses a creature that just took its turn, which it can see within 120 feet of it, calling it into battle by having the creature's own blood turn on it. At the start of the creature's next turn, the target may move on its turn toward the Brass Bull by the most direct route, trying to get within 10 feet of it. The creature can then take the rest of its turn as normal, except it can't move away from the Brass Bull willingly and can't teleport. If it doesn't choose to move this way, it takes 22 (4d10) force damage.
+>
+> **Building Fury.** The Brass Bull moves up to half its movement then makes a Rune-Tortured Axe attack against a creature that just took its turn. If the attack hits and deals damage, the Brass Bull gains a level of rampage, up to a maximum of ten levels. Each level increases the Brass Bull's speed by 5 feet. All levels of rampage are lost after one minute of not gaining a level.
+>
+> **Tenacious Will.** If the Brass Bull is suffering from an effect that allows it to make a saving throw at the beginning or end of its turn, it may immediately make that saving throw with advantage. It can use this legendary action even while incapacitated.
+>
+> **Vent Heat (Costs 2 Actions).** The Brass Bull burns the air around it, forcing each creature within 10 feet of it to make a DC 18 Constitution saving throw. On a failed save, a creature takes 18 (4d8) fire damage and has disadvantage on the next attack roll it makes before the end of its next turn. On a successful save, a creature takes half as much damage and does not suffer disadvantage on its next attack.
+>
+> ### Reaction
+>
+> ***Block.*** The Brass Bull adds +6 to its AC against one attack that would hit it. To use this reaction, the Brass Bull must see the attacker and be wielding a melee weapon.
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+### Epic Battle: Cataclysmic Onslaught
+If you wish to turn the Brass Bull into an endgame threat, increase his Hit Points to 600 and give him the Cataclysmic Onslaught ability described below. These changes increase his Challenge Rating (CR) to 23.
+
+### Cataclysmic Onslaught
+
+When the Brass Bull rolls initiative, he can activate his Cataclysmic Onslaught. On initiative count 1 of each round during combat, he gains a new ability for the next minute on each following turn:
+
+#### 1st Turn: Horrific Onslaught
+
+The Brass Bull has advantage on attack rolls against creatures that are frightened of him.
+
+#### 2nd Turn: Eldritch Onslaught
+
+At the start of his turn, the Brass Bull chooses one creature within 150 feet of him that he is aware of. The chosen creature is engulfed in an agonizing inferno, taking 10 (3d6) fire damage and is set on fire for one minute. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. The target cannot benefit from being invisible and has disadvantage on attack rolls. A creature can use its action to douse the fire by making a DC 16 Dexterity check. The flames are also extinguished if the creature is fully submerged in water or standing in an area with strong wind (at least 20 miles per hour). At the end of each of its turns while on fire, the creature takes 10 (3d6) fire damage, and the Brass Bull gains a level of rampage.
+
+#### 3rd Turn: Unyielding Onslaught
+
+Spells and other magical effects can neither reduce his speed nor cause him to be paralyzed or restrained, and he can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has him grappled. Additionally, being underwater imposes no penalties on his movement or attacks.
+
+#### 4th Turn: Bloodthirsty Onslaught
+
+The Brass Bull has advantage on melee attack rolls against any creature that does not have all its hit points.
+
+\columnbreak
+
+### The Brass Bull's Lair
+The Brass Bull does not maintain a traditional lair or remain in one location for an extended period. Instead, he roams the land, selecting locations to wreak havoc upon—often choosing relatively isolated villages or farmlands near woods for his temporary lairs. From these bases, he methodically spreads terror among the nearby inhabitants.
+
+When fighting within his lair, the Brass Bull's Challenge Rating (CR) increases by 1.
+
+#### Lair Actions
+When the Brass Bull rolls initiative, his lair awakens to aid him, and until combat ends or the Brass Bull dies, the lair has an Intelligence 6 and can act of its own accord but always acts in the Brass Bull's best interest. While active this way, the lair is aware of the location of any creatures within it. On initiative count 20 (losing initiative ties), the lair can cause one of the following effects; it can't use the same effect two rounds in a row:
+
+**Tide of Blood.** A wave of blood crashes down on an area within the lair, up to 30 feet long, 10 feet wide, and 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 13 (3d8) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn’t knocked prone. If the Brass Bull is within the area of the wave, he takes no damage and instead regains 13 (3d8) hit points. If the wave passes through the space of three or more creatures, the Brass Bull gains a level of rampage.
+
+**Seeping Wounds.** Wounded creatures within the lair begin to bleed profusely. Each creature with half or less of its hit points must make a DC 18 Constitution saving throw. Creatures at 0 hit points automatically fail this saving throw. On a failure, a creature takes 10 (3d6) necrotic damage. If two or more creatures fail this saving throw, the Brass Bull gains a level of rampage.
+
+#### Regional Effects
+The presence of the Brass Bull drastically affects his surroundings, bringing ruin and bloodshed that warp the land within 5 miles of his lair:
+
+* Rivers in the area run red with blood.
+* Corpses and other remains are preserved from decay and cannot become undead.
+* Non-minotaur creatures within the area require three times the usual amount of rations per day. Additionally, any creature can consume raw meat without risk of sickness.
+* Minotaurs in the area gain advantage on Wisdom (Perception) and Wisdom (Survival) checks to track or smell creatures that have lost more than half their hit points.
+
+These effects gradually dissipate over 1d10 days after the Brass Bull's death.
+
+<img src='https://basiclandart.com/wp-content/uploads/2020/08/hou-194-swamp-lunter-1024x752.png' style='position:absolute; top:-00px; left:-20px; width:550px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://basiclandart.com/wp-content/uploads/2020/08/hou-194-swamp-lunter-1024x752.png' style='position:absolute; top:-60px; left:-20px; width:550px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-120px;top:-74px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-620px;top:0px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+\pagebreakNum
+
+### The Brass Bull Tactics
+
+#### General Tactics
+* **Dealing With Weak Point:** Prioritizes targets that consistently hit him with advantage, especially those resistant to his Dread Presence.
+* **Block Reaction:** Reserves his reaction for the Block ability, using it against the attack likely to inflict the most damage.
+
+#### Legendary Actions Usage
+* **Building Fury:** Focuses on accumulating stacks of rampage whenever possible.
+* **Blood Call:** Summons distant enemies closer for melee engagement.
+* **Vent Heat:** Used when three or more targets can be hit simultaneously.
+
+#### Cataclysmic Onslaught Tactics
+* **1st Turn (Horrific Onslaught):** Targets those frightened by its dread presence to maximize rampage benefits, deviating from usual targets.
+* **2nd Turn (Eldritch Onslaught):** Targets the creature furthest from its allies, limiting their ability to assist.
+* **3rd Turn and Beyond:** Continues usual tactics, unaffected by the specific abilities used in previous onslaught turns.
+
+
+### The Brass Bull Loot
+Most of the valuable goods that can be looted from the Brass Bull consist of what can be harvested from his demonically blessed form. Because his hide and flesh are metallic in nature, it's up to you what qualities you want to assign it and how the players harvest it. For example, you could have players make an **Intelligence (Smith's Tools)** or **Intelligence (Leatherworker's Tools)** to collect his hide. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+You may also opt to simply have the players collect weapons and equipment he was carrying or wearing.
+
+#### The Brass Bull Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### The Brass Bull Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 2d4(5) 500gp Item |
+|  10-12 | 1d6(3) 1,000gp Item | 
+|  13-19 | 2d4(5) 1,000gp Items  |  
+|  20-24 | 2d4(5) 1,000gp Items |  
+|  25+ |  2d6(7) 2,000gp Items |  
+
+
+\columnbreak
+
+##### The Brass Bull Epic Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 2d4(5) 5,000gp Items |
+|  9-10 | 1d6(3) 10,000gp Items | 
+|  11-17 | 2d4(5) 10,000gp Items  |  
+|  18-23 | 1d6(3) 20,000gp Items |  
+|  24+ |  2d4(5) 20,000gp Items |  
+
+
+
+
+#### Example Brass Bull Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Very Rare Brass Bull Item Names
+|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Blood)  |   Clotted Burning Blood |  Burning Blood |  Fiery Burning Blood  | 
+| 1 <br> (Bone)  |   Cracked Horn of The Brass Bull |  Horn of The Brass Bull |  Pristine Horn of The Brass Bull  | 
+| 3 <br> (Flesh)  | Damaged Flesh of The Brass Bull|  Flesh of The Brass Bull |  Smoldering Flesh of The Brass Bull  | 
+| 3 <br> (Metal)  | Damaged Hide of The Brass Bull|  Hide of The Brass Bull |  Pristine Hide of The Brass Bull  | 
+
+##### Example Legendary Brass Bull Item Names
+|1d4 | 5,000gp Item | 10,000gp Item | 20,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Blood)  |   Clotted Blood of Endless Rage |  Blood of Endless Rage |  Fiery Blood of Endless Rage  | 
+| 1 <br> (Bone)  |   Cracked Horn of The Apocalypse |  Horn of The Apocalypse | Runic Horn of The Apocalypse | 
+| 3 <br> (Flesh)  | Damaged Heart of Fury |  Heart of Fury |  Fiery Heart of Fury  | 
+| 3 <br> (Metal)  | Damaged Brass Hide of The Blood God|   Brass Hide of The Blood God |  Burning Brass Hide of The Blood God  | 
+
+<br>
+
+### The Brass Bull Art Credit
+* Smelt-Ward Minotaur - Wisnu Tan,  Wizards of the Coast
+* Swamp (Hour of Devastation) - Titus Lunter,  Wizards of the Coast
 
 \pagebreakNum
 
@@ -3168,7 +3420,7 @@ ___
 >
 > **Unholy Casting (Costs 3 Actions).** The Dark Omen casts a spell granted by its Unholy Fury ability that it has access to.
 >
-> **New Spells Found At The End Of The Document*
+> **New Spells Found In Spells Section of Document*
 
 
 \pagebreakNum
@@ -3351,6 +3603,965 @@ You can give the different types of items unique names based on their material a
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Megataurs
+
+Megataurs are colossal four-armed <br> monstrosities that tower over their <br> beastmen kin, feared and revered in equal <br> measure. These giant creatures are believed <br> to be former minotaurs who underwent extreme <br> mutations due to the overconsumption of tainted <br> flesh or other eldritch substances. This consumption <br> led to grotesque transformations, amplifying their already formidable strength and size, and giving them their terrifying new form.
+
+Two of the megataur's arms end in massive, bone-like blades, perfect for cleaving through armor and flesh alike. The other two arms are used to grab and shovel as much flesh into their fanged maw as possible, feeding their insatiable hunger. Their monstrous form and ravenous appetite make them nearly uncontrollable, a fact that only the most powerful beastmen chieftains and shamans can overcome. Those who can control a megataur wield it as a living weapon of war, unleashing its fury upon their enemies.
+
+In combat, megataurs are devastating forces of nature. They rush into masses of enemies with terrifying speed, bulldozing through ranks and causing chaos and panic. Their bladed arms swing with destructive force, while their other arms grab and swallow foes whole. The sight of a Megataur rampaging across the battlefield is enough to break the spirit of even the most stalwart defenders, leaving a trail of destruction and carnage in its wake. These beasts are not just instruments of war; they are the embodiment of the beastmen's endless hunger, unleashed upon the world in a frenzy of blood and violence.
+
+***The Blood Brute.*** The Blood Brute is a particularly fearsome megataur, having received dark blessings from a demonic lord of war and bloodlust. These unholy gifts have intensified the creature's already insatiable hunger for flesh and unquenchable thirst for blood. No matter how many foes it consumes, The Blood Brute's ravenous appetite can never be sated, driving it into a perpetual frenzy. This cursed existence makes The Blood Brute an even more terrifying force on the battlefield. Its eyes burn with an unholy fire, and its roars echo with the rage of its demonic patron. The Blood Brute's presence is a harbinger of unparalleled carnage, as it rampages through enemy ranks, driven by an endless desire to feed and kill. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Berserk
+> Berserk creatures gain the following effects unless an ability states otherwise:
+>  * The creature can only use its movement to move closer to an enemy it can see or hear.
+>  * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+>  * The creature can't maintain concentration on spells or other effects.
+>  * The creature can't be frightened or charmed.
+
+### Megatuar Tactics
+#### Combat Initiation
+* Use Rushing Gore to close distance when enemies are out of reach.
+* Once in melee range, target the physically strongest creature for blade arm attacks.
+* Simultaneously attempt to grasp and swallow nearby, physically weaker creatures.
+
+#### Rejuvenation Strategy
+* The megataur requires creatures in its stomach to activate rejuvenation.
+* If its health falls to half or less and there are no enemy creatures in its stomach or nearby, start swallowing weaker allied creatures to heal.
+
+<img src='https://i.ibb.co/VmTg7BM/Nessian-Demolok-Artwork-by-Daarken.jpg' style='position:absolute;top:-0px;right:-95px;width:910px;transform:scaleX(-1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-380px;top:-18px;height:px;width:1070px;transform:rotate(221deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-580px;top:-170px;height:px;width:1070px;transform:rotate(230deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-30px;top:320px;height:px;width:1060px;transform:rotate(180deg)' />
+
+
+
+\pagebreakNum
+
+##### Megataur Adventure Hooks
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **Ritual of Gorging :** The players discover that a cult of beastmen shamans is performing a dark ritual to transform captured minotaurs into megataurs so they may provide them to beastman warlords they deem worthy. |
+|  2  | **The Megataur Labyrinth:** Deep beneath an ancient forest lies a maze-like network of tunnels that have become the lair of a megataur who preys on travelers and is said to guard foul relics of the dark gods.  |
+|  3  | **The Flesh Pit:** The players learn of a secretive beastmen arena where captured enemies are fed to a megataur in gruesome ritual combat. |
+|  4  | **The Blood Pact:** A powerful beastman warlord has struck a dark pact with a demonic lord, resulting in the creation of a megataur known as The Blood Brute who, he plans to use as the lynchpin in his upcoming invasion.  |
+
+
+\columnbreak
+
+___
+___
+> ## Megataur
+> *Huge monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 273 (26d10+130)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|24 (+7)|10 (+0)|20 (+5)|6 (-2)|10 (+0)|8 (-1)|
+>___
+> - **Saving Throws** Int +3, Cha +4, Wis +5
+> - **Skills** Athletics +12, Perception +10, Intimidation +10, Stealth +5, Survival +10
+> - **Senses** darkvision 60 ft., passive Perception 20
+> - **Languages** Abyssal
+> - **Challenge** 16 (15,000 XP) &emsp;&emsp; **Proficiency Bonus** +5
+> ___
+>
+> ***Blood Greed.*** At the end of the megataur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Keen Smell.*** The megataur has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Labyrinthine Recall.*** The megataur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the megataur extra movement.
+>
+> ### Actions
+>
+> ***Multiattack.*** The megataur makes two attacks with its Blade Arms. It can then use its Swallow or make two fist attacks.
+>
+> ***Bite.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 21 (3d10 + 7) piercing damage.
+>
+> ***Blade Arm.*** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 25 (3d12 + 7) slashing damage.
+>
+> ***Fist.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 12 (2d4 + 7) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC 20). The megataur has two fists, each of which can grapple only one target.
+>
+> ***Gore.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 32 (4d12 + 6) piercing damage. If the megataur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 26 (4d12) piercing damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+> ***Swallow.*** The megataur makes one bite attack against each Large or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed creature is blinded and restrained and has total cover against attacks and other effects outside the megataur. At the start of each of the megataur's turns, each swallowed creature then takes 21 (4d6) acid damage. The megataur regains 5 hit points for each creature damaged this way. If the creature is reduced to 0 hit points by the acid damage, it dies, and its body is dissolved. The megataur dies only if it starts its turn with 0 hit points and doesn't regain hit points from this feature.
+>
+> If the megataur takes 30 damage or more on a single turn from a creature inside it, the megataur must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the megataur. If the megataur dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.
+>
+> ### Bonus Action
+>
+> ***Rushing Gore.*** When the megataur takes the Dash action, it can make a Gore attack.
+
+
+
+<img src='https://i.ibb.co/XygP2pH/ghor-clan-rampager.png' style='position:absolute; top:-20px; right:-400px; width:960px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-300px;top:120px;height:1400px;width:1416px;transform:rotate(187deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Megataur, Blood Brute
+> *Huge monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 399 (38d10+190)
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|24 (+7)|10 (+0)|20 (+5)|6 (-2)|10 (+0)|8 (-1)|
+>___
+> - **Saving Throws** Dex +7, Int +5, Cha +6, Wis +7
+> - **Skills** Athletics +14, Perception +14, Intimidation +13, Stealth +7, Survival +14
+> - **Senses** darkvision 60 ft., passive Perception 24
+> - **Languages** Abyssal
+> - **Challenge** 21 (33,000 XP) &emsp;&emsp; **Proficiency Bonus** +7
+> ___
+>
+> ***Blood Greed.*** At the end of the megataur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Keen Smell.*** The megataur has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Labyrinthine Recall.*** The megataur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the megataur extra movement.
+>
+> ### Actions
+>
+> ***Multiattack.*** The megataur makes two attacks with its Blade Arms.
+>
+> ***Bite.*** *Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:* 22 (3d10 + 7) piercing damage.
+>
+> ***Blade Arm.*** *Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 26 (3d12 + 7) slashing damage.
+>
+> ***Fist.*** *Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:* 12 (2d4 + 7) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC 23). The megataur has two Fists, each of which can grapple only one target.
+>
+> ***Gore.*** *Melee Weapon Attack:* +14 to hit, reach 5 ft., one creature. *Hit:* 33 (4d12 + 7) piercing damage. If the megataur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 26 (4d12) piercing damage. If the target is a creature, it must succeed on a DC 22 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+> ***Swallow.*** The megataur makes one bite attack against each Large or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed creature is blinded and restrained and has total cover against attacks and other effects outside the megataur. At the start of each of the megataur's turns, each swallowed creature gains a level of heat and then takes 14 (4d6) fire damage for each level of heat it has. The megataur regains 5 hit points for each creature damaged this way. A creature loses all stacks of heat once it is no longer restrained by the megataur. If the creature is reduced to 0 hit points by the fire damage, it dies, and its body is dissolved. The megataur dies only if it starts its turn with 0 hit points and doesn't regain hit points from this feature.
+>
+> If the megataur takes 30 damage or more on a single turn from a creature inside it, the megataur must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the megataur. If the megataur dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.
+>
+> ### Bonus Action
+>
+> ***Rushing Gore.*** When the megataur takes the Dash action, it can make a Gore attack.
+>
+> ### Legendary Actions
+> The megataur can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The megataur regains spent legendary actions at the start of its turn.
+>
+> **Blood Call.** The megataur chooses a creature that just took its turn, which it can see within 120 feet of it, calling it into battle by having the creature's own blood turn on it. At the start of the creature's next turn, the target may move on its turn toward the megataur by the most direct route, trying to get within 10 feet of it. The creature can then take the rest of its turn as normal, except it can't move away from the megataur willingly and can't teleport. If it doesn't choose to move this way, it takes 27 (5d10) force damage instead.
+>
+> **Check.** The megataur makes a skill check that would normally require an action.
+>
+> **Lunging Grasp.** The megataur moves up to 25 feet and then may make a Fist attack against a creature that just took its turn.
+>
+> **Swallow.** The megataur uses the Swallow action.
+>
+> **Tenacious Will.** If the megataur is suffering from an effect that allows it to make a saving throw as an action or at the beginning or end of its next turn, it may immediately make that save against the effect with advantage. It can use this legendary action while incapacitated.
+
+
+\pagebreakNum
+
+### Megataur Loot
+The valuable items looted from rat ogres will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest hide. 
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Megataur Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Megataur Loot Table 
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 1 500gp Item & 2d4(5) 50gp Items |
+|  10-12 | 1 1,000gp Items & 2d4(5) 100gp Items | 
+|  13-19 | 1d4(2) 1,000gp Items & 2d6(7) 100gp Items  |  
+|  20-24 |1d6(3) 1,000gp Items & 2d6(7) 100gp Items  |  
+|  25+ |  1d6(3) 2,000gp Items & 2d4(5) 200gp Items  |  
+
+
+##### Megataur Blood Brute Loot Table 
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-10  | 1 5,000gp Item & 2d4(5) 500gp Items |
+|  11-14 | 1 10,000gp Items & 2d4(5) 1,000gp Items | 
+|  15-21 | 1d4(2) 10,000gp Items & 2d6(7) 1,000gp Items  |  
+|  22-26 |1d4(2) 20,000gp Items & 2d4(5) 1,000gp Items  |  
+|  27+ |  1d6(3) 20,000gp Items & 2d4(7) 2,000gp Items  |  
+
+<br>
+
+### Megatuars Art Credit
+* Nessian Demolok - Daarken, Wizards of the Coast
+* Ghor-Clan Rampager - Charles Urbach, Wizards of the Coast
+
+\columnbreak
+
+
+#### Example Megataur Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+##### Example Rare Megataur Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Megataur Bone | Megataur Bone |  Pristine Megataur Bone  | 
+| 2 (Flesh)  | Stringy Megataur Flesh| Megataur Flesh |  Prime Megataur Flesh  | 
+| 3 <br> (Fluid) | Clotted Megataur Blood | Megataur Blood |  Prime Megataur Blood  |
+| 4 <br> (Hide)  | Tattered Megataur Hide| Intact Megataur Hide |  Prisitine Megataur Hide  | 
+
+##### Example Very Rare Megataur Item Names
+|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Bone)  |   Cracked Megataur Horn |  Megataur Horn |  Majestic Megataur Horn  | 
+| 3-4 (Metal)  | Rusted Megataur Blade Fragment| Megataur Blade Fragment |  Runed Megataur Blade Fragment  | 
+
+##### Example Very Rare Blood Brute Item Names
+|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Blood Brute Bone | Blood Brute Bone |  Pristine Blood Brute Bone  | 
+| 2 (Flesh)  | Stringy Blood Brute Flesh| Blood Brute Flesh |  Prime Blood Brute Flesh  | 
+| 3 <br> (Fluid) | Clotted Blood Brute Blood | Blood Brute Blood |  Prime Blood Brute Blood  |
+| 4 <br> (Hide)  | Tattered Blood Brute Hide| Intact Blood Brute Hide |  Prisitine Blood Brute Hide  | 
+
+##### Example Legendary Blood Brute Item Names
+|1d4 | 5,000gp Item | 10,000gp Item | 20,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Bone)  |   Cracked Blood Brute Horn |  Blood Brute Horn |  Majestic Blood Brute Horn  | 
+| 3-4 (Metal)  | Rusted Blood Brute Blade Fragment| Blood Brute Blade Fragment |  Runed Blood Brute Blade Fragment  | 
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Minotaurs
+
+Minotaurs are towering monstrosities among the beastmen, standing twice as tall as a man with bodies rippling with massive muscles and heads resembling those of fierce, fanged bulls. Their bull heads are equipped with sharp teeth, perfect for tearing at flesh and making them even more fearsome in close combat. Their sheer size and strength make them formidable foes on any battlefield, their presence alone often causing enemies to falter in fear. Though they possess immense physical power, minotaurs are known to be even less intelligent than their beastmen kin, relying on brute force and primal instincts rather than cunning or strategy.
+
+In battle, minotaurs are driven by an insatiable hunger for flesh, with a particular preference for human flesh. This ravenous appetite fuels their ferocity, and once they taste blood, they are thrown into a wild frenzy. Their charges are devastating, capable of breaking through enemy lines and causing chaos and destruction. The sight of a blood-crazed minotaur rampaging through a battlefield is enough to turn the tide of combat in favor of the beastmen.
+
+\columnbreak
+
+___
+> ## Minotaur
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 14 (natural armor)
+> - **Hit Points** 93 (11d10 + 33)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|18 (+4)|11 (+0)|16 (+3)|6 (-2)|16 (+3)|9 (-1)|
+>___
+> - **Skills** Athletics +6, Perception +7, Intimidation +3, Stealth +2, Survival +5
+> - **Senses** darkvision 60 ft., passive Perception 17
+> - **Languages** Abyssal
+> - **Challenge** 3 (700 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Blood Greed.*** At the end of the minotaur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the minotaur extra movement.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) slashing damage.
+>
+
+<br>
+
+> ##### New Condition: Berserk
+> Berserk creatures gain the following effects unless an ability states otherwise:
+> * The creature can only use its movement to move closer to an enemy it can see or hear.
+> * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+> * The creature can't maintain concentration on spells or other effects.
+> * The creature can't be frightened or charmed.
+
+<img src='https://i.ibb.co/8PNwHZB/minotaur-token.png'
+style='position:absolute;top:-5px;left:-35px;width:495px;transform:scalex(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-385px;top:298px;height:1400px;width:1416px;transform:rotate(185deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-770px;top:-120px;height:1400px;width:1416px;transform:rotate(-279deg)' />
+
+\pagebreakNum
+
+Minotaurs hold a special place in the dark pantheon of beastmen worship. They are often called upon by their dark gods to serve as guardians of sacred, unholy sites hidden deep underground or within the darkest parts of the woods. These sites are often maze-like, labyrinthine structures created through the twisted influence of the dark gods. Minotaurs navigate these unholy labyrinths with unnatural ease, hunting down intruders with relentless determination. 
+
+Despite the fear they inspire, powerful beastmen leaders will summon minotaurs to join them in battle, luring them with promises of fresh meat and the chance to sate their bloodlust. Other beastmen tread carefully around these hulking brutes, aware of their unpredictable nature and the devastation they can unleash.
+
+
+Minotaurs who frequently participate in the wars of the beastmen and have gorged on the flesh of countless enemies become more powerful and are referred to as Flesh Gorgers. These monstrous brutes grow even larger and more muscled, their already formidable strength becoming even more devastating. Their fanged bull heads become more menacing, with teeth stained from the blood of their countless victims. The insatiable hunger that drives them intensifies, turning them into relentless engines of destruction on the battlefield. Flesh Gorgers are feared by both enemies and their fellow beastmen, their bloodlust and ferocity making them nearly unstoppable forces of nature. Their presence in a battle often signals an impending massacre, as they tear through foes with terrifying ease, leaving carnage in their wake.
+
+___
+> ## Minotaur, Flesh Gorger 
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 136 (16d10+48)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|11 (+0)|16 (+3)|6 (-2)|16 (+3)|9 (-1)|
+>___
+> - **Skills** Athletics +7, Perception +9, Intimidation +5, Stealth +3, Survival +6
+> - **Senses** darkvision 60 ft., passive Perception 19
+> - **Languages** Abyssal
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Blood Greed.*** At the end of the minotaur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the minotaur hits with it (included in the attack).
+>
+> ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the minotaur extra movement.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 24 (3d12 + 5) slashing damage.
+>
+
+<img src='https://i.ibb.co/tpKcLz8/deathbellow-raider.jpg' style='position:absolute; bottom:-70px; right:0px; width:880px; transform: scaleX(1)' />
+
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-180px;top:-540px;height:1400px;width:1416px;transform:rotate(360deg)' />
+
+\pagebreakNum
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+The Butchers are a notorious group of minotaurs, renowned for their unparalleled brutality and efficiency in combat. Each member of this dreaded band wields a massive meat cleaver, a weapon perfectly suited to their immense strength and savage nature. These cleavers are capable of hewing through flesh, bone, and armor with horrifying ease. When the Butchers charge into battle, their cleavers flash through the air, leaving a trail of blood and dismembered bodies in their wake. Their brutal fighting style and sheer ferocity ensure that few can stand against them for long.
+
+Unlike other minotaurs driven by the immediate need to sate their hunger, the Butchers are known for slaughtering far more foes than they can devour at one time. Entire villages fall to their rampages, leaving behind a grisly tableau of carnage. The Butchers string up the remaining corpses, leaving them to rot as a grim warning to others and as a gruesome larder they can return to whenever they please. These horrific displays serve both as a deterrent to would-be challengers and as a testament to their savage dominance. The Butchers' reign of terror spreads fear far and wide, with their name becoming synonymous with relentless slaughter and unending horror. The sight of their macabre handiwork marks the territory of the Butchers, reminding all who see it of the monstrous appetites and barbaric cruelty that define these fearsome minotaurs.
+
+\columnbreak
+
+<br><br><br>
+
+___
+> ## Minotaur Butcher
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 18 (natural armor, shield)
+> - **Hit Points** 142 (15d10+60)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|11 (+0)|18 (+4)|6 (-2)|18 (+4)|12 (+1)|
+>___
+> - **Saving Throws** Int +1
+> - **Skills** Athletics +7, Perception +9, Intimidation +5, Stealth +3, Survival +6
+> - **Senses** darkvision 60 ft., passive Perception 19
+> - **Languages** Abyssal
+> - **Challenge** 7 (2,900 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Blood Greed.*** At the end of the minotaur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Blood Regeneration.*** The minotaur regains 10 hit points at the start of its turn if it is berserk. The minotaur dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the minotaur hits with it (included in the attack).
+>
+> ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the minotaur extra movement.
+>
+> ### Actions
+>
+> ***Hewing Cleaver.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 17 (3d8 + 5) slashing damage, or 20 (3d10 + 5) slashing damage if used with two hands. The target must succeed on a DC 16 Strength saving throw, or the minotaur automatically hits the target with another Hewing Cleaver attack as part of this action. If the target fails by 10 or more, the attack is a critical hit. The minotaur can only make one extra attack this way.
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+
+<img
+src='https://i.ibb.co/jGSk0HL/Kragma-Butcher-Art.jpg'
+style='position:absolute;top:-40px;left:-60px;width:890px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:310px; right:-320px; width:900px; transform:rotate(-5deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:300px; right:-20px; width:900px; transform:rotate(6deg)' />
+
+\pagebreakNum
+
+
+#### Minotaur Commanders
+
+
+Minotaur commanders, known as Warbulls, are seasoned veterans blessed by the dark gods, their strength and resilience elevated to supernatural levels. These commanders become engines of brutal destruction, their colossal forms and overwhelming power making them effective leaders despite their limited intelligence. The greatest among them, the Doombulls, are towering figures of unrelenting wrath and devastating might. Revered and feared, Doombulls inspire a frenzied bloodlust in their followers, driving them to fight with reckless abandon and brutal efficiency. Their formidable presence alone can turn the tide of battle, as their followers are emboldened by the sheer power and ferocity they witness.
+
+Both Warbulls and Doombulls lead through raw power and presence, often commanding from the front lines where their followers can see their unmatched might firsthand. Their roars and bellows incite their beastmen hordes to unparalleled ferocity, turning warbands into unstoppable tides of destruction. While lacking in subtlety and strategic cunning, their straightforward approach of overwhelming force is brutally effective. The sight of a Doombull leading a charge signals the arrival of chaos and carnage on an unprecedented scale, striking fear into the hearts of even the most seasoned warriors. These commanders rely not on complex strategies but on their ability to inspire terror and bloodlust, ensuring that their armies fight with the same relentless savagery that defines them.
+
+
+\columnbreak
+
+___
+___
+> ## Minotaur, Warbull
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 199 (21d10+84)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|11 (+0)|18 (+4)|6 (-2)|18 (+4)|12 (+1)|
+>___
+> - **Saving Throws** Int +2, Cha +5
+> - **Skills** Athletics +9, Perception +12, Intimidation +9, Stealth +4, Survival +8
+> - **Senses** darkvision 60 ft., passive Perception 22
+> - **Languages** Abyssal
+> - **Challenge** 10 (5,900 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+>
+> ***Blood Greed.*** At the end of the minotaur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the minotaur hits with it (included in the attack).
+>
+> ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the minotaur extra movement.
+>
+> ### Actions
+>
+> ***Multiattack.*** The minotaur makes two melee attacks.
+>
+> ***Hewing Greataxe.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 24 (3d12 + 5) slashing damage. The target must succeed on a DC 17 Strength saving throw, or the minotaur automatically hits the target with another Hewing Greataxe attack as part of this action. If the target fails by 10 or more, the attack is a critical hit. The minotaur can only make one extra attack this way.
+>
+> ***Gore.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be pushed up to 10 feet away and knocked prone.
+>
+> ### Bonus Action
+>
+> ***Slaughterer's Call.*** Up to three creatures of the minotaur's choice that are within 60 feet may choose to become berserk until the end of the minotaur's next turn. If a targeted creature has Blood Greed, it becomes active until the end of the minotaur's next turn. Each creature that becomes berserk uses its reaction to move up to half its speed and then make one melee weapon attack. The minotaur can only use this ability if it is berserk.
+
+<img
+src='https://i.ibb.co/nf94ZYz/Kazuul-Warlord.jpg'
+style='position:absolute;top:-0px;right:-140px;width:700px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:200px; right:-320px; width:900px; transform:rotate(0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:45px;top:-80px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Dazed 
+>A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+
+
+
+\columnbreak
+
+
+
+___
+___
+> ## Minotaur, Doombull
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 252 (24d10+120)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|11 (+0)|20 (+5)|6 (-2)|20 (+5)|14 (+2)|
+>___
+> - **Saving Throws** Str +11, Int +3, Cha +7
+> - **Skills** Athletics +11, Perception +15, Intimidation +12, Stealth +5, Survival +10
+> - **Senses** darkvision 60 ft., passive Perception 25
+> - **Languages** Abyssal
+> - **Challenge** 14 (11,500 XP) &emsp;&emsp; **Proficiency Bonus** +5
+> ___
+>
+> ***Blood Greed.*** At the end of the minotaur's turn, if it dealt damage to a creature with a weapon attack since the end of its last turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when the minotaur hits with it (included in the attack).
+>
+> ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain costs the minotaur no extra movement.
+>
+> ### Actions
+>
+> ***Multiattack.*** The minotaur makes two melee attacks.
+>
+> ***Barbed Fist.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 19 (3d8 + 6) piercing damage. If the target is a creature, it must make a DC 19 Strength saving throw. On failure, the target takes an additional 13 (3d8) piercing damage and suffers a rending wound. While wounded this way, the target has disadvantage on Strength, Dexterity, and Constitution saving throws, checks, and attacks, and its speed is halved. The injured creature, or a creature within 5 feet of it, can use an action to make a DC 19 Wisdom (Medicine) check, ending the effect on a success. The effect also ends if the creature regains 15 or more hit points.
+>
+> ***Dazing Gore.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one creature. *Hit:* 18 (3d8 + 6) piercing damage. If the minotaur moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be pushed up to 10 feet away and knocked prone. If the target fails by 10 or more, the creature is dazed until the end of its next turn.
+>
+> ***Hewing Greataxe.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 25 (3d12 + 6) slashing damage. The target must succeed on a DC 19 Strength saving throw, or the minotaur automatically hits the target with another Hewing Greataxe attack as part of this action. If the target fails by 10 or more, the attack is a critical hit.
+>
+> ### Bonus Action
+>
+> ***Slaughterer's Call.*** Up to three creatures of the minotaur's choice that are within 60 feet may choose to become berserk until the end of the minotaur's next turn. If a targeted creature has Blood Greed, it becomes active until the end of the minotaur's next turn. Each creature that becomes berserk uses its reaction to move up to half its speed and then make one melee weapon attack. The minotaur can only use this ability if it is berserk.
+
+
+
+<img src='https://i.ibb.co/VwZQqhq/canyon-minotaur.jpg' style='position:absolute; top:-80px; right:-140px; width:960px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
+
+
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-300px;top:120px;height:1400px;width:1416px;transform:rotate(187deg)' />
+
+
+\pagebreakNum
+
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Minotaur Tactics
+#### Common Traits
+* Formidable melee fighters.
+* Lower health but higher damage output.
+* Possess Blood Greed trait, increasing damage and appetite for flesh.
+* After a kill, they may gorge on the prey rather than pursue other nearby enemies.
+
+#### Minotaur Combat Style
+* Favors a full gore attack, knocking targets back 10 feet.
+* Typically backs up to charge again, unless blood greed is active.
+* When blood greed is active, uses a greataxe or charges at an accessible enemy, risking opportunity attacks.
+
+#### Minotaur Butcher
+* Higher defense than regular Minotaurs.
+* Blood Greed activation enhances Hewing Cleaver attack and triggers Blood Regeneration for better survivability.
+
+#### Gorebull
+* Capable of making two attacks per turn; first a gore to knock a target prone, then a greataxe attack with advantage.
+* Can charge at two different targets if able.
+* While under the effects of Blood Greed, prefers two Hewing Greataxe attacks for increased damage.
+* Uses Slaughterer’s Call before combat to rally minotaurs and gain tactical advantage.
+
+#### Doombull
+* Begins combat by charging to knock a target prone.
+* Follows up with Barbed Fist to inflict wounds that can be exploited by fellow minotaurs.
+* Coordinates attacks to keep the target prone, maximizing damage with Hewing Greataxe.
+* Prioritizes reapplying wounds to maintain tactical advantage if the target recovers.
+
+\columnbreak
+
+
+
+##### Minotaur Adventures
+
+ | d8  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **The Unholy Portal:** A group of minotaurs is guarding a mysterious portal in the forest, believed to be a gateway to a dark realm through which demons emerge. The players must fight their way to the portal and find a way to close it to prevent further incursions.|
+|  2  |**The Crumbling Lair:** The players are tasked with exploring ancient ruins that have recently become overrun by minotaurs. The ruins are believed to contain powerful artifacts and lost knowledge. The minotaurs, led by a brutal warbull, are using the ruins as a base for their raids. The players must clear out the minotaurs and uncover the secrets hidden within the ruins. |
+|  3  | **The Labyrinth's Heart:** An ancient maze-like structure, rumored to be the sacred ground of the beastmen, has been discovered deep underground. The players are tasked with exploring this unholy labyrinth and reaching its heart, where a warbull is said to guard a forbidden secret. |
+|  4  | **The Hunting Grounds:** The players are hunted by a group of elite flesh gorger minotaurs known for their relentless pursuit of prey. They must use their wits and survival skills to turn the tables on their hunters, leading to a final confrontation with the minotaur leader in their own hunting grounds.  |
+|  5  |**The Butchers’ Massacre:** The players come across a village decimated by a group of minotaurs known as the Butchers. Corpses are strung up as gruesome warnings, and the surviving villagers are in desperate need of help. The players must hunt down the Butchers, stop their reign of terror, and find a way to ensure the safety of other nearby settlements. |
+|  6  | **Siege of the Sacred Grove:** A grove considered holy by a local druidic circle is under siege by minotaurs led by a doombull, who aims to desecrate the site and devour its inhabitants. The players are enlisted to break the siege, protect the druids, and drive back the beastmen. |
+|  7  | **Relic of Doom:** A powerful relic capable of enhancing magical abilities has fallen into the hands of a minotaur transforming it into a doombul. The players must venture into beastmen territory to retrieve the relic before the doombull can fully harness its power to lead a devastating attack on nearby human settlements.  |
+|  8  |**Fresh Meat:** A doombull known as The Butcher dwells in labyrinthian catacombs under a desecrated cathedral, and his insatiable appetite has claimed numerous adventurers and travelers. The players are hired to seek him out and put an end to his slaughter.  |
+
+##### Minotaurs Art Credit
+* Minotaur Token - Craig J Spearing, Wizards of the Coast
+* Deathbellow Raider - Wayne Reynolds, Wizards of the Coast
+* Kragma Butcher - Daarken, Wizards of the Coast
+* Kazuul Warlord - Kev Walker, Wizards of the Coast
+* Canyon Minotaur - Steve Prescott, Wizards of the Coast
+* Minotaur Skullcleaver - Craig J Spearing, Wizards of the Coast
+
+
+<img src='https://i.ibb.co/SBtqgDx/Minotaur-Skullcleaver-Art-1024x744.jpg' style='position:absolute; top:0px; left:-60px; width:480px; transform: scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-120px;top:-30px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-630px;top:-70px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+\pagebreakNum
+
+### Minotaur Loot
+Most of the valuable goods that can be looted from minotaurs are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+
+#### Minotaur Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Minotaur Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 2d4(5) 5sp Items |
+|  6-10 | 2d6(7) 5sp Items | 
+|  11-17 | 2d4(5) 1gp Items  |  
+|  18-21 | 2d4(5) 2gp Items |  
+|  23+ |  2d6(7) 2gp Items |  
+
+
+##### Minotaur, Flesh Gorger Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1 5gp Item |
+|  7-9 | 1d4(2) 5gp Items | 
+|  10-16 | 1 10gp Items  |  
+|  17-21 | 1d4(2) 10gp Items |  
+|  22+ |  1d6(3) 10gp Items |  
+
+
+
+##### Minotaur Butcher Table 
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 10gp Item |
+|  9-12 | 1d4(2) 10gp Items | 
+|  13-19 | 1d4(2) 20gp Items  |  
+|  20-24 | 1d6(3) 20gp Items |  
+|  25+ |  2d4(5) 20gp Items |  
+
+
+
+
+##### Minotaur, Warbull Loot Table 
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 50gp Item |
+|  8-11 | 1d4(2) 50gp Items | 
+|  12-18 | 1 100gp Item  |  
+|  19-23 | 1d4(2) 100gp Items |  
+|  24+ |  1d6(3) 100gp Items |  
+
+\columnbreak
+
+##### Minotaur, Doombull Loot Table 
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 1d6(3) 100gp Item |
+|  10-12 | 2d4(5) 100gp Items | 
+|  13-19 | 1d6(3) 200gp Item  |  
+|  20-24 | 2d4(5) 200gp Items |  
+|  25+ |  2d6(7) 200gp Items |  
+
+
+#### Example Minotaur Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Common Minotaur Item Names
+|1d4 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Minotaur Horn |  Minotaur Horn |  Majestic Minotaur Horn  | 
+| 2 <br> (Hide)  | Tattered Hide| Intact Hide |  Pristine Hide  | 
+| 3 (Metal)  | Rusted Blade/Armor Fragment| Blade/Armor Fragment |  Masterwork Blade/Armor Fragment  | 
+| 4 <br> (Wood) | Cracked Beastwood | Beastwood |  Prime Beastwood  |
+
+
+
+##### Example Uncommon Minotaur Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Minotaur Warrior Horn | Elite Minotaur Warrior Horn |  Majestic Minotaur Warrior Horn  | 
+| 2 <br> (Hide)  | Tattered Monstrous Hide | Intact Monstrous Hide |  Pristine Monstrous Hide | 
+| 3 (Metal)  | Rusted Intact Blade| Intact Blade |  Masterwork Intact Blade  | 
+| 4 <br> (Wood) | Cracked Warpwood | Warpwood |  Prime Warpwood  |
+
+##### Example Rare Minotaur Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Minotaur Lord Horn | Minotaur Lord Horn |  Majestic Minotaur Lord Horn  | 
+| 2 <br> (Hide)  | Tattered Minotaur Lord Hide| Intact Minotaur Lord Hide |  Prisitine Minotaur Lord Hide  | 
+| 3 (Metal)  | Rusted Runic Blade| Runic Blade |  Masterwork Runic Blade  | 
+| 4 <br> (Wood) | Cracked Runewood | Runewood |  Prime Runewood  |
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Stoneheart
+
+Stoneheart was once a powerful warlord <br> commanding a formidable beastman tribe, known <br> for his brutal strength and unwavering dominance. His reign was challenged when a cunning bray speaker attempted to seize control of the tribe by possessing Stoneheart’s body, intending to use the mighty minotaur as a puppet to command the tribe. However, Stoneheart’s will proved to be extraordinarily powerful. In a remarkable feat of mental fortitude, he managed to wrest control of his body long enough to exact vengeance on the shaman’s physical form, which lay vulnerable and defenseless in a trance.
+
+After Stoneheart destroyed the shaman's body, the shaman’s spirit became trapped within him. This left the two entities locked in a constant battle for control. When Stoneheart is in control, he behaves and fights like a typical minotaur doombull, exuding raw power and engaging in relentless, brutal combat. However, when the shaman’s spirit gains the upper hand, Stoneheart’s capabilities change dramatically. Under the shaman’s influence, he gains access to mystic powers, allowing him to wield dark magic and curses far beyond the reach of ordinary minotaurs.
+
+
+
+\columnbreak
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+This duality makes Stoneheart a fearsome and unpredictable foe. The shaman’s spirit grants him a level of cunning and strategic thinking that is unheard of among minotaurs, making him a dangerous opponent on and off the battlefield. However, the constant internal struggle between the two spirits also renders him prone to erratic and unpredictable behavior. Allies and enemies alike are never certain which aspect of Stoneheart they will face: the unyielding brute force of the doombull or the dark, cunning sorcery of the trapped shaman. This internal conflict drives Stoneheart’s actions, making him one of the most formidable and enigmatic figures among the beastmen.
+
+
+ <img src='https://i.ibb.co/g45MTVF/Rage-Scarred-Berserker-Theros-Beyond-Death-Art-1024x752.jpg' style='position:absolute;right:-170px;top:-15px;width:1080px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-230px;top:347px;height:1400px;width:1416px;transform:rotate(207deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:394px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+\pagebreakNum
+
+___
+___
+> ## Stoneheart
+> *Large monstrosity (beastman), chaotic evil*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 315 (30d10+150)
+> - **Speed** 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|11 (+0)|20 (+5)|6 (-2)|20 (+5)|14 (+2)|
+>___
+> - **Saving Throws** Str +11, Iin +3, Cha +7
+> - **Skills** Athletics +12, Perception +17, Intimidation +14, Stealth +6, Survival +12
+> - **Senses** darkvision 60 ft., passive Perception 26
+> - **Languages** Abyssal
+> - **Challenge** 17 (18,000 XP) &emsp;&emsp; **Proficiency Bonus** +6
+> ___
+>
+> ***Blood Greed.*** At the end of Stoneheart's turn, if he dealt damage to a creature with a weapon attack since the end of his last turn, he goes berserk until the end of his next turn. While berserk, he deals an extra 9 (2d8) damage on hit with weapon attacks.
+>
+> ***Brute.*** A melee weapon deals one extra die of its damage when Stoneheart hits with it (included in the attack).
+>
+> ***Corrupting Influence.*** At the start of Stoneheart's turn, each creature under the effects of his spells or cursed by his Atrophy Bolt takes 10 (3d6) necrotic damage.
+>
+> ***Labyrinthine Recall.*** Stoneheart can perfectly recall any path he has traveled.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost Stoneheart extra movement.
+>
+> ***Possessed.*** At the end of each turn, if Stoneheart took 30 or more damage and was not already Possessed, he makes a DC 18 Charisma saving throw. On a failure, he is Possessed by the spirit, changing his Intelligence to 10 (Int +6), ending any Berserk effects, and making his concentration unbreakable. If Stoneheart takes 30 or more damage in a turn while Possessed, he can attempt another Charisma saving throw to end the Possession and any spells he has cast.
+>
+> ### Actions
+>
+> ***Multiattack.*** Stoneheart makes two attacks.
+>
+> ***Dazing Gore.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 18 (3d8 + 6) piercing damage. If Stoneheart moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be pushed up to 10 feet away and knocked prone. If the target fails by 10 or more, the creature is dazed until the end of its next turn.
+>
+> ***Hewing Greataxe.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 25 (3d12 + 6) slashing damage. The target must succeed on a DC 18 Strength saving throw, or Stoneheart automatically hits the target with another Hewing Greataxe attack as part of this action. If the target fails by 10 or more, the attack is a critical hit.
+>
+> ***Tackle.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 4 (1d8) bludgeoning damage. If Stoneheart moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) bludgeoning damage.
+>
+> ***Wing Puncturing Javelin.*** *Melee or Ranged Weapon Attack:* +12 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 16 (3d6 + 6) damage in melee or 12 (2d6 + 6) piercing damage at range. If the attack targets a flying creature, it has advantage, and on hit, the target must succeed on a DC 19 Strength saving throw or be knocked prone and dazed until the end of the creature until the end of its next turn.
+>
+> ***Atrophy Bolt (Only While Possessed).*** *Ranged Spell Attack:* +11 to hit, range 150 ft., one target. *Hit:* 10 (3d6) necrotic damage, and the target is cursed for 1 minute or until Stoneheart is no longer possessed.
+>
+> ***Spellcasting (Only While Possessed).*** Stoneheart is a spellcaster. His spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). He knows the following spells:
+> - **3/Day:** *devolve** (5th level), *impending doom** (5th level), *vile tide** (5th level)
+>
+> **New Spells Found Later in Document*
+>
+> ### Bonus Action
+>
+> ***Battle Cast.*** When Stoneheart uses his action to cast a spell, he can make one weapon attack or two Atrophy Bolt attacks.
+>
+> ### Legendary Actions
+> Stoneheart can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Stoneheart regains spent legendary actions at the start of its turn.
+>
+> **Check.** Stoneheart makes a skill check that would normally require an action.
+>
+> **Dark Surge (Only While Possessed).** Stoneheart moves up to 20 feet in a straight line then makes an Atrophy Bolt attack.
+>
+> **Move.** Stoneheart moves up to 20 feet without provoking attacks of opportunity.
+>
+> **Slam.** Stoneheart moves up to 20 feet in a straight line then makes a Tackle attack.
+>
+> **Tenacious Will.** If Stoneheart is suffering from an effect that allows him to make a saving throw at the beginning or end of his turn, he may immediately make that save against the effect with advantage. He can use this legendary action while incapacitated.
+>
+
+
+
+\pagebreakNum
+
+
+### Epic Battle: Dual Souls
+
+For an epic encounter with Stoneheart, give the Bray Speaker spirit possessing him its own pool of 310 hit points, which it regains after a short or long rest. 
+
+Whenever Stoneheart takes damage while possessed, the damage is instead dealt to the Bray Speaker. If this damage reduces the Bray Speaker to 0 hit points, Stoneheart takes the remaining damage and loses the Possessed trait. Conversely, if Stoneheart is reduced to 0 hit points, the Bray Speaker takes the remaining damage. In this case, the Stoneheart automatically becomes possessed, losing the ability to make saving throws to end the possession.
+
+Stoneheart only dies if both he and the Bray Speaker are reduced to 0 hit points.
+
+For this encounter, increase Stoneheart's challenge rating (CR) to 22.
+
+### Stoneheart Tactics
+
+#### Not Possessed
+* Engages primarily in melee combat.
+* **Typical Attack Sequence:** 
+    * Gores a target, follows with a strike from his Hewing Greataxe.
+    * If movement permits, may gore two different targets.
+    * Against aerial opponents, uses Wing Puncturing Javelin.
+* Utilizes legendary actions to maximize movement and damage output.
+
+
+
+#### Possessed
+
+* Shifts to a spellcasting role, focusing on area control and debuffs.
+* Maintains distance from opponents
+* Starts turns by maximizing Corrupting Influence effects, targeting multiple opponents with spells.
+* **Sequence in combat:**
+    * Casts a spell
+    * Follows up with Hewing Greataxe for close <Br> targets, or Atrophy Blot for ranged attacks.
+    * Uses legendary actions  for Dark Surge to <br> maintain battlefield control.
+
+<br>
+
+##### Stoneheart Art Credit
+* Rage-Scarred Berserker - <br> Antonio José Manzanedo, <br> Wizards of the Coast
+* Mogis's Favor - Uriah Voth, <br> Wizards of the Coast
+* Bloodforged Battle-Axe - <Br> Alayna Danner, <br> Wizards of the Coast
+
+\columnbreak
+
+##### Spells
+&emsp;**Devolve:** Casts on creatures concentrating on spells of 5th level or higher.
+
+**Vile Tide:** Used when it can target two or more opponents.
+
+**Impending Doom:** Default choice when other spells aren't optimal.
+
+
+
+##### Stoneheart Adventures
+
+ | d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **The Dual Threat:** The players are tasked with stopping a series of brutal raids on nearby settlements. As they investigate, they discover that the raids are led by Stoneheart, who is unpredictably alternating between savage attacks and cunning ambushes.|
+|  2  |**The Blood Moon:** A rare celestial event known as the Blood Moon is approaching, during which Stoneheart plans to perform a dark ritual to permanently merge with the shaman’s spirit, becoming an even greater threat.|
+|  3  | **The Siege of Darkwood:** Stoneheart’s tribe has laid siege to a fortified town, using both brute force and dark magic to breach the defenses. The players must infiltrate the besieging forces, disrupt the shaman’s influence, and find a way to break the siege |
+|  4  | **A New Puppet:** The players discover that the shaman’s spirit is attempting to transfer itself into a new, equally powerful host while keeping Stoneheart as a puppet. They must stop this transfer, battling the shaman's chosen vessel and ensuring that both Stoneheart and the shaman’s spirit are defeated.  |
+
+<img src='https://i.ibb.co/7vfsF84/mogis-s-favor.png' style='position:absolute; bottom:-45px; right:-50px; width:750px; transform: scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:173px;top:5px;height:1400px;width:1416px;transform:rotate(305deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:173px;top:5px;height:1400px;width:1416px;transform:rotate(290deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-270px;top:-470px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+### Stoneheart Loot
+Most of the valuable goods that can be looted from minotaurs are the remains of the equipment they were using or valuables they were carrying, though it is common to harvest horns from their fallen. Most dropped valuables can be found using an **Intelligence (Investigation)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Stoneheart Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Stoneheart Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 1d4(2) 500gp Items  |
+|  10-11 | 1d6(3) 500gp Items  | 
+|  12-18 | 1d4(2) 1,000gp Items   |  
+|  19-22 |1d4(2) 2,000gp Items |  
+|  23+ |  2d4(5) 2,000gp Items  |  
+
+##### Stoneheart Epic Loot Table
+
+| Looting Check Result <br> or 1d20 + 7 | Loot  |
+|:---:|:-----------:|
+|  1-9  | 1d4(2) 5,000gp Items |
+|  10-13 | 1d6(3) 10,000gp Items | 
+|  14-23 | 1d4(2) 20,000gp Item  |  
+|  24+ | 1d6(3) 20,000gp Items |  
+
+
+\columnbreak
+
+
+#### Example Stoneheart Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Very Rare Stoneheart Item Names
+|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Possessed Minotaur Lord Horn | Possessed Minotaur Lord Horn |  Pristine Possessed Minotaur Lord Horn  | 
+| 2 <br> (Hide)  | Tattered Possessed Minotaur Lord Hide| Intact Possessed Minotaur Lord Hide |  Pristine Possessed Minotaur Lord Hide  | 
+| 3 (Metal)  | Rusted Bray-Blessed Runic Blade| Bray-Blessed Runic Blade |  Masterwork Bray-Blessed Runic Blade  | 
+| 4 <br> (Wood) | Cracked Bray-Blessed Runewood | Bray-Blessed Runewood |  Prime Bray-Blessed Runewood  |
+
+##### Example Legendary Stoneheart Item Names
+|1d4 | 5,000gp Item | 10,000gp Item | 20,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Eldritch Horn of Damnation | Eldritch Horn of Damnation |  Mighty Eldritch Horn of Damnation  | 
+| 2 <br> (Hide)  | Tattered Eldritch Hide of Damnation | Eldritch Hide of Damnation |  Prisitine Eldritch Hide of Damnation  | 
+| 3 (Metal)  | Rusted Blade of Torment | Blade of Torment |  Masterwork Blade of Torment  | 
+| 4 <br> (Wood) | Cracked Doomwood | Doomwood |  Prime Doomwood  |
+
+<img src='https://www.mtgnexus.com/img/gallery/3469-bloodforged-battle-axe.jpg' style='position:absolute; bottom:-100px; right:-0px; width:816px; transform: scaleX(1)' />
+
+
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-270px;top:-379px;height:1400px;width:1416px;transform:rotate(7deg)' />
+
+
+\pagebreakNum
+
 # Revision Numbers
 
 ## Referenced Content
@@ -3398,11 +4609,15 @@ You can give the different types of items unique names based on their material a
 ## Local Content
 ### New Creatures
 
+#### The Brass Bull
+* The Brass Bull 1.0.0
+
 #### Bray Speakers
 * Lesser Bray Speaker 1.0.0
 * Bray Speaker 1.0.0
 * Great Bray Speaker 1.0.0
 
+\columnbreak
 
 #### Beastmen Infantry
 * Shorthorn 1.0.0
@@ -3419,10 +4634,25 @@ You can give the different types of items unique names based on their material a
 #### The Dark Omen
 * The Dark Omen 1.0.0
 
+#### Megatuars
+* Megataur 1.0.0
+* Megataur Blood Brute 1.0.0
+
+#### Minotaurs
+* Minotaur 1.0.0
+* Minotaur Flesh Gorger 1.0.0
+* Minotaur Butcher 1.0.0
+* Minotaur Warbull 1.0.0
+* Minontaur Doombull 1.0.0
+
+#### Stoneheart
+* Stonehart 1.0.0
+
+
 \pagebreakNum
 
 # Change Log
 
 ## Document
-#### 1.0.0
-* Document release
+#### 2.0.0
+* Add minotaur theme creatures
