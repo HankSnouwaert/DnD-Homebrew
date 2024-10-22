@@ -1,0 +1,330 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+## Specialized Iron Orcs
+The elite iron orcs of the rocky wastes are the most powerful and well-trained of their kind. While just as bloodthirsty as other orcs, they temper their savage instincts with unflinching discipline and a dour, humorless demeanor. This discipline and training allows iron orcs to specialize in advanced forms of combat beyond the reach of most typical orcs. The following iron orcs are examples of their kind that have mastered such specialized forms of combat.
+
+### Iron Orc War Chanters & War Callers
+Within iron orc tribes, war chanters and war callers play a crucial role in the heat of battle. Each wields two massive blunt clubs, which they use to pound on rugged war drums or even their own metal armor, creating a booming, resonant tempo that echoes across the battlefield. As the battle begins, the rhythm intensifies, quickening with the rising violence and driving the orcs to move faster, strike harder, and endure blows that would normally bring them down. The war caller, like a conductor leading an orchestra, can influence the tactics of the orcs in combat. Under their guidance, iron orc armies become precision tools of destruction, their actions perfectly synchronized to the relentless beat, turning them into a terrifying force of coordinated violence.
+
+\columnbreak
+
+#### Iron Orc War Chanters and War Callers Tactics
+Iron orc war chanters and war callers adjust their strategies based on the composition of their enemies.
+
+**Enduring Beat:** Used when the majority of their allies are below half health. It focuses on sustaining and protecting weakened forces.
+
+**Rushing Beat:** Used if any of their melee martial allies cannot reach the opponents on their next turn, or if there is a significant amount of difficult terrain affecting movement. This beat helps close the distance to the enemy.
+
+**Killing Beat:** The preferred beat when the majority of their allies are above half health, enhancing the offensive capabilities of their group.
+
+<br>
+
+##### Art Credit
+* Elijah in the Desert, Washington Allston
+
+<img src='https://i.postimg.cc/c1wH5K2W/506833ld.jpg' style='position:absolute; bottom:-130px; right:-370px; width:1200px; transform:rotate(0deg)scalex(-1);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-210px;top:-540px;height:1400px;width:1416px;transform:rotate(-13deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+___
+> ## Iron Orc War Chanter
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 16 (chain mail)  
+> - **Hit Points** 75 (10d8 + 30)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |15 (+2)|12 (+1)|16 (+3)|10 (0)|12 (+1)|16 (+3)|
+> ___
+> - **Saving Throws** Con +5  
+> - **Skills** Athletics +4, Insight +3, Intimidation +5, Perception +4, Performance +5
+> - **Senses** darkvision 60 ft., passive Perception 14  
+> - **Languages** Common, Orc  
+> - **Challenge** 2 (450 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks with its Club Chopper, and then may use its War Chant.
+> 
+> ***Club Chopper.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll and deals an extra 2 (1d4) damage on hit.
+> 
+> ***War Chant (Recharges after a Short or Long Rest).*** The orc starts pounding on its war drum, choosing one of the following effects to occur when it starts the chant and at the start of each of its turns for the next minute, or until it loses concentration:
+> 
+> - **Enduring Beat:** Up to three other creatures within 60 feet of the orc that can hear it gain 5 temporary hit points.
+> - **Rushing Beat:** Up to three other creatures within 60 feet of the orc that can hear it have their walking speed increased by 10 feet and are unaffected by difficult terrain until the start of the orc's next turn.
+> - **Killing Beat:** Up to three creatures within 60 feet of the orc that can hear it deal an additional 7 (2d6) damage when they hit a creature with the first attack they make on their next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+> 
+> ***Battle Rhythm.*** The orc lets out a war cry. Up to three other creatures within 60 feet of the orc that have the **Da Plan** feature and that can hear the orc can switch which weapon they have mastered.
+
+\columnbreak
+
+___
+> ## Iron Orc War Caller
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 17 (splint)  
+> - **Hit Points** 85 (10d8 + 40)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |16 (+3)|12 (+1)|16 (+3)|10 (0)|14 (+2)|18 (+3)|
+> ___
+> - **Saving Throws** Str +6, Con +6  
+> - **Skills**  Athletics +6, Insight +5, Intimidation +6, Perception +5, Performance +6  
+> - **Senses** darkvision 60 ft., passive Perception 12  
+> - **Languages** Common, Orc  
+> - **Challenge** 6 (2,300 XP)   &emsp;&emsp; **Proficiency Bonus** +3  
+> ___
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks with its Club Chopper, and then may use its War Chant.
+> 
+> ***Club Chopper.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll and deals an extra 2 (1d4) damage on hit.
+> 
+> ***War Chant (Recharges after a Short or Long Rest).*** The orc starts pounding on its war drum, choosing one of the following effects to occur when it starts the chant and at the start of each of its turns for the next minute, or until it loses concentration:
+> 
+> - **Enduring Beat:** Up to three other creatures within 60 feet of the orc that can hear it gain 10 temporary hit points.
+> - **Rushing Beat:** Up to three other creatures within 60 feet of the orc that can hear it have their walking speed increased by 15 feet and are unaffected by difficult terrain until the start of the orc's next turn.
+> - **Killing Beat:** Up to three creatures within 60 feet of the orc that can hear it deal an additional 13 (2d12) damage when they hit a creature with the first attack they make on their next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+> 
+> ***Violent Rhythm.*** The orc lets out a war cry. Up to three other creatures within 60 feet of the orc that can hear the orc can use their reaction to move up to their speed and make one melee weapon attack. If any of the targets have the **Da Plan** feature, they can switch which weapon they have mastered before they make the attack.
+
+\pagebreakNum
+
+### Iron Orc Chain Wrecker
+
+Iron orc chain wreckers are regarded as artists among their kind, wielding chains with a brutal elegance rarely seen in other orcs. Where most would entangle themselves or fall victim to their own weapons, wreckers move fluidly across the battlefield. They expertly sweep aside entire regiments with a metal wrecking ball or brandish twin-hooked chains with deadly precision. With a swift motion, they hurl one end at unsuspecting warriors, pulling their foes in close to be gouged by the other, demonstrating their lethal mastery of this unique and fearsome weapon.
+
+\columnbreak
+
+#### Iron Orc Chain Wrecker Tactics
+
+Iron orc chain wreckers adapt their weapon choice to match the battlefield conditions:
+
+**Ball Chain Chopper:** This weapon is favored when enemies are grouped closely together and to disrupt ranged attackers.
+
+**Hooked Chain Chopper:** This weapon is favored when enemies are more spread out, as it allows the wrecker to pull targets away from advantageous positions and restrain them.
+
+When multiple chain wreckers are present in a battle, they often diversify their weapon choices. The combination of one using the Hooked Chain Chopper to restrain targets and another using the Ball Chain Chopper is an effective strategy.
+
+___
+___
+> ## Iron Orc Chain Wrecker
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 16 (chain mail)  
+> - **Hit Points** 102 (12d8 + 48)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|16 (+3)|18 (+4)|10 (0)|12 (+1)|10 (+0)|
+> ___
+> - **Saving Throws** Str +7, Con +7  
+> - **Skills** Athletics +7, Insight +4, Intimidation +3, Perception +4  
+> - **Senses** darkvision 60 ft., passive Perception 14
+> - **Languages** Common, Orc  
+> - **Challenge** 5 (1,800 XP)   &emsp;&emsp; **Proficiency Bonus** +3  
+> ___
+> 
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ***Big Chopper.*** The orc deals an extra 1d4 damage when it hits with its first chopper attack (included in the attacks).
+> 
+> ***Crazed Swinging.*** While the orc is not grappled, restrained, prone, or incapacitated and is holding its Ball Chain Chopper and has mastery over it, the orc may swing its Ball Chain Chopper. While it is swinging, creatures within 10 feet of it have disadvantage on ranged attacks. If a creature ends its turn within 10 feet of the orc, it must make a DC 15 Dexterity saving throw or take 9 (1d10 + 4) bludgeoning damage and be knocked prone.
+> 
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack).
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks.
+> 
+> ***Ball Chain Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) bludgeoning damage. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll, deals an extra 5 (2d4) damage, and the orc may push the target up to 10 feet away from itself if the target is Large or smaller and the orc has mastered this weapon.
+> 
+> ***Hooked Chain Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll, deals an extra 5 (2d4) damage, and if the orc has mastered this weapon, it can grapple the target (escape DC 15) and may pull the target up to 10 feet toward itself if the target is Large or smaller. Until this grapple ends, the target is restrained, and the orc can't attack another target.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+\pagebreakNum
+
+### Iron Orc Bone Breakers
+Iron orc bone breakers are infamous within their tribes for their sheer brutality and reckless abandon in combat. Unlike their more disciplined kin, Bone Breakers revel in the chaos of battle, charging headlong into the thick of the fight with little regard for their own safety. Their attacks are devastatingly powerful, delivering crushing blows that shatter bones and leave their enemies crippled and gasping for breath—if they’re fortunate enough to survive at all. Lacking the level-headedness of other iron orcs, Bone Breakers are driven by a primal fury, making them unpredictable and extremely dangerous
+
+\columnbreak
+
+#### Iron Orc Bone Breakers Tactics
+
+Bone breakers adapt their weapon choice based on the dynamics of the battlefield and their allies' actions:
+
+**Crusher Chopper:** Used when the bone breaker's allies are causing the opponent to make a large number of saving throws. 
+
+**Greataxe Chopper:** Used when the bone breaker's allies are executing a high volume of attacks. 
+
+Bone breakers prioritize attacking targets with low Strength. If there are multiple bone breakers, they will split up who has mastered what weapons to help synergize each weapon's strengths.
+
+___
+___
+> ## Iron Orc Bone Breaker
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 16 (chain mail)  
+> - **Hit Points** 90 (12d8 + 36)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|14 (+2)|16 (+3)|10 (+0)|12 (+1)|10 (+0)|
+> ___
+> - **Saving Throws** Str +6, Con +5  
+> - **Skills** Athletics +6, Insight +3, Intimidation +2, Perception +3    
+> - **Senses** darkvision 60 ft., passive Perception 13  
+> - **Languages** Common, Orc  
+> - **Challenge** 4 (1,100 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> 
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ***Big Chopper.*** The orc deals an extra 1d4 damage when it hits with its first chopper attack (included in the attacks).
+> 
+> ***Brutal Critical.*** The orc rolls one additional weapon damage die when determining extra damage for a critical hit with a melee attack.
+> 
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack).
+> 
+> ***Shattering Strike (1/turn).*** When the orc makes its first attack each turn, if it hits, the target must succeed on a DC 14 Strength saving throw, or the orc automatically hits the target with the same weapon again as part of the same action. If the target fails by 10 or more (DC 4), the attack is a critical hit. The orc can only make one extra attack this way.
+>
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks.
+> 
+> ***Crusher Chopper.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) bludgeoning damage. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll and on hit, it deals an extra 5 (2d4) damage. If the orc has mastered this weapon, the target has disadvantage on Strength, Dexterity, and Constitution saving throws and checks until the end of the orc's next turn.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) slashing damage. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll and on hit, it deals an extra 5 (2d4) damage. If the orc has mastered this weapon, it can rend the target's defenses, making it so weapon attacks made against the creature score a critical hit on a roll of 18-20 until the end of the orc's next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+\pagebreakNum
+
+### Iron Orc Shield Boys
+
+Those unfamiliar with iron orc tactics might be surprised to learn that some iron orcs prefer shields over a second weapon in their offhand. However, it quickly becomes clear that these large metal plates serve far more than just a defensive purpose. Iron orc shield boys use their shields to bash down weaker foes before pinning them with heavy spears or decapitating them with cruel axes. On the battlefield, units of shield boys move with the force of a fortified battering ram, nearly impervious as they crash through their foes with relentless power and precision. Their mastery of shields transforms them into both an impenetrable wall and a deadly weapon.
+
+\columnbreak
+
+#### Iron Orc Shield Boys Tactics
+Shield Boys select their weapon mastery based on the tactical needs of their group:
+
+**Shield Chopper:** Chosen if the shield boy is the only one among its allies capable of effectively knocking targets prone.
+
+**Pike Chopper:** Chosen to keep targets from getting back up after being knocked prone.
+
+**Greataxe Chopper:** Chosen if the shield boy has allies that can knock targets prone and prevent them from getting back up.
+
+When multiple shield boys work together, they coordinate to maximize effectiveness. Each shield boy adopts a specific role: knocking the target down, preventing them from rising, and dealing additional damage to prone targets.
+
+___
+___
+> ## Iron Orc Shield Boy
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 18  
+> - **Hit Points** 93 (11d8 + 44)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |16 (+3)|14 (+2)|16 (+3)|7 (-2)|12 (+1)|10 (+0)|
+> ___
+> - **Saving Throws** Str +6, Con +6  
+> - **Skills** Athletics +5, Insight +3, Intimidation +2, Perception +3   
+> - **Senses** darkvision 60 ft., passive Perception 13  
+> - **Languages** Common, Orc  
+> - **Challenge** 3 (700 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> 
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ***Big Chopper.*** The orc deals an extra 1d4 damage when it hits with its first chopper attack (included in the attacks).
+> 
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack). 
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks, one with its Shield Chopper and one with its Pike Chopper or Greataxe Chopper.
+> 
+> ***Shield Chopper.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone. If it fails the save by 5 or more (DC 8), it can't stand up until the end of its next turn unless it uses all of its movement to do so. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll, on hit it deals an extra 5 (2d4) damage and if the orc has mastered this weapon, the creature has disadvantage on the saving throw.
+> 
+> ***Pike Chopper.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 3) piercing damage. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll; on hit, it deals an extra 5 (2d4) damage. If the target is a prone creature and the orc has mastered this weapon, the target is grappled (escape DC 13). Until this grapple ends, the orc's speed is 0, and it can't attack another creature with the Pike Chopper or switch weapons.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9 (1d12 + 3) slashing damage. If this is the first attack the orc made on its turn, it gets a +1 to the attack roll, on hit it deals an extra 5 (2d4) damage. If the target is a prone creature and the orc has mastered this weapon, the target takes an extra 13 (2d12) damage instead.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+### Local Content
+* Iron Orc War Chanter 1.0.0
+* Iron Orc War Caller 1.0.0
+* Iron Orc Chain Wrecker 1.0.0
+* Iron Orc Bone Breaker 1.0.0
+* Iron Orc Shield Boy 1.0.0
