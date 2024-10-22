@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p4:after, .phb#p5:after, .phb#p7:after, .phb#p9:after, .phb#p11:after, .phb#p12:after, .phb#p14:after, .phb#p16:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p21:after, .phb#p24:after, .phb#p25:after, .phb#p30:after, .phb#p33:after, .phb#p38:after, .phb#p39:after, .phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p43:after, .phb#p44:after, .phb#p50:after, .phb#p53:after, .phb#p54:after, .phb#p61:after, .phb#p63:after  {
+    .phb#p2:after, .phb#p8:after, .phb#p10:after, .phb#p11:after, .phb#p13:after, .phb#p14:after, .phb#p16:after, .phb#p17:after, .phb#p18:after, .phb#p22:after, .phb#p24:after, .phb#p25:after, .phb#p26:after, .phb#p27:after, .phb#p29:after, .phb#p30:after, .phb#p37:after, .phb#p39:after, .phb#p40:after, .phb#p41:after, .phb#p43:after, .phb#p44:after, .phb#p48:after, .phb#p53:after, .phb#p56:after, .phb#p57:after, .phb#p58:after, .phb#p59:after, .phb#p61:after, .phb#p63:after, .phb#p64:after, .phb#p69:after, .phb#p70:after, .phb#p71:after, .phb#p72:after  {
         display          : none;
     }
     /* End Footers */
@@ -71,67 +71,68 @@ This document provides content to help you run games that feature grasslands of 
 
 - ## Table of Contents
 
-  - [<span>3</span><span>Tundra Adventure Ideas</span>](#p3)
+  - [<span>3</span><span>Grassland Adventure Ideas</span>](#p3)
 - ### [<span>4</span><span>Player Options</span>](#p4)
-  - [<span>4</span><span>Druid Circle: Cicle of the Tundra</span>](#p4)
-  - [<span>11</span><span>New Spells: Lore of Ice</span>](#p11)
-- ### [<span>15</span><span>Tundra Navigation</span>](#p15)
-  - [<span>15</span><span>Travel Activities</span>](#p15)
-  - [<span>16</span><span>Tundra Hazards</span>](#p16)
-  - [<span>17</span><span>Example Random Encounter Tables</span>](#p17)
-- ### [<span>25</span><span>Tundra Creatures</span>](#p25)
-  - #### [<span>25</span><span>Bears</span>](#p25)
-    - [<span>26</span><span>Lesser Black Bear</span>](#p26)
-    - [<span>26</span><span>Greater Black Bear</span>](#p26)
-    - [<span>27</span><span>Brown Bear</span>](#p27)
-    - [<span>27</span><span>Grizzly Bear</span>](#p27)
-    - [<span>28</span><span>Polar Bear</span>](#p28)
-    - [<span>29</span><span>Tyrant Polar Bear</span>](#p29)
-    - [<span>30</span><span>Arctotherium</span>](#p30)
-    - [<span>31</span><span>Ice Bear</span>](#p31)
-    - [<span>32</span><span>Elemental Bear</span>](#p32)
-    - [<span>33</span><span>Elemental Bear, The Avatar of Winter</span>](#p33)
-  - #### [<span>38</span><span>Deer</span>](#p38)
-    - [<span>39</span><span>Fallow Deer</span>](#p39)
-    - [<span>40</span><span>Caribou</span>](#p40)
-    - [<span>41</span><span>Elk</span>](#p41)
-    - [<span>42</span><span>Moose</span>](#p42)
-    - [<span>43</span><span>Megaloceros</span>](#p43)
-    - [<span>44</span><span>Ice Caribou</span>](#p44)
-    - [<span>45</span><span>Cosmic Caribou</span>](#p45)
-  - #### [<span>49</span><span>Kallikantzaroi</span>](#p49)
-    - [<span>50</span><span>Kallikantzaros</span>](#p50)
-    - [<span>51</span><span>Kallikantzaros Foreman</span>](#p51)
-  - #### [<span>52</span><span>Owls</span>](#p52)
-    - [<span>52</span><span>Owl</span>](#p52)
-    - [<span>53</span><span>Great Horned Owl</span>](#p53)
-    - [<span>54</span><span>Giant Owl</span>](#p54)
-    - [<span>54</span><span>Monstrous Owl</span>](#p54)
-    - [<span>55</span><span>Owlbear</span>](#p55)
-    - [<span>55</span><span>Snowy Owlbear</span>](#p55)
-    - [<span>56</span><span>Cursed Strix</span>](#p56)
-  - #### [<span>58</span><span>Tigers</span>](#p58)
-    - [<span>58</span><span>Tiger</span>](#p58)
-    - [<span>59</span><span>Dire Tiger</span>](#p59)
-    - [<span>60</span><span>Weretiger</span>](#p60)
-  - #### [<span>62</span><span>Werewolves</span>](#p62)
-    - [<span>63</span><span>Werewolf Loner</span>](#p63)
-    - [<span>64</span><span>Werewolf Packmate</span>](#p64)
-    - [<span>65</span><span>Werewolf Moon Mystic</span>](#p65)
-    - [<span>66</span><span>Werewolf Pack Leader</span>](#p66)
-  - #### [<span>71</span><span>Wolves</span>](#p71)
-    - [<span>72</span><span>Wolf</span>](#p72)
-    - [<span>72</span><span>Dire Wolf</span>](#p72)
-    - [<span>73</span><span>Ascendant Packleader</span>](#p73)
-  - #### [<span>77</span><span>Wolverines</span>](#p77)
-    - [<span>77</span><span>Wolverine</span>](#p77)
-    - [<span>78</span><span>Megalictis</span>](#p78)
-    - [<span>79</span><span>Werewolverine</span>](#p79)
-    - [<span>80</span><span>Burning Rage Wolverine</span>](#p80)
-  - #### [<span>84</span><span>Yule Cats</span>](#p84)
-    - [<span>85</span><span>Yule Cat</span>](#p85)
-
-
+  - [<span>4</span><span>Druid Circle: Cicle of the Grassland</span>](#p4)
+  - [<span>11</span><span>New Spells</span>](#p11)
+- ### [<span>12</span><span>Grasslands Travel</span>](#p12)
+  - [<span>12</span><span>Travel Activities</span>](#p12)
+  - [<span>13</span><span>Grassland Hazards</span>](#p13)
+    - [<span>13</span><span>Flash Floods</span>](#p13)
+    - [<span>14</span><span>Sinkholes</span>](#p14)
+    - [<span>15</span><span>Tornadoes</span>](#p15)
+    - [<span>16</span><span>Wildfires</span>](#p16)
+- ### [<span>19</span><span>Grassland Creatures</span>](#p19)
+  - #### [<span>19</span><span>Bears</span>](#p19)
+    - [<span>20</span><span>Lesser Black Bear</span>](#p20)
+    - [<span>20</span><span>Greater Black Bear</span>](#p20)
+    - [<span>21</span><span>Brown Bear</span>](#p21)
+    - [<span>21</span><span>Grizzly Bear</span>](#p21)
+    - [<span>22</span><span>Arctotherium</span>](#p22)
+  - #### [<span>23</span><span>Cheetahs</span>](#p23)
+    - [<span>23</span><span>Cheetah</span>](#p23)
+    - [<span>24</span><span>Giant Cheetah</span>](#p24)
+    - [<span>26</span><span>Zephyr Fang</span>](#p26)
+  - #### [<span>28</span><span>Deer</span>](#p28)
+    - [<span>29</span><span>Fallow Deer</span>](#p29)
+    - [<span>30</span><span>Elk</span>](#p30)
+    - [<span>31</span><span>Megaloceros</span>](#p31)
+  - #### [<span>33</span><span>Elephants</span>](#p33)
+    - [<span>34</span><span>Dwarf Elephant</span>](#p34)
+    - [<span>35</span><span>Savanna Elephant</span>](#p35)
+    - [<span>36</span><span>Palaeoloxodon</span>](#p36)
+  - #### [<span>39</span><span>Lions</span>](#p39)
+    - [<span>39</span><span>Lion </span>](#p39)
+    - [<span>40</span><span>Dire Lion </span>](#p40)
+    - [<span>41</span><span>Sea Cat </span>](#p41)
+    - [<span>39</span><span>Lion </span>](#p39)
+    - [<span>40</span><span>Dire Lion </span>](#p40)
+    - [<span>42</span><span>Bronzehide Lion </span>](#p42)
+    - [<span>44</span><span>Fiendpact Lion </span>](#p44)
+    - [<span>45</span><span>Oathsworn Lion </span>](#p45)
+  - #### [<span>49</span><span>Owls </span>](#p49)
+    - [<span>49</span><span>Owl</span>](#p49)
+    - [<span>50</span><span>Great Horned Owl</span>](#p50)
+    - [<span>51</span><span>Giant Owl</span>](#p51)
+    - [<span>52</span><span>Monstrous Owl</span>](#p52)
+    - [<span>52</span><span>Owlbear</span>](#p52)
+    - [<span>52</span><span>Snowy Owlbear</span>](#p52)
+    - [<span>53</span><span>Cursed Strix</span>](#p53)
+  - #### [<span>55</span><span>Rhinos</span>](#p55)
+    - [<span>55</span><span>Jungle Rhinoceros</span>](#p55)
+    - [<span>56</span><span>White Rhinoceros</span>](#p56)
+    - [<span>57</span><span>Elasmotherium</span>](#p57)
+    - [<span>60</span><span>Cungye</span>](#p60)
+  - #### [<span>63</span><span>Tigers</span>](#p63)
+    - [<span>63</span><span>Tiger</span>](#p63)
+    - [<span>64</span><span>Dire Tiger</span>](#p64)
+    - [<span>65</span><span>Weretiger</span>](#p65)
+  - #### [<span>67</span><span>Wolves</span>](#p67)
+    - [<span>68</span><span>Wolf</span>](#p68)
+    - [<span>68</span><span>Dire Wolf</span>](#p68)
+    - [<span>69</span><span>Ascendant Packleader</span>](#p69)
+    - [<span>71</span><span>Wolf Encounter Guide</span>](#p71)    
+    - [<span>72</span><span>Wolf Loot Guide</span>](#p72)
 <div align="right">
 
 
@@ -146,24 +147,28 @@ This document provides content to help you run games that feature grasslands of 
 <br>
 
 ##### Front Page & Table of Contents Art Credit
-* Arctic Treeline - Alayna Danner, Wizards of the Coast
-* Snow-Covered Swamp - Rob Alexander, Wizards of the Coast
+* Sunrise Plains - John Avon, Wizards of the Coast
+* MagicFest Promo Plains - Sam Burley, Wizards of the Coast
+
+
 
 <img
-src='https://www.robalexander.com/wp-content/uploads/2017/01/snow-covered-swamps-final.png'
-style='position:absolute;bottom:-90px;left:-210px;width:1014px;transform: scaleX(1)' />
+src='https://i.postimg.cc/bY67HkGF/5-Burley.jpg'
+style='position:absolute;bottom:-0px;left:-180px;width:1020px;transform: scaleX(1)' />
+
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-860px;bottom:340px; transform: rotate(-0deg)' />
+  style='position:absolute;left:-860px;bottom:300px; transform: rotate(-0deg)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:-640px;top:0px;height:1400px;width:1416px;transform:rotate(90deg)' />
 
 
+
 \pagebreakNum
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Grassland Adventure Ideas
 
@@ -177,9 +182,9 @@ Grassland environments make for flexible adventure locales. The following advent
 |  2  | **The Steppe Raiders:** A nomadic tribe of raiders has begun attacking caravans and settlements along the steppe trade routes. The adventurers are hired to protect a valuable caravan and fend off lightning strikes from the mounted marauders.|
 |  3  | **Ghosts on the Prairie:** A once-peaceful prairie is now haunted by spectral ranchers that appear at dusk, attacking travelers and disappearing at dawn. The adventurers are hired to investigate the origin of these ghost riders and put them to rest.   |
 
-##### Tundra Adventure Ideas Art Credit
+##### Grassland Adventure Ideas Art Credit
 
-* Winter Wolves - Robson Michel, Wizards of the Coast
+* Migration Path - Grzegorz Rutkowski, Wizards of the Coast
 
 \columnbreak
 
@@ -197,7 +202,7 @@ Grassland environments make for flexible adventure locales. The following advent
 
 <img src='https://i.postimg.cc/vmqV7ZtV/Migration-Path-PRINT-5000x.jpg' style='position:absolute; top:-167px; right:-0px; width:820px; transform:scalex(1);filter:opacity(100%);'/>
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:220px; right:0px; width:900px; transform:rotate(0deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:210px; right:0px; width:900px; transform:rotate(0deg)' />
 
 \pagebreakNum
 
@@ -249,7 +254,7 @@ You start knowing three of these forms: Antelope, Cheetah, Horse. Additional wil
 |  4th          | Cape Buffalo, Giraffe, Lion       | 
 |  8th          | Elephant, Rhino   |
 
-**New spell found at end of document*
+**New spell found after subclass*
 
 <img
 src='https://i.ibb.co/0Gg2Qzk/Oreskos-Sun-Guide-Art.jpg'
@@ -315,7 +320,7 @@ You've honed your instincts to be alert to any danger. You gain proficiency in D
 
 <br>
 
-##### Art Credit
+##### Circle of Grasslands Art Credit
 * Oreskos Sun Guide - Mathias Kollros, Wizards of the Coast
 * Stampeding Rhino - Steven Belledin, Wizards of the Coast
 * Pouncing Cheetah - Matt Stewart, Wizards of the Coast
@@ -543,7 +548,7 @@ creature type doesn’t change), unaligned*
 >
 > ***Hooves.*** *Melee Attack:* your Spell Attack Modifier to hit, reach 10 ft., one target. *Hit:* 1d8 + your Wisdom modifier bludgeoning damage.
 >
-> ***Neck Swing.*** *Melee Weapon Attack:* your Spell Attack Modifier, reach 10 ft., one target. *Hit:* 1d8 + your Wisdom modifier bludgeoning damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save or be knocked prone. The attack has disadvantage on targets smaller then you. (NOTE: Doesn't this encourage you to not be Large?)
+> ***Neck Swing.*** *Melee Weapon Attack:* your Spell Attack Modifier, reach 10 ft., one target. *Hit:* 1d8 + your Wisdom modifier bludgeoning damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save or be knocked prone. The attack has disadvantage on targets smaller then you. 
 >
 > ### Reaction 
 >
@@ -672,6 +677,59 @@ style='position:absolute;right:-210px;top:-390px;height:1400px;width:1416px;tran
 
 \pagebreakNum
 
+### New Spells
+#### Incantation of Protection
+*2nd-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**  1 round
+- **Classes:**  Cleric, Bard, Paladin
+___
+
+A barrier of mystical glyphs forms a 10-foot-radius sphere centered on a point you choose within range. Up to three creatures of your choice within the sphere gain resistance to bludgeoning, piercing, and slashing damage and lose any vulnerability to these damage types until the start of your next turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot.
+
+\columnbreak
+
+
+#### Incantation of Zeal
+
+*2nd-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:**  1 round.
+- **Classes:**  Cleric, Bard, Paladin
+___
+
+A brilliant light emanates from a point within range, forming a 10-foot-radius sphere. Up to three creatures of your choice within the sphere are quickened until the start of your next turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
+
+<br>
+
+> ##### New Condition:  Quickened
+> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+
+<img src='https://i.postimg.cc/7YBcGp5Q/messengers-speed-129.jpg' style='position:absolute; bottom:-0px; right:0px; width:880px; transform:scaleX(-1);'/>
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-270px;bottom:190px; transform: rotate(13deg)' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-270px;bottom:210px; transform: rotate(0deg)' />
+
+
+\pagebreakNum
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Grasslands Travel
@@ -708,7 +766,7 @@ Tall grass provides one of the few means of sneaking up on a creature in an open
 
 
 
-## Grasslands Hazards
+## Grassland Hazards
 Extreme cold or heat, strong wind, heavy precipitation, quicksand, and razorvine are all common tundra hazards described in the DMG (pg. 110). Other hazards include wildfires, flash floods, sinkholes, and even tornadoes.  
 
 
@@ -981,7 +1039,7 @@ Use the table below to determine the severity of the wildfire, the saving throw 
 
 <br>
 
-### Art Credit
+### Grasslands Travel Art Credit
 * Oreskos Explorer - Winona Nelson, Wizards of the Coast
 * Sudden Storm - Adam Paquette, Wizards of the Coast
 * Sinkhole - Jonas De Ro, Wizards of the Coast
@@ -1001,7 +1059,7 @@ Use the table below to determine the severity of the wildfire, the saving throw 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-# Tundra <br> Creatures
+# Grassland <br> Creatures
 
 ## Bears 
 
@@ -1027,7 +1085,7 @@ The following are examples of different types of bears across a variety of sizes
 <img src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/67199786-3498-496b-b0ea-b370ae392068/d4ngn42-e1148b85-2af8-439b-ada5-447119db8b73.jpg/v1/fill/w_900,h_655,q_75,strp/ulvenwald_bear_by_jasonengle_d4ngn42-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU1IiwicGF0aCI6IlwvZlwvNjcxOTk3ODYtMzQ5OC00OTZiLWIwZWEtYjM3MGFlMzkyMDY4XC9kNG5nbjQyLWUxMTQ4Yjg1LTJhZjgtNDM5Yi1hZGE1LTQ0NzExOWRiOGI3My5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.0L4GdZ7AefObWUu2VA4fJ6vFY-jzPDJ49NWfZTFePbU' style='position:absolute; top:-20px; right:-200px; width:1080px; transform: scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-style='position:absolute;right:-270px;top:250px;height:1400px;width:1416px;transform:rotate(195deg)' />
+style='position:absolute;right:-270px;top:242px;height:1400px;width:1416px;transform:rotate(197deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-160px;top:400px;height:1400px;width:1416px;transform:rotate(180deg)' />
@@ -1103,7 +1161,7 @@ ___
 >
 > ***Claws.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) slashing damage.
 
-<img src='https://i.ibb.co/7p0CnyQ/American-Black-Bear-Ursus-Americanus-from-the-viviparous-quadrupeds-of-North-America-1845-illustrate.jpg' style='position:absolute; top:-210px; right:-25px; width:870px; transform: scaleX(1)' />
+<img src='https://i.ibb.co/7p0CnyQ/American-Black-Bear-Ursus-Americanus-from-the-viviparous-quadrupeds-of-North-America-1845-illustrate.jpg' style='position:absolute; top:-210px; right:-36px; width:880px; transform: scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-160px;top:-109px;height:1400px;width:1416px;transform:rotate(184deg)' />
@@ -1645,7 +1703,12 @@ Survival for elk involves a blend of physical prowess and keen instincts. Their 
 
 In the various realms they inhabit, elk are revered for their beauty and strength. Their majestic presence and mighty antlers make them a prized game for hunters, and many grand hunts focus center on the pursuit of a majestic elk. Creatures tied to the fey wild, such as elves, sometimes utilize elk as swift and powerful mounts, allowing them to gracefully bound through the wilds before crashing into foes with the antlers of their wild steed.
 
-<img src='https://i.ibb.co/317kDPK/Wapiti-American-Elk.jpg' style='position:absolute; top:270px; right:-90px; width:650px; transform: scaleX(1)' />
+<br>
+
+> ##### Elk Steeds
+> You can summon **Elk** using the *Find Steed* spell
+
+<img src='https://i.ibb.co/317kDPK/Wapiti-American-Elk.jpg' style='position:absolute; top:280px; right:-90px; width:650px; transform: scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-200px;top:-670px;height:1400px;width:1416px;transform:rotate(0deg)' />
@@ -1706,6 +1769,82 @@ ___
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-280px;top:190px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Deer Loot
+The valuable items looted from deer will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest hide.
+
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Deer Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Fallow Deer Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5sp Item |
+|  6-16 | 1d4(2) 5sp Items | 
+|  17+ | 1d6(3) 5sp Items  |
+
+
+##### Elk Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 2d4(5) 5sp Items |
+|  10-22 | 1d6(3) 1gp Items  |  
+|  23+ |  2d4(5) 1gp Items |   
+
+
+##### Megaloceros Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 2d4(5) 5sp Items |
+|  6-9 | 1d6(3) 1gp Items  | 
+|  10-16 | 2d4(5) 1gp Items  |  
+|  17-21 | 2d4(5) 2gp Items |  
+|  22+ |  2d6(7) 2gp Items |  
+
+<br>
+
+### Deer Art Credit
+* Kenrith's Transformation - Kimonas Theodossiou, Wizards of the Coast
+* Fallow Deer - Archibald Thorburn
+* Wapiti or American Elk - Louis Agassiz Fuertes
+* Great Hart - Christopher Moeller, Wizards of the Coast
+
+
+\columnbreak
+
+#### Example Deer Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names. You can replace the word 'deer' with the name of the animal being looted.
+
+##### Example Deer Item Names
+|1d4 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Antler |  Antler |  Pristine Antler  | 
+| 2 (Flesh)  | Stringy Deer Meat| Deer Meat|  Prime Deer Meat  | 
+| 3 <br> (Fluid)  | Clotted Deer Blood|  Deer Blood |  Deer Heart Blood  | 
+| 4 <br> (Hide) | Tattered Deer Hide| Deer Hide |  Pristine Deer Hide  |
+
+
+### Deer Tactics
+Most deer, from tiny pudus to supernatural caribou, generally don't seek out combat as they are herbivores. If there is some supernatural compulsion driving them to attack, they will utilize hit-and-run tactics. They charge in with their horns before running out of reach to repeat the process on their next turn, using their Back Kick against anyone who makes an opportunity attack against them.
+
+### Deer Adventure Hooks
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  |**The Enchanted Stag:** A legendary fallow deer stag with a coat that shimmers like the night sky is said to roam the forest. A local noble offers a handsome reward for its capture, believing it will bring prestige. The adventurers must decide whether to protect the mystical creature or capture it for the bounty.|
+|  2 | **The Vanishing Caribou:** A tribe in the far north relies on caribou for their survival. Recently, the caribou herds have been mysteriously disappearing. The tribe seeks the adventurers' help to investigate. They must track the herds across icy tundras, facing harsh weather and whatever threatens the caribou. |
+|  3  |**The Elk Stampede:** An unprecedented natural event causes a massive elk stampede that threatens to overrun nearby settlements. The adventurers must find a way to safely redirect the stampede and discover what caused this unusual behavior.|
+|  4  | **The Cursed Megaloceros:** A herd of cursed megaloceros revived from ancient times by dark magic is terrorizing the countryside, leaving destruction in its wake. The adventures have been tasked with finding a way to end the curse or put the herd to rest.|
+
+
 
 \pagebreakNum 
 
@@ -1906,19 +2045,6 @@ ___
 #### Trained Elephant Behavior
 Similar to wild elephant, but uses throws to isolate targets from their allies.
 
-<br>
-
-##### Elephants Art Credit
-* Ivorytusk Fortress - Matthew Stewart, Wizards of the Coast
-* Prized Elephant - Ioan Dumitrescu, Wizards of the Coast
-* Elephant Ambush - Anthony S. Waters, Wizards of the Coast
-* Bull Elephant - Steven White, Wizards of the Coast
-* Aggressive Mammoth - Filip Burburan, Wizards of the Coast
-* Trumpeting Herd - Lars Grant-West, Wizards of the Coast
-* Elephant Token - Lars Grant-West, Wizards of the Coast
-
-\columnbreak
-
 ##### Elephant Adventure Hooks
 
 | d12  | Plot Hook |
@@ -1931,13 +2057,14 @@ Similar to wild elephant, but uses throws to isolate targets from their allies.
 |  11  | **Palaeo Ruins:** The players discover an ancient ruin guarded by a solitary palaeoloxodon. They must find a way to either bypass or confront the giant to uncover the secrets of the ruin.|
 |  12  | **The Primeval Guardian:** A palaeoloxodon statue in an ancient temple is said to come to life in times of great need. The players are tasked with awakening the guardian to help fend off an impending invasion, requiring them to complete a series of trials.|
 
-<img src='https://www.mtgnexus.com/img/gallery/4299-elephant-token.jpg' style='position:absolute; bottom:-0px; left:-60px; width:510px; transform:rotate(0deg);filter:opacity(100%);transform:scaleX(1);'/>
+\columnbreak
 
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-635px;top:-50px;height:1400px;width:1416px;transform:rotate(90deg)scaleX(1);' />
+<img src='https://www.mtgnexus.com/img/gallery/4299-elephant-token.jpg' style='position:absolute; bottom:-0px; left:200px; width:844px; transform:rotate(0deg);filter:opacity(100%);transform:scaleX(1);'/>
 
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-300px;top:-595px;height:1400px;width:1416px;transform:rotate(0deg)scaleX(1);' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:44px;top:-50px;height:1400px;width:1416px;transform:rotate(-90deg)scaleX(1);' />
+
+
 
 \pagebreakNum
 
@@ -1971,12 +2098,6 @@ The following tables describe the number of items and value of those items the p
 |  22+ |  3d6(10) 2gp Items  |  
 
 
-
-\columnbreak
-
-
-
-
 ##### Palaeoloxodon Namdicus Loot Table
 
 | Looting Check Result or 1d20 + 5 |  Loot  |
@@ -1986,6 +2107,11 @@ The following tables describe the number of items and value of those items the p
 |  11-17 | 2d6(7) 10gp Items   |  
 |  18-22 |3d6(10) 10gp Items  |  
 |  23+ |  2d6(7) 20gp Items  |  
+
+\columnbreak
+
+
+<br>
 
 #### Example Elephant Loot Names
 You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide  example names.
@@ -2008,7 +2134,14 @@ You can give the different types of items unique names based on their material a
 | 3 <br> (Fluid)  | Clotted Palaeoloxodon Blood|  Palaeoloxodon Blood |  Prime Palaeoloxodon Blood  | 
 | 4 <br> (Hide) | Tattered Palaeoloxodon Hide| Palaeoloxodon Hide |  Prime Palaeoloxodon Hide |
 
+<br>
 
+##### Elephants Art Credit
+* Ivorytusk Fortress - Matthew Stewart, Wizards of the Coast
+* Prized Elephant - Ioan Dumitrescu, Wizards of the Coast
+* Bull Elephant - Steven White, Wizards of the Coast
+* Trumpeting Herd - Lars Grant-West, Wizards of the Coast
+* Elephant Token - Lars Grant-West, Wizards of the Coast
 
 
 \pagebreakNum
@@ -2409,7 +2542,7 @@ ___
 
 \pagebreakNum
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Lion Adventure Hooks
 
@@ -2424,7 +2557,7 @@ ___
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 |   |  |
@@ -2438,7 +2571,7 @@ ___
 
 <img src='https://i.postimg.cc/Hn9n69F7/ryan-yee-art-id-401826-lion-pharaoh-ryan-yee-final-05.jpg' style='position:absolute; top:-40px; right:-60px; width:950px;'/>
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:164px; right:-0px; width:900px; transform:rotate(6deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:147px; right:-0px; width:900px; transform:rotate(6deg)' />
 
 \pagebreakNum
 
@@ -3187,9 +3320,170 @@ You can give the different types of items unique names based on their material a
 
 \pagebreakNum
 
-<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-# Tigers
+## Cungye
+
+Cungye are vile reflections of unicorns and kirin. Whereas unicorns and kirin are elegant and graceful, nurturing life and healing wherever they tread, cungye are muscle-bound brutes covered in mangy patches of fur and gnarled growths running along their bodies. Each of their powerful, trunk-like limbs ends in twisted claws, which allow them to climb vertical surfaces with startling ease. Their most notable feature is the massive black ivory horn on their head. In stark contrast to the healing powers of their celestial counterparts, any creature pierced by a cungye's horn will have its life force siphoned away, invigorating the cungye with unholy ferocity. The horn can also unleash a terrible curse, reducing those subjected to it to nothing more than sickly husks.
+
+***Beacon of Ruin.***
+Cungye are despised by other horned celestials and despise them in turn. Some say this is because a cungye can be created through a dark ritual involving the horn of a unicorn or kirin. Others state that their diametric natures drive them to hate and seek to destroy each other. Whenever demonic forces from the lower planes assault the sanctuaries and forests of the mortal planes guarded by celestials, a cungye undoubtedly leads the charge. There is nothing a cungye yearns for more than to tear down the protective barriers of such havens and let destruction run rampant through once tranquil lands.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+***Coveted Horns.***
+Cungye command much respect and sway among demons and foul-hearted mortals alike. They are more intelligent and charismatic than the average demon despite their brutish appearance. Their ability to shatter the defenses of divine sanctuaries, which most lesser demons would never hope to assail, helps them gather influence. These factors mean that they either lead small bands of weaker demons and cultists or act as lieutenants to demon lords. The sight of a cungye with a celestial impaled upon its horn is enough to inspire any unholy army into a frenzy. However, their presence also stirs greed within their disciples, who seek to take the power of the cungye's horn for their own purposes.
+
+There are many accounts of wizards, warlocks, and lesser demons managing to remove or steal the cungye's horn through twisted spells and trickery. This is a dangerous endeavor, as a cungye can function for some time without its horn and remains immensely dangerous, though over time, it withers away into nothing or sometimes into a shadow demon. The horns are often used as components in powerful rituals or fashioned into weapons with the life-draining properties of the cungye. Many black markets and auction houses with powerful occult items will have cungye horns among their collections.
+
+
+<img src='https://i.ibb.co/SByH73f/sanctuary-smasher.png' style='position:absolute; top:-2px; right:-0px; width:820px; transform:rotate(0deg);filter:opacity(100%);transform:scaleX(1);'/>
+
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:270px; right:-40px; width:900px; transform:rotate(2deg)' />
+
+\pagebreakNum
+
+___
+___
+> ##  Cungye
+> *Large fiend (demon), chaotic evil*
+> ___
+> - **Armor Class** 17 (natural armor)
+> - **Hit Points** 104 (11d10 + 44)
+> - **Speed** 40 ft., climb 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|10 (0)|18 (+4)|11 (0)|17 (+3)|16 (+3)|
+>___
+> - **Skills** Intimidation +7, Stealth +4
+> - **Damage Resistances** cold, fire, lightning
+> - **Damage Immunities** poison
+> - **Condition Immunities** poisoned
+> - **Senses** darkvision 120 ft., passive Perception 13
+> - **Languages** Abyssal, telepathy 120 ft.
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+>
+> ***Keen Hearing and Smell.*** The cungye has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+> ***Spider Climb.*** The cungye can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+>
+> ***Magic Resistance.*** The cungye has advantage on saving throws against spells and other magical effects.
+>
+> ***Magic Weapons.*** The weapon attacks of the Cungye are magical.
+> 
+> ### Actions
+> ***Multiattack.*** The cungye makes two claw attacks. If the cungye has temporary hit points from its gore attack, it makes three claw attacks instead.
+>
+> ***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 22 (3d10 + 6) slashing damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 28 (4d10 + 6) piercing damage. If the cungye moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 22 (4d10) piercing damage. If the target is Large or smaller, it is impaled on the cungye's horn, causing it to be grappled (escape DC 18). Until the grapple ends, the target is restrained and takes 22 (4d10) necrotic damage at the start of each of the cungye's turns. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and the cungye gains temporary hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. The cungye can't grapple other creatures with its Gore while it has a creature grappled this way.
+>
+> ***Tide of Languish (1/Day).*** The cungye chooses four creatures in a 30-foot cube within 120 feet of it. Each target must succeed on a DC 15 Charisma saving throw or fall prone and become cursed for the next 10 minutes. While cursed, the creature can't stand up and its Strength and Dexterity scores are reduced to 1. At the end of each of its turns, the affected creature can attempt another Charisma saving throw, ending the curse on a success.
+>
+> ***Innate Spellcasting.*** The cungye's innate spellcasting ability is Charisma (spell save DC 15). The cungye can innately cast the following spells, requiring no components:
+>
+> ***At will:*** *detect evil and good, protection from evil and good*
+>
+> ***1/day each:*** *dispel evil and good, dispel magic (5th level), locate creature*
+
+
+<br>
+
+### Hornless Cungye
+
+ Through the casting of powerful spells or twisted surgery, a cungye's horn can be stolen. A cungye can live for 3 + 2d4 days without its horn before it dies and returns to the abyss as a demon with a Challenge Rating (CR) of 4 or less. While it is alive, it is a CR 7 creature, but it loses its gore attack, innate spellcasting, and its Tide of Languish ability. The <br> horn is a magical item worth 500 gp that can be forged <br> into a *sword of life stealing* by someone with proficiency <br> in smith's tools using at least 300 gp worth of smithing supplies.
+
+
+
+### Cungye Tactics
+If a cungye is unable to reach any creature or it sees <br> three or more creatures grouped together, it will use <br> its Tide of Languish ability. Otherwise, it immediately <br> gores the first target it can find, aiming for the one <br> with the lowest AC. As long as it has a target <br> grappled by its horn, it uses its claw attacks.
+
+<img src='https://i.ibb.co/hyH4Ffw/blackblade.png' style='position:absolute; bottom:-0px; right:-55px; width:560px; transform: scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:45px;top:5px;height:1400px;width:1416px;transform:rotate(281deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-390px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Cungye Adventure Hooks
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1 | **Sanctuary Under Siege:** The players are called to defend a celestial woodland sanctuary under attack by demonic forces led by a cungye. They must fortify defenses, rescue inhabitants, and ultimately confront the cungye before it can breach the sanctuary's heart and spread its ruinous influence. |
+|  2  |**Cursed Caravan:** A merchant caravan is transporting a cungye horn to a black market auction. The players are hired to intercept the caravan and secure the horn, facing not only the merchant's guards but also demonic forces seeking to reclaim the stolen artifact.|
+|  3  |**Unholy Festival:** A village has been taken over by a cult worshipping a cungye, and a grand festival is planned to summon more demonic forces. The players must disrupt the festival, save the villagers, and defeat the cungye leading the cult.  |
+|  4  | **The Cungye's Revenge:** The cungye, weakened but determined, seeks the players' aid in reclaiming its horn. In exchange, it offers valuable information on an impending demonic invasion, turning a reluctant alliance into a pivotal battle against its treacherous lieutenant.  |
+
+### Rhino Art Credit
+* Crashing Footfalls - Dan Scott, Wizards of the Coast
+* Rhino- - YW Tang, Wizards of the Coast
+* Rhino Token -  Aaron Miller, Wizards of the Coast
+* Stampeding Rhino - Steven Belledin, Wizards of the Coast
+* Sanctuary Smasher - Mathias Kollros, Wizards of the Coast
+* Blackblade Reforged - Chris Rahn, Wizards of the Coast
+* Invasion of Lorwyn - Dan Scott, Wizards of the Coast
+
+\columnbreak
+
+<br>
+
+> ##### Harvesting The Cungye's Horn
+> The following looting information relates to harvesting everything besides the cungye's horn. You can have the players make a skill check to harvest the horn similar to the ones described below or simply allow them to take it from the cungye's corpse. 
+
+<br>
+
+### Cungye Loot
+The valuable items looted from cungye will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide of a cungye. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Cungye Loot Table
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Cungye Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 50gp Item |
+|  8-12 | 1d4(2) 50gp Items  | 
+|  13-17 | 1 100gp Item  |  
+|  18-22 | 1d4(2) 100gp Items |  
+|  23+ |  1 200gp Item |  
+
+
+#### Example Cungye Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide  example names.
+
+##### Example Cungye Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Cungye Bone |  Cungye Bone |  Prime Cungye Bone  | 
+| 2 (Flesh)  | Stringy Cungye Meat| Cungye Meat|  Prime Grootslang Meat  | 
+| 3 <br> (Fluid)  | Clotted Cungye Blood|  Cungye Blood |  Prime Cungye Blood  | 
+| 4 <br> (Hide) | Tattered Cungye Hide| Cungye Hide |  Prime Cungye Hide |
+
+<img src='https://i.ibb.co/mqZ2YR6/invasion-of-lorwyn.jpg' style='position:absolute; top:-10px; left:-40px; width:570px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-580px;top:-0px;height:1400px;width:1416px;transform:rotate(101deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:95px; right:-20px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+\pagebreakNum
+
+<br><br><br><br>
+
+## Tigers
 The largest and deadliest of all cats, <br> tigers are the kings of their domain. <br> Their power and beauty elevate <br> them to an almost mythical status <br> amongst many humanoids.  Some <br> view them as the wrath of the gods <br> made flesh, while others see them <br> as the ultimate predators against which one can <br> truly test their metal. 
 
 ***Predators Supreme.*** Tigers can reach over 10 <br>  feet in length, and their intensely muscular bodies <br> can weigh nearly 700 pounds.  Due to their sheer <br> mass and power, few creatures are safe from a <br> tiger's predation. Thanks to the tiger's striped <br> camouflage and long pouncing distances, even animals <br> large and powerful enough to pose a threat to a tiger rarely notice it in time to mount an effective defense. Thanks to their deadly ambush capabilities, tigers can hunt down larger creatures as dangerous as mountain gorillas and even brown bears.  
@@ -3198,7 +3492,7 @@ Once a tiger surprises its prey with a pounce, it will knock its victim prone an
 
 ***Maneaters.*** While tigers primarily hunt animals living across jungles, forests, and occasionally mountains, they often hunt stray humanoids when the opportunity presents itself. A lone traveling humanoid will usually be seen as an easy meal to a tiger, and some may even be bold enough to attempt to pick off a humanoid traveling with a group.  
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 Some notorious tigers take a personal liking toward hunting humanoids. A tiger that has been "wronged"  by someone will often make a point of hunting down and exacting vengeance upon the offender. These offenders are usually individuals who injured the tiger in a previous encounter or stole one of its kills. Other tigers will decide to make humanoids their primary prey.   These tigers will stalk the outskirts of isolated villages and pick off stray inhabitants, leaving the population terror-stricken.
 
@@ -3241,8 +3535,7 @@ ___
 <img src='https://preview.ibb.co/byzgZx/JIbLHii.png' style='position:absolute; top:-215px; right:-45px; width:1100px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 
-
-\pagebreak
+\pagebreakNum
 
 &emsp;***Dire Tigers.*** These primeval terrors represent the dangerous aspects of the tiger amplified to a greater level of deadliness.  They are larger and more muscular than other tigers, reaching nearly 900 pounds.  They are bolder than other tigers and attack humanoids without hesitation, even those traveling in groups.  They are more resilient than other tigers, and even groups of veteran hunters often fail to slay these mighty beasts.
 
@@ -3380,7 +3673,7 @@ style='position:absolute;top:-240px;left:-100px;width:916px;; transform:rotate(2
 
 \pagebreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Tigers in Your Adventures
 The following tables provide some ways to incorporate tigers and weretigers into your adventures. 
@@ -3417,7 +3710,7 @@ The following tables provide some ways to incorporate tigers and weretigers into
 |  8  | A corrupt group of nobles has been infected with lycanthropy, turning them into **weretigers**.  They now regularly hunt commoners for sport.   |
 
 
-### Art Credit
+### Tiger Art Credit
 * Stalking Tiger - Terese Nielsen, Wizards of the Coast
 * Sabertooth Mauler - Randy Vargas, Wizards of the Coast
 * Jedit Ojanen of Efrava - Carl Critchlow, Wizards of the Coast
@@ -3430,7 +3723,7 @@ The following tables provide some ways to incorporate tigers and weretigers into
 
 <img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:-50px; right:-100px; width:920px; transform:rotate(0deg);filter:opacity(20%);'/>
 
-<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:130px; right:-00px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
+<img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:145px; right:-00px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 <img src='https://image.ibb.co/hw1dEx/gF3cPUL.png' style='position:absolute; bottom:0px; right:-00px; width:820px; transform:rotate(0deg);filter:opacity(100%);'/>
 
@@ -3457,7 +3750,6 @@ Those who catch the attention of a wolf pack will often be oblivious to their pe
 src='https://www.gmbinder.com/images/rNOAD8A.png'
 style='position:absolute;top:110px;left:-50px;width:1000px;transform:rotate(-15deg)' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:698px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
 
@@ -3754,7 +4046,7 @@ If you don't want to require a check on the part of the players, you can instead
 |  20-24 | 2d4(5) 5gp Items  |  
 |  25+   | 1d6(3) 10gp Items |
 
-### Art Credit
+### Wolf Art Credit
 * Sarulf's Packmate - Ilse Gort, Wizards of the Coast
 * Wolf Token - Raoul Vitale, Wizards of the Coast
 * Ascendant Packleader - Alessandra Pisano, Wizards of the Coast
@@ -3779,50 +4071,68 @@ If you don't want to require a check on the part of the players, you can instead
 # Revision Numbers
 ## Referenced Content
 ### Player Options
-* Druid Circle: Circle of Mountains 1.0.0
+* Druid Circle: Circle of Grassland 1.0.0
+
+#### New Spells
+* Incantation of Protection 1.0.0
+* Incantation of Zeal 1.0.0
+
+#### New Conditions
+* Quickened 1.0.0
+
 
 ### Creatures
-* Ape Invoker 1.0.0
-* Gorilla 1.0.0
-* Giant Ape 1.1.0
-* Jufu 1.0.1
-* Titanic Ape 1.1.1
-* Bighorn Sheep 1.0.0
-* Dire Bighorn 1.0.0
-* Domestic Goat, Small 1.0.0
-* Domestic Goat, Medium 1.0.0
-* Mountain Goat 1.0.0
-* Terror Goat 1.0.0
-* Condor 1.0.0
-* Argentavis 1.0.0
-* Dread Argentavis 1.0.0
-* Snow Leopard 1.0.0
-* Dire Snow Leopard 1.0.0
-* Frost Saber Leopard 1.0.0
+* Lesser Black Bear 1.0.0
+* Greater Black Bear 1.0.0
+* Brown Bear 1.0.0
+* Grizzly Bear 1.0.1
+* Arctotherium 1.0.0
+* Cheetah 1.0.0
+* Giant Cheetah 1.0.0
+* Zephyr Fang 1.0.0
+* Fallow Deer 1.0.0
+* Elk 1.0.0
+* Megaloceros 1.0.0
+* Dwarf Elephant 1.0.0
+* Savanna Elephant 1.0.0
+* Palaeoloxodon 1.0.0
+* Lion 1.0.0
+* Dire Lion 1.0.0
+* Sea Cat 1.0.0
+* Bronzehide Lion 1.0.0
+* Fiendpact Lion 1.0.0
+* Oathsworn Lion 1.0.0
+* Owl 1.0.0
+* Great Horned Owl 1.0.0
+* Giant Owl 1.0.0
+* Monstrous Owl 1.0.0
+* Owlbear 1.0.0
+* Snowy Owlbear 1.0.0
+* Cursed Strix 1.0.0
+* Jungle Rhinoceros 1.0.0
+* White Rhinoceros 1.0.0
+* Elasmotherium 1.0.0
+* Cungye 1.0.0
+* Tiger 1.0.0
+* Dire Tiger 1.0.0
+* Weretiger 1.0.0
+* Wolf 1.0.0
+* Dire Wolf 1.0.0
+* Ascendant Packleader 1.0.0
+
+\columnbreak
 
 ## Local Content
-* Mountain Navigation 1.0.0
 
-### Creatures
-* Stonehorn 1.0.0
-* Icehorn 1.0.0
-* Yeti, Dzu-Teh 1.0.0
-* Yeti, Meh-Teh 1.0.0
-* Yeti Stalker 1.0.0
-* Yeti, Teh-Lma 1.0.0
-* Zheng 1.0.0
-* Zheng Mountain Breaker 1.0.0
-* Zheng Summit Sovereign 1.0.0
-* Ape Invoker 1.0.0
-
-### Encounters
-* Rise of the Gorilla God 1.0.0
+### Grasslands Travel
+* Travel Activities 1.0.0
+* Flash Floods 1.0.0
+* Sinkholes 1.0.0
+* Tornadoes 1.0.0
+* Wildfires 1.0.0
 
 \pagebreakNum
 
 ### Change Log
 #### 1.0.0
 * Document release
-
-#### 1.1.0
-* Add content reference numbers
