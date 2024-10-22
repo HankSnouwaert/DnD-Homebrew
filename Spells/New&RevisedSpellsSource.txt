@@ -73,6 +73,22 @@ A creature covered in the acid takes 6d4 acid damage at the end of its turn.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the initial acid damage, initial bludgeoning damage, and the acid damage taken at the end of an acid-covered creature’s turn are all increased by 1d4 for each slot level above 6th.
 
+#### Act of Treason 0.0.0
+*3rd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+___
+
+Choose one creature with an Intelligence score of 6 or higher that you can see within range. The target must succeed on a Wisdom saving throw or become charmed by you for the duration. While charmed in this way, the creature is overcome by the fires of treachery.
+
+On each of the charmed target’s turns, it must move up to its speed toward a creature you mentally choose, by the safest available route, and use its action to make a melee attack against that creature if it can. If you choose no creature, the target can act normally on its turn.
+
+The target can make a Wisdom saving throw at the end of each of its turns, ending the spell on itself on a success.
+
 #### Amber Spear 1.0.0
 
 *3rd-level evocation*
@@ -88,6 +104,8 @@ You conjure a large amber hunting spear and launch it in a straight line at a po
 
 ***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
 
+\pagebreakNum
+
 #### Aspect of Dread 1.0.1
 *2nd-level enchantment*
 ___
@@ -102,8 +120,6 @@ You envelop a creature you can see within range in a terrifying aura. Every othe
 A creature frightened in this way can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself with a success.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the radius of the aura increases by 10 feet for each slot level above 2nd.
-
-\pagebreakNum
 
 #### Aspect of the Beast 1.0.0
 
@@ -126,16 +142,17 @@ Upon touching a willing creature, you imbue it with bestial might. For the durat
 
 \pagebreakNum
 
-#### Barkskin (Revised) 0.0.0 
+#### Barkskin (Revised) 1.0.0 
 *2nd-level transmutation*
-___
-- **Casting Time:**  1 Action
+
+- **Casting Time:** 1 action
 - **Range:** Touch
-- **Components:** V, S, M (a handful of oak bark)
-- **Duration:** 8 hours
-- **Classes:** Druid, Ranger
-___
-You touch a willing creature who isn’t wearing armor, and a the target’s skin has a rough, bark-like appearance, until the spell ends. The target’s base AC becomes 15 + its Dexterity modifier (max 2). The spell ends if the target dons armor or if you dismiss the spell as an action. additional while the creature is in foliage, Wisdom (Perception) checks made to see it have disadvantage, and it has advantage on Dexterity (Stealth) checks made to hide
+- **Components:** V, S, M (A handful of oak bark)
+- **Duration:** 1 hour
+- **Classes:**  Druid, Ranger
+
+You touch a willing creature who isn't wearing armor, and the target’s skin takes on a rough, bark-like appearance.
+The target's base AC becomes 15 + Dex modifier (max 2), and it has advantage on Dexterity (Stealth) checks made to hide using foliage and may do so even if it is only lightly obscured while hiding this way. The spell ends if the target dons armor or if you dismiss the spell as an action.
 
 #### Bestial Spirit 1.0.0
 
@@ -198,33 +215,17 @@ If any of this spell's area overlaps with an area of light created by a spell of
 
 \pagebreakNum
 
-#### Bolt of Change 1.0.0
+#### Bolt of Change 2.0.0
 *4th-level transmutation*
 ___
 - **Casting Time:** 1 action
 - **Range:** 100 feet
-- **Components:** V, S, M, (a caterpillar cocoon)
+- **Components:** V, S, M, (A caterpillar cocoon)
 - **Duration:**   1 minute
 - **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
-You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d10 force damage and must make a Charisma saving throw.  On a failed save, the target suffers one of the random mutations described in the Mutation Table below.  The target repeats the saving throw at the end of each of its turns, ending all mutations affecting it on a success. 
-
-A creature can't suffer from two instances of the same mutation at once.
-
-
-##### Mutation Table
-| d6  | Mutation |  Creature Effect  |
-|:---:|:---------:| :---------:|
-|  1  |  Wild Spasms | The target can't take reactions, and on each of its turns it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
-|  2  | Degeneration  | The target's form becomes unstable.  The first time it takes damage each turn, it takes an extra 1d10 force damage.|
-|  3  | Twisted Arms |  The target can no longer wield weapons or cast spells with somatic components and it has disadvantage on all weapon attack rolls.|
-|  4  | Inverted Eyes | The target is blinded.|
-|  5  | Gelatinous Legs | The target falls prone as its legs can no longer support its weight. At the end of each of its turns, its legs give out again, causing it to fall prone again.|
-|  6  | Regeneration | The target regains 10 hit points at the start of its turn.  The target only dies if it starts its turn with 0 hit points and doesn't regenerate any hit points.|
-
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.
+You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d12 force damage and must make a Charisma saving throw.  On a failed save, the target suffers a mutation (condition described at end of document).
 
 \columnbreak
 
@@ -243,6 +244,81 @@ ___
 Choose a creature that you can see within range. The target must succeed on a Constitution saving throw or become brittle for the duration. While a creature is brittle, any attack that hits the creature is a critical hit. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target. Effects and spells that remove the paralyzed condition will remove the brittle condition.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
+
+#### Burning Bolts 1.0.0
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V, S, M (A burnt stick)
+- **Duration:** Instant
+- **Classes:**  Sorcerer, Wizard
+
+Choose up to three directions. A line of flames 120 feet long and 5 feet wide emanates from you in each direction you choose. Each creature in a line must make a Dexterity saving throw. A creature takes 8d8 fire damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one line is affected only once.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can create one additional line of flames for each slot level above 6th.
+
+#### Burning Hands (Revised) 0.0.0
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (20-foot cone)
+- **Components:** V, S
+- **Duration:** Instant
+- **Classes:**  Sorcerer, Wizard
+
+As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 20-foot cone must make a Dexterity saving throw. A creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 you may increases the cone's size by 10 feet for each slot level above 1st.
+
+\pagebreakNum
+
+####  Brain Burster 1.0.0
+*1st-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+
+You reach into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 2d8 psychic  damage, and until the end of your next turn, it has disadvantage on Intelligence, Wisdom, and Charisma  checks, as well as on Constitution saving throws made to maintain concentration. 
+Additionally, if the creature  attempts to cast a spell of 1st level or higher before the end of your next turn, it must make an Intelligence saving throw. On a failed save, the spell dissipates with no effect, and the action, bonus action, or reaction used to cast it is wasted. If that spell was cast with a spell slot or other resource, the slot or resource isn’t expended.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+
+####  Brutal Glare 1.0.0
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Sorcerer
+
+You fixate on two points within the spell's range, no more than 30 feet apart, that you can see. Beams of glowing force erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the force damage increases by 1d10, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 2nd.
+
+\columnbreak
+
+#### Burning Head 1.0.0
+*5th-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V, S, M (A bit of tallow, a pinch of brimstone, and a dusting of powdered iron)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+
+A 5-foot-diameter flaming head appears in an unoccupied space of your choice within range and lasts for the duration. When the head appears, it lets out a terrifying screech. Creatures of your choice that can see and hear the head within 100 feet of it must succeed on a Wisdom saving throw or become frightened of the head until the spell ends. If a frightened creature ends its turn in a location where it doesn’t have line of sight to the head, it can repeat the saving throw, ending the effect on itself on a success.
+
+**Contact With The Head.** Any creature that ends its turn within 5 feet of the head must make a Dexterity saving throw. The creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one. 
+
+**Moving The Head.** As a bonus action, you can move the head up to 30 feet. If you ram the head into a creature, that creature must make the saving throw against the head’s damage, and the head stops moving this turn. When you move the head, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The head ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.
+
 
 #### Burning Gaze 2.0.0
 *1st-level evocation*
@@ -289,6 +365,38 @@ ___
 
 Unleashing a primal howl, you stir the wild fervor within your allies. You and up to three other creatures you are aware of within range that can hear you are quickened until the start of your next turn. While quickened this way, these creatures gain advantage on attack rolls against any enemy if at least one of their allies is within 5 feet of that enemy and the ally isn't incapacitated.
 
+\columnbreak
+
+#### Chaos Bolt (Revised) 0.0.0
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:** Instant
+- **Classes:**  Sorcerer
+
+You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d12 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.
+
+| d8  |  Damage Type  |
+|:---:|:---------:|
+|  1  | Acid |
+|  2  | Cold|
+|  3  | Fire|
+|  4  | Force|
+|  5  | Lightning|
+|  6  | Poison | 
+|  7  | Psychic |
+|  8  | Thunder |
+
+If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 60 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.
+
+A creature can be targeted only once by each casting of this spell.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d12 extra damage of the type rolled for each slot level above 1st.
+
+\pagebreakNum
+
 #### Chaos Storm 1.0.0
 *9th-level evocation*
 ___
@@ -300,13 +408,11 @@ ___
 ___
 You open a gateway to a realm of pure chaos and untold destruction.  A 30-foot-radius sphere of chaotic shifting colors appears centered on a point within range that lasts for the spell's duration.  This sphere is filled with indescribable noises that can be heard up to 100 feet away.  No light, magical or otherwise, can illuminate the area, and creatures fully within the area are blinded and deafened.  A creature moving through this area must spend 2 feet of movement for every 1 foot it moves.
 
-\columnbreak
-
 Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw.  It takes 10d12 force damage on a failed save or half as much damage on a successful one.  Any nonmagical object that is not bearing worn or carried in the area takes 10d12 force damage at the start of your turn.  A creature or object reduced to 0 hit points by this damage is disintegrated and sucked into the chaotic rift.  A creature killed this way can be brought back to life only by means of a *true resurrection* or a *wish* spell.
 
-On each of your turns, until the spell ends, you can use your action to open another gateway, targeting a point within 100 feet of the original gate.  A creature in the area of more than one gateway is only affected once.  You can also close a gateway as a bonus action or as a reaction to a creature entering its area.
+On each of your turns, until the spell ends, you can use your action to open another gateway, targeting point within 100 feet of the original gate.  A creature in the area of more than one gateway is only affected once.  You can also close a gateway as a bonus action or as a reaction to a creature entering its area.
 
-If you drop concentration on the spell early, make a DC 20 ability check using your spellcasting ability.  On a failure, you open another gate centered on yourself, and the spell continues for its full duration without your control.  During this time, you can no longer open additional gateways or close existing ones, and the radius of each existing gateway expands by 10 feet at the start of each of your turns.
+If you drop concentration on the spell early, make a DC 20 ability check using your spellcasting ability.  On a failure, you open another gate centered on yourself, and the spell continues for its full duration outside of your control.  During this time, you can no longer open additional gateways or close existing ones, and the radius of each existing gateway expands by 10 feet at the start of each of your turns.
 
 #### Compelled Duel (Revised) 0.0.0
 *1st-level enchantment*
@@ -320,9 +426,9 @@ ___
 
 You attempt to compel a creature into a duel.  One creature that you can see within range must make a Wisdom saving throw.  The creature fails the saving throw automatically if it hasn't been the target of harmful effects from creatures friendly to you within the last hour.  On a failed save, the creature is drawn to you, compelled by your divine demand.  For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this spell doesn't restrict the target's movement for that turn.
 
-The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.
+\columnbreak
 
-\pagebreakNum
+The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.
 
 #### Comet's Call 1.0.0
 *5th-level evocation*
@@ -341,6 +447,44 @@ At the start of each of your turns, roll a d6. On a roll of 1-3, nothing occurs.
 Each creature or object the comet comes in contact with, as well as those within the explosion's area, must make a Dexterity saving throw, taking the comet's full damage on a failed save, and half as much on a success. The comet's base damage is 5d8 fire damage plus 5d8 bludgeoning damage. Each time you roll to see if the comet appears and it doesn't, the fire and bludgeoning damage it deals each increase by 1d8. The spell ends after the comet lands.
 
 ***At Higher Levels.*** Casting this spell using a 6th-level spell slot or higher increases either the fire damage or the bludgeoning damage (your choice) by 1d8 for every slot level above 5th.
+
+\pagebreakNum
+
+#### Commandment of Inertia 1.0.0
+
+*3rd-level transmutation*
+
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Components:** V, S, M (A bit of glue)
+- **Duration:**  Concentration, up to 1 hour
+- **Classes:**  Artificer
+
+You touch a construct creature or an object with moving parts that weighs no more than 4,000 pounds and is no larger than a 20-foot cube. 
+
+**Construct.** A construct targeted this way must make a Dexterity saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends on the target.
+
+**Object.** An object targeted this way becomes jammed, and its internal parts are sealed together. For instance, a chest cannot be opened, a catapult cannot be fired, and a clock will stop turning. (If there is ever any doubt as to how an object will be impeded, imagine what would happen if glue were poured into all the crevices of the object; the spell should have the same effect.)
+
+#### Conflagration 1.0.0
+
+*4th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 ft
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Wizard
+
+Choose one creature you have seen within the last minute. If the creature is within range, it is engulfed in an inferno. The target takes 4d6 fire damage and is set on fire for the spell’s duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet, and it can’t benefit from being invisible.
+
+At the end of each of the creature's turns while on fire, it takes 4d6 fire damage.
+
+**Extinguishing The Fire.** A creature can use its action to douse the fire by making a Dexterity check against your spell save DC. On a success, the flames are extinguished. The flames are also extinguished if the creature is fully submerged in water or standing in an area with strong wind (at least 20 miles per hour). 
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. All the creatures must be within 30 feet of each other when you target them.
+
+\columnbreak
 
 #### Curse of the Midnight Wind 1.1.0
 *3rd-level enchantment*
@@ -362,7 +506,7 @@ At the end of its turn, an affected creature can attempt another Charisma saving
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
 
-\columnbreak
+\pagebreakNum
 
 #### Creeping Strike 1.0.0
 *Evocation cantrip*
@@ -390,6 +534,8 @@ Your weapon becomes swathed in purple light, and the next time you hit a creatur
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the baseline damage and the extra damage increase by 1d4 for each slot level above 2nd.
 
+
+
 #### Crippling Pain 1.0.0
 *3rd-level necromancy*
 
@@ -405,7 +551,7 @@ While wracked with pain, every time the creature takes a move, an action, a bonu
 
 ***At Higher Levels.***   When you cast this spell using a spell slot of 4th level or higher, the initial damage is increases by 2d6 for each slot level above 3rd.
 
-\pagebreakNum
+\columnbreak
 
 #### Creeping Strike 0.0.0
 *Evocation cantrip*
@@ -433,6 +579,8 @@ Your weapon becomes swathed in purple light, and the next time you hit a creatur
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the baseline damage and the extra damage increase by 1d4 for each slot level above 2nd.
 
+
+
 #### Crippling Pain 1.0.0
 *3rd-level necromancy*
 
@@ -448,7 +596,7 @@ While wracked with pain, every time the creature takes a move, an action, a bonu
 
 ***At Higher Levels.***   When you cast this spell using a spell slot of 4th level or higher, the initial damage is increases by 2d6 for each slot level above 3rd.
 
-\columnbreak
+\pagebreakNum
 
 #### Crown of Madness (Revised) 0.0.0
 *2nd-level enchantment*
@@ -464,6 +612,8 @@ One creature of your choice that you can see within range must succeed on a Wisd
 On each of its turns, the charmed target must move up to its speed and use its action to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature. The charmed creature won't move into obviously dangerous hazards.
 
 On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Additionally, the target can make a Wisdom saving throw at the end of each of its turns, ending the effects of the spell on a success.
+
+
 
 #### Cursed Blades 1.0.0
 *1st-level enchantment*
@@ -506,7 +656,7 @@ You send a creature into a frenzy that pushes its body beyond its limits. Choose
 
 ***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. All the creatures must be within 30 feet of each other when you target them.
 
-#### Deathly Frost 0.0.0
+#### Deathly Frost 1.0.0
 *5th-level evocation*
 ___
 - **Casting Time:** 1 action
@@ -559,6 +709,42 @@ At the end of each of its turns, the target can make another Intelligence saving
 
 \pagebreakNum
 
+#### Dwellers Below 1.0.0
+*9th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 ft
+- **Components:** V, S, M
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Druid
+
+Grasping limbs made of vines and branches sprout from the ground in a 30-foot square that is at least 10 feet deep, centered on a point within range. For the duration, these plants turn the ground in the area into difficult terrain. You can designate any number of creatures you can see to be unaffected by the spell.
+
+**Grabbing Creatures With The Limbs.** When the limbs first appear, each creature of your choice that you can see within 60 feet of the spell's origin point must make a Dexterity or Strength saving throw (its choice) or take 10d6 bludgeoning damage and be pulled 30 feet toward the center of the area and become restrained. 
+
+Subsequently, any creature that ends its turn in the spell's area or ends its turn restrained by the spell must also make this saving throw.
+
+**Being Restrained By The Limbs.** A creature restrained by this spell cannot use teleportation or interplanar travel. If damage from the spell reduces a target to 0 hit points while it is in the difficult terrain, the creature is pulled underground, and its body is destroyed along with everything it is wearing and carrying, leaving no trace except for magic items, which come to the surface after the spell ends. 
+
+Any creature, including the restrained one, can use its action to free the restrained creature by succeeding on a Strength check against your spell save DC.
+
+\pagebreakNum
+
+#### Earth Blood 1.0.0
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute.
+- **Classes:**  Druid, Ranger
+
+A willing creature you can see within range is imbued with the resilience of the earth. Until the spell ends, the creature gains temporary hit points equal to your spellcasting ability modifier at the end of each of your turns. These temporary hit points last for 1 minute.
+
+Additionally, when the target takes damage, you can use your reaction to end the spell on the damaged creature to halve any non-force, non-psychic, non-necrotic, or non-radiant damage it takes.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
+
 #### Elemental Fist 0.0.0
 *2nd-level transmutation*
 ___
@@ -575,6 +761,8 @@ Choose one of the following damage types: acid, cold, fire, lightning, or thunde
 * The target's unarmed strikes are considered magical and grant a +1 bonus to both attack and damage rolls.
 
 ***At Higher Levels.*** When you cast this spell using a 4th or 5th-level spell slot, the bonus to attack and damage rolls increases to +2, and the added damage becomes 2d4. Using a 6th-level spell slot or higher increases the bonus to +3 and the damage to 3d4.
+
+\columnbreak
 
 #### Elemental Weapon (Revised) 1.0.0
 *3nd-level transmutation*
@@ -604,7 +792,25 @@ ___
 ___
 Vengeful flames strike out at a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 fire damage. When you make the attack, you can choose to gain advantage on the attack roll. If you do so, attack rolls against you have advantage until the start of your next turn.
 
+#### Final Transmutation 1.0.0
 
+*9th-level transmutation*
+
+
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V, S, M (A bar of lead)
+- **Duration:**  Concentration, up to 10 minutes
+- **Classes:**  Sorcerer, Wizard, Warlock
+___
+
+You speak a word of power that transforms a creature you can see within range. If the target has 150 hit points or fewer, it is petrified, turning to gold until the spell ends. Otherwise, the spell has no effect.
+
+**Ending The Effect.** A petrified target can make a Constitution saving throw at the start of each of its turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell (including the initial failed save), it remains petrified indefinitely until the condition is cured by other means.
+
+**Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become obsessed with the petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
+
+**Damaging A Petrified Creature.** If a petrified creature is physically damaged or broken during this state, it will manifest the same damage upon being reverted to its original form.
 
 #### Find Hazards (Replaces Find Traps) 0.0.0
 *2nd-level divination*
@@ -616,6 +822,8 @@ ___
 - **Classes:**  Cleric, Druid, Ranger
 ___
 You learn of all hazards within range. You learn of any irregularity in the walls or floors and the location of any trip mechanisms. You also learn of any magic in the area, what locations or objects it affects, and what school of magic it belongs to. Creatures hidden in the area must make a Dexterity saving throw. For each creature that fails, you learn its location and size.
+
+\columnbreak
 
 #### Fireworks 1.0.0
 *4th-level  evocation*
@@ -632,7 +840,7 @@ Each sphere can have a radius of up to 20 feet, and its space is filled with bri
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you create an additional bolt for each slot level above 4th. 
 
-\columnbreak
+
 
 #### Fissure 1.0.0
 *6th-level evocation*
@@ -652,6 +860,8 @@ The fissure deals 50 bludgeoning damage to any structure it comes in contact wit
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
 
+\pagebreakNum
+
 #### Flame Arrows (Revised) 1.0.0
 *2nd-level evocation*
 ___
@@ -666,7 +876,9 @@ You touch up to twelve arrows or bolts. When a target is hit by a ranged weapon 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
 
-\pagebreakNum
+
+
+
 
 #### Flame Blade (Revised) 1.0.0
 *2nd-level evocation*
@@ -683,6 +895,44 @@ You evoke a fiery blade, similar in size and shape to a scimitar, in your free h
 The blade remains for the spell's duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can make the two attacks with the blade again on each of your turns as an action. The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional attack with the blade per action for every two slot levels above 2nd.
+
+\columnbreak
+
+#### Flame Cage 1.0.0
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S, M (A small piece of phosphorus)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Wizard
+
+You choose a point on a solid surface within range, causing a cage made of opaque flames in the shape of a cube to appear. The cube can be up to 30 feet on each side, and it lasts for the duration. 
+
+**Creatures Caught Partially Within the Cage.** When the cage is created, creatures only partially within the cube's area, or those too large to fit inside the area, must choose to be pushed away from the center of the area until they are completely outside the area or move into the cage if they can fit. 
+
+**Creatures In The Cage When It Forms.** Any creature fully within the cage when it forms (including those that chose to move inside it) must make a Dexterity saving throw. A target takes 7d8 fire damage on a failed save, or half as much damage on a successful one. 
+
+**Moving Through The Cage.** A creature takes the 7d8 fire damage when it passes through a side of the cube for the first time on a turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d8 for each slot level above 6th.
+
+#### Foot of The Gods 1.0.0
+*7th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 300 ft.
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Cleric, Druid, Sorcerer
+
+You call forth a massive foot from the heavens to crash down onto the battlefield. You select a point you can see, between 30 to 500 feet above you within range. A 20-foot-long, 10-foot-wide foot appears at the chosen point and immediately descends. The foot passes through any Huge or smaller creatures and objects until it descends 500 feet or hits a solid surface, or a Gargantuan creature or object, at which point the foot rises back up into the sky to where its descent started. As an action on your turn, you can move the foot up to 30 feet, rotate it, and then have the foot descend in the same way.
+
+Each creature or object the foot comes in contact with while descending must make a Dexterity saving throw. On a failed save, a creature takes 6d8 bludgeoning damage, is knocked prone, and can't stand up until the end of its next turn unless it uses all of its movement to do so. The creature is also pushed along with the foot until it rises back up. If a creature that fails the saving throw is already prone, it takes an additional 2d12 bludgeoning damage.
+
+
+
+\pagebreakNum
 
 #### Friends (Revised) 0.0.0
 *Enchantment cantrip*
@@ -714,10 +964,7 @@ Creatures immune to fear automatically succeed on this save.
 
 ***At Higher Levels.*** The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
 
-
-\columnbreak
-
-#### Frost Blade 0.0.0
+#### Frost Blade 1.0.0
 *3rd-level evocation*
 ___
 - **Casting Time:** 1 bonus action
@@ -734,6 +981,8 @@ You invoke a sword of sharp ice in your hand or that of another willing creature
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you may create an additional sword for every two levels above 3rd level.
 
+\columnbreak
+
 #### Frost Nova 2.0.0
 *2nd-level evocation*
 ___
@@ -747,8 +996,6 @@ ___
 You cause a ring of ice and frost to burst out from you to a radius of up to a 15-feet. Each creature other than you in that area must make a Constitution saving throw. On a failed save, a creature takes 2d10 cold damage, and until the end of your next turn, its speed is reduced by 20 feet, and it has disadvantage on weapon attack rolls. On a successful save, a creature takes half as much damage and suffers no other effects.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, both the damage increases by 1d10, and the maximum possible radius increases by 5 feet for each slot level above 3rd.
-
-\pagebreakNum
 
 #### Frozen Tomb 0.0.0
 *5th-level evocation*
@@ -771,6 +1018,33 @@ If you cast this spell on yourself, you do not lose concentration on it as a res
 
 \pagebreakNum
 
+#### Gift of Chaos 0.0.0
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S, M, (A bit of clay)
+- **Duration:**   1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You unleash the power of chaos to warp a creature’s body. The target must make a Charisma saving throw or suffer a mutation (condition described at end of document).
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the target suffers an additional mutation for each slot level above 2nd.
+
+#### Gift of Life 1.0.0
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 ft
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**  Artificer, Bard, Cleric, Druid, Paladin, Ranger
+
+A creature you see with in range regains a number of hit points equal to 4d6 + your spellcasting ability modifier.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 2d6 for each slot level above 2nd.
+
 #### Glean Magic 1.0.0
 *3rd-level divination*
 ___
@@ -789,6 +1063,8 @@ If a spell is successfully stolen, the target loses a spell slot of the spell's 
 
 After stealing a spell, you gain the ability to cast it once as though it were from the same class spell list you used to cast this spell.  When you cast it this way, it does not expend a spell slot, and you cast it at the same spell level at which it was stolen.  You must still supply the stolen spell's required components (including verbal, somatic, and material).  You lose the stolen spell after completing a long rest.
 
+\columnbreak
+
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can attempt to steal a spell if its level is less than or equal to the level of the spell slot you used to cast this spell.
 
 #### Grasping Tide 0.0.0
@@ -802,7 +1078,6 @@ ___
 
 You cause water around you to reach out, grab creatures, and pull them in. Choose up to three target creatures you can see within range and within 30 feet of a body of water that is at least 5 feet long, 5 feet wide, and 1 foot deep and within range. Each chosen creature must make a Dexterity saving throw. On a failed save, the creature takes 3d8 bludgeoning damage and is pulled up to 10 feet closer to the water by grasping tendrils. On a successful save, the creature takes half as much damage and is not pulled.
 
-\columnbreak
 
 #### Grasping Vine (Revised) 0.0.0
 *4th-level conjuration*
@@ -823,6 +1098,8 @@ Until the spell ends, as a bonus action on each of your turns, you can direct th
 The vine has AC 14, 80 hit points, and vulnerability to slashing damage.  When it is reduced to 0 hit points, the spell ends.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the vine gains an additional 20 hit points for each slot level above 4th.
+
+\pagebreakNum
 
 #### Guiding Wind 1.0.0
 *1st-level enchantment*
@@ -854,6 +1131,32 @@ Divining auspicious omens, you grant a creature you can see within range a brief
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
 
+#### Harvest Strike 1.0.0
+*2nd-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 15 feet
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**  Druid, Ranger
+
+You manifest a spectral jade sickle that lashes out at your command toward a creature in range. Make a melee spell attack against the target. On a hit, the creature takes necrotic damage equal to 2d10 + your spellcasting ability modifier. You may then have a willing creature within 60 feet of you that you can see regain hit points equal to the damage dealt.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
+
+####  Here We Go! 1.0.0
+*5th-level enchantment*
+___
+- **Casting Time:** 1 bonus action.
+- **Range:** 60 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Paladin, Ranger, Warlock
+
+You chant, imbuing yourself and up to four creatures you can see with fighty energy. Until the start of your next turn, whenever you or a creature you chose misses with an unarmed strike or weapon attack roll, you may have it reroll the attack. The creature must use the new roll.
+
+\columnbreak
+
 #### Holy Nova 1.0.0
 *4th-level evocation*
 ___
@@ -881,8 +1184,6 @@ ___
 
 You target a creature you can see within range, causing it to collapse into debilitating fits of deranged laughter. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand for the duration. Creatures with an Intelligence score of 4 or less aren't affected.
 
-\columnbreak
-
 At the end of each of your turns for the duration, any creature within 30 feet of the laughing creature that can hear the laughter must succeed on a Wisdom saving throw or become frightened of the laughing creature until the end of its next turn. You can choose any number of creatures you can see to be immune to this effect.
 
 At the end of each of its turns, the laughing creature takes 3d10 force damage and can attempt another Wisdom saving throw. On a success, the spell ends. If this damage reduces the target to 0 hit points, it stabilizes but remains laughing and can no longer attempt saving throws against the spell. If the spell ends while the creature has 0 hit points, it dies.
@@ -891,7 +1192,52 @@ At the end of each of its turns, the laughing creature takes 3d10 force damage a
 
 \pagebreakNum
 
-#### Ice Sheet 0.0.0
+####  Hunting Hound 1.0.0
+
+*5th-level conjuration*
+
+- **Casting Time:** 1 action
+- **Range:** 10 ft
+- **Components:** V, S, M (A golden whistle worth 100 gp)
+- **Duration:**  Concentration, up to 1 hour
+- **Classes:**  Artificer, Ranger
+___
+
+Choose a creature that is familiar to you and that you have seen within the last 30 minutes. You then call forth a mechanical hound, which manifests in an unoccupied space that you can see within range. This **hunting hound** uses the stat block below. The hound is an ally to you and your companions. In combat, the hound shares your initiative count, but it takes its turn immediately after yours. The hound disappears when it drops to 0 hit points or when the spell ends.
+
+**Detecting The Target.** The hound senses the direction to the chosen creature’s location and can see the creature as if it had truesight, as long as the creature is within 1,000 feet of the hound. If the creature is moving, the hound knows the direction of its movement. The hound cannot locate a creature if it is covered in or wearing wolfsbane.
+
+**The Hound's Behavior.** On its turn, the hound moves towards the chosen creature, avoiding any damaging terrain. If it ends its movement more than 5 feet away from the chosen creature, the hound takes the Dash action, moving towards it. If it is within 5 feet of the chosen creature at the end of its movement, the hound takes the Attack action and attacks it. You can give limited commands to the hound (no action required by you) to slow down, stop, return to you, or continue its normal behavior.
+
+If the hound cannot locate the creature, it returns to you. If the creature is dead, it sits by the creature’s remains and follows them if they are moved.
+
+___
+> ## Hunting Hound
+> *Medium construct, unaligned*
+> ___
+> - **Armor Class** 15 (natural armor)
+> - **Hit Points** 35
+> - **Speed** 50 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|17 (+3)|17 (+3)|17 (+3)|3 (-4)|17 (+3|3 (-4)|
+>___
+> - **Senses** passive Perception (your spell save DC)
+> - **Languages** understands the languages you speak
+> - **Challenge** 2 (450 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +2
+> ___
+>
+> ***Pack Tactics.*** The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the hound and the ally isn't incapacitated.
+>
+> ### Actions
+>
+> ***Bite.*** Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a Strength saving against you spell save DC or be knocked prone.
+> 
+
+\pagebreakNum
+
+#### Ice Sheet 1.0.0
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 Action
@@ -909,7 +1255,7 @@ A wave of cold 30 feet long and 15 feet wide emanates from you in a direction yo
 
 **Being Caught In The Water.** If a creature is swimming in an area where ice appears, it must make a Strength saving throw instead or become restrained by ice for the duration. A creature restrained by the ice or another creature that can reach it can also use its action to make a Strength check against your spell save DC. On a success, the target is freed. The target is also freed if any ice where at its location is destroyed. On a successful save, the creature can move below or above the now frozen surface.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the length of the line increases by 10 feet for each slot level above 2nd
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the length of the line increases by 10 feet for each slot level above 2nd.
 
 #### Ice Storm (Revised) 1.1.0
 *4th-level evocation*
@@ -929,7 +1275,7 @@ When the ice storm initially appears or if a creature is inside its area at the 
 
 \columnbreak
 
-#### Icy Tomb 0.0.0
+#### Icy Tomb 1.0.0
 *5th-level evocation*
 ___
 - **Casting Time:** 1 reaction, which you take when you or a creature you can see within range would take damage or make a death saving throw.
@@ -1010,7 +1356,66 @@ A brilliant light emanates from a point within range, forming a 10-foot-radius s
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
+#### Infuse Plant 1.0.0
+*4th-level transmutation*
+
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S, M (Water inside a gold-inlaid vial worth at least 400 gp)
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Druid, Ranger
+
 \columnbreak
+
+You choose a nonmagical plant of Huge size or smaller that you can see within range. The plant comes to life at your command, and you may also have the plant grow up to Huge size if it is smaller. The plant uses the Animated Plant stat block while affected. When you cast the spell, you can choose to imbue the plant with one of the following features: Toxic, Grasping, or Smashing, which determines certain traits in its stat block. If the plant drops to 0 hit points or the spell ends, the plant reverts to its normal form and replants itself in the ground if it is able to.
+
+The plant is an ally to you and your companions. In combat, the plant shares your initiative count but takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any commands, it takes the Dodge action and uses its move to avoid danger.
+
+___
+> ## Animated Plant 
+>*Huge or smaller, unaligned*
+> ___
+> - **Armor Class** 10 + the level of the spell (natural armor)
+> - **Hit Points** 60 + 10 for each spell level above 4th
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|6 (-2)|10 (+0)|10 (0)|14 (+2)|10 (0)|
+>___
+> - **Damage Resistance** bludgeoning, piercing
+> - **Damage Vulnerabilities** fire
+> - **Senses** blindsight 10ft., passive Perception 13
+> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***False Appearance.*** While the plant remains motionless, it is indistinguishable from a normal plant.
+>
+> ***Wild Growth.***  When the plant hits with an attack, it deals an extra 1d10 for each slot level above 4th that was used to cast the spell.
+> 
+> ### Actions
+> 
+> ***Poison Barb. (Toxic from Only)*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 2d10 piercing damage and the target takes 2d10 poison damage.
+>
+> ***Slam. (Smashing from Only)*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 10 ft., one target. *Hit:* 3d10 bludgeoning damage, and it may push the creature 10 feet away if it is smaller than the plant.
+>
+> ***Vine. (Grasping from Only)*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 30 ft., one target. *Hit:* 2d10 piercing damage, and the target is pulled 15 feet towards the plant if the target is smaller than the plant; if it is then within 5 feet of the plant, it becomes grappled (escape DC your spell save).
+
+\pagebreakNum
+
+#### Law of Negation 1.0.0
+
+*2nd-level transmutation*
+
+- **Casting Time:** 1 action
+- **Range:** 90 ft
+- **Components:** V, S, M (A nugget of fool's gold)
+- **Duration:**  Concentration, up to 10 minutes
+- **Classes:**  Artificer, Cleric, Druid, Paladin, Ranger
+
+Choose one non-wondrous magic item you can see within range. The properties and powers of that magic item are suppressed for the duration of the spell—for example, a +1 longsword functions as a nonmagical longsword. If the item is a potion or other consumable, it does nothing upon being consumed. An item under the effect of this spell still counts as a magic item for the purposes of other spells and abilities, such as the *disintegrate* spell.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional magic item for each slot level above 2nd. If you cast this spell using a spell slot of 7th level or higher, you may choose one wondrous magic item as one of your targets.
 
 #### Leap Slam 0.0.0
 *3rd-level transmutation*
@@ -1073,6 +1478,18 @@ ___
 
 Choose up to six willing creatures in a 30-foot-radius sphere centered on a point within range. Until the spell ends, each chosen creature has its speed doubled, gains a +2 bonus to AC, has advantage on Dexterity saving throws, and is quickened.
 
+#### Metal Coat 1.0.0
+
+*1st-level transmutation*
+
+- **Casting Time:** 1 action
+- **Range:** Touch
+- **Components:** V, S, M (a piece of gold thread)
+- **Duration:** 8 hours
+- **Classes:**  Artificer
+
+You touch a willing creature who isn't wearing armor, and the creature becomes covered in a layer of metal until the spell ends. The target's base AC becomes 16, and it has disadvantage on Dexterity (Stealth) checks. The spell ends if the target dons armor or if you dismiss the spell as an action.
+
 \columnbreak
 
 #### Miasma of Pestilence 1.0.0
@@ -1107,6 +1524,21 @@ If a creature takes an action to examine one of the weapons and succeeds on an I
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, you can target one additional weapon for each slot level above 5th.
 
+\pagebreakNum
+
+#### Mind Spike (Revised) 1.0.0
+*2nd-level divination*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 ft.
+- **Components:** V
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Sorcerer, Warlock, Wizard
+
+Choose one creature that you have seen or heard within the last minute. If that creature is within range, the target must make a Wisdom saving throw. On a failed save, the target takes 3d10 psychic damage, or half as much damage on a successful save. Additionally, on a failed save, you always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it’s invisible, it gains no benefit from that condition against you.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
+
 #### Mirror Dance 1.0.0
 *2nd-level conjuration*
 
@@ -1119,7 +1551,20 @@ ___
 You weave a shadowy link between yourself and a willing creature you can see within 30 feet, causing you and the creature to instantly swap places. 
 The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
 
-\pagebreakNum
+#### Molten Silver 1.0.0
+
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V S M (A small piece of sliver)
+- **Duration:**  Instantaneous
+- **Classes:**   Artificer
+___
+
+A line of searing liquid silver up to 30 feet long and 5 feet wide emanates from you in a direction you choose. At the end of the line, the silver spreads out into a 30-foot cone emanating in the direction of the line. Each creature in the line or cone must make a Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage and 4d6 bludgeoning damage; on a successful save, the creature takes half as much damage.
+
+\columnbreak
 
 #### Molten Sphere 0.0.0
 *6th-level conjuration*
@@ -1405,6 +1850,24 @@ At the end of each of its turns, the banished creature takes 3d8 psychic damage 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the pit's dimensions by 10 feet for each slot level above 6th.
 
+#### Plague of Rust 1.0.0
+
+*3rd-level transmutation*
+
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V, S, M (a piece of gold thread)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Artificer, Druid
+
+You choose a creature with metal parts or a Medium or Small manufactured metal object weighing 80 pounds or less, such as a metal weapon, a suit of heavy or medium metal armor, or a metal door lock. A creature targeted by the spell can make a Constitution saving throw, ignoring the effects of the spell on a success.
+
+An affected creature or object receives a -5 penalty to its AC, and any affected armor provides a -5 penalty to the AC it offers. Additionally, any weapon attacks made by an affected creature or using an affected object deal only half damage.
+
+If you concentrate on this spell for the full duration, any nonmagical objects affected by the spell are destroyed, corroding into a pile of rust. A creature under the effects of the spell takes 3d6 necrotic damage at the end of each of its turns and makes a Constitution saving throw. The spell ends on the creature on a successful save.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature or object for each slot level above 3rd. The targets must be within 30 feet of each other when you target them.
+
 #### Primal Dominance 1.0.0
 
 *2nd-level enchantment*
@@ -1419,6 +1882,8 @@ ___
 You emanate a commanding presence, compelling a primal creature to submit. Choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you. If the creature's Intelligence is 8 or higher, the spell has no effect. Otherwise, it must make a Wisdom saving throw. On a failed save, it becomes charmed and frightened by you until the end of your next turn. Regardless of the save's outcome, you gain a +5 bonus to Charisma (Intimidation) and Wisdom (Animal Handling) checks when interacting with that creature until the spell concludes.
 
 ***At Higher Levels.*** When you cast this spell using a 3rd-level spell slot or higher, you can target one additional creature for each slot level above 2nd.
+
+\pagebreakNum
 
 #### Primal Scream 1.0.0
 *3rd-level evocation*
@@ -1436,7 +1901,18 @@ Additionally, the creature releasing the roar regains 3d8 hit points. Constructs
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, both the damage and healing increase by 1d8 for each slot level above 3rd.
 
-\pagebreakNum
+#### Psychic Headbutt 1.0.0
+*3rd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+
+A disruptive bolt of energy emanates from your head toward a creature of your choice within range. Make a melee spell attack against the target. The attack has advantage and cannot have disadvantage if the target is concentrating on a spell. On a hit, the target takes 4d10 force damage. If the creature makes a Constitution saving throw to maintain concentration as a result of this damage, you may choose to set the saving throw DC equal to your spell save DC.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.
 
 #### Puddle of Ooze 1.0.0
 *3rd-level conjuration*
@@ -1451,6 +1927,8 @@ ___
 You cover the ground in a 20-foot radius centered on a point within range with acidic ooze, causing it to become difficult terrain for the duration. When a creature moves into or within the area, it takes 1d4 acid damage for every 5 feet it travels.
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
+
+\columnbreak
 
 ####  Purple Sun 1.0.0
 *9th-level transmutation*
@@ -1511,6 +1989,27 @@ ___
 A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d12 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d12 for each slot level above 1st.
+
+\columnbreak
+
+#### Regrowth 1.0.0
+*6th-level necromancy*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60 ft
+- **Components:** V S M (a diamond <br>worth at least 1,000 gp)
+- **Duration:** Instantaneous
+- **Classes:**  Druid, Cleric
+
+As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 3d6 + your spellcasting ability modifier. 
+
+If you target a creature that has died within the last minute, that creature returns to life with 3d6 + your spellcasting ability modifier hit points. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts.
+
+Any creature targeted by the spell can immediately stand up without using any movement.
+
+If you return one or more creatures to life with this spell, the diamond used to cast the spell is consumed.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d6 for each slot level above 6th.
 
 \pagebreakNum
 
@@ -1631,6 +2130,54 @@ ___
 
 \pagebreakNum
 
+#### Savage Fists 1.0.0
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 hour.
+- **Classes:**  Sorcerer, Druid, Ranger
+
+Your fists become as hard as iron, and you are filled with fighting fury. When you cast this spell, you make an unarmed strike and gain the following benefits for the duration of the spell:
+
+* You can use your spellcasting modifier for the attack and damage rolls of your unarmed strikes, and you can roll a d6 in place of the normal damage of your unarmed strike. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
+
+* You can make an unarmed strike as a bonus action.
+
+* You may use your spellcasting modifier when making Strength checks instead of your Strength modifier.
+
+#### Searing Shard 1.0.0
+
+*1st -level conjuration*
+
+- **Casting Time:** 1 action
+- **Range:** 90 ft
+- **Components:** S, M (A small piece of sliver)
+- **Duration:**  1 round
+- **Classes:**  Artificer
+
+You send a sizzling jagged silver shard from your fingertips flying at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 piercing damage, and the shard embeds in the creature. At the end of each of the creature's turns, it takes 2d8 fire damage if the shard is still embedded.
+
+**Removing The Shard.** A creature within reach can use an action to perform a Wisdom (Medicine) check against your spell save DC to try to remove the shard. On a success, the shard is removed, and on a failure, the shard is still removed, but the creature takes 1d8 slashing damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the piercing, fire, and slashing damage each increase by 1d8 for each slot level above 1st.
+
+#### Scorching Stream (Revised) 0.0.0
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 50
+- **Components:** V, S
+- **Duration:** Instant
+- **Classes:**  Sorcerer, Wizard
+
+A line of roaring flame 50 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.
+
+\columnbreak
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 and you may increases line's length by 10 feet for each slot level above 2nd.
+
 #### Second Sight 1.0.0
 *2nd-level divination*
 ___
@@ -1647,6 +2194,8 @@ Alternatively, if an attack is made against you or a creature you can see within
 
 If multiple effects, such as another instance of this spell or a feature like the Lucky feat, attempt to modify a single roll, they negate each other, resulting in no additional dice being rolled.
 
+
+
 #### Senseless Rage 0.0.0
 *1st-level enchantment*
 ___
@@ -1657,6 +2206,21 @@ ___
 - **Classes:**  Cleric, Sorcerer, Warlock
 ___
 You attempt to trigger a mad frenzy in a creature you can see within range. The creature must succeed on a Wisdom saving throw (the target can choose to fail), or become consumed with rage for the duration of the spell. While enraged this way, any charmed or frightened conditions on the creature are suppressed, its melee attacks deal an extra 1d4 damage on hit, and it can only take actions, bonus actions, and reactions that involve it moving or making an attack.
+
+\pagebreakNum
+
+#### Shield of Thorns 1.0.0
+*5th-level evocation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Druid, Ranger
+
+You touch a willing creature, covering its body in spiked brambles. Whenever a creature within 5 feet of the bramble-covered creature hits it with an attack or starts its turn grappling or being grappled by the bramble-covered creature, the attacker or grappled creature takes 5 piercing damage. Additionally, whenever the bramble-covered creature hits a target with a melee attack or shoves a creature while within 5 feet of it, the target takes 5 piercing damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage of the spell increases by 1 for each slot level above 5th.
 
 #### Shroud of Dusk 1.1.0
 ___
@@ -1672,10 +2236,9 @@ You release a surge of chilling shadows in a 15-foot-long, 5-foot-wide line that
 
 The line's area is then plunged into magical darkness until the end of your next turn. This darkness is impenetrable to darkvision and unaffected by nonmagical light sources.
 
-\columnbreak
-
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 and the length of the line extends by an additional 5 feet for each slot level above 1st.
 
+\columnbreak
 
 #### Skull Storm 1.0.0
 *6th-level necromancy*
@@ -1688,6 +2251,7 @@ ___
 ___
 
 You summon a swirling tempest of skulls in a 15-foot-radius sphere centered on a point within range. This whirlwind lasts for the spell's duration, and its area is lightly obscured and considered difficult terrain. The tempest spreads around corners, seeping through openings large enough for a tiny creature.
+
 When you cast the spell, choose a direction. When the storm first appears, and at the start of each of your turns afterward, the swirling skulls move 30 feet in the chosen direction. Any creature the storm passes though when moving must make a Dexterity saving throw. A creature takes 8d6 piercing damage on a failed save, or half as much on a successful one.
 
 As a bonus action on your turn, you can direct a cluster of skulls from the storm to streak toward a point you can see within 30 feet of the sphere. Once the skulls reach their destination or hit a solid surface, they lash out, biting at everything nearby. Every creature within 5 feet of where they stopped must make a Dexterity saving throw, taking 4d6 piercing damage on a failed save, or half as much on a successful one. The skulls then return to the storm.
@@ -1740,9 +2304,7 @@ You summon a flurry of magic snowballs to bombard your enemies. When you cast th
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional snowball attack per action for every two slot levels above 2nd.
 
-\columnbreak
-
-#### Soul of Winter 0.0.0
+#### Soul of Winter 1.0.0
 *9th-level conjuration*
 ___
 - **Casting Time:** 1 action
@@ -1753,13 +2315,15 @@ ___
 
 A 30-foot-radius sphere of whirling sub-zero cold springs into existence centered on a point you choose within range. The sphere remains for the spell's duration. 
 
+\columnbreak
+
 **Creatures In the Sphere When It's First Cast.** Each creature in the sphere, when it first appears, must succeed on a Strength saving. On a failed save, a creature takes 5d8 cold damage and is restrained by ice for 1 minute. It or another creature within reach of it can use its action to make a Strength check against your spell save, shattering the ice on a success. The ice can also be attacked and destroyed (AC equal to your spell save; HP 20; vulnerability to fire, thunder bludgeoning damage; immunity to cold, poison, and psychic damage). On a successful save, a creature takes half as much damage and isn't restrained.
 
 **Icy Surfaces.** The surfaces within the sphere are coated in ice, making any ground in the area difficult terrain for one minute. The first time each turn that a creature either moves into or out of any difficult terrain created by the spell, it must make a Dexterity saving throw. On a failed save, it falls prone. 
 
 **Creatures Ending Their Turn In The Sphere.** Any creature that ends its turn in the area must succeed on a Constitution saving throw. On a failed save, it takes 5d8 cold damage and suffers one level of exhaustion. On a successful save, it takes half as much damage and does not suffer a level of exhaustion. A creature immune to cold damage can't gain exhaustion this way.
 
-**The Spell's End.** When the spell ends, either because your concentration is broken or because you decide to end it, the ice in the sphere shatters in an explosion. Each creature in the sphere must make a Dexterity saving throw. A creature takes piercing damage equal to the total accumulated damage on a failed save, or half as much damage on <br> a successful one. The spell's base damage is 2d8. <br> At the end of each of your subsequent turns after <br> the spell has been cast, if the sphere has not yet <br> exploded, the damage increases by 2d8.
+**The Spell's End.** When the spell ends, either because your concentration is broken or because you decide to end it, the ice in the sphere shatters in an explosion. Each creature in the sphere must make a Dexterity saving throw. A creature takes piercing damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one. The spell's base damage is 2d8. At the end of each of your subsequent turns after the spell has been cast, if the sphere has not yet exploded, the damage increases by 2d8.
 
 #### Spirit Leech 1.0.0
 *1st-level necromancy*
@@ -1791,8 +2355,6 @@ You cause yourself to become electrically charged for the duration of the spell 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
 
-\columnbreak
-
 #### Storm of Vengeance (Revised) 1.0.0
 *9th-level conjuration*
 ___
@@ -1820,13 +2382,14 @@ Additionally, you may choose an additional effect from the options listed below.
 
 ***Hail.***  Hailstones rain down from the cloud.  Each creature within its affected area must make a Dexterity saving throw.  The creature takes 4d6 bludgeoning damage on a failed save, or half as much damage on a successful one.  Objects in this area not being worn or carried automatically take 4d6 bludgeoning damage.
 
+\columnbreak
+
 ***Lightning.*** You call down 6 bolts of lightning from the cloud to strike 6 creatures or objects of your choice within its affected area.  Any given creature or object can't be struck by more than one bolt.  A struck creature must make a Dexterity saving throw.  The creature takes 10d8 lightning damage on a failed save, or half as much damage on a successful one.  Objects automatically take 10d8 lightning damage.
 
 ***Rain.*** Acidic rain falls from the cloud.  Each creature and object within its affected area takes 3d4 acid damage.
 
 ***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
 
-\pagebreakNum
 
 #### Stream of Corruption 1.0.0
 *2nd-level evocation*
@@ -1861,6 +2424,8 @@ You spew forth a 30-foot cone of fire in a direction of your choice. For the dur
 On your subsequent turns, you must use your action to spew forth a another cone this way
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.
+
+\pagebreakNum
 
 #### Summon Flock 1.0.0
 
@@ -2032,6 +2597,19 @@ You begin to build up intense heat, debilitating those around you. Each creature
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.
 
+#### Throne of Vines 1.0.0
+*2nd-level conjuration*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 10 feet
+- **Components:** V, S
+- **Duration:** 1 minute
+- **Classes:**  Druid
+
+You create a throne of vines and bracken on the ground within a 5-foot cube in range. While you are sitting on this throne, you gain a +1 bonus to AC and saving throws. Additionally, while on the throne, you may increase the range of the spells you cast by 60 feet. If the spell has a range of touch, its range becomes 60 feet instead. You can also cast spells of 2nd level or lower with a casting time of one action as a bonus action, even if you cast another spell during the same turn.
+
+The spell ends if you are more than 30 feet away from the throne, if you cast this spell again, or if you end the spell as an action.
+
 #### Tomb Strike 1.0.0
 *Necromancy cantrip*
 ___
@@ -2045,6 +2623,8 @@ ___
 You or one of your undead servants lash out with a surge of malignant power. Make a melee spell attack against one creature within 5 feet of you or a willing undead creature you can see within range. On a hit, the target takes 1d12 necrotic damage.
 
 ***At Higher Levels.*** The spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).
+
+\columnbreak
 
 #### Toxic Coating 1.0.0
 *2nd-level transmutation*
@@ -2061,7 +2641,7 @@ At the end of each of its turns, a creature poisoned this way can repeat the Con
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3nd level or higher, the poison damage increases by 2d6 for each slot level above 2nd.
 
-\columnbreak
+
 
 #### Traitor-Kin 1.0.1
 
@@ -2080,6 +2660,10 @@ While charmed this way, all attack rolls against it have advantage, it cannot ta
 
 ***At Higher Levels.*** When you cast this spell using a 4th-level spell slot or higher, you can target one additional creature for each slot level above 3rd.
 
+
+
+\pagebreakNum
+
 #### Tranquility 0.0.0
 *5th-level conjuration*
 ___
@@ -2095,7 +2679,21 @@ The rains can grant healing a number of times equal to 3 plus your spell casting
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the healing received increases by 1d4 for each slot level above 5th.
 
-\pagebreakNum
+#### Transmutation of Lead 1.0.0
+
+*1st -level transmutation*
+
+- **Casting Time:** 1 action
+- **Range:** 90 ft
+- **Components:** V, S, M (A bit of lead)
+- **Duration:**  Concentration, up to 1 hour
+- **Classes:**  Artificer
+
+You choose a Medium or Small manufactured metal object that weighs 80 pounds or less, such as a metal weapon, a suit of heavy or medium metal armor, or a metal door lock. The object's weight is increased by up to 10 times your spellcasting ability modifier in pounds.
+
+Additionally, a creature can no longer add its Dexterity modifier to attack and damage rolls made with the weapon. If the creature's Strength score is lower than your spell save DC, it has disadvantage on all attacks made with the weapon. If the targeted item is armor, its Strength requirement becomes equal to your spell save DC if it is lower.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional object for each slot level above 1st. The targets must be within 30 feet of each other when you target them.
 
 #### True Strike (Revised) 0.0.0
 *Divination cantrip*
@@ -2109,6 +2707,8 @@ ___
 You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target’s defenses. On your next turn, when you make your first attack roll against the target, roll a d6 and add the number to the result of the attack roll.
 
 The dice rolled changes to a d8 when you reach 5th level, a d10 at 11th level, and a d12 at 17th level.
+
+\columnbreak
 
 #### Unseen Lurker 1.0.0
 *3rd-level transmutation*
@@ -2124,7 +2724,6 @@ Choose a willing creature you can see within range. The chosen creature becomes 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for every two slot levels above 3rd.
 
-\columnbreak
  
 #### Vile Tide 1.2.0
 *2nd-level conjuration*
@@ -2162,6 +2761,17 @@ You envelop a creature of your choice within range in a protective radiant light
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. The chosen creatures must be within 30 feet of each other when you target them.
 
+#### Wash Away 1.0.0
+*4th-level abjuration*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 60 ft
+- **Components:** V S M
+- **Duration:** Instantaneous
+- **Classes:**  Druid, Cleric
+
+You cause 20 gallons of clean, magical water to fall as rain in a 30-foot cube within range, extinguishing exposed flames in the area and washing away any acid or slime covering the area. Additionally, you may choose up to six creatures in the area and for each one, end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.
+
 #### Water Whip 0.1.0
 *1st-level conjuration*
 ___
@@ -2175,6 +2785,8 @@ You summon a tendril of water to strike at a creature you can see within range. 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.
 
+\columnbreak
+
 #### Weird (Revised) 0.0.0
 *9th-level illusion*
 ___
@@ -2184,9 +2796,7 @@ ___
 - **Duration:** Concentration, up to 1 minute
 - **Classes:** Warlock, Wizard
 ___
-You create a 30-foot-radius sphere of nightmares centered on a point of your choice within range.  When a creature enters the area for the first time on a turn or starts its turn there, it takes 4d10 psychic damage, and it must make a Wisdom saving throw.  On a failed save, the creature drops whatever it is holding, loses concentration on any spells or abilities it is concentrating on, and becomes frightened for the duration.  While frightened by this spell, the creature can't take reactions and must take the Dash action to move away from the sphere by the safest available route on each of its turns, unless there is nowhere to move.   A creature frightened this way dakes 4d10 psychic damage at the end of each of its turns.  It can then make a Wisdom saving throw, ending the spell's effect on it on a success.  The creature has disadvantage on the saving throw if it has line of sight of the sphere.
-
-\columnbreak
+You create a 30-foot-radius sphere of nightmares centered on a point of your choice within range.  When a creature enters the area for the first time on a turn or starts its turn there, it takes 4d10 psychic damage, and it must make a Wisdom saving throw.  On a failed save, the creature drops whatever it is holding, loses concentration on any spells or abilities it is concentrating on, and becomes frightened for the duration.  While frightened by this spell, the creature can't take reactions and must take the Dash action to move away from the sphere by the safest available route on each of its turns, unless there is nowhere to move.   A creature frightened this way takes 4d10 psychic damage at the end of each of its turns.  It can then make a Wisdom saving throw, ending the spell's effect on it on a success.  The creature has disadvantage on the saving throw if it has line of sight of the sphere.
 
 Once a creature succeeds on its save against the spell, it can't be affected by it again for the remainder of the spell's duration.
 
@@ -2213,6 +2823,8 @@ Select a willing creature within range to tap into its primal nature, transformi
 
 ***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the targeted creature gains an additional 5 temporary hit points for each slot level above 3rd.
 
+\pagebreakNum
+
 #### Wind Blast 1.1.0
 *3rd-level evocation*
 ___
@@ -2226,8 +2838,6 @@ ___
 You summon a powerful gust of wind emanating from a 20-foot-radius sphere centered on a point within range and blasting out in the direction of your choice. Medium or smaller objects in this area that aren't secured and aren't being worn or carried are pushed up to 15 feet in the chosen direction. Each creature in the area must make a Strength saving throw. On a failed save, a creature is pushed in the chosen direction and knocked prone. The wind also disperses gas and vapor and extinguishes candles, torches, and similar unprotected flames in its area.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the wind pushes creatures and objects an additional 5 feet for each slot level above 3rd.
-
-\pagebreakNum
 
 #### Wind of Death 1.0.0
 *5th-level necromancy*
@@ -2243,7 +2853,7 @@ You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of y
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, either the cold or the necrotic damage (your choice) increases by 1d6 for each slot level above 5th.
 
-#### Winter's Kiss 0.0.0
+#### Winter's Kiss 1.0.0
 *3rd-level evocation*
 ___
 - **Casting Time:** 1 bonus action
@@ -2256,9 +2866,11 @@ A burst of cold energy emanates from you in a 40-foot cone. Each creature in tha
 
 On a failed save, a creature takes 4d6 cold damage and is restrained by ice until the spell ends. At the end of each of its turns, while restrained this way, the target takes 2d6 cold damage. It or another creature within reach of it can use its action to make a Strength check against your spell save, shattering the ice on a success. The ice can also be attacked and destroyed (AC equal to your spell save; HP 20; vulnerability to fire, thunder bludgeoning damage; immunity to cold, poison, and psychic damage). On a successful save, a creature takes half as much damage and isn't restrained.
 
+\columnbreak
+
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the initial damage and the damage at the end of the restrained target's turn are increased by 1d6 for each slot level above 3rd.
 
-\columnbreak
+
 
 #### Witch Bolt (Revised) 1.0.0
 *1st-level evocation*
