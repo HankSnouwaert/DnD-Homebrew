@@ -1,0 +1,327 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p5:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Pirate NPCs: Part 3
+
+### Bombardiers
+Bombardiers carry small mortar devices that can be loaded with various types of rounds, such as grenades, sprays of shrapnel, or heavy lead slugs. When a Bombardier assaults a vessel, it will be left in tatters.
+
+***Storm Bombardiers.*** Some Bombardiers are trained artificers, infusing their mortar rounds with thunder and lightning. When a Storm Bombardier engages in naval combat, the opposing ships are torn apart in a wave of booming thunder and crackling electricity.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Storm Bombardier Tactics
+Storm bombardiers primarily use their lightning grenades, aiming to hit as many targets as possible. They are also willing to target a single enemy with low dexterity if a lightning grenade is already loaded. When multiple enemies are within melee range, they switch to using their thunder buster. If opponents are spread out, they will use their thunder slug.
+
+___
+___
+> ## Bombardier
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 12 (hide armor)
+> - **Hit Points** 32 (5d8+10)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|10 (+0)|12 (+1)|16 (+3)|12 (+1)|12 (+1)|
+>___
+> - **Skills** Intimidation +3, Perception +3
+> - **Senses** passive Perception 13
+> - **Languages** any two languages
+> - **Challenge** 2 (450 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Siege Weapon.*** The Bombardier deals double damage to objects and structures with its mortar.
+> 
+> ### Actions
+> ***Load.*** The Bombardier loads its mortar with one of the following types of ammo, then must use another action to fire the mortar to do one of the following:
+> * **Mortar Slug.** *Ranged Weapon Attack:* +5 to hit, range 80/240 ft., one target. *Hit:* 19 (3d10 + 3) piercing damage.
+> * **Mortar Grenade (3/day).** The Bombardier launches a grenade up to 120 feet. Each creature within 20 feet of the grenade's detonation must make a DC 13 Dexterity saving throw, taking 18 (4d8) piercing damage on a failed save, or half as much damage on a successful one.
+> * **Cabin Buster (3/day).** The Bombardier uses its mortar to create a shattering wave in a 30-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 18 (4d8) bludgeoning damage on a failed save, or half as much damage on a successful one.
+
+<img src='https://assets.echomtg.com/magic/cards/cropped/157575.hq.jpg' style='position:absolute;left:-0px;top:-55px;width:816px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-90px;top:75px;height:1400px;width:1416px;transform:rotate(190deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-490px;top:185px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:412px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+___
+___
+> ## Storm Bombardier
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 14 (ring mail)
+> - **Hit Points** 65 (10d8+20)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|10 (+0)|14 (+2)|18 (+4)|14 (+2)|12 (+1)|
+>___
+> - **Skills** Intimidation +3, Perception +4
+> - **Senses** passive Perception 14
+> - **Languages** any two languages
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+> ***Siege Weapon.*** The bombardier deals double damage to objects and structures with its mortar.
+> 
+> ### Actions
+> ***Load.*** The bombardier loads its mortar with one of the following types of ammo, then must use another action to fire the mortar to do one of the following:
+> * **Thunder Slug.** *Ranged Weapon Attack:* +6 to hit, range 80/240 ft., one target. *Hit:* 19 (3d10 + 3) piercing damage. The target becomes surrounded in thunderous energy until the start of the Bombardier's next turn. If the target willingly moves 5 feet or more before then, the target takes 16 (3d10) thunder damage, and the effect ends.
+> * **Lightning Grenade (3/day).** The bombardier launches a grenade up to 120 feet. Each creature within 20 feet of the grenade's detonation must make a DC 14 Dexterity saving throw, taking 27 (6d8) lightning damage on a failed save, or half as much damage on a successful one. If only one creature is in the area, it makes the saving throw with disadvantage.
+> * **Thunder Buster (3/day).** The bombardier uses its mortar to create a shattering wave in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw. On a failed save, a creature takes 27 (6d8) thunder damage and is pushed 15 feet away from the bombardier. On a successful save, the creature takes half as much damage and isn’t pushed.
+> 
+> ### Bonus Actions
+> ***Look Out.*** The bombardier takes the Search action.
+
+<img src='https://i.ibb.co/87swHc2/Captain-Ripley-Vance-Modern-Horizons-2-Mt-G-Art-1024x752.jpg' style='position:absolute;left:-0px;bottom:-10px;width:816px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-280px;bottom:190px; transform: rotate(-4deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:185px; transform: rotate(6deg)' />
+
+
+\pagebreakNum
+
+### Bone Saws
+Usually the most crude and sadistic members of the crew, Bone Saws are armed with jagged blades that inflict terrible gashes upon impact. Even a hit to a non-vital area from these weapons can lead to severe blood loss.
+
+***Filth Blades.*** Only the most twisted pirate crews allow Filth Blades into their ranks. Their jagged weapons have grooves that accumulate grime and rust. These unsanitary implements tear into flesh, leaving large, infected wounds. Even those who defeat these depraved warriors in battle often succumb to their injuries.
+
+<br>
+
+> ##### New Condition:  Wounds
+> While most creatures are wounded in combat, in this context, the wound is a special form of injury that causes severe bleeding over a short period of time and only specialized attacks and effects can cause wounds. A creature can suffer from multiple wounds at once and at the end of its turn, a wounded creature takes 2 (1d4) necrotic damage for every wound it has sustained. Only creatures with blood (or something equivalent to blood) can suffer wounds. Wounds can be removed in the following ways:
+>
+> * When a creature is healed, one wound is removed for every 5 hit points of healing it receives. 
+> * A creature can expend one use of a healer's kit to remove two wounds from itself or another creature. 
+> * A wounded creature, or another creature within 5 feet of it, can make a DC 10 Wisdom (Medicine) check as an action to remove one wound on a success. For every 5 points by which the check exceeds the DC, an additional wound is removed.
+
+\columnbreak
+
+___
+> ## Bone Saw
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 32 (5d8+10)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|14 (+2)|10 (0)|10 (0)|10 (+0)|
+>___
+> - **Skills** Athletics +4, Intimidation +2, Perception +2
+> - **Senses** passive Perception 12
+> - **Languages** any two languages
+> - **Challenge** 1/2 (100 XP)  &emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ### Actions
+> ***Jagged Blade.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage, and the target receives a wound.
+
+
+___
+> ## Filth Blade
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 15 (hide armor)
+> - **Hit Points** 52 (8d8+16)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|14 (+2)|14 (+2)|10 (0)|10 (0)|12 (+1)|
+>___
+> - **Saving Throws** Con +4
+> - **Skills** Athletics +5, Intimidation +2, Perception +2
+> - **Senses** passive Perception 12
+> - **Languages** any two languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Defense.*** While the Filth Blade is wearing armor, it gains a +1 bonus to AC (included in its AC).
+> 
+> ### Actions
+> ***Jagged Filthy Blade.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage, and the target receives a wound. The target must also succeed on a DC 13 Constitution saving throw or contract a disease. Until the disease is cured, the target can’t regain hit points. At the end of each of its turns, the target repeats the saving throw, ending the disease on a successful one.
+
+<img src='https://i.ibb.co/Czw8jGt/grasping-scoundral.jpg' style='position:absolute;left:-100px;bottom:-0px;width:550px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-320px;bottom:0px; transform: rotate(-3deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-320px;bottom:-4px; transform: rotate(10deg)' />
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-670px;top:-180px;height:1400px;width:1416px;transform:rotate(-268deg)' />  
+
+\pagebreakNum
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Shanty Bards
+Many buccaneer crews are accompanied by bards to bolster the morale of the marauders. When approaching a vessel they wish to plunder, the bard begins "Vapouring," playing songs and chanting to boost the boldness of their fellow crew members, riling them into a wild chorus. Opponents who hear and see this rabble quickly lose their nerve and often surrender before the fight even starts.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+***Lead Song Bards.*** Few sounds strike more fear in a seafaring crew than the ship-shaking chorus of a Lead Song Bard. Adept in both bardic magic and the use of firearms, they intensify their enchanted music with booming gunfire. Few men can maintain their resolve in the face of such a performance. If the opponent does not surrender immediately, the bard delivers a flurry of bullets and biting insults to prove that their fear was well placed.
+
+
+
+___
+___
+> ## Shanty Bard
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 14 (hide)
+> - **Hit Points** 52 (8d8+16)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|14 (+2)|14 (+2)|10 (+0)|12 (+1)|16 (+3)|
+>___
+> - **Saving Throws** Dex +4, Cha +5
+> - **Skills** Acrobatics +4, Intimidation +7, Performance +7
+> - **Senses** passive Perception 11
+> - **Languages** any three languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> <br><br>
+>
+> ### Actions
+> ***Spellcasting.*** The bard is a spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following spells:
+> 
+> **At will:** *message,* *vicious mockery*
+> 
+> **1st level (4 slots):** *healing word,* *dissonant whispers,* *bane*
+> 
+> **2nd level (2 slots):** *shatter,* *lesser restoration*
+> 
+> ***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
+> 
+> ***Vapouring Song (Recharges after a Short or Long Rest).*** The bard plays a song to rile up its allies into a frightening rabble. The bard and each of its allies within 60 feet that can see and hear it gain 10 temporary hit points for the next hour. Each other creature within 120 feet of the bard that can hear it must succeed on a DC 13 Wisdom saving throw or be frightened of each creature with temporary hit points from this feature for the next hour.
+
+<img src='https://i.ibb.co/Hr4Z2zJ/Captivating-Crew-Ixalan-Art-1024x768.jpg' style='position:absolute;right:-0px;top:-0px;width:900px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-180px;top:115px;height:1400px;width:1416px;transform:rotate(183deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Lead Song Bard
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 15 (studded leather)
+> - **Hit Points** 65 (10d8+20)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (+0)|16 (+3)|14 (+2)|10 (+0)|12 (+1)|18 (+4)|
+>___
+> - **Saving Throws** Dex +5, Cha +6, Wis +3
+> - **Skills** Acrobatics +5, Intimidation +8, Performance +8
+> - **Senses** passive Perception 11
+> - **Languages** any three languages
+> - **Challenge** 3 (700 XP)  &emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2
+> ___
+> ***Quick Draw.*** The bard can draw a weapon as part of the attack it makes with the weapon.
+>
+> ***Ruthless.*** The bard has advantage on weapon attacks if the target is frightened.
+> 
+> ### Actions
+> ***Multiattack.*** The bard makes two attacks. The bard can cast one of its cantrips or use its Vapouring Song in place of one of those attacks.
+>
+> ***Spellcasting.*** The bard is a spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following spells:
+> 
+> **At will:** *message,* *vicious mockery (2d4)*
+> 
+> **1st level (4 slots):** *healing word,* *dissonant whispers,* *bane*
+> 
+> **2nd level (3 slots):** *shatter,* *lesser restoration*
+> 
+> **3rd level (2 slots):** *slow,* *mass healing word*
+> 
+> ***Pistol.*** *Ranged Weapon Attack:* +5 to hit, range 30/90 ft., one target. *Hit:* 13 (2d6 + 3) piercing damage. The Bard has four pistols; it can't use a pistol again until it uses its action to load it or in place of an attack that's part of an attack action.
+> 
+> ***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
+> 
+> ***Vapouring Song (Recharges after a Short or Long Rest).*** The bard plays a song to rile up its allies into a frightening rabble. The bard and each of its allies within 60 feet that can see and hear it gain 10 temporary hit points for the next hour. Each other creature within 120 feet of the bard that can hear it must succeed on a DC 14 Wisdom saving throw or be frightened of each creature with temporary hit points from this feature for the next hour.
+
+<img src='https://i.ibb.co/N7NGXhk/winona-nelson-winona-nelson-entrancing-melody.jpg' style='position:absolute;right:-0px;bottom:-50px;width:850px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-250px;bottom:160px; transform: rotate(-3deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:160px; transform: rotate(3deg)' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+\columnbreak
+
+### Art Credit
+* Broadside Bombardiers - Tomek Larek, Wizards of the Coast
+* Captain Ripley Vance - Mathias Kollros, Wizards of the Coast
+* Grasping Scoundrel - Steve Prescott, Wizards of the Coast
+* Captivating Crew - Winona Nelson, Wizards of the Coast
+* Entrancing Melody - Winona Nelson, Wizards of the Coast

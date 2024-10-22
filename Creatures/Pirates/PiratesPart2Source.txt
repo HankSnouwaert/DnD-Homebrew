@@ -1,0 +1,325 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+## Pirate NPCs: Part 2
+
+### Sea Dogs
+Sea dogs are highly skilled in using harpoons to hunt wild sea beasts. They primarily earn their living through whaling and fishing, though in desperate times, they may join pirate crews. In combat, they are known for using their harpoons to impale and reel foes in so their allies can close in for the kill.
+
+***Tide Hunters.*** Tide hunters are veterans in their profession, having been part of crews that have hunted many dangerous sea monsters to bring their corpses ashore for high profit. When a tide hunter focuses on its quarry, it is almost certain to be dragged out of the water.
+
+#### Sea Dog Tactics
+Sea dogs should focus on mobile, low-strength targets, locking them down and dragging them away from their allies so they can be surrounded by the sea dog's own allies. 
+
+#### Tug of War Contests 
+A tug-of-war contest is a special type of opposed Strength check between two creatures on either end of a rope.
+
+While you're holding or tethered to a rope that is also held by or tethered to another creature no more than one size larger than you, you can use the Attack action to make an opposed Strength check against the other creature to try to pull the rope towards yourself. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. 
+
+If you are more than one size larger than the opposing creature, you automatically win this contest. If the results of both checks are higher than the rope's break DC, the rope snaps.
+
+If you win the contest and the rope doesn't snap, you can pull the rope along with you as you move or pull it towards yourself while standing still. If the opposing creature doesn't drop the rope or is tethered to it, it will be pulled along as though you are grappling it. 
+
+You can't engage in a tug-of-war contest using a hand that is holding other objects (including other ropes).
+
+<br>
+
+> ##### New Condition: Tethered 
+> If a creature is attached to a rope (such as via a lasso, harpoon, or a secure tie), it is tethered to that rope. Creatures immune to the grappled condition can't be tethered. 
+> 
+> Any creature that succeeds in a tug-of-war contest against a tethered creature using the attached rope is considered to be grappling it. The tethered creature can end the grapple by untethering itself, breaking the rope, or winning another tug-of-war contest against the grappling creature.
+
+
+<img src='https://i.ibb.co/F0GHtwV/moby-dick-james-edwin-mcconnell.jpg' style='position:absolute; bottom:-0px; right:-130px; width:710px; transform:rotate(0deg)scalex(-1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:45px;top:-20px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:100px;top:-620px;height:1400px;width:1416px;transform:rotate(320deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:00px;top:-750px;height:1300px;width:1416px;transform:rotate(353deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:00px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Sea Dog
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 19 (3d8+6)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|14 (+2)|10 (0)|14 (+2)|12 (+1)|
+>___
+> - **Skills** Athletics +4, Intimidation +3, Perception +4,  Survival +4
+> - **Senses** passive Perception 14
+> - **Languages** any two languages
+> - **Challenge** 1/4 (50 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Combat Angler.*** If a creature is in water and the sea dog is out of the water, the sea dog has advantage on harpoon attacks against it and on opposed checks made to prevent it from dragging the sea dog by its tether.
+> 
+> ### Actions
+> ***Harpoon.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage, and the creature is tethered by the harpoon's rope. The sea dog can then immediately make a tug-of-war contest against the tethered creature (no action required.) The rope can be cut by dealing 5 slashing damage to it (AC 10), and it has a break DC of 10. Any creature within 5 feet of the target can use an action to remove the harpoon. Doing so deals an additional 3 (1d6) weapon damage to the target. The sea dog can only have one creature tethered at a time.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Tide Hunter
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 16 (leather armor)
+> - **Hit Points** 45 (6d8+18)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|14 (+2)|16 (+3)|10 (0)|16 (+3)|12 (+1)|
+>___
+> - **Saving Throws** Str +5, Wis +5
+> - **Skills** Athletics +4, Intimidation +3, Survival +5, Perception +5 
+> - **Senses** passive Perception 15
+> - **Languages** any two languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Combat Angler.*** If a creature is in water and the tide hunter is out of the water, the tide hunter has advantage on harpoon attacks against it and on opposed checks made to prevent it from dragging the tide hunter by its tether.
+>
+> ***Wisened.*** While the tide hunter is wearing light or no armor and wielding no shield, its AC includes its Wisdom modifier (included in its AC).
+> 
+> ### Actions
+> ***Harpoon.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage, and the creature is tethered by the harpoon's rope. The tide hunter can then immediately make a tug-of-war contest against the tethered creature (no action required.) The rope can be cut by dealing 10 slashing damage to it (AC 13), and it has a break DC of 13. Any creature within 5 feet of the target can use an action to remove the harpoon. Doing so deals an additional 3 (1d6) weapon damage to the target. The tide hunter can only have one creature tethered at a time.
+> 
+> ### Bonus Actions
+> ***Bounty.*** (Recharges after a Short or Long Rest) The Tide Hunter marks a creature that it can see for the next minute. The first time on each of its turns it hits, it deals an additional 7 (2d6) damage.
+
+<img
+src='https://i.ibb.co/D703zYb/Deadeye-Quartermaster-Ixalan-Mt-G-Art.jpg'
+style='position:absolute;top:-30px;left:-120px;width:940px;transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:100px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Powderhands
+Crew members renowned for their skill with pistols are known as powderhands due to the constant presence of black powder residue between their fingers. They carry a bandolier of pistols and can draw them at an alarming rate, unleashing a volley of shots as they close the distance between them and their short-lived targets.
+
+***Powderhand Scoundrels.*** Powderhand scoundrels are master skirmishers, quick with both wit and reflexes. They can unleash a volley of bullets and a blur of sword flashes before an enemy can even draw their weapon.
+
+#### Powderhand Tactics
+In an optimal situation, a powderhand should move within 10 feet of a target and then back up as far as it can. Another trick is that if a powderhand is locked in melee combat, it can still shoot another target that is 10 feet away, negating the disadvantage of being within 5 feet of a creature.
+
+___
+> ## Powderhand
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 33 (6d8+6)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|14 (+2)|12 (+1)|10 (0)|12 (+1)|12 (+1)|
+>___
+> - **Skills** Acrobatics +4, Intimidation +3, Perception +3 
+> - **Senses** passive Perception 13
+> - **Languages** any two languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+>
+> ***Point Blank.*** The powderhand has advantage on ranged attack rolls against a creature within 10 feet of it.
+>
+> ***Quick Draw.*** The powderhand can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ### Actions
+>
+> ***Multiattack.*** The powderhand makes two attacks.
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +4 to hit, range 30/90 ft., one target. *Hit:* 9 (2d6 + 2) piercing damage. The powderhand has four pistols; it can't use a pistol again until it uses its action to load it or in place of an attack that's part of an attack action.
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage.
+>
+
+\columnbreak
+
+___
+> ## Powderhand Scoundrel
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 15 (studded leather armor)
+> - **Hit Points** 55 (10d8+10)
+> - **Speed** 30 ft., swim 20 ft. climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|16 (+3)|12 (+1)|12 (+1)|12 (+1)|16 (+3)|
+>___
+> - **Saving Throws** Int +3
+> - **Skills** Acrobatics +5, Intimidation +5 Perception + 3 
+> - **Senses** passive Perception 13.
+> - **Languages** any two languages 
+> - **Challenge** 3 (700 XP) &emsp;&emsp; &emsp;  **Proficiency Bonus** +2
+> ___
+>
+> ***Rakish*** The powderhand adds its Charisma modifier to initiative rolls and to damage rolls for its attacks (included in the attack).
+>
+> ***Quick Draw*** The scoundrel can draw a weapon as part of the attack it makes with the weapon.
+>
+> ***Fancy Footwork*** When the powderhand makes a melee attack against a creature, that creature can't make opportunity attacks against the powder hand for the rest of the turn.
+>
+> ***Point Blank*** The powderhand has advantage on ranged attack rolls against creatures within 10 feet of it.
+>
+> ### Actions
+> 
+>***Multiattack.*** The scoundrel makes two attacks.
+>
+> ***Scimitar.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d6 + 6) slashing damage.
+>
+> ***Pistol.*** Ranged Weapon Attack: +5 to hit, range 30/90 ft., one target. Hit: 13 (2d6 + 6) piercing damage. The powderhand has four pistols; it can't use a pistol again until it uses its action to load it or in place of an attack that's part of an attack action.
+>
+
+<img src='https://i.ibb.co/fvwqNfm/Deadeye-Plunderers-Ixalan-Mt-G-Art.jpg' style='position:absolute;right:-30px;bottom:-100px;width:545px' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-100px;bottom:-50px; transform: rotate(-18deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-100px;bottom:-30px; transform: rotate(18deg)' />
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:80px;top:-180px;height:1400px;width:1416px;transform:rotate(270deg)' />  
+
+\pagebreakNum
+
+### Crackshots 
+The best marksmen of the crew are known as crackshots and usually reside in the crow nests of a ship, where they have the best vantage point. Crackshots eliminate the most valuable targets of an opposing armada with deadly precision and are greatly feared by those who normally try to stay out of direct combat.
+
+***Trickshots.*** Trickshots are feared among sailors, and only the most renowned and wealthy can afford their services. What is most terrifying about these marksmen is their ability to not only assassinate a target but also cause the same bullet to ricochet and mortally wound or kill another unfortunate soul standing nearby. Many loyal bodyguards have died in vain, blocking a bullet from these sharpshooters, only to have their charge be slaughtered by the same piece of lead.
+
+___
+> ## Crackshot
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 14 (leather armor)
+> - **Hit Points** 33 (6d8+6)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (0)|16 (+3)|12 (+1)|10 (0)|14 (+2)|12 (+1)|
+>___
+> - **Skills** Acrobatics +5, Intimidation +3, Perception +6
+> - **Senses** passive Perception 16
+> - **Languages** any two languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Far Shot (1/turn).*** The crackshot deals an extra 9 (2d8) damage when it hits a target with a ranged weapon attack if there are no creatures within 5 feet of the crackshot when it made the attack.
+> 
+> ### Actions
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage.
+>
+> ***Musket.*** *Ranged Weapon Attack:* +5 to hit, range 100/400 ft., one target. *Hit:* 15 (3d8 + 3) piercing damage. The crackshot can't make this attack again with the weapon until it loads it as an action.
+>
+> ### Bonus Actions
+> ***Crosshairs.*** If the crackshot hasn't moved this turn, its speed is reduced to 0 and it gains advantage on its next ranged attack roll this turn and ignores half and three-quarters cover.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Trickshot
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 16 (studded leather armor)
+> - **Hit Points** 65 (10d8+20)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|10 (0)|18 (+4)|14 (+2)|10 (0)|16 (+3)|12 (+1)|
+>___
+> - **Saving Throws** Wis +5
+> - **Skills** Acrobatics +6, Intimidation +3, Perception +7
+> - **Senses** passive Perception 16
+> - **Languages** any two languages
+> - **Challenge** 3 (700 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Ricochet Shot (1/turn).*** The trickshot deals an extra 18 (4d8) damage when it hits a target with a ranged weapon attack if there are no creatures within 5 feet of the trickshot when it made the attack. It then can cause the ammunition to ricochet toward a second target within 10 feet of the first, making the same ranged attack with disadvantage against the second target, this attack ignores half and three-quarters cover.
+> 
+> ### Actions
+> ***Multiattack.*** The trickshot makes two attacks.
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage.
+>
+> ***Musket.*** *Ranged Weapon Attack:* +6 to hit, range 100/400 ft., one target. *Hit:* 17 (3d8 + 4) piercing damage. The trickshot can't make this attack again with the weapon until it loads it as an action or in place of an attack that's part of an attack action.
+>
+> ### Bonus Actions
+> ***Crosshairs.*** If the trickshot hasn't moved this turn, its speed is reduced to 0 and it gains advantage on its next ranged attack roll this turn and ignores half and three-quarters cover.
+
+<img src='https://i.ibb.co/VS9nMCp/5457-dinosaur-hunter.jpg' style='position:absolute;right:-140px;top:-25px;width:550px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:25px;top:-170px;height:1400px;width:1416px;transform:rotate(270deg)' />  
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:-10px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+\columnbreak
+
+### Art Credit
+* Moby Dick - James Edwin McConnell
+* Deadeye Quartermaster - Josh Hass, Wizards of the Coast
+* Deadeye Plunderers - Greg Opalinski, Wizards of the Coast
+* Dinosaur Hunter - Tianhua X, Wizards of the Coast
