@@ -1,35 +1,28 @@
-<style>
 
- /* Footers */
-    
-   
-    .phb p.foot{
-        content          : '';
-        color            : #09386d;
-        position         : absolute;
-        bottom           : 10px;
-        font-size        : 15.2px;
-        text-align       : right;
-        margin-top       : .2em;
-        margin-bottom    : 0;
-        font-family      : MrJeeves;
-        font-weight      : 800;
-        text-shadow      : 0px 0px 5px white;
-    }
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    
-    /* Hide the footer on some pages */
-    .phb#p2:after   {
-        display          : none;
-    }
-    /* End Footers */
-
-</style>
-
-<<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-# Lore of Change
+## Lore of Change
 Spellcasters wielding magic of change favor spells of transformation, trickery, and chaos. While many existing D&D spells can represent this magic, the following new spells provide even more ways of bringing this unpredictable style of sorcery into your campaigns.
+
+#### Act of Treason
+*3rd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+___
+
+Choose one creature with an Intelligence score of 6 or higher that you can see within range. The target must succeed on a Wisdom saving throw or become charmed by you for the duration. While charmed in this way, the creature is overcome by the fires of treachery.
+
+On each of the charmed target’s turns, it must move up to its speed toward a creature you mentally choose, by the safest available route, and use its action to make a melee attack against that creature if it can. If you choose no creature, the target can act normally on its turn.
+
+The target can make a Wisdom saving throw at the end of each of its turns, ending the spell on itself on a success.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Bolt of Change
 *4th-level transmutation*
@@ -41,30 +34,28 @@ ___
 - **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
-You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d10 force damage and must make a Charisma saving throw.  On a failed save, the target suffers one of the random mutations described in the Mutation Table below.  The target repeats the saving throw at the end of each of its turns, ending all mutations affecting it on a success.  A creature can't suffer from two instances of the same mutation at once.
-
-\columnbreak
-
-##### Mutation Table
-| d6  | Mutation |  Creature Effect  |
-|:---:|:---------:| :---------:|
-|  1  |  Wild Spasms | The target can't take reactions, and on each of its turns it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
-|  2  | Degeneration  | The target's form becomes unstable.  The first time it takes damage each turn, it takes an extra 1d10 force damage.|
-|  3  | Twisted Arms |  The target can no longer wield weapons or cast spells with somatic components and it has disadvantage on all weapon attack rolls.|
-|  4  | Inverted Eyes | The target is blinded.|
-|  5  | Gelatinous Legs | The target falls prone as its legs can no longer support its weight. At the end of each of its turns, its legs give out again, causing it to fall prone again.|
-|  6  | Regeneration | The target regains 10 hit points at the start of its turn.  The target only dies if it starts its turn with 0 hit points and doesn't regenerate any hit points.|
+You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d12 force damage and must make a Charisma saving throw.  On a failed save, the target suffers a mutation (condition described at end of document).
 
 
+#### Burning Hands
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self (20-foot cone)
+- **Components:** V, S
+- **Duration:** Instant
+- **Classes:**  Sorcerer, Wizard
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 5nd level or higher, the damage increases by 1d10 for each slot level above 4th.
+As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 20-foot cone must make a Dexterity saving throw. A creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 you may increases the cone's size is increases by 10 feet for each slot level above 1st.
 
 
 <img
 src='https://i.ibb.co/2FT13hw/2328-windcaller-aven.jpg'
-style='position:absolute;top:-30px;left:00px;width:816px;transform: scaleX(1)' />
+style='position:absolute;top:-45px;left:00px;width:816px;transform: scaleX(1)' />
 
-<img src='https://www.gmbinder.com/images/XzbbBU4.png' style='position:absolute; bottom:-390px; right:60px; width:850px; transform:rotate(8deg);filter:opacity(100%);'/>
+<img src='https://www.gmbinder.com/images/XzbbBU4.png' style='position:absolute; bottom:-350px; right:0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
 
 <img src='https://www.gmbinder.com/images/XzbbBU4.png' style='position:absolute; bottom:-390px; right:30px; width:850px; transform:rotate(8deg);filter:opacity(100%);'/>
 
@@ -72,7 +63,37 @@ style='position:absolute;top:-30px;left:00px;width:816px;transform: scaleX(1)' /
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:440px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
-\pagebreak
+\pagebreakNum
+
+#### Chaos Bolt (NOTE: There were 2)
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:** Instant
+- **Classes:**  Sorcerer
+
+You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d12 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.
+
+| d8  |  Damage Type  |
+|:---:|:---------:|
+|  1  | Acid |
+|  2  | Cold|
+|  3  | Fire|
+|  4  | Force|
+|  5  | Lightning|
+|  6  | Poison | 
+|  7  | Psychic |
+|  8  | Thunder |
+
+If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 60 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.
+
+A creature can be targeted only once by each casting of this spell.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d12 extra damage of the type rolled for each slot level above 1st.
+
+\columnbreak
 
 #### Chaos Storm
 *9th-level evocation*
@@ -91,6 +112,36 @@ On each of your turns, until the spell ends, you can use your action to open ano
 
 If you drop concentration on the spell early, make a DC 20 ability check using your spellcasting ability.  On a failure, you open another gate centered on yourself, and the spell continues for its full duration outside of your control.  During this time, you can no longer open additional gateways or close existing ones, and the radius of each existing gateway expands by 10 feet at the start of each of your turns.
 
+#### Gift of Chaos
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S, M, (A bit of clay)
+- **Duration:**   1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You unleash the power of chaos to warp a creature’s body. The target must make a Charisma saving throw or suffer a mutation (condition described at end of document).
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the target suffers an additional mutation for each slot level above 2nd.
+
+<img src='https://i.postimg.cc/XqTgjPw5/2892-spatial-contortion.jpg' style='position:absolute;left:-30px;bottom:-160px;width:450px;transform:scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-60px;top:-400px;height:1400px;width:1416px;transform:rotate(-4deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-610px;top:-40px;height:1400px;width:1416px;transform:rotate(85deg)' />
+  
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-630px;top:-120px;height:1400px;width:1416px;transform:rotate(50deg)' /> 
+
+\pagebreakNum
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 #### Glean Magic
 *3rd-level divination*
@@ -104,11 +155,7 @@ ___
 
 You reach deep into the mind of a spell caster you can see in range and attempt to steal their magic.  The target must make an Intelligence saving throw which it can choose to fail.  On a failed save, you can attempt to steal a spell of 3rd level or lower the target knows.
 
-Name the spell you wish to steal from the creature.  If the creature does not know that spell, the DM chooses a spell the creature knows at random of the same level.  If the creature knows no other spells of the same level, the DM chooses a spell at random of one level lower.  Repeat this process until a spell is stolen or there are no possible spells to steal, in which case the spell fails.
-
-\columnbreak
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+Name the spell you wish to steal from the creature.  If the creature does not know that spell, the DM chooses a spell of the same level the creature knows at random.  If the creature knows no other spells of the same level, the DM chooses a spell of one level lower at random.  Repeat this process until a spell is stolen or there are no possible spells to steal, in which case the spell fails.
 
 If a spell is successfully stolen, the target loses a spell slot of the spell's level and the ability to cast that spell for 1 hour.  If the target prepares spells at the beginning of the day or can cast the spell a certain number of times per day innately, the target loses one use of the spell.
 
@@ -116,28 +163,48 @@ After stealing a spell, you gain the ability to cast it once as though it were f
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can attempt to steal a spell if its level is less than or equal to the level of the spell slot you used to cast this spell.
 
-#### Art Credit
-* Windcaller Aven - Uriah Voth, Wizards of the Coast
-* Ulamog's Nullifier - Aleksi Briclot, Wizards of the Coast
-
-
-<img src='https://i.ibb.co/hYs6WVy/ulamogs-nullifier.png' style='position:absolute; top:-0px; right:-180px; width:1000px; transform:rotate(0deg);filter:opacity(100%);'/>
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:50px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:0px;top:150px;height:1400px;width:1416px;transform:rotate(180deg)' />
-
-\pagebreak
-
-#### 1.0.0 
-* Public Release
-
-#### 1.0.1 
-* Bolt of Change's Mutation Table updated.
-
 \columnbreak
 
-### Referenced Documents
-* New Spells 0.0.2
+#### Scorching Stream
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 50
+- **Components:** V, S
+- **Duration:** Instant
+- **Classes:**  Sorcerer, Wizard
+
+A line of roaring flame 50 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 and you may increases line's length by 10 feet for each slot level above 2nd.
+
+
+### New Condition: Mutated
+When a creature is affected by this condition, it suffers one of the random mutations described in the Mutation Table below. A creature can't suffer from two instances of the same mutation at once.
+
+Unless an ability states otherwise, a creature suffering from one or more mutations can make a Charisma saving throw at the end of each of its turns, ending the effects of all mutations on a success. The save DC is equal to the highest save DC among any effects that inflicted it with its current mutations.
+
+##### Mutation Table
+| d6  | Mutation |  Creature Effect  |
+|:---:|:---------:| :---------:|
+|  1  |  Wild Spasms | The creature can't take reactions, and on each of its turns it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. |
+|  2  | Degeneration  | The creature's form becomes brittle.  While a creature is brittle, any attack that hits the creature is a critical hit.|
+|  3  | Twisted Arms |  The creature can no longer wield weapons or cast spells with somatic components and it has disadvantage on all weapon attack rolls.|
+|  4  | Inverted Eyes | The creature is blinded.|
+|  5  | Gelatinous Legs | The creature falls prone and can't stand up.|
+|  6  | Regeneration | The creature regains 10 hit points at the start of its turn if it has at least 1 hit point.|
+
+#### Lore of Change Art Credit
+* Windcaller Aven - Uriah Voth, Wizards of the Coast
+* Spatial Contortion - Daarken, Wizards of the Coast
+* Pilfered Plans - Daarken, Wizards of the Coast
+
+<img src='https://i.postimg.cc/CLSHw9nj/Pilfered-Plans-5000x.webp' style='position:absolute; top:-82px; left:-80px; width:593px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:210px; right:40px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(24deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-230px; right:-312px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(-86deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:120px; right:-10px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+\pagebreakNum
