@@ -89,15 +89,11 @@ style='position:absolute;top:-00px;left:-140px;width:1216px;transform:rotate(-12
 
 #### Combat Angler
 *3rd-level Sea Dog Feature*<br>
-You're skilled at overcoming dangerous quarry with nets and harpoons, granting you the following benefits:
+You can use a bonus action to use a net or make an attack with a harpoon. You can mark a creature with *hunter's mark* as part of the same bonus action. 
 
-* You treat harpoon weapons (described at the end of the document) as having the *light* property while only wielding those weapons or nets and can draw or pull a harpoon back as part of an attack made with it. 
-* When you make an attack with a harpoon weapon in one hand, you can use a bonus action to make a net attack with the other hand. You can mark a creature with *hunter's mark* as part of the same bonus action.
-* When you hit a creature with a net, you may tether your target the same way you tether with a harpoon. The tether has the same DC to snap, AC to hit, and damage needed to break as the net it's attached to, and a creature that breaks free of the net is no longer bound by the tether.
-* Being within 5 feet of a  creature doesn't impose disadvantage on your attack rolls with nets against it if it's your favored enemy or it's effected by your *hunter's mark*.
-* If a target creature is in water and you are out of the water, you have advantage on attacks with harpoons and nets against it and on opposed checks made to prevent it from dragging you by your tethers. You are considered out of the water while swallowed by a creature.
+Additionally, if a target creature is in water and you are out of the water, you have advantage on attacks with harpoons and nets against it and on tug-of-war checks against it. (You are considered out of the water while swallowed by a creature.)
 
-#### Rope Master
+#### Rope Master  
 *7th-level Sea Dog Feature*<br>
 You can now net Huge creatures, and the nets you use to restrain creatures and the tethers you have attached to creatures gain the following benefits:
 * Their AC and the DC of the check needed to break them both increase by an amount equal to your Wisdom modifier.
@@ -113,9 +109,33 @@ When a creature attempts to use teleportation or interplanar travel to escape yo
 
 Additionally, once per turn, when you damage a creature restrained or tethered by one of your nets or harpoons with a weapon attack, you can deal additional damage equal to a roll of its hit dice.
 
+### New Ability Check: Tug of War Contests
+A tug-of-war contest is a special type of opposed Strength check between two creatures on either end of a rope.
+
+While you're holding or tethered to a rope that is also held by or tethered to another creature no more than one size larger than you, you can use the Attack action to make an opposed Strength check against the other creature to try to pull the rope towards yourself. 
+
+If you're able to make multiple attacks with the Attack action, this attack replaces one of them. 
+
+If you are more than one size larger than the opposing creature, you automatically win this contest. If the results of both checks are higher than the rope's break DC, the rope snaps.
+
+\columnbreak
+
+If you win the contest and the rope doesn't snap, you can pull the rope along with you as you move or pull it towards yourself while standing still. If the opposing creature doesn't drop the rope or is tethered to it, it will be pulled along as though you are grappling it. 
+
+You can't engage in a tug-of-war contest using a hand that is holding other objects (including other ropes).
+
+#### New Condition: Tethered
+If a creature is attached to a rope (such as via a lasso, harpoon, or a secure tie), it is tethered to that rope. Creatures immune to the grappled condition can't be tethered. 
+
+Any creature that succeeds in a tug-of-war contest against a tethered creature using the attached rope is considered to be grappling it. The tethered creature can end the grapple by untethering itself, breaking the rope, or winning another tug-of-war contest against the grappling creature.
+
+\columnbreak
 
 
-<img src='https://i.ibb.co/F0GHtwV/moby-dick-james-edwin-mcconnell.jpg' style='position:absolute; bottom:-0px; right:-130px; width:710px; transform:rotate(0deg)scalex(-1);filter:opacity(100%);'/>
+
+
+
+<img src='https://i.postimg.cc/BbD5HBhW/moby-dick-james-edwin-mcconnell.jpg' style='position:absolute; bottom:-80px; right:-130px; width:680px; transform:rotate(0deg)scalex(-1);filter:opacity(100%);'/>
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:45px;top:-20px;height:1400px;width:1416px;transform:rotate(270deg)' />
@@ -124,7 +144,7 @@ Additionally, once per turn, when you damage a creature restrained or tethered b
   style='position:absolute;right:100px;top:-620px;height:1400px;width:1416px;transform:rotate(320deg)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:00px;top:-750px;height:1300px;width:1416px;transform:rotate(353deg)' />
+  style='position:absolute;right:00px;top:-585px;height:1300px;width:1416px;transform:rotate(353deg)' />
 
 \pagebreak
 
@@ -133,8 +153,7 @@ Additionally, once per turn, when you damage a creature restrained or tethered b
 ## Harpoons
 The following content can <br> be used to add harpoon <br> weaponry to your game world. <br> The Harpoon Master feat can <br> help players specialize in using <br> these weapons, and the statistics <br> for the Rope Qualities can be used <br> to upgrade the reliability of harpoon <br> tethers and net weapons.
 
-### Harpoon Weapons
-
+### Harpoon Weapons 
 #### Harpoon Gun
 *ranged weapon (martial, crossbow)*
 ___
@@ -156,57 +175,58 @@ ___
 ___
 
 
-***Harpoons.*** You can choose to tether yourself with a rope to a creature or object you hit with the harpoon; otherwise, you can pull the harpoon back to yourself as an object interaction. If you choose to tether yourself, the hand you used to make the attack becomes occupied maintaining the tether. You cannot maintain multiple tethers in one hand, and creatures immune to the grappled condition cannot be tethered. 
-
-Once per turn, you can make an opposed Strength check against a creature you have tethered (no action required). On a success, you can drag the tethered creature towards you. Doing so uses up 5 feet of movement for every 5 feet you drag it unless the creature is two or more sizes smaller than you. A tethered creature can attempt to do the same to you on its turn, though if you fail the opposed Strength check, you can choose to drop the tether rather than be dragged by it. Any time an opposed Strength check is made between you and a tethered creature, if both of you roll a 12 or higher on this check, the tether snaps. 
-
-Any creature within 5 feet of a tethered creature (including the tethered creature) can use an action to remove the harpoon. Doing so deals an additional 1d6 weapon damage to the creature as the harpoon is removed. Dealing 5 slashing damage to the tether (AC 10) also snaps it.
-
-If you recover a harpoon spear or a harpoon gun bolt with a snapped rope, you can replace the rope over 10 minutes, using 1gp worth of rope and other supplies. This can be done over the course of a short or long rest.
 
 
+##### Harpoons
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+All harpoon spears and ammunition are attached to a harpoon rope. By default, harpoon ropes have 10 AC, a Break DC of 12, and can be cut with 5 damage.
 
-### New Feat: Harpoon Master
+**Tethering The Target.** When you hit a creature or object with a harpoon attack, it is tethered to the harpoon's rope. If you miss, the target isn't tethered, and you can use the rope to pull the harpoon back to yourself as an object interaction. 
+When you tether a creature this way, you may immediately make a tug-of-war contest against it (no action required.)
+
+**Removing The Harpoon.** Any creature that can reach the harpoon can use an action to remove it, thus ending the tethered condition. Doing so deals an additional 1d6 weapon damage to the tethered creature.
+
+**Replacing Harpoon Ropes.** If you recover a harpoon spear or a harpoon gun bolt with a snapped rope, you can replace the rope over 10 minutes, using 1gp worth of rope and other supplies. This can be done over the course of a short or long rest, replacing up to 10 harpoon ropes during a short rest and up to 20 during a long rest.
+
+##### Art Credit
+* Deadeye Quartermaster - Josh Hass, Wizards of the Coast
+* Moby Dick - James Edwin McConnell
+* Deadeye Brawler - Jesper Ejsing, Wizards of the Coast
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Feat: Harpoon Master 
 You've learned how to use harpoons to maximum effect in combat. 
 When you take this feat, you gain the following benefits.
 * Your Strength or Dexterity score increases by 1, to a maximum of 20.
 * Creatures you've hit with harpoons have their speed reduced by 15 feet until they've removed the harpoon.
 * If a creature is concentrating on a spell and ends its turn while impaled by a harpoon you hit it with, it must succeed on a DC 10 Constitution saving throw to maintain concentration.
 
-### Rope Quality for Nets & Harpoons
+### Rope Quality for Nets & Harpoons 
 
 Players can gain access to higher-quality rope for nets and harpoon tethers by paying more gold. The following table describes the gp cost for each level of quality. Each table row can be used to describe a net or the rope and supplies needed to attach a tether to a harpoon. In the case of nets, the gp cost describes the overall cost of the net. In the case of harpoon spears and gun bolts, the gp cost describes the added cost of upgrading the item's quality, which can also be done when replacing a snapped tether.  
 
 ##### Rope Qualities 
-|Cost  | Break DC <br> (Harpoon) | Break DC <br> (Net)  | Rope AC | Cumulative <bR> Damage to Cut |
+|Cost  | Break DC <br> (Harpoon) | Break DC <br> (Net)  | Rope AC | Cumulative <br> Damage to Cut |
 |:---:|:----:|:----:|:--:|:--:|
 | 1gp | 12 | 10  | 10 | 5
 | 50gp|  15 | 13  | 13 | 10
 | 200gp| 18 | 16  | 16 | 15
 
+**Tethering Nets.** You can add a rope tether to a net, which doubles the cost of the net. When you hit a creature with a tethered net, you may tether your target the same way you tether with a harpoon. The tether has the same DC to snap, AC to hit, and damage needed to break as the net it's attached to, and a creature that breaks free of the net is no longer bound by the tether.
 
-<img src='https://www.muddycolors.com/wp-content/uploads/2018/01/art2Bid2B4028722BFearless2BBluecoat2Bfinal2Bnet-1.jpg' style='position:absolute; top:-60px; right:-160px; width:820px;  grayscale(100%)' />
+<img src='https://www.muddycolors.com/wp-content/uploads/2018/01/art2Bid2B4028722BFearless2BBluecoat2Bfinal2Bnet-1.jpg' style='position:absolute; top:-60px; right:-60px; width:700px;  grayscale(100%)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-230px; right:115px; width:1300px; filter:grayscale(00%) brightness(97%);transform:rotate(40deg)' />
   
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%);transform:rotate(0deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:35px; right:0px; width:900px; filter:  grayscale(00%) brightness(97%);transform:rotate(0deg)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:360px; width:900px; filter:  grayscale(00%) brightness(97%);transform:rotate(74deg)' />
 
-<div style='margin-top:325px;'></div>
+\pagebreakNum
 
-
-
-\pagebreak
-
-### Art Credit
-* Deadeye Quartermaster - Josh Hass, Wizards of the Coast
-* Moby Dick - James Edwin McConnell
-* Deadeye Brawler - Jesper Ejsing, Wizards of the Coast
-
-\columnbreak 
 
 ### Change Log
 
@@ -219,8 +239,14 @@ Players can gain access to higher-quality rope for nets and harpoon tethers by p
 
 #### 1.2.0
 * Update referenced weapons
- 
+
+#### 1.3.0
+* Update with new rope and tug of war mechanics
+
+#### 2.0.0
+* Rerelease with updates
+
 ### Referenced Content
-* Harpoons 1.0.0
-* Rope Quality for Nets & Harpoons 1.0.0
+* Harpoon Weapons 2.0.0
+* Rope Quality for Nets & Harpoons 1.1.0
 * Harpoon Master 1.0.0
