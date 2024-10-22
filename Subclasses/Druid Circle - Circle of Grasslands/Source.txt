@@ -1,323 +1,575 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p5:after, .phb#p7:after, .phb#p8:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ## Druid Circle
 
-### Circle of the Grasslands
-Like the creatures of the world, druids often adapt to a specific environment they consider to be their home.  Druids of this circle live in open planes and grasslands, running free amongst the creatures there.  These druids defend their open homes from poachers and others that would sully the open freedom of the planes with the cage of civilization.  
+### Circle of Grasslands
+Like the creatures of the world, druids often adapt to a specific environment they consider to be their home.  Druids of this circle live in open plains and grasslands, running free amongst the creatures there.  These druids defend their open homes from poachers and others that would sully the open freedom of the plains with the cage of civilization.  
+
 These druids specialize in adapting animals forms suited to charging across large open areas.  When given a sufficient runway, these druids become high speed battering rams capable of sending their foes flying of their feet.
 
-#### Grassland Forms
-When you choose this circle at 2nd level, you gain access to the following wild shape forms at 2nd, 6th, 12th, 16th level.  The usual restrictions as to what you can wild shape into do not apply to these forms.  
-
-While in these forms, you can perform the somatic and verbal components of druid spells from your Grasslands Spells list.
-
-| Druid  Level  |  Wild Shape Option      | 
-|:-------------:|:-------------:|
-|  2nd          | Warhorse, Pronghorn* |
-|  6th          | Cheetah*, Lion*      | 
-|  12th          | Giant Elk    |
-|  16th          | Rhinoceros*    |
 
 #### Grasslands Spells
-Your mystical connection to the grasslands infuses you with the ability to cast certain spells. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the Druid Spell List, the spell is nonetheless a druid spell for you. 
+*2nd Level Circle of Grasslands Feature* <br>
+Your mystical connection to grasslands infuses you with the ability to cast some spells when you reach certain levels in this class, as shown on the Circle of Grasslands Spells table.
 
+Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you. 
+
+##### Circle of Grasslands Spells 
 | Druid  Level  |  Spells      | 
 |:-------------:|:-------------:|
-|  2nd          | Expeditious Retreat, Longstrider |
-|  3rd          | Warding Wind, Pass Without Trace |
-|  5th          | Haste,  Thunder Step      | 
-|  7th          | Freedom of Movement, Aura of Life     |
-|  9th          | Control Winds, Dawn    |
+|  2nd          | *expeditious retreat*, *longstrider* |
+|  3rd          | *incantation of protection**, *incantation of zeal** |
+|  5th          | *crusader's mantle*, *haste*     | 
+|  7th          | *aura of life*, *freedom of movement*      |
+|  9th          | *circle of power*, *destructive wave*    |
 
-#### Planes Runner
-Also, starting at 2nd level, your speed increases by 10 feet while you aren't wearing heavy armor or wielding a shield.
 
-#### Grace of Planes
-Beginning at 6th level, you can use your action to cause the sweeping winds of the planes to whirl around you until the end of your turn.  While the winds are whirling around you this way, whenever you move within 5 feet of another creature, you may choose to heal that creature for 1d8 + your spellcasting ability modifier or deal 1d8 + your spellcasting ability modifier thunder damage to the creature. 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-You may use any combination of either of these abilities up to six times this turn and only once per creature.
-Once you have used this action, you can’t use it again until you finish a long rest or until you expend a spell slot of 3th level or higher to use it again.
+#### Grassland Forms
+*2nd Level Circle of Grasslands Feature* <br>
+You can now use your Wild Shape feature to transform into unique grassland animal forms granted by this subclass, and when using your Wild Shape this way, you may use it as a bonus action. Detailed descriptions of these forms can be found in the Grasslands Wild Shapes section.
 
-#### Primal Weapons
-At 6th level, if you have magic weapon merge into any of your wild shapes, your attacks in wild shape form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+When shapeshifting into these forms, you can choose to either be Small or Medium. Starting at 10th level, you can also choose to be Large. 
 
-#### Avatar of the Planes
-At 10th level, you can use your wild shape to transform into an Elephant*, Zephyr Horn*, or Bronzehide Lion* for 1 hour. You can wild shape this way 3 times per day, and regain all uses after completing a long rest. 
+While in these forms, you can perform the somatic and verbal components of druid spells from your Grasslands Spells list and ignore their material component requirements.
+
+You start knowing three of these forms: Antelope, Cheetah, Horse. Additional wild shape forms from this subclass become available at levels 4 and 8. 
+
+##### Grasslands Wild Shape Options
+| Druid  Level  |  Wild Shape Option      | 
+|:-------------:|:-------------:|
+|  2nd          | Antelope, Cheetah, Horse |
+|  4th          | Cape Buffalo, Giraffe, Lion       | 
+|  8th          | Elephant, Rhino   |
+
+**New spell found at end of document*
+
+<img
+src='https://i.ibb.co/0Gg2Qzk/Oreskos-Sun-Guide-Art.jpg'
+style='position:absolute;top:-0px;right:0px;width:816px;transform:scaleX(-1)' />
+
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-150px;top:90px;height:1400px;width:1416px;transform:rotate(209deg)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-380px;top:195px;height:1400px;width:1416px;transform:rotate(183deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:335px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+#### Plains Runner
+*2nd Level Circle of Grasslands Feature* <br>
+Your speed increases by 10 feet while <br> you aren't wearing heavy armor or <br> wielding a shield.
+
+Additionally, you gain an advantage on <br> Wisdom (Survival) and Intelligence (Nature) <br> checks relating to grasslands environments <br> and the life that inhabits them. You can also <br> speak with animals who dwell in grasslands <br> environments as though under the effects of <br> the *speak with animals* spell, and you have <br> advantage on Wisdom (Animal Handling) <br> checks made while interacting with them.
+
 
 #### Sonic Charge
-Starting at 14th level, you gain the ability charge at supersonic speeds, smashing through anything standing in your way.  As a bonus action, you may choose to move up to a 120 feet in a straight line along the ground. This movement does not provoke attacks of opportunity and you have advantage on dexterity saving throws while moving this way. 
+*6th Level Circle of Grasslands Feature* <br>
+You gain the ability to charge at supersonic <br> speeds, smashing through anything standing in  <br> your way. As a bonus action, you may choose to <br> move up to 60 feet in a straight line along the <br> ground.
 
-Each creature that comes into contact with you while you are moving this way takes 5d10 thunder damage and must make a strength saving throw against your spell save DC. On a failed save, the creature is pushed to side of you, and is knocked prone.  On a successful save, the creature still takes the full damage but is not pushed to the side or knocked prone and you are stopped in your path.
+During this movement, you can move through <br> the space of other creatures, and you do not provoke <br> opportunity attacks. If you end your turn inside a <br> creature’s space, you are pushed into the nearest <br> unoccupied space.
 
-Once you have used this action, you can’t use it again until you finish a long rest or until you expend a spell slot of 5th level or higher to use it again.
+Each creature whose space you move through must <br> make a Dexterity saving throw against your spell save <br> DC. On a failed save, the creature takes 3d8 thunder <br> damage; on a successful save, it takes half as much <br> damage.
+
+Once you use this feature, you cannot use it again <br> until you complete a long rest or expend a spell slot of <br> 3rd level or higher.
+
+
+
+
+#### Primal Weapons
+*6th Level Circle of Grasslands Feature* <br>
+If you merge into any of your wild shapes with a magical weapon you are wielding, your attacks in that wild shape count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
+#### Avatar of the Plains
+*10th Level Circle of Tundra feature* <br>
+When you use your Wild Shape feature to transform into one of the forms granted by this subclass, you can choose one of the following enhancements while in that form:
+
+* **Critical Velocity.** You can hurl yourself at your enemies with high speed, impacting them for lethal damage. When you hit a target with a weapon attack, the lowest number you must roll on the d20 for it to be a critical hit is reduced by 1 for every 10 feet you move straight toward the target before the attack this turn. This cannot reduce the critical hit range below 16.
+* **Crushing Impact.** Your hits are so forceful that creatures have trouble recovering. When you knock a creature prone using a shove or any of your Wild Shape abilities, it cannot stand up until the start of your next turn unless it uses all of its movement to do so.
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+* **Elusive Movement.** You are as mercurial as the wind. Attacks of opportunity made against you have disadvantage. You also have resistance to damage from opportunity attacks, and they cannot grapple you on a hit.
+
+#### Instincts of the Plains
+*14th Level Circle of Tundra feature* <br>
+You've honed your instincts to be alert to any danger. You gain proficiency in Dexterity saving throws. If you already have this proficiency, you instead gain proficiency in Strength or Constitution saving throws (your choice). Additionally, you may add your Wisdom modifier to initiative rolls.
 
 <br>
 
-*See the end of the document for new and revised creature stats
+##### Art Credit
+* Oreskos Sun Guide - Mathias Kollros, Wizards of the Coast
+* Stampeding Rhino - Steven Belledin, Wizards of the Coast
+* Pouncing Cheetah - Matt Stewart, Wizards of the Coast
+* Rogue Elephant - Steve White, Wizards of the Coast
+* Whitemane Lion - Zoltan Boros & Gabor Szikszai, Wizards of the Coast
+* Messenger's Speed - Clint Cearley, Wizards of the Coast
 
-<div style='margin-top:850px;'></div>
-<img
-src='https://res.cloudinary.com/drado2lmv/image/upload/v1605925745/GM%20Binder/Circle_of_the_Grasslands_rnce6c.jpg'
-style='position:absolute;top:-10px;left:275px;width:550px' />
+<img src='https://i.ibb.co/8MqTfFH/stampeding-rhino.jpg' style='position:absolute; top:-0px; right:-130px; width:788px; transform:rotate(0deg);filter:opacity(100%);transform:scaleX(1);'/>
 
-<img
-src='https://www.gmbinder.com/images/VxJ8X1u.png'
-style='position:absolute;top:0px;left:0px;width:916px' />
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:66px;top:-82px;height:1400px;width:1416px;transform:rotate(-100deg)scaleX(1);' />
 
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-350px;top:190px;height:1400px;width:1416px;transform:rotate(183deg)' />
 
-\pagebreak
+\pagebreakNum
 
 ## New Wildshape Stats
+The following stat blocks are listed in alphabetical order and describe the new wild shape options granted by the Circle of Grasslands subclass.
+
 
 
 ___
-> ## Bronzehide Lion
->*Large Celestial, Neutral*
+> ## Antelope Shape
+> *Small, Medium, or Large (must be 10th level druid or higher to be Large) (your
+creature type doesn’t change), unaligned*
 > ___
-> - **Armor Class** 16 (Natural Armor)
-> - **Hit Points** 68 (8d10+24)
-> - **Speed** 50ft
+> - **Armor Class** 12 + your Wisdom modifier
+> - **Hit Points** 4 + 2 times your level in this class
+> - **Speed** 50 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|19 (+4)|15 (+2)|16 (+3)|6 (-2)|16 (+3)|14 (+2)|
+>|Equals your Wisdom score| Equals your Wisdom score|Equals your Wisdom score|Equals your score |Equals your score|Equals your score|
 >___
-> - **Saving Throws** Str +6, Con +4
-> - **Skills** Intimidation +4, Perception +5, Stealth +5 
-> - **Damage Resistances** Bludgeoning, Piercing, and Slashing
-> - **Senses** Darkvision 90 ft., passive Perception 15
-> - **Challenge** 5 (1,800 XP)
-> ___
-> **Keen Senses.** The Bronzehide Lion has advantage on Wisdom (Perception) checks.
->
-> **Ambusher.** The Bronzehide Lion has advantage on attack rolls against any creature it has surprised.
+> - **Languages** the languages you know
+> - **Proficiency Bonus** equals your bonus
 > ___
 >
+> ***Agile.*** You have advantage on Dexterity saving throws.
+>
+> ***Skewer.*** If you move at least 10 ft. straight toward a target and then hit it with a Gore attack on the same turn, the target takes an extra 1d8 piercing damage. If you're a 6th-level druid or higher, it instead takes an extra 2d8 piercing damage.
+>
+> ***Standing Leap.*** Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start.
+> 
 > ### Actions
-> ***Multiattack.***  The Bronzehide Lion makes two attacks: one with its bite and one with its claw. 
 >
-> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. Hit: 8 (2d8 + 4) piercing damage. 
+> ***Gore.*** *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + your Wisdom modifier piercing damage. This attack scores a critical hit on a roll of 19 or 20. If you're a 6th-level druid or higher, you can roll an additional 2d8 damage die when determining the extra damage from a critical hit with the attack.
 >
-> ***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. Hit: 7 (2d6 + 4) slashing damage. 
+> ***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 1d8 + your Wisdom modifier bludgeoning damage.
+>
+> ### Reaction 
+>
+> ***Back Kick. (Requires you to be a 6th level druid or higher)*** If a creature makes an opportunity attack against you, you may make a Hooves attack against the creature with disadvantage after the attack.
 
-<img src='https://res.cloudinary.com/drado2lmv/image/upload/v1605926380/GM%20Binder/bronzehide_lion_fmsw8s.jpg' style='position:absolute;bottom:-170px;left:-210px;width:700px' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:250px;left:-140px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:260px;left:290px;width:350px;transform:rotate(20deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:250px;left:-180px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom:210px;left:290px;width:350px;transform:rotate(80deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:290px;left:-40px;width:400px' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:240px;left:-150px;width:350px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:325px;width:330px;transform:rotate(275deg)' />
-<img src='https://www.gmbinder.com/images/AjTorsm.png' style='position:absolute;bottom:260px;left:290px;width:350px;transform:rotate(50deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:250px;left:-180px;width:400px;transform:rotate(180deg)' />
-<img src='https://www.gmbinder.com/images/gL7L8mt.png' style='position:absolute;bottom:130px;left:220px;width:415px;transform:rotate(260deg)' />
-<img src='https://www.gmbinder.com/images/CG8nfyb.png' style='position:absolute;bottom:-80px;left:300px;width:390px;transform:rotate(280deg)' />
-<img src='https://www.gmbinder.com/images/KrHsVgo.png' style='position:absolute;bottom:210px;left:290px;width:350px;transform:rotate(80deg)' />
+
+\columnbreak
+
+<br><br><br><br><br>
 
 ___
-> ## Cheetah
->*Medium Beast, Unaligned*
+> ## Buffalo Shape
+> *Small, Medium, or Large (must be 10th level druid or higher to be Large) (your
+creature type doesn’t change), unaligned*
 > ___
-> - **Armor Class** 13
-> - **Hit Points** 13 (3d8)
-> - **Speed** 50ft.
+> - **Armor Class** 10 + your Wisdom modifier
+> - **Hit Points** 8 + 4 times your level in this class
+> - **Speed** 50 ft.,
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|12 (+1)|18 (+3)|10 (+0)|4 (-3)|14 (+2)|8 (-1)|
+>|Equals your Wisdom score| Equals your Wisdom score|Equals your Wisdom score|Equals your score |Equals your score|Equals your score|
 >___
-> - **Skills** Perception +4, Stealth +5
-> - **Senses** passive Perception 14
-> - **Challenge** 1 (200 XP)
+> - **Languages** the languages you know
+> - **Proficiency Bonus** equals your bonus
 > ___
-> **Keen Sight and Hearing.** The Cheetah has advantage on Wisdom (Perception) checks that rely on sight or hearing.
 >
-> **Ambusher.** The Cheetah has advantage on attack rolls against any creature it has surprised.
+> ***Burly.*** You have advantage on Strength and Constitution checks and saving throws.
 >
-> **Sprinter.** The first time the Cheetah uses the Dash action on its turn, its speed is quadrupled instead of doubled. The Cheetah can also make one Claw attack as a bonus action on that turn
-> ___
+> ***Charge.*** If you move at least 20 ft. straight toward a target and then hit it with a Gore attack on the same turn, the target takes an extra 1d8 piercing damage. If you're a 6th-level druid or higher, it instead takes an extra 2d8 piercing damage. Regardless of your level, if the target is a creature, it must succeed on a Strength saving throw against your spell save or be knocked prone. 
 >
 > ### Actions
-> ***Multiattack.*** The Cheetah makes two attacks: one with its bite and one with its claws.
 >
-> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. 
+> ***Multiattack (requires you to be a 6th level druid or higher).*** You make a Gore and a Stomp attack.
 >
-> ***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone
+> ***Gore.*** *Melee Attack:* your Spell Attack Modifier
+to hit, reach 5 ft., one target. *Hit:* 1d8 + your Wisdom modifier piercing damage.
+>
+> ***Stomp.*** *Melee Attack:* your Spell Attack Modifier
+to hit, reach 5 ft., one prone target or a target that is two sizes smaller then you. *Hit:* 1d10 + your Wisdom modifier bludgeoning damage.
 
-\pagebreak
+
+\pagebreakNum
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ___
 ___
-> ## Elephant
->*Huge Beast, Unaligned*
+> ## Cheetah Shape
+> *Small, Medium, or Large (must be 10th level druid or higher to be Large) (your
+creature type doesn’t change), unaligned*
 > ___
-> - **Armor Class** 14 (Natural Armor)
-> - **Hit Points** 114 (12d12+36)
-> - **Speed** 50ft.
+> - **Armor Class** 12 + your Wisdom modifier
+> - **Hit Points** 4 + 2 times your level in this class
+> - **Speed** 50 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|23 (+6)|9 (-1)|17 (+3)|6 (-2)|16 (+3)|10 (+0)|
+>|Equals your Wisdom score| Equals your Wisdom score|Equals your Wisdom score|Equals your score |Equals your score|Equals your score|
 >___
-> - **Skills** Intimidation +4, Perception +6
-> - **Senses** passive Perception 16
-> - **Challenge** 5 (1,800 XP)
+> - **Languages** the languages you know
+> - **Proficiency Bonus** equals your bonus
 > ___
-> **Keen Hearing.** The Elephant has advantage on Wisdom (Perception) checks that rely on hearing.
 >
-> **Trunk.** The Elephant can grasp objects with its trunk and use it as a snorkel. The trunk has a reach of 10ft. and can lift up to 800 pounds.  The trunk can be used to perform the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or container. It can't wield weapons or shields or do anything that requires manual precision, such as using tools, magic items or performing the somatic components of a spell.
+> ***Agile.*** You have advantage on Dexterity saving throws.
 >
-> **Trampling Charge.** If the Elephant moves at least 20ft. straight toward a creature and then hits it with a Gore attack on the same turn, the target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is knocked prone, the Elephant can make one Stomp attack against it as a bonus action.
-> ___
+> ***Keen Sight.*** You have advantage on Wisdom (Perception) checks that rely on sight.
+>
+> ***Ghost of the Grasslands.*** You have advantage on Dexterity (Stealth) checks made to hide in foliage and may do so even if you are only lightly obscured while in such terrain
+>
+> ***Sprinter.*** The first time you use the Dash action on your turn, your speed is tripled instead of doubled.
+>
+> ***Trip Attacker (Requires you to be a 6th-level druid or higher).*** Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach. Additionally, you make opportunity attacks with advantage.
+>
+> ***Ravage (Requires you to be a 6th level druid or higher).*** Once per turn, when you hit a prone target with a bite attack, you can deal an extra 3d4 damage to it.
+> 
 > ### Actions
-> ***Multiattack.*** The Elephant makes two attacks: one with its Gore and one with its Trunk Slam or Throw.
 >
-> ***Gore.*** *Melee Weapon Attack:* Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit:  16 (3d8 + 6) piercing damage.
+> ***Multiattack.*** You make a Bite and a Claw attack. If you're a 6th-level druid or higher and both attacks hit the same target, you may automatically grapple the target. Until this grapple ends, you can't attack another target. 
 >
-> ***Trunk Slam.*** *Melee Weapon Attack:* Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 8 (1d4 + 6) bludgeoning damage. If the Elephant's Trunk is not holding anything and the target is a medium or smaller creature, the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained and the Elephant can't grapple another creature with its Trunk Slam.
+> ***Bite.*** *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d4 + your Wisdom modifier piercing damage.
 >
-> ***Throw.*** *Ranged Weapon Attack with an Object Held by its Trunk:* +2 to hit, reach 20/40 ft., one target. Hit: 9 (1d6 + 6) bludgeoning damage. If a creature the Elephant is grappling is thrown this way, it lands prone 5 feet away from the target and takes (1d6 + 6) damage, regardless of whether the attack hits.
->
-> ***Stomp.*** *Melee Weapon Attack:* Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage.
+> ***Claw.*** *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d4 + your Wisdom modifier slashing damage. If the attack is an attack of opportunity, the target must succeed on a Strength saving throw against your spell save or be knocked prone.
+> 
 
-\pagebreak
+<img src='https://i.ibb.co/2vDHLTZ/3798-pouncing-cheetah.jpg'
+ style='position:absolute;top:-80px;right:-20px;width:1030px;transform:scaleX(-1)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:147px;height:1400px;width:1416px;transform:rotate(187deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 ___
-> ## Lion
->*Large Beast, Unaligned*
+___
+> ## Elephant Shape
+> *Small, Medium, or Large (must be 10th level druid or higher to be Large) (your
+creature type doesn’t change), unaligned*
 > ___
-> - **Armor Class** 14 (Natural Armor)
-> - **Hit Points** 45 (6d10+12)
-> - **Speed** 40 ft., climb 25 ft.
+> - **Armor Class** 12 + your Wisdom modifier
+> - **Hit Points** 8 + 4 times your level in this class
+> - **Speed** 35 ft.,
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|17 (+3)|15 (+2)|13 (+1)|4 (-3)|14 (2)|12 (+1)|
+>|Equals your Wisdom score| Equals your Wisdom score|Equals your Wisdom score|Equals your score |Equals your score|Equals your score|
 >___
-> - **Skills** Intimidation +3, Perception +4, Stealth +4 
-> - **Senses** darkvision 60 ft. passive Perception 14
-> - **Challenge** 1 (200 XP)
+> - **Languages** the languages you know
+> - **Proficiency Bonus** Equals your Proficiency Bonus
 > ___
-> **Keen Senses.** The Lion has advantage on Wisdom (Perception) checks.
 >
-> **Ambusher.** The Lion has advantage on attack rolls against any creature it has surprised.
+> ***Brawn.*** You have advantage on Strength checks and saving throws.
 >
-> **Pack Tactics.** The Lion has advantage on an attack roll against a creature if at least one of the Lion's allies is within 5 ft. of the creature and the ally isn't incapacitated.
+> ***Charge.*** If you move at least 20 ft. straight toward a target and then hit it with a Gore attack on the same turn, the target must succeed on a Strength saving throw against your spell save DC or be knocked prone.
 >
-> **Running Leap.** With a 10-foot running start, the Lion can long jump up to 30 ft.
-> ___
+> ***Keen Hearing.*** You have advantage on Wisdom (Perception) checks that rely on hearing.
+>
+> ***Trunk.*** You can grasp objects with your trunk and use it as a snorkel. Your trunk has a reach of 10ft. and can lift up objects weighing a number of pounds up to 30 times your Wisdom score. Your trunk can be used to perform the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or container.
+> 
+> It can't wield weapons or shields or do anything that requires manual precision, such as using tools, magic items, or performing the somatic components of a spell.
+>
 > ### Actions
-> ***Multiattack.*** The Lion makes two attacks: one with its bite and one with its claws.
 >
-> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.
+> ***Multiattack.*** You make a Gore and Stomp attack and a Trunk Grab or Fling. 
 >
-> ***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.
+> ***Gore.*** *Melee Attack:* your Spell Attack Modifier
+to hit, reach 5 ft., one target. *Hit:* 1d8 + your Wisdom modifier piercing damage.
+>
+> ***Stomp.*** *Melee Attack:* your Spell Attack Modifier
+to hit, reach 5 ft., one prone target or a target that is two sizes smaller then you. *Hit:* 1d10 + your Wisdom modifier bludgeoning damage.
+>
+> ***Trunk Grab.*** *Melee Attack:* your Spell Attack Modifier
+to hit, reach 5 ft., one target. *Hit:* The target is grappled by your trunk.
+>
+> ***Fling.*** You choose one object or creature you are holding or grappling with your trunk that is your size or smaller and throw it up to 20 feet away. If the target hits a solid surface, it takes 1d4 + your Wisdom modifier damage and lands prone. If the thrown target would hit another creature, the creature that would be hit must make a Dexterity saving against your spell save DC. On a failed save, the creature is hit, takes 1d4 + your Wisdom modifier bludgeoning damage, and is knocked prone. On a successful save, it dodges out of the way, takes no damage, and is not knocked prone.
+>
+
+<img src='https://i.ibb.co/F460Y1B/rogue-elephant.png'
+ style='position:absolute;top:-80px;right:-0px;width:820px;transform:scaleX(1)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:147px;height:1400px;width:1416px;transform:rotate(187deg)' />
+
+\pagebreakNum
+
 
 ___
-> ## Pronghorn
->*Medium Beast, Neutral*
+> ## Giraffe Shape
+> *Small, Medium, or Large (must be 10th level druid or higher to be Large) (your
+creature type doesn’t change), unaligned*
 > ___
-> - **Armor Class** 12
-> - **Hit Points** 6 (1d8+1)
-> - **Speed** 70 ft.
+> - **Armor Class** 10 + your Wisdom modifier
+> - **Hit Points** 8 + 4 times your level in this class
+> - **Speed** 40 ft.,
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|14 (+2)|14 (+2)|12 (+1)|3 (-4)|14 (+2)|8 (-1)|
+>|Equals your Wisdom score| Equals your Wisdom score|Equals your Wisdom score|Equals your score |Equals your score|Equals your score|
 >___
-> - **Skills** Perception +4
-> - **Senses** passive Perception 14
-> - **Challenge** 1/2 (100 XP)
+> - **Languages** the languages you know
+> - **Proficiency Bonus** equals your bonus
 > ___
-> **Keen Sight.** The Pronghorn has advantage on Wisdom (Perception) checks that rely on sight.
 >
-> **Loose Fur.** Checks made to grapple the Pronghorn or attack it with natural weapons that deal piercing damage have disadvantage.
+> ***Brawny.*** You have advantage on Strength checks and saving throws.
 >
-> **Charge.** If the Pronghorn moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage.
-> ___
+> ***Keen Sight and Hearing.*** You have advantage on Wisdom (Perception) checks that rely on sight and hearing.
+>
+> ***Towering Legs.*** While you are not prone, melee weapon attacks made against you by creatures smaller than you have disadvantage unless they have a reach of 10 ft. or greater.
+>
 > ### Actions
-> ***Ram.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. Hit: 5 (1d4+ 2) bludgeoning damage. 
+>
+> ***Multiattack (requires you to be a 6th level druid or higher).*** You make a Hooves and a Neck Swing attack.
+>
+> ***Hooves.*** *Melee Attack:* your Spell Attack Modifier to hit, reach 10 ft., one target. *Hit:* 1d8 + your Wisdom modifier bludgeoning damage.
+>
+> ***Neck Swing.*** *Melee Weapon Attack:* your Spell Attack Modifier, reach 10 ft., one target. *Hit:* 1d8 + your Wisdom modifier bludgeoning damage. If the target is a creature, it must succeed on a Strength saving throw against your spell save or be knocked prone. The attack has disadvantage on targets smaller then you. 
+>
+> ### Reaction 
+>
+> ***Back Kick (Requires you to be a 6th level druid or higher).*** If a creature makes an opportunity attack against you, you may make a Hooves attack against the creature with disadvantage after the attack.
+
+\columnbreak
 
 ___
-___
-> ## Rhinoceros
->*Large Beast, Unaligned*
+> ## Horse Shape
+> *Small, Medium, or Large (must be 10th level druid or higher to be Large) (your
+creature type doesn’t change), unaligned*
 > ___
-> - **Armor Class** 14 (Natural Armor)
-> - **Hit Points** 68 (8d10+18)
+> - **Armor Class** 10 + your Wisdom modifier
+> - **Hit Points** 6 + 3 times your level in this class
+> - **Speed** 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|Equals your Wisdom score| Equals your Wisdom score|Equals your Wisdom score|Equals your score |Equals your score|Equals your score|
+>___
+> - **Languages** the languages you know
+> - **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***Burly.*** You have advantage on Strength and Constitution checks and saving throws.
+>
+> ***Charge.*** If you move at least 20 ft. straight toward a target and then hit it with a Hooves attack on the same turn, the target must succeed on a Strength saving throw against your spell save DC or be knocked prone.
+>
+> ### Actions
+>
+> ***Multiattack (requires you to be a 6th level druid or higher).*** You make a Hooves and a Stomp attack.
+>
+> ***Hooves.*** *Melee Weapon Attack:*  your Spell Attack Modifier
+to hit, reach 5 ft., one target. *Hit:* 1d10 + your Wisdom modifier bludgeoning damage.
+>
+> ***Stomp.*** *Melee Attack:* your Spell Attack Modifier
+to hit, reach 5 ft., one prone target or a target that is two sizes smaller then you. *Hit:* 1d12 + your Wisdom modifier bludgeoning damage.
+>
+> ### Reaction 
+>
+> ***Back Kick. (Requires you to be a 6th level druid or higher)*** If a creature makes an opportunity attack against you, you may make a Hooves attack against the creature with disadvantage after the attack.
+>
+
+\pagebreakNum
+
+
+___
+> ## Lion Shape
+> *Small, Medium, or Large (must be 10th level druid or higher to be Large) (your
+creature type doesn’t change), unaligned*
+> ___
+> - **Armor Class** 11 + your Wisdom modifier
+> - **Hit Points** 4 + 2 times your level in this class
+> - **Speed** 40 ft
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|Equals your Wisdom score| Equals your Wisdom score|Equals your Wisdom score|Equals your score |Equals your score|Equals your score|
+>___
+> - **Senses** darkvision 60 ft.
+> - **Languages** the languages you know
+> - **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***Brawn.*** You have advantage on Strength checks and saving throws.
+>
+> ***Ghost of the Grasslands.*** You have advantage on Dexterity (Stealth) checks made to hide in foliage and may do so even if you are only lightly obscured while in such terrain
+>
+> ***Keen Sight and Hearing.*** You have advantage on Wisdom (Perception) checks that rely on hearing or smell.
+>
+> ***Pack Tactics.*** You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.
+>
+> ***Pounce.*** If you jump at least 10 feet straight towards a creature and then hit it with a claw attack on the same turn, the target must succeed on a Strength saving throw against your spell save DC or be knocked prone.
+>
+> ***Ravage (Requires you to be a 6th level druid or higher).*** Once per turn, when you hit a target that is prone with a bite attack, you can deal an extra 3d6 damage to the target.
+> 
+> ### Actions
+>
+> ***Multiattack.*** You make a Bite and a Claw attack. If you're a 6th-level druid or higher and both attacks hit the same target, you may automatically grapple the target. Until this grapple ends, you can't attack another target. 
+>
+> ***Bite.*** *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d6 + your Wisdom modifier piercing damage.
+>
+> ***Claw.*** *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d4 + your Wisdom modifier slashing damage.
+> 
+
+\columnbreak
+
+___
+> ## Rhino Shape
+> *Small, Medium, or Large (must be 10th level druid or higher to be Large) (your
+creature type doesn’t change), unaligned*
+> ___
+> - **Armor Class** 13 + your Wisdom modifier
+> - **Hit Points** 8 + 4 times your level in this class
 > - **Speed** 40 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
 >|:---:|:---:|:---:|:---:|:---:|:---:|
->|21 (+5)|8 (-1)|16 (+3)|4 (-3)|10 (0)|8 (-1)|
+>|Equals your Wisdom score| Equals your Wisdom score|Equals your Wisdom score|Equals your score |Equals your score|Equals your score|
 >___
-> - **Skills** Intimidation +4
-> - **Senses** passive Perception 11
-> - **Challenge** 3 (700 XP)
+> - **Languages** the languages you know
+> - **Proficiency Bonus** equals your bonus
 > ___
-> **Poor Sight.** The Rhinoceros has disadvantage on Wisdom (Perception) checks that rely on sight.
 >
-> **Charge.** If the Rhinoceros moves at least 20 ft. straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 13 (3d8) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
-> ___
-> ### Actions
-> ***Gore.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage. 
-
-\pagebreak
-
-___
-___
-> ## Zephyr Horn
->*Medium Elemental, Neutral*
-> ___
-> - **Armor Class** 16
-> - **Hit Points** 54 (12d8)
-> - **Speed** 70ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|12 (+1)|22 (+6)|10 (+0)|8 (-1)|16 (+3)|12 (+1)|
->___
-> - **Saving Throws** Dex +8
-> - **Damage Resistances** Thunder
-> - **Skills** Perception +5, Stealth +8 
-> - **Senses** passive Perception 14 
-> - **Challenge** 5 (200 XP)
-> ___
-> **Keen Sight and Hearing.** The Zephyr Horn has advantage on Wisdom (Perception) checks that rely on sight or hearing.
+> ***Brawn.*** You have advantage on Strength checks and saving throws.
 >
-> **Ambusher.** The Zephyr Horn has advantage on attack rolls against any creature it has surprised.
+> ***Poor Eyesight.*** You have a disadvantage on Wisdom (Perception) checks and are blind beyond 40 feet.
 >
-> **Sprinter.** The first time the Zephyr Horn uses the Dash action on its turn, its speed is quadrupled instead of doubled. The Zephyr Horn can also make one Ram attack as a bonus action on that turn
->
-> **Sonic Ram.** If the Zephyr Horn moves at least 40 feet straight toward a target and then hits it with a Ram attack on the same turn, the target takes an extra 16 (3d10) thunder damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or be stunned until the end of it's next turn.
-> ___
+> ***Impale.*** If you move at least 20 ft. straight toward a target and then hit it with a Gore attack on the same turn, the target takes an extra 3d8 piercing damage. If the target is a creature your size or smaller than you, it is impaled on your horn, causing you to grapple it (escape DC equal to your spell save DC). Until the grapple ends, the target is restrained and it takes 3d8 piercing damage at the start of each of your turns, and you can't grapple other creatures with your gore.
 >
 > ### Actions
-> ***Multiattack.*** The Zephyr Horn makes three attacks: one with its bite and one with its claws and one ram attack.
 >
-> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. Hit: 9 (1d6 + 5) piercing damage.
->
-> ***Claw.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) slashing damage.
->
-> ***Ram.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. Hit: 7 (1d4 + 5) bludgeoning damage.
+> ***Gore.*** *Melee Attack:* your Spell Attack Modifier
+to hit, reach 5 ft., one target. *Hit:* 1d8 + your Wisdom modifier piercing damage.
+
+<img src='https://i.ibb.co/XzsGX1r/whitemanelion.jpg' style='position:absolute; bottom:-2px; right:-50px; width:510px; transform:rotate(0deg)scalex(1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:45px;top:5px;height:1400px;width:1416px;transform:rotate(281deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:70px;top:5px;height:1400px;width:1416px;transform:rotate(275deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-210px;top:-390px;height:1400px;width:1416px;transform:rotate(5deg)' />
+
+\pagebreakNum
+
+### New Spells
+#### Incantation of Protection
+*2nd-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**  1 round
+- **Classes:**  Cleric, Bard, Paladin
+___
+
+A barrier of mystical glyphs forms a 10-foot-radius sphere centered on a point you choose within range. Up to three creatures of your choice within the sphere gain resistance to bludgeoning, piercing, and slashing damage and lose any vulnerability to these damage types until the start of your next turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot.
+
+\columnbreak
 
 
-<img src='https://res.cloudinary.com/drado2lmv/image/upload/v1605926859/GM%20Binder/Zephyr_Horn_sywkl2.jpg' style='position:absolute; bottom:-280px; right:-26px; width:900px; transform:rotate(0deg);filter:opacity(100%);filter:hue-rotate(180deg);filter:saturate(50%);'/>
+#### Incantation of Zeal
 
-<img src='https://www.gmbinder.com/images/sKQMREa.png' style='position:absolute; bottom:70px; right:-0px; width:850px; transform:rotate(0deg);filter:opacity(100%);'/>
+*2nd-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:**  1 round.
+- **Classes:**  Cleric, Bard, Paladin
+___
 
-### Art Credit
-* Shepard of the Flock - Magic the Gathering - Wizards of the Coast.
-* Bronzehide Lion - Magic the Gathering - Wizards of the Coast.
-* Felidar Guardian - Magic the Gathering - Wizards of the Coast.
+A brilliant light emanates from a point within range, forming a 10-foot-radius sphere. Up to three creatures of your choice within the sphere are quickened until the start of your next turn.
 
-\pagebreak
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
-### 0.0.0 Changes
- * This is a place holder for the change log
+<br>
+
+> ##### New Condition:  Quickened
+> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+
+<img src='https://i.postimg.cc/7YBcGp5Q/messengers-speed-129.jpg' style='position:absolute; bottom:-0px; right:0px; width:880px; transform:scaleX(-1);'/>
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-270px;bottom:190px; transform: rotate(13deg)' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-270px;bottom:210px; transform: rotate(0deg)' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document creation
+
+#### 1.0.1
+* Add reference to quickened condition
+
+#### 1.0.2
+* Fix plain typo
+
+#### 1.0.3
+* Add seperate page with art for new spells and quickened condition
+
+### Revision Numbers
+
+#### Local Content
+* Circle of the Grasslands 1.0.1
+
+#### Reference Material
+* Incantation of Protection 1.0.0
+* Incantation of Zeal 1.0.0
+* Quickened 1.0.0
