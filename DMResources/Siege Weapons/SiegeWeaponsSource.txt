@@ -109,6 +109,76 @@ A creature can attempt to resolve a mishap by using its action to make an abilit
 
 \pagebreakNum
 
+## Example Siege Weapons
+
+___
+> ## Howling Skull Catapult 
+> *Huge siege weapon (1,200 pounds lb.)*
+> ___
+> - **Weapon DC** 15
+> - **Armor Class** 15 
+> - **Hit Points** 100 (damage threshold: 5)
+>___
+> - **Damage Immunities** poison, psychic
+> - **Ammo** Cursed Skull (1 round, 10gp)
+> - **Challenge** 4 (1,100 XP)
+> ___
+>
+> ***Magical Weapon.*** Any damage dealt by the howling skull catapult counts as magical damage.
+>
+> ***Screaming Skull.*** Each howling skull catapult has 30 pieces of ammunition built into it that can be removed as needed. This ammunition lets out horrifying screeches that can be heard up to 300 feet away as long as it is within 30 feet of the catapult. Any non-undead creature that starts its turn within 30 feet of any screaming ammunition and can hear it must make a DC 15 Wisdom saving throw.
+>
+> On a failure, the creature is frightened until the end of its next turn. If it fails the save by 5 or more (DC 10), while the creature is frightened, it can't take reactions and must take the Dash action on each of its turns and move away from howling skull catapult by the safest available route.
+>
+> ### Functions
+>
+> ***Load.*** The weapon is loaded with a Cursed Skull. It must be prepped two times before it is loaded. It must be loaded before it can fire.
+>
+> ***Prep (2)*** The weapon is prepped to fire its next shot. This prep must be done two times before it is loaded.
+>
+> ***Fire.*** The howling skull catapult fires a skull that is set ablaze and rains down at a point of the user's choice within 120 feet and shatters. Each creature in a 15-foot radius centered on that point must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) fire damage plus 14 (4d6) piercing damage. Each non-undead creature within 30 feet of the point must then make a saving throw against the effects of the Screaming Skull feature.
+
+\columnbreak
+
+<Br>
+
+___
+> ## Hex Lightning Cannon 
+> *Huge siege weapon (8,500 pounds lb.)*
+> ___
+> - **Weapon DC** 17
+> - **Armor Class** 18 
+> - **Hit Points** 150 (damage threshold: 10)
+>___
+> - **Damage Immunities** poison, psychic
+> - **Ammo** Hex Lighting Core (6 rounds, 1,000g).
+> - **Challenge** 5 (1,800 XP)
+> ___
+>
+> ### Functions
+>
+> ***Load.*** The weapon is loaded with a Hex Lightning Core. This must be done before it is prepped.
+>
+> ***Prep (2)*** The weapon is prepped to fire its next shot. This prep must be done while it is loaded. It must be prepped two times before it can fire.
+>
+>
+> ***Fire.*** The weapon fires a line of lightning that forms a line 4d4 x 10 feet long and 5 feet wide, which blasts out from it in the direction of user's choice. Each creature in the line must make a DC 17 Dexterity saving throw. A creature takes 36 (8d8) lightning damage on a failed save, or half as much damage on a successful one. The lightning ignites flammable objects in the area that aren't being worn or carried. If three or more of the d4s rolled have the same number, the weapon has a mishap. If it has half its health or less, it has a mishap if two or more d4s roll the same number. If a mishap occurs, resolve it before having the weapon fire.
+
+##### Hex Lightning Mishaps
+| d6  |    Mishap Name               | Mishap Effect             | 
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1   | Meltdown | The cannon explodes, preventing it from firing and destroying it. Each creature within 15 feet of it must succeed on a Dexterity saving throw or take 21 (6d8) priercing damage plus 21 (6d8) radiant damage  |
+| 2-3 &emsp;&emsp;   | Electrical Feedback | The cannon takes 71 (8d8) + 35) lightning damage.|
+| 4-5    | Sputtering Fizzle | The cannon does not fire and must be fully prepped again before it can be fired.|
+| 6    | Energy Overload | Unfathomable energies send the cannon spinning wildly. The cannon fires in a random direction, and the length of its blast is 300 ft (no roll needed). To determine the direction, roll a d8 and assign a direction to each die face.|
+
+\pagebreakNum
+
 ### Change Log
 #### 1.0.0
-* Document creation
+* Document release
+
+
+### Referenced Content
+* Howling Skull Catapult 1.0.0
+* Hex Lightning Cannon 1.0.0
