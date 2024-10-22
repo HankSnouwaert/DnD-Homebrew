@@ -1,11 +1,44 @@
+<style>
 
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
 
-<br>
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p4:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Self-Propelled Vehicles
 Most land vehicles in fantasy settings are pulled by other creatures, such as wagons, carriages, or chariots. However, through some combination of technology or magic, some vehicles may be self-propelled and driven by a passenger. These may be relatively small mechanical contraptions, magically self-propelled carriages, or mighty war machines rumbling across blasted battlefields. 
 
 The following rules can help you codify how to use these vehicle types in your games. They can be applied to vehicles of different shapes and sizes and used as tools for designing your own vehicles. The rules here can be applied to most self-powered vehicles piloted by a passenger. 
+
+At the end of the document, you'll find a couple of example vehicles that can be used as inspiration for coming up with your own designs.
 
 ## Self-Propelled Vehicle Rules
 Self-propelled vehicles are vehicles able to move without needing to be pushed or pulled by another creature, and they usually don’t need an external energy source (such as wind). Throughout this document, they will be referred to simply as vehicles. Creatures within a vehicle are referred to as passengers. 
@@ -14,11 +47,17 @@ In combat, vehicles use most of the same rules as creatures, with the following 
 ### Opportunity Attacks
 Vehicles provoke opportunity attacks as usual. When a vehicle provokes an opportunity attack, the attacker can target the vehicle itself or any creature riding on or inside it, provided they are within reach and do not have total cover.
 
+
+
+\columnbreak
+
 ### Spacing Within Vehicles
 All creatures within a vehicle count as being within 5 feet of each other.
 
+
 ### Entering and Exiting Vehicles
 Entering or exiting the vehicle costs a creature half of its movement. Each creature inside the vehicle may use its reaction to make an opportunity attack against the creature entering or exiting.
+
 
 ### Crashing into Creatures and Objects
 A vehicle can crash into a creature or object by entering its space. When it does, the creature or object must make a Dexterity or Strength saving throw (the target's choice) using the vehicle's DC. On a failed save, the target takes 1d6 bludgeoning damage for every 10 feet the vehicle moved in a straight line before attempting to enter the target's space (maximum 20d6 damage).
@@ -27,11 +66,23 @@ If the target is a creature, it is also knocked prone. On a successful Dexterity
 
 If the vehicle is at least two size categories larger than the target it crashed into, it can continue moving through the target's space if it has any movement remaining. Otherwise, the vehicle comes to a sudden stop. If the target is an impassable object that could reasonably damage the vehicle, such as an iron wall, the vehicle comes to a sudden stop and takes 1d6 bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6 damage). Each creature on or inside the vehicle takes the damage as well
 
+<img src='https://i.ibb.co/7VQV8VK/ballista-charger.png' style='position:absolute; top:-0px; right:0px; width:817px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:33px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(12deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:100px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:318px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
 ### Prone Vehicles
 If vehicle falls prone, it cannot right itself and is incapacitated until it is flipped upright.
 
 ### Falling Vehicles
 When a vehicle falls from a height of 10 feet or higher, it and all creatures on or inside it take damage from the fall as normal and land in a prone position. If the vehicle falls due to the actions of its driver (such as jumping off a ramp) it may not land prone (DM’s discretion) but still takes fall damage.
+
 
 
 ### Repairing Vehicles
@@ -41,14 +92,9 @@ If a vehicle has taken damage but still has at least 1 hit point, a creature can
 Certain circumstances can cause a vehicle to malfunction and eventually break down due to wear and tear. This wear and tear can be represented using exhaustion rules, as described in Appendix A of the Player's Handbook, with the following modifications:
 
 * When a vehicle reaches exhaustion level 6, its hit points drop to 0, and the vehicle breaks down.
+* The only way to remove the effects of exhaustion on a vehicle is through repair. This can be done using the <br> rules described in the Repairing Vehicles section <br> above. If the attempt to repair the vehicle <br> succeeds, the vehicle's exhaustion level <br> decreases by 1. If the check fails, the <br> vehicle's exhaustion level remains <br> unchanged, but the repair attempt <br> can be made again using <br> the same tools and <br> replacement parts.
 
-
-
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
-
-\pagebreakNum
-
-* The only way to remove the effects of exhaustion on a vehicle is through repair. This can be done using the rules described in the Repairing Vehicles section above. If the attempt to repair the vehicle succeeds, the vehicle's exhaustion level decreases by 1. If the check fails, the vehicle's exhaustion level remains unchanged, but the repair attempt can be made again using the same tools and replacement parts.
+\columnbreak
 
 ## Self-Propelled Vehicle Attributes
 Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, these vehicles have the following additional attributes and considerations:
@@ -57,18 +103,31 @@ Besides the size, weight, AC, HP, and damage immunity attributes common to all o
 A vehicle's hit points can be restored through vehicle repairs. However, when a vehicle's hit points reach 0, it becomes inoperative and is irreparably damaged.
 ### Damage Threshold
 Most vehicles possess bulk or armor that enables them to withstand minor hits. A vehicle with a damage threshold is immune to all damage unless the amount of damage it takes is equal to or greater than its damage threshold value. In such cases, the vehicle takes damage as usual. Damage that fails to meet or exceed the vehicle's damage threshold is considered superficial and does not reduce the vehicle's hit points.
+
 ### Mishap Threshold
 When a vehicle sustains damage from a single source that is equal to or exceeds its mishap threshold, it is required to roll on the Mishaps table (refer to the Mishaps section).
+
+<img src='https://i.ibb.co/pZzQTPR/surgehacker-mech.png' style='position:absolute; bottom:-100px; right:-200px; width:1016px; transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-410px; right:-170px; width:1000px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-300px; right:105px; width:1000px; transform:rotate(-37deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-451px; right:-00px; width:1000px; transform:rotate(-4deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
 ### Creature Capacity 
 Creature capacity determines the number of creatures that can ride the vehicle comfortably. Additional creatures can fit by squeezing or clinging to the outside of the vehicle.
+
 ### Cargo Capacity
 Cargo capacity indicates the maximum weight of cargo the vehicle can carry.
+
 ### Vehicle DC 
 Whenever the vehicle requires a creature to make a check or saving throw, it uses this number as the DC.
+
 ### Challenge Rating
 When players face enemies that are equipped with a fully functioning vehicle, the challenge rating (CR) of the encounter should be calculated as if the vehicle is an additional creature with its own CR.
-
-\columnbreak
 
 ### Ability Scores 
 A vehicle possesses the standard six ability scores that creatures have, along with their corresponding modifiers. The Strength of the vehicle is determined by its size and weight, while Dexterity represents its handling and maneuverability. The Constitution of a vehicle reflects its durability and quality of construction. In most cases, vehicles have a score of 0 in Intelligence, Wisdom, and Charisma.
@@ -76,7 +135,9 @@ A vehicle possesses the standard six ability scores that creatures have, along w
 If a vehicle has a score of 0 in a particular ability score, it automatically fails any ability check or saving throw that relies on that score.
 
 ### Action Stations
-A vehicle may have one or more Action Stations. Each of these stations requires a certain number of creatures to operate and may grant those creatures some amount of cover. The creatures operating these stations must be passengers within the vehicle, but not all passengers need to be operating a station. A creature operating a station can use an action to activate the station's effect. A station can be occupied by only one creature at a time and can only be activated once per round. 
+A vehicle may have one or more Action Stations. Each of these stations requires a certain number of creatures to operate and may grant those creatures some amount of cover. The creatures operating these stations must be passengers within the vehicle, but not all passengers need to be operating a station. A creature operating a station <br> can use an action to activate the station's effect.  <br> A station can be occupied by only one <br> creature at a time and can only <br> be activated once per round. 
+
+\columnbreak
 
 #### The Helm 
 Most vehicles that must be piloted by a passenger (referred to as the driver) have an Action Station known as the Helm, where the vehicle's movement is controlled. It usually consists of a chair equipped with a wheel, levers, pedals, and other controls. If a vehicle has a helm with no one operating it, it automatically fails Dexterity saving throws. A driver who is proficient with land vehicles can add their proficiency bonus to ability checks and saving throws made using the vehicle's ability scores.
@@ -90,8 +151,191 @@ Most vehicles have a Mishaps Table, which describes different ways its functiona
 To resolve a Mishap, a creature can use its action to make an ability check based on the nature of the mishap (refer to the Mishaps section). If the vehicle is moving, the check is made with disadvantage. If the creature is proficient with the tools required for the repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
 
 
+
+<img src='https://i.ibb.co/VtKTs6t/Dermotaxi-Modern-Horizons-2-Mt-G-Art-1024x786.jpg' style='position:absolute; bottom:-195px; right:-0px; width:816px; transform:scaleX(-1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:-395px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-50px;top:-300px;height:1400px;width:1416px;transform:rotate(-28deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Example Vehicle: <br> Doom Shredders
+The doom shredders are imposing contraptions, reminiscent of giant, twisted cogs that screech and grind as they surge forward. Propelled by their spinning wheels, the vehicles possess incredible speed, allowing them to swiftly close in on their foes, leaving chaos and destruction in their wake.
+
+Mounted on each doom shredder is a skilled ratfolk driver, operating the complex controls and piloting the vehicle with unmatched precision. The doom shredders are often deployed in the vanguard of ratfolk armies, charging into enemy lines with ruthless efficiency. 
+
+
+
+\columnbreak
+
+<br><br><br><br>
+
+Armed with gnashing blades and deadly weapons, they eagerly carve a path through enemy ranks, dismembering all who dare stand in their way.
+
+However, despite their formidable strength, the doom shredders are not without their risks. The unstable combination of engineering and sorcery makes them unpredictable, and accidents or malfunctions can result in catastrophic consequences, claiming the lives of both their operators and enemies alike.
+
+##### Doom Shredder Mishaps
+| d6  |    Mishap Name               | Mishap Effect             |   Repair Check Type            |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1    | Generator Explosion | The vehicle is destroyed, and each creature within 15 feet of it must make a DC Dexterity saving throw, taking 18 (4d8) piercing damage plus 18 (4d8) radiant damage on a failure.  |None
+| 2-3 &emsp;&emsp;    | Electrical Short |  Any creature that starts its turn on or inside the vehicle takes 10 (3d6) lightning damage at the start of its turn until this mishap ends.| Str
+| 4-5    | Blade Jam | The doom shredder's blades stop rotating. It loses its Whirling Death feature and any upgrades it has until the mishap ends.| Str
+| 6    |  Power Failure. | The vehicle's speed becomes 0 until the mishap ends.  | Dex
+
+
+
+
+___
+___
+> ## Doom Shredder
+> *medium vehicle (1,900 lb.)*
+> ___
+> - **Armor Class** 18 
+> - **Hit Points** 160 (Damage threshold 10, mishap threshold 30)
+> - **Speed** 60ft.
+> - **Creature Capacity** 1 Medium creature
+> - **Cargo Capacity** 3,800 pounds lb
+>___
+>
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|18 (+4)|16 (+3)|0 |0| 0|
+>___
+> - **Vehicle DC** 15
+> - **Damage Immunities** poison, psychic
+> - **Condition Immunities** blinded, charmed, deafened, frightened, 
+paralyzed, petrified, poisoned, stunned, unconscious
+> - **Challenge** 3 (700 XP)
+> ___
+>
+> ***Heavy Set.*** The doom shredder cannot be shoved, and it has advantage on saving throws against being knocked prone.
+>
+> ***Unstable Design.*** When the doom shredder crashes into a creature, if it moved at least 20 feet in a straight line before impact, it rolls a d6. If the result of the d6 is a 1, the doom shredder has a mishap. If it moved 40 in a straight line before crashing, it rolls 2d6 instead and uses the lowest roll.
+>
+> ***Whirling Death.*** The doom shredder deals 7 (2d6) damage slashing damage instead of 3 (1d6) bludgeoning damage per 10 feet it moves in a straight line before crashing into a creature or object. If a creature fails the saving throw by 10 or more (DC 5) and the doom shredder moved at least 40 feet before crashing into the target, it cuts off one of the target's limbs at random (roll a die with a number of sides equal to the target's number of limbs; see pg. 272 of the DMG for rules on losing a limb). If the creature has no limbs to sever, it cuts off a portion of the target's body instead. A creature is immune to this effect if it is immune to slashing damage. 
+>
+>
+> ### Action Stations
+>
+> ***Helm (Requires 1 Crew and Grants Three-Quarters Cover).*** Drive and steer the doom shredder.
+>
+
+
+<img src='https://i.ibb.co/hm39h63/Greasefang-Okiba-Boss-Kamigawa-Neon-Dynasty-Mt-G-Art.jpg' style='position:absolute; top:-55px; left:-83px; width:610px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:140px; right:103px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(24deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-170px; right:-290px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(-78deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:100px; right:-10px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+\pagebreakNum
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Example Vehicle: <br> Iron Demons
+
+These war machines are a testament to the engineering prowess and malevolent ingenuity of the fel dwarves. A terrifying blend of heavy machinery, intricate runic bindings, and bound demonic spirits, these monstrosities roar across the battlefield like metal leviathans, leaving nothing but scorched earth in their wake.
+
+Iron Demons are usually designed as locomotive-like behemoths, propelled by infernal steam engines and armored in layers of rune-carved obsidian and infernal iron. Their primary armament typically consists of large cannons capable of shattering fortifications or incinerating entire infantry formations. However, some variants are equipped with flamethrowers instead, turning them into mobile infernos that are particularly effective against densely packed enemies or for area denial purposes.
+
+Iron demons are not only machines of war but also formidable means of transport and logistics within the fel dwarf armies. Their immense strength and durability make them ideal for towing even the heaviest war machines across the most unforgiving terrains.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+The most potent and unpredictable variants of Iron Demons incorporate bound demonic spirits. These sentient war machines gain magical properties and a malign sentience that drives an unnerving hunger for destruction. The integration of these spirits is a dangerous and delicate process. An iron demon with a slain crew can go berserk, the bound spirit throwing off its chains and embarking on a rampage. Yet, in the hands of a skilled fel dwarf hellsmith, these risks can be mitigated, turning the Iron Demons into truly formidable instruments of war.
+
+ In the thick of battle, these infernal engines can be seen dragging artillery pieces, arcane siege engines, and other dread contraptions into optimal firing positions, transforming the battlefield into a terrible shooting gallery. 
+
+Outside of combat, they haul troops, precious resources, necessary supplies, and vast amounts of weaponry across the harsh landscapes that the fel dwarves have conquered. The distant rumble and the sight of an iron demon, belching smoke and fire, dragging its ominous cargo across a desolate waste, is a dreaded testament to the relentless industry and fearsome power of the fel dwarves.
+
+
+<img src='https://i.ibb.co/19WTpGZ/Steam-Powered.png' style='position:absolute; top:-1px; right:-10px; width:880px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:280px; right:0px; width:900px; transform:rotate(1deg)' />
+
+
+
+\pagebreakNum
+
+
+___
+> ## Iron Demon
+> *Huge vehicle (75,000 lb.)*
+> ___
+> - **Armor Class** 19 
+> - **Hit Points**  300 (Damage threshold 10, mishap threshold 40)
+> - **Speed** 50ft.
+> - **Creature Capacity** 2 Medium creatures
+> - **Cargo Capacity** 40,000 lb
+>___
+>
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|0 |0| 0|
+>___
+> - **Vehicle DC** 18
+> - **Damage Immunities** poison, psychic, fire 
+> - **Condition Immunities** blinded, charmed, deafened, frightened, 
+paralyzed, petrified, poisoned, stunned, unconscious.
+> - **Challenge** 13 (10,000 XP)
+> ___
+>
+> ***Carriage Hauler.*** The iron demon has a coupling that it can use to pull a Chariot* as if the iron demon were its Steed*. The coupling is an object with 60 hit points. If the coupling is destroyed, all Chariots* attached to the iron demon are detached.
+>
+> ***Heavy Set.*** The iron demon cannot be shoved, and it has advantage on saving throws against being knocked prone.
+>
+> ***Siege Engine.*** The iron demon deals 10 (3d6) damage instead of 3 (1d6) for every 10 feet it moves in a straight line before crashing into a creature or object. If the target it crashes into is an object or structure, it deals double damage to it.
+>
+> ### Action Stations
+>
+> ***Burning Cannon (Requires 1 Crew and Grants Three-Quarters Cover).*** The creature targets a point within 120 feet of it that it can see and fires a burning cannonball. Each creature within 10 feet of that point must make a DC 18 Dexterity saving throw. On a failed save, they take 22 (4d10) bludgeoning damage and 18 (4d8) fire damage. On a successful save, they take half as much damage.
+>
+> ***Helm (Requires 1 Crew and Grants Three-Quarters Cover).*** Drive and steer the Iron Demon. The creature can also choose to add more power. If it does, the iron demon’s speed is increased by 1d6 x 5 feet until the end of the turn. If the result of the d6 is a 6, the iron demon has a mishap.
+>
+> *Chariot refers to any vehicle that is designed to be pulled by another creature and could include a wagon or carriage. Steed refers to the creature(s) pulling the chariot. 
+
+\columnbreak
+
+
+
+
+
+##### Iron Demon Mishaps Table
+| d20  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1    | Engine Flare |Fire erupts from the engine and engulfs the vehicle. Any creature that starts its turn on or inside the vehicle takes 10 (3d6) fire damage until this mishap ends.      | Dex
+| 2-4    | Locked Steering    | The vehicle can move in a straight line only. It automatically fails Dexterity checks and Dexterity saving throws until this mishap ends| Str
+| 5-7    | Furnace Rupture | The vehicle's speed halved until this mishap ends. | Str
+| 8-10    | Weapon Malfunction | One of the vehicle's weapons (choose one at random) can't be used until this mishap ends. If the vehicle has no functioning weapons, no mishap occurs. | Str
+| 11-13    |  Blinding Smoke | The Helm station fills with smoke and is heavily obscured until this mishap ends. Any creature in the helm station is blinded by the smoke | Dex
+| 14-16    |  Sundered Armor | The vehicle's damage threshold is reduced by 10 until this mishap ends.  | Str
+| 17-19    |  Damaged Axle | The vehicle grinds and shakes uncontrollably. Until the mishap ends, the vehicle has disadvantage on all Dexterity checks, and all ability checks and attack rolls made by creatures on or inside the vehicle have disadvantage.  | Dex
+| 20    |  Flip |The vehicle flips over, falls prone, and comes to a dead stop in the nearest unoccupied space it can fit in. Any unsecured creature holding on to the outside of the vehicle must succeed on a Strength saving throw against the vehicle DC or be thrown off, landing prone within 10 feet of the overturned vehicle. Creatures inside the vehicle fall prone as well (no save). | None
+
+
+### Art Credit
+* Ballista Charger - Sung Choi, Wizards of the Coast
+* Surgehacker Mech - Wisnu Tan, Wizards of the Coast
+* Dermotaxi - Mark Zug, Wizards of the Coast
+* Greasefang, Okiba Boss - Victor Adame Minguez, Wizards of the Coast
+* Steam-Powered - Carl Critchlow, Wizards of the Coast
+
 \pagebreakNum
 
 ### Change Log
-#### 1.0.0
-* Document creation
+#### 1.1.0
+* Document clean up
+
+### Referenced Content
+* Doom Shredder 1.0.0
+* Iron Demon 1.0.1
