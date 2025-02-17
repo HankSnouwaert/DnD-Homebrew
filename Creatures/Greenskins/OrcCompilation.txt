@@ -1,0 +1,1433 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+   .phb#p6:after, .phb#p16:after, .phb#p18:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Orc Compilation
+
+This document contains a compilation of orc-themed content focused on monsters and player options. The player options are listed first and include new chopper weapons, orcish-themed magic items, and orcish-themed spells. The monsters are listed next and include all new types of orcs, including elite orc warriors, orc bosses, and orc shamans.
+
+## Choppers
+
+Choppers are crude and hefty weapons favored by many orcish clans. An orc's strength allows them to wield these weapons with brutal efficiency, whereas many other species would struggle to even lift them. Although they can deliver devastating blows, their bulky nature makes them cumbersome to wield. Orcs refer to any weapon with these traits as a chopper, whether a massive war maul or a mighty longbow requiring tremendous strength to draw. 
+
+
+### Chopper Weapon Trait
+Any weapon can have the Chopper trait added to it, which grants it the following features:
+
+* If it has the Finesse or Thrown properties, it loses them.
+
+* When a creature makes an attack for the first time on its turn with a Chopper weapon, it gets a -1 penalty on that attack roll and deals an extra 1d4 damage on a hit.
+
+* The weapon gains the Heavy trait, if it doesn't already have it and, the weapon's weight is doubled.
+
+* Attacks made with the weapon suffer disadvantage due to its hefty nature unless the creature wielding it has a Strength score of 13 or higher.
+
+
+
+### New Feat: Chopper Master
+*Prerequisite: Strength 13 or higher*<br>
+You've mastered the savage art of wielding choppers and their weight now helps rather than hinders you. You gain the following benefits:
+
+* Increase your Strength score by 1, to a maximum of 20.
+
+* When you make an attack for the first time on your turn with a Chopper weapon, you get a +1 bonus to the attack instead of a -1 penalty.
+ 
+<br>
+
+#### Choppers Art Credit
+* Orcish Lumberjack - Steve Prescott, Wizards of the Coast
+
+<img src='https://i.postimg.cc/j2pCtjFx/orcish-lumberjack.jpg'
+ style='position:absolute;top:-50px;right:-240px;width:1100px;transform:scaleX(1)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:130px;height:1400px;width:1416px;transform:rotate(186deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:468px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Orcish Magic Items
+While orcs aren't known for their master craftsmanship, they still find a way of getting their hands on magic items that reflect their brutal nature. These are generally items blessed by their most powerful shamans, cobbled together from the artifacts of other races, or simply infused with psychic emanations of their aggression. 
+
+All of the magic weapons listed here have the "chopper" trait, which is described on the last page of the document.
+
+#### Axe of the Last War
+*Weapon (greataxe chopper), rare (requires attunement), 6,000gp*
+
+*A sacred object to orcs and a subject of prophecy. Any who bring this axe into battle will find that the weapon becomes more difficult to control as the conflict rages on. It is said that one day, the mightiest orc warrior to have ever lived will take up the weapon and begin a rampage that will cascade into a war that ends the world.*
+
+Instead of dealing an extra 1d4 damage on a hit when you make your first attack each turn, this chopper deals an extra 1d8 damage.
+
+When you roll initiative, you can choose to have the weapon gain a level of power whenever you take the attack action on your turn until combat ends. The weapon can gain a maximum of 3 levels of power. For each level of power, the weapon has, it gains a -1 penalty to attack rolls and deals an additional 1d8 damage on hit.
+
+While the weapon has any levels of power, you cannot be disarmed of the weapon or drop it.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+#### Big Kicking Boots
+*Wondrous item, uncommon (requires attunement), 1,000gp*
+
+*These boots once belonged to a ferocious orc warlord known for knocking down any foe that crossed his path. He eventually met his match when he attempted to kick an ancient dragon that blocked his way. After a blast of fire, only his boots were left when the smoke cleared. It is said that his might and stench still cling to them to this day.*
+
+When you make an attack for the first time on your turn, if it is an unarmed strike, you gain a +1 bonus on the attack roll, and it deals an extra 1d4 damage on a hit. If the attack is a shove, you gain a +1 bonus to your Strength (Athletics) check, and if you win, you can push the creature back 5 feet and knock it prone.
+
+#### The Big Smasher
+*Weapon (maul chopper), rare (requires attunement), 4,000 gp*
+
+*Originally stolen from a dwarven stronghold by orc marauders, this weapon has since been modified by its new owners. The weapon is now spoken of with disdain and fear among dwarven kind, and many orc warriors wielding this weapon have broken through entire regiments of dwarf soldiers.*
+
+While wielding this weapon, you can use your action to make a melee attack against each creature in a 15-foot cube originating from you, with a separate attack roll for each target. Each attack made this way suffers the chopper’s -1 penalty to attack rolls and deals an additional 1d4 damage on a hit.
+
+<img src='https://i.postimg.cc/SNSXm7CP/half-orc-half-84.webp' style='position:absolute;top:-10px;right:-84px;width:900px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:195px; right:-0px; width:900px; filter:  grayscale(00%) brightness(97%); transform: scaleX(-1) rotate(-9deg)' />
+
+\pagebreakNum
+
+#### Gut Slasher
+*Weapon (greataxe chopper), very rare (requires attunement), 16,000 gp*
+
+*This black metal axe is dotted with permanent splatters of crimson and crude orcish talismans chained and bolted to its haft. All of these have been acquired over a long, violent existence. One who bears this weapon is filled with an urge for violence that propels them into battle faster than most opponents can mount a proper defense.*
+
+You gain a +2 bonus to attack and damage rolls made with this weapon. Additionally, during the first round of combat, you can choose to take your turn on initiative count 22 instead of your normal initiative (losing ties). If you do, you can only use your action to take the Attack action, making attacks with this weapon on that turn, and you can't cast spells during that turn.
+
+#### Iron Gnashers
+*Wondrous item, uncommon (requires attunement), 1,000gp*
+
+*Whenever this large metal jaw plate is donned, the wearer is overcome with excessive bloodlust.*
+
+While wearing this jaw plate, you can use a bonus action to make a melee weapon attack with it. It counts as a simple melee weapon with the chopper rule for you, and you add your Strength modifier to the attack and damage rolls when you attack with it. It deals 1d8 piercing damage on a hit, and the attack scores a critical hit on a roll of 18-20.
+
+#### Seeking Chopper
+*Weapon (greataxe chopper), rare (requires attunement), 4,000gp*
+
+*This crudely made axe seems to bear its own murderous cunning, able to nudge itself just enough to turn what would be a failed strike into a bloody success.*
+
+When you make the first attack on your turn, if you miss and the attack was made with this weapon, you can reroll it. You must use this new roll and you may only make attacks with this weapon for the rest of the turn.
+
+#### Spiteful Shield
+*Armor (shield), uncommon (requires attunement), 1,000gp*
+
+*This round shield has a sharp snaggletooth mouth stretched across it in an unpleasant frown; any foes that fumble their attacks too close will regret their misstep*
+
+While you wield this shield, whenever a creature within 5 feet of you rolls a 1 on an attack roll, you can have the shield deal 4d8 piercing damage to that creature.
+
+
+#### Staff of Wild Weirding 
+*Staff, very rare (requires attunement by a sorcerer), 2,400 gp*
+
+*Created by an unorthodox and ambitious orc shaman obsessed with channeling destructive levels of primal magic through himself, this battered, misshapen staff was his final exploit. Those who use the staff to tap into the raw winds of magic can only hope to be more fortunate than its creator.*
+
+While attuned to this staff, you can channel its power to gather the winds of magic.  This can be done as a bonus action or whenever you roll for initiative.  When you do so, the staff gains 1d6 charges, which last for 1 minute or until you expend them.  
+
+\columnbreak
+
+If you roll a 1, you gain no charges and must roll on the Miscast Table below to determine what kind of magical backlash you suffer. 
+
+You can't roll for charges again until you spend a 10-minute ritual with the staff, which you can do during a short or long rest.
+
+While the staff has charges, you can expend charges as though they were sorcery points, except they can't be converted into spell slots.
+
+
+ ##### Miscast Table
+| 1d6 &emsp;&emsp;&emsp;  | Miscast Effect  |
+|:---:|:---------:|
+|  1  |   You surge with unstable power that can't be contained. You and each creature in a 15-foot-wide, 120-foot-long line originating from you must succeed on a DC 15 Constitution saving throw or take 6d6 force damage and be knocked prone. A creature that succeeds on its saving throw takes half as much damage and isn’t knocked prone. You have disadvantage on the saving throw.|
+|  2  | Sudden pulses of energy cause you to move spastically and expel fountains of raw destruction. For the next minute, you are incapacitated, and on each of your turns, you use your movement to travel in a random direction, determined by rolling a d8. After moving, you spew energy in a 30-foot cone in a direction of your choice. Each creature in that area must make a DC 15 Dexterity saving throw, taking 3d12 force damage on a failed save, or half as much damage on a successful one.|
+|  3  |   	Your consciousness seeks to anchor itself to another. You and another willing creature you can see within 60 feet are under the effects of the *warding bond* spell for the next hour. While under this effect, you can speak telepathically to each other. If the effect ends early or there are no willing creatures within range, you take 6d8 psychic damage.|
+|  4  |  Your mind begins to split, unleashing agonizing thoughts that tear apart all they touch. At the start of each of your turns, you and another creature of your choice that you are aware of within 30 feet of you must make DC 15 Intelligence saving throws, taking 3d6 psychic damage on a failed save, or half as much damage on a successful one. At the end of each of your turns, roll a d6; on a 1 or 2, the effect ends.|
+|  5  |    	Your mind is ravaged by chaotic magic, leading you into a frenzied rampage. For the next 10 minutes, you are berserk (condition described on the next page). Your Strength score becomes 20, and your staff deals an extra 3d6 force damage to any target you hit with it.|
+| 6   | The staff becomes overloaded, and you gain 7 charges. The staff can't regain charges until the next dawn.|
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Sword of Screaming Insults
+*Weapon (greatsword chopper), rare (requires attunement), 4,000 gp*
+
+*The sword bears a peculiar enchantment that causes the user's voice to become as sharp as the blade, able to cut down foes just as well.*
+
+While wielding this sword, you can use an action to cast the *vicious mockery* spell with it. The spell save DC is equal to 8 + your Proficiency Bonus + your Charisma modifier.
+
+Moreover, whenever you take the Attack action on your turn, you can cast a cantrip in place of one of your attacks made with this weapon.
+
+#### Orc-Blessed Armour
+*Armor (plate), rare, 4,000 gp*
+
+*This plate armor was made from sheets of metal hacked off from various suits of enchanted armor that were taken from a myriad of slain foes and welded together by orcish magic. As burdensome as the armor is, it grants the wear the aggression and tenacity of the mightiest orc.*
+
+While wearing this armor, you can use your bonus action to gain 5 temporary hit points, and you may move up to your speed toward an enemy of your choice that you can see or hear. You must end this movement closer to the enemy than when you started.
+
+<br>
+
+##### Orchish Magic Items Art Credit
+* Half Orc, Half- - Kev Walker, Wizards of the Coast
+* Zurgo Helmsmasher - Aleksi Briclot, Wizards of the Coast
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Warclan's Horn 
+*Wondrous item, rare (requires attunement), 4,000gp*
+
+*Many orc bosses of the past owe their decisive victories not to their cunning strategy or leadership but to a well-timed blow of this horn that can rally even the most wary allies and unsettle even the most emboldened foes.*
+
+You can use an action to speak the horn's command word and blow the horn, which emits a sound audible up to 600 feet away. When you do so, you can designate any number of creatures within 100 feet of you. Each chosen creature can end any conditions that are frightening them. Each other creature within 100 feet must make a DC 15 Wisdom saving throw or become frightened of you for the next minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+The horn can't be used this way again until the next dawn.
+
+
+
+
+<br>
+
+> ##### New Condition: Berserk
+> Berserk creatures gain the following effects unless an ability states otherwise:
+> * The creature can only use its movement to move closer to an enemy it can see or hear.
+> * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+> * The creature can't maintain concentration on spells or other effects.
+> * The creature can't be frightened or charmed.
+
+
+
+<img src='https://i.postimg.cc/rs0tLqv9/Zurgo-Helmsmasher-Mt-G-Art.jpg' style='position:absolute;left:0px;top:-5px;width:1200px;transform:scaleX(-1)' />
+
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:110px; right:-100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(-6deg)' />
+
+\pagebreakNum
+
+<br>
+
+## Lore of Orcs
+This magic is commonly used by orcish war <br> shamans who draw psychic power from the <br> aggression of brutal combat. Much of it is psionic <br> in nature and specializes  in disrupting other enemy spellcasters and enhancing the combat powers of <br> the caster and their allies. Orcish shamans believe <br> these powers are drawn from the spirit  of their war <br> gods, and the most powerful of these spells seem to <br> even partially manifest their god's presence on the <br> battlefield. The following spells are examples of the <br> types of magic users of this orcish magic wield, though, depending on the setting, these spells could be utilized by other races as well.
+
+####  Brain Burster
+*1st-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+
+You reach into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 2d8 psychic  damage, and until the end of your next turn, it has disadvantage on Intelligence, Wisdom, and Charisma  checks, as well as on Constitution saving throws made to maintain concentration. 
+Additionally, if the creature  attempts to cast a spell of 1st level or higher before the end of your next turn, it must make an Intelligence saving throw. On a failed save, the spell dissipates with no effect, and the action, bonus action, or reaction used to cast it is wasted. If that spell was cast with a spell slot or other resource, the slot or resource isn’t expended.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+
+####  Brutal Glare
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Sorcerer
+
+You fixate on two points within the spell's range, no more than 30 feet apart, that you can see. Beams of glowing force erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the force damage increases by 1d10, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 2nd.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Foot of The Gods
+*7th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 300 ft.
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Cleric, Druid, Sorcerer
+
+You call forth a massive foot from the heavens to crash down onto the battlefield. You select a point you can see, between 30 to 500 feet above you within range. A 20-foot-long, 10-foot-wide foot appears at the chosen point and immediately descends. The foot passes through any Huge or smaller creatures and objects until it descends 500 feet or hits a solid surface, or a Gargantuan creature or object, at which point the foot rises back up into the sky to where its descent started. As an action on your turn, you can move the foot up to 30 feet, rotate it, and then have the foot descend in the same way.
+
+Each creature or object the foot comes in contact with while descending must make a Dexterity saving throw. On a failed save, a creature takes 6d8 bludgeoning damage, is knocked prone, and can't stand up until the end of its next turn unless it uses all of its movement to do so. The creature is also pushed along with the foot until it rises back up. If a creature that fails the saving throw is already prone, it takes an additional 2d12 bludgeoning damage.
+
+<img src='https://i.postimg.cc/pLFWYPyg/Beanstalk-Giant-5000x.webp' style='position:absolute; top:-941px; right:-155px; width:1690px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:225px; right:-390px; width:900px; transform:rotate(-2deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:38px;top:-190px;height:1400px;width:1416px;transform:rotate(260deg)' />
+  
+\pagebreakNum
+
+####  Here We Go!
+*5th-level enchantment*
+___
+- **Casting Time:** 1 bonus action.
+- **Range:** 60 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Paladin, Ranger, Warlock
+
+You chant, imbuing yourself and up to four creatures you can see with fighty energy. Until the start of your next turn, whenever you or a creature you chose misses with an unarmed strike or weapon attack roll, you may have it reroll the attack. The creature must use the new roll.
+
+#### Mind Spike (Revised)
+*2nd-level divination*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 ft.
+- **Components:** V
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Sorcerer, Warlock, Wizard
+
+Choose one creature that you have seen or heard within the last minute. If that creature is within range, the target must make a Wisdom saving throw. On a failed save, the target takes 3d10 psychic damage, or half as much damage on a successful save. Additionally, on a failed save, you always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it’s invisible, it gains no benefit from that condition against you.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
+
+
+
+##### Lore of Orcs Art Credit
+* Beanstalk Giant - Jason A. Engle, Wizards of the Coast
+* Mind Spike - Matt Forsyth, Wizards of the Coast
+
+\columnbreak
+
+#### Psychic Headbutt
+*3rd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+
+A disruptive bolt of energy emanates from your head toward a creature of your choice within range. Make a melee spell attack against the target. The attack has advantage and cannot have disadvantage if the target is concentrating on a spell. On a hit, the target takes 4d10 force damage. If the creature makes a Constitution saving throw to maintain concentration as a result of this damage, you may choose to set the saving throw DC equal to your spell save DC.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.
+
+
+
+
+#### Savage Fists
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 hour.
+- **Classes:**  Sorcerer, Druid, Ranger
+
+Your fists become as hard as iron, and you are filled with fighting fury. When you cast this spell, you make an unarmed strike and gain the following benefits for the duration of the spell:
+
+* You can use your spellcasting modifier for the attack and damage rolls of your unarmed strikes, and you can roll a d6 in place of the normal damage of your unarmed strike. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
+
+* You can make an unarmed strike as a bonus action.
+
+* You may use your spellcasting modifier when making Strength checks instead of your Strength modifier.
+
+
+<img src='https://i.postimg.cc/RVGsstJt/matt-forsyth-mindspike-final.jpg'
+ style='position:absolute;top:650px;right:-0px;width:820px;transform:scaleX(-1)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:-358px;height:1400px;width:1416px;transform:rotate(5deg)' />
+  
+  
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# New Orcs
+
+## Orc Shamans
+Orc shamans are the strange, revered spiritual leaders of orcish society, believed to channel the raw will of their gods. Unlike most orcs, whose strength lies in brute force, shamans wield the unpredictable and violent magic of the orcish pantheon. Their role as intermediaries between the mortal realm and the gods makes them both respected and feared, for their powers are mysterious and often uncontrollable. As the orcs wage war, the shamans draw upon the aggressive psychic energy that permeates the battlefield, fueled by the bloodlust of their kin. To the orcs, war is the highest form of worship, and it is through this divine carnage that the shamans perform their most powerful feats of magic.
+
+The magic wielded by orc shamans is chaotic and devastating. They can unleash blasts of psychic energy capable of bursting the brains of their enemies or driving other orcs into even greater heights of bloodthirsty violence. In some cases, shamans are able to summon the wrath of the gods themselves, such as calling forth a giant spectral foot to crush their foes—a manifestation of the gods' direct intervention. This violent magic makes shamans formidable on the battlefield, and they often lead orc warbands into battle with a fervor unmatched by any warrior, their very presence stoking the bloodlust of the horde around them.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+However, the connection to their gods often leaves orc shamans exhibiting strange and awkward behaviors that make other orcs uncomfortable. While the shamans are powerful, their bizarre mannerisms—such as babbling incoherently, emitting strange noises, or randomly dancing around while flapping their arms—are seen as eccentric at best. Orcs, who prize straightforward strength and aggression, often don’t know how to react to these odd displays. Despite this, shamans are tolerated, as their magical abilities and perceived favor from the gods make them too valuable to dismiss. While other orcs might roll their eyes or grumble under their breath at a shaman’s antics, they know better than to voice their discomfort openly. The power these shamans wield far outweighs their odd behavior, and their connection to the orcish gods demands a level of respect, however begrudging.
+
+
+<img src='https://i.postimg.cc/05YxKjL3/Sek-Kuar-Deathkeeper-Mt-G-Art.jpg' style='position:absolute; top:-130px; right:-280px; width:1170px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:284px; right:53px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(20deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:400px; right:-330px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+___
+> ## Orc Shaman, Lesser 
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |15 (+2)|14 (+2)|16 (+3)|7 (-2)|12 (+1)|16 (+3)|
+> ___
+> - **Saving Throws** Con +5, Cha +5
+> - **Skills** Intimidation +4
+> - **Senses** darkvision 60 ft., passive Perception 11
+> - **Languages** Common, Orc
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+> 
+> ***War Channeler.*** Whenever another ally creature takes the Attack action within 30 feet of the orc, the orc gets a +1 to its spell save DC and spell attack rolls until the end of its next turn. This bonus can stack up to 3 times (+3).
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks.
+> 
+> ***Spellcasting.*** The orc is a spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +4 to hit with spell attacks). It knows the following spells:
+> 
+> **At will:** *guidance,* *mage hand,* *thaumaturgy*
+> 
+> **2/Day each:** *brain burster,* *brutal glare,* *savage fists*
+> 
+> **1/Day:** *psychic headbutt*
+> 
+> ***Quarterstaff Chopper.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands. Additionally, if this is the first attack the orc made on its turn, it deals an extra 2 (1d4) damage on hit.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+\columnbreak
+
+___
+> ## Orc Shaman
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 110 (13d8 + 52)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |16 (+3)|14 (+2)|18 (+4)|7 (-2)|12 (+1)|18 (+4)|
+> ___
+> - **Saving Throws** Con +7, Cha +7
+> - **Skills** Intimidation +7
+> - **Senses** darkvision 60 ft., passive Perception 11
+> - **Languages** Common, Orc
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+> 
+> ***War Channeler.*** Whenever another ally creature takes the Attack action within 30 feet of the orc, the orc gets a +1 to its spell save DC and spell attack rolls until the end of its next turn. This bonus can stack up to 3 times (+3).
+> 
+> ### Actions
+> 
+> **Multiattack.** The orc makes two melee attacks.
+> 
+> ***Spellcasting.*** The orc is a spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It knows the following spells:
+> 
+> **At will:** *guidance,* *mage hand,* *thaumaturgy*
+> 
+> **2/Day each:** *brain burster (2nd level),* *brutal glare,* *eadbuta,* *savage fists*
+> 
+> **1/Day each:** *arcane hand,* *here we go!*
+> 
+> ***Quarterstaff Chopper.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if wielded with two hands. Additionally, if this is the first attack the orc made on its turn,, it deals an extra 2 (1d4) damage on hit.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+
+
+
+
+
+
+
+\pagebreakNum
+
+___
+> ## Orc Shaman, Greater
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 15 (studded leather)
+> - **Hit Points** 190 (20d8 + 100)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|14 (+2)|20 (+5)|7 (-2)|14 (+2)|20 (+5)|
+> ___
+> - **Saving Throws** Con +9, Cha +9
+> - **Skills** Intimidation +9
+> - **Senses** darkvision 60 ft., passive Perception 12
+> - **Languages** Common, Orc
+> - **Challenge** 10 (5,900 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+> 
+> ***Power of War.*** Whenever another ally creature takes the Attack action within 30 feet of the orc, the orc gets a +1 to its spell save DC and spell attack rolls until the end of its next turn. This bonus can stack up to 3 times (+3).
+> 
+> ### Actions
+> 
+> **Multiattack.** The orc makes two melee attacks.
+> 
+> ***Spellcasting.*** The orc is a spellcaster. Its spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It knows the following spells:
+> 
+> **At will:** *guidance,* *mage hand,* *thaumaturgy*
+> 
+> **3/Day each:** *brain burster (3rd level),* *brutal stare,* *psychic headbutt,* *savage fists*
+> 
+> **2/Day each:** *arcane hand,* *here we go!*
+> 
+> **1/Day each:** *foot of the gods*
+> 
+> ***Quarterstaff Chopper.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if wielded with two hands. Additionally, if this is the first attack the orc made on its turn, it deals an extra 2 (1d4) damage.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+<br>
+
+##### Orc Shamans Art Credit
+* Sek'Kuar, Deathkeeper - Jesper Ejsing, Wizards of the Coast
+* Mardu Warshrieker - Yefim Kligerman, Wizards of the Coast
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Orc Shaman Tactics
+
+Orc shamans focus on using their spells to disrupt other spell casters, limit enemy movement, and grant boosts to the combat powers of their allies. They should stay close to their allies in combat to gain the boost to their War Channeler trait.
+
+#### Spell Usage
+
+&emsp;**Stomping Foot:** Great opening move to force grouped enemies to spread out into unfavorable positions. Focus on prone creatures to gain bonus damage. Minions should use the shove action on their turns to knock creatures prone.
+
+**Here We Go:** Cast immediately if there are companions of CR 2 or higher and if it can hit two or more targets with the Stomping Foot spell. Definitely cast if there is an orc boss or warboss among the group.
+
+**Arcane Hand:** If *foot of the gods* is not available, use this concentration spell. Primarily used to grab backline opponents and drag them into melee combat.
+
+**Eadbuta:** Use to break the concentration of enemy spellcasters. Priority over all other spells if an opposing spellcaster is concentrating on a higher-level spell than the Shaman can cast.
+
+**Brain Burst:** Use frequently to disrupt enemy spellcasters.
+
+**Brutal Stare:** Use whenever you can hit two or more targets with low Dexterity and do not have a 5th or higher level spell available.
+
+**Savage Firsts:** Use when the lesser orc shaman has been cornered in combat.
+
+<img src='https://i.postimg.cc/hv9RTDpK/ktk-117-mardu-warshrieker.jpg' style='position:absolute; top:-0px; right:-170px; width:685px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:180px; right:-390px; width:900px; transform:rotate(-2deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:38px;top:-190px;height:1400px;width:1416px;transform:rotate(260deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Orc Infantry
+
+The orcs are a race of savage, muscle-bound barbarians who live for the thrill of battle. Towering over many other races, their hulking forms are a testament to their belief in brute strength as the highest virtue. Orc society is built around combat, and they are always eager to prove their might. This insatiable thirst for violence often leads to constant brawling among their own clans, turning their encampments into chaotic battlegrounds.
+
+Despite their fractious nature, the orcs' relentless fighting spirit can be harnessed by powerful leaders who manage to unite the clans under a single banner. These leaders, often the most formidable and cunning of their kind, can forge disparate groups into mighty war hosts. When united, these orcish armies become an unstoppable force, rivaling the military might of other, more organized races.
+
+Orc weaponry reflects their brutal approach to warfare. Their weapons are crude and especially heavy, designed to maximize the sheer force behind each strike. Regardless of the type—whether axe, polearm, or longbow—these weapons are collectively known as "choppers." Orcs wield these cumbersome instruments with terrifying proficiency, their immense strength allowing them to deliver devastating opening blows that can shatter enemy lines and send foes fleeing in terror.
+
+While their society may seem chaotic and driven by endless infighting, it is precisely this constant state of conflict that hones the orcs into formidable warriors. Their culture of strength ensures that only the toughest survive, and those who emerge as leaders are truly forces to be reckoned with. Whether in the throes of a clan brawl or united in a grand war host, the orcs embody the raw, unrelenting power of a race that lives and breathes for the thrill of battle.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Orc
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 14 (hide armor, shield)
+> - **Hit Points** 22 (3d8 + 9)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |14 (+2)|10 (0)|16 (+3)|7 (-2)|11 (+0)|10 (+0)|
+> ___
+> - **Skills** Intimidation +2
+> - **Senses** darkvision 60 ft., passive Perception 10
+> - **Languages** Common, Orc
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> 
+> ### Actions
+> 
+> ***Battleaxe Chopper.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 3) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 2 (1d4) damage on hit.
+> 
+> ***Javelin.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+<img src='https://i.postimg.cc/wB8MfYDH/4e-dnd-orcs-by-ralphhorsley-d1fttgy-fullview.jpg'
+ style='position:absolute;top:-0px;right:0px;width:816px;transform:scaleX(1)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:90px;height:1400px;width:1416px;transform:rotate(189deg)' />
+
+
+\pagebreakNum
+
+### Orc Brutes
+
+Orc brutes are the epitome of orcish strength and savagery. These towering behemoths stand head and shoulders above their kin, their massive frames rippling with muscle and scarred from countless battles. Born with a natural advantage in size and ferocity, orc brutes quickly rise through the brutal ranks of orc society by sheer force. Their imposing presence and unmatched strength allow them to clobber their way to positions of power, commanding respect and fear from lesser orcs.
+
+ These brutes are not only larger and meaner, but also possess a relentless drive to prove their superiority. This often places them at the forefront of battles, where they lead charges with their devastating choppers, inspiring their kin with their fearsome prowess. Their sheer might and unyielding brutality make them natural leaders in orcish warbands, often serving as the muscle behind the warlord's command, ensuring that the other orcs stay in line through intimidation and sheer strength.
+
+Orc brutes are the backbone of any formidable orc war host, their presence turning the tide of battle through sheer force of will and power. Their ability to endure and dish out incredible amounts of punishment makes them invaluable assets in prolonged conflicts, where their relentless aggression can wear down even the most resilient enemies.
+
+___
+> ## Orc Brute
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 13 (hide armor)
+> - **Hit Points** 45 (6d8+18)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |15 (+2)|12 (+1)|16 (+3)|7 (-2)|11 (+0)|10 (+0)|
+> ___
+> - **Skills** Athletics +4, Intimidation +2
+> - **Senses** darkvision 60 ft., passive Perception 10
+> - **Languages** Common, Orc
+> - **Challenge** 1 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 8 (1d12 + 2) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 2 (1d4) damage on hit.
+> 
+> ***Javelin.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+\columnbreak
+
+
+
+### Orc Archers
+
+Orc archers, known for their surprising skill with longbows, occupy a peculiar niche within orc society. These sharpshooters are often viewed with suspicion and distrust by their kin, as ranged combat is considered sneaky and cowardly by most orcs. Despite this disdain, the practical value of orc archers cannot be denied. Their ability to rain down a hail of arrows on enemies from a distance provides a tactical advantage that even the most battle-hungry orc warlords recognize.
+
+While orc archers are generally tolerated for their utility, they are also keenly aware of the contempt their brethren hold for them. Insults and slights are rarely made within earshot, as tales abound of those who dared to mock an archer only to be found later with an arrow through their neck. This underlying tension creates a volatile environment where orc archers must constantly prove their worth and strength, both on the battlefield and within their own ranks, ensuring that they remain a force to be reckoned with despite the disdain of their fellow orcs.
+___
+> ## Orc Archer
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 17 (2d8+8)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |15 (+2)|14 (+2)|16 (+3)|7 (-2)|11 (+0)|10 (+0)|
+> ___
+> - **Skills** Intimidation +2
+> - **Senses** darkvision 60 ft., passive Perception 10
+> - **Languages** Common, Orc
+> - **Challenge** 1/2 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> 
+> ### Actions
+>
+> ***Handaxe Chopper.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 2 (1d4) damage on hit.
+> 
+> ***Longbow Chopper.*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage, If this is the first attack the orc made on its turn, it gets a +1 to the attack roll and deals an extra 2 (1d4) damage on hit.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Orc Hole Puncher
+Orc hole punchers are a fearsome subset of orc archers, distinguished by their use of especially heavy and powerful longbows. These massive weapons require immense draw strength, something only the most robust and skilled orcs can muster. The arrows fired by hole punchers strike with incredible power, capable of piercing through armor and even shields, making them a deadly threat on the battlefield.
+
+The reputation of orc hole punchers extends beyond their physical prowess. Their ability to deliver devastating shots from a distance earns them a grudging respect even from those who disdain ranged combat. While they share the general mistrust faced by all orc archers, their undeniable effectiveness ensures they are valued members of any war host. The orcs know that underestimating a hole puncher can be a fatal mistake, as these powerful archers can turn the tide of battle with a well-placed, bone-shattering shot.
+
+#### Orc Soldier Tactics
+Below are some tactical tips to keep in mind when utilizing these orcs. 
+
+##### Orcs and Orc Brutes
+&emsp;**Aggressive:** Utilize their aggressive trait to bypass front lines and target vulnerable backline characters.
+
+**Choppers:** Their first attack bonus makes them effective against high AC targets with low hit points, maximizing initial impact.
+
+##### Orc Archers and Hole Punchers
+
+&emsp;**Positioning:** Maintain distance to engage vulnerable targets with ranged attacks.
+
+**Tactical Movement:** In ranged firefights, use the Aggressive trait to close distances and engage in melee, overwhelming opposing ranged attackers.
+
+**Pre-Melee Action (Hole Puncher only):** Before moving into melee, use their *Devastating Draw* ability, if available, to maximize damage output.
+
+\columnbreak
+
+
+
+___
+> ## Orc Hole Puncher
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 37 (5d8+15)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |15 (+2)|14 (+2)|16 (+3)|7 (-2)|11 (+0)|10 (+0)|
+> ___
+> - **Skills** Intimidation +2
+> - **Senses** darkvision 60 ft., passive Perception 10
+> - **Languages** Common, Orc
+> - **Challenge** 1 (100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> 
+> ### Actions
+>
+> ***Multiattack.*** The orc makes two attacks.
+>
+> ***Handaxe Chopper.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 2 (1d4) damage on hit.
+> 
+> ***Longbow Chopper.*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage. If this is the first attack the orc made on its turn, it deals an extra 2 (1d4) damage on hit.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+> 
+> ***Devastating Draw.*** At the end of the orc's turn, it may draw back a two-handed ranged weapon it is holding, giving it devastating power. The weapon loses its draw if the orc is no longer using both hands to hold the weapon, is knocked prone, grappled, restrained, or loses concentration on it (as if concentrating on a spell). When the orc makes an attack with the weapon, it consumes the draw and gets +1 to hit and deals an additional 9 (2d8) damage on hit.
+
+<br>
+
+#### Orc Soldiers Art Credit
+* 4e Orcs - Wizards of the Coast
+* Orc Sureshot - Kev Walker, Wizards of the Coast
+
+<img src='https://i.postimg.cc/VkCLCsd1/orc-sureshot.jpg'
+ style='position:absolute;top:-0px;left:-50px;width:600px;transform:scaleX(-1)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:14px;height:1400px;width:1416px;transform:rotate(182deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-745px;top:-80px;height:1400px;width:1416px;transform:rotate(-270deg)' />
+
+\pagebreakNum
+
+## Iron Orcs
+
+Iron orcs are an elite subrace of orcs <br> shrouded in mystery, their origins <br> unknown. Some legends whisper that <br> they were created by a malign empire <br> to serve as slave soldiers, bred for war <br> and obedience. This dark history, <br> whether true or not, has imbued the <br> iron orcs with a unique sense of <br> purpose and a grim determination that <br> sets them apart from their more chaotic <br> kin. 
+
+Unlike their rowdy and wild kin, iron <br> orcs are characterized by their dour and <br> serious demeanor. They approach battle <br> with a level of discipline and focus that <br> is rare among orcs. This seriousness is <br> reflected in their daily lives as well, <br> where frivolity and infighting are kept to <br> a minimum. Iron orcs see themselves as <br> the pinnacle of orcish strength and <br> discipline, and they hold themselves to a <br> higher standard, both on and off the <br> battlefield. This disciplined lifestyle <br> fosters a sense of fierce camaraderie and <br> mutual respect that is uncommon in <br> other orc clans.
+
+
+\columnbreak
+
+
+___
+___
+> ## Iron Orc
+> *Medium humanoid (orc), neutral evil*
+> ___
+> - **Armor Class** 16 (chain mail)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |16 (+3)|12 (+1)|16 (+3)|10 (0)|12 (+1)|10 (+0)|
+> ___
+> - **Saving Throws** Wis +3
+> - **Skills** Athletics +6, Insight +3, Intimidation +2, Perception +3
+> - **Senses** darkvision 60 ft., passive Perception 13
+> - **Languages** Common, Orc
+> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ***Big Chopper.*** The orc deals an extra 1d4 of damage when it hits with it's first chopper attack (included in the attacks).
+>
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack).
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks, or three attacks with its Mace Chopper.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (1d12 + 3) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 5 (2d4) damage on hit, and, if the orc has mastered the weapon, the target suffers disadvantage on its next attack roll before the start of the orc's next turn.
+>
+> ***Mace Chopper.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage. If this is the first attack the orc made on its turn, it deals an extra 5 (2d4) damage on hit, and, if the orc has mastered the weapon, a creature making a concentration save as a result of this damage has disadvantage on the save.
+>
+> ***Pike Chopper.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 3) piercing damage. If this is the first attack the orc made on its turn, it deals an extra 5 (2d4) damage on hit, and, if the orc has mastered the weapon, the target's speed is reduced by 10 feet until the start of the orc's next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+
+<img src='https://i.postimg.cc/7YR4HvPz/Cvs-GAgain.webp' style='position:absolute; top:-110px; right:-20px; width:670px; transform:scaleX(1)'/>
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:200px; right:-320px; width:900px; transform:rotate(0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:145px;top:-80px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+\pagebreakNum
+
+<br>
+
+Whereas most orcs are haphazard warriors who fight with whatever is available and neglect their weapons and armor, iron orcs are meticulous in their preparation. They equip themselves with the finest weapons and armor they can find, and they take great pride in maintaining their gear. Regular training sessions are a cornerstone of iron orc society, where warriors hone their skills and ensure their equipment is in top condition. This dedication to their gear and training not only sets them apart but also makes them a fearsome force in combat, where their well-maintained weapons and armor give them a significant advantage.
+
+Iron orcs are highly disciplined warriors, capable of mastering a wide array of weapons. Their extensive training allows them to switch between weapons seamlessly, drawing the perfect tool for any battle scenario at a moment's notice. This versatility makes them adaptable and unpredictable opponents, able to counter a variety of threats with ease. Their disciplined approach to combat, combined with their mastery of diverse weaponry, ensures that iron orcs remain a formidable presence on the battlefield, earning them respect and fear from both allies and enemies alike.
+
+
+### The Crimson Spillers
+
+The Crimson Spillers are a renowned group of iron orcs, infamous for their brutal efficiency and distinctive blood-red armor. This elite clan has earned its name and fearsome reputation through countless battles, where their crimson-clad warriors cut down swaths of enemies with a single, devastating strike. Their blood-red armor serves not only as protection but also as a symbol of their ruthless efficiency. The sight of their blood-red ranks advancing often breaks the morale of even the most steadfast foes.
+
+Their combat techniques are specifically designed to maximize the impact of each strike, allowing them to hit multiple enemies at once with a single, sweeping attack. The Crimson Spillers train relentlessly, mastering weapons and maneuvers that enable them to cleave through enemy lines with brutal efficiency. This ability to strike down several foes in a single motion creates a wave of destruction that can turn the tide of battle in moments. Stories of their exploits, where entire enemy units are decimated by such powerful, coordinated attacks, have spread far and wide, adding to their fearsome reputation and instilling terror in their enemies.
+
+___
+___
+> ## Iron Orc, Crimson Spiller
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 17 (splint)
+> - **Hit Points** 82 (11d8+33)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|12 (+1)|18 (+4)|10 (0)|12 (+1)|10 (+0)|
+> ___
+> - **Saving Throws** Int +2, Wis +3
+> - **Skills** Athletics +6, Insight +3, Intimidation +2, Perception +3
+> - **Senses** darkvision 60 ft., passive Perception 13
+> - **Languages** Common, Orc
+> - **Challenge** 4 (1,100 XP) &emsp;&emsp; **Proficiency Bonus** +2
+> ___
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+>
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack).
+>
+> ***Bigger Chopper.*** The orc deals 2d8 of damage when it hits with it's first chopper attack (included in the attacks).
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks, or three attacks with its Mace Chopper.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) slashing damage. If this is the first attack the orc made on its turn or it was made using its Big Swing feature, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target suffers disadvantage on its next attack roll before the start of the orc's next turn.
+>
+> ***Mace Chopper.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage. If this is the first attack the orc made on its turn or it was made using its Big Smash feature, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, a creature making a concentration save as a result of this damage has disadvantage on the save.
+>
+> ***Pike Chopper.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage. If this is the first attack the orc made on its turn or it was made using its Big Stab feature, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target's speed is reduced by 10 feet until the start of the orc's next turn.
+> 
+> ***Big Swing.*** The orc makes a Greataxe Chopper attack against any number of creatures within 5 feet of it, with a separate attack roll for each target. It can only use this action if it has mastered the Greataxe Chopper.
+> 
+> ***Big Smash.*** The orc makes a Mace Chopper attack against any number of creatures in a 10-foot cube originating from the orc. It can only use this action if it has mastered the Mace Chopper.
+>
+> ***Big Stab.*** The orc makes a Pike Chopper attack against any number of creatures in a 15-foot line originating from the orc. It can only use this action if it has mastered the Pike Chopper.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+\pagebreakNum
+
+### The Immortals
+The Immortals are a legendary group of iron orcs, comprised of the most powerful warriors to ever walk the world. Each member of this elite regiment is a battle-scarred veteran, having survived countless conflicts and emerged stronger with each battle. Their ferocity and resilience on the battlefield have earned them a reputation as a nearly unkillable force, feared by enemies and revered by their own kind. The Immortals are known not only for their formidable combat skills but also for their unyielding spirit, making them a symbol of iron orc endurance and might.
+
+The Immortals are adept at quickly replenishing any losses to their ranks. The regiment selects its members from the most elite iron orcs, ensuring that only the best of the best join their ranks. This continuous infusion of top-tier warriors maintains their status as an unbreakable force, seemingly immune to the attrition that affects other military units. Their ranks never diminish for long, and their presence on the battlefield is a testament to the iron orcs' unrelenting pursuit of strength and dominance.
+
+### Iron Orc Tactics
+
+&emsp;**Armed To The Teeth.** Iron orcs choose their weapons based on the composition and characteristics of their enemies:
+
+
+
+\columnbreak
+
+* **Pike Chopper:** Selected when facing multiple highly mobile fighters, such as monks or rogues, to counteract their agility.
+
+* **Greataxe Chopper:** Preferred against classes that rely on a few powerful attacks, such as paladins, barbarians, and rogues, to maximize damage during encounters.
+
+* **Mace Chopper:** Effective against spellcasters, especially those concentrating on high-level spells, to disrupt their casting and focus.
+
+**Fighting In Larger Forces.** The role of an iron orc is to disrupt foes to allow other orcs to deal more damage. If there are multiple iron orcs, each one can pick a different weapon mastery and focus on disrupting specific players, generally prioritizing the players with the most health. (Note: Why the ones with the most heat?)
+
+
+**Crimson Spiller Tactics.** These orcs will prefer whichever weapon can hit two or more targets simultaneously, leveraging area-of-effect attacks for greater efficiency compared to multiple single-target attacks.
+
+**Immortal Tactics.** The Immortals are known for their adaptability. When ***Da New Plan*** is triggered, it is used as an opportunity to change up their strategy and adapt to how the fight's going.
+
+#### Iron Orc Art Credit
+* Corellon and Gruumsh - Wayne Reynolds, Wizards of the Coast
+
+___
+___
+> ## Iron Orc, Immortal
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 17 (splint)
+> - **Hit Points** 93 (11d8+44)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|12 (+1)|18 (+4)|10 (0)|12 (+1)|10 (+0)|
+> ___
+> - **Saving Throws** Int +3, Wis +4
+> - **Skills** Athletics +7, Insight +4, Intimidation +3, Perception +4
+> - **Senses** darkvision 60 ft., passive Perception 14
+> - **Languages** Common, Orc
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack).
+> 
+> ***Da New Plan (45 HP, 1/Day).*** When the orc's hit points drop to half or less, it can switch which weapon it has mastered, and for the next minute, it gains advantage on all saving throws and gains 10 temporary hit points at the start of each of its turns.
+>
+> ***Bigger Chopper.*** The orc deals 2d8 of damage when it hits with it's first chopper attack (included in the attacks).
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc makes two melee attacks, or three attacks with its Mace Chopper.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) slashing damage. Additionally, if this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target suffers disadvantage on its next attack roll before the start of the orc's next turn.
+>
+> ***Mace Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, a creature making a concentration save as a result of this damage has disadvantage on the save.
+>
+> ***Pike Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target's speed is reduced by 10 feet until the start of the orc's next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Orc Bosses
+Orc bosses are the most powerful orcs in their society, having clobbered their way to the top of the brutal hierarchy that governs orcish tribes. Through sheer strength and ruthless cunning, they command mobs of lesser orcs, enforcing their will with an iron fist. Their rise to power is a testament to their ability to dominate, and only the toughest, most ferocious orcs can earn the title of boss. These leaders are constantly on the lookout for the next battle, driving their tribes into a frenzy as they seek out new foes to conquer and lands to ravage.
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Orcs who manage to command entire tribes are known as big bosses, while the mightiest of these leaders, who control vast tribes or even collections of tribes, earn the fearsome title of war bosses.  These warlords are the pinnacle of orcish power, capable of uniting large numbers of orcs under their banner and leading them into massive, devastating conflicts. A war boss's presence on the battlefield can inspire great surges of violence among their warriors, turning even the most disorganized mobs into a terrifying force of destruction.
+
+
+
+___
+___
+> ## Orc Big Boss
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 16 (chain mail)
+> - **Hit Points** 97 (13d8 + 39)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|14 (+2)|18 (+4)|11 (+0)|11 (+0)|16 (+3)|
+> ___
+> - **Saving Throws** Str +7, Con +7, Wis +3
+> - **Skills** Athletics +7, Intimidation +6
+> - **Senses** darkvision 60 ft., passive Perception 10
+> - **Languages** Common, Orc
+> - **Challenge** 5 (1,800 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+> ***Bigger Chopper.*** The orc deals an extra 2d8 of damage when it hits with its first chopper attack (included in the attacks).
+> 
+> ### Actions
+> ***Multiattack.*** The orc makes two attacks. It can use its Battle Cry before or after the attacks.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage, and recharges its Battle Cry.
+> 
+> ***Chopper Longbow.*** *Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit.
+> 
+> ***Battle Cry (Recharges after a Short or Long Rest).*** The orc and each creature of its choice that is within 60 feet of it and can hear it gains advantage on its next attack roll until the start of the orc's next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+<div style='margin-top:850px;'></div>
+<img
+src='https://i.postimg.cc/yY3X4KdR/Zurgo-Helmsmasher-Mt-G-Art-1024x749.jpg'
+style='position:absolute;top:-0px;right:0px;width:820px;transform:scaleX(-1)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:130px; right:-70px; width:1000px; filter:grayscale(00%) brightness(97%);transform:rotate(05deg)' />
+
+
+
+\pagebreakNum
+
+&emsp; However, the orc hierarchy is rarely stable, and only the most brutal and cunning bosses can maintain their position for long. The moment a boss shows any sign of weakness or fails to lead their tribe to another victory, their reign is in jeopardy. Orcs respect power above all else, and a boss who cannot deliver victory is seen as unfit to lead. This leads to a constant threat of challengers rising up to dethrone them or the tribe descending into chaos as infighting breaks out. For an orc boss, maintaining control is a relentless struggle, where survival depends on their ability to continuously prove their strength and keep their tribe focused on the next great battle.
+
+
+***Iron Orc Bosses.*** Iron orc bosses are the ultimate embodiment of discipline and strength within orcish society. Unlike their more chaotic kin, these leaders rise to power through a combination of brutal force and calculated strategy, commanding the respect and fear of their followers. Iron orc bosses are known for their unwavering focus and their ability to maintain order among even the most unruly orc mobs. They are meticulous in their preparations for battle, ensuring that their warriors are well-equipped and trained to perfection. These bosses are not only powerful combatants but also shrewd tacticians, capable of leading their iron orc tribes to victory through both brute strength and disciplined coordination. Their leadership is often more stable than that of other orc bosses, as they inspire loyalty through their unmatched prowess and the respect they command from their equally disciplined kin.
+
+
+
+___
+___
+> ## Iron Orc Boss
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 17 (splint)
+> - **Hit Points** 123 (13d10 + 52)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|14 (+2)|18 (+4)|12 (+1)|12 (+1)|16 (+3)|
+> ___
+> - **Saving Throws** Str +7, Con +7, Wis +4, Int +4
+> - **Skills** Athletics +7, Insight +4, Intimidation +5, Perception +4
+> - **Senses** darkvision 60 ft., passive Perception 14
+> - **Languages** Common, Orc
+> - **Challenge** 7 (2,900 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ***Bigger Chopper.*** The orc deals an extra 2d8 of damage when it hits with its first chopper attack (included in the attacks).
+> 
+> ***Brute.*** A melee weapon deals one extra die of its damage when the orc hits with it (included in the attack).
+> 
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack).
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc uses Brutal Encouragement and then makes two melee attacks, or three attacks with its Mace Chopper.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target suffers disadvantage on its next attack roll before the start of the orc's next turn.
+> 
+> ***Mace Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, a creature making a concentration save as a result of this damage has disadvantage on the save.
+>
+> ***Pike Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target's speed is reduced by 10 feet until the start of the orc's next turn.
+> 
+> ***Brutal Encouragement.*** The orc bashes the heads of any number of allies within 5 feet of it, whipping them into shape. They each take 5 (2d4) bludgeoning damage, and if they are suffering from one or more conditions that allow a saving throw to end the effect, they may immediately make a save against each of the conditions, ending it on a success. If they fail this save, they can still attempt to do so again at the end of their next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+> 
+> ***Change Da Plan.*** The orc bellows orders to its allies. The orc and up to two other creatures within 60 feet of the orc that have the **Da Plan** feature and that can hear the orc can switch which weapon they have mastered.
+
+\pagebreakNum
+
+***Iron Orc Mega Warbosses.*** The iron orc mega warboss is the most brutal master of hand-to-hand combat among orc kind, capable of sizing up their foes and cutting them down with a single, devastating swing of their massive weapon. With a war cry that echoes for miles, the warboss summons iron orcs from across the land, forming a massive army ready to sweep away any settlement or opposing force foolish enough to stand in their path. 
+
+Campaigns led by these mega warbosses become the stuff of legends, their conquests etched into the annals of history as tales of unmatched savagery and power.
+
+#### Orc Bosses Art Credit
+* Zurgo, Helmsmasher - Ryan Alexander Lee, Wizards of the Coast
+* Vengeful Warchief - Karl Kopinski, Wizards of the Coast
+
+___
+___
+> ## Orc Warboss
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 16 (chain mail)
+> - **Hit Points** 153 (18d8 + 72)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|14 (+2)|18 (+4)|11 (+0)|11 (+0)|16 (+3)|
+> ___
+> - **Saving Throws** Str +7, Con +7, Wis +3, Cha +6
+> - **Skills** Athletics +7, Intimidation +6
+> - **Senses** darkvision 60 ft., passive Perception 10
+> - **Languages** Common, Orc
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp; **Proficiency Bonus** +3
+> ___
+> ***Bigger Chopper.*** The orc deals an extra 2d8 damage when it hits with its first chopper attack (included in the attacks).
+> 
+> ***War Surge (Recharges after a Short or Long Rest).*** On initiative count 1, if the orc is not incapacitated, it can choose to let out a bellow. The orc and each non-incapacitated creature of its choice that is within 60 feet of it may move up to its speed toward a hostile creature that it can see and make a single melee weapon attack (no reaction required).
+> 
+> ### Actions
+> **Multiattack.** The orc makes two attacks. It can use its Battle Cry before or after the attacks.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) slashing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage, and recharges its Battle Cry.
+> 
+> ***Chopper Longbow.*** *Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit.
+> 
+> ***Battle Cry (Recharges after a Short or Long Rest).*** The orc and each creature of its choice that is within 60 feet of it and can hear it gains advantage on its next attack roll until the start of the orc's next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+<img
+src='https://i.postimg.cc/3R6nMCsj/vengeful-warchief-121.jpg'
+style='position:absolute;bottom:-100px;left:0px;width:816px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-445px; right:-70px; width:1000px; filter:grayscale(00%) brightness(97%);transform:rotate(168deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-415px; right:-130px; width:1000px; filter:grayscale(00%) brightness(97%);transform:rotate(-168deg)' />
+
+\pagebreakNum
+
+
+
+### Orc Boss and Orc Warboss Tactics
+* Battle Cry and War Surge should be used as soon as possible.
+* Recharging the Battle Cry using greataxe attacks is a priority. If the orc boss cannot recharge its Battle Cry on its turn, its minions will try to knock a target prone or use the Help action to give it advantage on its next turn.
+
+\columnbreak
+
+### Iron Orc Boss Tactics
+* Follow the same tactics as a regular iron orc.
+* Use Brutal Encouragement whenever a creature is suffering from an effect that prevents it from attacking.
+* Use Change Da Plan whenever the opponent adapts to the orc's tactics.
+
+
+
+
+
+___
+___
+> ## Iron Orc Warboss
+> *Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 17 (splint)
+> - **Hit Points** 170 (20d8 + 80)
+> - **Speed** 30 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |18 (+4)|12 (+1)|18 (+4)|12 (+1)|12 (+1)|16 (+3)|
+> ___
+> - **Saving Throws** Str +7, Con +7, Wis +4, Int +4, Cha +6
+> - **Skills** Athletics +7, Insight +4, Intimidation +5, Perception +4
+> - **Senses** darkvision 60 ft., passive Perception 14
+> - **Languages** Common, Orc
+> - **Challenge** 10 (5,900 XP) &emsp;&emsp; **Proficiency Bonus** +4
+> ___
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ***Brute.*** A melee weapon deals one extra die of its damage when the orc hits with it (included in the attack).
+> 
+> ***Bigger Chopper.*** The orc deals an extra 2d8 damage when it hits with its first chopper attack (included in the attacks).
+> 
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack).
+> 
+> ***War Surge (Recharges after a Short or Long Rest).*** On initiative count 1, if the orc is not incapacitated, it can choose to let out a bellow. The orc and each non-incapacitated creature of its choice that is within 60 feet of it may move up to its speed toward a hostile creature that it can see and make a single melee weapon attack (no reaction required).
+> <br><br><br><br><br>
+> ### Actions
+> 
+> ***Multiattack.*** The orc uses Brutal Encouragement and then makes two melee attacks, or three attacks with its Mace Chopper.
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) slashing damage. Additionally, if this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target suffers disadvantage on its next attack roll before the start of the orc's next turn.
+> 
+> ***Mace Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, a creature making a concentration save as a result of this damage has disadvantage on the save.
+> 
+> ***Pike Chopper.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target's speed is reduced by 10 feet until the start of the orc's next turn.
+>
+> ***Brutal Encouragement.*** The orc bashes the heads of any number of allies within 5 feet of it, whipping them into shape. They each take 5 (2d4) bludgeoning damage, and if they are suffering from one or more conditions that allow a saving throw to end the effect, they may immediately make a save against each of the conditions, ending it on a success. If they fail this save, they can still attempt to do so again at the end of their next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+> 
+> ***Change Da Plan.*** The orc bellows orders to its allies. The orc and up to two other creatures within 60 feet of the orc that have the **Da Plan** feature and that can hear the orc can switch which weapon they have mastered.**
+
+
+
+
+\columnbreak
+
+
+
+
+\pagebreakNum
+
+
+
+
+___
+___
+> ## Iron Orc Mega Warboss
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 18 (plate)  
+> - **Hit Points** 170 (20d8 + 80)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |20 (+5)|14 (+2)|20 (+5)|14 (+3)|14 (+3)|18 (+4)|
+> ___
+> - **Saving Throws** Str +10, Con +10, Wis +7, Int +7, Cha +9  
+> - **Skills** Athletics +10, Insight +7, Intimidation +9, Perception +7  
+> - **Senses** darkvision 60 ft., passive Perception 17  
+> - **Languages** Common, Orc  
+> - **Challenge** 13 (5,900 XP)   &emsp;&emsp; **Proficiency Bonus** +5  
+> ___
+> 
+> ***Armed to the Teeth.*** The orc can draw a weapon as part of the attack it makes with the weapon.
+> 
+> ***Brute.*** A melee weapon deals one extra die of its damage when the orc hits with it (included in the attack).
+> 
+> ***Bigger Chopper.*** The orc deals an extra 2d8 damage when it hits with its first chopper attack (included in the attacks).
+> 
+> ***Da Plan.*** When the orc rolls initiative, it may choose to master one of its weapons, gaining an additional effect until the end of combat (included in the attack).
+> 
+> ***War Surge (Recharges after a Short or Long Rest).*** On initiative count 1, if the orc is not incapacitated, it can choose to let out a bellow. The orc and each non-incapacitated creature of its choice that is within 60 feet of it may move up to its speed toward a hostile creature that it can see and make a single melee weapon attack (no reaction required).
+> 
+> ### Actions
+> 
+> ***Multiattack.*** The orc uses Brutal Encouragement and then makes two melee attacks, or three attacks with its Mace Chopper. It can use its Battle Cry before or after the attacks
+> 
+> ***Greataxe Chopper.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) slashing damage. Additionally, if this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target suffers disadvantage on its next attack roll before the start of the orc's next turn.
+>
+> ***Mace Chopper.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) bludgeoning damage.  If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, a creature making a concentration save as a result of this damage has disadvantage on the save.
+>
+> ***Pike Chopper.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage. If this is the first attack the orc made on its turn, it deals an extra 9 (2d8) damage on hit, and, if the orc has mastered the weapon, the target's speed is reduced by 10 feet until the start of the orc's next turn.
+> 
+> ***Battle Cry.*** The orc and each creature of its choice that is within 60 feet of it and can hear it gains advantage on its next attack roll until the start of the orc's next turn.
+>
+> ***Brutal Encouragement.*** The orc bashes the heads of any number of allies within 5 feet of it, whipping them into shape. They each take 5 (2d4) bludgeoning damage, and if they are suffering from one or more conditions that allow a saving throw to end the effect, they may immediately make a save against each of the conditions, ending it on a success. If they fail this save, they can still attempt to do so again at the end of their next turn.
+> 
+> ### Bonus Actions
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+> 
+> ***Change Da Plan.*** The orc bellows orders to its allies. The orc and up to two other creatures within 60 feet of the orc that have the **Da Plan** feature and that can hear the orc can switch which weapon they have mastered.
+> 
+> ### Reactions
+> 
+> ***Deafening Bellow.*** The orc bellows at a creature within 120 feet of it that it can hear or see and that is attempting to cast a spell. The creature must make a DC 18 Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, bonus action, or reaction used to cast it is wasted. If the spell was cast using a spell slot, the slot isn’t expended.
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Killgrim Ironfist
+Killgrim Ironfist is a legendary iron orc boss whose origins are as mysterious as they are brutal. A grizzled veteran, Killgrim wandered the wastes with a band of fiercely loyal iron orc warriors, cutting down all who dared to stand in his path. His journey through desolate lands became the stuff of legend as he bested one orc tribe after another, each victory adding to his fearsome reputation. As word of his prowess spread, a following of orcs, monsters, and other creatures began to amass around him, drawn by the promise of battle and the glory of victory under his unstoppable leadership.
+
+Despite the growing horde that followed him, Killgrim Ironfist preferred the company of other iron orcs, whose discipline and strength matched his own. He tolerated the presence of lesser orcs and other creatures only as long as they proved useful in his relentless pursuit of war. A brutal and masterful warrior, Killgrim is scarred from countless battles, with a missing eye that only adds to his terrifying visage. His weapons, said to be magically enhanced by the power of his supernatural rage, allow him to wield his axe with blinding speed, sending hewn limbs flying in every direction as he fights. Killgrim is driven by an insatiable need for combat, never allowing more than a few days to pass without seeking out a new foe to unleash his fury upon. This constant hunger for battle makes him a force of destruction that few can withstand, and his legend continues to grow with each bloody victory.
+
+<br>
+
+##### Killgrim Ironfist Art Credit
+* Eye of Gruumsh - D&D 3.5, Wizards of the Coast
+
+\columnbreak
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Epic Kilgrim Battle
+If you wish to make Kilgrim Ironfist into a higher-level threat, increase the temporary hit points granted by his Da Stance feature to 100 and don't have him lose the benefits of a stance when he switches to a new one. These changes increase his Challenge Rating (CR) to 20.
+
+### Killgrim Ironfist Tactics
+
+#### Stances
+Killgrim has three stances, each granting 50 temporary hit points when first entered. Kilgrim should not switch stances until these hit points are depleted. Once all stances have been used and no more temporary hit points can be gained, switch to the most effective stance against the current target.
+
+**Basher Stance:** Effective against spellcasters.
+
+**Debilitator Stance:** Great against nearly every martial class.
+
+**Impeder Stance:** Useful against highly mobile fighters such as monks or rogues.
+
+
+#### Reaction: Deafening Bellow 
+Use this reaction against any full spellcaster whenever they are about to cast a spell and have not been hit by an attack from Grim Gore's Basher Stance.
+
+#### Legendary Action: You're Next!
+Target those most debilitated by Kilgrims's current stance. If no temporary hit points are left, switch to the most effective stance.
+
+#### Legendary Action: Big Swing
+ Use this action if Kilgrim can hit two or more targets. Use this rather than "You're Next!" if there is one target within range with a low Strength save.
+
+
+
+<img src='https://i.ibb.co/m8G869r/eye-of-gruumsh.webp' style='position:absolute; top:-95px; right:100px; width:700px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://i.postimg.cc/5tc1Dq7j/eye-of-gruumsh.webp' style='position:absolute; top:-95px; right:100px; width:700px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-150px;top:70px;height:1400px;width:1416px;transform:rotate(179deg)' />
+  
+
+\pagebreakNum
+
+
+
+___
+___
+> ## Kilgrim Ironfist
+>*Medium humanoid (orc), chaotic evil*
+> ___
+> - **Armor Class** 19 (Magic Plate)
+> - **Hit Points** 152 (16d8 + 80)
+> - **Speed** 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|20 (+5)|16 (+3)|20 (+5)|12 (+1)|14 (+2)|16 (+3)|
+>___
+> - **Saving Throws** Str +10, Con +10, Wis +7, Int +6
+> - **Skills** Athletics +10, Insight +7, Intimidation +8, Perception +7
+> - **Senses** darkvision 60 ft., passive Perception 17
+> - **Languages** Common, Orc
+> - **Challenge** 16 (15,000 XP) &emsp;&emsp; **Proficiency Bonus** +5
+> ___
+>
+> ***Brute.*** A weapon deals one extra die of its damage when Kilgrim hits with it (included in the attack).
+>
+> ***Bigger Chopper.*** Kilgrim deals 2d8 additional damage when he hits with his first weapon attack on his turn.
+>
+> ***Da Stance.*** When Kilgrim rolls initiative or uses a legendary action, he can choose one of the following stances until he uses this feature again or combat ends. The first time Kilgrim enters one of the stances during combat, he gains 50 temporary hit points that last until combat ends:
+> - **Basher Stance.** When Kilgrim hits a creature with an attack, any concentration saves resulting from the damage have disadvantage, and the creature cannot cast spells other than cantrips until the end of its next turn.
+> - **Debilitator Stance.** When Kilgrim hits a creature with an attack, the target has disadvantage on its next attack roll before the end of its next turn and cannot make more than one attack as part of its action or bonus action until the end of its next turn.
+> - **Impeder Stance.** When Kilgrim hits a creature with an attack, the target's speed is reduced by 10 feet, and it cannot take bonus actions until the end of its next turn. 
+>
+>
+> <br>***Gut Slasher.*** During the first round of combat, Kilgrim can take his turn at initiative count 22 (losing ties).
+>
+> ***Weapons of Fury.*** Any weapon Kilgrim wields becomes magical, and he cannot be disarmed of these weapons.
+> 
+> ### Actions
+>
+> ***Multiattack.*** Kilgrim makes two attacks.
+>
+> ***Gut Slasher.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 20 (2d12 + 7) slashing damage. If this is the first attack Kilgrim makes on his turn, it deals an extra 9 (2d8) damage.
+>
+> ***Wing Puncturing Javelin.*** *Melee or Ranged Weapon Attack:* +10 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 12 (2d6 + 5) damage. If the target is flying, Kilgrim has advantage on the attack, and on a hit, the target must succeed on a DC 18 Strength saving throw or be knocked prone and dazed until the end of its next turn.
+> 
+> ### Bonus Actions
+>
+> ***Truculent Dash.*** Kilgrim can move up to his speed toward a hostile creature that he can see without provoking opportunity attacks, ignoring difficult terrain.
+> 
+> ### Reaction
+>
+> ***Deafening Bellow.*** When a creature within 120 feet that Kilgrim can see or hear attempts to cast a spell, it must make a DC 18 Constitution saving throw. On a failed save, the spell fails and the action, bonus action, or reaction used to cast it is wasted. If the spell was cast using a spell slot, the slot isn't expended.
+> 
+> ### Legendary Actions
+>
+> Kilgrim can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Kilgrim regains spent legendary actions at the start of his turn.
+>
+> ***Check.*** Kilgrim makes a skill check that would normally require an action.
+>
+> ***Tenacious Will.*** If Kilgrim is suffering from an effect that allows him to make a saving throw at the beginning or end of his turn, he may immediately make that saving throw with advantage. He can use this legendary action even while incapacitated.
+>
+> ***You're Next!*** Kilgrim moves up to his speed toward a hostile creature without provoking opportunity attacks, ignoring difficult terrain, and then makes a Gut Slasher attack against it. He cannot target the same creature again with this ability until the end of his next turn.
+>
+> ***Big Swing (Costs 2 Actions).*** Kilgrim makes a melee attack against each creature within 5 feet of him, with a separate attack roll for each target. If Kilgrim makes only one attack this way, the attack gains advantage, and if it hits, the target must succeed on a DC 18 Strength saving throw, or Kilgrim automatically hits the target with another Gut Slasher attack. If the target fails by 10 or more, the attack is a critical hit.
+>
+
+
+\pagebreakNum
+
+# Revision Numbers
+
+## New Content
+
+### New Creatures
+* Orc Shaman, Lesser 1.0.0
+* Orc Shaman 1.0.0
+* Orc Shaman, Greater 1.0.0
+* Orc 1.0.0
+* Orc Brute 1.0.0
+* Orc Archer 1.0.0
+* Orc Hole Puncher 1.0.0
+* Iron Orc 1.0.0
+* Iron Orc, Crimson Spiller 1.0.0
+* Iron Orc, Immortal 1.0.0
+* Orc Big Boss 1.0.0
+* Iron Orc Boss 1.0.0
+* Orc Warboss 1.0.0
+* Iron Orc Warboss 1.0.0
+* Iron Orc Mega Warboss 1.0.0
+* Kilgrim Ironfist 1.0.0
+
+
+### New Item Types & Magic Items
+* Choppers 1.0.0
+* Axe of the Last War 1.0.0
+* Axe of the Last War 1.0.0
+* The Big Smasher 1.0.0
+* Gut Slasher 1.0.0
+* Iron Gnashers 1.0.0
+* Seeking Chopper 1.0.0
+* Spiteful Shield 1.0.0
+* Staff of Wild Weirding 1.0.0
+* Sword of Screaming Insults 1.0.0
+* Orc-Blessed Armour 1.0.0
+* Warclan's Horn 1.0.0
+
+## Referenced Content
+
+### New Conditions
+* Berserk 1.0.0
+
+\pagebreakNum
+
+## Change Log
+
+### Document
+#### 0.0.0
+* Document creation

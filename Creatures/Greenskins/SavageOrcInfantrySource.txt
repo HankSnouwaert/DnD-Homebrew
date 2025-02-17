@@ -1,0 +1,443 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after, .phb#p4:after, .phb#p5:after, .phb#p6:after, .phb#p8:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Savage Orc Infantry
+
+In the distant past, all orcs lived by primeval means, using crude clubs and spears carved from bone, stone, and wood. Their height of technology was the rudimentary bow and arrow. They roamed the land, hunting colossal beasts and marauding any people they encountered. As the tribes coalesced into mighty hordes to wage war against the civilized world, they learned the secrets of metalwork, clad themselves in armor, and forged axes and swords. However, some orcs in remote regions did not advance, while others rejected these technologies, deeming them un-Orcish. These tribes became known as Savage Orcs, and they are dedicated to the traditions and ways of their ancestors.
+
+Savage orcs adorn their bodies with crude war paint, often wearing little else. They wield makeshift flint and bone clubs, remnants of their predecessors. Many believe them to be less threatening than their metal-clad kin due to the lack of refined weapons and armor, but this is far from the truth. Their savage nature and radical devotion to a primitive way of life fuel an unmatched battle frenzy. When combat begins, they surge forward at breakneck speed, swinging their crude cudgels with steel bone-crunching force. Even more alarming is their uncanny resilience—fueled by a zealous faith—that makes arrows and blades glance harmlessly off their war paint, as though striking solid stone.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Savage orcs are rare, most often found in the world’s forgotten corners—primeval jungles, sun-scorched savannas, or frigid tundras—where they hunt monstrous beasts and fiercely repel any trespassers. Some venture far from their homelands to plunder, targeting sophisticated cultures that rely on advanced weaponry and intricate tactics. They take gleeful pride in dismantling these so-called “superior” civilizations, overturning carefully orchestrated plans with their wild, unpredictable onslaughts. At times, they may join larger warbands alongside regular orcs, yet they never fully adopt modern orc customs.
+
+From the perspective of orc war bosses, savage orc mobs are hopeless when it comes to following orders; even the most basic directives leave them baffled. To regular orcs, savage orcs are crude and unruly—too feral by any standard—while savage orcs view their “civilized” kin as weak, overthinking, and overly dependent on tools instead of raw might. In their eyes, the old ways are still the best ways.
+
+
+<img src='https://i.postimg.cc/MTjzFxV6/ogre-siegebreaker.png' style='position:absolute; top:-5px; right:-30px; width:850px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:240px; right:103px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(17deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:305px; right:-30px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:515px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+
+\pagebreakNum
+
+
+___
+> ## Savage Orc
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 17 (War Paint)  
+> - **Hit Points** 22 (3d8 + 9)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |15 (+2)|14 (+2)|16 (+3)|5 (-3)|14 (+2)|14 (+2)|
+> ___
+> - **Skills** Intimidation +4, Survival +4, Perception +4  
+> - **Senses** darkvision 60 ft., passive Perception 14  
+> - **Languages** Orc  
+> - **Challenge** 1 (100 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> 
+> ***Primal Surge.*** When the orc rolls initiative or reduces a creature to 0 hit points, it is quickened until the end of its next turn.
+> 
+> ***Big Chopper.*** The orc deals an extra 1d4 damage when it hits with its first chopper attack (included in the attacks).  
+> 
+> ### Actions  
+> 
+> ***Chopper Greatclub.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.   
+> *Hit:* 6 (1d8 + 2) bludgeoning damage. If this is the first attack the orc makes on its turn, it deals an extra 5 (2d4) damage on hit.  
+> 
+> ***Javelin.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target.  
+> *Hit:* 5 (1d6 + 2) piercing damage.  
+> 
+> ### Bonus Actions  
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+<br>
+
+> ##### New Condition: Quickened
+> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+
+\columnbreak
+
+### Savage Orc Brutes
+Savage orc brutes stand head and shoulders above their kin, radiating an even fiercer sense of savage superiority. Once they set their single-minded focus on a goal, virtually nothing can stop them. Their raw power and foul temper drive them to achieve their aims through sheer, brutal force.
+
+Lesser tribe members keep their distance, for one of the few things that can make a feral orc hesitate is the thought of provoking a Brute’s wrath. Yet this inspires no resentment or envy; to the tribe, Brutes are living symbols of orcish might, embodying a raw, ancestral strength that modern orcs have largely forgotten. Even fully armed orcs who witness these towering warriors charging across the battlefield, shrugging off blows that would fell an ordinary orc, can’t help but question their own reliance on armor and steel.
+
+___
+> ## Savage Orc Brute
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 17 (War Paint)  
+> - **Hit Points** 45 (6d8 + 18)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |16 (+3)|14 (+2)|16 (+3)|5 (-3)|14 (+2)|14 (+2)|
+> ___
+> - **Skills** Athletics +5, Intimidation +4, Survival +4, Perception +4  
+> - **Senses** darkvision 60 ft., passive Perception 14  
+> - **Languages** Orc  
+> - **Challenge** 2 (450 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> 
+> ***Big Chopper.*** The orc deals an extra 1d4 damage when it hits with its first chopper attack (included in the attacks).  
+> 
+> ***Primal Surge.*** When the orc rolls initiative or reduces a creature to 0 hit points, it is quickened until the end of its next turn.
+> 
+> ### Actions  
+> 
+> ***Multiattack.*** The orc makes two melee attacks.  
+> 
+> ***Chopper Greatclub.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage. If this is the first attack the orc makes on its turn, it deals an extra 5 (2d4) damage on hit.  
+> 
+> ***Javelin.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 9 (6 + 3) piercing damage.  
+> 
+> ### Bonus Actions  
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+
+
+
+\pagebreakNum
+
+### Savage Orc Archer
+
+Among regular orcs, those who rely on bows are considered sneaky or cowardly. However, in savage orc tribes, archers are surrounded by superstition and fear, rivaled only by the dread inspired by magic-wielders. Even the most basic bow is deemed a sophisticated weapon, and only the most disciplined Savage Orcs can resist the urge to charge into melee. This rare self-control is seen by their simpler-minded kin as near mystical.
+
+These few disciplined archers are viewed with suspicion—even by the tribe’s brutish elites—because any orc who can keep his distance and strike from afar is regarded as highly unusual. Nevertheless, they are invaluable for taking down flying beasts or challenging foes who fight with projectile weapons. Though their bows are crude by most standards, a savage orc’s sheer muscle and ferocity can drive a flint-tipped arrow clean through thick hides or tough leather armor.
+
+### Savage Orc Strikers
+The greatest archers among the savage orcs are known as strikers, engaging in combat in the most unorthodox manner. These warriors have uniquely combined their natural orcish obsession with close-quarters combat and their skills in archery. When they spot a foe, they charge toward their prey at breakneck speed, unleashing a relentless barrage of arrows as they close the distance. The sheer anticipation of smashing their adversaries fuels their growing frenzy, causing them to fire with such devastating force that most enemies are already on the ground riddled with crude projectiles by the time the orc reaches them. 
+
+Should the target, by some miracle, survive this deadly volley, they will soon find themselves bludgeoned with sturdy wooden bows and stabbed with flint-tipped arrows. Many orcish tribes or warbands derive great amusement from watching enemy forces mistakenly believe they are charging an unguarded artillery position, only to be ferociously counterattacked.
+
+___
+> ## Savage Orc Archer
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 17 (War Paint)  
+> - **Hit Points** 17 (2d8 + 8)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |15 (+2)|14 (+2)|16 (+3)|5 (-3)|14 (+2)|14 (+2)|
+> ___
+> - **Skills** Intimidation +4, Survival +4, Perception +4  
+> - **Senses** darkvision 60 ft., passive Perception 14  
+> - **Languages** Orc  
+> - **Challenge** 1 (100 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> 
+> ***Primal Surge.*** When the orc rolls initiative or reduces a creature to 0 hit points, it is quickened until the end of its next turn. 
+> 
+> ***Big Chopper.*** The orc deals an extra 1d4 damage when it hits with its first chopper attack (included in the attacks).  
+> 
+> ### Actions  
+> 
+> ***Chopper Club.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage. If this is the first attack the orc makes on its turn, it deals an extra 5 (2d4) damage on hit.  
+> 
+> ***Longbow Chopper.*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage. If this is the first attack the orc makes on its turn, it deals an extra 5 (2d4) damage on hit.  
+> 
+> ### Bonus Actions  
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.  
+
+<img src='https://i.postimg.cc/RVGNk7NN/gruul-stopping-grounds.webp' style='position:absolute;right:-0px;bottom:-80px;width:820px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-290px; right:-90px; width:1000px; transform:rotate(-9deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+
+
+
+___
+> ## Savage Orc Striker
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 18 (War Paint)  
+> - **Hit Points** 45 (6d8 + 18)  
+> - **Speed** 30 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |15 (+2)|16 (+3)|16 (+3)|5 (-3)|14 (+2)|14 (+2)|
+> ___
+> - **Skills** Athletics +4, Intimidation +4, Stealth +4, Perception +4  
+> - **Senses** darkvision 60 ft., passive Perception 14  
+> - **Languages** Orc  
+> - **Challenge** 2 (100 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> 
+> ***Big Chopper.*** The orc deals an extra 1d4 damage when it hits with its first chopper attack (included in the attacks).  
+>
+> ***Close Quarters Shooter.*** A hostile creature within 5 feet of the orc doesn’t impose disadvantage on its ranged weapon attack rolls, and it ignores half cover and three-quarters cover against targets within 30 feet of it.  
+> 
+> ***Primal Surge.*** When the orc rolls initiative or reduces a creature to 0 hit points, it is quickened until the end of its next turn.  
+> 
+> ### Actions  
+> 
+> ***Multiattack.*** The orc makes two attacks.  
+> 
+> ***Longbow Chopper.*** *Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target.  
+> *Hit:* 7 (1d8 + 3) piercing damage, or bludgeoning damage if the target is within 5 feet. If the orc moved at least 20 feet straight toward the target immediately before the hit, it deals an extra 7 (2d6) damage on hit. If this is the first attack the orc makes on its turn, it deals an extra 5 (2d4) damage on hit.  
+> 
+> ### Bonus Actions  
+> 
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.  
+
+\columnbreak
+
+### Savage Orc Tactics
+Below are some tactical tips to keep in mind when utilizing these orcs. 
+
+#### Melee Infantry
+
+Savage orcs eschew strategy in favor of charging headlong into battle, prioritizing their targets based on personal grudges or preferences. Some may focus on attacking enemies with advanced weaponry, such as an artificer, while others may seek out those they perceive as cowardly—like a wizard relying on illusion magic or a rogue attempting to disengage.
+
+#### Savage Orc Archers
+
+Savage orc archers are not the most tactical marksmen. Rather than retreating when enemies close in, they instinctively switch to their clubs, engaging in brutal melee combat once their foes are within reach.
+
+#### Savage Orc Strikers
+
+Savage orc strikers prioritize distant targets capable of attacking at range. They relentlessly advance, using their charge to gain bonus damage before engaging in melee once they reach their target.
+
+##### Savage Orc Infantry Art Credit
+* Ogre Siegebreaker - Zoltan Boros, Wizards of the Coast
+* Stomping Ground - James Paick, Wizards of the Coast 
+* Orc, Adventures in The Forgotten Realms - Wizards of the Coast
+
+<img src='https://i.postimg.cc/cHVQ8QQs/Orc-From-Adventures-In-The-Forgotten-Realms.webp' style='position:absolute;right:-70px;bottom:-80px;width:890px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-445px; right:-10px; width:1000px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+
+## Big Stabbers
+
+In ancient times, orcs hunted truly colossal behemoths—creatures of monumental size and ferocious temperament, their hides so thick that even orcs of primal disposition struggled to pierce them. Avoiding the wrath of an enraged titan in time was nearly impossible. However, despite their crude and straightforward thinking, the savage orcs devised a weapon specifically for felling these gargantuan beasts: the big stabber.
+
+This massive spear features an outlandishly large, jagged flintstone point, nearly as tall as an orc itself. So unwieldy is this weapon that it requires two orcs to haul it into battle, gripping the long shaft tightly above their heads as they charge at full speed. Upon reaching their monstrous quarry, they drive the spear forward with the combined force of their momentum, brute strength, and deranged faith—enough to sunder even the toughest armor. When it gains full thrust, the big stabber can bring down an armored war elephant or maim even larger creatures.
+
+Yet, for all its power, this rudimentary weapon is as unreliable as it is devastating. The flint spearhead is notoriously brittle, meaning the Big Stabber can typically only be used once or twice before it dulls or shatters—especially if an orc puts their full strength behind it. Additionally, its sheer size makes it highly predictable. A nimble opponent with decent reflexes can often sidestep the attack, causing the orcs wielding it to stumble and even trip over their own weapon.
+
+Despite these drawbacks, big stabbers remain highly sought after by orcs outside the savage tribes, particularly in battles against armies that field monstrous cavalry. Strangely, even the most skilled orcish weapon makers outside these wild tribes seem incapable of creating stabbers as effective as those made by their primal kin, nor are they able to wield them to their full potential. For some unknowable reason, only the savage orcs possess the preternatural knowledge required to craft and wield these titan-slaying spears.
+
+### Big Stabber Tactics
+The big stabber always targets the largest creature in the area, with savage orcs putting as much force behind their attacks as possible. They will seize any opportunity to strike again, retreating briefly to reposition before lunging forward for another devastating stab—unless their weapon is already impaled in their target.
+
+<br>
+
+##### Big Stabber Art Credit
+* Serrated Arrows - John Avon, Wizards of the Coast
+* Feeding Grounds - Matt Stewart, Wizards of the Coast 
+
+<img src='https://i.postimg.cc/g03wBfRP/serrated-arrows.jpg' style='position:absolute; top:140px; right:-200px; width:1440px; transform:rotate(90deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+\pagebreakNum
+
+
+___
+> ## Big Stabber
+> *Medium two-creature weapon (85 lb.)*
+> ___
+> - **Armor Class** 13
+> - **Hit Points**  60
+> ___
+> - **Weapon DC** 15
+> - **Damage Immunities** Poison, Psychic
+> - **Challenge** 2 (1,800 XP)
+> - **Ammo** Large Flint Stabber Head (3 rounds, 5g)
+> ___
+> 
+> ***Sneaky Stabbin'.*** A creature doesn’t have disadvantage on Dexterity (Stealth) checks while part of the weapon’s team. Creatures on the weapon’s team can traverse or halt in a space large enough to accommodate an object one size smaller than themselves without squeezing. Additionally, using the weapon doesn’t reveal the weapon team’s position to creatures more than 30 feet away.
+> 
+> ### Functions
+> 
+> ***Load (Follower Action).*** The big stabber is loaded with a Large Flint Spear.
+> 
+> ***Crank (Follower Action).*** The big stabber is pulled back in preparation for a big stab so it can be fired at any point before the end of the follower’s next turn. The follower can choose to use an extra action if it is quickened to put extra force behind it for as long as it is cranked. If extra force is applied, the next time a roll is made to check for a weapon mishap, an extra die is rolled and the lowest result is used.
+> 
+> ***Fire (Leader Action).*** The leader uses the big stabber against a target within 5 feet. The target must make a DC 15 Dexterity saving throw, with disadvantage if it is Large or larger. On a failed save, the target takes 16 (3d10) piercing damage or 33 (6d10) if extra force was applied by the follower during the Crank.  
+> 
+> If the big stabber moved at least 20 feet straight toward the target immediately before the leader used the fire action, an extra die is rolled when checking for a weapon mishap with the lowest result being used, and the target takes an additional 13 (3d8) piercing damage on a failed save.
+> 
+
+\columnbreak
+
+##### Big Stabber Mishap Table
+| d6  | Mishap Name        | Mishap Effect | Repair Check Type |
+|:----:|:------------------|:--------------|:------------------|
+| 1    | **Splintering Impact** | The weapon is shoved with tremendous force. The Fire function deals an extra 16 (3d10) piercing damage to any creature that fails its saving throw, but the weapon is destroyed from the impact. | None |
+| 2-3  | **Chipped Spear** | The Fire function only deals half damage to any creature that fails its saving throw. Whether the creature fails or succeeds, the Flint Stabber Head breaks, and the weapon must be loaded again. | None |
+| 4-5  | **Stumble** | Any creature that is part of the weapon’s team is knocked prone. A creature targeted by the weapon has advantage on its saving throw against the attack. | None |
+| 6    | **Impale** | If a creature targeted by the weapon fails its saving throw, it is impaled. An impaled target is grappled (escape DC 15). Until the grapple ends, the target is restrained and takes 16 (3d10) piercing damage at the end of each of its turns. The impaled weapon cannot be used on any other targets while a creature is grappled and restrained. The grappled and restrained conditions end if no creatures are part of the weapon’s team. | None |
+
+<img src='https://i.postimg.cc/Jh3nQjVr/Feeding-Grounds.webp' style='position:absolute; bottom:-90px; right:0px; width:820px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-425px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Two-Creature Weapons Teams
+Some weapons are so massive they require two creatures to move and operate them effectively. These weapons may be oversized firearms, large incendiary devices, or unwieldy melee weapons such as large drills. Though they come in many forms, they have a few common traits: they require two creatures to operate, they can be moved without hindrance by two creatures, and they must be loaded with some form of fuel and ammunition on a regular basis to be fired.
+
+## Two-Creature Weapon Rules
+Two-creature weapons require at least two creatures to operate them, and they come with the following additional rules considerations:
+
+
+### The Weapons Team
+The two creatures operating a two-creature weapon are known as the weapons team. The weapons team consists of a leader and a follower. Only one creature can be assigned to each role, and they cannot switch roles once assigned, even if one of the roles becomes vacant, unless they leave the weapons team and rejoin.
+
+#### Joining a Weapons Team
+
+Joining a two-creature weapons team costs a creature's action and half of its movement as it equips its part of the weapon. If one creature is already part of the weapons team, it may use its reaction to make an opportunity attack against the creature joining the team. Leaving a weapon team requires no action as the creature drops its part of the weapon.
+
+A creature must have both hands available to be on a weapons team and can't pick anything else up without dropping its part of the weapon.
+
+The creatures within a weapons team must stay within 5 feet of each other and the weapon at all times. If one of them is ever more than 5 feet away from the weapon or the other team member, it is no longer part of the team. 
+
+#### Moving Two-Creature Weapons
+The follower can no longer move on its turn except to leave the weapons team. The leader's speed becomes equal to the lowest speed among the creatures on the weapons team. Whenever the leader moves, it can choose to move the follower along with it if the follower is willing, even when the leader is moved against its will. 
+
+#### Stealth
+While part of a weapons team, a creature has disadvantage on Dexterity (Stealth) checks. Additionally, activating a two-creature weapon reveals the weapons team's location if they are hidden.
+
+
+
+### Repairing Weapons
+If a weapon has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the required tools. If the check succeeds, the weapon regains 2d4 + the creature's Intelligence modifier + the creature's proficiency bonus hit points. If the check fails, the weapon does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+<img src='https://i.ibb.co/pRGXM8s/orchish-cannonade.png' style='position:absolute; top:-35px; right:0px; width:817px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:90px; right:103px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(10deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:115px; right:-10px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+## Two-Creature <br> Weapon Attributes
+In addition to the common attributes of size, weight, AC, HP, and damage immunity, these weapons have the following additional attributes and considerations:
+
+### Hit Points 
+A weapon has hit points that can be restored through repairs. When its hit points reach 0, the weapon becomes inoperative and irreparably damaged.
+
+### Weapon DC 
+The weapon's DC is used whenever a creature makes a check to fix mishaps, when a creature is repairing the weapon, or the weapon forces a creature to make a saving throw.
+
+### Challenge Rating
+When players face enemies equipped with fully functioning two-creature weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
+
+### Ammo / Fuel
+Weapons may require ammunition, such as bullets, or fuel, such as flammable chemicals, to make attacks. This part of the stat block includes the cost of the ammo and the number of charges it has, which represents the number of times the weapon can be used before it needs to be reloaded.
+
+### Functions
+By default, weapons can have three different functions, which can each be activated as an action by creatures on their weapons teams. The Load and Crank functions <br> can be activated by the follower, and the Fire <br> function can be activated by the leader. Each <br> function can only be activated once per round. 
+
+#### Load
+This function is used by the follower to reload <br> the weapon's ammunition up to its full capacity. <br> It requires the follower to have immediate <br> access to the weapon's ammunition, and <br> creatures can use their reaction to make <br> opportunity attacks against it. If a creature hits <br> the follower this way, it drops the ammo and <br> wastes its action.
+
+#### Crank
+Not all weapons have this function. If a weapon <br> does, it must be activated by the follower before <br> each use of the Fire function to move the ammo <br> or fuel through the weapon.
+
+#### Fire
+The function is activated by the leader to fire the <br> weapon. When this function is activated, but before <br> its effect occurs, roll to see if a Mishap occurs.
+
+\columnbreak
+
+
+
+ If a Mishap occurs, its effects happen before the effects of the Fire. This function can't be used if the weapon is out of ammo or if the weapon has a Crank function that hasn't been used since the weapon was last loaded or fired.
+
+### Mishaps
+Mishaps represent the weapon experiencing a significant malfunction. There is always a risk of this when firing the weapon, and some weapons have other circumstances that risk a mishap. Whenever this risk occurs, roll a d6. On a result of 1, a Mishap occurs, and the creature who triggered it must roll on the weapon's Mishap Table to determine the nature of this malfunction (see the Mishap Table section).
+
+If the weapon has less than half its hit points, roll 2d6 and take the lowest result when checking for a mishap. 
+
+Unless stated otherwise, you must always check for a mishap when activating the Fire function.
+
+### Passive Traits
+This section describes any traits of the weapon has that don't require actions to utilize.
+
+### Mishaps table
+Most weapons have a Mishaps Table, which describes different ways their functionality can go awry under adverse conditions. When certain abilities or conditions dictate, roll on this Mishap Table.
+
+A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+##### Two Creature Weapon Art Credit
+* Orcish Cannonade - Chris Seaman, Wizards of the Coast
+* Holy Frazzle-Cannon - Diego Gisbert, Wizards of the Coast
+
+<img src='https://i.ibb.co/j6sJzVB/holy-frazzle-cannon-MOM-238-mom-238-art.jpg' style='position:absolute; bottom:-20px; right:-45px; width:600px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:115px;top:-70px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:115px;top:-70px;height:1400px;width:1416px;transform:rotate(290deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-280px; right:-10px; width:1000px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0 
+* Document release

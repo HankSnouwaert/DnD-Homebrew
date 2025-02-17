@@ -1,0 +1,275 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p4:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Savage Idols
+
+Orcs are typically warmongers, ever eager to leap from one blood-soaked conflict to the next while shirking anything that resembles sustained labor. Consequently, they rarely construct lasting structures or leave anything permanent behind, even in the places where they pause briefly.
+Yet, on rare occasions following a particularly momentous victory, an orc shaman may experience a divine revelation. Seized by this vision, the shaman compels their reluctant comrades to gather stones, broken metal scraps, and shattered wood from the wreckage of their conquests. These materials are heaped into a rough effigy of an Orcish deity, daubed with primitive markings that imbue it with sacred power. If the tribe’s fervor is strong enough, that combined surge of aggression can rouse the statue to life, making it a living embodiment of Orcish wrath.
+
+Such monstrosities are known as savage idols, and they rank among the most devastating creations of orcish magic. No two idols look exactly alike, but they commonly rise to around sixteen feet in height, fashioned primarily from stone with scattered bits of metal or wood interwoven throughout. Threads of green magic pulse through their frames, binding them together as they lumber forth in an unrelenting quest to devastate anything in their path.
+
+For any foe unfortunate enough to attract its gaze, a savage idol is akin to a natural calamity. Its massive limbs can smash fully armored warriors into pulp, while its rocky hide shrugs off most counterattacks. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Even more terrifying is the morale boost it offers to nearby orcs, who channel the idol’s sheer ferocity into a frenzy of violence. Facing even a single orc inspired by such a hulking symbol of might is a challenge few warriors survive.
+
+Despite its awe-inspiring power, a savage idol suffers from crucial flaws. Its drive to destroy is absolute, leaving no room for strategy or self-preservation. Worse yet, its impatience for battle knows no bounds; if enemies do not appear swiftly enough, the idol may turn on its own warband in frustration. Moreover, its continued existence hinges on a constant wellspring of orcish fury. Without that energy, it gradually grows dormant, reverting to an inert heap of stone and scrap. However, the enchantments within it never fully fade. Years—or even decades—can pass before a fresh wave of orcish magic or a new horde of marauding greenskins stirs the slumbering idol to rampage once again.
+
+In rare cases, savage idols have fallen under the sway of forces other than orcs. Particularly cunning or powerful spellcasters might revive an ancient idol’s remains or even wrest limited control of a newly awakened one from an orcish warband. But no matter how strong the magic, they can only guide—not command—this living engine of ruin, which ultimately remains loyal to the roar of war above all else.
+
+### Savage Idol Tactics
+Idols employ simple tactics, aiming to hit as many enemies as possible with melee attacks. If they are unable to do so, they resort to a rock attack. Idols never feel. (NOTEL Never feel what? )
+
+<img src='https://i.postimg.cc/y604WmnV/Earth-Cult-Elemental-Aaron-Miller-PRNT-5000x.webp'
+ style='position:absolute;top:-150px;right:0px;width:900px;transform:scaleX(1)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:130px;height:1400px;width:1416px;transform:rotate(186deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:468px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Savage Idol
+> *Huge construct (Orc), chaotic evil*  
+> ___
+> - **Armor Class** 16 (natural armor)  
+> - **Hit Points** 50 (4d12 + 24) *(200 with Idle of War)*  
+> - **Speed** 50 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |22 (+6)|6 (-2)|22 (+6)|3 (-4)|6 (-2)|18 (+4)|
+> ___
+> - **Saving Throws** Dexterity +2, Intelligence +0, Wisdom +2  
+> - **Damage Immunities** poison, psychic  
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned, unconscious  
+> - **Senses** darkvision 120 ft., tremorsense 60 ft., passive Perception 8  
+> - **Languages** understands Orc but can't speak  
+> - **Challenge** 9 (5,000 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +4  
+> ___
+>  
+> ***Crumbling Monolith.*** The idol has three layers of runes, each with 50 hit points. Whenever the idol takes damage, the current layer absorbs the damage instead. If the damage reduces a layer to 0 hit points, the layer is destroyed, and the remaining damage is applied to the next layer (or to the idol itself if no layers remain).  
+>  
+> The idol and each friendly creature within a 60-foot of it gain a +1 bonus to AC, saving throws, and attack rolls for each layer of runes it has.  
+>  
+> ***Crushing Projectile.*** The idol gains advantage instead of disadvantage on ranged attack rolls against prone targets.  
+>
+> ***Immutable Form.*** The idol is immune to any spell or effect that would alter its form.  
+>  
+> ### Actions  
+>  
+> ***Slam.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 22 (4d10) bludgeoning damage plus an additional 22 (4d10) bludgeoning damage for each layer of runes it has.  
+>  
+> ***Rock.*** *Ranged Weapon Attack:* +10 to hit, range 120/240 ft., one target. *Hit:* 22 (4d10) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.  If the target fails by 5 or more, it cannot stand up until the end of the idol's next turn unless it uses all its movement to attempt a DC 18 Constitution saving throw, standing up on a success. 
+> Hit or miss, the idol takes 22 (4d10) force damage.
+
+
+
+
+___
+___
+> ## Greater Savage Idol
+> *Gargantuan construct (Orc), chaotic evil*  
+> ___
+> - **Armor Class** 18 (natural armor)  
+> - **Hit Points** 99 (6d20 + 36) (399 with Idle of War)  
+> - **Speed** 50 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |24 (+7)|6 (-2)|22 (+6)|3 (-4)|6 (-2)|18 (+4)|
+> ___
+> - **Saving Throws** Dexterity +4, Intelligence +2, Wisdom +4  
+> - **Damage Immunities** poison, psychic  
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned, unconscious  
+> - **Senses** darkvision 120 ft., tremorsense 60 ft., passive Perception 8  
+> - **Languages** understands Orc but can't speak  
+> - **Challenge** 19 (25,000 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +6  
+> ___
+>  
+> ***Crumbling Idol.*** The idol has three layers of runes, each with 100 hit points. Whenever the idol takes damage, the current layer absorbs the damage instead. If the damage reduces a layer to 0 hit points, the layer is destroyed, and the remaining damage is applied to the next layer (or to the idol itself if no layers remain). Whenever the idol loses a layer of runes, each creature within 15 feet must make a DC 22 Dexterity saving throw, taking 16 (3d10) bludgeoning damage on a failed save, or half as much on a success.   
+>  
+> The idol and each friendly creature within a 60-foot of it gain a +1 bonus to AC, saving throws, and attack rolls for each layer of runes it has.
+>
+> ***Crushing Projectile.*** The idol gains advantage instead of disadvantage on ranged attack rolls against prone targets. 
+> 
+> ***Immutable Form.*** The idol is immune to any spell or effect that would alter its form.
+>  
+> ### Actions  
+>  
+> ***Multiattack.*** The idol makes a slam attack against each target in a 20-foot cube originating from itself, or it can make a rock attack against each target within 10 feet of a point it can see within 220 feet. The idol takes 33 (6d10) force damage if it makes ranged attacks this way.  
+>  
+> ***Slam.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target.  *Hit:* 22 (4d10) bludgeoning damage plus an additional 22 (4d10) bludgeoning damage for each layer of runes idol has.  
+>  
+> ***Rock.*** *Ranged Weapon Attack:* +13 to hit, range 120/240 ft., one target.  
+> *Hit:* 33 (6d10) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone. If the target fails by 5 or more, it cannot stand up until the end of the idol's next turn unless it uses all its movement to attempt a DC 21 Constitution saving throw, standing up on a success.
+
+\pagebreakNum
+
+
+### The Big 'Un
+The Big’n stands as a legend among all Orcish kind—an idol of such colossal size and power that no other effigy has ever equaled its holy ferocity. Many orcs believe it to be the embodiment of their god walking the earth. Over the centuries, mighty war tribes have added their own sacred touches to its form, layering on enchanted totems, rune stones, and even the remnants of other savage idols. With each added artifact, the Big 'Un has expanded to awe-inspiring proportions.
+
+On the rare occasions when the Big 'Un awakens, entire landscapes are reshaped, and settlements vanish beneath its unstoppable fury. Massive hordes of zealous orcs follow close behind, chanting praises to what they view as the living embodiment of their divine patron. Its might is so overwhelming that if any portion of the idol is torn free—whether by a lucky blow or immensely powerful attack—it comes alive on its own and continues fighting. These rampages, however, are short-lived: the unrelenting violence required to keep the Big 'Un on its feet is too great to sustain for long.
+
+In the centuries since its first recorded appearance, countless conflicts have ignited over the remains of the Big 'Un. Knightly orders and other warriors of the civilized world seek to secure its fragments, preventing them from falling back into orcish hands. 
+
+\columnbreak
+
+<br>
+
+Unable to destroy the idol’s sacred pieces, they instead scatter and hide them across distant lands. Undeterred, orcish warbands embark on sacred quests to reclaim and reassemble these shards. Many tribes prophesize that one day, a warlord with a horde vast enough will rise, awakening the Big 'Un for good—never allowing it to fall silent again.
+
+#### Ways to Destroy the Big 'Un and Its Shards
+
+If you wish to incorporate the Big’n into your campaign, here are several ways it might be destroyed:
+
+**Rivalry Among Orcs.** If two orc war bosses battle over a fragment of the Big 'Un, their struggle may shatter it.
+
+**Peaceborne Annihilation.** If a peace treaty between two warring nations is signed upon the remains of the Big 'Un, the idol's power could be nullified.
+
+**The Cry of Fear.** If a shaman or warlord standing near the remains of the Big 'Un lets out a scream of pure terror, its essence may dissipate.
+
+**Sacred Ruination.** To ensure the Big 'Un’s final destruction, each of its four remaining shards must be inscribed with a master rune, each carved by a different rune-smith. Once completed, the shards must then be placed atop separate mountain peaks, where they will be destroyed.
+
+___
+___
+> ## Da Big 'Un
+> *Gargantuan construct (Orc), chaotic evil*  
+> ___
+> - **Armor Class** 18 (natural armor)  
+> - **Hit Points** 99 (6d20 + 36) (399 with Idle of War)  
+> - **Speed** 50 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |24 (+7)|6 (-2)|22 (+6)|3 (-4)|6 (-2)|18 (+4)|
+> ___
+> - **Saving Throws** Dexterity +6, Intelligence +4, Wisdom +6  
+> - **Damage Immunities** poison, psychic  
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned, unconscious  
+> - **Senses** darkvision 120 ft., tremorsense 60 ft., passive Perception 8  
+> - **Languages** understands Orc but can't speak  
+> - **Challenge** 25 (75,000 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +8  
+> ___
+>  
+> ***Crumbling Big 'Un.*** The Big 'Un has three layers of runes, each with 100 hit points. Whenever the Big 'Un takes damage, the current layer absorbs the damage instead. If the damage reduces a layer to 0 hit points, the layer is destroyed, and the remaining damage is applied to the next layer (or to the Big 'Un itself if no layers remain). Whenever the Big 'Un loses a layer of runes, each creature within 15 feet must make a DC 22 Dexterity saving throw, taking 22 (4d10) bludgeoning damage on a failed save, or half as much on a success. It then creates a **Rogue Shard** in an unoccupied space within 10 feet. The **Rogue Shard** has its own turns but acts immediately after the Big 'Un. 
+>  
+> The Big 'Un and each friendly creature within a 60-foot of it gain a +1 bonus to AC, saving throws, and attack rolls for each layer of runes it has.
+>
+> ***Crushing Projectile.*** The Big 'Un gains advantage instead of disadvantage on ranged attack rolls against prone targets. 
+>
+> ***Immutable Form.*** The Big 'Un is immune to any spell or effect that would alter its form.
+>
+> ***Impervious Remains*** The Big 'Un's remains can only be destroyed through the use of a *wish* spell. (NOTE: What's the point of this?)
+>  
+> ### Actions  
+>  
+> ***Multiattack.*** The Big 'Un makes a slam attack against each target in a 20-foot cube originating from itself, or it can make a rock attack against each target within 10 feet of a point it can see within 220 feet. The Big 'Un takes 33 (6d10) force damage if it makes ranged attacks this way.  
+>  
+> ***Slam.*** *Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:* 22 (4d10) bludgeoning damage plus an additional 22 (4d10) bludgeoning damage for each layer of runes it has.  
+>  
+> ***Rock.*** *Ranged Weapon Attack:* +15 to hit, range 120/240 ft., one target. *Hit:* 33 (6d10) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Strength saving throw or be knocked prone. If the target fails by 5 or more, it cannot stand up until the end of the Big 'Un's next turn unless it uses all its movement to attempt a DC 23 Constitution saving throw, standing up on a success.
+
+
+\pagebreakNum
+
+<br>
+
+##### Savage Idols Art Credit
+* Earth-Cult Elemental - Aaron Miller, Wizards of the Coast 
+
+\columnbreak
+
+<br><br>
+
+* Howling Golem - Grzegorz Rutkowski, Wizards of the Coast
+
+___
+___
+> ## Rogue Shard
+> *Large construct (Orc), chaotic evil*  
+> ___
+> - **Armor Class** 18 (natural armor)  
+> - **Hit Points** 50  
+> - **Speed** 50 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |24 (+7)|6 (-2)|22 (+6)|3 (-4)|6 (-2)|18 (+4)|
+> ___
+> - **Saving Throws** Dexterity +6, Intelligence +4, Wisdom +6  
+> - **Damage Immunities** poison, psychic  
+> - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned, unconscious  
+> - **Senses** darkvision 120 ft., tremorsense 60 ft., passive Perception 8  
+> - **Languages** understands Orc but can't speak  
+> - **Challenge** 6 (2,300 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +8  
+> ___
+>  
+> ***Aura of Power.*** The shard and each friendly creature within a 60-foot of it gain a +1 bonus to AC, saving throws, and attack rolls.
+>
+> ***Crushing Projectile.*** The shard gains advantage instead of disadvantage on ranged attack rolls against prone targets. 
+>
+> ***Immutable Form.*** The shard is immune to any spell or effect that would alter its form.  
+>
+> ***Impervious Remains*** The shard's remains can only be destroyed through the use of a *wish* spell. (NOTE: What's the point of this?)
+>
+> ### Actions  
+>
+> ***Slam.*** *Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:* 22 (4d10) bludgeoning damage.  
+>  
+> ***Rock.*** *Ranged Weapon Attack:* +15 to hit, range 120/240 ft., one target. *Hit:* 22 (4d10) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Strength saving throw or be knocked prone. If the target fails by 5 or more, it cannot stand up until the end of the shard's next turn unless it uses all its movement to attempt a DC 23 Constitution saving throw, standing up on a success.  Hit or miss, the the shard takes 22 (4d10) force damage.
+
+
+\columnbreak
+
+<img src='https://i.postimg.cc/X7gRknTm/Howling-Golem-PRINT-5000x.webp' style='position:absolute; top:230px; right:-400px; width:1450px; transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-590px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
