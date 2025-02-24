@@ -1,0 +1,685 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+
+
+</style>
+
+</style>
+
+
+## Ratfolk Blight Monk
+
+Soiled and decaying robes hang from bodies riddled with rashes and boils, their diseased flesh barely clinging to their bones as they clutch weapons encrusted with rust and bile. These initiates of the Great Church of Decay, known as Blight Acolytes, are a truly revolting sight. While many ratfolk follow the Verminous God of Ruin, none are more fanatical in their devotion than the Church of Decay.
+They preach with fervor that disease and sickness are divine gifts—blessings meant to be wielded as instruments of conquest, spreading their god’s will and bringing about his eternal reign. Those who join the congregation embrace their afflictions, believing their suffering to be a sacred trial. Yet their lives are painfully short; many perish before completing their initiation, while others succumb within days or months of their ordination.
+
+Regardless of how long they endure, these festering zealots serve as the church’s most fearsome agents. Facing them in battle is a dire risk, for even if victorious, one may still fall victim to the myriad of virulent illnesses they carry. And yet, the afflictions that cripple most creatures seem only to strengthen these deranged followers. Their wasted bodies withstand unnatural punishment, while the fevers that burn in their minds drive them into fanatical rages, overriding the ratfolk’s natural instinct to flee from danger. At the height of their maladies, Blight Monks hurl themselves into battle in spasmodic frenzies—swinging wildly, frothing at the mouth, and howling praise to their loathsome god.
+
+Even among their own kind, the Church of Decay is feared and reviled. To most ratfolk, these disease-ridden fanatics are unhinged, their suicidal devotion beyond comprehension. Yet to the faithful, those who reject the path of decay are weak in their belief. When the time comes, their lord’s blessed sickness will convert them to the fold—or consume them.
+
+
+Those acolytes who survive the anointing of the Church of Decay’s diseases eventually ascend to the rank of Plague Monk, fully inducted into the order. As they continue their unholy service, they willingly take on even more contagions, as each affliction elevates them to greater heights of fevered zeal.
+
+___
+___
+> ## Ratfolk Blight Acolyte
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 15 (natural armor, shield)  **Initiative** +1 (11)
+> - **Hit Points** 16 (3d8 + 3)
+> - **Speed** 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">13</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +3, Deception +1, Stealth +3
+> - **Gear** Shield, Sling
+> - **Damage Resistances** Necrotic, Poison
+> - **Senses** Darkvision 60 ft., Passive Perception 10
+> - **Languages** Common, Undercommon
+> - **Challenge** 1/2 (100 XP; PB +2)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of its target that isn’t incapacitated (up to three allies).
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk becomes frightened of a creature it can see until the start of its next turn, and it can move up to half its speed away from that creature. This movement doesn’t provoke opportunity attacks. While frightened in this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+>
+> ***Plague Disciple.*** While the ratfolk is poisoned or diseased, it is rampaging. Additionally, when it takes necrotic or poison damage, it is also rampaging until the end of its next turn. While rampaging, it can’t use its Scurry Away ability.
+>
+> ### Actions
+> ***Rampaging Multiattack.*** The ratfolk makes two attacks while it is rampaging. The second attack has disadvantage.
+>
+> ***Rusted Sword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target.  
+> *Hit:* 3 (1d4 + 1) slashing damage, plus 2 (1d4) necrotic damage.
+>
+> ***Sling.*** *Ranged Weapon Attack:* +3 to hit, range 30/120 ft., one target.  
+> *Hit:* 3 (1d
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Ratfolk Blight Monk
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 16 (natural armor) &emsp;&emsp;&ensp;**Initiative** +2 (12)
+> - **Hit Points** 37 (5d8 + 15)
+> - **Speed** 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Perception +3, Religion +4
+> - **Damage Resistances** necrotic, poison
+> - **Senses** Darkvision 60 ft., Passive Perception 13
+> - **Languages** Common, Undercommon
+> - **Challenge** 1 (700 XP; PB +2)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in spaces large enough for a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of that target who isn’t incapacitated. The ratfolk can benefit from up to three allies this way.
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk becomes frightened of a creature it can see until the start of its next turn, and it can immediately move up to half its speed away from that creature. This movement doesn’t provoke opportunity attacks. While frightened in this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+>
+> ***Plague Disciple.*** While the ratfolk is poisoned or diseased, it is rampaging. Additionally, when it takes necrotic or poison damage, it is also rampaging until the end of its next turn. While rampaging, it can’t use its Scurry Away feature.
+>
+> ### Actions
+> ***Rampaging Multiattack.*** The ratfolk makes two attacks while it is rampaging.
+>
+> ***Rusted Flail.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+> *Hit:* 5 (1d6 + 2) bludgeoning damage plus 3 (1d6) necrotic damage.
+
+</span>
+
+
+\pagebreakNum
+
+___
+___
+> ## Ratfolk Blight Censer Bearer
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 16 (natural armor) &emsp;&emsp;&emsp;**Initiative** +2 (12)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 40 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Perception +3, Religion +4
+> - **Damage Resistances** Necrotic, Poison
+> - **Senses** Darkvision 60 ft., Passive Perception 13
+> - **Languages** Common, Undercommon
+> - **Challenge** 2 (700 XP; PB +2)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of its target that isn’t incapacitated (up to three allies).
+>
+> ***Scurry Away.*** At the start of the ratfolk’s turn, it becomes frightened of a creature it can see until the start of its next turn and can move up to half its speed away from that creature. This movement doesn’t provoke opportunity attacks. While frightened in this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+>
+> ***Plague Disciple.*** While the ratfolk is poisoned or diseased, it is rampaging. Additionally, when it takes necrotic or poison damage, it is also rampaging until the end of its next turn.
+>
+> ### Actions
+> ***Rampaging Multiattack.*** The ratfolk makes two attacks while it is rampaging.
+>
+> ***Blight Censer.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target.  
+> *Hit:* 7 (1d8 + 3) bludgeoning damage. If this is the first blight censer attack the ratfolk makes on its turn, hit or miss, all creatures within 10 feet of the ratfolk (including the ratfolk) take 9 (2d8) necrotic damage.
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Ratfolk Blight Stoker
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 16 (natural armor) &emsp;&emsp;&emsp;**Initiative** +2 (12)
+> - **Hit Points** 82 (11d8 + 33)
+> - **Speed** 40 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Perception +3, Religion +4
+> - **Damage Resistances** Necrotic, Poison
+> - **Senses** Darkvision 60 ft., Passive Perception 13
+> - **Languages** Common, Undercommon
+> - **Challenge** 4 (1,800 XP; PB +3)
+> ___
+>
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of its target that isn’t incapacitated (up to three allies).
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk becomes frightened of a creature it can see until the start of its next turn, and it can move up to half its speed away from that creature. This movement doesn’t provoke opportunity attacks. While frightened in this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+>
+> ***Plague Disciple.*** While the ratfolk is poisoned or diseased, it is rampaging. Additionally, when it takes necrotic or poison damage, it is also rampaging until the end of its next turn. While rampaging, it can’t use its Scurry Away feature.
+>
+> ***Aura of Disgusting Fortitude.*** The ratfolk emanates a 10-foot aura that is inactive while it is incapacitated. If the ratfolk or an ally within the aura takes only necrotic or poison damage and would be reduced to 0 hit points, it is instead reduced to 1 hit point.
+>
+> ### Actions
+> ***Rampaging Multiattack.*** The ratfolk makes two attacks while it is rampaging.
+>
+> ***Blight Censer.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target.  
+> *Hit:* 13 (2d8 + 4) bludgeoning damage. If this is the first blight censer attack the ratfolk makes on its turn, hit or miss, all creatures within 10 feet of it (including itself) take 13 (3d8) necrotic damage.
+
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Ratfolk Zealot of Blight
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 17 (splint) &emsp;&emsp;&emsp;&ensp;**Initiative** +2 (12)
+> - **Hit Points** 110 (13d8 + 52)
+> - **Speed** 40 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, Deception +5, Intimidation +6, Perception +5
+> - **Senses** Darkvision 60 ft., Passive Perception 15
+> - **Languages** Common, Undercommon
+> - **Challenge** 6 (1,100 XP; PB +3)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of that target who isn’t incapacitated (up to three allies).
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk becomes frightened of a creature it can see until the start of its next turn, and it can move up to half its speed away from that creature. This movement doesn’t provoke opportunity attacks. While frightened in this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Rabid Harbinger.*** While the ratfolk is poisoned or diseased, any charmed or frightened conditions on it are suspended, it can’t use its Scurry Away ability, and it is quickened. It also gains these benefits until the end of its next turn whenever it takes necrotic or poison damage.
+>
+> ***Aura of Vile Fanaticism.*** During combat, the ratfolk emanates a 10-foot aura that is inactive while it is incapacitated. Any creature that starts its turn in the aura, including the ratfolk, must make a DC 14 Wisdom saving throw (it can choose to fail). On a failure, it takes 5 (2d4) necrotic damage and gains advantage on melee weapon attack rolls until the start of its next turn, but attack rolls against it also have advantage.
+>
+> ***Power Grab.*** When the zealot dies, another ratfolk within a 60-foot emanation that has the most hit points may end any charmed or frightened conditions affecting it. For the next minute, it gains 15 temporary hit points, is quickened, and gains the Power Grab ability if it does not already have it. If multiple ratfolk have the same highest hit points, the closest one is chosen. If multiple are at equal distance, one is chosen randomly.
+>
+> ***Plague Disciple.*** While the ratfolk is poisoned or diseased, it is rampaging. Additionally, when it takes necrotic or poison damage, it is also rampaging until the end of its next turn. While rampaging, it can’t use its Scurry Away ability.
+>
+> ### Actions
+> ***Multiattack.*** The ratfolk makes two attacks.
+>
+> ***Rampaging Multiattack.*** The ratfolk makes three attacks while it is rampaging.
+>
+> ***Blighted Spike Fist.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature.  
+> *Hit:* 6 (1d6 + 3) piercing damage plus 4 (1d8) necrotic damage. If the ratfolk had advantage on the attack roll, the damage increases to 10 (2d6 + 3) piercing damage plus 9 (2d8) necrotic damage.
+>
+> ***Pestilent Blade.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target.  
+> *Hit:* 7 (1d6 + 3) slashing damage plus 4 (1d8) necrotic damage.
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Ratfolk Lord of Blight
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 18 (plate) &emsp;&emsp;&emsp;&ensp;**Initiative** +3 (13)
+> - **Hit Points** 152 (16d8 + 80)
+> - **Speed** 40 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +8, Deception +8, Intimidation +8, Perception +7
+> - **Gear** Plate Armor, Blight Censer
+> - **Senses** Darkvision 60 ft., Passive Perception 17
+> - **Languages** Common, Undercommon
+> - **Challenge** 9 (1,100 XP; PB +4)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of that target who isn’t incapacitated (up to three allies).
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk becomes frightened of a creature it can see until the start of its next turn, and it can move up to half its speed away from that creature. This movement doesn’t provoke opportunity attacks. While frightened in this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Rabid Harbinger.*** While the ratfolk is poisoned or diseased, any charmed or frightened effects on it are suspended, it can’t use its Scurry Away ability, and it is quickened. It also gains these benefits until the end of its next turn whenever it takes necrotic or poison damage.
+>
+> ***Aura of Vile Fanaticism.*** During combat, the ratfolk emanates a 10-foot aura that is inactive while it is incapacitated. Any creature that starts its turn in the aura, including the ratfolk, must make a DC 14 Wisdom saving throw (it can choose to fail). On a failure, it takes 5 (2d4) necrotic damage and gains advantage on melee weapon attack rolls until the start of its next turn, but attack rolls against it also have advantage.
+>
+> ***Power Grab.*** When the ratfolk lord dies, another ratfolk within a 60-foot emanation that has the most hit points may end any charmed or frightened conditions affecting it. For the next minute, it gains 30 temporary hit points, is quickened, and gains the Power Grab ability if it does not already have it. If multiple ratfolk have the same highest hit points, the closest one is chosen. If multiple are at equal distance, one is chosen randomly.
+>
+> ***Plague Disciple.*** While the ratfolk is poisoned or diseased, it is rampaging. Additionally, when it takes necrotic or poison damage, it is also rampaging until the end of its next turn. While rampaging, it can’t use its Scurry Away ability.
+>
+> ### Actions
+> ***Multiattack.*** The ratfolk makes two attacks.
+>
+> ***Rampaging Multiattack.*** The ratfolk makes three attacks while it is rampaging.
+>
+> ***Blighted Spike Fist.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature.  
+> *Hit:* 10 (2d6 + 4) piercing damage plus 9 (2d8) necrotic damage. If the ratfolk had advantage on the attack roll, the damage increases to 15 (3d6 + 4) piercing damage plus 13 (3d8) necrotic damage.
+>
+> ***Blight Censer.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target.  
+> *Hit:* 13 (2d8 + 4) bludgeoning damage. If this is the first blight censer attack the ratfolk makes on its turn, hit or miss, all creatures within 10 feet of it (including itself) take 13 (3d8) necrotic damage.
+
+</span>
+
+\pagebreakNum
+
+### Ratfolk Soldiers & Seers Loot
+Because ratfolk are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying or hiding nearby. Most of the challenge of looting ratfolk is identifying which materials they're carrying that have functional value.
+
+Finding valuables can be done using an **Intelligence (Investigation)** or **Wisdom (Perception)** check, depending on the circumstance. In the case of a grey prophet, you may use an **Intelligence (Arcana)** or **Intelligence (Religion)** check instead. 
+
+
+#### Ratfolk Soldiers & Seers Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Ratfolk Blight Acolyte (1/2) Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 1 5sp Item |
+|  5-6 | 1d6(3) 5sp Items | 
+|  7-12 | 1d4(2) 1gp Items  |  
+|  13-20 | 1d6(3) 1gp Items |  
+|  21+ | 1d4(2) 2gp Items |  
+
+##### Ratfolk Blight Monk (1) Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1d4(2) 5sp Items |
+|  6-9 | 1d4(2) 1gp Items | 
+|  7-16 | 1d6(3) 1gp Items  |  
+|  17-20 | 1 5gp Item |  
+|  21+ |  1 10gp Item |  
+
+##### Ratfolk Blight Censer Bearer (2) Loot Table 
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 2d4(5) 5sp Items |
+|  6-8 | 1d6(3) 1gp Items | 
+|  9-14 | 2d4(5) 1gp Items  |  
+|  15-19 | 1d6(3) 2gp Items  |  
+|  20+ |  2d4(5) 2gp Items |   
+
+##### Ratfolk Blight Stoker (4) Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1d4(2) 1gp Items |
+|  6-8 | 1d6(3) 1gp Items | 
+|  9-15 | 1d6(3) 5gp Items  |  
+|  16-21 | 1d4(2) 10gp Items |  
+|  22+ |  1d6(3) 10gp Items |  
+
+
+##### Ratfolk Zealot of Blight (6) Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1d6(3) 5gp Items |
+|  8-10 | 1d4(2) 10gp Items | 
+|  11-17 | 1d6(3) 10gp Items  |  
+|  18-21 | 1d4(2) 20gp Items |  
+|  22+ |  1d6(3) 20gp Items |  
+
+##### Ratfolk Lord of Blight (9) Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1 50gp Item |
+|  9-13 | 1 100gp Item | 
+|  14-20 | 1d4(2) 100gp Items  |  
+|  21-23 | 1d6(3) 100gp Items |  
+|  24+ |  1d4(2) 200gp Items |  
+
+\pagebreakNum
+
+#### Example Ratfolk Soldiers & Seers Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Common Ratfolk Item Names
+|1d4 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |  Cracked Rat Bone | Rat Bone | Pristine Rat Bone |
+| 2 <br> (Gem) | Cracked Green Quartz| Green Quartz|  Pristine Green Quartz  | 
+| 3 <br> (Hide) | Tattered Leather Scraps | Leather Scraps |  Pristine Leather Scraps  | 
+| 4 <br> (Metal) | Rusted Blade Fragment | Blade Fragment |  Masterwork Blade Fragment  | 
+
+##### Example Uncommon Ratfolk Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |  Cracked Monstrous Bone | Monstrous Bone | Pristine Monstrous Bone |
+| 2 <br> (Gem) | Flawed Hex Stone | Hex Stone |  Pristine Hex Stone  | 
+| 3 <br> (Hide) | Tattered Armored Leather | Armored Leather |  Masterwork Armored Leather  | 
+| 4 <br> (Metal) | Rusted Intact Blade  | Intact Blade  |  Intact Masterwork Blade   | 
+
+##### Example Rare Ratfolk Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |  Cracked Trophy Bone | Trophy Bone | Pristine Trophy Bone |
+| 2 <br> (Gem) | Flawed Hex Gem | Hex Gem |  Pristine Hex Gem  | 
+| 3 <br> (Hide) | Tattered Trophy Hide | Trophy Hide  |  Pristine Trophy Hide   | 
+| 4 <br> (Metal) | Rusted Hex-Steel Fragment  | Hex-Steel Fragment  |  Masterwork Hex-Steel Fragment   | 
+
