@@ -1,0 +1,659 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after, .phb#p5:after, .phb#p6:after, .phb#p7:after, .phb#p8:after, .phb#p10:after, .phb#p11:after, .phb#p13:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Fel Dwarf War Machines
+The fel dwarves are master engineers of dark ingenuity, crafting war machines that fuse brutal industrial might with sorcery. These infernal engines, powered by rune-bound steam and chaos-forged metals, form the backbone of their campaigns. From mobile siege platforms to fire-spewing monstrosities, their machines devastate armies, crush fortresses, and spread terror wherever they tread.
+
+### Iron Demons
+
+The iron demons are hulking, locomotive-like vehicles that epitomize fel dwarf ingenuity. By default, these armored leviathans serve as unarmed transports, towing artillery, ferrying troops, or hauling supplies across hostile terrain. Their modular design, however, allows fel dwarves to affix a range of siege weapons, transforming iron demons into adaptable tools of destruction.
+
+Fueled by rune-etched steam engines that belch black smoke, iron demons are clad in obsidian and infernal iron, making them near-impervious to harm. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+When outfitted, they can carry devastating artillery, flame-spewing cannons, or brutal siege rams to batter enemy fortifications and infantry alike. Some are customized for long-range bombardment, while others focus on close-range carnage.
+
+***Bound Demonic Spirits.*** The most fearsome iron demons incorporate bound demonic spirits into their engines. These entities grant the machine magical potency and malign sentience, turning them into autonomous instruments of destruction. Yet this power comes with risk: if the crew is slain or the runes weaken, the bound spirit can break free, causing the iron demon to rampage uncontrollably and attack all in its path.
+
+***The Relentless Advance.*** Iron demons often lead fel dwarf assaults, towing siege engines into firing positions while shrugging off attacks. Their heavy plating ensures they advance with grim inevitability, the roar of their engines and clanging of metal a harbinger of doom.
+
+Beyond the battlefield, iron demons serve as laboring titans, hauling ore, supplies, and war machines through the fel dwarves' bleak domains. To see one dragging its infernal cargo across a scorched landscape is to witness the ceaseless march of fel dwarf industry and the inevitability of their conquest.
+
+<img src='https://i.ibb.co/19WTpGZ/Steam-Powered.png' style='position:absolute; top:-1px; right:-10px; width:880px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:290px; right:0px; width:900px; transform:rotate(3deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:575px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+> ## Iron Demon
+> *Huge vehicle (20,000 lb.)*
+> ___
+> - **Armor Class** 19 
+> - **Hit Points**  300 (Damage threshold 10, mishap threshold 40)
+> - **Speed** 50ft.
+> - **Creature Capacity** 4 Medium creatures
+> - **Cargo Capacity** 40,000 lb
+>___
+>
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|0 |0| 0|
+>___
+> - **Vehicle DC** 17
+> - **Damage Immunities** poison, psychic, fire 
+> - **Condition Immunities** blinded, charmed, deafened, frightened, 
+paralyzed, petrified, poisoned, stunned, unconscious.
+> - **Challenge** 8 (10,000 XP)
+> ___
+>
+> ***Heavy Set.*** The iron demon cannot be shoved, and it has advantage on saving throws against being knocked prone.
+>
+> ***Siege Engine.*** The iron demon deals 10 (3d6) damage instead of 3 (1d6) for every 10 feet it moves in a straight line before crashing into a creature or object. If the target it crashes into is an object or structure, it deals double damage to it.
+>
+> ### Action Stations
+>
+> ***Helm (Requires 1 Crew and Grants Three-Quarters Cover).*** Drive and steer the iron demon. The creature can also choose to add more power. If it does, the iron demon’s speed is increased by 1d6 x 5 feet until the end of the turn. If the result of the d6 is a 6, the iron demon has a mishap.
+>
+
+<br>
+
+> ##### Not a Creature
+> The Iron Demon is a self-powered vehicle and not a creature. Mechanics for self-powered vehicles can be found at the end of the document.
+
+
+\columnbreak
+
+
+<br>
+
+##### Iron Demon Mishaps Table
+| d20  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1    | Engine Flare |Fire erupts from the engine and engulfs the vehicle. Any creature that starts its turn on or inside the vehicle takes 10 (3d6) fire damage until this mishap ends.      | Dex
+| 2-4    | Locked Steering    | The vehicle can move in a straight line only. It automatically fails Dexterity checks and Dexterity saving throws until this mishap ends| Str
+| 5-7    | Furnace Rupture | The vehicle's speed halved until this mishap ends. | Str
+| 8-10    | Weapon Malfunction | One of the vehicle's weapons (choose one at random) can't be used until this mishap ends. If the vehicle has no functioning weapons, no mishap occurs. | Str
+| 11-13    |  Blinding Smoke | The Helm station fills with smoke and is heavily obscured until this mishap ends. Any creature in the helm station is blinded by the smoke | Dex
+| 14-16    |  Sundered Armor | The vehicle's damage threshold is reduced by 10 until this mishap ends.  | Str
+| 17-19    |  Damaged Axle | The vehicle grinds and shakes uncontrollably. Until the mishap ends, the vehicle has disadvantage on all Dexterity checks, and all ability checks and attack rolls made by creatures on or inside the vehicle have disadvantage.  | Dex
+| 20    |  Flip |The vehicle flips over, falls prone, and comes to a dead stop in the nearest unoccupied space it can fit in. Any unsecured creature holding on to the outside of the vehicle must succeed on a Strength saving throw against the vehicle DC or be thrown off, landing prone within 10 feet of the overturned vehicle. Creatures inside the vehicle fall prone as well (no save). | None
+
+
+\pagebreakNum
+
+#### Hellbound Iron Demon Variant
+You can create a variant of the iron demon that possesses an incorporeal demonic entity trapped within it, attempting to break free from the control of its masters. The Iron Demon has the following changes:
+
+- It has Intelligence, Wisdom, and Charisma scores of 10.
+- If it fails an Intelligence, Wisdom, or Charisma saving throw, it may choose to succeed on the save and roll on the mishap table instead. It cannot do this if the save was caused by the spell *dispel evil and good* or similar magic that ends a possession. In this case, a failed save results in the Iron Demon losing all its hellbound traits as the demonic spirit is expelled.
+- It counts as a fiend for the purposes of features such as a paladin’s Divine Smite or a ranger’s Primeval Awareness.
+- If it would roll for a mishap, instead each creature inside the Iron Demon must make a DC 15 Constitution saving throw, taking 22 (5d8) necrotic damage on a failed save, or half as much on a successful one. The Iron Demon regains hit points equal to the total necrotic damage dealt. If this reduces a humanoid creature to 0 hit points, the creature dies, and its death gives the demonic spirit enough power to break free.
+
+While free, the iron demon rolls initiative and takes its own turn. No creature can use any of its action stations while the spirit is free. On its turn, the iron demon can use the Helm action even if no creature is at the helm.
+
+
+#### Siege Weapons
+An iron demon may have a fell iron weapon built into it. These siege weapons share the iron demon's hit points, AC, and damage threshold, and are destroyed when the iron demon is destroyed. These weapons have their own action station that provides three-quarters cover to the operators. Any member in the action station can load, prep, or fire the siege weapon. The weapons cannot be used if the Iron Demon is prone.
+
+You may attach a possessed fell iron weapon to the iron demon. If the weapon would suffer a mishap, the iron demon instead suffers the mishap, using the normal vehicle mishap table.
+
+\columnbreak
+
+### Burning Steam Cannon
+The burning steam cannon is the most common and feared siege weapon mounted on iron demons. These massive cannons harness infernal steam pressure and fel-forged runes to launch enormous, flaming cannonballs across vast distances. Each projectile explodes on impact, engulfing the surrounding area in fire and molten shrapnel, reducing enemy ranks, fortifications, and war machines to smoldering ruin. The cannons’ engines roar with an unholy heat, their barrels glowing red-hot as black smoke billows into the sky, choking the battlefield. Though devastating, the burning steam cannon requires constant maintenance, as its immense power risks rupturing the weapon or overheating the iron demon itself. Nonetheless, its reliability and sheer destructive force make it the weapon of choice for breaking enemy lines and bombarding cities from afar—an unmistakable symbol of Fel Dwarven dominance.
+
+___
+> ## Burning Steam Cannon
+> *Huge siege weapon (fell iron weapon) (1,200 pounds lb.)*  
+> ___
+> - **Weapon DC** 15  
+> - **Armor Class** 17  
+> - **Hit Points** 75 (damage threshold: 10)  
+> ___
+> - **Damage Immunities** poison, psychic, fire  
+> - **Ammo** Cannon Ball (1 round, 5 gp)  
+> - **Challenge** 3 (700 XP)  
+> ___
+> ### Functions  
+> 
+> ***Prep (2).*** The weapon is Prepped to Fire its next shot. This prep must be done two times before it can be Loaded. 
+>
+> ***Load.*** The weapon is loaded with a Cannon Ball. It must be Prepped two times before it is Loaded. The cannon must be Loaded before it can Fire.  
+> 
+> ***Fire.*** The cannon fires a burning cannon ball at a point of the user's choice within 600 feet but more than 30 feet away from the cannon. Each creature within 5 feet of that point must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) bludgeoning damage and 22 (4d10) fire damage. On a successful save, a creature takes half as much damage. 
+
+<img src='https://i.ibb.co/tYXdpVy/5569-bombard.jpg' style='position:absolute; bottom:-60px; left:-100px; width:600px; transform:rotate(-0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-300px;top:-325px;height:1400px;width:1416px;transform:rotate(4deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-700px;top:0px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+\pagebreakNum
+
+
+
+### Deathscreecher Rockets
+
+The deathscreecher rocket is a dreaded fel dwarf siege weapon capable of unleashing specialized rockets across vast distances, spreading destruction and despair. The most infamous of these are the cursed rockets, vile munitions that imprison malevolent fire spirits within rune-bound warheads. As these rockets soar through the air, they emit ghastly, soul-piercing shrieks that echo across the battlefield, filling those who hear them with maddening terror. Upon impact, the spirits are violently unleashed, erupting into unnatural flames that consume both flesh and soul, leaving behind nothing but blackened ruin and despair.
+
+In contrast, the demolition rockets prioritize brutal, mechanical devastation. Crafted with sharp, rune-forged tips, these rockets drill deep into their targets before their delayed explosives detonate with earth-shattering force. Capable of collapsing fortifications, shattering siege engines, or obliterating other high value targets, demolition rockets are precise tools of annihilation. Together, these two variants ensure the deathscreecher rocket’s reputation as a weapon that not only crushes its enemies physically but breaks their spirits long before the battle’s end.
+
+### Doomquake Mortar
+The doomquake mortar is a monumental siege weapon and a testament to the fel dwarves' mastery of destructive engineering. These colossal mortars are loaded with earth-breaker shells, massive munitions painstakingly crafted by fel dwarf demonsmiths and imbued with fiendish energy. Each shell is so cumbersome and difficult to handle that powerful creatures, such as enslaved ogres, are often pressed into service as part of the weapon’s crew. Loading and firing the mortar is a grueling, laborious process, but the devastation it brings is well worth the effort.
+
+When fired, the doomquake mortar unleashes an earth-shaking detonation, hurling its payload in a fiery arc across the battlefield. Upon impact, the earth-breaker shell erupts with unholy energy that tortures the ground itself, causing violent shockwaves and explosive convulsions. The terrain fractures and collapses beneath its victims, swallowing soldiers, pulverizing war machines, and shattering fortifications in a cascade of destruction. Those who survive the initial blast often find themselves trapped in unstable craters or buried beneath rubble, as the battlefield itself becomes a nightmarish quagmire of ruin. The doomquake mortar is not merely a weapon but a cataclysm unleashed, leaving no doubt of the fel dwarves' relentless hunger for annihilation.
+
+
+___
+> ## Deathscreecher Rocket
+> *Huge siege weapon (fell iron weapon), 1,200 lbs.*  
+> ___
+> - **Weapon DC** 16  
+> - **Armor Class** 17  
+> - **Hit Points** 150 (damage threshold: 10)  
+> ___
+> - **Damage Immunities** poison, psychic, fire  
+> - **Ammo** Cursed Rocket or Demolition Rocket (1 round, 15 gp)  
+> - **Challenge** 3 (700 XP)  
+> ___
+> ### Functions  
+> 
+> ***Prep (2).*** The weapon is Prepped to Fire its next shot. This Prep must be done two times before it can be Loaded.  
+>
+> ***Load.*** The weapon is Loaded with a Cursed Rocket or Demolition Rocket. It must be Prepped two times before it can be Loaded. The weapon must be Loaded before it can Fire.  
+> 
+> ***Fire Cursed Rocket.*** The rocket fires a cursed rocket that detonates at a point of the user's choice within 600 feet but no less than 30 feet away from the launcher. The rocket explodes, creating a 15-foot radius sphere of burning souls. At the start of the user’s next turn, the sphere moves 30 feet toward the nearest creature before disappearing.  <br>
+> &emsp;Any creature in the sphere when it appears, or when the sphere moves into the creature's space, must make a DC 16 Wisdom saving throw. On a failed save, the creature takes 13 (3d8) fire damage and is frightened of the sphere until the end of the user’s next turn. On a successful save, the creature takes half as much damage and is not frightened. <br> 
+> &emsp;If the creature fails the save by 5 or more (DC 11), while frightened, it cannot take reactions and must take the Dash action on each of its turns to move away from the sphere by the safest available route.  
+> 
+> ***Fire Demolition Rocket.*** The rocket launcher fires a demolition rocket at a single target of the user’s choice within 600 feet but no less than 30 feet away from the launcher. The target must make a DC 16 Dexterity saving throw. On a failed save, the creature takes 44 (8d10) piercing damage. 
+
+\columnbreak
+
+
+
+\columnbreak
+
+
+\pagebreakNum
+
+___
+> ## Doomquake Mortar
+> *Huge siege weapon (fell iron weapon), 1,200 lbs.*  
+> ___
+> - **Weapon DC** 17  
+> - **Armor Class** 17  
+> - **Hit Points** 275 (damage threshold: 10)  
+> ___
+> - **Damage Immunities** poison, psychic, fire  
+> - **Ammo** Earth Breaker Shell (1 round, 15 gp)  
+> - **Challenge** 5 (1,800 XP)  
+> ___
+> ### Functions  
+> 
+> ***Prep (2).*** The weapon is Prepped to Fire its next shot. This Prep must be done two times before it can be Loaded. 
+>
+> ***Heavy Load.*** The weapon is Loaded with an Earth Breaker Shell. It must be Prepped two times before it can be Loaded. The weapon must be Loaded before it can fire. If the creature loading the weapon has a Strength score of 19 or lower, the cannon is not loaded until the creature’s next turn, and it must use its action on that turn to complete the loading. If it cannot, the cannon is not Loaded.  
+> 
+> ***Fire.*** The doomquake mortar fires a spiked shell at a point of the user's choice within 400 feet. Each creature within 15 feet of that point must make a DC 17 Dexterity saving throw. On a failed save, a creature takes 22 (4d10) bludgeoning damage and 18 (4d8) fire damage and is knocked prone. On a successful save, the creature takes half as much damage and is not knocked prone.  
+> 
+> Additionally, the ground in the area becomes difficult terrain until cleared and begins to violently vibrate until the start of the user’s next turn at which point the vibrations end with a calamitous burst. Each creature in the area of the burst must make a DC 17 Constitution saving throw. On a failed save, the creature takes 28 (8d6) thunder damage. On a successful save, it takes half as much damage.
+
+\columnbreak
+
+### Magma Cannon
+
+The magma cannon is a fearsome fel dwarf siege weapon that turns raw metal into a torrent of molten death. Loaded with heavy chunks of metal ore, the cannon’s infernal machinery melts them down within its rune-forged chamber, superheating the material until it reaches a liquid, blazing state. When fired, the weapon belches forth a pressurized stream of molten metal that surges across the battlefield like a fiery tidal wave. Upon impact, the scalding payload detonates violently, erupting into explosive sprays of liquid metal that cling to anything in range—flesh, stone, and steel alike. Those caught within the blast are horrifically burned, their bodies seared to the bone, while armor and fortifications warp and buckle under the heat. The magma cannon is as much a tool of terror as it is destruction, its fiery onslaught leaving entire enemy ranks reduced to charred husks and molten slag—a grim testament to the fel dwarves' mastery over fire and metal.
+
+___
+> ## Magma Cannon
+> *Huge siege weapon (fell iron weapon), 1,200 lbs.*  
+> ___
+> - **Weapon DC** 16  
+> - **Armor Class** 17  
+> - **Hit Points** 150 (damage threshold: 10)  
+> ___
+> - **Damage Immunities** poison, psychic, fire  
+> - **Ammo** Metal Ore (1 round, 10gp)  
+> - **Challenge** 4 (1,100 XP)  
+> ___
+> ### Functions  
+> 
+> ***Prep (2).*** The weapon is Prepped to Fire its next shot. This Prep must be done two times before it can be Loaded.
+>
+> ***Load.*** The weapon is Loaded with a piece of Metal Ore. It must be Prepped two times before it can be Loaded. The weapon must be Loaded before it can Fire.  
+> 
+> ***Fire.*** The magma cannon fires a blob of molten metal at a point of the user's choice within 120 feet. The molten metal then explodes in a 30-foot cone away from the cannon. Each creature in the cone must make a DC 16 Dexterity saving throw. On a failed save, a creature takes 33 (6d10) fire damage and ignites. On a success, a creature takes half as much damage and isn't ignited. Until a creature uses an action to douse the fire, an ignited creature takes 5 (1d10) fire damage at the end of each of its turns. 
+
+<img src='https://i.postimg.cc/8CZyR2Mz/magma-spray.jpg' style='position:absolute; bottom:-100px; right:0px; width:820px; transform:scaleX(1);filter:opacity(100%);'/>
+
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:-46px; width:900px; transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Possessed Variant
+You can create a variant of the weapon, which possesses an incorporeal demonic entity trapped within it that attempts to break free from the control of its masters. Its Challenge Rating (CR) is increased by 1, and it has the following changes:
+
+- It has Intelligence, Wisdom, and Charisma scores of 10.
+- If it fails an Intelligence, Wisdom, or Charisma saving throw, it may choose to succeed on the save and roll on the mishap table instead. It cannot do this if the save was caused by the spell *dispel evil and good* or similar magic that ends a possession. In this case, a failed save results in the weapon losing all its possessed traits as the demonic spirit is expelled.
+- The weapon no longer needs to be Prepped.
+- It counts as a fiend when determining the effects of features such as a paladin’s Divine Smite or a ranger’s Primeval Awareness.
+- When the weapon fires, roll 1d6. On a 1, the weapon does not fire, and it must roll on the Mishap Table. If the weapon has half its hit points or fewer, it rolls for a mishap on a 1, 2, or 3.
+
+
+##### Possessed Weapon Mishap Table
+| d6  | Mishap Name       | Mishap Effect    |
+|:---:|:------------------|:-----------------------------------------------------------------------------|
+| 1   | Demonic Rush      | The weapon moves 1d4 × 10 ft. in a random direction. Roll a d8 to determine the direction, assigning a direction to each die face. After the movement, each creature within 5 feet of the weapon must make a DC 15 Dexterity saving throw or take 16 (3d10) bludgeoning damage. |
+
+
+\columnbreak
+
+|  |       |   |
+|:---:|:------------------|:-----------------------------------------------------------------------------|
+| 2   | Fel Feedback      | The weapon's energies backlash, disrupting magic. Until the end of the user’s next turn, any creature that tries to cast a spell of 1st level or higher within 300 feet of the weapon must make a DC 15 Constitution saving throw. On a failed save, the creature takes 3 (1d6) force damage per level of the spell, and the spell is wasted. |
+| 3   | Essence Siphon    | The weapon feeds on the soul of the creature that fired it. That creature must make a DC 15 Charisma saving throw, taking 18 (4d8) necrotic damage on a failed save or half as much on a success. The weapon regains hit points equal to the necrotic damage dealt. |
+| 4   | Mental Slash      | The weapon exerts terror on nearby minds. Each creature within 15 feet of the weapon must make a DC 15 Wisdom saving throw or be frightened until the end of the user’s next turn. While frightened, the creature cannot take reactions and must use its turn to take the Dash action and move away from the weapon by the safest available route. |
+| 5   | Unstable Blast    | The weapon fires as normal, but all creatures have disadvantage on the saving throw against its effect. The weapon then takes 27 (5d10) force damage. |
+| 6   | Free at Last      | The weapon explodes, destroying itself. Each creature within 30 feet must make a DC 15 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save or half as much on a success. |
+
+<img src='https://i.ibb.co/6R4mj9K/Fire-Elemental-2-Dominaria-Mt-G-Art.jpg' style='position:absolute; bottom:-260px; right:-100px; width:1050px; transform:scaleX(-1);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-250px; right:50px; width:900px; transform:rotate(167deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-300px; right:-10px; width:900px; transform:rotate(180deg)' />
+
+\pagebreakNum
+
+
+
+##### Iron Demon Adventure Hooks
+| d6  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **The Fel Convoy:** A notorious fel dwarf warlord is transporting a dangerous artifact across the wastelands, guarded by an iron demon and an army of fel dwarves. The artifact, if delivered, could spell doom for the region. The party must intercept the infernal train, overcome the defenses, and seize the artifact.|
+|  2  |**The Infernal Race:** A mad nobleman obsessed with iron demons has announced a dangerous race across a known fel dwarf territory. The participants are required to hijack an iron demon and navigate it through a course riddled with traps, fel dwarf patrols, and rival racers. The reward is immense, but so are the risks.  |
+|  3  |**Runaway Train:** A sentient iron demon has gone rogue after its fel dwarf crew was killed in a skirmish. Now, it rampages across the countryside, laying waste to anything in its path with its dreaded magma cannon. The party must find a way to halt the demon-possessed machine before it reaches a populated area.  |
+|  4  | **The Besieged Fortress:** The party has been enlisted to help a besieged city. The fel dwarves have deployed several iron demons equipped with deathscreecher rockets to bombard the city's defenses. The party must find a way to infiltrate the enemy lines and disable or commandeer the Iron Demons to turn the tide of the battle.   |
+|  5  |**The Iron Catacombs:** Rumors abound of a subterranean vault filled with ancient iron demons equipped with unholy doomquake mortars. But the catacombs are said to be cursed, causing all who venture there to lose their way forever. The party is hired to navigate the labyrinth, neutralize any active iron demons, and retrieve any valuable artifacts they find. |
+|  6  |  **The Mine Train:** As the party fights their way through a fel dwarf mine, they attract the attention of a fel dwarf crew and their iron demon equipped with burning steam cannons, which start smashing through the mine to reach the intruders.  |
+
+\columnbreak
+
+### Iron Demon Tactics
+Iron demons are usually accompanied by fel dwarf engineers. They serve as hard-hitting chariots capable of smashing through weak battle lines, utilizing their high speed to circle the opposing force and charge in and out of combat to get the most damage out of their Siege Engine ability. They can use any siege weapons attached to soften up targets and cut off paths of retreat.
+
+### Siege Weapon Tactics
+
+Here are some differences between how the different types of siege weaponry are typically used in battle.
+
+#### Burning Steam Cannon & Magma Cannon
+**Function:** These are close-range artillery pieces designed to obliterate grouped enemies.<br>
+**Best Targets:** Clumped enemies with low Dexterity.
+
+#### Deathscreecher Rocket
+**Function:** A versatile rocket launcher with two distinct ammunition types.<br>
+* **Cursed Rocket:** 
+    * Use when it can hit three or more targets or at least two targets with low Wisdom.
+    * Use to frighten enemies within 60 feet of the cannon.
+    * Beware of flames are placed as they can move to nearby allies if they are too close.
+* **Demolition Rocket:** 
+    * Use in all other scenarios.
+
+#### Doomquake Mortar 
+**Function:** Long-range artillery designed to devastate large groups or control the battlefield.<br>
+**Tactics:** 
+* Target large groups of enemies, particularly those with:
+    * Low mobility (movement speed less than 30 feet).
+    * Difficulty navigating difficult terrain.
+* Secondary Use:
+    * Create barriers by targeting key pathways to slow enemy advancements and retreat.
+
+<img src='https://i.postimg.cc/HLG2dPdH/Horsley-howling-mine-5000x.webp' style='position:absolute; bottom:-290px; right:0px; width:820px; transform:scaleX(1);filter:opacity(100%);'/>
+
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-160px; right:-46px; width:900px; transform:rotate(187deg)' />
+
+\pagebreakNum
+
+### Fel Dwarf War Machine Loot
+Most of the valuable goods that can be looted from war machines are items they were carrying or materials salvaged from their remains. Most carried valuables can be found using **Intelligence (Investigation)** or **Wisdom (Perception)** checks or may not require a check to spot at all. Salvaged material can usually be gathered using an Intelligence (Smith’s Tools) or Intelligence (Tinker’s Tools) check. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Fel Dwarf War Machine Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Iron Demon Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 3d6(10) 5gp Items |
+|  7-11 | 2d6(7) 10gp Items | 
+|  12-17 | 3d6(10) 10gp Items | 
+|  18-22 | 2d6(10) 20gp Items | 
+|  23+ | 2d6(10) 20gp Items  |  
+
+
+##### Burning Steam Cannon & Deathscreecher Rocket Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 5gp Item |
+|  6-11 | 1d4(2) 5gp Items | 
+|  12-18 | 1d6(3) 5gp Items  |  
+|  19-22 | 1d4(2) 10gp Items |  
+|  23+ |  1d6(3) 10gp Items |  
+
+##### Magma Cannon Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1d4(2) 5gp Items |
+|  6-9 | 1d6(3) 5gp Items | 
+|  10-16 | 1d4(2) 10gp Items  |  
+|  17-21 | 1d6(3) 10gp Items |  
+|  22+ |  1d4(2) 20gp Items |  
+
+### Fel Dwarf War Machines Art Credit
+* Steam-Powered - Carl Critchlow, Wizards of the Coast
+* Bombard - Alex Konstad, Wizards of the Coast
+* Magma Spray - Jarreau Wimberly, Wizards of the Coast
+* Fire Elemental - Joe Slucher, Wizards of the Coast
+* Howling Mine - Ralph Horsley, Wizards of the Coast
+* Pyrotechnics - Matt Stewart, Wizards of the Coast
+
+\columnbreak
+
+##### Doomquake Mortar Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1d6(3) 5gp Items |
+|  8-11 | 1d4(2) 10gp Items | 
+|  12-19 | 1d6(3) 10gp Items  |  
+|  20-23 | 1d4(2) 20gp Items |  
+|  24+ |  1d6(3) 20gp Items |  
+
+#### Example Fel Dwarf War Machine Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example War Machine Item Names
+|1d4 | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Fluid)  |  Dirty War Machine Fuel or Oil |  War Machine Fuel or Oil |  Potent War Machine Fuel or Oil   | 
+| 2-4 <br> (Metal) | Damaged War Machine Scraps | War Machine Scraps | Pristine War Machine Scraps  |
+
+
+
+\columnbreak
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<img src='https://i.ibb.co/L1t6KrH/Pyrotechnics-Fate-Reforged-Mt-G-Art.jpg' style='position:absolute; bottom:-00px; right:-170px; width:780px; transform:rotate(-0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:0px;height:1400px;width:1416px;transform:rotate(268deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-40px;top:-545px;height:1400px;width:1500px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Self-Propelled Vehicles
+Most land vehicles in fantasy settings are pulled by other creatures, such as wagons, carriages, or chariots. However, through some combination of technology or magic, some vehicles may be self-propelled and driven by a passenger. These may be relatively small mechanical contraptions, magically self-propelled carriages, or mighty war machines rumbling across blasted battlefields. 
+
+The following rules can help you codify how to use these vehicle types in your games. They can be applied to vehicles of different shapes and sizes and used as tools for designing your own vehicles. The rules here can be applied to most self-powered vehicles piloted by a passenger. 
+
+## Self-Propelled Vehicle Rules
+Self-propelled vehicles are vehicles able to move without needing to be pushed or pulled by another creature, and they usually don’t need an external energy source (such as wind). Throughout this document, they will be referred to simply as vehicles. Creatures within a vehicle are referred to as passengers. 
+In combat, vehicles use most of the same rules as creatures, with the following additional considerations:
+
+### Opportunity Attacks
+Vehicles provoke opportunity attacks as usual. When a vehicle provokes an opportunity attack, the attacker can target the vehicle itself or any creature riding on or inside it, provided they are within reach and do not have total cover.
+
+
+
+\columnbreak
+
+### Spacing Within Vehicles
+All creatures within a vehicle count as being within 5 feet of each other.
+
+
+### Entering and Exiting Vehicles
+Entering or exiting the vehicle costs a creature half of its movement. Each creature inside the vehicle may use its reaction to make an opportunity attack against the creature entering or exiting.
+
+
+### Crashing into Creatures and Objects
+A vehicle can crash into a creature or object by entering its space. When it does, the creature or object must make a Dexterity or Strength saving throw (the target's choice) using the vehicle's DC. On a failed save, the target takes 1d6 bludgeoning damage for every 10 feet the vehicle moved in a straight line before attempting to enter the target's space (maximum 20d6 damage).
+
+If the target is a creature, it is also knocked prone. On a successful Dexterity save, the target takes no damage and is not knocked prone. On a successful Strength save, the creature takes half damage, is not knocked prone, and the vehicle's speed becomes 0 until the end of the turn. A target can only make this saving throw once per turn.
+
+If the vehicle is at least two size categories larger than the target it crashed into, it can continue moving through the target's space if it has any movement remaining. Otherwise, the vehicle comes to a sudden stop. If the target is an impassable object that could reasonably damage the vehicle, such as an iron wall, the vehicle comes to a sudden stop and takes 1d6 bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6 damage). Each creature on or inside the vehicle takes the damage as well
+
+<img src='https://i.ibb.co/7VQV8VK/ballista-charger.png' style='position:absolute; top:-0px; right:0px; width:817px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:45px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(4deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:100px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+\pagebreakNum
+
+### Prone Vehicles
+If vehicle falls prone, it cannot right itself and is incapacitated until it is flipped upright.
+
+### Falling Vehicles
+When a vehicle falls from a height of 10 feet or higher, it and all creatures on or inside it take damage from the fall as normal and land in a prone position. If the vehicle falls due to the actions of its driver (such as jumping off a ramp) it may not land prone (DM’s discretion) but still takes fall damage.
+
+
+
+### Repairing Vehicles
+If a vehicle has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The vehicle must be stationary, and the creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the tools required for the repairs. If the check succeeds, the vehicle regains 2d4 + its Intelligence modifier + its proficiency bonus hit points. If the check fails, the vehicle does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+### Vehicular Exhaustion 
+Certain circumstances can cause a vehicle to malfunction and eventually break down due to wear and tear. This wear and tear can be represented using exhaustion rules, as described in Appendix A of the Player's Handbook, with the following modifications:
+
+* When a vehicle reaches exhaustion level 6, its hit points drop to 0, and the vehicle breaks down.
+* The only way to remove the effects of exhaustion on a vehicle is through repair. This can be done using the <br> rules described in the Repairing Vehicles section <br> above. If the attempt to repair the vehicle <br> succeeds, the vehicle's exhaustion level <br> decreases by 1. If the check fails, the <br> vehicle's exhaustion level remains <br> unchanged, but the repair attempt <br> can be made again using <br> the same tools and <br> replacement parts.
+
+\columnbreak
+
+## Self-Propelled Vehicle Attributes
+Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, these vehicles have the following additional attributes and considerations:
+
+### Hit Points 
+A vehicle's hit points can be restored through vehicle repairs. However, when a vehicle's hit points reach 0, it becomes inoperative and is irreparably damaged.
+### Damage Threshold
+Most vehicles possess bulk or armor that enables them to withstand minor hits. A vehicle with a damage threshold is immune to all damage unless the amount of damage it takes is equal to or greater than its damage threshold value. In such cases, the vehicle takes damage as usual. Damage that fails to meet or exceed the vehicle's damage threshold is considered superficial and does not reduce the vehicle's hit points.
+
+### Mishap Threshold
+When a vehicle sustains damage from a single source that is equal to or exceeds its mishap threshold, it is required to roll on the Mishaps table (refer to the Mishaps section).
+
+<img src='https://i.ibb.co/pZzQTPR/surgehacker-mech.png' style='position:absolute; bottom:-100px; right:-200px; width:1016px; transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-410px; right:-170px; width:1000px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-300px; right:105px; width:1000px; transform:rotate(-37deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-451px; right:-00px; width:1000px; transform:rotate(-4deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Creature Capacity 
+Creature capacity determines the number of creatures that can ride the vehicle comfortably. Additional creatures can fit by squeezing or clinging to the outside of the vehicle.
+
+### Cargo Capacity
+Cargo capacity indicates the maximum weight of cargo the vehicle can carry.
+
+### Vehicle DC 
+Whenever the vehicle requires a creature to make a check or saving throw, it uses this number as the DC.
+
+### Challenge Rating
+When players face enemies that are equipped with a fully functioning vehicle, the challenge rating (CR) of the encounter should be calculated as if the vehicle is an additional creature with its own CR.
+
+### Ability Scores 
+A vehicle possesses the standard six ability scores that creatures have, along with their corresponding modifiers. The Strength of the vehicle is determined by its size and weight, while Dexterity represents its handling and maneuverability. The Constitution of a vehicle reflects its durability and quality of construction. In most cases, vehicles have a score of 0 in Intelligence, Wisdom, and Charisma.
+
+If a vehicle has a score of 0 in a particular ability score, it automatically fails any ability check or saving throw that relies on that score.
+
+### Action Stations
+A vehicle may have one or more Action Stations. Each of these stations requires a certain number of creatures to operate and may grant those creatures some amount of cover. The creatures operating these stations must be passengers within the vehicle, but not all passengers need to be operating a station. A creature operating a station <br> can use an action to activate the station's effect.  <br> A station can be occupied by only one <br> creature at a time and can only <br> be activated once per round. 
+
+\columnbreak
+
+#### The Helm 
+Most vehicles that must be piloted by a passenger (referred to as the driver) have an Action Station known as the Helm, where the vehicle's movement is controlled. It usually consists of a chair equipped with a wheel, levers, pedals, and other controls. If a vehicle has a helm with no one operating it, it automatically fails Dexterity saving throws. A driver who is proficient with land vehicles can add their proficiency bonus to ability checks and saving throws made using the vehicle's ability scores.
+
+The driver can use an action to propel the vehicle up to its speed or bring it to a complete stop. While the vehicle is in motion, the driver can steer it along any desired course. If the driver becomes incapacitated, leaves the helm, or takes no action to alter the vehicle's course and speed, the vehicle will continue moving in the same direction and at the same speed as it did during the driver's last turn until it collides with an obstacle large enough to stop its movement.
+
+
+### Mishaps
+Most vehicles have a Mishaps Table, which describes different ways its functionality can go awry under adverse conditions. When certain abilities or conditions dictate, roll on this Mishaps Table. 
+
+To resolve a Mishap, a creature can use its action to make an ability check based on the nature of the mishap (refer to the Mishaps section). If the vehicle is moving, the check is made with disadvantage. If the creature is proficient with the tools required for the repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+### Self-Propelled Vehicles Art Credit
+* Ballista Charger - Sung Choi, Wizards of the Coast
+* Surgehacker Mech - Wisnu Tan, Wizards of the Coast
+* Dermotaxi - Mark Zug, Wizards of the Coast
+
+<img src='https://i.ibb.co/VtKTs6t/Dermotaxi-Modern-Horizons-2-Mt-G-Art-1024x786.jpg' style='position:absolute; bottom:-195px; right:-0px; width:816px; transform:scaleX(-1);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:-395px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-50px;top:-300px;height:1400px;width:1416px;transform:rotate(-28deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#  Siege Weapons
+These weapons have been engineered for large-scale warfare against enemy armies and settlements. What sets them apart from other weapons is their size and the number of creatures required to operate them effectively (generally more than two). These weapons range from highly sophisticated cannons and rocket launchers to crude catapults and giant slingshots. Regardless of their form, they are all large enough that moving them is a slow process and labor-intensive enough to use that they require a team of creatures to operate them effectively.
+
+## Repairing Weapons
+If a weapon has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the required tools. If the check succeeds, the weapon regains 2d4 + the creature's Intelligence modifier + the creature's proficiency bonus hit points. If the check fails, the weapon does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+\columnbreak
+
+## Siege Weapon Attributes
+In addition to the common attributes of size, weight, AC, HP, and damage immunity, these weapons have the following additional attributes and considerations:
+
+### Hit Points 
+A weapon has hit points that can be restored through repairs. When its hit points reach 0, the weapon becomes inoperative and irreparably damaged. 
+
+Many weapons have a damage threshold. Any source of damage less than this threshold only inflicts superficial damage and doesn't lower the weapon's hit points.
+
+### Weapon DC 
+The weapon's DC is used whenever a creature makes a check to fix mishaps, when a creature is repairing the weapon, or the weapon forces a creature to make a saving throw.
+
+### Challenge Rating
+When players face enemies equipped with fully functioning siege weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
+
+<img src='https://i.ibb.co/JjYPNWK/Unleash-Shell-The-Brothers-War-Mt-G-Art.jpg' style='position:absolute; top:-40px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:195px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(19deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:249px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+
+
+\pagebreakNum
+
+
+
+### Ammo / Fuel
+Weapons may require ammunition, such as bullets, or fuel, such as flammable chemicals, to make attacks. This part of the stat block includes the cost of the ammo and the number of charges it has, which represents the number of times the weapon can be used before it needs to be reloaded.
+
+### Functions
+By default, siege weapons have three different functions, which can each be activated as an action by its operators: Prep, Load, and Fire. Each function can only be performed once per round unless it states otherwise. Creatures within reach of a creature performing one of these functions can make opportunity attacks against them.
+
+#### Prep
+Siege weapons need to be prepped in different ways between being fired. This preparation could be cranking a ballista or cleaning the barrel of a cannon. Many siege weapons have multiple Prep functions that must be performed before they can be used again. In these cases, the different Prep actions can be done by different creatures within the same round. Unless stated otherwise, all the Prep functions must be completed before the weapon can be loaded.
+
+
+
+### Siege Weapons Art Credit
+* Unleash Shell - Campbell White, Wizards of the Coast
+* Goblin Artillery - Alex Horley-Orlandelli, Wizards of the Coast
+
+\columnbreak
+
+#### Load
+This function is used to reload the weapon's ammunition up to its full capacity. It requires the creature loading it to have immediate access to the weapon's ammunition. If a creature doing the loading is hit by an opportunity it provoked by doing this, it drops the ammo and wastes its action.
+
+#### Fire
+This function is used to aim and fire the weapon at a target chosen by the creature performing the function.
+
+### Passive Traits
+This section describes any traits of the weapon has that don't require actions to utilize.
+
+### Mishaps table
+Some weapons can suffer a malfunction when certain functions are used. When such an event occurs, it will suffer a mishap and need to roll on its Mishap Table to determine what adverse effect it suffers. 
+
+A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+<img src='https://64.media.tumblr.com/97957bfd89fc58990ebbe31b4b543960/a95157cb330b1736-23/s1280x1920/c9807add3c7fc2bd781c456d1f8a9cee5de0f6e2.png' style='position:absolute; botom:-0px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-485px; right:-100px; width:1000px; transform:rotate(8deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-455px; right:-200px; width:1000px; transform:rotate(-2deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-451px; right:-00px; width:1000px; transform:rotate(-4deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release

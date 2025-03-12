@@ -1,0 +1,151 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Infernal Defenders
+Infernal defenders are cruel guardians fashioned by fel dwarf artificers using unholy methods similar to those employed in creating infernal destroyers. A lesser demon is bound into a body forged of metal and stone. These forms vary in shape, ranging from steel hounds with snapping jaws to brass bulls with searing horns, or vaguely humanoid figures twisted from obsidian.
+
+Though these creations burn with the hatred of their imprisoned demons, they remain unwaveringly loyal to their masters, unleashing onslaughts of terrible fire upon their enemies. On command, the demon can channel its suppressed fury into another creature, allowing the recipient to deliver unnaturally brutal strikes at the cost of their own body, which is torn apart by the demon’s rage.
+
+### Infernal Defender Tactics
+The following tips can help you run infernal defenders in combat more effectively. In combat the infernal defender:
+* Stays near its creator as a pseudo-protector and supporter.
+* Utilizes Rebuke Attack to defend its allies.
+* Employs Strain ability when commanded; it's most effective when used on targets:
+    * Capable of dealing at least 20 damage with a single attack. (e.g., Deathscreecher Artillerist)
+    * Possessing powers associated with their strikes (e.g., Doomquake Battle Smith.)
+
+<br>
+
+##### Art Credit
+Kilauea - Ogura Yonesuke
+
+\columnbreak
+
+<br><br>
+
+### Infernal Defender Variants
+
+The type of demon bound to the construct can vary. You can apply one of the following abilities to the infernal defender to represent this, increasing its challenge rating (CR) by 1.
+
+##### Infernal Defender Variants
+| d3  | Ability |
+|:---:|:-----------:|
+|  1  | ***Forge-Bound Demon.***  Creatures holding a metal object have disadvantage on saving throws against the Defender’s Rebuke attack. Additionally, if a creature fails a saving throw against the Rebuke Attack, a metal object of the Defender’s choice the creature is holding becomes red-hot for the next minute. A creature holding a object heated this way has disadvantage on attack rolls and ability checks unless it is immune to fire damage.|
+|  2  | ***Shadow-Bound Demon.***  The defender now deals psychic damage instead of fire damage and is immune to psychic damage instead of fire damage. Its Rebuke Attack forces a creature to make a Wisdom saving throw instead of a Dexterity saving throw. Additionally, if a creature fails the save, it is blinded, in addition to taking damage. A creature can repeat the saving throw at the start of each of its turns, ending the effect on itself on a success.|
+|  3  | **Hunger-Bound Demon.** The defender now deals necrotic instead of fire damage and is immune to necrotic damage instead of fire damage. Its Rebuke Attack forces a creature to make a Constitution saving throw instead of a Dexterity saving throw. Additionally, the Defender heals a creature of it's choice within 5 feet of it a number of hit points equal to the damage dealt by its Rebuke Attack. |
+
+___
+___
+> ## Infernal Defender
+> *Medium construct, lawful evil*  
+> ___
+> - **Armor Class** 15 (natural armor)  
+> - **Hit Points** 65 (10d8 + 20)  
+> - **Speed** 40 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |14 (+2)|12 (+1)|14 (+2)|4 (-3)|10 (+0)|8 (-1)|
+> ___
+> - **Damage Immunities** fire, poison  
+> - **Damage Resistances** cold, psychic  
+> - **Condition Immunities** Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned  
+> - **Senses** darkvision 60 ft., passive Perception 13  
+> - **Challenge** 2 (450 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> ***Hell-Forged.*** The defender has the soul of a demon bound within it. It counts as a fiend for the purposes of features such as a paladin’s Divine Smite or a ranger’s Primeval Awareness.  
+> 
+> ***Immutable Form.*** The defender is immune to any spell or effect that would alter its form.  
+> 
+> ### Actions  
+> 
+> ***Infernal-Empowered Rend.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 11 (2d8 + 2) fire damage.  
+> 
+> ***Strain (3/Day).*** The defender overcharges its mechanisms, dealing 11 (2d8 + 2) force damage to itself or one creature within 5 feet. The next time the chosen creature makes an attack before the end of the defender's next turn, the attack has advantage, and if it hits, it deals an additional 18 (4d8) fire damage.  
+> 
+> ### Reactions  
+> 
+> ***Rebuke Attack.*** When another creature within 5 feet of the defender takes damage, the defender targets the attacker if it is within 60 feet. The attacker must make a DC 12 Dexterity saving throw, taking 11 (2d10) fire damage on a failed save, or half as much on a success.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+___
+___
+> ## Greater Infernal Defender
+> *Medium construct, lawful evil*  
+> ___
+> - **Armor Class** 17 (natural armor)  
+> - **Hit Points** 65 (10d8 + 20)  
+> - **Speed** 40 ft.  
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |16 (+3)|14 (+2)|16 (+3)|4 (-3)|10 (+0)|8 (-1)|
+> ___
+> - **Damage Immunities** fire, poison  
+> - **Damage Resistances** cold, psychic  
+> - **Condition Immunities** Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned  
+> - **Senses** Darkvision 60 ft., Passive Perception 13  
+> - **Challenge** 4 (450 XP)   &emsp;&emsp; **Proficiency Bonus** +2  
+> ___
+> ***Hell-Forged.*** The defender has the soul of a demon bound within it. It counts as a fiend for the purposes of features such as a paladin’s Divine Smite or a ranger’s Primeval Awareness.  
+> 
+> ***Immutable Form.*** The defender is immune to any spell or effect that would alter its form.  
+> 
+> ### Actions  
+> 
+> ***Infernal-Empowered Rend.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 21 (4d8 + 3) fire damage.  
+> 
+> ***Strain (3/Day).*** The defender overcharges its mechanisms, dealing 21 (4d8 + 3) force damage to itself or one creature within 5 feet. The next time the chosen creature makes an attack before the end of the defender's next turn, the attack has advantage, and if it hits, it deals an additional 36 (6d8) fire damage.  
+> 
+> ### Reactions  
+> 
+> ***Rebuke Attack.*** When another creature within 5 feet of the defender takes damage, the defender targets the attacker if it is within 60 feet. The attacker must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much on a success.
+
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/%27Kilauea%27%2C_oil_on_canvas_painting_by_Ogura_Yonesuke_Itoh%2C_1908.jpg/640px-%27Kilauea%27%2C_oil_on_canvas_painting_by_Ogura_Yonesuke_Itoh%2C_1908.jpg' style='position:absolute;left:-0px;bottom:-0px;width:950px' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-420px; right:0px; width:900px; transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
