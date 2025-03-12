@@ -68,7 +68,7 @@ style='position:absolute;right:-80px;top:394px;height:1400px;width:1416px;transf
 ___
 ___
 > ## Stoneheart
-> *Large Monstrosity (beastman), chaotic evil*
+> *Large monstrosity (beastman), chaotic evil*
 > ___
 > - **Armor Class** 16 (natural armor)
 > - **Hit Points** 315 (30d10+150)
@@ -85,11 +85,11 @@ ___
 > - **Challenge** 17 (18,000 XP) &emsp;&emsp; **Proficiency Bonus** +6
 > ___
 >
-> ***Blood Greed.*** At the end of Stoneheart's turn, if he dealt damage to a creature with a weapon attack since the end of his last turn, he goes berserk until the end of his next turn. While berserk, he deals an extra 9 (2d8) damage on hit with weapon attacks.
+> ***Blood Greed.*** At the end of each turn, if Stoneheart dealt damage to a creature this turn, it goes berserk until the end of its next turn. While berserk, it deals an extra 9 (2d8) damage on hit with weapon attacks.
 >
 > ***Brute.*** A melee weapon deals one extra die of its damage when Stoneheart hits with it (included in the attack).
 >
-> ***Corrupting Influence.*** At the start of Stoneheart's turn, each creature under the effects of his spells takes 10 (3d6) necrotic damage.
+> ***Corrupting Influence.*** At the start of Stoneheart's turn, each creature under the effects of his spells or cursed by his Atrophy Bolt takes 10 (3d6) necrotic damage.
 >
 > ***Labyrinthine Recall.*** Stoneheart can perfectly recall any path he has traveled.
 >
@@ -107,9 +107,9 @@ ___
 >
 > ***Tackle.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 4 (1d8) bludgeoning damage. If Stoneheart moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) bludgeoning damage.
 >
-> ***Wing Puncturing Javelin.*** *Melee or Ranged Weapon Attack:* +12 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 16 (3d6 + 6) damage in melee or 12 (2d6 + 6) piercing damage at range. If the attack targets a flying creature, it has advantage, and on hit, the target must succeed on a DC 19 Strength saving throw or be knocked prone and dazed (NOTE: For long?).
+> ***Wing Puncturing Javelin.*** *Melee or Ranged Weapon Attack:* +12 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 16 (3d6 + 6) damage in melee or 12 (2d6 + 6) piercing damage at range. If the attack targets a flying creature, it has advantage, and on hit, the target must succeed on a DC 19 Strength saving throw or be knocked prone and dazed until the end of the creature until the end of its next turn.
 >
-> ***Atrophy Bolt (Only While Possessed).*** *Ranged Spell Attack:* +11 to hit, range 150 ft., one target. *Hit:* 10 (3d6) necrotic damage, and the target is cursed for 1 minute or until Stoneheart is no longer possessed. (Note: What's the curse do?)
+> ***Atrophy Bolt (Only While Possessed).*** *Ranged Spell Attack:* +11 to hit, range 150 ft., one target. *Hit:* 10 (3d6) necrotic damage, and the target is cursed for 1 minute or until Stoneheart is no longer possessed.
 >
 > ***Spellcasting (Only While Possessed).*** Stoneheart is a spellcaster. His spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). He knows the following spells:
 > - **3/Day:** *devolve** (5th level), *impending doom** (5th level), *vile tide** (5th level)
@@ -143,7 +143,7 @@ ___
 
 For an epic encounter with Stoneheart, give the Bray Speaker spirit possessing him its own pool of 310 hit points, which it regains after a short or long rest. 
 
-Whenever Stoneheart takes damage while possessed, the damage is instead dealt to the Bray Speaker. If this damage reduces the Bray Speaker to 0 hit points, Kha'Rak Stoneheart takes the remaining damage and loses the Possessed trait. Conversely, if Stoneheart is reduced to 0 hit points, the Bray Speaker takes the remaining damage. In this case, the Stoneheart automatically becomes possessed, losing the ability to make saving throws to end the possession.
+Whenever Stoneheart takes damage while possessed, the damage is instead dealt to the Bray Speaker. If this damage reduces the Bray Speaker to 0 hit points, Stoneheart takes the remaining damage and loses the Possessed trait. Conversely, if Stoneheart is reduced to 0 hit points, the Bray Speaker takes the remaining damage. In this case, the Stoneheart automatically becomes possessed, losing the ability to make saving throws to end the possession.
 
 Stoneheart only dies if both he and the Bray Speaker are reduced to 0 hit points.
 
@@ -273,5 +273,8 @@ style='position:absolute;right:-270px;top:-379px;height:1400px;width:1416px;tran
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
+
+#### 1.1.0
+* Clean up wording of Blood Greed
