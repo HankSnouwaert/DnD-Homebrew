@@ -19,7 +19,7 @@
 
     
         /* Hide the footer on some pages */
-    .phb#p3:after  {
+    .phb#p5:after  {
         display          : none;
     }
     /* End Footers */
@@ -70,7 +70,8 @@ The locations marked with 'L' on the map contain spare loot the players can disc
 
 ##### Map Legend
 * <font color="Red">**Red Lines:**</font> 20 Foot Walls Connecting to 20 Foot Ceiling. On the Medium & Hard difficulties, the walls are made of magical stone that extend into the Etherial Plane and can't be teleported through.
-* <font color="918007">**Yellow Lines:**</font> Walls Lined With Sharp Spikes Which Deal 10 (3d6) piercing damage to any creature pushed into them
+* <font color="918007">**Yellow Lines:**</font> Walls Lined With Sharp Spikes Which Deal 10 (3d6) piercing damage to any creature pushed into them.
+* <font color="Red">**Red Area:**</font> Fire summoned after The Brass Bull appears. When a creature enters the fire's area for the first time on a turn or ends its turn there, it takes 10 (3d6) fire damage.
 * **J:** Juggernaut Enemy
 * **JR:** Juggernaut Rider Enemy
 * **M:** Minotaur Enemy
@@ -92,6 +93,13 @@ If you're playing using theater of the mind and do not wish to describe every tu
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
+
+### The Brass Bull's Chamber
+
+When the players reach The Brass Bull's chamber, it will initially be empty. Once a player reaches the encounter's starting point within the lair, The Brass Bull will be summoned, appearing at the end of the chamber. The area marked in red will ignite, with flames reaching the ceiling until The Brass Bull is defeated or disappears. When a creature enters the fire's area for the first time on a turn or ends its turn there, it takes 10 (3d6) fire damage. The area is also heavily obscured.
+
+If the party flees, The Brass Bull will disappear and regain all of its hit points after one minute.
+
 
 
 ### Minotaur Tactics
@@ -123,16 +131,15 @@ Below are some tips for running the minotaurs in the labyrinth.
 * Coordinates attacks to keep the target prone, maximizing damage with Hewing Greataxe.
 * Prioritizes reapplying wounds to maintain tactical advantage if the target recovers.
 
+\columnbreak
+
+
 ### Juggernaut Tactics
 Juggernauts serve as shock cavalry, often mounted by bloodletters. In combat, a juggernaut charges targets to knock them prone and stomp them. It will then stay in melee range to keep its prey from fleeing without risking an opportunity attack. At the start of its next turn, if the juggernaut has 30 or more hit points, it will back up and charge the target again.
-
-
-
 
 #### Searing Juggernauts
 Searing juggernauts prefer to engage groups of enemies, maximizing the impact of their Mantle of Immolation. They are most effective when paired with creatures that deal fire damage. Since the Mantle of Immolation can be triggered once per turn, a searing juggernaut can activate this ability on its own turn with its Gore or Pulverizing Stomp attacks and on the enemies turn if the creature ends it's in the juggernaut aura.  
 
-\columnbreak
 
 
 #### Rage Riders
@@ -156,12 +163,12 @@ Bloodrenders typically ride juggernauts, which can knock their prey prone. As su
 * **2nd Turn (Eldritch Onslaught):** Targets the creature furthest from its allies, limiting their ability to assist.
 * **3rd Turn and Beyond:** Continues usual tactics, unaffected by the specific abilities used in previous onslaught turns.
 
+\pagebreakNum
+
 ### XP Award
-Because the goal of the labyrinth is to reach its end rather than clear it of enemies, you may opt not to award XP for players defeating groups of enemies because they took wrong turns. When the players reach the end of the labyrinth and defeat the chieftain, you can award them an extra XP determined by the difficulty of the labyrinth in addition to normal XP from defeating the monsters.
+Because the goal of the labyrinth is to reach its end rather than clear it of enemies, you may opt not to award XP for players defeating groups of enemies because they took wrong turns. When the players reach the end of the labyrinth and defeat the chieftain, you can award them an extra XP determined by the difficulty of the labyrinth in addition to normal XP from defeating the monsters.<br>
 
-<br>
-
-**Easier Encounter (Levels 11-13).** <br>
+<br>**Easier Encounter (Levels 11-13).** <br>
 **M:** Minotaur Flesh Gorger<br>
 **J:** Minotaur Flesh Gorger & Juggernaut<br>
 **JR:** Jugeernaut Ridden By Bloodrender With Rage Rider<br>
@@ -177,7 +184,7 @@ Because the goal of the labyrinth is to reach its end rather than clear it of en
 **B:** The Brass Bull With Lair Actions <br>
 **Bonus XP For Completing Labyrinth:** 10,000XP <br>
 
-\pagebreakNum
+<br>
 
 **Harder Encounter (Levels 17-19).** <br>
 **M:** Minotaur Warbull With Goregreed & Uncanny Senses <br>
@@ -185,6 +192,24 @@ Because the goal of the labyrinth is to reach its end rather than clear it of en
 **JR:** Searing Juggernaut With Gouging Tusks & Uncanny Senses Ridden By Bloodrender Herald of Rage With Rage Rider <br>
 **B:** The Brass Bull With Lair Actions & Cataclysmic Onslaught <br>
 **Bonus XP For Completing Labyrinth:** 15,000XP <br>
+
+\columnbreak
+
+### New Conditions 
+Some of the creatures in this encounter make use of the following new conditions:
+<br>
+
+##### New Condition: Berserk
+Berserk creatures gain the following effects unless an ability states otherwise:
+* The creature can only use its movement to move closer to an enemy it can see or hear.
+* The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+ * The creature can't maintain concentration on spells or other effects.
+* The creature can't be frightened or charmed.
+
+##### New Condition: Dazed 
+A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+
 
 
 ### Adventure Lead Ups
@@ -199,23 +224,9 @@ If you wish to make this the final encounter of a larger adventure, the followin
 
 <br>
 
-### New Conditions 
-Some of the creatures in this encounter make use of the following new conditions:
-<br>
-
-##### New Condition: Berserk
-Berserk creatures gain the following effects unless an ability states otherwise:
-* The creature can only use its movement to move closer to an enemy it can see or hear.
-* The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
- * The creature can't maintain concentration on spells or other effects.
-* The creature can't be frightened or charmed.
 
 
-
-##### New Condition: Dazed 
-A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the > three.
-
-\columnbreak
+\pagebreakNum
 
 ## Minotaur Mutations
 
@@ -256,9 +267,7 @@ The beastman has advantage on initiative rolls and Wisdom (Perception) checks an
 
 
 
-\pagebreakNum
-
-
+\columnbreak
 ___
 > ## Bloodrender
 >*Medium fiend (demon of rage), chaotic evil*
@@ -296,8 +305,10 @@ against spells and other magical effects
 > ##### Rage Riders
 > The bloodrenders in this encounter all have the following additional trait:<br> ***Rage Rider.*** If the bloodrender has a controlled mount that is also a demon of rage, the mount can take the Attack action once on each of the bloodrender's turns and use its bonus action on its turn. If it takes this action, the mount cannot take Dash, Disengage, and Dodge on that turn.
 
-\columnbreak
 
+\pagebreakNum
+
+___
 ___
 > ## Bloodrender, Exalted
 >*Medium fiend (demon of rage), chaotic evil*
@@ -333,8 +344,6 @@ against spells and other magical effects
 > ***Multiattack.*** The bloodrender makes two attacks. 
 >
 > ***Hellblade.*** *Melee Weapon Attack:* +7 to hit, reach 5ft., one target. *Hit:* 13 (2d8 + 4) slashing damage plus 4 (1d8) fire damage.
-
-\pagebreakNum
 
 ___
 ___
@@ -996,5 +1005,5 @@ You can give the different types of items unique names based on their material a
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
