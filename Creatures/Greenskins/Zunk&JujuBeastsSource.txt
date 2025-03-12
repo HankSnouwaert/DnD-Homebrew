@@ -1,0 +1,345 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+## Zunk, Gob of the Gods
+
+**Habitat:** Any; **Treasure:** Individual, Relics
+
+Most savage orc spirit-invokers teeter on the edge of insanity, overwhelmed by the clamor of divine voices and the torrent of bestial energies coursing through them. None exemplify this more than Zunk, self-proclaimed Gob of the Gods, who believes the Orcish deities speak to him through his juju beast familiar. These voices urge him to recruit the land’s fiercest hunters, band them together, and track down the deadliest creatures roaming existence.
+
+Convinced of his sacred mission, Zunk leads his elite followers into the most remote corners of the world, each perilous journey culminating in the slaying of a legendary monstrosity. As they claim their prize, Zunk absorbs the creature’s spirit into his ever-growing menagerie. With every conquest, his powers surge, and the commands relayed through his familiar grow more daring, urging the warband to pursue even mightier prey.
+
+This relentless crusade has not gone unnoticed. Many view Zunk and his disciples as a scourge, for the beasts they target are often prized war mounts, revered by noble rulers, or venerated by local communities. Yet those who seek retribution or attempt to halt Zunk’s so-called “holy mission” quickly learn that the mouthpiece of the gods cannot be silenced so easily.
+
+\columnbreak
+
+<br><br>
+
+### Zunk's Tactics
+Zunk prioritizes staying stationary to maximize the effectiveness of his Mumbo Jumbo Dance, targeting the ally with the highest number of spirits and hit points. He keeps his familiar close to utilize its Strange Portent and Absorb Spell abilities on himself for added protection.
+
+***Primal Portent.***
+Zunk only engages in combat when all the creatures he is bound to are present. When activating this ability, he imbues the creature with the highest hit points (as long as it is not incapacitated). This forces opponents to switch targets frequently due to the shared resistance among bound creatures.
+
+#### Action Priorities
+Zunk follows a specific set of actions based on the battlefield situation:
+
+**Wild Surge.** Targets the strongest bound creature. If he loses concentration, he will recast it, prioritizing the creature with the most beast spirits on it.
+
+**Brutal Glare.** Used when he can affect either two low-Dexterity targets or three or more enemies. If possible, he casts this at 3rd level.
+
+**Bone Cracker.** Used when he is already concentrating on Wild Surge and there are no tightly grouped enemies.
+
+</style>
+
+___
+___
+> ## Zunk
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 18 (War Paint) &emsp;&emsp;&emsp;&ensp;**Initiative** +3 (13)
+> - **Hit Points** 120 (16d8 + 48)
+> - **Speed** 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Animal Handling +6, Athletics +6, Intimidation +8, Performance +8, Religion +0
+> - **Gear** Quarterstaff
+> - **Senses** Darkvision 60 ft., Passive Perception 13
+> - **Languages** Common, Orc
+> - **Challenge** 7 (2,900 XP; PB +3)
+> ___
+> ### Traits
+>
+> ***Primal Portent (6/Day).*** After a long rest, Zunk can bind himself to three creatures. As long as Zunk is bound to at least one creature, on initiative count 25 of combat (losing to ties), he calls upon a random beast spirit from the Beast Spirit Table and chooses one of the creatures bound to him to become imbued with it for the next minute. Zunk and each other creature bound to him are then warded until the end of initiative count 25 of the next round. While warded, they have resistance to all damage.
+> 
+> ### Actions
+> ***Spellcasting.*** Zunk is a spellcaster. His spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). He knows the following spells:
+> - **At will:** *mage hand, thaumaturgy*  
+> - **1st level (3 slots):** *find familiar* (**ju-ju beast** only)  
+> - **2nd level (3 slots):** *brutal glare**, augury*  
+> - **3rd level (3 slots):** *wild surge***    
+> 
+> ***Quarterstaff Chopper.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target.  
+> *Hit:* 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if wielded with two hands. If this is the first attack Zunk makes on his turn, it deals an extra 5 (2d4) damage on hit.
+>
+> ***Bone Cracker.*** *Melee Spell Attack:* +8 to hit, reach 60 ft., one target.  
+> *Hit:* 22 (4d10) force damage, or 14 (4d6) if the target is more than 5 feet away from Zunk.
+>
+> ### Bonus Actions
+> ***Aggressive.*** Zunk can move up to his speed toward a hostile creature that he can see.
+>
+> ***Mumbo Jumbo Dance.*** Zunk performs a strange dance to bolster its allies. One creature within 60 feet him that can see him is quickened** until the end of the his next turn. He can use this ability only if he hasn't moved during this turn. After using this ability, his speed becomes 0 until the end of his current turn. <br>
+> <br>*New spells described at the end of the document**  
+> *New condition on next page***
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+##### Beast Spirit Table  
+| d6  | Spirit |
+|:---:|:-----------|
+|  1  | ***Boar.*** When the orc hits a creature with its first weapon attack on its turn, the creature is knocked prone if it is Large or smaller. If the attack was made using a quickened action, the orc may push the creature up to 10 feet away as well. |
+|  2  | ***Triceratops.*** When the orc hits a creature with its first weapon attack on its turn, the target becomes disrupted until the end of the orc's next turn. While disrupted, the creature can't gain the benefits of the Disengage or Dodge action, and if it is within 10 feet of the orc, it has disadvantage on all attacks. If the attack was made using a quickened action, the creature deals only half damage with attacks while within 10 feet of the orc while it is disrupted. |
+|  3  |***Rhino.*** When the orc hits a creature with its first weapon attack on its turn, the target is grappled if it was a melee attack (escape DC 15). Until this grapple ends, the orc can't attack another target. If it was a ranged attack, the target is pinned to a surface within 5 feet, reducing its speed to 0. A creature within 5 feet of the pinned target can use an action to make a DC 15 Strength check, ending the effect on a success. If the attack was made using a quickened action, the creature is restrained until the grapple or pin ends. |
+|  4  | ***Mammoth.*** When the orc makes its first weapon attack on its turn, the target and each creature within 5 feet take 5 (2d4) thunder damage. If the attack was made using a quickened action, each affected creature instead takes 10 (4d4) thunder damage. |
+|  5  | ***Tyrannosaurus.*** When the orc hits a creature with its first weapon attack on its turn, it inflicts two wounds* on the creature. If the attack was made using a quickened action, it inflicts four wounds instead. |
+|  6  | ***Wolf.*** When the orc hits a creature with its first weapon attack on its turn, the target becomes exposed until the end of the orc's next turn. While exposed, all attacks made against it have advantage if the orc is within 10 feet of it. If the attack was made using a quickened action, the creature takes an extra 3 (1d6) damage whenever it is hit with an attack while within 10 feet of the orc while it is exposed. |
+
+\columnbreak
+
+### Using Beast Spirits To Create Urgency In Adventures
+ If you're running an adventure that focuses heavily on encounters with savage orcs and you want to create a sense of urgency, you can have the orcs summon more and more bestial spirits to imbue themselves as time passes. This means the more slowly the players progress, the more dangerous the savage orcs will become. This can help keep the players from playing too conservatively. You can roll on the Beast Spitit table to determine what spirit they gain.
+
+The rate at which they gain spirits could be on the scale of hours or days, depending on the scope and pacing of your adventure.
+
+ Potential scenarios where the orcs are gaining more power over time:
+
+ *  The orcs are hunting down divine beasts, slaying them to capture their power.
+
+ *  Their shamans have begun a grand ritual, drawing in more spirits to infuse their warriors with supernatural might.
+
+ *  A savage orc warboss has taken control of the tribe, convincing them to return to the old ways. As they embrace their primal heritage, they grow stronger, more feral, and deeply attuned to their instincts.
+
+ *  The orcs foresee a great war destined to unfold during a powerful celestial event. As the moment approaches, they become consumed by a rising, savage energy, preparing for the battle to come.
+
+<br>
+
+> ##### New Condition: Quickened
+> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+<br>
+
+> ##### New Condition: Wounds
+> While most creatures are wounded in combat, in this context, the wound is a special form of injury that causes severe bleeding over a short period of time and only specialized attacks and effects can cause wounds. A creature can suffer from multiple wounds at once and at the end of its turn, a wounded creature takes 2 (1d4) necrotic damage for every wound it has sustained. Only creatures with blood (or something equivalent to blood) can suffer wounds. Wounds can be removed in the following ways:
+
+
+\pagebreakNum
+
+## Ju-ju Beasts
+*Weird Loci of Primal Power*<br>
+**Habitat:** Desert, Grasslands, Hills, Mountains, Underdark; **Treasure:** None
+
+Gripped tightly in the meaty hands of an orcish spellcaster or wrapped around their knotted arms, the baffling ju-ju beast is a creature of strange power and unknown origins. These tiny anomalies have no common appearance—some resemble bloated, round clay balls with two legs and a mouth full of needle-like teeth, while others take the form of scowling, toad-like creatures with colorful plumes of feathers sprouting from their heads. Others still are long and sinuous, similar to snakes, with waxy orange and yellow skin and saber-like fangs jutting from their mouths.
+
+What all ju-ju beasts share is an innate attraction to concentrations of primordial magic, which often brings them into contact with orc shamans. Many end up as companions to these mystics, drawn by their magic-rich auras. Some shamans even perform rituals, infusing bones or meat with enchantments to use as bait to lure these creatures into their service.
+
+Once bound to a shaman, a ju-ju beast becomes a conduit for magic. When gripped and squeezed firmly, the creature allows its master to draw in vast amounts of weirdling power, enhancing spellcasting and even granting brief glimpses into the future, warning them of imminent danger. The beasts can even absorb magic from enemy casters through their bodies, channeling it back into their wielder to amplify their abilities.
+
+The relationship between a ju-ju beast and its master is as bizarre and capricious as the creature itself. Their effect on an orc shaman’s mind is poorly understood, but many believe they have a diluting or warping influence on their wielder’s thoughts. Some shamans treat their ju-ju beasts as beloved pets, pampering them—only to one day crush or dismember them in ritual sacrifice or to create potent magical paints. Others believe that they and their beasts are one and the same entity, speaking only in the first-person plural.
+
+Stranger still, some shamans claim to receive guidance from their ju-ju beasts, though there has never been any tangible evidence of these creatures possessing higher intellect. Nevertheless, such advice is taken with complete solemnity and cannot be challenged by other members of the tribe—not even the chieftain. Held as sacred truths, these pronouncements can lead shamans to order their tribes to undertake baffling tasks or even wage war based on their supposed whispered counsel.
+
+### Ju-ju Beast Tactics
+A ju-ju beast is usually accompanied by a spellcaster, serving as their spell focus. It uses Strange Portent on the creature holding it while reserving Absorb Spell for any incoming spell that deals more than 10 damage.
+
+
+\columnbreak
+
+</style>
+
+___
+> ## Ju-ju Beast
+> *Tiny monstrosity, chaotic evil*  
+> ___
+> - **Armor Class** 12 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Initiative** +2 (12)
+> - **Hit Points** 21 (6d4 + 6)  
+> - **Speed** 30 ft., swim 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +3, Insight +3, Perception +3, Stealth +4
+> - **Senses** Blindsight 10 ft., Passive Perception 13
+> - **Languages** Understands Common, Orc, and Goblin but can't speak
+> - **Challenge** 1 (200 XP; PB +2)
+> ___
+> ### Traits
+> ***Magic Resistance.*** The ju-ju beast has advantage on saving throws against spells and other magical effects.
+>
+> ***Ju-ju Conduit.*** Any creature grappling the ju-ju beast can use it as a spellcasting focus.
+>
+> ### Actions
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+> *Hit:* 4 (1d4 + 2) piercing damage plus 7 (2d6) poison damage.
+>
+> ***Strange Portent.*** The ju-ju beast chooses one creature that is in the same space as it. Until the start of the ju-ju beast’s next turn, that creature is under the effects of the *bless* spell while it remains in the same space as the ju-ju beast.
+>
+> ### Reactions
+> ***Absorb Spell.*** If the ju-ju beast is subjected to a spell that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw and only half damage if it fails. If it succeeds, it can choose itself or another creature within 5 feet. The first time the chosen creature hits with an attack on its next turn, the target takes an extra 5 (2d4) force damage.
+
+
+>***Ju-ju Beast Familiars.*** The ju-ju beast can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the juju beast senses as long as they are within 1 mile of each other.
+
+</span>
+
+\pagebreakNum
+
+## New Spells
+
+#### Wild Surge
+
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V S M (a tuft of fur and a fang)
+- **Duration:**  Concentration, up to 10 minutes
+- **Classes:**   Druid, Ranger
+___
+
+Select a willing creature within range to tap into its primal nature, transforming it into a bestial form. For the duration of the spell, the creature receives the following benefits:
+* It gains 20 temporary hit points.
+* It gains a +2 bonus to AC.
+* It gains a +2 bonus to Strength saving throws and checks.
+* It gains a +2 bonus to Wisdom (Perception) checks and Charisma (Intimidation) checks.
+* When it hits with a melee weapon attack or unarmed strike, it deals one extra die of its damage.
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the targeted creature gains an additional 5 temporary hit points for each slot level above 3rd.
+
+####  Brutal Glare
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Sorcerer
+
+You fixate on two points within the spell's range, no more than 30 feet apart, that you can see. Beams of glowing force erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the force damage increases by 1d10, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 2nd.
+
+
+
+\columnbreak
+
+### Change Log
+#### 1.0.0
+* Document release

@@ -1,0 +1,801 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p5:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Savage <Br> Orc Shamans
+*Bizarre Practitioners of Primal Magics*<br>
+**Habitat:** Desert, Grasslands, Hills, <Br> Mountains, Underdark; <br>**Treasure:** Individual, Relics <br>
+Adorned with bizarre trinkets crudely carved from <bR> bone  and wood, their arms lined with dozens of bangles, <br> and their bodies streaked with outlandish tattoos, the savage orc shaman is an unmistakable figure. Their heads are crowned with towering feathered headdresses or gnarled ceremonial masks, making them impossible to overlook.
+
+Yet, beyond their bombastic appearance, savage orc shamans demand attention through their wild antics—performing ritualistic dances, babbling in tongues, or scattering strange mystical dust and peculiar charms throughout their surroundings. These eccentric displays are far more bizarre and last much longer than the rituals of their more conventional orcish counterparts.
+
+While regular orcs might find such behavior off-putting or even embarrassing, savage orc tribes revere their shamans, viewing their spasming prophets with religious awe. No one, not even the mightiest orcish warboss, dares to challenge the authority of a savage orc shaman. These holy conduits provide the tribe’s warriors with sacred war paints, which render those who bear them nearly impervious to attack.
+
+Beyond this, the shamans are seen as direct voices of the gods. When even a shred of tangible wisdom or meaning can be deciphered from their incoherent ramblings, the tribe treats it as absolute gospel—indisputable and sacred. And when a shaman's addled mind suddenly fixates on a goal, they will pursue it with unyielding determination, leading their devoted followers in relentless pursuit of their divine vision.
+
+When battle erupts, a tribe led by a savage orc shaman becomes a force to be reckoned with. The raw, truculent energies that fuel orcish spellcasting are even more potent among savage orcs, allowing their shamans to harness immense power for their devastating incantations. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+As the conflict rages, the shaman appears lost in its own wild antics, seemingly oblivious to the chaos around it. However, enemies who mistake this for foolishness soon realize the truth—these bizarre acts emanate maddening energy that grips nearby orcs, driving them into a frenzy. This unrelenting madness only further amplifies the shaman’s destructive spells.
+
+### Beast Shamans
+Among the Savage Orcs, some tribes still hunt primeval titans in the name of their gods. Many shamans craft sacred icons from the horns and tusks of these mighty beasts, adorning themselves with these relics to channel spells of bestial might.
+
+Some shamans who follow this path can empower their followers with spectral claws and fangs, while others unleash howling cries that awaken a feral bloodlust within their allies. A rare few possess the ability to transform into primordial monsters, swatting aside their foes with raw power.
+
+##### Savage Orc Shamans Art Credit
+* Skarrg Guildmage - Aleksi Briclot, Wizards of the Coast
+* Primal Visitation - Christopher Moeller, Wizards of the Coast
+* Gruul War Chant - Dave Kendall, Wizards of the Coast
+* Jund Battlemage - Vance Kovacs, Wizards of the Coast
+* Stumpsquall Hydra - Grzegorz Rutkowski, Wizards of the Coast
+
+
+<img src='https://i.postimg.cc/PrMSmbX1/145201-Wildclan-Guildmage-Final-Small.jpg' style='position:absolute; top:-85px; right:-70px; width:930px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:75px; right:226px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(39deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:240px; right:-330px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:303px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br>
+
+> #### Savage Orc Shaman, Lesser: Lore of Beasts Spells
+> If you want your orc to be a beast shaman who channels animalistic powers, you can replace its spell list with the following spells:
+> ##### **Spell List:**
+> **At will:** *mage hand,* *thaumaturgy*<br>
+> **1st level (3 slots):** *heroism* <br>
+> **2nd level (2 slots):** *pass without trace*, *primal dominance** <br>
+> **3rd level (1 slots):** *amber spear** <br>
+
+<br>
+
+\columnbreak
+
+</style>
+
+___
+___
+> ## Savage Orc Shaman, Lesser
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 17 (War Paint) &emsp;&emsp;&emsp;&ensp;**Initiative** +2 (12)
+> - **Hit Points** 67 (9d8 + 27)  
+> - **Speed** 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Intimidation +6, Performance +6
+> - **Gear** Chopper Quarterstaff
+> - **Senses** Darkvision 60 ft., Passive Perception 12
+> - **Languages** Orc
+> - **Challenge** 3 (450 XP; PB +2)
+> ___
+> ### Traits
+>
+> ***Primal Surge.*** When the orc rolls initiative or reduces a creature to 0 hit points, it is quickened** until the end of its next turn.  
+>
+> ***War Channeler.*** Whenever an ally within 30 feet of the orc takes the Attack action, the orc gains a +1 bonus to its spell save DC and spell attack rolls until the end of its next turn. This bonus stacks up to three times (+3 total).  
+>
+> ### Actions
+> ***Multiattack.*** The orc makes two attacks.
+>
+> ***Spellcasting.*** The orc is a spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following spells:
+> - **At will:** *guidance, mage hand, thaumaturgy*  
+> - **1st level (3 slots):** *brain burster**  
+> - **2nd level (2 slots):** *brutal glare**, *savage fists**  
+> - **3rd level (1 slot):** *psychic headbutt**  
+>
+> ***Chopper Quarterstaff.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
+> *Hit:* 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if wielded with two hands. If this is the first attack the orc makes on its turn, it deals an extra 5 (2d4) damage on hit.
+>
+> ### Bonus Actions
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+>
+> ***Mumbo Jumbo Dance.*** The orc performs a strange dance to bolster its allies. One creature within 60 feet of the orc that can see it is quickened** until the end of the orc's next turn. The orc can use this ability only if it hasn't moved during this turn. After using this ability, the orc's speed becomes 0 until the end of its current turn.
+>
+> <br>*New spells described at the end of the document**  
+> *New condition described at the end of the document***
+
+</span>
+
+<img src='https://i.postimg.cc/rwWvXRMm/primal-visitation.jpg' style='position:absolute; top:-6px; right:-35px; width:670px;transform:scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-730px;bottom:-200px;transform:rotate(-90deg)' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:-630px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br>
+
+> #### Savage Orc Shaman: Lore of Beasts Spells
+> If you want your orc to be a beast shaman who channels animalistic powers, you can replace its spell list with the following spells:
+> ##### **Spell List:**
+> **At will:** *mage hand,* *thaumaturgy*<br>
+> **1st level (3 slots):** *heroism* <br>
+> **2nd level (2 slots):** *pass without trace*, *primal dominance** <br>
+> **3rd level (1 slots):** *amber spear** <br>
+> **4th level (1 slots):** *aspect of the beast** <br>
+> **5th level (1 slots):** *call of the pack** <br>
+
+</style>
+
+<br>
+
+\columnbreak
+
+___
+___
+> ## Savage Orc Shaman
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 19 (war paint) &emsp;&emsp;&emsp;&ensp;**Initiative** +3 (13)
+> - **Hit Points** 123 (13d8 + 65)  
+> - **Speed** 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, Intimidation +8, Performance +8
+> - **Gear** Chopper Quarterstaff
+> - **Senses** Darkvision 60 ft., Passive Perception 13
+> - **Languages** Common, Orc
+> - **Challenge** 6 (1,800 XP; PB +3)
+> ___
+> ### Traits
+>
+> ***Primal Surge.*** When the orc rolls initiative or reduces a creature to 0 hit points, it is quickened** until the end of its next turn.  
+>
+> ***War Channeler.*** Whenever an ally within 30 feet of the orc takes the Attack action, the orc gains a +1 bonus to its spell save DC and spell attack rolls until the end of its next turn. This bonus stacks up to three times (+3 total).  
+>
+> ### Actions
+> ***Multiattack.*** The orc makes two attacks.
+>
+> ***Spellcasting.*** The orc is a spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It knows the following spells:
+> - **At will:** *guidance, mage hand, thaumaturgy*  
+> - **1st level (3 slots):** *brain burster**  
+> - **2nd level (2 slots):** *brutal glare**, *savage fists**  
+> - **3rd level (1 slot):** *psychic headbutt**  
+> - **4th level (1 slot):** *here we go!**  
+> - **5th level (1 slot):** *arcane hand*
+>
+> ***Chopper Quarterstaff.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target.  
+> *Hit:* 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if wielded with two hands. If this is the first attack the orc makes on its turn, it deals an extra 5 (2d4) damage on hit.
+>
+> ### Bonus Actions
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+>
+> ***Mumbo Jumbo Dance.*** The orc performs a strange dance to bolster its allies. One creature within 60 feet of the orc that can see it is quickened** until the end of the orc's next turn. The orc can use this ability only if it hasn't moved during this turn. After using this ability, the orc's speed becomes 0 until the end of its current turn.
+>
+> <br>*New spells described at the end of the document**  
+> *New condition described at the end of the document***
+
+</span>
+
+<img src='https://i.postimg.cc/65VmMJ02/3718-gruul-war-chant.jpg' style='position:absolute; top:-6px; right:-0px; width:980px;transform:scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-730px;bottom:-220px;transform:rotate(-90deg)' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:-670px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br>
+
+> #### Orc Shaman, Greater: Lore of Beasts Spells
+> If you want your orc to be a beast shaman who channels animalistic powers, you can replace its spell list with the following spells:
+> ##### **Spell List:**
+> **At will:** *mage hand,* *thaumaturgy*<br>
+> **1st level (3 slots):** *heroism* <br>
+> **2nd level (2 slots):** *pass without trace*, *primal dominance** <br>
+> **3rd level (2 slots):** *amber spear** <br>
+> **4th level (2 slots):** *aspect of the beast** <br>
+> **5th level (1 slots):** *call of the pack** <br>
+> **6th level (1 slots):** *monstrous transformation** <br>
+
+<br>
+
+\columnbreak
+
+</style>
+
+___
+___
+> ## Orc Shaman, Greater
+> *Medium humanoid (orc), chaotic evil*  
+> ___
+> - **Armor Class** 21 (war paint) &emsp;&emsp;&emsp;&ensp;**Initiative** +4 (14)
+> - **Hit Points** 190 (20d8 + 100)
+> - **Speed** 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +8, Intimidation +9, Performance +9
+> - **Gear** Chopper Quarterstaff
+> - **Senses** Darkvision 60 ft., Passive Perception 12
+> - **Languages** Common, Orc
+> - **Challenge** 11 (5,900 XP; PB +4)
+> ___
+> ### Traits
+>
+> ***Primal Surge.*** When the orc rolls initiative or reduces a creature to 0 hit points, it is quickened** until the end of its next turn.
+>
+> ***War Channeler.*** Whenever another allied creature within 30 feet of the orc takes the Attack action, the orc gains a +1 bonus to its spell save DC and spell attack rolls until the end of its next turn. This bonus can stack up to three times (+3).
+>
+> ### Actions
+> **Multiattack.** The orc makes two melee attacks.
+>
+> ***Spellcasting.*** The orc is a spellcaster. Its spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It knows the following spells:
+> - **At will:** *guidance, mage hand, thaumaturgy*  
+> - **1st level (3 slots):** *brain burster**  
+> - **2nd level (2 slots):** *brutal glare**, *savage fists**  
+> - **3rd level (2 slots):** *psychic headbutt**  
+> - **4th level (2 slots):** *here we go!**  
+> - **5th level (1 slot):** *arcane hand*  
+> - **6th level (1 slot):** *foot of the gods**  
+>
+> ***Chopper Quarterstaff.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target.  
+> *Hit:* 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if wielded with two hands. If this is the first attack the orc makes on its turn, it deals an extra 5 (2d4) damage.
+>
+> ### Bonus Actions
+> ***Aggressive.*** The orc can move up to its speed toward a hostile creature that it can see.
+>
+> ***Mumbo Jumbo Dance.*** The orc performs a strange dance to bolster allies. One creature within 60 feet of the orc that can see it is quickened** until the end of the orc's next turn. The orc can use this ability only if it hasn't moved during this turn. After using this ability, the orc's speed becomes 0 until the end of its current turn.
+>
+> <br>*New spells described at the end of the document**  
+> *New condition described at the end of the document***
+
+</span>
+
+<img src='https://i.postimg.cc/9Q81kWqM/cardart-ALA-Jund-Battlemage.jpg' style='position:absolute; top:-0px; right:-210px; width:880px;transform:scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-730px;bottom:-220px;transform:rotate(-90deg)' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:-640px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Orc Shaman Tactics
+
+Orc shamans focus on using their spells to disrupt other spell casters, limit enemy movement, and grant boosts to the combat powers of their allies. They should stay close to their allies in combat to gain the boost to their War Channeler trait. They should avoid unnecessary movement so they can maintain their Mumbo Jumbo Dance, as any attack actions made with the quicked condition contribute to their War Channeler ability.
+
+#### Default Spell Usage
+
+&emsp;**Stomping Foot:** Great opening move to force grouped enemies to spread out into unfavorable positions. Focus on prone creatures to gain bonus damage. Minions should use the shove action on their turns to knock creatures prone.
+
+**Here We Go!:** Cast immediately if there are companions of CR 2 or higher and if it can hit two or more targets with the Stomping Foot spell. Definitely cast if there is an orc boss or warboss among the group.
+
+**Arcane Hand:** If *foot of the gods* is not available, use this concentration spell. Primarily used to grab backline opponents and drag them into melee combat.
+
+**Headbutt:** Use to break the concentration of enemy spellcasters. Priority over all other spells if an opposing spellcaster is concentrating on a higher-level spell than the Shaman can cast.
+
+**Brain Burster:** Use frequently to disrupt enemy spellcasters.
+
+**Brutal Glare:** Use whenever you can hit two or more targets with low Dexterity and do not have a 5th or higher level spell available.
+
+\columnbreak
+
+&emsp; **Savage Fists:** Use when the lesser orc shaman has been cornered in combat.
+
+#### Beast Shaman Spell Usage
+
+**Pass Without Trace:** Ideally cast before combat begins to avoid detection.
+
+**Aspect of the Beast:** Typically cast on the orc’s most powerful ally. Ripping Jaws is generally the most effective option for orcs.
+
+**Howl of the Pack:** Used on the second turn, after all savage orcs are no longer quickened.
+
+**Amber Spear:** Best cast when there’s an opportunity to hit two or more targets.
+
+**Primal Dominance:**  The shaman will use this spell whenever a valid target is available.
+
+**Heroism:** Can be used to bolster either other orcs or the shaman themselves.
+
+**Monstrous Transformation:** Activated when the shaman’s health drops below half, and once transformed, it rarely reverts to its original form mid-combat. While the transformed shaman cannot cast spells, any ongoing magical effects remain active. 
+
+Possible transformations include:
+
+* **Manticore:** Preferred when enemies lack strong ranged attacks.
+* **Hydra:** Chosen against foes with low damage output or those unable to concentrate attacks on the transformed orc.
+* **Dragon:** Ideal when enemies are grouped together, allowing the dragon’s breath to strike multiple targets. Also useful against foes with high elemental damage.
+
+<img src='https://i.postimg.cc/P56gRPLF/Stumpsquall-Hydra-Commander-Legends-Mt-G-Art.jpg' style='position:absolute; bottom:-85px; right:0px; width:820px;transform:scaleX(-1)' />
+  
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-420px;bottom:75px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+### New Orcish Spells
+
+####  Brain Burster
+*1st-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+
+You reach into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 2d8 psychic  damage, and until the end of your next turn, it has disadvantage on Intelligence, Wisdom, and Charisma  checks, as well as on Constitution saving throws made to maintain concentration. 
+Additionally, if the creature  attempts to cast a spell of 1st level or higher before the end of your next turn, it must make an Intelligence saving throw. On a failed save, the spell dissipates with no effect, and the action, bonus action, or reaction used to cast it is wasted. If that spell was cast with a spell slot or other resource, the slot or resource isn’t expended.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+
+####  Brutal Glare
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Sorcerer
+
+You fixate on two points within the spell's range, no more than 30 feet apart, that you can see. Beams of glowing force erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. On a failed save, a creature takes 2d10 force damage. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the force damage increases by 1d10, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 2nd.
+
+\columnbreak
+
+#### Foot of The Gods
+*7th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 300 ft.
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Cleric, Druid, Sorcerer
+
+You call forth a massive foot from the heavens to crash down onto the battlefield. You select a point you can see, between 30 to 500 feet above you within range. A 20-foot-long, 10-foot-wide foot appears at the chosen point and immediately descends. The foot passes through any Huge or smaller creatures and objects until it descends 500 feet or hits a solid surface, or a Gargantuan creature or object, at which point the foot rises back up into the sky to where its descent started. As an action on your turn, you can move the foot up to 30 feet, rotate it, and then have the foot descend in the same way.
+
+Each creature or object the foot comes in contact with while descending must make a Dexterity saving throw. On a failed save, a creature takes 6d8 bludgeoning damage, is knocked prone, and can't stand up until the end of its next turn unless it uses all of its movement to do so. The creature is also pushed along with the foot until it rises back up. If a creature that fails the saving throw is already prone, it takes an additional 2d12 bludgeoning damage.
+
+####  Here We Go!
+*4th-level enchantment*
+___
+- **Casting Time:** 1 bonus action.
+- **Range:** 60 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Bard, Paladin, Ranger, Warlock
+
+You chant, imbuing yourself and up to three creatures you can see with fighty energy. Until the start of your next turn, whenever you or a creature you chose misses with an unarmed strike or weapon attack roll, you may have it reroll the attack. The creature must use the new roll.
+
+**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 4.
+
+#### Psychic Headbutt
+*3rd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 ft.
+- **Components:** V
+- **Duration:** Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+
+A disruptive bolt of energy emanates from your head toward a creature of your choice within range. Make a melee spell attack against the target. The attack has advantage and cannot have disadvantage if the target is concentrating on a spell. On a hit, the target takes 4d10 force damage. If the creature makes a Constitution saving throw to maintain concentration as a result of this damage, you may choose to set the saving throw DC equal to your spell save DC.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.
+
+
+\pagebreakNum
+
+#### Savage Fists
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 hour.
+- **Classes:**  Sorcerer, Druid, Ranger
+
+Your fists become as hard as iron, and you are filled with fighting fury. When you cast this spell, you make an unarmed strike and gain the following benefits for the duration of the spell:
+
+* You can use your spellcasting modifier for the attack and damage rolls of your unarmed strikes, and you can roll a d6 in place of the normal damage of your unarmed strike. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.
+
+* You can make an unarmed strike as a bonus action.
+
+* You may use your spellcasting modifier when making Strength checks instead of your Strength modifier.
+
+### New Beast Shaman Spells
+
+#### Amber Spear
+
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:**  V S M (A Piece of Amber)
+- **Duration:**  Instantaneous
+- **Classes:**   Druid, Ranger
+___
+
+You conjure a large amber hunting spear and launch it in a straight line at a point you can see within range. Upon reaching its destination or striking a solid surface, the spear shatters, producing an explosion within a 10-foot-radius sphere centered on that point. The spear can pass through spaces occupied by creatures and objects of large size or smaller. Each creature the spear moves through, as well as those within the explosion's radius, must make a Dexterity saving throw. On a failed save, a creature takes 6d6 piercing damage; on a successful one, the damage is halved.
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
+
+\columnbreak
+
+#### Aspect of the Beast
+
+*4th-level  transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:**  V, S
+- **Duration:**  Concentration, Up to 1 hour.
+- **Classes:**   Druid, Ranger
+___
+
+Upon touching a willing creature, you imbue it with bestial might. For the duration, the creature manifests a bestial weapon of your choice from the list below. When it takes the Attack action on its turn, it can make an additional attack with the bestial weapon as part of that action. The weapon is treated as a simple weapon with which the creature is proficient. Unless otherwise stated, it uses its Strength modifier for attack and damage rolls made with the weapon.
+
+**Ripping Jaws.** The creature's mouth becomes filled with dagger-like teeth. Its jaws deal 2d8 piercing damage on a hit. If the bite damages a creature, the user gains temporary hit points equal to half the piercing damage dealt, which last until the spell ends.
+
+**Tearing Claws.** The creature's hands transform into blade-like claws. These claws deal 2d6 slashing damage on a hit and count as finesse weapons. The creature can choose to replace any of its melee attacks made with the Attack action with its claws, including any off-hand attacks.
+
+**Ramming Horns.** Gnarled horns grow from the creature's head. The horns deal 2d8 bludgeoning damage on a hit. If the creature moves at least 15 feet straight toward a target and then hits it with a horn attack, the attack deals an extra 2d8 bludgeoning damage, and if the target is Large or smaller, the creature can choose to push it up to 15 feet away.
+
+#### Call of the Pack
+
+*5th-level enchantment*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:** 60 feet
+- **Components:**  V
+- **Duration:**  1 round
+- **Classes:**   Ranger
+___
+
+Unleashing a primal howl, you stir the wild fervor within your allies. You and up to three other creatures you are aware of within range that can hear you are quickened until the start of your next turn. While quickened this way, these creatures gain advantage on attack rolls against any enemy if at least one of their allies is within 5 feet of that enemy and the ally isn't incapacitated.
+
+\pagebreakNum
+
+#### Monstrous Transformation
+
+*6th-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Self
+- **Components:**  V
+- **Duration:**  Until dispelled
+- **Classes:**   Druid, Sorcerer, Warlock
+___
+
+Drawing from wild energies, you transform into a mighty primal form of your choice: a **Feral Manticore**, a **Ravenous Hydra**, or a **Savage Dragon**. While transformed, you adopt the stat block of the selected beast (found later in this document). Your game statistics, including mental ability scores, are replaced by those of the chosen form, but you maintain your alignment and personality.
+
+While in this new form:
+* You assume its hit points.
+* Your spell attack modifier and spell save DC replace its attack modifiers and saving throw DCs.
+* If you're reduced to 0 hit points, you make death saving throws as usual. If you die, you revert to your true form.
+* You can't speak, cast spells, or undertake any action requiring hands or speech.
+* Your gear melds into your new form, rendering it inaccessible. As such, you can't activate, wield, or benefit from any of your equipment.
+
+To attempt to end the spell, you may use your action to make a DC 15 saving throw using your original form's spellcasting ability modifier. On a successful save, the spell ends. However, if you fail this save three or more times within 8 hours, you must complete a long rest before attempting to end the spell again. A remove curse spell will also end the transformation.
+
+\columnbreak
+
+If you take a long or short rest in your new form, only your new form gains the benefits of the rest
+
+***At Higher Levels.***  When cast using a spell slot of 7th level or higher, the new form gains an additional 25 hit points for each slot level above 6th. If cast using a 9th-level slot, any features the new form can use only once per day can now be used three times per day.
+
+#### Primal Dominance
+
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:**  V, S
+- **Duration:**  10 minutes
+- **Classes:**   Bard, Druid, Ranger
+___
+
+You emanate a commanding presence, compelling a primal creature to submit. Choose a beast, monstrosity, giant, dragon, or fey within range that can see and hear you. If the creature's Intelligence is 8 or higher, the spell has no effect. Otherwise, it must make a Wisdom saving throw. On a failed save, it becomes charmed and frightened by you until the end of your next turn. Regardless of the save's outcome, you gain a +5 bonus to Charisma (Intimidation) and Wisdom (Animal Handling) checks when interacting with that creature until the spell concludes.
+
+***At Higher Levels.*** When you cast this spell using a 3rd-level spell slot or higher, you can target one additional creature for each slot level above 2nd.
+
+___
+___
+> ## Feral Manticore
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
+> - **Speed** 40 ft., climb 40 ft., fly 50 ft.
+> ___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|16 (+3)|20 (+5)|7 (-2)|16 (+3)|8 (-1)|
+> ___
+> - **Skills** Perception +6, Stealth +6
+> - **Senses** darkvision 60 ft., passive Perception 16
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&ensp; **Proficiency Bonus** +3
+> ___
+>
+> ***Tail Spikes.*** You have twelve tail spikes.
+>
+> ***Pounce.*** If you move at least 10 feet straight toward a creature and then hit it with a claw attack on the same turn, the target must succeed on a DC 16 Strength saving throw or be knocked prone. <br><br><br>
+>
+> ### Actions
+>
+> ***Multiattack.*** You make three attacks: one with your bite, one with your claws, and one with your tail spines. If both the claw and bite attacks hit the same target, the target is grappled (escape DC 16). Until this grapple ends, you can't use its bite or claw on another target.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 19 (2d12 + 6) piercing damage. If the target is prone, it takes 32 (4d12 + 6) piercing damage instead.
+>
+> ***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) slashing damage.
+>
+> ***Tail Spike.*** *Ranged Weapon Attack:* +7 to hit, range 100/200 ft., one target. *Hit:* 15 (2d8 + 6) piercing damage plus 10 (3d6) poison damage.
+>
+> ***Toxic Volley.*** You fire six of your tail spikes at a point you can see within 100 feet. Each creature in a 15-foot-radius, 15-foot-high cylinder centered on that point must make a Dexterity saving throw against your spell save DC, taking 15 (2d8 + 6) piercing damage and 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+>
+> ***Regrow Spikes (1/Day).*** You regrow all of your spent spikes.
+
+\pagebreakNum
+
+
+___
+> ## Ravenous Hydra
+> *Huge monstrosity, unaligned*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
+> - **Speed** 40 ft., swim 40 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|12 (+1)|20 (+5)|7 (-2)|10 (+0)|14 (+2)|
+>___
+> - **Senses** darkvision 60 ft., passive Perception 20 (due to Multiple Heads)
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Multiple Heads.*** You have five heads. While you have more than one head, you have advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Additionally, you get a +2 bonus to Wisdom (Perception) checks for each head. Whenever you take 25 or more damage in a single turn and still have one or more heads, one head dies.
+>
+> ***Reactive Heads.*** For each head you have beyond the first, you get an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While you sleep and have more than one head, at least one of your heads can remain awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make as many bite attacks as you have heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 10 ft., one target. *Hit:* 11 (1d10 + 6) piercing damage.
+>
+> ***Regrow Heads (1/Day).*** You regain 75 hit points and grow back all of your missing heads. For each head regrown in this way, you can make a bite attack against a creature within 10 feet of you.
+
+> ##### New Condition: Quickened
+> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+\columnbreak
+
+___
+> ## Savage Dragon
+> *Huge dragon, unaligned*
+> ___
+> - **Armor Class** 16 (natural armor)
+> - **Hit Points** 125
+> - **Speed** 40 ft., climb 40 ft., fly 60 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|22 (+6)|14 (+2)|20 (+5)|12 (+1)|10 (0)|14 (+2)|
+>___
+> - **Skills** Perception +3
+> - **Damage Resistances** The damage type chosen using your Dragon's Power feature
+> - **Senses** blindsight 30 ft., darkvision 120 ft., passive Perception 13
+> - **Languages** You understand the languages you can speak in your normal form
+> - **Challenge** 8 (3,900 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +3
+> ___
+>
+> ***Dragon's Power.*** When you transform into this shape, you choose one of the following damage types: acid, cold, fire, lightning, or poison. This chosen type affects other features.
+>
+> ### Actions
+>
+> ***Multiattack.*** You make two attacks: one with your bite and one with your claws.
+>
+> ***Bite.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 14 (4d6) of the chosen Dragon's Power damage type.
+>
+> ***Claw.*** *Melee Weapon Attack:* + (spell attack modifier) to hit, reach 5 ft., one target. *Hit:* 20 (4d6 + 6) slashing damage.
+>
+> ***Breath Attack (1/Day).*** You exhale your breath attack in a 40-foot cone. Each creature in that area must make a Dexterity saving throw against your spell save DC, taking 35 (10d6) damage of the damage type chosen by your Dragon's Power trait on a failed save, or half as much damage on a successful one.
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+#### 1.0.1
+* Rework art
