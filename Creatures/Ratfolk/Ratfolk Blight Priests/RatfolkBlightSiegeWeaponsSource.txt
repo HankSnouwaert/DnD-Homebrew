@@ -1,0 +1,633 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after, .phb#p4:after, .phb#p6:after, .phb#p7:after, .phb#p8:after, .phb#p10:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+# Ratfolk War Machines of Blight
+
+## Blight Furnaces
+
+When a member of the Church of Decay’s clergy perishes in service to the cause—whether at the hands of those who defy the faith or by finally succumbing to the relentless diseases they bore in life—their reeking corpse is, if possible, retrieved by their brethren. This task is often carried out at great cost, as many lower acolytes fall terminally ill from handling such pox-ridden remains.
+
+The cadavers are then processed into a thick, sticky paste and mixed within plague cauldrons alongside rancid fat and other corrupted substances. This nauseating concoction is poured into an ornate metal brazier—large enough to cage a rat ogre—while a congregation of blight monks chants incantations of ruin. With fanatical fervor, they pull heavy chains, hoisting the massive censer into the towering war machine—a monstrous altar of woodworm-infested timber and corroded iron, set upon massive, iron-clad wheels. Finally, a priest or bishop recites passages from the Book of Blight, causing the vile fuel within to ignite in sickly green fire. Thus is born the blight furnace, a grand altar of death dedicated to the god of pestilence.
+
+\columnbreak
+
+<br>
+
+These abominable monuments of destruction are driven into battle by deranged followers. The creaking of the colossal altar rings in tandem with the frenzied hymns of the faithful, while stewards within the structure pull on massive chains, causing the censer to sway rhythmically. A thick, emerald mist seeps forth, shrouding the procession below. The mere touch of this wretched vapor blisters flesh, while inhaling it fills the lungs with pus, drowning victims in pestilence. Yet, for the chosen of their malignant deity, the toxic fumes only fuel their fervor. As the shrine lurches forward, its attendants—frothing at the mouth with ecstatic devotion—redouble their efforts, dragging the sacred structure onward with even greater force.
+
+The blight furnace gathers momentum, its swaying censer belching ever-greater torrents of noxious incense. Then, at the height of its unholy charge, it crashes into the enemy’s ranks. In a final act of apocalyptic ruin, the chain-bearers release their feverish grip, sending the immense, reeking sphere hurtling forward—plumes of green vapor streaking behind it—crushing all in its path. With grim efficiency, the chains are swiftly pulled taut once more, resetting the dreadful weapon to repeat the assault.
+
+<img src='https://i.postimg.cc/PrK0Xqgk/Mirrodin-Swamp-Mirrodin.png' style='position:absolute;bottom:-0px;right:-0px;width:816px; transform:rotate(0deg);' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:130px' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+___
+> ## Blight Furnace  
+> *Huge chariot (1,500 lb.)*  
+> ___  
+> - **Armor Class** 17  
+> - **Hit Points** 157 (15d12 + 60)  
+> - **Damage Immunities** Poison, Psychic, Necrotic  
+> - **Max Speed** 40 ft.  
+> - **Steed Capacity** 3 Medium creatures or 2 Large creatures  
+> - **Carriage Capacity** 6 Medium creatures  
+> - **Constitution Modifier** +4  
+> - **Challenge** 4 (1,100 XP) &emsp; **Proficiency Bonus** +2  
+> ___  
+>  
+> ### Traits  
+>  
+> ***Elevated Platform.*** Entering the blight furnace costs a creature half its movement rather than 5 ft., and the blight furnace's riders have half-cover from the melee attacks of Medium or smaller creatures outside the blight furnace.
+> 
+> ***Pushed.*** Steeds are located at the back of the chariot instead of the front.
+>  
+> ***Mighty Swinging.*** A rider within the chariot may use its action to swing the censer, giving it a level of momentum. It then rolls a d10. On a roll of 1, it suffers a mishap.  
+>  
+> ***Rotting Fog (Once per Round).*** On initiative count 1 or when a rider takes the **Wrecking Crash** action, each creature within a 10-foot emanation of the plague furnace takes 3 (1d6) necrotic damage for each level of momentum it has. It then loses a level of momentum if it has any. The area of the emanation is also lightly obscured until initiative count 1 of the next turn.  
+>
+> ***Wrecking Crash.*** A rider may use its action to have the censer come crashing down, causing it to lose all its momentum. Each creature in a 15-foot cube originating from the blight furnace must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 5 (1d10) bludgeoning damage for each level of momentum that was expended.  
+>  
+> ### Steed Actions  
+>  
+> ***Ram.*** Each creature 5 feet in front of the plague furnace must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 7 (2d6) bludgeoning damage for each steed that took this action, plus an additional 7 (2d6) bludgeoning damage for each of them that was rampaging.
+>  
+
+
+\columnbreak
+
+### Blight Furnace Mishaps  
+  
+ | d6  | Mishap Name | Mishap Effect |  
+ |:----:|:---------------------|:-----------------|  
+ | 1-2  | **Crunch!** | The blight furnace loses all momentum, and its censer is dropped in its center. The blight furnace and each rider in it take 5 (1d10) bludgeoning damage for each level of momentum that was expended, and its **Rotting Fog** ability triggers. |  
+ | 3-4  | **Bilious Cloud** |The blight furnace stops with a jolt and lets out a potent bout of fumes. The blight furnace loses all of its momentum, and each creature within a 15-foot emanation of it takes 5 (1d10) necrotic damage for each level of momentum it has. |  
+ | 5-6  | **Maddening Fumes!** | The censer spews gas that causes clouds the minds of those who inhale it. Each creature within a 10-foot emanation of the blight furnace must succeed on a DC 15 Constitution saving throw, which it can choose to fail. On a failure, the creature tis **poisoned** until the end of its next turn. While poisoned this way, it is **dazed**. If the creature chooses to fail the saving throw, it is **quickened** while poisoned instead and can only use its actions to take the Attack action. |  
+
+### Blight Furnace Tactics
+The Blight Furnace charges headlong into the largest enemy formation. The creatures within use the Wrecking Crash action when it has at least five levels of momentum. The crew will use this action early if two or fewer of them are left.
+
+<br>
+
+> ##### New Condition: Quickened
+> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+<br>
+
+> ##### New Condition: Dazed
+> A dazed creature can’t take reactions and on its turn, it must
+ choose whether it gets a move, an action, or a bonus action; it
+ gets only one of the three.
+
+\pagebreakNum 
+
+##### Blight Furnace Adventure Hooks
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **The Mad Procession.** Alarm spreads as sightings confirm a ratfolk war altar crawling from one ruined hamlet to the next. Each stop yields new corpses for the Blight Furnace’s grisly fuel. The party must join forces with terrified villagers to organize an ambush before the furnace gathers too much momentum—and too many bodies.|
+|  2  | **Captives of the Furnace.** A group of townsfolk has been taken by ratfolk to serve as “raw materials” for a new Blight Furnace. Each day, their numbers dwindle as the monks repurpose the dead. With time running short, the heroes must launch a daring rescue, sneaking into the guarded construction site and freeing the captives—or risk the furnace reaching full power fueled by innocent lives. |
+|  3 | **The Festival of Green Flame.** A festive gathering in a wealthy city is interrupted by a procession of ecstatic ratfolk dragging a partially assembled Blight Furnace. As citizens watch in shock, the ratfolk begin igniting the vile mixture within. The heroes must navigate panicking crowds, contain the toxic vapors, and sabotage the mechanical pulleys and chains before the furnace fully activates and engulfs the festival in a cloud of death.|
+|  4  |**Down in the Docks.** Dockworkers along a major shipping route vanish after unloading heavy cargo with suspicious markings. Investigation reveals hidden plague cauldrons containing the raw materials for a new Blight Furnace. The party can race to prevent its assembly, or must destroy the emerging war altar in the cramped confines of a cluttered warehouse district—before it can be wheeled into the streets to wreak havoc.|
+ 
+\columnbreak 
+ 
+### Blight Furnace Loot
+Most of the valuable goods that can be looted from the blight furnace are materials salvaged from its remains. Salvaged material can usually be gathered using an Intelligence (Smith’s Tools) or Intelligence (Tinker’s Tools) check. Alternatively, you can roll for the loot randomly using a flat modifier. 
+ 
+#### Blight Furnace Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+ 
+##### Blight Furnace Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1 10gp Item & 1d4(2) 1gp Item |
+|  6-9 | 1 10gp Item & 1d6(3) 1gp Items | 
+|  10-16 | 1 10gp Item & 2d4(5) 1gp Items | 
+|  17-21 | 1 10gp Item & 1d6(3) 2gp Items | 
+|  22+ | 1 10gp Item & 2d4(5) 2gp Items | 
+
+#### Example Blight Furnace Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Blight Furnace Item Names
+|1d6 | 1gp Item | 2gp Item | 10gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Fluid)  |  Poison Incense |  Potent Poison Incense |  Unholy Blight Incense   | 
+| 2-4 <br> (Wood) | Rotted Wood Scraps | Reinforced Wood Scraps | Blight Alter Piece  |
+| 5-6 <br> (Metal) | Rusting Metal Scraps | Metal Scraps | Blight Censer Scraps  |
+
+<br>
+
+#### Blight Furnaces Art Credit
+* Swamp - Lars Grant-West, Wizards of the Coast
+* Overgrown Farmland - Jonas De Ro, Wizards of the Coast
+
+<img src='https://media.wizards.com/images/magic/daily/stf/stf165_nephalia3.jpg' style='position:absolute;bottom:-0px;left:-0px;width:615px; transform:rotate(0deg);' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:0px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:138px;bottom:-290px; transform:rotate(84deg)' />
+
+\pagebreakNum
+
+
+
+## Blight Claw Catapults
+Since the founding of their order, the Church of Decay has ceaselessly pursued the creation of the ultimate plague—one capable of purging the world of heretics and paving the way for their total dominion. Though their efforts to craft such a pathogen have so far been fruitless, the vast amounts of byproduct generated from their experiments have proven useful in their own right.
+
+Tanks brimming with rancid, festering slime and the countless rotting bodies of test subjects have been mixed into vile slurries so toxic that mere contact causes flesh to wither and slough away. Agents of the faith have long defiled entire populations by flooding their food and water supplies with these loathsome concoctions. However, as their methods grew more insidious, so did their means of delivery. Crude torsion devices were devised to launch sealed containers filled with this putrid sludge through the skies—bursting open upon impact to spew forth their noxious contents, poisoning the land.
+
+Through continuous refinement, these rudimentary weapons evolved into the blightclaw catapult, a horrifying siege engine now wielded by many congregations of the Church during times of war. Eager, blighted acolytes strain to load the machine as they hoist spherical canisters brimming with virulent filth into place before launching them into the midst of their enemies. As the rancid payload crashes down, the ensuing deluge of contamination bypasses all conventional defenses, putrefying everything and everyone unfortunate enough to be caught in its path.
+
+\columnbreak
+
+##### Blight Claw Catapult Adventure Hooks
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **Barricades in the Night.** A frontier fortress is under nightly bombardment by blightclaw catapults hidden in nearby woods. Sickness rapidly spreads among the defenders. The party must slip past patrols of diseased ratfolk to destroy or sabotage the catapults, or risk the fortress falling to an insidious plague.|
+|  2  |**The Poisoned Crops.** Farmers find their fields drenched in toxic sludge launched from blightclaw catapults. Livestock die, and once-fertile land turns foul. Locals beg the heroes for aid. Tracking the siege engines to a hidden ratfolk camp, the party must outmaneuver guards and put an end to the assaults before an entire region starves. |
+|  3 | **Wagon of Woe.** Merchant caravans vanish along a high mountain pass, with only shattered crates and a rancid smell remaining. Investigation reveals a Blight Claw ambush—catapults hidden on cliff ledges pelt travelers with sludge canisters. The party must climb treacherous slopes to outflank the siege engines, rescue any survivors, and keep vital trade routes open.|
+|  4  |**The Trojan Catapult.** A band of ratfolk appears to have surrendered, abandoning a damaged Blight Claw Catapult on the battlefield. In reality, it’s rigged to leak toxic sludge once brought inside a castle or settlement. The heroes must uncover the ploy, either stopping unsuspecting victors from hauling the catapult home or dismantling the hidden payload before it poisons everyone within the walls.|
+
+<img src='https://i.postimg.cc/cJvp5N5G/Overgrown-Farmland-Art-Card-87319.jpg' style='position:absolute;bottom:-340px;right:-0px;width:816px; transform:rotate(-90deg);' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:70px' />
+
+\pagebreakNum
+
+
+
+___
+> ## Blight Claw Catapult  
+> *Huge siege weapon (1,200 lb.)*  
+> ___  
+> - **Weapon DC** 15  
+> - **Armor Class** 15  
+> - **Hit Points** 100 (damage threshold: 5)  
+> ___  
+> - **Damage Immunities** Poison, Psychic, Necrotic  
+> - **Ammo** Plague Canister (1 round, 10 gp)  
+> - **Challenge** 2 (450 XP) **Proficiency Bonus** +2  
+> ___  
+> ### Traits
+> ***Plague Canisters.*** This weapon fires globe canisters filled with disease. When a canister shatters, it splatters toxic liquid in a 15-foot-radius sphere from the point of impact. Each creature caught in the sphere must succeed on a DC 15 Dexterity saving throw. On a failed save, the creature takes 14 (4d6) necrotic damage and becomes infected with a disease. While infected, the creature makes a DC 15 Constitution saving throw at the end of each of its turns, taking the damage again on failure or ending the effect on a success.  
+>
+> ### Functions  
+>  
+> ***Load.*** The weapon is loaded with a Plague Canister. The creature that loaded the weapon must make a DC 10 Constitution saving throw. On a failure, the blight claw catapult suffers a mishap. If the creature drops the canister while trying to load it this way, the canister shatters at the loader's location.  
+>  
+> ***Prep (2).*** The weapon must be prepped twice before it can be loaded and fired.  
+>  
+> ***Fire.*** The user chooses a point 30 to 600 feet away. The blight claw catapult fires a canister, which shatters at the target point.  
+>  
+
+
+  
+### Blight Claw Mishaps  
+  
+ | d6  | Mishap Name | Mishap Effect |  
+ |:---:|:------------------|:-----------------|  
+ | 1   | **Spill** | The catapult is not loaded, and the canister shatters at the loader's location. |  
+ | 2-3 | **Bio Hazard** | The catapult is loaded, but the loader becomes infected by the canister's disease. |
+ | 4-5 | **Fevered Rush** | The catapult is loaded, and the loader also preps it once then takes 28 (8d6) necrotic damage. |  
+ | 6   | **Dizzying Fumes** | The catapult is not loaded, and the loader takes the canister if it can, then uses all its movement to move 1d6 × 5 feet in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The canister shatters if it is still being  held at the end of this movement. | 
+ 
+\columnbreak
+
+### Blight Claw Catapult Tactics
+The blight catapult always targets the largest group of enemies that have not yet been infected by its plague canisters.
+
+
+### Blight Claw Catapult Loot
+Most of the valuable goods that can be looted from the blight claw catapult are materials salvaged from its remains. Salvaged material can usually be gathered using an Intelligence (Smith’s Tools) or Intelligence (Tinker’s Tools) check. Alternatively, you can roll for the loot randomly using a flat modifier. 
+ 
+#### Blight Claw Catapult Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+ 
+##### Blight Claw Catapult Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 5gp Item & 1 5sp Item |
+|  8-13 | 1 5gp Item & 1d4(2) 5sp Items | 
+|  14-20 | 1 5gp Item & 1d6(3) 5sp Items | 
+|  21-22 | 1 5gp Item & 1d4(2) 1gp Items | 
+|  23+ | 1 5gp Item & 1d6(3) 1gp Items | 
+
+#### Example Blight Claw Catapult Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Blight Claw Catapult Item Names
+|1d4 | 5sp Item | 1gp Item | 5gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Gem)  |  Cracked Hexstone Splinter |  Hexstone Splinter |  Cracked Hexstone Fragment   | 
+| 2-4 <br> (Wood) | Rotted Wood Scraps | Reinforced Wood Scraps | Blight Claw Arm Fragment  |
+| 5-6 <br> (Metal) | Rusting Metal Scraps | Metal Scraps | Blight Claw Scraps  |
+
+<br>
+
+##### Blight Claw Catapults Art Credit
+* Overgrown Farmland - Jonas De Ro, Wizards of the Coast
+ 
+\pagebreakNum 
+
+
+
+## Ratfolk Blight Operators
+Among the devotees of the Church of Decay, few are as meticulously trained—or as disturbingly zealous—as the Blight Operators. Driven by an obsession with harnessing their god’s toxic blessings, they handle the war machines and siege engines that unleash pestilence on the world. Whether steering ramshackle plague-fueled vehicles or manning blight claw catapults, these grim specialists revel in perfecting each engine’s lethal potential. Their duty is clear: deliver their virulent payloads with unerring precision, ensuring every shot, every burst of noxious sludge, furthers the creeping dominion of the Rat God.
+
+
+### Ratfolk Blight Operators Loot
+Because ratfolk are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying or hiding nearby. Most of the challenge of looting ratfolk is identifying which materials they're carrying that have functional value.
+
+Finding valuables can be done using an **Intelligence (Investigation)** or **Wisdom (Perception)** check, depending on the
+
+
+#### Ratfolk Blight Operator Loot Table
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+\columnbreak
+
+<br><br>
+
+##### Ratfolk Blight Operator Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 1 5sp Item |
+|  5-6 | 1d6(3) 5sp Items | 
+|  7-12 | 1d4(2) 1gp Items  |  
+|  13-20 | 1d6(3) 1gp Items |  
+|  21+ | 1d4(2) 2gp Items |  
+
+#### Example Blight Operator Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Common Ratfolk Item Names
+|1d4 | 5sp Item | 1gp Item | 2gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |  Cracked Rat Bone | Rat Bone | Pristine Rat Bone |
+| 2 <br> (Cloth) | Tattered Monk Robe | Monk Robe |  Masterwork Monk Robe  | 
+| 3 <br> (Gem) | Cracked Green Quartz| Green Quartz|  Pristine Green Quartz  | 
+| 4 <br> (Metal) | Rusted Weapon Fragment | Weapon Fragment |  Masterwork Weapon Fragment  | 
+
+___
+___
+> ## Ratfolk Blight Operator
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 14 (natural armor) &emsp;&emsp;&emsp;**Initiative** +1 (11)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">13</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Damage Resistances** Necrotic, Poison
+> - **Skills** Acrobatics +3, Deception +1, Stealth +3, Land Vehicles +2
+> - **Senses** Darkvision 60 ft., Passive Perception 10
+> - **Languages** Common, Undercommon
+> - **Challenge** 1/2 (100 XP; PB +2)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of that target who isn’t incapacitated (up to three allies).
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk becomes frightened of a creature it can see until the start of its next turn, and it can move up to half its speed away from that creature. This movement doesn’t provoke opportunity attacks. While frightened in this way, the ratfolk can only take the Dash, Disengage, Dodge, or Hide action. This feature ignores immunity to the frightened condition.
+>
+> ***Pox-Ridden Operator.*** While the ratfolk is poisoned or diseased, any charmed or frightened effects on it are suspended, and it can’t use its Scurry Away ability. Also, it can use its bonus action to operate a siege weapon, two-man weapon team, or chariot (any action that would normally be taken with that equipment). The ratfolk also gains these benefits until the end of its next turn whenever it takes necrotic or poison damage.
+>
+> ### Actions
+> ***Rusted Sword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target.  
+> *Hit:* 3 (1d4 + 1) slashing damage plus 2 (1d4) necrotic damage.
+
+</span>
+
+\pagebreakNum
+
+<br>
+
+# Chariots
+
+Chariots are iconic vehicles of war, allowing mighty steeds to pull soldier-filled carriages into battle. The number of steeds able to pull a chariot and the number of riders its carriage can support varies from one vehicle to the next. Some are even designed to be pulled by creatures other than horses. Chariots may charge headlong into enemy forces or ride past foes who are then dispatched by scythed wheels and spear-wielding riders. They are often a status symbol, and many warrior generals lead their armies from them. In some cultures, chariots are used for racing or other gladiatorial sporting events. 
+
+The following rules can help you codify ways to use chariots in your games. They can be applied to chariots of different shapes and sizes and used as tools for designing your own chariots. The rules here can be applied to most vehicles pulled by other creatures, such as wagons and carriages. At the end of the document, there are some example chariots you can incorporate into your own games.
+
+\columnbreak
+
+## Chariot Rules
+
+Chariots are vehicles that can be pulled by one or more creatures, referred to as their steeds, and allow one or more riders to reside within their carriage, though only one rider controls the chariot and is referred to as the charioteer. The charioteer must have proficiency with land vehicles to control the chariot. Charioteers and the chariot's steeds follow the mounted combat rules described in the Player's Handbook, but with the following differences:
+
+### Movement & Initiative
+
+* **Mounting & Dismounting.** Mounting or dismounting a chariot costs a creature 5 feet of movement rather than a number of feet equal to half its speed. 
+
+* **Forced Movement.** If an effect moves a chariot or any of its steeds, the chariot and each of its steeds are all moved together.
+
+* **Movement in Unison.** The chariot's steeds must all move in unison and cannot move the chariot further than the steed with the least available movement can.
+
+* **Controlled Mounts.** If the chariot's steeds are being used as controlled mounts and there is more than one, they all act on the same initiative and must take the same action on their turn.
+
+* **Independent Mounts.** If the chariot's steeds are acting independently, they all share the same initiative of the steed with the lowest initiative. They may take their actions in any order but must move together.
+
+
+<img
+src='https://i.ibb.co/dgvKn41/Khans-of-Tarkir-Abzan-01a.jpg'
+style='position:absolute;bottom:-40px;left:-60px;width:890px;transform: scaleX(1)' />
+
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-1050px;
+  left:-470px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-870px;
+  left:15px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
+
+<img
+   src='https://www.gmbinder.com/images/pEJl0m5.png'
+   style='position:absolute;
+  top:-830px;
+  left:20px;
+  width:1270px;
+  transform:
+    scalex(.6);
+    scaley(.8);
+  filter:
+  opacity(100%)
+  grayscale(00%)
+  brightness(97%)  
+   '
+/>
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-350px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+
+\pagebreak
+
+
+
+### Chariot Saving Throws
+Chariots equipped with one or more unencumbered steeds do not automatically fail their Strength and Dexterity saving throws. Their bulkiness can either work for or against them depending on the type of save. 
+
+#### Strength Saves
+If a chariot is subjected to a Strength saving throw, all its steeds must make a Strength saving throw against the effect. Any steeds being subjected to the same effect use the results of the roll they made for themselves. If any steeds succeed on the save, the chariot passes the save, as those steeds manage to hold the chariot steady.
+
+#### Dexterity Saves
+If a chariot is subjected to a Dexterity saving throw, all its steeds must make a Dexterity saving throw against the effect. Any steeds being subjected to the same effect use the results of the roll they made for themselves. If any steeds fail on the save, the chariot fails the save, as they must all effectively coordinate to pull the chariot out of harm's way.
+
+
+
+#### Constitution Saves
+While objects are normally immune to effects that require a Constitution save, chariots are active combatants, meaning it often doesn't make sense for them to ignore effects that deal types of damage they are not immune to. As such, chariots can make Constitution saving throws against effects capable of damaging them and have their own modifier they apply to these saves. The chariot may make these saves regardless of whether or not it is being pulled by steeds.
+
+\columnbreak
+
+## Chariot Attributes
+Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, chariots have the following additional attributes:
+
+### Max Speed
+This is the maximum speed the chariot can be pulled at, regardless of the speeds of its steeds.
+
+### Steed Capacity
+This is the number of steeds that can pull the chariot at once and the required sizes of those creatures. 
+
+### Carriage Capacity
+This is the number and size of the creatures the chariot's carriage can hold. Creatures smaller or larger than the sizes listed won't be able to control the chariot. 
+
+### Constitution Modifier
+This is the modifier the chariot adds to any Constitution saves it makes. 
+
+### Challenge Rating
+If the players are facing enemies equipped with a fully functioning chariot, the CR of the encounter should be calculated as though the chariot is an additional creature with this CR.
+
+### Passive Traits
+These are any traits the chariot has that don't require actions from the steeds or rider to utilize.
+
+### Steed Actions
+These are new action options the chariot grants to its steeds. The steeds may use these options even if they are being used as controlled mounts.
+
+<br>
+
+> ##### Determining Chariot CR
+>When building your own chariot, you can determine its CR using most of the creature creation guidelines described in the DMG with the following modifications:
+> * Determine its Offensive CR using additional damage per round it grants to its riders and steeds.
+> * Determine its Defensive CR using half its HP.
+> * Consider other traits it has the same way you would consider creature attributes.
+
+
+<img src='https://i.ibb.co/G5t4fkc/thundering-chariot.jpg' style='position:absolute;left:-10px;bottom:0px;width:600px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:30px;top:0px;height:1400px;width:1416px;transform:rotate(85deg)' />
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-480px;bottom:60px;height:1400px;width:1416px;transform:rotate(2deg)' />
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#  Siege Weapons
+These weapons have been engineered for large-scale warfare against enemy armies and settlements. What sets them apart from other weapons is their size and the number of creatures required to operate them effectively (generally more than two). These weapons range from highly sophisticated cannons and rocket launchers to crude catapults and giant slingshots. Regardless of their form, they are all large enough that moving them is a slow process and labor-intensive enough to use that they require a team of creatures to operate them effectively.
+
+## Repairing Weapons
+If a weapon has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the required tools. If the check succeeds, the weapon regains 2d4 + the creature's Intelligence modifier + the creature's proficiency bonus hit points. If the check fails, the weapon does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+\columnbreak
+
+## Siege Weapon Attributes
+In addition to the common attributes of size, weight, AC, HP, and damage immunity, these weapons have the following additional attributes and considerations:
+
+### Hit Points 
+A weapon has hit points that can be restored through repairs. When its hit points reach 0, the weapon becomes inoperative and irreparably damaged. 
+
+Many weapons have a damage threshold. Any source of damage less than this threshold only inflicts superficial damage and doesn't lower the weapon's hit points.
+
+### Weapon DC 
+The weapon's DC is used whenever a creature makes a check to fix mishaps, when a creature is repairing the weapon, or the weapon forces a creature to make a saving throw.
+
+### Challenge Rating
+When players face enemies equipped with fully functioning siege weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
+
+<img src='https://i.ibb.co/JjYPNWK/Unleash-Shell-The-Brothers-War-Mt-G-Art.jpg' style='position:absolute; top:-40px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:195px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(19deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:249px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+==
+
+\pagebreakNum
+
+
+
+### Ammo / Fuel
+Weapons may require ammunition, such as bullets, or fuel, such as flammable chemicals, to make attacks. This part of the stat block includes the cost of the ammo and the number of charges it has, which represents the number of times the weapon can be used before it needs to be reloaded.
+
+### Functions
+By default, siege weapons have three different functions, which can each be activated as an action by its operators: Prep, Load, and Fire. Each function can only be performed once per round unless it states otherwise. Creatures within reach of a creature performing one of these functions can make opportunity attacks against them.
+
+#### Prep
+Siege weapons need to be prepped in different ways between being fired. This preparation could be cranking a ballista or cleaning the barrel of a cannon. Many siege weapons have multiple Prep functions that must be performed before they can be used again. In these cases, the different Prep actions can be done by different creatures within the same round. Unless stated otherwise, all the Prep functions must be completed before the weapon can be loaded.
+
+
+
+### Art Credit
+* Unleash Shell - Campbell White, Wizards of the Coast
+* Goblin Artillery - Alex Horley-Orlandelli, Wizards of the Coast
+
+\columnbreak
+
+#### Load
+This function is used to reload the weapon's ammunition up to its full capacity. It requires the creature loading it to have immediate access to the weapon's ammunition. If a creature doing the loading is hit by an opportunity it provoked by doing this, it drops the ammo and wastes its action.
+
+#### Fire
+This function is used to aim and fire the weapon at a target chosen by the creature performing the function.
+
+### Passive Traits
+This section describes any traits of the weapon has that don't require actions to utilize.
+
+### Mishaps table
+Some weapons can suffer a malfunction when certain functions are used. When such an event occurs, it will suffer a mishap and need to roll on its Mishap Table to determine what adverse effect it suffers. 
+
+A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+<img src='https://64.media.tumblr.com/97957bfd89fc58990ebbe31b4b543960/a95157cb330b1736-23/s1280x1920/c9807add3c7fc2bd781c456d1f8a9cee5de0f6e2.png' style='position:absolute; botom:-0px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-485px; right:-100px; width:1000px; transform:rotate(8deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-455px; right:-200px; width:1000px; transform:rotate(-2deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-451px; right:-00px; width:1000px; transform:rotate(-4deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation

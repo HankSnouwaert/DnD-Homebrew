@@ -1,0 +1,528 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p4:after, .phb#p5:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Ratfolk <Br> Blight Priests
+*Faithful Disciples of Plague & Decay* <br>
+**Habitat:** Swamp, Underdark, Urban; <br> **Treasure:** Individual, Relics
+
+Most devoted of ratfolk to the pestilent crusades of the Vermin God are those who have survived countless ravaging illnesses, ascending into the priesthood of the Church of Decay. These relentless maladies leave their bodies deformed—cracked, leathery skin covered in weeping pustules, yellowing teeth, and bloodshot eyes. These demented ratfolk see these disfigurements as sacred marks, proof of their unwavering devotion.
+
+Such repugnant religious figures are responsible for preaching the gospel of their demonic patron, instilling righteous fervor within their brethren. They also cultivate and spread the blessed contagions of their lord, bestowing them upon both enemies and their own congregations. The deacons and priests of this unholy order tirelessly collect new pathogens, create new afflictions, and test them on prisoners and their own acolytes—diligently recording the results. Once a suitably potent strain is discovered, these malicious ratfolk weave schemes to unleash their newfound corruption upon the world.
+
+For the Blight Priests, however, their most sacred purpose is to become a holy vessel of their lord’s destructive will. They willingly filled their moldering bodies with pestilent sacrament, to be imparted as both punishment for the unworthy and benediction for the faithful.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ When war beckons, priests and deacons wade through the writhing masses of their foul kin, spewing malignant rhetoric. Their sore-covered claws reach out, caressing the devoted and granting them the gift of maddening disease. These rituals ignite a zealous fervor within the throng, their fearless devotion driving them to hurl themselves at foes with no concern for their own survival.
+
+Beyond their ability to rouse their forces into a frenzy, these preachers of plague wield their power by reading corrupted passages copied from the Great Book of Blight. Through these dark incantations, they invoke divine poxes to desecrate their enemies, putrefying their bodies within seconds. Greatest among these spellcasters are the Bishops of Blight, the highest authorities within the Church, who can call down the venomous wrath of their lord, withering entire armies in a tide of festering death.
+
+<img
+src='https://i.postimg.cc/fT8MmLpK/RatToken.png'
+style='position:absolute;top:-210px;left:-20px;width:1040px;transform:scaleX(1)' />
+
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-10px;left:-350px;width:916px;transform:rotate(48deg);' />
+
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:-160px;left:-370px;width:916px;transform:rotate(62deg);' />
+
+<img
+src='https://www.gmbinder.com/images/rNOAD8A.png'
+style='position:absolute;top:65px;left:-15px;width:916px;transform:rotate(-2deg);' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:440px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Ratfolk Deacon of Blight
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 16 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Initiative** +2 (12)
+> - **Hit Points** 93 (11d8 + 44)
+> - **Speed** 30 ft.
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Perception +5, Religion +3, Alchemist’s Supplies +2
+> - **Gear** Blight Censer
+> - **Senses** Darkvision 60 ft., Passive Perception 15
+> - **Languages** Common, Orc
+> - **Challenge** 4 (1,800 XP; PB +2)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of that target who isn’t incapacitated (up to three allies).
+>
+> ***Pestilent Blessing.*** When a creature makes a saving throw against the ratfolk’s spell (including the ratfolk itself), it can choose to fail. If it does, the ratfolk may have that creature use its reaction to move up to its speed and make one melee attack with advantage.
+>
+> ***Plague Focus.*** The ratfolk can use its Blight Censer as a spellcasting focus.
+>
+> ***Pox-Ridden Lucidity.*** While the ratfolk is poisoned or diseased, any charmed or frightened effects on the ratfolk are suspended, and it can’t use its Scurry Away ability. Any spell it casts is treated as if cast one level higher. It also gains these benefits until the end of its next turn whenever it takes necrotic or poison damage.
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk can choose to become frightened of a creature it can see until the start of its next turn (ignoring immunity to the frightened condition) and move up to half its speed away from that creature without provoking opportunity attacks. While frightened this way, it can only take the Dash, Disengage, Dodge, or Hide action. 
+>
+> ***Vile Conviction.*** The ratfolk’s concentration can’t be broken as a result of taking necrotic or poison damage.
+>
+> ### Actions
+> ***Spellcasting.*** The ratfolk is a spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It knows the following spells:
+> - **At will:** *chill touch* (2d8), *thaumaturgy*  
+> - **1st level (2 slots):** *plague*, *miasma of pestilence*  
+> - **2nd level (1 slot):** *stream of corruption*  
+> - **3rd level (1 slot):** *world sore* 
+>
+> <br>***Blight Censer.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target.  
+> *Hit:* 7 (1d8 + 3) bludgeoning damage. If this is the first blight censer attack the ratfolk makes on its turn, hit or miss, each creature within 10 feet of it (including itself) takes 9 (2d8) necrotic damage.
+
+</span>
+
+<img src='https://basiclandart.com/wp-content/uploads/2020/08/nph-170-swamp-grant-west.jpg' style='position:absolute;right:-0px;bottom:-160px;width:820px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-180px; right:0px; width:850px; transform:rotate(-0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+___
+___
+> ## Ratfolk Blight Priest
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 16 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Initiative** +2 (12)
+> - **Hit Points** 142 (15d8 + 75)
+> - **Speed** 30 ft.
+>
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Saving Throws** Con +8, Wis +7
+> - **Skills** Athletics +6, Perception +7, Religion +4, Alchemist’s Supplies +3
+> - **Gear** Blight Censer
+> - **Senses** Darkvision 60 ft., Passive Perception 17
+> - **Languages** Common, Orc
+> - **Challenge** 7 (1,800 XP; PB +3)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of that target who isn’t incapacitated (up to three allies).
+>
+> ***Plague Focus.*** The ratfolk can use its Blight Censer as a spellcasting focus.
+>
+> ***Pestilent Blessing.*** When a creature makes a saving throw against a spell cast by the ratfolk (including the ratfolk itself), it can choose to fail. If it does, the ratfolk may have that creature use its reaction to move up to its speed and make one melee attack with advantage.
+>
+> ***Pox-Ridden Lucidity.*** While the ratfolk is poisoned or diseased, any charmed or frightened effects on it are suspended, and it can’t use its Scurry Away ability. Any spell it casts increases its effective spell level by 1. It also gains these benefits until the end of its next turn whenever it takes necrotic or poison damage.
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk can choose to become frightened of a creature it can see until the start of its next turn (ignoring immunity to the frightened condition) and move up to half its speed away from that creature without provoking opportunity attacks. While frightened this way, it can only take the Dash, Disengage, Dodge, or Hide action. 
+>
+> ***Vile Conviction.*** The ratfolk’s concentration can’t be broken as a result of taking necrotic or poison damage.
+>
+> ### Actions
+> ***Spellcasting.*** The ratfolk is a spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It knows the following spells:
+> - **At will:** *chill touch* (3d8), *thaumaturgy*  
+> - **1st level (3 slots):** *plague, miasma of pestilence*  
+> - **2nd level (2 slots):** *stream of corruption*  
+> - **3rd level (2 slots):** *world sore*  
+> - **4th level (1 slot):** *virulent decay*
+>
+> <br>***Blight Censer.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target.  
+> *Hit:* 8 (1d8 + 4) bludgeoning damage. If this is the first blight censer attack the ratfolk makes on its turn, hit or miss, each creature within 10 feet of it (including itself) takes 13 (3d8) necrotic damage.
+
+</span>
+
+<img src='https://assets.echomtg.com/magic/cards/cropped/89239.hq.jpg' style='position:absolute;right:-0px;bottom:-200px;width:816px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-140px; right:0px; width:850px; transform:rotate(-0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+
+___
+___
+> ## Ratfolk Blight Bishop
+> *Medium humanoid (ratfolk), chaotic evil*  
+> ___
+> - **Armor Class** 17 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Initiative** +2 (12)
+> - **Hit Points** 157 (15d8 + 90)
+> - **Speed** 30 ft.
+>
+> <table> 
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Saving Throws** Con +10, Wis +9, Int +5
+> - **Skills** Alchemist’s Supplies +4, Athletics +9, Perception +9, Religion +5
+> - **Gear** Blight Censer
+> - **Senses** Darkvision 60 ft., Passive Perception 19
+> - **Languages** Common, Orc
+> - **Challenge** 11 (7,200 XP; PB +4)
+> ___
+> ### Traits
+> ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+>
+> ***Keen Smell.*** The ratfolk has advantage on Wisdom (Perception) checks that rely on smell.
+>
+> ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of that target who isn’t incapacitated (up to three allies).
+>
+> ***Pestilent Blessing.*** When a creature makes a saving throw against a ratfolk spell (including the ratfolk itself), it can choose to fail. If it does, the ratfolk may have that creature use its reaction to move up to its speed and make one melee attack with advantage.
+>
+> ***Plague Focus.*** The ratfolk can use its Blight Censer as a spellcasting focus.
+>
+> ***Pox-Ridden Lucidity.*** While the ratfolk is poisoned or diseased, any charmed or frightened effects on it are suspended, and it can’t use its Scurry Away ability. Additionally, any spell it casts increases its effective spell level by 1. These benefits also apply until the end of its next turn whenever it takes necrotic or poison damage.
+>
+> ***Scurry Away.*** At the start of its turn, the ratfolk can choose to become frightened of a creature it can see until the start of its next turn (ignoring immunity to the frightened condition) and move up to half its speed away from that creature without provoking opportunity attacks. While frightened this way, it can only take the Dash, Disengage, Dodge, or Hide action. 
+>
+> ***Vile Conviction.*** The ratfolk’s concentration can’t be broken as a result of taking necrotic or poison damage.
+>
+> ### Actions
+> ***Spellcasting.*** The ratfolk is a spellcaster. Its spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It knows the following spells:
+> - **At will:** *chill touch* (4d8), *thaumaturgy*  
+> - **1st level (3 slots):** *plague*, *miasma of pestilence*  
+> - **2nd level (2 slots):** *stream of corruption*  
+> - **3rd level (2 slots):** *world sore*  
+> - **4th level (2 slots):** *virulent decay*  
+> - **5th level (1 slot):** *contagion*  
+> - **6th level (1 slot):** *circle of death*
+>
+> <br>***Blight Censer.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target.  
+> *Hit:* 9 (1d8 + 5) bludgeoning damage. If this is the first Blight Censer attack the ratfolk makes on its turn, hit or miss, each creature within 10 feet of it (including itself) takes 18 (4d8) necrotic damage.
+ 
+</span>
+
+<img src='https://i.pinimg.com/736x/63/2b/c3/632bc31b4a919d6887cca2fdeefbfe1e.jpg' style='position:absolute;right:-0px;bottom:-30px;width:816px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-180px; right:0px; width:850px; transform:rotate(-0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Blight Priest Tactics
+The following tactics apply to deacons of blight, blight priests and blight bishops. 
+
+When surrounded by creatures with the Plague Disciple ability, the blight spellcaster moves to the front lines alongside its allies. This ensures that both its enemies and allies are affected by its spells while benefiting from its Pestilent Blessing and Pox-Ridden Lucidity features.
+
+Below is the priority order these ratfolk generally follow when entering combat:
+
+**1. Plague**
+* Cast before entering combat or on the first round to infect its own allies.
+* Follows up with *chill touch*.
+* Continues spreading the plague among its allies.
+
+**2. Circle of Death**
+* Used immediately when it can hit three or more enemies.
+* Avoids harming allies due to the spell's high damage output.
+* The extra 2d8 damage gained from Pox-Ridden Lucidity is so valuable that the caster may opt to have itself attacked by a minion in order to trigger the ability if no other enemies are doing so. 
+
+**3. Virulent Decay**
+* Cast when it can affect three or more enemies.
+* Uses allied creatures to jump the spell between enemy groups.
+
+**4. World Sore**
+* Placed in the center of an enemy group or in an area to deter movement.
+* Follows up with *chill touch* or if it can hit four or more enemies, the caster detonates the boil immediately.
+* On subsequent turns, minions will detonate the boil if it can affect two or more targets.
+
+****4. Contagion****
+* Used when a creature gets within 5 feet of the caster.
+* Not used if the enemy group can be hit with *circle of death* or *virulent decay*.
+* Always selects Constitution to impose disadvantage.
+
+**5. Stream of Corruption**
+* Targets as many creatures as possible.
+* Effective for hitting both enemies and the caster's own minions.
+
+**6. Miasma of Pestilence**
+* Targets as many creatures as possible.
+* Cast if the caster loses concentration on *plague*.
+
+\columnbreak
+
+##### Ratfolk Blight Monk Adventures
+
+| d6  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **Chant of Rot.** Ratfolk Blight Priests have commandeered an abandoned cathedral, turning its crypts into plague-ridden labs. They plan to conduct a grand ritual at midnight to spread a new pestilence across the countryside. The party must infiltrate the corrupted halls, disrupt the unholy chant, and burn any infected materials before the plague runs rampant.  |
+|  2  |**Fountain of Pestilence.** A once-pristine holy spring has become tainted overnight, turning its healing waters into a lethal brew. Investigations reveal a clutch of Blight Priests deep within the adjoining caverns, using the spring to perfect new strains of disease. The party must descend into the dark tunnels, dismantle the cult’s makeshift labs, and purify the waters before the plague spreads downstream.  |
+|  3  | **The Polluted Rainstorm.** A sudden deluge of foul-smelling rain afflicts a rural region, turning rivers black and crops sour. Investigations reveal Blight Priests have learned to manipulate the weather, channeling plague-bearing mists through druidic ruins. The party must brave torrential, toxic storms to find and destroy the blasphemous ritual site before the rain spreads disease far and wide.   |
+|  4  |  **The Rat King’s Menagerie:** Rumors spread of a twisted “zoo” deep in the swamps, where captured creatures are mutating into plague-spawned horrors. Blight Priests operate this menagerie to test new contagions on everything from giant lizards to abducted humans. The party must infiltrate the boggy compound, free any remaining captives, and destroy the lab before a new wave of monstrous abominations is unleashed upon the realm.   |
+
+
+<img src='https://i.postimg.cc/s2sFLCkX/westvale-abby.jpg' style='position:absolute; bottom:-110px; right:-110px; width:795px; transform:rotate(0deg);filter:opacity(100%);'/>
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:45px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:00px;top:-435px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+### Ratfolk Blight Priests Loot
+Because ratfolk are humanoids, most of the valuable goods that can be looted from them are the remains of the equipment they were using or valuables they were carrying or hiding nearby. Most of the challenge of looting ratfolk is identifying which materials they're carrying that have functional value.
+
+Finding valuables can be done using an **Intelligence (Investigation)** or **Wisdom (Perception)** check, depending on the circumstance. 
+
+
+#### Ratfolk Blight Priests Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Ratfolk Deacon of Blight Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-5  | 1d4(2) 1gp Items |
+|  6-8 | 1d6(3) 1gp Items | 
+|  9-15 | 1d6(3) 5gp Items  |  
+|  16-21 | 1d4(2) 10gp Items |  
+|  22+ |  1d6(3) 10gp Items |  
+
+
+##### Ratfolk Blight Priest Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1d6(3) 5gp Items |
+|  9-15 | 1d6(3) 10gp Items | 
+|  16-20 | 1 50gp Item  |  
+|  21-24 | 1 100gp Item |  
+|  25+ |  1d4(2) 100gp Items |  
+
+##### Ratfolk Blight Bishop Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1d4(2) 50gp Items |
+|  9-11 | 1d6(3) 50gp Items | 
+|  12-18 | 1d4(2) 100gp Items  |  
+|  19-23 | 1d4(2) 200gp Items |  
+|  24+ |  1d6(3) 200gp Items |  
+
+#### Ratfolk Blight Priest Art Credit
+* Rat Token - Raph Lomotan, Wizards of the Coast
+* Swamp - Lars Grant West, Wizards of the Coast
+* Golgari Rot Farm - John Avon, Wizards of the Coast
+* Swamp - Lars Grant West, Wizards of the Coast
+* Westvale Abbey - Min Yum, Wizards of the Coast
+* Disease Carriers - Chippy & Matthew D. Wilson, Wizards of the Coast
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Example Ratfolk Soldiers & Seers Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+##### Example Lesser Blight Priest Item Names
+|1d4 | 1gp Item | 5gp Item | 10gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |  Rat Bone | Cracked Pox-Infused Rat Bone | Pox-Infused Rat Bon |
+| 2 <br> (Cloth) | Blight Robe | Tattered Pox-Blessed Rob |  Pox-Blessed Robe  | 
+| 3 <br> (Gem) | Green Quartz| Flawed Hex Stone|  Pristine Hex Ston  | 
+| 4 <br> (Metal) | Weapon Fragment | Rusted Weapon |  Intact Masterwork Weapon  | 
+
+##### Example Greater Blight Priest Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |  Cracked Unholy Relic Bone | Unholy Relic Bone | Pristine Unholy Relic Bone |
+| 2 <br> (Cloth) | Tattered Blight Lord Robe  | Blight Lord Robe  |  Masterwork Blight Lord Robe   | 
+| 3 <br> (Gem) | Flawed Hex Gem | Hex Gem |  Pristine Hex Gem  | 
+| 4 <br> (Metal) | Rusted Plague-Steel Fragment  | Plague-Steel Fragment  |  Masterwork Plague-Steel Fragment   | 
+
+<img src='https://i.postimg.cc/KvNxyN2Q/Disease-Carriers.jpg' style='position:absolute; top:-95px; right:-240px; width:840px; transform: scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-620px;bottom:-200px;transform:rotate(-90deg)' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:-606px;transform:rotate(180deg)' />
+  
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
