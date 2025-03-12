@@ -52,8 +52,8 @@ If the players make an excessive amount of noise near one of the encounter locat
 **Ending Encounters.** The labyrinth's monsters want nothing more than to slay and devour the players. Once they detect the players, they will pursue them until they've hunted down their quarry. If a group of monsters is badly losing a fight, it may opt to retreat and later ambush the players when they least suspect it.
 
 
-### Labyrinth Loot (NOTE: No Loot?)
-The locations marked with 'L' on the map contain spare loot the players can discover. This should generally come in the form of a consumable magic item or wealth. For example, each location could contain 1d6 1,000gp gems and a magic item from Magic Item Table C of the Dungeon Master's Guide. The final encounter could also contain a larger portion of an entire treasure hoard. You can adjust the value of this loot based on the difficulty level of the labyrinth.
+### Running The Maze Without A Map
+If you're playing using theater of the mind and do not wish to describe every turn and hallway in the labyrinth, you can instead have them make six different Wisdom (Survival) checks to attempt to reach the final chamber. For each check they pass, they choose the correct path and avoid an encounter. Every time they fail a check, they take a wrong turn, which leads them into an encounter.
 
 <br>
 
@@ -62,13 +62,12 @@ The locations marked with 'L' on the map contain spare loot the players can disc
 
 \columnbreak
 
-<br><br><br><br><br>
 
 ##### Encounter Map: Stoneheart's Labyrinth
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-##### Map Legend (NOTE: Not Up To Date)
+##### Map Legend
 * <font color="Red">**Red Lines:**</font> 20 Foot Walls Connecting to 20 Foot Ceiling
 * <font color="918007">**Yellow Lines:**</font> Walls Lined With Sharp Spikes Which Deal 10 (3d6) piercing damage to any creature pushed into them
 * **B:** Besthorn Enemy
@@ -76,23 +75,28 @@ The locations marked with 'L' on the map contain spare loot the players can disc
 * **S:** Bray Speaker of Beasts Enemy 
 * **W:** Bray Speaker of The Wilds Enemy  
 * **H:** Stoneheart 
-* **L:** Loot Location (NOTE: No Loot?)
+* **L:** Loot Location
 * **Dotted Line:** Optimal Route Through Labyrinth
 
 <br>
 
+### Labyrinth Loot
+The locations marked with 'L' on the map contain spare loot the players can discover. This should generally come in the form of a consumable magic item or wealth. For example, each location could contain 1d6 1,000gp gems and a magic item from Magic Item Table C of the Dungeon Master's Guide. The final encounter could also contain a larger portion of an entire treasure hoard. You can adjust the value of this loot based on the difficulty level of the labyrinth.
+
+### Stoneheart's Chamber
+
+When the players reach Stoneheart's chamber, it will initially be empty. Once a player reaches the encounter's starting point within the lair, Stoneheart (along with his minions) will be summoned. The area marked in red will ignite, with flames reaching the ceiling until Stoneheart is defeated or disappears. 
 
 
-### Running The Maze Without A Map
-If you're playing using theater of the mind and do not wish to describe every turn and hallway in the labyrinth, you can instead have them make six different Wisdom (Survival) checks to attempt to reach the final chamber. For each check they pass, they choose the correct path and avoid an encounter. Every time they fail a check, they take a wrong turn, which leads them into an encounter.
-
-
-
-<img src='https://i.ibb.co/R2Fcfvs/Mintor-maze-stone-heart.jpg' style='position:absolute; top:145px; right:2px; width:415px;' />
+<img src='https://i.ibb.co/ZzY9CW9/Mintor-maze-stone-heart.jpg' style='position:absolute; top:65px; right:2px; width:415px;' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
+
+When a creature enters the fire's area for the first time on a turn or ends its turn there, it takes 10 (3d6) fire damage. The area is also heavily obscured.
+
+If the party flees, Stoneheart, along with any remaining minions, will disappear and regain all of their hit points after one minute. Any slain minions will be replaced after this minute as well.
 
 
 ### Minotaur Tactics
@@ -129,11 +133,10 @@ The beastmen are hard-hitting ambushers. They aren't as effective if they can't 
 
 There are a few abilities common to all beastmen infantry.
 
-**Charge & Gore.** While every beastman can use their Charge ability to knock a foe prone, most can't capitalize on the advantage it grants them due to not having multiattack. Therefore, it works best to have multiple beastmen gang up on a single target so others can make follow-up attacks on prone targets.
-
-
 
 \columnbreak
+
+**Charge & Gore.** While every beastman can use their Charge ability to knock a foe prone, most can't capitalize on the advantage it grants them due to not having multiattack. Therefore, it works best to have multiple beastmen gang up on a single target so others can make follow-up attacks on prone targets.
 
 **Primal Fury.** Beastmen will never flee while this ability is active. This ability underscores the importance of ensuring beastmen do whatever they can to help their attacks hit. This most commonly includes attacking surprised or prone enemies.
 
@@ -165,11 +168,9 @@ These bray speakers primarily serve a support role, which is helped by the fact 
 
 It's important to remember that this spell only benefits from the Wild Heart trait when cast at 1st level. For higher-level speakers, this often becomes their primary concentration spell.
 
-
+\pagebreakNum
 
 **Monstrous Transformation:** This spell acts as a reset for the speaker. Upon transformation, the likelihood of reverting to their original form during combat is minimal. This spell is generally activated when the speaker's health drops below half or when it loses Primal Fury. While the transformed creature can't cast spells, any prior ongoing spells persist. 
-
-\pagebreakNum
 
 Depending on the situation, the speaker might transform into a:
 
@@ -1244,5 +1245,5 @@ You can give the different types of items unique names based on their material a
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
