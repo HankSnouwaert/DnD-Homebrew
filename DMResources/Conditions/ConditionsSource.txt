@@ -1,0 +1,136 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+# New Conditions
+
+#### Berserk
+Berserk creatures gain the following effects unless an ability states otherwise:
+ * The creature can only use its movement to move closer to an enemy it can see or hear.
+ * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+ * The creature can't maintain concentration on spells or other effects.
+ * The creature can't be frightened or charmed.
+
+#### Dazed 
+A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+#### Drowsy 
+This condition brings a creature to the brink of falling asleep. Creatures immune to effects that would put them to sleep are immune to this condition. While a creature is drowsy, it is under the following effects:<br>
+* It moves at half speed.<br>
+* It has disadvantage on attack rolls, ability checks, and Dexterity saves.<br>
+*  It can't concentrate. <br>
+* Attacks against it have advantage. <br>
+* The only spells it can cast are cantrips. <br>
+
+\columnbreak
+
+#### Mutated
+When a creature is affected by this condition, it suffers one of the random mutations described in the Mutation Table below. A creature can't suffer from two instances of the same mutation at once.
+
+Unless an ability states otherwise, a creature suffering from one or more mutations can make a Charisma saving throw at the end of each of its turns, ending the effects of all mutations on a success. The save DC is equal to the highest save DC among any effects that inflicted it with its current mutations.
+
+##### Mutation Table
+| d6  | Mutation |  Creature Effect  |
+|:---:|:---------:| :---------:|
+|  1  |  Wild Spasms | The creature can't take reactions, and on each of its turns it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. |
+|  2  | Degeneration  | The creature's form becomes brittle.  While a creature is brittle, any attack that hits the creature is a critical hit.|
+|  3  | Twisted Arms |  The creature can no longer wield weapons or cast spells with somatic components and it has disadvantage on all weapon attack rolls.|
+|  4  | Inverted Eyes | The creature is blinded.|
+|  5  | Gelatinous Legs | The creature falls prone and can't stand up.|
+|  6  | Regeneration | The creature regains 10 hit points at the start of its turn if it has at least 1 hit point.|
+
+<img src='https://i.postimg.cc/XqTgjPw5/2892-spatial-contortion.jpg' style='position:absolute;left:-0px;bottom:-570px;width:820px;transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-60px;top:-425px;height:1400px;width:1416px;transform:rotate(5deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+#### Obsessed 
+The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
+* While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
+* While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
+*  The creature can't willingly move away from a source of its obsession.
+
+#### Quickened
+A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+##### Art Credit
+* Spatial Contortion - Daarken, Wizards of the Coast
+* Messenger's Speed - Clint Cearley, Wizards of the Coast
+
+\columnbreak
+
+#### Rampaging
+Rampages last for one minute and have the following effect on a creature unless an ability states otherwise: 
+* Any charmed or frightened effects on the creature are suspended.
+*  The creature must take the Attack action on each of its turns, targeting the nearest hostile creature it can see unless there are no creatures it can reach with an attack.
+*  If no hostile creatures are within range of any of the creature’s attacks, it must use a Dash action to move toward the closest hostile creature it is aware of.
+* The creature can’t maintain concentration on spells or other effects.
+
+
+
+#### Wounds
+While most creatures are wounded in combat, in this context, the wound is a special form of injury that causes severe bleeding over a short period of time and only specialized attacks and effects can cause wounds. A creature can suffer from multiple wounds at once and at the end of its turn, a wounded creature takes 2 (1d4) necrotic damage for every wound it has sustained. Only creatures with blood (or something equivalent to blood) can suffer wounds. Wounds can be removed in the following ways:
+
+ * When a creature is healed, one wound is removed for every 5 hit points of healing it receives. 
+ * A creature can expend one use of a healer's kit to remove two wounds from itself or another creature. 
+ * A wounded creature, or another creature within 5 feet of it, can make a DC 10 Wisdom (Medicine) check as an action to remove one wound on a success. For every 5 points by which the check exceeds the DC, an additional wound is removed.
+
+<img src='https://i.postimg.cc/7YBcGp5Q/messengers-speed-129.jpg' style='position:absolute; bottom:-50px; right:0px; width:850px; transform:scaleX(-1);'/>
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-240px;bottom:90px; transform: rotate(16deg)' />
+
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-270px;bottom:160px; transform: rotate(0deg)' />
+
+\pagebreakNum
+
+### Change Log
+* Berserk 1.0.0
+* Dazed 1.0.0
+* Drowsy 1.0.0
+* Mutated 1.0.0
+* Rampaging 1.0.0
+* Obsessed 1.0.0
+* Quickened 1.0.0
+* Wounds 1.0.0
