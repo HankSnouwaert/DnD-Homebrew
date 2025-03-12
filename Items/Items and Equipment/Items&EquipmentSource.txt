@@ -38,9 +38,29 @@ ___
 
 \pagebreakNum
 
-## Harpoons 
+## Rope Mechanics & Harpoons
 
-### Harpoon Weapons 1.0.0
+
+### Tug of War Contests 0.0.0
+A tug-of-war contest is a special type of opposed Strength check between two creatures on either end of a rope.
+
+While you're holding or tethered to a rope that is also held by or tethered to another creature no more than one size larger than you, you can use the Attack action to make an opposed Strength check against the other creature to try to pull the rope towards yourself. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. 
+
+If you are more than one size larger than the opposing creature, you automatically win this contest. If the results of both checks are higher than the rope's break DC, the rope snaps.
+
+If you win the contest and the rope doesn't snap, you can pull the rope along with you as you move or pull it towards yourself while standing still. If the opposing creature doesn't drop the rope or is tethered to it, it will be pulled along as though you are grappling it. 
+
+You can't engage in a tug-of-war contest using a hand that is holding other objects (including other ropes).
+
+#### New Condition: Tethered 0.0.0
+If a creature is attached to a rope (such as via a lasso, harpoon, or a secure tie), it is tethered to that rope. Creatures immune to the grappled condition can't be tethered. 
+
+Any creature that succeeds in a tug-of-war contest against a tethered creature using the attached rope is considered to be grappling it. The tethered creature can end the grapple by untethering itself, breaking the rope, or winning another tug-of-war contest against the grappling creature.
+
+
+
+
+### Harpoon Weapons 1.1.0
 
 #### Harpoon Gun
 *ranged weapon (martial, crossbow)*
@@ -63,15 +83,20 @@ ___
 ___
 
 
-***Harpoons.*** You can choose to tether yourself with a rope to a creature or object you hit with the harpoon; otherwise, you can pull the harpoon back to yourself as an object interaction. A creature cannot be tethered if it immune to the grappled condition. If you choose to tether yourself, the hand you used to make the attack becomes occupied maintaining the tether. You cannot maintain multiple tethers in one hand, and creatures immune to the grappled condition cannot be tethered. 
-
-Once per turn, you can make an opposed Strength check against a creature you have tethered (no action required). On a success, you can drag the tethered creature towards you. Doing so uses up 5 feet of movement for every 5 feet you drag it unless the creature is two or more sizes smaller than you. A tethered creature can attempt to do the same to you on its turn, though if you fail the opposed Strength check, you can choose to drop the tether rather than be dragged by it. Any time an opposed Strength check is made between you and a tethered creature, if both of you roll a 12 or higher on this check, the tether snaps. 
-
-Any creature within 5 feet of a tethered creature (including the tethered creature) can use an action to remove the harpoon. Doing so deals an additional 1d6 weapon damage to the creature as the harpoon is removed. Dealing 5 slashing damage to the tether (AC 10) also snaps it.
-
-If you recover a harpoon spear or a harpoon gun bolt with a snapped rope, you can replace the rope over 10 minutes, using 1gp worth of rope and other supplies. This can be done over the course of a short or long rest.
-
 \columnbreak
+
+##### Harpoons
+
+All harpoon spears and ammunition are attached to a harpoon rope. By default, harpoon ropes have 10 AC, a Break DC of 12, and can be cut with 5 damage.
+
+**Tethering The Target.** When you hit a creature or object with a harpoon attack, it is tethered to the harpoon's rope. If you miss, the target isn't tethered, and you can use the rope to pull the harpoon back to yourself as an object interaction. 
+When you tether a creature this way, you may immediately make a tug-of-war contest against it (no action required.)
+
+**Removing The Harpoon.** Any creature that can reach the harpoon can use an action to remove it, thus ending the tethered condition. Doing so deals an additional 1d6 weapon damage to the tethered creature.
+
+**Replacing Harpoon Ropes.** If you recover a harpoon spear or a harpoon gun bolt with a snapped rope, you can replace the rope over 10 minutes, using 1gp worth of rope and other supplies. This can be done over the course of a short or long rest, replacing up to 10 harpoon ropes during a short rest and up to 20 during a long rest.
+
+
 
 ### Feat: Harpoon Master 1.0.0
 You've learned how to use harpoons to maximum effect in combat. 
@@ -79,8 +104,6 @@ When you take this feat, you gain the following benefits.
 * Your Strength or Dexterity score increases by 1, to a maximum of 20.
 * Creatures you've hit with harpoons have their speed reduced by 15 feet until they've removed the harpoon.
 * If a creature is concentrating on a spell and ends its turn while impaled by a harpoon you hit it with, it must succeed on a DC 10 Constitution saving throw to maintain concentration.
-
-
 
 ### Rope Quality for Nets & Harpoons 1.0.0
 
@@ -92,6 +115,10 @@ Players can gain access to higher-quality rope for nets and harpoon tethers by p
 | 1gp | 12 | 10  | 10 | 5
 | 50gp|  15 | 13  | 13 | 10
 | 200gp| 18 | 16  | 16 | 15
+
+
+\pagebreakNum
+
 
 ## Garrotes
 A garrote is a chain, rope, scarf, wire, or fishing line used to strangle its target.
