@@ -1,0 +1,97 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+## Plague Cauldrons
+
+A brew of foul liquids and viscous mucus, Plague Cauldrons are sacred vessels from which the Church of Decay cultivates lethal pathogens for their twisted faith. Rare and revered, these ornate vats are rumored to be ancient artifacts stolen from the temples of a forgotten race, now corrupted in service to the Vermin God of Pestilence.
+
+Many of the church’s rituals revolve around the cauldrons’ rancid contents, most acting as rites of passage for aspiring clergy. Participants must endure the foul fluid—whether by anointment, forced ingestion, or full immersion in a lethal baptism. Surviving this ordeal grants advancement, with some bishops enduring it multiple times. Yet even the devout can only withstand so much, and many eventually succumb to the very corruption they worship.
+
+When a formidable adversary threatens the Church’s schemes, devoted plague monks haul these massive heirlooms from their festering shrines onto the battlefield. Under the watchful eye of a deacon, priest, or bishop, the priests chant over the sludge, stirring it until a pestilent wave erupts, eager for new hosts to infect.
+
+The pathogens released vary wildly, each carrying its own horrific symptoms. Yet these plagues owe no loyalty, turning on both enemy and ally alike. Even those who unleash them are not always spared, often sharing the same grisly fate they inflict upon others.
+
+
+### Plague Cauldron Mechanics
+
+The plague cauldron is a Large magical object with 150 hit points and an Armor Class (AC) of 17. A creature can attune to the ark if it has both a Wisdom and Intelligence score of 10 or higher. 
+
+For the purposes of determining an encounter's challenge rating and XP award, treat an plague cauldron with a user as an additional CR 9 (5,000 XP) creature.
+
+#### Unleashing the Plague
+
+A creature attuned to the plague cauldron and within 5 feet of it can use its action to release the pox within. The creature rolls on the Plague Symptom table below, then chooses one creature within 100 feet of the plague cauldron to infect. The infection then immediately spreads as follows:
+* Each creature within 5 feet of the initially infected creature also becomes infected.
+* The infection then spreads again from each of those creatures to any other creature within 5 feet of them.
+* A creature can only be infected this way once per release of the pox.
+
+Each infected creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 28 (8d6) necrotic damage and becomes afflicted with a disease. While diseased, it has disadvantage on d20 tests using the associated ability from the Plague Symptom table.
+
+If a creature fails the saving throw by 5 or more, it also suffers the Severe Symptom associated with the disease while infected.
+
+\columnbreak
+
+ A creature that succeeds on its saving throw takes half as much damage and isn’t afflicted.
+A diseased creature repeats the saving throw at the end of each of its turns, ending the effect on a success.
+
+#### Falling Into The Cauldron
+
+Any creature within 5 feet of the plague cauldron may use its action to force a Large or smaller creature it has grappled into the cauldron. The creature in the cauldron rolls on the Plague Symptom table and must make a DC 15 Constitution saving throw.
+
+* On a failed save, the creature takes 28 (8d6) necrotic damage and becomes afflicted with a disease. While diseased, it has disadvantage on d20 tests using the associated ability from the Plague Symptom table.
+* If the creature fails the saving throw by 5 or more, it also suffers the Severe Symptom associated with the disease while infected.
+* On a successful save, the creature takes half as much damage and isn’t infected.
+
+A diseased creature repeats the saving throw at the end of each of its turns, ending the effect on a success.
+
+##### Plague Symptom Table
+| d6  |Ability  | Severe Symptom |
+|:---:|:-----------|:-----------|
+|  1  | **Wisdom.** | The creature can use its action, bonus action, and reaction to only take actions that allow it to make one or more attacks. |
+|  2  | **Charisma.** |  Any attack that hits the creature scores a critical hit on a roll of 15-20 |
+|  3  | **Constitution.** | The creature is has disadvantage on attack rolls and checks . |
+|  4  | **Intelligence.** | The creature is dazed. (Condition described below) |
+|  5  | **Strength.** | The creature deals only half damage with attacks. |
+|  6  | **Dexterity.** | The creature cannot benefit from the Dash, Disengage, or Dodge actions. Additionally, if the creature chooses to move more than 5 feet on its turn, it uses its movement to travel in a random direction, determined by rolling a d8.
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+### Plague Cauldron Tactics
+
+The operator chooses plague effects that target the most vulnerable ability scores of the greatest amount of enemies.  For example, Dexterity-based effects work well against Dexterity-based attacks, while Constitution-based effects are ideal when fighting alongside plague ratfolk.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
