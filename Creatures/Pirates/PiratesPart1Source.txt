@@ -1,0 +1,330 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p4:after, .phb#p5:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+## Pirate NPCs: Part 1
+
+### Crew Members
+
+Most ships are made up of general crew members who possess basic seafaring skills and moderate proficiency with weapons. They are usually armed with muskets and cutlasses.
+
+***Plunderers.*** More dangerous and notorious crew members are often referred to as plunderers. They make up the rank-and-file crew of experienced and deadly pirate crews and are known for their devastating raids.
+
+#### Crew Member Tactics 
+A crew member's musket takes a round to load and should only be used if they can find total cover from ranged attacks with no nearby melee attackers. Otherwise, the crew member will draw their scimitar and charge.
+
+___
+> ## Crew Member
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 13 (hide armor)
+> - **Hit Points** 16 (3d8+3)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|12 (+1)|12 (+1)|12 (+1)|10 (0)|10 (0)|12 (+1)|
+>___
+> - **Skills** Acrobatics +3, Intimidation +3
+> - **Senses** passive Perception 10
+> - **Languages** any two languages
+> - **Challenge** 1/4 (50 XP) &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> 
+> ### Actions
+>
+> ***Musket.*** *Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:* 14 (3d8 + 1) piercing damage. The crew member can't make this attack again with the weapon until it loads it as an action.
+>
+> ***Rapier.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) slashing damage.
+
+
+
+___
+> ## Plunderer
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 15 (hide armor)
+> - **Hit Points** 33 (6d8+6)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|12 (+1)|10 (0)|10 (0)|12 (+1)|
+>___
+> - **Skills** Acrobatics +4, Intimidation +3
+> - **Senses** passive Perception 10
+> - **Languages** any two languages
+> - **Challenge** 1 (200 XP) &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ***Weapons Expert.*** The plunderer gets +1 to attack rolls it makes with weapons (included in the attack).
+>
+> ***Defense.*** While the plunderer is wearing armor, it gains a +1 bonus to AC (included in its AC).
+>
+> ### Actions
+>
+> ***Musket.*** *Ranged Weapon Attack:* +5 to hit, range 100/400 ft., one target. *Hit:* 15 (3d8 + 2) piercing damage. The plunderer can't make this attack again with the weapon until it loads it as an action.
+>
+> ***Rapier.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage.
+
+<img src='https://i.ibb.co/QpbtkyX/fathom-fleet-boarder.jpg' style='position:absolute;right:-95px;bottom:-0px;width:640px' />
+
+ <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:0px;bottom:20px' />
+
+ <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-645px;bottom:-180px; transform:rotate(-81deg);' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:00px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+### Duelists
+Duelists are some of the most cocky members of a crew, wielding a rapier and dagger with mastery in one-on-one combat. Some pirate captains may even have them act as their champions in duels of honor.
+
+***Master Duelists.*** Few duelists survive enough competitions to be called masters among their peers. Their egos are only matched by their exquisite swordplay. Such confidence allows them to force an enemy warrior into a duel through sheer intimidation. They never refuse a challenge from another swordsman, provided they believe their opponent has no intention of using underhanded tricks or magic.
+
+\columnbreak
+
+___
+> ## Duelist
+> *Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 38 (7d8 + 7)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |12 (+1)|14 (+2)|12 (+1)|10 (0)|12 (+1)|12 (+1)|
+> ___
+> - **Skills** Acrobatics +4, Intimidation +3, Perception +3
+> - **Senses** passive Perception 13
+> - **Languages** any two languages
+> - **Challenge** 2 (450 XP) &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+> ***Audacity (1/Turn).*** The duelist deals an extra 10 (3d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or if it's within 5 feet of it and no other creatures are within 5 feet of the duelist.
+> 
+> ***Rakish.*** The duelist adds its Charisma modifier to initiative rolls and to damage rolls for its attacks (included in the attack).
+> 
+> ### Actions
+> ***Multiattack.*** The duelist makes two attacks: one with a dagger and one with its rapier.
+> 
+> ***Dagger.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage.
+> 
+> ***Rapier.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage.
+> 
+> ### Reactions
+> ***Uncanny Dodge.*** The duelist halves the damage that it takes from an attack that hits it. The duelist must be able to see the attacker.
+
+<img src='https://assets.echomtg.com/magic/cards/cropped/157240.hq.jpg' style='position:absolute;left:-280px;bottom:-10px;width:1000px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-400px;bottom:290px; transform: rotate(-0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-840px;top:0px;height:1400px;width:1416px;transform:rotate(70deg)' />
+
+
+\pagebreakNum
+
+___
+___
+> ## Master Duelist
+> *Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 18 (studded leather armor)
+> - **Hit Points** 65 (10d8 + 20)
+> - **Speed** 30 ft., swim 20 ft., climb 20 ft.
+> ___
+> |STR|DEX|CON|INT|WIS|CHA|
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> |12 (+1)|16 (+3)|12 (+1)|10 (+0)|14 (+2)|16 (+3)|
+> ___
+> - **Saving Throws** Wis +4
+> - **Skills** Acrobatics +7, Intimidation +5, Perception +4
+> - **Senses** passive Perception 14
+> - **Languages** any two languages
+> - **Challenge** 4 (1,100 XP)  &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Audacity (1/Turn).*** The duelist deals an extra 17 (5d6) damage when it hits a target if it's within 5 feet of it and no other creatures are within 5 feet of the duelist.
+>
+> ***Rakish.*** The duelist adds its Charisma modifier to initiative rolls and to damage when it hits a target with a weapon attack and has advantage on the attack roll, or if it's within 5 feet of it and no other creatures are within 5 feet of the duelist.
+>
+> ***Suave Defense.*** While the duelist is wearing light or no armor and wielding no shield, its AC includes its Charisma modifier.
+> 
+> ### Actions
+> ***Multiattack.*** The duelist makes three attacks: one with a dagger and two with its rapier. If all the attacks hit the same creature, the creature drops an object of the duelist's choice. The object lands in an area of the duelist's choice that is within 10 feet of the creature.
+>
+> ***Dagger.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 8 (1d4 + 6) piercing damage.
+>
+> ***Rapier.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 6) slashing damage.
+>
+> ### Bonus Actions
+> ***Panache (Recharges after a Short or Long Rest).*** The duelist attempts to compel a creature into a duel. One creature that it can see and that can hear the duelist within 30 feet of it must make a DC 13 Charisma saving throw. On a failed save, the creature and the duelist are obsessed with each other for one minute. While the duelist is obsessed, it has advantage on attack rolls. The obsession ends if a creature friendly to the duelist damages the target or casts a harmful spell on it, or if the duelist ends its turn more than 30 feet away from the target.
+> 
+> ### Reactions
+> ***Uncanny Dodge.*** The duelist halves the damage that it takes from an attack that hits it. The duelist must be able to see the attacker.
+
+> ##### New Condition: Obsessed 
+> The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following  effects on a creature:
+> * While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability  except for a source of its obsession.
+> * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
+> *  The creature can't willingly move away from a source of its obsession.
+
+<img src='https://i.ibb.co/JRcGxwL/Swaggering-Corsair-Rivals-of-Ixalan-Art-1024x733.jpg' style='position:absolute;right:-40px;bottom:-100px;width:860px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-250px;bottom:110px; transform: rotate(-3deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:100px; transform: rotate(3deg)' />
+
+
+\pagebreakNum
+
+### Boarders
+Boarders are usually the most brash members of the crew, forgoing guns for melee combat. When a pirate ship closes in on another vessel, these warriors appear from amid the gunsmoke, swinging in with legs outstretched and delivering rib-breaking kicks to anyone unfortunate enough to be in their way.
+
+\columnbreak
+
+<br><br>
+
+***Bloody Boot Boarders.*** Originally inspired by the crazed rampage of the iron-footed red cap fey, these pirates adopted similar adornments for the bottoms of their boots. Swinging into battle lines like a battering ram, those knocked down quickly have metal-spiked boots stamped into their faces. These pirates now join other crews for a steep cost that is well worth the gold.
+
+___
+___
+> ## Boarder
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 14 (hide armor)
+> - **Hit Points** 45 (7d8+14)
+> - **Speed** 30 ft., swim 20 ft., climb 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|14 (+2)|14 (+2)|14 (+2)|10 (0)|10 (0)|12 (+1)|
+>___
+> - **Skills** Acrobatics +4, Athletics +4, Intimidation +3
+> - **Senses** passive Perception 10
+> - **Languages** any two languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Ring Monkey.*** The boarder does not provoke attacks of opportunity while climbing or swinging past a creature on a rope.
+> 
+> ### Actions
+> ***Greataxe.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (1d12 + 3) slashing damage.
+>
+> ***Stomp Kick.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage. If the Boarder moved at least 20 feet straight toward the target immediately before the hit, the target extra 7 (2d6) bludgeoning damage and must succeed on a DC 13 Strength saving throw or be knocked prone and pushed up to 10 feet away.
+>
+> ### Bonus Actions
+> ***Grappling Hook.*** The boarder throws a Grappling Hook at a mast, railing of a ship, or other protrusion within 20 feet of it, hooking it. The hook remains attached until a creature within reach of the hook uses its action to remove it, or 5 slashing damage is dealt to the tether (AC 10).
+
+<img src='https://i.ibb.co/tDM7Dww/Dire-Fleet-Warmonger-5000x.webp' style='position:absolute;right:-0px;bottom:-170px;width:820px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-250px;bottom:120px; transform: rotate(-3deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:120px; transform: rotate(3deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Bloody Boot Boarder
+>*Medium humanoid (any race), any non-lawful alignment*
+> ___
+> - **Armor Class** 15 (studded leather)
+> - **Hit Points** 75 (10d8+30)
+> - **Speed** 30 ft., swim 20 ft., climb 30 ft.
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|16 (+3)|16 (+3)|16 (+3)|10 (0)|10 (0)|12 (+1)|
+>___
+> - **Saving Throws** Dex +5
+> - **Skills** Acrobatics +5, Athletics +5, Intimidation +3
+> - **Senses** passive Perception 10
+> - **Languages** any two languages
+> - **Challenge** 3 (700 XP)  &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+> ***Brute.*** A melee weapon deals one extra die of its damage when the boarder hits with it (included in the attack).
+>
+> ***Ring Monkey.*** The boarder does not provoke attacks of opportunity while climbing or swinging past a creature on a rope.
+> <br><br><br><br>
+> ### Actions
+> ***Multiattack.*** The boarder makes two attacks: one with its Greataxe or Stomp Kick, and one with its Pulverizing Stomp.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16 (2d12 + 3) slashing damage.
+>
+> ***Stomp Kick.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage. If the Boarder moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 10 (3d6) bludgeoning damage and must succeed on a DC 14 Strength saving throw or be knocked prone and pushed up to 10 feet away.
+>
+> ***Pulverizing Stomp.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one prone target. *Hit:* 13 (2d10 + 3) bludgeoning damage. A prone creature cannot stand up until the end of the Boarder's next turn unless it uses all of its movement to make a DC 14 Constitution saving throw, standing up on a success.
+>
+> ### Bonus Actions
+> ***Grappling Hook.*** The boarder throws a grappling hook at a mast, railing of a ship, or other protrusion within 20 feet of it, hooking it. The hook remains attached until a creature within reach of the hook uses its action to remove it, or 5 slashing damage is dealt to the tether (AC 10).
+
+<img src='https://i.ibb.co/5KpbcFb/headstrong-brute.jpg' style='position:absolute;right:-0px;bottom:-70px;width:820px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-250px;bottom:130px; transform: rotate(-3deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-0px;bottom:120px; transform: rotate(3deg)' />
+
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+\columnbreak
+
+### Art Credit
+* Fathom Fleet Boarder - Sidharth Chaturvedi, Wizards of the Coast
+* Brazen Blademaster - Jarel Threat, Wizards of the Coast
+* Swaggering Corsair - Scott Murphy, Wizards of the Coast
+* Dire Fleet Warmonger - Mathias Kollros, Wizards of the Coast
+* Headstrong Brute - Yongjae Choi, Wizards of the Coast
