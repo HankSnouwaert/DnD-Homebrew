@@ -40,7 +40,7 @@ This brand of magic specializes in manipulating metals and mechanical objects. I
 
 #### Commandment of Inertia
 
-*3rd -level transmutation*
+*3rd-level transmutation*
 
 - **Casting Time:** 1 action
 - **Range:** Touch
@@ -63,7 +63,7 @@ You touch a construct creature or an object with moving parts that weighs no mor
 
 #### Final Transmutation
 
-*9th -level transmutation*
+*9th-level transmutation*
 
 
 - **Casting Time:** 1 action
@@ -75,7 +75,7 @@ ___
 
 You speak a word of power that transforms a creature you can see within range. If the target has 150 hit points or fewer, it is petrified, turning to gold until the spell ends. Otherwise, the spell has no effect.
 
-**Ending The Effect.** A petrified target can make a Constitution saving throw at the start of each of its turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell (including the initial failed save), it remains petrified indefinitely until the condition is cured by other means.
+**Ending The Effect.** A petrified target can make a Constitution saving throw at the end of each of its turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell, it remains petrified indefinitely until the condition is cured by other means.
 
 **Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become obsessed* with the petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
 
@@ -94,16 +94,9 @@ You speak a word of power that transforms a creature you can see within range. I
 
 \pagebreakNum
 
-
-
-
-
-
-
 ####  Hunting Hound
 
-*5th -level conjuration*
-
+*5th-level conjuration*
 
 - **Casting Time:** 1 action
 - **Range:** 10 ft
@@ -112,7 +105,7 @@ You speak a word of power that transforms a creature you can see within range. I
 - **Classes:**  Artificer, Ranger
 ___
 
-Choose a creature that is familiar to you and that you have seen within the last 30 minutes. You then call forth a mechanical hound, which manifests in an unoccupied space that you can see within range. This **hunting hound** uses the stat block below. The hound is an ally to you and your companions. In combat, the hound shares your initiative count, but it takes its turn immediately after yours. The hound disappears when it drops to 0 hit points or when the spell ends.
+Choose a creature that is familiar to you and that you have seen within the last hour. You then call forth a mechanical hound, which manifests in an unoccupied space that you can see within range. This **hunting hound** uses the stat block below. The hound is an ally to you and your companions. In combat, the hound shares your initiative count, but it takes its turn immediately after yours. The hound disappears when it drops to 0 hit points or when the spell ends.
 
 **Detecting The Target.** The hound senses the direction to the chosen creature’s location and can see the creature as if it had truesight, as long as the creature is within 1,000 feet of the hound. If the creature is moving, the hound knows the direction of its movement. The hound cannot locate a creature if it is covered in or wearing wolfsbane.
 
@@ -224,7 +217,6 @@ An affected creature or object receives a -5 penalty to its AC, and any affected
 
 If you concentrate on this spell for the full duration, any nonmagical objects affected by the spell are destroyed, corroding into a pile of rust. A creature under the effects of the spell takes 3d6 necrotic damage at the end of each of its turns and makes a Constitution saving throw. The spell ends on the creature on a successful save.
 
-
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature or object for each slot level above 3rd. The targets must be within 30 feet of each other when you target them.
 
 
@@ -241,11 +233,11 @@ If you concentrate on this spell for the full duration, any nonmagical objects a
 - **Duration:**  1 round
 - **Classes:**  Artificer
 
-You send a sizzling jagged silver shard from your fingertips flying at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 piercing damage, and the shard embeds in the creature. At the end of each of the creature's turns, it takes 2d8 fire damage if the shard is still embedded.
+You send a sizzling jagged silver shard from your fingertips flying at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d4 piercing damage, and the shard embeds in the creature. At the end of the creature's next turn, it takes 2d10 fire damage if the shard is still embedded.
 
-**Removing The Shard.** A creature within reach can use an action to perform a Wisdom (Medicine) check against your spell save DC to try to remove the shard. On a success, the shard is removed, and on a failure, the shard is still removed, but the creature takes 1d8 slashing damage.
+**Removing The Shard.** A creature within reach can use an action to perform a Wisdom (Medicine) check against your spell save DC to try to remove the shard. On a success, the shard is removed, and on a failure, the shard is still removed, but the creature takes 2d4 slashing damage.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the piercing, fire, and slashing damage each increase by 1d8 for each slot level above 1st.
+**At Higher Levels.**  When you cast this spell using a spell slot of 2nd level or higher, the piercing and slashing damage each increase by 1d4, and the fire damage increases by 1d10 for each slot level above 1st.
 
 
 
@@ -260,7 +252,7 @@ You send a sizzling jagged silver shard from your fingertips flying at one creat
 - **Duration:**  Concentration, up to 1 hour
 - **Classes:**  Artificer
 
-You choose a Medium or Small manufactured metal object that weighs 80 pounds or less, such as a metal weapon, a suit of heavy or medium metal armor, or a metal door lock. (NOTE: Can you target metal creatures?) The object's weight is increased by up to 10 times your spellcasting ability modifier in pounds.
+You choose a Medium or Small manufactured metal object that weighs 80 pounds or less, such as a metal weapon, a suit of heavy or medium metal armor, or a metal door lock. The object's weight is increased by up to 10 times your spellcasting ability modifier in pounds.
 
 Additionally, a creature can no longer add its Dexterity modifier to attack and damage rolls made with the weapon. If the creature's Strength score is lower than your spell save DC, it has disadvantage on all attacks made with the weapon. If the targeted item is armor, its Strength requirement becomes equal to your spell save DC if it is lower.
 
@@ -292,8 +284,8 @@ Additionally, a creature can no longer add its Dexterity modifier to attack and 
 \columnbreak
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
 
 
 
