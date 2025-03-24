@@ -106,6 +106,20 @@ You conjure a large amber hunting spear and launch it in a straight line at a po
 
 \pagebreakNum
 
+#### Ash Storm 1.0.0
+
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60
+- **Components:** V, S, M (a pinch of soot)
+- **Duration:**  Instantaneous
+- **Classes:**  Druid, Sorcerer, Wizard
+
+You unleash a wave of scalding ash in a 60-foot-long, 15-foot-wide line originating from you in a direction you choose. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes 5d10 fire damage, is pushed 15 feet away form you, and is blinded until the end of your next turn. On a successful save, a creature takes half as much damage and suffers no other effect.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the fire damage increases by 1d10 and for each slot level above 4th.
+
 #### Aspect of Dread 1.0.1
 *2nd-level enchantment*
 ___
@@ -213,6 +227,22 @@ If any of this spell's area overlaps with an area of light created by a spell of
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.
 
+#### Blight (Revised) 1.0.0
+*4th-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 30 feet
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**  Druid, Sorcerer, Warlock, Wizard
+___
+
+A creature that you can see within range makes a Constitution saving throw, taking 9d8 necrotic damage on a failed save or half as much damage on a successful one. A Plant creature has disadvantage on the save.
+
+Alternatively, you can target a nonmagical plant that isn’t a creature, such as a tree or shrub. It doesn’t make a save; it simply withers and dies.
+
+***Using a Higher-Level Spell Slot.*** The damage increases by 2d8 for each spell slot level above 4.
+
 \pagebreakNum
 
 #### Bolt of Change 2.0.0
@@ -227,6 +257,21 @@ ___
 
 You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d12 force damage and must make a Charisma saving throw.  On a failed save, the target suffers a mutation (condition described at end of document).
 
+
+#### Breath of Hatred 1.0.0
+*1st-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard, Warlock
+
+Your breath fills a creature with obsessive malice. Choose one creature within range. The target must make a Wisdom saving throw (it may choose to fail), or it becomes obsessed* with another creature of your choice within range that is hostile to the target. While obsessed, the target has advantage on attack rolls against the chosen creature.
+
+At the end of each of its turns, the target can make another Wisdom saving throw. If it did not take an action during the turn or the source of its obsession is not within line of sight, it has advantage on the saving throw. On a success, the spell ends.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature to become obsessed with the same creature for every two slot levels above 1st.
 
 \columnbreak
 
@@ -487,6 +532,20 @@ At the end of each of the creature's turns while on fire, it takes 4d6 fire dama
 
 \columnbreak
 
+#### Curse of Stone 1.0.0
+
+*4th-level transmutation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60
+- **Components:** V, S, M (a pinch of lime, water, and earth)
+- **Duration:**  Concentration, up to 1 minute.
+- **Classes:**  Druid, Sorcerer, Warlock, Wizard
+
+You attempt to transform one creature that you can see within range into stone. If the target’s body is made of flesh, it must make a Constitution saving throw. On a failed save, the creature is petrified until the spell ends.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for ever two slots levels above 4th. The creatures must be within 30 feet of each other when you target them.
+
 #### Curse of the Midnight Wind 1.1.0
 *3rd-level enchantment*
 ___
@@ -508,6 +567,20 @@ At the end of its turn, an affected creature can attempt another Charisma saving
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
 
 \pagebreakNum
+
+#### Cursed Blades 1.0.0
+*1st-level enchantment*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 feet
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Warlock
+___
+
+You imbue a weapon within range with the essence of death. When this weapon hits a creature, the target becomes cursed for the spell's duration. At the start of your turn, each creature cursed this way within 90 feet of you takes 1d6 necrotic damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target an additional weapon for each slot level above 1st. Using a 3rd-level spell slot or higher increases the damage by 1d6 for every two slot levels above 1st.
 
 #### Creeping Strike 1.0.0
 *Evocation cantrip*
@@ -535,7 +608,7 @@ Your weapon becomes swathed in purple light, and the next time you hit a creatur
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the baseline damage and the extra damage increase by 1d4 for each slot level above 2nd.
 
-
+\columnbreak
 
 #### Crippling Pain 1.0.0
 *3rd-level necromancy*
@@ -551,8 +624,6 @@ You afflict a creature within range with an agonizing curse, causing its body to
 While wracked with pain, every time the creature takes a move, an action, a bonus action, or a reaction, it takes an additional 3d6 necrotic damage.
 
 ***At Higher Levels.***   When you cast this spell using a spell slot of 4th level or higher, the initial damage is increases by 2d6 for each slot level above 3rd.
-
-\columnbreak
 
 #### Creeping Strike 0.0.0
 *Evocation cantrip*
@@ -580,7 +651,7 @@ Your weapon becomes swathed in purple light, and the next time you hit a creatur
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the baseline damage and the extra damage increase by 1d4 for each slot level above 2nd.
 
-
+\pagebreakNum
 
 #### Crippling Pain 1.0.0
 *3rd-level necromancy*
@@ -710,6 +781,26 @@ At the end of each of its turns, the target can make another Intelligence saving
 
 \pagebreakNum
 
+#### Divine Hammer 1.0.0
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 150 ft
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**  Cleric
+
+Choose a point you can see on the ground within range and a direction. A giant hammer manifests and slams the ground at the chosen point, impacting everything in a 10-foot cube centered on the point. It then sends a 30-foot-long, 10-foot-wide shockwave in the chosen direction before disappearing.
+
+Each creature in the area of the hammer’s impact or shockwave must make a Dexterity saving throw. On a failed save, a creature takes 5d6 fire or lighting damage (your choice) and 5d6 thunder damage and is knocked prone; it is also dazed* until the end of its next turn if it is in the area of the impact. On a successful save, a creature takes half as much damage and isn’t knocked prone or dazed.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the fire or lighting damage and the thunder damage each increase by 1d6 for every slot level above 6th.
+
+> #####  Divine Hammer Damage Types
+> Depending on the nature of the god the spellcaster worships, it may make more sense for the divine hammer to do damage of a type other than fire or lighting; for example, some gods may be more associated with radiant or necrotic. At the DM's discretion, the damage can be changed this way, in which case the spellcaster should no longer have the option for fire or lighting.
+
+\columnbreak
+
 #### Dwellers Below 1.0.0
 *9th-level evocation*
 ___
@@ -746,6 +837,22 @@ Additionally, when the target takes damage, you can use your reaction to end the
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
+#### Elemental Bane (Revised) 1.0.0
+
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 90
+- **Components:** V, S
+- **Duration:**  Concentration, up to 1 minute.
+- **Classes:**  Druid, Warlock, Wizard, Artificer
+
+Choose one creature you can see within range and one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Charisma saving throw or be cursed for the duration. While cursed, the target loses any resistance to the chosen damage type, and immunity to the damage type is treated as resistance instead. Additionally, the first time each turn the target takes damage of the chosen type, it takes an extra 1d6 damage of that type.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
+
+\columnbreak
+
 #### Elemental Fist 0.0.0
 *2nd-level transmutation*
 ___
@@ -763,7 +870,7 @@ Choose one of the following damage types: acid, cold, fire, lightning, or thunde
 
 ***At Higher Levels.*** When you cast this spell using a 4th or 5th-level spell slot, the bonus to attack and damage rolls increases to +2, and the added damage becomes 2d4. Using a 6th-level spell slot or higher increases the bonus to +3 and the damage to 3d4.
 
-\columnbreak
+
 
 #### Elemental Weapon (Revised) 1.0.0
 *3nd-level transmutation*
@@ -781,6 +888,22 @@ A weapon you touch becomes bathed in elemental power. Choose one of the followin
 
 \pagebreakNum
 
+#### Eruption 1.0.0
+*8th-level evocation*
+
+- **Casting Time:** 1 action
+- **Range:** 150 ft
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**   Druid, Wizard, Sorcerer
+
+You choose a point you can see on the ground within range. The ground cracks and a burst of magma erupts in a 60-foot-radius, 120-foot-high cylinder centered on that point. Each creature in the affected area must make a Dexterity saving throw. On a failed save, a creature takes 4d12 fire damage and 4d12 bludgeoning damage. On a successful save, it takes half as much damage.
+
+Additionally, the ground in the area becomes superheated for 1 minute. The area becomes difficult terrain, and any creature that ends its turn in the area must make a Constitution saving throw. On a failed save, the creature takes 4d12 fire damage, or half as much on a successful save.
+
+After the area cools down, it remains difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.
+
+\pagebreakNum
 
 #### Fiery Temper 0.0.0
 *1st-level evocation*
@@ -1145,6 +1268,21 @@ You manifest a spectral jade sickle that lashes out at your command toward a cre
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
 
+#### Hellfire Weapon 1.0.0
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 20 ft
+- **Components:** S
+- **Duration:** Instantaneous
+- **Classes:**  Artificer, Warlock
+
+You conjure a weapon made of hungering fire and hurl or strike with it. Make a ranged spell attack against a target within range, or a melee spell attack against a target within 5 feet of you. On a hit, the target takes 1d8 fire damage. If you score a critical hit or reduce a creature to 0 hit points with this attack, you can cast this spell again as a bonus action on this turn. After the attack is made, the weapon vanishes.
+
+The spell’s damage increases by 1d8 when you reach certain levels: 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
+
+\columnbreak
+
 ####  Here We Go! 1.0.0
 *5th-level enchantment*
 ___
@@ -1155,8 +1293,6 @@ ___
 - **Classes:**  Bard, Paladin, Ranger, Warlock
 
 You chant, imbuing yourself and up to four creatures you can see with fighty energy. Until the start of your next turn, whenever you or a creature you chose misses with an unarmed strike or weapon attack roll, you may have it reroll the attack. The creature must use the new roll.
-
-\columnbreak
 
 #### Holy Nova 1.0.0
 *4th-level evocation*
@@ -1172,6 +1308,8 @@ A burst of divine light emanates from you, enveloping all creatures within 30 fe
 You and up to four creatures of your choice within the area automatically succeed on this saving throw, taking no damage. Instead, you and the chosen creatures are bathed in the healing radiance, regaining hit points equal to the total radiant damage dealt.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.
+
+\pagebreakNum
 
 #### Horrifying Laughter 1.1.0
 *6th-level enchantment*
@@ -1191,7 +1329,6 @@ At the end of each of its turns, the laughing creature takes 3d10 force damage a
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d10 for each slot level above 6th.
 
-\pagebreakNum
 
 ####  Hunting Hound 1.0.0
 
@@ -1448,6 +1585,21 @@ You summon a bolt of lightning to strike a point you can see within range. Each 
 
 \pagebreakNum
 
+#### Magmatic Stone 1.0.0
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 100 ft
+- **Components:** V, S, M (A bit of igneous rock)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Wizard
+
+You conjure a molten rock and hurl it at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 3d8 bludgeoning damage. Whether the attack hits or misses, the rock explodes on impact, creating a 15-foot-radius sphere of whirling magma centered on the point of impact. The sphere lasts for the duration, and its area is lightly obscured and considered difficult terrain. The sphere spreads around corners and seeps through openings at least 5 feet in diameter.
+
+When the sphere first appears, and at the start of each of your turns thereafter, it moves 10 feet in the direction you hurled it from. Any creature whose space the sphere enters or passes through must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage. On a successful save, the creature takes half as much damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the bludgeoning and fire damage both increase by 1d8 for each slot level above 3rd.
+
 #### Mad Rampage 1.0.0
 
 *4th-level enchantment*
@@ -1467,6 +1619,8 @@ For the duration of the spell:
 * When the creature hits with a melee weapon attack or unarmed strike, it deals an additional die of its damage. If the creature moves at least 10 feet in a straight line immediately before making the attack, the attack deals two additional dice of its damage, and it scores a critical hit on a roll of 19 or 20.
 
 If the creature is charmed or frightened, these effects are suspended for the duration of this spell.
+
+\columnbreak
 
 #### Mass Haste 1.0.0
 *8th-level transmutation*
@@ -1491,9 +1645,7 @@ Choose up to six willing creatures in a 30-foot-radius sphere centered on a poin
 
 You touch a willing creature who isn't wearing armor, and the creature becomes covered in a layer of metal until the spell ends. The target's base AC becomes 16, and it has disadvantage on Dexterity (Stealth) checks. The spell ends if the target dons armor or if you dismiss the spell as an action.
 
-\columnbreak
-
-#### Miasma of Pestilence 1.0.0
+#### Miasma of Pestilence 1.1.0
 *1st-level conjuration*
 ___
 - **Casting Time:** 1 action
@@ -1503,11 +1655,13 @@ ___
 - **Classes:**  Bard, Sorcerer, Wizard
 ___
 
-A cloud of putrescent vapor appears in a 10-foot-radius sphere centered on a point within range. The cloud spreads around corners, and its area is lightly obscured. The cloud lingers in the air for the duration or until a moderate wind (at least 5 miles per hour) disperses it after 4 rounds. A strong wind (at least 10 miles per hour) disperses it after 1 round.
+You create a cloud of putrescent vapor that appears in a 10-foot-radius sphere centered on a point within range. The cloud spreads around corners, and its area is lightly obscured.  The cloud lingers in the air for the duration or until a strong wind (such as the one created by *gust of wind*) disperses it.
 
-Each creature completely within the cloud at the start of its turn must make a Constitution saving throw. On a failed save, the creature is poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions. Creatures that don't need to breathe automatically succeed on this saving throw.
+Each creature that starts its turn in the sphere must succeed on a Constitution saving throw or be Poisoned until the start of its next turn.
 
+***Using a Higher-Level Spell Slot.*** The sphere's radius is increased by 10 feet for each slot level above 1.
 
+\pagebreakNum
 
 #### Mindrazors 1.0.0
 *5th-level illusion*
@@ -1525,7 +1679,7 @@ If a creature takes an action to examine one of the weapons and succeeds on an I
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, you can target one additional weapon for each slot level above 5th.
 
-\pagebreakNum
+
 
 #### Mind Spike (Revised) 1.0.0
 *2nd-level divination*
@@ -1552,6 +1706,8 @@ ___
 You weave a shadowy link between yourself and a willing creature you can see within 30 feet, causing you and the creature to instantly swap places. 
 The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
 
+\columnbreak
+
 #### Molten Silver 1.0.0
 
 *5th-level evocation*
@@ -1565,7 +1721,6 @@ ___
 
 A line of searing liquid silver up to 30 feet long and 5 feet wide emanates from you in a direction you choose. At the end of the line, the silver spreads out into a 30-foot cone emanating in the direction of the line. Each creature in the line or cone must make a Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage and 4d6 bludgeoning damage; on a successful save, the creature takes half as much damage.
 
-\columnbreak
 
 #### Molten Sphere 0.0.0
 *6th-level conjuration*
@@ -1851,6 +2006,35 @@ At the end of each of its turns, the banished creature takes 3d8 psychic damage 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the pit's dimensions by 10 feet for each slot level above 6th.
 
+#### Plague 1.0.0  
+*1st-level necromancy*  
+**Casting Time:** 1 bonus action  
+**Range:** Self  
+**Components:** S, M (a bit of rodent fur)  
+**Duration:** Concentration, up to 1 minute  
+**Classes:** Sorcerer, Warlock, Wizard  
+
+You become surrounded by pestilence for the duration of the spell.  
+
+At the end of each of your turns, you may choose to infect a creature that you can see within 5 feet of you or within 5 feet of a creature already infected by this spell with disease. Then, each diseased creature makes a Constitution saving throw. On a failed save, the creature takes 1d10 necrotic damage. On a successful save, the creature takes half as much damage and is no longer infected by the disease and can't become infected by the spell again. All diseases disappear when the spell ends.
+
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d10 for each slot level above 3.
+
+- If you use a **3rd-level or higher** spell slot, choose an ability from the **Plague Symptom** table.  Creatures infected by this spell have Disadvantage on D20 Tests not triggered by this spell.
+- If you use a **6th-level or higher** spell slot, the diseased creatures have the Severe Symptom associated with the ability as well.
+
+##### Plague Symptom  
+| d6  |Ability  | Severe Symptom |
+|:---:|:-----------|:-----------|
+|  1  | **Wisdom.** | The creature can use its action, bonus action, and reaction to only take actions that allow it to make one or more attacks. |
+|  2  | **Charisma.** |  Any attack that hits the creature scores a critical hit on a roll of 15-20 |
+|  3  | **Constitution.** | The creature has disadvantage on attack rolls and checks. |
+|  4  | **Intelligence.** | The creature is dazed (see condition below). |
+|  5  | **Strength.** | The creature deals only half damage with attacks. |
+|  6  | **Dexterity.** | The creature cannot benefit from the Dash, Disengage, or Dodge actions. Additionally, if the creature chooses to move more than 5 feet on its turn, it uses its movement to travel in a random direction, determined by rolling a d8.
+
+\pagebreakNum
+
 #### Plague of Rust 1.0.0
 
 *3rd-level transmutation*
@@ -1884,7 +2068,7 @@ You emanate a commanding presence, compelling a primal creature to submit. Choos
 
 ***At Higher Levels.*** When you cast this spell using a 3rd-level spell slot or higher, you can target one additional creature for each slot level above 2nd.
 
-\pagebreakNum
+\columnbreak
 
 #### Primal Scream 1.0.0
 *3rd-level evocation*
@@ -1929,7 +2113,7 @@ You cover the ground in a 20-foot radius centered on a point within range with a
 
 When the ooze appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone and take 3d4 acid damage.
 
-\columnbreak
+\pagebreakNum
 
 ####  Purple Sun 1.0.0
 *9th-level transmutation*
@@ -1949,23 +2133,23 @@ If a petrified creature is physically damaged or broken during this state, it wi
 
 \pagebreakNum
 
-#### Rancid Visitation 2.0.0
-*4th-level necromancy*
+#### Rancid Visitation 3.0.0
+*3rd-level necromancy*
 ___
 - **Casting Time:** 1 action
-- **Range:** Touch
+- **Range:** 30
 - **Components:** V, S
-- **Duration:**   1 minute
-- **Classes:**  Cleric, Druid, Warlock
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Druid, Sorcerer, Warlock, Wizard
 ___
 
-Make a melee spell attack against a creature you can reach. On a hit, it takes 4d10 necrotic damage and is afflicted with a disease that lasts until the spell ends.
+You afflict a creature within range with a relentless, wasting disease.
 
-A creature afflicted by this disease takes 4d10 necrotic damage at the start of each of your turns and must then make a Constitution saving throw, ending the disease on a success. 
+At the end of each of your turns, if the target is within 30 feet of you, it must make a Constitution saving throw. On a failed save, it takes 3d12 necrotic damage, or half as much on a success.
 
-If a diseased creature drops to 0 hit points before this spell ends, you can end the disease on the creature and cause it to infect a new creature of your choice that you can see within 30 feet of it. The new creature must succeed on a Constitution saving throw or be infected with the same disease for the remainder of the spell's duration.
+If a diseased creature drops to 0 hit points before the spell ends, you can cause the disease to spread to another creature you can see within 30 feet of you.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, each time it would deal damage, it deals an additional 1d10 necrotic damage for each slot level above 4th.
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d12 for each slot level above 3.
 
 #### Ray of Enfeeblement (Revised) 0.0.0
 *2nd-level necromancy*
@@ -2428,6 +2612,21 @@ On your subsequent turns, you must use your action to spew forth a another cone 
 
 \pagebreakNum
 
+#### Subjugation 1.0.0
+*2nd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+
+You attempt to crush the will of one creature you can see within range. Constructs and undead are immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. While frightened in this way, the target is also charmed by you.
+
+The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
+
 #### Summon Flock 1.0.0
 
 *1st-level conjuration*
@@ -2725,6 +2924,7 @@ Choose a willing creature you can see within range. The chosen creature becomes 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for every two slot levels above 3rd.
 
+\pagebreakNum
  
 #### Vile Tide 1.2.0
 *2nd-level conjuration*
@@ -2745,6 +2945,21 @@ Any creature within reach can use an action to perform a Wisdom (Medicine) check
 Alternatively, a creature can expend a use of a Healer's Kit or use the *lesser restoration* spell to purge the insects without needing to make a check.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the initial damage increases by 2d4 for each slot level above 2nd.
+
+#### Virulent Decay 1.0.0
+*4th-level necromancy*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**   Instantaneous
+- **Classes:**  Sorcerer, Wizard
+
+You unleash a bolt of decay toward a creature you can see within range, infecting it with necrotic energy. The infection can then spread to another creature of your choice within 5 feet of the first target, and then to another creature within 5 feet of that one. This process repeats one more time. A creature can only be infected once by this spell.
+
+Each infected creature must make a Constitution saving throw, taking 6d10 necrotic damage on a failed save, or half as much on a success.
+
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d10, and the infection can jump one additional time for each spell slot level above 4.
 
 \pagebreakNum
 
@@ -2905,24 +3120,27 @@ Choose a creature within range that can hear you. The target must succeed on a W
 
 \pagebreakNum
 
-#### World Sore 1.0.0
-*1st-level transmutation*
+#### World Sore 2.0.0
+*3rd-level transmutation*
 ___
-- **Casting Time:** 1 action
-- **Range:** 60 feet
+- **Casting Time:** 1 bonus action
+- **Range:** 100 feet
 - **Components:** V, S
 - **Duration:** 1 minute
-- **Classes:**  Warlock
+- **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
-You cause a boil to grow from a surface in an unoccupied space you can see.  The boil occupies a 5-foot sphere centered on the chosen space.  The surface where a boil appears must be wide enough to accommodate its size.
+You cause a festering boil to grow from a surface in an unoccupied space you can see. The boil is a Medium object, and the surface must be wide enough to accommodate its size. When the spell ends, the boil shrivels and disappears.
 
-The boil has AC 10, 20 hit points, immunity to psychic damage, and vulnerability to piercing damage.  When reduced to 0 hit points, it explodes into puss, and each creature within 5 feet of it must make a Dexterity save.  Creatures take 1d8 necrotic damage on a failed save, or half as much damage on a successful one.
+The boil has AC 10, 30 hit points, immunity to psychic, poison, and necrotic damage, and vulnerability to piercing and slashing damage. It cannot regain hit points.
 
-On each of your turns, while you are within 100 feet of the boil and can see it, you can use your bonus action to either cause the boil to explode, as described above, or grow it.  Growing it increases its radius by 5 feet, increases the damage it deals when it blows up by 1d8, and extends the range of its explosion by 5 feet.  If there is no room for the boil to expand when you attempt to grow it, which includes being blocked by a creature, it remains its current size and explodes instead.  
-The boil immediately explodes when the spell ends.
+When the boil is reduced to 0 hit points, it bursts in a spray of toxic pus, creating a 20-foot-radius emanation centered on it. Each creature in the area must make a Dexterity saving throw, taking 3d12 necrotic damage on a failed save, or half as much on a success. The spell then ends.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage when the boil explodes increases by 1d8 for each slot level above 1st.
+At the start of each of your turns, while the spell is active, the boil swells with more pus, the damage it deals increases by 1d12, and it takes 3d6 force damage as it strains under its own pressure.
+
+You can use your action to rupture the boil, reducing it to 0 hit points.
+
+***Using a Higher-Level Spell Slot.*** The hit points of the boil are increased by 10, and the damage increases by 1d12 for each slot level above 3.
 
 \pagebreakNum
 
@@ -2954,6 +3172,11 @@ The boil immediately explodes when the spell ends.
 #### 1.1.1
 * Fix stat block formatting typo
 
+### Miasma of Pestilence
+#### 1.1.0
+* Miasma of Pestilence area now increases with up cast
+
+
 ### Penumbral Pendulum
 #### 2.0.0
 * Reworked Penumbral Pendulum so it can be swung multiple times
@@ -2962,6 +3185,9 @@ The boil immediately explodes when the spell ends.
 ### Rancid Visitation
 #### 2.0.0
 * Replace inflict rot with Rancid Visitation
+
+#### 3.0.0
+* Rancid Visitation is now 3rd level and redone.
 
 ### Savage Dominion 
 #### 1.0.1
@@ -2994,3 +3220,7 @@ The boil immediately explodes when the spell ends.
 ### Wind Blast
 #### 1.1.0
 * Change spell to evocation
+
+### World Sore
+#### 2.0.0
+* World Sore changed to 3rd level and redone
