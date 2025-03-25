@@ -245,7 +245,7 @@ Alternatively, you can target a nonmagical plant that isn’t a creature, such a
 
 \pagebreakNum
 
-#### Bolt of Change 2.0.0
+#### Bolt of Change 2.1.0
 *4th-level transmutation*
 ___
 - **Casting Time:** 1 action
@@ -256,6 +256,8 @@ ___
 ___
 
 You launch a bolt of pure chaos at a creature within range.  Make a ranged spell attack against the target.  On a hit, the target takes 4d12 force damage and must make a Charisma saving throw.  On a failed save, the target suffers a mutation (condition described at end of document).
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.
 
 
 #### Breath of Hatred 1.0.0
@@ -2576,7 +2578,7 @@ Additionally, you may choose an additional effect from the options listed below.
 ***Thunder.*** Within the cloud's affected area, lightning flashes, thunder booms, and strong winds roar.  Each creature within the affected area must make a Constitution saving throw.  On a failed save, a creature becomes deafened for 1 minute and is stunned until the end of your next turn. 
 
 
-#### Stream of Corruption 1.0.0
+#### Stream of Corruption 1.0.1
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 action
@@ -2590,7 +2592,7 @@ Bile spews forth from you in a 30-foot cone.  Each creature in that area must ma
 
 When you cast this spell, you may instead choose a creature within 100 feet of you that you can see and force it to make a Constitution saving throw.  On failed save, it takes 3d8 necrotic damage, and you may cause the cone of bile described above to spew forth from the creature in the direction you choose.  On a successful save, a creature takes half as much damage and does not spew bile.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, increase the necrotic damage dealt to targeted creatures and creatures in the area of the cone of bile by 1d8 for each slot level above 2nd.
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d8 for each slot level above 2nd.
 
 
 
@@ -3151,6 +3153,10 @@ You can use your action to rupture the boil, reducing it to 0 hit points.
 ### Curse of the Midnight Wind
 #### 1.1.0
 * Now causes automatic hits, miss and fails.
+
+### Bolt of Change
+#### 2.1.0
+* Add missing upcast option
 
 ### Frost Nova
 #### 2.0.0
