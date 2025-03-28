@@ -85,7 +85,7 @@ ___
 > ## Warzog
 > *Medium humanoid (orc), chaotic evil*  
 > ___
-> - **Armor Class** 22 (War Paint) &emsp;&emsp;&emsp;&ensp;**Initiative** +4 (14)
+> - **Armor Class** 22 (War Paint) &emsp;&emsp;&emsp;&ensp;**Initiative** +10 (20)
 > - **Hit Points** 256 (27d8 + 135)
 > - **Speed** 30 ft.
 > <table> 
@@ -122,7 +122,7 @@ ___
 > <td><b>INT</b></td>
 > <td style="text-align:center">6</td>
 > <td style="background-color:#e0e5c1; text-align:center">-2</td>
-> <td style="background-color:#e0e5c1; text-align:center">-1<sup></sup></td>
+> <td style="background-color:#e0e5c1; text-align:center">+4<sup></sup></td>
 > <td></td>
 > <td><b>WIS</b></td>
 > <td style="text-align:center">18</td>
@@ -144,16 +144,16 @@ ___
 > - **Challenge** 18 (20,000 XP; PB +6)
 > ___
 > ### Traits
-> ***Primal Surge.*** Warzog is quickened** during the first round of combat.
+> ***Primal Surge.*** When the orc rolls initiative or reduces a creature to 0 hit points, it is quickened** until the end of its next turn.
 >
-> ***Squiggly Curse (1/Day).*** On initiative count 20 (losing ties), Warzog chooses up to six creatures within 90 feet of him that he is aware of. Each must succeed on a DC 18 Charisma saving throw. Warzog then chooses one creature that fails this saving throw, which is afflicted by the curse and immediately transformed into a **Squiggly Beast**, teleporting into Warzog’s free hand where he immediately grapples it (escape DC 19). The transformed creature uses the Squiggly Beast’s statistics, except it retains its original hit points, Hit Dice, and Constitution score, as well as its alignment and personality. This transformation ends if the target dies, Warzog dies, or another creature is afflicted by this feature.  
+> ***Squiggly Curse (1/Day).*** On initiative count 20 (losing ties), Warzog chooses up to six creatures within 90 feet of him that he is aware of. Each must succeed on a DC 21 Charisma saving throw. Warzog then chooses one creature that fails this saving throw, which is afflicted by the curse and immediately transformed into a **Squiggly Beast** (stat block on the next page), teleporting into Warzog’s free hand where he immediately grapples it (escape DC 19). The transformed creature uses the Squiggly Beast’s statistics, except it retains its original hit points, Hit Dice, and Constitution score, as well as its alignment and personality. This transformation ends if the target dies, Warzog dies, or another creature is afflicted by this feature.  
 > The target’s gear melds into its new form; it can’t activate, use, or otherwise benefit from that equipment, nor can it interact with any dropped gear. It also can’t speak, cast spells, or perform actions requiring hands or speech. Only a spell of 6th level or higher can remove this effect.
 >
 >
 > ### Actions
 > ***Multiattack.*** Warzog makes two melee attacks.
 >
-> ***Spellcasting.*** Warzog is a spellcaster. His spellcasting ability is Charisma (spell save DC 19, +12 to hit with spell attacks). He knows the following spells:
+> ***Spellcasting.*** Warzog is a spellcaster. His spellcasting ability is Charisma (spell save DC 18, +11 to hit with spell attacks). He knows the following spells:
 > - **At will:** *guidance, mage hand, thaumaturgy, brain burster** (3rd level), *brutal glare**, *psychic headbutt**, *savage fists**  
 > - **3/day each:** *arcane hand, here we go!**  
 > - **1/day each:** *foot of the gods** 
@@ -164,14 +164,16 @@ ___
 > ### Bonus Actions
 > ***Aggressive.*** Warzog can move up to his speed toward a hostile creature he can see.
 >
+> ***Mumbo Jumbo Dance.*** The Warzog performs a strange dance to bolster its allies. One creature within 60 feet of the orc that can see it is quickened** until the end of the Warzog's next turn. The Warzog can use this ability only if it hasn't moved during this turn. After using this ability, the Warzog's speed becomes 0 until the end of its current turn.
+>
 > ### Legendary Actions
 > Warzog can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature’s turn. He regains spent legendary actions at the start of his turn.
 >
 > **Check.** Warzog makes a skill check that would normally require an action.  
 >
-> **Jumbo Prod.** Warzog channels psychic force to shove a creature within 100 feet of him that just took its turn. That creature must succeed on a DC 19 Strength saving throw or be pushed 20 feet in a direction of Warzog’s choice. If Warzog is grappling a Squiggly Beast, the DC increases to 22 and the target also takes 13 (3d8) force damage on a failed save.
+> **Jumbo Prod.** Warzog uses Spellcasting to cast psychic headbutt targeting a creature that just took it's turn. if the attack hits, the creature is pushed 15 feet in a direction of Warzog’s choice.
 >
-> **Noggin Shaker.** Warzog rattles the mind of a creature within 100 feet of him that just took its turn. That creature must succeed on a DC 19 Intelligence saving throw or drop whatever it is holding and become dazed** until the end of its next turn. If Warzog is grappling a Squiggly Beast, the DC increases to 22 and the target also takes 13 (3d8) psychic damage on a failed save.
+> **Noggin Shaker.** Warzog uses Spellcasting to cast *brain burster** (3rd level) targeting a creature that just took it's turn. If creature fails the saving throw, it drops whatever it is holding.
 >
 > **Snatch Up.** Warzog moves up to 20 feet without provoking opportunity attacks, then attempts to grapple a Squiggly Beast within 5 feet of him that has just taken its turn.  
 >
@@ -196,24 +198,21 @@ Additionally, while a **Squiggly Beast** is within 120 feet of him, he gains a p
 
 Warzog does not benefit from the ward while he is affected by Squiggly Bane.
 
+### Warzog's Lair
+Warzog, being exceptionally busy with the very important work of lifting the spirits of orcs and grinding down the hopes, dreams, and vital organs of everyone else, rarely stays in one place for long. However, when the Great Prophet is momentarily between bouts of lifting and grinding—or occupied with the delicate artistry of constructing a truly massive monument to commemorate a particularly satisfying session of lifting and grinding—Warzog is capable of commanding an absurd amount of orcish power.
 
-
-### Ashragoth's Lair (NOTE: Need Lair Write Up)
-Ashragoth makes his lair in an obsidian tower located within a volcanic wasteland. Within the ziggurat, countless forges and altars are dedicated to the dark gods. The petrified bodies of former pupils and rivals of Ashragoth are embedded within the ramparts of the structure, At the heart of the temple lies Ashragoth’s personal laboratory, where he conducts his own dark experiments.
-
+Some claim this is due to the divine favor of the Orc Gods, a cosmic blessing upon their most cherished prophet of a job well done. Others suggest it merely stems from Warzog's unwavering and completely self-satisfied sense of a good day's work.
 #### Lair Actions
 
-When Warzog rolls initiative, his lair awakens to aid him, and until combat ends or Warzog dies, the lair has an Intelligence 5 and can act of its own accord but always acts in Warzog's best interest. While active this way, the lair is aware of the location of any creatures within it. On initiative count 20 (losing initiative ties), the lair can cause one of the following effects; it can't use the same effect two rounds in a row:
+When Warzog rolls initiative, his lair awakens to aid him, and until combat ends or Warzog dies, the lair has an Intelligence 6 and can act of its own accord but always acts in Warzog's best interest. While active this way, the lair is aware of the location of any creatures within it. On initiative count 20 (losing initiative ties), the lair can cause one of the following effects; it can't use the same effect two rounds in a row:
 
 While in his lair, Warzog's challenge rating increases by 1.
 
 **Ju-Ju Hex.** The lair chooses a Squiggly Beast within it, cursing the creature with a Ju-Ju Hex for 1 minute, until Warzog dies, or until the creature receives the Squiggly Boon. While cursed, the creature takes 13 (3d8) force damage at the end of each of its turns.
 
-**Ju-Ju Surge.** Warzog gains a surge of ju-ju energy. This effect lasts until he leaves the lair, dies, or is affected by Squiggly Bane. While benefiting from the surge, Warzog regains 13 (3d8) hit points at the end of each of his turns. (NOTE: Will this keep stacking?)
+**Ju-Ju Surge.** Warzog gains a surge of ju-ju energy. This effect lasts until he leaves the lair, dies, use this action again, or is affected by Squiggly Bane. While benefiting from the surge, Warzog regains 13 (3d8) hit points at the end of each of his turns.
 
 **Mumbo-Jumbo Burst.** The lair chooses a Squiggly Beast within it and releases a surge of energy in a 20-foot radius around it. Each creature other than a Squiggly Beast in that area must make a DC 18 Constitution saving throw, taking 16 (3d10) force damage on a failed save, or half as much on a success.
-
-
 
 ___
 > ## Ju-ju Squiggly Beast
@@ -278,13 +277,13 @@ ___
 > - **Challenge** 1 (200 XP; PB +2)
 > ___
 > ### Traits
-> ***Ju-ju Conduit.*** Any creature grappling the squiggly beast can use it as a spellcasting focus while it is being grappled.
+> ***Ju-ju Conduit.*** Any creature grappling the squiggly beast can use it as a spellcasting focus while it is being grappled. Additional, the creature grappling it gets +3 bonus to spell attack rolls and of the saving throw DCs of spells it casts.
 >
 > ***Magic Resistance.*** The squiggly beast has advantage on saving throws against spells and other magical effects.
 >
 > ### Actions
 > ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target.  
-> *Hit:* 4 (1d4 + 2) piercing damage, plus 7 (2d6) poison damage.
+> *Hit:* 4 (1d4 + 2) piercing damage.
 >
 > ***Squiggly Boon.*** The squiggly beast rolls a d6 and chooses one creature within 5 feet of it. That creature adds the result of the roll to its AC and any saving throws it makes until the end of the squiggly beast’s next turn.
 >
@@ -341,7 +340,6 @@ Warzog's primary goal during battle is to keep hold of the Ju-Ju Squiggly Beast,
 * Ogre Shaman - Parente, Wizards of the Coast
 * Necratog - Bryan Talbot, Wizards of the Coast
 
-NOTE: I'm open to other art if you know one that would be a better squiggly beast
 
 <img src='https://assets.echomtg.com/magic/cards/cropped/3286.hq.jpg' style='position:absolute; top:-0px; right:0px; width:816px;transform:scaleX(-1)' />
   
@@ -445,16 +443,11 @@ Your fists become as hard as iron, and you are filled with fighting fury. When y
 
 <br>
 
-> ##### New Condition: Dazed 
-> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
-
-<br>
-
 > ##### New Condition: Quickened
 > A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
 
 \columnbreak
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
