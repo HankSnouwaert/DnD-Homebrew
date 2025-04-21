@@ -1866,7 +1866,7 @@ style='position:absolute;bottom:-70px;left:-0px;width:816px;transform: scaleX(1)
 \pagebreakNum
 
 ### Ceradon Loot
-The valuable items looted from Ceradon will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide of a Ceradon. Alternatively, you can roll for the loot randomly using a flat modifier.
+The valuable items looted from ceradons will generally come from whatever can be harvested from them. This harvesting can usually be done using a **Wisdom (Survival)** or **Intelligence (Nature)** check. However, you may allow players proficient with specific tools to harvest items related to that tool. For example, a character might make a Wisdom (Leathworker’s Tools) check to harvest the hide of a Ceradon. Alternatively, you can roll for the loot randomly using a flat modifier.
 
 #### Ceradon Loot Tables
 The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
@@ -2718,7 +2718,20 @@ ___
 >
 > ***Wounded Charge.*** When the dread saurus's hit points drop to 0 or it triggers its Primal Instinct ability, it can use its Obliterating Charge action. After using this action, the dread saurus dies if its hit points are 0.
 >
- 
+> ### Legendary Actions
+> The dread saurian can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dread saurian regains spent legendary actions at the start of its turn.
+> 
+> **Check.** The dread saurian makes a skill check that would normally require an action.
+>
+> **Gnaw.** A creature that just ended its turn and that is grappled by dread saurian's bite attack must make a DC 24 Strength saving throw, taking 39 (6d12) piercing damage on a failed save or half as much damage on a successful one. If it fails the saving throw by 10 or more (DC 14), the damage is doubled. If this damage reduces the creature to 0 hit points, it dies.
+>
+> **Mangle.** The dread saurian makes a Claw attack. A creature hit by the attack has its speed reduced by 20 feet until the end of its next turn.
+>
+> **Swat.** The dread saurian makes a Tail attack. If a creature fails the saving throw caused by the hit, it is pushed 30 feet away.
+>
+> **Tenacious Will.** If the dread saurian is suffering from an effect that allows it to make a saving throw as an action or at the beginning or end of its next turn, it may immediately make that save against the effect with advantage. It can use this legendary action while incapacitated.
+>
+> **Obliterating Charge (Costs 2 Actions)**. The dread saurian uses its Obliterating Charge.
 
 \pagebreakNum
 
@@ -4869,7 +4882,7 @@ The following tables describe the number of items and value of those items the p
 
 | Looting Check Result or 1d20 + 7 |  Loot  |
 |:---:|:-----------:|
-|  1-8  | 2d4(2) 5,000gp Items |
+|  1-8  | 2d4(5) 5,000gp Items |
 |  9-10 | 1d6(3) 10,000gp Items | 
 |  11-17 | 2d4(5) 10,000gp Items  |  
 |  18-23 | 1d6(3) 20,000gp Items |  
@@ -5022,6 +5035,9 @@ style='position:absolute;bottom:-10px;right:0px;width:820px;transform: scaleX(-1
 * Add Skink Priests
 * Add The Wanderer
 
+#### 2.1.0
+* Add missing legendary actions to The Dread Ripper
+
 ### Carnosaur, Guldbloom's Terror
 #### 1.0.1
 * Fix formating for Guldbloom's Terror tactics
@@ -5037,3 +5053,4 @@ style='position:absolute;bottom:-10px;right:0px;width:820px;transform: scaleX(-1
 ### The Wanderer
 #### 1.0.1
 * Fix typo in adventure hooks title
+
