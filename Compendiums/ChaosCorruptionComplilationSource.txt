@@ -1,0 +1,899 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p4:after, .phb#p8:after, .phb#p11:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Chaos Storms
+ When the fickle magics of chaos spill into the mortal realms—whether by slipping through places where the veil between worlds grows thin, or drawn in by ruinous agents intent on spreading woe across kingdoms of order—they surge tenaciously across the land, leaving devastation in their wake and reshaping the world and its denizens in unpredictable ways.
+
+The following mechanics give you ways to have these storms appear in your games where they can be significant hazards for your players.
+
+## Chaos Storms Overview
+
+Each Chaos Storm functions differently, but they all share a few common traits:
+
+### Severity Levels
+Every Choas Storm can appear in varying levels of severity, which determine how powerful their effects are. The severity level determines the ideal average party level it's meant for and the amount of XP that should be awarded for overcoming its effects, as shown below.
+
+##### Chaos Storm Severity Levels
+|      Chaos Storm Severity      |  CR Equivalent| XP Award
+|:--------------------:|:-----------:|:---:|
+|           Mild            |  4 | 1,100
+|           Moderate        |  8 | 3,900
+|           Intense         | 12 | 8,400
+|           Extreme         | 16 | 15,000
+|           Destructive     | 18 | 25,000
+
+
+
+\columnbreak
+
+### Duration
+Unless stated otherwise, a Chaos Storm lasts for one round, occurring on initiative count 30 (losing ties). It either passes through or dissipates at the same count on the following round.
+
+### Detection
+At your discretion, players may have a chance to perceive the storm before it affects them, depending on narrative and environmental cues. This could give them the chance to avoid the storm by running from it or finding a way around its path. Players may also come up with ways to prepare for it, such as taking cover or setting up some temporary defenses that mitigate the storm's effects. 
+
+These options depend on the type of storm and the narrative and gameplay role it's serving in your adventure.
+
+## Implementing Chaos Storms in Your Adventures
+Chaos Storms can be a powerful tool to enhance adventures, especially when players are facing forces of chaos. Here are several ways to incorporate them:
+
+* **Environmental Tension:** Surprise your players with a Chaos Storm as they explore a corrupted wilderness, adding sudden danger and unpredictability.
+*  **Difficult Choices:** Force players to make tough decisions—perhaps they can reach their destination faster by cutting through an area plagued by storms, or they must choose between two routes, each affected by a different type of Chaos Storm.
+*  **Combat Encounters**: Introduce a Chaos Storm in the middle of a battle to shake up the flow of combat, adding a layer of dynamic environmental threat.
+
+<img src='https://i.postimg.cc/KYH3vFR4/The-Storm-Georges-Michel.jpg' style='position:absolute;right:-60px;top:-200px;width:950px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:70px; right:10px; transform:rotate(11deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:315px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+## Chaos Storm Examples
+The following are examples of different Chaos Storms you can include in your adventures listed in alphabetical order.
+
+### Echo of War
+
+*These waves of hateful magic carry with them fragments of great and bloody battles fought by countless warriors. All manner of soldiers, beasts, and demons spring into existence, wielding deadly implements of war and hewing through any who draw too near—only to dissipate moments later, their essence swept onward by the destructive tide to rise again elsewhere. These manifestations may be echoes of battles long past, conflicts raging in chaotic realms that have spilled into the mortal sphere, visions of wars yet to come, or combatants caught in the malignant current—doomed to fight until the end of days.*
+
+
+On initiative count 30 (losing ties), a storm manifests in the area. The manifestation can be attacked and damaged by creatures in it as though it were a creature with in 5 feet of them.
+
+On initiative count 1 (losing ties), the storm makes an attack against each creature within its area. On a hit, the target takes force damage based on the storm's severity.
+
+If the storm has less than half of its hit points remaining, it makes these attacks with disadvantage, and it deals half damage on a hit.
+
+If the storm has reduced to 0 hit points it disappears early.
+
+After making its attacks, the storm dissipates or moves on, ending the effect.
+
+#####  Echo of War Severity
+|      Severity Level     | Hit Points | Attack Roll Bonus |  Damage on Hit   | AC |
+|:--------------------:|:----------:|:---------------------:|:-------------:|:--:|:-----------:|:---:|
+|           Mild            |        70          |       5  |   22 <br> (5d8)     |       14         |
+|           Moderate        |        100         |       7  |   45 (10d8)    |       16         |
+|           Intense         |        130         |       9  |   67  (15d8)    |       18         |
+|           Extreme         |        160         |       11 |    90 (20d8)   |       20         |
+|           Destructive     |          190         |       13|   112 (25d8)     |       22         |
+
+\columnbreak
+
+### Plague Gale
+
+*Black bile pours from the sky, polluting the ground as foul-smelling winds hurl bloated maggots through the air. They smash against rocks, trees, and unlucky travelers, bursting on impact and splattering green, snot-like ichor. These storms fester with disease, cursing all who are caught within their rotting maelstrom.*
+
+On initiative count 30 (losing ties), roll for a result on the Plague Symptom table. Each creature within the storm that does not have resistance or immunity to necrotic damage must make a *Constitution Saving Throw.* *Failure:* The creature becomes diseased. While diseased, it has disadvantage on all d20 tests with the rolled ability for the next 2 + 2d4 days. *Failure of 10 or more:* It also suffers the Severe Symptom associated with the rolled ability.
+
+Whenever a diseased creature receives an effect that would end the Poisoned condition, it may make a Constitution saving throw. On a success, the disease ends.
+
+##### Plague Symptom  
+| d6  |Ability  | Severe Symptom |
+|:---:|:-----------|:-----------|
+|  1  | **Wisdom.** | The creature can use its action, bonus action, and reaction to only take actions that allow it to make one or more attacks. |
+|  2  | **Charisma.** |  Any attack that hits the creature scores a critical hit on a roll of 15-20 |
+|  3  | **Constitution.** | The creature has disadvantage on attack rolls. |
+|  4  | **Intelligence.** | The creature is dazed*. |
+|  5  | **Strength.** | The creature deals only half damage with attacks. |
+|  6  | **Dexterity.** | The creature cannot benefit from the Dash, Disengage, or Dodge actions. Additionally, if the creature chooses to move more than 5 feet on its turn, it uses its movement to travel in a random direction, determined by rolling a d8.
+
+##### Plague Gale Severity
+|    Severity Level     | Save DC | Party Level | XP Award |
+|:--------------------:|:-----:|:----------:|:--:|
+|           Mild            |        14          |   4 | 1,100
+|           Moderate        |        16          |  8 | 3,900
+|           Intense         |        18          |   12 | 8,400
+|           Extreme         |        20          |   16 | 15,000
+|           Destructive     |        22          |   18 | 25,000
+
+**New condition described at the end of the document*
+
+\pagebreakNum
+
+### Skittering Tide 
+*Hordes of vermin gather in inconceivable numbers and march across the land. The ground vanishes beneath a seething sea of squirming pests that skitter over every obstacle in their path. Above, living clouds of insects blot out the sky. The surging host consumes everything in its path—wood is gnawed and scarred, plant life buried beneath the crawling blanket of bodies and vanishing without a trace. Any creature caught in their relentless advance feels its skin bitten and torn; those who falter are dragged down and overrun, reduced to bone within seconds as the ravenous swarm moves on in search of its next feast.*
+
+
+On initiative count 30 (losing ties), a storm manifests in the area. The manifestation can be attacked and damaged by creatures in it as though it were a creature with in 5 feet of them. 
+
+On initiative count 1 (losing ties), the storm makes a melee spell attack against each creature within its area. On a hit, the target takes piercing damage and loses a number of rations (eaten by the storm) determined by the storm's severity.
+
+If the storm has less than half of its hit points remaining, it makes these attacks with disadvantage, deals half damage, and consumes half as many rations (rounded down).
+
+If the storm has reduced to 0 hit points it disappears early.
+
+After resolving its attacks, the storm dissipates or moves on, ending the effect.
+
+##### Skittering Tide Severity
+|      Severity Level     | Hit Points | Attack Roll Bonus |  Damage on Hit   | Rations Eaten  | AC |
+|:--------------------:|:----------:|:---------------------:|:-------------:|:-------------:|:--:|:-----------:|
+|           Mild            |        70          |       5  |   13 <br> (3d8)  |  5 (2d4) lbs.    |        14         |
+|           Moderate        |        100         |       7  |   36 (8d8)  |  10 (4d4) lbs.   |       16         |
+|           Intense         |        130         |       9  |   58  (13d8) | 15 (6d4) lbs.   |       18         |
+|           Extreme         |        160         |       11 |    81 (18d8)  | 20 (8d4) lbs. |       20         |
+|           Destructive     |          190         |       13|   103 (25d8) | 25 (10d4) lbs.    |       22         |
+
+\columnbreak
+
+### Soporific Chorus
+
+*Beguiling perfumes and haunting melodies drift through the air, lulling those exposed into a blissful stupor from which they cannot awaken.*
+
+Creatures in the area that can hear the song must make a *Charisma Saving Throw*. *Failure:* The creature falls asleep for the 2 + 2d4 hours. The creature can be woken up if it takes a certain amount of damage, depending on the storm's severity. *Fails by 10 or more:* It is remains a sleep for additional 2d4 hours. 
+
+The sleep ends early if the *dispel good and evil* spell is cast on the target or if another creature uses an action to splash it with holy water.
+
+##### Soporific Song Severity
+|      Severity Level     | Save DC | Damage Needed to Wake A Creature |
+|:--------------------:|:-----:|:----------:|:----------------------------------:|
+|           Mild            |        14          |           30          |
+|           Moderate        |        16          |         50          |
+|           Intense         |        18          |          70         |
+|           Extreme         |        20          |          90        |
+|           Destructive     |        22          |         110        |
+
+
+### Spatial Distortion
+
+*Tendrils of arcana that defy reason coil around reality itself, causing the universe to bend and ultimately break. The laws of distance and space no longer hold authority. Those caught within the maelstrom behold landscapes folding and moving past one another, where a single misstep within the discord can send a person miles away to an unknown destination. Only those with the keenest comprehension can navigate the shifting labyrinth.*
+
+On initiative count 30 (losing ties), each creature in the storm may choose any number of other willing creatures within 5 feet of it to form a group. Each group designates one creature to make an *Intelligence Saving Throw:* *Failure:* The entire group is teleported 1 + 1d4 miles in a random direction, determined by rolling a d8. Each group that fails is teleported a different distance and direction. *Success by 10 or more:* The creature that made the save may choose a direction and have the group is teleported, traveling 1 + 1d4 miles in that chosen direction.
+
+##### Spatial Distortion Severity
+|      Severity Level      | Save DC |
+|:--------------------:|:-----:|:-----------:|
+|           Mild            |        14    |
+|           Moderate        |        16    |
+|           Intense         |        18    |
+|           Extreme         |        20    |
+|           Destructive     |        22    |
+ 
+
+\pagebreakNum
+
+
+### Wave of Treason
+
+*Malicious schemes with a life of their own creep through the shadows, ever seeking an opportunity to sow mayhem. An unease permeates the air as they draw near, though nothing can be seen by eyes of flesh and blood. Soon, whispers as loud as thunder ring in the ears of pure-hearted mortals, transmuting trust into hatred as comrades turn into adversaries.*
+
+On initiative count 30 (losing ties), each creature in the storm must make a *Wisdom saving throw*.  *Failure:* The creature is Charmed for 1 minute by a malevolent spirit that seeks to harm everyone the creature holds dear. While charmed in this way, the spirit controls the creature’s actions. On the creature’s turn, it uses its action to either make a weapon attack or cast a cantrip. It may move but it can't move into dangerous terrain *Failure of 10 or more:* It becomes Quickened* while charmed.
+
+**New condition described at the end of the document*
+
+##### Wave of Treason Severity
+|      Severity Level     | Save DC  |
+|:--------------------:|:-----:|:----------:|:---:|
+|           Mild            |        14          |
+|           Moderate        |        16          |
+|           Intense         |        18          |
+|           Extreme         |        20          |
+|           Destructive     |        22          |
+
+<br>
+
+#### Choas Storms Art Credit
+* The Storm - Georges Michel
+* The Horrors of War, Sketch for Burghley House Mural - Georges Michel
+
+\columnbreak
+
+## Creating Your Own Chaos Storms
+
+If you want to create your own Chaos Storms or similar effects for your adventures, the following table provides some general guidelines for how to balance some of the more common stats based on the storm's severity level.
+
+##### Chaos Storm
+|      Storm Severity      | Save DC | Hit Points | Attack Roll and Saving Throw Bonus | AC |
+|:--------------------:|:-----:|:----------:|:----------------------------------:|:--:|:-----------:|
+|           Mild            |        14          |       70          |       5         |       14         |
+|           Moderate        |        16          |       100         |       7         |       16         |
+|           Intense         |        18          |       130         |       9         |       18         |
+|           Extreme         |        20          |       160         |       11        |       20         |
+|           Destructive     |        22          |       190         |       13        |       22         |
+
+<br>
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<br>
+
+> ##### New Condition: Quickened
+> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+<img src='https://i.postimg.cc/ht3tVsg5/The-Horrors-of-War-Sketch-for-Burghley-House-Thomas-Stothard.jpg' style='position:absolute;right:-0px;bottom:-250px;width:820px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-265px; right:0px; transform:rotate(180deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+
+\pagebreakNum
+
+
+
+# Chaos Mutations
+
+The twisting power of Chaos carries an unpredictable quality in its corruption, bestowing a wide range of deadly traits upon individuals. In places where Chaos has deeply seeped into the land, there are records of monsters unlike anything seen elsewhere in the world—wolf-like creatures with jagged beaks whose saliva can dissolve metal; massive predatory cats that melt into shadows and scale the sheer stone walls of fortresses to feed on inhabitants within; and even strange, wicked humanoids with hides thicker than leather, constantly shifting and warping to ward off attack. Accounts of these bizarre deviations and their horrific exploits are numerous. Yet no two records ever share a description of the exact same miscreation.
+
+The following mechanics provide various mutations you can apply to existing creatures to represent the warping effect Chaos (or any other power appropriate to your setting) has had on that creature. This can provide surprise twists on creatures players are familiar with that challenge them in new ways and meaningfully display the power of Chaos to distort everything it touches.
+
+<br>
+
+> ##### Using Mutations To Create Urgency In Adventures
+> If you're running an adventure that focuses heavily on encounters with minions of chaos
+  and you want to create a sense of urgency, you can have the creatures in the adventure gain mutations as time passes. This means the more slowly and carefully the players progress, the more dangerous they will become. This can help keep the players from playing too conservatively. 
+> 
+> If you want the mutations to be random, you can roll a d20 (or 1d6 for beastmen mutations) to determine what mutation they will gain.
+>
+> The rate at which they gain mutations could be on the scale of hours or days, depending on the scope and pacing of your adventure.
+>
+
+<br>
+
+### Chaos Mutations Art Credit
+* Deer in the Forest, Eugen Krüger
+
+\columnbreak
+
+## Chaos Mutation List
+
+The following is a list of mutations that can be applied to any creature to represent the effects the constant mutating power of chaos can have on them. The creature receiving the mutation is referred to as the "mutant."
+
+Applying a mutation increases a mutant's CR by 1 (fractional CRs are doubled, e.g., a CR 1/4 creature becomes CR 1/2.)
+
+To pick a mutation at random, roll 1d20 and match the result to the number of the mutation.
+
+##### Mutation Save DC
+
+If a mutation force a creature to make a Saving throw or check, the DC is equal to 10 + it's Proficiency Bonus
+
+### Mutations
+
+#### 1. Acidic Secretions
+
+*The beast’s claws, teeth, or other natural weapons drip with corrosive fluids, capable of reducing a victim to a delectable slurry should the caustic substance make contact.*
+
+Choose one of the mutant's natural weapons to become enhanced.
+
+Once per turn when the mutant hits with the enhanced weapon, the target takes an extra 10 (3d6) acid damage and the creature is covered in acid until it or a creature uses its action to scrape or wash the acid off. While covered in acid, it takes 10 (3d6) acid damage at the end of each of its turns.
+
+
+#### 2. Adaptive Defense
+
+*Should one manage to wound the beast, its body begins to twist and change. Within seconds, it adapts into a new form impervious to the attacker’s strikes.*
+
+The mutant gains the following Reaction:
+
+***Adaptive Defense (Recharges after a Short or Long Rest).*** *Trigger:* When the mutant takes damage. *Response:* The mutant becomes immune to the triggering damage type for the next minute. (This does not negate the damage that triggered the reaction.)
+
+
+#### 3. Earth-Ripping Claws
+
+*With massive paws or chitinous blades, the beast moves through the earth like a fish through water. Lurking below, it waits for the telltale vibrations of prey above before it strikes.*
+
+The mutant has a burrow speed of 20 feet and Tremorsense out to 30 feet.
+
+
+#### 4. Expeditious Metabolism
+
+*The creature can digest blood, flesh, and bone within seconds, rapidly converting the carnage into fuel to restore its own body.*
+
+Choose one of the mutant's natural weapons to become enhanced.
+
+Once per turn when the mutant hits with the enhanced weapon, it regains 20 hit points.
+
+
+\pagebreakNum
+
+#### 5. Gnarled Hide
+
+*The beast's hide has toughened up to the point that it serves as a layer of living armor.*
+
+The mutant gets +3 to its AC
+
+
+#### 6. Gouging Tusks
+
+*The beast has a large pair of tusks sprouting from its lower jaw, granting it an even more devastating charge attack.*
+
+Choose one of the mutant's natural weapons to become enhanced.
+
+Once per turn, if the mutant has moved 20+ feet straight toward a target immediately before it hits with the enhanced weapon, the target takes an extra 17 (5d6) piercing damage.
+
+
+#### 7. Many Limbed Monster
+
+*The beast sports an extra pair of limbs to tear at its enemies.*
+
+Choose one of the mutant's natural weapons.
+
+When the mutant takes the Attack action, it makes one additional attack as part of the action, which uses the attack modifier of the chosen weapon for the attack roll. On hit, the target takes 14 (4d6) slashing damage.
+
+
+#### 8. Regeneration
+
+*No amount of slicing, stabbing, or thrashing will keep it down for long. Muscles regrow, skin stitches itself closed, bones snap back into place—and the beast rises once more.*
+
+The mutant regains 15 hit points at the start of its turn. If the mutant takes fire or acid damage, this trait doesn't function at the start of the mutant's next turn. The mutant dies only if it starts its turn with 0 hit points and doesn't regenerate.
+
+
+#### 9. Infesting Injector
+
+*The beast can implant parasitic organisms into other creatures—whether they are grotesque organisms it harbors or its own repulsive young.*
+
+Once per turn, when the mutant hits with the enhanced weapon, parasites burrow into target's flesh, infesting it. While infested, the creature takes 10 (3d6) damage. Any creature within reach can use an action to make a DC Wisdom (Medicine) check to remove the parasites using a weapon or object that deals fire, piercing, or slashing damage, causing 1d6 damage of the same type to the target. On a successful check, the effect ends. The creature making the check can choose to gain advantage by more aggressively trying to remove the parasites, but if it does, the target takes 2d6 damage instead.
+
+
+#### 10. Shadow Hide
+
+*The beast's black fur melds perfectly with the darkness around it, allowing it to stalk its prey from the shadows while completely unseen.*
+
+While in darkness, the mutant is invisible to any creature that relies on darkvision to see it in that darkness. Additionally, it gets a +5 on Dexterity (Stealth) checks and does not suffer disadvantage on checks from wearing armor.
+
+\columnbreak
+
+#### 11. Shredding Implement
+
+*The beast’s claws, beak, horns, or other natural weapons grow jagged and barbed, tearing muscles into tattered, useless strands.*
+
+Choose one of the mutant's natural weapons to become enhanced.
+
+Once per turn, when the mutant hits with the enhanced weapon, the target suffers a rending wound. While wounded, the target has disadvantage on Strength, Dexterity, and Constitution d20 Tests, and its speed is halved. The wound ends if the target regains 15 or more hit points at once or if the target, or a creature within 5 feet of it, can use an action to stanch the wound by succeeding on a DC Wisdom (Medicine) check.
+
+
+#### 12. Slug-Skin
+
+*This beastman's disgusting skin oozes thick, slippery, toxic slime.*
+
+At the end of the mutant's turn, any ground within 5 feet of it is covered in slime for the next minute, causing it to become difficult terrain.
+
+A creature standing on the slime has disadvantage on Dexterity and Strength saving throws, and prone creatures in the area must spend all their movement to stand up instead of half. If a creature ends its turn in the area, it takes 10 (3d6) poison damage. Any creature with this mutation ignores its effects.
+
+
+#### 13. Snatching Appendage
+
+*Whether a chameleon-like tongue, mantis-like limbs, or a grotesquely elongated arm, the beast can strike with lightning speed and drag its ill-gotten prize away—screaming.*
+
+Choose one of the mutant's natural weapons to become enhanced.
+
+The enhanced weapon has its reach extended by 15 feet. On hit, the target is grappled and pulled 15 feet towards the creature.
+
+
+#### 14. Sneak Attack
+
+*Driven by malevolent cunning, the beast exploits even the most minuscule of gaps in its opponents' defenses, striking with terrifying precision.*
+
+Once per turn, the mutant deals an extra 21 (6d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the mutant that isn't incapacitated and the mutant doesn't have disadvantage on the attack roll.
+
+
+#### 15. Splendid Mantle
+
+*This beast is adorned with especially grandiose features—twisting horns, vibrant feathered plumes, or some other majestic trait. Granting it an arrogant confidence, fully aware it has been blessed by the dark gods.*
+
+If the mutant is not bloodied, it gets +5 to all Intelligence, Wisdom, and Charisma saving throws.
+
+\pagebreakNum
+
+
+#### 16. Springing Legs
+
+*The beast can launch itself staggering distances, crashing down upon the unprepared.*
+
+Once per turn, the mutant can jump up to 40 feet by spending 10 feet of movement. If the mutant has jumped 20+ feet straight toward a target immediately before it hits with an attack, it gains advantage on the attack roll.
+
+
+#### 17. Sticky Smear 
+
+*The beast is able to Release clinging webbing or thick mucus, which immobilize anything caught within.*
+
+Choose one of the mutant's natural weapons to become enhanced.
+
+Once per turn, when the mutant hits with the enhanced weapon, the creature is restrained by sticky mucus or webbing until it is destroyed (AC 15; HP 20; immune to bludgeoning, necrotic, poison, and psychic damage).
+
+
+#### 18. Uncanny Senses
+
+*The beast's primal senses have been heightened to new levels, allowing it to perceive even the most well-hidden prey and the stealthiest of threats.*
+
+The mutant gets +5 on initiative rolls and Wisdom (Perception) checks and does not suffer disadvantage on Wisdom (Perception) checks in areas that are lightly obscured. It also gains blindsight out to 30 feet.
+
+
+#### 19. Unsettling Scuttle
+
+*Insectoid limbs lined with barbed hairs allow the beast to move in an off-putting, unpredictable manner. It skitters effortlessly across any terrain, bypassing foes without pause or penalty.*
+
+The mutant has a climb speed equal to its walking speed and can climb on difficult surfaces, including along ceilings, and doesn't provoke attacks of opportunity.
+
+
+#### 20. Vile Toxins
+
+*The beast’s venom is so potent that even the slightest scratch can deliver a fatal dose, sapping away life in mere seconds.*
+
+Choose one of the mutant's natural weapons to become enhanced.
+
+Once per turn, when the mutant hits with the enhanced weapon, the target must make a Constitution Saving Throw. *Failure:* The target is poisoned for the next minute. While poisoned, it can't regain hit points. At the end of each of its turns, the poisoned creature repeats the Constitution Saving Throw. *Success:* It ends the poison. *Failure:* It takes 14 (4d6) poison damage.
+
+\columnbreak
+
+### Beastmen Mutations List
+
+The following is a list of mutations that can only be applied to beastmen.
+
+
+#### 1. Arcane Fury
+
+*The beastman’s horns act as arcane conduits, drawing in powerful magic and infusing it with potent mystic vigor.*
+
+The beastman gains the following reaction:
+
+ *Trigger:* When another creature within 15 feet of the beastman casts a 1st or higher level spell. *Response:* The beastman enters a frenzy. If the beastman already frenzied, it may move up to half its speed and make a single gore attack. The attack has advantage if it is made against the creature that triggered the ability.
+
+
+
+#### 2. Cursed Tongue
+
+*Humility is anathema to the beastman. Should another cause it to appear weak or foolish, it responds by weaving a hex in its foul language—inflicting it upon the source of its shame.*
+
+When the beastman loses its frenzy from missing with all of its attacks against the same creature on the same turn, it may curse a creature. It may also curse a creature when it loses its frenzy due to being charmed or frightened by a creature. The curse lasts for one minute, until the beastman enters its frenzy again, or until the beastman dies. While cursed, whenever a target makes a d20 test, the target must subtract 1d6 from the roll. A creature can be cursed this way by more than one beastman at a time, and the effects stack.
+
+
+#### 3. Disfiguring Hate
+
+*The beastman’s fury warps its visage into a grotesque mask of rage. Its guttural roars of loathing echo forth, while a slick, rancid sweat seeps from its flesh, carrying a stench so hateful it stings the eyes—a living nightmare of repulsion.*
+
+The beastman emits an aura in a 30-foot emanation from itself while it is frenzied which forces creatures to make the following saving throw. *Wisdom Saving Throw:* Each enemy that starts its turn in the emanation. *Failure:* The creature is frightened of all frenzied creatures until the start of its next turn. If a creature would make multiple saving throws against the Disfiguring Hate abilities of multiple beastmen, it instead makes a single saving throw. The save DC equals the highest save DC among the beastmen plus 2 per saving throw that was forgone.
+
+
+#### 4. Fetid Soul
+
+*So drenched in festering hatred is the beastman’s spirit that, as it tears free from its corpse in death, the vile essence fouls all it touches—leaving rot and hate in its wake.*
+
+When the beastman dies while it is frenzied, it explodes, forcing creatures to make the following saving throw. *Constitution Saving Throw:* Each non-beastman creature within a 10-foot emanation of the beastman when it dies. *Failure:* The creature takes 7 (2d6) necrotic damage and suffers a level of exhaustion. Success: Half damage only. Each beastman in the emanation enters a frenzy if it is not already in one.
+
+\pagebreakNum
+
+
+#### 5. Rune of the Beast
+
+*The beastman has a large eldritch rune carved into its flesh. When it becomes enraged, the rune glows red hot and distorts the flow of magic around it.*
+
+If the beastman fails a saving throw against a spell while frenzied, it can choose to end the frenzy and succeed instead. If the beastman would take half damage on a success, it instead takes no damage.
+
+\columnbreak
+
+#### 6. Wounded Rage
+
+*Deep wounds and broken bones only drive the beastman to strive harder, dreading the judgment of its dark gods should it die in failure.* 
+
+If the beastman is bloodied and frenzied, it has advantage on attack rolls, and its attacks deal an additional 7 (2d6) damage on hit.
+
+<img src='https://cdn2.picryl.com/photo/2021/12/27/eugen-aa5702-1024.jpg' style='position:absolute;left:-0px;bottom:-140px;width:820px;transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-60px;top:-835px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br>
+
+# New <br> Creature
+
+## Moonspite
+*The Wandering Lunar Horror*<br>
+**Habitat:** Any except Underwater & Urban; **Treasure:** Any <br>
+### Of the Coming of Moonspite
+In the runes of old, traced in a tongue no longer spoken, is writ the doom of the elder days, when a horror was wrought upon the world. For in that time, the moon waxed full with an eerie light, and the Ancient Forests were bathed in a glow of green, a hue not of this world nor of kindly stars. And deep in the crannies of the wood, old things stirred—things that men, in dread, had cast into the depths—and they shattered the silence of the night with the cries of the unbidden.
+
+Then rose from the glades and the hollow places a clamor most vile, for the old things, long hushed yet filled with wickedness, set forth in madness upon the world, reveling in their profane rites. And their howls and chants rose up as a dirge unto the sickly moon, whose visage hung low, brooding as one who waits to devour. For in that night of ruin, the moon drew ever near, casting down its jade light, till the vile dancers in the wood were illuminated as by the light of day, and the darkness was driven from their revels.
+
+Then, upon the stroke of the witching hour, a stone of green loosed itself from the sundered moon, and through the heavens it fell, its burning wake a scar upon the sky. And it smote the earth in the midst of the howling throng, and the forests shook, and the land groaned, for all within miles of the impact—be they mighty oaks or nameless horrors—had their forms unmade and their voices silenced. And where once the cacophony of wicked mirth had echoed, now only silence dwelled.
+
+Yet it is told that something stirred within the ruin. For from the shattered stone that fell upon the earth, there crawled a thing most loathsome, slick with the ichors of its unnatural birth. And as it beheld the ruin that lay about it, the thing cried out, not as beast nor man, but as some blasphemous mingling of the two. Thus did Moonspite come into the world, and thus did it set forth upon its accursed path.
+
+### Of the Wanderings of Moonspite
+When the moon waxes full and terrible, and the sky is lit with a glow not of the sun, then may Moonspite be seen. Across the hills it strides, and by the rivers it treads, and through the old groves it passes, its form glimpsed—a shadow against the lambent sky. And as it moves, it sings, but its songs are not meant for man nor beast.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+For its voice is as a dirge sung backwards, a hymn of woe in the tongues of men, yet perverted, inverted, and twisted, so that none may comprehend and none may bear to listen. And between its verses rise its cries—like the screams of beasts in agony. All who hear this chant, whether man or beast, lament the coming of Moonspite.
+
+And on these nights, when the stars look down in pity and the wind dares not breathe, it is said that Moonspite seeks out the altars of old, those places where once the elder races built shrines to hold back the things that were before the dawn. For Moonspite knows no longing greater than to cast down these stones, to break their sacred wards, and to call forth the forgotten terrors, that they may feed once more upon the trembling fears of men.
+
+### Of the Shape of Moonspite
+Few have beheld Moonspite and lived, and fewer still have kept their wits upon their return. From the mouths of madmen what is known is this: that Moonspite rides upon a beast of two heads—one that speaks only truth, and one that weaves only lies. And as it rides, it sways, its limbs slick and wretched, clothed in wetness like a thing newly birthed. A mane of matted filth hangs about its neck, and upon its leech-like head are horns as of jade, shaped by no earthly hand.
+
+And in the center of its brow are many eyes, slitted and filled with fire, pale and green, as the light that once shone upon the fires of its conception. And when it sings its terrible chant, swaying before the great moon that cast it forth, then do the heavens answer, and the sky is riven, and the stars themselves retreat. And out of the void come stones, burning green and bright, falling as a tempest upon the world, bringing low all who stand before the Harbinger of Madness.
+
+For Moonspite shall wander the land until the last shrine of old is toppled, and the elder terrors of the world walk again in the places of men. And the song, not meant for man nor beast, shall ring louder than ever before.
+
+<img src='https://i.postimg.cc/q747b9h4/A-Wet-Moon-Putney-Road.jpg' style='position:absolute; top:-0px; right:-0px; width:1120px; transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-75px; right:90px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(28deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:100px; right:-47px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+
+
+\pagebreakNum
+
+
+___
+___
+> ## Moonspite
+> *Medium fiend, chaotic evil*  
+> ___
+> - **Armor Class** 17 (natural armor) &emsp;&emsp;&emsp;**Initiative** +7 (17)
+> - **Hit Points** 232 (31d8 + 93)  
+> - **Speed** 40 ft.
+> 
+> <table>
+> <tr style="background-color:transparent">
+>   <td colspan="2"></td>
+>   <td><font size="-2">MOD</font></td>
+>   <td><font size="-2">SAVE</font></td>
+>   <td></td>
+>   <td colspan="2"></td>
+>   <td><font size="-2">MOD</font></td>
+>   <td><font size="-2">SAVE</font></td>
+>   <td></td>
+>   <td colspan="2"></td>
+>   <td><font size="-2">MOD</font></td>
+>   <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+>   <td><b>STR</b></td>
+>   <td style="text-align:center">20</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+5</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+5</td>
+>   <td></td>
+>   <td><b>DEX</b></td>
+>   <td style="text-align:center">16</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+3</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+3</td>
+>   <td></td>
+>   <td><b>CON</b></td>
+>   <td style="text-align:center">16</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+3</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+>   <td><b>INT</b></td>
+>   <td style="text-align:center">14</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+2</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+6</td>
+>   <td></td>
+>   <td><b>WIS</b></td>
+>   <td style="text-align:center">20</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+5</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+9</td>
+>   <td></td>
+>   <td><b>CHA</b></td>
+>   <td style="text-align:center">14</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+2</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +9, Religion +6, Perception +13, Intimidation +10, Stealth +11, Survival +9  
+> - **Damage Resistances** Psychic  
+> - **Senses** Darkvision 120 ft., Passive Perception 23  
+> - **Languages** All languages (though Moonspite speaks them backward); Telepathy 120 ft.  
+> - **Challenge** 12 CR (8,400 XP; PB +4)
+> ___
+> ### Traits  
+> ***Aura of Madness.*** Moonspite emits an aura in a 60‑foot emanation from itself. Each enemy that starts its turn within the emanation must make a *Wisdom Saving Throw:* DC 17. *Failure:* The creature can’t take reactions until the start of its next turn and must roll a d6 to determine its actions for that turn using the Madness Effects Table (found on the next page) If the failure is by 5 or more, it rolls 2d6 instead; if by 10 or more, it rolls 3d6.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain costs Moonspite no extra movement.
+>
+> ***Lunar Cleansing.*** When Moonspite or a creature it is mounted on must make a saving throw against its Unholy Zenith ability, it can choose to fail. If it does, it takes only half damage. Additionally, if it is affected by an effect that allows it to make a saving throw or check as an action—or at the beginning or end of its next turn—it may immediately make that save or check and automatically succeed.
+>
+> ***Magic Resistance.*** Moonspite has advantage on saving throws against spells and other magical effects.
+>
+> ***Shielded Mind.*** Moonspite is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location.
+> 
+> ### Actions  
+> ***Multiattack.*** Moonspite makes two attacks.
+>
+> ***Shadow Gore.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:* 18 (3d8 + 5) necrotic damage. If Moonspite moved 20 or more feet straight toward the target immediately before the hit, the target takes an extra 9 (2d8) necrotic damage and must make a *Strength saving throw:* DC 17. *Failure:* The target is knocked prone.
+>
+> ***Tormenting Bolt.*** *Ranged Spell Attack:* +9 to hit, range 100/150 ft., one target. *Hit:* 23 (4d8 + 5)
+> 
+> ### Unholy Zenith 
+> **The Dark Powers.** When Moonspite rolls initiative under the night sky, it chooses a point and calls upon Dark Powers to summon a shower of comets onto its foes. For the next minute—or until Moonspite dies—the Dark Powers, which have an Intelligence of 16, act autonomously and always in Moonspite's best interest. While active, the Dark Powers become aware of the location of any creature within 120 feet of the chosen point.
+>
+> **Summoning Comets.** On initiative count 30 (losing ties), the Dark Powers select three points 300 feet above the chosen point (each within 120 feet of Moonspite), causing those points to glow with a dim green light.
+>
+> **Comets Arrival.** On initiative count 0 (losing ties), the Dark Powers roll a d6 for each glowing point. For each point that rolls a 1–3, nothing occurs. For each point that rolls a 4–6, the glow disappears and a 5‑foot‑radius comet materializes at the chosen point and immediately descends. The comet passes through any Large or smaller creature or object, exploding in a 15‑foot‑radius sphere when it hits a solid surface or a Huge or Gargantuan creature. The explosion's effects spread around corners.
+>
+> **Being Hit By Comets.** Each creature or object that comes in contact with one or more comets, as well as those within any explosion's area, must make a *Dexterity saving throw:* DC 17. *Failure:* A creature takes 14 (4d6) fire damage plus 14 (4d6) bludgeoning damage. *Success:* Half damage. A creature can't be affected by more than one comet at once.
+
+
+</span>
+
+
+
+\pagebreakNum
+
+
+
+
+
+### Madness Effects Table  
+
+| Number Rolled | Name        | Effect |
+|:---:|:-----------|:-----------|
+|  1  | Stable     | The creature acts as normal. |
+|  2  | Agitated    | The creature must take the Attack action or cast a spell that deals damage. |
+|  3  | Fixated    | The creature must spend 2 feet of movement for every 1 foot it moves when moving away from any creatures hostile to it that it is aware of. |
+|  4  | Trepidation | The creature must spend 2 feet of movement for every 1 foot it moves when moving closer to any creatures hostile to it that it is aware of. |
+|  5  | Paranoid   | The creature considers no other creature an ally, refusing help and being unable to benefit from the spells and effects of allies. |
+|  6  | Lonely    | The creature has disadvantage on attack rolls and checks unless it is within 5 feet of an ally that isn't incapacitated. |
+|  7  | Dizzy      | The creature uses half it's movement to travel in a random direction, determined by rolling a d8. It can then take the rest of its turn as normal. |
+|  8  | Babble     | The creature yells at the top of its lungs. It can't cast spells with verbal components, speak, eat, or drink until the start of its next turn. |
+| 9  | Blurred Vision     | The creatrue unable to see anything farther than 10 feet away until the start of it's next turn. |
+
+
+<br>
+
+> ##### New Condition:  Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+\columnbreak
+
+<br><br>
+
+| Number Rolled | Name        | Effect |
+|:---:|:-----------|:-----------|
+|  10  | Dull-Witted | The creature can make only one attack during the turn and can only cast cantrips. |
+| 11  | Huddle     | The creature falls prone and can't stand up for the rest of its turn. |
+| 12  | Addled     | Until the end of the turn, the creature is dazed (condition described below) and can't concentrate. |
+| 13  | Frantic    | The creature must take the Dash, Dodge, or Disengage action this turn. |
+| 14  | Shivers    | The creature drops whatever it is holding. It can't pick up items, wield weapons, or cast spells with somatic components. |
+| 15  | Denial     | The creature can't see or hear any creatures hostile to it until the start of its next turn. |
+| 16  | Violent   | The creature moves toward the nearest creature it is aware of and then uses its action to make a single attack if the target is within range. |
+| 17  | Penance    | The creature uses it's action to make an attack with whatever it is holding against itself, automatically hitting. |
+| 18 + | Catatonia | The creature is stunned until the start of its next turn. |
+
+
+
+
+<br>
+
+### Epic Battle: The Two-Headed Beast
+If you wish to turn the Moonspite into an endgame threat, have him accompanied by his mount Umbraloth. Together, they are the equivalent of a Challenge Rating (CR) 20 encounter. Additionally, Unholy Zenith does not end unit both Moonspite and Umbraloth are dead, and Umbraloth may use its action to take the attack action even if it is a control mount. 
+
+<img src='https://i.postimg.cc/y6ZkNXHq/The-Harvest-Moon.jpg' style='position:absolute;left:-0px;bottom:-372px;width:820px;transform:scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-60px;top:-255px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Umbraloth
+> *Large fiend, chaotic evil*  
+> ___
+> - **Armor Class** 16 (natural armor) &emsp;&emsp;&emsp;**Initiative** +7 (17)
+> - **Hit Points** 161 (19d10 + 57)  
+> - **Speed** 60 ft.
+> 
+> <table>
+> <tr style="background-color:transparent">
+>   <td colspan="2"></td>
+>   <td><font size="-2">MOD</font></td>
+>   <td><font size="-2">SAVE</font></td>
+>   <td></td>
+>   <td colspan="2"></td>
+>   <td><font size="-2">MOD</font></td>
+>   <td><font size="-2">SAVE</font></td>
+>   <td></td>
+>   <td colspan="2"></td>
+>   <td><font size="-2">MOD</font></td>
+>   <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+>   <td><b>STR</b></td>
+>   <td style="text-align:center">20</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+5</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+5</td>
+>   <td></td>
+>   <td><b>DEX</b></td>
+>   <td style="text-align:center">16</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+3</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+3</td>
+>   <td></td>
+>   <td><b>CON</b></td>
+>   <td style="text-align:center">16</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+3</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+>   <td><b>INT</b></td>
+>   <td style="text-align:center">10</td>
+>   <td style="background-color:#e0e5c1; text-align:center">0</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+4</td>
+>   <td></td>
+>   <td><b>WIS</b></td>
+>   <td style="text-align:center">14</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+2</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+6</td>
+>   <td></td>
+>   <td><b>CHA</b></td>
+>   <td style="text-align:center">14</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+2</td>
+>   <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Deception +10, Insight +10, Perception +10, Stealth +11  
+> - **Damage Resistances** Psychic  
+> - **Senses** Darkvision 120 ft., Passive Perception 20  
+> - **Languages** All; Telepathy 120 ft.  
+> - **Challenge** 10 (5,900 XP; PB +4)
+> ___
+> ### Traits  
+> ***Land's Stride.*** Moving through nonmagical difficult terrain costs Umbraloth no extra movement.
+>
+> ***Magic Resistance.*** Umbraloth has advantage on saving throws against spells and other magical effects.
+>
+> ***Shielded Mind.*** Umbraloth is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location.
+> 
+> ### Actions  
+> ***Multiattack.*** Umbraloth makes two attacks. It can use Twisted Lies and Horrifying Truths after its attacks.
+>
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:* 18 (3d8 + 5) piercing damage.
+>
+> ***Twisted Lies.*** *Wisdom Saving Throw:* DC 17, one creature that can hear Umbraloth. *Failure:* The creature becomes overwhelmed by twisted lies. While overwhelmed, it takes 16 (3d10) psychic damage at the end of each of its turns and gains a +10 bonus to Deception checks. The effect ends if the target becomes overwhelmed by Horrifying Truths or if the target, or a creature within 5 feet of it, uses an action to ground the target by succeeding on a DC 17 Wisdom (Insight) check.
+>
+> ***Horrifying Truths.*** *Charisma Saving Throw: DC 17,* one creature that can hear Umbraloth. *Failure:* The creature becomes overwhelmed by horrifying truths. While overwhelmed, it takes 16 (3d10) psychic damage at the end of each of its turns and gains a +10 bonus to Insight checks. The effect ends if the target becomes overwhelmed by Twisted Lies or if a creature within 5 feet of it uses an action to ground the target by succeeding on a DC 17 Charisma (Deception) check.
+
+</span>
+
+<img src='https://i.postimg.cc/nh0LW3vm/Untitled-sunset-with-quarter-moon-and-farmhouse.jpg' style='position:absolute; top:-5px; right:-0px; width:900px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:240px; right:-30px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+\pagebreakNum
+
+
+
+### Approach of The Lunatic King 
+
+Moonspite does not maintain a traditional lair or remain in one location for an extended period. Instead, he appears several days before the full moon, usually to enact some mad scheme that culminates on the night of the full moon. He then disappears once again after his work is done.  
+
+The presence of Moonspite drastically affects his surroundings, bringing insanity that warps the land within 10 miles of his location, creating the Moonspite's Madness and Rain of Doom effects, which last until Moonspite leaves or dies.
+ 
+
+
+#### Moonspite's Madness  
+Whenever a creature takes a long rest and sleeps, it rolls a d6 and experiences one of the following effects based on the result:  
+
+
+##### Sleep Effects
+| 1d6  | Effect |
+|:---:|:-----------|
+| 1-2 | The creature sleeps as normal. |
+| 3-4  | The creature witnesses a vision of the last atrocity Moonspite committed. |
+| 5-6  | The creature witnesses a vision of the next atrocity Moonspite plans to commit or his ultimate goal in the area. |
+
+A creature that sees any vision this way must succeed on a DC 17 Wisdom saving throw or suffer from Moonspite’s Madness. A creature can be affected by multiple madness effects. A creature that finishes a long rest outside the area affected by Moonspite can repeat the saving throw, ending one madness of its choice effect on a success.  
+
+Creatures under the sway of Moonspite cannot find respite, as their minds urge them to carry out strange acts. Whenever a creature suffers from Moonspite’s Madness, it rolls on the table below. The creature cannot take a short or long rest until it performs the required action within an hour of resting. If it has multiple madness effects, it must complete all required acts before it can rest.   
+
+<br>
+
+##### Moonspite Art Credit
+* A Wet Moon, Putney Road - John Atkinson Grimshaw
+* The Harvest Moon - Samuel Palmer
+* Untitled (sunset with quarter moon and farmhouse) - Edward Mitchell Bannister
+
+
+
+\columnbreak
+
+##### Madness Effects
+| 1d6  | Effect |
+|:---:|:-----------|
+| 1  | The creature must howl at the moon under the night sky for 10 minutes without interruption. |
+| 2  | The creature must travel one mile in a single direction under the night sky. |
+| 3  | The creature must create a crude image of Moonspite, either by carving it into a surface or drawing it on paper. When the creature does this, Moonspite becomes aware of the act and its location. |
+| 4  | The creature must sing about another creature with an Intelligence of 7 or higher that it has killed or maimed since its last rest. |
+| 5  | The creature must break a manufactured object worth at least 10 gold as a sacrifice to the moon. Objects broken this way cannot be affected by the mending spell for 1d4 years. |
+| 6  | The creature must take a vow to speak only truths for before it rests that lasts until it takes another rest. If it breaks this vow, it immediately takes 33 (6d10) psychic damage the first time it does so. |
+
+
+### Moonspite Encounters 
+The following are example encounters that can be used in adventures involving Moonspite. These encounters assume that Moonspite will be a Hard challenge and are designed for parties of level 9 characters. The creatures here can be found in the Beastmen Compendium.
+
+| 1d12  | Encounter |
+|:---:|:-------------|
+| 1 | 3 Besthorn and a Bray Speaker with the Lore of Shadow |
+| 2 | 7 Shorthorn Stalkers |
+| 3 | 7 Shorthorn Tormentors and a Chaos Spawn ( Spawn of Excess Table for Writhing Attacks) |
+| 4 | 4 Lesser Chaos Spawn (Spawn of Change Table for Writhing Attacks) |
+| 5 | A Chaos Spawn (Default Table for Writhing Attacks) with a Bray Speaker with the Lore of The Wild |
+| 6 | 3 Besthorn Manrippers, 3 Shorthorn Tormentors, 3 Stalkers |
+| 7 | 2 Minotaur Flesh Gorgers and 2 Lesser Bray Speakers with the Lore of Shadow |
+| 8 | 2 Minotaur Flesh Gorgers with 5 Shorthorn Tormentors |
+| 9 | Warhorn with 2 Besthorn |
+| 10 | A Chaos Spawn (Spawn of Change Table for Writhing Attacks) and A Chaos Spawn (Spawn of Change Table for Writhing Attacks) |
+
+
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+### Revision Numbers
+
+#### Local Content
+* Chaos Storms 1.0.0
+* Chaos Mutations 1.0.0
+* Moonspite 1.0.0
+
+
+#### Referenced Content
+* Condition: Dazed
+* Condition: Quickened
