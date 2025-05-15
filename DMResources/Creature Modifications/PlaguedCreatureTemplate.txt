@@ -1,0 +1,105 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+
+
+</style>
+
+<br><br><br>
+
+## Plagued Creature Template
+If you want to modify a creature to represent an <br> infected condition that compromises its mind <br> and allows it to inflict diseases, you can apply the <br> Plagued Template by making the changes listed <br> below. The creature's Challenge Rating (CR) is <br> increased by 1 when this template is applied to it.
+
+- The Plagued Creature has resistance to <br> necrotic and poison damage.  
+
+ - While the Plagued Creature is Poisoned or <br> diseased, it is Rampaging (condition described <br> below). Additionally, when it takes necrotic or <br> poison damage, it starts Rampaging until the <br> end of its next turn.  
+
+ - Once during its turn, when the Plagued Creature <br> hits a creature with a melee attack, it can force that creature to make a DC 15 Constitution saving throw. <br> On a failure, roll on the Plague Symptom table below. <br> The target becomes infected and has disadvantage on <br> d20 tests using the associated ability rolled on the table for the next 7 days. 
+  <Br> If a creature fails this saving throw while already infected with a Plague Symptom, it also suffers the associated Severe Symptom from the table. 
+ <br>A diseased creature must repeat the saving throw at the end of each of its turns, ending the effect on a success. If it fails this saving throw three times in a row, it no longer makes saving throws at the end of its turns.
+ <br>If a diseased target receives an effect that would end the Poisoned or Blinded conditions, the disease is ended.
+
+
+ ##### Plague Symptom Table
+ | d6 | Ability       | Severe Symptom |
+ |:--:|:--------------|:----------------|
+ | 1  | **Wisdom**     | The creature can use its action, bonus action, and reaction only to make attacks. |
+ | 2  | **Charisma**   | Any attack that hits the creature scores a critical hit on a roll of 15–20. |
+ | 3  | **Constitution** | The creature has disadvantage on attack rolls and checks. |
+ | 4  | **Intelligence** | The creature is dazed (condition described below).  |
+ | 5  | **Strength**    | The creature deals only half damage with attacks. |
+ | 6  | **Dexterity**   | The creature cannot benefit from the Dash, Disengage, or Dodge actions. If it moves more than 5 feet, it moves in a random direction (roll a d8). |
+ 
+##### Plagued Creature Template Art Credit
+* Tainted Strike - James Ryman, Wizards of the Coast
+ 
+ \columnbreak
+ 
+ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ 
+> ##### New Condition Dazed
+> A dazed creature can’t take reactions and on its turn, it must
+ choose whether it gets a move, an action, or a bonus action; it
+ gets only one of the three.
+
+<br>
+ 
+> ##### New Condition: Rampaging
+> 
+> - Any charmed or frightened effects on the creature are suspended.
+> - On each of its turns, the creature must take the Attack action, targeting the nearest hostile creature it can see within reach. After making its attacks, it can’t move for the rest of its turn.
+> - If no hostile creatures are within range of any of the creature’s attacks, it moves toward the closest hostile creature it is aware of by the safest available route until it is within range to attack. If it reaches a target, it immediately makes an attack and can’t move for the rest of its turn.
+> - If the creature still isn’t within reach of a hostile creature after moving, it must take the Dash action and continue moving toward the nearest hostile creature.
+> - The creature can’t cast spells or maintain concentration on spells or other effects.
+
+
+<img src='https://i.postimg.cc/jjBVyxHr/Tainted-Strike-Art.jpg' style='position:absolute;right:-130px;top:-0px;width:800px;transform:scaleX(1)' />
+
+<img src='https://i.postimg.cc/DzTYqx0B/tainted-strike.png' style='position:absolute;right:-130px;top:-3px;width:760px;transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:32px;top:0px;height:1400px;width:1416px;transform:rotate(260deg)' />
+  
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-60px;top:175px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:60px;top:20px;height:1400px;width:1416px;transform:rotate(204deg)' />
+ 
+ <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:30px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+ 
+ \pagebreakNum
+ 
+### Revision Numbers
+#### 1.0.0 
+* Document release
+
