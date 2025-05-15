@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p2:after, .phb#p4:after, .phb#p6:after, .phb#p12:after, .phb#p13:after, .phb#p14:after, .phb#p16:after, .phb#p17:after, .phb#p18:after, .phb#p20:after, .phb#p23:after, .phb#p25:after, .phb#p27:after, .phb#p34:after, .phb#p35:after, .phb#p36:after, .phb#p38:after,.phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p45:after, .phb#p46:after, .phb#p47:after, .phb#p48:after, .phb#p51:after, .phb#p52:after, .phb#p55:after, .phb#p56:after, .phb#p59:after, .phb#p60:after, .phb#p63:after, .phb#p65:after, .phb#p66:after, .phb#p68:after, .phb#p72:after, .phb#p73:after, .phb#p76:after, .phb#p81:after, .phb#p85:after, .phb#p88:after, .phb#p89:after, .phb#p90:after, .phb#p93:after, .phb#p99:after, .phb#p101:after, .phb#p107:after, .phb#p108:after, .phb#p109:after, .phb#p110:after, .phb#p114:after, .phb#p117:after, .phb#p118:after, .phb#p119:after, .phb#p120:after, .phb#p121:after, .phb#p122:after, .phb#p123:after, .phb#p124:after, .phb#p126:after, .phb#p127:after, .phb#p129:after, .phb#p131:after, .phb#p137:after, .phb#p139:after, .phb#p141:after, .phb#p147:after, .phb#p149:after, .phb#p150:after, .phb#p152:after, .phb#p153:after, .phb#p155:after, .phb#p157:after, .phb#p158:after, .phb#p160:after, .phb#p162:after, .phb#p163:after, .phb#p169:after, .phb#p170:after, .phb#p171:after, .phb#p173:after, .phb#p176:after, .phb#p179:after  {
+    .phb#p2:after, .phb#p4:after, .phb#p6:after, .phb#p12:after, .phb#p13:after, .phb#p14:after, .phb#p16:after, .phb#p17:after, .phb#p18:after, .phb#p20:after, .phb#p23:after, .phb#p25:after, .phb#p27:after, .phb#p34:after, .phb#p35:after, .phb#p36:after, .phb#p38:after,.phb#p40:after, .phb#p41:after, .phb#p42:after, .phb#p45:after, .phb#p46:after, .phb#p47:after, .phb#p48:after, .phb#p51:after, .phb#p52:after, .phb#p55:after, .phb#p56:after, .phb#p59:after, .phb#p60:after, .phb#p63:after, .phb#p65:after, .phb#p66:after, .phb#p68:after, .phb#p72:after, .phb#p73:after, .phb#p76:after, .phb#p81:after, .phb#p85:after, .phb#p88:after, .phb#p89:after, .phb#p90:after, .phb#p93:after, .phb#p99:after, .phb#p101:after, .phb#p107:after, .phb#p108:after, .phb#p109:after, .phb#p110:after, .phb#p114:after, .phb#p117:after, .phb#p118:after, .phb#p119:after, .phb#p120:after, .phb#p121:after, .phb#p122:after, .phb#p123:after, .phb#p124:after, .phb#p126:after, .phb#p127:after, .phb#p129:after, .phb#p131:after, .phb#p137:after, .phb#p139:after, .phb#p141:after, .phb#p147:after, .phb#p149:after, .phb#p150:after, .phb#p152:after, .phb#p153:after, .phb#p155:after, .phb#p157:after, .phb#p158:after, .phb#p160:after, .phb#p162:after, .phb#p163:after, .phb#p169:after, .phb#p170:after, .phb#p171:after, .phb#p173:after, .phb#p177:after, .phb#p180:after  {
         display          : none;
     }
     /* End Footers */
@@ -229,9 +229,11 @@ The document contains ratfolk-themed player options, including a player race, ra
 - #### [<span>171</span><span>Wolf Rats</span>](#p171)
     - [<span>171</span><span>Wolf Rat</span>](#p171)
     - [<span>172</span><span>Trained Wolf Rat</span>](#p172)
-- ### [<span>174</span><span>Example Encounters</span>](#p174)
--  [<span>174</span><span>Encounter: The Vermin Tide</span>](#p174)
--  [<span>177</span><span>Encounter: The Ruinous Ritual</span>](#p177)
+- ### [<span>174</span><span>Creature Template</span>](#p174)
+    -  [<span>174</span><span>Plagued Creature Template</span>](#p174)
+- ### [<span>175</span><span>Example Encounters</span>](#p175)
+-  [<span>175</span><span>Encounter: The Vermin Tide</span>](#p175)
+-  [<span>178</span><span>Encounter: The Ruinous Ritual</span>](#p178)
 
 <div align="right">
 
@@ -253,11 +255,11 @@ The document contains ratfolk-themed player options, including a player race, ra
 
 \columnbreak
 
-<img src='https://i.ibb.co/3Yy99pD/Ossuary-Rats-Jumpstart-2022-Mt-G-Art-768x564.jpg' style='position:absolute;bottom:-1px;right:-385px;width:1000px; transform:scaleX(-1)' />
+<img src='https://i.ibb.co/3Yy99pD/Ossuary-Rats-Jumpstart-2022-Mt-G-Art-768x564.jpg' style='position:absolute;bottom:-10px;right:-385px;width:1000px; transform:scaleX(-1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:100px; right:240px; width:890px; transform:rotate(-90deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-395px; right:0px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-350px; right:0px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 
 
@@ -11128,6 +11130,70 @@ style='position:absolute;right:-620px;top:5px;height:1400px;width:1416px;transfo
 
 \pagebreakNum
 
+# Creature <br> Template
+
+## Plagued Creature Template
+If you want to modify a creature to represent an <br> infected condition that compromises its mind <br> and allows it to inflict diseases, you can apply the <br> Plagued Template by making the changes listed <br> below. The creature's Challenge Rating (CR) is <br> increased by 1 when this template is applied to it.
+
+- The Plagued Creature has resistance to <br> necrotic and poison damage.  
+
+ - While the Plagued Creature is Poisoned or <br> diseased, it is Rampaging (condition described <br> below). Additionally, when it takes necrotic or <br> poison damage, it starts Rampaging until the <br> end of its next turn.  
+
+ - Once during its turn, when the Plagued Creature <br> hits a creature with a melee attack, it can force that creature to make a DC 15 Constitution saving throw. <br> On a failure, roll on the Plague Symptom table below. <br> The target becomes infected and has disadvantage on <br> d20 tests using the associated ability rolled on the table for the next 7 days. 
+  <Br> If a creature fails this saving throw while already infected with a Plague Symptom, it also suffers the associated Severe Symptom from the table. 
+ <br>A diseased creature must repeat the saving throw at the end of each of its turns, ending the effect on a success. If it fails this saving throw three times in a row, it no longer makes saving throws at the end of its turns.
+ <br>If a diseased target receives an effect that would end the Poisoned or Blinded conditions, the disease is ended.
+
+
+ ##### Plague Symptom Table
+ | d6 | Ability       | Severe Symptom |
+ |:--:|:--------------|:----------------|
+ | 1  | **Wisdom**     | The creature can use its action, bonus action, and reaction only to make attacks. |
+ | 2  | **Charisma**   | Any attack that hits the creature scores a critical hit on a roll of 15–20. |
+ | 3  | **Constitution** | The creature has disadvantage on attack rolls and checks. |
+ | 4  | **Intelligence** | The creature is dazed (condition described below).  |
+ | 5  | **Strength**    | The creature deals only half damage with attacks. |
+ | 6  | **Dexterity**   | The creature cannot benefit from the Dash, Disengage, or Dodge actions. If it moves more than 5 feet, it moves in a random direction (roll a d8). |
+ 
+  \columnbreak
+ 
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ 
+> ##### New Condition: Dazed
+> A dazed creature can’t take reactions and on its turn, it must
+ choose whether it gets a move, an action, or a bonus action; it
+ gets only one of the three.
+
+
+ 
+> ##### New Condition: Rampaging
+>  The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+> * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
+&emsp;If no targets are within range, it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
+> * The creature can't cast spells or maintain concentration on spells or other effects.
+> * Any charmed or frightened effects on the creature are suspended.
+
+##### Plagued Creature Template Art Credit
+* Tainted Strike - James Ryman, Wizards of the Coast
+
+
+<img src='https://i.postimg.cc/jjBVyxHr/Tainted-Strike-Art.jpg' style='position:absolute;right:-130px;top:-0px;width:800px;transform:scaleX(1)' />
+
+<img src='https://i.postimg.cc/DzTYqx0B/tainted-strike.png' style='position:absolute;right:-80px;top:-6px;width:650px;transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:32px;top:0px;height:1400px;width:1416px;transform:rotate(260deg)' />
+  
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-60px;top:100px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:60px;top:20px;height:1400px;width:1416px;transform:rotate(204deg)' />
+ 
+ \pagebreakNum
+
 # Example Ratfolk Encounters
 
 ## The Vermin Tide <br> (Player Levels: 2-3 or 6-8)
@@ -11638,6 +11704,10 @@ If you wish to connect this encounter to a larger adventure, the following hooks
 * Rat Queen 1.0.0
 
 
+#### Creature Template
+* Plagued Creature Template 1.0.0
+
+\pagebreakNum
 
 ## Encounters
 ### Local Content
