@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after  {
+    .phb#p4:after  {
         display          : none;
     }
     /* End Footers */
@@ -31,15 +31,14 @@
 
 </style>
 
-<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # Chaos Storms
-
-When the fickle magics of chaos manage to perambulate and enter the realms of mortals—whether by slipping through When the fickle magics of chaos spill into the mortal realms—whether by slipping through places where the veil between worlds grows thin, or drawn in by ruinous agents intent on spreading woe across kingdoms of order—they surge tenaciously across the land, leaving devastation in their wake and reshaping the world and its denizens in unpredictable ways.
+ When the fickle magics of chaos spill into the mortal realms—whether by slipping through places where the veil between worlds grows thin, or drawn in by ruinous agents intent on spreading woe across kingdoms of order—they surge tenaciously across the land, leaving devastation in their wake and reshaping the world and its denizens in unpredictable ways.
 
 The following mechanics give you ways to have these storms appear in your games where they can be significant hazards for your players.
 
-## Chaotic Storms Overview
+## Chaos Storms Overview
 
 Each Chaos Storm functions differently, but they all share a few common traits:
 
@@ -47,13 +46,17 @@ Each Chaos Storm functions differently, but they all share a few common traits:
 Every Choas Storm can appear in varying levels of severity, which determine how powerful their effects are. The severity level determines the ideal average party level it's meant for and the amount of XP that should be awarded for overcoming its effects, as shown below.
 
 ##### Chaos Storm Severity Levels
-|      Chaos Storm Severity      |  Party Level (NOTE: Should these be ranges?) | XP Award
+|      Chaos Storm Severity      |  CR Equivalent| XP Award
 |:--------------------:|:-----------:|:---:|
 |           Mild            |  4 | 1,100
 |           Moderate        |  8 | 3,900
 |           Intense         | 12 | 8,400
 |           Extreme         | 16 | 15,000
 |           Destructive     | 18 | 25,000
+
+
+
+\columnbreak
 
 ### Duration
 Unless stated otherwise, a Chaos Storm lasts for one round, occurring on initiative count 30 (losing ties). It either passes through or dissipates at the same count on the following round.
@@ -63,14 +66,18 @@ At your discretion, players may have a chance to perceive the storm before it af
 
 These options depend on the type of storm and the narrative and gameplay role it's serving in your adventure.
 
-\columnbreak
-
 ## Implementing Chaos Storms in Your Adventures
 Chaos Storms can be a powerful tool to enhance adventures, especially when players are facing forces of chaos. Here are several ways to incorporate them:
 
 * **Environmental Tension:** Surprise your players with a Chaos Storm as they explore a corrupted wilderness, adding sudden danger and unpredictability.
 *  **Difficult Choices:** Force players to make tough decisions—perhaps they can reach their destination faster by cutting through an area plagued by storms, or they must choose between two routes, each affected by a different type of Chaos Storm.
 *  **Combat Encounters**: Introduce a Chaos Storm in the middle of a battle to shake up the flow of combat, adding a layer of dynamic environmental threat.
+
+<img src='https://i.postimg.cc/KYH3vFR4/The-Storm-Georges-Michel.jpg' style='position:absolute;right:-60px;top:-200px;width:950px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:70px; right:10px; transform:rotate(11deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:315px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
 
@@ -82,22 +89,24 @@ The following are examples of different Chaos Storms you can include in your adv
 *These waves of hateful magic carry with them fragments of great and bloody battles fought by countless warriors. All manner of soldiers, beasts, and demons spring into existence, wielding deadly implements of war and hewing through any who draw too near—only to dissipate moments later, their essence swept onward by the destructive tide to rise again elsewhere. These manifestations may be echoes of battles long past, conflicts raging in chaotic realms that have spilled into the mortal sphere, visions of wars yet to come, or combatants caught in the malignant current—doomed to fight until the end of days.*
 
 
-On initiative count 30 (losing ties), a storm manifests in the area. It can be attacked and damaged as though it were a creature.
+On initiative count 30 (losing ties), a storm manifests in the area. The manifestation can be attacked and damaged by creatures in it as though it were a creature with in 5 feet of them.
 
 On initiative count 1 (losing ties), the storm makes an attack against each creature within its area. On a hit, the target takes force damage based on the storm's severity.
 
 If the storm has less than half of its hit points remaining, it makes these attacks with disadvantage, and it deals half damage on a hit.
 
+If the storm has reduced to 0 hit points it disappears early.
+
 After making its attacks, the storm dissipates or moves on, ending the effect.
 
 #####  Echo of War Severity
-|      Severity Level     | Hit Points | Attack Roll Bonus |  Damage on Hit   | AC | Party Level | XP Award
+|      Severity Level     | Hit Points | Attack Roll Bonus |  Damage on Hit   | AC |
 |:--------------------:|:----------:|:---------------------:|:-------------:|:--:|:-----------:|:---:|
-|           Mild            |        70          |       5  |   22 <br> (5d8)     |       14         | 4 | 1,100
-|           Moderate        |        100         |       7  |   45 (10d8)    |       16         | 8 | 3,900
-|           Intense         |        130         |       9  |   67  (15d8)    |       18         | 12 | 8,400
-|           Extreme         |        160         |       11 |    90 (20d8)   |       20         | 16 | 15,000
-|           Destructive     |          190         |       13|   112 (25d8)     |       22         | 18 | 25,000
+|           Mild            |        70          |       5  |   22 <br> (5d8)     |       14         |
+|           Moderate        |        100         |       7  |   45 (10d8)    |       16         |
+|           Intense         |        130         |       9  |   67  (15d8)    |       18         |
+|           Extreme         |        160         |       11 |    90 (20d8)   |       20         |
+|           Destructive     |          190         |       13|   112 (25d8)     |       22         |
 
 \columnbreak
 
@@ -105,7 +114,7 @@ After making its attacks, the storm dissipates or moves on, ending the effect.
 
 *Black bile pours from the sky, polluting the ground as foul-smelling winds hurl bloated maggots through the air. They smash against rocks, trees, and unlucky travelers, bursting on impact and splattering green, snot-like ichor. These storms fester with disease, cursing all who are caught within their rotting maelstrom.*
 
-On initiative count 30 (losing ties), roll for a result on the Plague Symptom table. Each creature within the storm that does not have resistance or immunity to necrotic damage must make a *Constitution Saving Throw.* *Failure:* The creature becomes diseased. While diseased, it has disadvantage on all d20 tests for the next 2 + 2d4 days. *Failure of 10 or more:* It also suffers the Severe Symptom associated with the rolled ability.
+On initiative count 30 (losing ties), roll for a result on the Plague Symptom table. Each creature within the storm that does not have resistance or immunity to necrotic damage must make a *Constitution Saving Throw.* *Failure:* The creature becomes diseased. While diseased, it has disadvantage on all d20 tests with the rolled ability for the next 2 + 2d4 days. *Failure of 10 or more:* It also suffers the Severe Symptom associated with the rolled ability.
 
 Whenever a diseased creature receives an effect that would end the Poisoned condition, it may make a Constitution saving throw. On a success, the disease ends.
 
@@ -128,28 +137,32 @@ Whenever a diseased creature receives an effect that would end the Poisoned cond
 |           Extreme         |        20          |   16 | 15,000
 |           Destructive     |        22          |   18 | 25,000
 
+**New condition described at the end of the document*
+
 \pagebreakNum
 
 ### Skittering Tide 
 *Hordes of vermin gather in inconceivable numbers and march across the land. The ground vanishes beneath a seething sea of squirming pests that skitter over every obstacle in their path. Above, living clouds of insects blot out the sky. The surging host consumes everything in its path—wood is gnawed and scarred, plant life buried beneath the crawling blanket of bodies and vanishing without a trace. Any creature caught in their relentless advance feels its skin bitten and torn; those who falter are dragged down and overrun, reduced to bone within seconds as the ravenous swarm moves on in search of its next feast.*
 
 
-On initiative count 30 (losing ties), a storm manifests in the area. It can be attacked and damaged as though it were a creature. 
+On initiative count 30 (losing ties), a storm manifests in the area. The manifestation can be attacked and damaged by creatures in it as though it were a creature with in 5 feet of them. 
 
 On initiative count 1 (losing ties), the storm makes a melee spell attack against each creature within its area. On a hit, the target takes piercing damage and loses a number of rations (eaten by the storm) determined by the storm's severity.
 
 If the storm has less than half of its hit points remaining, it makes these attacks with disadvantage, deals half damage, and consumes half as many rations (rounded down).
 
+If the storm has reduced to 0 hit points it disappears early.
+
 After resolving its attacks, the storm dissipates or moves on, ending the effect.
 
 ##### Skittering Tide Severity
-|      Severity Level     | Hit Points | Attack Roll Bonus |  Damage on Hit   | Rations Eaten  | AC | Party Level | XP Award
-|:--------------------:|:----------:|:---------------------:|:-------------:|:-------------:|:--:|:-----------:|:---:|
-|           Mild            |        70          |       5  |   22 <br> (5d8)  |  5 (2d4) lbs.    |        14         | 4 | 1,100
-|           Moderate        |        100         |       7  |   45 (10d8)  |  10 (4d4) lbs.   |       16         | 8 | 3,900
-|           Intense         |        130         |       9  |   67  (15d8) | 15 (6d4) lbs.   |       18         | 12 | 8,400
-|           Extreme         |        160         |       11 |    90 (20d8)  | 20 (8d4) lbs. |       20         | 16 | 15,000
-|           Destructive     |          190         |       13|   112 (25d8) | 25 (10d4) lbs.    |       22         | 18 | 25,000
+|      Severity Level     | Hit Points | Attack Roll Bonus |  Damage on Hit   | Rations Eaten  | AC |
+|:--------------------:|:----------:|:---------------------:|:-------------:|:-------------:|:--:|:-----------:|
+|           Mild            |        70          |       5  |   13 <br> (3d8)  |  5 (2d4) lbs.    |        14         |
+|           Moderate        |        100         |       7  |   36 (8d8)  |  10 (4d4) lbs.   |       16         |
+|           Intense         |        130         |       9  |   58  (13d8) | 15 (6d4) lbs.   |       18         |
+|           Extreme         |        160         |       11 |    81 (18d8)  | 20 (8d4) lbs. |       20         |
+|           Destructive     |          190         |       13|   103 (25d8) | 25 (10d4) lbs.    |       22         |
 
 \columnbreak
 
@@ -162,29 +175,29 @@ Creatures in the area that can hear the song must make a *Charisma Saving Throw*
 The sleep ends early if the *dispel good and evil* spell is cast on the target or if another creature uses an action to splash it with holy water.
 
 ##### Soporific Song Severity
-|      Severity Level     | Save DC | Damage Needed to Wake A Creature |  Party Level | XP Award
-|:--------------------:|:-----:|:----------:|:----------------------------------:|:-----------:|:---:|
-|           Mild            |        14          |           30          |    4 | 1,100
-|           Moderate        |        16          |         50          |     8 | 3,900
-|           Intense         |        18          |          70         |      12 | 8,400
-|           Extreme         |        20          |          90        |     16 | 15,000
-|           Destructive     |        22          |         110        |     18 | 25,000
+|      Severity Level     | Save DC | Damage Needed to Wake A Creature |
+|:--------------------:|:-----:|:----------:|:----------------------------------:|
+|           Mild            |        14          |           30          |
+|           Moderate        |        16          |         50          |
+|           Intense         |        18          |          70         |
+|           Extreme         |        20          |          90        |
+|           Destructive     |        22          |         110        |
 
 
 ### Spatial Distortion
 
 *Tendrils of arcana that defy reason coil around reality itself, causing the universe to bend and ultimately break. The laws of distance and space no longer hold authority. Those caught within the maelstrom behold landscapes folding and moving past one another, where a single misstep within the discord can send a person miles away to an unknown destination. Only those with the keenest comprehension can navigate the shifting labyrinth.*
 
-On initiative count 30 (losing ties), each creature in the storm may choose any number of other willing creatures within 5 feet of it to form a group. Each group designates one creature to make an *Intelligence Saving Throw:* *Failure:* The entire group is teleported 1d4 miles in a random direction, determined by rolling a d8. Each group that fails is teleported a different distance and direction. *Success by 10 or more:* The creature that made the save may choose the direction the group is teleported, traveling 1d4 miles in that chosen direction.
+On initiative count 30 (losing ties), each creature in the storm may choose any number of other willing creatures within 5 feet of it to form a group. Each group designates one creature to make an *Intelligence Saving Throw:* *Failure:* The entire group is teleported 1 + 1d4 miles in a random direction, determined by rolling a d8. Each group that fails is teleported a different distance and direction. *Success by 10 or more:* The creature that made the save may choose a direction and have the group is teleported, traveling 1 + 1d4 miles in that chosen direction.
 
 ##### Spatial Distortion Severity
-|      Severity Level      | Save DC | Party Level | XP
-|:--------------------:|:-----:|:-----------:|:---:|
-|           Mild            |        14    | 4 | 1,100
-|           Moderate        |        16    | 8 | 3,900
-|           Intense         |        18    | 12 | 8,400
-|           Extreme         |        20    | 16 | 15,000
-|           Destructive     |        22    | 18 | 25,000
+|      Severity Level      | Save DC |
+|:--------------------:|:-----:|:-----------:|
+|           Mild            |        14    |
+|           Moderate        |        16    |
+|           Intense         |        18    |
+|           Extreme         |        20    |
+|           Destructive     |        22    |
  
 
 \pagebreakNum
@@ -194,61 +207,60 @@ On initiative count 30 (losing ties), each creature in the storm may choose any 
 
 *Malicious schemes with a life of their own creep through the shadows, ever seeking an opportunity to sow mayhem. An unease permeates the air as they draw near, though nothing can be seen by eyes of flesh and blood. Soon, whispers as loud as thunder ring in the ears of pure-hearted mortals, transmuting trust into hatred as comrades turn into adversaries.*
 
-On initiative count 30 (losing ties), each creature in the storm must make a *Wisdom saving throw*.  *Failure:* The creature is Charmed for 1 minute by a malevolent spirit that seeks to harm everyone the creature holds dear. While charmed in this way, the spirit controls the creature’s actions. On the creature’s turn, the spirit can cause it to move into dangerous terrain and use its action to either make a weapon attack or cast a cantrip. *Failure of 10 or more:* It becomes Quickened* while charmed.
+On initiative count 30 (losing ties), each creature in the storm must make a *Wisdom saving throw*.  *Failure:* The creature is Charmed for 1 minute by a malevolent spirit that seeks to harm everyone the creature holds dear. While charmed in this way, the spirit controls the creature’s actions. On the creature’s turn, it uses its action to either make a weapon attack or cast a cantrip. It may move but it can't move into dangerous terrain *Failure of 10 or more:* It becomes Quickened* while charmed.
 
 **New condition described at the end of the document*
 
 ##### Wave of Treason Severity
-|      Severity Level     | Save DC  | Party Level | XP Award |
+|      Severity Level     | Save DC  |
 |:--------------------:|:-----:|:----------:|:---:|
-|           Mild            |        14          |  4 | 1,100
-|           Moderate        |        16          |  8 | 3,900
-|           Intense         |        18          | 12 | 8,400
-|           Extreme         |        20          | 16 | 15,000
-|           Destructive     |        22          | 18 | 25,000
+|           Mild            |        14          |
+|           Moderate        |        16          |
+|           Intense         |        18          |
+|           Extreme         |        20          |
+|           Destructive     |        22          |
+
+<br>
+
+#### Choas Storms Art Credit
+* The Storm - Georges Michel
+* The Horrors of War, Sketch for Burghley House Mural - Georges Michel
+
+\columnbreak
 
 ## Creating Your Own Chaos Storms
 
 If you want to create your own Chaos Storms or similar effects for your adventures, the following table provides some general guidelines for how to balance some of the more common stats based on the storm's severity level.
 
 ##### Chaos Storm
-|      Storm Severity      | Save DC | Hit Points | Attack Roll and Saving Throw Bonus | AC | Party Level | XP
-|:--------------------:|:-----:|:----------:|:----------------------------------:|:--:|:-----------:|:---:|
-|           Mild            |        14          |       70          |       5         |       14         | 4 | 1,100
-|           Moderate        |        16          |       100         |       7         |       16         | 8 | 3,900
-|           Intense         |        18          |       130         |       9         |       18         | 12 | 8,400
-|           Extreme         |        20          |       160         |       11        |       20         | 16 | 15,000
-|           Destructive     |        22          |       190         |       13        |       22         | 18 | 25,000
+|      Storm Severity      | Save DC | Hit Points | Attack Roll and Saving Throw Bonus | AC |
+|:--------------------:|:-----:|:----------:|:----------------------------------:|:--:|:-----------:|
+|           Mild            |        14          |       70          |       5         |       14         |
+|           Moderate        |        16          |       100         |       7         |       16         |
+|           Intense         |        18          |       130         |       9         |       18         |
+|           Extreme         |        20          |       160         |       11        |       20         |
+|           Destructive     |        22          |       190         |       13        |       22         |
 
+<br>
 
-\columnbreak
-
-> ##### Of The Gilded Wood
->
-> Should a man cross the river and fare southward, he shall come upon a wood where the trees stand bare, yet their limbs be wrought of gold. And the ivy and the grass sway slow and solemn, though no wind bloweth in that place.
->
-> Then let the wise make haste to turn again unto the path from whence he came. For if he tread into the belly of the wood, he shall be met with many fragrances—of meat well-cooked upon unseen flames, of strong mead, and of spices rare and numberless. Sweet songs shall fill the air as the gilded trees do dance, and the harps of forgotten hands are plucked by none. The sea’s own waves shall seem to crash there also, though no sea lieth nigh.
->
-> And the soul of the traveller shall grow heavy with the trove of pleasures, and his limbs shall falter and yearn to tarry. He shall lie down upon the ivy and the grass, which are as silk to the touch, and his eyes shall be met by marvels: for white stones, polished as by divine fingers, lie strewn upon the forest floor, and they bend and curve to form such pleasing shapes that the eye groweth weary with gazing.
-> 
-> And as he dreameth, the song and the fragrance of the wood shall drift and awaken those that slumber beneath its shade. And they, long hungered by sleep, shall rise, drawn by the sweetness of scent and song. They come not as men do, nor as women, but with a grace unknown to either.
->
-> And with claw they shall caress the flesh, and with lips soft and red shall kiss those places where they have passed. Then shall thy voice join the song of the wood, and thy blood mingle with its scent. And thy bones, polished as by divine fingers, shall lie strewn upon the forest floor, bent in pleasing shape.
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
 
 <br>
 
 > ##### New Condition: Quickened
 > A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
 
+<img src='https://i.postimg.cc/ht3tVsg5/The-Horrors-of-War-Sketch-for-Burghley-House-Thomas-Stothard.jpg' style='position:absolute;right:-0px;bottom:-250px;width:820px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-265px; right:0px; transform:rotate(180deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
-
-
-
-
+#### 1.0.0
+* Document release
 
 
 
