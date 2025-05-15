@@ -37,11 +37,11 @@
 # New Conditions
 
 #### Berserk
-Berserk creatures gain the following effects unless an ability states otherwise:
- * The creature can only use its movement to move closer to an enemy it can see or hear.
- * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear.
+The creature is consumed by bloodlust, giving it the following effects:
+ * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear. 
+* The creature can only use its movement to move closer to an enemy it can see or hear.
  * The creature can't maintain concentration on spells or other effects.
- * The creature can't be frightened or charmed.
+* Any charmed or frightened effects on the creature are suspended.
 
 #### Dazed 
 A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
@@ -53,6 +53,9 @@ This condition brings a creature to the brink of falling asleep. Creatures immun
 *  It can't concentrate. <br>
 * Attacks against it have advantage. <br>
 * The only spells it can cast are cantrips. <br>
+
+#### Emboldened 
+The creature is momentarily filled with boisterous confidence, causing it to deal an additional 7 (2d6) damage when it hits with an attack. This condition lasts up to 1 minute. The condition ends early if, at the end of the creature's turn, it missed with all its attacks that turn, it is Charmed or Frightened, or it is under the effects of the *calm emotions* spell.
 
 \columnbreak
 
@@ -71,10 +74,10 @@ Unless an ability states otherwise, a creature suffering from one or more mutati
 |  5  | Gelatinous Legs | The creature falls prone and can't stand up.|
 |  6  | Regeneration | The creature regains 10 hit points at the start of its turn if it has at least 1 hit point.|
 
-<img src='https://i.postimg.cc/XqTgjPw5/2892-spatial-contortion.jpg' style='position:absolute;left:-0px;bottom:-570px;width:820px;transform:scaleX(1)' />
+<img src='https://i.postimg.cc/XqTgjPw5/2892-spatial-contortion.jpg' style='position:absolute;left:-0px;bottom:-600px;width:816px;transform:scaleX(1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-60px;top:-425px;height:1400px;width:1416px;transform:rotate(5deg)' />
+  style='position:absolute;right:-60px;top:-302px;height:1400px;width:1416px;transform:rotate(-10deg)' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -90,19 +93,26 @@ The creature becomes fixated on a creature or object, which becomes a source of 
 #### Quickened
 A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
 
-##### Art Credit
-* Spatial Contortion - Daarken, Wizards of the Coast
-* Messenger's Speed - Clint Cearley, Wizards of the Coast
+
+
 
 \columnbreak
 
 #### Rampaging
-Rampages last for one minute and have the following effect on a creature unless an ability states otherwise: 
+The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+* On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
+&emsp;If no targets are within range, it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
+* The creature can't cast spells or maintain concentration on spells or other effects.
 * Any charmed or frightened effects on the creature are suspended.
-*  The creature must take the Attack action on each of its turns, targeting the nearest hostile creature it can see unless there are no creatures it can reach with an attack.
-*  If no hostile creatures are within range of any of the creature’s attacks, it must use a Dash action to move toward the closest hostile creature it is aware of.
-* The creature can’t maintain concentration on spells or other effects.
 
+#### Resolute
+The creature stubbornly digs in to weather any assault. It experiences the following effects:
+ * Attack rolls made against the creature have disadvantage.
+ * The creature can't take its move action on its turn.
+ * The creature makes Strength checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage.
+ 
+The condition ends if an effect moves the creature against its will, knocks it prone, or the creature becomes charmed, frightened, or incapacitated. A creature that is prone, charmed, frightened, or incapacitated can't become Resolute.
 
 
 #### Wounds
@@ -112,16 +122,24 @@ While most creatures are wounded in combat, in this context, the wound is a spec
  * A creature can expend one use of a healer's kit to remove two wounds from itself or another creature. 
  * A wounded creature, or another creature within 5 feet of it, can make a DC 10 Wisdom (Medicine) check as an action to remove one wound on a success. For every 5 points by which the check exceeds the DC, an additional wound is removed.
 
+<br>
+
+##### Art Credit
+* Spatial Contortion - Daarken, Wizards of the Coast
+* Lose Calm - Jason A. Engle, Wizards of the Coast
+
 <img src='https://i.postimg.cc/7YBcGp5Q/messengers-speed-129.jpg' style='position:absolute; bottom:-50px; right:0px; width:850px; transform:scaleX(-1);'/>
 
+<img src='https://i.ibb.co/KwH86qm/Lose-Calm-Dragons-of-Tarkir-Mt-G-Art.jpg' style='position:absolute; bottom:-40px; right:100px; width:870px; transform:scaleX(-1);'/>
+
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-240px;bottom:90px; transform: rotate(16deg)' />
+  style='position:absolute;left:162px;bottom:-190px; transform: rotate(90deg)' />
 
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-270px;bottom:160px; transform: rotate(0deg)' />
+  style='position:absolute;left:-400px;bottom:200px; transform: rotate(0deg)' />
 
 \pagebreakNum
 
@@ -129,8 +147,10 @@ While most creatures are wounded in combat, in this context, the wound is a spec
 * Berserk 1.0.0
 * Dazed 1.0.0
 * Drowsy 1.0.0
+* Emboldened 1.0.0
 * Mutated 1.0.0
-* Rampaging 1.0.0
+* Rampaging 1.1.0
 * Obsessed 1.0.0
 * Quickened 1.0.0
+* Resolute 1.0.0
 * Wounds 1.0.0
