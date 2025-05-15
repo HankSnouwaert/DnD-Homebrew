@@ -1,0 +1,740 @@
+
+
+<style>
+
+ /* Footers */
+    You 
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p4:after, .phb#p6:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Bull Centaurs
+*Cruel Half-Bull Half-Dwarf Amalgams*<br>
+**Habitat:** Desert, Grasslands, Mountain, Underdark, Urban, Volcanic; **Treasure:** Armaments <br>
+
+Long ago, when hellish fiends first corrupted the forefathers of the fel dwarfs, they led them down a path of damnation. Some dwarfs, so thoroughly inundated with this insidious essence, had their resilient bodies and spirits utterly crushed. This unholy power fused their broken forms with savage aurochs, birthing the monstrous beings known as bull centaurs.
+
+These nightmares possess the lower body of a muscular bovine and the upper half of a beastly dwarf, complete with large, curved horns jutting from their skulls. They embody the stubbornness and resilience of both bloodlines, combined with a fanatical devotion to the dark entities that fashioned them. Once roused to anger, bull centaurs are nearly unstoppable—hurtling forward with savage momentum, they slam into foes with horns, axes, and hooves, gouging, chopping, and pulverizing flesh.
+
+Despite their massive bulk, bull centaurs strike with brutal precision. They often leave victims barely clinging to life, either to be devoured alive in ritual feasts or dragged to gore-soaked altars to be torn apart in sacrifice.
+While some small tribes of bull centaurs roam the wastelands, butchering any they come across as offerings to their dark gods, most have been conscripted into the empires of the fel dwarfs. There, they serve the demon-smith prophets as elite guardians of the most malignant shrines and ziggurats of the dark gods. When the fel dwarfs march to war in great numbers, herds of bull centaurs often stampede at the vanguard, acting as terrifying shock cavalry.
+
+Since their first emergence, only a handful of bull centaurs are born in each generation of fel dwarfs. These rare children are taken from birth and raised by the demon-smith prophets. Yet the limited number of these elite soldiers cannot satisfy the ambitions of their cruel masters.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+In pursuit of greater power, the demon-smiths employ their mastery of forbidden arts, seeking to twist their own children into more bull centaurs to swell their ranks. Most of these unnatural experiments end in agonizing death. Others are kept alive only through accursed concoctions, regularly injected to prolong their misbegotten lives, or through infernal prosthetics grafted onto their malformed, failing bodies.
+
+<br>
+
+> ##### New Condition: Resolute
+> The creature stubbornly digs in to weather any assault. It experiences the following effects:
+> * Attack rolls made against the creature have disadvantage.
+> * The creature can't take its move action on its turn.
+> * The creature makes Strength checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage.
+The Resolute condition ends if an effect moves the creature against its will, knocks it prone, or the creature becomes charmed, frightened, or incapacitated. A creature that is prone, charmed, frightened, or incapacitated can't become Resolute.
+
+
+</span>
+
+<img src='https://i.postimg.cc/L6xhTxxF/Stonebrow-EDHREC-1.jpg' style='position:absolute; top:-0px; right:-130px; width:1070px; transform: scaleX(-1)' />
+
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:80px; right:90px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(20deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:160px; right:-30px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(3deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:335px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Bull Centaur Warriors
+Armed with massive axes and heavy shields, the rank of Warrior is the most common among their kind. Patrols of these Bull Centaurs can often be found guarding temples within the obsidian cities of the fel dwarves.
+
+\columnbreak
+
+
+
+### Bull Centaur Renders
+
+More unruly than their brethren, bull centaur renders wield brutal twin axes. They hurl these weapons with ease at fleeing foes who manage to evade their crushing hooves.
+
+___
+___
+> ## Bull Centaur Warrior
+> *Large monstrosity (dwarf), party, lawful evil*
+> ___  
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Initiative** -1 (9)  
+> - **Hit Points** 85 (10d10 + 30)  
+> - **Speed** 50 ft.  
+> ___  
+> <table>  
+> <tr style="background-color:transparent">  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>STR</b></td>  
+> <td style="text-align:center">20</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td></td>  
+> <td><b>DEX</b></td>  
+> <td style="text-align:center">9</td>  
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>  
+> <td></td>  
+> <td><b>CON</b></td>  
+> <td style="text-align:center">16</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>INT</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td></td>  
+> <td><b>WIS</b></td>  
+> <td style="text-align:center">10</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td></td>  
+> <td><b>CHA</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> </tr>  
+> </table>
+>
+> ___  
+> - **Skills** Athletics +7, Intimidation +3
+> - **Resistances** Fire, Poison
+> - **Senses** Darkvision 30 ft., Passive Perception 11  
+> - **Languages** Dwarvish, Infernal  
+> - **Challenge** 4 (1,100 XP)  &emsp;&emsp;  **Proficiency Bonus** +2  
+> ___ 
+>
+> ### Traits
+>
+> ***Debilitating Strikes.*** When the bull centaur reduces a creature to 0 hit points with an attack, that creature is Stunned for the next minute.
+>
+> ### Actions
+> ***Multiattack.*** The bull centaur makes two attacks, each with a different weapon.
+>
+> ***Battleaxe.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) slashing damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage. If the bull centaur moved at least 20 feet straight toward the target immediately before the hit, the target must make a *Strength Saving Throw:* DC 15. <br>
+> *Failure:* The target is knocked prone.
+>
+> ***Stomp.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one Prone target or one two sizes smaller. *Hit:* 24 (3d12 + 5) bludgeoning damage. 
+>
+>
+> ### Bonus Actions
+>
+> ***Resolute Charge.*** At the start of its turn, bull centaur may move up to its speed in a straight line and become *Resolute.
+>
+> **New condition described at the beginning of the document*
+
+
+</span>
+
+\columnbreak
+
+
+
+___
+___
+> ## Bull Centaur Render
+> *Large monstrosity (dwarf), party, lawful evil*
+> ___  
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Initiative** -1 (9)  
+> - **Hit Points** 85 (10d10 + 30)  
+> - **Speed** 50 ft.  
+> ___  
+> <table>  
+> <tr style="background-color:transparent">  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>STR</b></td>  
+> <td style="text-align:center">20</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td></td>  
+> <td><b>DEX</b></td>  
+> <td style="text-align:center">9</td>  
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>  
+> <td></td>  
+> <td><b>CON</b></td>  
+> <td style="text-align:center">16</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>INT</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td></td>  
+> <td><b>WIS</b></td>  
+> <td style="text-align:center">10</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td></td>  
+> <td><b>CHA</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> </tr>  
+> </table>
+>
+> ___  
+> - **Skills** Athletics +7, Intimidation +3
+> - **Resistances** Fire, Poison  
+> - **Senses** Darkvision 30 ft., Passive Perception 11  
+> - **Languages** Dwarvish, Infernal  
+> - **Challenge** 4 (1,100 XP)  &emsp;&emsp;  **Proficiency Bonus** +2  
+> ___
+>
+> ### Traits
+>
+> ***Debilitating Strikes.*** When the bull centaur reduces a creature to 0 hit points with an attack, that creature is Stunned for the next minute.
+>
+> ### Actions
+> ***Multiattack.*** The bull centaur makes a Gore and Stomp attack. It can replace one of these with two Handaxe attacks.
+> 
+> ***Handaxe.*** *Melee or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage. The bull centaur does not suffer disadvantage on this attack if the target is prone.
+>
+> ***Gore.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage. If the bull centaur moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a *Strength Saving Throw:* DC 15. <br>
+> *Failure:* The target is knocked prone.
+>
+> ***Stomp.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one prone target or one two sizes smaller. *Hit:* 24 (3d12 + 5) bludgeoning damage.
+>
+> ### Bonus Actions
+>
+> ***Resolute Charge.*** At the start of its turn, bull centaur may move up to its speed in a straight line and becomes *Resolute.
+>
+> **New condition described at the beginning of the document*
+
+
+
+
+</span>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Bull Centaur Guardians
+The most disciplined of all bull centaurs are trained to serve as personal bodyguards to the demon-smith prophets. Such is the fierce competition within the dark priesthood that no prophet of high standing can afford to be without these fearsome protectors—lest he be struck down by a jealous rival.
+
+
+\columnbreak
+
+
+___
+___
+> ## Bull Centaur Guardian
+> *Large monstrosity (dwarf), party, lawful evil*
+> ___  
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&ensp;**Initiative** +0 (10)  
+> - **Hit Points** 110 (13d10 + 39)  
+> - **Speed** 50 ft.  
+> ___  
+> <table>  
+> <tr style="background-color:transparent">  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>STR</b></td>  
+> <td style="text-align:center">20</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td></td>  
+> <td><b>DEX</b></td>  
+> <td style="text-align:center">10</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td></td>  
+> <td><b>CON</b></td>  
+> <td style="text-align:center">16</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>INT</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td></td>  
+> <td><b>WIS</b></td>  
+> <td style="text-align:center">10</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> <td></td>  
+> <td><b>CHA</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> </tr>  
+> </table>
+>
+> ___  
+> - **Skills** Athletics +8, Intimidation +4  
+> - **Resistances** Fire, Poison  
+> - **Senses** Darkvision 30 ft., Passive Perception 11  
+> - **Languages** Dwarvish, Infernal  
+> - **Challenge** 6 (2,300 XP)  &emsp;&emsp;  **Proficiency Bonus** +3  
+> 
+>___  
+> ### Traits
+>
+> ***Debilitating Strikes.*** When the bull centaur reduces a creature to 0 hit points with an attack, that creature is Stunned for the next minute.
+>
+> ***Guardian Presence.*** While the bull centaur is Resolute*, each ally within 5 feet of it gains the benefits of three-quarters cover.
+> 
+> ### Actions
+> ***Multiattack.*** The bull centaur makes two attacks, each with a different weapon.
+>
+> ***Battleaxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) slashing damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage. If the bull centaur moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a *Strength Saving Throw:* DC 16.  <br>
+> *Failure:* The target is knocked prone.
+> 
+> ***Stomp.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one Prone target or one two sizes smaller. *Hit:* 24 (3d12 + 5) bludgeoning damage.
+>
+> ### Bonus Actions
+>
+> ***Resolute Charge.*** At the start of its turn, bull centaur may move up to its speed in a straight line and become Resolute.
+> 
+> ### Reactions
+> ***Pin Down.*** *Trigger:* A creature within 5 feet of the bull centaur stands up.  
+> *Response:* The bull centaur makes a Stomp attack with advantage against that creature. If the attack hits, the target fall prone again.
+>
+> **New condition described at the beginning of the document*
+
+
+</span>
+
+<img src='https://i.postimg.cc/1tbg1B8Y/centaur-vinecrasher-35.jpg' style='position:absolute; top:-0px; right:-0px; width:816px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:105px; right:30px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(12deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:200px; right:-30px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(3deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Bull Centaur Ravagers
+Ravagers are more cruel than the rest of their savage kin. These sadistic creatures become intoxicated by the terror and panic they incite. With burning red eyes and ashen skin, they are avatars of horror. Foes who survive the initial charge often break into hysteria, fleeing in desperation—only to feel axes sink into their spines, leaving them helpless before the ravager’s insatiable, sadistic hunger.
+
+\columnbreak
+
+
+___
+___
+> ## Bull Centaur Ravager
+> *Large monstrosity (dwarf), party, lawful evil*
+> ___  
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Initiative** -1 (9)  
+> - **Hit Points** 110 (13d10 + 39)  
+> - **Speed** 50 ft.  
+> ___  
+> <table>  
+> <tr style="background-color:transparent">  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>STR</b></td>  
+> <td style="text-align:center">20</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td></td>  
+> <td><b>DEX</b></td>  
+> <td style="text-align:center">9</td>  
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>  
+> <td></td>  
+> <td><b>CON</b></td>  
+> <td style="text-align:center">16</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>INT</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td></td>  
+> <td><b>WIS</b></td>  
+> <td style="text-align:center">10</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td></td>  
+> <td><b>CHA</b></td>  
+> <td style="text-align:center">14</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>  
+> </tr>  
+> </table>
+>
+> ___  
+> - **Skills** Athletics +8, Intimidation +5  
+> - **Resistances** Fire, Poison  
+> - **Senses** Darkvision 30 ft., Passive Perception 11  
+> - **Languages** Dwarvish, Infernal  
+> - **Challenge** 6 (2,300 XP)  &emsp;&emsp;  **Proficiency Bonus** +3  
+> ___
+> ### Traits
+>
+> ***Debilitating Strikes.*** When the bull centaur reduces a creature to 0 hit points with an attack, that creature is Stunned for the next minute.
+>
+> ***Revel in Fear.*** The bull centaur scores a critical hit on a roll of 10–20 against frightened creatures.
+> <br> <br> <br> 
+> ### Actions
+> ***Multiattack.*** The bull centaur makes one Gore and one Stomp attack. It can replace either attack with two Handaxe attacks.
+> 
+> ***Handaxe.*** *Melee or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage. The bull centaur does not suffer disadvantage on this attack if the target is prone.
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage. If the bull centaur moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a *Strength Saving Throw:* DC 16. <br> 
+> *Failure:* The target is knocked prone.
+>
+> ***Overwhelming Stomp.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one Prone creature or one two sizes smaller. *Hit:* 24 (3d12 + 5) bludgeoning damage and the target must succeed on a *Wisdom Saving Throw:* DC 16. <br> 
+> *Failure:* The target is Frightened until the end of the bull centaur’s next turn. <br> 
+> *Failure by 5+:* The Frightened creature also can't take reactions and must Dash away from the bull centaur by the safest route each turn.
+> 
+> ### Bonus Actions
+> ***Resolute Charge.*** At the start of its turn, Bull Centaur may move up to its speed in a straight line and becomes Resolute*.
+>
+> **New condition described at the beginning of the document*
+
+
+</span>
+
+
+<img src='https://i.postimg.cc/cL50zHgF/burning-tree-shaman-art.png' style='position:absolute; top:-20px; right:-30px; width:900px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:65px; right:30px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(12deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:200px; right:-30px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(3deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Bull Centaur Khans
+Those bull centaurs who possess the greatest cunning and might among their kind rise to become khans—also known as bull lords. These formidable specimens often lead herds of their kin, whether roaming the desolate wilderness or marching within the armies of the fel dwarves. At times, a khan serves directly under a powerful dwarven practitioner, acting as a trusted vassal and executing their master's will without question.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+When a khan charges headlong into battle to bring carnage and ruin to the front lines, the minions of darkness are quick to follow. Such stampedes shatter all opposition in their path, leaving only ruin in their wake.
+
+
+___
+___
+> ## Bull Centaur Khan
+> *Large monstrosity (dwarf), mini-boss, lawful evil*
+> ___  
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;**Initiative** +4 (14)  
+> - **Hit Points** 147 (14d10 + 70)  
+> - **Speed** 50 ft.  
+> ___  
+> <table>  
+> <tr style="background-color:transparent">  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>STR</b></td>  
+> <td style="text-align:center">22</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>  
+> <td></td>  
+> <td><b>DEX</b></td>  
+> <td style="text-align:center">10</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>  
+> <td></td>  
+> <td><b>CON</b></td>  
+> <td style="text-align:center">20</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>INT</b></td>  
+> <td style="text-align:center">14</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>  
+> <td></td>  
+> <td><b>WIS</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td></td>  
+> <td><b>CHA</b></td>  
+> <td style="text-align:center">16</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> </tr>  
+> </table>
+>
+> ___  
+> - **Skills** Athletics +10, Intimidation +7  
+> - **Resistances** Fire, Poison
+> - **Senses** Darkvision 30 ft., Passive Perception 12  
+> - **Languages** Dwarvish, Infernal  
+> - **Challenge** 9 (5,000 XP)  &emsp;&emsp;  **Proficiency Bonus** +4  
+> ___
+> ### Traits
+> ***Debilitating Strikes.*** When the bull centaur reduces a creature to 0 hit points with an attack, that creature is Stunned for 1 minute.
+> 
+> ### Actions
+> ***Multiattack.*** The bull centaur makes two attacks, each one with a different weapon.
+> 
+> ***Impeding Greataxe.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 25 (3d12 + 6) slashing damage. The target can't take the Disengage or Dodge action on its next turn.
+>
+> ***Gore.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 19 (3d8 + 6) piercing damage. If the bull centaur moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a *Strength Saving Throw:* DC 18. <br> 
+> *Failure:* The target is knocked prone.
+>
+> ***Pulverizing Stomp.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one Prone target or a creature two sizes smaller. *Hit:* 32 (4d12 + 6) bludgeoning damage. If the target is prone, the target can't stand until the end of its next turn unless it spends all its movement to make a DC 18 Constitution saving throw. On a success, it stands up.
+> 
+> ### Bonus Actions
+> ***Resolute Charge.*** At the start of its turn, bull centaur may move up to its speed in a straight line and become Resolute*.
+> 
+> ***Stampede (1/Day).*** The bull centaur chooses a direction. It and any number of allies within 30 feet may use their reactions to move up to their speed in that direction in a straight line and then make one melee weapon attack. Creatures hit by attacks made this way have disadvantage on Strength and Dexterity saving throws until the end of the turn.
+>
+> **New condition described at the beginning of the document*
+
+</span>
+
+<img src='https://assets.echomtg.com/magic/cards/cropped/7867.hq.jpg' style='position:absolute; top:-0px; right:-0px; width:816px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:18px; right:30px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(12deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:85px; right:-30px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+\pagebreakNum
+
+
+
+##### Bull Centaur Adventure Hooks
+| d12  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **The Spawn Pit Uprising:** A fel dwarf fortress has gone dark, its forge fires cold and its gates sealed. Whispers speak of an experimental clutch of bull centaur progeny born all at once—mutated, unstable, and violently rebellious. The party is tasked with breaching the citadel to uncover what happened within, but the halls now belong to savage bull centaurs that no longer serve any master.|
+| 2   |**The Sanguine Toll:** A remote village sits along an important mountain pass—now blocked by a band of bull centaurs who demand a grisly toll: the blood of one warrior per day, sacrificed at a gore-slick altar. The villagers beg for help, but the bull centaurs claim their offerings are holding something far worse at bay. Can the party stop them—or are the creatures telling the truth?  |
+|  3  | **The Prophet’s Bodyguards:** A rising demon-smith prophet has sent emissaries offering terms of surrender to a border kingdom, backed by a show of strength: a pair of bull centaur guardians who now prowl the edges of enemy land. The kingdom hires the party to assassinate or neutralize these elite protectors before the prophet himself arrives to demand fealty—or deliver annihilation.   |
+|  4  |**The Tainted Grove:** A sacred grove protected by druids has become twisted and toxic, its spirits slain or driven mad. At the center of the corruption stands a shattered altar repurposed by a band of bull centaur ravagers, who use it to offer grisly sacrifices to their gods. The party must cleanse the land—but slaying the bull centaurs may only anger the gods that empowered them.   |
+|  5  |**The Broken Horn Khan:** A notorious bull centaur khan, once thought slain during a siege, has reappeared in the borderlands—now adorned with infernal prosthetics and leading a rogue warband. He no longer answers to the fel dwarves, and his rampages threaten both the empire and its enemies alike. The party is hired to hunt the khan before his forces become an uncontrollable tide of destruction.  |
+|  6  |  **The Wandering Herd:** A nomadic tribe of bull centaurs has broken from fel dwarf control and now travels the badlands, seeking to reclaim ancient sites from before their transformation. They are hostile to outsiders but have knowledge of a sealed vault said to contain pre-fall dwarven artifacts. The party can choose to ally with, deceive, or fight the herd—each option leading to vastly different consequences.  |
+
+\columnbreak
+
+### Bull Centaur Tactics
+#### Bull Centaur Warriors
+If the warrior has a clear, straight path to an enemy, it will use its Resolute Charge. If no such path is available, it will stand its ground and fight enemies already in melee range (still using Resolute Charge without moving to gain the Resolute condition).
+ 
+#### Bull Centaur Render
+Renders are more adaptable than their kin. If denied a clear charge lane or if enemies keep disengaging, they will stand their ground and throw their twin axes at ranged targets.
+
+
+#### Bull Centaur Guardian
+Guardians typically operate in one of two roles:
+
+**Personal Bodyguard:** Often assigned to protect a powerful spellcaster such as a deamonsmith, the guardian stays close to its charge to grant it its defensive aura. It may reposition itself with a charge if necessary to eliminate isolated threats.
+
+
+**Group Anchor:** When guarding a formation of other bull centaurs, the guardian charges alongside them to ensure the group benefits from its defensive aura. The group holds formation unless disrupted by sustained area-of-effect attacks.
+
+
+#### Bull Centaur Ravager
+ Ravagers follow similar tactics to renders but prioritize attacking any enemy suffering from the Frightened condition.
+
+#### Bull Centaur Khan
+The khan opens combat with Stampede to shatter enemy front lines. Afterwards, it uses tactics similar to standard bull centaur warriors.
+
+<img src='https://i.postimg.cc/L5m8PwKZ/Tectonic-Edge-Expeditions-Battle-for-Zendikar-Mt-G-Art.jpg' style='position:absolute; bottom:-0px; right:-20px; width:530px; transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:30px;top:-30px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-390px; right:-50px; width:1000px; transform:rotate(-0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Bull Centaur Loot
+Most of the valuable goods that can be looted from bull centaurs are the remains of the equipment they were using or valuables they were carrying or hiding nearby. Most dropped or hidden valuables can be found using **Intelligence (Investigation)** or **Wisdom (Perception)** checks. 
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+##### Bull Centaur Warrior & Render Loot Table  (Avg. 28gp)
+
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 1d6(3) 5gp Items |
+|  5-7 | 2d4(5) 5gp Items | 
+|  8-14 | 1d4(2) 10gp Items  |  
+|  15-20 | 1d6(3) 10gp Items |  
+|  21+ |  2d4(5) 10gp Items |  
+
+
+##### Bull Centaur Guardian & Ravager Loot Table  (Avg. 58gp)
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-6  | 1d4(2) 10gp Items |
+|  7-9 | 1d6(3) 10gp Items | 
+|  10-16 | 2d4(5) 10gp Items  |  
+|  17-21 | 1d6(3) 20gp Items |  
+|  22+ |  2d4(5) 20gp Items |  
+
+##### Bull Centaur Khan Loot Table (Avg. 208gp)
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1d4(2) 50gp Items |
+|  9-13 | 1d6(3) 50gp Items | 
+|  14-17 | 1d4(2) 100gp Items  |  
+|  18-23 | 1d6(3) 100gp Items |  
+|  24+ |  1d4(2) 200gp Items |  
+
+
+#### Optional: Describing Looted Materials
+If you’re not interested in the specifics, simply say the party collected materials worth the rolled gp value. If you want more detail, the tables below suggest materials for different gp values by creature. They also provide **Example Names** and **Quality Descriptors** for items worth **half** or **twice** the table's gp value.
+
+For example, a 10gp Bone item from a bull centaur could be a Bull Centaur Horn, a 5gp version might be a Young Bull Centaur Horn, and a 20gp version could be an Elite Bull Centaur Horn.
+
+***When To Use Descriptions.*** You can describe these items during looting, when selling them, or when crafting, but it's best not to make players track long descriptive names. Only use as much detail as is needed when needed.
+
+\columnbreak
+
+##### Bull Centaur Materials: 10gp 
+
+|1d4 | Material | Example Name (Quality Descriptors) | 
+|:--:|:---:|:-----------:|
+| 1   | Bone|   Bull Centaur Horn (Young/Elite) | 
+| 2   | Jewelry | Obsidian Insigina (Initiate's/Elite)|  
+| 3-4   | Metal|  Bull Centaur Armor Plate (Inferior/Masterwork) |  
+
+ 
+
+##### Bull Centaur Khan Materials: 100gp 
+
+|1d4 | Material | Example Name (Quality Descriptors) | 
+|:--:|:---:|:-----------:|
+| 1   | Bone|   Bull Centaur Khan Horn (Damaged/Elite) | 
+| 2   | Jewelry | Khan Insigina (Fresh/Veteran)|  
+| 3-4   | Metal|  Khan's Armor Plate (Inferior/Masterwork) |  
+
+#### Optional: Magic Loot for Item Crafting
+If you plan to use harvested loot for crafting magic items, you can try to thematically align the effects of the magic items being crafted with the creature's they're harvested from. In the case of bull centaurs, Fiendish effects would make the most sense. These could be magic item effects that steal the lives of their victims or conjure unholy magic.
+
+***Magic Loot GP Values.*** The value of magic ingredients depends on your crafting system. Subtract their cost from the normal loot’s gp value. If the ingredient is worth significantly more, subtract it from the next treasure hoard instead.
+
+
+
+<br>
+
+> ##### New Condition: Resolute
+> The creature stubbornly digs in to weather any assault. It experiences the following effects:
+> * Attack rolls made against the creature have disadvantage.
+> * The creature can't take its move action on its turn.
+> * The creature makes Strength checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage.
+The Resolute condition ends if an effect moves the creature against its will, knocks it prone, or the creature becomes charmed, frightened, or incapacitated. A creature that is prone, charmed, frightened, or incapacitated can't become Resolute.
+
+<br>
+
+#### Bull Centaurs Art Credit
+* Stonebrow, Krosan Hero - Ron Spears, Wizards of the Coast
+* Centaur Vinecrasher - Robbie Trevino, Wizards of the Coast
+* Burning-Tree Shaman - Dan Murayama Scott, Wizards of the Coast
+* Spellbane Centaur - Rick Farrell, Wizards of the Coast
+* Tectonic Edge - Raymond Swanland, Wizards of the Coast
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release

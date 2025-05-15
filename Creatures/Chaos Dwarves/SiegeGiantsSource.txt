@@ -1,0 +1,205 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p3:after, .phb#p4:after, .phb#p6:after, .phb#p9:after, .phb#p10:after, .phb#p11:after,.phb#p12:after, .phb#p13:after, .phb#p17:after, .phb#p18:after, .phb#p23:after, .phb#p25:after, .phb#p27:after, .phb#p28:after, .phb#p31:after, .phb#p32:after    {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Siege Giants
+Few creatures are as legendary for their tumultuous and unruly nature as giants. Their immense size and strength allow them to indulge in reckless behavior without fear of repercussions. A giant lives only to roam, driven by the endless need for vast quantities of food to sate its voracious appetite and enough barrels of ale and mead to overcome its resilient fortitude. As they pursue their gluttonous desires, they leave behind broken landscapes and ruined villages.
+
+The empires of the fel dwarves have witnessed these living weapons and sought to bend such power to their will, as is the nature of the fel dwarf. Many giants have been captured by the infernal enclaves, either through cunning trickery or overwhelming military force. These captives are dragged to massive foundries, where they undergo a torturous transformation. Dense metal plates studded with thick, protruding spikes are grafted onto the giant’s leathery skin. The brute’s meaty hands are torn off and replaced with enormous weapons—hooked blades capable of tearing down castle walls and pickaxes the size of oxen. These tortured engines of war are known as Siege Giants.
+
+When battle looms, the towering iron behemoths stumble forth to carry out their master's cruel bidding. Their tormented minds and heavy grafted metal exteriors make them unpredictable and hazardous, wildly swinging their colossal weapons and pulverizing foundations wherever their rampage takes them. The brutal momentum of their iron-clad legs crushes stone as they stomp across the battlefield, oblivious to friend or foe.
+
+### Siege Giant Tactics
+Siege giants are dim-witted, tormented creatures that instinctively lumber toward the largest enemy or the source of their pain, attempting to destroy it if left without guidance.
+
+However, when controlled by their fel dwarf masters, they are directed to unleash their area-of-effect attacks on clusters of enemies while reserving their single-target strikes for foes with weak saving throws against the attack's secondary effects.
+
+
+\columnbreak
+
+### Siege Giant Loot
+Most of the valuable goods that can be looted from siege giants are the remains of the equipment that was grafted onto them. Most of these items can be found or identified using **Intelligence (Investigation)** or **Wisdom (Perception)** checks. 
+
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+##### Siege Giant Loot Table  (Avg. 3,525gp)
+
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 1d4(2) 500gp Items |
+|  10-12 | 1d6(3) 500gp Items | 
+|  13-19 | 1d4(2) 1,000gp Items  |  
+|  20-24 | 1d4(2) 2,000gp Items |  
+|  25+ |  2d4(5) 2,000gp Items |  
+
+#### Optional: Describing Looted Materials
+If you’re not interested in the specifics, simply say the party collected materials worth the rolled gp value. If you want more detail, the tables below suggest materials for different gp values by creature. They also provide **Example Names** and **Quality Descriptors** for items worth **half** or **twice** the table's gp value.
+
+For example, a 1,000gp Metal item from a siege giant could be Siege Giant Plating, a 500gp version might be Damaged Siege Giant Plating, and a 2,000gp version could be a Masterwork Siege Giant Plating.
+
+***When To Use Descriptions.*** You can describe these items during looting, when selling them, or when crafting, but it's best not to make players track long descriptive names. Only use as much detail as is needed when needed.
+
+##### Siege Giant Materials: 1,000gp 
+
+|1d4 | Material | Example Name (Quality Descriptors) | 
+|:--:|:---:|:-----------:|
+| 1   | Blood|   Siege Giant Blood (Clotted/Pure) | 
+| 2   | Bone | Monstrous Bone Fragment (Damaged/Pristine)|  
+| 3-4   | Metal|  Siege Giant Plating (Damaged/Masterwork) |  
+
+#### Optional: Magic Loot for Item Crafting
+If you plan to use harvested loot for crafting magic items, you can try to thematically align the effects of the magic items being crafted with the creature's they're harvested from. In the case of siege giants, Fiendish effects would make the most sense. These could be magic item effects that steal the lives of their victims or conjure unholy magic.
+
+***Magic Loot GP Values.*** The value of magic ingredients depends on your crafting system. Subtract their cost from the normal loot’s gp value. If the ingredient is worth significantly more, subtract it from the next treasure hoard instead.****
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Siege Giant
+> *Huge giant (mini-boss), chaotic evil*
+> ___
+> - **Armor Class** 21                  **Initiative** 16 (16)
+> - **Hit Points** 300 (24d12 + 144)
+> - **Speed** 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">25</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">9</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +13, Intimidation +9, Perception +4
+> - **Senses** Passive Perception 14
+> - **Languages** Giant
+> - **Challenge** 17 (18,000 XP)      **Proficiency Bonus** +6
+>
+> ___
+> ### Traits
+>
+>
+> ***Siege Armor.*** Ranged attacks made against the giant from more than 15 feet away from it treat the giant as though it has an AC of 24.
+>
+> ***Implacable.*** The giant has advantage on saving throws against being Charmed, Frightened, Stunned, Paralyzed, or Incapacitated.
+>
+> ***Spiked Covered Carapace.*** When the giant falls prone for the first time each turn, it takes 23 (3d10 + 7) bludgeoning damage. Each other enemy creature within a 5-foot radius emanating from the giant must make a *Dexterity Saving Throw:* DC 20.<br>
+> *Failure:* 23 (3d10 + 7) piercing damage.<br>
+> *Success:* No damage.
+>
+> ### Actions
+>
+> ***Writhing Attack.*** The siege giant performs two of the following actions, chosen at random. If it has 100 hit points or fewer, it performs three actions instead. It can take these actions at any point during its turn, in any order:
+>
+> ***1. Yell and Bawl.*** Each other enemy creature in a 120-foot radius emanating from the giant that can hear it must make a *Wisdom Saving Throw:* DC 21. <br>
+> *Failure:* The creature is Frightened of the giant and repeats the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 5+:* While the creature is Frightened, it can’t take reactions and must take the Dash action on each of its turns and move away from the giant by the safest available route.
+>
+> ***2. Ripping Blades.*** *Melee Weapon Attack:* +13 to hit, reach 15 ft., one target.
+> *Hit:* 45 (7d10 + 7) piercing damage, and the target must make a *Strength Saving Throw:* DC 21. <br>
+> *Failure:* The target takes an extra 10 (3d6) piercing damage. <br>
+> *Failure by 5+:* The target suffers a rending wound. While wounded this way, the target has disadvantage on Strength, Dexterity, and Constitution saving throws, checks, and attack rolls, and its speed is halved. The wounded creature, or a creature within 5 feet of it, can use an action to make a DC 20 Wisdom (Medicine) check, ending the effect on a success. The effect also ends if the creature regains 15 or more hit points.
+>
+> ***3. Stomp and Smash.*** Each other creature in a 15-foot radius emanating from the giant must make a *Dexterity Saving Throw:* DC 20. <br>
+> *Failure:* 23 (3d10 + 7) bludgeoning damage. <br>
+> *Failure by 5+:* The target is also knocked prone.
+>
+> ***4. Brutal Bash.*** *Melee Weapon Attack:* +13 to hit, reach 15 ft., one target.
+> *Hit:* 45 (7d10 + 7) bludgeoning damage, and the target must make a *Constitution Saving Throw:* DC 21. <br>
+> *Failure:* The target is Incapacitated until the start of the giant’s next turn. <br>
+> *Failure by 5+:* The target is Stunned until the end of the giant’s next turn.
+>
+> ***5. Leg Crusher.*** *Melee Weapon Attack:* +13 to hit, reach 15 ft., one target.
+> *Hit:* 45 (7d10 + 7) bludgeoning damage, and the target must make a *Dexterity Saving Throw:* DC 21. <br>
+> *Failure:* The target is knocked Prone and can’t stand up unless it uses all of its movement. <br>
+> *Failure by 5+:* The target’s speed is 0 until the end of its next turn.
+>
+> ***6. Sweeping Blades.*** Each other creature in a 15-foot radius emanating from the giant must make a *Dexterity Saving Throw:* DC 21. <br>
+> *Failure:* 23 (3d10 + 7) slashing damage. <br>
+> *Failure by 5+:* The target also has disadvantage on attack rolls until the start of the giant’s next turn.
+
+</span>
+
+\pagebreakNum
+
+
+### Change Log
+#### 0.0.0
+* Document creation
