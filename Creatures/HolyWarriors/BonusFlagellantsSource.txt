@@ -1,0 +1,464 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Bonus Flagellants
+The following is an extended list of different types of flagellants with specialized abilities beyond what can normally be found in their deranged fellows. They are often found fighting alongside each other and the "standard" flagellants, forming small armies of the End Times.
+
+### Torrid Soul
+
+
+When fervid religious abandonment takes hold in those who believe the world is dying, a righteous fire can ignite within the spirit of the adherent, known as a torrid soul. Such individuals are commonly found among other extremists as they parade about, flogging themselves with whips in an attempt to purify themselves. Torrid souls, however, have no need for such implements of torture and instead use the very light within them to induce searing pain. When battle is met, their inner radiance begins to burn away their body, and they unleash purging bolts of light on their enemies until the flame within grows so hot that it reduces the torrid soul’s body to ash as an illuminating torrent bursts forth, roasting anything caught within the sacred glow.
+
+#### Torrid Soul Tactics
+Maintain a 40-foot distance from enemies until Bloodied or the flagellant has gained 4 or more levels of Fury, at which point, charge into the largest group of enemies
+
+<br>
+
+> ##### New Condition: Fury  
+> The creature gains levels of Fury that cause its attacks to deal increasing amounts of damage with each level.
+> * The creature can only gain levels of Fury during combat, and all levels are lost when combat ends.
+> * A creature can gain up to a max of 6 levels of Fury.
+> * First time each turn the creature hits a target with an attack, it deals an additional 1d4 damage for each level of Fury it has.
+> * A creature also loses all levels of Fury if it becomes Charmed or Frightened, or is affected by the *calm emotions* spell.  It also can't gain levels Fury while under these conditions.
+
+\columnbreak
+
+___
+> ## Flagellant,Torrid Soul
+> *Medium humanoid (any race), party, any chaotic*
+> ___
+> - **Armor Class** 14
+> - **Initiative** +2 (12)
+> - **Hit Points** 90 (12d8 + 36)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +5, Religion +3
+> - **Damage Resistances** Psychic
+> - **Senses** Passive Perception 11
+> - **Languages** Common, one other language
+> - **Challenge** 3 (700 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Death Burst.*** When the flagellant dies, it explodes in a burst of light. Each creature in a 30-foot cone must make a *Constitution Saving Throw:* DC 13.
+>
+> *Failure:* A creature takes 1d4 Radiant damage for each level of Fury* the flagellant has. 
+>
+> *Success:* A creature takes half damage.
+>
+> ***Fanatical Devotion.*** The flagellant has advantage on saving throws against being Charmed or Frightened.
+>
+> ### Actions
+>
+> ***Mace of Radiance.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 2) Bludgeoning damage plus 3 (1d6) Radiant damage.
+>
+> ***Holy Bolt.*** *Ranged Spell Attack:* +5 to hit, range 150 ft., one target. *Hit:* 10 (3d6) Radiant damage.
+>
+> ### Bonus Actions
+>
+> ***Penitent Flagellation.*** The flagellant takes 1d4 × 5 Force damage and gains one level of Fury* for each 5 damage taken.
+>
+> **New condition described above*
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:10px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>  
+
+\pagebreakNum
+
+### Martyr
+
+Some who suffer horrific loss do not turn to zealous violence but instead enter a delirium, believing they must sacrifice themselves to save the rest of the world. These martyrs have confidence in their grand ordinance, capable of taking pain and suffering upon themselves, enduring all manner of grievous wounds. Some go around as preachers, attempting to ease the pain of other poor souls they cross paths with, while others accompany crusades, suffering gruesome fates so that their chosen warrior may battle on. To kill such a selfless entity can cause even the most hideous of demons to feel guilt overcome their depraved souls.
+
+
+\columnbreak
+
+<br>
+
+#### Martyr Tactics
+* **Sanctuary:** Forgo the attack action to cast Sanctuary on itself.
+* **Healing:** Use *cure wounds* and Selfless Sacrifice on heavily damaged allies.
+* **Damage Mitigation:** Apply Guardian’s Gift to mitigate large single-damage effects (e.g., spells or sneak attacks).
+* **Suicidal Debuffing:** Use Guardian’s Gift to enable Stain of Sin to target a creature with a low Wisdom saving throw.
+
+___
+___
+> ## Flagellant, Martyr
+> *Medium humanoid (any race), party, any chaotic*
+> ___
+> - **Armor Class** 14
+> - **Initiative** +0 (10)
+> - **Hit Points** 78 (12d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Religion +4
+> - **Damage Resistances** Psychic
+> - **Gear** Quarterstaff
+> - **Senses** Passive Perception 13
+> - **Languages** Common, one other language
+> - **Challenge** 3 (700 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The flagellant has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Stain of Sin.*** When a creature kills the flagellant, it must make a *Wisdom Saving Throw:* DC 15. 
+>
+> *Failure:* The target falls prone and is Stunned until the end of its next turn.
+>
+> ### Actions
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) Bludgeoning damage, or 4 (1d8) Bludgeoning damage if used with two hands.
+>
+> ***Spellcasting.*** The flagellant casts one of the following spells, using Charisma as its spellcasting ability (spell save DC 13, +5 to hit with spell attacks), requiring no material components:
+> - **3/day each:** *cure wounds* (cannot cast on itself), *sanctuary*
+>
+> ### Bonus Actions
+>
+> ***Selfless Sacrifice.*** The flagellant takes 1d4 × 5 Necrotic damage and then may choose a creature it can see within 30 feet to regain hit points equal to the Necrotic damage taken.
+>
+> ### Reactions
+>
+> ***Guardian’s Gift.*** When another creature within 10 feet of the flagellant takes damage, the flagellant takes that damage instead. This feature doesn’t transfer any other effects that might accompany the damage, and this damage cannot be reduced in any way.
+>
+
+</span>
+
+\pagebreakNum
+
+### Sacred Champion
+
+Their flagellants are so pertinacious that they are able to weather the brutality of their own self-inflicted punishments and harrowing confrontations with merciless wretches they face. Emerging from such struggles covered in all manner of blood and ichor, with only a fraction of their lives lingering, such veterans who have survived one or more of these encounters—which they believe to be the final battle—may come to the deluded conclusion that they are a savior and that they alone can stop the oncoming reckoning of the world. Such sacred champions attract the attention of holy orders, who see these self-aggrandizing warriors as viable assets and grant them master-crafted weapons to fight in the name of their religion. 
+
+Such mentally unstable individuals, though, are difficult to control. Holy orders use shrewd sermons to influence their champions to aid in their desired cause. Some warriors are merely subjugated in chains or by sacred magics until they can be let loose upon heretical foes. A sacred champion is nearly impossible to stop, withstanding all manner of weapon strikes that would kill any person of sound mind. As the battle rages, a spiritual fury builds within the champion until they unleash a frantic moment, delivering a blurred onslaught of righteous steel on any they deem damned.
+
+#### Sacred Champion Tactics
+
+* **Penitent Flagellation:** Use Penitent Flagellation to increase the flagellant's damage each turn unless at 5+ Levels of Fury or below 15 Hit Points.
+* **Reckless Attacks:** Switch to Reckless Attacks when at 3+ Levels of Fury.
+
+___
+> ## Flagellant, Sacred Champion
+> *Medium humanoid (any race), party, any chaotic*
+> ___
+> - **Armor Class** 16
+> - **Initiative** +2 (12)
+> - **Hit Points** 82 (11d8 + 33)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +5, Religion +3
+> - **Damage Resistances** Psychic
+> - **Gear** Greatsword
+> - **Senses** Passive Perception 11
+> - **Languages** Common, one other language
+> - **Challenge** 4 (1,100 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The flagellant has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Reckless.*** At the start of its turn, the flagellant can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+>
+> ***Survivor (1/Day).*** When the flagellant becomes Bloodied, for the next minute, it has advantage on all saving throws and gains 10 temporary hit points at the start of each of its turns.
+>
+> ### Actions
+>
+> ***Greatsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) Slashing damage.
+>
+> ***Fanatical Surge (Requires 6 Levels of Fury*).** The flagellant expends all its Fury* and makes three Greatsword attacks.
+>
+> ### Bonus Actions
+>
+> ***Penitent Flagellation.*** The flagellant takes 1d4 × 5 Force damage and gains one level of Fury* for each 5 damage taken.
+>
+> **New condition described at beginning of section*
+>
+
+</span>
+
+\pagebreakNum
+
+### Prophet of The End
+
+There are times when the dire warnings of filth-ridden wanderers are not just paranoid or a vain attempt to grapple with trauma, but a true testament handed down from higher powers of an encroaching conflict that will lead to an age of darkness for the world or even bring it to its finality. Such admonished words from the heavens, heard by a select few, hold both ardent madness and holy power for those who receive them, transforming the receiver into prophets. In the end, these divine avatars spread the grim ordinance that has been handed down to the masses so they might prepare for the coming storm. 
+
+Such figures can amass armies with their doctrines to lead against the evil they have been warned about. Even a greater demon may give pause when facing a force headed by such an emissary of the gods. Their weapons glow pure white and loose radiant power with each blow. As the conflict becomes dire, the prophet loses obsecration, so he and his flock may find redemption within such a final conflict. Such powers are so potent that those who have been cut down in combat will rise once more for a brief moment to crush corrupt foes
+
+\columnbreak
+
+<br>
+
+#### Prophet of The End Tactics
+* **Penitent Flagellation:** Use Penitent Flagellation to increase the flagellant's damage each turn unless at 5+ Levels of Fury or below 15 Hit Points.
+* **Reckless Attacks:** Switch to Reckless Attack when at 3+ Fury.
+* **Support:** Use Atonement on allies with less than one-third of their hit points or those with on-death effects capable of significant damage (e.g., a Torrid Soul with maximum Fury).
+
+___
+___
+> ## Flagellant, Prophet of The End
+> *Medium humanoid (any race), mini-boss, any chaotic*
+> ___
+> - **Armor Class** 16
+> - **Initiative** +7 (17)
+> - **Hit Points** 116 (12d8 + 48)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +7, Persuasion +7, Religion +7
+> - **Damage Resistances** Psychic
+> - **Senses** Passive Perception 11
+> - **Languages** Common, Celestial, one other language
+> - **Challenge** 9 (5,000 XP)      **Proficiency Bonus** +4
+> ___
+> ### Traits
+> ***Aura of the Damned.*** The flagellant radiates an invisible protective aura in a 30-foot radius. The aura is inactive while the flagellant is Incapacitated. Whenever the flagellant or an ally within the aura takes damage of 15 or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.
+>
+> ***Reckless.*** At the start of its turn, the flagellant can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+>
+> ***The End is Here (1/Day).*** When the flagellant becomes Bloodied, each allied creature that died within the last minute in a 30-foot radius of the flagellant returns to life with 1 hit point and stands up without using movement. This can’t return creatures that died of old age or restore missing body parts. Revived creatures die again after 1 minute.
+>
+> ### Actions
+>
+> ***Multiattack.*** The flagellant makes two Divine Ball and Chain attacks and uses Atonement.
+>
+> ***Divine Ball and Chain.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) Bludgeoning damage plus 11 (2d10) Radiant damage.
+>
+> ***Atonement.*** One ally who can see or hear the flagellant can use its reaction to move up to its speed without provoking opportunity attacks and then make one attack with advantage. After this, the ally dies.
+>
+> ### Bonus Actions
+>
+> ***Penitent Flagellation.*** The flagellant takes 1d4 × 5 Force damage and gains one level of Fury* for each 5 damage taken.
+>
+> **New condition described at beginning of section*
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+

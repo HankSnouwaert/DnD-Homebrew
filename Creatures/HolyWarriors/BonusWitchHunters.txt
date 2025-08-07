@@ -1,0 +1,571 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Witch Hunter Bands
+Most witch hunters work alone in their quest to destroy the unholy, but some form small bands with others who have also dedicated themselves to these sacred endeavors. Within these hunting parties, a variety of specialized hunters can be found, each excelling in their own field and wielding unique weapons. The combination of these resolute warriors is a death sentence for any monster or individual deemed guilty of committing atrocities.
+
+\columnbreak
+
+### Woodsman
+
+Woodsmen are specialized hunters who thrive in the shadowy, monster-infested forests. These towering, solemn figures wield axes originally designed for splitting logs. Navigating dense undergrowth where most would fear to tread, they patrol diligently, ever alert for the rustling of leaves or the glint of predatory eyes in the gloom. Many travelers owe their lives to woodsmen who rush forward, positioning themselves between the villain and their next victim, delivering a tree-toppling blow with their axe. These strikes are so powerful that tales are told of woodsmen felling ravenous trolls, hags, and other giant beasts.
+
+#### Woodsman Tactics
+The woodsman targets the largest creature with the lowest Dexterity within close range, imposing disadvantage on its attacks against other creatures.
+
+___
+___
+> ## Witch Hunter, Woodsman
+> *Medium humanoid (any race), party, any lawful*
+> ___
+> - **Armor Class** 15                 **Initiative** +3 (13)
+> - **Hit Points** 85 (10d8+40)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +7, Arcana +4, Intimidation +4, Insight +7, Perception +7, Religion +4, Survival +7
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Gear** Chain Shirt, Greataxe
+> - **Senses** Passive Perception 17
+> - **Languages** Common, one other language
+> - **Challenge** 5 (1,800 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
+> ***Accustation (Recharges after a short or long rest).***  At the start of its turn, the witch hunter can mark one creature it can see within 90 feet as its quarry. For the next hour, the witch hunter deals an extra 5 (1d10) damage to the marked creature whenever it hits it with an attack roll. Additionally, the witch hunter has advantage on Wisdom (Perception) and Wisdom (Survival) checks made to locate the marked target as well as Wisdom (insight) checks to tell if the marked target is lying.
+>
+> ***Fanatical Devotion.*** The witch hunter has advantage on saving throws against being charmed or frightened.
+>
+> ***Imposing Presence.*** While the witch hunter is not Incapacitated, any enemy within 5 feet of it has disadvantage on attack rolls against targets other than the witch hunter or another creature with this trait.
+>
+> ***Magic Resistance.*** The witch hunter has advantage on saving throws against spells and other magical effects.
+>
+> ***Woodland Stalker.*** The witch hunter has advantage on Dexterity (Stealth) checks made to hide using foliage. Additionally, the hunter can move through plants without being slowed, taking damage, or being Grappled or restrained by them.
+>
+> ### Actions
+>
+> ***Felling Greataxe.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17 (2d12 + 4) Slashing damage. The target must make a *Dexterity Saving Throw:* DC 15 (with disadvantage if the target is marked by the hunter’s Accusation) <br>
+> *Failure:* The target is knocked Prone. <br>
+> *Failure by 5 or more:* The creature takes additional damage equal to three rolls of its largest hit dice and can't regain hit points until the end of it's next turn.
+>
+> ### Reactions
+>
+> ***Vengeance.*** *Trigger*: A creature the hunter can see reduces an ally to 0 hit points. <br>
+> *Response*: The witch hunter can move up to half its speed toward or away from that creature without provoking opportunity attacks and then make one attack against that creature.
+>
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:14px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Marksman
+
+Masters of archery, marksmen are armed with expertly crafted crossbows of enormous proportions. They load these with a varied assortment of thick bolts made from materials such as silver, cold iron, or sacred oak, ensuring no spawn of evil is safe from their wrath. When their quarry is spotted, marksmen position themselves to deliver devastating shots. A well-placed bolt can thrust a pierced creature backward, embedding the arrow in a nearby wall and pinning the victim against it. Most monsters are already dead by the time they are nailed down, becoming macabre decor. 
+
+\columnbreak
+
+<br>
+
+More resilient, nightmarish foes of unnatural constitution may squirm and scream, struggling to escape their restraints, but trapped victims are rarely fast enough to avoid another arrow that either further secures them or ends their miserable existence.
+
+#### Marksman Tactics
+
+The Marksman targets opponents with low Strength, attempting to pin them against walls. They may goad enemies into chasing them by using the Dash or Disengage action, luring them toward a wall to pin them.
+
+___
+___
+> ## Witch Hunter, Marksman
+> *Medium humanoid (any race), party, any lawful*
+> ___
+> - **Armor Class** 16           **Initiative** +4 (14)
+> - **Hit Points** 78 (12d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Arcana +5, Intimidation +5, Insight +7, Perception +7, Religion +5, Survival +7
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Gear** Heavy Crossbow, Studded Leather
+> - **Senses** Passive Perception 17
+> - **Languages** Common, one other language
+> - **Challenge** 5 (1,800 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
+> ***Accustation (Recharges after a short or long rest).***  At the start of its turn, the witch hunter can mark one creature it can see within 90 feet as its quarry. For the next hour, the witch hunter deals an extra 5 (1d10) damage to the marked creature whenever it hits it with an attack roll. Additionally, the witch hunter has advantage on Wisdom (Perception) and Wisdom (Survival) checks made to locate the marked target as well as Wisdom (insight) checks to tell if the marked target is lying.
+>
+> ***Fanatical Devotion.*** The witch hunter has advantage on saving throws against being charmed or frightened.
+>
+> ***Magic Resistance.*** The witch hunter has advantage on saving throws against spells and other magical effects.
+>
+> ### Actions
+>
+> ***Multiattack.*** The witch hunter makes two attacks with its Crossbow Stock or Heavy Crossbow.
+>
+> ***Crossbow Stock.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) Bludgeoning damage.
+>
+> ***Pinning Crossbow.*** *Ranged Weapon Attack:* +7 to hit, range 100/400 ft., one target. *Hit:* 20 (3d10 + 4) Piercing damage, or 37 (6d10 + 4) Piercing damage if the attack roll did not have disadvantage due to a hostile creature being within 5 feet of the witch hunter, and the target must succeed on a *Strength Saving Throw:* DC 15 (with disadvantage if the target is marked by the witch hunter’s Accusation). <br> *Failure:* The target is pushed up to 15 feet away and, if pushed into a solid surface, has its speed reduced to 0 as it becomes pinned by the arrow to its current location. The target or any creature within 5 feet of it can use an action to remove the arrow, ending the pinned effect.
+>
+> ### Reactions
+>
+> ***Vengeance.*** *Trigger*: A creature the hunter can see reduces an ally to 0 hit points. <br>
+> *Response*: The hunter can move up to half its speed toward or away from that creature without provoking opportunity attacks and then make one attack against that creature.
+>
+
+
+</span>
+
+\pagebreakNum
+
+### Interrogator
+
+Interrogators are perhaps the most feared breed of witch hunter, dreaded by both the guilty and the innocent. Masters of torture, they excel at extracting confessions and information from anyone they apprehend. Even the most black-hearted and zealous cultist becomes contrite when subjected to the Interrogator’s holy brand, renouncing their dark ways. However, such victims can only hope for their suffering to end in death. 
+
+\columnbreak
+
+<br><br>
+
+Interrogators descend upon towns where they suspect secret covens or cults have taken root. These communities are overwhelmed with terror as the hunters stalk through the night, dragging away anyone they believe knows about blasphemous activities, brutally gathering any information they can.
+
+#### Interrogator Tactics
+
+Interrogators are vindictive and target those they deem most sinful, even if they have high bonuses to Deception.
+
+___
+___
+> ## Witch Hunter, Interrogator
+> *Medium humanoid (any race), party, any lawful*
+> ___
+> - **Armor Class** 16           **Initiative** +4 (14)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +6, Arcana +4, Intimidation +4, Insight +8, Perception +6, Religion +4, Survival +6
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Gear** Studded Leather
+> - **Senses** Passive Perception 16
+> - **Languages** Common, one other language
+> - **Challenge** 4 (1,100 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Accustation (Recharges after a short or long rest).***  At the start of its turn, the witch hunter can mark one creature it can see within 90 feet as its quarry. For the next hour, the witch hunter deals an extra 5 (1d10) damage to the marked creature whenever it hits it with an attack roll. Additionally, the witch hunter has advantage on Wisdom (Perception) and Wisdom (Survival) checks made to locate the marked target as well as Wisdom (insight) checks to tell if the marked target is lying.
+>
+> ***Fanatical Devotion.*** The witch hunter has advantage on saving throws against being charmed or frightened.
+>
+> ***Magic Resistance.*** The witch hunter has advantage on saving throws against spells and other magical effects.
+>
+> ### Actions
+>
+> ***Searing Brand.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) Piercing damage plus 10 (3d6) Radiant damage, and the witch hunter demands the target answer one question truthfully or make a Charisma (Deception) check contested by the hunter’s Wisdom (Insight) check. <br>
+> - *Creature fails the check:* The target must answer the question truthfully and takes 21 (6d6) Psychic damage. If this damage reduces the target to 0 hit points, the target is stable, its speed cannot exceed 5 feet, it has disadvantage on all d20 tests, and it cannot cast spells until it finishes a short or long rest.
+> - *Creature succeeds on the check:* The target takes half damage.
+> - *Creature chooses to answer truthfully:* The target repents, it fails Prone and is Incapacitated until the end of its next turn.
+>
+>
+> ***Vicious Rhetoric.*** *Wisdom Saving Throw:* DC 15, one target creature with in 60 feet.
+> <br> *Failure:* The target takes 18 (4d8) Psychic damage and can't casts spells until the end of its next turn.
+>
+> ### Reactions
+>
+> ***Vengeance.*** *Trigger*: A creature the hunter can see reduces an ally to 0 hit points. <br>
+> *Response*: The hunter can move up to half its speed toward or away from that creature without provoking opportunity attacks and then make one attack against that creature.
+
+
+</span>
+
+
+\pagebreakNum
+
+### Hound Master
+
+Hound masters command one or more fiercely loyal hunting hounds, each subjected to rigorous and ruthless training. These hounds wear collars adorned with charms that ward off dark magic, ensuring they do not falter even when facing the most horrific aberrations. Working in tandem with their masters, the hounds coordinate to outmaneuver even the deadliest adversaries, shredding them in a flurry of blades and teeth. Through perilous excursions, hunter and hounds form a fierce loyalty to one another. Over time, the dogs become as somber as their masters. Should a member of the pack fall in battle, the others exact cruel vengeance on the perpetrator.
+
+\columnbreak
+
+<br>
+
+#### Hound Master and Hounds Tactics
+
+Hound Masters are typically accompanied by two witch hunter's hounds. The hounds dash toward a spellcaster marked by the master, hounds granting him advantage on his musket attack. The master then approaches the target and draws his scimitars to finish them off.
+
+
+___
+___
+> ## Witch Hunter, Hound Master
+> *Medium humanoid (any race), party, any lawful*
+> ___
+> - **Armor Class** 14     **Initiative** +4 (14)
+> - **Hit Points** 65 (10d8 + 20)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +6, Arcana +4, Intimidation +4, Insight +6, Perception +6, Religion +4, Survival +6
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Gear** Musket, Scimitar, Studded Leather
+> - **Senses** Passive Perception 16
+> - **Languages** Common, one other language
+> - **Challenge** 4 (1,100 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Accustation (Recharges after a short or long rest).***  At the start of its turn, the witch hunter can mark one creature it can see within 90 feet as its quarry. For the next hour, the witch hunter deals an extra 5 (1d10) damage to the marked creature whenever it hits it with an attack roll. Additionally, the witch hunter has advantage on Wisdom (Perception) and Wisdom (Survival) checks made to locate the marked target as well as Wisdom (insight) checks to tell if the marked target is lying.
+>
+> ***Fanatical Devotion.*** The witch hunter has advantage on saving throws against being charmed or frightened.
+>
+> ***Magic Resistance.*** The witch hunter has advantage on saving throws against spells and other magical effects.
+>
+> ***Pack Tactics.*** The witch hunter has advantage on an attack roll against a creature if at least one of the witch hunter’s allies is within 5 feet of the creature and the ally isn’t Incapacitated.
+>
+> ### Actions
+>
+> ***Multiattack.*** The hunter makes two attacks with its Scimitar or Musket.
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) Slashing damage or 11 (2d6 + 4) Slashing damage if the target is prone.
+>
+> ***Musket.*** *Ranged Weapon Attack:* +6 to hit (does not suffer disadvantage against Prone creatures), range 100/400 ft., one target. *Hit:* 17 (3d8 + 4) Piercing damage. The witch hunter cannot make this attack again with the musket until it uses an action to reload it or replaces an attack from the Attack action to reload it.
+>
+> ### Bonus Actions
+>
+> ***Bestial Command.*** One allied beast within 60 feet of the witch hunter that can hear it is Quickened* until the end of its next turn, gaining an additional action on its turn (Move, Attack, or Dash).
+>
+> ### Reactions
+>
+> ***Vengeance.*** *Trigger:* A creature the witch hunter can see reduces an ally to 0 hit points. <br>
+> *Response:* The witch hunter can move up to half its speed toward or away from that creature without provoking opportunity attacks and then make one attack against that creature.
+>
+> **New condition described on next page*
+
+
+</span>
+
+\pagebreakNum
+
+___
+> ## Witch Hunter’s Hound
+> *Medium trained beast, mob, any lawful*
+> ___
+> - **Armor Class** 14     **Initiative** +4 (14)
+> - **Hit Points** 32 (5d8 + 10)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +3, Perception +5, Stealth +4
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Senses** Darkvision 60 ft., Passive Perception 15
+> - **Languages** Understands Common but can’t speak
+> - **Challenge** 1 (200 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The hound has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Magic Resistance.*** The hound has advantage on saving throws against spells and other magical effects.
+>
+> ***Pack Tactics.*** The hound has advantage on an attack roll against a creature if at least one of the hound’s allies is within 5 feet of the creature and the ally isn’t Incapacitated.
+>
+> ### Actions
+>
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) Piercing damage, and if the target is a creature, it must succeed on a *Strength Saving Throw:* DC 12. <br> *Failure:* The target is knocked Prone.
+>
+> ### Reactions
+>
+> ***Vengeance.*** *Trigger*: A creature the hound can see reduces an ally to 0 hit points. 
+> *Response*: The hound can move up to half its speed toward or away from that creature without provoking opportunity attacks and then make one attack against that creature.
+>
+
+</span>
+
+\columnbreak
+
+
+> ##### Trained Beasts
+>
+> Trained beasts acquire skills over the years, similar to how players gain experience in a class. This means spells and abilities, such as *polymorph* or a druid's Wild Shape, cannot transform a creature into a trained beast.
+
+<br>
+
+> ##### New Condition: Quickened
+> A Quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the Quickened condition among its other effects, and a creature cannot benefit from the Quickened condition from multiple sources at once.
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+
