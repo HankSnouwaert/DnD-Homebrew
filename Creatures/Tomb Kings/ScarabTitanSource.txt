@@ -1,0 +1,189 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Scarab Titans
+*Mechanized Insectoid War Machines of A Bygone Age*<br>
+**Habitat:** Desert, Underdark; **Treasure:** Relics <br>
+
+Among the vast, flowing dunes of the accursed deserts lie the submerged remnants of lost civilizations, known only through whispered legends. Tales speak of ancient, hoary constructs of unparalleled artifice, possessing terrible power, crawling forth from the sea of sands to stride across the deserts, enacting the will of a long-forgotten empire. No story stirs greater dread among those who recount these monstrosities than that of the Scarab Titan, a crawling monument unmatched by any other wasteland terror.
+
+Fashioned in an age for which no other record exists, the Scarab Titan is wrought from gold, onyx, and lapis lazuli, shaped like a carrion beetle the size of a temple. Embedded within this massive, jeweled behemoth are rows of sarcophagi, each containing a mummified hero of old. At the heart of the construct lies a single sarcophagus, outshining the rest in splendor, entombing a long-forgotten king. The cadavers within these sarcophagi fuel the mechanical insect, granting it the immense power needed to animate its colossal form. It is rumored that only the spirits of the mightiest pharaohs, alongside an entire legion of their fiercest warriors, can achieve such a feat.
+
+The number of Scarab Titans lurking beneath the deserts and their original purpose remain unknown—whether they were crafted as grand weapons of war or as both tomb and protector for the nobility they house. What is certain is that few forces can withstand the power they unleash in battle, guided by the tactical cunning of the ancient warriors they shelter. Their bladed limbs and crushing mandibles effortlessly slice through the thickest metals, while gilded wings beat with such speed and force that they lift the Titan’s inconceivable weight into the air, only to crash down with earth-shattering impact.
+
+Beyond its prodigious size and strength, the ferocious automaton wields unpredictable spiritual power of terrifying magnitude, drawn from the souls it contains. It can unleash waves of destruction that reduce flesh and steel to dust, release swarms of carrion that strip all to bone in their wake, and—most terrifyingly—open portals to the realms of the dead, siphoning the souls of the living into the howling nether. Should one, by some miracle, manage to defeat such a formidable foe, the king entombed within the broken titan will unleash a vengeful curse, sapping the transgressor’s life and aging them at an unnatural rate.
+
+\columnbreak
+
+<br><br><br><br><br>
+
+### Scarab Titan Tactics
+The scarab targets the largest group of enemies to maximize its area-of-effect abilities. After attacking, it flies or burrows out of melee range to use Earth Shake repeatedly.
+
+#### Bonus Actions
+Use Earth Shake after burrowing or flying at least 30 feet in a straight line to target enemies standing on the ground, prioritizing those not yet knocked prone.
+
+#### Actions
+* Use Writhing Attack to select one of the following at random, with specific targeting priorities:
+    * **Reaping Blades:** Target the largest group of enemies, prioritizing those knocked prone by Earth Shake.
+    * **Flesh-Eating Swarm:** Move to target the largest group with low Dexterity saves.
+    * **Breath of Terror:** Target enemies that haven’t taken significant damage to remove them from the fight. Focus attacks on any Paralyzed target.
+    * **Crushing Mandibles:** Target an enemy with low Strength saves and AC below 18, or a Paralyzed target.
+    * **Soul Devour:** Target the largest group with low Charisma saves.
+
+#### Spellcasting
+* Use *destructive wave* to hit three or more enemies with low Constitution saves, provided they aren’t knocked Prone by Earth Shake.
+* Use *disintegrate* on a Bloodied enemy with low Dexterity saves, or immediately on a Paralyzed target.
+* Use *heal* when no other spells remain or to end a debilitating condition affecting the scarab.
+
+<br>
+
+> ##### New Condition: Dazed 
+> A Dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Scarab Titan
+> *Gargantuan undead construct, (NOTE: boss?) unaligned*
+> ___
+> - **Armor Class** 21     **Initiative** 11 (21)
+> - **Hit Points** 314 (17d20 + 136)
+> - **Speed** 60 ft., Burrow 60 ft., fly 60 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">26</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td style="background-color:#e0e5c1; text-align:center">+14</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">26</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td style="background-color:#e0e5c1; text-align:center">+14</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +11
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Immunities** Poison, Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+> - **Senses** Darkvision 300 ft., Blindsight 30 ft., Tremorsense 120 ft., Passive Perception 21
+> - **Languages** Understands the languages of its creator but can’t speak
+> - **Challenge** 20 (25,000 XP)       **Proficiency Bonus** +6
+> ___
+> ### Traits
+>
+> ***Siege Monster.*** The scarab deals double damage to objects and structures.
+>
+> ***Overdrive.*** When the scarab fails a saving throw that requires its action to make or fails a saving throw at the beginning or end of its turn, it can choose to succeed instead. If it does so, it takes force damage equal to 22 (4d10) plus the amount by which it failed the save.
+>
+> ***Curse of the Fallen.*** A creature that reduces the scarab to 0 hit points must make a *Charisma Saving Throw:* DC 22. <bR> *Failure:* The target takes 55 (10d10) Necrotic damage. <bR> *Failure by 5 or More:* The target also ages to the point where it has only 30 days left before it dies of old age. In this aged state, the target has disadvantage on attack rolls, ability checks, and saving throws, and its walking speed is halved. Only the *wish* spell or the *remove curse* spell cast with a 9th-level spell slot can end these effects and restore the target to its previous age.
+>
+> ### Actions
+>
+> ***Writhing Attack.*** Chooses one of the following actions at random. It can take this action at any point during its turn: after which it can cast a spell
+>
+> **1. Reaping Blades.** The scarab makes a Rend attack against each creature in a 20-foot cube originating from itself.
+>
+> **2. Flesh-Eating Swarm.** *Dexterity Saving Throw:* DC 22, each creature in a 30-foot emanation from the scarab. 
+<br> *Failure:* Insects burrow into the target’s flesh, infesting it. While infested, the target takes 22 (4d10) Piercing damage at the end of each of its turns. A creature within reach can use an action to attempt a DC 22 Wisdom (Medicine) check to remove the insects using a weapon or object that deals Fire, Piercing, or Slashing damage, dealing 1d10 damage of the same type to the target on a success, ending the effect. A creature can make the check with advantage, but the target takes 4d10 damage instead. 
+<br> *Failure by 5 or More:* The target is also Dazed* until the end of its next turn.
+>
+> **3. Breath of Terror.** *Wisdom Saving Throw:* DC 22, each creature in a 120-foot cone. 
+<br> *Failure:* The creature is Frightened of the scarab and repeats the saving throw at the end of each of its turns. While Frightened, it can’t take reactions and must take the Dash action to move away from the scarab by the safest available route. 
+<br> *Failure by 5 or More:* The creature is also Paralyzed while Frightened.
+>
+> **4. Crushing Mandibles.** The scarab makes a Rend attack. If the attack hits, the target must make a *Strength Saving Throw* DC 22. 
+<br> *Failure:* The scarab automatically hits the target with another Rend attack as part of this action, and it is a critical hit. <br> *Failure by 5 or More:* The target has vulnerability to the second attack. If this damage reduces the target to 0 hit points, it dies.
+>
+> **5. Soul Devour.** *Charisma Saving Throw:* DC 22, each creature in a 20-foot-radius sphere centered on a point within 120 feet that the scarab can see. 
+<br> *Failure:* The target takes 28 (8d6) Necrotic damage. 
+<br> *Failure by 5 or More:* The target’s soul is extracted, leaving the body Unconscious in a state of suspended animation for 1 minute, after which the body dies. The soul is trapped in the scarab until it is destroyed, becomes Incapacitated, it takes 50 or more damage in a single turn, or a *dispel good and evil* spell is cast on the target, returning the soul to the body.
+>
+> ***Spellcasting.*** The scarab can cast the following spells, using Strength as the spellcasting ability (spell save DC 22, +14 to hit with spell attacks): <br> **1/day each:** *disintegrate*, *heal (Can effect undead and constucts)*, *destructive wave*
+>
+> ***Rend.*** *Melee Weapon Attack:* +14 to hit, reach 20 ft., one creature. *Hit:* 30 (4d10 + 8) Slashing damage.
+>
+> ### Bonus Actions
+>
+> ***Earth Shake.*** If the scarab burrows or flies at least 30 feet in a straight line before surfacing or landing, it can cause a shower of debris. Each creature within a 15-foot emanation from the scarab standing on the ground must succeed on a *Strength Saving Throw:* DC 22. <bR> *Failure:* The target is knocked Prone. <bR> *Failure by 5 or More:* The target also can’t stand up until the end of its next turn unless it spends all of its movement to do so.
+>
+> **New condition described on previous page*
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
