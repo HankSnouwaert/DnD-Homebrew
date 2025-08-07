@@ -1,0 +1,808 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p6:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Demonettes
+*Debauched Fiends of Pleasure & Pain*<br>
+**Habitat:** Planar (Lower Planes); **Treasure:** Implements <br>
+The unsettlingly alluring demons known as demonettes are the most numerous demons of pleasure. These creatures vary in appearance, but their most common features include the figure of an androgynous humanoid with pastel skin adorned with winding tattoos that form dizzying patterns across their bodies. They stand on avian legs, and in place of hands, they sport crab-like claws. Sinuous tails extend from their backs, ending in tufts of pluming hair. Upon their sculpted faces are delicate mouths that, when parted, reveal polished rows of dagger-like fangs, and above them, cold, onyx eyes dance with twisted reflections of all that the beast fixes its gaze upon. Though most sound of mind would be repulsed or outright revolted by the demons’ appearance, the limber movements of their horrific forms, the cloying fragrances wafting from their hides, and the melodic sound of their speech create a beguiling haze that captivates those who draw too close.
+
+demonettes are sin given physical form, existing to carry out all manner of licentious acts, with inflicting pain chief among their vices. 
+
+\columnbreak
+
+<br><br><br><br>
+
+A demonette glides toward its prey with otherworldly alacrity, swinging chitinous claws, talon-tipped feet, and a barbed tongue in graceful arcs across flesh, bestowing titillating agony upon awestruck victims, many of whom invite such an enrapturing death after being overwhelmed by the demon’s mesmerizing aura.
+
+Great demons of excess command entire harems of demonettes at their beck and call. These eager servants perform a multitude of dark deeds, striding in great numbers to battle to savage any who oppose their master, dispatched to seduce individuals and lead them down the path of damnation, or offered as gifts to be indulged in by mortal champions who have earned the fickle favor of their patron. Yet no act induces more euphoria in a demonette than tending to the depraved whims of their lord’s court.
+
+
+***Exalted Demonettes.*** Demonettes who master the art of debauchery to a level that stimulates or amuses their patron enough to stand out from their master’s entourage, even for a fleeting moment, are elevated to exalted demonettes. These demons can smell the intoxicating stench of mortals overcome with emotion and are quick to bear down on such individuals. A single caress from their bladed limbs causes feelings to flare, plunging the mind into delightful agony.
+
+
+<img src='https://i.ibb.co/TRRLF3v/Thrill-Kill-Assassin-RTR-1280x960-Wallpaper.jpg' style='position:absolute; top:465px; right:-180px; width:1000px' />
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-335px; right:00px; width:850px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+___
+> ## Demonette
+> *Medium fiend (demon of excess), party, chaotic evil* 
+> ___
+> - **Armor Class** 17 (natural armor)      **Initiative** +4
+> - **Hit Points** 58 (9d8 + 18)
+> - **Speed** 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +6, Deception +6, Perception +4, Performance +8, Persuasion +6
+> - **Damage Resistances** Cold, Fire, Lightning, Psychic
+> - **Immunities** Poison, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 14
+> - **Languages** Abyssal, telepathy 60 ft.
+> - **Challenge** 3 (700 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Aura of Indulgence.*** Any non-demon of excess that starts its turn within 10 feet of one or more creatures with this aura must make a *Wisdom Saving Throw:* DC 14 + 1 per each additional creature with this aura within 10 feet of the target, using the highest DC of these creatures if multiple are present. <br>
+>
+> *Failure:* The creature is Obsessed* with all creatures with this aura until the start of its next turn. While Obsessed, attacks against the creature have advantage. <br>
+>
+> *Success:* The creature is immune to the Aura of Indulgence of all creatures for 10 minutes. <br>
+>
+> ### Actions
+>
+>
+> ***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) slashing damage.
+>
+> **New condition described on next page*
+
+</span>
+
+> ##### Riders of Excess
+> If you wish to have any demonette you're using ride a controlled mount, you can give it the following trait:<br> ***Demonette Rider.*** If the demonette has a controlled mount that is also a demon of excess, the mount can take the Attack action once on each of the demonette's turns and use its bonus action on its turn. If it takes this action, the mount cannot take Dash, Disengage, and Dodge on that turn.
+
+
+\columnbreak
+
+___
+> ## Exalted Demonette
+> *Medium fiend (demon of excess), party, chaotic evil*
+> ___
+> - **Armor Class** 17 (natural armor)      **Initiative** +4
+> - **Hit Points** 91 (14d8 + 28)
+> - **Speed** 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Deception +7, Perception +5, Performance +10, Persuasion +7
+> - **Damage Resistances** Cold, Fire, Lightning, Psychic
+> - **Immunities** Poison, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 15
+> - **Languages** Abyssal, telepathy 60 ft.
+> - **Challenge** 5 (1,800 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
+> ***Aura of Indulgence.*** Any non-demon of excess that starts its turn within 10 feet of one or more creatures with this aura must make a *Wisdom Saving Throw:* DC 15 + 1 per each additional creature with this aura within 10 feet of the target, using the highest DC of these creatures if multiple are present. <br>
+>
+> *Failure:* The creature is Obsessed* with all creatures with this aura until the start of its next turn. While Obsessed, attacks against the creature have advantage. <br>
+>
+> *Success:* The creature is immune to the Aura of Indulgence of all creatures for 10 minutes. <br>
+>
+> ### Actions
+>
+> ***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) Slashing damage plus 22 (4d10) Psychic damage if the target is Charmed, Dazed**, Drowsy**, Frightened, Obsessed, Rampaging*, or Stunned.
+>
+> **New condition described on next page* <br>
+> ***New condition used by homebrew material from other sources*
+
+</span>
+
+\pagebreakNum
+
+
+
+***Bringers of Beguilement.*** Some demonettes become fixated on a particular type of pleasure, which they pursue and consume interminably. For the demonettes known as Bringers of Beguilement, this is instigating frenzied massacres. It does not satisfy the voracious appetite of this breed to merely rip apart helpless admirers drunken on their presence. Instead, they use their hypnotic aura to awaken bloodlust in the hearts of those entangled in it. Such afflicted onlookers throw themselves into a heedless rage at the beguiler, who eagerly embraces the oncoming throng with bladed arms, demon and mortal alike partaking in a grand slaughter.
+
+
+
+<br>
+
+> ##### New Condition: Obsessed 
+> The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
+> * While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
+> * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
+> * The creature can't willingly move away from a source of its obsession.
+
+<br>
+
+> ##### New Condition: Rampaging
+> The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+> * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
+&emsp;If no targets are within range, it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
+> * The creature can't cast spells or maintain concentration on spells or other effects.
+> * Any charmed, frightened  or obsessed effects on the creature are suspended.
+
+\columnbreak
+
+___
+> ## Demonette, Bringer of Beguilement
+> *Medium fiend (demon of excess), party, chaotic evil*
+> ___
+> - **Armor Class** 18 (natural armor)      **Initiative** +4
+> - **Hit Points** 110 (17d8 + 34)
+> - **Speed** 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Deception +7, Perception +5, Performance +10, Persuasion +7
+> - **Damage Resistances** Cold, Fire, Lightning, Psychic
+> - **Immunities** Poison, Exhaustion, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 15
+> - **Languages** Abyssal, telepathy 60 ft.
+> - **Challenge** 7 (2,900 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
+> ***Aura of Indulgence.*** Any non-demon of excess that starts its turn within 10 feet of one or more creatures with this aura must make a *Wisdom Saving Throw:* DC 15 + 1 per each additional creature with this aura within 10 feet of the target, using the highest DC of these creatures if multiple are present. <br>
+>
+> *Failure:* The creature is Obsessed* with all creatures with this aura until the start of its next turn. While Obsessed, attacks against the creature have advantage. <br>
+>
+> *Success:* The creature is immune to the Aura of Indulgence of all creatures for 10 minutes. <br>
+>
+> ***Seditious Icon.*** When a creature the demonette can see becomes Obsessed* with it, the demonette may cause the creature to Rampage* until the start of its next turn. While Rampaging, attacks against the creature have advantage.
+>
+> ### Actions
+>
+> ***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 31 (6d8 + 4) Slashing damage plus 33 (6d10) Psychic damage if the target is Charmed, Dazed**, Drowsy**, Frightened, Obsessed, Rampaging*, or Stunned.
+>
+> **New condition described on next page* <br>
+> ***New condition used by homebrew material from other sources*
+>
+
+</span>
+
+
+\pagebreakNum
+
+***Demonette Commanders.*** Alluresses and heralds of excess, demonette commanders have delved into forbidden delights to capture the attention of their unholy liege, ascending to become their most prized courtesans. These favored concubines are granted the privilege of leading brigades of their lesser kin in malignant hunts. They are also sent to the mortal plane to enact rakish rituals and celebrations in praise of their sinful lord. At times, they are dispatched to seek out specific individuals, whether to deliver divine orders or gifts to a forsworn agent of their master or to tempt those with the purest souls with a plethora of pleasures, freeing them from moral strictures. Such corruption is the most satisfying of acts.
+
+\columnbreak
+
+#### Locus of Indulgence Abilities
+The demonettes who serve as commanders draw power from the chaotic winds of magic and pass that power onto the demons they lead. Every Alluress and Herald of Excess has one of the following abilities.
+
+***Locus of Swiftness.*** The demonette's speed increases by 10 feet, and it ignores difficult terrain. Additionally, whenever a demon of excess enters the aura for the first time on a turn or starts its turn in the aura, it gains these same benefits until the end of the turn.
+
+***Locus of Grace*** When a demon of excess in the aura is hit with an attack or is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the damage is halved if the source of the attack or effect is more then 15 feet away from it.
+
+***Locus of Beguilement.*** The commander's Aura of Indulgence extends out to a 30-foot emanation, and the saving throw becomes 17 + 1 per creature with the Aura of Indulgence trait within the aura. Increase the base DC to 18 for a Herald of Excess. 
+
+___
+___
+> ## Demonette, Alluress
+> *Medium fiend (demon of excess), mini-boss, chaotic evil*
+> ___
+> - **Armor Class** 18 (natural armor)      **Initiative** +7
+> - **Hit Points** 110 (17d8 + 34)
+> - **Speed** 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Deception +8, Perception +5, Performance +11, Persuasion +8
+> - **Damage Resistances** Cold, Fire, Lightning, Psychic
+> - **Immunities** Poison, Exhaustion, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 15
+> - **Languages** Abyssal, telepathy 60 ft.
+> - **Challenge** 8 (3,900 XP)      **Proficiency Bonus** +3
+>
+> ___
+> ### Traits
+>
+> ***Aura of Indulgence.*** Any non-demon of excess that starts its turn within 10 feet of one or more creatures with this aura must make a *Wisdom Saving Throw:* DC 16 + 1 per each additional creature with this aura within 10 feet of the target, using the highest DC of these creatures if multiple are present. <br>
+>
+> *Failure:* The creature is Obsessed* with all creatures with this aura until the start of its next turn. While Obsessed, attacks against the creature have advantage. <br>
+>
+> *Success:* The creature is immune to the Aura of Indulgence of all creatures for 10 minutes. 
+>
+> ***Locus of Excess.*** The demonette emits an aura in a 30-foot radius emanating from itself. The aura has one of the Locus abilities described in the Locus of Indulgence Abilities section.
+>
+> ***Magic Resistance.*** The demonette has advantage on saving throws against spells and other magical effects.
+>
+> ### Actions
+>
+>
+> ***Multiattack.*** The demonette makes two attacks.
+>
+>
+> ***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) slashing damage, or 22 (4d8 + 4) slashing damage plus 22 (4d10) psychic damage if the target is Charmed, Dazed**, Drowsy**, Frightened, Obsessed, Rampaging*, or Stunned.
+>
+>
+> ***Spellcasting.*** The demonette casts one of the following spells, using Charisma as its spellcasting ability (spell save DC 16, +8 to hit with spell attacks), requiring no material components:
+>
+>  **At Will:** *alter self*, *charm person*
+>
+> **1/Day Each:** *hysterical frenzy****, *phantasmagoria****, *slicing shards**** 
+>
+> **New condition described on previous page* <br>
+> ***New condition used by homebrew material from other sources* <br>
+> ****New spell described at the end of the document*
+
+</span>
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+___
+> ## Demonette, Herald of Excess
+> *Medium fiend (demon of excess), mini-boss, chaotic evil*
+> ___
+> - **Armor Class** 18 (natural armor)      **Initiative** +9
+> - **Hit Points** 142 (19d8 + 57)
+> - **Speed** 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">17</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +9, Deception +9, Perception +7, Performance +13, Persuasion +9
+> - **Damage Resistances** Cold, Fire, Lightning, Psychic
+> - **Immunities** Poison, Exhaustion, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 17
+> - **Languages** Abyssal, telepathy 60 ft.
+> - **Challenge** 11 (7,200 XP)      **Proficiency Bonus** +4
+> ___
+> ### Traits
+>
+> ***Aura of Indulgence.*** Any non-demon of excess that starts its turn within 10 feet of one or more creatures with this aura must make a *Wisdom Saving Throw:* DC 17 + 1 per each additional creature with this aura within 10 feet of the target, using the highest DC of these creatures if multiple are present. <br>
+>
+> *Failure:* The creature is Obsessed* with all creatures with this aura until the start of its next turn. While Obsessed, attacks against the creature have advantage. <br>
+>
+> *Success:* The creature is immune to the Aura of Indulgence of all creatures for 10 minutes. 
+>
+> ***Locus of Excess.*** The demonette emits an aura in a 30-foot radius emanating from itself. The aura has one of the Locus abilities described in the Locus of Indulgence Abilities section on the previous page.
+>
+> ***Magic Resistance.*** The demonette has advantage on saving throws against spells and other magical effects.
+>
+> ### Actions
+>
+>
+> ***Multiattack.*** The demonette makes two attacks.
+>
+>
+> ***Claw.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 31 (6d8 + 5) slashing damage, or 31 (6d8 + 5) slashing damage plus 33 (6d10) psychic damage if the target is Charmed, Dazed**, Drowsy**, Frightened, Obsessed, Rampaging*, or Stunned.
+>
+>
+> ***Spellcasting.*** The demonette casts one of the following spells, using Charisma as its spellcasting ability (spell save DC 17, +9 to hit with spell attacks), requiring no material components:
+>
+> **At Will:** *alter self*, *charm person*
+>
+> **1/Day Each:** *cacophonic caress****, *hysterical frenzy**** (7th), *power word: pain****
+>
+> **New condition described on page before last* <br>
+> ***New condition used by homebrew material from other sources* <br>
+> ****New spell described at the end of the document*
+
+</span>
+
+<img src='https://i.postimg.cc/Vs9ppC0J/visara-the-dreadful.jpg' style='position:absolute; top:-270px; right:-115px; width:1125px' />
+
+<img src='https://i.ibb.co/PrMKkdm/exava-rakdos-blood-witch.png' style='position:absolute; top:-60px; right:-60px; width:930px' />
+  
+
+  
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:180px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+
+
+### Demonette Tactics
+Demonettes attack in packs to amplify their Aura of Indulgence. They charge into groups of enemies, prioritizing targets that succumb to their aura. If multiple targets are affected, or no creatures are affected by their aura, they focus on the target with the lowest Armor Class (AC).
+
+**Bringers of Beguilement.** These demons are best used against spellcasters, and will rush directly toward them in combat. 
+
+#### Demonette Commanders
+Commanders stay close to other demonettes to maximize the potency of their Aura of Indulgence. Their tactics may vary based on specific circumstances or the presence of a Locus of Excess (see below).
+
+##### Alluress Spells
+* **Phantasmagoria:** Cast first to increase the likelihood that enemies fail against the Aura of Indulgence.
+* **Hysterical Frenzy:** Cast on the largest group of creatures, prioritizing spellcasters. Alluresses prioritize this spell over *phantasmagoria* if they can target three or more spellcasting enemies.
+* **Slicing Shards:** Used as a final spell when the Alluress cannot engage a creature in melee or when no targets are vulnerable to additional Psychic damage from melee attacks.
+
+##### Herald of Excess Spells
+* **Cacophonic Caress:** Cast when targeting three or more creatures.
+* **Hysterical Frenzy:** Same as tactics as the Alluresses.
+* **Slicing Shards:** Targets highly mobile enemies (e.g., rogues or monks) when the herald cannot engage in melee or when no targets are susceptible to additional Psychic damage from melee attacks.
+
+##### Locus of Excess
+* **Locus of Swiftness:** Does not alter the commander’s tactics.
+* **Locus of Grace:** The commander prioritizes melee fighters over ranged attackers, as ranged attacks deal less damage to them.
+* Locus of Beguilement: Allows the commander to spread out without weakening their Aura of Indulgence. This enables the use of the Obsessed condition to isolate enemies from their allies.
+
+<br>
+
+##### Demonettes Art Credit
+* Thrill-Kill Assassin - Tyler Jacobson, Wizards of the Coast
+* Exava, Rakdos Blood Witch - Aleksi Briclot, Wizards of the Coast
+* Visara The Dreadful - Brad Rigney, Wizards of the Coast
+
+\columnbreak
+
+##### Demonette Adventure Hooks
+
+| d6  | Plot Hook |
+|:---:|:-----------:|
+|  1  | In a secret demon-worshipping pleasure cult, members who commit enough hedonistic atrocities warp into **demonettes**.  |
+|  2  |A warlord trying to secure a desperate victory was seduced by demonic whispers into summoning a legion of **demonettes** to win the day.  They have since turned on their would-be master and now run rampant.  |
+|  3  | A basement-dwelling warlock has summoned a harem of **demonettes**.  They now sow chaos as they serve their master's petty whims.   |
+|  4  |  A once abandoned brothel is now filled with **demonettes** who roam dark streets preying the desperate and the downtrodden.  |
+|  5  | A powerful demon has sent **demonettes** to infiltrate a city and sow chaos in preparation for his coming.|
+|  6  |  A group of elven nobility has engaged in such decadence they've been cursed with the forms of **demonettes**, driving them to greater acts of depravity.   |
+
+
+
+<img src='https://i.ibb.co/PrMKkdm/exava-rakdos-blood-witch.png'
+ style='position:absolute;bottom:-00px;right:-350px;height:800px;transform:scaleX(1)' />
+ 
+<img src='https://i.postimg.cc/Vs9ppC0J/visara-the-dreadful.jpg'
+ style='position:absolute;bottom:-250px;right:-390px;height:1145px;transform:scaleX(1)' /> 
+ 
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(-90deg)' />
+  
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:0px;top:-610px;height:1400px;width:1416px;transform:rotate(0deg)' />
+  
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:50px;top:-600px;height:1400px;width:1416px;transform:rotate(-24deg)' />
+
+\pagebreakNum
+
+### Demonette Loot
+The bodies of most demons dissolve or fade away when they're slain anywhere but their home plane. However, you may have these demons leave behind traces of themselves to be harvested by players. These items could be fragments of the demons that didn’t dissolve, or the players managed to prevent from fading away into the aether. This could be done using an **Intelligence (Arcana)** or **Wisdom (Religion)** check. 
+
+If you don’t want the demons to leave anything behind, you can instead have the players search the area where the demons were slain to see if they find any valuables formed by the corrupting presence of the fiends. This could be done using an **Intelligence (Arcana)**, or **Wisdom (Survival)** check.
+
+Alternatively, you can roll for the loot randomly using a flat modifier.
+
+
+#### Demonette Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+
+##### Demonette Loot Table
+
+| Looting Check Result or 1d20 + 3 |  Loot  |
+|:---:|:-----------:|
+|  1-4  | 1d4(2) 1gp Items |
+|  5-6 | 1d6(3) 1gp Items | 
+|  7-15 | 1d6(3) 5gp Items  |  
+|  16-17 | 1d4(2) 10gp Items |  
+|  18+ |  1d6(3) 10gp Items |  
+
+##### Demonette, Exalted Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1 5gp Item |
+|  8-10 | 1d4(2) 5gp Items | 
+|  11-16 | 1d4(2) 10gp Items  |  
+|  17-22 | 1d6(3) 10gp Items |  
+|  23+ |  1d4(2) 20gp Items |  
+
+##### Demonette, Bringer of Beguilement Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1d6(3) 5gp Items |
+|  9-15 | 1d6(3) 10gp Items | 
+|  16-20 | 1 50gp Item  |  
+|  21-24 | 1 100gp Item |  
+|  25+ |  1d4(2) 100gp Items |  
+
+
+
+\columnbreak
+
+##### Demonette, Alluress Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  1-7  | 1d6(3) 10gp Items |
+|  8-12 | 1d4(2) 10gp Items | 
+|  13-17 | 1 50gp Items  |  
+|  18-21 | 1d4(2) 50gp Items |  
+|  22+ |  1d4(2) 100gp Items |  
+
+
+##### Demonette, Herald of Excess Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-8  | 1d4(2) 50gp Items |
+|  9-11 | 1d6(3) 50gp Items | 
+|  12-18 | 1d4(2) 100gp Items  |  
+|  19-23 | 1d4(2) 200gp Items |  
+|  24+ |  1d6(3) 200gp Items |  
+
+#### Example Demonette Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide example names.
+
+##### Example Common/Uncommon Demon of Excess Item Names
+|1d10 | 1gp Item | 5gp Item | 10gp Item | 20gp Item | 
+|:--:|:---:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Bone)  |  Pleasure Horn | Cracked Hedonist's Claw |  Hedonist's Claw |  Perfect Hedonist's Claw | 
+| 3-4 <br> (Fluid)  | Battlefield Blood | Diluted Hedonist's Blood | Hedonist's Blood | Thick Hedonist's Blood |
+| 5-6 <br> (Flesh)  |  Demonic Flesh Scraps | Stringy Excess-Infused Flesh | Excess-Infused Flesh | Prime Excess-Infused Flesh |
+| 7-8 (Hide)  | Sensual Skin |  Torn Sensual Hide | Sensual Hide | Resiliant Sensual Hide |
+| 9-10 <br> (Metal) | Perverse  Scrap | Damaged Armaments of Excess| Armaments of Excess | Perfect Armaments of Excess |
+
+##### Example Rare Demon of Excess Item Names
+|1d10 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Bone)  | Cracked Perverse Skull|  Perverse Skull |  Perfect Perverse Skull | 
+| 3-4 <br> (Fluid)  | Diluted Blood of Desire | Blood of Desire |  Blood of Burning Desire |
+| 5-6 <br> (Flesh)  |  Stringy Flesh of Desire | Flesh of Desire | Flesh of Burning Desire |
+| 7-8 (Hide)  |  Tattered Perverse Hide | Perverse Hide | Perfect Perverse Hide |
+
+\pagebreakNum
+
+## New Spells
+
+#### Hysterical Frenzy 
+*5th-level Enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** range 90 feet
+- **Components:** V, S
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Wizard
+___
+
+You unleash a torrent of overwhelming emotion—blending agony and euphoria into a maddening storm. Each creature in a 20-foot-radius sphere centered on a point you can see within range must make a Wisdom saving throw (a creature can choose to fail).
+
+On a failed save, a creature is affected by the Rampaging* condition for the duration. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on a success. The creature has disadvantage on this saving throw if it damaged another creature with an attack during that turn.
+
+***Using a Higher-Level Spell Slot.*** The sphere’s radius increases by 5 feet for each slot level above 5th.
+
+#### Phantasmagoria
+*5th-level Illusion*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V, S 
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Bard, Warlock
+___
+
+You conjure haunting illusions—phantom creatures that swirl and whisper within a 15-foot-radius sphere centered on a point you can see within range. The illusions whisper dark promises and unsettling truths that cloud the minds of your foes.
+
+When you cast the spell, you can designate any number of creatures you can see to be unaffected by it. Affected creatures in the area have disadvantage on Charisma, Intelligence, and Wisdom saving throws, as well as on Constitution saving throws made to maintain concentration.
+
+The spell ends early if you move more than 60 feet away from the point where it was cast.
+
+\columnbreak
+
+#### Slashing Shards
+*4th-level  Conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (a piece of broken glass)
+- **Duration:**   Instantaneous
+- **Classes:**  Sorcerer, Warlock, Wizard
+___
+
+You conjure a cloud of razor-sharp glass and launch it at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 6d6 Slashing damage and must make a Wisdom saving throw. On a failed save, the target takes an additional 6d6 Psychic damage, or half as much on a successful one.
+
+If the attack misses, the shards still graze the target, which takes half the Slashing damage and suffers no additional effects.
+
+***Using a Higher-Level Spell Slot.*** Both the Slashing and Psychic damage increase by 1d6 for each slot level above 4th.
+
+#### Power Word: Pain (Revised)
+*7th-level Enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:** V
+- **Duration:**   Instantaneous
+- **Classes:**  Bard, Sorcerer, Warlock, Wizard
+___
+
+You speak a word of power that wracks a creature you can see within range with excruciating pain. The target must make a Constitution saving throw. If it has 100 hit points or fewer, it automatically fails.
+
+* On a failed save, the target suffers Crippling Pain.
+* On a successful save, it suffers Mild Pain instead.
+
+**Crippling Pain.** A creature suffering from Crippling Pain is affected as follows:
+
+* Any speed it has cannot exceed 15 feet.
+* It has disadvantage on all d20 tests not caused by this spell.
+* Each time it takes a move, action, bonus action, or reaction, it takes 4d8 necrotic damage, or 6d8 necrotic damage if the action was used to cast a spell of 3rd or higher level. This damage cannot reduce the target's hit points below 1.
+
+**Mild Pain.** A creature suffering from mild pain takes 2d8 Necrotic damage whenever it takes a move, action, bonus action, or reaction. This damage cannot reduce the target's hit points below 1.
+
+At the end of each of its turns, a creature suffering from either type of pain can make a Constitution saving throw. On a success, the effect ends.
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+  
