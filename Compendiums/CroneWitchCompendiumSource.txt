@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p2:after, .phb#p3:after, .phb#p6:after, .phb#p7:after, .phb#p10:after, .phb#p15:after, .phb#p17:after, .phb#p18:after, .phb#p19:after, .phb#p20:after, .phb#p22:after, .phb#p24:after, .phb#p25:after, .phb#p28:after, .phb#p31:after, .phb#p32:after, .phb#p38:after, .phb#p39:after, .phb#p41:after, .phb#p42:after, .phb#p43:after   {
+    .phb#p2:after, .phb#p3:after, .phb#p6:after, .phb#p7:after, .phb#p10:after, .phb#p11:after, .phb#p13:after, .phb#p18:after, .phb#p20:after, .phb#p21:after, .phb#p22:after, .phb#p23:after, .phb#p25:after, .phb#p27:after, .phb#p28:after, .phb#p29:after, .phb#p31:after, .phb#p33:after, .phb#p34:after, .phb#p36:after, .phb#p39:after, .phb#p43:after, .phb#p44:after, .phb#p46:after, .phb#p47:after, .phb#p48:after   {
         display          : none;
     }
     /* End Footers */
@@ -66,6 +66,8 @@ The players are most likely to encounter the crone witches when exploring in or 
 
 </style>
 
+</style>
+
 <style>/*ToC Styling*/
   .toc a {color: inherit !important;}
   .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
@@ -98,41 +100,48 @@ The players are most likely to encounter the crone witches when exploring in or 
     - [<span>6</span><span>Primal Dominance</span>](#p6)
     - [<span>6</span><span>Summon Flock</span>](#p6)
     - [<span>7</span><span>Wild Surge</span>](#p7)
-  - #### [<span>9</span><span>Lore of Death</span>](#p9)
-    - [<span>9</span><span>Aspect of Dread</span>](#p9)
-    - [<span>9</span><span>Crippling Pain</span>](#p9)
-    - [<span>9</span><span>Horrifying Laughter</span>](#p9)
-    - [<span>10</span><span>Impending Doom</span>](#p10)
-    - [<span>10</span><span>Purple Sun</span>](#p10)
-    - [<span>10</span><span>Spirit Leech</span>](#p10)
-    - [<span>10</span><span>Wind of Death</span>](#p10)
-  - #### [<span>11</span><span>Lore of Shadow</span>](#p11)
-    - [<span>11</span><span>Creeping Strike</span>](#p11)
-    - [<span>11</span><span>Mindrazors</span>](#p11)
-    - [<span>11</span><span>Mirror Dance</span>](#p11)
-    - [<span>11</span><span>Mystifying Miasma</span>](#p11)
-    - [<span>12</span><span>Penumbral Pendulum</span>](#p12)
-    - [<span>12</span><span>Pit of Shadows</span>](#p12)
-    - [<span>12</span><span>Shroud of Dusk</span>](#p12)
-    - [<span>12</span><span>Unseen Lurker</span>](#p12)
-    - [<span>12</span><span>Withering Resolve</span>](#p12)
-- ### [<span>13</span><span>New Creatures</span>](#p13)
-  - #### [<span>13</span><span>Avatar of Beasts</span>](#p13)
-  - #### [<span>17</span><span>Bane Wolves</span>](#p17)
-    - [<span>17</span><span>Bane Wolf</span>](#p17)
-    - [<span>18</span><span>Bane Wolf Dark Blood</span>](#p18)
-  - #### [<span>21</span><span>Crone Witches</span>](#p21)
-    - [<span>22</span><span>Crone Apprentice</span>](#p22)
-    - [<span>23</span><span>Crone Witch</span>](#p23)
-    - [<span>25</span><span>Crone Mother</span>](#p25)
-    - [<span>27</span><span>Crone's Hart</span>](#p27)
-    - [<span>27</span><span>Crone's Sled</span>](#p27)
-    - [<span>28</span><span>Crone's Hut</span>](#p28)
-  - #### [<span>33</span><span>The Crone Grandmother</span>](#p33)
-  - #### [<span>38</span><span>Woodland Ambushers</span>](#p38)
-    - [<span>38</span><span>Woodland Ambushers</span>](#p38)
-    - [<span>39</span><span>Wolfheart Ambushers</span>](#p39)
-  - #### [<span>42</span><span>Chariot Rules</span>](#p42)
+  - #### [<span>9</span><span>Lore of Crones</span>](#p9)
+    - [<span>9</span><span>Bountiful Cauldron</span>](#p9)
+    - [<span>9</span><span>Blessing and Curse of the Ancients</span>](#p9)
+    - [<span>10</span><span>Forbidden Grove</span>](#p10)
+    - [<span>10</span><span>Incantation of Madness and Mania</span>](#p10)
+    - [<span>10</span><span>Will of the Spirits</span>](#p10)
+    - [<span>11</span><span>Witch's Broth and Brew</span>](#p11)
+ - #### [<span>12</span><span>Lore of Death</span>](#p12)
+    - [<span>12</span><span>Aspect of Dread</span>](#p12)
+    - [<span>12</span><span>Crippling Pain</span>](#p12)
+    - [<span>12</span><span>Horrifying Laughter</span>](#p12)
+    - [<span>13</span><span>Impending Doom</span>](#p13)
+    - [<span>13</span><span>Purple Sun</span>](#p13)
+    - [<span>13</span><span>Spirit Leech</span>](#p13)
+    - [<span>13</span><span>Wind of Death</span>](#p13)
+  - #### [<span>14</span><span>Lore of Shadow</span>](#p14)
+    - [<span>14</span><span>Creeping Strike</span>](#p14)
+    - [<span>14</span><span>Mindrazors</span>](#p14)
+    - [<span>14</span><span>Mirror Dance</span>](#p14)
+    - [<span>14</span><span>Mystifying Miasma</span>](#p14)
+    - [<span>15</span><span>Penumbral Pendulum</span>](#p15)
+    - [<span>15</span><span>Pit of Shadows</span>](#p15)
+    - [<span>15</span><span>Shroud of Dusk</span>](#p15)
+    - [<span>15</span><span>Unseen Lurker</span>](#p15)
+    - [<span>15</span><span>Withering Resolve</span>](#p15)
+- ### [<span>16</span><span>New Creatures</span>](#p16)
+  - #### [<span>16</span><span>Avatar of Beasts</span>](#p16)
+  - #### [<span>20</span><span>Bane Wolves</span>](#p20)
+    - [<span>20</span><span>Bane Wolf</span>](#p20)
+    - [<span>21</span><span>Bane Wolf Dark Blood</span>](#p21)
+  - #### [<span>24</span><span>Crone Witches</span>](#p24)
+    - [<span>25</span><span>Crone Apprentice</span>](#p25)
+    - [<span>27</span><span>Crone Witch</span>](#p27)
+    - [<span>29</span><span>Crone Mother</span>](#p29)
+    - [<span>32</span><span>Crone's Hart</span>](#p32)
+    - [<span>32</span><span>Crone's Sled</span>](#p32)
+    - [<span>33</span><span>Crone's Hut</span>](#p33)
+  - #### [<span>38</span><span>The Crone Grandmother</span>](#p38)
+  - #### [<span>43</span><span>Woodland Ambushers</span>](#p43)
+    - [<span>43</span><span>Woodland Ambushers</span>](#p43)
+    - [<span>44</span><span>Wolfheart Ambushers</span>](#p44)
+  - #### [<span>47</span><span>Chariot Rules</span>](#p47)
 
 
 <div align="right">
@@ -147,10 +156,13 @@ The players are most likely to encounter the crone witches when exploring in or 
 </div>
 
 
- <img src='https://i.ibb.co/ZWXFN2d/Baba-Yaga-Hut-Tashas.png' style='position:absolute; top:-3px; right:-95px; width:897px; transform:scaleX(-1)' />
+ <img src='https://i.ibb.co/ZWXFN2d/Baba-Yaga-Hut-Tashas.png' style='position:absolute; bottom:-150px; right:-375px; width:854px; transform:scaleX(1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:40px;top:-230px;height:1400px;width:1416px;transform:rotate(270deg)' />
+  style='position:absolute;right:4px;top:-220px;height:1400px;width:1416px;transform:rotate(279deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-180px;top:-670px;height:1400px;width:1416px;transform:rotate(0deg)' />
 
 \pagebreakNum
 
@@ -166,7 +178,9 @@ Regardless of the specifics, there are some commonalities between crones and the
 
 * **Protective & Vengeful:** Regardless of their alignment, crones and the forces that serve them are extremely protective of the wilds they call home. They are unforgiving towards trespassers and harbor deadly grudges against any who threaten the land they protect.
 
-### Art Credit
+<br>
+
+##### Title, Table of Contents & Running Woodland Crone Adventures Art Credit
 * Witch's Clinic - Piotr Dura, Wizards of the Coast
 * Tasha Studying Outside Baba Yaga's Hut - Wizards of the Coast
 * The Forest in Winter at Sunset - Théodore Rousseau
@@ -194,7 +208,7 @@ The combat tactics for crone witches and each of their minions are described alo
 <img src='https://i.ibb.co/H7JPy4v/The-Forest-in-Winter-at-Sunset-Th-odore-Rousseau.jpg' style='position:absolute; bottom:-210px; right:-00px; width:900px; transform:scaleX(-1);filter:opacity(100%);'/>
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-240px;top:-320px;height:1400px;width:1416px;transform:rotate(0deg)' />
+  style='position:absolute;right:-240px;top:-285px;height:1400px;width:1416px;transform:rotate(-5deg)' />
 
 \pagebreakNum
 
@@ -540,6 +554,208 @@ ___
 ####
 * Crow Storm - YW Tang, Wizards of the Coast
 * Manticore  - Billy Christian, Wizards of the Coast
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Lore of Crones
+This ancient magic of the old world is utilized by the mystic crones who've safeguarded the lore and passed it down through the generations. It taps into the darker forces of nature, which can curse and undo enemies while aiding allies. Wielders of this magic can conjure concoctions that burn enemies and heal allies, summon groves that hinder foes and protect friends, and deal out blessings and curses as they see fit. While the crones have kept the knowledge of spells to themselves, understanding of their use has crept out across the world, and they are sometimes utilized by other spellcasters who've delved into the dark lore of the old world.
+
+
+#### Bountiful Cauldron
+*6th-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 feet
+- **Components:** V, S
+- **Duration:** 10 minutes
+- **Classes:**  Warlock, Wizard
+___
+
+You conjure a Medium cauldron in an unoccupied space on the ground that you can see within 30 feet. The cauldron weighs 80 pounds, has 90 hit points, AC equal to your spell save DC, and is immune to Acid, Poison, and Psychic damage.
+
+The cauldron has 5 charges and disappears when the spell ends, when it has no charges remaining, or when it is reduced to 0 hit points.
+
+When the cauldron appears, and as a bonus action on each of your subsequent turns, you can expend 1 charge to have the cauldron launch a potent concoction at one or two creatures you can see within 30 feet of it.
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ If you choose two creatures, they are both subjected to the same effect, chosen from the following options:
+
+**Broth.** Each target gains 6d6 temporary hit points, which last for 1 minute.
+
+**Brew.** Each target must make a Dexterity saving throw. On a failed save, a target takes 6d6 Acid damage. On a successful save, it takes half as much.
+
+***Using a Higher-Level Spell Slot.*** The damage and temporary hit points increase by 2d6 for each slot level above 6th.
+
+#### Blessing and Curse of the Ancients
+*4th-level conjuration*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 120 feet
+- **Components:** V, S, M (a sliver coin)
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:** Sorcerer, Warlock, Wizard 
+___
+
+Choose two creatures you can see within range: one is blessed, and the other is cursed for the duration.
+
+**Blessed.** Whenever the creature hits with an attack, it deals an extra 1d6 force damage.
+
+**Cursed.** Whenever the creature is hit by an attack, it takes an additional 1d6 force damage.
+
+***Using a Higher-Level Spell Slot.*** You can bless or curse one additional creature (your choice) for each slot level above 4th.
+
+
+ <img src='https://i.postimg.cc/Gtw0WWdc/agatha-of-vile-cauldron.jpg' style='position:absolute;right:-0px;top:-30px;width:940px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:130px;height:1400px;width:1416px;transform:rotate(-165deg)' />
+
+\pagebreakNum
+
+#### Forbidden Grove
+*2nd-level conjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 15 feet
+- **Components:** V S M (a clump of weeds)
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Druid, Ranger
+___
+
+You cause weeds and underbrush to erupt from the ground in a 15-foot square centered on a point within range. For the duration, the area becomes a magically altered grove with the following effects:
+
+* Hostile creatures treat the area as difficult terrain, cannot benefit from being invisible, and have disadvantage on Dexterity (Stealth) checks while within it.
+
+* Allied creatures are lightly obscured while in the area. While lightly obscured in this way, they can attempt to Hide as a bonus action and have advantage on Dexterity (Stealth) checks made to do so.
+
+***Using a Higher-Level Spell Slot.*** The area increases by 5 feet per slot level above 2nd.
+
+#### Incantation of Madness and Mania
+*3rd-level transmutation*
+___
+- **Casting Time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V, S, M (A marble)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Bard, Warlock, Sorcerer, Wizard
+___
+
+You call down visions of bloodlust and delusion that fracture the mind. Each creature in a 10-foot-radius sphere centered on a point you can see within range must make a Wisdom saving throw (a creature can choose to fail). 
+
+\columnbreak
+
+On a failed save, the creature becomes Berserk* until the spell ends. While Berserk, it is affected by one of the following conditions of your choice:
+
+**Madness.** The creature has disadvantage on attack rolls.
+
+**Mania.** The creature has advantage on attack rolls.
+
+At the end of each of its turns, a Berserk creature can repeat the Wisdom saving throw, ending the effect on a success.
+
+***Using a Higher-Level Spell Slot.*** The sphere’s radius increases by 10 feet for each slot level above 3rd.
+
+
+
+#### Will of the Spirits
+*5th-level transmutation*
+___
+- **Casting Time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:** 1 round
+- **Classes:**  Warlock
+___
+
+You summon eldritch spirits of raw power to surge through a 20-foot-radius sphere centered on a point you can see within range. Each creature in the area must make a Charisma saving throw (a creature may choose to fail).
+
+On a failed save, the creature takes 5d8 force damage and is subjected to one of the following effects of your choice:
+
+**Bane.** The creature can’t cast spells until the end of your next turn.
+
+**Boon.** The creature can cast spells with a casting time of 1 action as a bonus action until the end of its next turn.
+
+On a successful save, the creature takes half damage and suffers no additional effects.
+
+<bR>
+
+**New condition described on next page*
+
+
+ <img src='https://i.postimg.cc/VL918kJ2/Priestof-Fell-Rites-5000x.webp' style='position:absolute;right:0px;bottom:-220px;width:830px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-435px;height:1400px;width:1416px;transform:rotate(-6deg)' />
+
+
+
+
+\pagebreakNum
+
+#### Witch's Broth and Brew 
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60
+- **Components:** V, S, M (a bit of rotten food)
+- **Duration:**   Instantaneous
+- **Classes:**  Artificer, Bard, Druid
+___
+
+You hurl a potent concoction at one or two creatures you can see within range. If you target two creatures, they must be within 5 feet of each other. For each target, choose one of the following effects:
+
+**Brew.** The target must succeed on a Dexterity saving throw or begin Burning*. While Burning, it takes 1d4 + your spellcasting modifier acid damage at the end of each of its turns until the condition ends.
+
+**Broth.** The target regains 1d4 + your spellcasting modifier hit points.
+
+***Using a Higher-Level Spell Slot.*** The damage and healing increase by 1d4 for each slot level above 1st.
+
+<br>
+
+**New condition described below*
+
+<br>
+
+##### Lore of The Crones Art Credit
+* Agatha of the Vile Cauldron - Jason A. Engle, Wizards of the Coast
+* Priest of Fell Rites - Pauline Voss, Wizards of the Coast
+* Agatha's Soul Cauldron - Jason A. Engle, Wizards of the Coast
+
+
+\columnbreak
+
+> ##### New Condition: Berserk
+> The creature is consumed by bloodlust, giving it the following effects:
+> * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear. 
+> * The creature can only use its movement to move closer to an enemy it can see or hear.
+> * The creature can't maintain concentration on spells or other effects.
+> * Any charmed or frightened effects on the creature are suspended.
+
+
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid. 
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+
+
+> ##### Notes on 2024 Burning Rules
+> If you're using the rules for burning described in the 2024 edition of D&D, these are the changes that were made in this document:
+> * **Sources of Burning Don't Stack.** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+> * **Damage At End of Turn.** Burning damage occurs at the end of a creature's turn rather than the beginning. This gives the creature the chance to try to end the condition before taking the damage, thus giving players more agency when they start burning.
+
+ <img src='https://i.ibb.co/dcM7GkS/witch-s-cauldron.jpg' style='position:absolute;right:180px;bottom:-80px;width:830px;transform:scaleX(-1)' />
+
+ <img src='https://www.mtgpics.com/pics/big/a18/042.jpg' style='position:absolute;right:240px;bottom:-0px;width:660px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-440px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:40px; right:-430px; width:900px; transform: rotate(-90deg)' />
 
 \pagebreakNum
 
@@ -1341,42 +1557,92 @@ ___
 > ## Crone Apprentice
 > *Medium humanoid (human), neutral*
 > ___
-> - **Armor Class** 13 (hide)
+> - **Armor Class** 13 (hide)      **Initiative** +1
 > - **Hit Points** 60 (11d8 + 11)
 > - **Speed** 30 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (+0)|12 (+1)|12 (+1)|14 (+2)|16 (+3)|12 (+1)|
->___
-> - **Saving Throws** Int +4, Wis +5
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
 > - **Skills** Arcana +4, Medicine +4, Nature +4, Survival +4
 > - **Senses** darkvision 120 ft., passive Perception 12
 > - **Languages** Druidic, plus any two languages
-> - **Challenge** 2 (450 XP) &emsp;&emsp; **Proficiency Bonus** +2      
+> - **Challenge** 2 (450 XP)      **Proficiency Bonus** +2
 > ___
+> ### Traits
 >
-> ***Forest Camouflage.*** The crone has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of the crone apprentice’s traits and the spells she knows.
 >
-> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of her traits and the spells she knows.
 >
-> ***Survivor (30 HP, 1/Day).*** When the crone's hit points drop to half or less, for the next minute, she gains advantage on all saving throws and also gains 10 temporary hit points at the start of each of her turns.
+> ***Survivor (30 HP, 1/Day).*** When the crone becomes bloodied (reduced to 30 HP or fewer), for the next minute, she gains advantage on all saving throws and also gains 10 temporary hit points at the start of each of her turns.
 >
 > ### Bonus Actions
 >
-> ***Crone's Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+>
+> ***Crone’s Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in the crone apprentice’s *Lore of Magic* trait.
 >
 > ### Actions
 >
+>
 > ***Quarterstaff.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if wielded with two hands.
 >
-> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The spells the crone knows depend on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+>
+> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The spells the crone knows depend on the lore of magic she has specialized in, as described in the crone apprentice’s *Lore of Magic* trait.
+>
+
+</span>
 
 \columnbreak
 
 ### Crone Apprentice <Br> Lore of Magic Options 
 Select one of the following lores or magic to determine a crone apprentice's additional passive trait, curse option, and spell list. <Br>
-**New spells listed in new spells section*
+**New spells listed in New Spells section*
 
 <br>
 
@@ -1386,23 +1652,42 @@ Select one of the following lores or magic to determine a crone apprentice's add
 > ***Wild Heart.*** Whenever the crone targets only herself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, she can choose for the spell to no longer require concentration. The spell ends early if the crone is incapacitated or uses this feature to alter another spell. <br><br>
 > 
 > ##### **Crone's Curse:**
-> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outnumbered or outsized. While cursed, if the creature is within 5 feet of two hostile creatures that are not incapacitated, or within 5 feet of a creature one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
+> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outsized. While cursed, if the creature is within 5 feet of hostile creatures that is one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
 <br><br>
 > ##### **Spell List:**
 > **At will:** *druidcraft*, *eldritch blast*, *guidance*, *primal savagery*<br>
-> **1/Day:** *amber spear**, *augury*, *summon flock** (2nd level), *wild surge**
+> **1st level (2 slots):** *summon flock** <br>
+> **2nd level (2 slots):** *augury*, *enlarge/reduce* <br>
+> **3rd level (1 slots):** *amber spear**<br>
 
-<img src='https://media.wizards.com/2017/images/daily/jZhcGU3gE8_Curse_of_Bounty.jpg' style='position:absolute; bottom:-15px; right:-35px; width:555px; transform: scaleX(-1)' />
+<img src='https://i.postimg.cc/FHXDxvmZ/Primal-Druid-Eldritch-Moon-Mt-G-Art-1024x752.jpg' style='position:absolute; bottom:-14px; right:-75px; width:599px; transform: scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:320px; width:900px; transform: rotate(90deg)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:300px; width:900px; transform: rotate(135deg)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-80px; right:-715px; width:900px; transform: rotate(207deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-86px; right:-715px; width:900px; transform: rotate(207deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-200px; right:00px; width:850px; transform:rotate(0deg);' />
 
 \pagebreakNum
+
+> #### Crone: Lore of Crones
+>
+> ##### **Trait:**
+> ***Interlopers' Fate.*** The crone can cast *forbidden grove* without concentration even if she has already cast a spell this turn. Additionally, hostile creatures in the area of the spell have disadvantge on saving throws against the crone's spells. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Dampening Curse (1/Day).*** The crone places a curse on a creature she can see within 90 feet, draining magical power from the creature. While cursed, if the creature casts a spell with a range of 25 or greater, the range of the spell becomes 25 feet.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *eldritch blast*, *guidance*, *acid splash (2d6)*<br>
+> **1st level (2 slots):** *witch's broth and brew ** <br>
+> **2nd level (2 slots):** *augury* *orbidden grove* <br>
+> **3rd level (2 slots):** *incantation of mania and madness**<br>
+> **4th level (1 slots):** *blessing and curse of the ancients**<br>
+
+<br>
 
 > #### Crone Apprentice: Lore of Death
 >
@@ -1414,9 +1699,13 @@ Select one of the following lores or magic to determine a crone apprentice's add
 <br><br>
 > ##### **Spell List:**
 > **At will:** *chill touch*, *druidcraft*, *eldritch blast*, *guidance*,<br>
-> **1/Day:** *augury*, *aspect of dread**, *crippling pain**, *spirit leech** (2nd level)
+> **1st level (2 slots):** *spirit leech** <br>
+> **2nd level (2 slots):** *aspect of dread**, *augury*<br>
+> **3rd level (1 slots):** *crippling pain**<br>
 
-<br>
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 > #### Crone Apprentice: Lore of Shadows
 >
@@ -1427,48 +1716,115 @@ Select one of the following lores or magic to determine a crone apprentice's add
 > ***Harrowing Coil (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing dark spirits to lurk in the shadows around the cursed creature. Until the curse ends, the creature treats dim light and darkness as difficult terrain. When the creature moves into or within an area of dim light or darkness, it takes 1d8 psychic damage for every 5 feet it travels. The curse ends once the crone dies, curses another creature, or ends it as an action.
 <br><br>
 > ##### **Spell List:**
-> **At will:** *creeping strike**, *druidcraft*, *eldritch blast*,  *guidance*
->
-> **1/Day:** *augury*, *mystifying miasma**, *shroud of dusk** (2nd level),  *unseen lurker**, *withering resolve**
+> **At will:** *creeping strike**, *druidcraft*, *eldritch blast*,  *guidance* <br>
+> **1st level (2 slots):** *shroud of dusk** <br>
+> **2nd level (2 slots):** *augury*, *mystifying miasma**<br>
+> **3rd level (1 slots):** *withering resolve**<br>
+
+<img src='https://i.postimg.cc/288tZrkB/Disciple-of-Perdition-Jumpstart-2022-Mt-G-Art-1536x1146.jpg' style='position:absolute; top:-0px; right:-45px; width:670px; transform: scaleX(1)' />
 
 
-___
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-170px;top:207px;height:1400px;width:1416px;transform:rotate(170deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:40px;height:1400px;width:1416px;transform:rotate(200deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:120px;top:-100px;height:1400px;width:1416px;transform:rotate(-90deg)' />
+
+\pagebreakNum
+
+ ___
 > ## Crone Witch
->*Medium humanoid (human), neutral*
+> *Medium humanoid (human), neutral*
 > ___
-> - **Armor Class** 14 (chain shirt)
+> - **Armor Class** 14 (chain shirt)      **Initiative** +4
 > - **Hit Points** 104 (16d8 + 32)
 > - **Speed** 30 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (+0)|12 (+1)|14 (+2)|16 (+3)|18 (+4)|14 (+2)|
->___
-> - **Saving Throws** Int +6, Wis +7
-> - **Skills** Arcana + 6, Medicine +7, Nature +6, Survival +7
-> - **Senses** darkvision 120 ft, passive Perception 14.
-> - **Languages** Druidic, plus any two languages
-> - **Challenge** 5 (1,800 XP)   &emsp;&emsp;  **Proficiency Bonus** +3      
 > ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +6, Medicine +7, Nature +6, Survival +7
+> - **Senses** darkvision 120 ft., passive Perception 14
+> - **Languages** Druidic, plus any two languages
+> - **Challenge** 5 (1,800 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
 >
 > ***Forest Camouflage.*** The crone has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
 >
-> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of her traits and the spells she knows.
 >
-> ***Survivor. (52 HP, 1/day).*** When the crone's hit points drop to half or less, for the next minute, she gains advantage on all saving throws and also gains 15 temporary hit points at the start of each of her turns.
+> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of the crone witch’s traits and the spells she knows.
 >
-> ### Bonus Action
 >
-> ***Crone's Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+> ***Survivor (52 HP, 1/Day).*** When the crone is reduced to 52 HP or fewer, for the next minute, she gains advantage on all saving throws and also gains 15 temporary hit points at the start of each of her turns.
 >
-> ### Action
+> ### Bonus Actions
 >
-> ***Quarterstaff.*** *Melee Weapon Attack:* +3 to hit reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands.
 >
-> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The spells the crone knows depend on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+> ***Crone’s Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in the crone witch’s *Lore of Magic* trait.
+>
+> ### Actions
+>
+>
+> ***Quarterstaff.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if wielded with two hands.
+>
+>
+> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The spells the crone witch knows depend on the lore of magic she has specialized in, as described in the crone witch’s *Lore of Magic* trait.
 >
 
-\pagebreakNum
+</span>
+
+\columnbreak
 
 ### Crone Witch <Br> Lore of Magic Options 
 Select one of the following lores or magic to determine a crone's additional passive trait, curse option, and spell list. <Br>
@@ -1482,12 +1838,44 @@ Select one of the following lores or magic to determine a crone's additional pas
 > ***Wild Heart.*** Whenever the crone targets only herself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, she can choose for the spell to no longer require concentration. The spell ends early if the crone is incapacitated or uses this feature to alter another spell. <br><br>
 > 
 > ##### **Crone's Curse:**
-> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outnumbered or outsized. While cursed, if the creature is within 5 feet of two hostile creatures that are not incapacitated, or within 5 feet of a creature one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
+> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outsized. While cursed, if the creature is within 5 feet of hostile creatures that is one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
 <br><br>
 > ##### **Spell List:**
-> **At will:** *druidcraft*, *eldritch blast* (two attacks), *guidance*, *primal savagery* (2d10)<br>
-> **2/Day:** *amber spear**, *augury*, *summon flock** (3rd level), *wild surge**<br>
-> **1/Day:** *bestial spirit**, *scrying*
+> **At will:** *druidcraft*, *eldritch blast*, *guidance*, *primal savagery (2d10)*<br>
+> **1st level (2 slots):** *summon flock** <br>
+> **2nd level (2 slots):** *augury* *enlarge/reduce* <br>
+> **3rd level (2 slots):** *amber spear**<br>
+> **4th level (1 slots):** *bestial spirit**<br>
+
+<img src='https://media.wizards.com/2017/images/daily/jZhcGU3gE8_Curse_of_Bounty.jpg' style='position:absolute; bottom:-20px; right:-40px; width:579px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:320px; width:900px; transform: rotate(90deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:300px; width:900px; transform: rotate(135deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-86px; right:-715px; width:900px; transform: rotate(207deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-200px; right:00px; width:850px; transform:rotate(0deg);' />
+
+
+\pagebreakNum
+
+> #### Crone: Lore of Crones
+>
+> ##### **Trait:**
+> ***Interlopers' Fate.*** The crone can cast *forbidden grove* without concentration even if she has already cast a spell this turn. Additionally, hostile creatures in the area of the spell have disadvantge on saving throws against the crone's spells. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Dampening Curse (1/Day).*** The crone places a curse on a creature she can see within 90 feet, draining magical power from the creature. While cursed, if the creature casts a spell with a range of 25 or greater, the range of the spell becomes 25 feet.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *eldritch blast*, *guidance*, *acid splash (2d6)*<br>
+> **1st level (2 slots):** *witch's broth and brew ** <br>
+> **2nd level (2 slots):** *augury* *forbidden grove* <br>
+> **3rd level (2 slots):** *incantation of mania and madness**<br>
+> **4th level (1 slots):** *blessing and curse of the ancients**<br>
+
+<br>
 
 \columnbreak
 
@@ -1500,9 +1888,11 @@ Select one of the following lores or magic to determine a crone's additional pas
 > ***Mortality's Grip (1/Day)*** The crone places a curse on a creature she can see within 90 feet, causing it to be overwhelmed by frailty. While cursed, if the creature fails a saving throw by 5 or more, it is stunned until the end of its next turn. The curse ends if the witch dies, curses another creature, or uses an action to end it.
 <br><br>
 > ##### **Spell List:**
-> **At will:** *chill touch* (2d8), *druidcraft*, *eldritch blast* (two attacks), *guidance*<br>
-> **2/Day:** *augury*, *aspect of dread**, *crippling pain**, *spirit leech** (3rd level)<br>
-> **1/Day:** *impending doom**, *scrying*
+> **At will:** *chill touch (2d8)*, *druidcraft*, *eldritch blast*, *guidance*,<br>
+> **1st level (2 slots):** *spirit leech** <br>
+> **2nd level (2 slots):** *aspect of dread**, *augury*<br>
+> **3rd level (2 slots):** *crippling pain**<br>
+> **4th level (1 slots):** *impending doom**
 
 <br>
 
@@ -1516,72 +1906,120 @@ Select one of the following lores or magic to determine a crone's additional pas
 <br><br>
 > ##### **Spell List:**
 > **At will:** *creeping strike** (2d8), *druidcraft*, *eldritch blast* (two attacks),  *guidance*<br>
-> **2/Day:** *augury*, *mystifying miasma**, *shroud of dusk** (3rd level),  *unseen lurker**, *withering resolve**<br>
-> **1/Day:** *penumbral pendulum**, *scrying*
+> **1st level** (2 slots): *shroud of dusk** <br>
+> **2nd level** (2 slots): *augury*, *mystifying miasma**<br>
+> **3rd level** (2 slots): *withering resolve**<br>
+> **4th level** (1 slots): *penumbral pendulum**
 
-<img src='https://i.ibb.co/m4dhb62/neva-stalked-by-nightmares.png' style='position:absolute; bottom:-00px; left:-60px; width:550px; transform: scaleX(1)' />
+<img src='https://i.ibb.co/m4dhb62/neva-stalked-by-nightmares.png' style='position:absolute; bottom:-00px; left:-290px; width:845px; transform: scaleX(1)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:-380px; width:900px; transform: rotate(270deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:40px; right:-380px; width:900px; transform: rotate(270deg)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:-480px; width:900px; transform: rotate(210deg)' />
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-380px; right:140px; width:850px; transform:rotate(0deg);' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:700px; width:900px; transform: rotate(138deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-216px; right:-450px; width:900px; transform: rotate(210deg)' />
 
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-230px; right:00px; width:850px; transform:rotate(0deg);' />
+
 
 \pagebreakNum
-
 ___
 ___
 > ## Crone Mother
->*Medium humanoid (human), neutral*
+> *Medium humanoid (human), neutral*
 > ___
-> - **Armor Class** 15 (chain shirt)
+> - **Armor Class** 15 (chain shirt)      **Initiative** +9
 > - **Hit Points** 136 (21d8 + 42)
 > - **Speed** 30 ft. (50 ft. in Ancient Widow form)
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (+0)|12 (+1)|16 (+3)|18 (+4)|20 (+5)|16 (+3)|
->___
-> - **Saving Throws** Int +8, Wis +9
-> - **Skills** Arcana + 8, Medicine +9, Nature +8, Survival +9
-> - **Senses** truesight 30, darkvision 120 ft, passive Perception 15.
-> - **Languages** Druidic, plus any two languages
-> - **Challenge** 9 (5,000 XP)   &emsp;&emsp;  **Proficiency Bonus** +4      
 > ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +8, Medicine +9, Nature +8, Survival +9
+> - **Senses** truesight 30 ft., darkvision 120 ft., passive Perception 15
+> - **Languages** Druidic, plus any two languages
+> - **Challenge** 9 (5,000 XP)      **Proficiency Bonus** +4
+> ___
+> ### Traits
 >
 >
-> ***Ancient Widow. (68 HP, 1/day).*** When the crone's hit points drop to half or less, she transforms into an Ancient Widow. While transformed this way, she gains flowing benefits:
-> 
-> * Her movement speed Becomes 50 ft.
+> ***Ancient Widow (68 HP, 1/Day).*** When the crone is reduced to 68 HP or fewer, she transforms into an Ancient Widow. While transformed this way, she gains the following benefits:
+> * Her movement speed becomes 50 ft.
 > * She gains advantage on all saving throws.
-> * She gains 20 temporary hit points at the start of each of her turns 
-> * Her Strength becomes 20
-> *  When she uses her action to cast a spell, she can make one weapon attack as a bonus action
+> * She gains 20 temporary hit points at the start of each of her turns.
+> * Her Strength modifier becomes +5.
+> * When she uses her action to cast a spell, she can make one weapon attack as a bonus action.
 >
-> Anything the crone is wearing or carrying isn't transformed. She reverts to her true form if she dies or after one minute has passed.
+> Anything the crone mother is wearing or carrying isn’t transformed. She reverts to her true form if she dies or after one minute has passed.
 >
-> ***Forest Camouflage.*** The crone has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
+> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of the crone’s traits and the spells she knows.
 >
-> ***Lore of Magic.*** The crone is specialized in one of the following lores of magic: Beasts, Death, or Shadows. The chosen lore determines one of her traits and the spells she knows.
+> ### Bonus Actions
 >
-> ### Bonus Action
 >
-> ***Crone's Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+> ***Crone’s Curse (1/Day).*** The crone curses another creature. The type of curse she uses depends on the lore of magic she has specialized in, as described in the crone mother’s *Lore of Magic* trait.
 >
-> ### Action
+> ### Actions
 >
-> ***Multiattack. (Ancient Widow Form Only).*** The crone makes two attacks
 >
-> ***Iron Claws. (Ancient Widow Form Only).*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:* 18 (2d12 + 5) slashing damage.
+> ***Multiattack (Ancient Widow Form Only).*** The crone makes two attacks.
 >
-> ***Quarterstaff (Humanoid Form Only).*** *Melee Weapon Attack:* +4 to hit reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands.
 >
-> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The spells the crone knows depend on the lore of magic she has specialized in, as described in her *Lore of Magic* trait.
+> ***Iron Claws (Ancient Widow Form Only).*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 18 (2d12 + 5) slashing damage.
+>
+>
+> ***Quarterstaff (Humanoid Form Only).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if wielded with two hands.
+>
+>
+> ***Spellcasting.*** The crone is a spellcaster. Her spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The spells the crone knows depend on the lore of magic she has specialized in, as described in the crone *Lore of Magic* trait.
 >
 
-<img src='https://i.ibb.co/gDCxq7n/Kindly-Stranger-Shadows-over-Innistrad-Art.jpg' style='position:absolute; bottom:-200px; right:-10px; width:900px; transform: scaleX(1)' />
+<img src='https://i.postimg.cc/LX2Y8yt2/Kindly-Stranger-Shadows-over-Innistrad-Art.jpg' style='position:absolute; bottom:-200px; right:-10px; width:900px; transform: scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-220px; right:00px; width:850px; transform:rotate(0deg);' />
 
@@ -1601,14 +2039,35 @@ Select one of the following lores or magic to determine a crone mohter's additio
 > ***Wild Heart.*** Whenever the crone targets only herself or one beast, monstrosity, giant, dragon, or fey with an Intelligence of 8 or less with a spell that requires concentration, she can choose for the spell to no longer require concentration. The spell ends early if the crone is incapacitated or uses this feature to alter another spell. <br><br>
 > 
 > ##### **Crone's Curse:**
-> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outnumbered or outsized. While cursed, if the creature is within 5 feet of two hostile creatures that are not incapacitated, or within 5 feet of a creature one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
+> ***Craven Scent (1/Day).*** The crone places a curse on a creature she can see within 90 feet, causing it to emit a musk of fear and lose its conviction when outsized. While cursed, if the creature is within 5 feet of hostile creatures that is one size larger than it, the cursed creature has disadvantage on ability checks, attack rolls, and saving throws to maintain concentration. The curse ends if the crone dies, curses another creature, or uses an action to end it.
 <br><br>
 > ##### **Spell List:**
 > **At will:** *druidcraft*, *eldritch blast* (three attacks), *guidance*, *primal savagery* (3d10)<br>
-> **2/Day:** *amber spear**, *augury*, *summon flock** (4th level), *wild surge**<br>
-> **1/Day:** *bestial spirit**, *impenetrable pelt** (6th level), *scrying*
+> **1st level (2 slots):** *summon flock** <br>
+> **2nd level (2 slots):** *augury* *enlarge/reduce* <br>
+> **3rd level (2 slots):** *amber spear**<br>
+> **4th level (1 slots):** *bestial spirit**<br>
+> **6th level (1 slots):** *impenetrable pelt** (6th level)
 
 \columnbreak
+
+> #### Crone Mother: Lore of Crones
+>
+> ##### **Trait:**
+> ***Interlopers' Fate.*** The crone can cast *forbidden grove* without concentration even if she has already cast a spell this turn. Additionally, hostile creatures in the area of the spell have disadvantge on saving throws against the crone's spells. <br><br>
+> 
+> ##### **Crone's Curse:**
+> ***Dampening Curse (1/Day).*** The crone places a curse on a creature she can see within 90 feet, draining magical power from the creature. While cursed, if the creature casts a spell with a range of 25 or greater, the range of the spell becomes 25 feet.
+<br><br>
+> ##### **Spell List:**
+> **At will:** *druidcraft*, *eldritch blast* (three attacks), *guidance*, *primal savagery* (3d10)<br>
+> **1st level (2 slots):** *witch's broth and brew ** <br>
+> **2nd level (2 slots):** *augury* *forbidden grove* <br>
+> **3rd level (2 slots):** *incantation of mania and madness**<
+> **4th level (1 slots):** *blessing and curse of the ancients**<br>
+> **6th level (1 slots):** *bountiful cauldron**
+
+<br>
 
 > #### Crone Mother: Lore of Death
 >
@@ -1620,10 +2079,22 @@ Select one of the following lores or magic to determine a crone mohter's additio
 <br><br>
 > ##### **Spell List:**
 > **At will:** *chill touch* (3d8), *druidcraft*, *eldritch blast* (three attacks), *guidance*<br>
-> **2/Day:** *augury*, *aspect of dread**, *crippling pain**, *spirit leech** (4th level)<br>
-> **1/Day:** *horrifying laughter**, *impending doom**, *scrying*
+> **1st level (2 slots):** *spirit leech** <br>
+> **2nd level (2 slots):** *aspect of dread**, *augury*<br>
+> **3rd level (2 slots):** *crippling pain**<br>
+> **4th level (1 slots):** *impending doom**<br>
+> **6th level (1 slots):** *horrifying laughter**
 
-<br>
+
+
+
+<img src='https://i.ibb.co/zJSBnk3/Infectious-Curse-Shadows-over-Innistrad-Art.jpg' style='position:absolute; top:-100px; left:-80px; width:650px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-400px; right:-380px; width:900px; transform: rotate(270deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:10px; right:-0px; width:900px; transform: rotate(0deg)' />
+
+\pagebreakNum
 
 > #### Crone Mother: Lore of Shadows
 >
@@ -1636,13 +2107,52 @@ Select one of the following lores or magic to determine a crone mohter's additio
 > ##### **Spell List:**
 > **At will:** *creeping strike** (3d8), *druidcraft*, *eldritch blast* (three attacks),  *guidance*<br>
 > **2/Day:** *augury*, *mystifying miasma**, *shroud of dusk** (4th level),  *unseen lurker**, *withering resolve**<br>
-> **1/Day:** *penumbral pendulum**, *pit of shadows** *scrying*
+> **1st level** (2 slots): *shroud of dusk** <br>
+> **2nd level** (2 slots): *augury*, *mystifying miasma**<br>
+> **3rd level** (1 slots): *withering resolve**<br>
+> **4th level** (1 slots): *penumbral pendulum**, *scrying*
+> **4th level** (1 slots): *penumbral pendulum**, *scrying*
+> **6th level** (1 slots): *pit of shadows**
 
-<img src='https://i.ibb.co/zJSBnk3/Infectious-Curse-Shadows-over-Innistrad-Art.jpg' style='position:absolute; top:-100px; left:-80px; width:650px; transform: scaleX(1)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-400px; right:-380px; width:900px; transform: rotate(270deg)' />
+\columnbreak
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:10px; right:-0px; width:900px; transform: rotate(0deg)' />
+### Boons of the Forest
+
+Crones can invoke the power of the ancient forests they protect to call upon powerful boons. One or more crones may be tied to the same forest this way, granting them access to the same boons.
+
+While a crone is within the forest she's tied to, on initiative count 20 (losing initiative ties), she can take a lair action to invoke one of the boons described below. Once a crone uses one of the effects, it can't be used again by any crone in the forest for the next hour. Only one crone can invoke the power of the forest this way each round. Each boon a crone has access to increases her CR by 2.
+
+Each boon gains its power from a specific Large object or creature within the forest. If such an object is destroyed or creature killed, the crones lose the ability to use that boon. A forest controlled by one more crones could have multiple objects or creatures that each provide access to a boon.
+
+Examples of these objects or creatures could include:
+* A large totem or stone marker
+* An ancient tree
+* A powerful beast that lives in the woods
+* One of the crones herself
+
+#### Crone Witch Boons
+
+&emsp;***Bewitching Lure.*** The crone targets any number of creatures she is aware of within 120 feet. Each chosen creature must succeed on a DC 15 Wisdom saving throw or drop whatever it is holding and become charmed by the crone until the end of its next turn. While charmed in this way, the creature must use the Dash action to move toward the crone by the safest available route unless it has nowhere to move.
+
+***Chant of Purification.*** The crone selects a point within 120 feet that she can see. For each creature within 60 feet of that point, the crone can end one disease, curse, or one of the following conditions afflicting it: blinded, charmed, deafened, frightened, paralyzed, or poisoned.
+
+***Grasping Forest.*** Foliage reaches out to grasp any creatures of the crone's choosing that she is aware of within 120 feet. Any chosen creature within 5 feet of a plant must succeed on a DC 15 Strength saving throw or be restrained by entangling roots and vines. While restrained, the creature can't teleport or use extradimensional or interplanar means of travel. The restraint can be ended if the creature or another creature that can reach it uses an action to make a DC 15 Strength check to rip away the plants. The entangling plants wither away after 1 minute.
+
+***Jinxed Land.*** The crone, any chariot she is riding, and any number of willing creatures within 15 feet of her are teleported to a spot within 5 feet of a tree within 100 feet. Any creature teleported this way becomes invisible until the start of its next turn.
+
+
+***Wild Spirit.*** The crone summons a spirit with the stats of a Cave Bear at a point within 60 feet of her. The summoned creature acts as an ally to the crone and her companions. It acts on initiative count 19. It obeys any verbal commands given by the crone (no action required). If no commands are given, it attacks any hostile creatures within its line of sight. The bear vanishes after one minute.
+
+<img src='https://i.postimg.cc/XN8LD8yM/dark-heart-of-the-wood-200.webp' style='position:absolute; bottom:-00px; left:-10px; width:690px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:40px; right:-320px; width:900px; transform: rotate(270deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-250px; right:-20px; width:850px; transform:rotate(20deg);' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-240px; right:400px; width:850px; transform:rotate(-18deg);' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-616px; right:-50px; width:900px; transform: rotate(180deg)' />
 
 \pagebreakNum
 
@@ -1697,7 +2207,7 @@ ___
 > - **Challenge** 3 (700 XP)
 >___
 >
-> ***Hexed Cauldron.***  A creature can attune to the sled as a magic item. When a creature riding the sled that is attuned to it casts a spell that requires concentration, it can choose to have the sled maintain concentration on the spell in its stead. The sled only loses concentration if it is destroyed, if it starts concentrating on a new spell, or if the attuned creature is either dead or moves more than 60 feet from the sled.
+> ***Pushed.***  A creature can attune to the sled as a magic item. When a creature riding the sled that is attuned to it casts a spell that requires concentration, it can choose to have the sled maintain concentration on the spell in its stead. The sled only loses concentration if it is destroyed, if it starts concentrating on a new spell, or if the attuned creature is either dead or moves more than 60 feet from the sled.
 >
 > ***Trample.*** The chariot and its steeds can move through the space of a prone hostile creature without using additional movement if that creature is Medium-sized or smaller. If the chariot or its steeds end their turn within the creature's space, the creature becomes restrained. While restrained this way, the affected creature, or another creature within 5 feet of it, can make a DC 12 Strength check to try to free it. On a success, the restrained creature is moved to an unoccupied space of its choosing within 5 feet of the chariot and is no longer restrained.
 >
@@ -1777,43 +2287,6 @@ ___
 
 \pagebreakNum
 
-### Boons of the Forest
-
-Crones can invoke the power of the ancient forests they protect to call upon powerful boons. One or more crones may be tied to the same forest this way, granting them access to the same boons.
-
-While a crone is within the forest she's tied to, on initiative count 20 (losing initiative ties), she can take a lair action to invoke one of the boons described below. Once a crone uses one of the effects, it can't be used again by any crone in the forest for the next hour. Only one crone can invoke the power of the forest this way each round. Each boon a crone has access to increases her CR by 2.
-
-Each boon gains its power from a specific Large object or creature within the forest. If such an object is destroyed or creature killed, the crones lose the ability to use that boon. A forest controlled by one more crones could have multiple objects or creatures that each provide access to a boon.
-
-Examples of these objects or creatures could include:
-* A large totem or stone marker
-* An ancient tree
-* A powerful beast that lives in the woods
-* One of the crones herself
-
-#### Crone Witch Boons
-
-&emsp;***Bewitching Lure.*** The crone targets any number of creatures she is aware of within 120 feet. Each chosen creature must succeed on a DC 15 Wisdom saving throw or drop whatever it is holding and become charmed by the crone until the end of its next turn. While charmed in this way, the creature must use the Dash action to move toward the crone by the safest available route unless it has nowhere to move.
-
-***Chant of Purification.*** The crone selects a point within 120 feet that she can see. For each creature within 60 feet of that point, the crone can end one disease, curse, or one of the following conditions afflicting it: blinded, charmed, deafened, frightened, paralyzed, or poisoned.
-
-***Grasping Forest.*** Foliage reaches out to grasp any creatures of the crone's choosing that she is aware of within 120 feet. Any chosen creature within 5 feet of a plant must succeed on a DC 15 Strength saving throw or be restrained by entangling roots and vines. While restrained, the creature can't teleport or use extradimensional or interplanar means of travel. The restraint can be ended if the creature or another creature that can reach it uses an action to make a DC 15 Strength check to rip away the plants. The entangling plants wither away after 1 minute.
-
-***Jinxed Land.*** The crone, any chariot she is riding, and any number of willing creatures within 15 feet of her are teleported to a spot within 5 feet of a tree within 100 feet. Any creature teleported this way becomes invisible until the start of its next turn.
-
-
-***Wild Spirit.*** The crone summons a spirit with the stats of a Cave Bear at a point within 60 feet of her. The summoned creature acts as an ally to the crone and her companions. It acts on initiative count 19. It obeys any verbal commands given by the crone (no action required). If no commands are given, it attacks any hostile creatures within its line of sight. The bear vanishes after one minute.
-
-
-\columnbreak
-
-<bR>
-
-> ##### Designer's Note: Player Incentives
-> If you're running an adventure where the players are exploring woods controlled by multiple crones, having various objects imbued with hexes can provide players with additional objectives to destroy these objects, making their journey through the woods easier. Alternatively, you may have the players assist the crones in their battle against the foreign threat. In this case, the crowns could grant the players permission to use the hexes while they travel through the woods.
-
-<br>
-
 ### Crone Witch Adventures
 The following table provides some ways to create adventures featuring these menacing witches in your games:
 
@@ -1828,7 +2301,16 @@ The following table provides some ways to create adventures featuring these mena
 |  5  | **Darkness Beckons:** A coven of crones, swayed by dark spirits, is amassing power, threatening both the balance of the forests and the neighboring lands. The party must either join forces with benevolent crones or confront this dark coven head-on.  |
 |  6  | **The Crone's Quarral:** The party finds themselves caught in a feud between three crones. The have the option to join forces with one of the crones and gain her blessings, but doing so causes the other two to unite against them.|
 
-\pagebreakNum
+<br>
+
+> ##### Designer's Note: Player Incentives
+> If you're running an adventure where the players are exploring woods controlled by multiple crones, having various objects imbued with hexes can provide players with additional objectives to destroy these objects, making their journey through the woods easier. Alternatively, you may have the players assist the crones in their battle against the foreign threat. In this case, the crones could grant the players permission to use the hexes while they travel through the woods.
+
+\columnbreak
+
+
+
+
 
 ### Crone Witch Tactics
 
@@ -1842,25 +2324,54 @@ The sled's Hexed Cauldron ability allows it to maintain concentration on a spell
 #### Ancient Widow Form
 Crone mothers transform into Ancient Widows when reduced to half health or less, enhancing their melee combat abilities. Despite this transformation, they do not become full-fledged frontline fighters and shouldn't be recklessly thrown into melee combat.
 
+<img src='https://i.postimg.cc/qq8Lks1K/caio-monteiro-413390-witch-of-the-moors.jpg' style='position:absolute; bottom:-31px; right:-133px; width:920px; transform: scaleX(1)' />
 
-#### Crones of Shadow
-More than any other type of crone, crones of shadow depend on their minions to be effective.
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-390px; right:0px; width:850px; transform:rotate(0deg);' />
 
-**Shadow Paths.** The crone will only use this ability to leave her sled if the sled becomes immobilized. The minion she swaps places with will be charged with restoring the sled's mobility. Once mobile again, the crone will swap back to reassume her position on the sled.
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:80px; right:330px; width:850px; transform:rotate(-60deg);' />
 
-**Harrowing Coil .** Deploy Harrowing Coil on agile skirmishers such as rogues or monks.
+\pagebreakNum
+
+#### Crones of Beasts
+Because many of these crones' spells have a duration of an hour, and they have ways to maintain several of them at once, crones of beasts can be significantly more dangerous if they have time to prepare for a fight. 
+
+**Wild Heart Trait.** This trait, when coupled with the crone riding on a sled, enables her to maintain concentration on three spells simultaneously, with the harts being prime targets for her spells. 
+
+**Craven Scent Curse.** This curse is best targeted at frontline fighters.
+
+##### Spell-Casting Strategies
+&emsp;**Impenetrable Pelt.** The crone casts this defensive spell on herself to bolster her survivability.
+
+**Bestial Spirit.** The summoned spirit should be positioned next to melee fighters possessing low Dexterity or targets slow enough that they can't outrun the Bestial Spirit.
+
+**Elarge/Reduce.** This spell works well with the Wild Heart trait and should target the crone's most formidable minion or herself while she is in Ancient Widow Form and has lost concentration on Impenetrable Pelt.
+
+**Amber Spear.** This spell is particularly effective when it can hit three targets simultaneously (or at least two targets with low Dexterity).
+
+**Summon Flock.** This spell is generally a lower priority among the crone's concentration spells. It's mostly useful when the crone doesn't have access to Impenetrable Pelt or she's scouting for enemies within her forest domain. The spell inflicts minimal damage, and its primary utility lies in disrupting the concentration of opposing spell casters.
+
+#### Lore of The Crone
+Crones adept in this lore work best alongside skirmishers, disrupting foes and slowly damaging them to outlast opponents.
+
+**Fate of Interlopers.** The crone lures opponents into *forbidden grove*, positioning allies to hide within after attacking.
+
+**Dampening Curse.** Targets a backline spellcaster, forcing them to move closer to the frontline.
+
+##### Spell-Casting Strategies
+
+&emsp;**Bountiful Cauldron.** Cast immediately, targeting creatures near each other and allies, especially those with low Dexterity.
 
 
-##### Spell-Casting Hierarchy
-&emsp;**Pit of Shadows.** Prioritize casting this spell on two or more targets with below-average Dexterity.
+**Blessing and Curse of the Ancients.** Cast right after *bountiful cauldron*. The curse targets a creature nearest to her allies, while the blessing targets her strongest ally (or herself if no allies are notably strong).
 
-**Withering Resolve or Penumbral Pendulum.** Opt for penumbral pendulum if it can hit two or more targets or an immobilized target that will be struck again by the pendulum on the subsequent turn.
-Alternatively, cast withering resolve on the target with the lowest Wisdom saving throw. Follow up with a charge using the crone's harts to exploit the attacks now made with advantage.
 
-**Mystifying Miasma.** Cast when two or more targets can be hit, with one of them being under the effects of Harrowing Coil, so the conjured shadows inflict extra damage to the cursed creature.
+**Forbidden Grove.** Cast on the same turn as a bonus action spell. The crone places the grove between herself and enemies, forcing melee combatants to move through the area. It can also serve as an escape when targeted by spells.
 
-**Shroud of Dusk or Unseen Lurker.** Use Shroud of Dusk when it can hit two or more targets. Unseen Lurker serves as an escape tool or an alternative attack facilitator for the crone. It's particularly effective when used in the crone's Ancient Widow Form to hide her actions or position.
 
+**Incantation of Mania and Madness.** Targeted at backline spellcasters or groups of three or more
+
+
+**Witch's broth and Brew .** Cast after other spells, prioritizing healing damaged allies unless there is a low Dexterity target within reach.
 
 \columnbreak
 
@@ -1882,24 +2393,23 @@ Crones adept in this lore of magic typically reserve their more potent spells fo
 
 **Horrifying Laughter.** Cast upon the Inversus-cursed target once the Life Leech trait has enhanced the crone's saving throws by +2.
 
+#### Crones of Shadow
+More than any other type of crone, crones of shadow depend on their minions to be effective.
 
-#### Crones of Beasts
-Because many of these crones' spells have a duration of an hour, and they have ways to maintain several of them at once, crones of beasts can be significantly more dangerous if they have time to prepare for a fight. 
+**Shadow Paths.** The crone will only use this ability to leave her sled if the sled becomes immobilized. The minion she swaps places with will be charged with restoring the sled's mobility. Once mobile again, the crone will swap back to reassume her position on the sled.
 
-**Wild Heart Trait.** This trait, when coupled with the crone riding on a sled, enables her to maintain concentration on three spells simultaneously, with the harts being prime targets for her spells. 
+**Harrowing Coil .** Deploy Harrowing Coil on agile skirmishers such as rogues or monks.
 
-**Craven Scent Curse.** This curse is best targeted at frontline fighters.
 
-##### Spell-Casting Strategies
-&emsp;**Impenetrable Pelt.** The crone casts this defensive spell on herself to bolster her survivability.
+##### Spell-Casting Hierarchy
+&emsp;**Pit of Shadows.** Prioritize casting this spell on two or more targets with below-average Dexterity.
 
-**Bestial Spirit.** The summoned spirit should be positioned next to melee fighters possessing low Dexterity or targets slow enough that they can't outrun the Bestial Spirit.
+**Withering Resolve or Penumbral Pendulum.** Opt for penumbral pendulum if it can hit two or more targets or an immobilized target that will be struck again by the pendulum on the subsequent turn.
+Alternatively, cast withering resolve on the target with the lowest Wisdom saving throw. Follow up with a charge using the crone's harts to exploit the attacks now made with advantage.
 
-**Wild Surge.** This spell works well with the Wild Heart trait and should target the crone's most formidable minion or herself while she is in Ancient Widow Form and has lost concentration on Impenetrable Pelt.
+**Mystifying Miasma.** Cast when two or more targets can be hit, with one of them being under the effects of Harrowing Coil, so the conjured shadows inflict extra damage to the cursed creature.
 
-**Amber Spear.** This spell is particularly effective when it can hit three targets simultaneously (or at least two targets with low Dexterity).
-
-**Summon Flock.** This spell is generally a lower priority among the crone's concentration spells. It's mostly useful when the crone doesn't have access to Impenetrable Pelt or she's scouting for enemies within her forest domain. The spell inflicts minimal damage, and its primary utility lies in disrupting the concentration of opposing spell casters.
+**Shroud of Dusk or Unseen Lurker.** Use Shroud of Dusk when it can hit two or more targets. Unseen Lurker serves as an escape tool or an alternative attack facilitator for the crone. It's particularly effective when used in the crone's Ancient Widow Form to hide her actions or position.
 
 \pagebreakNum
 
@@ -2017,6 +2527,18 @@ You can give the different types of items unique names based on their material a
 | 6 <br> (Wood) | Damaged Crone's Staff | Crone's Staff |  Masterwork Crone's Staff | 
 
 
+#### Crone Witch: Art Credit
+* Barrow Witches - Alex Brock, Wizards of the Coast
+* Primal Druid - Tomasz Jedruszek, Wizards of the Coast
+* Disciple of Perdition - Alix Branwyn, Wizards of the Coast
+* Curse of Bounty - Kieran Yanner, Wizards of the Coast
+* Neva, Stalked by Nightmares - Tyler Jacobson, <Br> Wizards of the Coast
+* Kindly Stranger - Ryan Pancoast, Wizards of the Coast
+* Infectious Curse - Wesley Burt, Wizards of the Coast
+* Dark Heart of the Wood - Mark Tedin, Wizards of the Coast
+* Great Sable Stag - Matt Cavotta, Wizards of the Coast
+* Witch of the Moors - Caio Monteiro, Wizards of the Coast
+* Ragged Recluse - Lie Setiawan,  Wizards of the Coast
 
 \columnbreak
 
@@ -2049,26 +2571,6 @@ You can give the different types of items unique names based on their material a
 |:--:|:---:|:-----------:|:-----------:|
 | 1 (Bone)  | Cracked Crone's Hut Bone| Crone's Hut Bone|  Pristine Crone's Hut Bone |
 | 2-4 <br> (Wood) | Damaged Crone's Hut Fragments| Crone's Hut Fragments| Pristine Crone's Hut Fragments| 
-
-#### Crone Witch: Art Credit
-* Barrow Witches - Alex Brock, Wizards of the Coast
-* Curse of Bounty - Kieran Yanner, Wizards of the Coast
-* Neva, Stalked by Nightmares - Tyler Jacobson, <Br> Wizards of the Coast
-* Kindly Stranger - Ryan Pancoast, Wizards of the Coast
-* Infectious Curse - Wesley Burt, Wizards of the Coast
-* Great Sable Stag - Matt Cavotta, Wizards of the Coast
-* Ragged Recluse - Lie Setiawan,  Wizards of the Coast
-* Ward of Bones - David Martin, Wizards of the Coast
-
-<img src='https://assets.moxfield.net/cards/card-k762p-art_crop.jpg' style='position:absolute; bottom:-40px; left:-90px; width:510px; transform: scaleX(1)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:40px; right:-320px; width:900px; transform: rotate(-90deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:46px; right:-270px; width:900px; transform: rotate(220deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-120px; right:-15px; width:900px; transform: rotate(180deg)' />
-
-<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-200px; right:00px; width:850px; transform:rotate(0deg);' />
 
 
 \pagebreakNum
@@ -2110,7 +2612,7 @@ ___
 > *Medium humanoid (human), neutral*
 > ___
 > - **Armor Class** 15 (chain shirt)
-> - **Hit Points** 212 (25d8 + 100)
+> - **Hit Points** 229 (27d8+108)
 > - **Speed** 30 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -2124,45 +2626,41 @@ ___
 > - **Challenge** 13 (10,000 XP) &emsp;&emsp; **Proficiency Bonus** +5      
 > ___
 >
-> ***Draw from the Earth.*** When the crone casts a spell of 1st level or higher, she may cause a 10-foot square of ground centered on herself to become bewitched for one minute. She can have up to three different areas bewitched at one time. At the start of the crone's turn, she or a creature she can see within 30 feet of her regains 10 hit points for each bewitched area within 60 feet of her that does not have a hostile creature occupying it. A *dispel magic* spell or similar magic will end the bewitchment on any given area.
->
-> ***Forest Camouflage.*** The crone has advantage on Dexterity (Stealth) checks made to hide in forest terrain.
->
-> ***Malediction of Ruin (1/Day).*** On initiative count 20 (losing initiative ties), the crone names up to six creatures, cursing each of them for one minute or until the crone dies. When a creature cursed this way starts its turn within 120 feet of the crone, it must make a DC 18 saving throw; on failure, one of its ability scores is reduced by 1d4 until the curse ends. The target dies if this reduces its score to 0. The saving throw type and the ability score that is reduced is the creature's highest ability score other than Constitution. If two or more ability scores are tied for the highest value, the crone chooses one. A *remove curse* spell cannot remove the curse from a creature unless cast at a 6th level or higher; if it is cast at a lower level, it instead allows the creature to automatically succeed on its next saving throw against the curse.
->
-> ***Spirits' Wrath.*** When the crone hits with a spell attack, she adds her Wisdom modifier to the damage dealt on a hit (5), and if the target is a creature, she can push it up to 10 feet away from her in a straight line.
->
-> ***Survivor (30 HP, 1/Day).*** When the crone's hit points drop to half or less, for the next minute, she gains advantage on all saving throws and also gains 25 temporary hit points at the start of each of her turns.
+> ***Survivor (114 HP, 1/Day).*** When the crone's becomes bloodied, for the next minute, she gains advantage on all saving throws and also gains 25 temporary hit points at the start of each of her turns.
 >
 > ### Actions
 >
-> ***Multiattack.*** The crone can make two Quarterstaff attacks or cast two cantrips.
+> ***Multiattack.*** The crone can make two Wilde Staff attacks or make two Spirit Bolt attack.
 >
-> ***Quarterstaff.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if wielded with two hands.
+> ***Wilde Staff.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 10 (1d10 + 5) bludgeoning damage and the target is pushed back 10 feet.
+>
+> ***Spirit Bolt.*** Ranged Spell Attack: +10 to hit, reach 100 ft., one target. *Hit:* 13 (2d6 + 5) force damage.
 >
 > ***Spellcasting.*** The crone casts one of the following spells, requiring no components and using Wisdom as her spellcasting ability (spell save DC 18, +10 to hit with spell attacks):
 >
-> **At will:** druidcraft, *eldritch blast (three attacks)*, guidance
+> **At will:** druidcraft, guidance.
 >
-> **2/Day:** *amber spear** (4th level), *augury*, *crippling pain** (4th level), *summon flock** (5th level), *withering resolve**
+> **3/Day:**  *forbidden grove**, scrying, *witch's broth and brew  (5th level)** *incantation of mania* <br>
+> **1/Day:**  *bountiful cauldron** *will of the spirits**
 >
-> **1/Day:** *bestial spirit**, *impending doom**, *scrying*, *mindrazors**
+> ### Malediction of Ruin (1/Day).
+> On initiative count 20 (losing initiative ties), the crone names up to six creatures, cursing each of them for one minute or until the crone dies. When a creature cursed this way starts its turn within 120 feet of the crone, its ability scores is reduced by 1d3 until the curse ends. The target dies if this reduces its score to 0. The ability score that is reduced is the creature's highest ability score other than Constitution. If two or more ability scores are tied for the highest value, the crone chooses one. A *remove curse* spell cannot remove the curse from a creature unless cast at a 6th level or higher; if it is cast at a lower level, Any reduction to the target’s ability score are removed.
 >
-> ### Legendary Actions
->
-> The crone can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The crone regains spent legendary actions at the start of her turn.
+> ### Monstrous Actions
+> The crone gains two additional actions in combat: Wicked Assault and Thicket Stride. She rolls initiative for each of these at the start of combat using his own initiative modifier. On the rolled initiative count (losing ties), the corn can take that action if she is not incapacitated. Instead of using either of these actions, she can use Tenacious Will, even if incapacitated.
 > 
-> **Blast.** The crone casts *eldritch blast*, making only one attack.
+> **Wicked Assault.** The crone can move up to 15 feet. During this movement, she can make up to two attack.
 >
-> **Check.** The crone makes a skill check that would normally require an action.
+> **Thicket Stride.** The crone can cast forbidden grove without concentration and lasts until this action is used again, the crone may then teleport herself to any unoccupied spot within the area of the spell.
 >
-> **Teleport.** The crone teleports herself to any other spot within 15 feet. She arrives at exactly the spot desired. It can be a place she can see, one she can visualize, or one she can describe by stating distance and direction. If she would arrive in a place already occupied by an object or a creature, the ability fails to teleport her.
+> **Tenacious Will.** If crone is subject to an ongoing effect that allows him to make a saving throw as an action or at the start or end of his turn, he can immediately make that save with advantage, ending the effect on a success.
 >
-> **Tenacious Will.** If the crone is suffering from an effect that allows her to make a saving throw as an action or at the beginning or end of her next turn, she may immediately make that save against the effect with advantage. She can use this legendary action while incapacitated.
->
-> **Spell Casting (Costs 3 Actions).** The crone casts a spell.
+> **New spells described in New Spells section*
 
+ <img src='https://i.postimg.cc/wBJPmj5h/duskmourn-forest.jpg' style='position:absolute;right:0px;bottom:-20px;width:820px;transform:scaleX(-1)' />
 
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-415px;height:1400px;width:1416px;transform:rotate(-0deg)' />
 
 \pagebreakNum
 
@@ -2181,7 +2679,7 @@ ___
 >*Large fey, neutral*
 > ___
 > - **Armor Class** 16 (natural armor)
-> - **Hit Points** 218 (23d10+92)
+> - **Hit Points** 229 (27d8+108)
 > - **Speed** 50 ft.
 >___
 >|STR|DEX|CON|INT|WIS|CHA|
@@ -2195,31 +2693,24 @@ ___
 > - **Challenge** 13 (10,000 XP) &emsp;&emsp; **Proficiency Bonus** +5      
 > ___
 >
-> ***One with the Wild.*** The widow has advantage on Dexterity (Stealth) checks made to hide in foliage, heavy rain, falling snow, mist, and other natural phenomena and can do so when only lightly obscured. Additionally, the widow can move through plants without being slowed, taking damage, or being grappled or restrained by them. She also can move through trees as if they were difficult terrain, taking 10 force damage if she ends her turn inside a tree.
->
-> ***Avatar of the Land.*** At the start of the widow's turn, she regains 10 hit points for each bewitched area within 60 feet of her that does not have a hostile creature occupying it. The widow dies only if she starts her turn with 0 hit points and doesn't regenerate.
+> ***One with The Wild.*** The widow has advantage on Dexterity (Stealth) checks made to hide in foliage, heavy rain, falling snow, mist, and other natural phenomena and can do so when only lightly obscured. Additionally, the widow can move through plants without being slowed, taking damage, or being grappled or restrained by them. She also can move through trees as if they were difficult terrain, taking 10 force damage if she ends her turn inside a tree.
 >
 > ### Actions
 >
-> ***Bewitched Bolt.*** *Ranged Spell Attack:* +10 to hit, range 120 ft., one creature. *Hit:* 16 (2d10 + 5) necrotic damage. If the target is a creature suffering from the Malediction of Ruin curse, the ability score chosen by the curse is reduced by 1d4 until the curse ends. The attack has advantage if the widow is standing on bewitched ground and the target is not.
+> ***Multiattack.*** The widow makes three attacks.
 >
-> ***Cursed Metal Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) piercing damage plus 9 (2d8) poison damage. If the target is a creature suffering from the Malediction of Ruin curse, the ability score chosen by the curse is reduced by 1d4 until the curse ends.
+> ***Bewitched Bolt.*** *Ranged Spell Attack:* +10 to hit, range 120 ft., one creature. *Hit:* 13 (2d6 + 5) necrotic damage. If the target is a creature suffering from the Malediction of Ruin curse, the ability score chosen by the curse is reduced by 1d3 until the curse ends.
 >
-> ***Iron Claws.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:* 18 (2d12 + 5) slashing damage.
+> ***Cursed Metal Claws.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one creature. *Hit:* 13 (2d6 + 5) Slashing damage plus 7 (2d6) poison damage. If the target is a creature suffering from the Malediction of Ruin curse, the ability score chosen by the curse is reduced by 1d3 until the curse ends.
 >
-> ### Legendary Actions
+> ### Monstrous Actions
+> The widow gains two additional actions in combat: Grinding Teeth and Fury of the Land. She rolls initiative for each of these at the start of combat using his own initiative modifier. On the rolled initiative count (losing ties), the widow can take that action if she is not incapacitated. Instead of using either of these actions, she can use Tenacious Will, even if incapacitated.
 >
-> The widow can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The widow regains spent legendary actions at the start of its turn.
-> 
-> **Check.** The widow makes a skill check that would normally require an action.
+> **Fury of the Land.** The widow chooses three creatures, if they are with in 60 feet of her and on the ground. they must make a DC 18 Dextairty saving throw. On a failed save, a creature is restrained by vins until it is destroyed (Ac 15; HP 15.) If it fails by 10 more, it is blinded and can't cast spells while restrained.
 >
-> **Claw.** The widow makes a claw attack.
+> **Grinding Teeth.** The widow grinds her metal teeth together, making an ear-splitting sound. Each other creature within 120 feet of the widow must make a DC 18 Constitution saving throw. On a failed save, a creature falls prone and is dazed until the end of it's next turn. If it fails by 10 more, it is also stunned
 >
-> **Teleport.** The widow teleports herself to any other spot within 15 feet. She arrives at exactly the spot desired. It can be a place she can see, one she can visualize, or one she can describe by stating distance and direction. If she would arrive in a place already occupied by an object or a creature, the ability fails to teleport her.
->
-> **Tenacious Will.** If the widow is suffering from an effect that allows her to make a saving throw as an action or at the beginning or end of its next turn, she may immediately make that save against the effect with advantage. She can use this legendary action while incapacitated.
->
-> **Grinding Teeth. (Costs 2 Actions)** The widow grinds her metal teeth together, making an ear-splitting sound. Each other creature within 120 feet of the widow must make a DC 18 Constitution saving throw. On a failed save, a creature takes 10 (3d6) thunder damage and falls prone. On a successful save, a creature takes half as much damage and doesn't fall prone.
+> **Tenacious Will.** If widow is subject to an ongoing effect that allows him to make a saving throw as an action or at the start or end of his turn, he can immediately make that save with advantage, ending the effect on a success.
 
  <img src='https://assets.echomtg.com/magic/cards/cropped/40361.hq.jpg' style='position:absolute; top:-50px; right:-275px; width:800px; transform:scaleX(1)' />
 
@@ -2247,32 +2738,28 @@ The following table provides some ways to create adventures featuring the wisene
 
 ### The Crone Grandmother Tactics
 
-&emsp;**Malediction of Ruin:** This curse ensures the crone's adversaries will slowly wither away, losing their effectiveness over time before finally perishing. Assuming she is able to utilize it effectively, she will fight defensively and use attrition to wear her enemies down.
-
-**Draw from the Earth:** The crone aims to disseminate the bewitched ground across the battlefield, positioning them at intervals within 60 feet of each other. Her focus is on keeping adversaries away from these grounds, thus granting her the stamina to outlast her foes.
+&emsp;**Malediction of Ruin:** The crone's curse ensures her adversaries will gradually weaken and perish. When utilizing this curse effectively, she fights degrovesively, focusing on attrition to wear her enemies down.
 
 #### Concentration Spells & Their Priority
-&emsp;**Impending Doom:** This spell accelerates the effects of Malediction of Ruin and should target characters with poor Charisma saves.
+&emsp;**Bountiful Cauldron:** The crone casts this spell as soon as possible, targeting creatures that are next to each other and prioritizing those with low Dexterity.
 
-**Bestial Spirit:** The summoned spirit should be positioned atop foes standing on the bewitched ground, compelling them to relocate or suffer its damage.
+**Will of the Spirits:** Used when it can hit three or more targets or two targets with low Charisma saving throws. The crone will cast this spell twice on the same target if needed. She will also hit herself with the spell if necessary to affect all targets, intentionally choosing to fail the save.
 
-**Withering Resolve:** This spell accelerates the effects of Malediction of Ruinand should target characters with poor Wisdom saves. If the crone can maintain concentration on two spells—by using a crone's sled or crone's hut—she will use this spell twice on the same target.
+**Incantation of Mania:** This spell targets backline spellcasters or hits three or more targets after using *will of the spirits*.
 
-**Summon Flock:** The attacks from this spell gain potency from the crone's Spirit's Wrath trait, and she uses them to drive enemies off her bewitched terrain.
+**Witch’s Broth and Brew:** Used when all other spells have been cast. The crone prioritizes healing herself as long as there is at least one target within reach that she can either heal or damage.
 
 \columnbreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-**Mindrazors:** This spell excels when the crone has weapon-wielding allies. If so, it takes precedence; otherwise, it's of limited value.
 
-#### Non-Concentration Spells & Their Casting Priority
+#### Monstrous Actions
 
-&emsp;**Amber Spear:** This spell is best used when it can affect three or more targets (or two targets with low Dexterity saves).
+&emsp;**Wicked Assault:** The Crone moves away from melee fighters, using two spirit bolt attacks. If she cannot escape melee without taking significant damage, she makes two wild staff attacks to push away the nearest foe.
 
-**Eldritch Blast:** Leveraging her Spirit's Wrath trait, the crone uses this spell to push foes away from her bewitched ground.
+**Thicket Stride:** Used to escape melee combat when necessary. If already at a safe distance, she places the Forbidden Grove between herself and her primary adversary. If Bountiful Cauldron is not active, she uses a bonus action after casting spells to hide in the area.
 
-**Crippling Pain:** This spell is ideally cast upon agile players, such as monks or rogues.
 
  <img src='https://i.ibb.co/YQ4xhL2/Baba-Yaga-Hut5e.jpg' style='position:absolute; top:-10px; right:-15px; width:440px; transform:scaleX(1)' />
 
@@ -2290,9 +2777,9 @@ The following table provides some ways to create adventures featuring the wisene
 #### Ancient Widow Form
 The crone retains the same combat priorities as her standard form. Her overarching objective remains to prolong battles, allowing her Malediction of Ruin to erode her adversaries.
 
-**Cursed Metal Bite:** This attack is reserved for the most vulnerable foes. The crone uses it on the player whose ability score has suffered the greatest reduction.
+**Cursed Metal Claws:** Targets the most vulnerable foes, especially those suffering the greatest ability score reduction or who are stunned or restrained.
 
-**Legendary Claw Attacks:** Her legendary actions are primarily employed to unleash claw strikes on the most wounded enemy.
+**Fury of the Land:** Targets three creatures most affected by the Malediction of Ruin.
 
 **Countering Melee Denial:** If opponents are staying out of her melee range, the crone retaliates with her Bewitched Bolt attacks. Furthermore, she utilizes her legendary actions to employ the devastating Grinding Teeth ability to damage and knock foes prone, giving her a chance to close in on them.
 
@@ -2320,6 +2807,7 @@ The following tables describe the number of items and value of those items the p
 #### The Crone Grandmother: Art Credit
 * Baba Lysaga, Night Witch - Slawomir Maniak, Wizards of the Coast
 * Hag Hedge-Mage - Scott Altmann, Wizards of the Coast
+* Forest, Duskmourn: House of Horror - Josu Hernaiz, Wizards of the Coast
 * Baba Yaga's Hut, 5e Dungeon Master's Guide - Wizards of the Coast
 
 \columnbreak
@@ -2771,6 +3259,14 @@ These are new action options the chariot grants to its steeds. The steeds may us
 * Summon Flock 1.0.0
 * Wild Surge 1.0.0
 
+#### Lore of Crones
+* Bountiful Cauldron 1.0.0
+* Blessing and Curse of the Ancients 1.0.0
+* Forbidden Grove 1.0.0
+* Incantation of Madness and Mania 1.0.0
+* Will of the Spirits 1.0.0
+* Witch's Broth and Brew 1.0.0
+
 #### Lore of Death
 * Aspect of Dread 1.0.1
 * Crippling Pain 1.0.0
@@ -2801,13 +3297,13 @@ These are new action options the chariot grants to its steeds. The steeds may us
 * Avatar of Beasts 1.0.1
 * Bane Wolf 1.0.0
 * Bane Wolf Dark Blood 1.0.0
-* Crone Apprentice 1.0.0
-* Crone Witch 1.0.0
-* Crone Mother 1.0.0
+* Crone Apprentice 2.0.0
+* Crone Witch 2.0.0
+* Crone Mother 2.0.0
 * Crone's Hart 1.0.0
 * Crone's Sled 1.0.0
 * Crone's Hut 1.0.0
-* The Crone Grandmother 1.0.0
+* The Crone Grandmother 1.1.0
 * Ancient Widow 1.0.0
 * Woodland Ambusher 1.0.0
 * Wolfheart Ambusher 1.0.0
@@ -2829,9 +3325,14 @@ These are new action options the chariot grants to its steeds. The steeds may us
 #### 1.0.2
 * Update creature names
 
+#### 1.1.0
+* Crone rework of spells and lore of hags added
+* The Crone Grandmother reworked
+
 ### Avatar of Beasts
 #### 1.0.0
 * Document release
 
 #### 1.0.1
 * Clean up wording of Howl of the Great Beast and remove note
+
