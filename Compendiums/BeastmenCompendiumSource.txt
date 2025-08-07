@@ -122,7 +122,7 @@ This document provides content to help you run games that heavily feature the be
     - [<span>14</span><span>Savage Dominion</span>](#p14)
     - [<span>15</span><span>Traitor-Kin</span>](#p15)
     - [<span>15</span><span>Vile Tide</span>](#p15)
-  - ### [<span>4</span><span>Beastman Magic Items</span>](#p4)
+  - ### [<span>18</span><span>Beastman Magic Items</span>](#p18)
     - [<span>18</span><span>Axe of Man-Slaying</span>](#p18)
     - [<span>18</span><span>The Black Star</span>](#p18)
     - [<span>18</span><span>Horn of the First Beast</span>](#p18)
@@ -1326,7 +1326,7 @@ At the end of your turn, you may choose one creature you hit with this weapon on
 While you aren’t wearing heavy armor or wielding a shield, you gain a +3 bonus to attack rolls made with this magic weapon, and when you hit with an attack using this weapon, the target takes an extra 2d4 bludgeoning damage. In addition, you can use your Wisdom instead of Strength for the attack and damage rolls of melee attacks using this weapon.
 
 ### Ram Horn Helm
-*Wonderous Item, Rare (requires attunement), 4,000 gp*
+*Wonderous Item, Rare (Requires Attunement), 4,000 gp*
 
 *The helm was fashioned from a pair of thick, coiling horns taken from a particularly dreadful beastlord, slain by a rival who wished to add the impressive horns to his own regalia. The wearer of this mantle is able to charge into enemy lines with bone-cracking force.*
 
@@ -1352,7 +1352,7 @@ When you or a willing creature you can see within 60 feet of you that can see an
 
 ### Sacrificial Dagger
 
-*Weapon (Dagger, Holy Symbol, Arcane Focus, Druidic Focus), Rare (requires attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard), 10,000 gp*
+*Weapon (Dagger, Holy Symbol, Arcane Focus, Druidic Focus), Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard), 10,000 gp*
 
 *A rough-hewn blade, stained with the blood of thousands of sacrifices. Any who add to the countless lives it has claimed will be greatly rewarded.*
 
@@ -1706,7 +1706,7 @@ The following is a list of mutations that can only be applied to beastmen. To pi
 
 The beastman gains the following reaction:
 
- *Trigger:* When another creature within 15 feet of the beastman casts a 1st or higher level spell. *Response:* The beastman enters a frenzy. If the beastman already frenzied, it may move up to half its speed and make a single gore attack. The attack has advantage if it is made against the creature that triggered the ability.
+ *Trigger:* When another creature within 15 feet of the beastman casts a 1st or higher level spell. *Response:* The beastman becomes Emboldened*. If the beastman already Emboldened, it may move up to half its speed and make a single gore attack. The attack has advantage if it is made against the creature that triggered the ability.
 
 
 
@@ -1714,7 +1714,7 @@ The beastman gains the following reaction:
 
 *Humility is anathema to the beastman. Should another cause it to appear weak or foolish, it responds by weaving a hex in its foul language—inflicting it upon the source of its shame.*
 
-When the beastman loses its frenzy from missing with all of its attacks against the same creature on the same turn, it may curse a creature. It may also curse a creature when it loses its frenzy due to being charmed or frightened by a creature. The curse lasts for one minute, until the beastman enters its frenzy again, or until the beastman dies. While cursed, whenever a target makes a d20 test, the target must subtract 1d6 from the roll. A creature can be cursed this way by more than one beastman at a time, and the effects stack.
+When the beastman loses the Emboldened* condition from missing with all of its attacks against the same creature on the same turn, it may curse a creature. It may also curse a creature when it loses the Emboldened condition due to being Charmed or Frightened by a creature. The curse lasts for one minute, until the beastman it becomes Emboldened again, or until the beastman dies. While cursed, whenever a target makes a d20 test, the target must subtract 1d6 from the roll. A creature can be cursed this way by more than one beastman at a time, and the effects stack.
 
 
 #### 3. Disfiguring Hate
@@ -1722,12 +1722,13 @@ When the beastman loses its frenzy from missing with all of its attacks against 
 *The beastman’s fury warps its visage into a grotesque mask of rage. Its guttural roars of loathing echo forth, while a slick, rancid sweat seeps from its flesh, carrying a stench so hateful it stings the eyes—a living nightmare of repulsion.*
 
 
-The beastman emits an aura in a 30-foot emanation <br> from itself while it is frenzied which forces <br> creatures to make the following saving throw. <br> *Wisdom Saving Throw:* Each enemy that <br> starts its turn in the emanation. <br> *Failure:* The creature is frightened of <br> all frenzied creatures until the start <br> of its next turn. 
-
-
+The beastman emits an aura in a 30-foot emanation <br> from itself while it is Emboldened* which forces <br> creatures to make the following saving throw. <br> *Wisdom Saving Throw:* Each enemy that <br> starts its turn in the emanation. <br> *Failure:* The creature is Frightened of <br> all Emboldened creatures until the <br> start of its next turn. 
 
 If a creature would make <br> multiple saving throws against <br> the Disfiguring Hate abilities <br> of multiple beastmen, it instead <br> makes a single saving throw.  <br>The save DC equals the highest <br> save DC among the beastmen plus <br> 2 per saving throw that was forgone.
 
+<br>
+
+**New condition described at the <br> end of the document*
 
 \columnbreak
 
@@ -1736,7 +1737,9 @@ If a creature would make <br> multiple saving throws against <br> the Disfigurin
 
 *So drenched in festering hatred is the beastman’s spirit that, as it tears free from its corpse in death, the vile essence fouls all it touches—leaving rot and hate in its wake.*
 
-When the beastman dies while it is frenzied, it explodes, forcing creatures to make the following saving throw. *Constitution Saving Throw:* Each non-beastman creature within a 10-foot emanation of the beastman when it dies. *Failure:* The creature takes 7 (2d6) necrotic damage and suffers a level of exhaustion. Success: Half damage only. Each beastman in the emanation enters a frenzy if it is not already in one.
+When the beastman dies while it is Emboldened*, it explodes, forcing creatures to make the following saving throw. *Constitution Saving Throw:* Each non-beastman creature within a 10-foot emanation of the beastman when it dies. *Failure:* The creature takes 7 (2d6) necrotic damage and suffers a level of exhaustion. *Success:* Half damage only. 
+
+Each beastman in the emanation becomes Emboldened if it is not already in one.
 
 
 
@@ -1744,19 +1747,19 @@ When the beastman dies while it is frenzied, it explodes, forcing creatures to m
 
 *The beastman has a large eldritch rune carved into its flesh. When it becomes enraged, the rune glows red hot and distorts the flow of magic around it.*
 
-If the beastman fails a saving throw against a spell while frenzied, it can choose to end the frenzy and succeed instead. If the beastman would take half damage on a success, it instead takes no damage.
+If the beastman fails a saving throw against a spell while Emboldened*, it can choose to end the Emboldened condition and succeed instead. If the beastman would take half damage on a success, it instead takes no damage.
 
 #### 6. Wounded Rage
 
 *Deep wounds and broken bones only drive the beastman to strive harder, dreading the judgment of its dark gods should it die in failure.* 
 
-If the beastman is bloodied and frenzied, it has advantage on attack rolls, and its attacks deal an additional 7 (2d6) damage on hit.
+If the beastman is bloodied and Emboldened, it has advantage on attack rolls, and its attacks deal an additional 7 (2d6) damage on hit.
 
  <img src='https://i.postimg.cc/XYqDpGKH/415418-Andrew-Mar-Mad-Tooth-Minotaur-hires-5000x.webp' style='position:absolute;right:-256px;bottom:-270px;width:1000px;transform:scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-360px; right:00px; transform:rotate(180deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-360px; right:00px; transform:rotate(141deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-360px; right:-5px; transform:rotate(141deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-280px; right:175px; transform:rotate(120deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
 
@@ -2355,7 +2358,7 @@ Select one of the following lores or magic to determine a lesser bray speaker's 
 > #### Lesser Bray Speaker: Lore of The Wild
 >
 > ##### **Trait:**
-> ***Bestial Surge.*** When the speaker casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the speaker loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.  <br><br>
+> ***Bestial Surge.*** When the speaker casts a spell of 4th level or lower that requires concentration while it is Emboldened, it can choose for the spell to no longer require concentration and instead tie the spell to the Emboldened condition. When the speaker is no longer Emboldened, the spell ends as if concentration has been broken.  <br><br>
 >
 > ##### **Spell List:**
 > **At will:** *druidcraft*, *infestation***<br>
@@ -2472,7 +2475,7 @@ ___
 > #### Bray Speaker: Lore of The Wild
 >
 > ##### **Trait:**
-> ***Bestial Surge.*** When the speaker casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the speaker loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.<br><br>
+> ***Bestial Surge.*** When the speaker casts a spell of 4th level or lower that requires concentration while it is Emboldened, it can choose for the spell to no longer require concentration and instead tie the spell to the Emboldened condition. When the speaker is no longer Emboldened, the spell ends as if concentration has been broken.<br><br>
 >
 > ##### **Spell List:**
 > **At will:** *druidcraft*, *infestation*** (2d6)<br>
@@ -2582,7 +2585,7 @@ Select one of the following lores or magic to determine <br> a great bray speake
 > #### Great Bray Speaker: Lore of The Wild
 >
 > ##### **Trait:**
-> ***Bestial Surge.*** When the speaker casts a spell of 4th level or lower that requires concentration while its Primal Fury is active, it can choose for the spell to no longer require concentration and instead tie the spell to its Primal Fury ability. When the speaker loses its Primal Fury or is reduced to 0 hit points, the spell ends as if concentration has been broken.<br><br>
+> ***Bestial Surge.*** When the speaker casts a spell of 4th level or lower that requires concentration while it is Emboldened, it can choose for the spell to no longer require concentration and instead tie the spell to the Emboldened condition. When the speaker is no longer Emboldened, the spell ends as if concentration has been broken.<br><br>
 >
 > ##### **Spell List:**
 > **At will:** *druidcraft*, *infestation*** (3d6)<br>
@@ -3475,7 +3478,7 @@ ___
 *Failure:* The target is knocked Prone. 
 > 
 > ### Bonus Actions
-> ***Swig.*** The longhorn takes a swig of its drink. If it does so, it takes 5 (2d4) poison damage, gains advantage on all melee weapon attacks during the turn, and attack rolls against it have advantage until the start of its next turn. It also ends any effect causing it to be Charmed or Frightened, and becomes Emboldened*.
+> ***Swig (2/day).*** The longhorn takes a swig of its drink. If it does so, it takes 5 (2d4) poison damage, gains advantage on all melee weapon attacks during the turn, and attack rolls against it have advantage until the start of its next turn. It also ends any effect causing it to be Charmed or Frightened, and becomes Emboldened*.
 >
 > **New condition described at the end of the section*
 
@@ -5523,7 +5526,7 @@ style='position:absolute;top:-40px;left:-60px;width:890px;transform: scaleX(1)' 
 #### Minotaur Commanders
 
 
-Minotaur commanders, known as Warbulls, are seasoned veterans blessed by the dark gods, their strength and resilience elevated to supernatural levels. These commanders become engines of brutal destruction, their colossal forms and overwhelming power making them effective leaders despite their limited intelligence. The greatest among them, the Doombulls, are towering figures of unrelenting wrath and devastating might. Revered and feared, Doombulls inspire a frenzied bloodlust in their followers, driving them to fight with reckless abandon and brutal efficiency. Their formidable presence alone can turn the tide of battle, as their followers are emboldened by the sheer power and ferocity they witness.
+Minotaur commanders, known as Warbulls, are seasoned veterans blessed by the dark gods, their strength and resilience elevated to supernatural levels. These commanders become engines of brutal destruction, their colossal forms and overwhelming power making them effective leaders despite their limited intelligence. The greatest among them, the Doombulls, are towering figures of unrelenting wrath and devastating might. Revered and feared, Doombulls inspire a frenzied bloodlust in their followers, driving them to fight with reckless abandon and brutal efficiency. Their formidable presence alone can turn the tide of battle, as their followers are Emboldened by the sheer power and ferocity they witness.
 
 Both Warbulls and Doombulls lead through raw power and presence, often commanding from the front lines where their followers can see their unmatched might firsthand. Their roars and bellows incite their beastmen hordes to unparalleled ferocity, turning warbands into unstoppable tides of destruction. While lacking in subtlety and strategic cunning, their straightforward approach of overwhelming force is brutally effective. The sight of a Doombull leading a charge signals the arrival of chaos and carnage on an unprecedented scale, striking fear into the hearts of even the most seasoned warriors. These commanders rely not on complex strategies but on their ability to inspire terror and bloodlust, ensuring that their armies fight with the same relentless savagery that defines them.
 
@@ -7414,5 +7417,5 @@ A quickened creature gains an additional action on each of its turns. That actio
 #### 3.0.0
 * Add Emboldened condition
 * Add new mutations
-* Add magic tiems
+* Add magic items
 * Add jabberslythes, Morghul, and spawns of chaos
