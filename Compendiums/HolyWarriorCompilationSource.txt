@@ -1,0 +1,1650 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after, .phb#p4:after, .phb#p8:after, .phb#p13:after, .phb#p17:after, .phb#p19:after, .phb#p22:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<style>/*ToC Styling*/
+  .toc a {color: inherit !important;}
+  .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+  .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;content:" ........................................""........................................."".........................................";}
+  .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;margin-left:1px;}
+  .toc li h3 span:nth-child(2):after{content: " ";}
+  .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+  .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+  .toc li h3 span:first-child{line-height: 2.3em !important;}
+  .toc ul ul {margin-left: 10px !important;}
+  .toc>ul>li {margin-bottom: initial !important;}
+  .phb#p3:after{display:none;}
+</style>
+
+<br>
+
+# Holy Warrior Compilation
+This document contains a compilation of divine player options, sacred magic items, and a collection of NPC holy warriors who fanatically fight for their faith. These NPCs are usually human, but many of them could be members of other races serving different religions. Regardless of their origin or specific faith, they all share a zealous and militant devotion to their religious order that could push them to acts of heroism or villainy, depending on the needs of your adventure.
+
+
+<div class='toc'>
+
+- ## Table of Contents
+- ### [<span>2</span><span>New Subclass</span>](#p2)
+    - #### [<span>2</span><span>Ranger Archetype: Monster Slayer</span>](#p2)
+- ### [<span>5</span><span>New Holy Aura Spells</span>](#p5)
+    - [<span>5</span><span>Aura of the Crusader</span>](#p5)
+    - [<span>5</span><span>Aura of Shielding</span>](#p5)
+    - [<span>5</span><span>Aura of Might</span>](#p5)
+  - ### [<span>6</span><span>Sacred Magic Items of War</span>](#p6)
+    - [<span>6</span><span>Hammer of Judgement</span>](#p6)
+    - [<span>6</span><span>Jade Amulet</span>](#p6)
+    - [<span>6</span><span>Maul of Divine Wrath</span>](#p6)
+    - [<span>7</span><span>Slayer’s Hourglass</span>](#p7)
+    - [<span>7</span><span>Staff of Command</span>](#p7)
+    - [<span>7</span><span>Sword of Righteous Steel</span>](#p7)
+    - [<span>7</span><span>Witch Hunter’s Talisman</span>](#p7)
+    - [<span>7</span><span>Icon of the Pious</span>](#p7)
+    - [<span>8</span><span>Slayer’s Stake</span>](#p8)
+    - [<span>8</span><span>Sacred Brand</span>](#p8)
+    - [<span>8</span><span>Silvered Gravesalt</span>](#p8)
+    - [<span>8</span><span>White Cloak of The Wolf God</span>](#p8)
+  - ### [<span>9</span><span>Holy Forces</span>](#p9)
+    - #### [<span>9</span><span>Flagellants</span>](#p9)
+        - [<span>10</span><span>Flagellant</span>](#p10)
+        - [<span>10</span><span>Flagellant, Tattersoul</span>](#p10)
+        - [<span>11</span><span>Flagellant, Harbinger of Doom</span>](#p11)
+    - #### [<span>12</span><span>Witch Hunters</span>](#p12)
+        - [<span>13</span><span>Witch Hunter</span>](#p13)
+    - #### [<span>15</span><span>Warrior Priests</span>](#p15)
+        - [<span>15</span><span>Warrior Priest</span>](#p15)
+        - [<span>16</span><span>Arch Lector</span>](#p16)
+    - #### [<span>17</span><span>War Altars</span>](#p17)
+        - [<span>17</span><span>War Altar</span>](#p17)
+    - #### [<span>18</span><span>Grand Theogonists</span>](#p18)
+        - [<span>20</span><span>Grand Theogonist</span>](#p20)
+        - [<span>21</span><span>Altar of Oaths</span>](#p21)
+        - [<span>21</span><span>Sacred Warhorse</span>](#p21)
+
+<div align="right">
+
+
+
+<div style='margin-top:55px;'></div>
+
+
+</div>
+
+</div>
+
+
+
+##### Front Page Art Credit
+* Godless Shrine -  Cliff Childs, Wizards of the Coast
+
+<img src='https://i.postimg.cc/9Q9Krdwy/Godless-Shrine-5000x.webp' style='position:absolute;bottom:-5px;right:120px;width:800px' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-635px;top:0px;height:1400px;width:1416px;transform:rotate(-270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-600px;top:-740px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+ 
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# New Subclasses
+
+## Ranger Archetype
+
+### Monster Slayer
+You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A monster slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.
+
+Monster slayers could have started out as lone hunters dedicating themselves to the hunt of supernatural evils out of personal interest, or they could serve as religious inquisitors, working to root out heresy in the name of their church. 
+
+#### Hunter's Sense
+*3rd-level Monster Slayer Feature*<br>
+When you see a creature that is your Favored Enemy or marked by your *hunter's mark*, you automatically learn its creature type and the highest level spell slot it's capable of casting. Creatures immune to divination magic register as whatever creature type they wish to appear as, and as not being able to cast spells.
+
+
+\columnbreak
+
+
+
+> ##### Which Ranger Version?
+> This subclass is designed to easily work with all official 5e ranger variants.  
+>
+> **2014 Ranger.** This subclass's features work with both your Favored Enemy feature and any creature targeted by your *hunter's mark* spell. 
+>
+> **2024 Ranger.** Your Favored Enemy feature grants you additional uses of *hunter's mark*, so you can ignore references to the Favored Enemy feature.
+>
+> **Favored Foe Variant.** If you're playing a ranger variant with a Favored Foe feature, treat all references to Favored Enemy or creature marked by *hunter's mark* as though they only refer to your Favored Foe feature.
+
+
+
+
+
+
+
+#### Punish The Wicked
+*3rd-level Monster Slayer Feature*<br>
+When a Favored Enemy or a creature marked by your *hunter's mark* you can see makes an attack roll against you or an ally you can see or forces you or an ally you can see to make a saving throw, you can use your reaction to move up to half your speed toward or away from that Favored Foe without provoking opportunity attacks. You can then make one attack against that creature. 
+
+This movement and attack are resolved before the roll is made for the triggering action.
+
+<img
+src='https://i.postimg.cc/MTt33rss/Thraben-Valiant-Art.jpg'
+style='position:absolute;top:-0px;left:-0px;width:830px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png1' style='position:absolute; top:216px; right:-20px; width:900px;transform: rotate(8deg) ;' />
+
+\pagebreakNum
+
+
+#### Supernatural Defense  
+*7th-level Monster Slayer Feature*<br>
+Whenever you hit a creature with an attack triggered by your Punish Heresy feature, a triggering attack has 1d8 subtracted from it, and a triggering saving throw has 1d8 added to it.
+
+#### Chastise The Unholy
+*11th-level Monster Slayer Feature*<br>
+When you hit a creature with an attack, you can force it to make a Wisdom save against your spell save DC. On a failure, it is turned by you for the next minute. While turned by you, the creature treats you as an object of its Fear (even if it is immune to the Fear condition), it can't cast spells other than cantrips, and it can't teleport. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+
+#### Condemn The Wicked
+*15th-level Monster Slayer Feature*<br>
+Any attack roll you make against a Favored Enemy or a creature marked by your *hunter's mark* is a critical hit on a roll of 18 - 20 on the d20.
+
+Additionally, whenever you score a critical hit on a creature, you may use your Chastise the Unholy ability without expending a use of the feature. If the creature is already under the effects of your Chastise the Unholy ability, you may instead cause it to automatically fail the next saving throw it makes against your Chastise the Unholy feature. 
+
+\columnbreak
+
+##### Example Monster Slayer Origins
+
+| d6  | Origin |
+|:---:|:-----------:|
+|  1  | After losing loved ones to unnatural creatures, you've become consumed by the unending quest of hunting down all such monsters whenever you can find them. |
+|  2  |You are a religious inquisitor serving your church by investigating and exterminating all foul mutants, heretics, and monsters you find. |
+|  3  | You are a contract killer that specializes in hunting supernatural threats other hunters would fear to face.   |
+|  4  |  You were trained by a secret society dedicated to protecting civilization from supernatural threats, now using their specialized knowledge to hunt monsters.|
+|  5  |  After surviving an encounter with a deadly supernatural beast, you became obsessed with mastering the skills needed to hunt and defeat similar creatures.|
+|  6  |  Your family has long served as wardens against supernatural horrors, and you proudly continue their legacy, hunting creatures that threaten your homeland.|
+
+##### Monster Slayer Art Credit
+* Thraben Valiant - Jason Chan, Wizards of the Coast
+* Hansk, Slayer Zealot - Michal Ivan, Wizards of the Coast
+
+<img src='https://i.postimg.cc/ZYwsm2TZ/Hansk-Slayer-Zealot.png' style='position:absolute;bottom:-45px;right:-40px;width:890px' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-160px;bottom:140px; transform: rotate(-0deg)' />
+
+\pagebreakNum
+
+## Alternative Favored Enemy Features
+At your DM's discretion, you can add the following class features to the ranger from the 2014 or 2024 *Player's Handbook*. If a feature has the same name as an existing ranger feature, its effects replace those of the original feature; otherwise, it should be added as a new class feature. These features can be selected separately from one another; you can use some, all, or none of them.
+
+If you take a feature that replaces another feature, you gain no benefit from the replaced one. If you take the Favored Foe feature, any other ranger features that interact with Favored Enemy do so with Favored Foe in the same way.
+ 
+### Favored Foe
+*1st-level ranger feature, which replaces the Favored Enemy feature*
+
+When you hit a creature with an attack roll, you can call on a mystical bond to mark the target as your Favored Foe for 1 minute. Alternatively, you can use an action to mark a creature you can see within 120 feet as your Favored Foe.
+
+When you hit a Favored Foe (including an attack you used to mark it) and deal damage, you can increase that damage by 1d4.
+
+You can use this ability twice. You regain one expended use of the feature on a Short Rest, and all expended uses when you finish a Long Rest. You gain an additional use at 5th, 9th, 13th, and 17th levels. 
+
+At each level that you gain an additional use of this feature, the damage die increases to the next highest die (1d6 <br> at 5th, 1d8 at 9th, 1d10 at 13th, and 1d12 at 17th.)
+
+\columnbreak
+
+### Relentless Hunter
+*13th-level ranger feature*
+
+If you roll initiative and have no uses remaining of your Favored Foe feature, you regain a use. Additionally, Favored Foe now lasts up to 8 hours.
+
+### Precise Hunter 
+*17th-level ranger feature*
+
+You have Advantage on attack rolls against your Favored Foes.
+
+### Level 20: Foe Slayer
+*20th-level ranger feature*
+
+You now roll 2d12 for your Favored Foe feature. 
+
+<br>
+
+##### Alternative Favored Enemy Features  Art Credit
+* Apprentice Sharpshooter - Steve Prescott, Wizards of the Coast
+
+<img src='https://i.postimg.cc/Kj9mrfSL/Apprentice-Sharpshooter-Innistrad-Crimson-Vow-Mt-G-Art.jpg' style='position:absolute;bottom:-104px;right:-50px;width:890px; transform: scaleX(-1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-185px;bottom:130px; transform: rotate(-17deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-190px;bottom:130px; transform: rotate(-0deg)' />
+
+
+\pagebreakNum
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## New Holy Aura Spells
+The following are new holy aura spells for paladins. Some of them serve as alternatives to existing paladin spells.
+
+#### Aura of the Crusader
+*3rd-level evocation*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:**  Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Paladin
+
+You emit a radiant aura of divine power in a 30-foot radius centered on yourself. While within the aura, you and your allies deal an extra 1d4 Radiant damage when you hit with a weapon attack or unarmed strike.
+
+***Using a Higher-Level Spell Slot.*** When you cast this spell using a spell slot of 4th level, the extra damage increases to 1d6. When you use a spell slot of 5th level or higher, the extra damage increases to 1d8.
+
+
+#### Aura of Shielding
+*4th-level evocation*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:**  Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Paladin
+
+You emit a defensive aura in a 30-foot Emanation. While in the aura, you and your allies have Half Cover.
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Aura of Might 
+*3rd-level evocation*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:**  Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Paladin
+
+You radiate an aura of might in a 30-foot radius centered on yourself. While within the aura, you and your allies have advantage on Strength ability checks and Strength saving throws.
+
+Additionally, when you or an ally within the aura shoves a creature, creatures being pushed can be pushed up to 20 ft. away instead of 5 ft., and creatures being knocked prone can't stand until the end of their next turn unless they use all of their movement to do so.
+
+<br>
+
+##### New Holy Aura Spells Art Credit
+* Benalish Knight - Zoltan Boros & Gabor Szikszai, Wizards of the Coast
+
+<img src='https://i.postimg.cc/HxTskw1C/benalish-knight.jpg' style='position:absolute;right:-2px;top:-5px;width:818px; transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:202px; right:29px; transform:rotate(17deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:270px; right:-60px; transform:rotate(0deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Sacred Magic <br> Items of War
+Religious organizations often safeguard relics tied to important figures and events within their order's history. Other items are the result of intricate blessings from many powerful figures within the church and may serve as symbols of authority. For faiths focused on war and rooting out evil, these relics often take the form of weapons and armaments of battle. The following magic items are examples of magic items that may be carried by religious orders with a more militeristic bent.
+
+#### Hammer of Judgement
+*Weapon (Warhammer), rare (requires attunement by a paladin), 16,000 gp*
+
+*This mighty hammer, wielded by an ancient king to purge evil from his realm, is sanctified by his indomitable spirit. Imbued with a fragment of his eminent power, it unleashes devastating force in the hands of those who uphold the king’s righteous tenets.*
+
+You gain a +2 bonus to attack and damage rolls made with this magic weapon.
+
+The hammer has 10 charges. While holding it, you can use an action to expend 1 or more charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: *searing smite* (1 charge), *branding smite* (2 charges), *blinding smite* (3 charges), *staggering smite* (4 charges), or *banishing smite* (5 charges).
+
+The hammer regains 1d6 + 4 expended charges daily at dawn.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Jade Amulet
+*Wondrous item, rare (requires <br> attunement by a paladin), 5,000 gp*
+
+*Carved by the first warrior to swear the Oath of the Ancients, this ancient jade amulet hums with primal life force. Its wearer is suffused with regenerative power, healing wounds with verdant energy.*
+
+While wearing this amulet, whenever you heal another creature with your Lay on Hands feature, you gain hit points equal to half the amount healed (rounded down).
+
+#### Maul of Divine Wrath
+*Weapon (Maul), very rare (requires attunement), 24,000 gp*
+
+*This twin-headed maul, once wielded by the first priest of a righteous warrior god, radiates sacred power. In the hands of a devoted champion of good, its heads glow like comets, striking with the force of a falling star.*
+
+When you take the Attack action, you can forgo any extra attacks to empower the maul for a single attack. If you forgo at least one extra attack, the attack gains a +3 bonus to attack rolls and deals an extra 3d6 Radiant damage on a hit. Additionally, the attack scores a critical hit on a roll of 17–20.
+
+##### Sacred Magic Items of War Art Credit
+* Sigardian Zealot - Justyna Gil, Wizards of the Coast
+* Fiendslayer Paladin - Wesley Burt, Wizards of the Coast
+* Wooden Stake - David Palumbo, Wizards of the Coast
+
+<img src='https://i.postimg.cc/hGmnG74y/Justyna-Dura-MIC-Sigardian-Zealot-24x26inch-5000x.webp' style='position:absolute;top:-240px;left:-110px;width:1205px; transform: scaleX(-1) rotate(-deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:170px; right:29px; width:1000px; filter:  grayscale(00%) brightness(97%); transform: scaleX(-1) rotate(-17deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:515px; right:0px; width:1000px; filter:  grayscale(00%) brightness(97%); transform: scaleX(-1) rotate(-0deg)' />
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Slayer’s Hourglass
+*Wondrous item, rare (requires attunement), 3,000 gp*
+
+*This small hourglass has saved countless monster slayers from gruesome fates. As its sands flow, the claws and jaws of monstrosities slow, as if mired in tar, when the hunter locks eyes with their quarry.*
+
+While wearing this amulet, whenever a creature under the effect of your *hunter’s mark* spell or Favored Foe feature makes an attack against you, it rolls a d6 and subtracts the result from the attack roll. Additionally, whenever the creature forces you to make a Dexterity saving throw, you may roll a d6 and add the result to your saving throw.
+
+#### Staff of Command
+*Weapon (Quarterstaff), rare (requires attunement by a paladin), 6,000 gp*
+
+*A symbol of authority among a grand order of paladins, this staff channels heavenly strength. Its wielder enforces righteous law with powerful magic drawn from divine realms.*
+
+This quarterstaff can be used as a holy symbol and grants a +1 bonus to attack and damage rolls made with it. While holding it, you gain a +1 bonus to the saving throw DCs of your paladin spells, Channel Divinity options, and your Aura of Protection.
+
+#### Sword of Righteous Steel
+*Weapon (Longsword), rare (requires attunement), 2,000 gp*
+
+*Forged from the finest steel and blessed by a conclave of paladins, this holy blade amplifies the divine might of hallowed warriors. Its sanctified edge delivers blows capable of felling the most wicked creatures.*
+
+Whenever you cast a smite spell immediately after hitting a target with this weapon, the spell’s effective level increases by 1.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### 2024 Smite Rules  
+> The Sword of Righteous Steel uses the 2024 rules for smite spells.
+
+
+#### Witch Hunter’s Talisman
+*Wondrous item, very rare (requires attunement), 30,000 gp*
+
+*This strange trinket, crafted by those who stalk practitioners of the dark arts, is the most powerful of its kind. The fetish dampens lethal hexes and incantations, shielding the hunter from malignant spells.*
+
+While wearing this talisman, you gain the following benefits against a creature affected by your *hunter’s mark* spell or Favored Foe feature:
+
+* You have advantage on saving throws against spells that creature casts.
+* That creature has disadvantage on spell attack rolls made against you.
+* If the creature casts a spell that allows you to make a saving throw to take half damage, you instead take no damage on a successful save and half damage on a failed save.
+
+#### Icon of the Pious
+*Wondrous item (holy symbol), very rare (requires attunement by a paladin), 10,000 gp*
+
+*This ancient relic, carried by a legendary warrior whose heroic deeds carved a path of glory, bolsters the spirit of those in its presence. When held by a hero in the making, it fortifies their resolve against any hardship.*
+
+When you or a creature within your Aura of Protection is subjected to an effect that allows a Wisdom, Intelligence, or Charisma saving throw to take only half damage, you instead take no damage on a successful save and half damage on a failed save.
+
+
+ <img src='https://i.postimg.cc/4y1GvCjr/fiendslayer-paladin.webp' style='position:absolute;right:0px;top:-5px;width:820px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-80px;top:70px;height:1400px;width:1416px;transform:rotate(180deg) scaleX(-1)' />
+
+\pagebreakNum
+
+
+
+#### Slayer’s Stake
+*Weapon (Dagger), rare (requires attunement by a paladin), 3,000 gp*
+
+*Passed down through generations of vampire slayers, this ancient wooden stake has reduced countless undead and demons to dust. Its weathered tip pierces the withered hearts of bloodthirsty beasts with unerring precision.*
+
+This weapon deals an additional 1d4 Radiant damage on a hit, and attacks made with it score a critical hit on a roll of 19–20. When you score a critical hit with this weapon, it deals an additional 10 Radiant damage. If the target is a Fiend or Undead, it deals an additional 30 Radiant damage instead. If this critical hit reduces a fiend or undead to 0 hit points, the target is destroyed and turned to ash.
+
+#### Sacred Brand
+*Weapon (any ammunition), rare, 300 gp*
+
+*Crafted from pure silver, cooled in holy water, and etched with prayers to vanquish evil, this sacred ammunition delivers merciless divine judgment. When it strikes a creature of darkness, it ignites them in white-hot flames, reducing even hell’s minions to purified ash.*
+
+You gain a +1 bonus to attack and damage rolls made with this magic ammunition. Once it hits a target, the ammunition is no longer magical. If the target is a Fiend or Undead, it begins Burning*, taking 2d6 Radiant damage at the end of each of its turns until the condition ends.
+
+
+#### Silvered Gravesalt
+*Adventuring gear, uncommon, 10 gp*
+
+*This potent mixture, when scattered upon the ground, forms a barrier that impedes otherworldly entities, impeding any fiend or spirit that attempts to tread past its sanctified boundary.*
+
+As an action, you can spread a single bag of gravesalt to cover a 5-foot-square area. Any Celestial, Elemental, Fey, Fiend, or Undead that attempts to enter the area must succeed on a DC 15 Charisma saving throw. On a failure, it can’t enter the area for the rest of the turn, its speed becomes 0, and it takes 3d6 Force damage.
+
+
+\columnbreak
+
+#### White Cloak of The Wolf God
+*Wondrous item (cloak), rare (requires attunement by a paladin), 8,000 gp*
+
+*Fashioned from the pelt of a ferocious winter wolf and blessed by a warlord sworn to the god of the winter hunt, this cloak radiates bone-chilling cold. It allows its wearer to lead allies through the fiercest blizzards, confounding foes unprepared for its icy aura.*
+
+You and your allies have resistance to Cold damage while within your Aura of Protection. Additionally, hostile creatures treat your Aura of Protection as difficult terrain unless they are resistant or immune to Cold damage.
+
+<Br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<img src='https://i.postimg.cc/ryWWxhsg/wooden-stake.jpg' style='position:absolute;right:-0px;bottom:-130px;width:816px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:50px; transform:rotate(160deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-250px; right:0px; transform:rotate(180deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Holy <br> Warriors
+
+## Flagellants
+
+*Fanatical Doomsayers & Mad Zealots*<br>
+**Habitat:** Any; **Treasure:** Relics <br>
+Throughout the world, many kingdoms of good and <Br> civilized folk are plagued by ghastly raiders and monsters that descend upon prosperous cities and hamlets, razing these communities to the ground and inflicting terror-laden death—or worse—upon the populace. The few inhabitants who survive such massacres are forever scarred by the nightmarish onslaught they endure, often descending into hysteria and concluding that such events are omens of the world’s impending end. These assumptions drive refugees into madness, turning them into vagabonds who wander from one community to another, proclaiming that the final war between the forces of good and evil has begun. Such lunatics are drawn to the cries of doomsayers, whose demented preaching aligns with their delusions.
+
+Thus, traveling groups known as flagellants form, their deranged members routinely flogging themselves with crude lashes, clubs, or other makeshift implements in repentance for their sins as they rave about the inevitable Armageddon descending upon the world. These disheveled wretches’ insanity often leads them to battle. When word reaches the band that a horrific beast or unholy marauders encroach upon the lands of order to plunder and bring ruin, they seek out such villainy, believing it to be the ultimate conflict to decide the fate of their souls. With fervent conviction, flagellants beat themselves into a frenzy, becoming numb to fear and pain, and charge even the most horrific adversaries, heedless of their own lives and striking with maniacal force. Most flagellants do not survive these encounters, dying on war-torn fields, their final moments reinforcing their belief that the end is upon them.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+For the most part, flagellants direct their holy wrath toward truly wicked creatures or criminals, contributing to the fight against evil. However, it is not unheard of for these demented mobs to attack neighboring kingdoms they believe have fallen to sin or harbor wrongdoers. Worse still, the addled berserkers may be manipulated by conniving religious authorities who exploit them to further personal agendas, unleashing them on those who challenge their authority or interfere with their corrupt schemes.
+
+### Tattersouls
+The Tattersouls are a renowned religious order whose prophecies of annihilation have spread far and wide. Their members radiate a fervent aura, contagious and alive with its own fervor, compelling others to join their cause. This radical devotion was first sparked by great warrior priests whose sanity shattered in battles against the children of chaos. Returning home, his body covered in gashes and his former personality eradicated, consumed by mania. Only dire warnings of great, terrible forces of chaos issued from his lips, delivered with such conviction that they set aflame the souls of all who heard them.
+
+
+<img src='https://i.postimg.cc/050GdNhN/3092-mad-prophet.jpg' style='position:absolute; top:-0px; right:0px; width:816px; transform:scalex(1);filter:opacity(100%);'/>
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-115px;top:100px;height:1400px;width:1416px;transform:rotate(211deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:230px;height:1400px;width:1416px;transform:rotate(180deg)' />
+  
+
+
+\pagebreakNum
+
+
+Thus, others were converted to the priest’s crusade of despair, their numbers swelling as they marched onward. In a liturgical furor, they thrash themselves insensibly, their frenzy so intense that onlookers are compelled to join the horde’s ceremonies. These newcomers seize whatever implements they can find to perform their penances, their pained shrieks mingling into a cacophonous hymn. Some join only briefly, eventually coming to their senses and returning home battered and bewildered. Others, however, abandon all they knew, fully merging with the congregation.
+
+___
+> ## Flagellant
+> *Medium humanoid (any race), mob, any chaotic*
+> ___
+> - **Armor Class** 14      **Initiative** +2 (12)
+> - **Hit Points** 78 (12d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +4, Religion +3
+> - **Damage Resistances** Psychic
+> - **Senses** Passive Perception 11
+> - **Languages** Common, one other language
+> - **Challenge** 1 (200 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The flagellant has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Reckless.*** At the start of its turn, the flagellant can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+>
+> ### Actions
+>
+> ***Ball and Chain.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) Bludgeoning damage.
+>
+> ### Bonus Actions
+>
+> ***Penitent Flagellation.*** The flagellant takes 1d4 × 5 Force damage and gains one level of Fury* for each 5 damage taken.
+>
+> **New condition described on next page*
+
+</span>
+
+
+\columnbreak
+
+Wherever agents of chaos descend to sow destruction, the Tattersouls are drawn, seeking to purge such evil with divine hatred. Their reckless charges against their vile adversaries often decimate their numbers, yet their foes are invariably obliterated or driven back to the dark places from whence they came. As the dust clears, distraught bystanders who witnessed the bloody conflict take up the fallen warriors’ weapons and whips, carrying on their hallowed hysteria.
+
+___
+> ## Flagellant, Tattersoul
+> *Medium humanoid (any race), mob, any chaotic*
+> ___
+> - **Armor Class** 14      **Initiative** +2 (12)
+> - **Hit Points** 78 (12d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +4, Religion +3
+> - **Damage Resistances** Psychic
+> - **Senses** Passive Perception 11
+> - **Languages** Common, one other language
+> - **Challenge** 2 (450 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The flagellant has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Reckless.*** At the start of its turn, the flagellant can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+>
+> ***Mantle of Fanaticism.*** When the flagellant dies, it may choose a creature within 30 feet of it to transfer its levels of Fury* to.
+>
+> ### Actions
+>
+> ***Ball and Chain.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) Bludgeoning damage.
+>
+> ### Bonus Actions
+>
+> ***Penitent Flagellation.*** The flagellant takes 1d4 × 5 Force damage and gains one level of Fury* for each 5 damage taken.
+>
+> **New condition described on next page*
+
+</span>
+
+\pagebreakNum
+
+
+
+
+### Harbingers of Doom
+Shepherding processions of crazed flagellants with their hysteria-provoking sermons, these grim figures are known as Harbingers of Doom. Such preachers possess a radical faith that makes them dangerous both on and off the battlefield.
+
+Most communities disregard their warnings, which insist that locals are living in sin and must find salvation before the world burns in the coming fires of war. Such deranged babbling is either ignored or met with the lunatic being pelted with rotten food. However, communities that suffer untold hardship are far more credulous to such prognostications and will follow these figures in hopes of seeking redemption within their mad sect. In times of great strife, entire populations can be uprooted, transformed into inimical mobs roaming the countryside, purging any heinous creatures in their wake.
+
+When conflict inevitably arises, Harbingers of Doom possess a strength born of unbreakable piety, capable of crushing a hellhound. Chanting prayers of deliverance, they enable themselves and their deranged flock to survive wounds that would kill an ordinary person, enduring long enough to purify their souls in holy combat.
+
+### Flagellant Tactics
+
+&emsp;**Flagellants and Harbinger of Doom.** Use their Penitent Flagellation ability to increase their damage each turn unless they have 5 or more Fury or fewer than 15 Hit Points, and use Reckless Attack when they have 3 or more levels of Fury.
+
+**Tattersouls.** Transfer their Fury to the target capable of performing the most attacks in a turn and who has the most Hit Points.
+
+<br>
+
+> ##### New Condition: Fury  
+> The creature gains levels of Fury that cause its attacks to deal increasing amounts of damage with each level.
+> * The creature can only gain levels of Fury during combat, and all levels are lost when combat ends.
+> * A creature can gain up to a max of 6 levels of Fury.
+> * First time each turn the creature hits a target with an attack, it deals an additional 1d4 damage for each level of Fury it has.
+> * A creature also loses all levels of Fury if it becomes Charmed or Frightened, or is affected by the *calm emotions* spell.  It also can't gain levels Fury while under these conditions.
+
+<br>
+
+##### Flagellants Art Credit
+* Mad Prophet - Iain McCaig, Wizards of the Coast
+
+\columnbreak
+
+___
+> ## Flagellant, Harbinger of Doom
+> *Medium humanoid (any race), mini-boss, any chaotic*
+> ___
+> - **Armor Class** 16      **Initiative** +5 (15)
+> - **Hit Points** 90 (12d8 + 36)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +6, Persuasion +6, Religion +5
+> - **Damage Resistances** Psychic
+> - **Senses** Passive Perception 11
+> - **Languages** Common, one other language
+> - **Challenge** 5 (1,800 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The flagellant has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Reckless.*** At the start of its turn, the flagellant can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+>
+> ***Aura of Salvation.*** The flagellant radiates a protective, invisible aura in a 10-foot emanating originating from itself. The aura is inactive while the flagellant of doom is Incapacitated. Whenever the flagellant or one of its allies in the aura takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.
+>
+> ### Actions
+>
+> ***Multiattack.*** The flagellant makes two Ball and Chain attacks.
+>
+> ***Ball and Chain.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 8 (1d10 + 3) Bludgeoning damage.
+>
+> ### Bonus Actions
+>
+> ***Penitent Flagellation.*** The flagellant takes 1d4 × 5 Force damage and gains one level of Fury* for each 5 damage taken.
+>
+> **New condition described above*
+
+
+
+</span>
+
+\pagebreakNum 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Witch Hunters
+*Zealous & Resourceful Hunters of Heresy*<br>
+**Habitat:** Any; **Treasure:** Relics <br>
+
+Worming their way through societies are nefarious cults acting in secret on behalf of dark gods and demons. Such acolytes seek to hollow out bastions of order with their corrupt schemes until all morality crumbles and is lost. This infectious and subtle evil has given rise to righteous organizations and individuals who have taken it upon themselves to purge these malignant influences.
+
+These slayers are commonly referred to as witch hunters. Though their appearance can vary widely, and the weaponry they employ in their grim profession differs depending on the type of foul wretches they specialize in hunting, all are mirthless in demeanor and unwavering in their hallowed duty. Neither temptations nor compassionate begging can sway a witch hunter from their moral strictures. Such relentless individuals are solitary by nature, whether driven by their own self-granted vow to weed out the wicked or acting on behalf of a guild dedicated to eradicating practitioners of the profane.
+
+Witch hunters stalk cities and villages, ever vigilant for signs or stories of unholy influence. When such spoor is detected by the hunter, they pursue tirelessly, ultimately acting as judge, jury, and executioner once the source is found. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Their final sentences are myriad: a silver bullet to the head, a cold iron stake through the heart, or being burned alive in hallowed fire. 
+
+Even the most adaptive sorcerers and vile devils find it nearly impossible to avert such fates, as witch hunters are adorned with trinkets and holy symbols that turn aside all manner of terrible incantations and curses.
+
+Though witch hunters cleanse the world of the most heinous individuals, the innocent must also fear their wrath. Merciless in their destruction of the iniquitous, witch hunters will burn to ashes anyone or anything bearing even the slightest hint of dark influence. Many villages have been razed to the ground and entire populations executed to ensure no cultist escapes their divine judgment.
+
+### Witch Hunter Tactics
+
+Witch hunters single out a target, typically a spellcaster, and focus on them throughout the fight. They use pistols while closing in, then switch to a rapier to disrupt spellcasting. Most witch hunter weapons have secondary effects designed to negate specific magical abilities, and they always target enemies most vulnerable to these effects.
+
+<img src='https://i.postimg.cc/L86K3RP0/Elite-Inquisitor-Mt-G-Art.jpg' style='position:absolute;right:-2px;top:-5px;width:818px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:270px; right:26px; transform:rotate(15deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:270px; right:-60px; transform:rotate(0deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+
+\pagebreakNum
+
+
+___
+___
+> ## Witch Hunter
+> *Medium humanoid (any race), mini-boss, any lawful*
+> ___
+> - **Armor Class** 16
+> - **Initiative** +7 (17)
+> - **Hit Points** 90 (12d8 + 36)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Arcana +5, Intimidation +5, Insight +7, Perception +7, Survival +7, Religion +5
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Senses** Passive Perception 17
+> - **Languages** Common, one other language
+> - **Challenge** 6 (1,100 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The witch hunter has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Magic Resistance.*** The witch hunter has advantage on saving throws against spells and other magical effects.
+>
+> ***Accustation (Recharges after a short or long rest).***  At the start of its turn, the witch hunter can mark one creature it can see within 90 feet as its quarry. For the next hour, the witch hunter deals an extra 5 (1d10) damage to the marked creature whenever it hits it with an attack roll. Additionally, the witch hunter has advantage on Wisdom (Perception) and Wisdom (Survival) checks made to locate the marked target as well as Wisdom (insight) checks to tell if the marked target is lying.
+>
+> ### Actions
+>
+> ***Multiattack.*** The witch hunter makes two attacks.
+>
+> ***Spellbane Rapier.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) Slashing damage plus 5 (1d10) Radiant damage, and the target cannot cast spells other than cantrips until the end of its next turn.
+>
+> ***Spellbane Pistol.*** *Ranged Weapon Attack:* +7 to hit, range 30/90 ft., one target. *Hit:* 10 (2d6 + 3) Piercing damage plus 5 (1d10) Radiant damage. A creature making a Constitution saving throw to maintain concentration as a result of this damage has disadvantage on the saving throw. The witch hunter has four pistols and cannot use a pistol again until it uses an action to reload one or replaces an attack from the Attack action to reload one.
+>
+> ### Recations
+>
+> ***Vengeance.***
+> *Trigger*: A creature the witch hunter can see reduces an ally to 0 hit points. <br>
+> *Response*: The witch hunter can move up to half its speed toward or away from that creature without provoking opportunity attacks and then make one attack against that creature.
+>
+
+</span>
+
+<img src='https://i.postimg.cc/4ymBBfZs/midnight-duelist.png' style='position:absolute; bottom:-110px; right:-0px; width:816px; transform:scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-270px;bottom:150px; transform: rotate(15deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-270px;bottom:150px; transform: rotate(-15deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Witch Hunter Weapons
+
+You can replace the witch hunter's default Spellbane Rapier or Spellbane Pistol with one of the following melee or ranged weapons, respectively. The witch hunter always wields one melee weapon and one ranged weapon.
+
+#### Melee Weapons
+
+&emsp;***Spellbane Rapier.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) Slashing damage plus 5 (1d10) Radiant damage, and the target cannot cast spells other than cantrips until the end of its next turn.
+
+***Silver Stake.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) Piercing damage plus 5 (1d10) Radiant damage, the target cannot regain hit points until the end of its next turn, and any creature that is Charmed or Frightened by the target is no longer Charmed or Frightened.
+
+***Torch of Holy Flame.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) Radiant damage, and the target gains the Burning* condition, taking 5 (1d10) Radiant damage at the end of each of its turns until the condition ends.
+
+##### Witch Hunters Art Credit
+* Elite Inquisitor - Jana Schirmer, Wizards of the Coast
+* Midnight Duelist - Bud Cook, Wizards of the Coast
+* Thraben Heretic - James Ryman, Wizards of the Coast
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid. 
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<br>
+
+#### Ranged Weapons
+
+&emsp;***Spellbane Pistol.*** *Ranged Weapon Attack:* +7 to hit, range 30/90 ft., one target. *Hit:* 10 (2d6 + 3) Piercing damage plus 5 (1d10) Radiant damage. A creature making a Constitution saving throw to maintain concentration as a result of this damage has disadvantage on the saving throw. The witch hunter has four pistols and cannot use a pistol again until it uses an action to reload one or replaces an attack from the Attack action to reload one.
+
+***Stalker’s Crossbow.*** *Ranged Weapon Attack:* +7 to hit, range 100/400 ft., one target. *Hit:* 8 (1d10 + 3) Piercing damage plus 5 (1d10) Radiant damage, and the target cannot teleport or become Invisible until the end of its next turn.
+
+***Persecutor’s Volley Gun.*** *Ranged Weapon Attack:* +7 to hit, range 100/400 ft., one target. *Hit:* 18 (6d4 + 3) Piercing damage plus 5 (1d10) Radiant damage. If the attack misses, the target takes 7 (3d4) Piercing damage. The witch hunter cannot use the volley gun again until it uses three actions to reload it.
+
+
+
+**New condition described above*
+
+
+<img src='https://i.postimg.cc/9MSFv0dM/thraben-heretic-art.png' style='position:absolute; top:-14px; right:-0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-450px;top:200px;height:1400px;width:1416px;transform:rotate(185deg)' />
+
+\pagebreakNum
+
+<br><br>
+
+## Warrior Priests
+*Grim Religious Leaders Who Honor The Gods Through War*<br>
+**Habitat:** Any; **Treasure:** Relics <br>
+Many religious orders across the realms include warrior priests within their ministry, called forth to battle when unholy armies gather to spread woe. These devout followers excel in martial combat, protecting the bodies and souls of those who stand alongside them in the fight against evil. Clad in thick, gleaming chainmail adorned with holy symbols and sacred scrolls, warrior priests wield a shield in one hand and ornate warhammers that glow with divine power, enabling them to smite all manner of dreadful fiends. As they vanquish their adversaries, warrior priests recite battle prayers, blessing their comrades with righteous might to batter through their foes or granting sacred wards to shield them from harm. Such boons can turn the tide of battle, allowing common soldiers to fa
+
+### Warrior Priest Tactics
+The priest supports its allies by casting one of its aura spells from its Spellcasting feature, chosen based on the situation:
+
+* **Aura of the Crusader.** The priest casts this spell when all allies are alive and able to fight, enhancing their offensive capabilities to maximize damage against enemies.
+* **Aura of Might.** The priest casts this spell when enemies depend on tactical positioning, such as those using pack tactics or beneficial auras, or when battlefield hazards (e.g., cliffs, environmental dangers, or enemy spells like wall of fire) can be exploited to disrupt enemy formations.
+* **Aura of Shielding.** The priest casts this spell as a last resort when only one ally remains or when enemies force the priest and its allies to make frequent Dexterity saving throws or rely solely on weapon attacks to deal damage.
+
+\columnbreak
+
+
+___
+___
+> ## Warrior Priest
+> *Medium humanoid (any race), mini-boss, any lawful*
+> ___
+> - **Armor Class** 18     **Initiative** +4 (14)
+> - **Hit Points** 97 (13d8 + 39)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +7, Arcana +3, Insight +7, Perception +7, Persuasion +7, Religion +3
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Gear** Chain Mail, Shield, Warhammer
+> - **Senses** Passive Perception 14
+> - **Languages** Common, one other language
+> - **Challenge** 6 (2,300 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The priest has advantage on saving throws against being Charmed or Frightened.
+>
+> ### Actions
+>
+> ***Multiattack.*** The priest makes two Holy Warhammer attacks.
+>
+> ***Holy Warhammer.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) Bludgeoning damage plus 5 (1d10) Radiant damage.
+>
+> ### Bonus Actions
+>
+> ***Spellcasting.*** The priest can cast the following spells, using Wisdom as the spellcasting ability (spell save DC 15, +7 to hit with spell attacks).
+>
+> **1/Day:** *aura of the crusader** (5th), *aura of shielding**, *aura of might**
+>
+> **New spells described in New Holy Aura Spells section*
+
+</span>
+
+
+
+<img src='https://i.postimg.cc/9Qz9WjtB/1843-fiend-hunter.jpg' style='position:absolute;right:-100px;top:-0px;width:870px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-170px; right:240px; transform:rotate(90deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:368px; right:-80px; transform:rotate(-12deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+
+\pagebreakNum
+
+### Arch Lector
+Among the highest-ranking members of their holy orders, Arch Lectors are tasked with protecting entire cities, provinces, or even nations while enforcing the sacred doctrines of their church. These influential figures wield great authority both on and off the battlefield, involving themselves in matters of state and military to root out those they deem secular from positions of power. They ensure that those aligned with their god’s will find favor and high office. When the most wicked monstrosities threaten to topple the works of the gods, Arch Lectors march forth with steel-hearted soldiers, united in righteous fury to deliver justice to those who defy their deity. Such worshipers and beasts of enormity are shattered into burning rubble as the Arch Lector and his devout followers crash
+
+#### Arch Lector Tactics
+The lector follows the same tactics as the priest, casting aura spells from its Spellcasting feature based on the situation as described above. However, the lector prioritizes spreading its Smiting Warhammer attacks across multiple enemies to apply the Burning condition to as many targets as possible, maximizing ongoing Radiant damage.
+
+<br>
+
+##### Warrior Priests Art Credit
+* Fiend Hunter - Wayne Reynolds, Wizards of the Coast
+
+\columnbreak
+
+<br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+
+___
+___
+> ## Arch Lector
+> *Medium humanoid (any race), mini-boss, any lawful*
+> ___
+> - **Armor Class** 19     **Initiative** +8 (18)
+> - **Hit Points** 144 (17d8 + 68)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +9, Arcana +5, Insight +9, Perception +9, Persuasion +9, Religion +5
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Gear** Splint, Shield, Warhammer
+> - **Senses** Passive Perception 15
+> - **Languages** Common, one other language
+> - **Challenge** 9 (5,000 XP)      **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Fanatical Devotion.*** The lector has advantage on saving throws against being Charmed or Frightened.
+>
+> ### Actions
+>
+> ***Multiattack.*** The lector makes two Smiting Warhammer attacks.
+>
+> ***Smiting Warhammer.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) Bludgeoning damage plus 5 (1d10) Radiant damage and the target gains the Burning* condition, taking 5 (1d10) Radiant damage at the end of each of its turns until the condition ends. While Burning*, the target sheds bright light in a 30-foot radius, attack rolls against it have advantage, and it can’t benefit from being Invisible.
+>
+> ### Bonus Actions
+>
+> ***Spellcasting.*** The lector can cast the following spells, using Wisdom as the spellcasting ability (spell save DC 17, +8 to hit with spell attacks).
+>
+> **1/Day:** *aura of the crusader*** (5th), *aura of shielding***, *aura of might***
+>
+> **New condition described above* <br>
+> ***New spells described in New Holy Aura Spells section*
+
+</span>
+
+\pagebreakNum
+
+## War Altars
+For many churches, no possession is grander than a war altar dedicated to their patron god. These monuments are not easily crafted, achievable only by the most influential religions. First, a masterfully built statue—fashioned from gold, silver, or platinum in the likeness of the deity or a sacred creature—is created. This effigy is then placed upon an exquisite, massive chariot, which must be pulled by the mightiest of war beasts to move. Finally, a single stone pulpit is mounted on the hefty shrine, from which clerics and priests proclaim their god’s unrivaled greatness through sermons. War altars are paraded during sacred holidays and religious ceremonies to cement the authority of their faith, leaving the common folk of the land awestruck by their magnificence. Far from mere displays of grandeur, these altars radiate hallowed power that the devout can draw upon.
+
+When brought into battle, the towering presence of a war altar inspires worshipers to acts of heroism, while foes falter or become utterly crippled in the face of its righteous splendor. ost potent of all is the priest riding the chariot, who can beseech their god to call down white flame, banishing and burning any who defy such reverential sovereignty.
+
+\columnbreak
+
+<br><br>
+
+These instruments of divinity are rare, with many lost through the ages as governments fell into chaos or when carried to distant lands on harrowing crusades. Many sacred orders have dedicated their lives to seeking out these lost relics, for the discovery of such antiquities can restore an entire religion to prominence.
+
+### War Altar Tactics
+The altar is typically commanded by a priest riding it, using its Banishing Flames when it can target two or more enemies or a single Stunned creature to maximize the spell’s impact. The steeds pulling the altar use Holy Charge to move in and out of combat, striking Dazed or Stunned targets that cannot make opportunity attacks, then retreating to safer positions to maintain tactical advantage.
+
+
+
+> ##### New Condition: Dazed 
+> A Dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+
+___
+___
+> ## War Altar
+> *Large Chariot, (8,500 lbs.), unaligned*
+> ___
+> - **Armor Class** 18
+> - **Hit Points** 187 (22d8 + 88)
+> - **Max Speed** 60 ft.
+> - **Steed Capacity** 2 Large creatures
+> - **Carriage Capacity** 1 Medium creature
+> ___
+> - **Damage Immunities** Poison, psychic, radiant
+> - **Challenge** 8 (3,900 XP)
+> ___
+> ### Traits
+>
+> ***Attunement*** A creature with a Wisdom of 18 or more and proficiency in Religion may attune to the altar as though it were a magic item.
+>
+> ***Banishing Flames.*** The altar has 3 charges, which it regains daily at dawn. While a creature attuned to the altar is riding it, it can use its action to expend 1 charge to cause a vertical column of divine fire, 10 feet in radius and 100 feet high, to descend at a point within 300 feet of the altar. Creatures in the area must succeed on a *Dexterity Saving Throw:* DC 17. <bR> *Failure:* A creature takes 14 (4d6) Fire damage and 14 (4d6) Radiant damage. <br>
+>
+>*Fails by 5 or more:* The creature is aslo transported to a harmless demiplane for 1 minute or until the altar takes 30 or more damage in a single turn. While there, the target is Incapacitated. When the effect ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. If the target is an Aberration, Celestial, Elemental, Fey, or Fiend, and the effect lasts for 1 minute, the target is instead transported to a random location on a plane (GM’s choice) associated with its creature type. <bR> *Success:* The creature takes half damage.
+>
+> ***Symbol of Might.*** While a creature attuned to the altar is with in 30 feet of it, the altar radiates a magical aura in a 30-foot emanation. Creatures of the rider's choice within the aura have advantage on saving throws.
+>
+> ***Holy Presence.*** While a creature attuned to the altar is with in 30 feet of it, the altar radiates a magical aura of authority in a 30-foot emanation. Any creature hostile to the rider that starts its turn within the emanation must succeed on a *Wisdom Saving Throw:* DC 17 (with disadvantage if it is an *Undead* or *Fiend*). <br> *Failure:* The creature is Dazed* until the start of its next turn. <bR> *Fails by 5 or more:* The creature falls Prone and is Stunned until the start of its next turn. *Success:* The creature is immune holy presence of all war altars for 10 minutes.
+>
+> ### Steed Actions
+>
+> ***Holy Charge.*** Each steed pulling the altar can make a melee weapon attack against one creature within 5 feet of it. If the altar moved at least 20 feet in a straight line before the attacks are made, each attack deals an additional 16 (3d10) Radiant damage.
+>
+> **New condition described above*
+
+</span>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Grand Theogonists
+*Supreme Commanders of the Church of War*<br>
+**Habitat:** Any; **Treasure:** Relics <br>
+
+The highest position within the religious orders of the Holy Church of the Mortal Realm is that of the Grand Theogonist. Only the most pious, enlightened, and inspiring individuals can ascend to this revered title. Such a leader must faithfully uphold the dogma passed down through generations, maintain unity and prosperity within the faith, and spread its virtuous proclamations. Simultaneously, they are tasked with rooting out the venomous enemies of the Church—those whose foul practices are anathema to the sect.
+
+Grand Theogonists are also the fiercest warriors within the Church’s hierarchy, wielding heavenly power that rivals the might of the greatest celestials. After years of rigorous religious study and disciplined practice, these leaders master the recitation of mystic vows and prayers. These sacred benedictions hold such divine power that they bestow upon the Grand Theogonists deific might, capable of sweeping aside even the most formidable demons.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+ Cults and individuals who defy the righteous judgment of lesser clergy inevitably draw the seraphic wrath of the Grand Theogonist.
+
+Mounted atop a grand altar of oaths—a towering golden icon dedicated to their patron lord—the Grand Theogonist can summon empyrean storms to crush their iniquitous foes. Wielding an ornate staff, a symbol of their supreme authority, they unleash sheathed lightning, thunder, and holy fire, purging the impure whose bodies are broken and burned away. When such a divine weapon is unleashed, entire cities deemed wicked are reduced to smoldering ruins.
+
+##### Grand Theogonist Art Credit
+* Syndicate Guildmage - Josh Hass, Wizards of the Coast
+* Orzhova, the Church of Deals - Martina Pilcerova, Wizards of the Coast
+* Crested Sunmare - Lucas Graciano, Wizards of the Coast
+
+<img src='https://i.postimg.cc/y86ddj0z/Syndicate-Guildmage-Josh-Hass-5000x.webp' style='position:absolute; top:-150px; right:-100px; width:1008px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:370px; right:-10px; width:1000px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:360px; right:-30px; width:1000px; transform: rotate(20deg)' />
+
+
+\pagebreakNum
+
+### The Lair of The Grand Theogonist
+The Grand Theogonist resides within an immaculate cathedral, the spiritual heart of the Holy Church of the Mortal Realm. Towering marble ribs uphold a vast ceiling adorned with vibrant frescoes, while colossal statues line the walls, these masterpieces immortalizing the heroic deeds of the Church’s past champions and saints who devoted their lives to their god’s divine cause.
+The baroque sanctuary dominates the nave, its golden-lined pulpit intricately etched with holy symbols woven throughout its structure. The air hums with sacred incense, and hundreds of candles burn with heavenly light. Stained glass windows cast radiant beams that dance across the polished stone floors, illuminating this hallowed space where the divine and mortal converge. Here, the Grand Theogonist delivers stirring sermons that ignite fervent devotion and performs miracles that uplift the faithful, rousing them to unparalleled acts of greatness.
+
+<br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid. 
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+\columnbreak
+
+#### Regional Effects
+The area where the Grand Theogonist dwells is made holy by his presence, creating one or more of the following effects within 1 mile of his lair:
+
+* While in his lair, the Grand Theogonist can cast *commune*, *dispel evil and good*, *greater restoration*, *raise dead*, and *hallow* without material components, using Charisma as his spellcasting ability. Once he casts a spell this way, he can’t cast the same spell again for 24 hours.
+
+* The area is under the effects of the *forbiddance* spell, targeting Elementals, Fey, Fiends, and Undead, and dealing Radiant damage. If the effect is dispelled, it is automatically recast on the area after 24 hours.
+
+* Creatures in the area have advantage on saving throws forced by aberrations, elementals, fey, fiends, and undead.
+
+If the Grand Theogonist dies or moves his lair, these effects end immediately.
+
+
+### Epic Encounter
+To make the Grand Theogonist a true endgame threat, pair him with his Altar of Oaths, drawn by two Sacred Warhorses. Together, they form a CR 27 encounter.
+
+<img src='https://i.postimg.cc/nhdPbVHt/Guild-Image-Orzhov-03.webp' style='position:absolute; bottom:-0px; right:-10px; width:850px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-310px;top:-535px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Grand Theogonist
+> *Medium humanoid (any race), boss, any lawful*
+> ___
+> - **Armor Class** 20                **Initiative** +14 (24)
+> - **Hit Points** 255 (30d8 + 120)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +11, Arcana +8, Insight +11, Perception +11, Persuasion +11, Religion +8
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Gear** Plate, Shield
+> - **Senses** Passive Perception 15
+> - **Languages** Common, one other language
+> - **Challenge** 15 (13,000 XP)      **Proficiency Bonus** +6
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The theogonist has advantage on saving throws against being *Charmed* or *Frightened*.
+>
+> ***Invoke Prayers.*** At the start of its turn or when it rolls initiative, the theogonist can choose one of the following prayers to become active until the end of combat. Once a prayer is chosen, it cannot choose another until it takes 100 damage or three rounds of combat have passed, and it cannot choose the same prayer twice in the same combat. The theogonist can have multiple prayers active at a time:
+> - **Prayer of Ancients.** If the theogonist has 1 or more hit points, it regains 30 hit points.
+> - **Prayer of Devotion.** The theogonist gains a +5 bonus to its attack rolls.
+> - **Prayer of Vengeance.** The theogonist vows enmity against a creature it is aware of within 90 feet. Until the end of combat, the theogonist deals an extra 10 (3d6) Radiant damage to the target whenever it hits with a weapon attack.
+>
+> ### Actions
+>
+> ***Multiattack.*** The theogonist makes a number of attacks equal to the number of prayers it has chosen (1–3). Each attack must use a different Staff of Command effect.
+>
+> ***Staff of Command.*** *Melee or Ranged Weapon Attack:* +11 to hit (+16 with Prayer of Devotion), reach 5 ft. or range 20/60 ft., one target. *Hit:* 9 (1d8 + 5) Bludgeoning damage. The theogonist chooses one of the following additional effects on hit based on its active prayer:
+> - **Prayer of Ancients.** The attack deals an additional 5 (1d10) Lightning damage, and the target can’t take reactions or bonus actions until the end of its next turn.
+> - **Prayer of Devotion.** The attack deals an additional 5 (1d10) Radiant damage. The target gains the Burning* condition, taking 11 (2d10) Radiant damage at the end of each of its turns until the condition ends. While Burning, the target sheds bright light in a 30-foot radius, attack rolls against it have advantage, and it can’t benefit from the Invisible condition.
+> - **Prayer of Vengeance.** The attack deals an additional 5 (1d10) Thunder damage. The theogonist knocks the target Prone and may push it up to 15 feet away from itself.
+>
+> ### Prayer Actions
+>
+> The theogonist gains one additional action for each prayer it has chosen, usable on the specified initiative count (losing ties) if it is not Incapacitated. It can replace any action with Tenacious Will, even if Incapacitated:
+>
+> ***Prayer of Vengeance (Initiative Count 20).*** The theogonist, or a chariot with steeds it is riding, moves up to 30 feet without provoking opportunity attacks. The theogonist can make two Staff of Command attacks against the same target, both using the Prayer of Vengeance effect.
+>
+> ***Prayer of Devotion (Initiative Count 10).*** The theogonist, or a chariot with steeds it is riding, moves up to 15 feet without provoking opportunity attacks. The theogonist makes Staff of Command attacks against any number of creatures within 10 feet, with a separate attack roll for each target, using the Prayer of Devotion effect.
+>
+> ***Prayer of Ancients (Initiative Count 1).*** The theogonist, or a chariot with steeds it is riding, moves up to 15 feet without provoking opportunity attacks. The theogonist throws its staff like a lightning bolt, making Staff of Command attacks against any number of creatures in a 90-foot, 5-foot wide line, with a separate attack roll for each target, using the Prayer of Ancients effect. These are ranged attack rolls, and the staff teleports back to the theogonist’s hand after the attacks.
+>
+> ***Tenacious Will.*** If the theogonist is subject to an ongoing effect that allows a saving throw as an action or at the start or end of its turn, it can immediately make that save with advantage, ending the effect on a success.
+>
+> **New condition described on previous page*
+
+
+</span>
+
+
+\pagebreakNum
+
+___
+___
+> ## Altar of Oaths
+> *Large chariot (minion of the Grand Theogonist), (8,500 lbs.)*
+> ___
+> - **Armor Class** 19
+> - **Hit Points** 300
+> - **Max Speed** 60 ft.
+> - **Steed Capacity** 2 Large creatures
+> - **Carriage Capacity** 1 Medium creature
+> ___
+> - **Damage Immunities** Poison, Psychic, Radiant
+> - **Challenge** 20 (5,900 XP)
+> ___
+> ### Traits
+>
+> ***Invoke Power.*** Whenever the theogonist gains a prayer, the altar triggers one of the following effects based on the prayer chosen:
+> - **Prayer of Ancients.** *Dexterity Saving Throw:* DC 19, each creature hostile to the theogonist in a 30-foot-radius, 100-foot-high pillar on a point within 100 feet of the theogonist's choice. <bR> *Failure:* A creature takes 27 (6d8) Lightning damage and can’t cast spells for 1 minute or until the altar takes 40 or more damage in a single turn. <bR> *Success:* The creature takes half damage only.
+> - **Prayer of Devotion.** *Constitution Saving Throw:* DC 19, each creature hostile to the lector in a 30-foot-radius, 100-foot-high pillar on a point within 100 feet of the theogonist's choice. <bR> *Failure:* A creature takes 27 (6d8) Radiant damage and is Blinded for 1 minute or until the altar takes 40 or more damage in a single turn. <bR> *Success:* The creature takes half damage only.
+> - **Prayer of Vengeance.** *Strength Saving Throw:* DC 19, each creature hostile to the lector in a 30-foot-radius, 100-foot-high pillar on a point within 100 feet of the theogonist's choice. <bR> *Failure:* A creature takes 27 (6d8) Thunder damage and is brittle for 1 minute or until the altar takes 40 or more damage in a single turn. While brittle, any attack that hits the creature is a critical hit. <bR> *Success:* The creature takes half damage only. 
+>
+> <br>
+>
+> ***Aura of Oaths.*** While the theogonist is within 30 feet of it, the altar radiates a magical aura in a 30-foot emanation. Any creature hostile to the rider that starts its turn within the emanation must succeed on a *Wisdom Saving Throw:* DC 19 (with disadvantage if it is an *Undead* or *Fiend*). <bR> *Failure:* The creature suffers the following effects for each prayer the theogonist has chosen:
+> - **Prayer of Ancients.** The creature is Restrained by vines (AC 15; 15 HP; immune to Poison and Psychic damage) until the vines are destroyed.
+> - **Prayer of Devotion.** The creature takes 10 Radiant damage.
+> - **Prayer of Vengeance.** The creature is Frightened of the altar for 1 minute or until it takes any damage from a source other than the altar. Attack rolls against the Frightened creature have advantage.
+>
+> ### Steed Actions
+>
+> ***Holy Charge.*** Each steed pulling the altar can make a melee weapon attack against one creature within 5 feet of it. If the altar moved at least 20 feet in a straight line before the attacks are made, each attack deals an additional 16 (3d10) Radiant damage.
+>
+
+___
+___
+> ## Sacred Warhorse
+> *Large trained beast, (minion of the Grand Theogonist) unaligned*
+> ___
+> - **Armor Class** 19     **Initiative** +9 (19)
+> - **Hit Points** 100 (13d10 + 39)
+> - **Speed** 60 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Senses** Passive Perception 13
+> - **Languages** —
+> - **Challenge** 6 (1,800 XP)      **Proficiency Bonus** +6
+> ___
+>
+> ### Actions
+>
+> ***Hooves.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) Bludgeoning damage. If the warhorse moves at least 20 feet straight toward a target immediately before the hit, the target must succeed on a *Strength Saving Throw:* DC 16. <bR> *Failure:* The target is knocked *Prone*.
+>
+
+</span>
+
+\pagebreakNum
+
+### Grand Theogonist Tactics
+The Arch Lector invokes prayers from its Invoke Prayers trait in this preferred order:
+* **Prayer of Devotion:** The most powerful prayer; use first to maximize impact.
+* **Prayer of Vengeance:** Use second, targeting the most dangerous enemy, typically a powerful spellcaster, with Staff of Command attacks.
+* **Prayer of Ancients:** Use last when enemy numbers are reduced to outlast remaining adversaries.
+
+#### Grand Theogonist Attack Actions
+The theogonist uses Multiattack with Staff of Command, prioritizing these targets for each prayer effect:
+
+* **Prayer of Devotion:** Target the enemy marked by Prayer of Vengeance or the most dangerous enemy. If that enemy is already Burning, target a different enemy if it is safe to do so.
+* **Prayer of Vengeance:** Target the enemy marked by Prayer of Vengeance or the most dangerous enemy, or push a supportive enemy (e.g., a paladin) to disrupt their positioning.
+* **Prayer of Ancients:** Target the enemy marked by Prayer of Vengeance or the most dangerous enemy, unless another target (e.g., a rogue or monk) relies heavily on bonus actions.
+
+#### Grand Theogonist Prayer Actions
+The theogonist uses Prayer Actions on their initiative counts with these tactics:
+* **Prayer of Vengeance (Initiative Count 20):** Target the marked enemy, positioning to push it near allies for follow-up attacks with other Prayer Actions.
+* **Prayer of Devotion (Initiative Count 10):** Target a group of enemies not already Burning, hitting as many as possible within 10 feet.
+* **Prayer of Ancients (Initiative Count 1):** Target a line of enemies, prioritizing those the theogonist has advantage against.
+
+
+### Altar of Oaths and Sacred Warhorse Tactics
+
+The altar, commanded by a theogonist, and its sacred warhorse steeds charge in and out of combat, coordinating with the theogonist’s tactics. The altar uses Invoke Power and the horses use Holy Charge, targeting based on the theogonist’s active prayer:
+
+* **Prayer of Ancients:** Target the largest group of spellcasters with Invoke Power. Horses target Prone or Restrained enemies with Holy Charge.
+* **Prayer of Devotion:** Target the largest group of enemies with low Constitution using BInvoke Power. Horses target these enemies with Holy Charge.
+* **Prayer of Vengeance:** Target the largest group of enemies, preferably including the theogonist’s Prayer of Vengeance marked target, with Invoke Power. Horses target brittle enemies with Holy Charge.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### Trained Beasts
+>
+> Trained beasts acquire skills over the years, similar to how players gain experience in a class. This means spells and abilities, such as *polymorph* or a druid's Wild Shape, cannot transform a creature into a trained beast.
+
+
+<img src='https://i.postimg.cc/fRRh9T5V/Crested-Sunmarecopy-5000x.webp' style='position:absolute; bottom:-175px; right:-680px; width:1370px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:30px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+\pagebreakNum
+
+# Revision Numbers
+
+## Referenced Content
+
+### Conditions
+* Burning 1.0.1
+* Dazed 1.0.0
+* Fury 1.0.0
+
+### Subclasses
+* Monster Slayer 1.0.0
+
+### New Spells
+#### New Holy Aura Spells
+* Aura of the Crusader 1.0.0
+* Aura of the Crusader 1.0.0
+* Aura of Might 1.0.0
+
+### New Mechanics
+* Chariot Mechanics 1.0.0
+
+## Local Content
+
+### Magic Items
+* Hammer of Judgement 1.0.0
+* Jade Amulet 1.0.0
+* Maul of Divine Wrath 1.0.0
+* Slayer’s Hourglass 1.0.0
+* Staff of Command 1.0.0
+* Sword of Righteous Steel 1.0.0
+* Witch Hunter’s Talisman 1.0.0
+* Icon of the Pious 1.0.0
+* Slayer’s Stake 1.0.0
+* Sacred Brand 1.0.0
+* Silvered Gravesalt 1.0.0
+* White Cloak of The Wolf God 1.0.0
+
+### Creatures
+* Flagellant 1.0.0
+* Flagellant, Tattersoul 1.0.0
+* Flagellant, Harbinger of Doom 1.0.0
+* Witch Hunter 1.0.0
+* Warrior Priest 1.0.0
+* Arch Lector 1.0.0
+* Grand Theogonist 1.0.0
+* Sacred Warhorse 1.0.0
+
+### Chariots
+* War Altar 1.0.0
+* Altar of Oaths 1.0.0
