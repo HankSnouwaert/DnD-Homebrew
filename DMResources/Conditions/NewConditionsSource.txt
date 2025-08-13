@@ -43,8 +43,38 @@ The creature is consumed by bloodlust, giving it the following effects:
  * The creature can't maintain concentration on spells or other effects.
 * Any charmed or frightened effects on the creature are suspended.
 
+#### Burning
+The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+* **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+* **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+* **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+
+
+\columnbreak
+
 #### Dazed 
 A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<br>
+
+> ##### Notes on 2024 Burning Rules
+> If you're using the rules for burning described in the 2024 edition of D&D, these are the changes that were made in this document:
+> * **Sources of Burning Don't Stack.** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+> * **Damage At End of Turn.** Burning damage occurs at the end of a creature's turn rather than the beginning. This gives the creature the chance to try to end the condition before taking the damage, thus giving players more agency when they start burning.
+
+<img src='https://i.ibb.co/KwH86qm/Lose-Calm-Dragons-of-Tarkir-Mt-G-Art.jpg' style='position:absolute; bottom:-280px; right:-0px; width:970px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-465px;height:1400px;width:1416px;transform:rotate(-7deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-450px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
 
 #### Drowsy 
 This condition brings a creature to the brink of falling asleep. Creatures immune to effects that would put them to sleep are immune to this condition. While a creature is drowsy, it is under the following effects:<br>
@@ -54,8 +84,18 @@ This condition brings a creature to the brink of falling asleep. Creatures immun
 * Attacks against it have advantage. <br>
 * The only spells it can cast are cantrips. <br>
 
-#### Emboldened 
-The creature is momentarily filled with boisterous confidence, causing it to deal an additional 7 (2d6) damage when it hits with an attack. This condition lasts up to 1 minute. The condition ends early if, at the end of the creature's turn, it missed with all its attacks that turn, it is Charmed or Frightened, or it is under the effects of the *calm emotions* spell.
+#### Emboldened  
+The creature experiences a rush of confidence and aggression that it maintains so long as it feels like it's winning the fight.
+ * The Emboldened condition always lasts one minute.
+ * An Emboldened creature deals additional 7 (2d6) damage when it hits with a attack.
+ * At the end of the creature's turn, the Emboldened condition ends early if it missed with all of its attacks that turn, it is charmed or frightened, or is effected by *calm emotions* spell. 
+
+#### Fury  
+The creature gains levels of Fury that cause its attacks to deal increasing amounts of damage with each level.
+ * The creature can only gain levels of Fury during combat, and all levels are lost when combat ends.
+ * A creature can gain up to a max of 6 levels of Fury.
+ * First time each turn the creature hits a target with an attack, it deals an additional 1d4 damage for each level of Fury it has.
+ * A creature also loses all levels of Fury if it becomes Charmed or Frightened, or is affected by the *calm emotions* spell.  It also can't gain levels Fury while under these conditions.
 
 \columnbreak
 
@@ -63,6 +103,8 @@ The creature is momentarily filled with boisterous confidence, causing it to dea
 When a creature is affected by this condition, it suffers one of the random mutations described in the Mutation Table below. A creature can't suffer from two instances of the same mutation at once.
 
 Unless an ability states otherwise, a creature suffering from one or more mutations can make a Charisma saving throw at the end of each of its turns, ending the effects of all mutations on a success. The save DC is equal to the highest save DC among any effects that inflicted it with its current mutations.
+
+
 
 ##### Mutation Table
 | d6  | Mutation |  Creature Effect  |
@@ -74,15 +116,21 @@ Unless an ability states otherwise, a creature suffering from one or more mutati
 |  5  | Gelatinous Legs | The creature falls prone and can't stand up.|
 |  6  | Regeneration | The creature regains 10 hit points at the start of its turn if it has at least 1 hit point.|
 
-<img src='https://i.postimg.cc/XqTgjPw5/2892-spatial-contortion.jpg' style='position:absolute;left:-0px;bottom:-600px;width:816px;transform:scaleX(1)' />
+
+
+<img src='https://i.postimg.cc/XqTgjPw5/2892-spatial-contortion.jpg' style='position:absolute;left:-0px;bottom:-560px;width:820px;transform:scaleX(-1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-60px;top:-302px;height:1400px;width:1416px;transform:rotate(-10deg)' />
+  style='position:absolute;right:-60px;top:-385px;height:1400px;width:1416px;transform:rotate(-9deg)' />
 
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
 
 
 \pagebreakNum
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Obsessed 
 The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
@@ -91,12 +139,11 @@ The creature becomes fixated on a creature or object, which becomes a source of 
 *  The creature can't willingly move away from a source of its obsession.
 
 #### Quickened
-A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+A Quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the Quickened condition among its other effects, and a creature cannot benefit from the Quickened condition from multiple sources at once.
 
 
 
 
-\columnbreak
 
 #### Rampaging
 The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
@@ -105,6 +152,10 @@ The creature loses its free will as it enters a mindless rampage. Rampages last 
 &emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
 * The creature can't cast spells or maintain concentration on spells or other effects.
 * Any charmed or frightened effects on the creature are suspended.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 #### Resolute
 The creature stubbornly digs in to weather any assault. It experiences the following effects:
@@ -122,35 +173,41 @@ While most creatures are wounded in combat, in this context, the wound is a spec
  * A creature can expend one use of a healer's kit to remove two wounds from itself or another creature. 
  * A wounded creature, or another creature within 5 feet of it, can make a DC 10 Wisdom (Medicine) check as an action to remove one wound on a success. For every 5 points by which the check exceeds the DC, an additional wound is removed.
 
-<br>
+
 
 ##### Art Credit
-* Spatial Contortion - Daarken, Wizards of the Coast
 * Lose Calm - Jason A. Engle, Wizards of the Coast
-
-<img src='https://i.postimg.cc/7YBcGp5Q/messengers-speed-129.jpg' style='position:absolute; bottom:-50px; right:0px; width:850px; transform:scaleX(-1);'/>
-
-<img src='https://i.ibb.co/KwH86qm/Lose-Calm-Dragons-of-Tarkir-Mt-G-Art.jpg' style='position:absolute; bottom:-40px; right:100px; width:870px; transform:scaleX(-1);'/>
-
-<img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:162px;bottom:-190px; transform: rotate(90deg)' />
+* Spatial Contortion - Daarken, Wizards of the Coast
+* Messenger's Speed - Clint Cearley, Wizards of the Coast
 
 
-<img 
-  src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-400px;bottom:200px; transform: rotate(0deg)' />
+<img src='https://i.postimg.cc/HxG5JLKs/Messengers-Speed-Art.jpg' style='position:absolute; top:-40px; right:0px; width:816px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-480px;top:-5px;height:1400px;width:1416px;transform:rotate(193deg)' />
+
+
+
 
 \pagebreakNum
 
-### Change Log
+### Revision Numbers
 * Berserk 1.0.0
+* Burning 1.0.1
 * Dazed 1.0.0
 * Drowsy 1.0.0
 * Emboldened 1.0.0
+* Fury 1.0.0
 * Mutated 1.0.0
-* Rampaging 1.1.0
 * Obsessed 1.0.0
 * Quickened 1.0.0
+* Rampaging 1.1.0
 * Resolute 1.0.0
 * Wounds 1.0.0
+
+### Change Log
+
+#### Burning
+##### 1.0.1
+* Add to intro description to clarify the condition can apply to other burning sources such as acid
+
