@@ -1,0 +1,601 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p6:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+# Bonus Tomb Kingdom Bosses
+This document contains a collection of three boss monsters centered around the Tomb Kingdoms theme, which draws inspiration from ancient Egyptian tropes. They work well in any adventure that incorporates these themes, but could also easily be ported into other settings featuring ancient undead with tweaks to their lore and the flavor of their abilities.
+
+## Scarab Titans
+*Mechanized War Machines of A Bygone Age*<br>
+**Habitat:** Desert, Underdark; **Treasure:** Relics <br>
+
+Among the vast, flowing dunes of the accursed deserts lie the submerged remnants of lost civilizations, known only through whispered legends. Tales speak of ancient, hoary constructs of unparalleled artifice, possessing terrible power, crawling forth from the sea of sands to stride across the deserts, enacting the will of a long-forgotten empire. No story stirs greater dread among those who recount these monstrosities than that of the Scarab Titan, a crawling monument unmatched by any other wasteland terror.
+
+Fashioned in an age for which no other record exists, the Scarab Titan is wrought from gold, onyx, and lapis lazuli, shaped like a carrion beetle the size of a temple. Embedded within this massive, jeweled behemoth are rows of sarcophagi, each containing a mummified hero of old. At the heart of the construct lies a single sarcophagus, outshining the rest in splendor, entombing a long-forgotten king. The cadavers within these sarcophagi fuel the mechanical insect, granting it the immense power needed to animate its colossal form. It is rumored that only the spirits of the mightiest pharaohs, alongside an entire legion of their fiercest warriors, can achieve such a feat.
+
+The number of Scarab Titans lurking beneath the deserts and their original purpose remain unknown—whether they were crafted as grand weapons of war or as both tomb and protector for the nobility they house. What is certain is that few forces can withstand the power they unleash in battle, guided by the tactical cunning of the ancient warriors they shelter. Their bladed limbs and crushing mandibles effortlessly slice through the thickest metals, while gilded wings beat with such speed and force that they lift the Titan’s inconceivable weight into the air, only to crash down with earth-shattering impact.
+
+Beyond its prodigious size and strength, the ferocious automaton wields unpredictable spiritual power of terrifying magnitude, drawn from the souls it contains. It can unleash waves of destruction that reduce flesh and steel to dust, release swarms of carrion that strip all to bone in their wake, and—most terrifyingly—open portals to the realms of the dead, siphoning the souls of the living into the howling nether. Should one, by some miracle, manage to defeat such a formidable foe, the king entombed within the broken titan will unleash a vengeful curse, sapping the transgressor’s life and aging them at an unnatural rate.
+
+\columnbreak
+
+
+
+### Scarab Titan Tactics
+The scarab targets the largest group of enemies to maximize its area-of-effect abilities. After attacking, it flies or burrows out of melee range to use Earth Shake repeatedly.
+
+#### Bonus Actions
+Use Earth Shake after burrowing or flying at least 30 feet in a straight line to target enemies standing on the ground, prioritizing those not yet knocked prone.
+
+#### Actions
+* Use Writhing Attack to select one of the following at random, with specific targeting priorities:
+    * **Reaping Blades:** Target the largest group of enemies, prioritizing those knocked prone by Earth Shake.
+    * **Flesh-Eating Swarm:** Move to target the largest group with low Dexterity saves.
+    * **Breath of Terror:** Target enemies that haven’t taken significant damage to remove them from the fight. Focus attacks on any Paralyzed target.
+    * **Crushing Mandibles:** Target an enemy with low Strength saves and AC below 18, or a Paralyzed target.
+    * **Soul Devour:** Target the largest group with low Charisma saves.
+
+#### Spellcasting
+* Use *destructive wave* to hit three or more enemies with low Constitution saves, provided they aren’t knocked Prone by Earth Shake.
+* Use *disintegrate* on a Bloodied enemy with low Dexterity saves, or immediately on a Paralyzed target.
+* Use *heal* when no other spells remain or to end a debilitating condition affecting the scarab.
+
+<br>
+
+> ##### New Condition: Dazed 
+> A Dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Scarab Titan
+> *Gargantuan Undead Construct, (Mini-Boss) Unaligned*
+> ___
+> - **Armor Class** 21                 **Initiative** 11 (21)
+> - **Hit Points** 314 (17d20 + 136)
+> - **Speed** 60 ft., Burrow 60 ft., fly 60 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">26</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td style="background-color:#e0e5c1; text-align:center">+14</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">26</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td style="background-color:#e0e5c1; text-align:center">+14</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +11
+> - **Damage Resistances** Necrotic, Psychic, Radiant
+> - **Immunities** Poison, Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+> - **Senses** Darkvision 300 ft., Blindsight 30 ft., Tremorsense 120 ft., Passive Perception 21
+> - **Languages** Understands the languages of its creator but can’t speak
+> - **Challenge** 20 (25,000 XP)       **Proficiency Bonus** +6
+> ___
+> ### Traits
+>
+> ***Siege Monster.*** The scarab deals double damage to objects and structures.
+>
+> ***Overdrive.*** When the scarab fails a saving throw that requires its action to make or fails a saving throw at the beginning or end of its turn, it can choose to succeed instead. If it does so, it takes Force damage equal to 22 (4d10) plus the amount by which it failed the save.
+>
+> ***Curse of the Fallen.*** A creature that reduces the scarab to 0 hit points must make a *Charisma Saving Throw:* DC 22. <bR> *Failure:* The target takes 55 (10d10) Necrotic damage. <bR> *Failure by 5 or More:* The target also ages to the point where it has only 30 days left before it dies of old age. In this aged state, the target has disadvantage on attack rolls, ability checks, and saving throws, and its walking speed is halved. Only the *wish* spell or the *remove curse* spell cast with a 9th-level spell slot can end these effects and restore the target to its previous age.
+>
+> ### Actions
+>
+> ***Writhing Attack.*** Chooses one of the following actions at random. It can take this action at any point during its turn: after which it can cast a spell
+>
+> **1. Reaping Blades.** The scarab makes a Rend attack against each creature in a 20-foot cube originating from itself.
+>
+> **2. Flesh-Eating Swarm.** *Dexterity Saving Throw:* DC 22, each creature in a 30-foot emanation from the scarab. 
+<br> *Failure:* Insects burrow into the target’s flesh, infesting it. While infested, the target takes 22 (4d10) Piercing damage at the end of each of its turns. A creature within reach can use an action to attempt a DC 22 Wisdom (Medicine) check to remove the insects using a weapon or object that deals Fire, Piercing, or Slashing damage, dealing 1d10 damage of the same type to the target on a success, ending the effect. A creature can make the check with advantage, but the target takes 4d10 damage instead. 
+<br> *Failure by 5 or More:* The target is also Dazed* until the end of its next turn.
+>
+> **3. Breath of Terror.** *Wisdom Saving Throw:* DC 22, each creature in a 120-foot cone. 
+<br> *Failure:* The creature is Frightened of the scarab and repeats the saving throw at the end of each of its turns. While Frightened, it can’t take reactions and must take the Dash action to move away from the scarab by the safest available route. 
+<br> *Failure by 5 or More:* The creature is also Paralyzed while Frightened.
+>
+> **4. Crushing Mandibles.** The scarab makes a Rend attack. If the attack hits, the target must make a *Strength Saving Throw* DC 22. 
+<br> *Failure:* The scarab automatically hits the target with another Rend attack as part of this action, and it is a critical hit. <br> *Failure by 5 or More:* The target has vulnerability to the second attack. If this damage reduces the target to 0 hit points, it dies.
+>
+> **5. Soul Devour.** *Charisma Saving Throw:* DC 22, each creature in a 20-foot-radius sphere centered on a point within 120 feet that the scarab can see. 
+<br> *Failure:* The target takes 28 (8d6) Necrotic damage. 
+<br> *Failure by 5 or More:* The target’s soul is extracted, leaving the body Unconscious in a state of suspended animation for 1 minute, after which the body dies. The soul is trapped in the scarab until it is destroyed, becomes Incapacitated, it takes 50 or more damage in a single turn, or a *dispel good and evil* spell is cast on the target, returning the soul to the body.
+>
+> ***Spellcasting.*** The scarab can cast the following spells, using Strength as the spellcasting ability (spell save DC 22, +14 to hit with spell attacks): <br> **1/day each:** *disintegrate*, *heal (Can effect undead and constucts)*, *destructive wave*
+>
+> ***Rend.*** *Melee Weapon Attack:* +14 to hit, reach 20 ft., one creature. *Hit:* 30 (4d10 + 8) Slashing damage.
+>
+> ### Bonus Actions
+>
+> ***Earth Shake.*** If the scarab burrows or flies at least 30 feet in a straight line before surfacing or landing, it can cause the ground to shake. Each creature within a 15-foot emanation from the scarab standing on the ground must succeed on a *Strength Saving Throw:* DC 22. <bR> *Failure:* The target is knocked Prone. <bR> *Failure by 5 or More:* The target also can’t stand up until the end of its next turn unless it spends all of its movement to do so.
+>
+> **New condition described on previous page*
+
+</span>
+
+\pagebreakNum
+
+## Prince Apophos
+*Damned Soul-Hunting Revenant Made of Swarming Scarabs*<br>
+**Habitat:** Desert, Underdark; **Treasure:** Individual, Relics <br>
+
+### The Doom of Apophos
+
+Hear now, O listener, the tale of Apophos, whose heinous deeds did stain the earth, and of the divine retribution that bound him to an eternity of torment. In the days when the Ancient Kings ruled with golden splendor, Apophos, a prince of noble blood, was consumed by an unquenchable thirst to seize the throne of his realm. His heart, turned to darkness, conceived acts of unspeakable violence. In the silence of a single night, his gilded dagger did rake across the throats of his royal kin, sparing none. When the dawn’s golden rays illuminated the blood-soaked halls, Apophos stood before his people, proclaiming himself their rightful lord with a glee born of madness.
+
+The folk of the city, beholding the murderer who dared claim their fealty, were filled with righteous fury. Soldiers and priests, as one, descended upon the traitorous wretch, dragging him to the great temple at the heart of the city. There, Apophos was denied the sacred rites of mummification and the golden afterlife promised to his kin. Instead, bound within a sarcophagus, he wailed as hundreds of ravenous scarabs were poured upon him, the stone lid sealed fast. Even the mighty walls of the temple could not muffle his anguished cries as the beetles tore his flesh, bit by merciless bit, until naught remained but bones picked clean. These, with utter disdain, were cast into the desert’s embrace, to be buried and forgotten beneath the shifting sands.
+
+Yet the weight of his crimes bore his sin-stained soul to the underworld, where the gods of that shadowed realm claimed him for eternal torment. But Apophos, cunning as he was, demanded the divine right to speak before his soul was weighed upon the scales of divinity. With guile, he proposed a bargain to elude his fate: should he find a soul equal to his own upon the gods’ scales, it would take his place in the underworld, and he would ascend to the golden realms of the afterlife.
+
+The gods, in their inscrutable wisdom, consented to this pact. Thus, Apophos was returned to the land of the living, no longer a man but a cursed monstrosity. His form, a writhing swarm of the very scarabs that devoured him, was crowned with a bleached skull, a grotesque mockery of the human figure. In a limb of scuttling insects, he clutched the gilded dagger, ever dripping with the blood of his kin, poised to claim the soul that would free him. Across the land he crawled, his cold, empty sockets ever seeking a victim to sate his jailers’ demand. When such a prize is sighted, Apophos is relentless—slipping through the smallest cracks, burrowing beneath the earth, or scattering into the air, only to reform in his grim, misshapen guise. Those who dare stand between the specter and his prey are fools, for no blade can halt him. His limbs, sundered by steel, reform as a living tide, consuming all in its path.
+
+\columnbreak
+
+
+<br><br><br><br><br><br><br><br>
+
+Thus has it been, decade upon decade, as Apophos drags soul after soul to the scales of the gods, each failing to match the weight of his blackened spirit. Ever he returns to the surface, condemned to search in vain until the end of days. No soul, it is whispered, shall ever equal the traitor prince’s, and so his punishment endures—a ceaseless quest beneath the unyielding gaze of the gods.
+
+
+
+
+### Combat Guide: Prince Apophos
+Prince Apophos focuses on eliminating the target marked by Soul Reaper while managing other threats. The prince prioritizes killing the marked target above all else, while the displaced scarab swarm supports by re-forming with the prince or disrupting vulnerable enemies.
+
+#### Prince Apophos Tactics
+The prince focuses on killing the target marked by Soul Reaper, fleeing once the target is dead or escapes. The prince remains cautious of other foes to avoid being overwhelmed.
+
+##### Actions
+* Use Multiattack when enemies are separated, targeting two spellcasters with Infesting Strike to enable Disruptive Parasites, and the marked target with Gilded Dagger.
+
+* Use Infesting Breath instead of Multiattack to hit four or more enemies, or at least three enemies if two have low Dexterity saves, even if it means not targeting the marked target.
+
+#### Bonus Actions
+* Use Charge to move toward the marked target or spellcasters in a straight line, then use any remaining movement to burrow or climb to avoid counterattacks.
+
+#### Reactions
+* Use Disruptive Parasites when a spellcaster with burrowed scarabs casts a spell.
+
+#### Displaced Scarab Swarm Tactics
+
+* Use Fuse if within 5 feet of the prince or his remains to restore a Swarm Body layer or revive him.
+
+* Use Bite on nearby enemies if unable to reach the prince in one turn, targeting spellcasters concentrating on important spells or ranged attackers to impose disadvantage.
+
+### Epic Battle: The Undying Swarm
+
+If you wish to make Prince Apophos into a more powerful threat, give him 8 layers of scarabs instead of 5. This increases his CR to 15. 
+
+
+
+\pagebreakNum
+
+
+
+___
+___
+> ## Prince Apophos
+> *Medium Swarm of Tiny Undead, Boss, Neutral Evil*
+> ___
+> - **Armor Class** 15               **Initiative** +8 (18)
+> - **Hit Points** 122 (4d8 + 4 + 100 from Swarm Body)
+> - **Speed** 30 ft., Burrow 30 ft., Climb 30 ft., fly 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">13</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +7, Persuasion +3, Religion +6
+> - **Immunities** Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned, any spell or effect that would alter the prince’s form
+> - **Senses** Darkvision 120 ft., Tremorsense 60 ft., Passive Perception 9
+> - **Languages** Understands the languages the prince knew in life but can’t speak
+> - **Challenge** 9 (5,000 XP)      **Proficiency Bonus** +4
+> ___
+> ### Traits
+>
+> ***Devouring Mass.*** If the prince starts his turn in the space of a dead creature that’s Large or smaller, that creature is stripped of all flesh, leaving only bones and objects it was wearing or carrying. Any creature with flesh reduced to 0 hit points by Piercing damage dealt by the prince dies and is stripped of flesh in this way.
+>
+> ***Scarab Body.*** The prince’s body is made of 5 layers of scarabs, each with 20 hit points. When the prince takes damage, the current layer absorbs it. If a layer is reduced to 0 hit points, it is destroyed, and a Displaced Scarab Swarm appears in a space 10 (1d4 × 5) feet away from the prince in a random direction (roll 1d4: 1, north; 2, east; 3, south; 4, west) that lasts for 1 hour. The swarm acts on Initiative Count 1. The prince regains all layers after finishing a Long Rest.
+>
+> ***Soul Reaper (1/Day).*** When the prince rolls Initiative or at the start of his turn, the prince can mark one target he can see. For the next 24 hours, if the target dies while the prince is within 60 feet of it, the target’s soul is trapped within the prince until the prince is destroyed.
+>
+> ***Spider Climb.*** The prince can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+>
+> ***Splinter Body.*** If the prince fails a saving throw, he can choose to succeed instead and take 20 Force damage.
+>
+> ***Swarm.*** The prince can occupy another creature’s space and vice versa, and the prince can move through any opening large enough for a Tiny insect. The prince can’t regain hit points or gain temporary hit points.
+>
+> ### Actions
+>
+> ***Multiattack.*** The prince makes two Infesting Strike attacks and one Gilded Dagger attack.
+>
+> ***Infesting Strike.*** *Melee or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 30 ft., one target. *Hit:* 5 Piercing damage plus 5 (1d10) Piercing damage for each layer of scarabs the prince has. If the target is a creature, undead scarabs burrow into its body, causing 2 (1d4) Piercing damage at the start of each of the creature’s turns. This effect can stack multiple times. A creature within reach can use an action to make a DC 16 Wisdom (Medicine) check with a weapon or object dealing Fire, Piercing, or Slashing damage, dealing 1d4 damage of that type to the target. On a success, all burrowed scarabs are destroyed. The creature can choose to gain advantage on the check by dealing 3d4 damage instead.
+>
+> ***Gilded Dagger.*** *Melee or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 11 (3d4 + 4) Piercing damage, or 19 (6d4 + 4) Piercing damage if the target is marked by Soul Reaper. The dagger magically returns to the prince immediately after a ranged attack.
+>
+> ***Infesting Breath.*** *Dexterity Saving Throw:* DC 16, each creature in a 30-foot cone. <bR> *Failure:* The creature is automatically hit by an Infesting Strike attack. <bR> *Failure by 10 or More:* The attack is a critical hit.
+>
+> ### Bonus Actions
+>
+> ***Charge.*** The prince moves up to his speed in a straight line toward an enemy he can see.
+>
+> ### Reactions
+>
+> ***Disruptive Parasites.*** *Trigger:* A creature with burrowed scarabs casts a spell within 90 feet of the prince. <bR> *Response:* *Constitution Saving Throw:* DC 16, the triggering creature. <bR> *Failure:* The spell dissipates with no effect, and the action, bonus action, or reaction used to cast it is wasted. If the spell was cast with a spell slot, the slot isn’t expended.
+>
+
+</span>
+
+\pagebreakNum
+___
+___
+> ## Displaced Scarab Swarm
+> *Medium Swarm of Tiny Undead, (Prince Apophos) Neutral Evil*
+> ___
+> - **Armor Class** 15                 **Initiative** +4 (14)
+> - **Hit Points** 22 (4d8 + 4)
+> - **Speed** 30 ft., Burrow 30 ft., Climb 30 ft,. fly 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">13</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Damage Resistances** Bludgeoning, Piercing, Slashing
+> - **Immunities** Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned, any spell or effect that would alter its form
+> - **Senses** Tremorsense 60 ft., Passive Perception 5
+> - **Languages** Understands the languages the prince knew in life but can’t speak
+> - **Challenge** 1 (200 XP)      **Proficiency Bonus** +4
+> ___
+> ### Traits
+>
+> ***Devouring Mass.*** If the scarab swarm starts its turn in the space of a dead creature that’s Large or smaller, that creature is stripped of all flesh, leaving only bones and objects it was wearing or carrying. Any creature with flesh reduced to 0 hit points by Piercing damage dealt by the scarab swarm dies and is stripped of flesh in this way.
+>
+> ***Spider Climb.*** The scarab swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+>
+> ***Swarm.*** The scarab swarm can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny insect. The scarab swarm can’t regain hit points or gain temporary hit points.
+>
+> ### Actions
+>
+> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 0 ft., one target in the scarab swarm’s space. *Hit:* 5 (1d10) Piercing damage. If the target is a creature, undead scarabs burrow into its body, causing 2 (1d4) Piercing damage at the start of each of the creature’s turns. This effect can stack multiple times. A creature within reach can use an action to make a DC 16 Wisdom (Medicine) check with a weapon or object dealing Fire, Piercing, or Slashing damage, dealing 1d4 damage of that type to the target. On a success, all burrowed scarabs are destroyed. The creature can choose to gain advantage on the check by dealing 3d4 damage instead.
+>
+> ***Fuse.*** If within 5 feet of Prince Apophos or his remains, the scarab swarm merges into him, disappearing, restoring one layer of scarabs (per his Swarm Body trait) or, if he is dead, bringing him back to life at full hit points but with no layers of scarabs.
+>
+
+</span>
+
+\pagebreakNum
+
+
+## Bone Dragons
+*Ancient Draconic Tyrants Risen From The Desert Sands*<br>
+**Habitat:** Desert, Underdark; **Treasure:** Individual <br>
+
+Long ago, over what are now ancient deserts, dragons soared through the skies when the land was still verdant and kingdoms were scattered across it, ruled by great pharaohs. Many of these ancient kings and their armies battled the mighty wyrms, either slaying them or binding them to their will with powerful sorcery, turning them into terrifying war beasts to conquer rival nations. Occasionally, dragons overcame their hunters and claimed dominion, becoming tyrants of the land. These dragons were adorned with sacrifices and prayers, revered as living deities.
+
+When these great dragons died, their remains were left in the desert, stripped to bleached bones and buried by the winds. Others were taken as trophies to adorn the burial chambers of the kings and queens who had slain or subjugated them. Dragons that assumed the mantle of pharaoh commissioned grand primordial tombs for themselves, their bodies placed atop the resplendent hoards they had amassed in life.
+
+As many of the great tomb kings were awakened by their withered priests, the mighty remains of these great beasts stirred once more, animated by the most potent necromantic incantations. With a beat of their wings, dust streams endlessly, creating obscuring clouds in which they lurk unseen. Their ancient talons and teeth, now infused with necrotic energy, can shred flesh and sap vitality. The elemental devastation these dragons once unleashed from their maws has transformed into a black miasma, desecrating all it touches and reducing the living to shriveled husks.
+
+\columnbreak
+
+<br><br><br><br>
+
+### Bone Dragon Tactics
+The bone dragon prioritizes using Breath of Desiccation to hit multiple enemies, conserving charges for repeated use while leveraging other abilities to disrupt or pursue vulnerable targets.
+
+#### Actions
+Use Multiattack to target the enemy with the lowest Constitution that already have levels of fatigue.
+
+#### Draconic Actions
+* **Use Breath of Desiccation** immediately when it can hit three or more enemies. Prioritizing targets with a low Constitution.
+* **Use Dread Presence** if fewer than half the enemies are frightened.
+* **Use Cloud of Dust** when enemies are grouped to force them to separate, exploiting the bone dragon’s blindsight to target those who remain.
+* **Use Tenacious Will** only if the bone dragon is unable to attack or is incapacitated due to an ongoing effect.
+* **Use Pounce** as often as possible, targeting the enemy with the lowest Armor Class.
+
+
+
+
+##### Bone Dragons Art Credit
+* The Libyan Desert - Carl Hasch, Wizards of the Coast
+
+<br>
+
+> ##### New Condition: Fatigue
+> The creature experiences debilitating weariness that can accumulate in levels. Each time a creature gains the Fatigue condition, its Fatigue Level increases by 1. If the level reaches 6, the creature dies. Fatigue Levels have the following effects on a creature:
+> 
+> * **d20 Rolls:** When a creature makes a d20 Test, subtract its Fatigue Level from the d20 roll.
+> 
+> * **Spell Save DCs:** Subtract a creature's Fatigue Level from the Spell Save DC of any spell it casts.
+>
+> * **Speed** A creature's speed is reduced by a number of feet equal to 5 x its Fatigue level. This can't lower its speed below 5 feet.
+> 
+> **Ending the Condition:** Completing a Long Rest reduces a creature's Fatigue Level by 1.
+> 
+> **Fatigue vs. Exhaustion:** Fatigue is an alternative mechanic to the Exhaustion condition, and any ability that removes levels of Exhaustion or grants immunity to it does the same for Fatigue. 
+>
+
+<img src='https://i.postimg.cc/4NG83fBS/The-Libyan-desert.jpg' style='position:absolute; bottom:-155px; right:-0px; width:890px; transform:rotate(0deg)scalex(-1);filter:opacity(100%);'/>
+
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-305px;bottom:190px;height:1050px;width:1416px;transform:rotate(-0deg)' />
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Bone Dragon
+> *Huge Undead, Boss, Neutral Evil*
+> ___
+> - **Armor Class** 18     **Initiative** +10 (20)
+> - **Hit Points** 379 (33d10 + 198)
+> - **Speed** 40 ft., Burrow 15 ft., Fly 80 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +9
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Necrotic, Poison, Exhaustion, Poisoned
+> - **Senses** Blindsight 60 Ft., Darkvision 120 ft., Passive Perception 19
+> - **Languages** Understands Common and Draconic but can’t speak
+> - **Challenge** 13 (10,000 XP)      **Proficiency Bonus** +5
+> ___
+>
+> ### Actions
+>
+> ***Multiattack.*** The bone dragon makes two Rend attacks. If both attacks hit the same target, it must make a *Constitution Saving Throw:* DC 19. <br> *Failure:* The target gains one level of Fatigue*. <br> *Failure by 10 or more:* The target gains two levels of Fatigue.
+>
+> ***Rend.*** Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 11 (1d10 + 6) Slashing damage plus 5 (1d10) Necrotic damage.
+>
+> <br><br><br><br><br>
+>
+> ### Draconic Actions
+>
+> The bone dragon has 6 charges. On Initiative Count 15, 10, and 5, the bone dragon gains 1 charge, up to a maximum of 6 charges. It can then spend charges to immediately take one of the following actions if it is not Incapacitated.
+>
+> ***Pounce (0 Charges).*** The bone dragon moves up to half its speed and makes one Rend attack.
+>
+> ***Cloud of Dust (1 Charge).*** The bone dragon creates a 15-foot-radius sphere of dust centered on a point within 30 feet of it. The sphere spreads around corners, and its area is Heavily Obscured. It lasts 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. The bone dragon can’t take this action again until the start of its next turn.
+>
+> ***Tenacious Will (1 Charge).*** If the bone dragon is subject to an ongoing effect that allows it to make a saving throw as an action or at the start or end of its turn, it can immediately make that save with advantage, ending the effect on a success. The bone dragon can take this action even if it is Incapacitated.
+>
+> ***Terrifying Presence (2 Charges).*** *Wisdom Saving Throw:* DC 19, each hostile creature in a 120-foot emanation from the bone dragon. *Failure:* The target is Frightened and can’t cast spells other than cantrips. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br> *Failure by 10 or more:* While Frightened, the target can’t take reactions and must take the Dash action on each of its turns to move away from the bone dragon by the safest available route. The bone dragon can’t take this action until the start of its next turn.
+>
+> ***Breath of Desiccation (5 Charges).*** *Constitution Saving Throw:* DC 19, each creature in a 60-foot cone. <br> *Failure:* 21 (6d6) Necrotic damage and the target gains one level of Fatigue*. <br> *Failure by 10 or more:* The target takes the damage and gains two levels of Fatigue. <br> *Success:* Half damage.
+>
+> **New condition described on previous page*
+
+</span>
+
+\pagebreakNum
+
+### Revision Numbers
+
+#### Local Content
+* Scarab Titan 1.0.0
+* Prince Apophos 1.0.0
+* Displaced Scarab Swarm 1.0.0
+* Bone Dragon 1.0.0
+
+
+#### Referenced Content
+* New Condition: Fatigue 1.0.0
+* New Condition: Dazed 1.0.0
+
+### Change Log
+#### 0.0.0
+* Document creation
