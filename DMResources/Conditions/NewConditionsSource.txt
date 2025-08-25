@@ -90,6 +90,17 @@ The creature experiences a rush of confidence and aggression that it maintains s
  * An Emboldened creature deals additional 7 (2d6) damage when it hits with a attack.
  * At the end of the creature's turn, the Emboldened condition ends early if it missed with all of its attacks that turn, it is charmed or frightened, or is effected by *calm emotions* spell. 
 
+#### Fatigue
+The creature experiences debilitating weariness that can accumulate in levels. Each time a creature gains the Fatigue condition, its Fatigue Level increases by 1. If the level reaches 6, the creature dies. Fatigue Levels have the following effects on a creature:
+* **d20 Rolls:** When a creature makes a d20 Test, subtract its Fatigue Level from the d20 roll.
+* **Spell Save DCs:** Subtract a creature's Fatigue Level from the Spell Save DC of any spell it casts.
+* **Speed** A creature's speed is reduced by a number of feet equal to 5 x its Fatigue level. This can't lower its speed below 5 feet.
+
+**Ending the Condition:** Completing a Long Rest reduces a creature's Fatigue Level by 1.
+
+**Fatigue vs. Exhaustion:** Fatigue is an alternative mechanic to the Exhaustion condition, and any ability that removes levels of Exhaustion or grants immunity to it does the same for Fatigue. 
+
+
 #### Fury  
 The creature gains levels of Fury that cause its attacks to deal increasing amounts of damage with each level.
  * The creature can only gain levels of Fury during combat, and all levels are lost when combat ends.
@@ -118,12 +129,13 @@ Unless an ability states otherwise, a creature suffering from one or more mutati
 
 
 
-<img src='https://i.postimg.cc/XqTgjPw5/2892-spatial-contortion.jpg' style='position:absolute;left:-0px;bottom:-560px;width:820px;transform:scaleX(-1)' />
+<img src='https://i.postimg.cc/XqTgjPw5/2892-spatial-contortion.jpg' style='position:absolute;right:-60px;bottom:-190px;width:500px;transform:scaleX(-1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-60px;top:-385px;height:1400px;width:1416px;transform:rotate(-9deg)' />
+  style='position:absolute;right:-60px;top:-445px;height:1400px;width:1416px;transform:rotate(-0deg)' />
 
-
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:-305px;height:1400px;width:1416px;transform:rotate(-90deg)' />
 
 
 \pagebreakNum
@@ -197,6 +209,7 @@ While most creatures are wounded in combat, in this context, the wound is a spec
 * Dazed 1.0.0
 * Drowsy 1.0.0
 * Emboldened 1.0.0
+* Fatigue 1.0.0
 * Fury 1.0.0
 * Mutated 1.0.0
 * Obsessed 1.0.0
