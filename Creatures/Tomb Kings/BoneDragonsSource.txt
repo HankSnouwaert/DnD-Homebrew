@@ -1,0 +1,194 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Bone Dragons
+*Ancient Draconic Tyrants Risen From The Desert Sands*<br>
+**Habitat:** Desert, Underdark; **Treasure:** Individual <br>
+
+Long ago, over what are now ancient deserts, dragons soared through the skies when the land was still verdant and kingdoms were scattered across it, ruled by great pharaohs. Many of these ancient kings and their armies battled the mighty wyrms, either slaying them or binding them to their will with powerful sorcery, turning them into terrifying war beasts to conquer rival nations. Occasionally, dragons overcame their hunters and claimed dominion, becoming tyrants of the land. These dragons were adorned with sacrifices and prayers, revered as living deities.
+
+When these great dragons died, their remains were left in the desert, stripped to bleached bones and buried by the winds. Others were taken as trophies to adorn the burial chambers of the kings and queens who had slain or subjugated them. Dragons that assumed the mantle of pharaoh commissioned grand primordial tombs for themselves, their bodies placed atop the resplendent hoards they had amassed in life.
+
+As many of the great tomb kings were awakened by their withered priests, the mighty remains of these great beasts stirred once more, animated by the most potent necromantic incantations. With a beat of their wings, dust streams endlessly, creating obscuring clouds in which they lurk unseen. Their ancient talons and teeth, now infused with necrotic energy, can shred flesh and sap vitality. The elemental devastation these dragons once unleashed from their maws has transformed into a black miasma, desecrating all it touches and reducing the living to shriveled husks.
+
+\columnbreak
+
+<br><br><br><br>
+
+### Bone Dragon Tactics
+The bone dragon prioritizes using Breath of Desiccation to hit multiple enemies, conserving charges for repeated use while leveraging other abilities to disrupt or pursue vulnerable targets.
+
+#### Actions
+Use Multiattack to target the enemy with the lowest Constitution that already have levels of fatigue.
+
+#### Draconic Actions
+* **Use Breath of Desiccation** immediately when it can hit three or more enemies. Prioritizing targets with a low Constitution.
+* **Use Dread Presence** if fewer than half the enemies are frightened.
+* **Use Cloud of Dust** when enemies are grouped to force them to separate, exploiting the bone dragon’s blindsight to target those who remain.
+* **Use Tenacious Will** only if the bone dragon is unable to attack or is incapacitated due to an ongoing effect.
+* **Use Pounce** as often as possible, targeting the enemy with the lowest Armor Class.
+
+
+
+
+##### Art Credit
+* The Libyan Desert - Carl Hasch, Wizards of the Coast
+
+<br>
+
+> ##### New Condition: Fatigue
+> The creature experiences debilitating weariness that can accumulate in levels. Each time a creature gains the Fatigue condition, its Fatigue Level increases by 1. If the level reaches 6, the creature dies. Fatigue Levels have the following effects on a creature:
+> 
+> * **d20 Rolls:** When a creature makes a d20 Test, subtract its Fatigue Level from the d20 roll.
+> 
+> * **Spell Save DCs:** Subtract a creature's Fatigue Level from the Spell Save DC of any spell it casts.
+>
+> * **Speed** A creature's speed is reduced by a number of feet equal to 5 x its Fatigue level. This can't lower its speed below 5 feet.
+> 
+> **Ending the Condition:** Completing a Long Rest reduces a creature's Fatigue Level by 1.
+> 
+> **Fatigue vs. Exhaustion:** Fatigue is an alternative mechanic to the Exhaustion condition, and any ability that removes levels of Exhaustion or grants immunity to it does the same for Fatigue. 
+>
+
+<img src='https://i.postimg.cc/4NG83fBS/The-Libyan-desert.jpg' style='position:absolute; bottom:-155px; right:-0px; width:890px; transform:rotate(0deg)scalex(-1);filter:opacity(100%);'/>
+
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-305px;bottom:190px;height:1050px;width:1416px;transform:rotate(-0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:14px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Bone Dragon
+> *Huge Undead, Boss, Neutral Evil*
+> ___
+> - **Armor Class** 18     **Initiative** +10 (20)
+> - **Hit Points** 379 (33d10 + 198)
+> - **Speed** 40 ft., Burrow 15 ft., Fly 80 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +9
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Necrotic, Poison, Exhaustion, Poisoned
+> - **Senses** Blindsight 60 Ft., Darkvision 120 ft., Passive Perception 19
+> - **Languages** Understands Common and Draconic but can’t speak
+> - **Challenge** 13 (10,000 XP)      **Proficiency Bonus** +5
+> ___
+>
+> ### Actions
+>
+> ***Multiattack.*** The bone dragon makes two Rend attacks. If both attacks hit the same target, it must make a *Constitution Saving Throw:* DC 19. <br> *Failure:* The target gains one level of Fatigue*. <br> *Failure by 10 or more:* The target gains two levels of Fatigue.
+>
+> ***Rend.*** Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 11 (1d10 + 6) Slashing damage plus 5 (1d10) Necrotic damage.
+>
+> <br><br><br><br><br>
+>
+> ### Draconic Actions
+>
+> The bone dragon has 6 charges. On Initiative Count 15, 10, and 5, the bone dragon gains 1 charge, up to a maximum of 6 charges. It can then spend charges to immediately take one of the following actions if it is not Incapacitated.
+>
+> ***Pounce (0 Charges).*** The bone dragon moves up to half its speed and makes one Rend attack.
+>
+> ***Cloud of Dust (1 Charge).*** The bone dragon creates a 15-foot-radius sphere of dust centered on a point within 30 feet of it. The sphere spreads around corners, and its area is Heavily Obscured. It lasts 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. The bone dragon can’t take this action again until the start of its next turn.
+>
+> ***Tenacious Will (1 Charge).*** If the bone dragon is subject to an ongoing effect that allows it to make a saving throw as an action or at the start or end of its turn, it can immediately make that save with advantage, ending the effect on a success. The bone dragon can take this action even if it is Incapacitated.
+>
+> ***Terrifying Presence (2 Charges).*** *Wisdom Saving Throw:* DC 19, each hostile creature in a 120-foot emanation from the bone dragon. *Failure:* The target is Frightened and can’t cast spells other than cantrips. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br> *Failure by 10 or more:* While Frightened, the target can’t take reactions and must take the Dash action on each of its turns to move away from the bone dragon by the safest available route. The bone dragon can’t take this action until the start of its next turn.
+>
+> ***Breath of Desiccation (5 Charges).*** *Constitution Saving Throw:* DC 19, each creature in a 60-foot cone. <br> *Failure:* 21 (6d6) Necrotic damage and the target gains one level of Fatigue*. <br> *Failure by 10 or more:* The target takes the damage and gains two levels of Fatigue. <br> *Success:* Half damage.
+>
+> **New condition described on previous page*
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
