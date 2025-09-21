@@ -713,7 +713,7 @@ You attempt to interrupt a creature in the process of casting a spell. The targe
 If the caster chooses not to cast the spell, the action, bonus action, or reaction used to cast it is wasted, but the spell slot is not expended.
 
 #### Dazzling Light
-*3rd-level evocation*
+*3rd-level Evocation*
 ___
 - **Casting Time:** 1 action
 - **Range:** 120 fee
@@ -721,7 +721,9 @@ ___
 - **Duration:**   Instantaneous
 - **Classes:**  Cleric, Bard
 
-You unleash a burst of radiant light at a point you choose within range. Each creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw. On a failed save, a creature becomes blinded until the end of your next turn.
+You unleash a burst of radiant light at a point you choose within range. Each creature in a 15-foot-radius sphere centered on that point must succeed on a Constitution saving throw or take 2d10 Radiant damage and become Blinded until the end of your next turn. A creature that succeeds on its saving throw takes half as much damage and isn’t Blinded.
+ 
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d10 for each slot level above 3rd.
 
 #### Death Frenzy
 *2nd-level transmutation*
@@ -811,8 +813,6 @@ You call down divine judgment upon those around you. Choose any number of creatu
 **Guilty.**  The creature must make a Charisma saving throw (which it can choose to fail). On a failed save, the creature takes 8d6 Radiant damage, falls Prone, and is Stunned until the start of your next turn. If this damage reduces the creature to 0 hit points, it is disintegrated. A disintegrated creature and everything it is wearing or carrying, except magic items, is reduced to a pile of fine salt.
 
 If the creature is a celestial, elemental, fey, or fiend, it is instead banished to its plane of origin (if it is not already there) and cannot return to your current plane for 24 hours by any means short of a *Wish* spell.
-
-
 
 \columnbreak
 
@@ -920,23 +920,22 @@ After the area cools down, it remains difficult terrain until cleared. Each 5-fo
 \pagebreakNum
 
 #### Final Transmutation 
+*9th-level Transmutation*
 
-*9th-level transmutation*
-___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 60 ft
 - **Components:** V, S, M (A bar of lead)
-- **Duration:**  Concentration, up to 10 minutes
-- **Classes:**  Sorcerer, Wizard, Warlock
+- **Duration:**  1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
-You speak a word of power that transforms a creature you can see within range. If the target has 150 hit points or fewer, it is petrified, turning to gold until the spell ends. Otherwise, the spell has no effect.
+You speak a word of power that transforms a creature you can see within range. The target must make a Constitution saving throw. If the target has 150 hit points or fewer, it automatically fails. On a failed save, it is Petrified, turning to gold until the spell ends. On a successful save, the creature is Restrained until the end of your next turn.
 
-**Ending The Effect.** A petrified target can make a Constitution saving throw at the start of each of its turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell (including the initial failed save), it remains petrified indefinitely until the condition is cured by other means.
+**Ending The Effect.** A Petrified target can make a Constitution saving throw at the start of each of your turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell, it remains Petrified indefinitely until the condition is cured by other means.
 
-**Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become obsessed with the petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
+**Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become Obsessed* with the Petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
 
-**Damaging A Petrified Creature.** If a petrified creature is physically damaged or broken during this state, it will manifest the same damage upon being reverted to its original form.
+**Damaging A Petrified Creature.** If a Petrified creature is physically damaged or broken during this state, it will manifest the same damage upon being reverted to its original form.
 
 #### Fireworks
 *4th-level  evocation*
@@ -1529,6 +1528,20 @@ Choose one non-wondrous magic item you can see within range. The properties and 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional magic item for each slot level above 2nd. If you cast this spell using a spell slot of 7th level or higher, you may choose one wondrous magic item as one of your targets.
 
+#### Lighting Strike
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 feet
+- **Components:** V, S, M (A bit of fur and a rod of amber, crystal, or glass)
+- **Duration:**  Instantaneous
+- **Classes:**  Druid
+___
+
+You summon a bolt of lightning to strike a point you can see within range. Each creature within 5 feet of that point must make a Dexterity saving throw, taking 3d10 lightning damage on a failed save, or half as much damage on a successful one.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can summon an additional lightning bolt for each slot level above 2nd. These bolts can target the same or different points. If a creature is in the area of more than one lightning bolt, it is affected only once.
+
 \pagebreakNum
 
 #### Magmatic Stone
@@ -1645,17 +1658,16 @@ You weave a shadowy link between yourself and a willing creature you can see wit
 The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
 
 #### Molten Silver 
-
-*5th-level evocation*
+*5th-level Evocation*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 30 feet
 - **Components:**  V S M (A small piece of sliver)
 - **Duration:**  Instantaneous
 - **Classes:**   Artificer
 ___
 
-A line of searing liquid silver up to 30 feet long and 5 feet wide emanates from you in a direction you choose. At the end of the line, the silver spreads out into a 30-foot cone emanating in the direction of the line. Each creature in the line or cone must make a Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage and 4d6 bludgeoning damage; on a successful save, the creature takes half as much damage.
+A line of searing liquid silver up to 30 feet long and 5 feet wide emanates from you in a direction you choose. At the end of the line, the silver spreads out into a 30-foot cone emanating in the direction of the line. Each creature in the line or cone must make a Dexterity saving throw. On a failed save, a creature takes 5d6 Fire damage and 5d6 Bludgeoning damage; on a successful save, the creature takes half as much damage.
 
 \pagebreakNum
 
@@ -1942,7 +1954,6 @@ At the end of each of your turns, you may choose to infect a creature that you c
 \columnbreak
 
 #### Plague of Rust
-
 *3rd-level transmutation*
 
 - **Casting Time:** 1 action
@@ -3145,7 +3156,7 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Curse of Stone 1.0.0
 * Cursed Blades 1.0.0
 * Dampen Magic 1.0.0
-* Dazzling Light 1.0.0
+* Dazzling Light 1.1.0
 * Death Frenzy 1.0.0
 * Deathly Frost 1.0.0
 * Decrepify 1.0.0
@@ -3158,7 +3169,7 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Elemental Bane (Revised) 1.0.0
 * Elemental Weapon (Revised) 1.0.0
 * Eruption 1.0.0
-* Final Transmutation 1.0.0
+* Final Transmutation 1.1.0
 * Fireworks 1.0.0
 * Foot of The Gods 1.0.0
 * Forbidden Grove 1.0.0
@@ -3190,6 +3201,7 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Incantation of Zeal 1.0.0
 * Infuse Plant 1.0.0
 * Law of Negation 1.0.0
+* Lightning Strike 1.0.0
 * Magmatic Stone 1.0.0
 * Mass Haste 1.0.0
 * Metal Coat 1.0.0
@@ -3198,7 +3210,7 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Mindrazors 1.0.0
 * Mind Spike (Revised) 1.0.0
 * Mirror Dance 1.0.0
-* Molten Silver 1.0.0
+* Molten Silver 1.1.0
 * Monstrous Transformation 1.1.0
 * Mystifying Miasma 1.0.0
 * Net of Light 1.0.0
@@ -3228,10 +3240,10 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Skull Storm 1.0.0
 * Slashing Shards 1.1.0
 * Smoke Shroud 1.1.0
-* Snowball Swarm (Revised) 1.0.0
 
 \pagebreakNum
 
+* Snowball Swarm (Revised) 1.0.0
 * Soul of Winter 1.0.0
 * Soul Quench 1.0.0
 * Spirit Leech 1.0.1

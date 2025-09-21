@@ -1,4 +1,4 @@
-
+ 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Lore of Light
@@ -8,13 +8,13 @@ This magic taps into the power of light and its <br> many aspects. Its users not
 *1st-level evocation*
 ___
 - **Casting Time:** 1 action
-- **Range:** 20 feet
+- **Range:** 10 feet
 - **Components:** V
 - **Duration:**  Instantaneous
 - **Classes:**  Cleric
 ___
 
-You fixate on two points within the spell's range, no more than 20 feet apart, that you can see. Beams of searing light erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. Creatures take 1d6 fire damage and 1d6 radiant damage on a failed save. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
+You fixate on two points within the spell's range, no more than 10 feet apart, that you can see. Beams of searing light erupt from your eyes, blazing between the two points. Any creature intersected by the path of the beams must make a Dexterity saving throw. Creatures take 1d6 fire damage and 1d6 radiant damage on a failed save. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the fire damage increases by 1d6, the radiant damage increases by 1d6, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 1st.
 
@@ -27,11 +27,13 @@ ___
 - **Duration:**   Instantaneous
 - **Classes:**  Cleric, Bard
 
-You unleash a burst of radiant light at a point you choose within range.
+You unleash a burst of radiant light at a point you choose within range. 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
- Each creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw. On a failed save, a creature becomes blinded until the end of your next turn.
+Each creature in a 15-foot-radius sphere centered on that point must succeed on a Constitution saving throw or take 2d10 Radiant damage and become Blinded until the end of your next turn. A creature that succeeds on its saving throw takes half as much damage and isn’t Blinded.
+ 
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d10 for each slot level above 3rd.
 
 #### Holy Nova
 *4th-level evocation*
@@ -42,7 +44,7 @@ ___
 - **Duration:**   Instantaneous
 - **Classes:**  Cleric, Paladin
 
-A burst of divine light emanates from you, enveloping all creatures within 30 feet. Each creature in this area must make a Constitution saving throw. Creatures take 3d6 + your Wisdom modifier radiant damage on a failed save, and half as much on a success.
+A burst of divine light emanates from you, enveloping all creatures within 30 feet. Each creature in this area must make a Constitution saving throw. Creatures take 3d6 + your spell modifier radiant damage on a failed save, and half as much on a success.
 
 You and up to four creatures of your choice within the area automatically succeed on this saving throw, taking no damage. Instead, you and the chosen creatures are bathed in the healing radiance, regaining hit points equal to the total radiant damage dealt.
 
@@ -82,7 +84,7 @@ Choose up to six willing creatures in a 30-foot-radius sphere centered on a poin
 
 
 #### Net of Light
-*4th-level conjuration*
+*5th-level conjuration*
 ___
 - **Casting Time:** 1 action
 - **Range:** 60
@@ -93,7 +95,6 @@ ___
 You weave a radiant web of binding light at a location you can see within range. This web encompasses a 20-foot cube and lingers for the spell's duration, shedding bright light throughout the area and turning it into difficult terrain.
 
 When a creature starts its turn within the web or enters the web during its turn, it must make a Charisma saving throw. On a failed save, the creature becomes restrained and blinded for as long as it remains in the web or until it manages to break free.
-
 
 
 \columnbreak
@@ -109,7 +110,7 @@ A restrained creature can take an action on its turn to attempt another Charisma
 ___
 - **Casting Time:** 1 bonus action
 - **Range:** 60
-- **Components:** V S M, (sliver coin)
+- **Components:** V S M (sliver coin)
 - **Duration:**  1 round.
 - **Classes:**  Cleric, Paladin
 ___
@@ -143,3 +144,6 @@ style='position:absolute;right:100px;top:-95px;height:1400px;width:1416px;transf
 * Update Burning Gaze to deal no damage on a successful save
 * Increase Range of Burning Gaze
 * Increase the damage of Burning Gaze
+
+#### 1.1.0
+* Dazzling Light now deals damage.

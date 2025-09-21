@@ -888,8 +888,8 @@ You attempt to interrupt a creature in the process of casting a spell. The targe
 
 If the caster chooses not to cast the spell, the action, bonus action, or reaction used to cast it is wasted, but the spell slot is not expended.
 
-#### Dazzling Light 1.0.0
-*3rd-level evocation*
+#### Dazzling Light 1.1.0
+*3rd-level Evocation*
 ___
 - **Casting Time:** 1 action
 - **Range:** 120 fee
@@ -897,7 +897,9 @@ ___
 - **Duration:**   Instantaneous
 - **Classes:**  Cleric, Bard
 
-You unleash a burst of radiant light at a point you choose within range.  Each creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw. On a failed save, a creature becomes blinded until the end of your next turn.
+You unleash a burst of radiant light at a point you choose within range. Each creature in a 15-foot-radius sphere centered on that point must succeed on a Constitution saving throw or take 2d10 Radiant damage and become Blinded until the end of your next turn. A creature that succeeds on its saving throw takes half as much damage and isn’t Blinded.
+ 
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d10 for each slot level above 3rd.
 
 #### Death Frenzy 1.0.0
 *2nd-level transmutation*
@@ -1149,25 +1151,24 @@ ___
 ___
 Vengeful flames strike out at a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 fire damage. When you make the attack, you can choose to gain advantage on the attack roll. If you do so, attack rolls against you have advantage until the start of your next turn.
 
-#### Final Transmutation 1.0.0
+#### Final Transmutation 1.1.0
+*9th-level Transmutation*
 
-*9th-level transmutation*
-
-
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 60 ft
 - **Components:** V, S, M (A bar of lead)
-- **Duration:**  Concentration, up to 10 minutes
-- **Classes:**  Sorcerer, Wizard, Warlock
+- **Duration:**  1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
-You speak a word of power that transforms a creature you can see within range. If the target has 150 hit points or fewer, it is petrified, turning to gold until the spell ends. Otherwise, the spell has no effect.
+You speak a word of power that transforms a creature you can see within range. The target must make a Constitution saving throw. If the target has 150 hit points or fewer, it automatically fails. On a failed save, it is Petrified, turning to gold until the spell ends. On a successful save, the creature is Restrained until the end of your next turn.
 
-**Ending The Effect.** A petrified target can make a Constitution saving throw at the start of each of its turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell (including the initial failed save), it remains petrified indefinitely until the condition is cured by other means.
+**Ending The Effect.** A Petrified target can make a Constitution saving throw at the start of each of your turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell, it remains Petrified indefinitely until the condition is cured by other means.
 
-**Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become obsessed with the petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
+**Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become Obsessed* with the Petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
 
-**Damaging A Petrified Creature.** If a petrified creature is physically damaged or broken during this state, it will manifest the same damage upon being reverted to its original form.
+**Damaging A Petrified Creature.** If a Petrified creature is physically damaged or broken during this state, it will manifest the same damage upon being reverted to its original form.
+
 
 #### Find Hazards (Replaces Find Traps) 0.0.0
 *2nd-level divination*
@@ -2043,17 +2044,17 @@ You weave a shadowy link between yourself and a willing creature you can see wit
 The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
 
 
-#### Molten Silver 1.0.0
-*5th-level evocation*
+#### Molten Silver 1.1.0
+*5th-level Evocation*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 30 feet
 - **Components:**  V S M (A small piece of sliver)
 - **Duration:**  Instantaneous
 - **Classes:**   Artificer
 ___
 
-A line of searing liquid silver up to 30 feet long and 5 feet wide emanates from you in a direction you choose. At the end of the line, the silver spreads out into a 30-foot cone emanating in the direction of the line. Each creature in the line or cone must make a Dexterity saving throw. On a failed save, a creature takes 4d6 fire damage and 4d6 bludgeoning damage; on a successful save, the creature takes half as much damage.
+A line of searing liquid silver up to 30 feet long and 5 feet wide emanates from you in a direction you choose. At the end of the line, the silver spreads out into a 30-foot cone emanating in the direction of the line. Each creature in the line or cone must make a Dexterity saving throw. On a failed save, a creature takes 5d6 Fire damage and 5d6 Bludgeoning damage; on a successful save, the creature takes half as much damage.
 
 
 #### Molten Sphere 0.0.0
@@ -3907,6 +3908,14 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 #### 2.1.0
 * Add missing upcast option
 
+### Dazzling Light
+#### 1.1.0
+* Dazzling Light now deals damage.
+
+### Final Transmutation
+#### 1.1.0
+* Now works on creatures with more then 150 hitpoints forcing them to make a saving throw. It is also restrained on a success. The spell aslo does not require Concentration any more as lasts 1 minute
+
 ### Frost Nova
 #### 2.0.0
 * Reworked damage and radius
@@ -3923,6 +3932,10 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 ### Impending Doom 
 #### 1.1.0
 * A creature under the effects of Impending Doom can now no longer gain advantage on its rolls.
+
+### Molten Silver
+#### 1.1.0
+* Molten Silver damage increased to 5d6 fire damage and 5d6 bludgeoning damage.
 
 ### Monstrous Transformation
 #### 1.1.0
