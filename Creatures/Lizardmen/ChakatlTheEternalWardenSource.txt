@@ -1,0 +1,183 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+   .phb#p12:after, .phb#p13:after, .phb#p16:after, .phb#p24:after, .phb#p30:after, .phb#p31:after, .phb#p32:after, .phb#p33:after, .phb#p35:after, .phb#p37:after, .phb#p38:after, .phb#p39:after, .phb#p41:after, .phb#p45:after, .phb#p47:after, .phb#p49:after, .phb#p50:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Chakatl, The Eternal Warden
+*Supreme Bodyguard of The Ancient Mage-Priests*<br>
+**Habitat:** Jungle; **Treasure:** Armaments, Individual <br>
+Among the saurian temple guard, tasked with protecting the venerated sload mage priests who rule over the lizardfolk, only a select few are entrusted with the most crucial duties. These duties involve watching over the oldest and most powerful mage priests, who reside within the ancient City of Stars and hibernate in the great temples of this ancient settlement. The death of such beings, who possess vast knowledge and power, would be an irretrievable loss to the lizardfolk.
+
+It is Chakatl who now takes up the mantle of Eternal Warden, ever watchful for any threat that might befall his sacred charges. This stalwart bodyguard is aware of even the slightest disturbance in the air or the faintest of sounds. In addition to his own extraordinary perception, Chakatl wears the skull of the first temple guard atop his head, its lingering spirit amplifying his senses so that no foe can ambush him. Over the centuries, all assassination attempts on the mage priests under Chakatl’s guardianship have been crushed without effort or hesitation. 
+
+Wielding the massive Star-Stone Mace with precision, Chakatl delivers earth-shattering blows that would reduce a normal human soldier to nothing but a red stain. Should a transgressor possess great power and manage to survive such a devastating blow, they will find all enchantments upon them nullified. Additionally, Chakatl bears a great key hanging about his neck, a artifact of the Temple of the Star City, which grants him the power to slow time itself around his enemies. To this day, none under Chakatl’s protection have ever fallen.
+
+### Chakatl Tactics
+Chakatl's primary role is to protect his Sacred Charge and keep them alive. He engages the largest group of enemies to draw attention and control the battlefield.
+
+#### Actions
+* **Tossing Bite:** Chakatl uses his Tossing Bite to reposition enemies. He targets melee combatants to move them away from his Sacred Charge or to group enemies together so he can make better use of his Eternal Warden and Key of Eternity traits.
+* **Star-Stone Mace:** When striking with his Star-Stone Mace, Chakatl prioritizes enemies that either have the most magic items, that are knocked prone from his Tossing Bite, or that have been slowed by his Key of Eternity.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br>
+
+#### Reactions
+* **Intercept:** Chakatl uses Intercept to disrupt as many enemy attacks and spells as possible. He positions himself adjacent to the attacker, ensuring his Eternal Warden trait applies to the creature targeting his Sacred Charge.
+* **Warden's Strike:** When an enemy attempts to escape, either by disengaging, teleporting, or using interplanar travel, Chakatl uses Warden's Strike to deny their retreat.
+    *  **Use Tossing Bite** to throw them away from his Sacred Charge if the target is a melee combatant with low Strength.
+    *  **Otherwise, use his Star-Stone Mace** to deal greater damage and suppress magical items.
+
+<br>
+
+> ##### New Condition: Rampaging
+> The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+> * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
+&emsp;If no targets are within range, it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
+> * The creature can't cast spells or maintain concentration on spells or other effects.
+> * Any charmed or frightened effects on the creature are suspended.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:13px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Chakatl, The Eternal Warden
+> *Medium Humanoid (Saurian), Mini-Boss, Lawful Neutral*
+> ___
+> - **Armor Class** 18                **Initiative** +12 (22)
+> - **Hit Points** 256 (27d8 + 135)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +11, Perception +15, Stealth +7
+> - **Senses** Blindsight 30 ft, Darkvision 30 ft., Passive Perception 25
+> - **Languages** Draconic
+> - **Challenge** 14 (11,500 XP) &emsp;&emsp;&emsp; **Proficiency Bonus** +5
+> ___
+>
+> ### Traits
+>
+> ***Cold Blooded.*** Chakatl has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Eternal Warden.*** Chakatl protects a sacred object or creature known as his Sacred Charge. While within 60 feet of his Sacred Charge, all Charmed, Frightened, and Rampage* effects affecting him are suspended.
+>
+> Additionally, while Chakatl is not Incapacitated, enemies within 10 feet of him have a –5 penalty on attack rolls against his Sacred Charge. His Sacred Charge also gains a +5 bonus to any saving throw it is forced to make by those enemies.
+>
+> ***Key of Eternity*** Chakatl emits a 10-foot aura. Any creature of his choice that ends its turn within the aura must make a *Charisma Saving Throw:* DC 19. <br>
+> *Failure:* The target is affected by the *Slow* spell until the end of Chakatl’s next turn.
+>
+> ***Primal Revenge (Recharges after a Short or Long Rest).*** If Chakatl’s Sacred Charge is destroyed or killed, he enters a Rampage*.
+>
+> ***Reactive.*** Chakatl can take one reaction on every turn in combat, as long as he is not Rampaging.
+>
+> ***Vigilant.*** Chakatl cannot be surprised.
+>
+> ### Actions
+>
+> ***Multiattack.*** Chakatl makes two melee attacks, or three if he is Rampaging.
+>
+> ***Tossing Bite.*** *Melee Weapon Attack:* +11 to hit (with advantage if it was an opportunity attack), reach 5 ft., one target. *Hit:* 13 (2d6 + 6) Piercing damage. The target must make a *Strength Saving Throw:* DC 19. <br>
+> *Failure:* Chakatl may move the target up to 20 feet in any direction and knock it Prone.
+>
+> ***Star-Stone Mace.*** *Melee Weapon Attack:* +11 to hit (with advantage if it was an opportunity attack), reach 10 ft., one target. *Hit:* 20 (4d6 + 6) Bludgeoning damage. Any magic items the target is attuned to are suppressed as if under the effects of an *antimagic field* until the end of Chakatl’s next turn.
+>
+> ### Reactions
+>
+> ***Intercept.*** *Trigger:* A creature targets Chakatl’s Sacred Charge with an attack, spell, or ability. <br>
+> *Response:* Chakatl moves up to half his speed toward the attacker without provoking opportunity attacks. This occurs before the triggering attack roll or saving throw is made.
+>
+> ***Warden's Strike.*** *Trigger:* A creature within 5 feet of Chakatl takes the Disengage action, attempts to teleport, or uses interplanar travel.<br>
+> *Response:* Chakatl makes an opportunity attack against the creature. On a hit, the creature’s speed becomes 0 until the end of the turn. If the creature was attempting to teleport or use interplanar travel, the effect fails and the spell or ability is wasted.
+> 
+> **New condition described on previous page*
+
+<br>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
