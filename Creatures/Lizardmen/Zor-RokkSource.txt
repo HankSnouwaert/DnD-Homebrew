@@ -1,0 +1,347 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p4:after, .phb#p5:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Zor-Rokk, The Pale Lizard
+*Indomitable Champion of The Lizardmen*<br>
+**Habitat:** Jungle; **Treasure:** Armament, Individual <br>
+
+In the days when the stars of Heaven align in solemn council, and the fires of distant mountains blaze forth, casting white flames to dance upon the mirror of the sea, there shall arise a Saurian from the sacred pool, alone and peerless, clad in scales of alabaster, towering in stature beyond all kin that came before. His body and mind shall be wrought as if from iron, unbreakable in loyalty and limb, a hero forged by the will of the Old Ones.
+
+And lo, a Priest of the Heavens, beholding his unwavering devotion, and a Priest of the Beasts, marveling at his primal strength, shall come forth to greet this new-made warrior. Both shall bow before his might and proclaim his destiny. By their command, the ancient seals of the armories, hidden deep within the thickest wilderness and guarded by the disciples of the Old Ones, shall be broken. From those shadowed depths shall be drawn a mace of turquoise, its strikes guided by the unerring will of the Old Ones, a weapon to rend the enemies of the divine.
+
+Moreover, it shall be decreed that a shield be forged for the Pale Lizard, worthy of his grandeur. To the Mountains of White Flame shall the priests’ servants journey, where, with toil unyielding, twelve Crox shall labor to hew a mighty slab of stone. Torn from the grasp of the earth, it shall be borne to the mainland, where twelve artificers, skilled in the craft of ages, shall carve a shield of such vastness that none but the great Pale Lizard may wield it in battle.
+
+With these gifts—the mace of turquoise and the shield of stone—the Pale Lizard shall go forth in the name of the Old Ones. Armies shall rise against him, crashing as waves upon unyielding cliffs, yet he shall endure. The mongrels of chaos shall be scattered before his might, their armaments crushed beneath his tread. As it has been planned by the Old Ones, so shall it be.
+
+##### Zor-Rokk Adventure Hooks
+
+| d4  | Plot Hook |
+|:---:|:-----------:|
+|  1  | **The Relentless Guardian.** A long-forgotten city in the jungle is being unearthed by treasure-hunters beging escorted by the players, only to find it is still guarded. Zor-Rokk, ancient and immovable, emerges from the overgrowth and begins slaughtering the invaders alongside other jungle beasts. The players must escape the carnage and Zor-Rokk's wrath. |
+|  2  | **The Twisted Bastion.** A temple-city bastion once guarded by Zor-Rokk has fallen to chaos forces. Now, visions plague nearby mage-priests: Zor-Rokk’s spirit endures in the ruins, twisted and befuddled by dark magic. The party is sent to defiled ruins of the city liberate the spirit of the unbreakable warrior before it is consumed by the demons lurking within. |
+
+\columnbreak
+
+<br><br><br><br>
+
+
+|   |  |
+|:---:|:-----------:|
+|  3  | **Aid of The Pale Lizard.** While adventuring through a sinister underground lair belonging to dark elves or ratfolk, the players encounter Zor-Rokk and the remments of an ill-fated lizardfolk strike force seeking to reclaim a stolen relic. Zor-Rokk offers his protection to the players if they help him recover the relic.
+|  4  |**Undying Will.** In the wake of a massive undead assault on a lizardmen outpost, survivors claim to have seen a saurus warrior still fighting despite carrying obviously mortal wounds. Skink oracles whisper that Zor-Rokk has kept on fighting as an undead mockery, his undying will fueling driving his broken body forward.
+
+##### Zor-Rokk, The Pale Lizard Art Credit
+* Rivaz of the Claw - Joshua Raphael, Wizards of the Coast
+* Jungle Hollow - Eytan Zana, Wizards of the Coast
+* Dread Osseosaur - David Auden Nash, Wizards of the Coast
+
+
+<img
+src='https://i.postimg.cc/cCM1kTjP/Rivaz-of-the-Claw-Dominaria-United-Mt-G-Art.jpg'
+style='position:absolute;top:300px;left:-0px;width:1300px;transform: rotate(0deg) scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:25px;top:-0px;height:1400px;width:1416px;transform:rotate(-83deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-145px;top:-626px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:13px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Zor-Rokk, The Pale Lizard
+> *Medium Humanoid (Saurian), Lawful Neutral*
+> ___
+> - **Armor Class** 20              **Initiative** +12 (22)
+> - **Hit Points** 294 (28d8 + 168)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">24</td><td style="background-color:#e0e5c1; text-align:center">+7</td><td style="background-color:#e0e5c1; text-align:center">+7</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">22</td><td style="background-color:#e0e5c1; text-align:center">+6</td><td style="background-color:#e0e5c1; text-align:center">+11</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+10</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +12, Perception +15, Stealth +7  
+> - **Immunities** Charmed, Exhaustion, Frightened  
+> - **Senses** Blindsight 30 ft., Darkvision 30 ft., Passive Perception 25  
+> - **Languages** Draconic  
+> - **Challenge** 15 (13,000 XP)    **Proficiency Bonus** +5  
+> ___
+>
+> ### Traits
+>
+> ***Implacable.*** Zor-Rokk has advantage on saving throws against being Incapacitated, Stunned, or Paralyzed.
+>
+> ***Sheltering Shield.*** As long as Zor-Rokk isn’t Incapacitated and there are no hostile creatures within 5 feet of him, he has three-quarters cover. If Zor-Rokk is subjected to an effect that allows him to make a saving throw to take only half damage, he instead takes no damage on a successful save and half damage on a failed one.
+>
+> ***Shield of Aeons.*** If a creature moves at least 10 feet straight toward Zor-Rokk immediately before making a melee attack, that attack is made with disadvantage. If the attack misses and the creature is within 5 feet of him, it takes 10 (3d6) Bludgeoning damage.
+>
+> ### Actions
+>
+> ***Maul of the Old Ones.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 21 (4d6 + 7) Bludgeoning damage. Zor-Rokk chooses one of the following effects:  
+> **Batter.** The target must make a *Strength Saving Throw:* DC 20.  
+>   *Failure:* The target is pushed up to 15 feet away and knocked Prone.  
+>   *Failure by 10+:* The target is pushed 30 feet away and can’t stand up until the end of its next turn.  
+> **Crush.** The target must make a *Strength Saving Throw:* DC 20.  
+>   *Failure:* The target takes 14 (4d6) Bludgeoning damage.  
+>   *Failure by 10+:* The target takes 28 (8d6) Bludgeoning damage.  
+> **Concuss.** The target must make a *Constitution Saving Throw:* DC 20.  
+>   *Failure:* The target is Dazed* and can’t Concentrate until the start of Zor-Rokk’s next turn.  
+>   *Failure by 10+:* The target is Stunned while Dazed.
+>
+> ***Rock.*** *Melee or Ranged Weapon Attack:* +12 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 13 (2d6 + 7) Bludgeoning damage. If the attack targets a flying creature, it has advantage, and on a hit the target is knocked Prone.
+>
+> ### Monstrous Actions. 
+> Zor-Rokk gains two additional actions in combat: Shield Charge and Earth Break. He also gains Chomping Frenzy while he is at 150 hit points or less. Each action can be performed on its own initiative count (losing ties), separate from Zor-Rokk’s own, if he is not Incapacitated. He can replace any action with Tenacious Will, even if Incapacitated.
+>
+> ***Shield Charge (Initiative Count 15).*** Zor-Rokk moves up to 30 feet in a straight line, ignoring difficult terrain and moving through the space of any creature. Each creature whose space he enters must make a *Dexterity or Strength Saving Throw (target’s choice)*: DC 20.  
+>   *Failure:* The creature takes 14 (4d6) Bludgeoning damage and is pushed ahead of Zor-Rokk for the rest of his movement.  
+>   *Successful Dexterity Save:* The creature takes no damage and is pushed 5 feet aside to the nearest space out of his path.  
+>   *Successful Strength Save:* The creature takes half damage, and Zor-Rokk’s movement ends.
+>
+> ***Earth Break (Initiative Count 10).*** Zor-Rokk moves up to 15 feet in a straight line and slams his maul into the ground, unleashing a wave of destruction in a 15-foot cube originating from him. The ground in the area becomes difficult terrain. Each creature in that area must make a *Constitution Saving Throw:* DC 20.  
+>   *Failure:* The creature takes 14 (4d6) Bludgeoning damage and is knocked Prone.  
+>   *Failure by 10+:* The creature is buried under rubble and Restrained. Any creature, including the buried one, can use its action to free it with a DC 20 Strength Check (with advantage if the rescuer has a Burrow speed).
+>
+> ***Chomping Frenzy (Initiative Count 1; only while at 150 hit points or less).*** Zor-Rokk makes a bite attack against each creature within 5 feet of him. *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 21 (4d6 + 7) Piercing damage, and the target suffers a rending Wound. While Wounded, the target has disadvantage on Strength, Dexterity, and Constitution saving throws, checks, and attack rolls, and its Speed is halved. The Wounded creature, or a creature within 5 feet of it, can use an action to make a DC 20 Wisdom (Medicine) Check, ending the effect on a success. The effect also ends if the target regains 15 or more hit points. If the target already has a rending Wound, it instead takes 28 (8d6) additional Piercing damage.
+>
+> ***Tenacious Will.*** If Zor-Rokk is subject to an ongoing effect that allows a saving throw as an action or at the start or end of his turn, he can immediately make that save with advantage, ending the effect on a success.
+
+</span>
+
+\pagebreakNum
+
+### Epic Battle: Bastion of The Old Ones
+
+If you wish to make Zor-Rokk into an even greater threat for late-game adventurers, you may give him the Resilient trait described below. This increases his Challenge Rating to 18.
+
+***Resilient.***  Zor-Rokk has resistance to all damage from attacks.
+
+Whenever a creature has advantage on an attack roll against Zor-Rokk, it can choose to roll only one die instead of two as it aims for his weak point. If the attack hits, it ignores Zor-Rokk’s resistances. The attack still counts as having advantage for the purpose of abilities such as a rogue’s Sneak Attack.
+
+If any damage would reduce Zor-Rokk to 0 hit points and did not target his weak point, he is reduced to 1 hit point instead. Zor-Rokk only dies if he is reduced to 0 hit points from damage dealt to his weak spot.
+
+### Example Lizardmen Encounters 
+The following are example encounters that can be used in adventures featuring Zor-Rokk, the Pale Lizard. These encounters assume that he is a Hard challenge and are designed for parties of level 11 characters. The creatures listed here can be found in the Lizardmen Compendium.
+
+| 1d12  | Encounter |
+|:---:|:-------------|
+| 1 | 1 Saurian Scar Commander & 4 Saurian Warriors |
+| 2 | 2 Crox Warrior & 6 Skink Skirmishers |
+| 3 | 4 Saurian Warriors with the Blessing of the Beast God, riding atop a Cold Bloods
+| 4 | 1 Carnosaur with the Blessing of the Wind God|
+| 5 | 2 Razorsaur & 6 Skink Skirmishers | |
+| 6 | 3 Sacred Saurian with the Blessing of the Protector God|
+| 7 | 2 Sacred Saurian with the Blessing of the Beast God and the Blessing of the Stoic God atop riding atop a Cold Bloods |
+| 8 | 1 Skink Priest (Lore of Beast) & 3 Razorsaur |
+| 9 | 3 Sacred Saurian with the Blessing of the God of Fate |
+| 10 | 1 Saurian Scar Commander, 1 Skink Chieftain & 4 Skink Skirmishers |
+| 11 | 2 Sacred Crox Warrior with the Blessing of the Protector God  |
+| 12 | 1 Ceradon with a large howdah carrying 4 Skink Warriors |
+
+\columnbreak
+
+
+> 
+> *The beast crashed through the thicket, hurlin’ toward us with a slab o’ stone big as a barn door. A great white lizard, standin’ on two legs, drove it forward with one arm near thick as a man’s chest. The two lads in front o’ me barely had time to clutch their halberds afore that slab smashed into ‘em. Blood and bone painted the stone red. Our wizard, old Erich, was quick to act, mutterin’ his incantations, flames dancin’ ‘cross his fingers like he’d done with all the other mongrels we’d faced. But that thing swung a mace, a brutal thing bigger’n any I’d ever seen, and cracked him ‘cross the head. The poor fool’s head near split, his eyes rollin’ every which way as he stumbled back, clingin’ to life by a thread.*
+>
+> *The Captain, bold as brass, was a few paces off, atop his warhorse. He hefted his lance and spurred his steed to a full gallop, roarin’ a battle cry that’d make an orc quake. But that cold blood-thing blinked once, calm as a drill sergeant on parade, and turned its slab-shield to meet him. The Captain, all gleam and glory in his knightly plate, crashed into it like an egg toss against a wall. His horse screamed, legs snappin’ like dry twigs, and the man himself twisted every which way, armor bucklin’ under the force, left lookin’ like a piece of crumbled parchment. All this time, that white-scaled hide was still pristine, with not a drop of gore stainin’ it.*
+>
+> *I didn’t see what came next. My legs decided they’d had enough o’ that slaughter. They carried me far from that cursed place, heart poundin’ like a drum. Last I heard was a sound like a felled oak crashin’ to the ground, and that poor beast’s wailin’ cut short. And that’s why I’ll never step foot in that forsaken wilderness again.*
+> 
+>
+>  -Baldwin Eugster, Sole Survivor of The Hartmann Expedition
+
+
+<img src='https://i.postimg.cc/T14x4S0p/Jungle-Hollow-Khans-of-Tarkir-Mt-G-Art.jpg' style='position:absolute; bottom:-60px; right:-40px; width:700px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:-0px;height:1400px;width:1416px;transform:rotate(-90deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-40px;top:-450px;height:1400px;width:1416px;transform:rotate(3deg)' />
+
+
+\pagebreakNum
+
+### Zor-Rokk Tactics
+Zor-Rokk is a melee-focused fighter able strike multiple enemies at once, applying debilitating conditions to control the battlefield. His tactics prioritize positioning, targeting vulnerable enemies, and maximizing the impact of his monstrous actions.
+
+**Standard Turn.**
+Zor-Rokk uses his turn to position himself optimally for his Shield Charge monstrous action when possible, while still prioritizing attacks against nearby targets. He prefers to target enemies already afflicted by debilitating conditions he has imposed (e.g., Rending Wounds or Restrained), especially if he has advantage against them. However, he will not forgo an attack just to set up a Shield Charge.
+
+When attacking, Zor-Rokk chooses one of the following additional effects based on the situation:
+
+**Batter:** Used to push a low-Strength target into position for a Shield Charge, aligning it with other enemies.
+
+**Crush:** Applied when the target is already in a favorable position, particularly against opponents with low Strength.
+
+**Concuss:** Employed to prevent skirmishers or ranged attackers from escaping, or to disrupt spellcasters maintaining concentration.
+
+#### Monstrous Actions
+**Shield Charge:** Zor-Rokk prioritizes hitting as many targets as possible, focusing on ranged fighters. He avoids targeting creatures with high Strength saving throws. If unable to reach ranged targets, he moves toward them to close the distance.
+
+**Earth Break:** Used against the largest group of enemies within range to maximize impact. This ability also prevents enemies from weaving in and out of combat.
+
+**Chomping Frenzy:** Activated when Zor-Rokk’s hit points drop to 100 or below. He targets as many enemies as possible, inflicting Rending Wounds to debilitate them. He uses his other monstrous actions to pursue and finish off wounded enemies attempting to flee.
+
+
+
+\columnbreak
+
+### Zor-Rokk Loot
+
+Because saurian are humanoids, most of the valuable goods that can be looted from Zor-Rokk are the remains of the equipment he was using or valuables he was carrying. Most dropped valuables can be found using an **Intelligence (Investigation)** check. 
+
+As an alternative to making any checks, you can roll for the loot randomly using a flat modifier.
+
+#### Zor-Rokk Loot Tables
+The following tables describe the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. If they're making checks, you can have them make a separate check for each creature they're looting or use one check for multiple creatures at once to save time.
+
+##### Zor-Rokk Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 1d4(2) 500gp Item |
+|  10-12 | 1d6(3) 500gp Items | 
+|  13-18 | 1d4(2) 1,000gp Items  |  
+|  19-24 | 1d6(3) 1,000gp Items |  
+|  25+ |  1d4(2) 2,000gp Items |  
+
+
+
+##### Epic Encounter Loot Table
+
+| Looting Check Result or 1d20 + 7 |  Loot  |
+|:---:|:-----------:|
+|  1-9  | 2d4(5) 500gp Item |
+|  10-12 | 1d6(3) 1,000gp Item | 
+|  13-19 | 2d4(5) 1,000gp Items  |  
+|  20-24 | 2d4(5) 1,000gp Items |  
+|  25+ |  2d6(7) 2,000gp Items |  
+
+#### Example Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+##### Example Zor-Rokk Item Names
+|1d4 | 500gp Item | 1,000gp Item | 2,000gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1 <br> (Bone)  |   Cracked Relic Skull |  Relic Skull |  Pristine Relic Skull  | 
+| 2 (Jewelry)  | Damaged Star Ruby Amulet| Star Ruby Amulet |  Masterwork Star Ruby Amulet  |
+| 3 <br> (Hide)  | Damaged Ancient Scales| Ancient Scales |  Pristine Ancient Scales  | 
+| 4 <br> (Stone) | Damaged Relic Armament| Relic Armament |  Masterwork Relic Armament | 
+
+<img src='https://i.postimg.cc/Bn5y8kFd/lci-129-dread-osseosaur.jpg' style='position:absolute; bottom:-1470px; left:-1030px; width:1700px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-635px;top:-0px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-40px;top:-370px;height:1400px;width:1416px;transform:rotate(3deg)' />
+
+\pagebreakNum
+
+## New Magic Items
+
+#### Shield of Aeons
+*Armor (Shield), Uncommon (Requires Attunement), 2,000gp*
+
+A creature with a Strength of 20 or less is unable to use this shield.
+
+While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. 
+
+Additionally, if a creature moves at least 10 feet straight towards you immediately before it makes a melee attack against you, it has disadvantage on the attack.  If that attack misses, the creature takes 10 (3d6) Bludgeoning damage from the shield if it is within 5 feet of you.
+
+<br>
+
+##### New Magic Items Art Credit
+* Deconstruction Hammer - Dibujante Nocturno, Wizards of the Coast
+
+\columnbreak
+
+#### Maul of Unending Battle
+*Weapon (Maul), Uncommon (Requires Attunement), 6,000 gp*  
+
+At the start of each day, roll on the Battle Maneuvers Table below to pick a maneuver from the Battle Master fighter archetype. While you are holding the Maul of the Old Ones, you know one of the maneuvers chosen this way.
+
+If a maneuver you use requires a target to make a saving throw to resist its effects, the DC equals 8 + your proficiency bonus + your Strength modifier.
+
+The maul has three superiority dice, which are d12s. You can expend these dice to fuel your maneuvers while holding the weapon. The maul regains all expended superiority dice after 1 minute.
+
+##### Battle Maneuvers Table
+
+| d8 | Battle Maneuver       
+|:---:|:-----------|
+|  1  | Brace     |
+|  2  | Distracting Strike     |
+|  3  | Goading Attack     |
+|  4  | Grappling Strike     |
+|  5  | Menacing Attack     |
+|  6  | Pushing Attack     |
+|  7 | Sweeping Attack     |
+|  8 | Trip Attack     |
+
+<img src='https://i.postimg.cc/Fs25kwK9/lci-9-deconstruction-hammer.jpg' style='position:absolute; bottom:-110px; left:-0px; width:1000px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-135px;top:-610px;height:1400px;width:1416px;transform:rotate(15deg)' />
+  
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-125px;top:-580px;height:1400px;width:1416px;transform:rotate(0deg)' />  
+  
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
