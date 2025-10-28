@@ -1,3 +1,146 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Screeching Bells
+
+
+Mystery shrouds the creation of the most diabolical weapon ever conceived by the cunning minds of verminous kind, made manifest in a device called the screeching bell. Larger than a man, the sounds that issue from this massive, unholy instrument bring death and ruin to all who fall beneath its peal. It is whispered among the shadowed councils that eldritch engineers mingle all manner of blasphemous substances to forge these bells. Hex-stones and cursed artifacts, melted into the molten heart of the mix, are blended with the newly cast bell, its surface etched with incantations of dread power. For thirteen days, grey prophets perform rites unspeakable, uttering dark enchantments and offering blood sacrifices in the name of the Great God of Rats. Thus, the bell glows with an eerie green light, and the air about it warps with unnatural magics.
+
+Long before its form is glimpsed, the impending doom of the screeching bell is heralded by its sound, a cacophony rising to an agonizing crescendo. From the mists, a towering nightmare of wood and stone comes into view, pushed into battle by hordes of ratfolk warriors, their cowardice washed away by the thunderous symphony. At the summit of the structure, the terrible bell, fastened in place, lets loose a horde of cries as it swings back and forth, driven by a hulking beast perched beneath. Clinging to the bell’s side, swaying in mad fervor, a grey prophet cackles wildly, casting lethal spells with reckless abandon.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Soon, the wailing crescendo summons all manner of destructive phenomena. Stone shakes and splits asunder, while disciples of the Rat God rush forth in fits of zeal. Fires burst from the earth, and the very veil of reality tears apart. The ringing breaks the minds of all who hear it, for none subjected to the peal of the screeching bell remain whole thereafter.
+
+
+___
+___
+> ## Screeching Bell
+> *Huge Chariot (1,500 lb.)*
+> ___
+> - **Armor Class** 17    **Initiative** +0 (10)
+> - **Hit Points** 299 (26d12 + 130)
+> - **Speed** 40 ft.
+> ___
+> - **Immunities** Poison, Psychic, Lightning  
+> - **Constitution Modifier** +5  
+> - **Steed Capacity** 4 Medium creatures or 2 Large creatures  
+> - **Carriage Capacity** 1 Medium creature and 1 Large creature  
+> - **Challenge** 9 (5,000 XP)    **Proficiency Bonus** +4  
+> ___
+>
+> ### Traits
+>
+> ***Absorbed Momentum.*** At the end of each turn, if the screeching bell took 30 or more damage that turn, it gains 1 level of momentum.
+>
+> ***Eldritch Bell.*** The screeching bell counts as a magical object. A creature with an Intelligence of 16 or higher and proficiency in the Arcana skill can attune to the screeching bell as though it were a magic item.
+>
+> ***Elevated Platform.*** A Medium creature entering the screeching bell spends half its movement to climb to the top rather than 5 feet. If it does, it has half cover from melee attacks made by Medium or smaller creatures outside the bell.
+>
+> ***Mighty Swinging.*** A creature with a Strength score of 19 or higher riding within the chariot can use an Action to ring the bell, granting the Screeching Bell 1d3 levels of momentum.
+>
+> ***Peal.*** On initiative count 1 of combat, if the screeching bell has any momentum, it rolls a number of d6 equal to its momentum levels and triggers the corresponding effect from the Screeching Bell Effect Table (found on the next page). Each creature within a 60-foot emanation is subject to the effect. A creature attuned to the screeching bell can choose any number of creatures to be unaffected. The screeching bell then loses 1 level of momentum.
+>
+> ***Protection of the Rat God.*** The screeching bell and any allies of the attuned creature’s choice riding within it have advantage on saving throws against spells and other magical effects.
+>
+> ***Pushed.*** The screeching bell’s steeds are located at the back of the chariot instead of the front.
+>
+> ### Steed Actions
+>
+> ***Ram.*** Each creature within 5 feet of the front of the screeching bell must make a *Dexterity Saving Throw:* DC 17.  
+> *Failure:* The creature takes 7 (2d6) Bludgeoning damage for each steed that takes this action. If the bell moved 20 or more feet straight toward the creature immediately before taking this action, it takes 17 (5d6) Bludgeoning damage for each steed that took this action.
+
+<img src='https://i.postimg.cc/qB206FBG/fountainport-bell.jpg' style='position:absolute;right:-488px;top:-45px;width:1100px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-160px; right:250px; transform:rotate(90deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:97px; right:-190px; transform:rotate(0deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:527px; right:0px; transform:rotate(0deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:14px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+### Screeching Bell Effect Table
+| Peal Result | Name | Effect |
+|:---:|:---------------------|:-----------------|
+| 1 | **Not in Stride** | Nothing happens. |
+| 2-4 | **Unholy Clamour** | Each creature is Quickened* until the end of its next turn. |
+| 5-8 | **Emboldened** |Each creature gains 20 temporary hit points for 1 minute, and all Frightened conditions affecting them end. |
+| 9-10 | **Scorch** | Each creature must make a *Dexterity Saving Throw:* DC 17. <br> *Failure:* The creature takes 18 (4d8) Fire damage and starts Burning*. A burning creature takes 9 (2d8) fire damage at the end of each of its turns until the condition ends. <br> *Success:* Half damage and no Burning. <br> Nonmagical objects in the area take the same damage. |
+| 11-12 | **Deafening Peals** | Each creature must make a *Constitution Saving Throw:* DC 17 (disadvantage if the creature or object is made of inorganic material such as stone, crystal, or metal). <br> *Failure:* The target takes 22 (5d8) Thunder damage and is Dazed*. <br> *Success:* Half damage and no other effects. Nonmagical objects in the area take the same damage. |
+| 13 | **A Stirring Beyond the Veil** |Each creature must make a make a *Charisma Saving Throw:* DC 17. <br> *Failure:* The target takes 22 (5d8) Force damage, is Incapacitated, and is transported to a nightmarish demiplane until initiative count 1 of the next round, then reappears in the closest unoccupied space to where it disappeared. <br> *Success:* Half damage and no other effects. |
+| 14-16 | **Wail of Unholy Sound** | Each creature must make a *Wisdom Saving Throw:* DC 17. <br> *Failure:* The creature takes 27 (6d8) Psychic damage and is Frightened of the screeching bell until initiative count 1 of the next round. <br> *Success:* Half damage and no other effects. |
+
+\columnbreak
+
+|  |  |  |
+|:---:|:---------------------|:-----------------|
+| 17 | **Avalanche of Energy** | Each creature has advantage on the next attack roll it makes before the end of its next turn. If the attack hits, it deals an additional 22 (5d8) Force damage. |
+| 18+ | **Apocalyptic Doom** | The screeching bell explodes, destroying itself. Each creature must make a *Constitution Saving Throw:* DC 17. <br> *Failure:* The target takes 36 (8d8) Thunder damage, is pushed 20 feet away from the bell, and knocked Prone. <br> *Success:* Half damage only. <br> The attuned creature cannot exempt any creature from this effect. Nonmagical objects in the area take the same damage. |
+
+**New condition described on the next page*
+
+### Screeching Bell Tactics
+
+Screeching bells are most effective when supported by large numbers of allies, providing protection for spellcasters against enemy spellcasters and melee fighters. Warriors pushing the bell will use the Ram action to charge into enemies, then move to the front of the wagon to eliminate any remaining stragglers.
+
+ A creature with high Strength will reside within the bell and be charged with swinging it each round until it reaches three levels of power, at which point it will stop and use its action to attack any enemies near the bell.
+
+### Screeching Bell Encounters
+
+These are some simple example encounters that make use of a screeching bell. The other creatures listed here can be found in the Ratfolk Compendium.
+
+**Level 15 Encounter:** 1 Screeching Bell with 1 Grey Magus, 4 Ratfolk War Vermin, and 1 Rat Ogre 
+
+**Level 20 Encounter:** 1 Screeching Bell with 1 Grey Prophet, 4 Ratfolk Council Guard, and 1 Rat Ogre Bone Crusher
+
+<img src='https://i.postimg.cc/4yXJxvcX/specters-shriek.png' style='position:absolute;right:-110px;bottom:-60px;width:580px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:70px; right:240px; transform:rotate(90deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-150px; right:00px; transform:rotate(180deg); width:900px; filter:  grayscale(00%) brightness(97%)' />
+
+\pagebreakNum
+
 ##### Screeching Bell Adventures
 
 | d4  | Plot Hook |
@@ -6,3 +149,60 @@
 |  2  |  **Ringing In The Deep.** An ancient dwarven stronghold, long abandoned, now echoes with thunderous ringing heard from miles away. Deep within, a newly constructed screeching bell has been affixed atop a great hexstone vein, feeding magical instability into the region. The adventurers are sent to silence the sound before it causes regional devastation. |
 |  3  | **The Thirteenth Toll.** At the peak of a desolate mountain, a ratfolk grey prophet has begun ringing a screeching bell at the top of every hour, causing unnatural storms to begin gathering. The players must reach the bell and stop it before it can ring for the thirteenth time and complete a dread ritual. |
 |  4  |  **The Bellbound Beast.** A screeching bell has been mounted onto the back of a massive, mutated beast of war. The constant tolling drives nearby soldiers mad and inspires frenzied rampages among the ratfolk. The adventurers must slay the beast or sabotage the bell mid-battle before both overrun the battlefield. |
+
+
+
+### Screeching Bell Loot
+Most of the valuable goods that can be looted from screeching bells come from the materials used in their construction, from the bell to the platform keeping it aloft. Most dropped valuables can be found using an **Intelligence (Investigation)** or identified using an **Intelligence (Arcana)** check. Alternatively, you can roll for the loot randomly using a flat modifier.
+
+#### Loot Table
+The following table describes the number of items and value of those items the players are able to loot depending on the result of their check or the results of your roll. 
+
+
+##### Screeching Bell Loot Table
+
+| Looting Check Result or 1d20 + 5 |  Loot  |
+|:---:|:-----------:|
+|  6-6  | 1 50gp Item |
+|  7-10 | 1 100gp Item | 
+|  11-17 | 1d4(2) 100gp Items  |  
+|  18-22 | 1 200gp Items |  
+|  23+ |  1d4(2) 200gp Items |  
+
+##### Screeching Bell Art Credit
+* Fountainport Bell - Néstor Ossandón Leal, Wizards of the Coast
+* Specter's Shriek - Svetlin Velinov, Wizards of the Coast
+
+\columnbreak
+
+
+#### Example Loot Names
+You can give the different types of items unique names based on their material and value to help differentiate them from one another. The following tables provide some example names.
+
+
+##### Example Screeching Bell Item Names
+|1d4 | 50gp Item | 100gp Item | 200gp Item | 
+|:--:|:---:|:-----------:|:-----------:|
+| 1-2 <br> (Metal)  | Worn Bell Fragment| Bell Fragment |  Runed Bell Fragment  | 
+| 3 <br> (Stone) | Cracked Bell Frame Stone | Bell Frame Stone |  Runed Bell Frame Stone | 
+| 4 <br> (Wood) | Rotted Bell Frame Splinter | Bell Frame Splinter| Runed Bell Frame Splinter| 
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+ 
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+> ##### New Condition: Quickened
+> A Quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the Quickened condition among its other effects, and a creature cannot benefit from the Quickened condition from multiple sources at once.
+
+
+  
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
