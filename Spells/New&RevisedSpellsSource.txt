@@ -901,19 +901,18 @@ You unleash a burst of radiant light at a point you choose within range. Each cr
  
 ***Using a Higher-Level Spell Slot.*** The damage increases by 1d10 for each slot level above 3rd.
 
-#### Death Frenzy 1.0.0
-*2nd-level transmutation*
+#### Death Frenzy 2.0.0
+*2nd-level Transmutation (Bard, Sorcerer, Warlock)* 
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** Action
 - **Range:** 30 feet
 - **Components:** V, S, M (a sharp tooth)
 - **Duration:** Concentration, up to 1 minute
-- **Classes:**  Bard, Sorcerer, Warlock
 ___
 
-You send a creature into a frenzy that pushes its body beyond its limits. Choose a willing creature you can see within range. Until the spell ends, it takes 1d10 necrotic damage at the start of each of its turns and has advantage on weapon and unarmed strike attack rolls until that turn ends. This damage can’t be reduced or prevented in any way.
+You send a creature into a frenzy that pushes its body beyond its limits. Choose a willing creature you can see within range. Until the spell ends, whenever the creature makes an attack, it takes 1d6 Necrotic damage, which can’t be reduced in any way. The creature then gains a bonus to the attack roll and damage equal to the Necrotic damage taken.
 
-***At Higher Levels:*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. All the creatures must be within 30 feet of each other when you target them.
+***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 1st.
 
 \columnbreak
 
@@ -1200,23 +1199,22 @@ Each sphere can have a radius of up to 20 feet, and its space is filled with bri
 
 
 
-#### Fissure 1.0.0
-*6th-level evocation*
+#### Fissure 1.1.0
+*6th-level Evocation (Druid)* 
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** Action
 - **Range:** Self (60-foot line)
 - **Components:** V, S,
 - **Duration:** Instantaneous
-- **Classes:** Druid
 ___
 
-You strike a non-magical surface, causing a fissure to erupt out from you and split it down a line up to 60 feet long.  The fissure opens up to 20 feet wide and 40 feet deep.  If the ground is not deep enough to accommodate the fissure, the ground opens up to whatever lies beneath.  
+You strike a non-magical surface, causing a fissure to erupt from you and split it down a line up to 60 feet long. The fissure opens up to 20 feet wide and 40 feet deep. If the ground is not deep enough to accommodate the fissure, the ground opens up to whatever lies beneath.  
 
-A creature standing in the area of the fissure must succeed on a Dexterity saving throw or fall prone and into the fissure.  Creatures that succeed on the save move to the edge of the fissure and may choose which side it moves to. 
+A creature standing in the area of the fissure must succeed on a Dexterity saving throw or fall prone and into the fissure; any fall damage the creature takes is doubled from falling this way. Creatures that succeed on the save move to the edge of the fissure and may choose which side they move to. 
 
-The fissure deals 50 bludgeoning damage to any structure it comes in contact with it when it appears. The fissure lasts indefinitely, and the ground within it is difficult terrain.
+The fissure deals 50 Bludgeoning damage to any structure it comes in contact with when it appears. The fissure lasts indefinitely, and the ground within it is difficult terrain.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
+***Using a Higher-Level Spell Slot.*** You can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
 
 \pagebreakNum
 
@@ -1293,6 +1291,22 @@ After the explosion, the phoenix leaves behind a hovering ember at the point whe
 
 \pagebreakNum
 
+#### Flensing Ribbons 1.0.0  
+*3rd-level Evocation (Sorcerer, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 120 feet
+- **Components:** V, S, M (A razer)
+- **Duration:**  Instantaneous
+___
+
+You conjure and hurl four ribbons of razor-sharp energy that flense the flesh from bone. You can hurl them at one target within range or at several. Make a ranged spell attack for each.
+
+On a hit, a creature takes 2d4 Slashing damage and suffers a Wound*.
+
+
+***Using a Higher-Level Spell Slot.*** You create one additional ribbon for each spell slot level above 2.
+
 #### Foot of The Gods 1.0.0
 *7th-level evocation*
 ___
@@ -1320,11 +1334,11 @@ You cause weeds and underbrush to erupt from the ground in a 15-foot square cent
 
 * Hostile creatures treat the area as difficult terrain, cannot benefit from being invisible, and have disadvantage on Dexterity (Stealth) checks while within it.
 
+\columnbreak
+
 * Allied creatures are lightly obscured while in the area. While lightly obscured in this way, they can attempt to Hide as a bonus action and have advantage on Dexterity (Stealth) checks made to do so.
 
 ***Using a Higher-Level Spell Slot.*** The area increases by 5 feet per slot level above 2nd.
-
-\columnbreak
 
 #### Friends (Revised) 0.0.0
 *Enchantment cantrip*
@@ -1356,6 +1370,8 @@ Creatures immune to fear automatically succeed on this save.
 
 ***At Higher Levels.*** The spell’s damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).
 
+\pagebreakNum
+
 #### Frost Blade 1.0.0
 *3rd-level evocation*
 ___
@@ -1372,8 +1388,6 @@ You invoke a sword of sharp ice in your hand or that of another willing creature
 **Throwing The Blade.** When a creature uses the sword to make a thrown attack, hit or miss, the weapon explodes, and the spell ends. The target and each creature within 10 feet of it must succeed on a Dexterity saving throw or take 4d6 cold damage.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you may create an additional sword for every two levels above 3rd level.
-
-\pagebreakNum
 
 #### Frost Nova 2.0.0
 *2nd-level evocation*
@@ -1400,6 +1414,8 @@ ___
 
 You attempt to encase a creature you can see within range in ice. The target must make a Constitution saving throw (the target can choose to fail), or it becomes entombed in ice for the spell's duration. While entombed this way, it gains 40 temporary hit points, is incapacitated, and has resistance to all damage except fire and thunder damage. 
 
+\columnbreak
+
 The air within 15 feet of the entombed creature is chilled. When a creature other than the entombed creature enters this chilled area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 3d8 cold damage, and its speed is halved until the start of its next turn. On a successful save, the creature takes half as much damage, and its speed is not halved.
 
 The spell ends early if the entombed creature loses all the temporary hit points granted by the spell. The creature also loses these temporary hit points when the spell ends.
@@ -1409,6 +1425,23 @@ If you cast this spell on yourself, you do not lose concentration on it as a res
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the entombed creature gains 10 additional temporary hit points for each slot level above 5th.
 
 \pagebreakNum
+
+#### Galvanic Bolts 1.0.0
+*5th-level Evocation (Sorcerer, Warlock)*
+___
+- **Casting Time:** Action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:** Instantaneous
+___
+
+You conjure three bolts of lightning and hurl them at creatures within range. You can hurl them at one target within range or at several. Make a ranged spell attack for each. On a hit, the target takes 2d10 Lightning damage.
+
+Hit or miss, invigorating lightning arcs from you and each target in a 5-foot radius. You, each target, and any creature within one or more of these 5-foot emanations must make a Constitution saving throw (creatures may choose to fail). 
+
+On a failed save, a creature takes 4d6 Lightning damage and becomes Quickened* until the end of your next turn. On a successful save, a creature takes half as much damage and is not Quickened.
+
+***Using a Higher-Level Spell Slot.*** You can create one additional bolt for each spell slot level above 5.
 
 #### Gift of Chaos 1.0.0
 *2nd-level transmutation*
@@ -1437,6 +1470,8 @@ A creature you see with in range regains a number of hit points equal to 4d6 + y
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 2d6 for each slot level above 2nd.
 
+\columnbreak
+
 #### Glean Magic 1.0.0
 *3rd-level divination*
 ___
@@ -1455,8 +1490,6 @@ If a spell is successfully stolen, the target loses a spell slot of the spell's 
 
 After stealing a spell, you gain the ability to cast it once as though it were from the same class spell list you used to cast this spell.  When you cast it this way, it does not expend a spell slot, and you cast it at the same spell level at which it was stolen.  You must still supply the stolen spell's required components (including verbal, somatic, and material).  You lose the stolen spell after completing a long rest.
 
-\columnbreak
-
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can attempt to steal a spell if its level is less than or equal to the level of the spell slot you used to cast this spell.
 
 #### Grasping Tide 0.0.0
@@ -1470,6 +1503,7 @@ ___
 
 You cause water around you to reach out, grab creatures, and pull them in. Choose up to three target creatures you can see within range and within 30 feet of a body of water that is at least 5 feet long, 5 feet wide, and 1 foot deep and within range. Each chosen creature must make a Dexterity saving throw. On a failed save, the creature takes 3d8 bludgeoning damage and is pulled up to 10 feet closer to the water by grasping tendrils. On a successful save, the creature takes half as much damage and is not pulled.
 
+\pagebreakNum
 
 #### Grasping Vine (Revised) 0.0.0
 *4th-level conjuration*
@@ -1490,8 +1524,6 @@ Until the spell ends, as a bonus action on each of your turns, you can direct th
 The vine has AC 14, 80 hit points, and vulnerability to slashing damage.  When it is reduced to 0 hit points, the spell ends.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the vine gains an additional 20 hit points for each slot level above 4th.
-
-\pagebreakNum
 
 #### Guiding Wind 1.0.0
 *1st-level enchantment*
@@ -2807,6 +2839,23 @@ A line of roaring flame 50 feet long and 5 feet wide emanates from you in a dire
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 and you may increases line's length by 10 feet for each slot level above 2nd.
 
+#### Scorching Terror 1.0.0
+*4th-level Evocation (Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 120 feet
+- **Components:** V, S, M (a brunt bone)
+- **Duration:** Instantaneous
+___
+
+You create three bolts of clinging, eldritch fire and hurl them at creatures within range. You can hurl them at one target within range or at several. Make a ranged spell attack for each bolt.
+
+On a hit, a creature takes 2d6 Fire damage and starts Burning*. A Burning creature takes 2d6 Fire damage at the end of each of its turns until the condition ends.
+
+While Burning, the creature must make a Wisdom saving throw at the start of its turn. On a failed save, it becomes Frightened of you until the start of its next turn and must use its movement to flee from you by the safest available route. If there is nowhere to move, it drops Prone and uses its action to try to extinguish the flames.
+
+***Using a Higher-Level Spell Slot.*** You create one additional ray for each spell slot level above 3.
+
 #### Second Sight 1.0.0
 *2nd-level divination*
 ___
@@ -2823,7 +2872,7 @@ Alternatively, if an attack is made against you or a creature you can see within
 
 If multiple effects, such as another instance of this spell or a feature like the Lucky feat, attempt to modify a single roll, they negate each other, resulting in no additional dice being rolled.
 
-
+\pagebreakNum
 
 #### Senseless Rage 0.0.0
 *1st-level enchantment*
@@ -2835,8 +2884,6 @@ ___
 - **Classes:**  Cleric, Sorcerer, Warlock
 ___
 You attempt to trigger a mad frenzy in a creature you can see within range. The creature must succeed on a Wisdom saving throw (the target can choose to fail), or become consumed with rage for the duration of the spell. While enraged this way, any charmed or frightened conditions on the creature are suppressed, its melee attacks deal an extra 1d4 damage on hit, and it can only take actions, bonus actions, and reactions that involve it moving or making an attack.
-
-\pagebreakNum
 
 #### Shield of Thorns 1.0.0
 *5th-level evocation*
@@ -3183,141 +3230,417 @@ ___
 
 \pagebreakNum
 
-#### Summon Swarm 1.0.0
-*3rd-level conjuration*
+#### Summon Swarm 2.0.0
+*2nd-level Conjuration (Bard, Druid, Ranger)* 
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** Action
 - **Range:** 90 feet
 - **Components:** V, S, M (a gilded cage worth at least 300 gp)
 - **Duration:** Concentration, up to 1 hour
-- **Classes:**  Bard, Druid, Ranger
 ___
 
-You call forth a swarm of tiny creatures that manifest in an unoccupied space you can see within range.  This swarm uses the Swarm Spirit stat block*.  When you cast the spell, choose a type of creature: Bats, Insects, Rats, or Snakes.  The creatures of the swarm resemble the chosen creature, which determines some of its traits in its stat block.  The swarm disappears when it drops to 0 hit points or when the spell ends.
+You call forth a swarm of tiny creatures that manifest in an unoccupied space you can see within range. When you cast the spell, choose one of the following creatures: Bats, Birds, Insects, Rats, or Snakes. The creatures of the swarm resemble the chosen creature, and they use the swarm stat block for that creature (swarm stat blocks for the different creatures described below). The swarm disappears when it drops to 0 hit points or when the spell ends.
 
-The swarm is an ally to you and your companions.  In combat, the swarm shares your initiative count, but it takes its turn immediately after yours.  It obeys your verbal commands (no action required by you).  If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.
+The swarm is an ally to you and your companions. In combat, the swarm shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.  Additionally, increase the swarm's size by one category for every two slot levels above 3rd level.
+***Using a Higher-Level Spell Slot.*** Use the spell slot's level for the spell's level in the stat block. Additionally, increase the swarm's size by one category for every two slot levels above 3rd level.
 
-
+___
 ___
 > ## Swarm of Bats
->*Medium swarm of tiny beasts, unaligned*
+> *Medium Swarm of Tiny Beasts, Unaligned*
 > ___
-> - **Armor Class** 10 + the level of the spell (natural armor)
-> - **Hit Points** 20 + 10 for each spell level above 3rd
-> - **Speed** 5 ft., flying 30ft. 
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (0)|14 (+2)|10 (+0)|4 (-3)|16 (+3)|8 (-1)|
->___
-> - **Damage Resistance** bludgeoning, piercing, slashing
-> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
-> - **Senses**  blindsight 60ft., passive Perception 13
-> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus
+> - **Armor Class** 10 + the spell’s level (natural armor)
+> - **Hit Points** 10 + 10 for each spell level above 3rd
+> - **Speed** 5 ft., Fly 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Immunities** Bludgeoning, Piercing, and Slashing; Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned  
+> - **Senses** Blindsight 60 ft. (can’t use while Deafened), Passive Perception 13  
+> - **Languages** Understands the languages you speak  
+> - **CR** None (XP 0; PB equals your Proficiency Bonus) 
 > ___
 >
-> ***Echolocation..*** The swarm can't use its blindsight 
-while deafened.
+> ### Traits
 >
-> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny creature. The swarm can't regain hit points or gain temporary hit points.
-> 
+> ***Echolocation.*** The swarm can’t use its Blindsight while Deafened.
+>
+> ***Swarm.*** The swarm can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can’t regain hit points or gain temporary hit points.
+>
 > ### Actions
-> ***Multiattack.*** The swarm makes a number of attacks equal to half this spell’s level (rounded down).
-> 
-> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 or 2d6 piercing damage if the swarm has half of its hit points or fewer.
+>
+> ***Bites.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 Piercing damage plus 2d6 for each spell slot level above 2nd. The damage is halved if the swarm has half its hit points or fewer.  
+> If the target is a creature, it can’t regain hit points until the start of the swarm’s next turn.
 
-<br>
+
+
+</span>
 
 ___
 ___
-> ## Swarm of Insects 
->*Medium swarm of tiny beasts, unaligned*
+> ## Swarm of Birds
+> *Medium Swarm of Tiny Beasts, Unaligned*
 > ___
-> - **Armor Class** 10 + the level of the spell (natural armor)
-> - **Hit Points** 20 + 10 for each spell level above 3rd
-> - **Speed** 30 ft., burrow 10 ft., climb 30ft.   
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (0)|14 (+2)|10 (+0)|4 (-3)|16 (+3)|8 (-1)|
->___
-> - **Damage Resistance** bludgeoning, piercing, slashing
-> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
-> - **Senses**  blindsight 10ft., passive Perception 13
-> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus
+> - **Armor Class** 10 + the spell’s level (natural armor)
+> - **Hit Points** 10 + 10 for each spell level above 3rd
+> - **Speed** 5 ft., Fly 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Immunities** Bludgeoning, Piercing, and Slashing; Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned  
+> - **Senses** Passive Perception 13  
+> - **Languages** Understands the languages you speak  
+> - **CR** None (XP 0; PB equals your Proficiency Bonus)
 > ___
 >
-> ***Spider Climb.*** The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. 
+> ### Traits
 >
-> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny creature. The swarm can't regain hit points or gain temporary hit points.
-> 
+> ***Swarm.*** The swarm can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can’t regain hit points or gain temporary hit points.
+>
 > ### Actions
-> ***Multiattack.*** The swarm makes a number of attacks equal to half this spell’s level (rounded down).
-> 
-> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 or 2d6 piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, it can't regain hit point until the start of the swarm's next turn.
+>
+> ***Beaks.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 Piercing damage plus 2d6 for each spell slot level above 2nd. The damage is halved if the swarm has half its hit points or fewer.  
+> If the target is a creature and the attack is a critical hit, the target is blinded until the start of swarms next turn.
+
+</span>
 
 \pagebreakNum
 
 ___
-> ## Swarm of Rats
->*Medium swarm of tiny beasts, unaligned*
+> ## Swarm of Insects
+> *Medium Swarm of Tiny Beasts, Unaligned*
 > ___
-> - **Armor Class** 10 + the level of the spell (natural armor)
-> - **Hit Points** 20 + 10 for each spell level above 3rd
-> - **Speed** 30 ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (0)|14 (+2)|10 (+0)|4 (-3)|16 (+3)|8 (-1)|
->___
-> - **Damage Resistance** bludgeoning, piercing, slashing
-> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
-> - **Senses** darkvision 30 ft., passive Perception 13
-> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus 
+> - **Armor Class** 10 + the spell’s level (natural armor)
+> - **Hit Points** 30 + 10 for each spell level above 3rd
+> - **Speed** 30 ft., Burrow 10 ft., Climb 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Immunities** Bludgeoning, Piercing, and Slashing; Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned  
+> - **Senses** Tremorsense 30 ft., Passive Perception 13  
+> - **Languages** Understands the languages you speak  
+> - **CR** None (XP 0; PB equals your Proficiency Bonus)
 > ___
 >
-> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny creature. The swarm can't regain hit points or gain temporary hit points.
+> ### Traits
 >
-> ***Overwhelming Mass.*** The first time each turn that the swarm hits a creature with a weapon attack, it deals extra damage equal to the spell’s level if a ally is within 5 feet of the target that isn't incapacitated.
-> 
+> ***Spider Climb.*** The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+>
+> ***Swarm.*** The swarm can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can’t regain hit points or gain temporary hit points.
+>
 > ### Actions
-> ***Multiattack.*** The swarm makes a number of attacks equal to half this spell’s level (rounded down).
-> 
-> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 or 2d6 piercing damage if the swarm has half of its hit points or fewer.
 >
-> ### Reactions
+> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 Piercing damage plus 2d6 for each spell slot level above 2nd. The damage is halved if the swarm has half its hit points or fewer.  
+> If the target is a creature, insects burrow into its flesh, Infesting it. While Infested, the target takes Piercing damage equal to twice the spell’s level at the end of each of its turns.  
+> A creature within reach can use an action to make a DC 16 Wisdom (Medicine) check with a weapon or object dealing Fire, Piercing, or Slashing damage, dealing damage equal to the spell’s level of that type to the target. On a success, all burrowed scarabs are destroyed. The creature can choose to gain advantage on the check by dealing three times the spell’s level in damage instead.
+
+</span>
+
+\columnbreak
+
+___
+> ## Swarm of Rats
+> *Medium Swarm of Tiny Beasts, Unaligned*
+> ___
+> - **Armor Class** 10 + the spell’s level (natural armor)
+> - **Hit Points** 30 + 10 for each spell level above 3rd
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
 >
-> ***Scurry Away.*** When an enemy the swarm can see ends its turn, the swarm can move up to half its speed away from the creature and become frightened of it until the end of the creature's next turn. This movement doesn't provoke opportunity attacks. While frightened this way, the swarm can only take the dash, disengage, dodge, or hide action. This feature ignores immunity to the frightened condition.
+> ___
+> - **Immunities** Bludgeoning, Piercing, and Slashing; Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned  
+> - **Senses** Darkvision 30 ft., Passive Perception 13  
+> - **Languages** Understands the languages you speak  
+> - **CR** None (XP 0; PB equals your Proficiency Bonus) 
+> ___
+>
+> ### Traits
+>
+> ***Swarm.*** The swarm can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can’t regain hit points or gain temporary hit points.
+>
+> ***Scurry Away.*** At the start of its turn, the swarm can choose to become Frightened of a creature it can see until the start of its next turn (ignoring its immunity to the Frightened condition) and move up to half its Speed away from that creature without provoking opportunity attacks. While Frightened this way, it can only take the Dash, Disengage, Dodge, or Hide action.
+>
+> ***Overwhelming Mass.*** When the swarm hits a creature with its Bite attack, it deals extra damage equal to the spell’s level for each ally it has within 5 feet of the target that isn’t incapacitated (up to three allies).
+>
+> ### Actions
+>
+> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 Piercing damage plus 2d6 for each spell slot level above 2nd. The damage is halved if the swarm has half its hit points or fewer.
+
+</span>
+
+\pagebreakNum
+
+
 
 
 ___
 > ## Swarm of Snakes
->*Medium swarm of tiny beasts, unaligned*
+> *Medium Swarm of Tiny Beasts, Unaligned*
 > ___
-> - **Armor Class** 10 + the level of the spell (natural armor)
+> - **Armor Class** 10 + the spell’s level (natural armor)
 > - **Hit Points** 20 + 10 for each spell level above 3rd
-> - **Speed** 30 ft., swim 30ft.
->___
->|STR|DEX|CON|INT|WIS|CHA|
->|:---:|:---:|:---:|:---:|:---:|:---:|
->|10 (0)|14 (+2)|10 (+0)|4 (-3)|16 (+3)|8 (-1)|
->___
-> - **Damage Resistance** bludgeoning, piercing, slashing
-> - **Condition Immunities** charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned
-> - **Senses**  blindsight 10ft., passive Perception 13
-> - **Challenge** — &ensp;    **Proficiency Bonus** equals your bonus
+> - **Speed** 30 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Immunities** Bludgeoning, Piercing, and Slashing; Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned  
+> - **Senses** Blindsight 10 ft., Passive Perception 13  
+> - **Languages** Understands the languages you speak  
+> - **CR** None (XP 0; PB equals your Proficiency Bonus)  
 > ___
 >
-> ***Poison Fangs.*** The first time each turn that the swarm hits a creature with a weapon attack, that creature must make a Constitution saving throw against your spell save DC or take additional poison damage equal to the spell’s level and be poisoned until the start of its next turn.
+> ### Traits
 >
-> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny creature. The swarm can't regain hit points or gain temporary hit points.
-> 
+> ***Swarm.*** The swarm can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can’t regain hit points or gain temporary hit points.
+>
 > ### Actions
-> ***Multiattack.*** The swarm makes a number of attacks equal to half this spell’s level (rounded down).
-> 
-> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 or 2d6 piercing damage if the swarm has half of its hit points or fewer.
+>
+> ***Multiattack.*** The swarm makes a number of Bite attacks equal to half the spell’s level (rounded down).
+>
+> ***Bite.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 4d6 Piercing damage plus 2d6 for each spell slot level above 4th. The damage is halved if the swarm has half its hit points or fewer.  
+> If the target is a creature, it must make a *Constitution Saving Throw:* DC equals your spell save DC. <br>
+> *Failure:* The creature takes Poison damage equal to twice the spell’s level and is Poisoned until the start of the swarm’s next turn.
+
+</span>
+
+> ##### Alternative Swarms
+> The names of the swarm stat blocks represent suggested descriptions for the type of animal likely to have the abilities of that stat block.  However, you're free to describe the swarms as being composed of different creatures that might have similar abilities.  For example, the swarm of bats could alternately be described as a swarm of biting locusts.
 
 \pagebreakNum
 
@@ -3489,6 +3812,20 @@ ___
 Choose a willing creature you can see within range. The chosen creature becomes enveloped in a shroud of mist, enabling it to move with unseen swiftness. Until the start of your next turn, the creature's movement speed is doubled, it's Quickened, and it becomes Invisible along with everything it's wearing or carrying.
 
 ***Using a Higher-Level Spell Slot.*** You can target one additional creature for each slot level above 3rd.
+
+#### Unstable Discharge 1.0.0
+*Evocation Cantrip (Artificer, Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:** Instantaneous
+
+You send an erratic burst of electricity streaking toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Lighting damage.
+
+If you roll a 1 on the attack roll, you take 1d12 Lightning damage.
+
+***Cantrip Upgrade.*** The damage on hit and when you roll a 1 increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).
 
 \pagebreakNum
  
@@ -3916,6 +4253,10 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 #### 1.1.0
 * Now works on creatures with more then 150 hitpoints forcing them to make a saving throw. It is also restrained on a success. The spell aslo does not require Concentration any more as lasts 1 minute
 
+### Fissure
+#### 1.1.0
+* Fissure now doubles the fall damage of any creatures that fail the saving throw and fall into the fissure 
+
 ### Frost Nova
 #### 2.0.0
 * Reworked damage and radius
@@ -3971,6 +4312,8 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 #### 3.0.0
 * Rancid Visitation is now 3rd level and redone.
 
+\pagebreakNum
+
 ### Savage Dominion 
 #### 1.0.1
 * Fix typos in Eyes of Flame ability of jabberwocky
@@ -3993,8 +4336,6 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 ### Smoke Shroud
 #### 1.1.0
 * Clarify that the area of Smoke Shroud is heavily obscured
-
-\pagebreakNum
 
 ### Storm of Vengeance
 #### 1.1.0
@@ -4028,6 +4369,8 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 ### Withering Resolve
 #### 2.0.0
 * No longer requires concentration and lasts one round. It now imposes disadvantage on attack rolls, and on a success, the target suffers disadvantage on its next attack roll.
+
+\columnbreak
 
 ### World Sore
 #### 2.0.0
