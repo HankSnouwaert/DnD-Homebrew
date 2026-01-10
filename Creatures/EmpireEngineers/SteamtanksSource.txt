@@ -1,0 +1,495 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+<br><br>
+
+## Steam Tanks
+
+Steam tanks are massive metallic war machines that thunder across the battlefield. A small team of engineers tends the pressurized boilers that grant these mechanical terrors the power to decimate anything in their path. They grind opposition beneath heavy treads, scald foes with waves of flesh-searing mist, and hurl iron cannonballs, not by gunpowder, but by the explosive force of superheated steam, tearing apart enemy formations from afar.
+
+Thick metal plating renders the tank nearly invulnerable; longbows and greatswords wielded by even the mightiest warriors bounce harmlessly off its armored hide. Yet for all their might, steam tanks are temperamental and unstable. It is not uncommon for components to fail, rendering the machine inoperable or worse, for internal pipes to rupture, flooding the cramped interior with boiling vapor and cooking the crew alive. The most catastrophic failures turn the entire tank into a titanic bomb: when the boiler finally bursts, the explosion is violent enough to shred the vehicle and obliterate everything in the surrounding area.
+
+### The Emperor's Wrath
+A marvel of engineering whose secrets died with its creator, the Emperor’s Wrath stands as the unrivaled pinnacle of steam-tank technology.
+
+Long ago, in an era when the Empire tore itself apart in civil war, a brilliant and audacious young engineer was recruited by an ambitious great count who dreamed of seizing the throne. Granted unlimited resources, the engineer first devised the earliest steam tanks and built several to bolster his patron’s armies. Yet his ambition did not stop there. Through relentless experimentation, he perfected a far more powerful engine, one that allowed the armored behemoth to move at terrifying speed while unleashing devastating barrages of scalding steam and iron shot as it rampaged across the battlefield.
+
+Tragically, shortly after this breakthrough, the genius perished in an experiment gone catastrophically wrong. No blueprints were ever committed to paper, whether through oversight or deliberate intent to ensure no rival could surpass him remains unknown.
+
+Today, the sole surviving example of this ultimate design is the most treasured relic of the entire Empire. Heavily guarded by the Imperial Army, it is known simply as the Emperor’s Wrath. The machine is deployed only in the most desperate battles, when the very survival of the realm hangs in the balance.
+
+To this day, dozens of master engineers have tried, and failed, to decipher the intricate workings of its miraculous engine. Meanwhile, rival nations watch with envious eyes, scheming to steal the one-of-a-kind weapon and shift the balance of power forever.
+
+\columnbreak
+
+<br><br><br><br><br>
+
+##### Steam Tank Mishaps Table
+| d20  |    Mishap Name               | Mishap Effect             |   Repair Check Type           |
+|:----:|:---------------------:| :-----------------:| :-----------------:|
+| 1-3    | Locked Axels   | The vehicle can't use its Helm action until this Mishap ends. | Str
+| 4-6    | Sealed Vale | The vehicle can't use its Steam Gun action until this Mishap ends | Str
+| 7-9    | Jammed Cannon | The vehicle can't use its Steam Cannon action until this Mishap ends | Str
+| 10-13    |  Minor leak |The vehicle loses 1d4 Steam Points . | None
+| 14-16    |  Emergency Vent | The Vehicle loses all of its steam points. The vehicle, each creature within it, and each creature within a 30-foot emanation from it must make a Dexterity saving throw, taking 9 (2d8) Fire damage for each steam point lost on a failure or half as much on a success. The vehicle automatically fails the saving throw, and creatures inside have disadvantage and don't gain the benefits of its Heavy Cover trait.| None
+| 17-19    |  Dangerous Overpressure | The vehicle takes 21 (6d6) Fire damage and gains 3 Steam Pionts that last for the next three rounds.  | None
+| 20    |  Kaboom! |The vehicle experiences a pressure overload and is destroyed. Each creature that was inside the vehicle or within a 30-foot emanation of it must make a Dexterity saving throw (with disadvanatge if it was in the vehicle), taking 27 (6d8) Piercing damage plus 27 (6d8) Fire damage on a failure or half as much on a success.|  None
+
+<br>
+
+> ##### New Condition: Dazed 
+> A Dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+> ##### Self-Propelled Vehicles
+> Steam tanks are self-propelled vehicles. The descriptions for different self-propelled vehicle properties and how to operate self-propelled vehicle can be found in the Self-Propelled Vehicles section at the end of the document.
+
+<br> 
+
+\columnbreak
+
+___
+___
+> ## Steam Tank
+> *Large Vehicle (20,000 lb.)*
+> ___
+> - **Armor Class** 20
+> - **Hit Points** 270 (Damage Threshold 15, Mishap Threshold 30)
+> - **Speed** 0 ft.
+> - **Creature Capacity** 6 Medium creatures
+> - **Cargo Capacity** 40,000 lb.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">0</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">0</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">0</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vehicle DC** 17
+> - **Immunities** Poison, Psychic; Blinded, Charmed, Deafened, Frightened, Paralyzed, Petrified, Poisoned, Stunned, Unconscious
+> - **Challenge** 9 (5,000 XP)
+> ___
+>
+> ### Traits
+>
+> ***Battering Ram.*** The steam tank deals 10 (3d6) damage instead of 3 (1d6) for every 10 feet it moves in a straight line before crashing into a creature or object. It deals double damage to objects and structures. If the tank moved at least 30 feet straight before the crash and the target creature fails its saving throw, it is Dazed* until the end of its next turn.
+>
+> ***Heavy Cover.*** Creatures inside the steam tank have total cover from effects outside the vehicle. If a creature inside is subjected to an effect originating outside the tank that allows a Constitution, Dexterity, or Strength saving throw to take only half damage, it takes no damage on a success and half damage on a failure.
+>
+> ***Heavy Set.*** The steam tank can’t be Shoved and has advantage on saving throws against being knocked Prone.
+>
+> ### Action Stations
+>
+> ***Steam Engine (1 crew, three-quarters cover).*** The user generates 0–6 Steam Points. Roll 1d20 (or 2d20 and keep the lower result while the tank is Bloodied). If the result is equal to lower than the number of Steam Points generated, the tank suffers a Mishap. All Steam Points are lost at the start of the user’s next turn.
+>
+> ***Helm (1 crew, three-quarters cover).*** Drive and steer the steam tank. The driver can spend up to 3 Steam Points; for each point spent, the tank’s speed increases by [1d4 + 1] × 10 feet until the end of the turn.
+>
+> ***Steam Gun (1 crew, three-quarters cover).*** The user spends up to 3 Steam Points. Steam erupts in a 60-foot cone. Each creature in that area must make a *Dexterity Saving Throw:* DC 14 + the number of Steam Points spent.  
+> *Failure:* 10 (3d6) Fire damage per Steam Point spent.  
+> *Success:* Half damage.
+>
+> ***Steam Cannon (1 crew, three-quarters cover).*** The user spends up to 3 Steam Points and chooses a point it can see within 600 feet but no closer than 30 feet. If the point is on the ground, the cannonball bounces 5 feet into the air, then travels (1d4 + Steam Points spent) × 10 feet in a straight line away from the tank (stopping early if it hits a Large or larger object or creature).  
+> Each creature the cannonball contacts must make a *Dexterity Saving Throw:* DC 14 + the number of Steam Points spent.  
+> *Failure:* 18 (4d8) Bludgeoning damage per steam point spent.
+>
+> **New condition described on previous page*
+
+</span>
+
+
+
+
+\pagebreakNum
+
+
+___
+___
+> ## Steam Tank, The Emperor’s Wrath
+> *Large Vehicle (20,000 lb.)*
+> ___
+> - **Armor Class** 21
+> - **Hit Points** 440 (Damage Threshold 15, Mishap Threshold 30)
+> - **Speed** 0 ft.
+> - **Creature Capacity** 6 Medium creatures
+> - **Cargo Capacity** 40,000 lb.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">0</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">0</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">0</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> <td style="background-color:#e0e5c1; text-align:center">—</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vehicle DC** 18
+> - **Immunities** Poison, Psychic; Blinded, Charmed, Deafened, Frightened, Paralyzed, Petrified, Poisoned, Stunned, Unconscious
+> - **Challenge** 16 (15,000 XP)
+> ___
+>
+> ### Traits
+>
+> ***Battering Ram.*** The steam tank deals 10 (3d6) damage instead of 3 (1d6) for every 10 feet it moves in a straight line before crashing into a creature or object. It deals double damage to objects and structures. If the steam tank moved at least 30 feet straight before the crash and the target creature fails its saving throw, it is Dazed* until the end of its next turn.
+>
+> ***Building Pressure.*** Whenever the steam tank fails a saving throw or would suffer a Mishap, it instead succeeds the save or ignores the Mishap. It then gains 1 level of Instability.  
+> On initiative count 1 (losing ties), for each level of Instability, the steam tank takes 20 Fire damage and gains 1 Steam Point that lasts until initiative count 1 on the next round. Then each creature outside the steam tank within a 30-foot emanation must make a Dexterity saving throw, DC 18.
+> *Failure:* 10 (3d6) Fire damage per current level of Instability.  
+> *Success:* Half damage,
+>
+> A creature inside the steam tank can remove a level of Instability by using its action to make a DC 18 Strength check, removing one level on a success. It may add its proficiency bonus to the result if it is proficient with Smith’s Tools. 
+>
+> ***Heavy Cover.*** Creatures inside the steam tank have total cover from effects outside the steam tank. If a creature inside is subjected to an effect originating outside the steam tank that allows a Constitution, Dexterity, or Strength saving throw to take only half damage, it takes no damage on a success and half damage on a failure.
+>
+> ***Heavy Set.*** The steam tank can’t be Shoved and has advantage on saving throws against being knocked Prone.
+>
+> ### Action Stations
+>
+> ***Steam Engine (1 crew, three-quarters cover).*** The user generates 6 Steam Points.
+>
+> ***Helm (1 crew, three-quarters cover).*** Drive and steer the steam tank. The driver can spend up to 4 Steam Points; for each point spent, the steam tank’s speed increases by (1d4 + 1) × 10 feet until the end of the turn.
+>
+> ***Steam Gun (1 crew, three-quarters cover).*** The user spends up to 4 Steam Points. Steam shoots out in a 60-foot cone. Each creature in that area must make a *Dexterity Saving Throw:* DC 15 + the number of Steam Points spent.  
+> *Failure:* 10 (3d6) Fire damage per steam point spent.  
+> *Success:* Half damage.
+>
+> ***Steam Cannon (1 crew, three-quarters cover).*** The user spends up to 4 Steam Points and chooses a point it can see within 600 feet but no closer than 30 feet. If the point is on the ground, the cannonball bounces 5 feet into the air, then travels (1d4 + Steam Points spent) × 10 feet in a straight line away from the steam tank (stopping early if it hits a Large or larger object or creature). Each creature the cannonball contacts must make a *Dexterity Saving Throw:* DC 15 + the number of steam points spent.  
+> *Failure:* 18 (4d8) Bludgeoning damage per steam point spent.
+>
+> **New condition described on page before last*
+
+</span>
+
+\pagebreakNum
+
+### Alternate Weapon: Volley Gun
+
+You can choose to replace the Steam Cannon action station with the following action station:
+
+> ***Volley Gun (1 crew, three-quarters cover).*** The user spends up to 6 Steam Points and picks a target it can see within 600 feet to fire at. The target must make a *Dexterity Saving Throw:* DC 14 (or 15 for the Emperor's Wrath) + the number of Steam Points spent. <br>
+> *Failure:* The creature takes 10 (3d6) Piercing damage for each Steam Point spent. <br>
+> *Success:* Half damage.
+
+<br>
+
+___
+> ## Emperor’s Wrath Operator
+> *Medium Humanoid (any race), any alignment*
+> ___
+> - **Armor Class** 15     **Initiative** +7 (17)
+> - **Hit Points** 67 (15d8)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +7, Investigation +7, Perception +5, Land Vehicles +7, Smith’s Tools +7, Tinker’s Tools +7
+> - **Senses** Passive Perception 15
+> - **Languages** Common plus two others
+> - **Challenge** 2 (450 XP)     **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Pride of the Emperor.*** While inside a vehicle, the operator has advantage on all d20 tests, and at the start of each of its turns, it gains 10 temporary hit points that last until it leaves the vehicle.
+>
+> ### Actions
+>
+> ***Tool.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) Bludgeoning damage.
+
+
+</span>
+
+
+
+\columnbreak
+
+### Steam Tank Encounters
+The following are suggestions for encounters you can build using different  types of steam tanks for player groups of different levels:
+
+| Player Group          | Suggested Encounter |
+|-----------------------|-----------------------|
+| Group of 4 level 13 players | **Steam Tank** with 3 **Emperor’s Wrath Operators** and an** Apprentice Engineer*** riding inside it.<br><br> |
+| Group of 4 level 17 players | The **Emperor's Wrath** with 3 **Emperor’s Wrath Operators** and a **Master Engineer*** riding inside it. |
+
+
+###  Steam Tank Tactics
+Steam tanks are mobile fortresses that can deliver deadly artillery while also crushing foes in melee.
+
+A steam tank will start by bombarding opponents with its steam cannon from a distance, generating 3 steam points to minimize any mishaps. Once a foe closes in, it will generate 6 steam points and use its steam gun to damage oncoming foes and then charge into another group of vulnerable enemies.
+
+### Emperor's Wrath Tactics
+The Emperor's Wrath can generate steam points safely, and the fact that it can deal damage to creatures nearby with its Building Pressure trait means the tank will move just out of melee range and bombard enemies while keeping them within range of Building Pressure. The crew will allow up to three levels of Instability to accumulate before they attempt to remove them.
+
+**Stat blocks found in Engineers Document*
+
+\pagebreakNum
+
+# Self-Propelled Vehicles
+Most land vehicles in fantasy settings are pulled by other creatures, such as wagons, carriages, or chariots. However, through some combination of technology or magic, some vehicles may be self-propelled and driven by a passenger. These may be relatively small mechanical contraptions, magically self-propelled carriages, or mighty war machines rumbling across blasted battlefields. 
+
+The following rules can help you codify how to use these vehicle types in your games. They can be applied to vehicles of different shapes and sizes and used as tools for designing your own vehicles. The rules here can be applied to most self-powered vehicles piloted by a passenger. 
+
+At the end of the document, you'll find a couple of example vehicles that can be used as inspiration for coming up with your own designs.
+
+## Self-Propelled Vehicle Rules
+Self-propelled vehicles are vehicles able to move without needing to be pushed or pulled by another creature, and they usually don’t need an external energy source (such as wind). Throughout this document, they will be referred to simply as vehicles. Creatures within a vehicle are referred to as passengers. 
+In combat, vehicles use most of the same rules as creatures, with the following additional considerations:
+
+### Opportunity Attacks
+Vehicles provoke opportunity attacks as usual. When a vehicle provokes an opportunity attack, the attacker can target the vehicle itself or any creature riding on or inside it, provided they are within reach and do not have total cover.
+
+
+### Spacing Within Vehicles
+All creatures within a vehicle count as being within 5 feet of each other.
+
+
+### Entering and Exiting Vehicles
+Entering or exiting the vehicle costs a creature half of its movement. Each creature inside the vehicle may use its reaction to make an opportunity attack against the creature entering or exiting.
+
+
+### Crashing into Creatures and Objects
+A vehicle can crash into a creature or object by entering its space. When it does, the creature or object must make a Dexterity or Strength saving throw (the target's choice) using the vehicle's DC. On a failed save, the target takes 1d6 bludgeoning damage for every 10 feet the vehicle moved in a straight line before attempting to enter the target's space (maximum 20d6 damage).
+
+\columnbreak
+
+If the target is a creature, it is also knocked prone. On a successful Dexterity save, the target takes no damage and is not knocked prone. On a successful Strength save, the creature takes half damage, is not knocked prone, and the vehicle's speed becomes 0 until the end of the turn. A target can only make this saving throw once per turn.
+
+If the vehicle is at least two size categories larger than the target it crashed into, it can continue moving through the target's space if it has any movement remaining. Otherwise, the vehicle comes to a sudden stop. If the target is an impassable object that could reasonably damage the vehicle, such as an iron wall, the vehicle comes to a sudden stop and takes 1d6 bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6 damage). Each creature on or inside the vehicle takes the damage as well
+
+### Prone Vehicles
+If vehicle falls prone, it cannot right itself and is incapacitated until it is flipped upright.
+
+### Falling Vehicles
+When a vehicle falls from a height of 10 feet or higher, it and all creatures on or inside it take damage from the fall as normal and land in a prone position. If the vehicle falls due to the actions of its driver (such as jumping off a ramp) it may not land prone (DM’s discretion) but still takes fall damage.
+
+
+
+### Repairing Vehicles
+If a vehicle has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The vehicle must be stationary, and the creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the tools required for the repairs. If the check succeeds, the vehicle regains 2d4 + its Intelligence modifier + its proficiency bonus hit points. If the check fails, the vehicle does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+### Vehicular Exhaustion 
+Certain circumstances can cause a vehicle to malfunction and eventually break down due to wear and tear. This wear and tear can be represented using exhaustion rules, as described in Appendix A of the Player's Handbook, with the following modifications:
+
+* When a vehicle reaches exhaustion level 6, its hit points drop to 0, and the vehicle breaks down.
+* The only way to remove the effects of exhaustion on a vehicle is through repair. This can be done using the rules described in the Repairing Vehicles section above. If the attempt to repair the vehicle succeeds, the vehicle's exhaustion level decreases by 1. If the check fails, the vehicle's exhaustion level remains unchanged, but the repair attempt can be made again using <br> the same tools and replacement parts.
+
+
+\pagebreakNum
+
+
+## Self-Propelled Vehicle Attributes
+Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, these vehicles have the following additional attributes and considerations:
+
+### Hit Points 
+A vehicle's hit points can be restored through vehicle repairs. However, when a vehicle's hit points reach 0, it becomes inoperative and is irreparably damaged.
+### Damage Threshold
+Most vehicles possess bulk or armor that enables them to withstand minor hits. A vehicle with a damage threshold is immune to all damage unless the amount of damage it takes is equal to or greater than its damage threshold value. In such cases, the vehicle takes damage as usual. Damage that fails to meet or exceed the vehicle's damage threshold is considered superficial and does not reduce the vehicle's hit points.
+
+### Mishap Threshold
+When a vehicle sustains damage from a single source that is equal to or exceeds its mishap threshold, it is required to roll on the Mishaps table (refer to the Mishaps section).
+
+
+### Creature Capacity 
+Creature capacity determines the number of creatures that can ride the vehicle comfortably. Additional creatures can fit by squeezing or clinging to the outside of the vehicle.
+
+### Cargo Capacity
+Cargo capacity indicates the maximum weight of cargo the vehicle can carry.
+
+### Vehicle DC 
+Whenever the vehicle requires a creature to make a check or saving throw, it uses this number as the DC.
+
+### Challenge Rating
+When players face enemies that are equipped with a fully functioning vehicle, the challenge rating (CR) of the encounter should be calculated as if the vehicle is an additional creature with its own CR.
+
+### Ability Scores 
+A vehicle possesses the standard six ability scores that creatures have, along with their corresponding modifiers. The Strength of the vehicle is determined by its size and weight, while Dexterity represents its handling and maneuverability. The Constitution of a vehicle reflects its durability and quality of construction. In most cases, vehicles have a score of 0 in Intelligence, Wisdom, and Charisma.
+
+
+
+\columnbreak
+
+If a vehicle has a score of 0 in a particular ability score, it automatically fails any ability check or saving throw that relies on that score.
+
+### Action Stations
+A vehicle may have one or more Action Stations. Each of these stations requires a certain number of creatures to operate and may grant those creatures some amount of cover. The creatures operating these stations must be passengers within the vehicle, but not all passengers need to be operating a station. A creature operating a station <br> can use an action to activate the station's effect.  <br> A station can be occupied by only one <br> creature at a time and can only <br> be activated once per round. 
+
+
+
+#### The Helm 
+Most vehicles that must be piloted by a passenger (referred to as the driver) have an Action Station known as the Helm, where the vehicle's movement is controlled. It usually consists of a chair equipped with a wheel, levers, pedals, and other controls. If a vehicle has a helm with no one operating it, it automatically fails Dexterity saving throws. A driver who is proficient with land vehicles can add their proficiency bonus to ability checks and saving throws made using the vehicle's ability scores.
+
+The driver can use an action to propel the vehicle up to its speed or bring it to a complete stop. While the vehicle is in motion, the driver can steer it along any desired course. If the driver becomes incapacitated, leaves the helm, or takes no action to alter the vehicle's course and speed, the vehicle will continue moving in the same direction and at the same speed as it did during the driver's last turn until it collides with an obstacle large enough to stop its movement.
+
+
+### Mishaps
+Most vehicles have a Mishaps Table, which describes different ways its functionality can go awry under adverse conditions. When certain abilities or conditions dictate, roll on this Mishaps Table. 
+
+To resolve a Mishap, a creature can use its action to make an ability check based on the nature of the mishap (refer to the Mishaps section). If the vehicle is moving, the check is made with disadvantage. If the creature is proficient with the tools required for the repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+#### 1.1.0
+* Add Self-Propelled Vehicle Mechanics Section

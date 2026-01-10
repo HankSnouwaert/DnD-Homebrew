@@ -39,19 +39,20 @@ The following is a list of new firearm weapons that can be added to your games a
 
 ## Firearm Weapon Properties 
 
-&emsp;**Load (X)/Fire (Y).**  This weapon can be fired X times before it must be reloaded using Y Actions, or in place Y attacks that are part of the Attack action or an off-hand weapon attack while duel-wielding. The weapon can be reloaded early without losing any ammunition.
+&emsp; **Load(X)/Capacity(Y).** The weapon must be loaded with ammunition before it can be fired. Each piece of ammunition loaded into it must be done so using X Actions, or in place X attacks that are part of the Attack action or an off-hand weapon attack while duel-wielding. If X is less than 1, the weapon can be loaded with multiple pieces of ammunition at once (1/2 would be 2 at once, 1/3  would be 3 at once, etc.) 
+
+The weapon can hold up to Y pieces of ammunition at a time.
 
 **Rapid Fire.** If you take the Attack action on your turn while holding this weapon, you can make one additional attack with it as part of the same action. If you do, all attacks you make before the end of your turn must be made with this weapon. All attack rolls made this way are made with disadvantage, you automatically miss any attacks made at long range, and you can’t reload the weapon during this turn.
 
 **Spread.** If you hit a creature with an attack roll using this weapon, you can make another attack roll with the weapon against a second creature within 5 feet of the first and within your weapon's range. On a hit, the second creature takes the weapon’s damage, but you don’t add your ability modifier to the damage unless that modifier is negative.
 
-**Accurate.** Creatures proficient with this weapon gain a +1 bonus to attack rolls made with it.
-
-
 
 \columnbreak
 
-&emsp;**Detonate.** When you hit or miss with an attack using this weapon, the target and each creature within a 10-foot radius of a point centered on the target must succeed on a Dexterity saving throw or take 3d6 Piercing damage.
+&emsp;**Accurate.** Creatures proficient with this weapon gain a +1 bonus to attack rolls made with it. 
+
+**Detonate.** When you hit or miss with an attack using this weapon, the target and each creature within a 10-foot radius of a point centered on the target must succeed on a Dexterity saving throw or take 3d6 Piercing damage.
 If you roll a natural 1 on the attack roll, you and each creature within a 10-foot radius of a point centered on you must make the saving throw instead.
 
 The saving throw DC equals 8 + your proficiency bonus + your Dexterity modifier.
@@ -64,7 +65,7 @@ The saving throw DC equals 8 + your proficiency bonus + your Dexterity modifier.
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 3d6 Piercing
-- **Properties:** Ammunition, Heavy, Load (1)/Fire (1), (Range 45/90), Two-Handed, Spread
+- **Properties:** Ammunition, Heavy, Load (1)/Capacity (1), (Range 45/90), Two-Handed, Spread
 - **Cost:** 60 gp
 - **Weight:** 7 lb.
 
@@ -72,7 +73,7 @@ ___
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 2d4 Piercing
-- **Properties:** **Properties:** Ammunition, Load (1)/Fire (1), (Range 20/60), Spread
+- **Properties:** **Properties:** Ammunition, Load (1)/Capacity (1), (Range 20/60), Spread
 - **Cost:** 60 gp
 - **Weight:** 4 lb.
 
@@ -82,11 +83,11 @@ style='position:absolute;bottom:-510px;right:-300px;width:1800px;transform: scal
 
 <img
 src='https://i.ibb.co/WFgJjWG/giff-backgroundless.png'
-style='position:absolute;bottom:-666px;right:40px;width:1350px;transform: scaleX(1)' />
+style='position:absolute;bottom:-690px;right:40px;width:1350px;transform: scaleX(1)' />
 
 <img 
   src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;left:-110px;bottom:40px; transform:rotate(-8deg)' />
+  style='position:absolute;left:-110px;bottom:3px; transform:rotate(-6deg)' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -96,7 +97,7 @@ style='position:absolute;bottom:-666px;right:40px;width:1350px;transform: scaleX
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 1d8 Bludgoening
-- **Properties:** Ammunition, Detonate, Heavy, Load (2)/Fire (1), (Range 100/300), Two-Handed 
+- **Properties:** Ammunition, Detonate, Heavy, Load (2)/Capacity (1), (Range 100/300), Two-Handed 
 - **Cost:** 90 gp
 - **Weight:** 7 lb.
 
@@ -104,7 +105,7 @@ ___
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 3d10 Piercing
-- **Properties:** Accurate, Ammunition, Heavy, Load (2)/Fire (1), (Range 200/600), Two-Handed 
+- **Properties:** Accurate, Ammunition, Heavy, Load (2)/Capacity (1), (Range 200/600), Two-Handed 
 - **Cost:** 125 gp
 - **Weight:** 10 lb.
 
@@ -112,7 +113,7 @@ ___
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 3d8 Piercing
-- **Properties:** Ammunition, Heavy, Load (1)/Fire (1), (Range 100/400), Two-Handed
+- **Properties:** Ammunition, Heavy, Load (1)/Capacity (1), (Range 100/400), Two-Handed
 - **Cost:** 75 gp
 - **Weight:** 10 lb.
 
@@ -122,7 +123,7 @@ ___
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 2d6 Piercing
-- **Properties:** Ammunition, Light, Load (1)/Fire (1), (Range 30/90)  
+- **Properties:** Ammunition, Light, Load (1)/Capacity (1), (Range 30/90)  
 - **Cost:** 60 gp
 - **Weight:** 2 lb.
 
@@ -130,7 +131,7 @@ ___
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 1d10 Piercing
-- **Properties:** Ammunition, Light, Load (3)/Fire (3), (Range 30/90), Rapid Fire
+- **Properties:** Ammunition, Light, Load (1)/Capacity (3), (Range 30/90), Rapid Fire
 - **Cost:** 120 gp
 - **Weight:** 4 lb.
 
@@ -140,7 +141,7 @@ ___
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 2d6 Piercing
-- **Properties:** Ammunition, Heavy, Load (3)/Fire (6), (Range 100/400), Rapid Fire, Two-Handed
+- **Properties:** Ammunition, Heavy, Load (1/2)/Capacity (6), (Range 100/400), Rapid Fire, Two-Handed
 - **Cost:** 200 gp
 - **Weight:** 20 lb.
 
@@ -153,7 +154,7 @@ The following weapons are the result of infernal weaponsmiths using their dark c
 *Martial Ranged Weapon (Firearm)*
 ___
 - **Damage:** 3d10 Piercing
-- **Properties:** Ammunition, Heavy, Load (1)/Fire (1), (Range 60/300), Two-Handed
+- **Properties:** Ammunition, Heavy, Load (1)/Capacity (1), (Range 60/300), Two-Handed
 - **Cost:** 100 gp
 - **Weight:** 18 lb.
 
@@ -164,7 +165,7 @@ ___
 *Martial Melee Weapon (Firearm)*
 ___
 - **Damage:** 1d8 Piercing
-- **Properties:** Ammunition, Heavy, Load (1)/Fire (1), (Range 100/400), Reach, Special, Two-Handed
+- **Properties:** Ammunition, Heavy, Load (1)/Capacity (1), (Range 100/400), Reach, Special, Two-Handed
 - **Cost:** 125 gp
 - **Weight:** 18 lb
 
@@ -266,9 +267,33 @@ style='position:absolute;top:-27px;left:-3px;width:900px;transform: scaleX(1)' /
 
 \pagebreakNum
 
+### Revision Numbers
+
+#### Weapons
+* Blunderbuss 1.1.0
+* Dragon (Hand Blunderbuss) 1.1.0
+* Grenade Luncher 1.1.0
+* Long Rifle 1.1.0
+* Musket 1.1.0
+* Pistol 1.1.0
+* Repeater Pistol 1.1.0
+* Repeater Rifle 1.1.0
+* Fel Musket 1.1.0
+* Fire Glaive 1.1.0
+
+#### Feats
+* Behemoth Obliterator 1.0.0
+* Close-Quarters Gunner 1.0.0
+* Crowd Blaster 1.0.0
+* Quick Loader 1.0.0
+* Sniper 1.0.0
+
+
+\pagebreakNum
+
 ### Change Log
 #### 1.0.0
 * Document release
 
-
-
+#### 1.1.0
+* Rework Load (X)/Fire (Y). trait into Load(X)/Capacity(Y).

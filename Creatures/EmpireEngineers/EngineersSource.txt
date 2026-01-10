@@ -38,11 +38,11 @@
 *Eccentric Tinkerers Armed With Advanced Weaponry*<br>
 **Habitat:** Urban; **Treasure:** Individual <br>
 
-Within the orderly districts of the great cities of the empires of order, where nobles and high merchants reside, can be found the chaotic workshops of eccentric engineers, shattering the refined formalities of those abodes. Such great thinkers, dismissed as broken by the upper ranks of society, pursue their obsessions with mad ingenuity and relentless determination, developing all manner of mechanical marvels while spending weeks in seclusion without rest. These endeavors are funded by wealthy nobles and imperial armies, both eager to capitalize on the next technological leap forward.
+Within the methodica districts of the great cities of the empires of order, where nobles and high merchants reside, can be found the chaotic workshops of eccentric engineers, shattering the refined formalities of those abodes. Such great thinkers, dismissed as uncouth by the upper ranks of society, pursue their obsessions with mad ingenuity and relentless determination, developing all manner of mechanical marvels while spending weeks in seclusion without rest. These endeavors are funded by wealthy nobles and imperial armies, both eager to capitalize on the next technological leap forward.
 
 Such breakthroughs are unpredictable. Inspiration can strike engineers seemingly out of nowhere, sending them down paths that lead to convoluted and utterly useless contraptions. Yet, on occasion, these bursts of creativity yield weapons that can change the course of warfare for the nation.
 
-Though most mechanically minded thinkers prefer isolation within their sanctums, surrounded by personal projects, many eagerly head to the battlefield with their newest contraptions of death to see their theoretical visions of destruction made real. Some bring personal devices to test, like the Mercurial Rifle, the Burning Tar Grenade Launcher, or the odd and gruesome Whirling Saw Blade, they are not trained soldiers. Still, their study of ballistics and intimate knowledge of their creations’ inner workings allow them to wield them with deadly mastery.
+Though most mechanically minded thinkers prefer isolation within their sanctums, surrounded by personal projects, some eagerly head to the battlefield with their newest contraptions of death to see their theoretical visions of destruction made real. Some bring personal devices to test, like the Mercurial Rifle, the Burning Tar Grenade Launcher, or the odd and gruesome Whirling Saw Blade, they are not trained soldiers. Still, their study of ballistics and intimate knowledge of their creations’ inner workings allow them to wield them with deadly mastery.
 
 \columnbreak
 
@@ -90,7 +90,7 @@ ___
 > <tr style="background-color:transparent">
 > <td><b>INT</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
 > <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
-> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td><b>CHA</b></td><td style="text-align:center">8</td><td style="background-color:#e0e5c1; text-align:center">-1</td><td style="background-color:#e0e5c1; text-align:center">-1</td>
 > </tr>
 > </table>
 >
@@ -140,7 +140,7 @@ ___
 > <tr style="background-color:transparent">
 > <td><b>STR</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
 > <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+6</td><td></td>
-> <td><b>CON</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td><b>CON</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
 > </tr>
 > <tr style="background-color:transparent">
 > <td><b>INT</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+8</td><td></td>
@@ -163,7 +163,7 @@ ___
 >
 > ### Actions
 >
-> ***Use Tool.*** The engineer uses one of the two Tool Options it has from its Tools of Choice traite. Any attack made with one of these tools has +5 to hit, and any saving throw or check a tool causes has a DC of 13. Once it uses a tool, the engineer can’t use either tool again until it spends an action to prepare it.
+> ***Use Tool.*** The engineer uses one of the two Tool Options it has from its Tools of Choice traite. Any attack made with one of these tools has +8 to hit, and any saving throw or check a tool causes has a DC of 16.
 >
 > ### Bonus Actions
 >
@@ -182,7 +182,7 @@ ___
 ### Tools of Choice
 An engineer has two of the following tool options that it can use as an Action using its Use Tool action:
 
-**Mercurial Rifle.** The engineer makes one attack with the following properties: <br> *Ranged Weapon Attack:* range 200/600 ft., one target. *Hit:* 25 (4d10 + 3) Piercing damage. The target and each creature within 10 feet of it must make a *Dexterity Saving Throw.* <br>
+**Mercurial Rifle.** The engineer makes one attack with the following properties: <br> *Ranged Weapon Attack:* range 200/600 ft., one target. *Hit:* 25 (4d10 + 3) Piercing damage. The target and each creature within 5 feet of it must make a *Dexterity Saving Throw.* <br>
 *Failure:* 12 (4d6) Piercing damage.
 
 **Burning Tar Grenade.** The engineer makes one attack with the following properties: <br> *Ranged Weapon Attack:* range 100/300 ft., one target.  
@@ -192,8 +192,8 @@ An engineer has two of the following tool options that it can use as an Action u
  **Repeater Gun.** The engineer makes three attacks with the following properties: <br>
 *Ranged Weapon Attack:* range 100/300 ft., one target. *Hit:* 16 (3d8 + 3) Piercing damage.
 
-**Pigeon Bomb (5/Day).** The engineer pulls out a **Pigeon**, attaches a 2-ounce tiny bomb to it (Tiny Construct; AC 10; 10 HP; immune to Poison and Psychic damage), and gives it a direction to start flying. The Pigeon acts on initiative count 1 (losing ties) and starts flying in the given direction. At the end of the pigeon’s next turn, the bomb falls off and detonates when it has fallen 60 feet or hits a solid surface, creature, or object.  
- Each creature within a 10-foot radius of the detonation must make a *Dexterity Saving Throw.*  
+**Pigeon Bomb (5/Day).** The engineer pulls out a **Pigeon**, attaches a 2-ounce tiny bomb to it (Tiny object; AC 10; 10 HP; immune to Poison and Psychic damage), and gives it a direction to start flying. The Pigeon acts on initiative count 1 (losing ties) and starts flying in the given direction. At the end of the pigeon’s next turn, the bomb falls off and detonates when it has fallen 60 feet or hits a solid surface, creature, or object.  
+ Each creature within a 15-foot radius of the detonation must make a *Dexterity Saving Throw.*  
  *Failure:* 21 (6d6) Piercing damage.  
  *Success:* Half damage.
 
@@ -204,7 +204,7 @@ An engineer has two of the following tool options that it can use as an Action u
 
 **Whirling Saw Blade.** The engineer makes three attacks with the following properties: <br> *Melee Weapon Attack:* reach 5 ft., one target. *Hit:* 16 (3d8 + 3) Slashing damage, and the target suffers a Wound*.
 
-**Electro-Netter.** The engineer makes one attack with the following properties: <br> *Ranged Weapon Attack:* range 20/60 ft., one target. *Hit:* 36 (6d10 + 3) Lightning damage. If the target is Large or smaller, it is Restrained by a net (AC 15; 15 HP; immune to Poison and Psychic damage; escape DC 13 Strength check) until the net is destroyed.
+**Electro-Netter.** The engineer makes one attack with the following properties: <br> *Ranged Weapon Attack:* range 20/60 ft., one target. *Hit:* 30 (5d10 + 3) Lightning damage. If the target is Large or smaller, it is Restrained by a net (AC 15; 15 HP; immune to Poison and Psychic damage; escape DC Strength check) until the net is destroyed.
 
 
 
@@ -234,7 +234,7 @@ An engineer has two of the following tool options that it can use as an Action u
 
 ___
 > ## Pigeon
-> *Tiny Beast, Unaligned*
+> *Tiny Beast, Horde, Unaligned*
 > ___
 > - **Armor Class** 12         **Initiative** +2 (12)
 > - **Hit Points** 1 (1d4 − 1)
@@ -309,7 +309,7 @@ The different tools are categorized based on their range below:
 ## Clockwork Steeds
 *Powerful, Yet Somewhat Unreliable, Crank-Powered Horses*<br>
 **Habitat:** Urban; **Treasure:** Individual <br>
-Clockwork steeds are among the most temperamental marvels ever produced by engineers, automaton mounts forged of brass, steel, and stubborn optimism. Designed to replace living warhorses with tireless constructs, these machines clatter forward on articulated limbs driven by tightly wound spring-loaded pistons and clockwork gearing. Each must be wound by a heavy crank system, often mounted on the flank or beneath the saddle, requiring several minutes of effort before the machine is ready to operate. Once fully primed, the steed surges to life in bursts of hissing steam and rhythmic clanking, capable of galloping at alarming speeds across open terrain.
+Clockwork steeds are among the most temperamental marvels ever produced by engineers, automaton mounts forged of brass, steel, and stubborn optimism. Designed to replace living warhorses with tireless constructs, these machines clatter forward on articulated limbs driven by tightly wound spring-loaded pistons and clockwork gearing. Each must be wound by a heavy crank system, often mounted on the flank or beneath the saddle, requiring a great effort before the machine is ready to operate. Once fully primed, the steed surges to life in bursts of hissing steam and rhythmic clanking, capable of galloping at alarming speeds across open terrain.
 
 Though awe-inspiring in motion, the steeds are notoriously difficult to manage. Engineers often struggle to coordinate their movements with the jerking gait of the automaton, and it is not uncommon for the steed to abruptly seize, stall, or lurch in the wrong direction when gears misalign. Some require periodic re-cranking mid-journey, leading to awkward battlefield pauses or frantic winding under fire. Despite these shortcomings, the clockwork steed represents the dream of replacing unreliable biology with engineered precision, and for those eccentric enough to ride them, they are a badge of honor and defiance against the limitations of nature.
 
@@ -395,5 +395,5 @@ ___
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release

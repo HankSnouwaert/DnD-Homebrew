@@ -1,0 +1,241 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p4:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Mortars
+Mortars are stout, bulky weapons capable of launching hollow shells in high arcs that hurtle back down to earth, detonating on impact and sending shrapnel hurtling in every direction, shredding anyone unfortunate enough to be near the landing zone.
+
+### Mortar of the Righteous
+Particularly zealous and unhinged religious orders have devised an unorthodox instrument to purge the corrupted from among the pure: the Mortar of the Righteous. The weapon is crafted by Doomsayer Flagellants that were former gunsmiths whose minds were sundered by nightmarish trauma. These martyrs whip and beat themselves during the mortar's construction, allowing their blood and flayed skin to mingle with the metal, infusing the weapon with innate fanatical judgment. 
+
+To complete this seraphic siege engine, it is loaded with hollow mortar shells filled with relics of former priests and holy men. These relics range wildly: talismans, prayer beads, and even the bones of pious individuals. When the missile crashes onto the battlefield, it scatters this assortment of hallowed trinkets. By some miracle, the shrapnel seems to miss the devotees of the faith entirely and instead embeds itself in the faithless, where the fragments burst into searing alabaster flame, consuming the sinner.
+
+### Mortar Tactics
+Mortars always focus on large groups of enemies or structures.
+
+#### Mortar of the Righteous Tactics
+A Mortar of the Righteous always fires into large clusters of enemies that are currently under attack by the mortar crew's allies, as the Burning condition will give the allies advantage on their attack rolls against the foes.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### Not a Creature
+> The mortar is a siege weapon and not a creature. Mechanics for siege weapons can be found in the Siege Weapons Section.
+
+<br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<img src='https://i.postimg.cc/RhdgRBxW/fodder-cannon-5000x.webp' style='position:absolute; top:-180px; right:-20px; width:1000px; transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:57px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(19deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:190px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:330px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+> ## Mortar
+> *Large Siege Weapon (1,200 lb.)*
+> ___
+> - **Armor Class** 17     **Initiative** +0
+> - **Hit Points** 60 (damage threshold 10)
+> - **Speed** 0 ft.
+> ___
+> - **Weapon DC** 15
+> - **Immunities** Poison, Psychic
+> - **Ammo** Mortar Shell (1 round, 5 gp)
+> - **Challenge** 2 (450 XP)
+> ___
+>
+> ### Traits
+>
+> ***Siege Weapon.*** The weapon deals double damage to objects and structures.
+>
+> ### Functions
+>
+> ***Prep (2).*** Two Prep actions must be used on the mortar before it can be Loaded.
+>
+> ***Load.*** A creature loads the mortar with a Mortar Shell. The mortar must be Loaded before it can Fire.
+>
+> ***Fire.*** The operator must roll a d8 (2d8 if the weapon is Bloodied). If an 8 is rolled on any of the dice, it suffers a mishap. Otherwise, the mortar fires and the operator chooses a point it can see within 1,000 feet but no closer than 30 feet.  
+> Each creature within 15 feet of that point must make a *Dexterity Saving Throw:* DC 15.  
+> *Failure:* 22 (4d10) Piercing damage.  
+> *Success:* Half damage only.
+
+
+##### Mortar Mishap Table
+| d8 &emsp;&emsp; | Mishap Name | Mishap Effect | Repair Check Type |
+|:--:|:------------|:--------------|:------------------|
+| 1-2 | Malfunction | The weapon cannot be used until this Mishap ends. | STR |
+| 3-5  | Weak Shot | The weapon fires, but any damage it deals is halved, and the point must be within 100 feet. | None |
+| 6-7 | Backfire | The weapon takes 27 (5d10) Piercing damage. | None |
+| 8 | Detonated | The weapon explodes and is destroyed. Each creature in a 15‑foot emanation must make a Dexterity saving throw. <br> *Failure:*  17 (5d6) Piercing damage plus 17 (5d6) Fire damage. <br> *Success:* Half damage. | None |
+
+\columnbreak
+
+___
+> ## Mortar of the Righteous
+> *Large Siege Weapon (1,200 lb.)*
+> ___
+> - **Armor Class** 17     **Initiative** +0
+> - **Hit Points** 100 (damage threshold 10)
+> - **Speed** 0 ft.
+> ___
+> - **Weapon DC** 17
+> - **Immunities** Poison, Psychic
+> - **Ammo** Holy Relic Mortar Shell (1 round, 20 gp)
+> - **Challenge** 4 (1,100 XP)
+> ___
+>
+> ### Traits
+>
+> ***Siege Weapon.*** The weapon deals double damage to objects and structures.
+>
+> ### Actions
+>
+> ***Prep (2).*** Two Prep actions must be used on the mortar before it can be Loaded.
+>
+> ***Load.*** A creature loads the mortar with a Holy Relic Mortar Shell. The mortar must be Loaded before it can Fire.
+>
+> ***Fire.*** The operator must roll a d8 (2d8 if the weapon is Bloodied). If an 8 is rolled on any of the dice, it suffers a mishap. Otherwise, the mortar fires and the operator chooses a point it can see within 1,000 feet but no closer than 30 feet.  
+> Each creature within 15 feet of that point must make a *Dexterity Saving Throw:* DC 17.  
+> *Failure:* 39 (6d12) Radiant damage, and the creature starts Burning*. It takes 6 (1d12) Radiant damage at the end of each of its turns until the condition ends, sheds bright light in a 30-foot radius, attack rolls against it have advantage, and it can’t benefit from being Invisible.  
+> *Success:* Half damage only.  
+>
+> The operator can choose any number of creatures in the area; those creatures automatically succeed on the saving throw and take no damage.
+> 
+> **New condition found on previous page*
+
+<br>
+
+##### Mortars Art Credit
+* Fodder Cannon - Christopher Moeller, Wizards of the Coast
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#  Siege Weapons
+These weapons have been engineered for large-scale warfare against enemy armies and settlements. What sets them apart from other weapons is their size and the number of creatures required to operate them effectively (generally more than two). These weapons range from highly sophisticated cannons and rocket launchers to crude catapults and giant slingshots. Regardless of their form, they are all large enough that moving them is a slow process and labor-intensive enough to use that they require a team of creatures to operate them effectively.
+
+## Repairing Weapons
+If a weapon has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the required tools. If the check succeeds, the weapon regains 2d4 + the creature's Intelligence modifier + the creature's proficiency bonus hit points. If the check fails, the weapon does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+\columnbreak
+
+## Siege Weapon Attributes
+In addition to the common attributes of size, weight, AC, HP, and damage immunity, these weapons have the following additional attributes and considerations:
+
+### Hit Points 
+A weapon has hit points that can be restored through repairs. When its hit points reach 0, the weapon becomes inoperative and irreparably damaged. 
+
+Many weapons have a damage threshold. Any source of damage less than this threshold only inflicts superficial damage and doesn't lower the weapon's hit points.
+
+### Weapon DC 
+The weapon's DC is used whenever a creature makes a check to fix mishaps, when a creature is repairing the weapon, or the weapon forces a creature to make a saving throw.
+
+### Challenge Rating
+When players face enemies equipped with fully functioning siege weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
+
+<img src='https://i.ibb.co/JjYPNWK/Unleash-Shell-The-Brothers-War-Mt-G-Art.jpg' style='position:absolute; top:-40px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:195px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(10deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:249px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+
+
+### Ammo / Fuel
+Weapons may require ammunition, such as bullets, or fuel, such as flammable chemicals, to make attacks. This part of the stat block includes the cost of the ammo and the number of charges it has, which represents the number of times the weapon can be used before it needs to be reloaded.
+
+### Functions
+By default, siege weapons have three different functions, which can each be activated as an action by its operators: Prep, Load, and Fire. Each function can only be performed once per round unless it states otherwise. Creatures within reach of a creature performing one of these functions can make opportunity attacks against them.
+
+#### Prep
+Siege weapons need to be prepped in different ways between being fired. This preparation could be cranking a ballista or cleaning the barrel of a cannon. Many siege weapons have multiple Prep functions that must be performed before they can be used again. In these cases, the different Prep actions can be done by different creatures within the same round. Unless stated otherwise, all the Prep functions must be completed before the weapon can be loaded.
+
+
+
+### Siege Weapons Art Credit
+* Unleash Shell - Campbell White, Wizards of the Coast
+* Goblin Artillery - Alex Horley-Orlandelli, Wizards of the Coast
+
+\columnbreak
+
+#### Load
+This function is used to reload the weapon's ammunition up to its full capacity. It requires the creature loading it to have immediate access to the weapon's ammunition. If a creature doing the loading is hit by an opportunity it provoked by doing this, it drops the ammo and wastes its action.
+
+#### Fire
+This function is used to aim and fire the weapon at a target chosen by the creature performing the function.
+
+### Passive Traits
+This section describes any traits of the weapon has that don't require actions to utilize.
+
+### Mishaps table
+Some weapons can suffer a malfunction when certain functions are used. When such an event occurs, it will suffer a mishap and need to roll on its Mishap Table to determine what adverse effect it suffers. 
+
+A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+<img src='https://64.media.tumblr.com/97957bfd89fc58990ebbe31b4b543960/a95157cb330b1736-23/s1280x1920/c9807add3c7fc2bd781c456d1f8a9cee5de0f6e2.png' style='position:absolute; botom:-0px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-485px; right:-100px; width:1000px; transform:rotate(8deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-455px; right:-200px; width:1000px; transform:rotate(-2deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-451px; right:-00px; width:1000px; transform:rotate(-4deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+\columnbreak
+
+### Full Art Credit
+* Fodder Cannon - Christopher Moeller, Wizards of the Coast
+* Unleash Shell - Campbell White, Wizards of the Coast
+* Goblin Artillery - Alex Horley-Orlandelli, Wizards of the Coast

@@ -1,0 +1,287 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p4:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Rocket Batteries
+
+Among the most volatile devices ever deployed by the great Imperial armies are the devastating rocket batteries. These were developed by a particularly reckless cadre of engineers who harboured a dangerous fondness for incendiary devices and who audaciously sought to push the boundaries of ballistic weaponry, blowing apart a sizable portion of their own academy in the process.
+The ultimate result of this perilous endeavour is a wheeled cart topped with rows of rockets, strapped in place and ready to be ignited. Once lit, they soar into enemy formations in corkscrewing arcs, blasting men to smithereens. Yet for all its ability to turn the tide of battle, the weapon is far from foolproof. The rockets fly wildly and inaccurately; a missile may veer astray and miss its intended target entirely, or worse, plummet onto friendly troops.
+Compounding the weapon’s turbulent dangers, the launching platform itself is notoriously unreliable. Many rockets fail to ignite and remain stuck in their tubes, requiring the crew to undertake the arduous and perilous task of removal. Even worse, a munition may detonate prematurely, triggering a catastrophic chain reaction that vaporises the battery and its crew in an instant.
+
+
+### Sunmaker Rocket Battery
+
+A modified and still more fearsome version of the standard rocket battery is the Sunmaker. It earns its name by unleashing an even greater torrent of rockets that rain down upon the landscape. Each missile contains a special alchemical mixture; upon detonation, it releases a blinding flash of light so intense that, for a few fleeting seconds, even a moonless night is turned as bright as midday. Any who survive the cascade of scorching light and soaring shrapnel are often left blinded, their sight stripped away.
+
+##### Rocket Battery Mishap Table
+| d8 | Mishap Name | Mishap Effect | Repair Check Type |
+|:--:|:------------|:--------------|:------------------|
+| 1 | Dud | The rocket does not fire. No further rockets are launched, and the weapon cannot be used until this mishap ends. | STR |
+| 2-4 &emsp;&emsp; | Wildly Off Target | The rocket lands additional 2d4 × 5 feet away from the originally chosen point. | None |
+| 5-7 | Early Detonation | The rocket explodes midair, producing no effect. | None |
+| 8 | Kaboom! | The weapon explodes and is destroyed. The rocket detonates at a point centered on the Rocket Battery. | None |
+
+
+### Rocket Batteries Art Credit
+* Craterize - Eytan Zana, Wizards of the Coast
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Rocket Battery
+> *Large Siege Weapon (1,200 lb.)*
+> ___
+> - **Armor Class** 17
+> - **Hit Points** 60 (damage threshold 10)
+> ___
+> - **Weapon DC** 15
+> - **Immunities** Poison, Psychic
+> - **Ammo** Rocket Cluster (1 round, 15 gp)
+> - **Challenge** 2 (450 XP)
+> ___
+>
+> ### Traits
+>
+> ***Siege Weapon.*** The weapon deals double damage to objects and structures.
+>
+> ### Functions
+>
+> ***Load.*** A creature loads the rocket battery with a Rocket Cluster. The rocket battery must be Loaded before it can be Prepped.
+>
+> ***Prep (2).*** Two Prep actions must be used on the rocket battery before it can be Fired.
+>
+> ***Fire Rocket Cluster.*** The operator chooses a point it can see within 1,000 feet. Three rockets launch in sequence. For each rocket, roll 2d4 × 5 feet and 1d8 for direction; the rocket lands and explodes in a 15-foot-radius sphere away from the original point.  
+> If a 4 is rolled on both d4s, the rocket battery suffers a Mishap.  
+> Each creature in one or more of these areas must make a *Dexterity Saving Throw:* DC 15. <br> 
+>  *Failure:* The creature takes 14 (4d6) Piercing damage plus 14 (4d6) Fire damage. <br> 
+>  *Success:* Half damage.
+
+
+
+</span>
+
+
+
+<img src='https://i.postimg.cc/Xq0CyD8p/Craterize.png' style='position:absolute; top:-5px; right:-50px; width:620px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:30px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-400px;top:65px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Dark Sun Rocket Battery
+
+In far-off pastures stand macabre monuments to the harrowing conflicts that once raged there: rows of crystalline statues frozen in poses of crowing terror, strewn across the landscape. These figures are all that remain of warriors exposed to the Dark Sun rockets.
+
+This dread variant can only be created by infusing spell scrolls scribed with the terrible Purple Sun incantation into the rocket frames, while the gunpowder itself must contain dust refined from victims already petrified by that same mighty spell. When fired, these rockets bathe entire battlefields in an eerie violet glow.
+
+\columnbreak
+
+Any soul caught within the full breadth of that luminance has only a few seconds to comprehend the grim fate that awaits them before they are transmuted.
+
+To operate such a harbinger of doom, one must possess no love for one’s enemies and no regard for one’s own wellbeing, for the rockets are every bit as unstable as their common counterparts. For this reason, it is not uncommon to find the shattered remains of Purple Sunmaker batteries alongside the amethyst statues of their own crew, entombed together.
+
+
+### Rocket Battery Tactics
+Rocket batteries are so wildly inaccurate that they are best aimed at the largest group of enemies. Allies should avoid the area if possible.
+
+
+
+___
+___
+> ## Sunmaker Rocket Battery
+> *Large Siege Weapon (1,200 lb.)*
+> ___
+> - **Armor Class** 17
+> - **Hit Points** 100 (damage threshold 10)
+> ___
+> - **Weapon DC** 17
+> - **Immunities** Poison, Psychic
+> - **Ammo** Sun Rocket Cluster (1 round, 30 gp)
+> - **Challenge** 4 (1,100 XP)
+> ___
+>
+> ### Traits
+>
+> ***Siege Weapon.*** The weapon deals double damage to objects and structures.
+>
+> ### Functions
+>
+> ***Prep (2).*** Two Prep actions must be used on the rocket battery before it can be Loaded.
+>
+> ***Load (1).*** A creature loads the rocket battery with a Sun Rocket Cluster. It must be Loaded before it can Fire.
+>
+> ***Fire Rocket Cluster.*** The operator chooses a point it can see within 1,000 feet. Four rockets launch in sequence. For each rocket, roll 2d4 × 5 feet and 1d8 for direction; the rocket lands and explodes in a 15-foot-radius sphere away from the original point.  
+> If a 4 is rolled on both d4s, the sunmaker rocket battery suffers a Mishap.  
+> Each creature in one or more explosion areas must make a *Dexterity Saving Throw:* DC 17. <br>
+> *Failure:* The creature takes 17 (5d6) Piercing damage plus 17 (5d6) Radiant damage and is Blinded. A Blinded creature makes a DC 17 Constitution saving throw at the end of each of its turns, ending the Blinded condition on a success. <br>
+> *Success:* Half damage.
+
+
+</span>
+
+
+
+\columnbreak
+
+___
+___
+> ## Dark Sun Rocket Battery
+> *Large Siege Weapon (1,200 lb.)*
+> ___
+> - **Armor Class** 17
+> - **Hit Points** 150 (damage threshold 10)
+> ___
+> - **Weapon DC** 18
+> - **Immunities** Poison, Psychic
+> - **Ammo** Dark Sun Rocket Cluster (1 round, 50 gp)
+> - **Challenge** 6 (2,300 XP)
+> ___
+>
+> ### Traits
+>
+> ***Siege Weapon.*** The weapon deals double damage to objects and structures.
+>
+> ### Functions
+>
+> ***Prep (2).*** Two Prep actions must be used on the rocket battery before it can be Loaded.
+>
+> ***Load (1).*** A creature loads the rocket battery with a Dark Sun Rocket Cluster. It must be Loaded before it can Fire.
+>
+> ***Fire Purple Dawn Rocket Cluster.*** The operator chooses a point it can see within 1,000 feet. Four rockets launch in sequence. For each rocket, roll 2d4 × 5 feet and 1d8 for direction; the rocket lands and explodes in a 15-foot-radius sphere away from the original point.  
+> If a 4 is rolled on both d4s, the purple sunmaker rocket battery suffers a Mishap.  
+> Each creature in one or more explosion areas must make a *Constitution Saving Throw:* DC 18. <br>
+> *Failure:* The creature takes 44 (8d10) Necrotic damage. If it is a creature, it gains 1 level of Petrification, or 4 levels if this damage reduced it to 0 hit points. The condition lasts for 1 minute. At the end of each of its turns, the creature makes a DC 18 Constitution Saving Throw, removing all levels on a success or gaining 1 level on a failure. If the creature has 1 or more levels, it is Restrained. If it has 4 or more levels, it becomes Petrified indefinitely until cured by other means. <br>
+> *Success:* Half damage only.
+
+
+</span>
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#  Siege Weapons
+These weapons have been engineered for large-scale warfare against enemy armies and settlements. What sets them apart from other weapons is their size and the number of creatures required to operate them effectively (generally more than two). These weapons range from highly sophisticated cannons and rocket launchers to crude catapults and giant slingshots. Regardless of their form, they are all large enough that moving them is a slow process and labor-intensive enough to use that they require a team of creatures to operate them effectively.
+
+## Repairing Weapons
+If a weapon has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the required tools. If the check succeeds, the weapon regains 2d4 + the creature's Intelligence modifier + the creature's proficiency bonus hit points. If the check fails, the weapon does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+\columnbreak
+
+## Siege Weapon Attributes
+In addition to the common attributes of size, weight, AC, HP, and damage immunity, these weapons have the following additional attributes and considerations:
+
+### Hit Points 
+A weapon has hit points that can be restored through repairs. When its hit points reach 0, the weapon becomes inoperative and irreparably damaged. 
+
+Many weapons have a damage threshold. Any source of damage less than this threshold only inflicts superficial damage and doesn't lower the weapon's hit points.
+
+### Weapon DC 
+The weapon's DC is used whenever a creature makes a check to fix mishaps, when a creature is repairing the weapon, or the weapon forces a creature to make a saving throw.
+
+### Challenge Rating
+When players face enemies equipped with fully functioning siege weapons, the encounter's challenge rating (CR) should be calculated as if the weapon is an additional creature with its own CR.
+
+<img src='https://i.ibb.co/JjYPNWK/Unleash-Shell-The-Brothers-War-Mt-G-Art.jpg' style='position:absolute; top:-40px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:195px; right:100px; width:950px; filter:  grayscale(00%) brightness(97%); transform:rotate(19deg)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:249px; right:-200px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+
+
+### Ammo / Fuel
+Weapons may require ammunition, such as bullets, or fuel, such as flammable chemicals, to make attacks. This part of the stat block includes the cost of the ammo and the number of charges it has, which represents the number of times the weapon can be used before it needs to be reloaded.
+
+### Functions
+By default, siege weapons have three different functions, which can each be activated as an action by its operators: Prep, Load, and Fire. Each function can only be performed once per round unless it states otherwise. Creatures within reach of a creature performing one of these functions can make opportunity attacks against them.
+
+#### Prep
+Siege weapons need to be prepped in different ways between being fired. This preparation could be cranking a ballista or cleaning the barrel of a cannon. Many siege weapons have multiple Prep functions that must be performed before they can be used again. In these cases, the different Prep actions can be done by different creatures within the same round. Unless stated otherwise, all the Prep functions must be completed before the weapon can be loaded.
+
+
+
+### Siege Weapons Art Credit
+* Unleash Shell - Campbell White, Wizards of the Coast
+* Goblin Artillery - Alex Horley-Orlandelli, Wizards of the Coast
+
+\columnbreak
+
+#### Load
+This function is used to reload the weapon's ammunition up to its full capacity. It requires the creature loading it to have immediate access to the weapon's ammunition. If a creature doing the loading is hit by an opportunity it provoked by doing this, it drops the ammo and wastes its action.
+
+#### Fire
+This function is used to aim and fire the weapon at a target chosen by the creature performing the function.
+
+### Passive Traits
+This section describes any traits of the weapon has that don't require actions to utilize.
+
+### Mishaps table
+Some weapons can suffer a malfunction when certain functions are used. When such an event occurs, it will suffer a mishap and need to roll on its Mishap Table to determine what adverse effect it suffers. 
+
+A creature can attempt to resolve a mishap by using its action to make an ability check based on the nature of the mishap. The creature making the check can be any member of the weapons team or anyone else within reach of the weapon. If the creature is proficient with the tools required for repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+<img src='https://64.media.tumblr.com/97957bfd89fc58990ebbe31b4b543960/a95157cb330b1736-23/s1280x1920/c9807add3c7fc2bd781c456d1f8a9cee5de0f6e2.png' style='position:absolute; botom:-0px; right:0px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-485px; right:-100px; width:1000px; transform:rotate(8deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-455px; right:-200px; width:1000px; transform:rotate(-2deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-451px; right:-00px; width:1000px; transform:rotate(-4deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+\columnbreak
+
+### Full Art Credit
+* Unleash Shell - Campbell White, Wizards of the Coast
+* Goblin Artillery - Alex Horley-Orlandelli, Wizards of the Coast
+* Craterize - Eytan Zana, Wizards of the Coast
