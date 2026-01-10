@@ -524,6 +524,30 @@ ___
 
 Unleashing a primal howl, you stir the wild fervor within your allies. You and up to three other creatures you are aware of within range that can hear you are quickened until the start of your next turn. While quickened this way, these creatures gain advantage on attack rolls against any enemy if at least one of their allies is within 5 feet of that enemy and the ally isn't incapacitated.
 
+#### Carrion Swarm
+*5th-level Transmutation (Druid, Ranger, Warlock)*
+___
+- **Casting Time:** 1 Action
+- **Range:** Self
+- **Components:** V, S
+- **Duration:** 1 round
+
+You transform into a swarm of blood-sucking pests until the start of your next turn, along with everything you are wearing and carrying. The spell ends early if you drop to 0 hit points.
+
+While in this form:
+* You have a Fly Speed of 60 feet and no other movement speeds. 
+* You can enter and occupy the space of other creatures and do not provoke opportunity attacks. 
+* You can pass through narrow openings as though you were a Tiny creature, but you treat liquids as solid surfaces.
+* You have resistance to Bludgeoning, Piercing, and Slashing damage.
+* You can’t be knocked Prone, Grappled, or Restrained.
+* You have advantage on Strength, Dexterity, and Constitution saving throws. 
+* You can’t speak or manipulate objects, and any objects you were carrying or holding can’t be dropped, used, or otherwise interacted with.
+* You can’t cast spells or make attacks other than those granted by this spell.
+
+During the turn you cast this spell, you can make up to three melee spell attacks. You can make each attack at any point during your turn against a creature whose space you occupy. On a hit, the target takes 5d4 Necrotic damage, and you regain hit points equal to half the Necrotic damage dealt.
+
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d4 for each spell slot level above 5th.
+
 \columnbreak
 
 #### Chaos Bolt (Revised)
@@ -598,6 +622,24 @@ At the end of each of its turns, the creature repeats the Wisdom saving throw, e
 
 ***Using a Higher-Level Spell Slot.*** The affected creature takes 1d10 Bludgeoning damage whenever it moves due to the spell. This damage increases by 1d10 for each slot level above 4th.
 
+#### Comet's Call
+*5th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 300 feet
+- **Components:** V, S, M (A piece of iron or nickel ore)
+- **Duration:**   1 minute.
+- **Classes:**  Wizard, Sorcerer
+___
+
+You channel the winds of magic to summon a comet from the heavens to the battlefield. You select a point you can see, 300 feet above you within range, causing a blue pulse to flash in the sky. 
+
+At the start of each of your turns, roll a d6. On a roll of 1-3, nothing occurs. On a roll of 4-6, a 5-foot-radius comet materializes at the chosen point and immediately descends. The comet passes through any Large or smaller creatures and objects, exploding in a 30-foot-radius sphere when it hits a solid surface or a Huge or Gargantuan creature. The explosion's effects spread around corners. 
+
+Each creature or object the comet comes in contact with, as well as those within the explosion's area, must make a Dexterity saving throw, taking the comet's full damage on a failed save, and half as much on a success. The comet's base damage is 5d8 fire damage plus 5d8 bludgeoning damage. Each time you roll to see if the comet appears and it doesn't, the fire and bludgeoning damage it deals each increase by 1d8. The spell ends after the comet lands.
+
+***At Higher Levels.*** Casting this spell using a 6th-level spell slot or higher increases either the fire damage or the bludgeoning damage (your choice) by 1d8 for every slot level above 5th.
+
 #### Commandment of Inertia 
 
 *3rd-level transmutation*
@@ -664,6 +706,24 @@ On a successful save, it takes 2d8 Necrotic damage instead.
 
 ***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 3rd.
 
+#### Curse of Ages
+*9th-level Enchantment (Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 90 feet
+- **Components:** V, S, M (an hourglass or pocket watch)
+- **Duration:** Concentration, up to 1 minute
+
+You curse a creature to age at an unnatural rate. Choose one creature within range. Until the spell ends, at the end of each of your turns, if the target is still within 90 feet of you, it must make a Constitution saving throw.
+
+On a failed save, the target takes 10d10 Necrotic damage, gains one level of Fatigue*, and ages to the point where it has only 30 days left before dying of old age. If it already has 30 days or fewer remaining in its lifespan, it instead ages 2d4 days. 
+
+On a successful save, the creature takes half as much damage and does not gain Fatigue or age. A creature reduced to 0 hit points by this spell dies of old age and is reduced to dust.
+
+This spell can’t be ended by *Dispel Magic*. Only *Remove Curse* cast with a 9th-level spell slot or a *Wish* spell can end the spell’s effects, restore the target to its previous age, and remove any Fatigue caused by this spell.
+
+**New condition described at end of document*
+
 #### Curse of Stone
 
 *4th-level transmutation*
@@ -679,6 +739,26 @@ You attempt to transform one creature that you can see within range into stone. 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for ever two slots levels above 4th. The creatures must be within 30 feet of each other when you target them.
 
 \columnbreak
+
+#### Curse of the Midnight Wind
+*3rd-level enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** 150 feet
+- **Components:** V, S, M (Pinch of salt)
+- **Duration:**  Concentration, up to 1 minute
+- **Classes:**  Bard, Cleric, Warlock 
+___
+
+You summon a chilling wind, affecting an area within range that can be up to 40 feet long, 10 feet wide, and 10 feet tall. Up to six creatures of your choice within this area feel their fortune wane. Each targeted creature must succeed on a Charisma saving throw or be cursed by this spell for its duration.
+
+While cursed:
+* If the creature rolls an 18 or higher on an attack roll, ability check, or saving throw against an effect not caused by this spell, it automatically fails.
+* When another creature makes an attack against the cursed target and rolls a 3 or lower on the attack roll, the attacking creature automatically hits.
+
+At the end of its turn, an affected creature can attempt another Charisma saving throw, ending the curse's effect on it on a success.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
 
 #### Cursed Blades
 *1st-level enchantment*
@@ -711,6 +791,20 @@ You attempt to interrupt a creature in the process of casting a spell. The targe
 * If the spell allows a creature to make a saving throw to take only half damage, a successful save causes no damage, and a failed save causes half damage instead.
 
 If the caster chooses not to cast the spell, the action, bonus action, or reaction used to cast it is wasted, but the spell slot is not expended.
+
+#### Dance of Death
+*1st-level Necromancy (Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:** 90 feet
+- **Components:** V, S
+- **Duration:** 1 round
+
+Threads of dark power leap from your fingers to an Undead creature you can see within range. Until the start of your next turn, the target’s Speed increases by 20 feet and it becomes Quickened*.
+
+***Using a Higher-Level Spell Slot.*** You can target one additional Undead creature for each spell slot level above 1st.
+
+**New condition decribed at end of Vampric Spells section*
 
 #### Dazzling Light
 *3rd-level Evocation*
@@ -1142,6 +1236,20 @@ You cause a ring of ice and frost to burst out from you to a radius of up to a 1
 
 \pagebreakNum
 
+#### Harmonic Convergence
+*1st-level divination*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 feet
+- **Components:** V S M (A piece of string)
+- **Duration:** 1 round
+- **Classes:**   Bard, Cleric, Druid
+___
+
+Divining auspicious omens, you grant a creature you can see within range a brief insight into the immediate future. Until the start of your next turn, if the chosen creature misses with an attack roll or fails a Dexterity saving throw, it can end the spell early to reroll the d20 and must use the new result. Similarly, when an attack roll is made against the chosen creature, it can end the spell early to force the attacker to reroll the d20, and the attacker must use the new result.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
+
 #### Hellfire Weapon
 *1st-level evocation*
 ___
@@ -1172,6 +1280,22 @@ On a failed save, a creature is affected by the Rampaging* condition for the dur
 ***Using a Higher-Level Spell Slot.*** The sphere’s radius increases by 5 feet for each slot level above 5th.
 
 \pagebreakNum
+
+#### Gale of Souls
+*6th-level Necromancy (Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V, S, M
+- **Duration:** Concentration, up to 1 minute
+
+You tear a veil into the realm of the dead at a point you can see within range. A line of howling spectral wind 90 feet long and 10 feet wide erupts from that point in a direction you choose for the spell’s duration. Each creature in the line must succeed on a Strength saving throw or be pushed 20 feet away from the point, following the direction of the line. A creature that ends its turn in the line must repeat the saving throw.
+
+**Changing Direction.** As a Bonus Action on your later turns, you can change the direction in which the line blasts from the point. after the direction is changed, each creature currently in the line must immediately make the same saving throw.
+
+**Moving Through The Wind.** A creature moving closer to the point must spend 2 feet of movement for every 1 foot it moves while within the line. In addition, when a creature moves into or within the line, it takes 2d4 Necrotic damage for every 5 feet it travels.
+
+**Interactions With The Wind.** The winds disperse gas or vapor, and they extinguish flames in the area. The wind is not blocked by walls or other solid surfaces and extends into the Ethereal Plane if cast on the Material Plane.
 
 #### Galvanic Bolts 
 *5th-level Evocation (Sorcerer, Warlock)*
@@ -1239,6 +1363,19 @@ After stealing a spell, you gain the ability to cast it once as though it were f
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can attempt to steal a spell if its level is less than or equal to the level of the spell slot you used to cast this spell.
 
+#### Grasp of Dust
+*4th-level Necromancy (Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** Self
+- **Components:** V, S
+- **Duration:** Concentration, up to 10 minutes
+
+Your touch causes flesh to wither and crumble. Make a melee spell attack against a creature within your reach. On a hit, the target takes 4d8 + your spellcasting ability modifier Necrotic damage. If the target has hit points equal to 5 × the spell’s level or fewer after taking this damage, it is reduced to 0 hit points and dies. A creature that dies this way is reduced to dust.
+
+You can make this attack again on each of your turns as an Action.
+
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d8 for each spell slot level above 4th.
 
 
 #### Guiding Wind
@@ -1389,6 +1526,22 @@ A wave of cold 30 feet long and 15 feet wide emanates from you in a direction yo
 **Being Caught In The Water.** If a creature is swimming in an area where ice appears, it must make a Strength saving throw instead or become restrained by ice for the duration. A creature restrained by the ice or another creature that can reach it can also use its action to make a Strength check against your spell save DC. On a success, the target is freed. The target is also freed if any ice where at its location is destroyed. On a successful save, the creature can move below or above the now frozen surface.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the length of the line increases by 10 feet for each slot level above 2nd.
+
+#### Ice Storm (Revised)
+*4th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 300 feet
+- **Components:** V, S, M (a pinch of dust and a few <br> drops of water)
+- **Duration:**  1 Round
+- **Classes:**  Druid, Sorcerer, Wizard
+___
+
+A barrage of rock-hard ice plummets from the sky, forming a 20-foot-radius, 40-foot-high cylinder centered on a point within range. The area becomes difficult terrain until the end of your next turn, and any  creature within it has disadvantage on ranged attack rolls.
+
+When the ice storm initially appears or if a creature is inside its area at the end of your next turn, the creature must make a Dexterity saving throw. On a failed save, it takes 3d4 bludgeoning damage and 3d4 cold damage. On a successful save, it takes half as much damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, both the bludgeoning and cold damage increase by 1d4 for each slot level above 4th.
 
 #### Icy Tomb
 *5th-level evocation*
@@ -1559,7 +1712,7 @@ Choose one non-wondrous magic item you can see within range. The properties and 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional magic item for each slot level above 2nd. If you cast this spell using a spell slot of 7th level or higher, you may choose one wondrous magic item as one of your targets.
 
-#### Lighting Strike
+#### Lightning Strike
 *2nd-level evocation*
 ___
 - **Casting Time:** 1 action
@@ -2200,6 +2353,171 @@ If you return one or more creatures to life with this spell, the diamond used to
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d6 for each slot level above 6th.
 
+#### Rite of the Dead
+*1st-level Necromancy (Sorcerer, Wizard)*
+___
+- **Casting Time:** 1 minute
+- **Range:** 10 feet
+- **Components:** V, S, M (a gilded skull worth at least 50 gp)
+- **Duration:** Concentration, up to 8 hours
+
+This spell creates an Undead servant. Choose a Medium or Small pile of bones or a corpse within range. Your spell imbues the target with a foul mimicry of life, raising it as an Undead creature. The target becomes a **Skeleton Warrior** if you chose bones or a **Shambling Zombie** if you chose a corpse (this determines the stat block used). The Undead becomes inanimate again when it drops to 0 hit points or when the spell ends.
+
+Undead created by this spell are allies to you and your companions. In combat, they share your initiative count, but they take their turns immediately after yours. They obey your verbal commands (no action required by you). If you don’t issue any, they take the Dodge action and use their movement to avoid danger.
+
+***Using a Higher-Level Spell Slot.*** You animate one additional Undead for every two spell slot levels above 1st. Each Undead must be created from a different corpse or pile of bones. If you cast this spell using a 5th-level or higher spell slot, the casting time becomes 1 Action and the range becomes 60 feet.
+
+\pagebreakNum
+
+
+___
+___
+> ## Shambling Zombie
+> *Medium or Small Undead, Unaligned*
+> ___
+> - **Armor Class** 8            **Initiative** −2 (8)
+> - **Hit Points** 20 + 5 for each spell level above 1st
+> - **Speed** 20 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">13</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−4</td>
+> <td style="background-color:#e0e5c1; text-align:center">−4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Immunities** Poison; Exhaustion, Poisoned  
+> - **Senses** darkvision 60 ft., Passive Perception 8  
+> - **Languages** Understands the languages you speak  
+> - **Challenge** —    **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***Undead Fortitude.*** If damage reduces the zombie to 0 Hit Points, it must make a saving throw (DC equal to 5 + the damage taken, or just the damage taken if the zombie was created by a 3rd-level or higher spell), unless the damage is Radiant or from a Critical Hit. The zombie adds your spell attack modifier to the result of this saving throw. On a success, it drops to 1 Hit Point instead.
+>
+> ### Actions
+>
+> ***Slam.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + your spellcasting modifier Bludgeoning damage, or 2d8 + your spellcasting modifier Bludgeoning damage if the target is within 5 feet of another Undead created by the same spell and that Undead is not Incapacitated.
+
+
+</span>
+
+___
+___
+> ## Skeleton Warrior
+> *Medium or Small Undead, Unaligned*
+> ___
+> - **Armor Class** 13           **Initiative** +2 (12)
+> - **Hit Points** 10 + 5 for each spell level above 1st
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vulnerabilities** Bludgeoning  
+> - **Immunities** Poison; Exhaustion, Poisoned  
+> - **Senses** darkvision 60 ft., Passive Perception 8  
+> - **Languages** Understands the languages you speak  
+> - **Challenge** —   **Proficiency Bonus** equals your bonus
+> ___
+>
+> ***Undead Soldier.*** The skeleton is proficient with Simple Weapons and Shields. If created using a 3rd-level or higher spell slot, it is also proficient with Martial Weapons and Medium and Light armor. When it makes an attack with a weapon it is proficient with, it uses your spellcasting modifier for the attack roll and damage rolls instead of its own modifiers.
+>
+> ### Actions
+>
+> ***Slam.*** *Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d4 + your spellcasting modifier Bludgeoning damage.
+
+
+</span>
+
+
 \pagebreakNum
 
 #### Savage Fists
@@ -2220,8 +2538,7 @@ Your fists become as hard as iron, and you are filled with fighting fury. When y
 * You may use your spellcasting modifier when making Strength checks instead of your Strength modifier.
 
 #### Searing Shard
-
-*1st -level conjuration*
+*1st-level conjuration*
 
 - **Casting Time:** 1 action
 - **Range:** 90 ft
@@ -2234,6 +2551,22 @@ You send a sizzling jagged silver shard from your fingertips flying at one creat
 **Removing The Shard.** A creature within reach can use an action to perform a Wisdom (Medicine) check against your spell save DC to try to remove the shard. On a success, the shard is removed, and on a failure, the shard is still removed, but the creature takes 1d8 slashing damage.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the piercing, fire, and slashing damage each increase by 1d8 for each slot level above 1st.
+
+#### Second Sight
+*2nd-level divination*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**   Bard, Cleric, Druid, Sorcerer, Wizard, Warlock
+___
+
+Guided by an astral prophecy, your sight extends beyond the present moment. Until the spell ends, when you or a creature within 30 feet of you makes an attack roll or a saving throw, you can end the spell prematurely, allowing the creature to roll an additional d20. This decision can be made after the original roll but before the outcome is determined. The creature then chooses which of the d20s to use for the attack roll or saving throw.
+
+Alternatively, if an attack is made against you or a creature you can see within 30 feet of you, you can end the spell to roll a d20 and then decide whether the attack uses the attacker's roll or yours.
+
+If multiple effects, such as another instance of this spell or a feature like the Lucky feat, attempt to modify a single roll, they negate each other, resulting in no additional dice being rolled.
 
 \columnbreak
 
@@ -3089,6 +3422,18 @@ You or one of your undead servants lash out with a surge of malignant power. Mak
 
 \pagebreakNum
 
+#### Unholy Fervor
+*2nd-level Necromancy (Warlock)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 30 feet
+- **Components:** V, S, M (smelling salts)
+- **Duration:** 1 hour
+
+A willing creature you can see within range is imbued with unnatural vigor. It gains temporary hit points equal to 2d8 + your spellcasting ability modifier for the duration. If the creature hits a target with a weapon attack while it has these temporary hit points, it can choose to expend all of them to deal additional Necrotic damage equal to the number of temporary hit points expended.
+
+***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 2nd.
+
 #### Unleash the Beast
 *7th-level Transmutation (Druid)*
 ___
@@ -3129,7 +3474,21 @@ If you roll a 1 on the attack roll, you take 1d12 Lightning damage.
 
 ***Cantrip Upgrade.*** The damage on hit and when you roll a 1 increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).
 
+
+
 \columnbreak
+
+#### Vampiric Touch (Revised)
+*3rd-level Necromancy (Cleric, Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:** Instantaneous
+
+The touch of your shadow-wreathed hand siphons life force from others to mend your own wounds. Make a melee spell attack against one creature within your reach. On a hit, the target takes 3d12 + your spellcasting ability modifier Necrotic damage, and you regain hit points equal to half the Necrotic damage dealt.
+
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d12 for each spell slot level above 3rd.
 
 #### Vicious Lash 
 *1st-level Conjuration*
@@ -3311,6 +3670,19 @@ On a failed save, the creature takes 5d8 force damage and is subjected to one of
 
 On a successful save, the creature takes half damage and suffers no additional effects.
 
+#### Wind Blast
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 90 feet
+- **Components:** V, S, M (A legume seed)
+- **Duration:** Instantaneous
+- **Classes:**  Druid, Sorcerer, Wizard
+___
+
+You summon a powerful gust of wind emanating from a 20-foot-radius sphere centered on a point within range and blasting out in the direction of your choice. Medium or smaller objects in this area that aren't secured and aren't being worn or carried are pushed up to 15 feet in the chosen direction. Each creature in the area must make a Strength saving throw. On a failed save, a creature is pushed in the chosen direction and knocked prone. The wind also disperses gas and vapor and extinguishes candles, torches, and similar unprotected flames in its area.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the wind pushes creatures and objects an additional 5 feet for each slot level above 3rd.
 
 #### Wind of Death 
 *5th-level necromancy*
@@ -3376,6 +3748,20 @@ You hurl a potent concoction at one or two creatures you can see within range. I
 **Broth.** The target regains 1d4 + your spellcasting modifier hit points.
 
 ***Using a Higher-Level Spell Slot.*** The damage and healing increase by 1d4 for each slot level above 1st.
+
+#### Withering Gaze
+*4th-level Necromancy (Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 30 feet
+- **Components:** V
+- **Duration:** Instantaneous
+
+You fixate on two points within range, no more than 40 feet apart, that you can see. Beams of dark magic erupt from your eyes, rotting anything between the two points. Each creature intersected by the beams’ path must make a Constitution saving throw. On a failed save, the creature takes 3d8 + your spellcasting ability modifier Necrotic damage. If both points occupy the same space, creatures at that point have disadvantage on the saving throw.
+
+You can cause up to four Undead creatures of your choice within the area to automatically succeed on the saving throw, taking no damage. Instead, they are infused with unholy power, gaining temporary hit points equal to the total Necrotic damage dealt by the spell. These temporary hit points last for 1 hour.
+
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d8 for each spell slot level above 4th.
 
 #### Withering Heat
 *7th-level Evocation (Sorcerer, Wizard)*
@@ -3485,16 +3871,21 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Burning Gaze 2.0.0
 * Cacophonic Call 2.0.0
 * Call of the Pack 1.0.0
+* Carrion Swarm 1.0.0
 * Chaos Bolt (Revised) 1.0.0
 * Chaos Storm 1.0.0
 * Chaotic Pavane 1.0.0
+* Comet's Call 1.0.0
 * Commandment of Inertia 1.0.0
 * Conflagration 1.0.0
 * Creeping Strike 1.0.0
 * Crippling Pain 2.0.0
+* Curse of Ages 1.0.0
 * Curse of Stone 1.0.0
+* Curse of the Midnight Wind 1.1.0
 * Cursed Blades 1.0.0
 * Dampen Magic 1.0.0
+* Dance of Death 1.0.0
 * Dazzling Light 1.1.0
 * Death Frenzy 1.0.0
 * Deathly Frost 1.0.0
@@ -3523,17 +3914,21 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Frost Nova 2.0.0
 * Hellfire Weapon 1.0.0
 * Hysterical Frenzy 1.0.0
+* Gale of Souls 1.0.0
 * Galvanic Bolts 1.0.0
 * Gift of Chaos 1.0.0
 * Gift of Life 1.0.0
 * Glean Magic 1.0.0
+* Grasp of Dust 1.0.0
 * Guiding Wind 1.0.0
+* Harmonic Convergence 1.0.0
 * Harvest Strike 1.0.0
 * Here We Go! 1.0.0
 * Holy Nova 1.0.0
 * Horrifying Laughter 1.1.0
 * Hunting Hound 1.0.0
 * Ice Sheet 1.0.0
+* Ice Storm (Revised) 1.1.0
 * Icy Tomb 1.0.0
 * Impending Doom 1.1.0
 * Impenetrable Pelt 1.0.0
@@ -3573,7 +3968,9 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Rays of Magic 1.0.0
 * Rebounding Blades 1.0.0
 * Regrowth 1.0.0
+* Rite of the Dead 1.0.0
 * Savage Fists 1.0.0
+* Second Sight 1.0.0
 * Scorching Stream 1.0.0
 * Scorching Terror 1.0.0
 * Searing Shard 1.0.0
@@ -3603,9 +4000,11 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Tomb Strike 1.0.0
 * Toxic Coating 1.0.0
 * Transmutation of Lead 1.0.0
+* Unholy Fervor 1.0.0
 * Unleash the Beast 1.0.0
 * Unseen Lurker 1.0.0
 * Unstable Discharge 1.0.0
+* Vampiric Touch (Revised) 1.0.0
 * Virulent Decay 1.0.1
 * Vicious Lash 1.0.0
 * Walk Between Worlds 1.0.0
@@ -3616,10 +4015,12 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Weird (Revised) 1.0.0
 * Wild Surge 1.0.0
 * Will of the Spirits 1.0.0
+* Wind Blast 1.1.0
 * Wind of Death 1.1.0
 * Winter's Kiss 1.0.0
 * Witch Bolt (Revised) 1.0.0
 * Witch's Broth and Brew 1.0.0
+* Withering Gaze 1.0.0
 * Withering Heat 1.0.0
 * Withering Resolve 1.0.0
 * World Sore 2.0.0
