@@ -31,12 +31,6 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 
 \columnbreak
 
-#### Spell Sight
-As a Spellthief, you've become adapt at spotting sources of magic.  
-
-At 3rd level you automatically learn *Detect Magic* and may cast it as a ritual. While concentrating on it, you may use a bonus action, rather than an action, to see magical auras in your vicinity.
-
-
 ##### Spellthief Spellcasting
 | Rogue Level | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th |
 |:-----------:|:--------------:|:------------:|:---:|:---:|:---:|:---:|
@@ -60,12 +54,18 @@ At 3rd level you automatically learn *Detect Magic* and may cast it as a ritual.
 | 20th        | 3              | 13           | 4   | 3   | 3   | 1   |
 
 
+#### Spell Sight
+As a Spellthief, you've become adapt at spotting sources of magic.  
+
+At 3rd level you automatically learn *Detect Magic* and may cast it as a ritual. While concentrating on it, you may use a bonus action, rather than an action, to see magical auras in your vicinity.
+
+
 #### Steal Spell
 Beginning at 3rd level, when you make a successful melee sneak attack against a creature, you can either steal a cantrip or a spell of 1st level or higher by forgoing 1d6 of sneak attack damage per level of the spell being stolen.  You can also steal a spell from a willing target via touch as an action, but you cannot have a stolen spell of a higher level than your number of sneak attack die. 
 
-You may describe to the DM what spell you are attempting to steal.  This description may include spell level, damage type, spell effect, or even a specific spell name.  If there are multiple spells that fit the description, the DM chooses from amongst them at random.  If there are no spells that fit the description, the DM chooses from all the options at random.
+**Choosing the Spell.** You may describe to the DM what spell you are attempting to steal.  This description may include spell level, damage type, spell effect, or even a specific spell name.  If there are multiple spells that fit the description, the DM chooses from amongst them at random.  If there are no spells that fit the description, the DM chooses from all the options at random.
 
-If a cantrip is stolen, the target loses the ability to cast this cantrip for 1 hour and you may replace a cantrip you know with the stolen cantrip.  If a spell of 1st level or higher is stolen, the target loses a spell slot of that level and the ability to cast that spell for 1 hour.  If the target prepares spells at the beginning of the day or can cast the spell a certain number of times per day innately, the target loses one use of the spell.  
+**Stolen Spells.** If a cantrip is stolen, the target loses the ability to cast this cantrip for 1 hour and you may replace a cantrip you know with the stolen cantrip.  If a spell of 1st level or higher is stolen, the target loses a spell slot of that level and the ability to cast that spell for 1 hour.  If the target prepares spells at the beginning of the day or can cast the spell a certain number of times per day innately, the target loses one use of the spell.  
 
 
 
@@ -74,7 +74,7 @@ If a cantrip is stolen, the target loses the ability to cast this cantrip for 1 
 
 \pagebreak
 
-After stealing a spell, you gain the ability to cast it once as though it were a wizard spell you know at the level at which it was stolen. When casting the spell, you must supply the same components (including verbal, somatic, and material) required for the stolen spell.  You lose all stolen spells after completing a long rest. 
+**Casting Stolen Spells of 1st Level or Higher.** After stealing a spell, you gain the ability to cast it once as though it were a wizard spell you know at the level at which it was stolen. When casting the spell, you must supply the same components (including verbal, somatic, and material) required for the stolen spell.  You lose all stolen spells after completing a long rest. 
 
 You can steal a number of spells per day with a total combined spell level equal to your rogue level.  You regain full usage of this feature after you complete a long rest.
 
@@ -85,14 +85,16 @@ When you hit an opponent with a successful melee sneak attack, you can choose to
 
 The duration of the stolen effect carries over to you and cannot last longer than a number of minutes equal to your rogue level.  After this time, the effect automatically expires.  If you steal a spell effect that was being maintained through concentration, you must maintain concentration on the effect for this duration.
 
-The spell level of the stolen effect counts against the total number of levels worth of spells that can be stolen per day.
+The spell level of the stolen effect counts against the total number of levels worth of spells that can be stolen per day by your Steal Spell feature. 
 
 \columnbreak
 
 #### Steal Energy Resistance
 Beginning at 13th level, you can siphon a creature’s resistance to a particular non-physical damage type.  When you hit an opponent with a successful melee sneak attack, you can choose to forgo all sneak attack damage and leech resistance to any damage type other than slashing, piercing, and bludgeoning from a target.  
 
-If the target has more than one resistance or immunity and you don’t specify which one you wish to steal, the DM chooses one at random.  You gain that resistance for one hour and if the target has that resistance, it loses it for one hour.  If target has immunity to the chosen damage type, it retains this immunity.
+If the target has more than one resistance or immunity and you don’t specify which one you wish to steal, the DM chooses one at random.  You gain that resistance for one hour and if the target has that resistance, it loses it for one hour.  If target has immunity to the chosen damage type, it retains this immunity. 
+
+You can use this feature a number of times equal to your Proficiency Bonus and regain all uses when you complete a Long Rest.
 
 #### Specialized Spells
 Also, at 13th level you automatically learn *Counterspell* and *Dispel Magic*.  These count as wizard spells for you, and don't count against your total number of spells known. 
@@ -115,5 +117,5 @@ Beginning at 17th level, if you successfully steal a spell as a reaction using *
 
 \pagebreak
 
-### 0.0.0 Changes
- * This is a placeholder for the change log
+### 0.1.0 Changes
+ * Added uses limit to Steal Energy Resistance
