@@ -49,8 +49,6 @@ The creature has been set ablaze by something that continues to damage it each r
 * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
 * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
 
-
-
 \columnbreak
 
 #### Dazed 
@@ -115,8 +113,6 @@ When a creature is affected by this condition, it suffers one of the random muta
 
 Unless an ability states otherwise, a creature suffering from one or more mutations can make a Charisma saving throw at the end of each of its turns, ending the effects of all mutations on a success. The save DC is equal to the highest save DC among any effects that inflicted it with its current mutations.
 
-
-
 ##### Mutation Table
 | d6  | Mutation |  Creature Effect  |
 |:---:|:---------:| :---------:|
@@ -142,7 +138,7 @@ Unless an ability states otherwise, a creature suffering from one or more mutati
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
 
 #### Obsessed 
 The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
@@ -153,17 +149,16 @@ The creature becomes fixated on a creature or object, which becomes a source of 
 #### Quickened
 A Quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the Quickened condition among its other effects, and a creature cannot benefit from the Quickened condition from multiple sources at once.
 
-
-
-
-
-#### Rampaging
-The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+#### Rampaging 
+ The creature loses its free will as it enters a mindless Rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+* Any Charmed or Frightened effects on the creature are suspended.
+* The creature can't cast spells or maintain Concentration on spells or 
+other effects.
 * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
-&emsp;If no targets are within range, it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
-&emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
-* The creature can't cast spells or maintain concentration on spells or other effects.
-* Any charmed or frightened effects on the creature are suspended.
+&emsp;**If no targets are within range,** it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;**If the target is still not within range after moving,** it must take the Dash action to continue approaching the nearest hostile creature.<br>
+&emsp;**If the creature is prevented from moving within attack range,** it does whatever action is necessary to move within range (such as using an action escape a net or break through a barrier).
+* The creature can only use its Reaction and Bonus Action to make attacks against hostile creatures or to move closer to the nearest hostile creature.
 
 \columnbreak
 
@@ -193,12 +188,13 @@ While most creatures are wounded in combat, in this context, the wound is a spec
 * Messenger's Speed - Clint Cearley, Wizards of the Coast
 
 
-<img src='https://i.postimg.cc/HxG5JLKs/Messengers-Speed-Art.jpg' style='position:absolute; top:-40px; right:0px; width:816px;' />
+<img src='https://i.postimg.cc/HxG5JLKs/Messengers-Speed-Art.jpg' style='position:absolute; top:-20px; right:-100px; width:600px;' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
   style='position:absolute;right:-480px;top:-5px;height:1400px;width:1416px;transform:rotate(193deg)' />
 
-
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:-25px;height:1400px;width:1416px;transform:rotate(250deg)' />
 
 
 \pagebreakNum
@@ -214,7 +210,7 @@ While most creatures are wounded in combat, in this context, the wound is a spec
 * Mutated 1.0.0
 * Obsessed 1.0.0
 * Quickened 1.0.0
-* Rampaging 1.1.0
+* Rampaging 1.2.0
 * Resolute 1.0.0
 * Wounds 1.0.0
 
@@ -224,3 +220,6 @@ While most creatures are wounded in combat, in this context, the wound is a spec
 ##### 1.0.1
 * Add to intro description to clarify the condition can apply to other burning sources such as acid
 
+#### Rampaging
+##### 1.2.0
+* Add more clarifications for impeded movement, Bonus Actions, & Reactions
