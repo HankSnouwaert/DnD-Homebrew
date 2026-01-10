@@ -1,0 +1,248 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+
+
+</style>
+
+<br><br>
+
+## Fleshmares
+*Unholy Steeds Ridden By Lords of The Night*<br>
+**Habitat:** Underdark, Urban; **Treasure:** None <br>
+The great lords of undeath do not ride into battle atop mundane beasts. Instead, they have fashioned ferocious mounts through the arts of necromancy known as Fleshmares. These baleful entities can be created through a variety of twisted rites. Some Fleshmares are once-mighty warhorses raised from the grave, their decayed bodies reinforced with tendrils of ebon magic that grant them unholy strength. Others are assembled from sinew, bone, and metal woven together, animated by dark enchantments to form a horrific parody of a stallion. Most unsettling of all are those summoned forth from vast piles of rotting flesh by dread incantations. These creatures crawl from their putrid mass as malformed foals, reared by their creators on fresh blood. They grow into hulking nightmares, their ebon forms illuminated by eyes that glow like embers, their breath carrying the unmistakable stench of decay.
+Regardless of how they are brought into being, Fleshmares are dreadful creatures, far surpassing their living counterparts in ferocity. Unlike ordinary equines, they possess the savage temperament of blood-crazed predators, coupled with unnatural strength that allows them to indulge their ravenous cravings. A Fleshmare charging at full gallop can slay most men upon impact, trampling them into the earth. Those unfortunate enough to survive the initial onslaught find themselves at the mercy of a cadaverous beast that eagerly snaps at their flesh, attempting to pin them to the ground and devour them.
+
+### Gore Wing Steeds
+Among the most abominable of these necromantic mounts are the Gore Wing Steeds. These creatures have been warped far beyond any resemblance to a natural horse. Some are covered in scales and bear long tails resembling those of lizards, their hides the color of freshly spilled blood. Others lack skin entirely, exposing pale flesh as hard as stone; when wounded, black ichor hisses forth from the resulting gashes. Many sport multiple rows of predatory teeth, while others have long, sickle-like sabers protruding from their maws. What unites all Gore Wing Steeds is the presence of vast, leathery wings capable of bearing their immense bulk into the air.
+These winged mounts allow the lords of undeath to be carried into the skies, enabling them to more effectively maneuver their forces and rain necrotic sorcery upon their foes. Yet as the battle rages and the scent of slaughter drifts on the wind, this fragrance drives the Gore Wing Steed into a rampage, causing it to strain against its reins. Inevitably, its master releases the beast, allowing it to swoop down and gorge itself upon the broken and dying below.
+
+\columnbreak
+
+<br><br><br><br>
+
+### Fleshmares & Gore Wing Steed Tactics
+&emsp;**Primary Assault:** Charge in and out of combat, repeatedly attacking low-Strength enemies until they are knocked Prone.
+
+**Follow-Up:** Once the target is Prone, use Pin Down to prevent them from standing, then bite for maximum damage.
+
+**Evasion:** If surrounded by multiple opponents, Disengage immediately and resume charging to reposition.
+
+___
+> ## Fleshmare
+> *Large Undead, Party, Unaligned*
+> ___
+> - **Armor Class** 14             **Initiative** +3 (13)
+> - **Hit Points** 68 (8d10 + 24)
+> - **Speed** 60 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Necrotic  
+> - **Immunities** Poison; Exhaustion, Poisoned  
+> - **Senses** Passive Perception 12  
+> - **Languages** None  
+> - **Challenge** 2 (450 XP)     **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) Bludgeoning damage. If the fleshmare moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 9 (2d8) Bludgeoning damage and must make a *Strength Saving Throw:* DC 14.  
+> *Failure:* The target is knocked Prone.  
+> *Failure by 5+:* The target can’t stand up on its next turn unless it uses all of its movement speed to do so.
+>
+> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) Piercing damage, or 21 (4d8 + 4) Piercing damage if the target is Prone.
+>
+> ### Reactions
+>
+> ***Pin Down.***  *Trigger:* A creature within 5 feet of the fleshmare stands up. <br> *Response:* The fleshmare makes a Hooves attack with advantage. On a hit, the target falls Prone again.
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:12px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+___
+> ## Gore Wing Steed
+> *Large Undead, Party, Unaligned*
+> ___
+> - **Armor Class** 15     **Initiative** +5 (15)
+> - **Hit Points** 85 (10d10 + 30)
+> - **Speed** 60 ft., Fly 90 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Necrotic  
+> - **Immunities** Poison; Exhaustion, Poisoned 
+> - **Senses** Passive Perception 12  
+> - **Languages** None  
+> - **Challenge** 4 (1,100 XP)   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Hooves.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) Bludgeoning damage. If the gore wing steed moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) Bludgeoning damage and must succeed on a *Strength Saving Throw:* DC 15.<br>
+> *Failure:* The target is knocked Prone.<br>
+> *Failure by 5+:* The target can't stand up on its next turn unless it uses all its movement speed to do so.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) Piercing damage, or 32 (6d8 + 5) Piercing damage if the target is Prone.
+>
+> ### Reactions
+>
+> ***Pin Down.*** *Trigger:* A creature within 5 feet of the gore wing steed stands up.<br> *Response:* The gore wing steed makes a Hooves attack against the creature with advantage. On a hit, the target falls Prone again.
+
+</span>
+
+\columnbreak
+
+<br>
+
+##### Fleshmares Art Credit
+* Clouds over a Russian graveyard - Carl Julius von Leypold
+
+
+<img
+src='https://i.ibb.co/5xMrJHwc/clouds-over-russian-graveyard.jpg'
+style='position:absolute;bottom:0px;left:-180px;width:1380px' />
+
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-600px; right:-30px; width:860px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+

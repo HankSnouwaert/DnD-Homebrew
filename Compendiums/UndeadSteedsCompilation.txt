@@ -1,0 +1,882 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p8:after {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+
+
+</style>
+
+<br><br>
+
+# Undead Steeds Compilation
+
+## Fleshmares
+*Unholy Steeds Ridden By Lords of The Night*<br>
+**Habitat:** Underdark, Urban; **Treasure:** None <br>
+The great lords of undeath do not ride into battle atop mundane beasts. Instead, they have fashioned ferocious mounts through the arts of necromancy known as Fleshmares. These baleful entities can be created through a variety of twisted rites. Some Fleshmares are once-mighty warhorses raised from the grave, their decayed bodies reinforced with tendrils of ebon magic that grant them unholy strength. Others are assembled from sinew, bone, and metal woven together, animated by dark enchantments to form a horrific parody of a stallion. Most unsettling of all are those summoned forth from vast piles of rotting flesh by dread incantations. These creatures crawl from their putrid mass as malformed foals, reared by their creators on fresh blood. They grow into hulking nightmares, their ebon forms illuminated by eyes that glow like embers, their breath carrying the unmistakable stench of decay.
+Regardless of how they are brought into being, Fleshmares are dreadful creatures, far surpassing their living counterparts in ferocity. Unlike ordinary equines, they possess the savage temperament of blood-crazed predators, coupled with unnatural strength that allows them to indulge their ravenous cravings. A Fleshmare charging at full gallop can slay most men upon impact, trampling them into the earth. Those unfortunate enough to survive the initial onslaught find themselves at the mercy of a cadaverous beast that eagerly snaps at their flesh, attempting to pin them to the ground and devour them.
+
+### Gore Wing Steeds
+Among the most abominable of these necromantic mounts are the Gore Wing Steeds. These creatures have been warped far beyond any resemblance to a natural horse. Some are covered in scales and bear long tails resembling those of lizards, their hides the color of freshly spilled blood. Others lack skin entirely, exposing pale flesh as hard as stone; when wounded, black ichor hisses forth from the resulting gashes. Many sport multiple rows of predatory teeth, while others have long, sickle-like sabers protruding from their maws. What unites all Gore Wing Steeds is the presence of vast, leathery wings capable of bearing their immense bulk into the air.
+These winged mounts allow the lords of undeath to be carried into the skies, enabling them to more effectively maneuver their forces and rain necrotic sorcery upon their foes. Yet as the battle rages and the scent of slaughter drifts on the wind, this fragrance drives the Gore Wing Steed into a rampage, causing it to strain against its reins. Inevitably, its master releases the beast, allowing it to swoop down and gorge itself upon the broken and dying below.
+
+\columnbreak
+
+
+### Fleshmares & Gore Wing  Tactics
+&emsp;**Primary Assault:** Charge in and out of combat, repeatedly attacking low-Strength enemies until they are knocked Prone.
+
+**Follow-Up:** Once the target is Prone, use Pin Down to prevent them from standing, then bite for maximum damage.
+
+**Evasion:** If surrounded by multiple opponents, Disengage immediately and resume charging to reposition.
+
+___
+> ## Fleshmare
+> *Large Undead, Party, Unaligned*
+> ___
+> - **Armor Class** 14             **Initiative** +3 (13)
+> - **Hit Points** 68 (8d10 + 24)
+> - **Speed** 60 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Necrotic  
+> - **Immunities** Poison; Exhaustion, Poisoned  
+> - **Senses** Passive Perception 12  
+> - **Languages** None  
+> - **Challenge** 2 (450 XP)     **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) Bludgeoning damage. If the fleshmare moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 9 (2d8) Bludgeoning damage and must make a *Strength Saving Throw:* DC 14.  
+> *Failure:* The target is knocked Prone.  
+> *Failure by 5+:* The target can’t stand up on its next turn unless it uses all of its movement speed to do so.
+>
+> ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) Piercing damage, or 21 (4d8 + 4) Piercing damage if the target is Prone.
+>
+> ### Reactions
+>
+> ***Pin Down.***  *Trigger:* A creature within 5 feet of the fleshmare stands up. <br> *Response:* The fleshmare makes a Hooves attack with advantage. On a hit, the target falls Prone again.
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:12px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+___
+> ## Gore Wing Steed
+> *Large Undead, Party, Unaligned*
+> ___
+> - **Armor Class** 15     **Initiative** +5 (15)
+> - **Hit Points** 85 (10d10 + 30)
+> - **Speed** 60 ft., Fly 90 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Necrotic  
+> - **Immunities** Poison; Exhaustion, Poisoned 
+> - **Senses** Passive Perception 12  
+> - **Languages** None  
+> - **Challenge** 4 (1,100 XP)   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Hooves.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) Bludgeoning damage. If the gore wing steed moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 13 (3d8) Bludgeoning damage and must succeed on a *Strength Saving Throw:* DC 15.<br>
+> *Failure:* The target is knocked Prone.<br>
+> *Failure by 5+:* The target can't stand up on its next turn unless it uses all its movement speed to do so.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (3d8 + 5) Piercing damage, or 32 (6d8 + 5) Piercing damage if the target is Prone.
+>
+> ### Reactions
+>
+> ***Pin Down.*** *Trigger:* A creature within 5 feet of the gore wing steed stands up.<br> *Response:* The gore wing steed makes a Hooves attack against the creature with advantage. On a hit, the target falls Prone again.
+
+</span>
+
+\columnbreak
+
+<br>
+
+##### Fleshmares Art Credit
+* Swamp Scene - James Forrester
+
+
+<img
+src='https://i.ibb.co/rRLLmdLX/Night-Scene-with-Poachers.jpg'
+style='position:absolute;bottom:-0px;left:-120px;width:1100px; transform: scaleX(-1)' />
+
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-620px; right:-30px; width:860px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Charnel Terrors
+*Monstrous Undead Steeds Crafted By Masters of Death*<br>
+**Habitat:** Underdark; **Treasure:** None <br>
+Those most well-versed in necromancy and possessing the most heinous imaginations create their own unique monstrosities to ride to war. These blasphemous entities are collectively known as charnel terrors. There is no single way to craft such heinous servants; countless rituals and processes have been devised over centuries of forbidden research.
+
+Some are cobbled together from the parts of other ferocious creatures, such as griffins, manticores, or wyverns, while iron bones, tendons, or talons are fused into the monster’s frame to further enhance its might. The bound cadavers are revivified with necromantic spells, sutured limbs twitching as unholy magic forces their adventitious organs and mismatched appendages to unite in profane purpose, driving the creature to rise and serve its master.
+
+Others are shadows given physical form by prodigious amounts of dark magic. Such nightmares made flesh are haunting things, onyx skin stretched over a muscled body that continuously wafts blood-chilling mist. They soar through the air on black wings, their gaunt, bestial faces adorned with orbs pale as moonlight for eyes that peer hungrily at any living creature, ravenous for the warmth of life.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<br>
+
+Because of the many ways these anathema beasts may be spawned, the arsenal of deadly tools at their disposal is wildly unpredictable. Some terrors bear fangs and claws encased in iron, devilishly sharp enough to shear through plate armor. Others possess stingers capable of injecting toxins that can paralyze a warhorse within seconds. Still others grow antlers, horns, or steel-infused craniums, battering rams strong enough to smash castle gates or pulverize stone. The most horrifying of all may be those whose saliva, blue as sapphire, can freeze flesh solid upon contact.
+
+Regardless of their origin, all charnel terrors share one unifying trait: a truly horrifying presence that scars the psyche of any living soul forced to behold such a vile creation. Only the most stalwart soldiers can stand before an charnel terror, for any who draw near to such a loathsome fiend need no instruction to recognize its wicked nature; they see its unearthly movements and hear the atrocious sounds it utters, and terror roots itself in their very marrow.
+
+
+<img src='https://i.ibb.co/7tbc0CKr/The-Graveyard-in-the-Mountains-Study-from-Lofoten.jpg' style='position:absolute; top:-0px; right:0px; width:816px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-480px;top:242px;height:1400px;width:1416px;transform:rotate(193deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-480px;top:200px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+
+\pagebreakNum
+
+___
+> ## Charnel Terror
+> *Huge Undead, Party, Any Evil*
+> ___
+> - **Armor Class** 16        **Initiative** +5 (15)
+> - **Hit Points** 190 (20d10 + 80)
+> - **Speed** 40 ft., Fly 80 ft.
+> ___
+>
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Cold, Necrotic  
+> - **Immunities** Poison; Exhaustion, Poisoned  
+> - **Senses** Passive Perception 12  
+> - **Languages** None  
+> - **Challenge** 9 (5,000 XP)  **Proficiency Bonus** +4  
+> ___
+>
+> ### Traits
+>
+> ***Abominable Limbs.*** The charnel terror has two Abominable Limbs of your choice from the Abominable Limbs list.
+>
+> ### Actions
+>
+> ***Multiattack.*** The charnel terror makes two attacks, one with each of its Abominable Limbs.
+>
+> ### Bonus Actions
+>
+> ***Terrifying Presence.*** Each creature of the charnel terror’s choice within 120 feet that is aware of it must succeed on a *Wisdom Saving Throw:* DC 16.  
+> *Failure:* The creature becomes Frightened of the charnel terror until the end of the charnel terror’s next turn. While Frightened, the creature can’t cast spells other than cantrips.  
+> *Failure by 5+:* While Frightened, the creature can’t take reactions and must use the Dash action on its turn to move away from the charnel terror by the safest route.  
+> *Success:* The creature is immune to this Terrifying Presence for 1 hour.
+
+<br>
+
+##### Charnel Terrors Art Credit
+* The Graveyard in the Mountains. Study from Lofoten - Anna Boberg
+
+\columnbreak
+
+#### Abominable Limbs
+Select two different limbs from the following list to apply to your abominable terror.
+
+***Sword Claws.*** *Melee Attack Roll:* +10, reach 10 ft. *Hit:* 30 (4d10 + 6) Slashing damage. If the attack misses, the target must make a *Dexterity Saving Throw:* DC 18. 
+<br> *Failure:* The charnel terror automatically hits the target with a Sword Claws attack, dealing half the damage.
+<br> *Failure by 5+* The target takes the full damage of the attack.
+
+***Poisonous Barbs.*** *Melee Attack Roll:* +10, reach 10 ft. *Hit:* 30 (4d10 + 6) Piercing damage, and the target must make a *Constitution Saving Throw:* DC 18. 
+<br> *Failure:* The target is Poisoned. A creature Poisoned this way repeats the saving throw at the end of each of its turns, ending the effect on a success.
+<br> *Failure by 5+ (Including Repeat Saves):* The target is Paralyzed until the Poison ends.
+
+***Heat-Sapping Jaws.*** *Melee Attack Roll:* +10, reach 10 ft. *Hit:* 30 (4d10 + 6) Piercing damage, and the target gains the Burning* condition, taking 11 (2d10) Cold damage at the end of each of its turns until the condition ends. While Burning, the creature's speed is halved. A creature immune or resistant to cold damage ignores this speed reduction.
+
+***Crushing Horns.*** *Melee Attack Roll:* +10, reach 10 ft. *Hit:* 30 (4d10 + 6) Bludgeoning damage. If the charnel terror moved at least 20 feet straight toward the target immediately before the hit, the target takes an additional 13 (3d8) Bludgeoning damage and must make a *Strength Saving Throw:* DC 18. 
+
+*Failure:* The target is knocked Prone and pushed upto 15 feet away from charnel terror.
+
+*Failure by 5+*  If the target is Prone, it can't stand until the end of its next turn unless it spends all its movement to make a DC 18 Constitution saving throw. On a success, it stands up.
+
+<br>
+
+**New condition described on previous page*
+
+####  Charnel Terror Tactics
+
+Charnel terrors strike at creatures unaffected by their Terrifying Presence, diving in and out of melee while staying airborne when possible. Their targeting priorities shift depending on the abominable limbs they possess. A charnel terror has little tactical insight on its own, but a cunning master can direct it toward optimal targets.
+
+* **Sword Claws** – Prefers low-Dexterity foes with high AC.
+* **Poisonous Barb** – Targets creatures with low Constitution and no Poison resistance.
+* **Heat-Sapping Jaws** – Focuses on isolated creatures, making the Burning condition harder to remove.
+* **Crushing Horns** – Seeks out enemies with low Strength and that rely on high mobility.
+
+\pagebreakNum
+
+## Terrorshrieks
+*Massive Bat-Like Horrors*<br>
+**Habitat:** Underdark; **Treasure:** None <br>
+The dark and forsaken provinces of the world are suffocated by a gloom that clings to and permeates all within its borders. The few villages that remain live in constant fear, as the dead rise and stalk the wilderness, and the vampiric lords and ladies of the land, cruel and bitter, have shed their humanity in ages long past, treating their subjects as cattle to be feasted upon.
+
+Yet even in these grim realms, there exists a terror that eclipses all other monsters: the terrorshriek.
+
+A bat the size of a merchant’s caravan, it flies upon vast wings of black leather. From cavernous lairs hidden deep within the most remote wilderness, terrorshrieks soar for miles in search of prey: livestock, stag, bears, and even other nightmares that inhabit the realm. All are potential victims of a terrorshriek’s hunger.
+
+Upon detecting a potential meal through echolocation, the terrorshriek dives upon its newfound target with alarming speed. Most victims have only seconds to register the twin saber-like fangs, each as long as a claymore, capable of draining a man of blood in a single heartbeat, and outstretched claws strong enough to subdue a full-grown bull.
+
+Worse still is what most hear in their final moments. A shriek, unnatural and vile, that carries with it a heinous power. Those who hear it feel their eyes and ears fill with blood as their very bones shake and creak, vibrating, and some breaking under the strain. Other insidious noises assault the victim as they lie crippled and helpless, sounds that reveal the winged monster’s truly unholy nature.
+
+The few who have survived each tell different accounts of the sounds that overcame them. One man claimed he heard the screams of many women and children, as if they were being torn apart beside him. Another swore he heard whispers pressed against his blood-filled ears, frantic voices muttering in disturbing unison, forming a macabre melody in a dark and alien tongue.
+
+These accounts have led many to believe that the cries of a terrorshriek are echoes from the underworld itself, and that to hear them is to listen to the wailing of the damned. Few living creatures possess the mental or physical fortitude to survive such horrors, let alone muster the courage and strength after such a bombardment to face the hulking beast as it descends upon them.
+
+### Risen Terrorshrieks
+The lairs of Terrorshrieks are charnel pits, filled with the drained remnants of their ghastly meals, dragged back so the gluttonous monster may indulge in seclusion. Most creatures avoid such havens of death and decay. Eventually, after decades of spreading mayhem and dread, the beast succumbs to the ravages of time and expires atop its mound of cadavers.
+
+Unfortunately for the world, this is when an even greater evil is born.
+
+
+\columnbreak
+
+___
+> ## Terrorshriek
+> *Huge Monstrosity, Party, Neutral Evil*
+> ___
+> - **Armor Class** 17        **Initiative** +6 (16)
+> - **Hit Points** 123 (13d12 + 39)
+> - **Speed** 30 ft., Fly 90 ft.
+> ___
+>
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +5, Stealth +6
+> - **Senses** Blindsight 120 ft. (Blind beyond this radius), Passive Perception 15
+> - **Languages** None
+> - **Challenge** 8 (3,900 XP)  **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Echolocation.*** The terrorshriek can’t use its Blindsight while Deafened.
+>
+> ### Actions
+>
+> ***Multiattack.*** The terrorshriek makes two Puncture attacks.
+>
+> ***Puncture.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) Piercing damage. If the target is a Large or smaller creature, it is Grappled (escape DC 17). The terrorshriek can have only one creature Grappled this way at a time. <br>
+> If the target was already Grappled by the terrorshriek, it takes an additional 13 (3d8) Necrotic damage, and the target’s Hit Point maximum is reduced by an amount equal to the Necrotic damage taken. The terrorshriek regains Hit Points equal to that amount. This reduction lasts until the target finishes a Long Rest. The target dies if this effect reduces its Hit Point maximum to 0.
+>
+> ***Death Shriek (Recharges after 4 Rounds).*** Each creature in a 60-foot cone must make a *Wisdom or Constitution Saving Throw (creature’s choice)*: DC 17. <br>
+> *Successful Constitution Save:* The creature takes 18 (4d8) Psychic damage and is Frightened of the terrorshriek until the end of the terrorshriek’s next turn. While Frightened this way, it can cast only spells of 1st level or lower. <br>
+> *Successful Wisdom Save:* The creature takes 18 (4d8) Thunder damage and is Dazed* until the end of the terrorshriek’s next turn. <br>
+> *Failure:* The creature suffers both effects. <br>
+> *Failure by 10+:* The creature is also Paralyzed until the end of the terrorshriek’s next turn.
+>
+> **New condition described on page after next*
+
+</span>
+
+
+\pagebreakNum
+
+It is not uncommon for vampires to discover such tombs. Some legends even claim that the most bestial of vampires share a savage kinship with terrorshrieks and can sense their deaths. When the titanic carcass is found, the most powerful necromancy can be invoked to forge a terrible bond between vampire and terrorshrieks. Ebon magic awakens the beast, igniting its hunger once more. To complete the ritual, the newborn abomination must drink the vampire’s blood.
+
+Thus is created a servant far beyond any common puppet of rotten bone and flesh. These vampiric monstrosities far outstrip their living counterparts in both power and horror. The dark essence coursing through their putrefying innards allows the terrorshriek to recover from devastating blows in moments, as stinking muscle, pox-ridden skin, and blighted bone shift and fuse back into place, even after being shattered and torn apart.
+
+The bony maws and talons of the terrorshriek are encrusted with a lethal toxin, distilled from the gore of its former feasts and twisted by corrupted sorcery. Worse still, the hollow, fetid body of the terrorshrieks attracts swarms of beasts that gather in droves to nest and gnaw upon the unholy behemoth’s viscera. These creatures become utterly beholden to the terrorshriek.
+
+Should the terrorshrieks ever fall in battle, its body will burst open as a black cloud erupts forth, spreading out in search of flesh to which the repugnant vermin may attach their snouts. They tear and feed, siphoning stolen life back to the remains of their slain master, causing the carcass to renew itself once more.
+
+Such malevolent power has made the vampires who've secured these mounts figures of legend and nightmare. In the deep hours of night, shrill keening echoes across the land, traveling for miles and tormenting all who hear its mournful cry. Those who huddle in their homes, charms and herbs hanging from every doorway, praying they may see the light of day, have witnessed a silhouette against the pale moon, withered wings outstretched, tattered bones and glistening organs catching the faint glow of night. Upon its back sits a bestial rider, smiling with dagger-like teeth, its eyes burning coals.
+___
+___
+> ## Risen Terrorshriek
+> *Huge Undead, Mini-Boss, Neutral Evil*
+> ___
+> - **Armor Class** 17   **Initiative** +7 (17)
+> - **Hit Points** 136 (13d12 + 52)
+> - **Speed** 30 ft., Fly 90 ft.
+> ___
+>
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +6, Stealth +7
+> - **Immunities** Necrotic, Poison; Exhaustion, Poisoned
+> - **Senses** Blindsight 120 ft. (Blind beyond this radius), Passive Perception 16
+> - **Languages** None
+> - **Challenge** 13 (10,000 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Regeneration.*** The terrorshriek regains 20 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or running water. If it takes Radiant damage or damage from holy water, this trait doesn’t function at the start of its next turn.
+>
+> ***Infested (Recharges after a Long Rest).*** When the terrorshriek dies, a **Feasting Swarm** bursts from its corpse and lasts for 1 minute. In combat, the swarm shares the terrorshriek’s initiative count but takes its turn immediately after it.
+>
+> ***Echolocation.*** The terrorshriek can’t use its Blindsight while Deafened.
+>
+> ### Actions
+>
+> ***Multiattack.*** The terrorshriek makes two Puncture attacks. If a target is hit by both attacks, it must succeed on a *Constitution Saving Throw:* DC 18. <br>
+> *Failure:* The target is Poisoned. While Poisoned this way, it has disadvantage on saving throws other than against this poison. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+>
+> ***Puncture.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) Piercing damage plus 13 (3d8) Poison damage. If the target is a Large or smaller creature, it is Grappled (escape DC 18). The terrorshriek can have only one creature Grappled this way at a time. <br>
+> If the target was already Grappled by the terrorshriek, it takes an additional 13 (3d8) Necrotic damage. The target’s Hit Point maximum is reduced by an amount equal to the Necrotic damage taken, and the terrorshriek regains Hit Points equal to that amount. This reduction lasts until the target finishes a Long Rest. The target dies if this effect reduces its Hit Point maximum to 0.
+>
+> ***Death Shriek (Recharges after 4 Rounds).*** Each creature in a 60-foot cone must make a *Wisdom or Constitution Saving Throw (creature's choice):* DC 18. <br>
+> *Successful Constitution Save:* The creature takes 22 (5d8) Psychic damage and is Frightened of the terrorshriek until the end of the terrorshriek’s next turn. While Frightened this way, it can cast only spells of 1st level or lower. <br>
+> *Successful Wisdom Save:* The creature takes 22 (5d8) Thunder damage and is Dazed* until the end of the terrorshriek’s next turn. <br>
+> *Failure:* The creature suffers both effects. <br>
+> *Failure by 10+:* The creature is also Paralyzed until the end of the terrorshriek’s next turn.
+>
+> **New condition described on next page*
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Feasting Swarm
+> *Large Swarm of Tiny Undead (Minion of the Terrorshriek), Neutral Evil*
+> ___
+> - **Armor Class** 17
+> - **Hit Points** 63 (14d10 - 14)
+> - **Speed** 5 ft., Fly 60 ft.
+> ___
+>
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Bludgeoning, Piercing, and Slashing
+> - **Immunities** Necrotic, Poison; Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned
+> - **Senses** Blindsight 60 ft. (can’t use while Deafened), Passive Perception 13
+> - **Languages** None
+> - **Challenge** 4 (1,800 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Echolocation.*** The swarm can’t use its Blindsight while Deafened.
+>
+> ***Swarm.*** The swarm can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can’t regain Hit Points or gain Temporary Hit Points.
+>
+> ### Actions
+>
+> ***Bites.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7 (2d6) Piercing damage plus 18 (4d8) Necrotic damage. The target’s Hit Point maximum is reduced by an amount equal to the Necrotic damage taken, and the host terrorshriek regains Hit Points equal to that amount. This reduction lasts until the target finishes a Long Rest. The target dies if this effect reduces its Hit Point Maximum to 0. <br>
+> If the host terrorshriek is dead, it is restored to life with Hit Points equal to the Necrotic damage dealt.
+
+</span>
+
+
+#### Terrorshriek Tactics
+Terrorshrieks open combat by rushing toward the largest cluster of enemies and unleashing their Death Shriek. They then focus their attacks on a Paralyzed creature. If no creature is Paralyzed, they instead target one that is Frightened or Dazed, choosing one with low Strength if more than one creature has been affected by the sherik. Once engaged, the terrorshriek Grapples its chosen victim and takes flight, carrying the creature aloft while continuing its assault.
+
+If the terrorshrieks lose its grip on a target, it shifts focus to the creature with the lowest Strength or Constitution.
+
+A risen terrorshriek continues to pursue and attack any creature it has successfully poisoned it.
+
+When a feasting swarm spawns from the corpse of a risen terrorshriek, it moves to attack the creature with the lowest Armor Class, using its movement and attacks to drain vitality and restore the terrorshrieks.
+
+
+
+\columnbreak
+
+> ##### New Condition: Dazed 
+> A Dazed creature can’t take reactions and on its turn, it must choose whether it gets a Move, an Action, or a Bonus Action; it gets only one of the three.
+
+
+\pagebreakNum
+
+## Zombie Dragons
+*Pestilent Draconic Corpses Reanimated By Dark Magic*<br>
+**Habitat:** Underdark; **Treasure:** Any <br>
+Through the horrid arts of necromancy, any creature, from the smallest rat to the mightiest lion, can be bound into servitude as a zombie, reduced to a mindless puppet that obeys its master without question. Even the most powerful and majestic of creatures are not spared in death, for dragons themselves are vulnerable to such magic.
+
+A wizard truly skilled in the dark arts can animate the immense corpse of a fallen dragon, rousing it from eternal rest as a zombie dragon bound wholly to the caster’s will. These rotten behemoths are an affront to every sense. Once-lustrous scales are dulled and sloughing away in patches, exposing rotting muscle and bare bone beneath. The creature reeks of death, its putrid stench drawing swarms of voracious flies that blanket its decaying frame and churn endlessly through the air in a constant, repulsive hum.
+
+Despite its disfigured state, a zombie dragon remains a devastating adversary. Fetid muscles still haul the creature skyward on tattered wings, while fangs and claws remain sharp enough to rend steel with ease. The torrents of flame it once breathed have been replaced by a corrupted miasma, a noxious mist that rots and decomposes all caught within it.
+
+Such paragons of undeath are weapons of catastrophic power when guided by a nefarious necromancer, capable of shattering armies and slaying even the greatest of heroes. At other times, these abominations rise without a master at all, awakened when dark magic floods their graves. In such cases, the creature lumbers forward in blind slaughter, extinguishing all life that crosses its path.
+
+\columnbreak
+
+<br><br>
+
+### Zombie Dragon Tactics
+The zombie dragon prioritizes Breath of Pestilence to affect multiple enemies, conserving its charges for repeated use. Between breaths, it relies on its other abilities to disrupt enemy formations and relentlessly pursue vulnerable targets.
+
+#### Actions
+The zombie dragon uses Multiattack to focus on enemies not yet afflicted with Rot. Throughout the battle, it seeks to spread Rot to as many targets as possible before concentrating its attacks on already-weakened foes.
+
+#### Draconic Actions
+* Use Breath of Pestilence immediately if it can affect three or more enemies, prioritizing creatures with low Constitution.
+* Use Dread Presence if fewer than half of the enemies are Frightened.
+* Use Cloud of Flies when enemies are clustered, forcing them to disperse. The zombie dragon willingly moves into the cloud, exploiting its immunity to gain protection.
+* Use Tenacious Will only when the zombie dragon is unable to attack or is Incapacitated by an ongoing effect.
+* Use Pounce as often as possible, targeting the enemy with the lowest Armor Class.
+
+##### Zombie Dragons Art Credit
+* Clouds over a Russian graveyard - Carl Julius von Leypold
+
+<img
+src='https://i.ibb.co/5xMrJHwc/clouds-over-russian-graveyard.jpg'
+style='position:absolute;bottom:0px;left:-180px;width:1380px' />
+
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-260px; right:20px; width:860px; transform:rotate(-10deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-260px; right:0px; width:860px; transform:rotate(-0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+\pagebreakNum
+
+___
+___
+> ## Zombie Dragon
+> *Huge Undead, Boss, Neutral Evil*
+> ___
+> - **Armor Class** 16   **Initiative** +8 (18)
+> - **Hit Points** 262 (21d12 + 126)
+> - **Speed** 30 ft., Fly 70 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">22</td><td style="background-color:#e0e5c1; text-align:center">+6</td><td style="background-color:#e0e5c1; text-align:center">+11</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">6</td><td style="background-color:#e0e5c1; text-align:center">-2</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">22</td><td style="background-color:#e0e5c1; text-align:center">+6</td><td style="background-color:#e0e5c1; text-align:center">+11</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">3</td><td style="background-color:#e0e5c1; text-align:center">-4</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">8</td><td style="background-color:#e0e5c1; text-align:center">-1</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">5</td><td style="background-color:#e0e5c1; text-align:center">-3</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Immunities** Necrotic, Poison; Exhaustion, Poisoned
+> - **Senses** Blindsight 30 ft., Darkvision 120 ft., Passive Perception 9
+> - **Languages** Understands Common and Draconic but can’t speak
+> - **Challenge** 13 (10,000 XP)  **Proficiency Bonus** +5
+> ___
+>
+> ### Traits
+>
+> ***Undead Fortitude.*** If damage reduces the zombie dragon to 0 hit points, it must make a Constitution saving throw (DC equal to the damage taken), unless the damage is Radiant or from a critical hit. On a success, it drops to 1 hit point instead.
+>
+>
+> ### Actions
+>
+> ***Multiattack.*** The zombie dragon makes two Rend attacks. If both attacks hit the same target, that creature must make a *Constitution Saving Throw:* DC 19. <br>
+> *Failure:* The target gains one level of Rot. <br>
+> *Failure by 10+:* The target gains two levels of Rot.
+>
+> At the end of each of the creature’s turns, a creature with Rot takes 5 (1d10) Necrotic damage per level of Rot, then repeats the saving throw, removing all Rot on a success or gaining one additional level of Rot on a failure. An effect that removes disease or Exhaustion removes all levels of Rot.
+>
+> ***Rend.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. <br>
+> *Hit:* 11 (1d10 + 6) Slashing damage plus 5 (1d10) Necrotic damage.
+>
+> ### Draconic Actions
+>
+> The zombie dragon has 6 charges. On Initiative Count 15, 10, and 5, the zombie dragon gains 1 charge, up to a maximum of 6 charges. It can then spend charges to immediately take one of the following actions if it is not Incapacitated.
+>
+> ***Pounce (0 Charges).*** The zombie dragon moves up to half its speed and makes one Rend attack.
+>
+> ***Cloud of Flies (1 Charge).*** The zombie dragon creates a 15-foot-radius sphere of swarming flies centered on a point within 30 feet. The area is Lightly Obscured and Difficult Terrain for non-Undead creatures. The cloud lasts 1 minute or until dispersed by a wind of at least 10 mph.
+>
+> Each non-Undead creature that ends its turn in the area must make a *Constitution Saving Throw:* DC 19. <br>
+> *Failure:* 14 (4d6) Piercing damage. <br>
+> *Failure by 10+:* The creature uses its movement to travel in a random direction (d8) until it exits the cloud. <br>
+> *Success:* Half damage.
+>
+> ***Tenacious Will (1 Charge).*** If the zombie dragon is subject to an effect that allows a saving throw at the start or end of its turn, it can immediately make that saving throw with advantage, ending the effect on a success. This action can be taken even while Incapacitated.
+>
+> ***Terrifying Presence (2 Charges).*** *Wisdom Saving Throw:* DC 19, each hostile creature within 120 feet. <br>
+> *Failure:* The target is Frightened and can’t cast spells other than cantrips. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 10+:* While Frightened, the creature can’t take reactions and must Dash each turn to move away by the safest available route.
+>
+> ***Breath of Pestilence (5 Charges).*** *Constitution Saving Throw:* DC 19, each creature in a 60-foot cone. <br>
+> *Failure:* 21 (6d6) Necrotic damage and gain one level of Rot (described in the Multiattack action). <br>
+> *Failure by 10+:* The target takes the full damage and gains two levels of Rot. <br>
+> *Success:* Half damage only.
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
+
+### Revision Numbers
+
+#### Local Content
+* Fleshmare 1.0.0
+* Gore Wing Steed 1.0.0
+* Charnel Terror 1.0.0
+* Terrorshriek 1.0.0
+* Risen Terrorshriek 1.0.0
+* Zombie Dragon 1.0.0
+
+#### Referenced Content
+* Burning 1.0.1
+* Dazed 1.0.0
