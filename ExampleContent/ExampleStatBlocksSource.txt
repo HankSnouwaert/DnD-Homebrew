@@ -1,0 +1,1303 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p6:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+
+</style>
+
+I would like this chat to be used for cleaning up rough drafts of D&D stat blocks for use in GM Binder. The stat blocks should follow the general format of stat blocks published by Wizards of the Coast for their 2024 content, NOT the older 2014 format of stat blocks. I am going to provide a list of already "cleaned up" stat blocks you can use as a reference for formatting. I want the cleaned-up stat blocks you provide to be ready to copy and paste straight into the GM Binder. Note that some new spells and status conditions have an asterisk and a note at the end of the stat block telling the reader where to find the new content. You can ignore that, since I will need to handle that afterwards.
+
+Before I provide the list of stat blocks, is there any further clarification needed?
+
+
+
+Here is the list of stat blocks. Ignore things like pagebreaks and columnbreaks between the blocks
+
+\pagebreakNum
+
+___
+___
+> ## Chakatl, The Eternal Warden
+> *Medium Humanoid (Saurian), Mini-Boss, Lawful Neutral*
+> ___
+> - **Armor Class** 18                **Initiative** +12 (22)
+> - **Hit Points** 256 (27d8 + 135)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +11, Perception +15, Stealth +7
+> - **Senses** Blindsight 30 ft, Darkvision 30 ft., Passive Perception 25
+> - **Languages** Draconic
+> - **CR** 14 (XP 11,500 XP; PB +5)
+> ___
+>
+> ### Traits
+>
+> ***Cold Blooded.*** Chakatl has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Eternal Warden.*** Chakatl protects a sacred object or creature known as his Sacred Charge. While within 60 feet of his Sacred Charge, all Charmed, Frightened, and Rampage* effects affecting him are suspended.
+>
+> Additionally, while Chakatl is not Incapacitated, enemies within 10 feet of him have a –5 penalty on attack rolls against his Sacred Charge. His Sacred Charge also gains a +5 bonus to any saving throw it is forced to make by those enemies.
+>
+> ***Key of Eternity*** Chakatl emits a 10-foot aura. Any creature of his choice that ends its turn within the aura must make a *Charisma Saving Throw:* DC 19. <br>
+> *Failure:* The target is affected by the *Slow* spell until the end of Chakatl’s next turn.
+>
+> ***Primal Revenge (Recharges after a Short or Long Rest).*** If Chakatl’s Sacred Charge is destroyed or killed, he enters a Rampage*.
+>
+> ***Reactive.*** Chakatl can take one reaction on every turn in combat, as long as he is not Rampaging.
+>
+> ***Vigilant.*** Chakatl cannot be surprised.
+>
+> ### Actions
+>
+> ***Multiattack.*** Chakatl makes two melee attacks, or three if he is Rampaging.
+>
+> ***Tossing Bite.*** *Melee Weapon Attack:* +11 to hit (with advantage if it was an opportunity attack), reach 5 ft., one target. *Hit:* 13 (2d6 + 6) Piercing damage. The target must make a *Strength Saving Throw:* DC 19. <br>
+> *Failure:* Chakatl may move the target up to 20 feet in any direction and knock it Prone.
+>
+> ***Star-Stone Mace.*** *Melee Weapon Attack:* +11 to hit (with advantage if it was an opportunity attack), reach 10 ft., one target. *Hit:* 20 (4d6 + 6) Bludgeoning damage. Any magic items the target is attuned to are suppressed as if under the effects of an *antimagic field* until the end of Chakatl’s next turn.
+>
+> ### Reactions
+>
+> ***Intercept.*** *Trigger:* A creature targets Chakatl’s Sacred Charge with an attack, spell, or ability. <br>
+> *Response:* Chakatl moves up to half his speed toward the attacker without provoking opportunity attacks. This occurs before the triggering attack roll or saving throw is made.
+>
+> ***Warden's Strike.*** *Trigger:* A creature within 5 feet of Chakatl takes the Disengage action, attempts to teleport, or uses interplanar travel.<br>
+> *Response:* Chakatl makes an opportunity attack against the creature. On a hit, the creature’s speed becomes 0 until the end of the turn. If the creature was attempting to teleport or use interplanar travel, the effect fails and the spell or ability is wasted.
+> 
+> **New condition described on previous page*
+
+</span>
+
+\pagebreakNum
+
+___
+> ## Sload Mage-Priest
+> *Large Celestial, Mini-Boss, Lawful Neutral*
+> ___
+> - **Armor Class** 19     **Initiative** +12 (22)
+> - **Hit Points** 306 (36d10 + 108)
+> - **Speed** 0 ft., Fly 40 ft. (hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+12</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+12</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+12</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +18, History +18, Insight +18, Religion +18
+> - **Immunities** Prone
+> - **Senses** Truesight 120 ft., Passive Perception 16
+> - **Languages** Celestial, Draconic, Druidic, telepathy 300 ft.
+> - **CR** 17 (XP 18,000; PB +6) 
+> ___
+> ### Traits
+>
+> ***Limited Hover.*** The mage-priest can’t hover more than 15 feet above a surface or across a liquid that can't support it.
+>
+> ***Lore of Magic.*** The mage-priest is specialized in one of the following lores of magic: Beast, Death, Fire, Heavens, High Magic, Life, Light, Metal, or Shadow. The chosen lore determines one of its traits and the spells it knows, and it may cast the spells without material components.
+>
+> ***Telepathic Shroud.*** The mage-priest is immune to any effect that would sense its emotions or read its thoughts, as well as to all Divination spells.
+>
+> ### Actions
+>
+> ***Spellcasting.*** The mage-priest is a spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The spells the mage-priest knows depend on its Lore of Magic trait.
+>
+
+</span>
+
+\columnbreak
+
+___
+> ## Flagellant
+> *Medium Humanoid (Any Race), Horde, Any Chaotic*
+> ___
+> - **Armor Class** 14      **Initiative** +2 (12)
+> - **Hit Points** 78 (12d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +4, Religion +3
+> - **Resistances** Psychic
+> - **Senses** Passive Perception 11
+> - **Languages** Common, one other language
+> - **Challenge** 1 (200 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The flagellant has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Reckless.*** At the start of its turn, the flagellant can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.
+>
+> ### Actions
+>
+> ***Ball and Chain.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) Bludgeoning damage.
+>
+> ### Bonus Actions
+>
+> ***Penitent Flagellation.*** The flagellant takes 1d4 × 5 Force damage and gains one level of Fury* for each 5 damage taken.
+>
+> **New condition described on next page*
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Witch Hunter
+> *Medium Humanoid (Any Race), Mini-Boss, Any Lawful*
+> ___
+> - **Armor Class** 16
+> - **Initiative** +7 (17)
+> - **Hit Points** 90 (12d8 + 36)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Arcana +5, Intimidation +5, Insight +7, Perception +7, Survival +7, Religion +5
+> - **Resistances** Necrotic, Psychic, Radiant
+> - **Senses** Passive Perception 17
+> - **Languages** Common, one other language
+> - **Challenge** 6 (1,100 XP)      **Proficiency Bonus** +3
+> ___
+> ### Traits
+>
+> ***Fanatical Devotion.*** The witch hunter has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Magic Resistance.*** The witch hunter has advantage on saving throws against spells and other magical effects.
+>
+> ***Accustation (Recharges after a short or long rest).***  At the start of its turn, the witch hunter can mark one creature it can see within 90 feet as its quarry. For the next hour, the witch hunter deals an extra 5 (1d10) damage to the marked creature whenever it hits it with an attack roll. Additionally, the witch hunter has advantage on Wisdom (Perception) and Wisdom (Survival) checks made to locate the marked target as well as Wisdom (insight) checks to tell if the marked target is lying.
+>
+> ### Actions
+>
+> ***Multiattack.*** The witch hunter makes two attacks.
+>
+> ***Spellbane Rapier.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) Slashing damage plus 5 (1d10) Radiant damage, and the target cannot cast spells other than cantrips until the end of its next turn.
+>
+> ***Spellbane Pistol.*** *Ranged Weapon Attack:* +7 to hit, range 30/90 ft., one target. *Hit:* 10 (2d6 + 3) Piercing damage plus 5 (1d10) Radiant damage. A creature making a Constitution saving throw to maintain concentration as a result of this damage has disadvantage on the saving throw. The witch hunter has four pistols and cannot use a pistol again until it uses an action to reload one or replaces an attack from the Attack action to reload one.
+>
+> ### Recations
+>
+> ***Vengeance.***
+> *Trigger*: A creature the witch hunter can see reduces an ally to 0 hit points. <br>
+> *Response*: The witch hunter can move up to half its speed toward or away from that creature without provoking opportunity attacks and then make one attack against that creature.
+>
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Lord Mazhalmundi
+> *Large Celestial, Boss, Lawful Neutral*
+> ___
+> - **Armor Class** 20          **Initiative** +16 (26)
+> - **Hit Points** 370 (39d10 + 156)
+> - **Speed** 0 ft., Fly 40 ft. (hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+15</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+15</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+15</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +23, History +23, Insight +23, Religion +23
+> - **Immunities** Charmed, Frightened, Prone
+> - **Senses** Truesight 120 ft., Passive Perception 17
+> - **Languages** Undedstands, Celestial, Draconic, Druidic but can't speak.
+> - **Challenge** 26 (90,000 XP)      **Proficiency Bonus** +8
+> ___
+> ### Traits
+>
+> ***Adaptive Healing.*** At the end of Mazhalmundi turn, he chooses one damage type other than force. At the start of his next turn he regains 30 hit points. If Mazhalmundi takes 10 or more of the chosen damage type in a single turn, this trait doesn’t function at the start of his next turn. Mazhalmundi dies only if he starts his turn with 0 hit points and doesn’t regenerate.
+>
+> ***Harmonic Shield.*** Mazhalmundi has a shield with 3 charges. If he fails a saving throw, he can choose to spend a charge to succeed instead. At the start of his turn, the shield regains all of its charges. It can never have more than 3 charges at any time.
+> A creature within 15 feet of Mazhalmundi can use its action or bonus action to make a DC 24 Intelligence (Arcana) check to attempt to disrupt the shield. <br>
+> *Failure:* The creature takes 16 (3d10) Force damage.<br>
+> *Failure by 10+:* The creature takes 33 (6d10) Force damage.<br>
+> *Success:* Mazhalmundi loses 1 charge. <br>
+> *Success by 10+:* Mazhalmundi loses 2 charges.<br>
+>
+> ***Mage Lord's Warding.*** Mazhalmundi can choose to ignore the effects of any of his own spells.
+>
+> ***Mind of Stone.*** Mazhalmundi’s concentration cannot be broken as a result of taking damage, and he can concentrate on two spells at once. If Mazhalmundi loses concentration, he loses concentration on both spells.
+>
+> ***Telepathic Shroud.*** Mazhalmundi is immune to any effect that would sense his emotions or read his thoughts, as well as to all Divination spells.
+>
+> ### Actions
+>
+> ***Cobara Mace.*** *Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:* 21 (4d6 + 7) Bludgeoning damage plus 18 (4d8) Poison damage. At the end of the turn, each creature hit by this attack must make a *Constitution  Saving Throw:* DC 24  <br>
+> *Failure:* The target is Poisoned. While Poisoned, the target can't concentrate on spells and all attunment to any magic items it has is suppressed . The target can repeat the saving throw at the end of each of it's turns, ending the effect on a success. <br>
+>
+> ***Spellcasting.*** Mazhalmundi is a spellcaster. His spellcasting ability is Intelligence (spell save DC 24, +15 to hit with spell attacks). 
+>
+> **At Will:** *Commune*, *Detect Magic*, *Dispel Magic* (9th level), *Disruptive Pulse** (8d8), *Guidance*, *Mage Hand*, *Prestidigitation*, *Scrying*, *Sending*, *Thaumaturgy* <br>
+> **1/day:** *Eruption**, *Horrid Wilting***, *Maddening Darkness***, *Psychic Scream***, *Rebounding Blades**, *Storm of Renewal**, *Sunburst*, *Titanic Growth**, *Wrath of the Four Winds**
+>
+> ### Bonus Actions
+>
+> ***Spacial Shift.*** Mazhalmundi teleports himself and the creature he is mounted on up to 60 feet to a point he can see. The destination can be a place he can visualize or one he can describe by stating distance and direction.
+>
+> ### Monstrous Actions
+>
+> Mazhalmundi gains two additional actions in combat: Cobra Strike and Siphon Fear. Each action can be performed on its own initiative count (losing ties), separate from Mazhalmundi's own, if he is not Incapacitated.
+>
+> ***Cobra Strike  (Initiative Count 20).*** Mazhalmundi or a creature he is mounted on moves up to 40 feet, and then Mazhalmundi makes an attack with his Cobara Mace.
+>
+> ***Mage-Lord's Magic (Initiative Count 10).*** Mazhalmundi casts a spell.
+>
+> ### Reactions
+>
+> ***Counterspell.*** Mazhalmundi casts *Counterspell*, using Intelligence as his spellcasting ability.
+>
+> **New spell described at end of document*<Br>
+***Spell Found in Xanathar's Guide to Everything*
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Zloq
+> *Huge Monstrosity, Minion of Mazhalmundi, Unaligned*
+> ___
+> - **Armor Class** 20 (Natural Armor)     **Initiative** -1 (9)
+> - **Hit Points** 337 (25d12 + 175)
+> - **Speed** 30 ft
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">9</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">24</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +11
+> - **Immunities** Charmed, Frightened
+> - **Senses** Passive Perception 21
+> - **Languages** None
+> - **Challenge** 18 (20,000 XP)     **Proficiency Bonus** +8
+> ___
+>
+> ### Traits
+>
+> ***Implacable.*** Zloq has advantage on saving throws against being Charmed, Frightened, Incapacitated, Stunned, or Paralyzed.
+>
+> ***Beast of the Mage Lord.*** Zloq can choose to ignore any of the effects of Mazhalmundi’s spells.
+>
+> ***Primal Revenge.*** When Mazhalmundi dies, Zloq enters a Rampage* that lasts for 1 minute.
+>
+> ***Massive Behemoth.*** Any creature mounted on Zloq benefits from half cover.
+>
+> ***Unstoppable.*** Zloq’s movement is unaffected by difficult terrain, and spells or other magical effects can neither reduce its speed nor move or teleport it against its will.
+>
+> ### Actions
+>
+> ***Multiattack.*** Zloq makes a Stomp attack against any number of creatures within 5 feet of it, then makes either a Gore or Bite attack. It can forgo all of its Stomp attacks to instead use its Trample action.
+>
+> ***Gore.*** *Melee Weapon Attack:* +15 to hit, reach 5 ft., one target not in Zloq’s space. *Hit:* 24 (3d10 + 7) Piercing damage. If Zloq moves at least 20 feet straight toward the target before making this attack, the target takes an additional 16 (3d10) Piercing damage. If the target is a creature, Zloq impales it on its horns, grappling it if it is Large or smaller (escape DC 24). While grappled, the target is Restrained and takes 24 (3d10 + 7) Piercing damage at the start of each of Zloq’s turns—or 40 (6d10 + 7) if Zloq is Rampaging. Zloq cannot use its Gore attack while a creature is impaled this way.
+>
+> ***Bite.*** *Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:* 20 (3d8 + 7) Piercing damage.
+>
+> ***Stomp.*** *Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:* 20 (2d12 + 7) Bludgeoning damage. If the target is Prone and in the same space as Zloq, the attack instead deals 33 (4d12 + 7) Bludgeoning damage. If Zloq is Rampaging and the target is Prone, the attack is a critical hit, and the creature is paralyzed until the start of Zloq’s next turn.
+>
+> ***Trample.*** Zloq moves up to its speed in a straight line. During this movement, it can attempt to enter the spaces of Large or smaller creatures if it has moved at least 10 feet in a straight line beforehand. A creature whose space Zloq would enter must make a *Dexterity or Strength Saving Throw (target’s choice):* DC 24. <br>
+> *Failure:* The creature falls Prone, takes 20 (2d12 + 7) Bludgeoning damage, and Zloq moves into its space. <br>
+> *Successful Dexterity Save:* The creature takes no damage, is not knocked Prone, and is pushed 5 feet to the nearest space out of Zloq’s path. <br>
+> *Successful Strength Save:* The creature takes half damage, is not knocked Prone, and Zloq’s movement ends. <br>
+> If Zloq ends its movement in a Prone creature’s space, that creature is also Restrained until it is no longer in the same space as Zloq. While Restrained in this way, the creature, or another creature within 5 feet of it, can use an action to make a DC 24 Strength check. On a success, the Restrained creature is pulled to an unoccupied space of its choice within 5 feet of Zloq and is no longer Restrained.
+>
+> ### Reactions
+>
+> ***Armoured Crest.*** *Trigger:* An attacker that Zloq can see makes an attack roll against it or a creature within 5 feet of it. <br>
+> *Response:* Zloq imposes disadvantage on the attack roll.
+>
+> **New condition described on next page*
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Setara, The Eternal
+> *Medium Undead, Boss Lawful Neutral*
+> ___
+> - **Armor Class** 19               **Initiative** +16 (26)
+> - **Hit Points** 315 (30d8 + 180)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+12</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+12</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+12</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +10, Athletics +12, History +10, Intimidation +12, Persuasion +12, Religion +10
+> - **Resistances** Fire, Radiant
+> - **Immunities** Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned
+> - **Gear** Sunblade
+> - **Senses** Darkvision 120 ft., Passive Perception 14
+> - **Languages** The languages Setara knew in life
+> - **Challenge** 20 (25,000 XP)      **Proficiency Bonus** +6
+> ___
+> ### Traits
+>
+> ***Scarab Ward (1/Round).*** If an attack hits Setara, Setara can force the attacker to reroll the attack roll with disadvantage. If Setara fails a saving throw, Setara can reroll it with advantage. In each case, Setara must use the new roll.
+>
+> ### Actions
+>
+> ***Multiattack.*** Setara makes two Sunblade attacks.
+>
+> ***Sunblade.*** *Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. Hit: 14 (1d10 + 9) Slashing damage plus 13 (3d8) Radiant damage. The target must make a *Constitution Saving Throw:* DC 21. <br> *Failure:* The target is Blinded until the end of Setara’s next turn.
+>
+> ### Bonus Actions
+>
+> ***Ruler’s Authority.*** *Wisdom Saving Throw:* DC 20, one creature within 90 feet of Setara that can hear Setara.  <br> *Failure:* The target falls Prone in prostration, its speed is 0, and it can’t cast spells other than cantrips until the end of its next turn. <br> *Success:* The creature is immune to Ruler’s Authority for 1 minute.
+>
+> ### Monstrous Actions
+>
+> Setara gains three additional actions in combat: Wind Rush, Curse of the Withering Sun, and Soul Crush. Each action can be performed on its own initiative count (losing ties), separate from Setara’s own, if he is not Incapacitated. He can replace any action with Dispel Magic or Tenacious Will, and he can use Tenacious Will even if Incapacitated.
+>
+> ***Wind Rush (Initiative Count 20).*** Setara moves up to 30 feet and slams the ground, unleashing a wave of stinging wind. *Strength Saving Throw:* DC 20 (disadvantage if the target is the only one making the saving throw), each creature in a 15-foot cube originating from Setara. <br> *Failure:* The target takes 10 (3d6) Slashing damage, is pushed or pulled 15 feet (Setara’s choice), and gains one level of Fatigue*.
+>
+> ***Curse of the Withering Sun (Initiative Count 15).*** *Constitution Saving Throw:* DC 20, one creature within 90 feet that Setara can see and that is not cursed by Setara. <br> *Failure:* The target is cursed for 1 minute. While cursed, the target is Dazed* and emits bright light in a 15-foot radius. At the end of each of its turns, the cursed creature and any creature (except Setara or its minions) within 15 feet of it must make a *Constitution Saving Throw:* DC 20. <br> *Failure:* The creature takes 10 (2d10) Radiant damage and gains one level of Fatigue*. If the cursed creature succeeds on the saving throw, the curse ends.
+>
+> ***Soul Crush (Initiative Count 5).*** *Charisma Saving Throw:* DC 20 (advantage if the target has an ally within 5 feet), each hostile creature in a 60-foot emanation from Setara. <br> *Failure:* The target takes 16 (3d10) Necrotic damage and gains one level of Fatigue*.
+>
+> ***Dispel Magic.*** Setara casts *Dispel Magic* using Charisma as its spellcasting ability.
+>
+> ***Tenacious Will.*** If Setara is subject to an ongoing effect that allows a saving throw as an action or at the start or end of its turn, Setara can immediately make that save with advantage, ending the effect on a success.
+>
+> ### Eternal Legion
+> When Setara rolls initiative, he chooses a point he can see and calls upon the gods to summon a legion to his command. For the next minute—or until Setara dies—these divine entities, which possess an Intelligence of 18, act autonomously and always in Setara's best interest.
+> 
+> While this effect is active, the gods are aware of the location of every creature within 120 feet of the chosen point.
+> 
+> On Initiative Count 21 (losing ties), the gods summon a **Legionnaire of Setara** (described on next page) in an unoccupied space within 30 feet of Setara. Additionally, any Legionnaires of Setara that were destroyed and are within 30 feet of Setara are instantly restored to life at full hit points. Each Legionnaire summoned this way acts on initiative count 0. <br>
+> If there are already six or more active Legionnaires when the gods attempt to summon another, Setara must choose one existing Legionnaire to be immediately destroyed. That Legionnaire cannot be restored again by this feature.
+>
+
+</span>
+
+\pagebreakNum
+
+____
+> ## Legionnaire of Setara
+> *Medium Undead (Minion of Setara), Lawful Neutral*
+> ___
+> - **Armor Class** 16             **Initiative** +4 (14)
+> - **Hit Points** 32 (5d8 + 10)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +6
+> - **Resistances** Radiant, Fire
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Gear** Khopesh
+> - **Senses** Darkvision 120 ft., Passive Perception 16
+> - **Languages** Understands the languages it knew in life but can’t speak
+> - **Challenge** 2 (450 XP)      **Proficiency Bonus** +6
+> ___
+>
+> ### Actions
+>
+> ***Khopesh.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) Slashing damage plus 5 (1d10) Radiant damage for each level of righteousness it has. Hit or miss, it then gains a level of righteousness up to a maximum of 6. It loses all righteousness when it is destroyed.
+>
+
+</span>
+
+___
+> ## Royal Warhorse
+> *Large Undead (Minion of Setara), Lawful Neutral*
+> ___
+> - **Armor Class** 13              **Initiative** +3 (13)
+> - **Hit Points** 31 (7d8)
+> - **Speed** 60 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Poison; Charmed, Exhaustion, Frightened, Poisoned
+> - **Senses** Darkvision 60 ft., Passive Perception 10
+> - **Languages** None
+> - **Challenge** 3 (200 XP)      **Proficiency Bonus** +6
+> ___
+>
+> ### Actions
+>
+> ***Brilliant Hooves.*** Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) Bludgeoning damage. If the warhorse moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 (2d6) Radiant damage and must make a *Strength Saving Throw:* DC 20. <br> *Failure:* The target is knocked Prone.
+>
+
+</span>
+
+___
+___
+> ## Chariot of The Gods
+> *Large Vehicle (60 lbs.) (Minion of Setara)*
+> ___
+> - **Armor Class** 19
+> - **Hit Points** 315 (30d8 + 180)
+> - **Max Speed** 60 ft
+> - **Steed Capacity** 4 Medium or Large creatures
+> - **Carriage Capacity** 1 Medium creature
+> - **Constitution Modifier** +4
+> - **Damage Immunities** Radiant, Poison, Psychic
+> - **Challenge** 10 (5,900 XP)
+> ___
+> ### Traits
+>
+> ***Blazing Tracks.*** Any ground the chariot moves through is set ablaze with fire for the next minute or until doused. Creatures other than Setara take 10 (3d6) Radiant damage when they end their turn in this fire.
+>
+> ***Charioteer of the Gods.*** Setara can’t be moved or teleported from the chariot against his will while he is the charioteer. Additionally, if Setara would take damage, he can choose for the chariot to take the damage instead. 
+>
+> ### Monstrous Actions
+>
+> While Setara is the charioteer, Setara can replace any of his Monstrous Actions with the following action:
+>
+> ***Conqueror’s Assault.*** Setara summons up to 4 Royal Warhorses, which become steeds for the chariot, provided there are vacant steed slots. If there are no vacant slots, Setara may instead have the chariot move up to 60 feet in a straight line and then use the Charge Steed Action. Setara may only have four Royal Warhorses at one time. If Setara attempts to summon a warhorse while there are already four or more active warhorses, he must choose one to be immediately destroyed.
+>
+> ### Steed Actions
+>
+> ***Charge.*** Each steed pulling the chariot can make a melee weapon attack.
+>
+
+</span>
+
+
+
+
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Nekoph, Herald of Setara
+> *Medium Undead (Minion of Setara), Lawful Neutral*
+> ___
+> - **Armor Class** 18                 **Initiative** +5 (15)
+> - **Hit Points**  171 (18d8 + 90)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +11, History +10, Intimidation +120, Religion +10, Persuasion +10
+> - **Resistances** Radiant, Fire
+> - **Immunities** Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 14
+> - **Languages** Understands the languages it knew in life but can’t speak
+> - **Challenge** 9 (5,000 XP)        **Proficiency Bonus** +6
+> ___
+> ### Traits
+>
+> ***Setara’s Guardian.*** While the Nekoph is within 30 feet of Setara and not in a duel, Setara has resistance to all damage and advantage on all saving throws.
+>
+> ***Sacred Duel.*** On initiative count 30 (losing ties), Nekoph’s must issue a challenge if he is not already engaged in a duel. If a creature aspects, Nekoph and that creature enter a duel.
+> 
+> While in a duel:
+> 
+> &#8226; Neither creature can teleport or willingly move more than 30 feet away from the other.
+> 
+> &#8226; Neither creature can target any other creatures or objects with attacks, spells, or abilities—only each other.
+>
+> &#8226; All other creatures and objects are immune to any damage either duelist would deal to them and automatically succeed on any saving throws caused by them.
+>
+> &#8226; Both duelists take half damage from any source that isn’t each other.
+>
+> &#8226; Both duellists gain a +5 bonus to ability checks and saving throws imposed by creatures other than each other.
+>
+> &#8226; Attack rolls made against either duelist by sources other than their opponent suffer a –5 penalty.
+>
+> ### Actions
+>
+> ***Multiattack.*** The Nekoph makes two attacks. If he hits a target twice with his Khopesh of Despair while Bloodied, the target must succeed on a *Strength Saving Throw:* DC 19.  *Failure:* Nekoph automatically hits the target with another Khopesh of Despair attack as part of this action.
+>
+> ***Flail of Skulls.*** Melee Weapon Attack: +11 to hit, reach 10 ft., one target. *Hit:* 19 (4d6 + 5) Piercing damage. If Nekoph is Bloodied, the flail of skulls shatters, and the target takes an additional 14 (4d6) Piercing damage and must succeed on a *Wisdom Saving Throw:* DC 19. <br> *Failure:*  The target becomes Frightened of Nekoph. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+>
+> ***Khopesh of Despair .*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 15 (3d6 + 5) Slashing damage.
+>
+> ***Wing-Puncturing Javelin.*** *Melee or Ranged Weapon Attack:* +11 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 12 (2d6 + 5) Piercing damage. If the attack targets a flying creature, it has advantage, and on a hit, the target is knocked Prone.
+>
+
+</span>
+
+\pagebreakNum
+
+___
+> ## Demonette
+> *Medium Fiend (demon of excess), Party, Chaotic Evil* 
+> ___
+> - **Armor Class** 17 (natural armor)      **Initiative** +4
+> - **Hit Points** 58 (9d8 + 18)
+> - **Speed** 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +6, Deception +6, Perception +4, Performance +8, Persuasion +6
+> - **Resistances** Cold, Fire, Lightning, Psychic
+> - **Immunities** Poison, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 14
+> - **Languages** Abyssal, telepathy 60 ft.
+> - **Challenge** 3 (700 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Aura of Indulgence.*** Any non-demon of excess that starts its turn within 10 feet of one or more creatures with this aura must make a *Wisdom Saving Throw:* DC 14 + 1 per each additional creature with this aura within 10 feet of the target, using the highest DC of these creatures if multiple are present. <br>
+> *Failure:* The creature is Obsessed* with all creatures with this aura until the start of its next turn. While Obsessed, attacks against the creature have advantage. <br>
+> *Success:* The creature is immune to the Aura of Indulgence of all creatures for 10 minutes. <br>
+>
+> ### Actions
+>
+>
+> ***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) slashing damage.
+>
+> **New condition described on next page*
+
+</span>
+
+\columnbreak
+
+___
+> ## Steed of Excess
+> *Large Fiend (demon of excess) Horde, Chaotic Evil*
+> ___
+> - **Armor Class** 15 (natural armor)      **Initiative** +9
+> - **Hit Points** 65 (10d10 + 10)
+> - **Speed** 80 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Perception +8, Survival +8
+> - **Resistances** Cold, Fire, Lightning, Psychic
+> - **Immunities** Poison, Exhaustion, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 18
+> - **Languages** understands Abyssal but cannot speak
+> - **Challenge** 3 (700 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Blurred Movement.*** Attack rolls against the fiend have disadvantage unless the the fiend's speed is 10 or lower or it is incapacitated.
+>
+> ***Evasive Mount.*** If the steed or a creature mounted on it is subjected to an effect that allows a Dexterity saving throw to take half damage, it takes no damage on a successful save and half damage on a failed save.
+>
+> ***Magic Tracking.*** The steed’s senses are considered magical for the purpose of effects, such as *Pass Without Trace*, that prevent tracking by nonmagical means.
+>
+> ### Actions
+>
+> ***Toxic Lash.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 17 (3d8 + 5) Slashing damage, and the target must succeed on a *Constitution Saving Throw:* DC 15 <br>
+> *Failure:* The target is Poisoned. If the target was already Poisoned, it becomes Paralyzed until the poison ends. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending the effect on a success.
+>
+> ### Bonus Actions
+>
+> ***Soul Scent.*** The steed chooses one creature it can smell within 80 feet and marks it as its quarry until it uses this ability again. The steed knows the direction and distance to its quarry as long as they are on the same plane. The steed can have only one quarry at a time.
+>
+
+</span>
+
+\pagebreakNum
+
+___
+> ## Chariot of Excess
+>*Large Chariot, 50 lbs*
+> ___
+> - **Armor Class** 16
+> - **Hit Points**  136 (16d10+48)
+> - **Damage Resistnace** Cold, Fire, Lighting  
+> - **Damage Immunities** Poison, Psychic 
+> - **Max Speed** 80ft. 
+> - **Steed Capacity** 2 Large creatures
+> - **Carriage Capacity** 2 Medium creatures
+> - **Constitution Modifier** +3
+> - **Challenge** 3 (700 XP)
+>___
+>
+> ***Trample.*** The chariot and its steeds can move through a hostile creature’s space without expending extra movement if that creature is Prone and Medium or smaller. If the chariot or its steeds end their turn inside a creature’s space, they are pushed into the nearest unoccupied space.
+>
+> ### Steed Actions
+>
+> ***Threshing Charge.*** If the chariot has moved at least 20 feet in a straight line on this turn before taking this action, the chariot and its steeds can surge forward up to their speed in the same direction. During this movement, they may attempt to enter the space of any Large or smaller hostile creature.
+> 
+> Each such creature must make a *Dexterity or Strength Saving Throw (its choice)*: DC 15.
+> 
+> *Failure:* The creature takes 14 (4d6) Slashing damage and is knocked Prone. If the creature is Medium or smaller, it is also Grappled (escape DC 15) and impaled on the chariot. While Grappled in this way, it is Restrained. 
+> 
+> *Failure by 5+:* The creature is not Grappled, but takes double damage and can’t stand up until the end of its next turn. If reduced to 0 hit points by this damage, the creature dies, torn apart beneath the chariot.
+> 
+> *Success (Dexterity):* The creature takes no damage, is not knocked Prone, and is pushed 5 feet to the nearest unoccupied space outside the chariot’s path.
+>
+> *Success (Strength):* The creature takes half damage, is not knocked Prone, and the chariot’s movement ends immediately.
+>
+> If the chariot ends its movement in the space of a Prone creature, that creature is pushed into the nearest unoccupied space.
+
+\columnbreak
+
+___
+> ## Bull Centaur Warrior
+> *Large Monstrosity (dwarf), Party, Lawful Evil*
+> ___  
+> - **Armor Class** 16          **Initiative** -1 (9)  
+> - **Hit Points** 85 (10d10 + 30)  
+> - **Speed** 50 ft.  
+> ___  
+> <table>  
+> <tr style="background-color:transparent">  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> <td></td>  
+> <td colspan="2"></td>  
+> <td><font size="-2">MOD</font></td>  
+> <td><font size="-2">SAVE</font></td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>STR</b></td>  
+> <td style="text-align:center">20</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>  
+> <td></td>  
+> <td><b>DEX</b></td>  
+> <td style="text-align:center">9</td>  
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>  
+> <td></td>  
+> <td><b>CON</b></td>  
+> <td style="text-align:center">16</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>  
+> </tr>  
+> <tr style="background-color:transparent">  
+> <td><b>INT</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td></td>  
+> <td><b>WIS</b></td>  
+> <td style="text-align:center">10</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>  
+> <td></td>  
+> <td><b>CHA</b></td>  
+> <td style="text-align:center">12</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>  
+> </tr>  
+> </table>
+>
+> ___  
+> - **Skills** Athletics +7, Intimidation +3
+> - **Resistances** Fire, Poison
+> - **Senses** Darkvision 60 ft., Passive Perception 11  
+> - **Languages** Dwarvish, Infernal  
+> - **Challenge** 4 (1,100 XP)  &emsp;&emsp;  **Proficiency Bonus** +2  
+> ___ 
+>
+> ### Traits
+>
+> ***Debilitating Strikes.*** When the bull centaur reduces a creature to 0 hit points with an attack, that creature is Stunned for the next minute.
+>
+> ### Actions
+> ***Multiattack.*** The bull centaur makes two attacks, each with a different weapon.
+>
+> ***Battleaxe.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) Slashing damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) Piercing damage. If the bull centaur moved at least 20 feet straight toward the target immediately before the hit, the target must make a *Strength Saving Throw:* DC 15. <br>
+> *Failure:* The target is knocked Prone.
+>
+> ***Stomp.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one Prone target or one two sizes smaller. *Hit:* 24 (3d12 + 5) Bludgeoning damage. 
+>
+>
+> ### Bonus Actions
+>
+> ***Resolute Charge.*** At the start of its turn, bull centaur may move up to its speed in a straight line and become *Resolute.
+>
+> **New condition described at the beginning of section*
+
+
+</span>
