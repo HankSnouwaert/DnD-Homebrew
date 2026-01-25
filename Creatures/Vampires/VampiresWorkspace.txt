@@ -157,138 +157,385 @@ The vampire can't use this power again until it regains life from its bite attac
 
 \pagebreakNum
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><b
+### Vampiric Knight Traits
 
-### Aristocrat Vampires
-Across the world lie lands and provinces steeped in sordid reputation. These regions are swathed in dark forests that leech what little nourishment remains from ashen soil. Small villages cling to existence within these realms, inhabited by superstitious folk who struggle to survive amid ever-present danger, scraping sustenance from an unforgiving land.
+Many mortals spend the entirety of their lives training to become accomplished warriors, honing blade and body to lethal precision. Such masters of combat, however, are but feeble when compared to the vampires who have devoted an eternity to perfecting their art of war. These immortals roam the world in search of worthy foes, endlessly refining their techniques and pushing their prowess to ever-greater heights.
 
-Within such dismal realms, it is the castles and grand estates looming above the countryside that harbor the greatest evil. Within these foreboding structures reside vampires—aristocrats who present themselves as noble men and women, clad in the finest garments and living amid luxury, surrounded by masterworks of art and priceless antiquities. Arrogant and vain, they refuse to skulk through alleys or drag screaming prey into the dark. Instead, they feed as befits nobility.
+The oldest among them have studied the martial traditions of countless cultures, enduring innumerable duels and battles against every manner of opponent. When such vast experience is joined with inhuman speed and strength, even the greatest mortal champions of legend stand only the faintest chance of prevailing against these ferocious soldiers of darkness.
 
-Such vampires form insidious bonds with those they hunt. Some torment their victims over weeks, using charm and influence to be welcomed into their homes, feasting night after night as helpless prey slowly falls under their thrall. Others host lavish balls attended by their dark kind and other favored guests, while their minions scour the countryside, abducting the most beautiful and desirable specimens to be brought back and toyed with amid macabre celebrations.
+Vampires of this disposition adhere to a grim and macabre code. They disdain the slaughter of helpless villagers and common peasants, feeding instead only upon those capable of offering true resistance. Most who face them, however, lack the skill to land even a single blow before being impaled, hewn apart, and drained of blood.
 
-This pride also makes aristocrat vampires the boldest of their kind when it comes to conquest. Stories tell of malevolent nobles taking residence in forgotten estates with long and tragic histories, only for the surrounding lands to descend into catastrophe. Often, such vampires are drawn to a region by twisted sentiment, such as a local resident reminding them of lost lovers or companions from former lives, or its landscape echoing a realm they once ruled centuries ago and now seek to recreate.
+Those rare individuals who offer a meaningful challenge—yet still fall—may suffer a far darker fate. A victorious martial vampire may deem its broken foe worthy of the “gift” of immortality, binding them forever to an existence of blood and battle.
+These paragons of slaughter wander the lands in search of worthy blood against which to test their mettle. Tales are told of knights astride black chargers, clad in crimson mail and plate, bearing unholy heraldry as they ride through the wilderness in the dead of night, seeking honorable warriors to duel. Other legends speak of ruined keeps that house crusaders of death—unholy paladins who march forth from vile sanctums to sack the countryside, annihilating any armies sent to quell their nefarious rampage.
 
-Those who attempt to end such cruel dominion soon discover the depth of an aristocrat vampire’s power. Legions of vile minions stand ready in defense of their dread monarch. Beasts of the night flock to these lords of darkness, who themselves can assume the forms of such creatures. Their authority is so absolute that even the winds seem to bow to their command, and the undead fight with sadistic zeal.
 
-Foremost among their servants are lesser vampire spawn. The bond between master and thrall is so intimate that when a spawn gorges itself on stolen blood, the vitality drawn forth can flow back to revitalize its lord.
+#### Red Frenzy (Vampiric Power)
+
+*The vampire charges heedlessly into the fray, cleaving apart any foes caught in the path of its rancor.*
+
+As a Bonus Action, the vampire moves up to half its Speed and then makes one Rend attack with advantage. If it does so, attack rolls against the vampire have advantage until the start of its next turn.
+
+
+#### Honour of Death (Vampiric Power)
+
+*The vampire is bound by an unholy code of honor, a grim creed it can impose upon others. Through this dread oath, it compels even the most fearsome warriors to face it in single combat, for only such pristine blood can sate the undead champion’s appetite.*
+
+The vampire casts *Compelled Duel*, using its Vampiric Power save DC for the spell’s saving throw.
+
+
+#### Dread Knight (Vampiric Trait)
+
+*A virtuoso of mounted warfare, the vampire and its loathsome gravebeast move as one, becoming a beacon of death across the battlefield.*
+
+The vampire gains the following benefits:
+
+- While mounted, the vampire has advantage on attack rolls against any unmounted creature within 5 feet of its mount that is at least one size smaller than the mount.
+- If the vampire’s mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage on a successful save and only half damage on a failed save. For the mount to gain this benefit, the vampire must be riding it, and neither the vampire nor the mount can be Incapacitated.
+- While mounted, the vampire can force an attack that hits its mount to instead hit the vampire, provided the vampire isn’t Incapacitated.
+
+
+#### Armored Death (Vampiric Trait)
+
+*Clad in dense steel plating, the vampire advances upon its prey unhindered, blows glancing harmlessly from its metal shell.*
+
+The vampire gains a +4 bonus to its Armor Class and is considered to be wearing metal armor.
+
+
+#### Heart Piercing (Vampiric Trait)
+
+*The vampire favors polearms and spears, tools exquisitely suited to impaling foes and holding them in place while it feeds.*
+
+While the vampire is holding a polearm, its Rend attack is altered in the following ways:
+
+- The attack deals Piercing damage instead of Slashing damage.
+- The attack has a reach of 10 feet.
+- While the target is grappled by this attack, it is also Restrained. The vampire can’t make attacks against other targets while it has a creature grappled this way.
+- The vampire can take a Reaction to make a Rend attack against a creature that enters the attack’s reach.
+
+
+#### Strength of Steel (Vampiric Trait)
+
+*Driven by unnatural brawn, the vampire wields heavy weapons with devastating force, pulverizing bone and staggering all struck by these murderous implements.*
+
+While the vampire is holding a melee weapon that deals Bludgeoning damage, its Rend attack is altered in the following ways:
+
+- The attack deals Bludgeoning damage instead of Slashing damage.
+- The attack no longer grapples the target. Instead, the target must make a *Constitution Saving Throw*.
+
+  *Failure:* The creature is Dazed until the end of the vampire’s next turn. While Dazed, the creature can’t concentrate or cast spells other than cantrips.  
+  *Failure by 5+, or if the creature is already Dazed:* The creature is Stunned until the end of the vampire’s next turn.
+
+#### Blademaster (Vampiric Trait)
+
+*Not even the eldest mortal swordmasters can rival the skill accumulated over the vampire’s tenebrous existence. Each precise maneuver shifts the battle to its favor, until its foe’s doom is written in exquisite strokes of the blade.*
+
+While the vampire is holding a melee weapon that deals Slashing damage, its Rend attack gains one of the following effects (the vampire’s choice):
+
+- **Defensive Slash.** The target has disadvantage on attack rolls
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Drowsy 
+> This condition brings a creature to the brink of falling asleep. Creatures immune to effects that would put them to sleep are immune to this condition. While a creature is drowsy, it is under the following effects:<br>
+> * It moves at half speed.<br>
+> * It has disadvantage on attack rolls, ability checks, and Dexterity saves.<br>
+> * It can't concentrate. <br>
+> * Attacks against it have advantage. <br>
+> * The only spells it can cast are cantrips. <br>
+
+<br>
+
+#### Domination (Vampiric Trait)
+
+*The bite of this alluring predator is suffused with unnatural bliss. Mortals subjected to its intoxicating influence find their loyalties dissolved, fighting with frenzied devotion for their new master.*
+
+*Wisdom Saving Throw:* Triggered when the vampire hits a creature with its Bite attack.
+
+*Failure:* The creature becomes Charmed by the vampire. While Charmed in this way, the creature can’t cast spells other than cantrips, and the vampire forms a telepathic link with the creature while both are on the same plane of existence. On the vampire’s turn, it can issue commands to the creature through this link (no action required), such as “Attack that creature,” “Move over there,” or “Fetch that object.” The creature does its best to obey on its turn. If it completes an order and receives no further commands, it acts as it chooses, prioritizing its own safety.  
+At the end of each of the creature’s turns, it can repeat the saving throw, ending the effect on a success.
+
+*Failure by 5+ (including on repeat saves):* While Charmed, the creature is **Quickened**.
+
+The vampire can command the creature to take a Reaction, but doing so requires the vampire to use its own Reaction.
+
+**Increases CR by 2.** Granting the vampire this trait increases its CR by 2 rather than 1.
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-#### Air of Dark Majesty (Vampiric Trait)
-
-*So absolute is the tyrannical authority of the vampiric lord that the dire creatures under its command are imbued with foul power, strengthened by its malignant presence.*
-
-The vampire radiates a magical aura in a 30-foot emanation. While in the aura, the vampire and its allies deal an extra 5 (1d10) Necrotic damage the first time they hit with an attack roll on each of their turns.
-
-#### Bat Form (Vampiric Power)
-
-*The vampire undergoes a grotesque metamorphosis, becoming a massive bat. In this hideous form, the monster dives from above, tearing into its foes to feast on the nectar in their veins.*
-
-The vampire magically polymorphs into a Bat for as long as it maintains Concentration, up to 1 hour. Any equipment the vampire is wearing or carrying either falls to the ground or merges into the new form (the vampire’s choice). Equipment that merges with the form has no effect while the vampire remains transformed.
-
-While in Bat Form, the vampire retains its statistics, except as noted below:
-
-- Its Walk Speed becomes 10 feet.
-- It gains a Fly Speed of 60 feet.
-- It loses any Climb Speed it has.
-- It can’t cast spells.
-- It gains the following trait:
-
-***Flyby.*** The vampire doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.
-
-The vampire can revert to its true form as a Bonus Action. If it reverts while airborne, it descends safely at a rate of 60 feet per round until it reaches the ground.
-
-Once the vampire uses this power, it can’t do so again until it finishes a Short or Long Rest.
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
+#### Hypnotic Allure (Vampiric Power)
+
+*The vampire moves with a swaying, entrancing rhythm, draining vigor from those nearby as helpless victims are lulled into a waking trance.*
+
+*Wisdom Saving Throw:* Each creature in a 20-foot cone.
+
+*Failure:* The creature becomes *Drowsy**. The effect ends early if the creature takes damage from a source other than the vampire, or if another creature within 5 feet of it uses an action to shake it free of the effect.
+
+*Failure by 5+, or if the creature is already Drowsy:* While Drowsy, the creature is Unconscious.
+
+#### Seductive Presence (Vampiric Trait)
+
+*The vampire’s unearthly beauty ensnares the senses of those who gaze upon its immaculate visage, leaving them helpless against the oncoming claws and dark fangs of this terrible beast.*
+
+The vampire emits an aura of seduction in a 30-foot emanation. Each non-allied creature that starts its turn in the aura must make a *Wisdom Saving Throw*.
+
+*Failure:* The creature becomes Charmed by the vampire until the end of the vampire’s next turn. While Charmed in this way, the creature can’t cast spells other than cantrips.  
+&emsp;*Failure by 5+:* The creature falls Prone, and while Charmed, its speed is 0.  
+*Success:* The creature is immune to this aura for 1 hour.
 
 <img
-src='https://i.ibb.co/WNGxfY48/sengir-nosferatu.png'
-style='position:absolute;top:-0px;left:-0px;width:816px; transform: scaleX(1)' />
+src='https://i.postimg.cc/PJYhvHNf/Indulging-Pratician-Core-Set-2021-Mt-G-Art.jpg'
+style='position:absolute;top:-20px;left:-0px;width:816px; transform: scaleX(1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-180px;top:175px;height:1400px;width:1416px;transform:rotate(175deg)' />
+  style='position:absolute;right:-180px;top:200px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
+\pagebreakNum
+
+
+
+#### Surge of Speed (Vampiric Action)
+
+*The vampire weaves effortlessly through its <br> foes,  crimson splattering across the battlefield <br> as  throats are torn open in a blur of motion.*
+
+The vampire takes the Dash or Disengage <bR> action.
+
+
+
+#### Summon Bound Soul <br> (Vampiric Power)
+
+*Not even death frees one from the vampire’s <br> allurement, for the spirits of its victims remain <br> shackled to the seductress, forever trapped by <br> their delusion.*
+
+The vampire summons a **Tormented Specter** <br> in an unoccupied space it can see within 30 feet <br> of it. The specter remains until it is reduced to <br> 0 hit points or until the vampire dies.
+
+A specter summoned this way acts on <br> Initiative Count 0 (losing ties) of each round. If <br> the vampire attempts to summon a specter <br> while three or more specters summoned by this <br> power are already active, the vampire must <br> choose one existing specter to be immediately <br> destroyed.
+
+**Increases CR by 3.** Granting the vampire <br> this power increases its CR by 3 rather than 1.
+
+
+
+#### Transfixing Performance <br> (Vampiric Action)
+
+*The vampire performs a tantalizing display that ensnares the senses. Any warrior who beholds it finds their mind clouded and their will to fight utterly drowned.*
+
+*Wisdom Saving Throw:* Each non-Undead creature in a 15-foot emanation originating from the vampire.
+
+*Failure:* Until the end of the vampire’s next turn, the creature has disadvantage on attack rolls, can make only one attack if it takes the Attack action, and can’t cast spells other than cantrips.  
+&emsp;*Failure by 5+:* The creature also can’t take the Attack action and can’t cast spells.  
+*Success:* The creature is immune to this effect for 1 hour.
+
+
+
+#### Uncanny Reflexes (Vampiric Trait)
+
+*With blinding speed and impossible grace, the vampire evades volleys of arrows and torrents of flame, emerging without so much as a singed hair or a single scratch.*
+
+If the vampire is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage on a successful save and only half damage on a failed save.
+
+In addition, the vampire gains the following reaction:
+
+***Evasive Twist.***  
+*Trigger:* A creature the vampire can see hits it with an attack.  
+*Response:* The attacker rerolls the attack roll. If the attack still hits, the damage dealt by the attack is halved (round down).
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+___
+> ## Tormented Specter
+> *Medium Undead (Vampire Minion), Lawful Evil*
+> ___
+> - **Armor Class** 13     **Initiative** +3 (13)
+> - **Hit Points** 54 (6d8)
+> - **Speed** 5 ft., Fly 50 ft. (hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing, Thunder
+> - **Immunities** Necrotic, Poison; Charmed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained
+> - **Senses** Darkvision 90 ft., Passive Perception 10
+> - **Challenge** 1 (450 XP)      **Proficiency Bonus** +2
+> ___
+> ### Traits
+>
+> ***Incorporeal Movement.*** The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.
+>
+> ### Actions
+>
+> ***Terror Strike.*** Vampiric Power attack bouns to hit, reach 5 ft., one target. *Hit:* 16 (3d8 + 3) Psychic damage.
+>
+
+</span>
+
+<img
+src='https://i.postimg.cc/nrkRPSWn/uncanny-speed.png'
+style='position:absolute;top:-3px;right:-0px;width:600px; transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-215px;top:46px;height:1400px;width:1416px;transform:rotate(200deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-805px;top:46px;height:1400px;width:1416px;transform:rotate(170deg)' />
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:115px;top:0px;height:1400px;width:1416px;transform:rotate(-90deg)' />  
+  
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Feral Vampire Traits
+
+Within shadowed forests and forgotten sewers dwell vampires who have cast off all trappings of civilization, devolving into profane savages. These feral undead arise when a vampire surrenders wholly to its hunger for gore, losing all restraint and feeding upon anything, living or dead, that it can catch.
+
+Others are driven into this existence by circumstance rather than choice. Some are hunted relentlessly by vampire slayers, while others have committed unforgivable transgressions against their own kind and now flee the vengeance of their brethren. Forced into seclusion, these vampires lurk in the most forsaken places, feeding upon recently buried corpses or carrion to avoid drawing attention and inviting destruction.
+
+Whatever the cause, the outcome is always the same. The vampire’s body and mind become irrevocably corrupted. Its predatory instincts intensify beyond reason, and its form twists into something barely recognizable as the man or woman it once was. These transformations vary wildly: some develop grotesquely distorted faces, their jaws packed with rows of serrated teeth crusted with putrefaction; others swell into hulking brutes, their frames wrapped in gray, leathery hide stretched tight over distorted muscle.
+
+Such opportunistic hunters are a constant menace to merchants traveling remote roads, to wanderers in dark wilderness, and to those who labor in the sewers beneath great cities. From shadowed crevices and undergrowth, these vampires wait for moments of vulnerability, springing forth in unrestrained fury to slash and tear apart their unsuspecting prey, dragging shredded remains back to be devoured.
+
+Most feral vampires rule over domains as forsaken as themselves, surrounding their lairs with ghouls, ghasts, and other degenerate undead. These courts are crude mockeries of the refined hierarchies maintained by more civilized vampires. Their revolting subjects follow their master without hesitation, raiding graveyards, attacking isolated outposts, and even attempting to overwhelm bands of adventurers who stray into their territory.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Yet not all such creatures have forgotten their former <br> lives. Among them are the Strigen, once such loathsome canaille were rulers of a grand empire long since lost to history. Their arrogance and contempt for other bloodlines was so profound that when their dynasty finally collapsed, their own kind turned upon them. Scattered and broken, the Strigen fled their ruined homeland, dispersing across the world to escape the wrath of their former brethren.
+
+In the depths of darkness, the Strigen brood upon their lost glory. It is whispered that some have begun to rally the wretched beings that lurk in shadowed places, gathering the damned into crude armies in a bid to resurrect the empire they once ruled.
+
+#### Grave Filth (Vampiric Trait)
+
+*Having feasted upon countless decaying corpses, the vampire’s fangs are permanently coated in vile toxins. Wounds inflicted by its bite stiffen muscle and wither flesh.*
+
+*Constitution Saving Throw:* Triggered when the vampire hits a creature with its Bite attack. 
+
+*Failure:* The target is Poisoned. While Poisoned in this way, the creature repeats the saving throw at the end of each of its turns, ending the effect on a success. On a failed repeat save, the creature takes 13 (3d8) Poison damage.  
+*Failure by 5+ (including on repeat saves):* While Poisoned, the target is Paralyzed until the poison ends.
+
+#### Hunter in the Shadows (Vampiric Trait)
+*The vampire melts into surrounding gloom, moving unseen as the blood-hungry beast prowls the night in search of its next feast.*
+
+The vampire is Invisible while in Dim Light or Darkness. In addition, while in Dim Light or Darkness, the vampire can take the Hide action as a Bonus Action.
+
+<img
+src='https://i.ibb.co/R47nfzBt/Verrak.webp'
+style='position:absolute;top:-85px;left:-110px;width:1100px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-220px;top:35px;height:1400px;width:1416px;transform:rotate(193deg)' />
 
 \pagebreakNum
 
-#### Bat Whisperer (Vampiric Power)
+#### Infinite Fury (Vampiric Trait)
 
-*The vampire emits a faint cry at a pitch no mortal can perceive. The call is irresistible to the winged children of the night, which gather in churning black clouds to engulf the living in a sea of fangs.*
+*The miserable unlife of the vampire has stripped it of all limits to the hatred it bears for those who wrong it. Any who dare harm the creature soon feel the full consequences of their actions.*
 
-The vampire summons a **Duskhunter Swarm** in an unoccupied space it can see within 30 feet of it. The swarm remains until it is reduced to 0 hit points or until the vampire dies.
+When the vampire takes damage for the first time on a turn, it gains 1 Fury (condition described below). The vampire can have up to 12 Fury instead of 6.
 
-A swarm summoned this way acts on Initiative Count 0 (losing ties) of each round. If the vampire attempts to summon a swarm while three or more swarms summoned by this power are already active, the vampire must choose one existing swarm to be immediately destroyed.
+#### Massive Monstrosity (Vampiric Trait)
 
-**Increases CR by 2.** Granting the vampire this power increases its CR by 2 rather than 1.
+*Some vampires who fully embrace their predatory instincts grow beyond all restraint. These hulking abominations swell into massive forms, capable of enduring horrific punishment.*
 
+The vampire gains 50 additional hit points, and its size becomes Large.
 
-#### Dark Wind (Vampiric Power)
+#### Shredding Jaws (Vampiric Trait)
 
-*A spiteful storm gathers around the vampire—a blustering squall infused with malice. Raging winds batter all caught within, hurling soldiers to the ground and casting aside arrows and spears, while the vampire strides unhindered at the heart of the whirlwind.*
+*The vampire’s jagged fangs sink deep, not only draining blood but tearing flesh from bone. Victims are left crippled as muscle and sinew are shredded beneath its brutal bite.*<br>
+*Strength Saving Throw:* Triggered when the vampire hits a creature with its Bite attack.
 
-The vampire radiates raging winds in a 30-foot emanation for as long as it maintains Concentration, up to 1 hour.
+*Failure:* The target takes 14 (4d6) Piercing damage and suffers a rending wound. While wounded this way, the target has disadvantage on Strength, Dexterity, and Constitution saving throws, ability checks, and attack rolls, and its Speed is halved.
 
-The wind has the following effects:
+The wounded creature, or another creature within 5 feet of it, can use an action to make a *Wisdom (Medicine) Check* against the vampire’s Vampiric Power save DC, ending the effect on a success. The effect also ends if the creature regains 15 or more hit points. 
 
-- Unprotected flames that are torch-sized or smaller are extinguished within the area.
-- Vapor, gas, and fog that can be dispersed by strong wind are dispersed within the area.
-- The area is Difficult Terrain for creatures other than the vampire.
-- A creature other than the vampire that ends its turn in the area must make a *Constitution Saving Throw*. The saving throw is made with disadvantage if the creature is 5 feet or more above the ground.  
-   *Failure:* The creature loses Concentration (if any), is knocked Prone, and is pushed up to 10 feet directly away from the vampire.
-- Attack rolls for ranged weapon attacks have disadvantage if the attack passes into or out of the area.
+*Failure by 5+:* The target instead takes 21 (6d6) Piercing damage.
 
-Once the vampire uses this power, it can’t do so again until it finishes a Short or Long Rest.
+<br>
 
-#### Sanguine Conduit (Vampiric Trait)
+> ##### New Condition: Fury  
+> The creature gains levels of Fury that cause its attacks to deal increasing amounts of damage with each level.
+> * The creature can only gain levels of Fury during combat, and all levels are lost when combat ends.
+> * A creature can gain up to a max of 6 levels of Fury.
+> * First time each turn the creature hits a target with an attack, it deals an additional 1d4 damage for each level of Fury it has.
+> * A creature loses all levels of Fury if it becomes Charmed or Frightened, or is affected by the *Calm Emotions* spell.  It also can't gain levels Fury while under these conditions.
 
-*While feeding, the vampire forges an ominous link between itself and nearby undead monstrosities, channeling the stolen life it consumes to fortify its cohort.*
+\columnbreak
 
-When the vampire regains hitpoints from it's bite attack, it can choose for another undead creature it can see with in 30 feet it to also regain the same amount of hitpoints as well.
+#### Summon Ghoul (Vampiric Power)
 
-#### Wolfcaller (Vampiric Power)
+*Degenerate scavengers are drawn to the feral vampire’s savage power, gathering around it in reverent awe and deifying the undead lord as a god of death.*
 
-*Howls echo through the darkness of the night—praises offered to their monarch. Any who oppose this lord of the pack are swiftly beset by slavering jaws from all sides.*
+The vampire summons a **Crypt Ghoul** in an unoccupied space it can see within 30 feet of it. The ghoul remains until it is reduced to 0 hit points or until the vampire dies.
 
-The vampire summons a  **Nightpack Wolf** in an unoccuiped space that it can see with in 30 feet of it. The wolf lasts uitl it is reduced to 0 hit points or the vampire dies. Wolf summoned this way act on initiative count 0 (losing ties) of each round. The if vampire attempts to summon a wolf while their are already three or more active, It must choose for one to be immediately destroyed.
+A ghoul summoned this way acts on Initiative Count 0 (losing ties) of each round. If the vampire attempts to summon a ghoul while three or more ghouls summoned by this power are already active, the vampire must choose one existing ghoul to be immediately destroyed.
 
-**Increases CR by 3.** Granting the vampire this trait increases its CR by 3 rather than 1.
-
-
-#### Wolf Form (Vampiric Power)
-
-*With a savage snarl, the vampire’s body dissolves into shadow and reshapes into a sable wolf, its lupine form crowned with glistening saber-like fangs.*
-
-The vampire magically polymorphs into a Wolf for as long as it maintains Concentration, up to 1 hour. any equipment on the vampire must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while it is in the new frome. It can revert to its true form as a bonus action. its statistics are the same while in the wolf form expect it's walking speed 60 feet, it loses it's climb speed, can't cast spells. and gains the following abilites.
-
-* Trip -  The vampire can use it's bite attack on target even if it is not grappled or willing,, if the target is hit, it must succeed on a *Strength Saving Throw*: Vampiric Power DC. <bR> *Failure:* The target is Prone. 
-
-* Pack Tactics - The vampire has advantage on an attack roll against a creature if at least one of the vampire’s allies is within 5 feet of the creature and the ally isn’t Incapacitated.
-
-Once the vampire uses this ability, it can't do so again until it takes a short or long rest.
-
-
-
-
-
-
-
-
-
-
-\pagebreakNum
+**Increases CR by 3.** Granting the vampire this power increases its CR by 3 rather than 1.
 
 
 
 ___
-> ## Nightpack Wolf
-> *Large Undead (Large Minion), Neutral Evil*
+> ## Crypt Ghoul
+> *Medium Undead (Vampire Minion), Chaotic Evil*
 > ___
-> - **Armor Class** 14   **Initiative** +3 (13)
-> - **Hit Points** 22 (3d10 + 6)
-> - **Speed** 60 ft.
+> - **Armor Class** 12    **Initiative** +2 (12)
+> - **Hit Points** 22 (5d8)
+> - **Speed** 30 ft.
 > ___
 > <table>
 > <tr style="background-color:transparent">
@@ -308,160 +555,79 @@ ___
 > <td><b>STR</b></td>
 > <td style="text-align:center">13</td>
 > <td style="background-color:#e0e5c1; text-align:center">+1</td>
-> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
 > <td></td>
 > <td><b>DEX</b></td>
-> <td style="text-align:center">16</td>
-> <td style="background-color:#e0e5c1; text-align:center">+3</td>
-> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
 > <td></td>
 > <td><b>CON</b></td>
 > <td style="text-align:center">10</td>
 > <td style="background-color:#e0e5c1; text-align:center">+0</td>
-> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
 > </tr>
 > <tr style="background-color:transparent">
 > <td><b>INT</b></td>
-> <td style="text-align:center">3</td>
-> <td style="background-color:#e0e5c1; text-align:center">-4</td>
-> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>WIS</b></td>
-> <td style="text-align:center">12</td>
-> <td style="background-color:#e0e5c1; text-align:center">+1</td>
-> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
 > <td></td>
 > <td><b>CHA</b></td>
 > <td style="text-align:center">6</td>
 > <td style="background-color:#e0e5c1; text-align:center">-2</td>
-> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > </tr>
 > </table>
 >
 > ___
-> - **Immunities** Poison; Exhaustion, Poisoned
-> - **Senses** Darkvision 60 ft., Passive Perception 11
-> - **Languages** None
+> - **Immunities** Poison; Charmed, Frightened, Exhaustion, Poisoned
+> - **Senses** Darkvision 60 ft., Passive Perception 10
+> - **Languages** Common
 > - **Challenge** 1 (450 XP)  **Proficiency Bonus** +2
 > ___
 >
-> ### Traits
->
-> ***Pack Tactics.*** The nightpack wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally isn’t Incapacitated.
->
 > ### Actions
 >
-> ***Bite.*** *Melee Weapon Attack:* Vampiric Power attack bonus to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) Piercing damage. If the target is a creature, it must succeed on a *Strength Saving Throw:* Vampiric Power DC. <br>
-> *Failure:* The target is knocked Prone.
-
+> ***Rend.*** *Melee Weapon Attack:* Vampiric Power attack bonus to hit, reach 5 ft., one creature.  
+> *Hit:* 9 (2d6 + 2) Slashing damage. If the target is a creature that isn’t an Undead or an Elf, it must succeed on a *Constitution Saving Throw:* Vampiric Power DC.  
+> *Failure:* The target is Paralyzed until the end of the crypt ghoul’s next turn.
 
 </span>
 
-\columnbreak
+#### Unholy Fortitude (Vampiric Trait)
+*Axes bite into its chest, flails slam against its skull, and bolts of flame scorch its body, yet the vampire does not falter, advancing relentlessly through devastation that would fell any mortal.*
 
-
-___
-> ## Duskhunter Swarm
-> *Medium Swarm of Undead (Minion), Neutral Evil*
-> ___
-> - **Armor Class** 12
-> - **Hit Points** 22 (5d8)
-> - **Speed** 5 ft., Fly 60 ft.
-> ___
->
-> <table>
-> <tr style="background-color:transparent">
-> <td colspan="2"></td>
-> <td><font size="-2">MOD</font></td>
-> <td><font size="-2">SAVE</font></td>
-> <td></td>
-> <td colspan="2"></td>
-> <td><font size="-2">MOD</font></td>
-> <td><font size="-2">SAVE</font></td>
-> <td></td>
-> <td colspan="2"></td>
-> <td><font size="-2">MOD</font></td>
-> <td><font size="-2">SAVE</font></td>
-> </tr>
->
-> <tr style="background-color:transparent">
-> <td><b>STR</b></td>
-> <td style="text-align:center">10</td>
-> <td style="background-color:#e0e5c1; text-align:center">+0</td>
-> <td style="background-color:#e0e5c1; text-align:center">+4</td>
-> <td></td>
->
-> <td><b>DEX</b></td>
-> <td style="text-align:center">18</td>
-> <td style="background-color:#e0e5c1; text-align:center">+4</td>
-> <td style="background-color:#e0e5c1; text-align:center">+4</td>
-> <td></td>
->
-> <td><b>CON</b></td>
-> <td style="text-align:center">14</td>
-> <td style="background-color:#e0e5c1; text-align:center">+2</td>
-> <td style="background-color:#e0e5c1; text-align:center">+5</td>
-> </tr>
->
-> <tr style="background-color:transparent">
-> <td><b>INT</b></td>
-> <td style="text-align:center">4</td>
-> <td style="background-color:#e0e5c1; text-align:center">-3</td>
-> <td style="background-color:#e0e5c1; text-align:center">+1</td>
-> <td></td>
->
-> <td><b>WIS</b></td>
-> <td style="text-align:center">16</td>
-> <td style="background-color:#e0e5c1; text-align:center">+3</td>
-> <td style="background-color:#e0e5c1; text-align:center">+3</td>
-> <td></td>
->
-> <td><b>CHA</b></td>
-> <td style="text-align:center">8</td>
-> <td style="background-color:#e0e5c1; text-align:center">-1</td>
-> <td style="background-color:#e0e5c1; text-align:center">+3</td>
-> </tr>
-> </table>
->
-> ___
-> - **Resistances** Bludgeoning, Piercing, and Slashing
-> - **Immunities** Necrotic, Poison; Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned
-> - **Senses** Blindsight 60 ft. (can’t use while Deafened), Passive Perception 13
-> - **Languages** None
-> - **Challenge** 1/4 (50 XP)  **Proficiency Bonus** +2
-> ___
->
-> ### Traits
->
-> ***Echolocation.*** The swarm can’t use its Blindsight while Deafened.
->
-> ***Swarm.*** The swarm can occupy another creature’s space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can’t regain Hit Points or gain Temporary Hit Points.
->
-> ### Actions
->
-> ***Bites.*** *Melee Weapon Attack:* Vampiric Power attack bonus to hit, reach 5 ft., one target. *Hit:* 10 (4d4) Piercing damage, or 5 (2d4) Piercing damage if the swarm has half of its Hit Points or fewer.
-
-
-</span>
+If the vampire takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.  
+If the damage is greater than 10, the vampire must succeed on a Constitution Saving Throw with a DC equal to 5 + the damage taken, unless the damage is Radiant or from a critical hit. On a successful save, the vampire is reduced to 1 hit point instead.
 
 
 
-<img src='https://i.ibb.co/9k9Hycnw/drudge-reavers.png' style='position:absolute; bottom:-90px; right:-00px; width:816px; transform:scaleX(-1)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-460px;top:-460px;height:1400px;width:1416px;transform:rotate(0deg)' />
-
- <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-100px;top:-540px;height:1400px;width:1416px;transform:rotate(-6deg)' />
-  
-  
 \pagebreakNum
 
 
 
 
 
+\columnbreak
 
 
 
 
+
+<img src='https://i.ibb.co/HfJF9qGR/Sepulcher-Ghoul-Dungeons-Dragons-Adventures-in-the-Forgotten-Realms-Mt-G-Art.jpg' style='position:absolute; bottom:-80px; right:-350px; width:1270px; transform: scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-750px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+
+\pagebreakNum
+
+##### Art Credit
+* Verrak, Warped Sengir - Alix Branwyn, Wizards of the Coast
+* Blood Seeker - David Astruga, Wizards of the Coast
+* Sepulcher Ghoul - Jason A. Engle, Wizards of the Coast
