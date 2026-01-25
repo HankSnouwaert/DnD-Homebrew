@@ -733,6 +733,8 @@ This spell can’t be ended by *Dispel Magic*. Only *Remove Curse* cast with a 9
 
 **New condition described at end of document*
 
+\pagebreakNum
+
 #### Curse of Stone 1.0.0
 
 *4th-level transmutation*
@@ -746,8 +748,6 @@ ___
 You attempt to transform one creature that you can see within range into stone. If the target’s body is made of flesh, it must make a Constitution saving throw. On a failed save, the creature is petrified until the spell ends.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for ever two slots levels above 4th. The creatures must be within 30 feet of each other when you target them.
-
-\pagebreakNum
 
 #### Curse of the Midnight Wind 1.1.0
 *3rd-level enchantment*
@@ -782,6 +782,8 @@ ___
 
 You imbue a weapon within range with the essence of death. When this weapon hits a creature, the target becomes cursed for the spell's duration. At the start of your turn, each creature cursed this way within 90 feet of you takes 1d6 necrotic damage.
 
+\columnbreak
+
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target an additional weapon for each slot level above 1st. Using a 3rd-level spell slot or higher increases the damage by 1d6 for every two slot levels above 1st.
 
 #### Creeping Strike 1.1.0
@@ -796,8 +798,6 @@ ___
 You lash out at an enemy with chilling shadows. Make a melee spell attack against the target. You have Advantage on the attack roll if the target is in Darkness. On a hit, the target takes 1d8 Cold damage.
 
 ***Cantrip Upgrade.*** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
-
-\columnbreak
 
 #### Creeping Smite 0.0.0
 *1st-level evocation*
@@ -830,6 +830,8 @@ On a successful save, it takes 2d8 Necrotic damage instead.
 
 ***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 3rd.
 
+\pagebreakNum
+
 #### Creeping Strike 0.0.0
 *Evocation cantrip*
 ___
@@ -842,8 +844,6 @@ ___
 You lash out at an enemy with chilling shadows. Make a melee spell attack against the target. You have  advantage on the attack roll if the target is in darkness. On a hit, the target takes 1d8 cold damage.
 
 ***At Higher Levels.*** This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
-
-\pagebreakNum
 
 #### Creeping Smite 0.0.0
 *1st-level evocation*
@@ -876,7 +876,7 @@ On a failed save, every time the creature takes a move, an action, a bonus actio
 
 ***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 3rd.
 
-\pagebreakNum
+\columnbreak
 
 #### Crown of Madness (Revised) 0.0.0
 *2nd-level enchantment*
@@ -941,6 +941,22 @@ Threads of dark power leap from your fingers to an Undead creature you can see w
 
 **New condition decribed at end of section*
 
+#### Dark Power 1.0.0
+*1st-level Evocation (Warlock)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 120 feet
+- **Components:** V, S, M (a bone from a humanoid)
+- **Duration:** Instantaneous
+
+You call upon power from other worlds at great personal cost. When you cast this spell, you roll up to two d6s, taking Force damage equal to the total rolled. This damage can’t be reduced or prevented in any way.
+
+You then create a number of rays equal to the number of d6s rolled and hurl them at targets within range. You can direct the rays at one creature or multiple creatures. Make a ranged spell attack for each ray. On a hit, the target takes 2d8 Force damage.
+
+***Using a Higher-Level Spell Slot.*** You roll one additional d6 and create one additional ray for each spell slot level above 1st.
+
+\columnbreak
+
 #### Dazzling Light 1.1.1
 *3rd-level Evocation (Cleric, Bard)*
 ___
@@ -966,8 +982,6 @@ You send a creature into a frenzy that pushes its body beyond its limits. Choose
 
 ***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 1st.
 
-\columnbreak
-
 #### Deathly Frost 1.0.0
 *5th-level evocation*
 ___
@@ -978,6 +992,8 @@ ___
 - **Classes:**  Sorcerer, Wizard.
 
 You cause a creature to be gripped by freezing cold. Until the spell ends, at the end of each of your turns, if the target is within 90 feet of you, it must make Constitution saving throw. On a failed save, it takes 5d8 cold damage and suffers one level of exhaustion. On a successful save, the creature takes half as much damage and does not suffer a level of exhaustion. A creature immune to cold damage can't gain exhaustion this way. Any levels of exhaustion caused by this spell go away after the spell ends.
+
+\pagebreakNum
 
 #### Decrepify 1.0.0
 *4th-level necromancy*
@@ -993,7 +1009,7 @@ You attempt to drain the vitality of a creature within range, leaving it feeble 
 
 ***At Higher Levels.*** If you cast this spell using a spell slot of 6th level or higher, the duration becomes 24 hours and the affected creature can only attempt a new saving throw after completing a short or long rest. If you use an 8th-level spell slot, the spell lasts until dispelled and no longer requires Concentration; the affected creature can only attempt a new saving throw after completing a long rest.
 
-\pagebreakNum
+
 
 #### Devolve 1.0.0
 *1st-level enchantment*
@@ -1017,7 +1033,35 @@ At the end of each of its turns, the target can make another Intelligence saving
 
 ***At Higher Levels.*** When you cast this spell using a 2nd-level spell slot, the affected creature takes 1d10 psychic damage at the end of each of its turns while under this spell's effects before it makes the saving throw. When cast this spell using a spell slot of 3rd level or higher, the psychic damage increases by 1d10 for each slot level above 2nd.
 
+\columnbreak
 
+#### Devouring Despair 1.0.0
+*3rd-level Enchantment (Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V, S, M (a shard of obsidian)
+- **Duration:** Instantaneous
+
+You unleash a surge of numbing darkness. Choose up to three creatures you can see within range. Make a ranged spell attack against each target. You have advantage on the attack roll if the target is in dim light or darkness.
+
+On a hit, the target takes 4d6 Cold damage and must make a Wisdom saving throw. The target has disadvantage on this saving throw if it has no allies within 5 feet of it. On a failed save, the target takes an additional 4d6 Psychic damage.
+
+***Using a Higher-Level Spell Slot.*** The Cold and Psychic damage each increase by 1d6 for each spell slot level above 3rd.
+
+#### Discordant Strike 1.0.0
+*6th-level Enchantment (Sorcerer, Warlock)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 15 feet
+- **Components:** V, S
+- **Duration:** Instantaneous
+
+You strike with a spear of crimson, disruptive electricity. Make a melee spell attack against a creature within range. On a hit, the target takes 5d6 Psychic damage and 5d6 Lightning damage. Until the end of your next turn, the creature can’t concentrate, regain hit points, or cast spells.
+
+A creature immune to either Lightning or Psychic damage ignores these additional effects. On a miss, the electricity grazes the target, dealing half of the initial damage and no other effects.
+
+***Using a Higher-Level Spell Slot.*** The Psychic and Thunder damage each increase by 1d6 for each spell slot level above 6th.
 
 #### Disruptive Pulse 1.0.0
 *Evocation Cantrip (Sorcerer, Warlock, Wizard)*
@@ -1033,6 +1077,8 @@ If the target is concentrating on a spell and must make a Constitution saving th
 
 ***Cantrip Upgrade.*** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
 
+\pagebreakNum
+
 #### Divine Hammer 1.0.0
 *6th-level evocation*
 ___
@@ -1043,8 +1089,6 @@ ___
 - **Classes:**  Cleric
 
 Choose a point you can see on the ground within range and a direction. A giant hammer manifests and slams the ground at the chosen point, impacting everything in a 10-foot cube centered on the point. It then sends a 30-foot-long, 10-foot-wide shockwave in the chosen direction before disappearing.
-
-\columnbreak
 
 Each creature in the area of the hammer’s impact or shockwave must make a Dexterity saving throw. On a failed save, a creature takes 5d6 fire or lighting damage (your choice) and 5d6 thunder damage and is knocked prone; it is also dazed* until the end of its next turn if it is in the area of the impact. On a successful save, a creature takes half as much damage and isn’t knocked prone or dazed.
 
@@ -1073,7 +1117,15 @@ On a successful save, the creature takes half as much damage and suffers no othe
 
 **Innocent.** The creature regains 8d6 hit points. In addition, it is cured of all diseases and any conditions causing it to be Blinded, Deafened, or Poisoned.
 
-\pagebreakNum
+#### Doom Bolt 1.0.0
+*5th-level Evocation (Warlock)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 120 feet
+- **Components:** V, S
+- **Duration:** Instantaneous
+
+You hurl a bolt of black fire toward a creature you can see within range. Make a ranged spell attack against the target. On a hit, the target takes 5d8 Fire damage and 5d8 Necrotic damage.
 
 #### Dwellers Below 1.0.0
 *9th-level evocation*
@@ -1124,7 +1176,6 @@ You unleash a sudden pulse of eldritch energy at a point you can see within rang
 ***Using A Higher-Level Spell Slot.*** The damage increases by 2d6, the radius increases by 5 feet, and the range increases by 10 feet for each slot level above 1st.
 
 #### Elemental Bane (Revised) 1.0.0
-
 *2nd-level transmutation*
 ___
 - **Casting Time:** 1 bonus action
@@ -1173,6 +1224,22 @@ A weapon you touch becomes bathed in elemental power. Choose one of the followin
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.
 
 \pagebreakNum
+
+#### Enervation 1.0.0
+*5th-level Evocation (Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+
+When you cast this spell, and as an Action on each of your turns for the duration, you can make a ranged spell attack against one creature within range. On a hit, the target takes 4d10 Necrotic damage, and a crackling arc of dark energy forms between you and the target.
+
+On each of your turns for the duration, you can use an Action to automatically deal 4d10 Necrotic damage to a creature currently linked to you by the arc. The arc ends for a target if it is ever outside the spell’s range or gains total cover from you. The spell also ends if you use your Action to do anything other than deal damage with this spell.
+
+Whenever this spell deals damage to a creature, you regain hit points equal to half the Necrotic damage dealt.
+
+***Using a Higher-Level Spell Slot.*** The damage dealt by each instance of this spell increases by 1d10 for each spell slot level above 5th.
 
 #### Eruption 1.0.0
 *8th-level evocation*
@@ -1538,8 +1605,6 @@ A creature you see with in range regains a number of hit points equal to 4d6 + y
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 2d6 for each slot level above 2nd.
 
-\columnbreak
-
 #### Glean Magic 1.0.0
 *3rd-level divination*
 ___
@@ -1560,6 +1625,8 @@ After stealing a spell, you gain the ability to cast it once as though it were f
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you can attempt to steal a spell if its level is less than or equal to the level of the spell slot you used to cast this spell.
 
+\pagebreakNum
+
 #### Grasping Tide 0.0.0
 *2nd-level conjuration*
 ___
@@ -1570,8 +1637,6 @@ ___
 - **Classes:**  Druid
 
 You cause water around you to reach out, grab creatures, and pull them in. Choose up to three target creatures you can see within range and within 30 feet of a body of water that is at least 5 feet long, 5 feet wide, and 1 foot deep and within range. Each chosen creature must make a Dexterity saving throw. On a failed save, the creature takes 3d8 bludgeoning damage and is pulled up to 10 feet closer to the water by grasping tendrils. On a successful save, the creature takes half as much damage and is not pulled.
-
-\pagebreakNum
 
 #### Grasp of Dust 1.0.0
 *4th-level Necromancy (Sorcerer, Warlock, Wizard)*
@@ -2716,6 +2781,20 @@ You conjure three random rays of magic and hurl them at targets within range. Ro
 
 \pagebreakNum
 
+#### Razorgale 1.0.0
+*4th-level Evocation (Bard, Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:** Self
+- **Components:** V, S, M (a sliver of glass)
+- **Duration:** Concentration, up to 1 minute
+
+You conjure four spectral swords that orbit you for the spell’s duration. When you cast the spell, and as an Action on each of your turns thereafter, you can expend one sword to make either a melee spell attack against a creature within 5 feet of you or a ranged spell attack against a creature within 90 feet. On a hit, the target takes 4d8 Slashing damage.
+
+Any creature that starts its turn within 5 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 1d8 Slashing damage for each sword currently orbiting you. On a successful save, the creature takes half as much damage.
+
+***Using a Higher-Level Spell Slot.***  the number of swords created increases by 1 for each slot level above 4th.
+
 #### Rebounding Blades 1.0.0
 *8th-level Conjuration (Bard, Cleric, Sorcerer, Wizard)*
 ___
@@ -2748,6 +2827,22 @@ Any creature targeted by the spell can immediately stand up without using any mo
 If you return one or more creatures to life with this spell, the diamond used to cast the spell is consumed.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d6 for each slot level above 6th.
+
+#### Reverberating Chill 1.0.0
+*2nd-level Evocation (Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:** Instantaneous
+
+Make a melee spell attack against a creature within your reach. On a hit, the target takes 2d8 Cold damage and 2d8 Thunder damage. Hit or miss, the target becomes sheathed in chilling energy until the start of your next turn. While sheathed in this energy, the target has disadvantage on ranged attack rolls.
+
+If the target willingly moves 5 feet or more before then, it immediately takes 1d8 Cold damage and 1d8 Thunder damage, and the spell ends.
+
+***Using a Higher-Level Spell Slot.*** The Cold and Thunder damage from each effect increases by 1d8 for each spell slot level above 2nd.
+
+\pagebreakNum
 
 #### Rite of the Dead 1.0.0
 *1st-level Necromancy (Sorcerer, Wizard)*
@@ -3992,8 +4087,7 @@ The rains can grant healing a number of times equal to 3 plus your spell casting
 \columnbreak
 
 #### Transmutation of Lead 1.0.0
-
-*1st -level transmutation*
+*1st-level transmutation*
 
 - **Casting Time:** 1 action
 - **Range:** 90 ft
@@ -4123,8 +4217,6 @@ Alternatively, a creature can expend a use of a Healer's Kit or use the *lesser 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the initial damage increases by 2d4 for each slot level above 2nd.
 
-\columnbreak
-
 #### Virulent Decay 1.0.1
 *4th-level necromancy*
 ___
@@ -4139,6 +4231,26 @@ You unleash a bolt of decay toward a creature you can see within range, infectin
 Each infected creature must make a Constitution saving throw, taking 6d10 necrotic damage on a failed save, or half as much on a success.
 
 ***Using a Higher-Level Spell Slot.*** The damage increases by 1d10, and the infection can jump one additional time for each spell slot level above 4.
+
+\pagebreakNum
+
+#### Void Horror 1.0.0
+*9th-level Evocation (Warlock)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V, S, M (a bit of igneous rock)
+- **Duration:** Concentration, up to 1 minute
+
+You open a gateway to the dark between worlds. A 20-foot-radius sphere of absolute blackness and bitter cold appears at a point you can see within range and lasts for the duration. No light, magical or otherwise, can illuminate the area, and creatures fully within the sphere are Blinded. The sphere emits faint whispers and slurping sounds audible up to 30 feet away.
+
+As an Action on your turn, you can move the sphere up to 30 feet.
+
+**Entering the Sphere.** The area within the sphere is difficult terrain. Any creature that starts its turn in the area takes 5d8 Cold damage, and its Speed is reduced by 10 feet until the end of the turn. Any creature that ends its turn in the area must succeed on a Strength saving throw or be banished to a realm of utter darkness for the duration. While banished, the creature is Incapacitated.
+
+**Banished Creatures.** At the end of each of its turns, A banished creature takes 5d8 Cold damage and 5d8 Psychic damage, and then must make a Charisma saving throw. On a success, the spell ends for that creature. When the spell ends for a creature, it reappears at the center of the sphere or the nearest unoccupied space. If a creature dies while banished, its body remains behind, but any magic items it carried reappear at the sphere’s center.
+
+**Tentacle Attacks.** Until the spell ends, you can use a Bonus Action on each of your turns to cause three shadowy tentacles to lash out from the sphere’s center at targets within 100 feet of it. You can target one creature or multiple creatures. Make a ranged spell attack for each tentacle. On a hit, the target takes 4d8 Acid damage and is pulled 20 feet toward the sphere’s center.
 
 \pagebreakNum
 
@@ -4382,6 +4494,8 @@ Any levels of Fatigue caused by this spell are removed when the spell ends.
 
 ***Using a Higher-Level Spell Slot.***  The damage increases by 2d10 for every slot level above 7.
 
+\pagebreakNum
+
 #### Witch Bolt (Revised) 1.0.0
 *1st-level evocation*
 ___
@@ -4397,8 +4511,6 @@ When you cast this spell, and as an action each round for the duration, you can 
 On each of your turns for the duration, you can use an action to automatically deal 1d12 lightning damage to one target with which you have an arc. The arc ends for a target if it is ever outside the spell's range or if it gains total cover from you. The spell also ends if you use your action to do anything other than attack or deal damage using this spell.
 
 ***At Higher Levels.***  When you cast this spell using a spell slot of 3th level or higher, the initial damage and automatic damage increase by 1d12 for every two slot levels above 1st.
-
-\pagebreakNum
 
 #### Witch's Broth and Brew 1.0.0
 *1st-level evocation*
@@ -4449,7 +4561,6 @@ Choose a creature within range that can hear you. The target must succeed on a W
 
 ***Using a Higher-Level Spell Slot.*** You can target one additional creature for each slot level above 3rd.
 
-\columnbreak
 
 #### World Sore 2.0.0
 *3rd-level transmutation*
@@ -4472,6 +4583,8 @@ At the start of each of your turns, while the spell is active, the boil swells w
 You can use your action to rupture the boil, reducing it to 0 hit points.
 
 ***Using a Higher-Level Spell Slot.*** The hit points of the boil are increased by 10, and the damage increases by 1d12 for each slot level above 3.
+
+\pagebreakNum
 
 #### Wrath of the Four Winds 1.0.0
 *8th-level Evocation (Druid, Sorcerer, Wizard)*
@@ -4640,8 +4753,6 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 ### Withering Resolve
 #### 2.0.0
 * No longer requires concentration and lasts one round. It now imposes disadvantage on attack rolls, and on a success, the target suffers disadvantage on its next attack roll.
-
-\columnbreak
 
 ### World Sore
 #### 2.0.0
