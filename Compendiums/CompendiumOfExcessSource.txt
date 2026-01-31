@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p2:after,.phb#p4:after, .phb#p6:after, .phb#p7:after, .phb#p9:after, .phb#p13:after, .phb#p16:after, .phb#p23:after, .phb#p24:after, .phb#p25:after, .phb#p30:after, .phb#p34:after, .phb#p36:after, .phb#p37:after, .phb#p38:after, .phb#p39:after, .phb#p40:after, .phb#p43:after, .phb#p44:after, .phb#p47:after, .phb#p48:after, .phb#p50:after, .phb#p53:after, .phb#p59:after, .phb#p60:after, .phb#p61:after, .phb#p63:after, .phb#p64:after, .phb#p65:after, .phb#p66:after  {
+    .phb#p2:after,.phb#p4:after, .phb#p6:after, .phb#p7:after, .phb#p9:after, .phb#p13:after, .phb#p16:after, .phb#p23:after, .phb#p24:after, .phb#p25:after, .phb#p27:after, .phb#p30:after, .phb#p34:after, .phb#p36:after, .phb#p37:after, .phb#p38:after, .phb#p39:after, .phb#p40:after, .phb#p43:after, .phb#p44:after, .phb#p47:after, .phb#p48:after, .phb#p50:after, .phb#p53:after, .phb#p59:after, .phb#p60:after, .phb#p61:after, .phb#p63:after, .phb#p64:after, .phb#p65:after, .phb#p66:after  {
         display          : none;
     }
     /* End Footers */
@@ -47,7 +47,7 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-# Demonic Compendium of Excess
+# Demonic Compendium of Excess 1.0
 Demons represent the dark, chaotic impulses of humanity made manifest.  Different demons represent different aspects of this darkness, but none are so tempting as the demons of excess.  These demons are born from the mortal desire to overindulge in life's earthly pleasures.  In some worlds, these fiends operate independently to tempt and corrupt humanoids.  On others, they act in service to a mighty demon lord or demonic god who presides over the domain of excess and obsession.   
 
 ***Mortal Followers.*** In addition to demons, the forces of excess include hedonistic mortals willing to achieve their debased desires by any means necessary. They are blessed with unearthly grace and charisma, allowing them to charm and manipulate those unfortunate enough to catch their attention. Those affected this way can range from narcissistic humanoids to monstrous creatures of the mortal realm afflicted by demonic exposure, which become cruel and beguiling versions of their former selves.
@@ -1368,6 +1368,12 @@ Hit or miss, the target and each creature in the line between you and it must su
 
 ***Using a Higher-Level Spell Slot.*** Both the Thunder and Psychic damage increase by 1d6, and the spell’s range increases by 10 feet for each slot level above 1st.
 
+##### Lore of Excess Art Credit
+* Beguiler of Wills - Eric Deschamps, Wizards of the Coast
+* Flood of Recollection - Magali Villeneuve, Wizards of the Coast
+ 
+\columnbreak
+
 > ##### New Condition: Dazed 
 > A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
 
@@ -1383,19 +1389,18 @@ Hit or miss, the target and each creature in the line between you and it must su
 
 <br>
 
-> ##### New Condition: Rampaging
-> The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+> ##### New Condition: Rampaging 
+> The creature loses its free will as it enters a mindless Rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+> * Any Charmed or Frightened effects on the creature are suspended.
+> * The creature can't cast spells or maintain Concentration on spells or 
+other effects.
 > * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
-&emsp;If no targets are within range, it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
-&emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
-> * The creature can't cast spells or maintain concentration on spells or other effects.
-> * Any charmed or frightened effects on the creature are suspended.
+&emsp;**If no targets are within range,** it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;**If the target is still not within range after moving,** it must take the Dash action to continue approaching the nearest hostile creature.<br>
+&emsp;**If the creature is prevented from moving within attack range,** it does whatever action is necessary to move within range (such as using an action escape a net or break through a barrier).
+> * The creature can only use its Reaction and Bonus Action to make attacks against hostile creatures or to move closer to the nearest hostile creature.
 
-<br>
 
-#### Lore of Excess Art Credit
-* Beguiler of Wills - Eric Deschamps, Wizards of the Coast
-* Flood of Recollection - Magali Villeneuve, Wizards of the Coast
 
 
 \pagebreakNum
@@ -1756,18 +1761,21 @@ ___
 > * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
 > * The creature can't willingly move away from a source of its obsession.
 
-<br>
-
-> ##### New Condition: Rampaging
-> The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
-> * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
-&emsp;If no targets are within range, it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
-&emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
-> * The creature can't cast spells or maintain concentration on spells or other effects.
-> * Any charmed, frightened  or obsessed effects on the creature are suspended.
-
 \columnbreak
 
+> ##### New Condition: Rampaging 
+> The creature loses its free will as it enters a mindless Rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+> * Any Charmed or Frightened effects on the creature are suspended.
+> * The creature can't cast spells or maintain Concentration on spells or 
+other effects.
+> * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
+&emsp;**If no targets are within range,** it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;**If the target is still not within range after moving,** it must take the Dash action to continue approaching the nearest hostile creature.<br>
+&emsp;**If the creature is prevented from moving within attack range,** it does whatever action is necessary to move within range (such as using an action escape a net or break through a barrier).
+> * The creature can only use its Reaction and Bonus Action to make attacks against hostile creatures or to move closer to the nearest hostile creature.
+
+
+___
 ___
 > ## Demonette, Bringer of Beguilement
 > *Medium fiend (demon of excess), party, chaotic evil*
@@ -3674,13 +3682,16 @@ A dazed creature can’t take reactions and on its turn, it must choose whether 
 
 \columnbreak
 
-#### New Condition: Rampaging
- The creature loses its free will as it enters a mindless rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
- * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
-&emsp;If no targets are within range, it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
-&emsp;If it is still not within range after moving, it must take the Dash action to continue approaching the nearest hostile creature.
- * The creature can't cast spells or maintain concentration on spells or other effects.
- * Any charmed or frightened effects on the creature are suspended.
+#### New Condition: Rampaging 
+ The creature loses its free will as it enters a mindless Rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+* Any Charmed or Frightened effects on the creature are suspended.
+* The creature can't cast spells or maintain Concentration on spells or 
+other effects.
+* On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
+&emsp;**If no targets are within range,** it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;**If the target is still not within range after moving,** it must take the Dash action to continue approaching the nearest hostile creature.<br>
+&emsp;**If the creature is prevented from moving within attack range,** it does whatever action is necessary to move within range (such as using an action escape a net or break through a barrier).
+* The creature can only use its Reaction and Bonus Action to make attacks against hostile creatures or to move closer to the nearest hostile creature.
 
 
 #### New Condition: Drowsy 
@@ -3691,10 +3702,13 @@ A dazed creature can’t take reactions and on its turn, it must choose whether 
  * Attacks against it have advantage. <br>
  * The only spells it can cast are cantrips. <br>
 
-<img src='https://i.ibb.co/KwH86qm/Lose-Calm-Dragons-of-Tarkir-Mt-G-Art.jpg' style='position:absolute; bottom:-200px; right:-0px; width:830px;' />
+<img src='https://i.ibb.co/KwH86qm/Lose-Calm-Dragons-of-Tarkir-Mt-G-Art.jpg' style='position:absolute; bottom:-260px; right:0px; width:930px; transform:scaleX(-1)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-460px;top:-415px;height:1400px;width:1416px;transform:rotate(0deg)' />
+  style='position:absolute;right:-460px;top:-330px;height:1400px;width:1416px;transform:rotate(29deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-330px;top:-470px;height:1400px;width:1416px;transform:rotate(-5deg)' />
 
 
 
@@ -4685,7 +4699,7 @@ style='position:absolute;bottom:-0px;left:-60px;width:616px; transform:scaleX(-1
 * Drowsy 1.0.0
 * Obsessed 1.0.0
 * Quickened 1.0.0
-* Rampaging 1.1.0
+* Rampaging 1.2.0
 
 ## Demons of Excess
 * Demonette 1.0.0
@@ -4729,4 +4743,7 @@ style='position:absolute;bottom:-0px;left:-60px;width:616px; transform:scaleX(-1
 ## Document
 #### 1.0.0
 * Document release
+
+#### 1.0.1
+* Update Rampaging Condition
 
