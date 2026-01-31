@@ -1,0 +1,296 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+## Barrow Knights
+*Ancient Knights Risen Alongside Their Undying Steeds*<br>
+**Habitat:** Underdark; **Treasure:** Armaments <br>
+In ages past, only the greatest of tribal warriors rode upon the backs of horses. Such beasts were powerful symbols of wealth and status, and only chieftains and their most celebrated champions could claim them. Clad in crude bronze armor and wielding lances suffused with mystic enchantments, these horsemen served as devastating shock troops, capable of crashing through the ranks of unmounted soldiers with terrifying force.
+
+Upon a warrior’s death, their mount was sacrificed, and the two were buried together. Rider and steed were sealed beneath great earthen mounds, fully clad in their battle attire, so that they might continue their conquests in the afterlife.
+
+Over long centuries, the tombs of these ancient warriors may become inundated with dark magic, seeping through the soil and into the bones of rider and steed alike. If enough of this tainted power accumulates, the metal-clad remains shudder back to life. The awakened corpse mounts the remnants of its once-proud beast and strides forth from its grave, wreaking havoc upon the world once more as a Barrow Knight.
+
+These unholy raiders exist only to slaughter any living thing they are able to run down. They fight with the same finesse and ferocity they displayed in life, their martial skill undiminished by death. The enchantments upon their weapons are twisted and amplified by the necromantic magic that drives them forward. A wound inflicted by a corroded lance carries a dreadful curse, preventing natural recovery unless proper remedies are applied.
+
+Barrow Knights often arise in small war bands. Many ancient crypts that house these monsters are long forgotten, only for villages to be built unknowingly nearby, until the dead rulers of ages past awaken and reclaim the land. At other times, more devious minds orchestrate their return. Necromancers, liches, and vampires actively seek out barrows, using dread incantations to bind these fallen warriors to their service. Such undead riders make excellent cavalry for the armies of the damned.
+
+### Barrow Reavers
+The most dangerous of all Barrow Knights are known as Barrow Reavers. In life, these animated remnants were the most ruthless of marauders, preying upon the weak without guilt or restraint, pillaging and slaughtering with remorse. Even in death, their bloodthirsty avarice lingers. Their hexed lances are able to rob a creature of its vitality, siphoning life force to grant the foul bandit a sudden surge of vigor. So profound is the corruption of their souls that Barrow Reavers are frightfully resilient. When the rider’s or its mount’s bones are broken and sent flying by a well-placed blow, the damage is only temporary. Dislodged fragments shudder and crawl back into place, or are dragged through the air by unseen forces, knitting themselves together and renewing the undead menace once more.
+
+### Barrow Knight Tactics
+Barrow Knights and Reavers favor hit-and-run tactics, charging in and out of combat as they move across the battlefield. They seek to curse as many enemies as possible before focusing their attacks on the most heavily injured targets. If a Barrow Knight is reduced to 0 hit points, it will redirect any remaining attacks to itself to preserve its mount.
+
+
+___
+___
+> ## Barrow Knight
+> *Medium Undead, Party, Lawful Evil*
+> ___
+> - **Armor Class** 16          **Initiative** +2 (12)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">9</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Perception +5
+> - **Gear** Ring Mail, Shield
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Senses** Darkvision 60 ft., Passive Perception 14
+> - **Languages** Understands Common plus one other language but can’t speak
+> - **Challenge** 2 (450 XP)  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Eternally Bound.*** The barrow knight is bound to one other Undead creature with an Intelligence of 4 or lower. While mounted on the bound creature and not Incapacitated, the barrow knight can’t be Grappled, knocked Prone, or moved against its will. The barrow knight and its bound creature die only if both have 0 hit points.
+>
+> ### Actions
+>
+> ***Multiattack.*** A controlled mount the barrow knight is riding can use its reaction to make one weapon attack. The barrow knight then makes one Cursed Lance attack.
+>
+> ***Cursed Lance.*** *Melee Weapon Attack:* +5 to hit (disadvantage if the target is within 5 feet of the barrow knight), reach 10 ft., one target.  
+> *Hit:* 9 (1d12 + 3) Piercing damage, or 16 (2d12 + 3) Piercing damage if the target is mounted.  
+> *Charisma Saving Throw:* DC 13 (disadvantage if the target is Bloodied).  
+> *Failure:* 13 (3d8) Necrotic damage.  
+> *Failure by 5+:* The target gains the Barrow Curse. While cursed, the target can’t regain hit points. The curse ends if the creature splashes holy water on itself or spends 10 minutes in an area affected by *Hallow*.
+>
+> ### Reactions
+>
+> ***Redirect.*** When an attack targets the barrow knight’s mount, the barrow knight can force the attack to target it instead.
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Barrow Reaver
+> *Medium Undead, Party, Lawful Evil*
+> ___
+> - **Armor Class** 16          **Initiative** +2 (12)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">9</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, Perception +5
+> - **Gear** Ring Mail, Shield
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Senses** Darkvision 60 ft., Passive Perception 14
+> - **Languages** Understands Common plus one other language but can’t speak
+> - **Challenge** 4 (1,100 XP)  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Undying Bond.*** The barrow reaver is bound to one other Undead creature with an Intelligence of 4 or lower. While mounted on the bound creature and not Incapacitated, the barrow reaver can’t be Grappled, knocked Prone, or moved against its will. At the start of the barrow reaver’s turn, it and its bound creature each regain 10 hit points. The barrow reaver and its bound creature die only if both have 0 hit points.
+>
+> ### Actions
+>
+> ***Multiattack.*** A controlled mount the barrow reaver is riding can use its reaction to make one weapon attack. The barrow reaver then makes one Reaver’s Lance attack.
+>
+> ***Reaver’s Lance.*** *Melee Weapon Attack:* +6 to hit (disadvantage if the target is within 5 feet of the barrow reaver), reach 10 ft., one target.  
+> *Hit:* 10 (1d12 + 4) Piercing damage, or 16 (2d12 + 4) Piercing damage if the target is mounted.  
+> *Charisma Saving Throw:* DC 14 (disadvantage if the target is Bloodied).  
+> *Failure:* 15 (3d10) Necrotic damage.  
+> *Failure by 5+:* The target gains Reaver’s Curse for 1 hour. While cursed, the target can’t regain hit points. While the cursed target is within 60 feet of the barrow reaver, the barrow reaver and its bound creature are Quickened*, and the cursed creature is Dazed*. The curse ends if the creature splashes holy water on itself or spends 10 minutes in an area affected by *Hallow*.
+>
+> ### Reactions
+>
+> ***Redirect.*** When an attack targets the barrow reaver’s mount, the barrow reaver can force the attack to target it instead.
+> 
+> **New condition described on next page*
+
+
+</span>
+
+___
+___
+> ## Specter Hove Warhorse
+> *Large Undead, Party, Lawful Evil*
+> ___
+> - **Armor Class** 15 (Studded Leather)    **Initiative** +3 (13)
+> - **Hit Points** 67 (9d10 + 18)
+> - **Speed** 60 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Senses** Darkvision 60 ft., Passive Perception 10
+> - **Languages** None
+> - **Challenge** 1 (200 XP)  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Spectral Stride.*** The warhorse is unaffected by Difficult Terrain and can move across liquids without falling in.
+>
+> ### Actions
+>
+> ***Hooves.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target.  
+> *Hit:* 8 (2d4 + 3) Bludgeoning damage.  If the warhorse moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and must succeed on a *Strength Saving Throw:* DC 13.  
+> *Failure:* The target is knocked Prone.
+
+</span>
+
+\pagebreakNum
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+> ##### New Condition: Quickened
+> A Quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the Quickened condition among its other effects, and a creature cannot benefit from the Quickened condition from multiple sources at once.
+
+\columnbreak
+
+### Change Log
+#### 0.0.0
+* Document creation
