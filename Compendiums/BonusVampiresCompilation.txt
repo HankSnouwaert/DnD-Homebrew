@@ -1,0 +1,632 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p4:after, .phb#p6:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br>
+
+# Bonus Vampires Compilation
+
+## Vargraths
+*Vampires Reduced To Bat-Like, Blood-Mad Monsters*<br>
+**Habitat:** Underdark; **Treasure:** None <br>
+Vampires’ ruthless and egotistical nature means that these undead rarely operate harmoniously with others of their kind. This competition is perhaps fiercest among those who occupy positions of nobility, for these cruel aristocrats are constantly scheming to ascend in rank and dispose of any dark lords or ladies who might compete for such lofty status. Such rivalries can escalate into brutal acts, committed until one party submits to the other, or is killed outright.
+
+In their mercilessness, vampires often sentence their defeated foes to the most awful fates: being chained within stone, buried, or sealed away and forgotten. Such confinement is far worse than death, for the vampire becomes famished and hungers endlessly for blood, yet can never die of starvation. The body withers into a desecrated husk, and as the mind is flooded with nothing but thoughts of feeding, only the darkest primitive urges of the vampire remain.
+
+Over long decades sealed away, whether in forgotten catacombs deep beneath the earth or in some forsaken countryside, such places are usually tainted with dark magic.
+
+
+ This magic is drawn to the murderous yearning of the tormented prisoner and permeates its holding, turning it into a cocoon.  Within, the vampire is slowly warped: corded muscles swell across its body, its face takes on chiropteran features, and bestial fangs sprout from its maw. Fingers extend, forming tough membranes between them. The stone prison begins to crack from the strain of the growing monstrosity within, until it finally falters, and a newly made Vargrath bursts forth.
+
+These mutants are the hunger of a vampire made manifest. They exist only to gorge themselves on blood; not even hatred or malice remains of those who were condemned to this debased state. Such creatures are ceaseless hunters, constantly in search of fresh slaughter to partake in, swooping down in flurries to mutilate flesh and feast, halted only by the rising of the sun, at which point they crawl into the nearest dark recess to wait out the daylight hours.
+
+Though physically mighty, the minds of Vargraths are weakened by their metamorphosis, making them easily bound into servitude by those skilled in the black arts. Many times, the vampire who first sealed away its rival may come to dominate the wretched spawn it helped create. In such cases, the beast is kept mystically sedated, roused only when its handler has an adversary who must be taught a particularly bloodied lesson.
+
+
+
+___
+___
+> ## Vargrath
+> *Large Undead, Party, Chaotic Evil*
+> ___
+> - **Armor Class** 16         **Initiative** +4 (14)
+> - **Hit Points** 85 (10d8 + 40)
+> - **Speed** 40 ft., Climb 40 ft., Fly 40 ft.
+> ___
+>
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Athletics +7, Perception +6, Stealth +7
+> - **Damage Resistances** Necrotic
+> - **Immunities** Poison; Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 16
+> - **Languages** None
+> - **Challenge** 6 (2,300 XP)  **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Blood-Crazed.*** At the end of its turn, if a vargrath hit a creature with its Bite attack and dealt damage this turn, it enters a Rampage* for 1 minute. While Rampaging, the vargrath can make one Bite attack as a Bonus Action, and attack rolls against it have advantage.
+>
+> ***Vampire Weakness.*** The vargrath has the following weaknesses:
+>
+> **Forbiddance.** The vargrath can’t enter a residence without an invitation from an occupant.
+>
+> **Running Water.** The vargrath takes 20 Acid damage if it ends its turn in running water.
+>
+> **Sunlight.** The vargrath takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
+>
+> ### Actions
+>
+> ***Multiattack.*** The vargrath makes two attacks, only one of which can be a Bite.
+>
+> ***Rend.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target.  
+> *Hit:* 17 (3d8 + 4) Slashing damage. If the target is a Medium or smaller creature, it is Grappled (escape DC 15). The vargrath can Grapple only one creature at a time.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature that is Grappled by the vargrath, Incapacitated, or willing.  
+> *Hit:* 14 (3d6 + 4) Piercing damage plus 18 (4d8) Necrotic damage. The target’s hit point maximum is reduced by an amount equal to the Necrotic damage taken, and the vargrath regains hit points equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
+>
+> **New condition described on next page*
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Forgotten Sinners
+There lies a cursed ruin, concealed by a dread thicket of sharp-brambled, ancient, and defiled trees. Within are the remnants of former grandeur: ceilings broken open to the solemn skies, the tattered and burned remains of tapestries and paintings hanging forlorn from the walls, and elaborately engraved furnishings eroded by time, their shattered limbs strewn across floors thick with grime and ancient dust.
+
+This ghastly place was once the abode of the most powerful bloodlines of vampires ever to rule, led by a vampiric master whose power surpassed any that the realm had borne witness to. His reign was one of terror, and the lands were forever scarred by his deeds, for all manner of undead abominations were wrought by his will. Chief among these were the vast hosts of vampires he sired, lords and ladies alike, each granted the dread gift of immortality by that dark figure, such creations serving his every nefarious whim.
+
+The castle stood as a nexus of evil, drawing unto itself fell magics, lured by unholy rites and banquets of flesh held within its walls. Thus, the king’s influence corrupted the land, and his dominion spread as his empire grew, dreadfully proliferating with no knight nor champion of the light able to halt the ceaseless tide of ill.
+
+Yet in time, such darkness came to ravage itself. For within the three greatest of his servants, creations of the master, there arose an ambition for power over even him. They came to desire freedom from their maker’s yoke and sought to bring about his end, that they might indulge their own iniquitous cravings unbound. Daring not confront him openly, they secretly sent word of his comings and goings to the holy orders of a neighboring kingdom.
+
+And so it was that one night, as the vampiric sovereign journeyed through the dark wilderness, he was set upon by a band of crusaders, righteous and fearless, who descended upon his convoy without warning. Long and bitter was the struggle, yet at last the beast was worn down, and a blessed stake of silver was driven through his chest, smiting him utterly.
+
+With pontifical glee, the children of the master celebrated their maker’s downfall, and anarchy fell upon the aristocracy. Villages were drained of their inhabitants and dragged away to serve as fodder for gluttonous banquets that lasted many weeks, amid decadent festivities and revolting excess. All order once enforced by the great master of the night was lost in a fevered haze. And yet, as such vile carousal continued unabated, the dark kingdom raised by the great father of vampires was slowly undone and cleansed by the efforts of the pious; for none among the young and heedless vampires possessed the will or strength to maintain so dread a dominion, each too enraptured by vice to assume such a mantle.
+
+Yet the grand castle remained, for none could overcome the vast number of dark spawn that still infested its perilous halls, and the heathens within continued their revolting gaiety.
+
+At last came an end to the traitors. It is said that one night, a hunched and macilent figure, swathed in a grey cloak with a face marked with scars, was seen by the shrouded villagers who dwelt long beneath the shadow of the great keep. Without hesitation, the figure passed toward the castle. That night, inhuman screams echoed through the trees, waking all who slept and causing even the dead who roamed the dark hours to pause. One by one, the damned cries rang out until the sun rose and the wails vanished with the coming of the light.
+
+<br>
+
+> ##### New Condition: Rampaging 
+> The creature loses its free will as it enters a mindless Rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+> * Any Charmed or Frightened effects on the creature are suspended.
+> * The creature can't cast spells or maintain Concentration on spells or 
+other effects.
+> * On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
+&emsp;**If no targets are within range,** it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and can’t move further. <br>
+&emsp;**If the target is still not within range after moving,** it must take the Dash action to continue approaching the nearest hostile creature.<br>
+&emsp;**If the creature is prevented from moving within attack range,** it does whatever action is necessary to move within range (such as using an Action escape a net or break through a barrier).
+> * The creature can only use its Reaction and Bonus Action to make attacks against hostile creatures or to move closer to the nearest hostile creature.
+
+<br>
+
+> ##### New Condition: Quickened
+> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *Haste* spell applies the Quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+
+
+
+
+\pagebreakNum
+
+When the bravest among the living dared to investigate, they found no count nor countess left within the walls; all had vanished. No time was wasted thereafter; the tainted edifice was toppled, and fire and iron were used to demolish all that stood above the ground.
+
+Yet the vandals knew not what lay beneath the foundations they had undone. Vast catacombs wound deep into the earth: halls laden with ancient treasures, undead minions, and in the deepest recesses, multitudes of newly fashioned iron coffins, each carved with runes of binding and wrapped in heavy chains. Chiseled upon the lid of every such vessel was a single word in dark speech: “Traitor.”
+
+Hundreds of years after its destruction, the rubble of the great vampire master is still shunned, for evil yet clings to that forgotten seat of power. And yet it is known that seekers of dark might still come to this place, combing the bones of the palace for secret halls below, braving the deep gloom in hopes of finding among the shadows the coffins that cradle the forgotten sinners within, for the terror bound there is a savagery few may withstand.
+
+#### Vargrath Tactics
+Vargraths rely on speed  high damage, not durability. They fly in and out of combat, targeting isolated or low AC foes. Once a Vargrath lands a bite, it becomes blood-crazed and commits fully to the attack,
+
+##### Forgotten Sinner Tactics
+Forgotten Sinners favor stealth and surprise. They ambush vulnerable targets, acting early due to high initiative. In the first round, their Primal Surge allows them to overwhelm or eliminate a foe before allies can react.
+
+___
+___
+> ## Vargrath, Forgotten Sinner
+> *Large Undead, Party, Chaotic Evil*
+> ___
+> - **Armor Class** 17         **Initiative** +7 (17)
+> - **Hit Points** 93 (11d8 + 44)
+> - **Speed** 40 ft., Climb 40 ft., Fly 40 ft.
+> ___
+>
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +7, Athletics +7, Perception +6, Stealth +10
+> - **Damage Resistances** Necrotic
+> - **Immunities** Poison; Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 15
+> - **Languages** None
+> - **Challenge** 8 (3,900 XP)  **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Blood-Crazed.*** At the end of its turn, if a vargrath hit a creature with its Bite attack and dealt damage this turn, it enters a Rampage* for 1 minute. While Rampaging, the vargrath can make one Bite attack as a Bonus Action, and attack rolls against it have advantage.
+>
+> ***Primal Surge.*** When the vargrath rolls initiative or reduces a creature to 0 hit points, it is Quickened* until the end of its next turn.
+>
+> ***Vampire Weakness.*** The vargrath has the following weaknesses:
+>
+> **Forbiddance.** The vargrath can’t enter a residence without an invitation from an occupant.
+>
+> **Running Water.** The vargrath takes 20 Acid damage if it ends its turn in running water.
+>
+> **Sunlight.** The vargrath takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
+>
+> ### Actions
+>
+> ***Multiattack.*** The vargrath makes two attacks, only one of which can be a Bite.
+>
+> ***Rend.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target.  
+> *Hit:* 17 (3d8 + 4) Slashing damage. If the target is a Medium or smaller creature, it is Grappled (escape DC 15). The vargrath can grapple only one creature at a time.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature that is Grappled by the vargrath, Incapacitated, or willing.  
+> *Hit:* 14 (3d6 + 4) Piercing damage plus 18 (4d8) Necrotic damage. The target’s hit point maximum is reduced by an amount equal to the Necrotic damage taken, and the vargrath regains hit points equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
+>
+> **New condition described on previous page*
+
+</span>
+
+\pagebreakNum
+
+<br>
+
+## Vargoths
+*Bestial Vampires, Fully Succumbed to Their Savage Nature*<br>
+**Habitat:** Underdark; **Treasure:** Any <br>
+Vampires are capable of cunning and stratagem beyond that of most other unholy beings. They devise insidious plots to ensnare their adversaries, master many forms of warfare and arcane arts, and puppet vast networks of servants to enact their will. Yet at their core, every vampire is driven by a ravenous urge to feed upon the blood of the living.
+
+Most vampires are able to keep such instincts at bay; some even counterbalance them by fashioning veneers of nobility around themselves, masking their base appetites beneath ritual, refinement, and false restraint. Others, however, through loss of control or utter rejection of their former selves, shed what little humanity remains and allow savage gluttony to consume them wholly.
+
+As the last remnants of civility are eroded away, body and mind twist into something altogether bestial. Vampires who undergo such a metamorphosis are known among mortals as Vargoths.
+
+These ghastly beasts are death-dealing brutes. Their frames swell until they tower over even the tallest of men, massive bodies coated in matted fur stretched across rippling muscle. Elongated limbs end in sickle-like claws capable of tearing through oak as easily as flesh, while their maws bristle with sword-like fangs, terrible weapons that can shred a warrior into bloody ruin with a single bite. Such gnashing jaws reduce their victims to gore, which the beast devours in frenzied gulps.
+
+Though no longer capable of higher thought, Vargoths are far from mindless. They possess keen predatory instincts, allowing them to bring down powerful foes or even entire groups of combatants. They may stalk prey for many nights, waiting patiently for a moment of weakness, or retreat when outmatched, only to return once their supernatural regeneration has mended every wound.
+
+Vargoths often come to dominate other loathsome pack-beasts, which instinctively recognize the vampire-spawn as their alpha. Ghouls in particular are commonly seen under a Vargoth’s command, sharing a grim kinship in their warped, feral state. Such alliances are devastating, for these roaming wretches slay indiscriminately and gorge themselves upon fresh meat, leaving trails of crimson in their wake.
+
+Those who face a Vargoth have but one hope: to end the terror swiftly, for its rage only grows the longer the beast is allowed to fight.
+
+### Vargoth Tactics
+Varghoths move into the largest group of enemies, attempting to hit as many targets with their rend attack as they can, Grappling the target with the lowest Strength and slowing each other target. They then bite the Grappled target. The vargoth will then move out of combat if it has less than half its hit points, as it keeps rending and biting the target it is Grappling. Otherwise, it will keep moving into the largest group of foes it can find hitting as many targets as it can to build up levels of Fury.
+
+<img src='https://i.ibb.co/6cpLmXCZ/Winter-Night-in-the-Forest.jpg' style='position:absolute; top:-1px; right:-270px; width:805px; transform:scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+
+
+\pagebreakNum
+
+___
+___
+> ## Vargoth
+> *Huge Undead, Party, Any Evil*
+> ___
+> - **Armor Class** 17         **Initiative** +8 (18)
+> - **Hit Points** 172 (15d12 + 75)
+> - **Speed** 60 ft., Climb 60 ft.
+> ___
+>
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +8, Athletics +9, Perception +10, Stealth +8, Survival +10
+> - **Damage Resistances** Necrotic
+> - **Immunities** Poison; Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 20
+> - **Languages** None
+> - **Challenge** 12 (8,400 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Regeneration.*** The vargoth regains 10 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or running water. If the vargoth takes Radiant damage or damage from holy water, this trait doesn’t function at the start of the vargoth’s next turn.
+>
+> ***Vampire Weakness.*** The vargoth has the following weaknesses:
+>
+> **Forbiddance.** The vargoth can’t enter a residence without an invitation from an occupant.
+>
+> **Running Water.** The vargoth takes 20 Acid damage if it ends its turn in running water.
+>
+> **Sunlight.** The vargoth takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
+>
+> ### Actions
+>
+> ***Multiattack.*** The vargoth makes a Rend attack against any number of targets within 10 feet of it, then makes one Bite attack.
+>
+> ***Rend.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target.  
+> *Hit:* 21 (3d10 + 5) Slashing damage. If the target is a creature, the vargoth chooses one of the following effects:
+>
+> - **Grab.** If the target is Medium or smaller, it is Grappled (escape DC 17). The vargoth can Grapple only one creature at a time.
+> - **Slow.** The target’s speed is reduced by 15 feet until the start of the vargoth’s next turn.
+>
+> Hit or miss, the vargoth gains one level of Fury*.
+>
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target that is willing or rrappled.  
+> *Hit:* 18 (3d8 + 5) Piercing damage plus 18 (4d8) Necrotic damage. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vargoth regains hit points equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
+> 
+> **New condition described below*
+
+
+</span>
+
+> ##### New Condition: Fury  
+> The creature gains levels of Fury that cause its attacks to deal increasing amounts of damage with each level. 
+>
+> **Gaining Fury.** Unless an ability specifies otherwise, a creature can gain up to 6 levels of Fury and only during combat. <Br>
+> &emsp;**Extra Damage.** The first time each turn that the creature hits a target with an attack, it deals an additional 1d4 damage for each level of Fury it has.<br>
+> &emsp;**Losing Fury.** All levels of Fury are lost if a creature goes 1 minute without gaining any levels of Fury. Additionally, a creature loses all levels of Fury if it becomes Charmed or Frightened, or is affected by the *Calm Emotions* spell. It also can't gain levels Fury while under these conditions.
+
+\columnbreak
+
+<br>
+
+### Vargoths Art Credit
+* Winter Night in the Forest - Otto Hesselbom
+
+\pagebreakNum
+
+
+## Sanguine Thrones
+The most conceited of vampires refuse to march into battle, scorning the dirt and muck that would tarnish their immortal splendor. Nor will they ride upon some moldering beast whose hideous form might distract from their immaculate presence. Instead, these pompous lords are borne to the field of war upon Sanguine Thrones, gilded palanquins draped in sumptuous red silks, their frames lined with the finest cushions and adorned with obscene luxury.
+
+Such magnificence glides effortlessly above the battlefield, held aloft by tormented specters. These wretched spirits are the souls of those slain by the vampire who now rides above them, forever shackled by necromantic bonds and condemned to bear the grandiose chariot until its destruction finally releases them.
+
+Sanguine Thrones are far more than a macabre mode of transport. When bearing a trinity of vampires, most commonly a countess and her most trusted vampiric handmaids, these dread conveyances become engines of suffering and despair. United in an unholy sisterhood, <br> the vampires unleashes baleful magics upon their <br> foes.
+
+At the heart of the throne rests a golden basin, <br> filled to the brim with virgin blood. Within its <br> crimson depths, the vampires read the reflected <br> fate of their enemies, ensuring that the <br> sisterhood and its attendants remain ever <br> one step ahead of those they hunt.
+
+Most deadly of all is the moment when <br> command is given. At the will of the regal <br> riders, the spirits bound to the <br> soul-harvesting throne surges forward, <br> snuffing out nearby life. Those slain <br> are claimed in death, their souls <br> drafted into service as part of the <br> throne’s ever-growing spectral <br> entourage.
+
+<img src='https://i.ibb.co/xStdGV8K/Interior-of-the-Pitti-Palace.jpg' style='position:absolute; bottom:-200px; right:-400px; width:1200px; transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:69px;top:-390px;height:1400px;width:1416px;transform:rotate(-67deg)' />
+
+
+\pagebreakNum
+
+##### Sanguine Throne Mishaps Table
+
+| d20 | Mishap Name | Mishap Effect | Repair Check Type |
+|:--:|:-------------|:--------------|:------------------|
+| 1-4 | Disrupted Foresight | Any curses cast by the Sanguine Throne immediately end. | None |
+| 5-8 | Crazed Spirits | On Initiative Count 1 (losing ties), the vehicle moves 3d4 × 5 feet in a random direction. Roll 1d4 to determine the direction: 1, north; 2, east; 3, south; or 4, west. | CHA |
+| 9-12 | Docile Souls | The vehicle can’t use its Unleash Souls action until this mishap ends. | CHA |
+| 13-16 | Struggling Specters | On Initiative Count 1 (losing ties), the vehicle takes 22 (5d8) Force damage. | CHA |
+| 17-20 | Vengeful Dead | Any creature that starts its turn on or inside the vehicle takes 17 (5d6) Necrotic damage. | CHA |
+
+\columnbreak
+
+###  Sanguine Throne Tactics
+
+A sanguine throne targets the creature with the lowest Charisma, cursing it and focusing all of its abilities on that foe. It weaves in and out of combat, slamming into its chosen target while passing through clusters of enemies to unleash souls before withdrawing to reposition.
+
+<br>
+
+##### Sanguine Thrones Art Credit
+* Interior of the Pitti Palace - Oreste Costa
+
+___
+___
+> ## Sanguine Throne
+> *Large Vehicle (1,000 lb.)*
+> ___
+> - **Armor Class** 16
+> - **Hit Points** 270 (Damage Threshold 10, Mishap Threshold 25)
+> - **Speed** 5 ft., Fly 60 ft. (Hover)
+> - **Creature Capacity** 3 Medium creatures
+> - **Cargo Capacity** 2,000 lb.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vehicle DC** 16
+> - **Immunities** Necrotic, Poison, Psychic
+> - **Condition Immunities** Blinded, Charmed, Deafened, Frightened, Paralyzed, Petrified, Poisoned, Prone, Stunned, Unconscious
+> - **Challenge** 10 (5,900 XP)
+> ___
+>
+> ### Traits
+>
+> ***Beguiling Masters.*** Only a creature with a Charisma score of 14 or higher and an Intelligence score of 12 or higher can operate the sanguine throne’s action stations.
+>
+> ***Specter Slam.*** The sanguine throne deals 10 (3d6) Necrotic damage instead of 3 (1d6) Bludgeoning damage for every 10 feet it moves in a straight line before crashing into a creature or object.
+>
+> ### Action Stations
+>
+> ***Scrying Pool (1 Crew, Half Cover).*** The operator chooses one creature it has seen within the last hour. That creature must make a *Charisma Saving Throw*.  
+> *Failure:* The creature is cursed for 1 hour, until the sanguine throne is destroyed, or until the scrying pool curses another creature. While cursed, the creature suffers the following effects:
+> - Each passenger knows the exact location of the cursed creature and ignores any Invisibility the creature has.
+> - The cursed creature has disadvantage on attack rolls against the Sanguine Throne and its passengers.
+> - The cursed creature has disadvantage on saving throws forced by the Sanguine Throne or its passengers.
+> - Passengers on the sanguine throne have advantage on attack rolls against the cursed creature.
+> - The Sanguine Throne and its passengers have advantage on saving throws forced by the cursed creature.
+>
+> ***Helm (1 Crew, Half Cover).*** Drive and steer the Sanguine Throne.
+>
+> ***Unleash Souls (1 Crew, Half Cover).*** Each creature in a 15-foot emanation originating from the sanguine throne must make a *Constitution Saving Throw*.  
+> *Failure:* 31 (7d8) Necrotic damage.  
+> *Success:* Half damage.
+
+</span>
+
+\pagebreakNum
+
+
+# Self-Propelled Vehicles
+Most land vehicles in fantasy settings are pulled by other creatures, such as wagons, carriages, or chariots. However, through some combination of technology or magic, some vehicles may be self-propelled and driven by a passenger. These may be relatively small mechanical contraptions, magically self-propelled carriages, or mighty war machines rumbling across blasted battlefields. 
+
+The following rules can help you codify how to use these vehicle types in your games. They can be applied to vehicles of different shapes and sizes and used as tools for designing your own vehicles. The rules here can be applied to most self-powered vehicles piloted by a passenger. 
+
+At the end of the document, you'll find a couple of example vehicles that can be used as inspiration for coming up with your own designs.
+
+## Self-Propelled Vehicle Rules
+Self-propelled vehicles are vehicles able to move without needing to be pushed or pulled by another creature, and they usually don’t need an external energy source (such as wind). Throughout this document, they will be referred to simply as vehicles. Creatures within a vehicle are referred to as passengers. 
+In combat, vehicles use most of the same rules as creatures, with the following additional considerations:
+
+### Opportunity Attacks
+Vehicles provoke opportunity attacks as usual. When a vehicle provokes an opportunity attack, the attacker can target the vehicle itself or any creature riding on or inside it, provided they are within reach and do not have total cover.
+
+
+### Spacing Within Vehicles
+All creatures within a vehicle count as being within 5 feet of each other.
+
+
+### Entering and Exiting Vehicles
+Entering or exiting the vehicle costs a creature half of its movement. Each creature inside the vehicle may use its reaction to make an opportunity attack against the creature entering or exiting.
+
+
+### Crashing into Creatures and Objects
+A vehicle can crash into a creature or object by entering its space. When it does, the creature or object must make a Dexterity or Strength saving throw (the target's choice) using the vehicle's DC. On a failed save, the target takes 1d6 bludgeoning damage for every 10 feet the vehicle moved in a straight line before attempting to enter the target's space (maximum 20d6 damage).
+
+\columnbreak
+
+If the target is a creature, it is also knocked prone. On a successful Dexterity save, the target takes no damage and is not knocked prone. On a successful Strength save, the creature takes half damage, is not knocked prone, and the vehicle's speed becomes 0 until the end of the turn. A target can only make this saving throw once per turn.
+
+If the vehicle is at least two size categories larger than the target it crashed into, it can continue moving through the target's space if it has any movement remaining. Otherwise, the vehicle comes to a sudden stop. If the target is an impassable object that could reasonably damage the vehicle, such as an iron wall, the vehicle comes to a sudden stop and takes 1d6 bludgeoning damage for every 10 feet it moved since its last turn (maximum 20d6 damage). Each creature on or inside the vehicle takes the damage as well
+
+### Prone Vehicles
+If vehicle falls prone, it cannot right itself and is incapacitated until it is flipped upright.
+
+### Falling Vehicles
+When a vehicle falls from a height of 10 feet or higher, it and all creatures on or inside it take damage from the fall as normal and land in a prone position. If the vehicle falls due to the actions of its driver (such as jumping off a ramp) it may not land prone (DM’s discretion) but still takes fall damage.
+
+
+
+### Repairing Vehicles
+If a vehicle has taken damage but still has at least 1 hit point, a creature can spend 1 hour or more attempting to repair the damage. The vehicle must be stationary, and the creature must have the necessary tools and parts for the repairs. After 1 hour of repair work, the creature makes an Intelligence check, adding its proficiency bonus to the check if it is proficient with the tools required for the repairs. If the check succeeds, the vehicle regains 2d4 + its Intelligence modifier + its proficiency bonus hit points. If the check fails, the vehicle does not regain any hit points, but the repair can be attempted again using the same tools and replacement parts.
+
+### Vehicular Exhaustion 
+Certain circumstances can cause a vehicle to malfunction and eventually break down due to wear and tear. This wear and tear can be represented using exhaustion rules, as described in Appendix A of the Player's Handbook, with the following modifications:
+
+* When a vehicle reaches exhaustion level 6, its hit points drop to 0, and the vehicle breaks down.
+* The only way to remove the effects of exhaustion on a vehicle is through repair. This can be done using the rules described in the Repairing Vehicles section above. If the attempt to repair the vehicle succeeds, the vehicle's exhaustion level decreases by 1. If the check fails, the vehicle's exhaustion level remains unchanged, but the repair attempt can be made again using <br> the same tools and replacement parts.
+
+
+\pagebreakNum
+
+
+## Self-Propelled Vehicle Attributes
+Besides the size, weight, AC, HP, and damage immunity attributes common to all objects, these vehicles have the following additional attributes and considerations:
+
+### Hit Points 
+A vehicle's hit points can be restored through vehicle repairs. However, when a vehicle's hit points reach 0, it becomes inoperative and is irreparably damaged.
+### Damage Threshold
+Most vehicles possess bulk or armor that enables them to withstand minor hits. A vehicle with a damage threshold is immune to all damage unless the amount of damage it takes is equal to or greater than its damage threshold value. In such cases, the vehicle takes damage as usual. Damage that fails to meet or exceed the vehicle's damage threshold is considered superficial and does not reduce the vehicle's hit points.
+
+### Mishap Threshold
+When a vehicle sustains damage from a single source that is equal to or exceeds its mishap threshold, it is required to roll on the Mishaps table (refer to the Mishaps section).
+
+
+### Creature Capacity 
+Creature capacity determines the number of creatures that can ride the vehicle comfortably. Additional creatures can fit by squeezing or clinging to the outside of the vehicle.
+
+### Cargo Capacity
+Cargo capacity indicates the maximum weight of cargo the vehicle can carry.
+
+### Vehicle DC 
+Whenever the vehicle requires a creature to make a check or saving throw, it uses this number as the DC.
+
+### Challenge Rating
+When players face enemies that are equipped with a fully functioning vehicle, the challenge rating (CR) of the encounter should be calculated as if the vehicle is an additional creature with its own CR.
+
+### Ability Scores 
+A vehicle possesses the standard six ability scores that creatures have, along with their corresponding modifiers. The Strength of the vehicle is determined by its size and weight, while Dexterity represents its handling and maneuverability. The Constitution of a vehicle reflects its durability and quality of construction. In most cases, vehicles have a score of 0 in Intelligence, Wisdom, and Charisma.
+
+
+
+\columnbreak
+
+If a vehicle has a score of 0 in a particular ability score, it automatically fails any ability check or saving throw that relies on that score.
+
+### Action Stations
+A vehicle may have one or more Action Stations. Each of these stations requires a certain number of creatures to operate and may grant those creatures some amount of cover. The creatures operating these stations must be passengers within the vehicle, but not all passengers need to be operating a station. A creature operating a station <br> can use an action to activate the station's effect.  <br> A station can be occupied by only one <br> creature at a time and can only <br> be activated once per round. 
+
+
+
+#### The Helm 
+Most vehicles that must be piloted by a passenger (referred to as the driver) have an Action Station known as the Helm, where the vehicle's movement is controlled. It usually consists of a chair equipped with a wheel, levers, pedals, and other controls. If a vehicle has a helm with no one operating it, it automatically fails Dexterity saving throws. A driver who is proficient with land vehicles can add their proficiency bonus to ability checks and saving throws made using the vehicle's ability scores.
+
+The driver can use an action to propel the vehicle up to its speed or bring it to a complete stop. While the vehicle is in motion, the driver can steer it along any desired course. If the driver becomes incapacitated, leaves the helm, or takes no action to alter the vehicle's course and speed, the vehicle will continue moving in the same direction and at the same speed as it did during the driver's last turn until it collides with an obstacle large enough to stop its movement.
+
+
+### Mishaps
+Most vehicles have a Mishaps Table, which describes different ways its functionality can go awry under adverse conditions. When certain abilities or conditions dictate, roll on this Mishaps Table. 
+
+To resolve a Mishap, a creature can use its action to make an ability check based on the nature of the mishap (refer to the Mishaps section). If the vehicle is moving, the check is made with disadvantage. If the creature is proficient with the tools required for the repairs and has them at hand, it adds its proficiency bonus to the check. A successful check ends the mishap. Mishaps that do not have a Repair Check Type cannot be repaired.
+
+\pagebreakNum
+
+### Revision Numbers
+
+#### Local Content
+* Vargrath 1.0.0
+* Vargrath, Forgotten Sinner 1.0.0
+* Vargoth 1.0.0
+* Sanguine Throne 1.0.0
+
+#### Referenced Content
+* New Condition: Fury 1.0.0
+* New Condition: Rampaging 1.2.0
+* New Condition: Quickened 1.0.0
+* Self Propelled Vehicles 1.1.0
+
+
+### Change Log
+#### 1.0.0
+* Document release
