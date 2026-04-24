@@ -1,0 +1,258 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Tumbleweed Wranglers
+*Wind Elementals Herding Swarms of Undead Tumbleweeds*<br>
+**Habitat:** Desert, Grasslands; **Treasure:** None <br>
+
+There exists a strange species of thistle within the barren wasteland. Beneath its mundane, barbed branches lies a preternatural sentience. During its brief, year-long life, this bizarre mind spends its entire existence weaving a spell unheard by any save others of its kind. When multiple thistles gather, they join in this silent ritual, each contributing to the growing power of the incantation.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+At the end of their fleeting lives, they drain their remaining life force to complete the arcane rite, calling forth an elemental forged from the winds. This being, known to creatures of flesh and blood as a Tumbleweed Wrangler, is bound to their service. Plants soon awake once more as undead, the reanimated  thistles detach from the roots that once nourished them, rising as animate husks to command their newfound servant.
+
+___
+___
+> ## Tumbleweed Wrangler
+> *Medium Elemental, Mini-Boss, Chaotic Neutral*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 66 (12d8 + 12)
+> - **Speed** 5 ft., Fly 60 ft. (Hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Bludgeoning, Lightning, Piercing, Slashing
+> - **Immunities** Poison, Thunder; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious
+> - **Senses** Darkvision 60 ft., Passive Perception 10
+> - **Languages** Auran
+> - **Challenge** 3 (700 XP)  &emsp;&emsp;&emsp;&emsp;&ensp;    **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Air Form.*** The wrangler can enter a creature's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement.
+>
+> ### Actions
+>
+> ***Multiattack.*** The wrangler makes two attacks. It can replace either attack with an Air Lasso, and it may replace one attack with a Rushing Gust.
+>
+> ***Lightning Lash.*** *Melee Spell Attack:* +6 to hit, reach 30 ft., one creature. *Hit:* 7 (2d6) Lightning damage.
+>
+> ***Rushing Gust.*** The wrangler chooses a direction. *Strength Saving Throw:* DC 14, each other creature in a 60-foot emanation from the wrangler. <br>
+> *Failure:* The target is pushed 10 feet in the chosen direction.
+>
+> ***Air Lasso.*** *Strength Saving Throw:* DC 14, one creature within 30 feet that the wrangler can see. <br>
+> *Failure:* The target is pulled up to 15 feet toward the wrangler until it is within 5 feet of it. The wrangler may then choose to push the creature up to 15 feet in any direction.
+
+</span>
+
+<img src='https://i.postimg.cc/7YH53rDs/dance-of-the-tumbleweeds.jpg' style='position:absolute; top:-130px; right:-0px; width:820px;transform:scaleX(1)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:136px; right:-0px; width:900px; filter:  grayscale(00%) brightness(97%); transform:rotate(8deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:395px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+Master and subordinate share a single purpose: to spread the seeds nestled within their brittle forms across the wasteland, ensuring the next generation may take root. The elemental guides and propels its charges, ushering the reanimated tumbleweeds across the land in search of ideal places to disperse their young. It also serves as their guardian, defending the caravan from any who would attempt to halt its pilgrimage.
+
+These plants do not seek to harm other living things. They bear no malice, no quarrel with the world around them. Yet their relentless mission makes them dangerous. Anything that impedes their path risks being swept aside without hesitation. Tumbleweed Wranglers have been known to cross farmland, pulverizing crops and sundering fences as they pass.
+
+Their dry forms are highly flammable, making them severe fire hazards, capable of spreading flames rapidly if ignited. Stopping such a caravan is no simple task. The guiding elemental can unleash powerful gales, flinging foes aside, and summon torrents of crackling energy to electrocute its enemies. At its command, the rolling masses of barbed husks may surge forward, driven by violent winds, their hardened spines slamming into adversaries and tearing into flesh.
+
+If truly desperate, the elemental may even ignite its own undead charges, sacrificing them in a blazing onslaught if it believes it necessary to preserve the greater swarm.
+
+### Tumbleweed Wrangler Tactics
+The wrangler’s primary strategy is to use Rushing Gust to push as many reanimated tumbleweeds into enemies as possible. Positioning is key, and the battlefield can be manipulated in a variety of ways. Keep the following in mind:
+
+**Rushing Gust (Core Strategy):**
+Aim to line up tumbleweeds and opponents so a single use of Rushing Gust causes multiple collisions. Think in terms of angles and chain reactions rather than single targets.
+ 
+**Air Lasso (Setup Tool):**
+Use Air Lasso to hurl a tumbleweed into an enemy, then position that tumbleweed so a later Rushing Gust will push it into another target.
+
+Alternatively, target a low-Strength opponent: pull them out of position and fling them into a tumbleweed. When you follow up with Rushing Gust, that enemy can be knocked into additional tumbleweeds for extra impact. 
+
+<br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+##### Tumbleweed Wranglers Art Credit
+* Dance of the Tumbleweeds - Dan Murayama Scott, Wizards of the Coast
+
+___
+___
+> ## Reanimated Tumbleweed
+> *Medium Undead, Mob, Chaotic Neutral*
+> ___
+> - **Armor Class** 10  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  **Initiative** −5 (5)
+> - **Hit Points** 31 (9d8 - 9)
+> - **Speed** 0 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−5</td>
+> <td style="background-color:#e0e5c1; text-align:center">−5</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−5</td>
+> <td style="background-color:#e0e5c1; text-align:center">−5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Piercing
+> - **Vulnerabilities** Fire
+> - **Immunities** Poison, Psychic; Exhaustion, Paralyzed, Petrified, Poisoned, Prone, Unconscious
+> - **Senses** Blindsight 30 ft., Passive Perception 10
+> - **Languages** Auran
+> - **Challenge** 1/8 (25 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Barbed.*** If the tumbleweed is pushed or pulled into a creature for the first time each turn, or a creature starts its turn Grappling the tumbleweed or shoves it, that creature must make a *Dexterity Saving Throw:* DC 14. <br>
+> *Failure:* The creature takes 7 (2d6) Piercing damage. If the tumbleweed is Burning*, the creature takes an extra 7 (2d6) Fire damage.
+>
+> ***Combustible.*** Whenever the tumbleweed takes Lightning or Fire damage, it starts Burning*.
+>
+> ***Rolling On.*** The tumbleweed can't benefit from any bonus to its speed, nor can it take falling damage. It has disadvantage on checks or saving throws that would push or pull it. If it is pushed or pulled, the distance it is moved is doubled.
+>
+> ### Actions
+>
+> ***Rake.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 Piercing damage.
+>
+> **New condition described above*
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
