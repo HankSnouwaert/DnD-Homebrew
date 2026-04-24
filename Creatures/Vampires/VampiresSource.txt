@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-   .phb#p3:after, .phb#p4:after, .phb#p5:after, .phb#p6:after, .phb#p8:after, .phb#p13:after, .phb#p16:after, .phb#p24:after  {
+   .phb#p3:after, .phb#p4:after, .phb#p5:after, .phb#p6:after, .phb#p8:after, .phb#p13:after, .phb#p16:after, .phb#p26:after  {
         display          : none;
     }
     /* End Footers */
@@ -33,7 +33,7 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-# Vampires 1.4
+# Vampires 1.5
 
 Among the undead that defy the natural order, raised from the grave to plague the living, few outstrip vampires in the power they wield or the danger they pose to the mortal world.
 
@@ -199,7 +199,7 @@ ___
 
 ### Vampire Spawn
 
-These monsters are a step up from the lowly vampire "wretches," though they are still considered neophytes amongst their kind. They are typically created from more noteworthy individuals who were inducted into vampirism and managed to fully capture the dark gift that was bestowed upon them. Though they have become "true" vampires and become deadly creatures of the night, they are still reckless and inexperienced. Because they have yet to master their bloodthirst, vampire spawn will feed regularly and quickly draw attention to themselves if left to their own devices. 
+These monsters are a step up from the lowly vampire "wretches," though they are still considered neophytes amongst their kind. They are typically created from more noteworthy individuals who were inducted into vampirism and managed to fully capture the dark gift that was bestowed upon them. Though they have become "true" vampires and deadly creatures of the night, they are still reckless and inexperienced. Because they have yet to master their bloodthirst, vampire spawn will feed regularly and quickly draw attention to themselves if left to their own devices. 
 
 \columnbreak
 
@@ -618,9 +618,9 @@ ___
 >
 > ***Multiattack.*** The vampire makes four attacks, only one of which can be a Bite attack.
 >
-> ***Rend.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 24 (3d12 + 5) Slashing damage. If the target is a Medium or smaller creature, it is Grappled (escape DC 20). The vampire can have only one creature Grappled this way at a time.
+> ***Rend.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 25 (3d12 + 6) Slashing damage. If the target is a Medium or smaller creature, it is Grappled (escape DC 20). The vampire can have only one creature Grappled this way at a time.
 >
-> ***Bite.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature that is grappled by the vampire, Incapacitated, or that is willing. *Hit:* 21 (3d10 + 5) Piercing damage plus 26 (4d12) Necrotic damage. The target’s hit point maximum is reduced by an amount equal to the Necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
+> ***Bite.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature that is grappled by the vampire, Incapacitated, or that is willing. *Hit:* 22 (3d10 + 6) Piercing damage plus 26 (4d12) Necrotic damage. The target’s hit point maximum is reduced by an amount equal to the Necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
 >
 > ### Bonus Actions
 >
@@ -843,13 +843,13 @@ More powerful vampires gain access to additional spells and higher-level spell s
 &emsp;***4th level:*** 2 Slots <br>
 &emsp;***5th level:*** 1 Slot <br>
 
-**Vampire Master Spell Slots** <br>
+**Vampire Lore Spell Slots** <br>
 &emsp;***2nd level:*** At Will <br>
 &emsp;***5th level:*** 5 Slots <br>
 &emsp;***6th level:*** 1 Slot <br>
 &emsp;***7th level:*** 1 Slot <br>
 
-**Vampire Lord Spell Slots** <br>
+**Master Vampire Spell Slots** <br>
 &emsp;***2nd level:*** At Will <br>
 &emsp;***6th level:*** 5 Slots <br>
 &emsp;***7th level:*** 2 Slots <br>
@@ -1996,14 +1996,14 @@ The vampire gains a +4 bonus to its Armor Class and is considered to be wearing 
 
 *Not even the eldest mortal swordmasters can rival the skill accumulated over the vampire’s tenebrous existence. Each precise maneuver shifts the battle to its favor, until its foe’s doom is written in exquisite strokes of the blade.*
 
-While the vampire is holding a melee weapon that deals Slashing damage, its Rend attack gains one of the following effects (the vampire’s choice): (NOTE: Is this an on hit effect?)
+While the vampire is holding a melee weapon that deals Slashing damage, its Rend attack gains one of the following effects on hit (the vampire’s choice):
 
 - **Defensive Slash.** The target has disadvantage on attack rolls until the start of the vampire’s next turn.
 - **Neutralizing Slash.** Until the start of the vampire’s next turn, the target’s Speed is reduced by 15 feet, it can’t benefit from the Disengage or Dodge actions, and opportunity attacks made against it have advantage.
 - **Mobile Slash.** The vampire pushes the target up to 10 feet away from itself. The vampire can then move up to 10 feet toward or away from the target.
 
 #### Compel Duel (Vampiric Power)
-*The vampire is bound by an unholy code of honor, a grim creed it can impose upon others. Through this dread oath, it compels even the most fearsome warriors to face it in single combat, for only such pristine blood can sate the undead champion’s appetite.*
+*The vampire is bound by an unholy code of honor, a grim creed it can impose upon others. Through this dread oath, it compels the most fearsome warriors to face it in single combat, for only such pristine blood can sate the undead champion’s appetite.*
 
 The vampire casts *Compelled Duel*, using its Vampiric Power save DC for the spell’s saving throw.
 
@@ -2015,7 +2015,7 @@ style='position:absolute;top:-45px;right:-0px;width:816px; transform: scaleX(1)'
   style='position:absolute;right:-180px;top:80px;height:1400px;width:1416px;transform:rotate(195deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-180px;top:100px;height:1400px;width:1416px;transform:rotate(180deg)' />
+  style='position:absolute;right:-180px;top:95px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
 \pagebreakNum
 
@@ -3408,6 +3408,8 @@ A Quickened creature gains an additional action on each of its turns. That actio
 * Vampire of the Dire Moon - Anna Podedworna, Wizards of the Coast
 * Indulging Patrician - Miranda Meeks, Wizards of the Coast
 * Uncanny Speed - Raymond Swanland, Wizards of the Coast
+* Vampire Warlord- Wesley Burt, Wizards of the Coast
+* Bloodcrazed Paladin - Daarken, Wizards of the Coast
 * Mark of the Vampire - Winona Nelson, Wizards of the Coast
 * Winged Portent - Nicholas Gregory, Wizards of the Coast
 * Death Wind - Tomasz Jedruszek, Wizards of the Coast
@@ -3599,3 +3601,6 @@ A Quickened creature gains an additional action on each of its turns. That actio
 
 #### 1.5.0
 * Add Vampiric Warrior Traits
+
+#### 1.5.1
+* Fix typo in Lore Master trait where Vampire Lord & Master Vampire were mixed up
