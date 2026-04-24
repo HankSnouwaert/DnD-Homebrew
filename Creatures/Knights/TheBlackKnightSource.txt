@@ -1,0 +1,587 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## The Black Knight
+*An Undying Warrior Who Fights On Even As His Body Is Destroyed*<br>
+**Habitat:** Any; **Treasure:** Armaments  <br>
+Through folktales and many legends, there are stories of a similar nature, of valiant kings and heroes who, in their journeys, have their paths blocked by grim figures clad in ebon armor and clutching great blades. Such foreboding sentinels allow no passage through their domain and offer only death to those who ignore their command.
+
+These foes are no mere men armed with steel, for it has been recounted time and again that even when a sword strikes true against such villains, hewing limbs and carving deep wounds, such injuries do not halt the fanatical guardians. Through dark magic, their skin, flesh, and bone may be chopped away, and yet the dread champion continues to persist through some unholy determination.
+
+Some hold that even when the body is hacked into red mist, the hateful soul of such men fights on.
+
+\columnbreak
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+### Black Knight Tactics
+The Black Knight’s primary goal is to apply Death’s Curse as much as possible. Whatever a target reaches the maximum stacks of Death’s Curse, it becomes the Black Knight’s focus.
+
+**Living State.** The Black Knight targets the creature with the lowest Charisma or a creature with 10 or fewer hit points with its Mark of Death.
+
+**Corpse and Husk.** Using Death’s Respite, the knight pulls in ranged attackers, then has the husk attack and prevents them from escaping.
+
+**Skeleton and Fragments.** The knight lays Desecration on areas with immobile targets, such as a creature restrained by its husk or struck by its flesh. Any fragments created attack the same target as the knight. Otherwise, it places its Desecration in the largest group of foes.
+
+**Black Knight’s Soul.** The Black Knight’s Soul teleports into the largest group of enemies and uses Death’s Bite
+
+
+
+___
+___
+> ## The Black Knight
+> *Medium Humanoid (Any Race), Boss, Lawful Evil*
+> ___
+> - **Armor Class** 17    **Initiative** +6 (16)
+> - **Hit Points** 51 (6d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +7, Insight +7, Intimidation +5, Perception +7, Religion +5
+> - **Gear** Splint Armor
+> - **Senses** Passive Perception 17
+> - **Languages** Common, two other languages
+> - **Challenge** 10 (1,800 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Brave.*** The black knight has advantage on saving throws against being Frightened.
+>
+> ***Defy Death.*** When the black knight is reduced to 0 hit points, its skin peels off its body, and both rise as a **Black Knight’s Corpse** and a **Black Knight’s Husk** in unoccupied spaces within 5 feet of where it fell. Those creatures act on the same initiative count, immediately after the black knight.
+>
+> ### Actions
+>
+> ***Greatsword.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target.  
+> *Hit:* 18 (4d6 + 4) Slashing damage.
+>
+> ### Monstrous Actions
+>
+> The black knight gains two additional actions in combat: Mark of Death and Strike. It can use these actions on initiative count 20 and 1 (losing ties), separate from its own turn, if it is not Incapacitated. It can replace either action with Tenacious Will, and it can use Tenacious Will even while Incapacitated.
+>
+> ***Mark of Death (Initiative Count 20).*** The black knight moves up to 15 feet and unleashes a curse at one creature it can see within 30 feet. The target must make a *Charisma Saving Throw:* DC 16 (made with disadvantage if the target has 10 or fewer hit points).  
+> *Failure:* The target gains one stack of Death’s Curse. Whenever the target takes damage from the black knight or one of its minions, it takes an additional 3 (1d6) Necrotic damage for each stack it has. All stacks fade after 1 minute if no new stack is gained, if holy water is splashed on the creature, or if *Remove Curse* is cast on it.  
+> *Failure by 5+:* The target gains two stacks of Death’s Curse.
+>
+> ***Strike (Initiative Count 1).*** The black knight moves up to 15 feet and makes one Greatsword attack.
+>
+> ***Tenacious Will.*** If the black knight is subject to an ongoing effect that allows a saving throw as an action or at the start or end of its turn, it can immediately make that saving throw with advantage, ending the effect on a success.
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Black Knight’s Corpse
+> *Medium Undead (Black Knight Minion), Lawful Evil*
+> ___
+> - **Armor Class** 17    **Initiative** +6 (16)
+> - **Hit Points** 51 (6d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +7, Insight +7, Intimidation +7, Perception +7, Religion +5
+> - **Resistances** Necrotic
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Gear** Shortbow, Shortsword, Splint Armor
+> - **Senses** Darkvision 60 ft., Passive Perception 17
+> - **Languages** Common, two other languages
+> - **Challenge** 10 (1,800 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Brave.*** The black knight’s corpse has advantage on saving throws against being Frightened.
+>
+> ***Unholy Fortitude.*** If damage reduces the black knight’s corpse to 0 hit points, it must make a Constitution saving throw (it automatically fails if the damage was from a critical hit). The DC equals the damage taken.  
+> *Success:* The corpse drops to 1 hit point instead.  
+> *Failure:* The black knight’s flesh falls off its body, and both rise as a **Black Knight’s Skeleton** and a **Black Knight’s Flesh** in unoccupied spaces within 5 feet of where the corpse fell. 
+>
+> Those creatures act on the same initiative count, immediately after the black knight’s corpse.
+>
+> ### Actions
+>
+> ***Death Strike.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target.  
+> *Hit:* 18 (4d6 + 4) Slashing damage plus 4 (1d8) Necrotic damage.
+>
+> ### Monstrous Actions
+>
+> The black knight’s corpse gains two additional actions in combat: Death’s Respite and Strike. It can use these actions on initiative count 20 and 1 (losing ties), separate from its own turn, if it is not Incapacitated. It can replace either action with Tenacious Will, and it can use Tenacious Will even while Incapacitated.
+>
+> ***Death’s Respite (Initiative Count 20).*** The black knight’s corpse moves up to 15 feet and summons a ghostly hand at one creature it can see within 30 feet. The target must make a *Strength Saving Throw:* DC 16 (made with disadvantage if the target has 10 or fewer hit points).  
+> *Failure:* The target is pulled up to 30 feet closer to the black knight’s corpse and gains one stack of Death’s Curse.  
+> *Failure by 5+:* The target is also Dazed* until the end of its next turn and gains an additional stack of Death’s Curse.
+>
+> ***Strike (Initiative Count 1).*** The black knight’s corpse moves up to 15 feet and makes one Death Strike attack.
+>
+> ***Tenacious Will.*** If the black knight’s corpse is subject to an ongoing effect that allows a saving throw as an action or at the start or end of its turn, it can immediately make that saving throw with advantage, ending the effect on a success.
+>
+> **New condition described at beginning of document*
+
+</span>
+
+
+
+___
+___
+> ## Black Knight’s Husk
+> *Medium Undead (Black Knight Minion), Lawful Evil*
+> ___
+> - **Armor Class** 8    **Initiative** +2 (2)
+> - **Hit Points** 51 (6d8 + 24)
+> - **Speed** 20 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vulnerabilities** Slashing
+> - **Resistances** Bludgeoning, Necrotic
+> - **Immunities** Poison; Blinded, Charmed, Deafened, Exhaustion, Frightened, Poisoned, Prone
+> - **Senses** Blindsight 60 ft., Passive Perception 17
+> - **Languages** Common, two other languages
+> - **Challenge** 2 (450 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Amorphous.*** The black knight’s husk can move through a space as narrow as 1 inch wide without squeezing.
+>
+> ***Damage Transfer.*** When the black knight’s husk takes damage, half of that damage (rounded down) is transferred to creatures Grappled by it, divided evenly among them.
+>
+> ### Actions
+>
+> ***Smother.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target.  
+> *Hit:* The target is Grappled (escape DC 16). Until this Grapple ends, the target is Restrained and Blinded and is at risk of suffocating. In addition, at the start of each of the target’s turns, the target takes 11 (2d10) Bludgeoning damage.
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Black Knight’s Skeleton
+> *Medium Undead (Black Knight Minion), Lawful Evil*
+> ___
+> - **Armor Class** 17    **Initiative** +6 (16)
+> - **Hit Points** 51 (6d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vulnerabilities** Bludgeoning
+> - **Resistances** Necrotic
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Skills** Athletics +7, Insight +7, Intimidation +5, Perception +7, Religion +4
+> - **Gear** Splint Armor
+> - **Senses** Passive Perception 17
+> - **Languages** Common, two other languages
+> - **Challenge** 10 (1,800 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Brave.*** The black knight’s skeleton has advantage on saving throws against being Frightened.
+>
+> ***Fragment.*** Whenever the black knight’s skeleton takes Bludgeoning damage, fragments of bone break loose and fall into its space, forming a **Black Knight’s Bone Shard**. The bone shard acts immediately after the black knight’s skeleton’s turn.
+>
+> ***Defy Death.*** When the black knight’s skeleton is reduced to 0 hit points, its soul rises as a **Black Knight’s Soul** in an unoccupied space within 5 feet of where it fell. The creature acts on the same initiative count, immediately after the black knight’s skeleton.
+>
+> ### Actions
+>
+> ***Obliterating Strike.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target.  
+> *Hit:* 18 (4d6 + 4) Slashing damage plus 9 (2d8) Necrotic damage.
+>
+> ### Monstrous Actions
+>
+> The black knight’s skeleton gains two additional actions in combat: Desecration and Strike. It can use these actions on initiative count 20 and 1 (losing ties), separate from its own turn, if it is not Incapacitated. It can replace either action with Tenacious Will, and it can use Tenacious Will even while Incapacitated.
+>
+> ***Desecration (Initiative Count 20).*** The black knight’s skeleton moves up to 15 feet and twists the ground in a 15-foot radius centered on a point within 30 feet. The area becomes defiled for 1 minute. Non-Undead creatures treat the area as Difficult Terrain. A Non-Undead creature that ends its turn in the area must make a *Constitution Saving Throw:* DC 16 (made with disadvantage if the target has 10 or fewer hit points).  
+> *Failure:* The creature takes 3 (1d6) Necrotic damage and gains one stack of Death’s Curse.  
+> *Failure by 5+:* The creature instead takes 7 (2d6) Necrotic damage and gains two stacks of Death’s Curse.
+>
+> ***Strike (Initiative Count 1).*** The black knight’s skeleton moves up to 15 feet and makes one Obliterating Strike attack.
+>
+> ***Tenacious Will.*** If the black knight’s skeleton is subject to an ongoing effect that allows a saving throw as an action or at the start or end of its turn, it can immediately make that saving throw with advantage, ending the effect on a success.
+
+</span>
+
+___
+___
+> ## Black Knight’s Flesh
+> *Medium Undead (Black Knight Minion), Lawful Evil*
+> ___
+> - **Armor Class** 8    **Initiative** +2 (12)
+> - **Hit Points** 51 (6d8 + 24)
+> - **Speed** 20 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vulnerabilities** Acid, Fire
+> - **Resistances** Cold, Bludgeoning, Necrotic
+> - **Immunities** Poison; Blinded, Charmed, Deafened, Exhaustion, Frightened, Poisoned, Prone
+> - **Senses** Blindsight 60 ft., Passive Perception 17
+> - **Languages** Common, two other languages
+> - **Challenge** 2 (450 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Amorphous.*** The black knight’s flesh can move through a space as narrow as 1 inch wide without squeezing.
+>
+> ### Actions
+>
+> ***Chilling Embrace.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target.  
+> *Hit:* 11 (2d10) Cold damage. If the target is a creature, its Speed decreases by 15 feet until the end of its next turn.
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Black Knight’s Bone Shard
+> *Medium Undead (Black Knight Minion), Lawful Evil*
+> ___
+> - **Armor Class** 14    **Initiative** +2 (12)
+> - **Hit Points** 22 (3d8 + 9)
+> - **Speed** 10 ft., Fly 30 ft. (Hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Vulnerabilities** Bludgeoning, Thunder
+> - **Resistances** Necrotic
+> - **Immunities** Poison; Blinded, Charmed, Deafened, Exhaustion, Frightened, Poisoned, Prone
+> - **Senses** Blindsight 60 ft., Passive Perception 17
+> - **Languages** Common, two other languages
+> - **Challenge** 1/8 (25 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Actions
+>
+> ***Skewer.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target.  
+> *Hit:* 10 (3d6) Piercing damage. The black knight’s bone shard is destroyed.
+
+</span>
+
+___
+___
+> ## Black Knight’s Soul
+> *Medium Undead (Black Knight Minion), Lawful Evil*
+> ___
+> - **Armor Class** 17    **Initiative** +6 (16)
+> - **Hit Points** 51 (6d8 + 24)
+> - **Speed** 0 ft., Fly 50 ft. (Hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-5</td>
+> <td style="background-color:#e0e5c1; text-align:center">-5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Insight +7, Intimidation +5, Perception +7, Religion +4
+> - **Resistances** Acid, Cold, Fire, Lightning, Thunder; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks
+> - **Immunities** Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious
+> - **Senses** Darkvision 120 ft., Passive Perception 17
+> - **Languages** Common, two other languages
+> - **Challenge** 10 (1,800 XP)  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Brave.*** The black knight’s soul has advantage on saving throws against being Frightened.
+>
+> ***Incorporeal Movement.*** The black knight’s soul can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.
+>
+> ### Actions
+>
+> ***Extinguish.*** *Melee Spell Attack:* +8 to hit, reach 5 ft., one target.  
+> *Hit:* 27 (5d10) Necrotic damage.
+>
+> ### Monstrous Actions
+>
+> The black knight’s soul gains two additional actions in combat: Death’s Bite and Strike. It can use these actions on initiative count 20 and 1 (losing ties), separate from its own turn, if it is not Incapacitated. It can replace either action with Tenacious Will, and it can use Tenacious Will even while Incapacitated.
+>
+> ***Death’s Bite (Initiative Count 20).*** The black knight’s soul teleports to an unoccupied space it can see within 30 feet. Each Non-Undead creature within 30 feet of it must make a Charisma saving throw (DC 16). (Made with disadvantage if the target has 10 or fewer hit points.)  
+> *Failure:* The creature takes 10 (3d6) Necrotic damage and gains one stack of Death’s Curse.  
+> *Failure by 5+:* The creature instead takes 17 (5d6) Necrotic damage and gains two stacks of Death’s Curse.
+>
+> ***Strike (Initiative Count 1).*** The black knight’s soul moves up to 15 feet and makes an Extinguish attack.
+>
+> ***Tenacious Will.*** If the black knight’s soul is subject to an ongoing effect that allows a saving throw as an action or at the start or end of its turn, it can immediately make that save with advantage, ending the effect on a success.
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
