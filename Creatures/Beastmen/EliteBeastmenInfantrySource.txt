@@ -1,0 +1,568 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p5:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Besthorn Impalers
+
+Those who stand against the loathsome beastmen have found that these primitive creatures are effectively countered by artillery, long-ranged weaponry, and warriors atop winged mounts. Such tactics can decimate a herd of ferocious marauders, unless they have among their midst Besthorn Impalers.
+
+Armed with sets of thick, cured javelins, these looming, horned figures can be seen in the back lines of wild raider armies. Each of their falcon-like eyes move independently, scanning the battlefield until their exemplary sight locks onto a distant archer or a winged steed soaring above. With a motion of their corded arms, they send javelins barreling forward with the force of a charging warhorse. When such piercing bolts collide with their intended target, the effects are devastating, capable of sending a pegasus or griffin spiraling out of control and crashing into the earth like a falling star.
+
+Worse still is when they catch a glimpse of a fallen soldier, for within a heartbeat a javelin is sent plunging into the prone warrior, pinning them into the cold soil beneath. Held in place, the victim is left helpless as the Besthorn Impaler, or others of its kind, close in to claim their prey.
+
+#### Besthorn Impaler Tactics
+Beastmen Impalers prioritize flying targets. If no flying enemies are present, they focus on backline targets or enemies that are prone.
+
+
+
+\columnbreak
+
+___
+> ## Besthorn Impaler
+> *Medium Humanoid Beast (Beastman), Mob, Chaotic Evil*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, Intimidation +1, Perception +7, Stealth +7, Survival +7
+> - **Gear** Greataxe
+> - **Senses** Darkvision 120 ft., Passive Perception 17
+> - **Languages** Abyssal
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the besthorn extra movement.
+>
+> ***Primal Fury (Recharges after a Short or Long Rest).*** When the besthorn starts combat, it becomes Emboldened*.
+>
+> ### Actions
+>
+> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 4) Piercing damage. If the besthorn moved 20 feet or more straight toward the target, it must make a *Strength Saving Throw:* DC 14. <br>
+> *Failure:* The target is knocked Prone.
+>
+> ***Javelin.*** *Melee or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 14 (3d6 + 4) Piercing damage. If the target is flying 10 feet or more above the ground, the besthorn has advantage on the attack and the target takes 25 (6d6 + 4) Piercing damage instead and must make a *Strength Saving Throw:* DC 14. <br>
+> *Failure:* The target is knocked Prone and is Dazed until the end of its next turn. <br>
+> If the target is a Prone creature, the besthorn does not suffer disadvantage on this attack and instead has advantage. If the target is Large or smaller, it takes 25 (6d6 + 4) Piercing damage on a hit and is pinned to a surface within 5 feet and is Restrained. The pinned target, or a creature within 5 feet of it, can use an action to make a DC 14 Strength check, ending the effect on a success.
+> 
+> **New condition described at end of document*
+
+</span>
+
+<img src='https://i.postimg.cc/QN286C0P/warfire-javelineer.png' style='position:absolute; top:-3px; left:-60px; width:664px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-810px;top:0px;height:1400px;width:1416px;transform:rotate(-270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-100px;top:105px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:470px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+<br>
+
+## Besthorn Moon Howlers
+For the twisted mind of a beastman, even the most heinous and disturbing sights are rarely enough to scar its feral psyche or leave lasting trauma. Yet, on rare occasions, a beastman bears witness to something so incomprehensible that it shatters its cruel spirit, sending it into a delirium—babbling, losing all comprehension of the world around it, and gazing only upward at the gleaming moon to which it howls. Such lunatics are known as Moon Howlers.
+
+What causes such a mental break in the autochthonous psyche of these creatures remains a mystery. Most scholars deem it safer to leave such questions unanswered for the sake of their own sanity. However their lunacy is triggered, wherever they go they spread madness among both men and beasts like fire through dry leaves.
+
+Those afflicted are beset by sights and sounds mortal minds cannot comprehend. They hoot and laugh in fear and delight; limbs shake and twitch, and legs give way beneath them. Those who fail to resist these intrusive thoughts feel the same rage that burns within the beastmen consume them.
+
+Moon Howlers are even deadly in combat, wielding crude weapons fashioned during their delirium—strange scythes cobbled together from rough-hewn branches and flint, imbued with incomprehensible incantations. Those struck by such weapons find insanity taking root within them, growing until it sears the mind.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Besthorn Moon Howler Tactics
+The Moon Howler uses Rush of Insanity on targets with the lowest Wisdom scores.
+
+It may also use Rush of Insanity on allied beastmen that have more than half their hit points remaining and a CR of 1 or higher, granting them Primal Fury.
+
+The Moon Howler prioritizes attacking enemies that are already Emboldened.
+
+
+___
+___
+> ## Besthorn Moon Howler
+> *Medium Humanoid Beast (Beastman), Party, Chaotic Evil*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 82 (11d8 + 33)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, Intimidation +8, Perception +3, Stealth +6, Survival +3
+> - **Senses** Darkvision 60 ft., Passive Perception 13
+> - **Languages** Abyssal
+> - **Challenge** 3 (700 XP)    &emsp;&emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Bestial Ambush.*** The besthorn gets +3 to initiative (15) and its speed increases by 20 feet on its first turn in combat if it was not Surprised.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the besthorn extra movement.
+>
+> ***Primal Fury (Recharges after a Short or Long Rest).*** When the besthorn starts combat, it becomes Emboldened*.
+>
+> ### Actions
+>
+> ***Mind Reaping Scythe.*** *Melee Weapon Attack:* +6 to hit (advantage if the target is Emboldened), reach 10 ft., one target. *Hit:* 15 (2d10 + 4) Slashing damage. If the target is Emboldened, it takes an extra 9 (2d8) Psychic damage.
+>
+> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 8 (1d8 + 4) Piercing damage. If the besthorn moved 20 feet or more straight toward the target, it must make a *Strength Saving Throw:* DC 14. <br>
+> *Failure:* The target is knocked Prone.
+>
+> ### Bonus Actions
+>
+> ***Rush of Insanity.*** *Wisdom Saving Throw:* DC 14 (which it can choose to fail, and it fails automatically if it is Emboldened), one target within 60 feet that the Moon Howler can see. <br>
+> *Failure:* The creature can't take reactions until the start of its next turn and rolls a d6 on the Madness Effects Table (found at end of document) to determine its action during that turn. <br>
+> *Failure by 5 or More:* The creature rolls 2d6 instead. <br>
+> *Failure by 10 or More, Chosen Failure, or Automatic Failure:* The creature rolls 3d6 instead, becomes Emboldened, and any Charmed or Frightened conditions affecting it end.
+> 
+> **New condition described at end of document*
+
+</span>
+
+<img src='https://i.postimg.cc/5NWJBGty/Mike-Bierek-Warchanter-of-Mogis.jpg' style='position:absolute; top:-3px; right:-120px; width:600px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:45px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-120px;top:15px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+## Longhorn Prowlers
+Longhorn Prowlers are among the most dangerous of beastmen, putting even their kin’s natural talent for ambush to shame. They move through darkness and foliage without so much as a leaf disturbed. Few are ever able to detect their presence before they unleash a flurry of hatchet blows.
+
+These beastmen are utilized by Warhorns and Beast Lords as assassins, slipping behind enemy lines to lie in wait for the moment a general, wizard, or other important figure is most vulnerable. When such an opportunity presents itself, the Prowler erupts into sudden violence, axes held tight as it weaves between would-be guardians who attempt to impede its mission.
+
+Within seconds of reaching its target, a blur of metal leaves the victim reduced to a heap of red ruin at its hooves before they are ever able to comprehend what has happened.
+
+### Longhorn Prowler Tactics
+Longhorn Prowlers are extremely fragile and prioritize stealth.
+
+* If caught in the open by surprise, they immediately attempt to hide.
+* They target isolated and fragile enemies, typically spellcasters such as wizards or bards.
+* They remain hidden until striking, then use Action Surge to unleash a full set of attacks (up to four) with their axe against a single target.
+* After attacking, they may use Bestial Cunning to retreat back into hiding.
+
+\columnbreak
+
+<br>
+
+
+
+___
+___
+> ## Longhorn Prowler
+> *Medium Humanoid Beast (Beastman), Party, Chaotic Evil*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +5 (15)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Intimidation +1, Perception +5, Stealth +7, Survival +5
+> - **Gear** Hand Axe
+> - **Senses** Darkvision 60 ft., Passive Perception 15
+> - **Languages** Abyssal
+> - **Challenge** 4 (1,100 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Bestial Ambush.*** The longhorn gets +3 to initiative (18) and its speed increases by 20 feet on its first turn in combat if it was not Surprised.
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the longhorn extra movement.
+>
+> ***Primal Fury (Recharges after a Short or Long Rest).*** When the longhorn starts combat, it becomes Emboldened*.
+>
+> ***Action Surge (Recharges after a Short or Long Rest).*** The longhorn can take an extra action on its turn.
+>
+> ### Actions
+>
+> ***Multiattack.*** The longhorn makes two melee attacks.
+>
+> ***Hand Axe.*** *Melee or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d6 + 4) Slashing damage. If the target has no allies within 5 feet of it that are not Incapacitated, it takes 10 (2d6 + 4) Slashing damage instead.
+>
+> ***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 7 (1d8 + 3) Piercing damage. If the longhorn moved 20 feet or more straight toward the target, it must make a *Strength Saving Throw:* DC 13. <br>
+> *Failure:* The target is knocked Prone.
+>
+> ### Bonus Actions
+>
+> ***Bestial Cunning.*** While the longhorn is Emboldened, it can take the Disengage or Hide action as a Bonus Action.
+> 
+> **New condition described at end of document*
+
+</span>
+
+<img src='https://i.postimg.cc/fbppwttw/minotaur-warrior.png' style='position:absolute; top:-3px; right:-60px; width:680px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:45px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-140px;top:306px;height:1400px;width:1416px;transform:rotate(167deg)' />
+
+\pagebreakNum
+
+## Besthorn Harbingers
+When the dark gods set their schemes into motion and the children of chaos crawl forth from the deepest thickets, drawn by the will of malevolent deities, there come also the most deadly of all beastmen breeds: the Harbingers.
+
+These grim figures are clad in tarnished black plate and wield great blades marked with runes and wrapped in all manner of fetishes. Hulking champions, they belong to no single clan or herd, appearing only at the command of their gods. They join other beastmen armies only in times of great cataclysm and turmoil, and only the most favored Beast Lords can command their zealotry, if only for a short time.
+
+Few foes are more daunting to face. Their mastery of their ebon blades and their sheer ferocity allow them to best over half a dozen well-trained men at once. Their very presence permeates the land with primordial evil, as insects and vermin burst from the ground in grotesque homage to these servants of chaos, biting and burrowing into any who would defy them.
+
+Should one survive the brutal blow of a Harbinger’s accursed blade, their mind is soon robbed of all humanity, leaving behind only the snarling instincts of a beast.
+
+### Besthorn Harbinger Tactics
+Besthorn Harbingers move into the densest group of enemies to affect as many targets as possible with their aura.
+
+They then focus attacks on enemies with low Intelligence, using Devolving Smite. Spellcasters such as bards, warlocks, and clerics are preferred targets.
+
+___
+___
+> ## Besthorn Harbinger
+> *Medium Humanoid Beast (Beastman), Party, Chaotic Evil*
+> ___
+> - **Armor Class** 17 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +5 (15)
+> - **Hit Points** 133 (14d8 + 70)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +8, Intimidation +7, Perception +9, Stealth +8, Survival +9
+> - **Gear** Greataxe
+> - **Senses** Darkvision 60 ft., Passive Perception 15
+> - **Languages** Abyssal
+> - **Challenge** 7 (2,900 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Land's Stride.*** Moving through nonmagical difficult terrain does not cost the besthorn extra movement.
+>
+> ***Primal Fury (Recharges after a Short or Long Rest).*** When the besthorn starts combat, it becomes Emboldened*.
+>
+> ***Vile Aura.*** The besthorn emits an aura in a 10-foot emanation from itself. A creature the besthorn is hostile towards that starts its turn in the area of one or more Vile Auras must make a single *Constitution Saving Throw:* DC 15 + 2 for each other Vile Aura it is within. <br>
+> 
+> 
+> *Failure:* Insects burrow into the target's flesh, infesting it. While infested, the target takes 10 (4d4) Piercing damage at the end of each of its turns. Any creature within reach can use an action to make a DC 14 Wisdom (Medicine) check to remove the insects using a weapon or object that deals Fire, Piercing, or Slashing damage, causing 2d4 damage of the same type to the target. On a success, the effect ends. A creature can choose to make the check more aggressively, gaining advantage, but if it does, the target instead takes 3d4 damage.
+>
+>
+>
+> ### Actions
+>
+> ***Multiattack.*** The besthorn makes two melee attacks.
+>
+> ***Gore.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) Piercing damage. If the besthorn moved 20 feet or more straight toward the target, it must make a *Strength Saving Throw:* DC 16. <br>
+> *Failure:* The target is knocked Prone.
+>
+> ***Greataxe.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) Slashing damage.
+> 
+> ### Bonus Actions
+> ***Devolving Smite (Magic Action, 2/Day).*** Immediately after the besthorn hits a creature with a Greataxe attack, it can choose to force that creature to make an *Intelligence Saving Throw:* DC 15. <br>
+> *Failure:* The creature is overwhelmed by the primal aspects of its psyche. Constructs and Undead are immune to this effect. While affected, the creature has disadvantage on Intelligence and Charisma checks, cannot cast or concentrate on spells, cannot activate magic items, cannot speak or understand any language, and is treated as a Beast with an Intelligence score of 4 when targeted by spells and abilities that normally only target Beasts, such as *Dominate Beast* or *Beast Bond* (this doesn't change its actual Intelligence score). At the end of each of its turns, the target can make another Intelligence saving throw, ending the effect on a success.
+>
+> **New condition described at end of document*
+
+</span>
+
+\pagebreakNum
+
+### Madness Effects Table  
+
+| Number Rolled | Name        | Effect |
+|:---:|:-----------|:-----------|
+|  1  | Stable     | The creature acts as normal. |
+|  2  | Agitated    | The creature must take the Attack action or cast a spell that deals damage. |
+|  3  | Fixated    | The creature must spend 2 feet of movement for every 1 foot it moves when moving away from any creatures hostile to it that it is aware of. |
+|  4  | Trepidation | The creature must spend 2 feet of movement for every 1 foot it moves when moving closer to any creatures hostile to it that it is aware of. |
+|  5  | Paranoid   | The creature considers no other creature an ally, refusing help and being unable to benefit from the spells and effects of allies. |
+|  6  | Lonely    | The creature has disadvantage on attack rolls and checks unless it is within 5 feet of an ally that isn't incapacitated. |
+|  7  | Dizzy      | The creature uses half it's movement to travel in a random direction, determined by rolling a d8. It can then take the rest of its turn as normal. |
+|  8  | Babble     | The creature yells at the top of its lungs. It can't cast spells with verbal components, speak, eat, or drink until the start of its next turn. |
+
+
+##### Elite Beastman Infantry Art Credit
+* Warfire Javelineer - Yohann Schepacz, Wizards of the Coast
+* Warchanter of Mogis - Mike Bierek, Wizards of the Coast
+* Minotaur Warrior - Scott M. Fischer, Wizards of the Coast
+
+<br>
+
+> ##### New Condition: Emboldened 
+> This document references the Emboldened condition. 
+> * The Emboldened condition always lasts one minute.
+> * A Emboldened creature deals additional 7 (2d6) damage when it hits with a attack.
+>  * At the end of the creatures turn, the Emboldened ends early if it missed with all of its attacks that turn, it is charmed or frightened, or is effected by Calm Emotions spell.
+
+
+
+\columnbreak
+
+<br>
+
+| Number Rolled | Name        | Effect |
+|:---:|:-----------|:-----------|
+| 9  | Blurred Vision     | The creatrue unable to see anything farther than 10 feet away until the start of it's next turn. |
+|  10  | Dull-Witted | The creature can make only one attack during the turn and can only cast cantrips. |
+| 11  | Huddle     | The creature falls prone and can't stand up for the rest of its turn. |
+| 12  | Addled     | Until the end of the turn, the creature is dazed (condition described below) and can't concentrate. |
+| 13  | Frantic    | The creature must take the Dash, Dodge, or Disengage action this turn. |
+| 14  | Shivers    | The creature drops whatever it is holding. It can't pick up items, wield weapons, or cast spells with somatic components. |
+| 15  | Denial     | The creature can't see or hear any creatures hostile to it until the start of its next turn. |
+| 16  | Violent   | The creature moves toward the nearest creature it is aware of and then uses its action to make a single attack if the target is within range. |
+| 17  | Penance    | The creature uses it's action to make an attack with whatever it is holding against itself, automatically hitting. |
+| 18 +  | Catatonia | The creature is stunned until the start of its next turn. |
+
+<br>
+
+> ##### New Condition:  Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<img src='https://i.postimg.cc/VLTDgwRs/paranoid-parish-blade.png' style='position:absolute; bottom:-70px; right:-90px; width:562px; transform:scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:100px;top:-30px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:55px;top:-100px;height:1400px;width:1416px;transform:rotate(290deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-230px; right:-140px; width:1000px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
