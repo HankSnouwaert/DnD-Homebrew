@@ -1,0 +1,220 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Pistoleers
+*Gunslinging Sharpshooters Armed With a Brace of Pistols*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+Armed with a bandolier of pistols across their chest or waist, pistoleers must be exceptionally swift to make the most of such armaments. These warriors fire, discard, and draw another firearm in rapid succession, repeating the process without error. Because pistols lack the range of many other firearms, they are forced to fight closer to the heat of combat rather than safer distances that other marksmen enjoy. Only the boldest and most reckless embrace this strategy, and most are hot-headed fighters eager to rush into danger at any opportunity to display their deadly skill.
+
+### Noble Riders
+Many young nobles are too inexperienced or lack the pedigree required for acceptance into the knightly orders scattered throughout the kingdoms. When these highborn warriors cannot join such prestigious ranks, they use their family fortunes to purchase pistols, armor, and the finest stallions, then band together with like-minded rabble-rousers to form regiments known as Noble Riders. These fighters are well trained in both marksmanship and horsemanship. As fast cavalry, they race past enemy flanks, pouring fire into the foe as they pass and striking from every angle.
+
+### Quick Draws
+The most grizzled and battle-worn pistoleers are known as Quick Draws. These grim figures travel alone or in small groups, usually as mercenaries or guns-for-hire. They earn their title from the blistering speed with which they can empty their sidearms, as these veterans can unleash a volley of pistol fire as fast as a bolt of lightning. In the blink of an opponent’s eye, multiple rounds have already been fired with such accuracy that targets are disarmed, brought to their knees, or left dead. Many have become local folk heroes, with bards singing of wandering gunmen who ride into towns plagued by bandits or corrupt officials and deliver justice with iron and powder.
+
+
+\columnbreak
+
+___
+> ## Pistoleer
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **Initiative** +2 (12)
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +3, Perception +3
+> - **Gear** Studded leather, Pistols, Shortsword
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 1/2 (100 XP)    &emsp;&emsp;&ensp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +4 to hit, range 30/90 ft., one target. *Hit:* 9 (2d6 + 2) Piercing damage. The pistoleer has four pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) Slashing damage.
+
+</span>
+
+### Pistoleer Tactics
+As mid-range fighters, they move in, take a shot, then fall back, aiming to end their turn roughly 40 feet from the enemy.
+
+#### Noble Riders
+Most effective on fast mounts that are not built for melee (e.g., riding horses). They weave in and out of combat, strike vulnerable targets, then have their mounts dash to a safe distance.
+
+#### Quick Draws
+Specialize in eliminating other fragile long-range attackers.
+When using Precision Shot, they prioritize their target based on the following circumstances: 
+* Arm – Used against martial targets. Most effective when an ally is close enough to seize the dropped item and keep it away from the enemy permanently. Also useful for freeing allies from enemy grapplers.
+* Leg – When the target is trying to close the gap and enter melee reach.
+* Chest / Head – When neither of the above situations applies.
+
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:13px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+___
+___
+> ## Pistoleer Noble Rider
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 15 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +3 (13)
+> - **Hit Points** 52 (8d8 + 16)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +5, Perception +3
+> - **Gear** Studded leather, Pistols, Shortsword
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 2 (450 XP)  &emsp;&emsp;&emsp;&emsp;&ensp;    **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Evasive Mount.*** If the pistoleer is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage on a success and half damage on a failure. The pistoleer must be riding its mount, and neither the pistoleer nor the mount can be Incapacitated.
+>
+> ### Actions
+>
+> ***Multiattack.*** The pistoleer makes two attacks.
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +5 to hit, range 30/90 ft., one target. *Hit:* 10 (2d6 + 3) Piercing damage, or 17 (4d6 + 3) Piercing damage instead if the pistoleer has already attacked the target this turn and moved at least 20 feet away from where it made its last attack against it. The pistoleer has four pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) Slashing damage.
+
+</span>
+
+
+___
+___
+> ## Pistoleer Quick Draw
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  **Initiative** +8 (18)
+> - **Hit Points** 65 (10d8 + 20)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+6</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +6, Insight +4, Intimidation +4, Perception +4
+> - **Gear** Studded leather, Pistols, Shortsword
+> - **Senses** Passive Perception 14
+> - **Languages** Any two languages
+> - **Challenge** 4 (1,100 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Multiattack.*** The pistoleer makes two attacks. If it is the first round of combat, it can make three. One of its attacks can be a Precision Shot.
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +6 to hit, range 30/90 ft., one target. *Hit:* 14 (3d6 + 4) Piercing damage. The pistoleer has six pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ***Precision Shot.*** *Ranged Weapon Attack:* +6 to hit (advantage if the target is a creature that hasn't taken a turn yet), range 30/90 ft., one target. *Hit:* 14 (3d6 + 4) Piercing damage. If the target is a creature, it must make a *Dexterity or Constitution Saving Throw (target's choice)* (disadvantage if the target hasn't taken a turn yet): DC 14. <br>
+> *Failure:* The pistoleer chooses one of the following: <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Head or Chest.*** The target takes 14 (4d6) Piercing damage. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Leg.*** The target is knocked Prone. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Arm.*** The target drops one object or creature it is holding or Grappling of the pistoleer's choice. If the dropped object or creature is Small or larger, it lands at the target's feet; otherwise it flies and lands 10 feet behind the target. <br>
+> The pistoleer has six pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) Slashing damage.
+>
+> ### Reactions
+>
+> ***Uncanny Dodge.*** The pistoleer halves the damage it takes from an attack that hits it. The pistoleer must be able to see the attacker.
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release

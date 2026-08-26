@@ -1,0 +1,256 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Halberdiers
+*Grim Soldiers Wielding Heavy Polearms*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+
+Halberdiers are soldiers armed with <br> axe-like polearms. They are generally<br> used to guard other troops against cavalry<br> and heavily armored opponents.
+
+### Halberdier Mariners
+
+Many river boats run the breadth of the land, <br> transporting people and vital goods along their <br> treacherous waterways. Such vital lifelines are <br> prime targets for any who would wish to cripple <br> the towns and cities along their banks. These <br> rivers are also home to all manner of lurking <br> aquatic nightmares, whose appetites may cause <br> such creatures to see these vessels as nothing <br> more than floating banquets.
+
+To repel such raiders, many halberdier mariners <br> are hired to join their river-bound crews. A boisterous <br> lot, who, despite their uncouth bearing, are potent warriors when violence rears its head. Adept at fighting atop decks or even amid the rapids of rivers, they strike out against any pirate or beast that would attempt to board their barges.
+Such men-at-arms are said to possess robust courage, fueled by a steady stream of strong brew. These intoxicated ruffians will charge fierce and true against whatever rises from the depths.
+ 
+  
+#### Halberdier Mariner Tactics        
+Mariners will take a swig when they start combat. They will also take a swig whenever they lose the Emboldened condition, or if they are attacking a target against which they would already have advantage.
+
+### Halberdier Virtuosos
+Novices in the trade of battle look upon halberds as just axes with extended reach, failing to see the vast variety of death such versatile weapons may deliver to their opponents when guided by the hands of a true artisan of combat. The hooked blade may be sent swiftly around a passing cavalryman's armor-covered legs, and with a pull, pluck the rider from their saddle. The crowning steel spike atop the halberd is pointed forward and thrust with precision, sliding between steel plates to strike with little opposition and sink deep.
+
+Blunt knobs of metal on the back of the polearm come crashing down like hail into helmets and chest plates, causing such protective shells to reverberate and bash against their wearers with such force that they leave them gasping and disoriented.
+
+A true master’s use of the weapon has become so ingrained that each of these maneuvers is second nature. A slight rotation of the halberd is made, and the weapon is lunged back toward the target, with deadly protrusions hurtling forward, ready to bash, tear, or puncture.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Halberdier
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +1 (11)
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">13</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">11</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +3, Perception +2
+> - **Gear** Chain Shirt, Halberd
+> - **Senses** Passive Perception 12
+> - **Languages** Any two languages
+> - **Challenge** 1/4 (50 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Halberd.*** *Melee Weapon Attack:* +3 to hit, reach 10 ft., one target. *Hit:* 6 (1d10 + 1) Slashing damage.
+
+</span>
+
+#### Halberdier Virtuoso Tactics
+The Virtuoso uses the following strikes in these situations:
+
+**Hook:** Used most of the time to give allies advantage on attacks and prevent targets from escaping, unless the creature has high Strength.
+
+**Bash:** Used as a secondary option to keep targets from performing actions. It can also be used against spellcasters.
+
+**Bypass:** Used when the target is already Prone or Dazed, and has low Dexterity.
+
+<img src='https://i.postimg.cc/WtL5zFH9/wojek-halberdiers.jpg' style='position:absolute; top:-0px; right:-100px; width:660px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-55px;top:0px;height:1400px;width:1416px;transform:rotate(245deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:164px;top:-140px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-55px;top:110px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:13px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+> ##### New Condition: Emboldened  
+> * The Emboldened condition always lasts one minute.
+> * An Emboldened creature deals additional 7 (2d6) damage when it hits with a attack.
+> * At the end of the creature's turn, the Emboldened condition ends early if it missed with all of its attacks that turn, it is charmed or frightened, or is effected by *calm emotions* spell. 
+
+\columnbreak
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<br>
+
+##### Halberdiers Art Credit
+* Wojek Halberdiers - Nic Klein, Wizards of the Coast
+___
+___
+> ## Halberdier Mariner
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 45 (6d8 + 18)
+> - **Speed** 30 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Perception +3
+> - **Gear** Chain Shirt, Halberd
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Halberd.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) Slashing damage.
+>
+> ### Bonus Actions
+>
+> ***Swig (3/Day).*** The halberdier takes a swig of its drink. It takes 5 (2d4) Poison damage, gains advantage on all melee weapon attacks during the turn, and attack rolls against it have advantage until the start of its next turn. It also ends any effect causing it to be Charmed or Frightened, and becomes Emboldened*.
+> 
+> **New condition described above*
+
+
+</span>
+
+
+
+
+___
+___
+> ## Halberdier Virtuoso
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+6</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, Perception +4
+> - **Gear** Chain Shirt, Halberd 
+> - **Senses** Passive Perception 14
+> - **Languages** Any two languages
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Versatile Halberd.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. The halberdier chooses one of the following effects that it has not chosen yet this turn. <br>
+>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Hook.*** The target takes 15 (2d10 + 4) Slashing damage and must make a *Strength Saving Throw:* DC 14. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure:* The target is knocked Prone and pulled 5 feet closer to the Halberdier. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure by 5+:* The target can't stand up until the end of its next turn unless it uses all of its movement. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Bash.*** The target takes 15 (2d10 + 4) Bludgeoning damage and must make a *Constitution Saving Throw:* DC 14. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure:* The target is Dazed* until the start of the Halberdier's next turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure by 5+:* While Dazed, the creature can't cast spells other than cantrips and can't concentrate. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Bypass.*** The target takes 15 (2d10 + 4) Piercing damage and must make a *Dexterity Saving Throw:* DC 14. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure:* The target takes 11 (2d10) Piercing damage. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure by 5+:* The target takes 16 (3d10) Piercing damage instead.
+>
+> ### Bonus Actions
+>
+> ***Realign.*** If the halberdier misses with an attack on its turn, it may make a Versatile Halberd attack against that target.
+> 
+> **New condition described above*
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release

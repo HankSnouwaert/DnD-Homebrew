@@ -1,0 +1,291 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p5:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Outriders
+*Veteran Marksmen Armed With The Finest Blackpowder Weaponry*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+Outriders are imposing men of high military standing who have climbed their way from novitiate rank-and-file soldiers to commanders and drill sergeants. They are accomplished in both horsemanship and firearms, with a knack for refining young recruits into an efficient fighting force. As such, many noble families pay a hefty sum to these masters so that their vivacious sons may acquire exemplary military training and so that their youthful fire is tempered before it drives them to an early end.
+
+Outriders therefore acquire the finest armor and weapons with which to swathe themselves. They also favor well-coiffed hair and carefully groomed mustaches to distinguish themselves from lower-ranking officers; such finery only heightens the aura of command that a veteran outrider exudes.
+
+Many times outriders lead groups of pistoleers to keep them from acting foolishly, getting themselves killed, or jeopardizing the mission. At other times an entire company of these weathered virtuosos rides together to show the younger lads what a true cavalry unit can accomplish. Outriders spare no expense on the firearms they carry, spending a small fortune on each weapon. Many favor repeater guns capable of loosing a storm of metal within seconds; others carry small hand-mortars with which they lob grenades that, upon landing, leave charred and bloody holes in enemy formations.
+
+### Outrider Bordermen
+At the edges of the greatest empires lie lands that have never been refined by the will of civilization or cleansed of the unknown. All manner of danger skulks in the undergrowth and rocky crevasses. The gentility of aristocracy and the proper edicts of the bustling metropolises lose their significance in the breath of such untamed domains. In these realms, those who know how to move through strenuous terrain and who are acquainted with the dangers it conceals are held in the highest esteem.
+
+Outriders sent to these barbaric corners must quickly adapt or lose both their high standing and their lives. Those who not only survive but thrive become hardy souls, bred apart from their polished kin and able to tame the land with steel and powder. Such troopers gallop across the most challenging topography atop robust mounts without slowing, weaving past every danger while their adversaries slash and stab vainly at empty air. All the while the outriders load their weapons with ease, giving the cretins who pursue them a proper parting gift before riding on into the wilderness.
+
+
+
+
+
+
+___
+> ## Outrider
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +5, Insight +4, Intimidation +4, Perception +4
+> - **Senses** Passive Perception 14
+> - **Languages** Any two languages
+> - **Challenge** 3 (700 XP)  &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Evasive Mount.*** If the outrider or its mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage on a success and half damage on a failure. The outrider must be riding the mount, and neither the outrider nor the mount can be Incapacitated.
+>
+> ***Inspiring Rider.*** The outrider emits an aura in a 10-foot emanation from itself while not Incapacitated and while mounted. The outrider and each allied creature in the aura have advantage on Wisdom saving throws.
+>
+> ### Actions
+>
+> ***Repeater Gun.*** The outrider makes three of the following attacks. *Ranged Weapon Attack:* +5 to hit, range 100/300 ft., one target. *Hit:* 16 (3d8 + 3) Piercing damage. The outrider can't use the Repeater Gun again until it uses its action to load it.
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) Slashing damage.
+
+</span>
+
+
+
+
+> ##### Variant: Grenade Launcher
+>
+> You can replace the Repeater Gun on the outrider with the following attack.
+>
+> ***Grenade Launcher.*** *Ranged Weapon Attack:* +5 to hit, range 100/300 ft., one target. *Hit:* 7 (1d8 + 3) Bludgeoning damage. Hit or miss, the target and each creature within 10 feet of it must make a *Dexterity Saving Throw:* DC 13. <br>
+> *Failure:* The target takes 17 (5d6) Piercing damage.
+>
+> The outrider can't use the Grenade Launcher again until it uses its action to load it.
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:13px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+It is said that in the most intense conflicts, when battle flows, and a wild tempo fills the minds of the outriders, driving them to fervor, as the violence escalates, their aim becomes infallible and every bullet brings devastation. Hooves thunder, guns scream, and the burning hearts of these brazen men beat ever faster until a brutal crescendo reaches its peak: a song powerful enough to bring even the most savage lands to heel.
+
+#### Outriders & Outrider Bordermen Tactics
+Outriders weave in and out of combat, delivering devastating attacks before riding away to reload. Those armed with repeater guns prioritize low-AC enemies. Those with grenade launchers focus on clusters of low-Dexterity targets. Whenever possible, outriders end their turn adjacent to an ally so they gain advantage on Wisdom saving throws.
+
+
+
+
+
+
+> ##### Variant: Grenade Launcher
+>
+> You can replace the Invigorated Repeater Gun on the outrider with the following attack.
+>
+> ***Grenade Launcher.*** *Ranged Weapon Attack:* +6 to hit (advantage if the outrider is Invigorated), range 100/300 ft., one target. *Hit:* 7 (1d8 + 3) Bludgeoning damage. Hit or miss, the target and each creature within 10 feet of it must make a *Dexterity Saving Throw:* DC 14 (disadvantage if the outrider is Invigorated). <br>
+> *Failure:* The target takes 17 (5d6) Piercing damage, or 28 (8d6) Piercing damage if the outrider is Invigorated.
+>
+> The outrider can't use the Grenade Launcher again until it uses its action to load it.
+
+___
+___
+> ## Outrider Borderman
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +6 (16)
+> - **Hit Points** 82 (11d8 + 33)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +6, Insight +6, Intimidation +5, Perception +6, Survival +6
+> - **Senses** Passive Perception 16
+> - **Languages** Any two languages
+> - **Challenge** 5 (1,800 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Evasive Mount.*** If the outrider or its mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage on a success and half damage on a failure. The outrider must be riding the mount, and neither the outrider nor the mount can be Incapacitated.
+>
+> ***Inspiring Rider.*** The outrider emits an aura in a 10-foot emanation from itself while not Incapacitated and while mounted. The outrider and each allied creature in the aura have advantage on Wisdom saving throws.
+>
+> ***Wilderness Rider.*** Moving through nonmagical difficult terrain does not cost the outrider or any creature it is mounted on extra movement.
+>
+> ### Actions
+>
+> ***Repeater Gun.*** The outrider makes three of the following attacks. *Ranged Weapon Attack:* +6 to hit (advantage if the outrider is Invigorated), range 100/300 ft., one target. *Hit:* 16 (3d8 + 3) Piercing damage, or 25 (5d8 + 3) Piercing damage if the outrider is Invigorated. The outrider can't use the Repeater Gun again until it uses its action to load it.
+>
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) Slashing damage.
+>
+> ### Bonus Actions
+>
+> ***Marksman's Rhythm (2/Day).*** If the outrider has taken the Dodge action, it can reload a weapon. The outrider then becomes Invigorated until the end of its next turn.
+> 
+> 
+</span>
+
+
+
+\columnbreak
+
+
+
+
+\pagebreakNum
+
+### Onyx Outriders
+When the magi who have mastered the macabre winds of death require champions capable of eradicating the most vile and resilient warriors and beasts, they hire outriders, paying them such vast sums of gems and metal as they could never hope to earn by any other means, and offering weapons infused with power beyond anything science could produce.
+
+Even so, the majority of the most talented marksmen turn away from these bounties. Rumors and stories of service to such grim wizards are told throughout the realms: soldiers who pledge themselves to this duty become mirthless and cold, for joy seems to refuse any part in such a venture. The few who are foolish, or already cold-blooded enough to accept, soon find themselves swathed in macabre shells of ebon steel crowned with great skull helms and given all manner of death-laced contraptions to aid them in their duty, along with dark steeds to enact their masters’ bidding.
+
+As the riders close on their victims, they draw ghastly firearms. Some carry repeaters that loose rounds gleaming with violet flame; the bullets cackle horribly as they rush through the air. When these ghoulish projectiles find their mark, the wounds they leave blacken, and a terror seeps into the host, growing until it drowns every other thought. Others carry grenades of amethyst that burst with howls capable of shattering the courage of all who hear them.
+
+Yet what has made these men infamous is the fate of those who withstand the psychic punishment and do not die of pure fright. For such outriders then charge forward with their blades. With the momentum of the assault, the hexed weapons plunge deep into the bewildered opponent’s flesh, slicing into the very soul. 
+
+\columnbreak
+
+The life-force is hacked away and siphoned into the outrider, imparting a vigor that allows him to endure every manner of punishment that would fell a normal mortal.
+
+
+#### Onyx Outrider Tactics
+Onyx outriders charge into melee against frightened targets and remain engaged to impose disadvantage on the target’s saving throws, helping maintain the frightened condition. When multiple onyx outriders are present, one can enter melee to impose disadvantage on saving throws triggered by the rest of the group.
+
+> ##### Variant: Dread Grenade Launcher
+>
+> You can replace the Dread Repeater Gun on the outrider with the following attack.
+>
+> ***Dread Grenade Launcher.*** *Ranged Weapon Attack:* +5 to hit, range 100/300 ft., one target. *Hit:* 7 (1d8 + 3) Necrotic damage. Hit or miss, the target and each creature within 10 feet of it must make a *Wisdom Saving Throw:* DC 14. <br>
+> *Failure:* The target takes 24 (7d6) Psychic damage and is Frightened of the outrider. While Frightened in this way, the creature can't cast spells other than cantrips. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 10+:* The creature is Paralyzed while Frightened.
+>
+> The outrider can't use the Grenade Launcher again until it uses its action to load it.
+
+
+
+___
+___
+> ## Outrider, Onyx
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 18  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  **Initiative** +3 (13)
+> - **Hit Points** 90 (12d8 + 36)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +6, Insight +6, Intimidation +5, Perception +6
+> - **Senses** Passive Perception 16
+> - **Languages** Any two languages
+> - **Challenge** 6 (2,300 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Dread Rider.*** The outrider emits an aura in a 10-foot emanation from itself while not Incapacitated and while mounted. Each enemy creature in the aura has disadvantage on Wisdom saving throws.
+>
+> ***Evasive Mount.*** If the outrider or its mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage on a success and half damage on a failure. 
+> 
+> The outrider must be riding the mount, and neither the outrider nor the mount can be Incapacitated.
+>
+> ### Actions
+>
+> ***Dread Repeater Gun.*** The outrider makes three of the following attacks. *Ranged Weapon Attack:* +6 to hit, range 100/300 ft., one target. *Hit:* 25 (4d10 + 3) Necrotic damage. After the attacks, each creature hit must make a *Wisdom Saving Throw:* DC 14. <br>
+> *Failure:* The creature is Frightened of the outrider. While Frightened in this way, the creature can't cast spells other than cantrips. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 10+:* The creature is Paralyzed while Frightened.
+>
+> ***Spirit Leeching Longsword.*** *Melee Weapon Attack:* +6 to hit (advantage if the target is Frightened), reach 5 ft., one target. *Hit:* 16 (3d8 + 3) Slashing damage. If the outrider moves at least 20 feet straight toward a creature immediately before hitting it, the target must make a *Charisma Saving Throw* (disadvantage if it is Frightened): DC 14. <br>
+> *Failure:* The creature takes 21 (4d10) Necrotic damage, or 33 (6d10) Necrotic damage if the target is Frightened. The outrider gains temporary hit points equal to the Necrotic damage dealt by this attack. <br>
+> *Failure by 10+:* The creature takes an extra 16 (3d10) Necrotic damage. <br>
+> *Success:* Half damage only.
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
