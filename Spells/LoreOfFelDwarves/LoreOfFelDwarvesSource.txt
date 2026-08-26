@@ -24,11 +24,19 @@
     column-fill: balance;
 }
 
+    /* Hide the footer on some pages */
+    .phb#p5:after {
+        display          : none;
+    }
+    /* End Footers */
+
 </style>
+
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-## Lore of Fel Dwarves
+## Lore of Fel Dwarves 2.0
 This fiendish magic was developed by the devil-worshipping fel dwarves and embodies their ability to dominate not only the will of others but the very earth itself. Many of their spells conjure a brutal mix of fire and earth, incinerating or crushing foes with molten rock. Other spells twist the will of others, instilling deep hatred or fear and subservience. While these spells are most commonly used by fel dwarves, other fiendish spell casters or those with close ties to fire and earth may wield this magic as well.
 
 #### Ash Storm
@@ -49,7 +57,35 @@ You unleash a wave of scalding ash in a 60-foot-long, 15-foot-wide line originat
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Bellows Breath
+*5th-level Evocation (Artificer, Cleric, Paladin)*
+___
+- **Casting Time:** Action
+- **Range:** Self (50-foot Cone)
+- **Components:** V
+- **Duration:** Instantaneous
+
+You breathe out the fires of creation, reforging your allies and searing your foes. Each creature in a 40-foot Cone must make a Constitution saving throw. On a failed save, the creature takes 3d10 Fire damage and is Tempered until the end of your next turn. While Tempered, the creature takes an extra 1d6 Fire damage whenever it is hit by an attack.
+
+You may choose up to three creatures within the area to automatically succeed on this saving throw, taking no damage. You and those creatures are instead Heated until the end of your next turn. While Heated, whenever a creature hits another creature with an attack, it deals an extra 1d6 Fire damage on that hit.
+
+***Using a Higher-Level Spell Slot.*** The initial damage increases by 1d10 for each slot level above 5th.
+
+
+
+<img
+src='https://i.postimg.cc/43NcRqFY/campbell-white-roil-upheaval.jpg'
+style='position:absolute;top:-25px;left:0px;width:885px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:220px; right:82px; width:900px; transform:rotate(19deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:320px; right:0px; width:900px; transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:455px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
 
 #### Breath of Hatred
 *1st-level enchantment*
@@ -66,23 +102,7 @@ At the end of each of its turns, the target can make another Wisdom saving throw
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature to become obsessed with the same creature for every two slot levels above 1st.
 
-<br>
-
-**Obsessed condition described at the end of the document*
-
-<img
-src='https://i.postimg.cc/43NcRqFY/campbell-white-roil-upheaval.jpg'
-style='position:absolute;top:-25px;left:0px;width:885px;transform:scaleX(-1)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:222px; right:85px; width:900px; transform:rotate(20deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:320px; right:0px; width:900px; transform:rotate(0deg)' />
-
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:455px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
-
-\pagebreakNum
-
-
+**New condition described below*
 
 #### Curse of Stone
 
@@ -111,50 +131,34 @@ Choose a point you can see on the ground within range and a direction. A giant h
 
 Each creature in the area of the hammer’s impact or shockwave must make a Dexterity saving throw. On a failed save, a creature takes 5d6 fire or lighting damage (your choice) and 5d6 thunder damage and is knocked prone; it is also dazed* until the end of its next turn if it is in the area of the impact. On a successful save, a creature takes half as much damage and isn’t knocked prone or dazed.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the fire or lighting damage and the thunder damage each increase by 1d6 for every slot level above 6th.
 
 
-#### Elemental Bane (Revised)
-
-*2nd-level transmutation*
-___
-- **Casting Time:** 1 bonus action
-- **Range:** 90
-- **Components:** V, S
-- **Duration:**  Concentration, up to 1 minute.
-- **Classes:**  Druid, Warlock, Wizard, Artificer
-
-Choose one creature you can see within range and one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Charisma saving throw or be cursed for the duration. While cursed, the target loses any resistance to the chosen damage type, and immunity to the damage type is treated as resistance instead. Additionally, the first time each turn the target takes damage of the chosen type, it takes an extra 1d6 damage of that type.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
 
 \columnbreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Obsessed 
+> The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
+> * While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
+> * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the  *fireball* spell) unless a source of its obsession is in that area. 
+> *  The creature can't willingly move away from a source of its obsession.
+
+<br>
 
 > #####  Divine Hammer Damage Types
 > Depending on the nature of the god the spellcaster worships, it may make more sense for the divine hammer to do damage of a type other than fire or lighting; for example, some gods may be more associated with radiant or necrotic. At the DM's discretion, the damage can be changed this way, in which case the spellcaster should no longer have the option for fire or lighting.
 
 <br>
 
-#### Eruption
-*8th-level evocation*
 
-- **Casting Time:** 1 action
-- **Range:** 150 ft
-- **Components:** V, S
-- **Duration:** Instantaneous
-- **Classes:**   Druid, Wizard, Sorcerer
 
-You choose a point you can see on the ground within range. The ground cracks and a burst of magma erupts in a 60-foot-radius, 120-foot-high cylinder centered on that point. Each creature in the affected area must make a Dexterity saving throw. On a failed save, a creature takes 4d12 fire damage and 4d12 bludgeoning damage. On a successful save, it takes half as much damage.
 
-Additionally, the ground in the area becomes superheated for 1 minute. The area becomes difficult terrain, and any creature that ends its turn in the area must make a Constitution saving throw. On a failed save, the creature takes 4d12 fire damage, or half as much on a successful save.
 
-After the area cools down, it remains difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the fire or lighting damage and the thunder damage each increase by 1d6 for every slot level above 6th.
 
-<br>
+**New condition described on next page*
 
-**Dazed condition described at the end of the document*
 
 
 <img
@@ -174,6 +178,86 @@ style='position:absolute;top:-0px;right:-40px;width:655px;transform:scaleX(1)' /
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<br>
+
+#### Eruption
+*8th-level evocation*
+
+- **Casting Time:** 1 action
+- **Range:** 150 ft
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**   Druid, Wizard, Sorcerer
+
+You choose a point you can see on the ground within range. The ground cracks and a burst of magma erupts in a 30-foot-radius, 120-foot-high cylinder centered on that point. Each creature in the affected area must make a Dexterity saving throw. On a failed save, a creature takes 4d10 fire damage and 4d10 bludgeoning damage. On a successful save, it takes half as much damage.
+
+Additionally, the ground in the area becomes superheated for 1 minute. The area becomes difficult terrain, and any creature that ends its turn in the area must make a Constitution saving throw. On a failed save, the creature takes 4d10 fire damage, or half as much on a successful save.
+
+After the area cools down, it remains difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.
+
+***At Higher Levels.*** Using a Higher-Level Spell Slot. The Initial fire damage and the bludgeoning damage increase by 1d10 for each spell slot level above 8th.
+<br>
+
+**New condition described above*
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Earthen Rupture
+*4th-level Evocation (Druid)*
+___
+- **Casting Time:** Action
+- **Range:** Self (60-foot Line)
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**  Druid
+
+You rend asunder the earth in a 5-foot-wide line up to 60 feet long. Creatures touching the ground in the area must make a Strength saving throw. On a failed save, they take 4d6 Bludgeoning damage and fall Prone. On a successful save, they take half as much damage and don't fall Prone. Large or larger objects and structures in the area automatically fail the save and take twice as much damage. 
+
+The ground in the area becomes Difficult Terrain until cleared. Each 5-foot-square portion requires at least 1 minute to clear by hand.
+
+**Earthen Pillar.** A pillar of stone bursts from the ground centered on the far end of the line. The pillar has a diameter of 5 feet and a height of up to 40 feet. The ground where the pillar appears must be wide enough for its diameter, otherwise, it doesn't appear. The pillar has AC equal to your spell save DC and 25 hit points. When reduced to 0 hit points, the pillar crumbles into rubble, creating an area of Difficult Terrain with a 10-foot radius that lasts until cleared.
+
+**Creatures Caught On The Pillar.** If the pillar is created beneath a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail this save.
+
+If the pillar is prevented from reaching its full height by a ceiling or other obstacle, a creature on the pillar takes 3d6 Bludgeoning damage and is Restrained, pinched between the pillar and the obstacle. The Restrained creature can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, the creature is no longer Restrained and must either move off the pillar or fall from it.
+
+***Using a Higher-Level Spell Slot.*** The damage of both effects increases by 1d6 for each slot level above 4th.
+
+
+
+
+<img
+src='https://i.postimg.cc/k5bvwgbR/volcanic-awakening-186.webp'
+style='position:absolute;top:-70px;right:0px;width:820px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:222px; right:85px; width:900px; transform:rotate(20deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:80px; right:-120px; width:900px; transform:rotate(-10deg)' />
+
+\pagebreakNum
+
+#### Elemental Bane (Revised)
+
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 90
+- **Components:** V, S
+- **Duration:**  Concentration, up to 1 minute.
+- **Classes:**  Druid, Warlock, Wizard, Artificer
+
+Choose one creature you can see within range and one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Charisma saving throw or be cursed for the duration. While cursed, the target loses any resistance to the chosen damage type, and immunity to the damage type is treated as resistance instead. Additionally, the first time each turn the target takes damage of the chosen type, it takes an extra 1d6 damage of that type.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
 
 #### Hellfire Weapon
 *1st-level evocation*
@@ -188,47 +272,104 @@ You conjure a weapon made of hungering fire and hurl or strike with it. Make a r
 
 The spell’s damage increases by 1d8 when you reach certain levels: 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
 
-#### Magmatic Stone
-*3rd-level evocation*
+
+#### Hellish Spheres
+*3rd-level Evocation (Warlock)*
 ___
-- **Casting Time:** 1 action
-- **Range:** 100 ft
-- **Components:** V, S, M (A bit of igneous rock)
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**  Sorcerer, Wizard
+- **Casting Time:** Bonus Action
+- **Range:** Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Artificer, Warlock
 
-You conjure a molten rock and hurl it at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 3d8 bludgeoning damage. Whether the attack hits or misses, the rock explodes on impact, creating a 15-foot-radius sphere of whirling magma centered on the point of impact. The sphere lasts for the duration, and its area is lightly obscured and considered difficult terrain. The sphere spreads around corners and seeps through openings at least 5 feet in diameter.
+Three spheres of hellfire orbit you for the duration. While the spheres are present, you can expend them to create the following effects:
 
-When the sphere first appears, and at the start of each of your turns thereafter, it moves 10 feet in the direction you hurled it from. Any creature whose space the sphere enters or passes through must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage. On a successful save, the creature takes half as much damage.
+**Hellish Infusion.** When you cast this spell and at the start of each of your turns, you may expend a sphere to gain 2d6 temporary hit points. At the end of each of your turns, if you have any temporary hit points from this spell, you may spend them all to regain a sphere.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the bludgeoning and fire damage both increase by 1d8 for each slot level above 3rd.
-
-> ##### New Condition: Dazed 
-> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
-
-
-##### Lore of Fel Dwarves Art Credit
-* Nahiri's Lithoforming - Campbell White, Wizards of the Coast
-* Fall of the Hammer - Adam Paquette, Wizards of the Coast
-* Tormentor's Trident - Anthony Palumbo, Wizards of the Coast
-
-
+**Hellish Fire.** Whenever you hit with an attack, you may expend one sphere to deal an additional 2d6 Fire damage. If the attack reduces a creature to 0 hit points, you regain a sphere.
 
 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-> ##### New Condition: Obsessed 
-> The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
-> * While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
-> * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the  *fireball* spell) unless a source of its obsession is in that area. 
-> *  The creature can't willingly move away from a source of its obsession.
+The spell ends early if you have no spheres remaining or if you no longer have temporary hit points granted by this spell. (Gaining temporary hit points from another source will cause you to lose the temporary hit points granted by this spell.)
 
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d8 for each slot level above 3rd.
+
+
+
+#### Magmatic Stone
+*3rd-level Evocation (Sorcerer, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 100 feet
+- **Components:** V, S, M (a bit of igneous rock)
+- **Duration:** 1 round
+
+You conjure a molten rock and hurl it at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 Bludgeoning damage. Whether the attack hits or misses, the rock explodes on impact, creating a 15-foot-radius sphere of whirling magma centered on the point of impact. Its area is Lightly Obscured and Difficult Terrain. The sphere spreads around corners and seeps through openings at least 5 feet in diameter.
+
+At the start of your next turn, the sphere moves 30 feet in the direction you hurled it and dissipates. Any creature in the sphere when it first appears, and any creature whose space the sphere enters or passes through, must make a Dexterity saving throw. On a failed save, the creature takes 4d6 Fire damage. On a successful save, the creature takes half as much damage.
+
+***Using a Higher-Level Spell Slot.*** The Bludgeoning and Fire damage both increase by 1d6 for each slot level above 3rd.
+
+
+
+<img
+src='https://i.postimg.cc/9MswTMX9/tormentors-trident.jpg'
+style='position:absolute;top:0px;right:-0px;width:650px;transform:scaleX(-1)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-140px; right:250px; width:900px; transform:rotate(90deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:154px; right:0px; width:900px; transform:rotate(0deg)' />
+
+\pagebreakNum
+
+#### Molten Grasp
+*6th-level Evocation (Cleric, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+
+Molten metal spews from the ground in a 20-foot square within range, turning the ground in the area into Difficult Terrain until cleared.
+
+Each creature in the area when you cast the spell must succeed on a Strength saving throw. On a failed save, a creature takes 6d8 Fire damage and is Restrained by hardening metal until the metal is destroyed. While Restrained this way, the creature or another creature within reach of it can use its action to make a Strength check against your spell save DC, breaking the metal on a success. The metal can also be attacked and destroyed (AC equal to your spell save DC; 40 hit points; immunity to Fire, Cold, Poison, and Psychic damage). On a successful save, a creature takes half as much damage and isn't Restrained.
+
+As a Bonus Action on each of your later turns, you can deal 3d8 Fire damage to each creature that is Restrained or standing on Difficult Terrain created by this spell.
+
+***Using a Higher-Level Spell Slot.*** The damage of both effects increases by 1d8 for each slot level above 6th.
+
+
+#### Shard Storm
+*4th-level Evocation (Sorcerer, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 50 feet (50-foot Cone)
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+-  **Classes:**  Artificer
+
+You send a wave of burning rock shards from your fingertips flying in a 50-foot Cone. Choose up to five creatures you can see in the cone. Make a ranged spell attack against each target. On hit, target takes 3d8 Piercing damage and a shard embeds itself in the creature. At the end of each of the creature's turns until the spell ends, it takes 2d8 Fire damage if the shard is still embedded.
+
+**Removing the Shard.** A creature within reach can use an action to make a Wisdom (Medicine) check against your spell save DC to remove the shard. On a success, the shard is removed. On a failure, the shard is still removed, but the creature takes 1d8 Slashing damage.
+
+***Using a Higher-Level Spell Slot.*** You may target one additional creature for each spell slot level above 4.
+
+##### Lore of Fel Dwarves Art Credit
+* Nahiri's Lithoforming - Campbell White, Wizards of the Coast
+* Fall of the Hammer - Adam Paquette, Wizards of the Coast
+* Volcanic Awakening - Dan Murayama Scott, Wizards of the Coast
+* Tormentor's Trident - Anthony Palumbo, Wizards of the Coast
+* Slave of Bolas - Steve Argyle, Wizards of the Coast
+
+\columnbreak
 
 #### Subjugation
-*2th-level enchantment*
+*2nd-level enchantment*
 ___
 - **Casting Time:** 1 action
 - **Range:** 60 ft
@@ -242,19 +383,24 @@ The frightened target can repeat the saving throw at the end of each of its turn
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
 
-
-
 <img
-src='https://i.postimg.cc/9MswTMX9/tormentors-trident.jpg'
-style='position:absolute;top:0px;right:-0px;width:590px;transform:scaleX(-1)' />
+src='https://i.postimg.cc/d1ttw4KH/slave-of-bolas.jpg'
+style='position:absolute;bottom:-200px;right:-320px;width:1250px;transform:scaleX(1)' />
 
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:60px; right:240px; width:900px; transform:rotate(96deg)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-140px; right:250px; width:900px; transform:rotate(90deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:114px; right:0px; width:900px; transform:rotate(0deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-490px; right:0px; width:900px; transform:rotate(180deg)' />
 
 \pagebreakNum
 
 ### Change Log
 #### 1.0.0
 * Document release
+
+
+#### 1.1.0
+* Eruption's damage and radius reduced and given a up cast.
+
+#### 2.0.0
+* Added Bellows Breath, Earthen Rupture, Hellish Spheres, Molten Grasp, and Shard Storm
+* Updated Magmatic Stone. Damage changed. It no longer moves the first time it is cast; instead, it moves 30 feet instead of 10. It also no longer requires Concentration and ends after 1 round.
