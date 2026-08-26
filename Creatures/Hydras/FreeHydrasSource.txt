@@ -1,0 +1,283 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Hydras
+*Multiheaded Serpents of Legend*<br>
+**Habitat:** Coastal, Forest, Mountain, Swamp; **Treasure:** Any <br>
+
+Hydras embody unchecked growth and wild savagery in its most brutal form. A writhing mass of ravenous, beastly heads protrudes from a single colossal body, each snapping hungrily at anything within reach. Every crushing maw is powerful enough to snap a full-grown man in half with a single bite.
+
+The hydra's most infamous trait is its rampant regeneration. Whenever one of its serpentine heads is severed, two more erupt from the bloodied stump, replacing the fallen head and ensuring the monster only grows more dangerous as the battle drags on.
+
+Hydras become scourges upon whatever lands they inhabit, devouring any living thing unfortunate enough to wander within reach to sustain its assortment of heads. Yet despite their insatiable hunger, they are capable of long periods of dormancy. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+They retreat into deep bogs, secluded <br> swamps, or hidden caverns, where they enter a <br> deep torpor for decades to conserve their strength while the surrounding land recovers and prey once again becomes plentiful.
+
+The number of heads a hydra possesses fluctuates according to the resources available around it. Most spend the majority of their lives bearing five heads, but in times of famine they may tear off several of their own heads and consume the flesh themselves. Rather than regrowing the missing heads, the beast simply endures with fewer mouths to feed, shrinking to as few as a single head if starvation becomes severe.
+
+___
+___
+> ## Hydra
+> *Huge Monstrosity, Mini-Boss, Unaligned*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 184 (15d12 + 75)
+> - **Speed** 40 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">2</td><td style="background-color:#e0e5c1; text-align:center">-4</td><td style="background-color:#e0e5c1; text-align:center">-4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">7</td><td style="background-color:#e0e5c1; text-align:center">-2</td><td style="background-color:#e0e5c1; text-align:center">-2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +6
+> - **Senses** Darkvision 60 ft., Passive Perception 16
+> - **Languages** —
+> - **Challenge** 8 (3,900 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Head Block.*** If the hydra fails a saving throw, it can choose to destroy a head. 
+>
+> If it does, it succeeds on the saving throw. If it would take half damage on a success, it takes the full damage instead.
+>
+> ***Hold Breath.*** The hydra can hold its breath for 1 hour.
+>
+> ***Multiple Heads.*** The hydra has five heads. Whenever the hydra takes 25 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken 10 or more Fire damage since its last turn. The hydra regains 20 hit points when it grows new heads.
+>
+> ***Reactive Heads.*** For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While the hydra sleeps, at least one of its heads is awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** The hydra makes as many Bite attacks as it has heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 10 (1d10 + 5) Piercing damage.
+
+</span>
+
+<img src='https://i.postimg.cc/1zg2Xszy/Gargos-Vicious-Watchercopy-5000x.webp' style='position:absolute; top:-130px; right:0px; width:816px; transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-450px;top:34px;height:1400px;width:1416px;transform:rotate(197deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:260px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+Conversely, hydras that dwell in fertile lands or wage constant battle against powerful foes may increase far beyond their usual size, and such monsters become the subjects of local legend. The few survivors fortunate enough to escape their attacks tell of an endless sea of serpent heads <br> devouring everything in their path.
+
+Many heroes seek out the domains of hydras, for permanently slaying one is considered a feat worthy of legend. Hydras are often drawn to prosperous farmlands, where abundant livestock and dense populations provide an endless source of food. After reducing entire settlements to lifeless ruins, the beasts leave behind untouched treasures, abandoned homes, and forgotten riches, awaiting any brave soul willing to challenge the monster that now claims them.
+
+### Venomous Hydras
+
+These hydra variants have heads resembling hooded snakes, and few sights are more intimidating than a quiver of their menacing maws surging forth, sinking their gleaming white fangs into their prey to inject a potent dose of venom. Even those who seek to avoid its deadly bite from afar with arrows or other ranged weapons soon learn that its heads are more than capable of spitting their lethal concoction, spraying viscous bolts to overwhelm their adversaries.
+
+Though many of these beasts roam the wilderness of their own accord, most venomous hydras serve as the favored pets of wicked gods. They are often used as guardians of great artifacts or enchanted sites, lying dormant until awakened to bring a toxic end to any adventurers who seek the treasures entrusted to their care.
+
+\columnbreak
+
+___
+___
+> ## Venomous Hydra
+> *Huge Monstrosity, Mini-Boss, Unaligned*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +1 (11)
+> - **Hit Points** 184 (15d12 + 75)
+> - **Speed** 40 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">2</td><td style="background-color:#e0e5c1; text-align:center">-4</td><td style="background-color:#e0e5c1; text-align:center">-4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">7</td><td style="background-color:#e0e5c1; text-align:center">-2</td><td style="background-color:#e0e5c1; text-align:center">-2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +8
+> - **Immunities** Poison; Poisoned
+> - **Senses** Darkvision 60 ft., Passive Perception 18
+> - **Languages** —
+> - **Challenge** 10 (5,900 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Head Block.*** If the hydra fails a saving throw, it can choose to destroy an head. If it does, it succeeds on the saving throw. If it would take half damage on a success, it takes the full damage instead.
+>
+> ***Hold Breath.*** The hydra can hold its breath for 1 hour.
+>
+> ***Multiple Heads.*** The hydra has five heads. Whenever the hydra takes 30 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken 10 or more Fire damage since its last turn. The hydra regains 25 hit points when it grows new heads.
+>
+> ***Reactive Heads.*** For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While the hydra sleeps, at least one of its heads is awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** The hydra makes as many Bite attacks as it has heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 10 (1d10 + 5) Piercing damage and the target gains one level of Venom. At the end of a creature's turn, it takes 5 (1d10) Poison damage for each level of Venom it has, then makes a *Constitution Saving Throw:* DC 10. On a success, one level of Venom is removed. For every 5 points by which the save exceeds the DC, an additional level of Venom is removed. Whenever a creature receives an effect that removes the Poisoned condition, it removes three levels of Venom.
+>
+> ***Spit Venom.*** *Ranged Weapon Attack:* +9 to hit, range 100/200 ft., one target. *Hit:* 8 (1d6 + 5) Poison damage and the target gains one level of Venom.
+
+</span>
+
+<img src='https://i.postimg.cc/gJyWcmMm/Honored-Hydra-Amonkhet-Mt-G-Art.jpg' style='position:absolute; top:-10px; right:-70px; width:711px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:43px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:220px; right:-300px; width:900px; transform:rotate(-9deg)' />
+
+\pagebreakNum
+
+### Phytohydras
+
+Phytohydras are strange, animated masses of tangled vines united into a single organism, with each sinuous stalk <br> ending in a large, cavernous maw. These writhing masses <br> of vegetation are active predators, seeking any source of nourishment to fuel their unending growth.
+
+Mystery surrounds the origins of these bizarre plants. Legends claim they were created by a druidic conclave that sought to cultivate a creature capable of limitless growth. To achieve this, they watered seeds with vast quantities of hydra blood and mixed the ground bones of the many-headed beast into the soil. Soon, the strange nascent flora burst forth, proliferating beyond all control and overwhelming their creators.
+
+Whatever their true origins, phytohydras pose a grave threat to any ecosystem or city in which they take root. A single phytohydra can overtake even the most well-defended settlements if it is not destroyed quickly and decisively. Should part of a phytohydra be severed from its main body and not burned promptly, the damaged plant will not only sprout a new head to replace the one that was lost, but the severed fragment will also take root, springing into an entirely new phytohydra within minutes. These newly <br> formed creatures immediately seek fresh prey to sustain <br> their relentless, unchecked expansion.
+
+##### Hydras Art Credit
+* Gargos, Vicious Watcher - Mathias Kollros, Wizards of the Coast
+* Honored Hydra - Todd Lockwood, Wizards of the Coast
+* Phytohydra - Jim Murray, Wizards of the Coast
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Hydra Tactics
+Hydras focus on the weakest target within range, overwhelming it with its heads and switching to any target dealing fire damage to it.
+___
+___
+> ## Phytohydra
+> *Huge Plant, Mini-Boss, Unaligned*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +1 (11)
+> - **Hit Points** 66 (7d12 + 21)
+> - **Speed** 30 ft., Swim 20 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">2</td><td style="background-color:#e0e5c1; text-align:center">-4</td><td style="background-color:#e0e5c1; text-align:center">-4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">7</td><td style="background-color:#e0e5c1; text-align:center">-2</td><td style="background-color:#e0e5c1; text-align:center">-2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +6
+> - **Senses** Blindsight 90 ft., Passive Perception 16
+> - **Languages** —
+> - **Challenge** 7 (2,900 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Growing Heads.*** The Phytohydra has five heads, each with 20 hit points. Whenever the Phytohydra takes damage, it may have one of its heads absorb that damage. If that damage reduces a head to 0 hit points, any remaining damage carries over to the Phytohydra. <br>
+>
+> Whenever the Phytohydra loses a head while it has two or more heads, it creates a new Phytohydra in an unoccupied space within 10 feet of it. The new Phytohydra starts with 1 hit point (with a max HP of 66), has one head, and takes its turn immediately after the Phytohydra that created it. If the new Phytohydra isn't destroyed within 1 minute, it withers away unless it consumes 60 pounds of meat within that time. <br>
+> At the end of each of its turns, the Phytohydra grows a new head if it has fewer than five heads, unless it has taken Fire or Acid damage since its last turn.
+>
+> ***Reactive Heads.*** For each head the Phytohydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+>
+> ***Regeneration.*** The Phytohydra regains 10 hit points at the start of each of its turns. If the Phytohydra takes Acid or Fire damage, this trait doesn't function on the Phytohydra's next turn. The Phytohydra dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ### Actions
+>
+> ***Multiattack.*** The Phytohydra makes as many Bite attacks as it has heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 8 (1d8 + 4) Piercing damage.
+
+</span>
+
+<img src='https://i.postimg.cc/90rzDDsB/Phytohydra-5000x.jpg' style='position:absolute; top:-155px; right:-250px; width:700px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:50px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:130px; right:-300px; width:900px; transform:rotate(-0deg)' />
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release

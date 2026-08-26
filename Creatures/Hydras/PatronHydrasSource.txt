@@ -1,0 +1,402 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Bonus Hydra Variants
+
+### Fire Hydras
+**Habitat:** Mountain, Swamp, Volcanic; **Treasure:** Any <br>
+
+Fire hydras are evil creatures whose many maws burn with ferocious spite, taking primal glee in destruction. Each maw the creature possesses glows with cinders, its teeth akin to heated pokers, inflicting terrible burns and deep gashes with every bite. Such creatures are also capable of pelting enemies with a persistent barrage of flame, consuming them in an inferno long before their heads are within striking distance.
+
+These infernal beasts are the product of dark elven magic. The shadowed elves found even the already magnificent hydra wanting, so they captured wild specimens and subjected them to generations of cruel enchantments. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br>
+
+Over successive generations, they infused their captives with dragon's blood, eventually creating these wicked brutes.
+
+Dark elf armies that employ fire hydras possess a living firestorm at their fingertips. Such a creature serves as both artillery and a front-line assault beast, reducing opposing ranks of archers to piles of writhing, charred flesh. It crashes through the formations of even the most elite soldiers, who desperately hack at the endless deluge of snapping heads, only for the beast to emerge from the smoke and carnage bearing even more hungry jaws, eager to continue its hellish rampage.
+
+___
+___
+> ## Fire Hydra
+> *Huge Monstrosity, Mini-Boss, Neutral Evil*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +5 (15)
+> - **Hit Points** 260 (40d12)
+> - **Speed** 40 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">2</td><td style="background-color:#e0e5c1; text-align:center">−4</td><td style="background-color:#e0e5c1; text-align:center">−4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">7</td><td style="background-color:#e0e5c1; text-align:center">−2</td><td style="background-color:#e0e5c1; text-align:center">−2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +8
+> - **Immunities** Fire
+> - **Senses** Darkvision 60 ft., Passive Perception 18
+> - **Languages** —
+> - **Challenge** 12 (8,400 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Fire Charges.*** The hydra has 3 charges it uses for its Fire Breath. It gains a charge at the start of each of its turns, up to a maximum of 3 charges. 
+>
+> ***Head Block.*** If the hydra fails a saving throw, it can choose to destroy an undamaged head. If it does, it succeeds on the saving throw. If it would take half damage on a success, it takes the full damage instead.
+>
+> ***Hold Breath.*** The hydra can hold its breath for 1 hour.
+>
+> ***Multiple Heads.*** The hydra has five heads. Whenever the hydra takes 30 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken 10 or more Cold damage since its last turn. The hydra regains 25 hit points when it grows new heads.
+>
+> ***Reactive Heads.*** For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While the hydra sleeps, at least one of its heads is awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** The hydra makes as many attacks as it has heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 10 (1d10 + 5) Piercing damage plus 5 (1d10) Fire damage.
+>
+> ***Spit Fire.*** *Ranged Weapon Attack:* +9 to hit, range 100/200 ft., one target. *Hit:* 16 (2d10 + 5) Fire damage.
+>
+> ***Fire Breath (3 Charges).*** The hydra exhales fire in a 90-foot cone. *Dexterity Saving Throw:* DC 17, each creature in the cone. <br>
+> *Failure:* The target takes 11 (2d10) Fire damage for each head the hydra has.
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:10px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Frost Hydras
+**Habitat:** Arctic, Mountain; **Treasure:** Any <br>
+If you were to brave the frozen waste and go deep where no cattle or crop can flourish and man’s cities cannot take root, you may happen upon great glaciers towering over the tundra, monuments that have remained undisturbed since man lit his first fire and had only shaped stones to hunt with.
+
+If you approach the wall of ice, you may see an odd shape within the structure: a mass of beastly heads trapped deep within, fixed in place, outstretched and weaving between one another like some sort of tangle of vines, all originating from a massive figure at the core of the knot, larger than a bison. The central figure bears four muscular limbs and a sinuous tail.
+
+If gifted with good sight, you may even make out the features of many animals within the blur. The heads have the eyes of a wildcat, blank and yellow with black slits, unblinking. Fangs of wolves gleam in open jaws. 
+
+\columnbreak
+
+<br>
+
+Claws bearing a resemblance to those of a wolverine float motionless in the sea of crystal. Its whole figure is covered in a thick, shaggy, rust-colored coat as dense as any musk ox’s.
+
+Yet deeper observation of its anatomy only amplifies the already bewildering mixture of features. For the heads and necks bear more resemblance to those of a snake than any mammal. Even weightless in its tomb and obscured by layers of fur, the body from which all its heads flower has the bearing and tail of a large lizard rather than any canine, feline, or other mammal.
+
+Such findings may fascinate you and spark all manner of questions. Know this, though: if you would seek to understand this anomaly and your curiosity would have you wrest this corpse from the frost which holds it so that you may examine the creature with clarity, let your eagerness pass you by. Leave, and let the fractured sight of the thing be all that you take with you from that place.
+
+For you look upon not a grave, but a prison. A godless cold voracity held back only by such gleaming walls. So leave such bitter bringers of death forgotten.
+
+
+___
+___
+> ## Frost Hydra
+> *Huge Monstrosity, Mini-Boss, Neutral Evil*
+> ___
+> - **Armor Class** 17  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +6 (16)
+> - **Hit Points** 299 (26d12+130)
+> - **Speed** 40 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">2</td><td style="background-color:#e0e5c1; text-align:center">−4</td><td style="background-color:#e0e5c1; text-align:center">−4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">7</td><td style="background-color:#e0e5c1; text-align:center">−2</td><td style="background-color:#e0e5c1; text-align:center">−2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Perception +10
+> - **Immunities** Cold
+> - **Senses** Darkvision 60 ft., Passive Perception 20
+> - **Languages** —
+> - **Challenge** 16 (15,000 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +5
+> ___
+>
+> ### Traits
+>
+> ***Frost Power.*** The hydra has 3 charges it uses for its Encasing Breath. It gains a charge at the start of each of its turns, up to a maximum of 3 charges.
+>
+> ***Head Block.*** If the hydra fails a saving throw, it can choose to destroy a head. If it does, it succeeds on the saving throw. If it would take half damage on a success, it takes the full damage instead.
+>
+> ***Hold Breath.*** The hydra can hold its breath for 1 hour.
+>
+> ***Multiple Heads.*** The hydra has five heads. Whenever the hydra takes 35 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken 10 or more Fire damage since its last turn. The hydra regains 30 hit points when it grows new heads.
+>
+> ***Reactive Heads.*** For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While the hydra sleeps, at least one of its heads is awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** The hydra makes as many attacks as it has heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 10 (1d10 + 5) Piercing damage plus 5 (1d10) Cold damage. If the target is a creature, it gains one level of Brittle Frost. For each level of Brittle Frost a creature has, its speed is reduced by 5 feet and its critical hit threshold is lowered by 1. 
+> <Br> At the end of a creature's turn, it can make a *Constitution Saving Throw:* DC 10. On a success, one level of Brittle Frost is removed. For every 5 points by which the save exceeds the DC, an additional level of Brittle Frost is removed. Whenever a creature with Brittle Frost takes Fire damage, it has a number of levels of Brittle Frost removed equal to the damage taken.
+>
+> ***Spit Frost.*** *Ranged Weapon Attack:* +10 to hit, range 100/200 ft., one target. *Hit:* 16 (2d10 + 5) Cold damage. If the target is a creature, it gains one level of Brittle Frost.
+>
+> ***Encasing Breath (3 Charges).*** The hydra exhales freezing cold in a 90-foot cone. *Strength Saving Throw:* DC 18, each creature in the cone. <br>
+> *Failure:* The target takes 11 (2d10) Cold damage and is Restrained by ice for one minute. At the end of each of its turns while Restrained this way, the target takes 5 (1d10) Cold damage. It or another creature within reach can use an action to make a DC 18 Strength check, shattering the ice on a success. The ice can also be attacked and destroyed (AC 16; HP 20; Vulnerability to Bludgeoning, Fire, and Thunder damage; Immunity to Cold, Poison, and Psychic damage). <br>
+> *Success:* The target takes half damage and is not Restrained.
+
+</span>
+
+\pagebreakNum
+
+### Flame Skull Hydras
+**Habitat:** Swamp, Underdark; **Treasure:** Any <br>
+When greater beings of necromancy—liches, vampires, or other undead tyrants—succeed in capturing living hydras and binding them to their will, they do not merely raise the beasts as ordinary undead. Through a guarded ritual of desecration, these creatures are elevated into something far worse: nightmares that hover in the space between life and death. Known as Flame Skull Hydras, they become living engines of dark magic, capable of reaping entire armies with torrents of necrotic flame and regenerating heads that burn with baleful green fire.
+
+The process of creating a Flame Skull Hydra is similar to the creation of a classic flameskull. First, the captive hydra is force-fed the carefully prepared remains of dozens of slain magic-users until its multiple gullets are thoroughly gorged with arcane flesh. Once the creature is bloated and lethargic, it is subjected to a sustained barrage of the deadliest hexes and invocations its masters can muster: spells of rotting, burning, desiccation, and soul-searing fire that eat away its flesh faster than even its legendary regeneration can repair. 
+
+\columnbreak
+
+<br><br>
+
+The bombardment continues without mercy until the beast hangs mere inches from true death, its scales blackened and cracking, its remaining heads lolling. Only then does the magical onslaught cease.
+
+The hydra is allowed to recover. As its body desperately draws upon the mystical remains fermenting in its stomach, the absorbed arcane essence is redirected and twisted by a continuous web of mutating auras.Instead of simply regenerating healthy flesh, the creature rebuilds itself according to a new, blasphemous design. Its scales take on a charred, bone-like texture. Each head is emaciated, with ghostly green or violet flame in its eyes.
+
+The creatures that survive this brutal rite emerge not only more powerful, but far more cunning. Having absorbed the arcane knowledge of every magic-user they consumed, they possess a predatory intelligence and an instinctive mastery of destructive spellcraft that no ordinary hydra could ever claim. Their blackened, scarred bodies still regenerate with terrifying speed, yet the process has been fundamentally altered. 
+
+
+___
+___
+> ## Flameskull Hydra
+> *Huge Monstrosity, Boss, Neutral Evil*
+> ___
+> - **Armor Class** 17  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +6 (17)
+> - **Hit Points** 310 (27d12+135)
+> - **Speed** 40 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">11</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +9, Perception +12
+> - **Immunities** Fire, Necrotic
+> - **Senses** Darkvision 60 ft., Passive Perception 22
+> - **Languages** —
+> - **Challenge** 20 (25,000 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +6
+> ___
+>
+> ### Traits
+>
+> ***Head Block.*** If the hydra fails a saving throw, it can choose to destroy an undamaged head. If it does, it succeeds on the saving throw. If it would take half damage on a success, it takes the full damage instead.
+>
+> ***Hold Breath.*** The hydra can hold its breath for 1 hour.
+>
+> ***Magic Resistance.*** The hydra has advantage on saving throws against spells and other magical effects.
+>
+> ***Multiple Heads.*** The hydra has five heads. Whenever the hydra takes 45 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken 15 or more Radiant damage since its last turn. 
+> 
+> The hydra regains 40 hit points when it grows new heads. <br>
+> Whenever the hydra loses a head, it creates a Flameskull Spawn in an unoccupied space within 10 feet of it. The Spawn takes its turn immediately after the hydra that created it and dies 1 minute after being created or when the Flameskull Hydra dies.
+>
+> ***Reactive Heads.*** For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
+>
+> ***Wakeful.*** While the hydra sleeps, at least one of its heads is awake.
+>
+> ### Actions
+>
+> ***Multiattack.*** The hydra makes as many Bite attacks as it has heads.
+>
+> ***Bite.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 10 (1d10 + 5) Piercing damage plus 10 (3d6) Fire damage.
+>
+> ### Skull Magic
+>
+> On Initiative Count 1, any Flameskull Spawns the hydra has created within 60 feet of it can use their reactions to work together to cast one of the following spells. One spawn is designated to cast the spell and concentrate on it (if it requires concentration). The spell save DC is 19. The spell cast depends on the number of spawns participating: (It was referring to heads, I assume you meant spawn? Yes) <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;**1 or more Spawns:** *Magic Missile* (spell level equals the number of Spwans casting) <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;**2 or more Spawns:** *Aspect of Dread** <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;**3 or more Spawns:** *Fireball* <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;**4 or more Spawns:** *Wind of Death** <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;**5 or more Spawns:** *Flame Cage** <br>
+>
+> **New spell described on next page*
+
+</span>
+
+\pagebreakNum
+
+Whenever one of the beast’s gaunt, ebon heads is severed, inner fires erupt and consume the remaining skin and flesh in a matter of heartbeats, leaving behind only a floating skull that drifts through the air and howls with cruel mirth. These skulls unleash deadly incantations of their own, spewing bolts of fire and waves of withering energy.
+
+
+As battle rages, the skies above a Flame Skull Hydra quickly fill with a growing swarm of these cackling, chanting skulls. They circle and weave together, their voices rising into a cacophony of laughter and arcane syllables as they unite their stolen power to hurl great invocations of mass destruction. All the while, the hydra’s remaining necks continue their relentless work: nascent maws burst forth from the stumps, snapping and tearing at anything that dares approach. The two forces create a symphony of carnage that few armies can long endure.
+
+___
+> ## Flameskull Spawn
+> *Small Undead (Minion of Flameskull Hydra), Neutral Evil*
+> ___
+> - **Armor Class** 13  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 33 (6d6+12)
+> - **Speed** 5 ft., Fly 40 ft. (Hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">1</td><td style="background-color:#e0e5c1; text-align:center">−5</td><td style="background-color:#e0e5c1; text-align:center">−5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">17</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">11</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +9, Perception +12
+> - **Immunities** Fire, Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned, Prone
+> - **Senses** Darkvision 60 ft., Passive Perception 22
+> - **Languages** —
+> - **Challenge** 4 (1,100 XP)   &emsp;&emsp;&ensp;   **Proficiency Bonus** +6
+> ___
+>
+> ### Traits
+>
+> ***Illumination.*** The Flameskull Spawn sheds Bright Light in a 15-foot radius and Dim Light for an additional 15 feet.
+>
+> ***Magic Resistance.*** The Flameskull Spawn has advantage on saving throws against spells and other magical effects.
+>
+> ### Actions
+>
+> ***Fire Ray.*** *Melee or Ranged Weapon Attack:* +9 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 13 (3d6 + 3) Fire damage.
+
+</span>
+
+\columnbreak
+
+
+
+#### Aspect of Dread 1.0.3 
+*2nd-level Enchantment (Bard, Sorcerer, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V, S, M (A white feather)
+- **Duration:**  Concentration, up to 1 minute
+___
+
+A wave of terrifying specters spills out from a creature you can see within range in a 10-foot emanation. Every other creature within the emanation must make a Wisdom saving throw or become Frightened of the target for the duration.
+
+A creature Frightened in this way can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself with a success.
+
+***Using a Higher-Level Spell Slot*** The emanation increases by 10 feet for each slot level above 3rd.
+
+#### Flame Cage 1.0.0
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S, M (A small piece of phosphorus)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Wizard
+
+You choose a point on a solid surface within range, causing a cage made of opaque flames in the shape of a cube to appear. The cube can be up to 30 feet on each side, and it lasts for the duration. 
+
+**Creatures Caught Partially Within the Cage.** When the cage is created, creatures only partially within the cube's area, or those too large to fit inside the area, must choose to be pushed away from the center of the area until they are completely outside the area or move into the cage if they can fit. 
+
+**Creatures In The Cage When It Forms.** Any creature fully within the cage when it forms (including those that chose to move inside it) must make a Dexterity saving throw. A target takes 7d8 fire damage on a failed save, or half as much damage on a successful one. 
+
+**Moving Through The Cage.** A creature takes the 7d8 fire damage when it passes through a side of the cube for the first time on a turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d8 for each slot level above 6th.
+
+#### Wind of Death 1.1.1
+*5th-level Necromancy (Cleric)*
+___
+- **Casting Time:** 1 Action
+- **Range:** Self
+- **Components:** V, S, M (A owl feather)
+- **Duration:**  Instantaneous
+___
+
+You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 5d6 Cold damage and 5d6 Necrotic damage on a failed save, and half as much on a success.
+
+***Using a Higher-Level Spell Slot.*** The Cold damage and the Necrotic damage increase by 1d6 for each spell slot level above 5.
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
