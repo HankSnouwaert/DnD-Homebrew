@@ -1,0 +1,395 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p2:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Fel Dwarf Harridans
+*Spiteful Old Dwarf Women Serving as <br> Berserkers & Bodyguards*<br>
+**Habitat:** Desert, Mountain, Underdark, Urban, Volcanic; **Treasure:** Armaments <br>
+
+Within the merciless society of the Fel Dwarfs, females are afforded little care or respect. Their status is only above the countless throngs of slaves gathered by their dark empire. Their sole purpose is to bear children, with all their material needs met by thralls and fel goblins. Companionship among the male dwarves is viewed as weakness. As a result, Fel Dwarf women live miserable, sequestered lives, kept far from the plots and schemes of their male counterparts.
+
+This isolation lasts until they reach an age where they are no longer fertile and thus hold no further value to their kind. At that point, most are discarded. Many are sacrificed on altars by their own sons to the malevolent gods of their race, while others are sent to labor alongside the other captives, toiling until they break and fade away with the rest of the broken souls.
+
+Some of these aged women, however, choose a violent end. They unleash the bitterness accumulated over a lifetime of subjugation upon the enemies of the Fel Dwarfs, proving their worth to the evil gods even in their final years. Taking up great iron mauls, they become known as Harridans.
+
+On the battlefield, these aged battle-maidens wear little to no armor and display a fearlessness unmatched by any other of their kind. As a Harridan draws nearer to death, her ferocity only grows. Many Demon Smiths and Ash Sworn Elders are accompanied by one or two of these savage warriors, for the Harridans are all too ready to intercept any attack made against high-ranking officers without hesitation, and they deliver swift vengeance against those who would dare strike at such figures.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br>
+
+Even after suffering brutal treatment at the hands of the very society fashioned by these vile spellcasters, Harridans remain unquestioningly devoted to the empire, so much so that many burn out their own tongues to ensure they can never question their orders.
+
+Such is the dark tragedy of these berserkers.
+
+<br>
+
+> ##### New Condition: Resolute
+> The creature stubbornly digs in to weather any assault. It experiences the following effects:
+>  * Attack rolls made against the creature have disadvantage.
+>  * The creature can't take its move action on its turn.
+> * The creature makes Strength checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage.
+> 
+> The condition ends if an effect moves the creature against its will, knocks it prone, or the creature becomes charmed, frightened, or incapacitated. A creature that is prone, charmed, frightened, or incapacitated can't become Resolute.
+
+
+
+
+___
+___
+> ## Fel Dwarf Harridan
+> *Medium Humanoid (Dwarf), Party, Lawful Evil*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 42 (5d8 + 20)
+> - **Speed** 25 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Intimidation +4, Perception +2
+> - **Resistances** Fire, Poison
+> - **Gear** Maul
+> - **Senses** Darkvision 60 ft., Passive Perception 12
+> - **Languages** Dwarvish, Infernal
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Vexed.*** While the dwarf is Bloodied, it can move even while Resolute* and has Immunity to being Charmed and Frightened.
+>
+> ### Actions
+>
+> ***Maul.*** *Melee Weapon Attack:* +5 to hit (with advantage if it is an opportunity attack), reach 5 ft., one target. *Hit:* 17 (4d6 + 3) Bludgeoning damage, or 24 (6d6 + 3) Bludgeoning damage if the dwarf is Bloodied. If the damage reduces the target to 0 hit points, that creature is Stunned for the next minute.
+>
+> ### Bonus Actions
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it becomes Resolute* until the start of its next turn.
+>
+> ### Reactions
+>
+> ***Redirect Attack.*** *Trigger:* A creature the dwarf can see makes an attack roll against an ally within 5 feet of the dwarf. <br>
+> *Response:* The dwarf and that ally swap places, and the dwarf becomes the target of the attack instead.
+>
+> **New condition described above*
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Fel Dwarf Viragos
+The most effective Harridans, those who prove exceptional at safeguarding the hierarchy of the dark clergy and the lords who rule the city-states, may be elevated to the rank of Virago. Only those with the quickest reflexes and sharpest instincts have any chance of selection. Most earn this honor by saving their master from death, intercepting a well-placed arrow or bullet.
+
+Such a step in rank comes with even greater trials. Demon Smiths subject these candidates to forbidden alchemy and sacrilegious surgeries to further heighten their reflexes. Those who survive emerge as spry, deadly creatures, gliding across the battlefield, effortlessly sidestepping projectiles only to pin down foes and deny them any chance of escape from their wrath.
+
+#### Harridan & Virago Tactics
+Harridans act as bodyguards, staying close to spellcasters and ranged artillery. They use their Redirect ability to absorb as much damage as possible until they become Bloodied, at which point they rush forward to attack.
+
+Viragos excel at blocking and intercepting ranged attacks, aggressively pursuing enemy ranged units to prevent them from disengaging.
+
+### Fel Dwarf Hell Brides
+Even among the oppressed female population, the craving for power and domination still burns. While most females who defy their assigned place suffer punishments so vile they wish for death, a few take the risk. These ambitious women seek out forbidden dark magic and attempt to reach beyond the veil to make pacts with entities that might free them from servitude.
+
+Most fail, either discovered and brutally disciplined or consumed by the treacherous forces they try to command. But a rare few, wicked and sadistic enough, manage to gain the favor of a devil or malevolent god. These scheming matrons ascend and become Hell Brides.
+
+Hell Brides can imbue themselves with unholy magic, granting them the power to split the earth asunder, snap an orc’s neck with their bare hands, and shrug off weapon blows as if their skin were stone. Though hated by the rest of Fel Dwarf society, with Demon Smiths and Ash Sworn constantly plotting their downfall, the raw power and divine favor Hell Brides command allow them to carve out status within the clergy and avoid open conflict.
+
+With the influence they consolidate, Hell Brides become fearsome warlords, all too eager to inflict their accumulated misery upon their foes. They cause the earth to buckle and break beneath their enemies while pushing their own troops beyond their limits, absorbing their pain and forcing them to fight on even as death tries to claim them.
+
+Like all Fel Dwarf magic, the infernal power comes at a terrible cost. The sorcery slowly turns the Hell Bride’s body to stone. Yet their spite is so great that they force the petrified flesh to burn molten. When petrification finally takes full hold, they do not become lifeless statues like their male counterparts. Instead, the hateful inferno within causes their calcified bodies to erupt in a catastrophic explosion of molten rock. When a Hell Bride senses her end approaching, there is no greater sadistic joy than dragging as many souls as possible with her in a final wave of searing stone.
+
+#### Fel Dwarf Hell Bride Tactics
+Fel Dwarf Hell Brides cast Earth Rupture and use Absorb Pain until they are Bloodied, at which point they will use Molten Infusion and start attacking targets. They will move into the largest group of enemies once they reach 2 levels of Petrification. 
+
+___
+___
+> ## Fel Dwarf Virago
+> *Medium Humanoid (Dwarf), Party, Lawful Evil*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 52 (7d8 + 28)
+> - **Speed** 35 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Intimidation +4, Perception +2
+> - **Resistances** Fire, Poison; damage from ranged attacks while the dwarf is Resolute
+> - **Gear** Maul
+> - **Senses** Darkvision 60 ft., Passive Perception 12
+> - **Languages** Dwarvish, Infernal
+> - **Challenge** 4 (1,100 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Vexed.*** While the dwarf is Bloodied, it can move even while Resolute* and has Immunity to being Charmed and Frightened.
+>
+> ### Actions
+>
+> ***Impeding Maul.*** *Melee Weapon Attack:* +5 to hit (with advantage if it is an opportunity attack), reach 5 ft., one target. *Hit:* 18 (4d6 + 4) Bludgeoning damage, or 25 (6d6 + 4) Bludgeoning damage if the dwarf is Bloodied. Regardless, the target also can't take the Disengage or Dodge action on its next turn. If the damage reduces the target to 0 hit points, that creature is Stunned for the next minute.
+>
+> ### Bonus Actions
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it becomes Resolute* until the start of its next turn.
+>
+> ### Reactions
+>
+> ***Redirect Attack.*** *Trigger:* A creature the dwarf can see makes an attack roll against an ally within 5 feet of the dwarf. <br>
+> *Response:* The dwarf and that ally swap places, and the dwarf becomes the target of the attack instead.
+>
+> **New condition described on first page*
+
+</span>
+
+\pagebreakNum
+
+#### New Spell: Earthen Rupture
+*4th-level Evocation (Druid)*
+___
+- **Casting Time:** Action
+- **Range:** Self (60-foot Line)
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**  Druid
+
+You rend asunder the earth in a 5-foot-wide line up to 60 feet long. Creatures touching the ground in the area must make a Strength saving throw. On a failed save, they take 4d6 Bludgeoning damage and fall Prone. On a successful save, they take half as much damage and don't fall Prone. Large or larger objects and structures in the area automatically fail the save and take twice as much damage. 
+
+The ground in the area becomes Difficult Terrain until cleared. Each 5-foot-square portion requires at least 1 minute to clear by hand.
+
+**Earthen Pillar.** A pillar of stone bursts from the ground centered on the far end of the line. The pillar has a diameter of 5 feet and a height of up to 40 feet. The ground where the pillar appears must be wide enough for its diameter, otherwise, it doesn't appear. The pillar has AC equal to your spell save DC and 25 hit points. When reduced to 0 hit points, the pillar crumbles into rubble, creating an area of Difficult Terrain with a 10-foot radius that lasts until cleared.
+
+**Creatures Caught On The Pillar.** If the pillar is created beneath a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail this save.
+
+If the pillar is prevented from reaching its full height by a ceiling or other obstacle, a creature on the pillar takes 3d6 Bludgeoning damage and is Restrained, pinched between the pillar and the obstacle. The Restrained creature can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, the creature is no longer Restrained and must either move off the pillar or fall from it.
+
+***Using a Higher-Level Spell Slot.*** The damage of both effects increases by 1d6 for each slot level above 4th.
+
+___
+___
+> ## Fel Dwarf Hell Bride
+> *Medium Humanoid (Dwarf), Mini-Boss, Lawful Evil*
+> ___
+> - **Armor Class** 17  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +5 (15)
+> - **Hit Points** 85 (10d8 + 40)
+> - **Speed** 35 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +8, Intimidation +7, Perception +5
+> - **Resistances** Fire, Poison; damage from ranged attacks while the dwarf is Resolute
+> - **Gear** Maul
+> - **Senses** Darkvision 60 ft., Passive Perception 15
+> - **Languages** Dwarvish, Infernal
+> - **Challenge** 7 (2,900 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Vexed.*** While the dwarf is Bloodied, it can move even while Resolute* and has Immunity to being Charmed and Frightened.
+>
+> ***Aura of Fanaticism.*** The dwarf radiates an invisible protective aura in a 30-foot radius. The aura is inactive while the dwarf is Incapacitated. Whenever the dwarf or an ally within the aura takes damage of 15 or less that would reduce it to 0 hit points while it is Resolute, it is reduced to 1 hit point instead.
+>
+> ***Molten Infusion.*** At the start of the dwarf's turn, it can choose to gain 30 temporary hit points that last for one minute. If it does, it gains one level of Petrification, its speed is reduced by 5 feet, and its AC increases by 1. If the dwarf accumulates three or more levels of Petrification, it turns to molten rock and explodes, dying. *Dexterity Saving Throw:* DC 16, each creature in a 20-foot Emanation originating from the dwarf. <br>
+> *Failure:* The target takes 14 (4d6) Fire damage and 14 (4d6) Bludgeoning damage. <br>
+> *Success:* The target takes half damage.
+>
+> ### Actions
+>
+> ***Impeding Maul.*** *Melee Weapon Attack:* +8 to hit (with advantage if it is an opportunity attack), reach 5 ft., one target. *Hit:* 19 (4d6 + 5) Bludgeoning damage, plus 11 (2d10) Fire damage for each level of Petrification the dwarf has. Regardless, the target also can't take the Disengage or Dodge action on its next turn. If the damage reduces the target to 0 hit points, that creature is Stunned for the next minute.
+>
+> ***Spellcasting.*** The dwarf is a spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It knows the following spells: <br>
+> **4th Level (3 Slots):** *Earthen Rupture*** <br>
+>
+> ### Bonus Actions
+>
+> ***Resolute Stance.*** At the start of the dwarf's turn, it becomes Resolute* until the start of its next turn.
+>
+> ### Reactions
+>
+> ***Absorb Pain.*** *Trigger:* A creature the dwarf can see within 30 feet takes damage. <br>
+> *Response:* The dwarf magically takes half the damage instead of that creature taking the full damage. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any other way.
+>
+> **New condition described on first page* <br>
+> ***New spell described above*
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
