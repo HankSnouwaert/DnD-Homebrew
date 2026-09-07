@@ -1,0 +1,252 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Captains <br> & Generals
+*Experienced Martial Commanders <br> & Military Tactitions*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+It is not enough to merely have a sea of <br> armed warriors united under one cause <br> to fashion an army. Such rabble must <br> be guided to amplify the effectiveness <br> of each soldier so that the whole <br> becomes more than the sum of its parts, <br> with each man-at-arms sorted to where <br> their unique skills will deliver the most <br> potent effect. Overseeing such an <br> undertaking and keeping the masses in <br> unison with one another are the <br> captains. The greatest of these men <br> send out orders to subordinates with as <br> much control as a man might swing his <br> arm to swat a fly. 
+
+<br>
+
+
+\columnbreak
+
+___
+___
+> ## Captain
+> *Medium Humanoid (Any Race), Mini-Boss, Any Alignment*
+> ___
+> - **Armor Class** 17 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +9 (19)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, History +4, Intimidation +5, Perception +5, Persuasion +5
+> - **Gear** Splint, Greatsword, Pistols
+> - **Senses** Passive Perception 15
+> - **Languages** Any two languages
+> - **Challenge** 5 (1,800 XP)  &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Hold the Line! (2/Day).*** While the captain is not Incapacitated, when it or an allied creature within 30 feet of it that can hear it makes a saving throw, that creature and each other allied creature also making the saving throw against the same effect have advantage. If the effect allows a creature to take only half damage on a success, it instead takes no damage on a success and only half damage on a failure. Additionally, if damage from the effect would reduce a creature to 0 hit points, it drops to 1 hit point instead.
+>
+> ### Actions
+>
+> ***Multiattack.*** The captain makes two attacks.
+>
+> ***Versatile Greatsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) Slashing damage. The captain chooses one of the following effects that it has not chosen yet this turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Disrupt.*** Creatures making a concentration save as a result of this damage have disadvantage on the save. Additionally, if the creature attempts to cast a spell of 1st level or higher before the captain's next turn, it must make a *Constitution Saving Throw:* DC 14. On a failure, the spell dissipates with no effect, and the action, Bonus Action, or reaction used to cast it is wasted. If that spell was cast with a spell slot or other resource, the slot or resource isn't expended. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Vex.*** The creature has disadvantage on its next attack roll before the start of the captain's next turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Expose.*** The next attack roll made against this target before the end of the captain's next turn has advantage.
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +6 to hit, range 30/90 ft., one target. *Hit:* 10 (2d6 + 3) Piercing damage. The captain has four pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ***Maneuver Allies (Recharges when Initiative is Rolled).*** The captain and up to six other allies within 60 feet of it that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.
+>
+> ### Bonus Actions
+>
+> ***Battle Command.*** The captain targets one ally it can see within 30 feet of it. If the target can see or hear the captain, the target can use its reaction to move up to half its speed without provoking opportunity attacks. It can then make a single attack.
+
+</span>
+
+___
+___
+> ## General
+> *Medium Humanoid (Any Race), Mini-Boss, Any Alignment*
+> ___
+> - **Armor Class** 18    **Initiative** +9 (19)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, History +4, Intimidation +5, Perception +5, Persuasion +5
+> - **Gear** Plate, Greatsword, Pistols
+> - **Senses** Passive Perception 15
+> - **Languages** Any two languages
+> - **Challenge** 7 (2,900 XP)      **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Hold the Line! (3/Day).*** While the General is not Incapacitated, when it or an allied creature within 30 feet of it that can hear it makes a saving throw, that creature and each other allied creature also making the saving throw against the same effect have advantage. If the effect allows a creature to take only half damage on a success, it instead takes no damage on a success and only half damage on a failure. Additionally, if damage from the effect would reduce a creature to 0 hit points, it drops to 1 hit point instead.
+>
+> ### Actions
+>
+> ***Multiattack.*** The General makes two attacks.
+>
+> ***Versatile Greatsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (4d6 + 4) Slashing damage. The General chooses one of the following effects that it has not chosen yet this turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Disrupt.*** Creatures making a concentration save as a result of this damage have disadvantage on the save. Additionally, if the creature attempts to cast a spell of 1st level or higher before the General's next turn, it must make a *Constitution Saving Throw:* DC 15. On a failure, the spell dissipates with no effect, and the action, Bonus Action, or reaction used to cast it is wasted. If that spell was cast with a spell slot or other resource, the slot or resource isn't expended. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Vex.*** The creature has disadvantage on its next attack roll before the start of the General's next turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Expose.*** The next attack roll made against this target before the end of the General's next turn has advantage.
+>
+> ***Maneuver Allies (Recharges when Initiative is Rolled).*** The General and up to six other allies within 60 feet of it that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +6 to hit, range 30/90 ft., one target. *Hit:* 13 (3d6 + 3) Piercing damage. The General has four pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ### Bonus Actions
+>
+> ***Empowered Battle Command.*** The General targets one ally it can see within 30 feet of it. If the target can see or hear the General, the target can use its reaction to move up to half its speed without provoking opportunity attacks. It can then make a single attack. If the attack hits, it deals an extra 7 (2d6) damage.
+
+</span>
+
+</span>
+
+<img src='https://i.postimg.cc/SRF3QVbx/commander-mustard.jpg' style='position:absolute; top:-70px; right:-120px; width:760px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:154px;top:-140px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-55px;top:110px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:13px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+Such figures of authority rise up from all walks of life to take up this eminent and demanding role. Many are nobility, steeped in martial pursuits from a young age, mastering the art of the blade and tutored in a variety of tactics. Others started out with the rest of the rank and file as common troopers, only to crawl their way up the ladder of command through serving in countless battles, performing acts of valor, and showing an aptitude for promoting loyalty in their companions.
+
+When on the battlefield, such men are as birds taking to the air, deftly maneuvering through the tides of chaos and death, directing regiments through the turbulence to crash against foes where they are most vulnerable. Most leaders fight from the front line, shoulder to shoulder where the conflict is most vigorous, dispatching foes with precision strikes all the while carrying out their duties of directing those around them. 
+
+\columnbreak
+
+Such presence strengthens the allegiances of his allies so they are able to endure even as all hope of victory seems to have slipped away. So powerful is this bond that the inspiring sight of a leader standing his ground when bombarded by all manner of deadly projectiles can be the difference between a battle line breaking or such forces withstanding the punishment.
+
+### Captains and Generals Tactics
+Captains and generals should always be paired with at least six other creatures to reach their full potential. Their tactics depend on allies who bolster them with extra attacks and enable them to reposition those allies where they’re needed most.
+
+#### Captains & Generals Art Credit
+* Commander Mustard  - Jake Murray, Wizards of the Coast
+
+___
+___
+> ## General
+> *Medium Humanoid (Any Race), Mini-Boss, Any Alignment*
+> ___
+> - **Armor Class** 18  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +9 (19)
+> - **Hit Points**  93 (11d8+44)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, History +5, Intimidation +6, Perception +5, Persuasion +6
+> - **Gear** Plate, Greatsword, Pistols
+> - **Senses** Passive Perception 15
+> - **Languages** Any two languages
+> - **Challenge** 7 (2,900 XP)&emsp;&emsp;&emsp;&emsp;&ensp;**Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Hold the Line! (3/Day).*** While the general is not Incapacitated, when it or an allied creature within 30 feet of it that can hear it makes a saving throw, that creature and each other allied creature also making the saving throw against the same effect have advantage. If the effect allows a creature to take only half damage on a success, it instead takes no damage on a success and only half damage on a failure. Additionally, if damage from the effect would reduce a creature to 0 hit points, it drops to 1 hit point instead.
+>
+> ### Actions
+>
+> ***Multiattack.*** The general makes two attacks.
+>
+> ***Versatile Greatsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (4d6 + 4) Slashing damage. The general chooses one of the following effects that it has not chosen yet this turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Disrupt.*** Creatures making a concentration save as a result of this damage have disadvantage on the save. Additionally, if the creature attempts to cast a spell of 1st level or higher before the general's next turn, it must make a *Constitution Saving Throw:* DC 15. On a failure, the spell dissipates with no effect, and the action, Bonus Action, or reaction used to cast it is wasted. If that spell was cast with a spell slot or other resource, the slot or resource isn't expended. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Vex.*** The creature has disadvantage on its next attack roll before the start of the general's next turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Expose.*** The next attack roll made against this target before the end of the general's next turn has advantage.
+>
+> ***Maneuver Allies (Recharges when Initiative is Rolled).*** The general and up to six other allies within 60 feet of it that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +6 to hit, range 30/90 ft., one target. *Hit:* 13 (3d6 + 3) Piercing damage. The general has four pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ### Bonus Actions
+>
+> ***Empowered Battle Command.*** The general targets one ally it can see within 30 feet of it. If the target can see or hear the general, the target can use its reaction to move up to half its speed without provoking opportunity attacks. It can then make a single attack. If the attack hits, it deals an extra 7 (2d6) damage.
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0 
+* Document release
