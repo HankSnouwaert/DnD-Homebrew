@@ -21,7 +21,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p4:after, .phb#p5:after, .phb#p7:after, .phb#p15:after, .phb#p19:after, .phb#p21:after, .phb#p22:after, .phb#p24:after, .phb#p25:after, .phb#p26:after, .phb#p28:after, .phb#p32:after, .phb#p34:after, .phb#p35:after, .phb#p36:after, .phb#p37:after, .phb#p40:after, .phb#p47:after, .phb#p53:after, .phb#p54:after, .phb#p58:after, .phb#p59:after, .phb#p60:after, .phb#p62:after, .phb#p63:after, .phb#p66:after, .phb#p68:after, .phb#p69:after, .phb#p72:after, .phb#p78:after, .phb#p79:after, .phb#p81:after, .phb#p84:after, .phb#p86:after, .phb#p87:after, .phb#p88:after, .phb#p89:after    {
+    .phb#p2:after, .phb#p3:after, .phb#p5:after, .phb#p6:after, .phb#p8:after, .phb#p9:after, .phb#p11:after, .phb#p13:after, .phb#p23:after, .phb#p27:after, .phb#p29:after, .phb#p32:after, .phb#p33:after, .phb#p34:after, .phb#p36:after, .phb#p41:after, .phb#p43:after, .phb#p44:after, .phb#p47:after, .phb#p49:after, .phb#p50:after, .phb#p51:after, .phb#p52:after, .phb#p55:after, .phb#p62:after, .phb#p63:after, .phb#p68:after, .phb#p69:after, .phb#p73:after, .phb#p76:after, .phb#p78:after, .phb#p80:after, .phb#p82:after, .phb#p83:after, .phb#p86:after, .phb#p88:after, .phb#p89:after, .phb#p93:after, .phb#p95:after, .phb#p100:after, .phb#p106:after, .phb#p107:after, .phb#p109:after, .phb#p112:after, .phb#p114:after, .phb#p115:after, .phb#p116:after, .phb#p117:after     {
         display          : none;
     }
     /* End Footers */
@@ -49,7 +49,7 @@
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-# Fel Dwarf Compendium
+# Fel Dwarf Compendium 4.0
 
 The Fel Dwarves are a cruel and pitiless race, their hearts blackened by centuries of tyranny, conquest, and infernal corruption. Once noble kin to other dwarves, they long ago severed all ties to honor, embracing fiendish sorcery and ruthless industry. Now, they stand as brutal overlords, ruling through fear, slavery, and an insatiable hunger for power. To them, strength is law, cruelty is virtue, and conquest is purpose.
 
@@ -73,7 +73,7 @@ Yet they do not fear collapse. They welcome destruction, believing that in the e
 src='https://i.ibb.co/D9M4rT0/runeforge-champion.png'
 style='position:absolute;top:-25px;left:-3px;width:819px;transform: scaleX(1)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:203px; right:7px; width:900px; transform:rotate(10deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:200px; right:7px; width:900px; transform:rotate(10deg)' />
 
 <img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:270px; right:-150px; width:900px; transform:rotate(00deg)' />
 
@@ -84,108 +84,173 @@ style='position:absolute;top:-25px;left:-3px;width:819px;transform: scaleX(1)' /
 <div class='toc'>
 
 - ## Table of Contents
-    - [<span>3</span><span>Running Fel Dwarf Encounters</span>](#p3)
-  - ### [<span>5</span><span>New Fel Dwarf Weapons</span>](#p5)
-    - [<span>5</span><span>Blunderbuss</span>](#p5)
-    - [<span>5</span><span>Fire Glaive</span>](#p5)
-  - ### [<span>6</span><span>New Spells</span>](#p6)
-  - #### [<span>6</span><span>Lore of Death</span>](#p6)
-    - [<span>6</span><span>Aspect of Dread</span>](#p6)
-    - [<span>6</span><span>Crippling Pain</span>](#p6)
-    - [<span>6</span><span>Horrifying Laughter</span>](#p6)
-    - [<span>7</span><span>Impending Doom</span>](#p7)
-    - [<span>7</span><span>Purple Sun</span>](#p7)
-    - [<span>7</span><span>Spirit Leech</span>](#p7)
-    - [<span>7</span><span>Wind of Death</span>](#p7)
-  - #### [<span>8</span><span>Lore of Fire</span>](#p8)
-    - [<span>8</span><span>Burning Bolts</span>](#p8)
-    - [<span>8</span><span>Burning Head</span>](#p9)
-    - [<span>9</span><span>Conflagration</span>](#p9)
-    - [<span>9</span><span>Flame Arrows</span>](#p9)
-    - [<span>9</span><span>Flame Blade</span>](#p9)
-    - [<span>9</span><span>Flame Cage</span>](#p9)
-  - #### [<span>10</span><span>Lore of Fel Dwarves</span>](#p10)
-    - [<span>10</span><span>Ash Storm</span>](#p10)
-    - [<span>10</span><span>Breath of Hatred</span>](#p10)
-    - [<span>11</span><span>Curse of Stone</span>](#p11)
-    - [<span>11</span><span>Divine Hammer</span>](#p11)
-    - [<span>11</span><span>Elemental Bane</span>](#p11)
-    - [<span>11</span><span>Eruption</span>](#p11)
-    - [<span>12</span><span>Hellfire Weapon</span>](#p12)
-    - [<span>12</span><span>Magmatic Stone</span>](#p6)
-    - [<span>12</span><span>Subjugation</span>](#p12)
-  - #### [<span>13</span><span>Lore of Metal</span>](#p13)
-    - [<span>13</span><span>Commandment of Inertia</span>](#p13)
-    - [<span>13</span><span>Final Transmutation</span>](#p13)
-    - [<span>14</span><span>Hunting Hound</span>](#p14)
-    - [<span>14</span><span>Law of Negation</span>](#p14)
-    - [<span>14</span><span>Metal Coat</span>](#p14)
-    - [<span>15</span><span>Molten Silver</span>](#p15)
-    - [<span>15</span><span>Plague of Rust</span>](#p15)
-    - [<span>15</span><span>Searing Shard</span>](#p15)
-    - [<span>15</span><span>Transmutation of Lead</span>](#p15)
-  - #### [<span>16</span><span>Lore of Shadow</span>](#p16)
-    - [<span>16</span><span>Creeping Strike</span>](#p16)
-    - [<span>16</span><span>Mindrazors</span>](#p16)
-    - [<span>16</span><span>Mirror Dance</span>](#p16)
-    - [<span>16</span><span>Mystifying Miasma</span>](#p16)
-    - [<span>17</span><span>Penumbral Pendulum</span>](#p17)
-    - [<span>17</span><span>Pit of Shadows</span>](#p17)
-    - [<span>17</span><span>Shroud of Dusk</span>](#p17)
-    - [<span>17</span><span>Unseen Lurker</span>](#p17)
-    - [<span>17</span><span>Withering Resolve</span>](#p17)
-  - ### [<span>18</span><span>Fel Dwarf Forces</span>](#p18)
-    - #### [<span>18</span><span>Ashragoth Ironfist</span>](#p18)
-        - [<span>20</span><span>Ashragoth Ironfist</span>](#p20)
-    - #### [<span>23</span><span>Bull Centaurs</span>](#p23)
-        - [<span>24</span><span>Bull Centaur Warrior</span>](#p24)
-        - [<span>24</span><span>Bull Centaur Render</span>](#p24)
-        - [<span>25</span><span>Bull Centaur Guardian</span>](#p25)
-        - [<span>26</span><span>Bull Centaur Ravager</span>](#p26)
-        - [<span>27</span><span>Bull Centaur Khan</span>](#p27)
-    - #### [<span>30</span><span>Fel Dwarf Daemonsmiths</span>](#p30)
-        - [<span>32</span><span>Fel Dwarf Daemonsmith Apprentice</span>](#p32)
-        - [<span>34</span><span>Fel Dwarf Daemonsmith</span>](#p34)
-        - [<span>36</span><span>Fel Dwarf Daemonsmith-Prophet</span>](#p36)
-    - #### [<span>40</span><span>Fel Dwarf Engineers</span>](#p40)
-        - [<span>40</span><span>Fel Dwarf Engineer</span>](#p40)
-    - #### [<span>41</span><span>Fel Dwarf Soldiers</span>](#p41)
-        - [<span>42</span><span>Fel Dwarf Warrior</span>](#p42)
-        - [<span>43</span><span>Fel Dwarf Burning Beard Warrior</span>](#p43)
-        - [<span>44</span><span>Fel Dwarf Blunderbussier</span>](#p44)
-        - [<span>45</span><span>Fel Dwarf Granite Gunman</span>](#p45)
-        - [<span>46</span><span>Fel Dwarf Infernal Vanguard, Axeman</span>](#p46)
-        - [<span>47</span><span>Fel Dwarf Infernal Vanguard, Fireglaivadier</span>](#p47)
-        - [<span>48</span><span>Fel Dwarf Infernal Hellsworn</span>](#p48)
-        - [<span>49</span><span>Fel Dwarf Immortal</span>](#p49)
-        - [<span>50</span><span>Fel Dwarf Overseer</span>](#p50)
-        - [<span>51</span><span>Fel Dwarf Castellan</span>](#p51)
-    - #### [<span>57</span><span>Fel Lammasus</span>](#p57)
-        - [<span>58</span><span>Fel Lammasu</span>](#p58)
-    - #### [<span>61</span><span>Infernal Destroyers</span>](#p61)
-        - [<span>62</span><span>Infernal Destroyer</span>](#p62)
-    - #### [<span>65</span><span>Infernal Fireborn</span>](#p65)
-        - [<span>66</span><span>Infernal Fireborn</span>](#p66)
-    - #### [<span>67</span><span>Infernal Taurus</span>](#p67)
-        - [<span>68</span><span>Infernal Taurus</span>](#p68)
-        - [<span>69</span><span>Baleful Taurus</span>](#p69)
-    - #### [<span>71</span><span>Zhartahn, The Dark</span>](#p71)
-        - [<span>73</span><span>Zhartahn, The Dark</span>](#p73)
-        - [<span>74</span><span>Abarzug, the Tormenter</span>](#p74)
-  - ### [<span>77</span><span>Self-Propelled Vehicles</span>](#p77)
-    - [<span>77</span><span>Self-Propelled Vehicle Rules</span>](#p77)
-    - [<span>78</span><span>Self-Propelled Vehicle Attributes</span>](#p78)
-  - ### [<span>80</span><span>Siege Weapons</span>](#p80)
-    - [<span>80</span><span>Repairing Weapons</span>](#p80)
-    - [<span>80</span><span>Siege Weapon Attributes</span>](#p80)
-  - ### [<span>82</span><span>Fel Dwarf War Machines</span>](#p82)
-    - [<span>82</span><span>Iron Demons</span>](#p82)
-    - [<span>84</span><span>Burning Steam Cannon</span>](#p84)
-    - [<span>85</span><span>Deathscreecher Rocket</span>](#p85)
-    - [<span>85</span><span>Doomquake Mortar</span>](#p85)
-    - [<span>86</span><span>Magma Cannon</span>](#p86)
-    - [<span>87</span><span>Possessed Variants</span>](#p87)
-    - [<span>89</span><span>War Machine Loot</span>](#p89)
+    - [<span>4</span><span>Running Fel Dwarf Encounters</span>](#p4)
+  - ### [<span>6</span><span>New Fel Dwarf Weapons</span>](#p6)
+    - [<span>6</span><span>Blunderbuss</span>](#p6)
+    - [<span>6</span><span>Fire Glaive</span>](#p6)
+  - ### [<span>7</span><span>Fel Dwarf Magic Items</span>](#p7)
+    - [<span>7</span><span>Ashen Hammer</span>](#p7)
+    - [<span>7</span><span>Blade of Malice</span>](#p7)
+    - [<span>8</span><span>Blasting Charge</span>](#p8)
+    - [<span>8</span><span>Chalice of Chaos</span>](#p8)
+    - [<span>8</span><span>Dark Mace</span>](#p8)
+    - [<span>9</span><span>Graven Star</span>](#p9)
+    - [<span>9</span><span>Hellshard Amulet</span>](#p9)
+    - [<span>9</span><span>Infernal Round</span>](#p9)
+    - [<span>10</span><span>Intractable Armor</span>](#p10)
+    - [<span>10</span><span>Mask of the Hellforge</span>](#p10)
+    - [<span>10</span><span>Molten Round</span>](#p10)
+    - [<span>11</span><span>Naphtha Bomb</span>](#p11)
+    - [<span>11</span><span>Stone Mantle</span>](#p11)
+  - ### [<span>12</span><span>New Spells</span>](#p12)
+  - #### [<span>12</span><span>Lore of Death</span>](#p12)
+    - [<span>12</span><span>Aspect of Dread</span>](#p12)
+    - [<span>12</span><span>Crippling Pain</span>](#p12)
+    - [<span>12</span><span>Horrifying Laughter</span>](#p12)
+    - [<span>13</span><span>Impending Doom</span>](#p13)
+    - [<span>13</span><span>Purple Sun</span>](#p13)
+    - [<span>13</span><span>Spirit Leech</span>](#p13)
+    - [<span>13</span><span>Wind of Death</span>](#p13)
+
+\columnbreak  
+
+- #### [<span>14</span><span>Lore of Fire</span>](#p14)
+    - [<span>14</span><span>Burning Bolts</span>](#p14)
+    - [<span>14</span><span>Burning Head</span>](#p14)
+    - [<span>15</span><span>Conflagration</span>](#p15)
+    - [<span>15</span><span>Flame Arrows</span>](#p15)
+    - [<span>15</span><span>Flame Blade</span>](#p15)
+    - [<span>15</span><span>Flame Cage</span>](#p15)
+  - #### [<span>16</span><span>Lore of Fel Dwarves</span>](#p16)
+    - [<span>16</span><span>Ash Storm</span>](#p16)
+    - [<span>16</span><span>Bellows Breath</span>](#p16)
+    - [<span>17</span><span>Breath of Hatred</span>](#p17)
+    - [<span>17</span><span>Curse of Stone</span>](#p17)
+    - [<span>17</span><span>Divine Hammer</span>](#p17)
+    - [<span>18</span><span>Eruption</span>](#p18)
+    - [<span>18</span><span>Earthen Rupture</span>](#p18)
+    - [<span>19</span><span>Elemental Bane</span>](#p19)
+    - [<span>19</span><span>Hellfire Weapon</span>](#p19)
+    - [<span>19</span><span>Hellish Spheres</span>](#p19)
+    - [<span>19</span><span>Magmatic Stone</span>](#p19)
+    - [<span>20</span><span>Molten Grasp</span>](#p20)
+    - [<span>20</span><span>Shard Storm</span>](#p20)
+    - [<span>20</span><span>Subjugation</span>](#p20)
+  - #### [<span>21</span><span>Lore of Metal</span>](#p21)
+    - [<span>21</span><span>Commandment of Inertia</span>](#p21)
+    - [<span>21</span><span>Final Transmutation</span>](#p21)
+    - [<span>22</span><span>Hunting Hound</span>](#p22)
+    - [<span>22</span><span>Law of Negation</span>](#p22)
+    - [<span>22</span><span>Metal Coat</span>](#p22)
+    - [<span>23</span><span>Molten Silver</span>](#p23)
+    - [<span>23</span><span>Plague of Rust</span>](#p23)
+    - [<span>23</span><span>Searing Shard</span>](#p23)
+    - [<span>23</span><span>Transmutation of Lead</span>](#p23)
+  - #### [<span>24</span><span>Lore of Shadow</span>](#p24)
+    - [<span>24</span><span>Creeping Strike</span>](#p24)
+    - [<span>24</span><span>Mindrazors</span>](#p24)
+    - [<span>24</span><span>Mirror Dance</span>](#p24)
+    - [<span>24</span><span>Mystifying Miasma</span>](#p24)
+    - [<span>25</span><span>Penumbral Pendulum</span>](#p25)
+    - [<span>25</span><span>Pit of Shadows</span>](#p25)
+    - [<span>25</span><span>Shroud of Dusk</span>](#p25)
+    - [<span>25</span><span>Unseen Lurker</span>](#p25)
+    - [<span>25</span><span>Withering Resolve</span>](#p25)
+
+<div align="right">
+
+<div style='margin-top:55px;'></div>
+
+</div>
+
+</div>
+
+<img src='https://i.postimg.cc/rFjDhszp/Valakut-Stoneforge-5000x.webp' style='position:absolute;bottom:-290px;right:-05px;width:821px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-190px; right:-30px; width:870px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-110px; right:-130px; width:870px; transform:rotate(20deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+
+
+
+\pagebreakNum
+
+<div class='toc'>
+
+
+  - ### [<span>26</span><span>Fel Dwarf Forces</span>](#p26)
+    - #### [<span>26</span><span>Ashragoth Ironfist</span>](#p26)
+        - [<span>28</span><span>Ashragoth Ironfist</span>](#p28)
+    - #### [<span>31</span><span>Bull Centaurs</span>](#p31)
+        - [<span>32</span><span>Bull Centaur Warrior</span>](#p32)
+        - [<span>32</span><span>Bull Centaur Render</span>](#p32)
+        - [<span>33</span><span>Bull Centaur Guardian</span>](#p33)
+        - [<span>34</span><span>Bull Centaur Ravager</span>](#p34)
+        - [<span>35</span><span>Bull Centaur Khan</span>](#p35)
+    - #### [<span>38</span><span>Drazhul the Ruinous</span>](#p38)
+        - [<span>41</span><span>Drazhul the Ruinous</span>](#p41)
+        - [<span>42</span><span>Ashbellow</span>](#p42)
+        - [<span>43</span><span>Infernal Tormenter</span>](#p43)
+    - #### [<span>45</span><span>Fel Dwarf Daemonsmiths</span>](#p45)
+        - [<span>47</span><span>Fel Dwarf Daemonsmith Apprentice</span>](#p47)
+        - [<span>49</span><span>Fel Dwarf Daemonsmith</span>](#p49)
+        - [<span>51</span><span>Fel Dwarf Daemonsmith-Prophet</span>](#p51)
+    - #### [<span>55</span><span>Fel Dwarf Engineers</span>](#p55)
+        - [<span>55</span><span>Fel Dwarf Engineer</span>](#p55)
+    - #### [<span>56</span><span>Fel Dwarf Soldiers</span>](#p56)
+        - [<span>57</span><span>Fel Dwarf Warrior</span>](#p57)
+        - [<span>58</span><span>Fel Dwarf Burning Beard Warrior</span>](#p58)
+        - [<span>59</span><span>Fel Dwarf Blunderbussier</span>](#p59)
+        - [<span>60</span><span>Fel Dwarf Granite Gunman</span>](#p60)
+        - [<span>61</span><span>Fel Dwarf Infernal Vanguard, Axeman</span>](#p61)
+        - [<span>62</span><span>Fel Dwarf Infernal Vanguard, Fireglaivadier</span>](#p62)
+        - [<span>63</span><span>Fel Dwarf Infernal Hellsworn</span>](#p63)
+        - [<span>64</span><span>Fel Dwarf Immortal</span>](#p64)
+        - [<span>65</span><span>Fel Dwarf Overseer</span>](#p65)
+        - [<span>66</span><span>Fel Dwarf Castellan</span>](#p66)
+    - #### [<span>72</span><span>Fel Goblins</span>](#p72)
+        - [<span>72</span><span>Fel Goblin</span>](#p72)
+        - [<span>73</span><span>Fel Goblin Sneak</span>](#p73)
+        - [<span>74</span><span>Fel Goblin Burning Archer</span>](#p74)
+        - [<span>75</span><span>Fel Goblin Wolf Rider</span>](#p75)
+        - [<span>75</span><span>Fel Goblin Vile Git</span>](#p75)
+
+\columnbreak
+
+
+- #### [<span>77</span><span>Fel Lammasus</span>](#p77)
+    - [<span>78</span><span>Fel Lammasu</span>](#p78)
+- #### [<span>81</span><span>Infernal Destroyers</span>](#p81)
+    - [<span>82</span><span>Infernal Destroyer</span>](#p82)
+- #### [<span>85</span><span>Infernal Fireborn</span>](#p85)
+    - [<span>86</span><span>Infernal Fireborn</span>](#p86)
+- #### [<span>87</span><span>Infernal Taurus</span>](#p87)
+    - [<span>88</span><span>Infernal Taurus</span>](#p88)
+    - [<span>89</span><span>Baleful Taurus</span>](#p89)
+- #### [<span>91</span><span>Laborers</span>](#p91)
+    - [<span>91</span><span>Laborer</span>](#p91)
+    - [<span>92</span><span>Racial Traits for NPCs</span>](#p92)
+- #### [<span>94</span><span>Urvhak Skaar</span>](#p94)
+    - [<span>96</span><span>Urvhak Skaar</span>](#p96)
+    - [<span>97</span><span>Ghorramokh</span>](#p97)
+- #### [<span>99</span><span>Zhartahn, The Dark</span>](#p99)
+    - [<span>101</span><span>Zhartahn, The Dark</span>](#p101)
+    - [<span>102</span><span>Abarzug, the Tormenter</span>](#p102)
+- ### [<span>105</span><span>Self-Propelled Vehicles</span>](#p105)
+- [<span>105</span><span>Self-Propelled Vehicle Rules</span>](#p105)
+- [<span>106</span><span>Self-Propelled Vehicle Attributes</span>](#p106)
+- ### [<span>108</span><span>Siege Weapons</span>](#p108)
+- [<span>108</span><span>Repairing Weapons</span>](#p108)
+- [<span>108</span><span>Siege Weapon Attributes</span>](#p108)
+- ### [<span>110</span><span>Fel Dwarf War Machines</span>](#p110)
+- [<span>110</span><span>Iron Demons</span>](#p110)
+- [<span>112</span><span>Burning Steam Cannon</span>](#p112)
+- [<span>113</span><span>Deathscreecher Rocket</span>](#p113)
+- [<span>114</span><span>Doomquake Mortar</span>](#p114)
+- [<span>114</span><span>Magma Cannon</span>](#p114)
+- [<span>115</span><span>Possessed Variants</span>](#p115)
+- [<span>117</span><span>War Machine Loot</span>](#p117)
 
 <div align="right">
 
@@ -199,7 +264,9 @@ style='position:absolute;top:-25px;left:-3px;width:819px;transform: scaleX(1)' /
 </div>
 
 
+<img src='https://i.postimg.cc/xCqyvdHF/Valakut-Awakening-Zendikar-Rising-Mt-G-Art.jpg' style='position:absolute;bottom:-210px;right:-05px;width:821px; transform:scaleX(1)' />
 
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-160px; right:-30px; width:870px; transform:rotate(0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
 
 \pagebreakNum
 
@@ -281,17 +348,19 @@ If their enemies are retreating, the fel dwarves will pursue them whenever possi
 
 
 
-##### Front Page & Running Fel Dwarf Encounters Art Credit 
+##### Front Page, Table of Contents, & Running Fel Dwarf Encounters Art Credit 
 * Runeforge Champion - Greg Staples, Wizards of the Coast
+* Valakut Stoneforge - Campbell White, Wizards of the Coast
+* Valakut Awakening - Campbell White, Wizards of the Coast
 * Temple of Malice - Jonas De Ro, Wizards of the Coast
 * Amber Gristle O'Maul - Darek Zabrocki, Wizards of the Coast
 
 
+<img src='https://i.ibb.co/6FsMtYH/amber-gristle-OMaul.png' style='position:absolute; bottom:-800px; right:-76px; width:970px; transform:scalex(1);filter:opacity(100%);'/>
 
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-170px; right:-105px; width:900px; transform:rotate(196deg)' />
 
-<img src='https://i.ibb.co/6FsMtYH/amber-gristle-OMaul.png' style='position:absolute; bottom:-755px; right:-76px; width:970px; transform:scalex(1);filter:opacity(100%);'/>
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-220px; right:-20px; width:900px; transform:rotate(183deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:-05px; width:900px; transform:rotate(180deg)' />
 
 
 \pagebreakNum
@@ -355,7 +424,237 @@ style='position:absolute;bottom:-640px;right:40px;width:1350px;transform: scaleX
 
 \pagebreakNum
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Fel Dwarf Magic Items
+Just as their uncorrupted kin, fel dwarves are master craftsmen. However, their works are twisted and cruel creations that reflect the darkness in their hearts. Most are created through profane means, incorporating dark fiendish rituals and blood sacrifice of enslaved wretches or even other unfortunate fel dwarves. The demon smiths of the fel dwarves sell many of their creations for hefty sums, and so they are often wielded by other unscrupulous warlords and mages to wicked ends. However, the demon smiths guard their grandest creations jealously, only bringing them to bear in the direst of situations. 
+
+#### Ashen Hammer
+*Weapon (Warhammer), Very Rare (Requires Attunement), 12,000 gp*
+
+*This weapon is inscribed with countless hateful hymns, its onyx surface covered in verses proclaiming desolation and the downfall of any who oppose its bearer. Infernal runes grant the hammer the power to shatter and sear the bones of any creature it strikes. Even those with great resilience to flame and heat struggle to withstand the weapon's torrid wrath.*
+
+Whenever you hit a target with this weapon, you can apply one of the following effects:
+
+* The target loses any resistance to Fire damage until the end of your next turn, and immunity to Fire damage is treated as resistance instead.
+* The target takes an additional 11 (2d10) Fire damage.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Blade of Malice
+*Weapon (Scimitar), Rare (Requires Attunement), 2,000 gp*
+
+*Said to have been excavated from a barrow buried beneath the ashen soil of a volcano by a band of fel goblin mercenaries, this blade has passed from one grasping owner to another for centuries. Every bearer has met an untimely end at the hands of a covetous rival. The sword fills its wielder with boundless violence, granting uncanny insight into where its strikes will inflict the greatest harm.*
+
+Whenever you make an attack with advantage against a creature with this weapon, the creature gains one level of Vulnerability to you, up to a maximum of 10.
+
+For each level of Vulnerability a creature has to you, the critical hit threshold for your attacks made against that target with this weapon is lowered by 1. A creature loses all levels of Vulnerability if you end your turn without attacking that creature or you score a critical hit on the creature.
+
+##### Fel Dwarf Magic Items Art Credit
+* Hammer of Bogardan (Alternative Art) - Ron Spencer, Wizards of the Coast
+* Draconian Cylix - Edward P. Beard, Jr., Wizards of the Coast
+* Ruby Medallion - Martina Pilcerova, Wizards of the Coast
+* Act of Treason - Scott Murphy, Wizards of the Coast
+* Pyrite Spellbomb - Jim Nelson, Wizards of the Coast
+
+
+<img src='https://i.postimg.cc/wMcb6SbB/hammer1.jpg' style='position:absolute; top:-640px; right:-00px; width:920px; transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:200px; right:55px; width:900px; transform:rotate(5deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:220px; right:-100px; width:900px; transform:rotate(0deg)' />
+
+\pagebreakNum
+
+#### Blasting Charge
+*Bomb, Rare (Requires Attunement), 150 gp*
+
+*Issued to the elite warriors of the fel dwarf empire, these explosive devices possess enough force to grievously wound or outright kill even foes protected by heavy plate armor.*
+
+You can use your action to throw the bomb at a point you can see within 30 feet. Each creature within a 10-foot-radius sphere centered on that point must make a DC 15 Dexterity saving throw.
+
+*Failure:* The creature takes 10 (3d6) Fire damage and 10 (3d6) Piercing damage.
+*Success:* The creature takes half as much damage.
+
+When you attempt to throw the bomb, creatures within reach can use their reaction to make an opportunity attack against you, as though you had moved out of their reach. If a creature hits you, you drop the bomb, and it detonates centered on you.
+
+#### Chalice of Chaos
+*Wondrous Item, Rare (Requires Attunement by a Druid, Bard, Sorcerer, Warlock, or Wizard), 3,000 gp*
+
+*This brass chalice is filled with corrupted ichor, ash, demonsmith blood, and living shadow. When the ruby-inlaid goblet is raised, it can disrupt the winds of magic, causing spells to unravel before they are completed. Yet even its bearer can never be certain what consequences will follow the use of such a cursed relic.*
+
+While you are holding this item, you can use it as a spellcasting focus.
+
+Whenever a creature within 60 feet of you casts a spell using a Verbal, Somatic, or Material component, While holding the chalice, you can use your reaction to attempt to interrupt it. The creature makes a Constitution saving throw against your spell save DC. On a failed save, one of the following effects happens at random.
+
+\columnbreak
+
+##### Chalice Effect
+| d6 | Ability | Effect |
+|:---:|:-----------|:-----------|
+| 1 | **Absorb Energy** | The spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot or daily use, it is wasted. You roll a number of d6s equal to the spell's level and gain temporary hit points equal to the total rolled. |
+| 2 | **Disruption** | The spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot or daily use, the slot isn't expended. |
+| 3 | **Destructive Feedback** | The spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot or daily use, it is wasted. You roll a number of d6s equal to the spell's level and take Force damage equal to the total rolled. This damage can't be reduced in any way. |
+| 4 | **Reflective Strike** | The spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot or daily use, the slot isn't expended. You can then immediately make a ranged spell attack against the target, range 60 feet, using your spellcasting modifier to hit. On a hit, you roll a number of d6s equal to the spell's level, and the target takes Force damage equal to the total rolled. |
+
+The Chalice of Chaos can't be used this way again until the next dawn. You can use a Magic Action to expend a 3rd-level spell slot to regain the use early.
+
+
+
+#### Dark Mace
+*Weapon (Mace), Rare (Requires Attunement), 3,300 gp*
+
+*This ebon stone weapon's origins have been lost to history, though it has been wielded by a multitude of fel dwarf champions throughout the ages to devastating effect. The artifact chills both body and soul to behold. When swung, it moves with such speed that it becomes little more than a blurred shadow, draining the warmth from the air around it and leaving only cold corpses in its wake.*
+
+Whenever you hit a creature with this weapon that has 50 or fewer current hit points, it takes additional 2d8 Cold damage. Additionally, you can use your action to make a melee attack with this weapon against any number of creatures within 5 feet of you, with a separate attack roll for each target.
+
+<img src='https://i.postimg.cc/fbt233rs/fem-86-draconian-cylix.jpg' style='position:absolute; bottom:0px; left:-100px; width:600px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-270px; right:130px; width:900px; transform:rotate(180deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-637px;top:170px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+\pagebreakNum 
+
+#### Graven Star
+*Weapon (Morningstar), Very Rare (Requires Attunement), 10,000 gp*
+
+*This iron rod once served as the emblem of the lords of the Black Spire, an infernal outpost on the edge of the fel dwarfs' domain. Each cruel lord who claimed the Star engraved three names upon its shaft. Even the mightiest giant crumples beneath its relentless blows, for no man nor beast, regardless of their resilience, can withstand the judgment of the Black Spire's lords and live to speak of it.*
+
+When you hit a creature with this weapon, its damage die changes to match the target creature's largest hit die for that attack, and it deals additional damage equal to the creature's Constitution modifier.
+ 
+
+ 
+#### Hellshard Amulet
+*Wondrous Item, Very Rare (Requires Attunement), 6,000 gp*
+
+*Crafted by Drazhul the Ruinous himself, this crimson gemstone was formed by transmuting his own overwhelming hatred into solid form. It emits a faint glow from its corrupted core. The wearer may draw upon the amulet's depths, allowing themselves to be consumed by its stubborn malevolence and unleashing terrible vengeance upon any who dare oppose them.*
+
+You can use your bonus action to become Resolute* until the start of your next turn.
+
+While Resolute, you can cast *Hellish Rebuke*; the spell save DC is 19.
+
+**New condition described below*
+ 
+
+ 
+\columnbreak 
+ 
+#### Infernal Round
+*Weapon (Any Ammunition), Uncommon, 60 gp*
+
+*Designed to devastate tightly packed formations, these munitions contain a potent explosive core. Upon impact, they erupt in a violent burst of infernal flame, engulfing nearby foes in the ensuing blast.*
+
+When you hit or miss a target with this magic ammunition, the target and each creature within 10 feet of it must make a DC 14 Dexterity saving throw or take 2d6 Fire damage. A creature hit by the attack has disadvantage on the saving throw. Once this ammunition hits a target, it is no longer magical.
+
+<br>
+ 
+> ##### New Condition: Resolute
+> The creature stubbornly digs in to weather any assault. It experiences the following effects:
+>  * Attack rolls made against the creature have disadvantage.
+>  * The creature can't take its move action on its turn.
+> * The creature makes Strength checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage.
+> 
+> The condition ends if an effect moves the creature against its will, knocks it prone, or the creature becomes charmed, frightened, or incapacitated. A creature that is prone, charmed, frightened, or incapacitated can't become Resolute. 
+
+
+<img src='https://i.postimg.cc/7Lt5RhHP/mtg-quicksilver-amulet-by-bradrigney-d3jwn8e-pre.jpg' style='position:absolute; bottom:-60px; right:-00px; width:820px; transform:scaleX(-1)' /> 
+
+<img src='https://i.postimg.cc/505Z0YXd/ruby-medallion.jpg' style='position:absolute; bottom:-50px; right:-00px; width:820px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-340px; right:-20px; width:900px; transform:rotate(180deg)' />
+ 
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ 
+ > ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+ 
+<br>
+ 
+#### Intractable Armor
+*Armor (Plate), Very Rare, 25,000 gp*
+
+*In ages past, the great overseer Zhirgir ruled a domain so vast that even the clergy of the demonsmiths viewed him as a threat. To shield himself from their wrath, he forged a suit of armor capable of withstanding any foe the dark hierarchy could send against him. And so it did. It was said that no weapon could pierce Zhirgir's enchanted shell, nor could any warrior force him to falter. Yet even such protection could not defy fate. During a campaign against a roaming band of orcs, his army was ambushed upon a tidal flat. Forced backward by the relentless assault, Zhirgir was driven into a powerful riptide. The armor that had preserved his life for decades became his doom, dragging him beneath the waves. Decades later, the suit was dredged from the ocean floor, entirely unscathed.*
+
+This armor has a Strength requirement of 18.
+
+While wearing this armor, you gain a +3 bonus to your AC. Additionally, while you aren't Prone, you gain a +3 bonus to saving throws and checks made against being Dazed*, Stunned, Paralyzed, Incapacitated, or moved against your will. If you fail a saving throw made this way, you are knocked Prone, and until the end of your next turn, you must spend all your movement to stand up.
+
+**New condition described above*
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ 
+#### Mask of the Hellforge
+*Wondrous Item, Rare (Requires Attunement), 4,000 gp*
+
+*Forged to resemble the visage of a greater demon, this brass visor has witnessed thousands of sacrifices performed within the demonsmiths' most sacred Hellforges. The suffering of those consumed by infernal fire has forever tainted the mask. Those who practice pyromancy may draw upon the cursed memories trapped within it, imbuing their flames with hellish corruption.*
+
+Whenever you cast a spell that deals only Fire damage and allows a creature to make a saving throw to take half damage, you can change the type of saving throw the spell forces to a Wisdom saving throw. Additionally, if a creature without Fire resistance or immunity fails the saving throw against the spell, it is Frightened of you until the end of your next turn.
+
+#### Molten Round
+*Weapon (Any Ammunition), Uncommon, 60 gp*
+
+*Developed to bring down massive and heavily armored warbeasts, these rounds release molten lead after embedding themselves within their target, slowly cooking the victim from the inside unless the projectile is removed swiftly and with precision.*
+
+When you hit a creature with this magic ammunition, the ammunition becomes embedded in the target for 1 minute. While embedded, the creature can't regain hit points, and at the end of each of its turns, it takes 2d6 Fire damage. The target or a creature within 5 feet of it can use an action to make a DC 14 Wisdom (Medicine) check to remove the ammunition. The target has disadvantage on this check if attempting to remove the ammunition from itself. On a success, the ammunition is removed; on a failure, the ammunition is still removed, but the creature takes an additional 3d6 Fire damage. Once this ammunition hits a target, it is no longer magical.
+
+<img src='https://i.postimg.cc/g087SXq8/Act-of-Treason-Ravnica-Allegiance-Art-1024x750.jpg' style='position:absolute; top:-240px; left:00px; width:1800px; transform:scaleX(1)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:105px; right:-50px; width:1000px; transform:rotate(-7deg)' />
+
+\pagebreakNum
+
+#### Naphtha Bomb
+*Bomb, Uncommon (Requires Attunement), 60 gp*
+
+*A volatile mixture of vile chemicals and boiling demon blood is sealed within these devilish bombs. When hurled into enemy ranks, the contents erupt upon impact, showering the battlefield in blazing liquid and engulfing the unfortunate in searing flames.*
+
+You can use your action to throw the bomb at a point you can see within 30 feet. Each creature within a 10-foot-radius sphere centered on that point must make a DC 13 Dexterity saving throw.
+
+*Failure:* The creature takes 3d6 Fire damage and starts Burning*.
+*Success:* The creature takes half as much damage.
+
+When you attempt to throw the bomb, creatures within reach can use their reaction to make an opportunity attack against you, as though you had moved out of their reach. If a creature hits you, you drop the bomb, and it detonates centered on you.
+
+**New condition described below*
+
+\columnbreak
+
+#### Stone Mantle
+*Wondrous Item, Rare (Requires Attunement), 5,000 gp*
+
+*Fashioned from the flayed, ashen skin of Ashragoth Ironfist's many apprentices who failed to earn his approval, this grisly cloak carries the power of the demonsmiths along with their terrible curse.*
+
+While wearing this mantle, whenever your concentration would be broken as a result of taking damage, you gain one level of Petrification instead. For each level of Petrification, your speed is reduced by 5 feet, and you gain a +1 bonus to Constitution saving throws and a -1 penalty to Dexterity saving throws. If you accumulate four or more levels of Petrification, you become Petrified, ignoring immunity to the condition. Any effect that removes the Petrified condition removes one level of Petrification instead.
+
+<br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid. 
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<br>
+
+<img src='https://i.postimg.cc/6Qf04dfj/Pyrtite-Spellbomb-print-5000x.jpg' style='position:absolute; bottom:-93px; right:-00px; width:820px; transform:scaleX(-1)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-420px; right:-20px; width:900px; transform:rotate(180deg)' />
+
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 # New Spells
 
@@ -363,101 +662,102 @@ style='position:absolute;bottom:-640px;right:40px;width:1350px;transform: scaleX
 
 This brand of magic plays on the nature of mortality and fragility of life, though it is strictly distinct from traditional necromancy, as it embraces the inevitability of death rather than attempting to deny it. Its users can manipulate negative energy, sap the vitality of foes, and instill mortal terror in those around them. The following spells are examples of the types of magic users of the Lore of Death often wield.
 
-#### Aspect of Dread
-*2nd-level enchantment*
+#### Aspect of Dread 
+*2nd-level Enchantment (Bard, Sorcerer, Warlock, Wizard)*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 60 feet
 - **Components:** V, S, M (A white feather)
 - **Duration:**  Concentration, up to 1 minute
-- **Classes:**  Bard, Sorcerer, Warlock, Wizard 
 ___
 
-A wave of terrifying specters spill out form a creature you can within range in a 10-foot emanation. Every other creature within the emanation must make a Wisdom saving throw or become frightened of the target for the duration.
-A creature frightened in this way can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself with a success.
+A wave of terrifying specters spills out from a creature you can see within range in a 10-foot emanation. Every other creature within the emanation must make a Wisdom saving throw or become Frightened of the target for the duration.
 
-***Using a Higher-Level Spell Slot*** The emanation increases by 10 feet for each slot level above 3.
+A creature Frightened in this way can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself with a success.
 
+***Using a Higher-Level Spell Slot*** The emanation increases by 10 feet for each slot level above 3rd.
 
-#### Crippling Pain
-*3rd-level necromancy*
-
-- **Casting Time:** 1 action
+#### Crippling Pain 
+*3rd-level Necromancy (Cleric, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
 - **Range:** 90 feet
 - **Components:** V, S, M (A broken bone)
 - **Duration:**  1 round
-- **Classes:**  Cleric Warlock, Wizard
+___
 
-You afflict a creature within you can see range within range to be wracked with pain. The target must make a Constitution saving throw.
+You cause a creature within you can see within range to be wracked with pain. The target must make a Constitution saving throw.
+
+On a failed save, every time the creature takes a Move, an Action, a Bonus Action, or a Reaction, before the start of your next turn, it takes 4d8 Necrotic damage.
+
+On a successful save, it takes 2d8 Necrotic damage instead.
 
 \columnbreak
 
 <br><br><br><br><br>
 
-On a failed save, every time the creature takes a move, an action, a bonus action, or a reaction, before the start of your next turn, it takes 4d8 necrotic damage.
- 
- On a successful save, it takes 2d8 necrotic damage instead.
+***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 3rd.
 
-**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 3
-
-
-#### Horrifying Laughter
-*6th-level enchantment*
+#### Horrifying Laughter 
+*6th-level Enchantment (Bard, Wizard)*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 30 feet
-- **Components:** V, S, M (A tiny tarts and a feather that is waved in the air)
+- **Components:** V, S, M (a tiny tart and a feather waved in the air)
 - **Duration:**  Concentration, up to 1 minute
-- **Classes:**  Bard, Wizard
 ___
 
-You cause a creature you can see within range to suffer debilitating fits of deranged laughter. The target must make a wisdom saving throw. On a failed save, the target takes 3d10 force damage, fall prone, and become incapacitated and unable to stand for the duration. On a successful save, the target takes half as much damage, and the spell ends.
+You unleash a fit of deranged, magical laughter upon a creature you can see within range. The target must succeed on a Wisdom saving throw or suffer the following effects:
+* Take 3d10 Force damage.
+* Fall prone.
+* Become Incapacitated and unable to stand for the duration.
 
-A creatures that starts it's turn within 30 feet of the laughing creature and can hear the laughter must succeed on a Wisdom saving throw or become frightened of the laughing creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
+On a successful save, the target takes half damage, and the spell ends immediately.
 
-For the duration, the target makes a Wisdom saving throw at the start of each of your turns. On a failed save, it takes the force damage again. On a successful save, the spell ends. If damage from this spell reduces the target to 0 hit points, it stabilizes but remains laughing and can no longer attempt saving throws against the spell. If the spell ends while the creature has 0 hit points, it dies.
+While the target remains under the spell's effect, any other creature that starts its turn within 30 feet of the laughing target and can hear it must succeed on a Wisdom saving throw or become Frightened of the laughing creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
 
-***Using a Higher-Level Spell Slot*** The the force damage increase by 1d10 for each spell slot level above 6.
+At the start of each of your turns, the target repeats the Wisdom saving throw. On a failure, it takes 3d10 Force damage again. On a success, the spell ends.
 
- <img src='https://m.media-amazon.com/images/I/51+A6aJV1lL.jpg' style='position:absolute;right:-16px;top:-110px;width:848px;transform:scaleX(-1)' />
+If the target is reduced to 0 hit points by this spell’s damage, it stabilizes but continues laughing, and can no longer attempt saving throws to end the spell. If the spell ends while the target has 0 hit points, it dies.
+
+***Using a Higher-Level Spell Slot*** The initial and recurring Force damage increases by 1d10 for each slot level above 6th.
+
+ <img src='https://m.media-amazon.com/images/I/51+A6aJV1lL.jpg' style='position:absolute;right:-16px;top:-120px;width:848px;transform:scaleX(-1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-style='position:absolute;right:-280px;top:-15px;height:1400px;width:1416px;transform:rotate(192deg)' />
-
+style='position:absolute;right:-280px;top:-30px;height:1400px;width:1416px;transform:rotate(193deg)' />
 
 \pagebreakNum
 
 #### Impending Doom 
-*4th-level enchantment*
+*4th-level Enchantment (Bard, Cleric, Warlock)*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 90 feet
 - **Components:** V, S, M (A black feather)
 - **Duration:**  Concentration, up to 1 minute
-- **Classes:**  Bard, Cleric, Warlock 
 ___
 
 You target a creature within range, sapping its determination and resolve to go on. The target must make a Charisma saving throw. On a failed save, the creature is filled with a sense of impending doom, and for the duration, whenever it makes an attack roll, ability check, or saving throw against an effect not triggered by this spell, it can't gain advantage on the roll and it automatically misses or fails if the roll is 6 or lower, as the creature feels an overwhelming sense of defeat.
 
 The affected creature can make a Charisma saving throw at the end of each of its turns, ending the spell's effect on a success.
 
-**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 4.
+***Using a Higher-Level Spell Slot.*** You can target one additional creature for each spell slot level above 4.
 
 ####  Purple Sun
-*9th-level transmutation*
+*9th-level Transmutation (Sorcerer, Warlock, Wizard)*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 120 feet
 - **Components:** V, S, M (A pinch of lime, water, and earth)
 - **Duration:**  Concentration, up to 1 minute
-- **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
 You conjure a grim sphere of purple light at a point you designate within range. The sphere has a maximum radius of 60 feet and illuminates its area with dim light.
 
-Any creature that either enters the sphere's area for the first time on its turn or begins its turn inside the sphere must make a Constitution saving throw. On a failed save, the creature is petrified for the duration. At the end of <br> each of its turns, the target can make another <br> Constitution saving throw. On a success, the <br> spell ends on the target. However, if a creature <br> accumulates three failed saves against this <br> spell (including the initial failed save), it <br> remains petrified indefinitely until the <br> condition is cured by other means.
+Any creature that either enters the sphere's area for the first time on its turn or begins its turn inside the sphere must make a Constitution saving throw. On a failed save, the creature is Petrified for the duration. At the end of <br> each of its turns, the target can make another <br> Constitution saving throw. On a success, the <br> spell ends on the target. However, if a creature <br> accumulates three failed saves against this <br> spell (including the initial failed save), it <br> remains Petrified indefinitely until the <br> condition is cured by other means.
 
-If a petrified creature is physically <br> damaged or broken during this state, it <br> will manifest the same damage upon <br> being reverted to its original form.
+If a Petrified creature is physically <br> damaged or broken during this state, it <br> will manifest the same damage upon <br> being reverted to its original form.
 
 <br>
 
@@ -467,33 +767,31 @@ If a petrified creature is physically <br> damaged or broken during this state, 
 
 \columnbreak
 
-#### Spirit Leech
-*1st-level necromancy*
+#### Spirit Leech 
+*1st-level Necromancy (Warlock)*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 90 feet
 - **Components:** V, S, M (A mosquito)
 - **Duration:**  1 hour
-- **Classes:**  Warlock
 ___
 
-You reach out and drain the life force of a target creature you can see within range. The target must make a Charisma saving throw. On a failed save, it takes 1d12 necrotic damage, or half as much on a successful one. You gain temporary hit points equal to the damage dealt. Constructs are immune to this spell's effects.
+You reach out and drain the life force of a target creature you can see within range. The target must make a Charisma saving throw. On a failed save, it takes 1d12 Necrotic damage, or half as much on a successful one. You gain temporary hit points equal to the damage dealt. Constructs are immune to this spell's effects.
 
-***Using a Higher-Level Spell Slot*** The the necrotic damage increase by 1d12 for each spell slot level above 1.
+***Using a Higher-Level Spell Slot*** The Necrotic damage increases by 1d12 for each spell slot level above 1st.
 
-#### Wind of Death
-*5th-level necromancy*
+#### Wind of Death 
+*5th-level Necromancy (Cleric)*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** Self
 - **Components:** V, S, M (A owl feather)
 - **Duration:**  Instantaneous
-- **Classes:**  Cleric
 ___
 
-You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 5d6 cold damage and 5d6 necrotic damage on a failed save, and half as much on a success.
+You release unholy wind in a 60-foot-long, 15-foot-wide line in a direction of your choice. Each creature within the line must make a Constitution saving throw. A creature takes 5d6 Cold damage and 5d6 Necrotic damage on a failed save, and half as much on a success.
 
-***Using a Higher-Level Spell Slot.*** The cold damage and the necrotic damage increase by 1d6 for each spell slot level above 5.
+***Using a Higher-Level Spell Slot.*** The Cold damage and the Necrotic damage increase by 1d6 for each spell slot level above 5.
 
 <img src='https://i.ibb.co/gj9XwYB/Damnation-Art-1024x819.jpg' style='position:absolute; bottom:-180px; right:-150px; width:900px; transform:rotate(0deg);filter:opacity(100%);'/>
 
@@ -667,7 +965,34 @@ You unleash a wave of scalding ash in a 60-foot-long, 15-foot-wide line originat
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Bellows Breath
+*5th-level Evocation (Artificer, Cleric, Paladin)*
+___
+- **Casting Time:** Action
+- **Range:** Self (50-foot Cone)
+- **Components:** V
+- **Duration:** Instantaneous
+
+You breathe out the fires of creation, reforging your allies and searing your foes. Each creature in a 40-foot Cone must make a Constitution saving throw. On a failed save, the creature takes 3d10 Fire damage and is Tempered until the end of your next turn. While Tempered, the creature takes an extra 1d6 Fire damage whenever it is hit by an attack.
+
+You may choose up to three creatures within the area to automatically succeed on this saving throw, taking no damage. You and those creatures are instead Heated until the end of your next turn. While Heated, whenever a creature hits another creature with an attack, it deals an extra 1d6 Fire damage on that hit.
+
+***Using a Higher-Level Spell Slot.*** The initial damage increases by 1d10 for each slot level above 5th.
+
+
+
+<img
+src='https://i.postimg.cc/43NcRqFY/campbell-white-roil-upheaval.jpg'
+style='position:absolute;top:-25px;left:0px;width:885px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:220px; right:82px; width:900px; transform:rotate(14deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:320px; right:0px; width:900px; transform:rotate(0deg)' />
+
+
+\pagebreakNum
 
 #### Breath of Hatred
 *1st-level enchantment*
@@ -684,22 +1009,7 @@ At the end of each of its turns, the target can make another Wisdom saving throw
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature to become obsessed with the same creature for every two slot levels above 1st.
 
-<br>
-
-**New condition described at the end of the section*
-
-<img
-src='https://i.postimg.cc/43NcRqFY/campbell-white-roil-upheaval.jpg'
-style='position:absolute;top:-25px;left:0px;width:885px;transform:scaleX(-1)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:222px; right:85px; width:900px; transform:rotate(16deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:320px; right:0px; width:900px; transform:rotate(0deg)' />
-
-
-\pagebreakNum
-
-
+**New condition described below*
 
 #### Curse of Stone
 
@@ -728,50 +1038,34 @@ Choose a point you can see on the ground within range and a direction. A giant h
 
 Each creature in the area of the hammer’s impact or shockwave must make a Dexterity saving throw. On a failed save, a creature takes 5d6 fire or lighting damage (your choice) and 5d6 thunder damage and is knocked prone; it is also dazed* until the end of its next turn if it is in the area of the impact. On a successful save, a creature takes half as much damage and isn’t knocked prone or dazed.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the fire or lighting damage and the thunder damage each increase by 1d6 for every slot level above 6th.
 
 
-#### Elemental Bane (Revised)
-
-*2nd-level transmutation*
-___
-- **Casting Time:** 1 bonus action
-- **Range:** 90
-- **Components:** V, S
-- **Duration:**  Concentration, up to 1 minute.
-- **Classes:**  Druid, Warlock, Wizard, Artificer
-
-Choose one creature you can see within range and one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Charisma saving throw or be cursed for the duration. While cursed, the target loses any resistance to the chosen damage type, and immunity to the damage type is treated as resistance instead. Additionally, the first time each turn the target takes damage of the chosen type, it takes an extra 1d6 damage of that type.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
 
 \columnbreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Obsessed 
+> The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
+> * While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
+> * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the  *fireball* spell) unless a source of its obsession is in that area. 
+> *  The creature can't willingly move away from a source of its obsession.
+
+<br>
 
 > #####  Divine Hammer Damage Types
 > Depending on the nature of the god the spellcaster worships, it may make more sense for the divine hammer to do damage of a type other than fire or lighting; for example, some gods may be more associated with radiant or necrotic. At the DM's discretion, the damage can be changed this way, in which case the spellcaster should no longer have the option for fire or lighting.
 
 <br>
 
-#### Eruption
-*8th-level evocation*
 
-- **Casting Time:** 1 action
-- **Range:** 150 ft
-- **Components:** V, S
-- **Duration:** Instantaneous
-- **Classes:**   Druid, Wizard, Sorcerer
 
-You choose a point you can see on the ground within range. The ground cracks and a burst of magma erupts in a 60-foot-radius, 120-foot-high cylinder centered on that point. Each creature in the affected area must make a Dexterity saving throw. On a failed save, a creature takes 4d12 fire damage and 4d12 bludgeoning damage. On a successful save, it takes half as much damage.
 
-Additionally, the ground in the area becomes superheated for 1 minute. The area becomes difficult terrain, and any creature that ends its turn in the area must make a Constitution saving throw. On a failed save, the creature takes 4d12 fire damage, or half as much on a successful save.
 
-After the area cools down, it remains difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the fire or lighting damage and the thunder damage each increase by 1d6 for every slot level above 6th.
 
-<br>
+**New condition described on next page*
 
-**New condition described at the end of the section*
 
 
 <img
@@ -791,6 +1085,86 @@ style='position:absolute;top:-0px;right:-40px;width:655px;transform:scaleX(1)' /
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<br>
+
+#### Eruption
+*8th-level evocation*
+
+- **Casting Time:** 1 action
+- **Range:** 150 ft
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**   Druid, Wizard, Sorcerer
+
+You choose a point you can see on the ground within range. The ground cracks and a burst of magma erupts in a 30-foot-radius, 120-foot-high cylinder centered on that point. Each creature in the affected area must make a Dexterity saving throw. On a failed save, a creature takes 4d10 fire damage and 4d10 bludgeoning damage. On a successful save, it takes half as much damage.
+
+Additionally, the ground in the area becomes superheated for 1 minute. The area becomes difficult terrain, and any creature that ends its turn in the area must make a Constitution saving throw. On a failed save, the creature takes 4d10 fire damage, or half as much on a successful save.
+
+After the area cools down, it remains difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.
+
+***At Higher Levels.*** Using a Higher-Level Spell Slot. The Initial fire damage and the bludgeoning damage increase by 1d10 for each spell slot level above 8th.
+<br>
+
+**New condition described above*
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+#### Earthen Rupture
+*4th-level Evocation (Druid)*
+___
+- **Casting Time:** Action
+- **Range:** Self (60-foot Line)
+- **Components:** V, S
+- **Duration:** Instantaneous
+- **Classes:**  Druid
+
+You rend asunder the earth in a 5-foot-wide line up to 60 feet long. Creatures touching the ground in the area must make a Strength saving throw. On a failed save, they take 4d6 Bludgeoning damage and fall Prone. On a successful save, they take half as much damage and don't fall Prone. Large or larger objects and structures in the area automatically fail the save and take twice as much damage. 
+
+The ground in the area becomes Difficult Terrain until cleared. Each 5-foot-square portion requires at least 1 minute to clear by hand.
+
+**Earthen Pillar.** A pillar of stone bursts from the ground centered on the far end of the line. The pillar has a diameter of 5 feet and a height of up to 40 feet. The ground where the pillar appears must be wide enough for its diameter, otherwise, it doesn't appear. The pillar has AC equal to your spell save DC and 25 hit points. When reduced to 0 hit points, the pillar crumbles into rubble, creating an area of Difficult Terrain with a 10-foot radius that lasts until cleared.
+
+**Creatures Caught On The Pillar.** If the pillar is created beneath a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail this save.
+
+If the pillar is prevented from reaching its full height by a ceiling or other obstacle, a creature on the pillar takes 3d6 Bludgeoning damage and is Restrained, pinched between the pillar and the obstacle. The Restrained creature can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, the creature is no longer Restrained and must either move off the pillar or fall from it.
+
+***Using a Higher-Level Spell Slot.*** The damage of both effects increases by 1d6 for each slot level above 4th.
+
+
+
+
+<img
+src='https://i.postimg.cc/k5bvwgbR/volcanic-awakening-186.webp'
+style='position:absolute;top:-70px;right:0px;width:820px;transform:scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:222px; right:85px; width:900px; transform:rotate(20deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:80px; right:-120px; width:900px; transform:rotate(-10deg)' />
+
+\pagebreakNum
+
+#### Elemental Bane (Revised)
+
+*2nd-level transmutation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 90
+- **Components:** V, S
+- **Duration:**  Concentration, up to 1 minute.
+- **Classes:**  Druid, Warlock, Wizard, Artificer
+
+Choose one creature you can see within range and one of the following damage types: acid, cold, fire, lightning, or thunder. The target must succeed on a Charisma saving throw or be cursed for the duration. While cursed, the target loses any resistance to the chosen damage type, and immunity to the damage type is treated as resistance instead. Additionally, the first time each turn the target takes damage of the chosen type, it takes an extra 1d6 damage of that type.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
 
 #### Hellfire Weapon
 *1st-level evocation*
@@ -805,47 +1179,104 @@ You conjure a weapon made of hungering fire and hurl or strike with it. Make a r
 
 The spell’s damage increases by 1d8 when you reach certain levels: 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
 
-#### Magmatic Stone
-*3rd-level evocation*
+
+#### Hellish Spheres
+*3rd-level Evocation (Warlock)*
 ___
-- **Casting Time:** 1 action
-- **Range:** 100 ft
-- **Components:** V, S, M (A bit of igneous rock)
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**  Sorcerer, Wizard
+- **Casting Time:** Bonus Action
+- **Range:** Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Artificer, Warlock
 
-You conjure a molten rock and hurl it at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 3d8 bludgeoning damage. Whether the attack hits or misses, the rock explodes on impact, creating a 15-foot-radius sphere of whirling magma centered on the point of impact. The sphere lasts for the duration, and its area is lightly obscured and considered difficult terrain. The sphere spreads around corners and seeps through openings at least 5 feet in diameter.
+Three spheres of hellfire orbit you for the duration. While the spheres are present, you can expend them to create the following effects:
 
-When the sphere first appears, and at the start of each of your turns thereafter, it moves 10 feet in the direction you hurled it from. Any creature whose space the sphere enters or passes through must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage. On a successful save, the creature takes half as much damage.
+**Hellish Infusion.** When you cast this spell and at the start of each of your turns, you may expend a sphere to gain 2d6 temporary hit points. At the end of each of your turns, if you have any temporary hit points from this spell, you may spend them all to regain a sphere.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the bludgeoning and fire damage both increase by 1d8 for each slot level above 3rd.
-
-> ##### New Condition: Dazed 
-> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
-
-
-##### Lore of Fel Dwarves Art Credit
-* Nahiri's Lithoforming - Campbell White, Wizards of the Coast
-* Fall of the Hammer - Adam Paquette, Wizards of the Coast
-* Tormentor's Trident - Anthony Palumbo, Wizards of the Coast
-
-
+**Hellish Fire.** Whenever you hit with an attack, you may expend one sphere to deal an additional 2d6 Fire damage. If the attack reduces a creature to 0 hit points, you regain a sphere.
 
 
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-> ##### New Condition: Obsessed 
-> The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
-> * While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
-> * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the  *fireball* spell) unless a source of its obsession is in that area. 
-> *  The creature can't willingly move away from a source of its obsession.
+The spell ends early if you have no spheres remaining or if you no longer have temporary hit points granted by this spell. (Gaining temporary hit points from another source will cause you to lose the temporary hit points granted by this spell.)
 
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d8 for each slot level above 3rd.
+
+
+
+#### Magmatic Stone
+*3rd-level Evocation (Sorcerer, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 100 feet
+- **Components:** V, S, M (a bit of igneous rock)
+- **Duration:** 1 round
+
+You conjure a molten rock and hurl it at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 Bludgeoning damage. Whether the attack hits or misses, the rock explodes on impact, creating a 15-foot-radius sphere of whirling magma centered on the point of impact. Its area is Lightly Obscured and Difficult Terrain. The sphere spreads around corners and seeps through openings at least 5 feet in diameter.
+
+At the start of your next turn, the sphere moves 30 feet in the direction you hurled it and dissipates. Any creature in the sphere when it first appears, and any creature whose space the sphere enters or passes through, must make a Dexterity saving throw. On a failed save, the creature takes 4d6 Fire damage. On a successful save, the creature takes half as much damage.
+
+***Using a Higher-Level Spell Slot.*** The Bludgeoning and Fire damage both increase by 1d6 for each slot level above 3rd.
+
+
+
+<img
+src='https://i.postimg.cc/9MswTMX9/tormentors-trident.jpg'
+style='position:absolute;top:0px;right:-0px;width:650px;transform:scaleX(-1)' />
+
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-140px; right:250px; width:900px; transform:rotate(90deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:154px; right:0px; width:900px; transform:rotate(0deg)' />
+
+\pagebreakNum
+
+#### Molten Grasp
+*6th-level Evocation (Cleric, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+
+Molten metal spews from the ground in a 20-foot square within range, turning the ground in the area into Difficult Terrain until cleared.
+
+Each creature in the area when you cast the spell must succeed on a Strength saving throw. On a failed save, a creature takes 6d8 Fire damage and is Restrained by hardening metal until the metal is destroyed. While Restrained this way, the creature or another creature within reach of it can use its action to make a Strength check against your spell save DC, breaking the metal on a success. The metal can also be attacked and destroyed (AC equal to your spell save DC; 40 hit points; immunity to Fire, Cold, Poison, and Psychic damage). On a successful save, a creature takes half as much damage and isn't Restrained.
+
+As a Bonus Action on each of your later turns, you can deal 3d8 Fire damage to each creature that is Restrained or standing on Difficult Terrain created by this spell.
+
+***Using a Higher-Level Spell Slot.*** The damage of both effects increases by 1d8 for each slot level above 6th.
+
+
+#### Shard Storm
+*4th-level Evocation (Sorcerer, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 50 feet (50-foot Cone)
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+-  **Classes:**  Artificer
+
+You send a wave of burning rock shards from your fingertips flying in a 50-foot Cone. Choose up to five creatures you can see in the cone. Make a ranged spell attack against each target. On hit, target takes 3d8 Piercing damage and a shard embeds itself in the creature. At the end of each of the creature's turns until the spell ends, it takes 2d8 Fire damage if the shard is still embedded.
+
+**Removing the Shard.** A creature within reach can use an action to make a Wisdom (Medicine) check against your spell save DC to remove the shard. On a success, the shard is removed. On a failure, the shard is still removed, but the creature takes 1d8 Slashing damage.
+
+***Using a Higher-Level Spell Slot.*** You may target one additional creature for each spell slot level above 4.
+
+##### Lore of Fel Dwarves Art Credit
+* Nahiri's Lithoforming - Campbell White, Wizards of the Coast
+* Fall of the Hammer - Adam Paquette, Wizards of the Coast
+* Volcanic Awakening - Dan Murayama Scott, Wizards of the Coast
+* Tormentor's Trident - Anthony Palumbo, Wizards of the Coast
+* Slave of Bolas - Steve Argyle, Wizards of the Coast
+
+\columnbreak
 
 #### Subjugation
-*2th-level enchantment*
+*2nd-level enchantment*
 ___
 - **Casting Time:** 1 action
 - **Range:** 60 ft
@@ -859,16 +1290,13 @@ The frightened target can repeat the saving throw at the end of each of its turn
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.
 
-
-
 <img
-src='https://i.postimg.cc/9MswTMX9/tormentors-trident.jpg'
-style='position:absolute;top:0px;right:-0px;width:590px;transform:scaleX(-1)' />
+src='https://i.postimg.cc/d1ttw4KH/slave-of-bolas.jpg'
+style='position:absolute;bottom:-200px;right:-320px;width:1250px;transform:scaleX(1)' />
 
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:60px; right:240px; width:900px; transform:rotate(96deg)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-140px; right:250px; width:900px; transform:rotate(90deg)' />
-
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:114px; right:0px; width:900px; transform:rotate(0deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-490px; right:0px; width:900px; transform:rotate(180deg)' />
 
 \pagebreakNum
 
@@ -897,38 +1325,40 @@ You touch a construct creature or an object with moving parts that weighs no mor
 
 \columnbreak
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
-
+> ##### New Condition: Obsessed 
+> The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
+> * While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
+> * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
+> *  The creature can't willingly move away from a source of its obsession.
 
 #### Final Transmutation
+*9th-level Transmutation*
 
-*9th-level transmutation*
-
-
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 60 ft
 - **Components:** V, S, M (A bar of lead)
-- **Duration:**  Concentration, up to 10 minutes
-- **Classes:**  Sorcerer, Wizard, Warlock
+- **Duration:**  1 minute
+- **Classes:**  Sorcerer, Warlock, Wizard
 ___
 
-You speak a word of power that transforms a creature you can see within range. If the target has 150 hit points or fewer, it is petrified, turning to gold until the spell ends. Otherwise, the spell has no effect.
+You speak a word of power that transforms a creature you can see within range. The target must make a Constitution saving throw. If the target has 150 hit points or fewer, it automatically fails. On a failed save, it is Petrified, turning to gold until the spell ends. On a successful save, the creature is Restrained until the end of your next turn.
 
-**Ending The Effect.** A petrified target can make a Constitution saving throw at the start of each your turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell, it remains petrified indefinitely until the condition is cured by other means.
+**Ending The Effect.** A Petrified target can make a Constitution saving throw at the start of each of your turns, ending the effect on a success. However, if a creature accumulates three failed saves against this spell, it remains Petrified indefinitely until the condition is cured by other means.
 
-**Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become obsessed* with the petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
+**Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become Obsessed* with the Petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
 
-**Damaging A Petrified Creature.** If a petrified creature is physically damaged or broken during this state, it will manifest the same damage upon being reverted to its original form.
+**Damaging A Petrified Creature.** If a Petrified creature is physically damaged or broken during this state, it will manifest the same damage upon being reverted to its original form.
 
-**New Condition described at end of the section*
+**New condition described above*
 
 
 <img src='https://i.ibb.co/SyHzMyr/Bound-in-Gold-Kaldheim-Mt-G-Art.jpg' style='position:absolute; top:-50px; right:0px; width:820px; transform:scalex(-1);filter:opacity(100%);'/>
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:180px; right:60px; width:900px; transform:rotate(10deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:175px; right:60px; width:900px; transform:rotate(10deg)' />
 
-<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:230px; right:0px; width:900px; transform:rotate(0deg)' />
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:195px; right:0px; width:900px; transform:rotate(0deg)' />
 
 
 \pagebreakNum
@@ -1118,34 +1548,33 @@ Additionally, a creature can no longer add its Dexterity modifier to attack and 
 ## Lore of Shadow
 This magic specializes in trickery, illusion, <br> and twisting the minds of its targets. Its <br> users primarily rely on illusory magic, though <br> they also wield spells that manipulate shadows <br> and even the nature of space and time as others <br> are able to perceive it, constantly leaving their <br> foes seconding guessing what they're seeing. <br> The following spells are examples of the types <br> of magic users of the Lore of Shadow often wield.
 
-#### Creeping Strike 
-*Evocation cantrip*
+#### Creeping Strike
+*Evocation Cantrip (Sorcerer, Warlock, Wizard)*
 ___
-- **Casting Time:** 1 action
+- **Casting Time:** 1 Action
 - **Range:** 10 feet
 - **Components:** V S
-- **Duration:** Sorcerer, Warlock, Wizard
+- **Duration:** Instantaneous
 ___
 
-You lash out at an enemy with chilling shadows. <Br> Make a melee spell attack against the target. You <Br> have  advantage on the attack roll if the target is in <Br> darkness. On a hit, the target takes 1d8 cold damage.
+You lash out at an enemy with chilling shadows. <br> Make a melee spell attack against the target. You <br> have Advantage on the attack roll if the target is in <br> Darkness. On a hit, the target takes 1d8 Cold damage.
 
-***Cantrip Upgrade..*** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
+***Cantrip Upgrade.*** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
 
-#### Mindrazors
-*5th-level illusion*
+#### Mindrazors 
+*5th-level Illusion (Bard, Warlock)*
 ___
-- **Casting Time:** 1 bonus action
-- **Range:** 30 ft
+- **Casting Time:** 1 Bonus Action
+- **Range:** 30 feet
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
-- **Classes:**  Bard, Warlock
 ___
 
-You envelop up to three weapons you can see within range in phantasmal shadows, allowing them to slice through the minds of their targets. For the duration, when a creature is hit by an attack from one of these infused weapons, it takes an additional 1d12 psychic damage.
+You envelop up to three weapons you can see within range in phantasmal shadows, allowing them to slice through the minds of their targets. For the duration, when a creature is hit by an attack from one of these infused weapons, it takes an additional 1d12 Psychic damage.
 
-If a creature takes an action to examine one of the weapons and succeeds on an Intelligence (Investigation) check against your spell save DC, they discern the illusion and will no longer take the additional psychic damage from any of the infused weapons.
+If a creature takes an action to examine one of the weapons and succeeds on an Intelligence (Investigation) check against your spell save DC, they discern the illusion and will no longer take the additional Psychic damage from any of the infused weapons.
 
-**Using a Higher-Level Spell Slot.** You can target one additional weapon for each spell slot level above 5.
+***Using a Higher-Level Spell Slot.*** You can target one additional weapon for each spell slot level above 5.
 
 #### Mirror Dance
 *2nd-level conjuration*
@@ -1164,31 +1593,30 @@ You weave a shadowy link between yourself and a willing creature you can see wit
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 > ##### The Quickened Condition
-> A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
+> This document references the quickened condition. A quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the quickened condition among its other effects, and a creature cannot benefit from the quickened condition from multiple sources at once.
 
 <br>
 
 The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
 
-#### Mystifying Miasma
-*2nd-level illusion*
+#### Mystifying Miasma 
+*2nd-level Illusion (Ranger, Bard)*
 ___
-- **Casting Time:** 1 action
-- **Range:** 120 ft
+- **Casting Time:** 1 Action
+- **Range:** 120 feet
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
-- **Classes:**  Ranger, Bard
 ___
 
 You conjure a 20-foot-radius sphere of illusory fog at a point you choose within range. 
 
-This miasma fills the air, spreading around corners and making the area heavily obscured for all creatures lacking true sight.
+This miasma fills the air, spreading around corners and making the area Heavily Obscured for all creatures lacking True Sight.
 
-Any creature that starts its turn fully within the cloud must make a Wisdom saving throw. On a failed save, it uses its movement to travel in a random direction, determined by rolling a d8, until it exits the fog, after which it falls prone. The creature can then take the rest of its turn as normal.
+Any creature that starts its turn fully within the cloud must make a Wisdom saving throw. On a failed save, it uses its movement to travel in a random direction, determined by rolling a d8, until it exits the fog, after which it falls Prone. The creature can then take the rest of its turn as normal.
 
-**Using a Higher-Level Spell Slot.** the radius of the fog increases by 10 feet for each slot level above 2.
+***Using a Higher-Level Spell Slot.*** The radius of the fog increases by 10 feet for each slot level above 2.
 
-##### Lore of Shadow Art Credit
+#### Lore of Shadow Art Credit
 * Myrkul's Invoker - Aaron J. Riley, Wizards of the Coast
 * The Abyss - Pete Venters, Wizards of the Coast
 
@@ -1200,29 +1628,29 @@ style='position:absolute;right:-80px;top:40px;height:1400px;width:1416px;transfo
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:40px;top:0px;height:1400px;width:1416px;transform:rotate(-99deg)' />
 
+
 \pagebreakNum
 
-#### Penumbral Pendulum
-*4th-level illusion*
+#### Penumbral Pendulum 
+*4th-level Illusion (Sorcerer, Wizard)*
 ___
-- **Casting Time:** 1 action
-- **Range:** 120 ft
+- **Casting Time:** 1 Action
+- **Range:** 120 feet
 - **Components:** V, S
 - **Duration:** Concentration, up to 1 minute
-- **Classes:**  Sorcerer, Wizard
 ___
 
-You conjure a spectral pendulum that swings through a 60-foot-long, 5-foot-wide, and 5-foot-tall line of your choice within range. Each creature in this area can make a Dexterity or Intelligence saving throw (its choice). A creature takes 6d10 psychic damage on a failed save and no damage on a success.
+You conjure a spectral pendulum that swings through a 60-foot-long, 5-foot-wide, and 5-foot-tall line of your choice within range. Each creature in this area can make a Dexterity or Intelligence saving throw (its choice). A creature takes 6d10 Psychic damage on a failed save and no damage on a success.
 
 At the end of each of your subsequent turns during the duration, the pendulum swings back from the opposite direction it swang last, repeating the effect across the same line each time.
 
-**Using a Higher-Level Spell Slot.** The damage increases by 1d10 for each slot level above 4.
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d10 for each slot level above 4.
 
 #### Pit of Shadows
 *6th-level abjuration*
 ___
 - **Casting Time:** 1 action
-- **Range:** 60 ft
+- **Range:** 60 feet
 - **Components:** V, S, M (A black cloth)
 - **Duration:** Concentration, up to 1 minute
 - **Classes:**  Cleric, Sorcerer, Warlock, Wizard
@@ -1232,25 +1660,24 @@ You conjure a portal to a shadowy plane, opening a 20-foot square pit on an area
 
 At the end of each of its turns, the banished creature takes 4d6 psychic damage and must then make a Charisma saving throw. On a success, the spell ends for that creature. When the spell ends for a creature, it reappears in its original space or the nearest unoccupied space if its original space is occupied. If a creature dies while banished, its body remains in the shadow realm; however, any magical items it was wearing or carrying return to the original location.
 
-**Using a Higher-Level Spell Slot.** the radius of the fog increases by 10 feet for each slot level above 2.
+***Using a Higher-Level Spell Slot.*** The size of the square increases by 10 feet for each slot level above 2.
 
 #### Shroud of Dusk
 ___
-*1st-level evocation*
-- **Casting Time:** 1 action
+*1st-level Evocation (Sorcerer, Warlock, Wizard)*
+- **Casting Time:** 1 Action
 - **Range:** Self
 - **Components:** V, M (A drop of pitch or piece of coal)
 - **Duration:**  1 round
-- **Classes:**   Sorcerer, Warlock, Wizard
 ___
 
-You release a surge of chilling shadows in a 20-foot-long, 10-foot-wide line that extends from you in a direction you choose. Each creature within the line must make a Constitution saving throw. Creatures take 1d10 cold damage, and on a failed save, and half as much on a success.
+You release a surge of chilling shadows in a 20-foot-long, 10-foot-wide line that extends from you in a direction you choose. Each creature within the line must make a Constitution saving throw. Creatures take 1d10 Cold damage, and on a failed save, and half as much on a success.
 
 \columnbreak
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-The line's area is then plunged into magical darkness until the end of your next turn. This darkness is impenetrable to darkvision and unaffected by nonmagical light sources.
+The line's area is then plunged into magical Darkness until the end of your next turn. This Darkness is impenetrable to Darkvision and unaffected by nonmagical light sources.
 
 **Using a Higher-Level Spell Slot.** The damage increases increases by 1d10 and the length of the line extends by an additional 10 for each slot level above 1.
 
@@ -1260,42 +1687,40 @@ The line's area is then plunged into magical darkness until the end of your next
 *3rd-level transmutation*
 ___
 - **Casting Time:** 1 bonus action
-- **Range:** 60 ft
+- **Range:** 60 feet
 - **Components:** V
 - **Duration:** 1 round
 - **Classes:**  Ranger
 ___
 
-Choose a willing creature you can see within range. The chosen creature becomes enveloped in a shroud of mist, enabling it to move with unseen swiftness. Until the start of your next turn, the creature's movement speed is doubled, it's quickened, and it becomes invisible along with everything it's wearing or carrying.
+Choose a willing creature you can see within range. The chosen creature becomes enveloped in a shroud of mist, enabling it to move with unseen swiftness. Until the start of your next turn, the creature's movement speed is doubled, it's Quickened, and it becomes Invisible along with everything it's wearing or carrying.
 
-**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 3
+***Using a Higher-Level Spell Slot.*** You can target one additional creature for each slot level above 3rd.
 
 #### Withering Resolve
-*3rd-level enchantment*
+*3rd-level Enchantment (Bard)*
 ___
-- **Casting Time:** 1 action
-- **Range:** 120 ft
+- **Casting Time:** 1 Action
+- **Range:** 120 feet
 - **Components:** V, S
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**  Bard
+- **Duration:** 1 round
 ___
 
-Choose a creature within range that can hear you. The target must succeed on a Wisdom saving throw, or its mind becomes filled with crippling doubt and inner turmoil. On a failed save, for the duration of the spell, the target has disadvantage on all checks and saving throws not triggered by this spell, and attack rolls against it have advantage. At the end of each of its turns, the target can make another Wisdom saving throw, ending the effects on a success.
+Choose a creature within range that can hear you. The target must succeed on a Wisdom saving throw, or its mind becomes filled with crippling doubt and inner turmoil until the end of your next turn. On a failed save, until the end of your next turn, the target has Disadvantage on all checks and saving throws, and attack rolls against it have Advantage. On a success, the creature has Disadvantage on the next attack roll it makes before the end of its next turn.
 
-**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 3.
+***Using a Higher-Level Spell Slot.*** You can target one additional creature for each slot level above 3rd.
 
 
  <img src='https://i.ibb.co/hDpWQz9/TheAbyss.png' style='position:absolute;right:-0px;top:-20px;width:450px;transform:scaleX(-1)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-style='position:absolute;right:-100px;top:-67px;height:1400px;width:1416px;transform:rotate(180deg)' />
+style='position:absolute;right:-100px;top:-69px;height:1400px;width:1416px;transform:rotate(180deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:-80px;top:-30px;height:1400px;width:1416px;transform:rotate(200deg)' />
 
 <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
 style='position:absolute;right:0px;top:-170px;height:1400px;width:1416px;transform:rotate(-98deg)' />
-
 
 \pagebreakNum
 
@@ -2285,6 +2710,543 @@ The Resolute condition ends if an effect moves the creature against its will, kn
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Drazhul the Ruinous
+*A Daemonsmith Wielding a Fiendish Soul-Trapping Crucible*<br>
+**Habitat:** Desert, Mountain, Underdark, Urban, Volcanic; **Treasure:** Arcane <br>
+
+In the treacherous politics of the demon smiths, only the most shrewd and ruthless can secure a position among the ruling clergy. All fel dwarfs hunger for power, each driven to attain, or outright seize, positions of authority. Yet the higher one climbs, the more perilous the ascent becomes, for the upper echelons are dominated by the most ancient dwarven practitioners, beings who have ruled for countless years.
+
+Even among these megalomaniacal spellcasters, most bow before such malignant dictators, content to cling to whatever domains they have claimed and avoid the wrath of their tyrannical superiors. But Drazhul's craving for political dominance and sorcerous mastery could not be quelled by threats or the promise of horrific punishment.
+
+Drazhul's rise was swift, faster than that of any other young demon smith. He had already begun forging pacts and alliances with influential powers within the empire. The elders were not blind to the impact this young artificer had made in so short a time, and they quickly realized the danger he posed to their dominance if left unchecked.
+
+Thus, the schemes of the most powerful demon smiths came crashing down upon him, tearing apart all that Drazhul had built and casting him out as a pariah. He barely managed to avoid outright assassination at the hands of his rivals. Instead, he was exiled to the Great Black Spire, the furthest outpost of the fel dwarf Ashen Territories-a place constantly assailed by monstrosities from the Corrupted Wastes, as well as savage armies of orcs, ogres, and chaos beasts seeking to break through and pillage the factory cities of the fel dwarfs.
+
+Most demon smiths cast into such a remote corner fall prey to the ceaseless violence that besets the region. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Yet despite the danger and instability, Drazhul did not merely survive; he thrived. He defied the fate of those before him, rising to become master of the Spire itself and commander of its armies.
+
+Even in this distant fortress, far removed from the vast resources of the empire, Drazhul's command of the dark arts has only grown. His influence has expanded as he has sought out knowledge unknown even to the most ancient demon smiths. He has collected and forged a plethora of grim artifacts, including the Hellshard Amulet, his spite made manifest, which bathes his vengeful strikes in infernal fire, and the Graven Sceptre, a massive iron mace engraved with the names of every previous master of the Black Spire, capable of felling even the mightiest beasts with a single blow.
+
+Most powerful and nightmarish of all his relics, however, is the Daemonspite Crucible. Forged from cursed gold and infused with demonic corruption, Drazhul has become permanently bound to this relic. It ferociously tears the souls from those around him, dragging them into the Crucible to be ravaged by the Infernal Tormenters, terrifying specters that inhabit the cursed object. With claws of smoke and anguish, these fiends liquefy the essence of their victims, refining it into pure arcane power to fuel Drazhul's wicked spells.
+
+Now, word has reached him that the elders' grip on power is waning. Drazhul seeks to enact his vengeance and claim his place as the undisputed lord of all fel dwarfs. Astride his great Baleful Taurus, Ashbellow, and armed with tools of occult devastation, few could hope to stand against such a tyrant.
+
+Yet it is rumored that the Crucible to which he is bound is intertwined with his very essence. Should this heirloom be destroyed, it would bring about his ultimate end.
+
+
+
+<img src='https://i.postimg.cc/SNKvX1rp/Hofri-Ghostforge-Strixhaven-Mt-G-Art.jpg' style='position:absolute; top:-40px; right:-50px; width:976px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-480px;top:124px;height:1400px;width:1416px;transform:rotate(190deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-480px;top:94px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+\pagebreakNum
+
+
+
+### Drazhul's Lair
+
+Drazhul plots within the Great Black Keep, a fortress standing at the farthest reaches of the Fel Dwarf Empire. It was built to withstand the relentless assaults of those who seek vengeance against the kingdom's cruelty. Behind its battered iron walls, molten rock courses through the fortress like blood through veins, while the stench of sulfur and stale smoke hangs heavy through its halls.
+
+The fel dwarves who dwell within are among the most formidable of their kind. Drazhul's relentless pursuit of wicked artifice has tainted both the land and the air. Even speaking his name is said to invite misfortune. The natural world writhes under his influence, and the very elements are driven into rancor, lashing out at any who dare venture through the abused landscape.
+
+
+#### Regional Effects
+
+The area where Drazhul dwells is corrupted by his presence, creating one or more of the following effects everywhere within 5 miles of his lair:
+
+- Elementals that spend more than 24 hours within the area must make a *Wisdom Saving Throw:* DC 19 or become Charmed by Drazhul for the next 24 hours or until they leave the area. While Charmed, they are Lawful Evil, become violent, and attack any non-Elementals and non-Fel Dwarfs on sight.
+- Whenever a creature says Drazhul's name in the area, it takes 1d4 Fire damage as its mouth fills with hot ash. Drazhul may choose for a creature to not be affected this way.
+- Whenever a creature makes a blacksmithing check in the area, it can roll a d6 and add the number rolled to the check. Additionally, if the check was made to repair or build a weapon, the creature may sacrifice 500 gp worth of metal. If it does, the weapon gains one of the following effects at random for the next 24 hours or until the creature imbues another weapon with an effect this way:
+
+<br>
+
+> ##### New Condition: Obsessed 
+> The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
+> * While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
+> * While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
+> *  The creature can't willingly move away from a source of its obsession.
+
+\columnbreak
+
+##### Weapon Effects
+
+| d6 | Effect |
+|:---:|:-----------|
+| 1 | ***Dweomer Leach.*** Creatures making Constitution saving throws to maintain concentration on a spell as a result of damage from this weapon have disadvantage on the saving throw. If a creature fails the save, the wielder gains 5 temporary hit points per level of the spell. |
+| 2 | ***Fel Flare.*** The weapon deals an additional 7 (2d6) Fire damage on a hit. Additionally, the target loses Resistance to Fire damage until the end of the wielder's next turn. |
+| 3 | ***Life Bane.*** On a hit, the weapon curses the target. At the end of each of the cursed creature's turns, it takes 7 (2d6) Necrotic damage. The curse ends if the creature ends its turn more than 60 feet away from the wielder, if the wielder dies, or if the cursed creature regains 10 or more hit points. |
+| 4 | ***Malignant.*** When the wielder makes an attack against a creature, it can choose to become Obsessed* with that creature until the end of its next turn. If it does, the attack deals an additional 10 (3d6) Fire damage on a hit. |
+| 5 | ***Possessed.*** The weapon deals an additional 14 (4d6) Necrotic damage on a hit. If the wielder misses or deals no damage on a hit, it takes 7 Necrotic damage as the weapon hungers for blood. |
+| 6 | ***Essence-Wrought.*** When the wielder hits a creature with the weapon, it can pour its soul into the attack, dealing an additional 21 (6d6) Force damage. If it does, the wielder suffers one level of Fatigue*. |
+
+These effects gradually dissipate over 1d10 days after Ashragoth's death.
+
+**New condition described below*
+
+
+
+> ##### New Condition: Fatigue
+> The creature experiences debilitating weariness that can accumulate in levels. Each time a creature gains the Fatigue condition, its Fatigue Level increases by 1. If the level reaches 6, the creature dies. Fatigue Levels have the following effects on a creature:
+> * **d20 Rolls:** When a creature makes a d20 Test, subtract its Fatigue Level from the d20 roll.
+> * **Spell Save DCs:** Subtract a creature's Fatigue Level from the Spell Save DC of any spell it casts.
+> * **Speed** A creature's speed is reduced by a number of feet equal to 5 x its Fatigue level. This can't lower its speed below 5 feet.
+> 
+> **Ending the Condition:** Completing a Long Rest reduces a creature's Fatigue Level by 1.
+> 
+> **Fatigue vs. Exhaustion:** Fatigue is an alternative mechanic to the Exhaustion condition, and any ability that removes levels of Exhaustion or grants immunity to it does the same for Fatigue. 
+
+\pagebreakNum
+
+
+
+
+
+### Daemonspite Crucible
+
+The Daemonspite Crucible is an artifact bound to Drazhul, granting him terrible power. It is a Tiny sentient Chaotic Evil magic artifact with an Intelligence of 20, a Wisdom of 10, and a Charisma of 18. It is attuned to Drazhul and cannot be attuned to any other creature. It has hearing and Blindsight out to a range of 120 feet. He always has the artifact with him, and it has the following traits.
+
+***Demiplane.*** The Crucible contains a demiplane that is an empty room 30 feet in each dimension. Within the demiplane, three Infernal Tormenters are bound to the plane under the Crucible's control. The Crucible is aware of anything that happens in the demiplane. If Drazhul dies or becomes Petrified, the Soul Eater effect ends and any souls within the demiplane are returned to their bodies.
+
+***Soul Eater.***  Drazhul the Ruinous may choose to activate the Crucible when he rolls Initiative or at the start of his turn. It then remains active for the next minute or until he dies or becomes Petrified.
+
+While active, on Initiative Count 30 (losing ties), the Crucible attempts to draw out the soul of any number of creatures within 90 feet of it. Any creature may choose to let its soul be drawn out. If more than one creature accepts, the Crucible chooses one. 
+
+If none accept, each creature other than Drazhul and Ashbellow within a 90-foot emanation originating from the Crucible must make a *Wisdom Saving Throw:* DC 22. The Crucible may then choose one creature that failed the saving throw and tear its spirit from its body, placing it in the center of the demiplane. If there is already a soul in the demiplane, the effect fails. The body left behind is Unconscious and in a state of suspended animation. 
+
+The spirit resembles the creature's mortal form in almost every way, replicating its game statistics and possessions; possessions created this way lose any magical properties and disappear if they leave the creature's person. Any damage or other effects that apply to the spirit also affect the physical body, and vice versa. When the effect ends, the spirit returns to the body.
+
+At the end of its turn, the affected creature can repeat the saving throw. On a success, the spirit returns to its body and the effect ends. The spirit also returns to the body if Drazhul the Ruinous dies or becomes Petrified, or if *Dispel Good and Evil* is cast on the target.
+
+***Destroying the Crucible.*** The Crucible is destroyed if all three Infernal Tormenters are dead at the same time.
+
+### Drazhul and Ashbellow
+You can pair Drazhul the Ruinous with his steed, Ashbellow, to turn him into a true endgame threat. Together, they have a combined Challenge Rating (CR) of 24.
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Resolute
+> The creature stubbornly digs in to weather any assault. It experiences the following effects:
+>  * Attack rolls made against the creature have disadvantage.
+>  * The creature can't take its move action on its turn.
+> * The creature makes Strength checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage.
+> 
+> The condition ends if an effect moves the creature against its will, knocks it prone, or the creature becomes charmed, frightened, or incapacitated. A creature that is prone, charmed, frightened, or incapacitated can't become Resolute.
+
+<br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid. 
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<br>
+
+
+<img src='https://i.postimg.cc/k55HS19R/masterwork-of-ingenuity.png' style='position:absolute; top:-40px; right:-45px; width:500px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-480px;top:-50px;height:1400px;width:1416px;transform:rotate(180deg)' />
+  
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:35px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Drazhul the Ruinous
+> *Medium Humanoid (Dwarf), Boss, Lawful Evil*
+> ___
+> - **Armor Class** 18  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +11 (21)
+> - **Hit Points** 332 (35d8 + 175)
+> - **Speed** 25 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+11</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +11, Athletics +10, Deception +10, Insight +10, Intimidation +10, Smith's Tools +12, Tinker's Tools +12, Vehicles (Land) +12
+> - **Resistances** All Damage
+> - **Immunities** Fire; Charmed, Petrified
+> - **Gear** Plate
+> - **Senses** Darkvision 60 ft., Passive Perception 14
+> - **Languages** Dwarvish, Goblin, Infernal, Orc
+> - **Challenge** 17 (18,000 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +6
+> ___
+>
+> ### Traits
+>
+> ***Daemonspite Crucible*** Drazhul carries the Daemonspite Crucible with him. It is a Tiny magical object described on the previous page.
+>
+> ### Actions
+>
+> ***Spellcasting.*** Drazhul can spend Power to cast spells. His spellcasting ability is Intelligence (spell save DC 19, +11 to hit with spell attacks). He knows the following spells: <br>
+> 
+> **0 Power:** *Guidance*, *Mending*, *Thaumaturgy*, *Scorching Ray*, *Subjugation** <br>
+> **15 Power:** *Magmatic Stone** (spheres created by the spell last one minute and do not move), *Earthen Rupture** <br>
+> **30 Power:** *Wall of Fire*, *Fabricate* <br>
+> **60 Power:** *Divine Hammer**, *Creation* <br>
+>
+> ***The Graven Sceptre.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* Bludgeoning damage equal to the target's Constitution modifier plus three rolls of the target's largest Hit Die.
+>
+> ### Bonus Actions
+>
+> ***Resolute Stance.*** Drazhul becomes Resolute** until the start of his next turn.
+>
+> ### Reactions
+>
+> ***Hellshard Amulet.*** Drazhul casts *Hellish Rebuke* at 3rd level (4d10) in response to that spell's trigger, as long as he is Resolute, using the same spellcasting ability as described in his Spellcasting action.
+>
+> ### Monstrous Actions
+>
+> Drazhul gains one additional action in combat on Initiative Count 1. He can take any of the following actions if he is not Incapacitated. He can also take Tenacious Will even if Incapacitated.
+>
+> ***Assault (Initiative Count 1).*** Drazhul moves up to 15 feet without provoking opportunity attacks and then makes a Graven Sceptre attack.
+>
+> ***Fel Casting (Initiative Count 1).*** Drazhul casts a spell (he must still spend Power to do so).
+>
+> ***Tenacious Will (Initiative Count 1).*** If Drazhul is subject to an ongoing effect that allows him to make a saving throw as an action or at the start or end of his turn, he can immediately make that save with advantage, ending the effect on a success.
+> 
+> **New spell described at end of document* <br>
+> ***New condition described on previous page*
+
+</span>
+
+<img src='https://i.postimg.cc/c49KYN0x/rakdos-guild-gate.jpg' style='position:absolute; bottom:-160px; right:0px; width:820px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-250px; right:-20px; width:900px; transform:rotate(182deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-250px; right:-20px; width:900px; transform:rotate(176deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Ashbellow
+> *Large Elemental, Boss, Lawful Evil*
+> ___
+> - **Armor Class** 17  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +7 (17)
+> - **Hit Points** 262 (21d12 + 126)
+> - **Speed** 50 ft., Fly 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">26</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td style="background-color:#e0e5c1; text-align:center">+14</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+9</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +8, Perception +9
+> - **Resistances** Cold, Poison
+> - **Immunities** Fire
+> - **Senses** Darkvision 120 ft., Passive Perception 18
+> - **Languages** Understands Infernal and Primordial (Ignan) but can't speak
+> - **Challenge** 15 (13,000 XP)  &emsp;&emsp;&ensp;    **Proficiency Bonus** +6
+> ___
+>
+> ### Traits
+>
+> ***Burning Resolve.*** When Ashbellow becomes Resolute*, it and each creature within 10 feet of it starts Burning*, taking 12 (5d4) Fire damage at the start of each of their turns until the condition ends.
+>
+> ***Fire Absorption.*** Whenever Ashbellow is subjected to Fire damage from a source other than itself, it takes no damage and instead regains a number of hit points equal to the Fire damage dealt.
+>
+> ***Molten Resolve.*** Whenever a nonmagical weapon hits Ashbellow while it is Resolute, the object takes a -1 penalty to attack rolls. It is destroyed if the penalty reaches -5.
+>
+> ### Actions
+>
+> ***Multiattack.*** Ashbellow makes one Gore attack and one Pulverizing Stomp attack.
+>
+> ***Gore.*** *Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:* 27 (3d12 + 8) Piercing damage plus 16 (3d10) Fire damage. If Ashbellow moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a *Strength Saving Throw:* DC 22. <br>
+> *Failure:* The target is knocked Prone and pushed up to 20 feet away.
+>
+> ***Pulverizing Stomp.*** *Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:* 27 (3d12 + 8) Bludgeoning damage plus 16 (3d10) Fire damage. If the target is Prone, it takes an additional 11 (2d10) Fire damage and can't stand until the end of its next turn unless it spends all its movement to make a *Constitution Saving Throw:* DC 19. On a success, it stands up.
+>
+> ### Bonus Actions
+>
+> ***Resolute Charge.*** At the start of its turn, Ashbellow may move up to its speed in a straight line and become Resolute.
+>
+> ### Monstrous Actions
+>
+> Ashbellow gains one additional action in combat on Initiative Count 10. It can take any of the following actions if it is not Incapacitated. It can also take Tenacious Will even if Incapacitated.
+>
+> ***Searing Gust (Initiative Count 10).*** Ashbellow moves up to 25 feet in a straight line, then sends burning wind rushing in a 20-foot-wide, 30-foot-long line. If the line passes through a sphere of whirling magma created by the *Magmatic Stone* spell, the sphere ends and the wind becomes superheated after passing through the area, extending an extra 30 feet. Each creature in the line must make a *Constitution Saving Throw* (disadvantage if it is in a superheated part of the line): DC 22. <br>
+> *Failure:* The target takes 21 (6d6) Fire damage and is pushed 15 feet away from Ashbellow. <br>
+> *Failure by 5+:* The target is Blinded until the end of Ashbellow's next turn. <br>
+> *Success:* The target takes half damage only.
+>
+> ***Molten Shockwave (Initiative Count 10).*** Ashbellow moves up to 25 feet in a straight line, then smashes the ground in a 15-foot Emanation originating from itself. Any pillars created by the *Earthen Rupture* spell in the area are destroyed, releasing a wave of stone in a 30-foot cone pointing away from Ashbellow. Each creature in the Emanation or cone must make a *Dexterity or Strength Saving Throw (target's choice, disadvantage if in the cone):* DC 22. <br>
+> *Failure:* The target takes 10 (3d6) Fire damage plus 10 (3d6) Bludgeoning damage and is knocked Prone. <br>
+> *Failure by 5+:* The target is Dazed* until the end of its next turn. <br>
+> *Success:* The target takes half damage only. <br>
+> *Success or Failure:* The ground in the area becomes difficult terrain if it is made of earth or stone.
+>
+> ***Tenacious Will (Initiative Count 10).*** If Ashbellow is subject to an ongoing effect that allows it to make a saving throw as an action or at the start or end of its turn, it can immediately make that save with advantage, ending the effect on a success.
+> 
+>**New condition described on page before last* <br>
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Infernal Tormenter
+> *Large Construct Fiend, Party, Lawful Evil*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +5 (15)
+> - **Hit Points** 90 (12d10 + 36)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Immunities** Fire, Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained
+> - **Senses** Blindsight 60 ft., Truesight 60 ft., Passive Perception 13
+> - **Languages** Understands Infernal but can't speak
+> - **Challenge** 5 (1,800 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +6
+> ___
+>
+> ### Traits
+>
+> ***Regeneration.*** The Infernal Tormenter regains 10 hit points plus an additional 10 for each level of Sadism it has at the start of each of its turns if it has at least 1 hit point.
+>
+> ***Incorporeal Movement.*** The Infernal Tormenter can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.
+>
+> ***Plane Bound.*** The Infernal Tormenter cannot enter or leave the demiplane by any means. If the Infernal Tormenter dies, its body dissolves into ichor and it revives in 1 hour with a new body and all its hit points in the demiplane.
+>
+> ***Cruel Backlash.*** When the Infernal Tormenter dies, each other Infernal Tormenter gains a level of Sadism. Until the same initiative count of the next round, Drazhul the Ruinous loses all Resistances and becomes Brittle. While Brittle, any attack that hits him is a critical hit, and if any damage lowers his hit points below 50, he becomes Petrified (ignoring his immunity) until freed by *Greater Restoration* cast using a 9th-level spell slot. Drazhul can have a maximum of 90 Power at once.
+>
+> ### Actions
+>
+> ***Multiattack.*** The Infernal Tormenter makes one Tormenting Fire attack, plus one additional Tormenting Fire attack for each level of Sadism it has.
+>
+> ***Tormenting Fire.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 5 (1d10) Fire damage plus 5 (1d10) Psychic damage, and Drazhul the Ruinous gains an amount of Power equal to the damage dealt. Drazhul can have a maximum of 90 Power at once.
+
+</span>
+
+<img src='https://i.postimg.cc/v8jc3XPq/deepfire-elemental-185.webp' style='position:absolute; bottom:-30px; right:0px; width:820px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-360px; right:0px; width:900px; transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Drazhul – Combat Tactics
+#### General Strategy
+If no creature willingly offers its soul to Drazhul's Crucible, Drazhul selects a creature vulnerable to melee attacks, allowing the Infernal Tormenters to overwhelm it.
+
+Drazhul prefers to remain in a defensible position where he can stay Resolute and accumulate Power for spellcasting. He avoids entering melee whenever possible, resorting to his Graven Sceptre only when he lacks sufficient Power to cast spells.
+
+If Cruel Backlash affects him, Drazhul withdraws from combat if possible and waits for the effect to expire before re-engaging.
+
+#### Spell Priorities
+##### Divine Hammer
+* Cast if it can hit three or more targets.
+
+##### Wall of Fire
+* Cast if it can affect two or more targets.
+* Prioritize opportunities where the spell can also heal Ashbellow.
+
+##### Magmatic Stone
+* Use against creatures concentrating on spells.
+* Also use if it can hit three or more targets.
+* Can be used to heal Ashbellow when appropriate.
+
+##### Earthen Rupture
+* Cast if it can hit three or more targets.
+
+##### Hellish Rebuke
+* Cast when damaged by a creature with low Dexterity.
+
+##### Scorching Ray
+* Only cast when Drazhul has no Power available and cannot reach a target with his Graven Sceptre.
+
+\columnbreak
+
+### Ashbellow – Combat Tactics
+When accompanied by Ashbellow, Drazhul becomes more aggressive, advancing into the heart of battle while remaining Resolute. Together they prioritize:
+
+**Fire Absorption** – Ashbellow benefits from fire-based effects, including Magmatic Stone Storms and Fire Wall, which can restore his health.
+
+**Low-Strength Enemies** – They focus on targets least capable of resisting their attacks.
+
+**Large Enemy Formations** – They seek opportunities to inflict maximum damage across clustered foes.
+
+#### Ashbellow's Abilities
+Ashbellow selects its abilities according to battlefield conditions:
+
+##### Searing Gust
+* Preferred when existing Magmatic Stone Storms can be exploited.
+* Ashbellow will avoid consuming all active storms, as they can continue to provide healing.
+
+##### Molten Shockwave
+* Preferred when existing Earthen Rupture pillars can be exploited for greater effect.
+
+#### Drazhul the Ruinous Art Credit
+* Hofri Ghostforge - Daarken, Wizards of the Coast
+* Masterwork of Ingenuity - Ulrich Brunin, Wizards of the Coast
+* Rakdos Guildgate - Eytan Zana, Wizards of the Coast
+* Deepfire Elemental - Joel Thomas, Wizards of the Coast
+* Tribal Flames - Zack Stella, Wizards of the Coast
+
+<img src='https://i.postimg.cc/HknvdYwf/Tribal-Flames-Mt-G-Art.jpg' style='position:absolute; bottom:-80px; right:0px; width:820px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-225px; right:0px; width:900px; transform:rotate(170deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-280px; right:0px; width:900px; transform:rotate(180deg)' />
+
+\pagebreakNum
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
@@ -2487,7 +3449,7 @@ Select one of the following lores or magic to determine a fel dwarf daemonsmith 
 > #### Fel Dwarf Apprentice: Lore of Fire
 >
 > ##### **Fire Trait:**
-> ***Kindleflame.*** When the dwarf deals fire damage to a creature with a spell, it gains a burn then takes 1d4 fire damage for each burn it has. The creature loses all burn after one minute of not receiving one.
+> ***Kindleflame.*** When the dwarf deals fire damage to a creature with a spell, it gains a burn then takes 1d4 fire damage for each burn it has. The creature loses all burns after one minute of not receiving one.
 >
 > ##### **Trait:**
 > **At will:** *guidance,* *mending,* *thaumaturgy* <br>
@@ -2668,7 +3630,7 @@ Select one of the following lores or magic to determine a fel dwarf daemonsmith'
 > #### Fel Dwarf Daemonsmith: Lore of Fire
 >
 > ##### **Fire Trait:**
-> ***Kindleflame.*** When the dwarf deals fire damage to a creature with a spell, it gains a burn then takes 1d4 fire damage for each burn it has. The creature loses all burn after one minute of not receiving one.
+> ***Kindleflame.*** When the dwarf deals fire damage to a creature with a spell, it gains a burn then takes 1d4 fire damage for each burn it has. The creature loses all burns after one minute of not receiving one.
 >
 > ##### **Trait:**
 > **At will:** *guidance,* *mending,* *thaumaturgy* <br>
@@ -2853,7 +3815,7 @@ Select one of the following lores or magic to determine a fel dwarf daemonsmith-
 > #### Fel Dwarf Daemonsmith-Prophet: Lore of Fire
 >
 > ##### **Fire Trait:**
-> ***Kindleflame.*** When the dwarf deals fire damage to a creature with a spell, it gains a burn then takes 1d4 fire damage for each burn it has. The creature loses all burn after one minute of not receiving one.
+> ***Kindleflame.*** When the dwarf deals fire damage to a creature with a spell, it gains a burn then takes 1d4 fire damage for each burn it has. The creature loses all burns after one minute of not receiving one.
 >
 > ##### **Trait:**
 > **At will:** *guidance*, *mending*, *thaumaturgy* <br>
@@ -4482,6 +5444,393 @@ The variant rule that allows dwarves to use halberds does not change their tacti
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Fel Goblins
+*Devious Sadists Who Cowardly Serve Their Brutal Masters*<br>
+**Habitat:** Desert, Mountain, Underdark, Urban, Volcanic; **Treasure:** Armaments <br>
+
+A wide variety of unpleasant goblinoids pillage and spread mayhem across the civilized world, earning the ire and disgust of folk everywhere. Yet any who have had the misfortune of contending with fel goblins confidently claim these vile marauders are the most despicable of their kind. The sheer duplicity, sadism, and cowardice displayed by the average fel goblin is so extreme that even other goblinoids spurn them, attacking such perfidious spawn on sight.
+
+These creatures are slightly larger than common goblins, though still somewhat shorter than the average man. Their builds are wiry and sinuous, and their gaunt faces twist into gaping grins whenever an opportunity to inflict misery presents itself, revealing rows of yellow, needle-like teeth.
+
+Because of their craven and spiteful nature, many fel goblins have been subjected and conscripted into the service of the Fel Dwarf Empire. Their cowardice keeps any individual from standing against their iron masters for fear of incurring their wrath, while their duplicitous nature prevents them from ever forming any meaningful rebellion with their wretched brethren to depose imperial rule.
+
+The fel dwarfs employ these lowly minions for tasks considered unfit even for the lowest ranks of dwarven society: taskmasters, messengers, expendable warriors, and other dirty work.
+
+\columnbreak
+
+
+___
+> ## Fel Goblin
+> *Small Humanoid (Goblinoid), Mob, Neutral Evil*
+> ___
+> - **Armor Class** 15   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **Initiative** +2 (12)
+> - **Hit Points** 10 (3d6)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">7</td><td style="background-color:#e0e5c1; text-align:center">−2</td><td style="background-color:#e0e5c1; text-align:center">−2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Deception +4, Stealth +6
+> - **Senses** Darkvision 60 ft., Passive Perception 8
+> - **Challenge** 1/2 (100 XP)   &emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Back Stabber.*** The fel goblin has advantage on opportunity attacks. Creatures provoke opportunity attacks from the fel goblin even if they take the Disengage action before leaving its reach, though the attack made against a creature this way has disadvantage instead of advantage.
+>
+> ***Malign Authority.*** The fel goblin has advantage on Wisdom saving throws as long as there is an allied dwarf within 30 feet that is not Incapacitated, Charmed, or Frightened.
+>
+> ### Actions
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) Slashing damage, or 9 (2d6 + 2) Slashing damage if the attack was made using its reaction.
+>
+> ***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) Piercing damage.
+>
+> ### Bonus Actions
+>
+> ***Sprint.*** The fel goblin takes the Dash action.
+
+</span>
+
+Fel goblins pour onto the battlefield, wielding crude weapons and shoddy armor. When given a choice of arms, they favor short swords and daggers for close combat, along with bows for striking from afar before rushing in for the kill.
+
+Though not particularly deadly foes, these goblinoids are equally prone to charging their enemies in malicious fervor as they are to breaking ranks and fleeing in terror, unless a dwarven overseer is nearby to keep them in line. Even so, none should ever turn their back on such cretins, for fel goblins are all too eager to seize any opening, driving jagged blades and rusted spikes into the unsuspecting.
+
+<img
+src='https://i.postimg.cc/4xWQDsVr/goblin-soldier-token.png'
+style='position:absolute;top:-175px;left:-90px;width:625px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:210px; right:0px; width:900px; transform:rotate(0deg)' />
+
+
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-760px;top:0px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+\pagebreakNum
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+### Fel Goblin Sneaks
+
+Fel goblin sneaks serve as assassins for the fel dwarfs and are among the most deplorable of their kind. These creatures can move with alarming stealth despite carrying ample supplies of poison-laced daggers hidden throughout their garb. Striking with foul precision, they excel at eliminating high-value targets before vanishing back into the shadows.
+
+\columnbreak
+
+___
+___
+> ## Fel Goblin Sneak
+> *Small Humanoid (Goblinoid), Party, Neutral Evil*
+> ___
+> - **Armor Class** 15 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +3 (13)
+> - **Hit Points** 14 (4d6)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">7</td><td style="background-color:#e0e5c1; text-align:center">−2</td><td style="background-color:#e0e5c1; text-align:center">−2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Deception +4, Sleight of Hand +7, Stealth +7
+> - **Senses** Darkvision 60 ft., Passive Perception 8
+> - **Challenge** 1 (200 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Back Stabber.*** The fel goblin has advantage on opportunity attacks. Creatures provoke opportunity attacks from the fel goblin even if they take the Disengage action before leaving its reach, though the attack made against a creature this way has disadvantage instead of advantage.
+>
+> ***Malign Authority.*** The fel goblin has advantage on Wisdom saving throws as long as there is an allied dwarf within 30 feet that is not Incapacitated, Charmed, or Frightened.
+>
+> ### Actions
+>
+> ***Venomous Knife.*** *Melee or Ranged Weapon Attack:* +5 to hit (with advantage if it is an opportunity attack), reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) Piercing damage plus 7 (2d6) Poison damage. The fel goblin deals an additional 3 (1d6) Piercing damage if the attack was made using its reaction. Regardless, if the target is a creature, it must make a *Constitution Saving Throw:* DC 13. <br>
+> *Failure:* The target is Poisoned. A creature Poisoned this way repeats the saving throw at the end of each of its turns, ending the effect on a success. If the creature fails the saving throw and is already Poisoned, it takes 7 (2d6) Poison damage instead.
+>
+> ### Bonus Actions
+>
+> ***Cunning Action.*** The fel goblin takes the Dash, Disengage, or Hide action.
+
+</span>
+
+<img
+src='https://i.postimg.cc/tCC52sVs/goblin-bushwacker.jpg'
+style='position:absolute;top:-10px;left:-0px;width:820px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+ style='position:absolute;right:-90px;top:90px;height:1400px;width:1416px;transform:rotate(189deg)' />
+
+\pagebreakNum
+
+### Fel Goblin Burning Archers
+
+Armed with crude shortbows and oil-coated arrows, these malign marksmen delight in setting anything they can ablaze, whether buildings, siege works, or enemy soldiers. Greater still is the mirth they find in driving flaming arrows into the backs of unsuspecting victims and watching panic spread through the ranks.
+
+### Fel Goblin Wolf Riders
+Highest among the lowly fel goblins are the wolf-riding bands that dwell along the fringes of the fel dwarfs’ domain. These outriders are employed as mercenaries by the empire, though they remain nearly as treacherous as their footbound counterparts.
+
+Mounted atop vicious fanged steeds, these goblins serve as scouts and skirmishing cavalry, using their speed to outmaneuver enemies and strike vulnerable flanks, sowing chaos wherever they ride. Their swiftness, however, makes them even more precarious than their infantry brethren. Should the tide of battle turn against them, they are quick to rout and flee beyond the reach of their overseers’ punishment.
+
+Despite this risk, the value of such swift raiders cannot be denied. Few soldiers in the fel dwarfs’ arsenal are more effective during slaving expeditions and border raids. Able to run down fleeing victims with terrifying efficiency, these relentless bandits and their savage mounts are feared wherever they roam.
+
+### Fel Goblin Vile Gits
+The self-proclaimed Vile Gits are a notorious mercenary band that has managed to secure a rare degree of autonomy within the tyrannical dominion of the fel dwarfs. Their unmatched talent for despoiling settlements and hunting down fleeing victims has made them invaluable to dwarven factions and warlords alike.
+
+So prized are their cruel services that competing fel dwarf states will surrender vast sums of wealth simply to keep these hirelings out of enemy hands. In return, the Vile Gits excel at gathering fresh slaves for the covetous industries of their masters.
+
+These warriors strike with brutal force, slicing any foolish enough to flee,  as tarnished blades and the snapping jaws of their monstrous canids make short work of those who turn their backs, leaving the duo out of their sight. They also wield arrows coated in viscous tar that ignite upon impact. Worse still, the substance burns hotter the longer it is exposed to flame, rendering victims increasingly susceptible to further pyromantic attacks.
+___
+___
+> ## Fel Goblin Burning Archer
+> *Small Humanoid (Goblinoid), Mob, Neutral Evil*
+> ___
+> - **Armor Class** 14 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +2 (12)
+> - **Hit Points** 7 (2d6)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">7</td><td style="background-color:#e0e5c1; text-align:center">−2</td><td style="background-color:#e0e5c1; text-align:center">−2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Deception +4, Stealth +6
+> - **Senses** Darkvision 60 ft., Passive Perception 8
+> - **Challenge** 1/2 (100 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___ 
+>  ### Traits
+>
+> ***Back Stabber.*** The fel goblin has advantage on opportunity attacks. Creatures provoke opportunity attacks from the fel goblin even if they take the Disengage action before leaving its reach, though the attack made against a creature this way has disadvantage instead of advantage.
+>
+> ***Malign Authority.*** The fel goblin has advantage on Wisdom saving throws as long as there is an allied dwarf within 30 feet that is not Incapacitated, Charmed, or Frightened.
+>
+> ### Actions
+>
+> ***Knife.*** *Melee or Ranged Weapon Attack:* +4 to hit (with advantage if it is an opportunity attack), reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) Piercing damage.
+>
+> ***Burning Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) Piercing damage, or 9 (2d6 + 2) Piercing damage if the attack was made using its reaction. Regardless, the target starts Burning*. If the target is already Burning, it takes 2 (1d4) Fire damage instead. The fel goblin can make opportunity attacks with this weapon and does not suffer disadvantage from being within 5 feet of the target when doing so.
+>
+> ### Bonus Actions
+>
+> ***Sprint.*** The fel goblin takes the Dash action.
+> 
+> **New condition described at end of document*
+
+</span>
+
+\pagebreakNum
+
+
+
+___
+___
+> ## Fel Goblin Wolf Rider
+> *Small Humanoid (Goblinoid), Mob, Neutral Evil*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 10 (3d6)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Animal Handling +2, Deception +4, Stealth +7
+> - **Senses** Darkvision 300 ft., Passive Perception 10
+> - **Challenge** 1 (200 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Back Stabbers.*** The fel goblin and any controlled mount it is riding with a Dexterity of 13 or higher both have advantage on opportunity attacks. Creatures provoke opportunity attacks from the fel goblin and its mount even if they take the Disengage action before leaving its reach, though the attack made against a creature this way has disadvantage instead of advantage.
+>
+> ***Malign Authority.*** The fel goblin has advantage on Wisdom saving throws as long as there is an allied dwarf within 30 feet that is not Incapacitated, Charmed, or Frightened.
+>
+> ### Actions
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) Slashing damage, or 10 (2d6 + 3) Slashing damage if the attack was made using its reaction.
+>
+> ***Burning Shortbow.*** *Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:* 6 (1d6 + 3) Piercing damage and the target starts Burning*. If the target is already Burning, it takes 2 (1d4) Fire damage instead.
+>
+> ### Bonus Actions
+>
+> ***Spur.*** The fel goblin or a controlled mount it is riding with a Dexterity of 13 or higher takes the Dash action as a Bonus Action.
+> 
+> **New condition described at end of document*
+
+</span>
+
+___
+___
+> ## Fel Goblin Vile Git
+> *Small Humanoid (Goblinoid), Mob, Neutral Evil*
+> ___
+> - **Armor Class** 17  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 58 (13d6 + 13)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+6</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Animal Handling +2, Deception +4, Stealth +7
+> - **Senses** Darkvision 300 ft., Passive Perception 10
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Back Stabbers.*** The fel goblin and any controlled mount it is riding with a Dexterity of 13 or higher both have advantage on opportunity attacks. Creatures provoke opportunity attacks from the fel goblin and its mount even if they take the Disengage action before leaving its reach, though the attack made against a creature this way has disadvantage instead of advantage.
+>
+> ***Malign Authority.*** The fel goblin has advantage on Wisdom saving throws as long as there is an allied dwarf within 30 feet that is not Incapacitated, Charmed, or Frightened.
+>
+> ### Actions
+>
+> ***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) Slashing damage. If the attack was made using a reaction, the fel goblin deals 24 (6d6 + 3) Slashing damage instead, and if the target is a creature, its speed becomes 0 for the rest of the turn.
+>
+> ***Burning Tar Shortbow.*** *Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:* 11 (2d6 + 3) Piercing damage and the target starts Burning*. If the target is already Burning, it takes 2 (1d4) Fire damage instead. While Burning, the first time each turn the target takes Fire damage, it takes an additional 5 (2d4) Fire damage.
+>
+> ### Bonus Actions
+>
+> ***Spur.*** The fel goblin or a controlled mount it is riding with a Dexterity of 13 or higher takes the Dash action as a Bonus Action.
+>
+> **New condition described at end of document*
+
+</span>
+
+\pagebreakNum
+
+### Fel Goblin Tactics
+Fel goblins specialize in forcing enemies to flee, creating openings for reaction attacks that deal additional damage. They Dash as a bonus action to rapidly close the distance to vulnerable targets, overwhelming isolated enemies through coordinated attacks.
+
+Fel goblins work especially well alongside fel dwarfs with ranged weapons. While the goblins tie enemies down in melee and prevent them from advancing, the dwarfs can safely attack from a distance.
+
+#### Fel Goblin Sneak Tactics
+Fel goblin sneaks follow the same general tactics as standard fel goblins, but fight with greater mobility. They prefer to target creatures with low Constitution. If threatened, sneaks will Hide or Disengage
+
+#### Fel Goblin Burning Archer Tactics
+Fel goblin burning archers focus on igniting as many enemies as possible from a distance while constantly repositioning to maintain range. They Dash between firing positions and avoid prolonged melee whenever possible.
+
+If forced into close combat:
+* They will Dash away from opponents who have the advantage over them.
+* If escape is not possible or they have many allies nearby, they will Dodge and wait for their allies to overwhelm the enemy together.
+
+
+#### Fel Goblin Wolfrider & Vile Git Tactics
+Wolf riders attack from a range first, using their bows to ignite targets before charging into melee. Once engaged, they attempt to overwhelm isolated enemies through coordinated attacks, then break away and continue hit-and-run assaults in the same style as other fel goblins.
+
+##### Fel Goblins Art Credit
+* Goblin Soldier - Filip Burburan, Wizards of the Coast
+* Goblin Bushwhacker - Mark Tedin, Wizards of the Coast
+* Goblin Trenches - Filip Burburan,  Wizards of the Coast
+
+\columnbreak
+
+
+
+<br>
+
+> ##### Alternative Fel Goblin Masters
+> The Malign Authority trait leads fel goblins to work well with fel dwarves. However, if this doesn't make sense in your setting, feel free to modify this trait to utilize a different creature type that can serve as the fel goblins' dark masters. Other creatures could include hobgoblins, salamaders, red dragons, or fire giants.
+
+
+<br>
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<img
+src='https://i.postimg.cc/DZN2HJwP/goblin-trenches.png'
+style='position:absolute;bottom:-140px;left:-4px;width:820px' />
+
+  
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-150px; right:-0px; width:860px; transform:rotate(-9deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' style='position:absolute; top:-260px; right:-0px; width:860px; transform:rotate(-0deg); filter:  opacity(100%)  grayscale(00%)  brightness(97%) ' />
+
+\pagebreakNum
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Fel Lammasus
@@ -5439,6 +6788,560 @@ If you plan to use harvested loot for crafting magic items, you can try to thema
 
 \pagebreakNum
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Laborers
+*Enslaved Wretches Press Ganged Into Service*<br>
+**Habitat:** Any; **Treasure:** None <br>
+The vast and dark industries of the fel dwarfs are fueled by the sweat and blood of laborers, accrued through long and pitiless campaigns by the cruel, bearded raiders as they sack countless kingdoms for the resources needed to sustain their hellish society.
+
+Numbers untold, drawn from many different cultures and races, suffer and toil in volcanic mines, slowly poisoned by the heated air until life is drained from them, while others work in titanic factories on hazardous assembly lines, building iron war machines as they wither away. Many are simply sacrificed to blasphemous gods to earn their masters’ favor and devotion, their souls becoming playthings for infernal beings for the rest of time.
+
+Whenever war comes to the fel dwarfs, the brutal fel dwarves rally their vast hordes of slaves and harshly press them into service. These unwilling conscripts are driven headlong into the oncoming forces, armed with nothing more than rusted pickaxes and battered wrenches, forced to act as living walls to blunt the enemy’s assault, and those foes of the fel dwarfs who possess any morality may pause when faced with such broken men and women.
+
+Such wretched souls face a grim choice: death at the hands of the advancing warriors, or unspeakable torment at the hands of their dwarf overseers.
+
+> ##### Alternative Masters
+> The Malign Authority trait leads laborers to work well with fel dwarves. However, if this doesn't make sense in your setting, feel free to modify this trait to utilize a different creature type that can serve as the laborers' dark masters. Other creatures could include hobgoblins, drow, devils, evil dragons, or fire giants. Any creature willing to press slaves into their service will work.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+___
+> ## Laborer
+> *Medium or Small Humanoid, Mob, Neutral*
+> ___
+> - **Armor Class** 9  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** -1 (9)
+> - **Hit Points** 3
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">9</td><td style="background-color:#e0e5c1; text-align:center">−1</td><td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Senses** Passive Perception 8
+> - **Challenge** 1/8 (25 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Tormentor's Authority.*** The laborer has advantage on Wisdom saving throws as long as there is an allied dwarf with a higher CR within 30 feet that is not Incapacitated, Charmed, or Frightened. Otherwise, the laborer has disadvantage on Wisdom saving throws.
+>
+> ### Actions
+>
+> ***Tool.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) Piercing damage, or 5 (2d4) Piercing damage if there is an allied dwarf with a higher CR within 30 feet that is not Incapacitated, Charmed, or Frightened.
+
+</span>
+
+##### Laborers Art Credit
+* Lay Waste - Carl Critchlow, Wizards of the Coast
+
+<img
+src='https://i.postimg.cc/1zzMFmk0/lay-waste.png'
+style='position:absolute;top:-70px;left:-0px;width:820px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+ style='position:absolute;right:-96px;top:12px;height:1400px;width:1416px;transform:rotate(190deg)' />
+
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+### Racial Traits for NPCs
+
+The following are racial traits for monsters with no specific race listed in their stat block. They differ from player traits, as player traits may not be helpful for a monster in a single combat encounter. This does make creatures more dangerous, though not enough to increase their CR.
+
+##### Dwarf
+- ***Dwarven Resilience.*** The dwarf has Resistance to Poison damage.
+- ***Squat.*** The dwarf's speed is reduced by 5 feet.
+- ***Resolute Stance.*** At the start of the creature's turn, the dwarf can use its Bonus Action to become Resolute until the start of its next turn.
+- Darkvision 60 ft.
+
+##### Human
+- ***Determined.*** The human gets +2 to all saving throws.
+
+##### Human, Northern
+- ***Survivor.*** When the human becomes Bloodied, for the next minute it gains advantage on all saving throws and gains 10 temporary hit points at the start of each of its turns.
+
+##### Elf, Dark
+- ***Fey Ancestry.*** The elf has advantage on saving throws against being Charmed, and magic can't put it to sleep.
+- ***Murderous Prowess.*** When the elf attacks a creature, if the target has three or more Wounds* or is Bloodied, it can reroll one of the d20 dice for the attack roll.
+- Darkvision 60 ft.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+> ##### New Condition: Resolute
+> The creature stubbornly digs in to weather any assault. It experiences the following effects:
+> * Attack rolls made against the creature have disadvantage.
+> * The creature can't take its move action on its turn.
+> * The creature makes Strength checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage.
+> 
+> The condition ends if an effect moves the creature against its will, knocks it prone, or the creature becomes charmed, frightened, or incapacitated. A creature that is prone, charmed, frightened, or incapacitated can't become Resolute.
+
+<br>
+
+##### Elf, High
+- ***Fey Ancestry.*** The elf has advantage on saving throws against being Charmed, and magic can't put it to sleep.
+- ***Martial Prowess.*** When the elf attacks a creature, as long as the elf is not Bloodied or the elf has ally within 5 feet of it that is not Incapacitated and not Bloodied, it can reroll one of the d20 dice for the attack roll.
+- Darkvision 60 ft.
+
+
+
+**New condition used in other homebrew content*
+
+<img
+src='https://i.postimg.cc/HnbFNWsD/Insufferable-Balladeercopy-5000x.webp'
+style='position:absolute;top:-180px;left:-0px;width:820px;transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+ style='position:absolute;right:-96px;top:74px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+ style='position:absolute;right:-96px;top:144px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+\pagebreakNum
+
+##### Elf, Forest
+- ***Fey Ancestry.*** The elf has advantage on saving throws against being Charmed, and magic can't put it to sleep.
+- ***Wild Prowess.*** When the elf attacks a creature, if it has advantage on the attack roll or the target is standing on difficult terrain made of plants, it can reroll one of the d20 dice for the attack roll.
+- Darkvision 60 ft.
+
+##### Fel Goblin
+- ***Back Stabber.*** The fel goblin has advantage on opportunity attacks. Creatures provoke opportunity attacks from the fel goblin even if they take the Disengage action before leaving its reach, though the attack made against a creature this way has disadvantage instead of advantage.
+
+##### Goblin
+- ***Nimble Escape.*** The goblin can take the Disengage or Hide action as a Bonus Action on each of its turns.
+
+##### Orc
+- ***Aggressive.*** The orc can use its Bonus Action to move up to its speed toward a hostile creature that it can see.
+- ***Chopper.*** The first time the creature attacks on its turn, it deals an extra 4 (1d8) damage on a hit.
+- Darkvision 60 ft.
+
+
+#### Racial Traits for NPCs Art Credit
+* Insufferable Balladeer - Borja Pindado, Wizards of the Coast
+* Fathom Fleet Swordjack - Zoltan Boros, Wizards of the Coast
+
+\columnbreak
+
+
+
+##### Ratfolk
+- ***Overwhelming Mass.*** When the ratfolk hits a creature with an attack, it deals an extra 2 (1d4) damage per ally it has within 5 feet of its target that isn't Incapacitated, up to three allies.
+- ***Scurry Away.*** At the start of its turn, the ratfolk can choose to become Frightened of a creature it can see until the start of its next turn (ignoring immunity to the Frightened condition) and move up to half its speed away from that creature without provoking opportunity attacks. While Frightened this way, it can only take the Dash, Disengage, Dodge, or Hide action.
+- ***Crevice Crawler.*** The ratfolk can move through and stop in a space large enough for a creature one size smaller than it without squeezing.
+- Darkvision 60 ft.
+
+
+
+
+##### Skink
+- ***Cold Blooded.*** The skink has advantage on saving throws against being Charmed or Frightened.
+- ***Jungle Traversal.*** The skink has a Swim speed of 30 ft. and a Climb speed of 25 ft.
+- ***Hold Breath.*** The skink can hold its breath for 1 hour.
+- ***Primeval Mask.*** The skink has advantage on Dexterity (Stealth) checks made to hide using foliage or a creature larger than it, and may do so even if it is only lightly obscured while hiding this way.
+- Darkvision 30 ft.
+
+<br>
+ 
+
+<img
+src='https://i.postimg.cc/GtPSQMqh/fathom-fleet-swordjack.jpg'
+style='position:absolute;bottom:-80px;left:-0px;width:816px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+ style='position:absolute;right:-96px;top:-490px;height:1400px;width:1416px;transform:rotate(-10deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+ style='position:absolute;right:-96px;top:-490px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Urvhak Skaar
+*First of The Wicked Fel Dwarf Demonsmiths*<br>
+**Habitat:** Desert, Mountain, Underdark, Urban, Volcanic; **Treasure:** Arcane <br>
+
+Legend speaks of Urvhak Skaar, the first dwarf to institute the dark practices of Demonic Artifice upon which the fallen Dwarf Empire built its power.
+
+It is said that, in the distant past, the ancestors of those who would become the corrupt conquerors were once a noble-hearted people. They had established a great colony in lands far beyond those known to the dwarven race, which was still young in the world during that age.
+
+Then calamity struck.
+
+The fledgling civilization, along with the expanding dwarven kingdom, was battered into chaos. Earthquakes shattered the land, monstrous storms ravaged the skies, and unnatural beasts tore through the realm. As the great dwarven holds sealed their underground cities to weather the devastation, the distant colonies, lacking mighty fortifications and cut off from aid, were left to fend for themselves within the ravaged wilderness.
+
+It was then that Urvhak Skaar, a great leader among the desperate pioneers, was approached by a demigod of shadow and flame. The unholy being perceived within Skaar a will and determination greater than that of any of his kin. Together, the demigod and the dwarf descended into the Underworld and the Realms of Chaos, where they absconded with all manner of forbidden lore.
+
+With this newfound knowledge, the demigod ascended to the mantle of the Father of Flame, a terrible and fearsome god. Urvhak Skaar, in turn, used his understanding of the dark arts to become the first Demon Smith and the first priest of the dark divinity. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Through his forbidden craft, he saved his people from oblivion, teaching them many of the stolen secrets and laying the foundations of both the Fel Dwarf Empire and the Demon Smith Brotherhood.
+
+Yet such power demanded a dreadful price.
+
+One by one, those whom Urvhak taught began to suffer a terrible curse. Their flesh slowly petrified until they became entombed in stone for all eternity. Though Urvhak Skaar managed to stave off this fate for generations, he did so by passing the curse onto others, condemning countless victims to bear the burden of his own sins.
+
+Even this grim sacrifice could not halt the curse entirely. With every passing year, more of the affliction remained within him. His skin darkened until it resembled polished obsidian, hardening as the curse slowly claimed him.
+
+Then, one day, Urvhak Skaar vanished without a trace.
+
+In his absence, the other Demon Smiths hastily sought to secure their own domains and claim what remained of his legacy. Some say Skaar disappeared so that none would witness him finally succumb to the foul price of his magic, his body becoming a monument to his own hubris.
+
+Others tell a different tale.
+
+They claim that Urvhak Skaar rode forth upon his baleful taurus, Ghorramokh, a monstrous beast black iron and brass dark as onyx, and journeyed back into the hellish realities from which his forbidden knowledge had come. There, they say, he still scours the endless realms in search of a cure for the curse that consumes him.
+
+Those Fel Dwarfs who believe this legend speculate that only by ascending to true godhood could Urvhak Skaar cast off the limitations of mortality and tear down the Father of Flame himself.
+
+<img src='https://i.postimg.cc/ZRw2dLxY/5318-purphoros-s-intervention.jpg' style='position:absolute; top:-10px; right:-00px; width:816px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:130px; right:10px; width:900px; transform:rotate(3deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:227px; right:0px; width:900px; transform:rotate(0deg)' />
+
+
+\pagebreakNum
+
+### Urvhak Skaar's Lair
+
+Urvhak Skaar is said to have been a master of metal, who wrought a plethora of twisted monuments across the ashen landscape. These nightmarish forms stood as grim testaments to the artificer's unmatched craft and absolute authority over the wasteland. His fortresses were reputed to be nearly indestructible, their grim ramparts resisting not only siege engines but also the vain efforts of wizards and other spellcasters who sought to bypass them through magic. Some even claimed that Urvhak could reshape his architecture as effortlessly as a sculptor molds clay, causing his citadels to shift and transform at his command.
+
+#### Lair Actions
+
+When fighting within his lair, Urvhak Skaar's Challenge Rating increases by 2.
+
+When Urvhak Skaar rolls initiative, his lair awakens to aid him. Until combat ends or Urvhak Skaar dies, the lair has an Intelligence of 22 and can act of its own accord, always acting in Urvhak Skaar's best interest. While active in this way, the lair is aware of the location of all creatures within it. On Initiative Count 20 (losing ties), either an axe made of fire or a hammer made of thunder appears at a point within the lair of the lair's choice. It cannot use the same weapon two rounds in a row.
+
+The weapon flies in a straight line up to 100 feet in a direction the lair chooses before disappearing, disappearing early if it impacts a solid surface.
+
+\columnbreak
+
+ If the weapon would strike a creature, that creature must make a *Strength or Dexterity Saving Throw (its choice):* DC 20. <br>
+*Failure:* The creature takes 14 (4d6) Thunder damage (if it is a hammer) or 14 (4d6) Fire damage (if it is an axe), and the weapon moves past. <br>
+*Successful Dexterity Save:* The creature takes no damage and the weapon moves past. <br>
+*Successful Strength Save:* The creature takes half damage and the weapon disappears.
+
+#### Regional Effects
+
+The area where Urvhak Skaar dwells is warped by his presence, creating one or more of the following effects everywhere within 5 miles of his lair:
+
+- Stone, earth, and metal in the area can't be affected by spells of 4th level or lower cast by creatures other than Urvhak Skaar or creatures he designates.
+- Creatures can't teleport through walls of iron unless they are Urvhak Skaar or creatures he designates. The iron also extends into the Ethereal Plane, blocking ethereal travel through the wall.
+- Urvhak Skaar can perform a 10-minute ritual while in the area to become aware of all metal structures within it. He may then use *Passwall* with no range limit, choosing any point on a metal structure he is aware of as the target.
+
+\columnbreak
+
+<img src='https://i.postimg.cc/KjL1tZsY/darksteel-forge.jpg' style='position:absolute; bottom:-30px; right:0px; width:820px;' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-370px; right:0px; width:900px; transform:rotate(180deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Urvhak Skaar
+> *Medium Humanoid (Dwarf), Boss, Lawful Evil*
+> ___
+> - **Armor Class** 18  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +11 (21)
+> - **Hit Points** 367 (35d8 + 210)
+> - **Speed** 25 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">20</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+12</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+10</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Arcana +12, Athletics +10, Deception +10, Insight +10, Intimidation +10, Smith's Tools +12, Tinker's Tools +12, Vehicles (Land) +12
+> - **Resistances** Poison
+> - **Immunities** Fire; Petrified
+> - **Gear** Plate
+> - **Senses** Darkvision 60 ft., Passive Perception 14
+> - **Languages** Dwarvish, Goblin, Infernal, Orc
+> - **Challenge** 20 (25,000 XP)  &emsp;&emsp;&emsp;    **Proficiency Bonus** +6
+> ___
+>
+> ### Traits
+>
+> ***Gift of Stone.*** At the start of Urvhak's turn, the closest hostile creature to Urvhak within 90 feet of him must make a *Charisma Saving Throw:* DC 20. If more than one hostile creature is at the same distance, Urvhak chooses one. <br>
+> *Failure:* The target gains a level of Petrification. It gains the following effects for each level of Petrification:
+>
+> - **1 Level:** Its speed is reduced by 10 feet, its AC increases by 2, and it gains a +2 bonus to Strength and Constitution saving throws and a -2 penalty to Dexterity saving throws.
+> - **2 Levels:** Its speed is reduced by 20 feet. The creature also has Resistance to all damage except Thunder, to which it has Vulnerability.
+> - **3 or More Levels:** The creature becomes Petrified.
+>
+> A creature loses a level of Petrification after 1 hour if it has 2 or fewer levels. It also loses a level if *Lesser Restoration* or an effect that removes Petrification is applied to it.
+>
+> ***Peerless Power (5/Day).*** At the end of Urvhak's turn, he may begin drawing in magic to gain a level of Fel Power for the next minute. A creature within 15 feet can use an action or Bonus Action to make an Intelligence (Arcana) or Intelligence (Religion) check contested by Urvhak's Intelligence (Arcana), with advantage if he is Resolute**. If the creature wins, it removes a level of Fel Power from Urvhak and it gains a level of Petrification.
+>
+> ### Actions
+>
+> ***Spellcasting.*** Urvhak can cast spells. His spellcasting ability is Intelligence (spell save DC 20 + 2 for each level of Fel Power he has, +12 + 2 for each level of Fel Power he has to hit with spell attacks). He knows the following spells: <br>
+> **At will:** *Guidance*, *Mending*, *Thaumaturgy*, *Subjugation** <br>
+> **5th Level (6 Slots):** *Shard Storm**, *Ash Storm** <br>
+> **6th Level (1 Slot):** *Divine Hammer** (Fire and Thunder damage) <br>
+>
+> ***Ruinous Torrent.*** *Melee or Ranged Spell Attack:* +12 + 2 for each level of Fel Power he has to hit (ignores half and three-quarters cover and disadvantage from long range while Urvhak is Resolute**), reach 15 ft. or range 30/200 ft., one target. *Hit:* 16 (3d10) Fire damage and the target must make a *Constitution Saving Throw:* DC 19. <br>
+> *Failure:* The target takes 16 (3d10) Necrotic damage. <br>
+> *Failure by 10+:* The target takes 33 (6d10) Necrotic damage instead.
+>
+> ### Bonus Actions
+>
+> ***Resolute Stance.*** Urvhak becomes Resolute** until the start of his next turn.
+>
+> ### Monstrous Actions
+>
+> Urvhak can take the Ruinous Torrent action on initiative count 10 and 1 (losing ties) if he is not Incapacitated, separate from his own initiative count. He can replace either action with Tenacious Will even if Incapacitated.
+>
+> ***Ruinous Torrent (Initiative Count 10 & 1).*** Urvhak makes a Ruinous Torrent attack.
+>
+> ***Tenacious Will.*** If Urvhak is subject to an ongoing effect that allows him to make a saving throw as an action or at the start or end of his turn, he can immediately make that save with advantage, ending the effect on a success.
+>
+> **New spell described at end of document* <br>
+> ***New condition described on page after next*
+
+</span>
+
+\pagebreakNum
+
+___
+___
+> ## Ghorramokh
+> *Large Elemental, Boss, Lawful Evil*
+> ___
+> - **Armor Class** 19    **Initiative** +7 (17)
+> - **Hit Points** 276 (24d10 + 144)
+> - **Speed** 50 ft., Fly 50 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">26</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td style="background-color:#e0e5c1; text-align:center">+13</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">22</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+8</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +8, Perception +8
+> - **Resistances** Cold, Poison
+> - **Immunities** Fire
+> - **Senses** Darkvision 120 ft., Passive Perception 18
+> - **Languages** Understands Infernal and Primordial (Ignan) but can't speak
+> - **Challenge** 20 (25,000 XP)      **Proficiency Bonus** +6
+> ___
+>
+> ### Traits
+>
+> ***Burning Resolve.*** When Ghorramokh becomes Resolute*, it and each creature within 10 feet of it start Burning*, taking 12 (5d4) Fire damage at the start of each of their turns until the condition ends.
+>
+> ***Fire Absorption.*** Whenever Ghorramokh is subjected to Fire damage from a source other than itself, it takes no damage and instead regains a number of hit points equal to the Fire damage dealt.
+>
+> ***Molten Resolve.*** Whenever a nonmagical weapon hits Ghorramokh while it is Resolute, the object takes a -1 penalty to attack rolls. It is destroyed if the penalty reaches -5.
+>
+> ### Actions
+>
+> ***Multiattack.*** Ghorramokh makes one Gore attack and one Pulverizing Stomp attack.
+>
+> ***Gore.*** *Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:* 27 (3d12 + 8) Piercing damage plus 16 (3d10) Fire damage. If Ghorramokh moved at least 20 feet straight toward the target immediately before the hit, the target must succeed on a *Strength Saving Throw:* DC 22. <br>
+> *Failure:* The target is knocked Prone and pushed up to 20 feet away.
+>
+> ***Pulverizing Stomp.*** *Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:* 27 (3d12 + 8) Bludgeoning damage plus 16 (3d10) Fire damage. If the target is Prone, it takes an additional 11 (2d10) Fire damage and can't stand until the end of its next turn unless it spends all its movement to make a *Constitution Saving Throw:* DC 19. On a success, it stands up.
+>
+> ### Bonus Actions
+>
+> ***Resolute Charge.*** At the start of its turn, Ghorramokh may move up to its speed in a straight line and become Resolute.
+>
+> ### Monstrous Actions
+>
+> Ghorramokh can take the Wave of Destruction action in combat on Initiative Count 5 (losing ties) if it is not Incapacitated. Alternatively, it can take Tenacious Will even if Incapacitated.
+>
+> ***Wave of Destruction (Initiative Count 5).*** Ghorramokh moves up to 25 feet in a straight line, then smashes the ground in a 25-foot Emanation originating from itself. Each creature in the Emanation must make a *Dexterity Saving Throw:* DC 22. <br>
+> *Failure:* The target takes 18 (4d8) Thunder damage. <br>
+> *Failure by 5+:* The target is Dazed* until the end of its next turn. <br>
+> *Success:* The target takes half damage only.
+>
+> ***Tenacious Will.*** If Ghorramokh is subject to an ongoing effect that allows it to make a saving throw as an action or at the start or end of its turn, it can immediately make that save with advantage, ending the effect on a success.
+>
+> **New condition described on next page*
+
+</span>
+
+\pagebreakNum
+
+### Urvhak Skaar Tactics
+#### General Strategy
+* Urvhak Skaar uses Gift of Stone on a durable front-line target with high hit points and low Charisma, such as a barbarian or fighter.
+
+* Once a target has been weakened, Urvhak Skaar uses Ruinous Torrents against:
+    * Low-hit-point targets to finish them off, or
+    * Targets with high Intelligence (such as wizards or artificers) to eliminate characters most capable of removing petrification or other debilitating effects.
+
+#### Spell Priorities
+##### Shard Storm
+* Cast if it can affect three or more targets.
+* Do not cast if already concentrating on Shard Storm.
+
+##### Ash Storm
+* Prioritize targets without any levels of petrification 
+
+##### Divine Hammer
+* Cast when it can hit multiple targets with petrification levels.
+* These targets typically have reduced Dexterity from petrification, making them more likely to fail the saving throw and suffer the thunder damage.
+
+#### Ghorramokh Tactics
+* Ghorramokh aggressively charges the target that Urvhak Skaar is focusing with Ruinous Torrents.
+* Ghorramokh shifts to enemies with levels of petrification, using Wave of Destruction to capitalize on their reduced Dexterity and vulnerability to thunder damage.
+
+#### Lair Actions
+The lair alternates between its two weapon effects each round:
+* Round 1: Fire weapon
+* Round 2: Thunder weapon
+
+##### Fire Weapon
+Aim it so it passes through as many targets as possible that do not have petrification levels
+
+##### Thunder Weapon
+Aim to hit as many targets as possible that already have petrification levels, exploiting their reduced Dexterity and increased vulnerability to thunder.
+
+### Urvhak Skaar Art Credit
+* Purphoros's Intervention - Aleksi Briclot, Wizards of the Coast
+* Darksteel Forge - Martina Pilcerova, Wizards of the Coast
+* Fall of the Hammer - Adam Paquette, Wizards of the Coast
+
+\columnbreak
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid. 
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<br>
+
+> ##### New Condition: Resolute
+> The creature stubbornly digs in to weather any assault. It experiences the following effects:
+>  * Attack rolls made against the creature have disadvantage.
+>  * The creature can't take its move action on its turn.
+> * The creature makes Strength checks and all saving throws with advantage, except Dexterity saving throws, which it makes with disadvantage.
+> 
+> The condition ends if an effect moves the creature against its will, knocks it prone, or the creature becomes charmed, frightened, or incapacitated. A creature that is prone, charmed, frightened, or incapacitated can't become Resolute.
+
+<br>
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+\pagebreakNum
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## Zhartahn, The Dark
@@ -5627,7 +7530,7 @@ ___
 
 ___
 ___
-> ## Abarzug, the Tormenter
+> ## Abarzug, The Tormenter
 > *Large monstrosity (boss), lawful evil*
 > ___
 > - **Armor Class** 17 (natural armor)     **Initiative** +8 (18)
@@ -6534,6 +8437,9 @@ You can give the different types of items unique names based on their material a
 * Bull Centaur Guardian 1.0.0
 * Bull Centaur Ravager 1.0.0
 * Bull Centaur Khan 1.0.0
+* Drazhul the Ruinous 1.0.0
+* Ashbellow 1.0.0
+* Infernal Tormenter 1.0.0
 * Fel Dwarf Daemonsmith Apprentice 1.0.0
 * Fel Dwarf Daemonsmith 1.0.0
 * Fel Dwarf Daemonsmith-Prophet 1.0.0
@@ -6549,17 +8455,40 @@ You can give the different types of items unique names based on their material a
 * Fel Dwarf Overseer 1.0.0
 * Fel Dwarf Castellan 1.0.0
 * Fel Dwarf Engineer 1.0.0
+* Fel Goblin 1.0.0
+* Fel Goblin Sneak 1.0.0
+* Fel Goblin Burning Archer 1.0.0
+* Fel Goblin Wolf Rider 1.0.0
+* Fel Goblin Vile Git 1.0.0
 * Fel Lammasu 1.0.0
 * Infernal Destroyer 1.0.0
 * Infernal Fireborn 1.0.0
 * Infernal Taurus 1.0.0
 * Baleful Taurus 1.0.0
+* Laborer 1.0.0
+* Urvhak Skaar 1.0.0
+* Ghorramokh 1.0.0
 * Zhartahn, The Dark 1.0.0
 * Abarzug, the Tormenter 1.0.0
 
 ### New Weapons
 * Blunderbuss 1.0.0
 * Fire Glaive 1.0.0
+
+### Magic Items
+* Ashen Hammer 1.0.0
+* Blade of Malice 1.0.0
+* Blasting Charge 1.0.0
+* Chalice of Chaos 1.0.0
+* Dark Mace 1.0.0
+* Graven Star 1.0.0
+* Hellshard Amulet 1.0.0
+* Infernal Round 1.0.0
+* Intractable Armor 1.0.0
+* Mask of the Hellforge 1.0.0
+* Molten Round 1.0.0
+* Naphtha Bomb 1.0.0
+* Stone Mantle 1.0.0
 
 ## New Types of Items
 
@@ -6582,15 +8511,19 @@ You can give the different types of items unique names based on their material a
 * Siege Weapon Rules 1.0.0
 
 ## Referenced Sections
+
+### Racial Traits for NPCs
+* Racial Traits for NPCs 1.0.0
+
 ### Spells
 #### Lore of Death
-* Aspect of Dread 1.0.1
-* Crippling Pain 1.0.0
-* Horrifying Laughter 1.1.0
-* Impending Doom 1.0.0
-* Purple Sun 1.0.0
-* Spirit Leech 1.0.0
-* Wind of Death 1.0.0
+* Aspect of Dread 1.0.3
+* Crippling Pain 2.0.1
+* Horrifying Laughter 1.1.1
+* Impending Doom 1.1.1
+* Purple Sun 1.0.1
+* Spirit Leech 1.0.2
+* Wind of Death 1.1.1
 
 #### Lore of Fire
 * Burning Bolts 1.0.0
@@ -6600,27 +8533,44 @@ You can give the different types of items unique names based on their material a
 * Flame Blade 1.0.0
 * Flame Cage 1.0.0
 
+\pagebreakNum
+
+#### Lore of Fel Dwarves
+* Ash Storm 1.0.0
+* Bellows Breath 1.0.0
+* Breath of Hatred 1.0.0
+* Curse of Stone 1.0.0
+* Divine Hammer 1.0.0
+* Earthen Rupture 1.0.0
+* Eruption 1.0.0
+* Elemental Bane 1.0.0
+* Hellish Spheres 1.0.0
+* Magmetic Stone 2.0.0
+* Molten Grasp 1.0.0
+* Shard Storm 1.0.0
+* Subjugation 1.0.0
+
 #### Lore of Metal
 * Commandment of Inertia 1.0.0
-* Final Transmutation 1.0.0
+* Final Transmutation 1.1.0
 * Hunting Hound 1.0.0
 * Law of Negation 1.0.0
 * Metal Coat 1.0.0
-* Molten Silver 1.0.0
-* Plague of Rust 1.1.0
+* Molten Silver 1.1.0
+* Plague of Rust 1.0.0
 * Searing Shard 1.0.0
 * Transmutation of Lead 1.0.0
 
 #### Lore of Shadow
-* Creeping Strike 1.0.0
-* Mindrazors 1.0.0
+* Creeping Strike 1.1.0
+* Mindrazors 1.1.1
 * Mirror Dance 1.0.0
-* Mystifying Miasma 1.0.0
-* Penumbral Pendulum 2.0.0
+* Mystifying Miasma 1.1.1
+* Penumbral Pendulum 3.0.1
 * Pit of Shadows 1.0.0
-* Shroud of Dusk 1.1.0
+* Shroud of Dusk 1.2.1
 * Unseen Lurker 1.0.0
-* Withering Resolve 1.0.0
+* Withering Resolve 2.0.1
 
 \pagebreakNum
 
@@ -6647,3 +8597,8 @@ You can give the different types of items unique names based on their material a
 #### 3.0.0
 * Add bull centaurs, infernal fireborn, infernal tauruses, & Aberzug, The Tormenter
 * Rework fel dwarf mechanics with Resolute condition
+
+#### 4.0.0
+* Add new and updated Lore of Fel Dwarves spells
+* Add Fel Dwarf magic items
+* Add fel goblins, laborers, Drazhul, The Ruinous, & Urvhak Skaar
