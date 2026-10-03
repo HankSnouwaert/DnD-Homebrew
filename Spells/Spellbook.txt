@@ -17,23 +17,312 @@
         text-shadow      : 0px 0px 5px white;
     }
 
-    
-    /* Hide the footer on some pages */
-    .phb#p1:after {
-        display          : none;
-    }
-    /* End Footers */
-
     .phb hr + hr + section blockquote {
     
     column-fill: balance;
 
 </style>
     
+<style>/*ToC Styling*/
+  .toc a {color: inherit !important;}
+  .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+  .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;content:" ........................................""........................................."".........................................";}
+  .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;margin-left:1px;}
+  .toc li h3 span:nth-child(2):after{content: " ";}
+  .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+  .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+  .toc li h3 span:first-child{line-height: 2.3em !important;}
+  .toc ul ul {margin-left: 10px !important;}
+  .toc>ul>li {margin-bottom: initial !important;}
+  .phb#p3:after{display:none;}
+</style>
+    
     
 <br>
 
-# Spellbook
+# Starsail Spell Compilation 1.0.0
+
+<div class='toc'>
+
+- ## Table of Contents
+  - ### [<span>4</span><span>A</span>](#p4)
+    - [<span>4</span><span>Acid Arrow (Revised)</span>](#p4)
+    - [<span>4</span><span>Acid Rain</span>](#p4)
+    - [<span>4</span><span>Acid Wave</span>](#p4)
+    - [<span>4</span><span>Acquiescence</span>](#p4)
+    - [<span>4</span><span>Act of Treason</span>](#p4)
+    - [<span>5</span><span>Amber Spear</span>](#p5)
+    - [<span>5</span><span>Apotheosis</span>](#p5)
+    - [<span>5</span><span>Ash Storm</span>](#p5)
+    - [<span>5</span><span>Aspect of Dread</span>](#p5)
+    - [<span>5</span><span>Aspect of the Beast</span>](#p5)
+    - [<span>6</span><span>Aura of Hope</span>](#p6)
+    - [<span>6</span><span>Aura of Might</span>](#p6)
+    - [<span>6</span><span>Aura of Power</span>](#p6)
+    - [<span>6</span><span>Aura of Shielding</span>](#p6)
+    - [<span>6</span><span>Aura of the Crusader</span>](#p6)
+  - ### [<span>7</span><span>B</span>](#p7)
+    - [<span>7</span><span>Barkskin (Revised)</span>](#p7)
+    - [<span>7</span><span>Bellows Breath</span>](#p7)
+    - [<span>7</span><span>Bestial Spirit</span>](#p7)
+    - [<span>7</span><span>Black Whirlwind</span>](#p7)
+    - [<span>7</span><span>Blessing and Curse of the Ancients</span>](#p7)
+    - [<span>8</span><span>Blight (Revised)</span>](#p8)
+    - [<span>8</span><span>Bolt of Change</span>](#p8)
+    - [<span>8</span><span>Bountiful Cauldron</span>](#p8)
+    - [<span>8</span><span>Brain Burster</span>](#p8)
+    - [<span>8</span><span>Breath of Hatred</span>](#p8)
+    - [<span>9</span><span>Brittle Bones</span>](#p9)
+    - [<span>9</span><span>Brutal Glare</span>](#p9)
+    - [<span>9</span><span>Burning Bolts</span>](#p9)
+    - [<span>9</span><span>Burning Gaze</span>](#p9)
+    - [<span>9</span><span>Burning Hands (Revised)</span>](#p9)
+    - [<span>10</span><span>Burning Head</span>](#p10)
+  - ### [<span>11</span><span>C</span>](#p11)
+    - [<span>11</span><span>Cacophonic Call</span>](#p11)
+    - [<span>11</span><span>Call of the Pack</span>](#p11)
+    - [<span>11</span><span>Carrion Swarm</span>](#p11)
+    - [<span>11</span><span>Chaos Bolt (Revised)</span>](#p11)
+    - [<span>12</span><span>Chaos Storm</span>](#p12)
+    - [<span>12</span><span>Chaotic Pavane</span>](#p12)
+    - [<span>12</span><span>Comet's Call</span>](#p12)
+    - [<span>13</span><span>Commandment of Inertia</span>](#p13)
+    - [<span>13</span><span>Conflagration</span>](#p13)
+    - [<span>13</span><span>Creeping Strike</span>](#p13)
+    - [<span>13</span><span>Crippling Pain</span>](#p13)
+    - [<span>13</span><span>Curse of Ages</span>](#p13)
+    - [<span>14</span><span>Curse of Stone</span>](#p14)
+    - [<span>14</span><span>Curse of the Midnight Wind</span>](#p14)
+    - [<span>14</span><span>Cursed Blades</span>](#p14)
+  - ### [<span>15</span><span>D</span>](#p15)
+    - [<span>15</span><span>Dampen Magic</span>](#p15)
+    - [<span>15</span><span>Dance of Death</span>](#p15)
+    - [<span>15</span><span>Dark Power</span>](#p15)
+    - [<span>15</span><span>Dazzling Light</span>](#p15)
+    - [<span>15</span><span>Death Frenzy</span>](#p15)
+    - [<span>15</span><span>Deathly Frost</span>](#p15)
+    - [<span>16</span><span>Decrepify</span>](#p16)
+    - [<span>16</span><span>Devouring Despair</span>](#p16)
+    - [<span>16</span><span>Discordant Strike</span>](#p16)
+    - [<span>16</span><span>Disruptive Pulse</span>](#p16)
+    - [<span>17</span><span>Divine Hammer</span>](#p17)
+    - [<span>17</span><span>Divine Judgment</span>](#p17)
+    - [<span>17</span><span>Doom Bolt</span>](#p17)
+    - [<span>17</span><span>Dust Devil (Revised)</span>](#p17)
+    - [<span>18</span><span>Dwellers Below</span>](#p18)
+  - ### [<span>19</span><span>E</span>](#p19)
+    - [<span>19</span><span>Earth Blood</span>](#p19)
+    - [<span>19</span><span>Earthen Grip (Revised)</span>](#p19)
+    - [<span>19</span><span>Earthen Rupture</span>](#p19)
+    - [<span>19</span><span>Eldritch Deliverance</span>](#p19)
+    - [<span>20</span><span>Elemental Bane (Revised)</span>](#p20)
+    - [<span>20</span><span>Elemental Weapon (Revised)</span>](#p20)
+    - [<span>20</span><span>Enervation</span>](#p20)
+    - [<span>20</span><span>Eruption</span>](#p20)
+  - ### [<span>21</span><span>F</span>](#p21)
+    - [<span>21</span><span>Final Transmutation</span>](#p21)
+    - [<span>21</span><span>Fireworks</span>](#p21)
+    - [<span>21</span><span>Fissure</span>](#p21)
+    - [<span>22</span><span>Flame Arrows (Revised)</span>](#p22)
+    - [<span>22</span><span>Flame Blade (Revised)</span>](#p22)
+    - [<span>22</span><span>Flame Cage</span>](#p22)
+    - [<span>22</span><span>Flames of the Phoenix</span>](#p22)
+    - [<span>22</span><span>Flensing Ribbons</span>](#p22)
+    - [<span>23</span><span>Foot of The Gods</span>](#p23)
+    - [<span>23</span><span>Forbidden Grove</span>](#p23)
+    - [<span>23</span><span>Frighten</span>](#p23)
+    - [<span>23</span><span>Frost Blade</span>](#p23)
+    - [<span>24</span><span>Frost Nova</span>](#p24)
+  - ### [<span>25</span><span>G</span>](#p25)
+    - [<span>25</span><span>Gale of Souls</span>](#p25)
+    - [<span>25</span><span>Galvanic Bolts</span>](#p25)
+    - [<span>25</span><span>Gift of Chaos</span>](#p25)
+    - [<span>25</span><span>Gift of Life</span>](#p25)
+    - [<span>26</span><span>Glean Magic</span>](#p26)
+    - [<span>26</span><span>Grasp of Dust</span>](#p26)
+    - [<span>26</span><span>Guiding Wind</span>](#p26)
+
+<div align="right">
+
+
+
+<div style='margin-top:55px;'></div>
+
+
+</div>
+
+</div>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+<div class='toc'>
+
+  - ### [<span>27</span><span>H</span>](#p27)
+    - [<span>27</span><span>Harmonic Convergence</span>](#p27)
+    - [<span>27</span><span>Harvest Strike</span>](#p27)
+    - [<span>27</span><span>Hellfire Weapon</span>](#p27)
+    - [<span>27</span><span>Hellish Spheres</span>](#p27)
+    - [<span>27</span><span>Here We Go!</span>](#p27)
+    - [<span>28</span><span>Holy Nova</span>](#p28)
+    - [<span>28</span><span>Horrid Wilting (Revised)</span>](#p28)
+    - [<span>28</span><span>Horrifying Laughter</span>](#p28)
+    - [<span>29</span><span>Hunting Hound</span>](#p29)
+    - [<span>29</span><span>Hysterical Frenzy</span>](#p29)
+  - ### [<span>30</span><span>I</span>](#p30)
+    - [<span>30</span><span>Ice Sheet</span>](#p30)
+    - [<span>30</span><span>Ice Storm (Revised)</span>](#p30)
+    - [<span>30</span><span>Icy Tomb</span>](#p30)
+    - [<span>30</span><span>Impending Doom</span>](#p30)
+    - [<span>31</span><span>Impenetrable Pelt</span>](#p31)
+    - [<span>31</span><span>Incantation of Madness and Mania</span>](#p31)
+    - [<span>31</span><span>Incantation of Protection</span>](#p31)
+    - [<span>31</span><span>Incantation of Zeal</span>](#p31)
+    - [<span>32</span><span>Infuse Plant</span>](#p32)
+  - ### [<span>33</span><span>L</span>](#p33)
+    - [<span>33</span><span>Law of Negation</span>](#p33)
+    - [<span>33</span><span>Lightning Strike</span>](#p33)
+  - ### [<span>34</span><span>M</span>](#p34)
+    - [<span>34</span><span>Magmatic Stone</span>](#p34)
+    - [<span>34</span><span>Mass Haste</span>](#p34)
+    - [<span>34</span><span>Metal Coat</span>](#p34)
+    - [<span>34</span><span>Meteor Swarm (Revised)</span>](#p34)
+    - [<span>34</span><span>Miasma of Pestilence</span>](#p34)
+    - [<span>35</span><span>Mind Spike (Revised)</span>](#p35)
+    - [<span>35</span><span>Mindrazors</span>](#p35)
+    - [<span>35</span><span>Mirror Dance</span>](#p35)
+    - [<span>35</span><span>Molten Grasp</span>](#p35)
+    - [<span>35</span><span>Molten Silver</span>](#p35)
+    - [<span>36</span><span>Monstrous Transformation</span>](#p36)
+    - [<span>38</span><span>Mystifying Miasma</span>](#p38)
+  - ### [<span>39</span><span>N-O</span>](#p39)
+    - [<span>39</span><span>Net of Light</span>](#p39)
+    - [<span>39</span><span>Overdrive</span>](#p39)
+  - ### [<span>40</span><span>P</span>](#p40)
+    - [<span>40</span><span>Path of Shadows</span>](#p40)
+    - [<span>40</span><span>Penumbral Pendulum</span>](#p40)
+    - [<span>40</span><span>Phantasmagoria</span>](#p40)
+    - [<span>40</span><span>Pit of Shadows</span>](#p40)
+    - [<span>41</span><span>Plague (Revised)</span>](#p41)
+    - [<span>41</span><span>Plague of Rust</span>](#p41)
+    - [<span>42</span><span>Power Word: Pain (Revised)</span>](#p42)
+    - [<span>42</span><span>Power Word: Stun (Revised)</span>](#p42)
+    - [<span>42</span><span>Primal Dominance</span>](#p42)
+    - [<span>42</span><span>Psychic Headbutt</span>](#p42)
+    - [<span>42</span><span>Puddle of Ooze</span>](#p42)
+    - [<span>43</span><span>Purple Sun</span>](#p43)
+  - ### [<span>44</span><span>R</span>](#p44)
+    - [<span>44</span><span>Rancid Visitation</span>](#p44)
+    - [<span>44</span><span>Ray of Sickness (Revised)</span>](#p44)
+    - [<span>44</span><span>Rays of Magic</span>](#p44)
+    - [<span>45</span><span>Razorgale</span>](#p45)
+    - [<span>45</span><span>Rebounding Blades</span>](#p45)
+    - [<span>45</span><span>Regrowth</span>](#p45)
+    - [<span>45</span><span>Reverberating Chill</span>](#p45)
+    - [<span>46</span><span>Rite of the Dead</span>](#p46)
+  - ### [<span>47</span><span>S</span>](#p47)
+    - [<span>47</span><span>Sand Blast</span>](#p47)
+    - [<span>47</span><span>Savage Fists</span>](#p47)
+    - [<span>47</span><span>Scorching Stream (Revised)</span>](#p47)
+    - [<span>47</span><span>Scorching Terror</span>](#p47)
+    - [<span>47</span><span>Searing Shard</span>](#p47)
+    - [<span>48</span><span>Second Sight</span>](#p48)
+    - [<span>48</span><span>Shard Storm</span>](#p48)
+    - [<span>48</span><span>Shield of Thorns</span>](#p48)
+    - [<span>48</span><span>Shroud of Dusk</span>](#p48)
+    - [<span>48</span><span>Sickening Radiance (Revised)</span>](#p48)
+    - [<span>49</span><span>Skull Storm</span>](#p49)
+    - [<span>49</span><span>Slashing Shards</span>](#p49)
+    - [<span>49</span><span>Smoke Shroud</span>](#p49)
+    - [<span>49</span><span>Snowball Swarm (Revised)</span>](#p49)
+    - [<span>50</span><span>Soul of Winter</span>](#p50)
+    - [<span>50</span><span>Soul Quench</span>](#p50)
+    - [<span>50</span><span>Spirit Leech</span>](#p50)
+    - [<span>50</span><span>Static Field</span>](#p50)
+    - [<span>51</span><span>Storm of Magic</span>](#p51)
+    - [<span>51</span><span>Storm of Renewal</span>](#p51)
+    - [<span>52</span><span>Storm of Vengeance (Revised)</span>](#p52)
+    - [<span>52</span><span>Stream of Corruption</span>](#p52)
+    - [<span>52</span><span>Subjugation</span>](#p52)
+    - [<span>53</span><span>Summon Flock</span>](#p53)
+    - [<span>53</span><span>Summon Stampede</span>](#p53)
+    - [<span>54</span><span>Summon Swarm</span>](#p54)
+  - ### [<span>57</span><span>T</span>](#p57)
+    - [<span>57</span><span>Throne of Vines</span>](#p57)
+    - [<span>57</span><span>Titanic Growth</span>](#p57)
+    - [<span>57</span><span>Tomb Strike</span>](#p57)
+    - [<span>57</span><span>Toxic Coating</span>](#p57)
+    - [<span>57</span><span>Transmutation of Lead</span>](#p57)
+  - ### [<span>58</span><span>U</span>](#p58)
+    - [<span>58</span><span>Unholy Fervor</span>](#p58)
+    - [<span>58</span><span>Unleash the Beast</span>](#p58)
+    - [<span>58</span><span>Unseen Lurker</span>](#p58)
+    - [<span>58</span><span>Unstable Discharge</span>](#p58)
+  - ### [<span>59</span><span>V</span>](#p59)
+    - [<span>59</span><span>Vampiric Touch (Revised)</span>](#p59)
+    - [<span>59</span><span>Vicious Lash</span>](#p59)
+    - [<span>59</span><span>Virulent Decay</span>](#p59)
+    - [<span>59</span><span>Void Horror</span>](#p59)
+
+
+<div align="right">
+
+
+
+<div style='margin-top:55px;'></div>
+
+
+</div>
+
+</div>
+
+
+\pagebreakNum
+
+<div class='toc'>
+
+  - ### [<span>60</span><span>W</span>](#p60)
+    - [<span>60</span><span>Walk Between Worlds</span>](#p60)
+    - [<span>60</span><span>Wall of Sand (Revised)</span>](#p60)
+    - [<span>60</span><span>Warden's Wrath</span>](#p60)
+    - [<span>60</span><span>Warding Light</span>](#p60)
+    - [<span>60</span><span>Wash Away</span>](#p60)
+    - [<span>61</span><span>Weapon of Power</span>](#p61)
+    - [<span>61</span><span>Weird (Revised)</span>](#p61)
+    - [<span>61</span><span>Wild Surge</span>](#p61)
+    - [<span>62</span><span>Will of the Spirits</span>](#p62)
+    - [<span>62</span><span>Wind Blast</span>](#p62)
+    - [<span>62</span><span>Wind of Death</span>](#p62)
+    - [<span>63</span><span>Winter's Kiss</span>](#p63)
+    - [<span>63</span><span>Witch Bolt (Revised)</span>](#p63)
+    - [<span>63</span><span>Witch's Broth and Brew</span>](#p63)
+    - [<span>63</span><span>Withering Gaze</span>](#p63)
+    - [<span>64</span><span>Withering Heat</span>](#p64)
+    - [<span>64</span><span>Withering Resolve</span>](#p64)
+    - [<span>64</span><span>World Sore</span>](#p64)
+    - [<span>64</span><span>Wrath of the Four Winds</span>](#p64)
+  - ### [<span>65</span><span>New Conditions</span>](#p65)
+  - ### [<span>67</span><span>Revision Numbers</span>](#p67)
+  - ### [<span>68</span><span>Change Log</span>](#p68)
+
+
+<div align="right">
+
+
+
+<div style='margin-top:55px;'></div>
+
+
+</div>
+
+</div>
+
+
+
+\pagebreakNum
+
+# A
 
 #### Acid Arrow (Revised)
 *2nd-level evocation*
@@ -72,11 +361,30 @@ ___
 - **Classes:**  Druid, Sorcerer, Wizard, 
 ___
 
+\columnbreak
+
 You conjure up a wave of acid that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes 6d4 bludgeoning damage and 6d4 acid damage, is knocked prone, and is covered in acid until the end of its next turn or until it or another creature uses its action to scrape or wash the acid off. On a success, a creature takes half the initial damage and isn’t knocked prone or covered in acid.
 
 A creature covered in the acid takes 6d4 acid damage at the end of its turn.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the initial acid damage, initial bludgeoning damage, and the acid damage taken at the end of an acid-covered creature’s turn are all increased by 1d4 for each slot level above 6th.
+
+
+#### Acquiescence 
+*2rd-level Enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** range 30 feet
+- **Components:** V, S, M (A pinch of fine sand, <br>rose petals, or a cricket)
+- **Duration:**   1 minute
+- **Classes:**  Bard, Sorcerer, Wizard
+___
+
+Choose one creature you can see within range. The target must succeed on a Wisdom saving throw or become Drowsy* for the duration. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on a success.
+
+***Using a Higher-Level Spell Slot.*** You can target one additional creature for each slot level above 2nd. 
+
+**New condition described at end of document*
 
 #### Act of Treason
 *3rd-level enchantment*
@@ -93,23 +401,6 @@ Choose one creature with an Intelligence score of 6 or higher that you can see w
 On each of the charmed target’s turns, it must move up to its speed toward a creature you mentally choose, by the safest available route, and use its action to make a melee attack against that creature if it can. If you choose no creature, the target can act normally on its turn.
 
 The target can make a Wisdom saving throw at the end of each of its turns, ending the spell on itself on a success.
-
-#### Acquiescence 
-*2rd-level Enchantment*
-___
-- **Casting Time:** 1 action
-- **Range:** range 30 feet
-- **Components:** V, S, M (A pinch of fine sand, <br>rose petals, or a cricket)
-- **Duration:**   1 minute
-- **Classes:**  Bard, Sorcerer, Wizard
-___
-
-Choose one creature you can see within range. The target must succeed on a Wisdom saving throw or become Drowsy* for the duration. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on a success.
-
-***Using a Higher-Level Spell Slot.*** You can target one additional creature for each slot level above 2nd. 
-
-
-<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
 \pagebreakNum
 
@@ -160,7 +451,7 @@ You unleash a wave of scalding ash in a 60-foot-long, 15-foot-wide line originat
 
 \columnbreak
 
-#### Aspect of Dread 1.0.3 
+#### Aspect of Dread
 *2nd-level Enchantment (Bard, Sorcerer, Warlock, Wizard)*
 ___
 - **Casting Time:** 1 Action
@@ -196,20 +487,7 @@ Upon touching a willing creature, you imbue it with bestial might. For the durat
 
 \pagebreakNum
 
-#### Aura of the Crusader
-*3rd-level evocation*
-___
-- **Casting Time:** 1 Bonus Action
-- **Range:**  Self
-- **Components:** V
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**  Paladin
-
-You emit a radiant aura of divine power in a 30-foot radius centered on yourself. While within the aura, you and your allies deal an extra 1d4 Radiant damage when you hit with a weapon attack or unarmed strike.
-
-***Using a Higher-Level Spell Slot.*** When you cast this spell using a spell slot of 4th level, the extra damage increases to 1d6. When you use a spell slot of 5th level or higher, the extra damage increases to 1d8.
-
-#### Aura of Hope 1.0.0
+#### Aura of Hope
 *3rd-level Evocation*
 ___
 - **Casting Time:** 1 Bonus Action
@@ -219,17 +497,6 @@ ___
 - **Classes:**  Cleric, Paladin
 
 An aura radiates from you in a 30-foot Emanation for the duration, you and your allies have Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.
-
-#### Aura of Shielding
-*4th-level evocation*
-___
-- **Casting Time:** 1 Bonus Action
-- **Range:**  Self
-- **Components:** V
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**  Paladin
-
-You emit a defensive aura in a 30-foot Emanation. While in the aura, you and your allies have Half Cover.
 
 #### Aura of Might
 *3rd-level evocation*
@@ -244,8 +511,6 @@ You radiate an aura of might in a 30-foot radius centered on yourself. While wit
 
 Additionally, when you or an ally within the aura shoves a creature, creatures being pushed can be pushed up to 20 ft. away instead of 5 ft., and creatures being knocked prone can't stand until the end of their next turn unless they use all of their movement to do so.
 
-\columnbreak
-
 #### Aura of Power 
 *5th-level Evocation*
 ___
@@ -257,7 +522,37 @@ ___
 
 An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Advantage on saving throws against spells and other magical effects. When an affected creature makes a saving throw against a spell or magical effect that allows a save to take only half damage, it takes no damage if it succeeds on the save.
 
+
+#### Aura of Shielding
+*4th-level evocation*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:**  Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Paladin
+
+You emit a defensive aura in a 30-foot Emanation. While in the aura, you and your allies have Half Cover.
+
+\columnbreak
+
+#### Aura of the Crusader
+*3rd-level evocation*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:**  Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Paladin
+
+You emit a radiant aura of divine power in a 30-foot radius centered on yourself. While within the aura, you and your allies deal an extra 1d4 Radiant damage when you hit with a weapon attack or unarmed strike.
+
+***Using a Higher-Level Spell Slot.*** When you cast this spell using a spell slot of 4th level, the extra damage increases to 1d6. When you use a spell slot of 5th level or higher, the extra damage increases to 1d8.
+
+
 \pagebreakNum
+
+# B
 
 #### Barkskin (Revised)
 
@@ -301,9 +596,9 @@ A Large spectral beast appears at a location you choose within range. Though it 
 
 Any hostile creature within 5 feet of the beast is so distracted by its presence that it has disadvantage on attack rolls. At the end of each of your turns, each hostile creature within 5 feet of the beast must make a Dexterity saving throw as the beast assaults it. The creature takes 4d8 force damage on a failed save, or half as much on a successful save. 
 
-If a hostile creature moves more than 5 feet away from the beast, that creature must make the same saving throw against the beast's damage effect unless it took the Disengage action.
-
 \columnbreak
+
+If a hostile creature moves more than 5 feet away from the beast, that creature must make the same saving throw against the beast's damage effect unless it took the Disengage action.
 
 At the start of each of your turns, if no hostile creatures are within 5 feet of the beast, it moves up to 40 feet toward the closest hostile creature it can see. The beast has blindsight out to 120 feet and is blind beyond this range.
 
@@ -436,6 +731,8 @@ At the end of each of its turns, the target can make another Wisdom saving throw
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature to become obsessed with the same creature for every two slot levels above 1st.
 
+**New condition described at end of document*
+
 \pagebreakNum
 
 #### Brittle Bones
@@ -480,6 +777,20 @@ Choose up to three directions. A line of flames 120 feet long and 5 feet wide em
 
 \columnbreak
 
+#### Burning Gaze
+*1st-level Evocation (Cleric)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 20 feet
+- **Components:** V
+- **Duration:**  Instantaneous
+___
+
+
+You fixate on two points within the spell's range, no more than 20 feet apart, and beams of searing light erupt from your eyes, blazing between the two points. The beams can take any path of your choice between the points so long as the path never leaves the spell's range and doesn't exceed 20 feet in length. Any creature intersected by the path of the beams must make a Dexterity saving throw. Creatures take 1d6 Fire damage and 1d6 Radiant damage on a failed save. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
+
+***Using a Higher-Level Spell Slot.*** The Fire and Radiant damage each increase by 1d6, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 1st.
+
 #### Burning Hands (Revised)
 *1st-level evocation*
 ___
@@ -492,6 +803,10 @@ ___
 As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 20-foot cone must make a Dexterity saving throw. A creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 you may increases the cone's size by 10 feet for each slot level above 1st.
+
+
+
+\pagebreakNum
 
 #### Burning Head
 *5th-level conjuration*
@@ -512,21 +827,7 @@ A 5-foot-diameter flaming head appears in an unoccupied space of your choice wit
 
 \pagebreakNum
 
-#### Burning Gaze
-*1st-level Evocation (Cleric)*
-___
-- **Casting Time:** 1 Action
-- **Range:** 20 feet
-- **Components:** V
-- **Duration:**  Instantaneous
-___
-
-
-You fixate on two points within the spell's range, no more than 20 feet apart, and beams of searing light erupt from your eyes, blazing between the two points. The beams can take any path of your choice between the points so long as the path never leaves the spell's range and doesn't exceed 20 feet in length. Any creature intersected by the path of the beams must make a Dexterity saving throw. Creatures take 1d6 Fire damage and 1d6 Radiant damage on a failed save. If the two points are at the same location, any creature at that point has disadvantage on the saving throw.
-
-***Using a Higher-Level Spell Slot.*** The Fire and Radiant damage each increase by 1d6, the spell's range increases by 10 feet, and the maximum distance between the two points increases by 10 feet for each slot level above 1st.
-
-\pagebreakNum
+# C
 
 #### Cacophonic Call
 *7th-level Evocation*
@@ -547,6 +848,8 @@ You unleash an ululating scream that radiates from you in a 30-foot radius. The 
 **Failed Save (Either Type).** The creature suffers both of the above effects.
 
 ***Using a Higher-Level Spell Slot.*** Both the thunder and Psychic damage is increases by 1d8 for each slot level above 7th.
+
+**New condition described at end of document*
 
 #### Call of the Pack
 
@@ -574,6 +877,9 @@ You transform into a swarm of blood-sucking pests until the start of your next t
 While in this form:
 * You have a Fly Speed of 60 feet and no other movement speeds. 
 * You can enter and occupy the space of other creatures and do not provoke opportunity attacks. 
+
+\columnbreak 
+
 * You can pass through narrow openings as though you were a Tiny creature, but you treat liquids as solid surfaces.
 * You have resistance to Bludgeoning, Piercing, and Slashing damage.
 * You can’t be knocked Prone, Grappled, or Restrained.
@@ -711,6 +1017,8 @@ At the end of each of the creature's turns while on fire, it takes 4d6 fire dama
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. All the creatures must be within 30 feet of each other when you target them.
 
+\columnbreak
+
 #### Creeping Strike
 *Evocation Cantrip (Sorcerer, Warlock, Wizard)*
 ___
@@ -722,11 +1030,9 @@ ___
 
 You lash out at an enemy with chilling shadows. Make a melee spell attack against the target. You have Advantage on the attack roll if the target is in Darkness. On a hit, the target takes 1d8 Cold damage.
 
-\columnbreak
-
 ***Cantrip Upgrade.*** The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
 
-#### Crippling Pain 2.0.1
+#### Crippling Pain
 *3rd-level Necromancy (Cleric, Warlock, Wizard)*
 ___
 - **Casting Time:** 1 Action
@@ -810,9 +1116,13 @@ ___
 
 You imbue a weapon within range with the essence of death. When this weapon hits a creature, the target becomes cursed for the spell's duration. At the start of your turn, each creature cursed this way within 90 feet of you takes 1d6 necrotic damage.
 
+\columnbreak
+
 ***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target an additional weapon for each slot level above 1st. Using a 3rd-level spell slot or higher increases the damage by 1d6 for every two slot levels above 1st.
 
 \pagebreakNum
+
+# D
 
 #### Dampen Magic
 *2nd-level Abjuration (Sorcerer, Warlock, Wizard)*
@@ -842,7 +1152,7 @@ Threads of dark power leap from your fingers to an Undead creature you can see w
 
 ***Using a Higher-Level Spell Slot.*** You can target one additional Undead creature for each spell slot level above 1st.
 
-**New condition decribed at end of Vampric Spells section*
+**New condition decribed at end document*
 
 #### Dark Power
 *1st-level Evocation (Warlock)*
@@ -856,9 +1166,10 @@ You call upon power from other worlds at great personal cost. When you cast this
 
 You then create a number of rays equal to the number of d6s rolled and hurl them at targets within range. You can direct the rays at one creature or multiple creatures. Make a ranged spell attack for each ray. On a hit, the target takes 2d8 Force damage.
 
+\columnbreak
+
 ***Using a Higher-Level Spell Slot.*** You roll one additional d6 and create one additional ray for each spell slot level above 1st.
 
-\columnbreak
 
 #### Dazzling Light
 *3rd-level Evocation (Cleric, Bard)*
@@ -973,10 +1284,12 @@ Each creature in the area of the hammer’s impact or shockwave must make a Dext
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the fire or lighting damage and the thunder damage each increase by 1d6 for every slot level above 6th.
 
+**New condition described at end of document*
+
 > #####  Divine Hammer Damage Types
 > Depending on the nature of the god the spellcaster worships, it may make more sense for the divine hammer to do damage of a type other than fire or lighting; for example, some gods may be more associated with radiant or necrotic. At the DM's discretion, the damage can be changed this way, in which case the spellcaster should no longer have the option for fire or lighting.
 
-#### Divine Judgment 1.0.0
+#### Divine Judgment
 *9th-level Divination (Cleric)*
 ___
 - **Casting Time:** 1 Action
@@ -988,9 +1301,9 @@ You call down divine judgment upon those around you. Choose any number of creatu
 
 **Guilty.**  The creature must make a Charisma saving throw (which it can choose to fail). On a failed save, the creature takes 8d6 Radiant damage, falls Prone, and is Stunned until the start of your next turn. If this damage reduces the creature to 0 hit points, it is disintegrated. A disintegrated creature and everything it is wearing or carrying, except magic items, is reduced to a pile of fine salt.
 
-If the creature is a celestial, elemental, fey, or fiend, it is instead banished to its plane of origin (if it is not already there) and cannot return to your current plane for 24 hours by any means short of a *Wish* spell.
-
 \columnbreak
+
+If the creature is a celestial, elemental, fey, or fiend, it is instead banished to its plane of origin (if it is not already there) and cannot return to your current plane for 24 hours by any means short of a *Wish* spell.
 
 On a successful save, the creature takes half as much damage and suffers no other effects.
 
@@ -1049,6 +1362,8 @@ Any creature, including the restrained one, can use its action to free the restr
 
 \pagebreakNum
 
+# E
+
 #### Earth Blood
 *2nd-level enchantment*
 ___
@@ -1083,6 +1398,8 @@ To break free, the Restrained target can use its action to make a Strength check
 As a Magic action, you can cause the hand to move up to 20 feet along the ground and reach for another creature as described above. The hand releases any Restrained target when it moves.
 
 ***Using a Higher-Level Spell Slot.*** The damage of both effects increases by 1d8 and the hand gains an additional 10 hit points for each slot level above 1st.
+
+\columnbreak
 
 #### Earthen Rupture
 *4th-level Evocation (Druid)*
@@ -1182,6 +1499,8 @@ After the area cools down, it remains difficult terrain until cleared. Each 5-fo
 
 \pagebreakNum
 
+# F
+
 #### Final Transmutation 
 *9th-level Transmutation*
 
@@ -1199,6 +1518,8 @@ You speak a word of power that transforms a creature you can see within range. T
 **Effect On Other Creatures.** Any other creature that starts its turn within 60 feet of the petrified creature during the spell's duration must succeed on a Wisdom saving throw or become Obsessed* with the Petrified creature until the start of its next turn. You can choose any number of creatures you can see to be immune to this effect.
 
 **Damaging A Petrified Creature.** If a Petrified creature is physically damaged or broken during this state, it will manifest the same damage upon being reverted to its original form.
+
+**New condition described at end of document*
 
 \columnbreak
 
@@ -1233,6 +1554,97 @@ A creature standing in the area of the fissure must succeed on a Dexterity savin
 The fissure deals 50 Bludgeoning damage to any structure it comes in contact with when it appears. The fissure lasts indefinitely, and the ground within it is difficult terrain.
 
 ***Using a Higher-Level Spell Slot.*** You can increase the length by 20 feet and its depth by 10 feet for each slot level above 6th.
+
+\pagebreakNum
+
+#### Flame Arrows (Revised)
+*2nd-level evocation*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** Touch
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 hour
+- **Classes:** Artificer, Druid, Ranger, Sorcerer, Wizard, 
+___
+
+You touch up to twelve arrows or bolts. When a target is hit by a ranged weapon attack using one of these pieces of ammunition, the target takes an extra 1d6 fire damage, and if it is a flammable object, it is ignited. The spell’s magic ends on the piece of ammunition when it hits or misses a target, and the spell ends when all the ammunition has lost its magic.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
+
+#### Flame Blade (Revised)
+*2nd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V, S M (leaf of sumac)
+- **Duration:** Up to 10 minutes
+- **Classes:** Druid, Sorcerer
+___
+
+You evoke a fiery blade, similar in size and shape to a scimitar, in your free hand. When you cast this spell, you may make two melee spell attacks with the blade against any targets within your reach. On a hit, a target takes fire damage equal to 1d6 + your spellcasting ability modifier. 
+
+The blade remains for the spell's duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can make the two attacks with the blade again on each of your turns as an action. The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional attack with the blade per action for every two slot levels above 2nd.
+
+
+#### Flame Cage
+*6th-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 120 ft
+- **Components:** V, S, M (A small piece of phosphorus)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Sorcerer, Wizard
+
+You choose a point on a solid surface within range, causing a cage made of opaque flames in the shape of a cube to appear. The cube can be up to 30 feet on each side, and it lasts for the duration. 
+
+**Creatures Caught Partially Within the Cage.** When the cage is created, creatures only partially within the cube's area, or those too large to fit inside the area, must choose to be pushed away from the center of the area until they are completely outside the area or move into the cage if they can fit. 
+
+\columnbreak
+
+**Creatures In The Cage When It Forms.** Any creature fully within the cage when it forms (including those that chose to move inside it) must make a Dexterity saving throw. A target takes 7d8 fire damage on a failed save, or half as much damage on a successful one. 
+
+**Moving Through The Cage.** A creature takes the 7d8 fire damage when it passes through a side of the cube for the first time on a turn.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d8 for each slot level above 6th.
+
+
+
+#### Flames of the Phoenix
+*7th-level Conjuration (Sorcerer, Wizard)*
+___
+- **Casting Time:** 1 Cction
+- **Range:** 60 feet
+- **Components:** V, S, M (an egg shell)
+- **Duration:** Concentration, up to 1 minute
+
+You conjure a fiery phoenix that blazes across the battlefield. A phoenix made of flame appears in an unoccupied space of your choice within range and immediately moves up to 60 feet in a straight line, stopping early if it encounters an impassable barrier. The phoenix can pass through openings large enough for a Tiny creature.
+
+At the end of its movement, the phoenix erupts in an explosion of magical fire. All creatures in its path, as well as those within a 15-foot radius of the point where it explodes, must make a Dexterity saving throw. A creature takes 7d8 Fire damage on a failed save, or half as much on a successful one.
+
+After the explosion, the phoenix leaves behind a hovering ember at the point where it detonated. The ember remains for the duration of the spell.
+
+***Reviving the Phoenix.*** As an action on your turn, you can command the ember to reconstitute into the phoenix. When you do, the phoenix reforms in the ember’s space, moves up to 60 feet in a straight line, and explodes again, repeating the effects above. The ember then returns to its new detonation point.
+
+***Using A Higher-Level Spell Slot.*** The Fire damage increases by 2d8 for each slot level above 7th.
+
+#### Flensing Ribbons  
+*3rd-level Evocation (Sorcerer, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 120 feet
+- **Components:** V, S, M (A razer)
+- **Duration:**  Instantaneous
+___
+
+You conjure and hurl four ribbons of razor-sharp energy that flense the flesh from bone. You can hurl them at one target within range or at several. Make a ranged spell attack for each.
+
+On a hit, a creature takes 2d4 Slashing damage and suffers a Wound*.
+
+***Using a Higher-Level Spell Slot.*** You create one additional ribbon for each spell slot level above 2.
+
+**New condition described at end of document*
 
 \pagebreakNum
 
@@ -1304,92 +1716,7 @@ You invoke a sword of sharp ice in your hand or that of another willing creature
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, you may create an additional sword for every two levels above 3rd level.
 
-#### Flame Arrows (Revised)
-*2nd-level evocation*
-___
-- **Casting Time:** 1 bonus action
-- **Range:** Touch
-- **Components:** V, S
-- **Duration:** Concentration, up to 1 hour
-- **Classes:** Artificer, Druid, Ranger, Sorcerer, Wizard, 
-___
 
-You touch up to twelve arrows or bolts. When a target is hit by a ranged weapon attack using one of these pieces of ammunition, the target takes an extra 1d6 fire damage, and if it is a flammable object, it is ignited. The spell’s magic ends on the piece of ammunition when it hits or misses a target, and the spell ends when all the ammunition has lost its magic.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
-
-\pagebreakNum
-
-#### Flame Blade (Revised)
-*2nd-level evocation*
-___
-- **Casting Time:** 1 action
-- **Range:** Self
-- **Components:** V, S M (leaf of sumac)
-- **Duration:** Up to 10 minutes
-- **Classes:** Druid, Sorcerer
-___
-
-You evoke a fiery blade, similar in size and shape to a scimitar, in your free hand. When you cast this spell, you may make two melee spell attacks with the blade against any targets within your reach. On a hit, a target takes fire damage equal to 1d6 + your spellcasting ability modifier. 
-
-The blade remains for the spell's duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action. You can make the two attacks with the blade again on each of your turns as an action. The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, you may make one additional attack with the blade per action for every two slot levels above 2nd.
-
-
-#### Flame Cage
-*6th-level evocation*
-___
-- **Casting Time:** 1 action
-- **Range:** 120 ft
-- **Components:** V, S, M (A small piece of phosphorus)
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**  Sorcerer, Wizard
-
-You choose a point on a solid surface within range, causing a cage made of opaque flames in the shape of a cube to appear. The cube can be up to 30 feet on each side, and it lasts for the duration. 
-
-**Creatures Caught Partially Within the Cage.** When the cage is created, creatures only partially within the cube's area, or those too large to fit inside the area, must choose to be pushed away from the center of the area until they are completely outside the area or move into the cage if they can fit. 
-
-**Creatures In The Cage When It Forms.** Any creature fully within the cage when it forms (including those that chose to move inside it) must make a Dexterity saving throw. A target takes 7d8 fire damage on a failed save, or half as much damage on a successful one. 
-
-**Moving Through The Cage.** A creature takes the 7d8 fire damage when it passes through a side of the cube for the first time on a turn.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d8 for each slot level above 6th.
-
-\columnbreak
-
-#### Flames of the Phoenix
-*7th-level Conjuration (Sorcerer, Wizard)*
-___
-- **Casting Time:** 1 Cction
-- **Range:** 60 feet
-- **Components:** V, S, M (an egg shell)
-- **Duration:** Concentration, up to 1 minute
-
-You conjure a fiery phoenix that blazes across the battlefield. A phoenix made of flame appears in an unoccupied space of your choice within range and immediately moves up to 60 feet in a straight line, stopping early if it encounters an impassable barrier. The phoenix can pass through openings large enough for a Tiny creature.
-
-At the end of its movement, the phoenix erupts in an explosion of magical fire. All creatures in its path, as well as those within a 15-foot radius of the point where it explodes, must make a Dexterity saving throw. A creature takes 7d8 Fire damage on a failed save, or half as much on a successful one.
-
-After the explosion, the phoenix leaves behind a hovering ember at the point where it detonated. The ember remains for the duration of the spell.
-
-***Reviving the Phoenix.*** As an action on your turn, you can command the ember to reconstitute into the phoenix. When you do, the phoenix reforms in the ember’s space, moves up to 60 feet in a straight line, and explodes again, repeating the effects above. The ember then returns to its new detonation point.
-
-***Using A Higher-Level Spell Slot.*** The Fire damage increases by 2d8 for each slot level above 7th.
-
-#### Flensing Ribbons  
-*3rd-level Evocation (Sorcerer, Wizard)*
-___
-- **Casting Time:** Action
-- **Range:** 120 feet
-- **Components:** V, S, M (A razer)
-- **Duration:**  Instantaneous
-___
-
-You conjure and hurl four ribbons of razor-sharp energy that flense the flesh from bone. You can hurl them at one target within range or at several. Make a ranged spell attack for each.
-
-On a hit, a creature takes 2d4 Slashing damage and suffers a Wound*.
-
-***Using a Higher-Level Spell Slot.*** You create one additional ribbon for each spell slot level above 2.
 
 \pagebreakNum
 
@@ -1409,83 +1736,7 @@ You cause a ring of ice and frost to burst out from you to a radius of up to a 1
 
 \pagebreakNum
 
-#### Harmonic Convergence
-*1st-level divination*
-___
-- **Casting Time:** 1 bonus action
-- **Range:** 30 feet
-- **Components:** V S M (A piece of string)
-- **Duration:** 1 round
-- **Classes:**   Bard, Cleric, Druid
-___
-
-Divining auspicious omens, you grant a creature you can see within range a brief insight into the immediate future. Until the start of your next turn, if the chosen creature misses with an attack roll or fails a Dexterity saving throw, it can end the spell early to reroll the d20 and must use the new result. Similarly, when an attack roll is made against the chosen creature, it can end the spell early to force the attacker to reroll the d20, and the attacker must use the new result.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
-
-#### Hellfire Weapon
-*1st-level evocation*
-___
-- **Casting Time:** 1 action
-- **Range:** 20 ft
-- **Components:** S
-- **Duration:** Instantaneous
-- **Classes:**  Artificer, Warlock
-
-You conjure a weapon made of hungering fire and hurl or strike with it. Make a ranged spell attack against a target within range, or a melee spell attack against a target within 5 feet of you. On a hit, the target takes 1d8 fire damage. If you score a critical hit or reduce a creature to 0 hit points with this attack, you can cast this spell again as a bonus action on this turn. After the attack is made, the weapon vanishes.
-
-The spell’s damage increases by 1d8 when you reach certain levels: 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
-
-#### Hellish Spheres
-*3rd-level Evocation (Warlock)*
-___
-- **Casting Time:** Bonus Action
-- **Range:** Self
-- **Components:** V
-- **Duration:** Concentration, up to 1 hour
-- **Classes:**  Artificer, Warlock
-
-Three spheres of hellfire orbit you for the duration. While the spheres are present, you can expend them to create the following effects:
-
-**Hellish Infusion.** When you cast this spell and at the start of each of your turns, you may expend a sphere to gain 2d6 temporary hit points. At the end of each of your turns, if you have any temporary hit points from this spell, you may spend them all to regain a sphere.
-
-**Hellish Fire.** Whenever you hit with an attack, you may expend one sphere to deal an additional 2d6 Fire damage. If the attack reduces a creature to 0 hit points, you regain a sphere.
-
-The spell ends early if you have no spheres remaining or if you no longer have temporary hit points granted by this spell. (Gaining temporary hit points from another source will cause you to lose the temporary hit points granted by this spell.)
-
-***Using a Higher-Level Spell Slot.*** The damage increases by 1d8 for each slot level above 3rd.
-
-#### Horrid Wilting (Revised)
-*8th-level Necromancy (Sorcerer, Wizard)*
-___
-- **Casting Time:** Action
-- **Range:** 150 feet
-- **Components:** V, S, M (a bit of sponge)
-- **Duration:** Instantaneous
-
-You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and Undead aren't affected, and Plants and Water Elementals make this saving throw with Disadvantage.
-
-On a failed save, a creature takes 12d8 Necrotic damage and gains one level of Fatigue*. On a successful save, the creature takes half as much damage only.
-
-Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.
-
-#### Hysterical Frenzy
-*5th-level Enchantment*
-___
-- **Casting Time:** 1 action
-- **Range:** range 90 feet
-- **Components:** V, S
-- **Duration:**   Concentration, up to 1 minute
-- **Classes:**  Bard, Sorcerer, Wizard
-___
-
-You unleash a torrent of overwhelming emotion—blending agony and euphoria into a maddening storm. Each creature in a 20-foot-radius sphere centered on a point you can see within range must make a Wisdom saving throw (a creature can choose to fail).
-
-On a failed save, a creature is affected by the Rampaging* condition for the duration. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on a success. The creature has disadvantage on this saving throw if it damaged another creature with an attack during that turn.
-
-***Using a Higher-Level Spell Slot.*** The sphere’s radius increases by 5 feet for each slot level above 5th.
-
-\pagebreakNum
+# G
 
 #### Gale of Souls
 *6th-level Necromancy (Sorcerer, Warlock, Wizard)*
@@ -1603,6 +1854,22 @@ You summon a potent gust of wind, forming a 10-foot-radius sphere centered on a 
 
 \pagebreakNum
 
+# H
+
+#### Harmonic Convergence
+*1st-level divination*
+___
+- **Casting Time:** 1 bonus action
+- **Range:** 30 feet
+- **Components:** V S M (A piece of string)
+- **Duration:** 1 round
+- **Classes:**   Bard, Cleric, Druid
+___
+
+Divining auspicious omens, you grant a creature you can see within range a brief insight into the immediate future. Until the start of your next turn, if the chosen creature misses with an attack roll or fails a Dexterity saving throw, it can end the spell early to reroll the d20 and must use the new result. Similarly, when an attack roll is made against the chosen creature, it can end the spell early to force the attacker to reroll the d20, and the attacker must use the new result.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
+
 #### Harvest Strike
 *2nd-level necromancy*
 ___
@@ -1616,6 +1883,40 @@ You manifest a spectral jade sickle that lashes out at your command toward a cre
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
 
+#### Hellfire Weapon
+*1st-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 20 ft
+- **Components:** S
+- **Duration:** Instantaneous
+- **Classes:**  Artificer, Warlock
+
+You conjure a weapon made of hungering fire and hurl or strike with it. Make a ranged spell attack against a target within range, or a melee spell attack against a target within 5 feet of you. On a hit, the target takes 1d8 fire damage. If you score a critical hit or reduce a creature to 0 hit points with this attack, you can cast this spell again as a bonus action on this turn. After the attack is made, the weapon vanishes.
+
+The spell’s damage increases by 1d8 when you reach certain levels: 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.
+
+\columnbreak
+
+#### Hellish Spheres
+*3rd-level Evocation (Warlock)*
+___
+- **Casting Time:** Bonus Action
+- **Range:** Self
+- **Components:** V
+- **Duration:** Concentration, up to 1 hour
+- **Classes:**  Artificer, Warlock
+
+Three spheres of hellfire orbit you for the duration. While the spheres are present, you can expend them to create the following effects:
+
+**Hellish Infusion.** When you cast this spell and at the start of each of your turns, you may expend a sphere to gain 2d6 temporary hit points. At the end of each of your turns, if you have any temporary hit points from this spell, you may spend them all to regain a sphere.
+
+**Hellish Fire.** Whenever you hit with an attack, you may expend one sphere to deal an additional 2d6 Fire damage. If the attack reduces a creature to 0 hit points, you regain a sphere.
+
+The spell ends early if you have no spheres remaining or if you no longer have temporary hit points granted by this spell. (Gaining temporary hit points from another source will cause you to lose the temporary hit points granted by this spell.)
+
+***Using a Higher-Level Spell Slot.*** The damage increases by 1d8 for each slot level above 3rd.
+
 ####  Here We Go!
 *5th-level enchantment*
 ___
@@ -1626,6 +1927,8 @@ ___
 - **Classes:**  Bard, Paladin, Ranger, Warlock
 
 You chant, imbuing yourself and up to four creatures you can see with fighty energy. Until the start of your next turn, whenever you or a creature you chose misses with an unarmed strike or weapon attack roll, you may have it reroll the attack. The creature must use the new roll.
+
+\pagebreakNum
 
 #### Holy Nova
 *4th-level evocation*
@@ -1641,6 +1944,20 @@ A burst of divine light emanates from you, enveloping all creatures within 30 fe
 You and up to four creatures of your choice within the area automatically succeed on this saving throw, taking no damage. Instead, you and the chosen creatures are bathed in the healing radiance, regaining hit points equal to the total radiant damage dealt.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.
+
+#### Horrid Wilting (Revised)
+*8th-level Necromancy (Sorcerer, Wizard)*
+___
+- **Casting Time:** Action
+- **Range:** 150 feet
+- **Components:** V, S, M (a bit of sponge)
+- **Duration:** Instantaneous
+
+You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and Undead aren't affected, and Plants and Water Elementals make this saving throw with Disadvantage.
+
+On a failed save, a creature takes 12d8 Necrotic damage and gains one level of Fatigue*. On a successful save, the creature takes half as much damage only.
+
+Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.
 
 \columnbreak
 
@@ -1668,7 +1985,10 @@ If the target is reduced to 0 hit points by this spell’s damage, it stabilizes
 
 ***Using a Higher-Level Spell Slot*** The initial and recurring Force damage increases by 1d10 for each slot level above 6th.
 
+
+
 \pagebreakNum
+
 
 ####  Hunting Hound
 
@@ -1688,6 +2008,26 @@ Choose a creature that is familiar to you and that you have seen within the last
 **The Hound's Behavior.** On its turn, the hound moves towards the chosen creature, avoiding any damaging terrain. If it ends its movement more than 5 feet away from the chosen creature, the hound takes the Dash action, moving towards it. If it is within 5 feet of the chosen creature at the end of its movement, the hound takes the Attack action and attacks it. You can give limited commands to the hound (no action required by you) to slow down, stop, return to you, or continue its normal behavior.
 
 If the hound cannot locate the creature, it returns to you. If the creature is dead, it sits by the creature’s remains and follows them if they are moved.
+
+#### Hysterical Frenzy
+*5th-level Enchantment*
+___
+- **Casting Time:** 1 action
+- **Range:** range 90 feet
+- **Components:** V, S
+- **Duration:**   Concentration, up to 1 minute
+- **Classes:**  Bard, Sorcerer, Wizard
+___
+
+You unleash a torrent of overwhelming emotion—blending agony and euphoria into a maddening storm. Each creature in a 20-foot-radius sphere centered on a point you can see within range must make a Wisdom saving throw (a creature can choose to fail).
+
+On a failed save, a creature is affected by the Rampaging* condition for the duration. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on a success. The creature has disadvantage on this saving throw if it damaged another creature with an attack during that turn.
+
+***Using a Higher-Level Spell Slot.*** The sphere’s radius increases by 5 feet for each slot level above 5th.
+
+**New condition described at end of document*
+
+\columnbreak
 
 ___
 > ## Hunting Hound
@@ -1714,6 +2054,8 @@ ___
 > 
 
 \pagebreakNum
+
+# I
 
 #### Ice Sheet 
 *2nd-level evocation*
@@ -1749,9 +2091,11 @@ A barrage of rock-hard ice plummets from the sky, forming a 20-foot-radius, 40-f
 
 When the ice storm initially appears or if a creature is inside its area at the end of your next turn, the creature must make a Dexterity saving throw. On a failed save, it takes 3d4 bludgeoning damage and 3d4 cold damage. On a successful save, it takes half as much damage.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, both the bludgeoning and cold damage increase by 1d4 for each slot level above 4th.
 
 \columnbreak
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 5th level or higher, both the bludgeoning and cold damage increase by 1d4 for each slot level above 4th.
+
 
 #### Icy Tomb
 *5th-level evocation*
@@ -1825,6 +2169,8 @@ On a failed save, the creature becomes Berserk* until the spell ends. While Bers
 At the end of each of its turns, a Berserk creature can repeat the Wisdom saving throw, ending the effect on a success.
 
 ***Using a Higher-Level Spell Slot.*** The sphere’s radius increases by 10 feet for each slot level above 3rd.
+
+**New condtition described at end of document*
 
 #### Incantation of Protection
 *2nd-level abjuration*
@@ -1906,6 +2252,8 @@ ___
 
 \pagebreakNum
 
+# L
+
 #### Law of Negation
 
 *2nd-level transmutation*
@@ -1935,6 +2283,8 @@ You summon a bolt of lightning to strike a point you can see within range. Each 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, you can summon an additional lightning bolt for each slot level above 2nd. These bolts can target the same or different points. If a creature is in the area of more than one lightning bolt, it is affected only once.
 
 \pagebreakNum
+
+# M
 
 #### Magmatic Stone
 *3rd-level Evocation (Sorcerer, Wizard)*
@@ -2005,21 +2355,6 @@ Each creature that starts its turn in the sphere must succeed on a Constitution 
 
 ***Using a Higher-Level Spell Slot.*** The sphere's radius is increased by 10 feet for each slot level above 1.
 
-#### Mindrazors 
-*5th-level Illusion (Bard, Warlock)*
-___
-- **Casting Time:** 1 Bonus Action
-- **Range:** 30 feet
-- **Components:** V, S
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**  
-___
-
-You envelop up to three weapons you can see within range in phantasmal shadows, allowing them to slice through the minds of their targets. For the duration, when a creature is hit by an attack from one of these infused weapons, it takes an additional 1d12 Psychic damage.
-
-If a creature takes an action to examine one of the weapons and succeeds on an Intelligence (Investigation) check against your spell save DC, they discern the illusion and will no longer take the additional Psychic damage from any of the infused weapons.
-
-***Using a Higher-Level Spell Slot.*** You can target one additional weapon for each spell slot level above 5.
 
 \pagebreakNum
 
@@ -2036,6 +2371,22 @@ Choose one creature that you have seen or heard within the last minute. If that 
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
 
+#### Mindrazors 
+*5th-level Illusion (Bard, Warlock)*
+___
+- **Casting Time:** 1 Bonus Action
+- **Range:** 30 feet
+- **Components:** V, S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  
+___
+
+You envelop up to three weapons you can see within range in phantasmal shadows, allowing them to slice through the minds of their targets. For the duration, when a creature is hit by an attack from one of these infused weapons, it takes an additional 1d12 Psychic damage.
+
+If a creature takes an action to examine one of the weapons and succeeds on an Intelligence (Investigation) check against your spell save DC, they discern the illusion and will no longer take the additional Psychic damage from any of the infused weapons.
+
+***Using a Higher-Level Spell Slot.*** You can target one additional weapon for each spell slot level above 5.
+
 #### Mirror Dance 
 *2nd-level conjuration*
 ___
@@ -2047,6 +2398,8 @@ ___
 ___
 You weave a shadowy link between yourself and a willing creature you can see within 30 feet, causing you and the creature to instantly swap places. 
 The creature must be no more than one size category larger than you. The spell fails if either of you would appear in a space that cannot accommodate your size.
+
+\columnbreak
 
 #### Molten Grasp
 *6th-level Evocation (Cleric, Wizard)*
@@ -2105,7 +2458,7 @@ If you take a long or short rest in your new form, only your new form gains the 
 
 ***At Higher Levels.***  When cast using a spell slot of 7th level or higher, the new form gains an additional 25 hit points for each slot level above 6th. If cast using a 9th-level slot, any features the new form can use only once per day can now be used three times per day.
 
-
+\columnbreak
 
 ___
 > ## Feral Manticore
@@ -2235,6 +2588,8 @@ Any creature that starts its turn fully within the cloud must make a Wisdom savi
 
 \pagebreakNum
 
+# N-O
+
 #### Net of Light
 *4th-level conjuration*
 ___
@@ -2264,6 +2619,8 @@ You touch a creature, causing it to become electrically charged. Until the spell
 
 \pagebreakNum
 
+# P
+
 #### Path of Shadows 
 *7th-level Conjuration (Bard, Sorcerer, Warlock, Wizard)*
 ___
@@ -2277,7 +2634,7 @@ You summon swirling shadows to whisk away up to six willing creatures of your ch
 Upon arriving, each creature becomes Invisible until the end of your next turn and may immediately take the Hide action (no action required).
 
 
-#### Penumbral Pendulum 3.0.1
+#### Penumbral Pendulum
 *4th-level Illusion (Sorcerer, Wizard)*
 ___
 - **Casting Time:** 1 Action
@@ -2292,23 +2649,7 @@ At the end of each of your subsequent turns during the duration, the pendulum sw
 
 ***Using a Higher-Level Spell Slot.*** The damage increases by 1d10 for each slot level above 4.
 
-#### Pit of Shadows
-*6th-level abjuration*
-___
-- **Casting Time:** 1 action
-- **Range:** 60 ft
-- **Components:** V, S, M (A black cloth)
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**  Cleric, Sorcerer, Warlock, Wizard
-___
-
-You conjure a portal to a shadowy plane, opening a 20-foot square pit on an area of the ground you can see within range. Creatures within this area must make a Dexterity saving  throw. On a failed save, a creature is banished to a realm of darkness for the spell's duration. While in this realm, the creature is incapacitated.
-
-At the end of each of its turns, the banished creature takes 3d8 psychic damage and must then make a Charisma saving throw. On a success, the spell ends for that creature. When the spell ends for a creature, it reappears in its original space or the nearest unoccupied space if its original space is occupied. If a creature dies while banished, its body remains in the shadow realm; however, any magical items it was wearing or carrying return to the original location.
-
 \columnbreak
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the pit's dimensions by 10 feet for each slot level above 6th.
 
 #### Phantasmagoria
 *5th-level Illusion*
@@ -2325,6 +2666,22 @@ You conjure haunting illusions—phantom creatures that swirl and whisper within
 When you cast the spell, you can designate any number of creatures you can see to be unaffected by it. Affected creatures in the area have disadvantage on Charisma, Intelligence, and Wisdom saving throws, as well as on Constitution saving throws made to maintain concentration.
 
 The spell ends early if you move more than 60 feet away from the point where it was cast.
+
+#### Pit of Shadows
+*6th-level abjuration*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 ft
+- **Components:** V, S, M (A black cloth)
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**  Cleric, Sorcerer, Warlock, Wizard
+___
+
+You conjure a portal to a shadowy plane, opening a 20-foot square pit on an area of the ground you can see within range. Creatures within this area must make a Dexterity saving  throw. On a failed save, a creature is banished to a realm of darkness for the spell's duration. While in this realm, the creature is incapacitated.
+
+At the end of each of its turns, the banished creature takes 3d8 psychic damage and must then make a Charisma saving throw. On a success, the spell ends for that creature. When the spell ends for a creature, it reappears in its original space or the nearest unoccupied space if its original space is occupied. If a creature dies while banished, its body remains in the shadow realm; however, any magical items it was wearing or carrying return to the original location.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 7th level or higher, you can increase the pit's dimensions by 10 feet for each slot level above 6th.
 
 \pagebreakNum
 
@@ -2351,9 +2708,11 @@ At the end of each of your turns, you may choose to infect a creature that you c
 |  1  | **Wisdom.** | **Rabid.** The creature can only use its action, bonus action, and reaction to take actions that allow it to make one or more attacks. |
 |  2  | **Charisma.** | **Rotted Flesh.** Any attack that hits the creature scores a critical hit on a roll of 15-20 |
 |  3  | **Constitution.** | **Nauseous.** The creature has disadvantage on attack rolls and checks. |
-|  4  | **Intelligence.** | **Befuddled.** The creature is dazed (see condition below). |
+|  4  | **Intelligence.** | **Befuddled.** The creature is dazed*. |
 |  5  | **Strength.** | **Atrophied** The creature deals only half damage with attacks. |
 |  6  | **Dexterity.** |**Dizzy.** The creature cannot benefit from the Dash, Disengage, or Dodge actions. Additionally, if the creature chooses to move more than 5 feet on its turn, it uses its movement to travel in a random direction, determined by rolling a d8.
+
+**New condition described at end of document*
 
 \columnbreak
 
@@ -2418,6 +2777,8 @@ You speak a word of power that overwhelms the mind of one creature you can see w
 
 A creature Stunned or Dazed by this spell can repeat the Constitution saving throw at the end of each of its turns, ending the effect on a success.
 
+**New condition described at end of document*
+
 \columnbreak
 
 #### Primal Dominance
@@ -2481,6 +2842,8 @@ If a Petrified creature is physically damaged or broken during this state, it wi
 
 \pagebreakNum
 
+# R
+
 #### Rancid Visitation
 *3rd-level necromancy*
 ___
@@ -2537,6 +2900,8 @@ You conjure three random rays of magic and hurl them at targets within range. Ro
 
 ***Using A Higher-Level Spell Slot.*** You create one additional ray for slot level above 6.
 
+**New condition described at end of document*
+
 \pagebreakNum
 
 #### Razorgale
@@ -2578,9 +2943,11 @@ ___
 - **Duration:** Instantaneous
 - **Classes:**  Druid, Cleric
 
-As you call out words of restoration, up to six <br> creatures of your choice that you can see within range <br> regain hit points equal to 3d6 + your spellcasting ability modifier. 
+As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 3d6 + your spellcasting ability modifier. 
 
 If you target a creature that has died within the last minute, that creature returns to life with 3d6 + your spellcasting ability modifier hit points. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts.
+
+\columnbreak
 
 Any creature targeted by the spell can immediately stand up without using any movement.
 
@@ -2613,6 +2980,8 @@ ___
 - **Duration:** Concentration, up to 8 hours
 
 This spell creates an Undead servant. Choose a Medium or Small pile of bones or a corpse within range. Your spell imbues the target with a foul mimicry of life, raising it as an Undead creature. The target becomes a **Skeleton Warrior** if you chose bones or a **Shambling Zombie** if you chose a corpse (this determines the stat block used). The Undead becomes inanimate again when it drops to 0 hit points or when the spell ends.
+
+\columnbreak
 
 Undead created by this spell are allies to you and your companions. In combat, they share your initiative count, but they take their turns immediately after yours. They obey your verbal commands (no action required by you). If you don’t issue any, they take the Dodge action and use their movement to avoid danger.
 
@@ -2769,6 +3138,8 @@ ___
 
 \pagebreakNum
 
+# S
+
 #### Sand Blast
 *1st-level Evocation (Sorcerer, Wizard)*
 ___
@@ -2798,39 +3169,6 @@ Your fists become as hard as iron, and you are filled with fighting fury. When y
 
 * You may use your spellcasting modifier when making Strength checks instead of your Strength modifier.
 
-#### Searing Shard
-*1st-level conjuration*
-
-- **Casting Time:** 1 action
-- **Range:** 90 ft
-- **Components:** S, M (A small piece of sliver)
-- **Duration:**  1 round
-- **Classes:**  Artificer
-
-You send a sizzling jagged silver shard from your fingertips flying at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 piercing damage, and the shard embeds in the creature. At the end of each of the creature's turns, it takes 2d8 fire damage if the shard is still embedded.
-
-**Removing The Shard.** A creature within reach can use an action to perform a Wisdom (Medicine) check against your spell save DC to try to remove the shard. On a success, the shard is removed, and on a failure, the shard is still removed, but the creature takes 1d8 slashing damage.
-
-***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the piercing, fire, and slashing damage each increase by 1d8 for each slot level above 1st.
-
-\columnbreak
-
-#### Second Sight
-*2nd-level divination*
-___
-- **Casting Time:** 1 action
-- **Range:** Self
-- **Components:** V S
-- **Duration:** Concentration, up to 1 minute
-- **Classes:**   Bard, Cleric, Druid, Sorcerer, Wizard, Warlock
-___
-
-Guided by an astral prophecy, your sight extends beyond the present moment. Until the spell ends, when you or a creature within 30 feet of you makes an attack roll or a saving throw, you can end the spell prematurely, allowing the creature to roll an additional d20. This decision can be made after the original roll but before the outcome is determined. The creature then chooses which of the d20s to use for the attack roll or saving throw.
-
-Alternatively, if an attack is made against you or a creature you can see within 30 feet of you, you can end the spell to roll a d20 and then decide whether the attack uses the attacker's roll or yours.
-
-If multiple effects, such as another instance of this spell or a feature like the Lucky feat, attempt to modify a single roll, they negate each other, resulting in no additional dice being rolled.
-
 #### Scorching Stream (Revised)
 *2nd-level evocation*
 ___
@@ -2844,7 +3182,7 @@ A line of roaring flame 50 feet long and 5 feet wide emanates from you in a dire
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 and you may increases line's length by 10 feet for each slot level above 2nd.
 
-\pagebreakNum
+\columnbreak
 
 #### Scorching Terror 
 *4th-level Evocation (Sorcerer, Warlock, Wizard)*
@@ -2863,7 +3201,42 @@ While Burning, the creature must make a Wisdom saving throw at the start of its 
 
 ***Using a Higher-Level Spell Slot.*** You create one additional ray for each spell slot level above 3.
 
+**New condition described at end of document*
 
+#### Searing Shard
+*1st-level conjuration*
+
+- **Casting Time:** 1 action
+- **Range:** 90 ft
+- **Components:** S, M (A small piece of sliver)
+- **Duration:**  1 round
+- **Classes:**  Artificer
+
+You send a sizzling jagged silver shard from your fingertips flying at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 piercing damage, and the shard embeds in the creature. At the end of each of the creature's turns, it takes 2d8 fire damage if the shard is still embedded.
+
+**Removing The Shard.** A creature within reach can use an action to perform a Wisdom (Medicine) check against your spell save DC to try to remove the shard. On a success, the shard is removed, and on a failure, the shard is still removed, but the creature takes 1d8 slashing damage.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 2nd level or higher, the piercing, fire, and slashing damage each increase by 1d8 for each slot level above 1st.
+
+
+
+\pagebreakNum
+
+#### Second Sight
+*2nd-level divination*
+___
+- **Casting Time:** 1 action
+- **Range:** Self
+- **Components:** V S
+- **Duration:** Concentration, up to 1 minute
+- **Classes:**   Bard, Cleric, Druid, Sorcerer, Wizard, Warlock
+___
+
+Guided by an astral prophecy, your sight extends beyond the present moment. Until the spell ends, when you or a creature within 30 feet of you makes an attack roll or a saving throw, you can end the spell prematurely, allowing the creature to roll an additional d20. This decision can be made after the original roll but before the outcome is determined. The creature then chooses which of the d20s to use for the attack roll or saving throw.
+
+Alternatively, if an attack is made against you or a creature you can see within 30 feet of you, you can end the spell to roll a d20 and then decide whether the attack uses the attacker's roll or yours.
+
+If multiple effects, such as another instance of this spell or a feature like the Lucky feat, attempt to modify a single roll, they negate each other, resulting in no additional dice being rolled.
 
 #### Shard Storm
 *4th-level Evocation (Sorcerer, Wizard)*
@@ -2889,9 +3262,9 @@ ___
 - **Duration:** Concentration, up to 1 minute
 - **Classes:**  Druid, Ranger
 
-You touch a willing creature, covering its body in spiked brambles. Whenever a creature within 5 feet of the bramble-covered creature hits it with an attack or starts its turn grappling or being grappled by the bramble-covered creature, the attacker or grappled creature takes 5 piercing damage. Additionally, whenever the bramble-covered creature hits a target with a melee attack or shoves a creature while within 5 feet of it, the target takes 5 piercing damage.
-
 \columnbreak
+
+You touch a willing creature, covering its body in spiked brambles. Whenever a creature within 5 feet of the bramble-covered creature hits it with an attack or starts its turn grappling or being grappled by the bramble-covered creature, the attacker or grappled creature takes 5 piercing damage. Additionally, whenever the bramble-covered creature hits a target with a melee attack or shoves a creature while within 5 feet of it, the target takes 5 piercing damage.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 6th level or higher, the damage of the spell increases by 1 for each slot level above 5th.
 
@@ -3079,6 +3452,8 @@ A storm of chaotic magic surges in a 30-foot-radius, 60-foot-high cylinder cente
 | 7 | **Shadows** | Each creature must make a Wisdom saving throw. On a failure, it takes 6d6 Psychic damage and is Frightened of you until the start of your next turn. |
 | 8 | **Death** | Each creature must make a Charisma saving throw. On a failure, it takes 6d6 Necrotic damage. You regain 10 hit points for each creature that fails its saving throw. |
 
+**New condition described at end of document*
+
 \columnbreak
 
 #### Storm of Renewal
@@ -3190,7 +3565,7 @@ You call forth a stampede of creatures that manifest in an unoccupied space you 
 
 The stampede is an ally to you and your companions. In combat, the stampede shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.
 
-
+\columnbreak
 
 ___
 > ## Stampede
@@ -3223,7 +3598,7 @@ ___
 
 \pagebreakNum
 
-#### Summon Swarm 2.0.0
+#### Summon Swarm
 *2nd-level Conjuration (Bard, Druid, Ranger)* 
 ___
 - **Casting Time:** Action
@@ -3233,6 +3608,8 @@ ___
 ___
 
 You call forth a swarm of tiny creatures that manifest in an unoccupied space you can see within range. When you cast the spell, choose one of the following creatures: Bats, Birds, Insects, Rats, or Snakes. The creatures of the swarm resemble the chosen creature, and they use the swarm stat block for that creature (swarm stat blocks for the different creatures described below). The swarm disappears when it drops to 0 hit points or when the spell ends.
+
+\columnbreak
 
 The swarm is an ally to you and your companions. In combat, the swarm shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.
 
@@ -3634,9 +4011,10 @@ ___
 
 > ##### Alternative Swarms
 > The names of the swarm stat blocks represent suggested descriptions for the type of animal likely to have the abilities of that stat block.  However, you're free to describe the swarms as being composed of different creatures that might have similar abilities.  For example, the swarm of bats could alternately be described as a swarm of biting locusts.
-\pagebreakNum
 
 \pagebreakNum
+
+# T
 
 #### Throne of Vines
 *2nd-level conjuration*
@@ -3668,6 +4046,21 @@ You cause a willing creature within range to tap into its primal essence, transf
 - It gains a +2 bonus to Strength checks and Strength saving throws.
 - Its attacks with enlarged weapons or unarmed strikes deal an extra 2d8 damage on a hit.
 
+#### Tomb Strike 
+*Necromancy Cantrip (Cleric, Warlock, Wizard)*
+___
+- **Casting Time:** 1 Action
+- **Range:** 60 feet
+- **Components:** V, S
+- **Duration:**  Instantaneous
+___
+
+You or one of your undead servants lash out with a surge of malignant power. Make a Melee Spell Attack against one creature within 5 feet of you or a willing Undead creature you can see within range. On a hit, the target takes 1d12 Necrotic damage.
+
+***Cantrip Upgrade.*** The spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).
+
+\columnbreak
+
 #### Toxic Coating
 *2nd-level transmutation*
 ___
@@ -3677,11 +4070,10 @@ ___
 - **Duration:** Concentration, up to 1 hour
 - **Classes:** Artificer, Druid, Ranger
 ___
+
 You touch a weapon, piece of ammunition, or component of a mechanical trap, which becomes coated with venom. The next time the coated object deals piercing or slashing damage to a creature during the spell’s duration, the target must make a Constitution saving throw. On a failed save, a creature takes 5d6 poison damage and is poisoned for 1 minute. On a success, a creature takes half as much damage and isn’t poisoned.
 
 At the end of each of its turns, a creature poisoned this way can repeat the Constitution saving throw, ending the effect on a success.
-
-\columnbreak
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 3nd level or higher, the poison damage increases by 2d6 for each slot level above 2nd.
 
@@ -3703,20 +4095,11 @@ Additionally, a creature can no longer add its Dexterity modifier to attack and 
 
 
 
-#### Tomb Strike 
-*Necromancy Cantrip (Cleric, Warlock, Wizard)*
-___
-- **Casting Time:** 1 Action
-- **Range:** 60 feet
-- **Components:** V, S
-- **Duration:**  Instantaneous
-___
 
-You or one of your undead servants lash out with a surge of malignant power. Make a Melee Spell Attack against one creature within 5 feet of you or a willing Undead creature you can see within range. On a hit, the target takes 1d12 Necrotic damage.
-
-***Cantrip Upgrade.*** The spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).
 
 \pagebreakNum
+
+# U
 
 #### Unholy Fervor
 *2nd-level Necromancy (Warlock)*
@@ -3773,6 +4156,10 @@ If you roll a 1 on the attack roll, you take 1d12 Lightning damage.
 ***Cantrip Upgrade.*** The damage on hit and when you roll a 1 increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).
 
 
+\pagebreakNum
+
+# V
+
 #### Vampiric Touch (Revised)
 *3rd-level Necromancy (Cleric, Sorcerer, Warlock, Wizard)*
 ___
@@ -3800,8 +4187,6 @@ Hit or miss, the target and each creature in the line between you and it must su
 
 ***Using a Higher-Level Spell Slot.*** Both the Thunder and Psychic damage increase by 1d6, and the spell’s range increases by 10 feet for each slot level above 1st.
 
-\pagebreakNum
-
 #### Virulent Decay
 *4th-level necromancy*
 ___
@@ -3816,6 +4201,8 @@ You unleash a bolt of decay toward a creature you can see within range, infectin
 Each infected creature must make a Constitution saving throw, taking 6d10 necrotic damage on a failed save, or half as much on a success.
 
 ***Using a Higher-Level Spell Slot.*** The damage increases by 1d10, and the infection can jump one additional time for each spell slot level above 4.
+
+\columnbreak
 
 #### Void Horror
 *9th-level Evocation (Warlock)*
@@ -3836,6 +4223,8 @@ As an Action on your turn, you can move the sphere up to 30 feet.
 **Tentacle Attacks.** Until the spell ends, you can use a Bonus Action on each of your turns to cause three shadowy tentacles to lash out from the sphere’s center at targets within 100 feet of it. You can target one creature or multiple creatures. Make a ranged spell attack for each tentacle. On a hit, the target takes 4d8 Acid damage and is pulled 20 feet toward the sphere’s center.
 
 \pagebreakNum
+
+# W
 
 #### Walk Between Worlds
 *4th-level Transmutation (Artificer, Sorcerer, Wizard)*
@@ -3877,9 +4266,9 @@ ___
 - **Components:** V, S, M (the stem of a plant with thorns)
 - **Duration:** 1 minute
 
-You are enveloped in thick, thorn-covered vines, gaining 50 temporary hit points for the duration of the spell.
-
 \columnbreak
+
+You are enveloped in thick, thorn-covered vines, gaining 50 temporary hit points for the duration of the spell.
 
 Immediately after, three thorny vines lash out from you toward creatures within range. You can hurl the vines at one target or divide them among multiple creatures. 
 
@@ -4080,6 +4469,8 @@ You hurl a potent concoction at one or two creatures you can see within range. I
 
 ***Using a Higher-Level Spell Slot.*** The damage and healing increase by 1d4 for each slot level above 1st.
 
+**New condition described at end of document*
+
 #### Withering Gaze
 *4th-level Necromancy (Warlock, Wizard)*
 ___
@@ -4169,25 +4560,102 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 
 ***Using a Higher-Level Spell Slot.***  The damage increases by 2d8 for every slot level above 8.
 
+**New condition described at end of document*
+
 \pagebreakNum
 
+## New Conditions
+
+#### Berserk
+The creature is consumed by bloodlust, giving it the following effects:
+ * The creature can only use its action, bonus action, and reaction to make melee attacks or move closer to an enemy it can see or hear. 
+* The creature can only use its movement to move closer to an enemy it can see or hear.
+ * The creature can't maintain concentration on spells or other effects.
+* Any charmed or frightened effects on the creature are suspended.
+
+#### Burning
+The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+* **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+* **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+* **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+<br>
+
+> ##### Notes on 2024 Burning Rules
+> If you're using the rules for burning described in the 2024 edition of D&D, these are the changes that were made in this document:
+> * **Sources of Burning Don't Stack.** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+> * **Damage At End of Turn.** Burning damage occurs at the end of a creature's turn rather than the beginning. This gives the creature the chance to try to end the condition before taking the damage, thus giving players more agency when they start burning.
+
+#### Dazed 
+A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+\columnbreak
+
+#### Drowsy 
+This condition brings a creature to the brink of falling asleep. Creatures immune to effects that would put them to sleep are immune to this condition. While a creature is drowsy, it is under the following effects:<br>
+* It moves at half speed.<br>
+* It has disadvantage on attack rolls, ability checks, and Dexterity saves.<br>
+*  It can't concentrate. <br>
+* Attacks against it have advantage. <br>
+* The only spells it can cast are cantrips. <br>
+
+#### Fatigue
+The creature experiences debilitating weariness that can accumulate in levels. Each time a creature gains the Fatigue condition, its Fatigue Level increases by 1. If the level reaches 6, the creature dies. Fatigue Levels have the following effects on a creature:
+* **d20 Rolls:** When a creature makes a d20 Test, subtract its Fatigue Level from the d20 roll.
+* **Spell Save DCs:** Subtract a creature's Fatigue Level from the Spell Save DC of any spell it casts.
+* **Speed** A creature's speed is reduced by a number of feet equal to 5 x its Fatigue level. This can't lower its speed below 5 feet.
+
+**Ending the Condition:** Completing a Long Rest reduces a creature's Fatigue Level by 1.
+
+**Fatigue vs. Exhaustion:** Fatigue is an alternative mechanic to the Exhaustion condition, and any ability that removes levels of Exhaustion or grants immunity to it does the same for Fatigue. 
+
+#### Obsessed 
+The creature becomes fixated on a creature or object, which becomes a source of its obsession. Being obsessed has the following effects on a creature:
+* While the creature can see a source of its obsession, it can't target any creature or object with an attack, spell, or ability except for a source of its obsession.
+* While the creature can see a source of its obsession, it can't cast spells or use abilities that target an area (such as the *fireball* spell) unless a source of its obsession is in that area. 
+*  The creature can't willingly move away from a source of its obsession.
+
+#### Quickened
+A Quickened creature gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack or unarmed strike only), Dash, Disengage, Hide, or Use an Object action. The *haste* spell applies the Quickened condition among its other effects, and a creature cannot benefit from the Quickened condition from multiple sources at once.
+
+\pagebreakNum
+
+#### Rampaging 
+ The creature loses its free will as it enters a mindless Rampage. Rampages last for up to one minute and have the following effect on a creature unless an ability states otherwise: 
+* Any Charmed or Frightened effects on the creature are suspended.
+* The creature can't cast spells or maintain Concentration on spells or 
+other effects.
+* On each of its turns, the creature must take the Attack action against the nearest hostile creature it can see within range. After attacking, it can't move for the rest of its turn. <br>
+&emsp;**If no targets are within range,** it must move toward the nearest hostile creature it is aware of by the safest route. If it comes within range during this movement, it immediately takes the Attack action against it and then can’t move further. <br>
+&emsp;**If the target is still not within range after moving,** it must take the Dash action to continue approaching the nearest hostile creature.<br>
+&emsp;**If the creature is prevented from moving within attack range,** it does whatever action is necessary to move within range (such as using an action escape a net or break through a barrier).
+* The creature can only use its Reaction and Bonus Action to make attacks against hostile creatures or to move closer to the nearest hostile creature.
+
+#### Wounds
+While most creatures are wounded in combat, in this context, the wound is a special form of injury that causes severe bleeding over a short period of time and only specialized attacks and effects can cause wounds. A creature can suffer from multiple wounds at once and at the end of its turn, a wounded creature takes 2 (1d4) necrotic damage for every wound it has sustained. Only creatures with blood (or something equivalent to blood) can suffer wounds. Wounds can be removed in the following ways:
+
+ * When a creature is healed, one wound is removed for every 5 hit points of healing it receives. 
+ * A creature can expend one use of a healer's kit to remove two wounds from itself or another creature. 
+ * A wounded creature, or another creature within 5 feet of it, can make a DC 10 Wisdom (Medicine) check as an action to remove one wound on a success. For every 5 points by which the check exceeds the DC, an additional wound is removed.
+
+\pagebreakNum
 
 #### Revision Numbers
 * Acid Arrow (Revised) 1.0.0
 * Acid Rain 1.0.0
 * Acid Wave 1.0.0
-* Act of Treason 1.0.0
 * Acquiescence 1.0.0
+* Act of Treason 1.0.0
 * Amber Spear 1.0.0
 * Apotheosis 1.0.0
 * Ash Storm 1.0.0
 * Aspect of Dread 1.0.3
 * Aspect of the Beast 1.0.0
-* Aura of the Crusader 1.0.0
 * Aura of Hope 1.0.0
-* Aura of Shielding 1.0.0
 * Aura of Might 1.0.0
 * Aura of Power 1.0.0
+* Aura of Shielding 1.0.0
+* Aura of the Crusader 1.0.0
 * Barkskin (Revised) 1.0.0
 * Bellows Breath 1.0.0
 * Bestial Spirit 1.0.0
@@ -4197,13 +4665,13 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Bolt of Change 2.0.0
 * Bountiful Cauldron 1.0.0
 * Brain Burster 1.0.0
-* Breath of Hatred  1.0.0
+* Breath of Hatred 1.0.0
 * Brittle Bones 1.0.0
 * Brutal Glare 1.0.0
 * Burning Bolts 1.0.0
+* Burning Gaze 2.0.1
 * Burning Hands (Revised) 1.0.0
 * Burning Head 1.0.0
-* Burning Gaze 2.0.1
 * Cacophonic Call 2.0.0
 * Call of the Pack 1.0.0
 * Carrion Swarm 1.0.0
@@ -4244,20 +4712,17 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Eruption 1.0.0
 * Final Transmutation 1.1.0
 * Fireworks 1.0.0
-* Foot of The Gods 1.0.0
-* Forbidden Grove 1.0.0
 * Fissure 1.1.0
 * Flame Arrows (Revised) 1.0.0
 * Flame Blade (Revised) 1.0.0
 * Flame Cage 1.0.0
 * Flames of the Phoenix 1.0.0
 * Flensing Ribbons 1.0.0
+* Foot of The Gods 1.0.0
+* Forbidden Grove 1.0.0
 * Frighten 1.0.0
 * Frost Blade 1.0.0
 * Frost Nova 2.0.0
-* Hellfire Weapon 1.0.0
-* Hellish Spheres 1.0.0
-* Hysterical Frenzy 1.0.0
 * Gale of Souls 1.0.0
 * Galvanic Bolts 1.0.0
 * Gift of Chaos 1.0.0
@@ -4267,11 +4732,14 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Guiding Wind 1.0.0
 * Harmonic Convergence 1.0.0
 * Harvest Strike 1.0.0
+* Hellfire Weapon 1.0.0
+* Hellish Spheres 1.0.0
 * Here We Go! 1.0.0
 * Holy Nova 1.0.0
 * Horrid Wilting (Revised) 1.0.0
 * Horrifying Laughter 1.1.1
 * Hunting Hound 1.0.0
+* Hysterical Frenzy 1.0.0
 * Ice Sheet 1.0.0
 * Ice Storm (Revised) 1.1.0
 * Icy Tomb 1.0.0
@@ -4288,11 +4756,11 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Metal Coat 1.0.0
 * Meteor Swarm (Revised) 1.0.0
 * Miasma of Pestilence 1.1.0
-* Mindrazors 1.1.1
 * Mind Spike (Revised) 1.0.0
+* Mindrazors 1.1.1
 * Mirror Dance 1.0.0
-* Molten Silver 1.1.0
 * Molten Grasp 1.0.0
+* Molten Silver 1.1.0
 * Monstrous Transformation 1.1.0
 * Mystifying Miasma 1.1.1
 * Net of Light 1.0.0
@@ -4303,13 +4771,13 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Path of Shadows 1.0.0
 * Penumbral Pendulum 3.0.1
 * Phantasmagoria 2.0.0
+* Pit of Shadows 1.0.0
 * Plague (Revised) 1.0.1
 * Plague of Rust 1.0.0
 * Power Word: Pain (Revised) 1.0.0
 * Power Word: Stun (Revised) 1.0.0
 * Primal Dominance 1.0.0
 * Psychic Headbutt 1.0.0
-* Pit of Shadows 1.0.0
 * Puddle of Ooze 1.0.0
 * Purple Sun 1.0.1
 * Rancid Visitation 3.0.0
@@ -4322,10 +4790,10 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Rite of the Dead 1.0.0
 * Sand Blast 1.0.0
 * Savage Fists 1.0.0
-* Second Sight 1.0.0
 * Scorching Stream 1.0.0
 * Scorching Terror 1.0.0
 * Searing Shard 1.0.0
+* Second Sight 1.0.0
 * Shard Storm 1.0.0
 * Shield of Thorns 1.0.0
 * Shroud of Dusk 1.2.1
@@ -4356,8 +4824,8 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 * Unseen Lurker 1.0.0
 * Unstable Discharge 1.0.0
 * Vampiric Touch (Revised) 1.0.0
-* Virulent Decay 1.0.1
 * Vicious Lash 1.0.0
+* Virulent Decay 1.0.1
 * Void Horror 1.0.0
 * Walk Between Worlds 1.0.0
 * Wall of Sand (Revised) 1.0.0
@@ -4386,6 +4854,17 @@ On a successful Strength save, a creature is pushed up to 15 feet in a direction
 ### Document
 #### 1.0.0
 * Add change log
+
+### Referenced Content
+#### Conditions
+* Berserk 1.0.0
+* Burning 1.0.1
+* Dazed 1.0.0
+* Drowsy 1.0.0
+* Fatigue 1.0.0
+* Obsessed 1.0.0
+* Quickened 1.0.0
+* Rampaging 1.2.0
 
 ### Ascpect of Dread
 #### 1.0.1
