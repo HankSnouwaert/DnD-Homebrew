@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p1:after  {
+    .phb#p1:after, .phb#p2:after, .phb#p3:after, .phb#p4:after   {
         display          : none;
     }
     /* End Footers */
@@ -34,16 +34,16 @@
 <br><br>
 
 ## Zombies
-*TBD*<br>
-**Habitat:** TBD; **Treasure:** TBD <br>
+*Relentless Reanimated Corpses*<br>
+**Habitat:** Planar (Shadowfell), Underdark, Urban; <br> **Treasure:** None <br>
 
-Of all the various undead brought back to unlife through the magics of necromancy, none are more feeble than shambling zombies—also known as coffin walkers or flesh puppets. These heinous mockeries of life are forged from rotting cadavers by dark power. Such power may arise from macabre energy seeping through places of great death, such as battlefields or towns ravaged by sickness, and flowing into any remains. At other times, twisted spellcasters deliberately raise them to serve as unquestioning soldiers against any who would oppose them.
+Of all the various undead brought back to unlife <br> through the magics of necromancy, none are more <br> feeble than shambling zombies, also known as <br> coffin walkers or flesh puppets. These heinous <br> mockeries of life are forged from rotting cadavers <br> by dark power. Such power may arise from <br> macabre energy seeping through places of great <br> death, such as battlefields or towns ravaged by <br> sickness, and flowing into any remains. At other <br> times, twisted spellcasters deliberately raise them <br> to serve as unquestioning soldiers against any  <br>who would oppose them.
 
-Whatever anathema event triggers their creation, the outcome is the same: black magic replaces the breath and heartbeat that once flowed through the body of the deceased. These vile forces now command the remains to shuffle forward and feast on the flesh of the living.
+Whatever anathema event triggers their creation, <br> the outcome is the same: black magic replaces the <br> breath and heartbeat that once flowed through the <br> body of the deceased. These vile forces now <br> command the remains to shuffle forward and feast <br> on the flesh of the living.
 
-A single zombie poses little threat. Such creatures are slow in both body and mind. All that they were in life is gone, leaving only a mindless husk that lurches forward on tattered, decaying muscle. With no regard for its surroundings beyond the presence of warm flesh, the putrid halfwit sluggishly grasps and holds down its prey, sinking filth-encrusted teeth into living tissue. Even those mystically bound to the will of a necromancer prove little more than stiff marionettes. The caster can only point the creatures toward those they wish the dark thralls to ravage, or halt their awkward movement so they stand motionless.
+A single zombie poses little threat. Such <br> creatures are slow in both body and mind. All that <br> they were in life is gone, leaving only a mindless <br> husk that lurches forward on tattered, decaying <br> muscle. With no regard for its surroundings <br> beyond the presence of warm flesh, the putrid <br> halfwit sluggishly grasps and holds down its prey, <br> sinking filth-encrusted teeth into living tissue. <br> Even those mystically bound to the will of a <br> necromancer prove little more than stiff <br> marionettes. The caster can only point the <br> creatures toward those they wish the dark thralls <br> to ravage, or halt their awkward movement so <br> they stand motionless.
 
-Zombies do possess one singular trait that gives them an edge and allows them to overcome those who might otherwise destroy them: their bodies can suffer vast amounts of punishment that would fell any living creature. A lumbering carcass may be stabbed through the chest or have limbs hacked off, yet it presses on with its clumsy assault—unperturbed and hungry.
+
 
 
 \columnbreak
@@ -53,7 +53,7 @@ ___
 > ## Zombie
 > *Medium or Small Undead, Mob, Neutral Evil*
 > ___
-> - **Armor Class** 8    **Initiative** −2 (8)
+> - **Armor Class** 8  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  **Initiative** -2 (8)
 > - **Hit Points** 7 (1d8 + 3)
 > - **Speed** 20 ft.
 > ___
@@ -79,8 +79,8 @@ ___
 > <td></td>
 > <td><b>DEX</b></td>
 > <td style="text-align:center">6</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>CON</b></td>
 > <td style="text-align:center">16</td>
@@ -90,18 +90,18 @@ ___
 > <tr style="background-color:transparent">
 > <td><b>INT</b></td>
 > <td style="text-align:center">3</td>
-> <td style="background-color:#e0e5c1; text-align:center">−4</td>
-> <td style="background-color:#e0e5c1; text-align:center">−4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
 > <td></td>
 > <td><b>WIS</b></td>
 > <td style="text-align:center">6</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>CHA</b></td>
 > <td style="text-align:center">5</td>
-> <td style="background-color:#e0e5c1; text-align:center">−3</td>
-> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
 > </tr>
 > </table>
 >
@@ -109,14 +109,14 @@ ___
 > - **Immunities** Poison; Exhaustion, Poisoned
 > - **Senses** Darkvision 60 ft., Passive Perception 8
 > - **Languages** Understands Common plus one other language but can't speak
-> - **Challenge** 1/8 (25 XP)      **Proficiency Bonus** +2
+> - **Challenge** 1/8 (25 XP)    &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2
 > ___
 >
 > ### Traits
 >
-> ***Sluggish.*** The zombie can't make opportunity attacks.
+> ***Overbearing Pack.*** The zombie has advantage on Strength (Athletics) checks to Shove or Grapple a creature if at least one of the zombie's allies is within 5 feet of the target and the ally isn't Incapacitated.
 >
-> ***Overbearing Pack.*** The zombie has advantage on Strength (Athletics) checks to shove or grapple a creature if at least one of the zombie's allies is within 5 feet of the target and the ally isn't Incapacitated.
+> ***Sluggish.*** The zombie can't make opportunity attacks.
 >
 > ***Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a critical hit. On a successful save, the zombie drops to 1 hit point instead.
 >
@@ -128,11 +128,23 @@ ___
 
 </span>
 
+<img src='https://imglink.cc/cdn/SN2aQ4tBOP.webp' style='position:absolute; top:-3px; right:-130px; width:730px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:100px;top:0px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-500px;top:340px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:14px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
 \pagebreakNum
+
+Zombies do possess one singular trait that gives them an edge and allows them to overcome those who might otherwise destroy them: their bodies can suffer vast amounts of punishment that would fell any living creature. A lumbering carcass may be stabbed through the chest or have limbs hacked off, yet it presses on with its clumsy assault, unperturbed and hungry.
 
 ### Relentless Zombies
 
-Some zombies are infused with far greater quantities of baleful magic. Dark tendrils course through their foetid forms, rendering them nearly indestructible and granting them superior strength as well. Only the complete obliteration of the creature’s head or heart—where the magic has pooled—can end these necromantic troopers for good.
+Some zombies are infused with far greater quantities of baleful magic. Dark tendrils course through their foetid forms, rendering them nearly indestructible and granting them superior strength as well. Only the complete obliteration of the creature’s head or heart, where the magic has pooled, can end these necromantic troopers for good.
 
 \columnbreak
 
@@ -141,7 +153,7 @@ ___
 > ## Relentless Zombie
 > *Medium or Small Undead, Mob, Neutral Evil*
 > ___
-> - **Armor Class** 9    **Initiative** −2 (8)
+> - **Armor Class** 9  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  **Initiative** -2 (8)
 > - **Hit Points** 22 (3d8 + 9)
 > - **Speed** 20 ft.
 > ___
@@ -167,8 +179,8 @@ ___
 > <td></td>
 > <td><b>DEX</b></td>
 > <td style="text-align:center">6</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>CON</b></td>
 > <td style="text-align:center">16</td>
@@ -178,18 +190,18 @@ ___
 > <tr style="background-color:transparent">
 > <td><b>INT</b></td>
 > <td style="text-align:center">3</td>
-> <td style="background-color:#e0e5c1; text-align:center">−4</td>
-> <td style="background-color:#e0e5c1; text-align:center">−4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
 > <td></td>
 > <td><b>WIS</b></td>
 > <td style="text-align:center">6</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>CHA</b></td>
 > <td style="text-align:center">5</td>
-> <td style="background-color:#e0e5c1; text-align:center">−3</td>
-> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
 > </tr>
 > </table>
 >
@@ -198,18 +210,18 @@ ___
 > - **Immunities** Poison; Exhaustion, Poisoned
 > - **Senses** Darkvision 60 ft., Passive Perception 8
 > - **Languages** Understands Common plus one other language but can't speak
-> - **Challenge** 1/2 (100 XP)      **Proficiency Bonus** +2
+> - **Challenge** 1/2 (100 XP)   &emsp;&emsp;&ensp;   **Proficiency Bonus** +2
 > ___
 >
 > ### Traits
 >
+> ***Greater Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw (DC equal to the damage taken) unless the damage is Radiant or from a critical hit. On a successful save, the zombie drops to 1 hit point instead.
+>
+> ***Overbearing Pack.*** The zombie has advantage on Strength (Athletics) checks to Shove or Grapple a creature if at least one of the zombie's allies is within 5 feet of the target and the ally isn't Incapacitated.
+>
 > ***Sluggish.*** The zombie can't make opportunity attacks.
 >
 > ***Weak Point.*** Whenever a creature has advantage on an attack roll against the zombie, it can choose to roll only one die instead of two to aim for the zombie's weak point. If the attack hits, the attack ignores the zombie's Resistance to Bludgeoning, Piercing, and Slashing damage from that attack. The attack still counts as having advantage for the purposes of other abilities, such as a rogue's Sneak Attack.
->
-> ***Overbearing Pack.*** The zombie has advantage on Strength (Athletics) checks to shove or grapple a creature if at least one of the zombie's allies is within 5 feet of the target and the ally isn't Incapacitated.
->
-> ***Greater Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw (DC equal to the damage taken) unless the damage is Radiant or from a critical hit. On a successful save, the zombie drops to 1 hit point instead.
 >
 > ### Actions
 >
@@ -219,20 +231,36 @@ ___
 
 </span>
 
+<img src='https://imglink.cc/cdn/WZmJFZCneZ.webp' style='position:absolute; bottom:-82px; left:-245px; width:870px;' />
+
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-300px;bottom:270px;transform:rotate(0deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-830px;top:0px;height:1400px;width:1416px;transform:rotate(-270deg)' />
+
 \pagebreakNum
 
 ### Zombie Hordes
-Zombies become a far greater threat when gathered in large groups driven by a common purpose: to consume the living. Necromancers can easily raise vast numbers of these unholy minions and maintain control over them with far less effort than is required for other undead, then send the revolting flock to enact their will. A shambling throng can withstand all manner of attacks and still march onward, enraged, toward its foes. When opponents become overwhelmed and exhausted, masses of rotten arms reach out to snatch them up, dragging them into the tide of hungering dead to be torn apart. Such resilient regiments are often used to tire out opponents through sheer weight of numbers, leaving them vulnerable to even more insidious creations that finish off the enervated combatants.
-
+Zombies become a far greater threat when gathered in large groups driven by a common purpose: to consume the living. Necromancers can easily raise vast numbers of these unholy minions and maintain control over them with far less effort than is required for other undead, then send the revolting flock to enact their will. A shambling throng can withstand all manner of attacks and still march onward, enraged, toward its foes.
 
 \columnbreak
 
+<br><Br>
 
+When opponents become overwhelmed and exhausted, masses of rotten arms reach out to snatch them up, dragging them into the tide of hungering dead to be torn apart. Such resilient regiments are often used to tire out opponents through sheer weight of numbers, leaving them vulnerable to even more insidious creations that finish off the enervated combatants.
+
+
+
+
+
+___
 ___
 > ## Horde of Zombies
 > *Huge Swarm of Medium Undead, Party, Neutral Evil*
 > ___
-> - **Armor Class** 8    **Initiative** −2 (8)
+> - **Armor Class** 8  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  **Initiative** -2 (8)
 > - **Hit Points** 60 (8d8 + 24)
 > - **Speed** 20 ft.
 > ___
@@ -258,8 +286,8 @@ ___
 > <td></td>
 > <td><b>DEX</b></td>
 > <td style="text-align:center">6</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>CON</b></td>
 > <td style="text-align:center">16</td>
@@ -269,18 +297,18 @@ ___
 > <tr style="background-color:transparent">
 > <td><b>INT</b></td>
 > <td style="text-align:center">3</td>
-> <td style="background-color:#e0e5c1; text-align:center">−4</td>
-> <td style="background-color:#e0e5c1; text-align:center">−4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
 > <td></td>
 > <td><b>WIS</b></td>
 > <td style="text-align:center">6</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>CHA</b></td>
 > <td style="text-align:center">5</td>
-> <td style="background-color:#e0e5c1; text-align:center">−3</td>
-> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
 > </tr>
 > </table>
 >
@@ -289,16 +317,16 @@ ___
 > - **Immunities** Poison; Charmed, Frightened, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned
 > - **Senses** Darkvision 60 ft., Passive Perception 8
 > - **Languages** Understands Common plus one other language but can't speak
-> - **Challenge** 3 (700 XP)      **Proficiency Bonus** +3
+> - **Challenge** 3 (700 XP)  &emsp;&emsp;&emsp;&ensp;    **Proficiency Bonus** +3
 > ___
 >
 > ### Traits
 >
 > ***Sluggish.*** The zombie can't make opportunity attacks.
 >
-> ***Swarm's Fortitude.*** The swarm has Resistance to all damage except Radiant unless the attack deals 5 or more damage to the swarm.
->
 > ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium Humanoid. The swarm can't regain hit points or gain temporary hit points.
+>
+> ***Swarm's Fortitude.*** The swarm has Resistance to all damage except Radiant unless the attack deals 5 or more damage to the swarm.
 >
 > ### Actions
 >
@@ -312,24 +340,35 @@ ___
 
 </span>
 
+<img src='https://imglink.cc/cdn/m4J97G10s4.webp' style='position:absolute; bottom:-145px; left:-0px; width:820px;' />
+
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-300px;bottom:15px;transform:rotate(0deg)' />
+
 \pagebreakNum
 
 ### Zombie Apocalypse
-When storms of wicked magic—or the most dreadful liches and vampires—descend upon a locale of great tragedy, brimming with countless fresh corpses, the outcome is apocalyptic. Cold bodies twitch and jerk, rising in unison as an army ready to wash over the land and eradicate any creature that draws breath. A sea of countless undead moves without need of rest or warmth. Entire towns can be easily consumed by the gnashing of rotten teeth; even entire cities may not withstand the army of the damned when their numbers are vast enough and they are guided by a devious will. 
-
-
-### Zombie Tactics
-Zombies swarm over the first target they are able to reach, the surround and use their actions to attempt to grapple and knock it prone at which point they bite it. Zombies are slow so allies should use zombies as meat shields and distractions to keep the enemy busy.   
+When storms of wicked magic, or the most dreadful liches and vampires, descend upon a locale of great tragedy, brimming with countless fresh corpses, the outcome is apocalyptic. Cold bodies twitch and jerk, rising in unison as an army ready to wash over the land and eradicate any creature that draws breath. A sea of countless undead moves without need of rest or warmth. Entire towns can be easily consumed by the gnashing of rotten teeth; even entire cities may not be able to withstand the army of the damned when their numbers are vast enough and they are guided by a devious will. 
 
 
 \columnbreak
 
+### Zombie Tactics
+Zombies swarm over the first target they are able to reach, then surround it and use their actions to attempt to grapple and knock it prone, at which point they bite it. Zombies are slow, so allies should use zombies as meat shields and distractions to keep the enemy busy. 
 
+#### Zombies Art Credit
+* Zombie Token - Craig J. Spearing, Wizards of the Coast
+* Craig J. Spearing - Dan Murayama Scott, Wizards of the Coast
+* Brain Gorgers - Kev Walker, Wizards of the Coast
+* Deluge of the Dead - Alexey Kruglov, Wizards of the Coast
+
+___
 ___
 > ## Zombie Apocalypse
 > *Gargantuan Swarm of Medium Undead, Party, Neutral Evil*
 > ___
-> - **Armor Class** 8    **Initiative** −2 (8)
+> - **Armor Class** 8  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;  **Initiative** -2 (8)
 > - **Hit Points** 180 (20d8 + 60)
 > - **Speed** 20 ft.
 > ___
@@ -355,8 +394,8 @@ ___
 > <td></td>
 > <td><b>DEX</b></td>
 > <td style="text-align:center">6</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>CON</b></td>
 > <td style="text-align:center">16</td>
@@ -366,18 +405,18 @@ ___
 > <tr style="background-color:transparent">
 > <td><b>INT</b></td>
 > <td style="text-align:center">3</td>
-> <td style="background-color:#e0e5c1; text-align:center">−4</td>
-> <td style="background-color:#e0e5c1; text-align:center">−4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-4</td>
 > <td></td>
 > <td><b>WIS</b></td>
 > <td style="text-align:center">6</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
-> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
 > <td></td>
 > <td><b>CHA</b></td>
 > <td style="text-align:center">5</td>
-> <td style="background-color:#e0e5c1; text-align:center">−3</td>
-> <td style="background-color:#e0e5c1; text-align:center">−3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
 > </tr>
 > </table>
 >
@@ -386,14 +425,14 @@ ___
 > - **Immunities** Poison; Charmed, Frightened, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned
 > - **Senses** Darkvision 60 ft., Passive Perception 8
 > - **Languages** Understands Common plus one other language but can't speak
-> - **Challenge** 10 (5,900 XP)      **Proficiency Bonus** +4
+> - **Challenge** 10 (5,900 XP)   &emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +4
 > ___
 >
 > ### Traits
 >
-> ***Swarm's Fortitude.*** The swarm has Resistance to all damage except Radiant unless the attack deals 7 or more damage to the swarm.
->
 > ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium Humanoid. The swarm can't regain hit points or gain temporary hit points.
+>
+> ***Swarm's Fortitude.*** The swarm has Resistance to all damage except Radiant unless the attack deals 7 or more damage to the swarm.
 >
 > ### Actions
 >
@@ -406,3 +445,15 @@ ___
 > ***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target that is Grappled or Prone. *Hit:* 36 (8d8) Piercing damage, or 18 (4d8) Piercing damage if the swarm is Bloodied.
 
 </span>
+
+<img src='https://imglink.cc/cdn/IEMAWi8GDK.jpg' style='position:absolute; bottom:-150px; left:-0px; width:816px;' />
+
+  <img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-300px;bottom:50px;transform:rotate(0deg)' />
+
+\pagebreakNum
+
+### Change Log
+#### 0.0.0
+* Document creation
