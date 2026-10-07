@@ -1,0 +1,2061 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p3:after, .phb#p5:after, .phb#p6:after, .phb#p8:after, .phb#p9:after, .phb#p11:after, .phb#p13:after, .phb#p20:after, .phb#p23:after, .phb#p27:after, .phb#p29:after, .phb#p30:after, .phb#p32:after, .phb#p33:after, .phb#p34:after, .phb#p36:after, .phb#p41:after, .phb#p43:after, .phb#p44:after, .phb#p47:after, .phb#p49:after, .phb#p50:after, .phb#p51:after, .phb#p52:after, .phb#p55:after, .phb#p62:after, .phb#p63:after, .phb#p68:after, .phb#p69:after, .phb#p73:after, .phb#p76:after, .phb#p78:after, .phb#p79:after, .phb#p80:after, .phb#p82:after, .phb#p83:after, .phb#p86:after, .phb#p88:after, .phb#p89:after, .phb#p93:after, .phb#p95:after, .phb#p100:after, .phb#p106:after, .phb#p107:after, .phb#p109:after, .phb#p112:after, .phb#p114:after, .phb#p115:after, .phb#p116:after, .phb#p117:after     {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<style>/*ToC Styling*/
+  .toc a {color: inherit !important;}
+  .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+  .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;content:" ........................................""........................................."".........................................";}
+  .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;margin-left:1px;}
+  .toc li h3 span:nth-child(2):after{content: " ";}
+  .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+  .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+  .toc li h3 span:first-child{line-height: 2.3em !important;}
+  .toc ul ul {margin-left: 10px !important;}
+  .toc>ul>li {margin-bottom: initial !important;}
+  .phb#p3:after{display:none;}
+</style>
+
+<br>
+
+# Empire Soldier Compilation
+This document contains a compilation of divine player options, sacred magic items, and a collection of NPC holy warriors who fanatically fight for their faith. These NPCs are usually human, but many of them could be members of other races serving different religions. Regardless of their origin or specific faith, they all share a zealous and militant devotion to their religious order that could push them to acts of heroism or villainy, depending on the needs of your adventure.
+
+
+\columnbreak
+
+<div class='toc'>
+
+- ## Table of Contents
+  - ### [<span>2</span><span>Magic Armaments of The Empire</span>](#p2)
+    - [<span>2</span><span>Amber Bow</span>](#p2)
+    - [<span>2</span><span>Halberd of Power</span>](#p2)
+    - [<span>2</span><span>Hammer of War</span>](#p2)
+    - [<span>3</span><span>Helm of the Indomitable</span>](#p3)
+    - [<span>3</span><span>Rune Fang</span>](#p3)
+    - [<span>3</span><span>Shield of Protection</span>](#p3)
+    - [<span>3</span><span>Silver Horn</span>](#p3)
+    - [<span>3</span><span>Spear of the Fates</span>](#p3)
+    - [<span>4</span><span>Laurels of Victory</span>](#p4)
+    - [<span>4</span><span>Marvellous Magnifier</span>](#p4)
+    - [<span>4</span><span>Pearl Dagger</span>](#p4)
+    - [<span>4</span><span>Repelling Armor</span>](#p4)
+    - [<span>4</span><span>Twice-Blessed Armor</span>](#p4)
+  - ### [<span>6</span><span>Soldiers</span>](#p6)
+    - #### [<span>6</span><span>Archers</span>](#p6)
+      - [<span>6</span><span>Archer</span>](#p6)
+      - [<span>7</span><span>Archer, Deathjack</span>](#p7)
+      - [<span>7</span><span>Archer, Order of the Bow</span>](#p7)
+    - #### [<span>8</span><span>Captains & Generals</span>](#p8)
+      - [<span>8</span><span>Captain</span>](#p8)
+      - [<span>8</span><span>General</span>](#p8)
+    - #### [<span>10</span><span>Crossbowmen</span>](#p10)
+      - [<span>10</span><span>Crossbowman</span>](#p10)
+      - [<span>11</span><span>Crossbowman River Patrol</span>](#p11)
+      - [<span>11</span><span>Crossbowman Bulwark</span>](#p11)
+    - #### [<span>12</span><span>Greatswordsmen</span>](#p12)
+      - [<span>12</span><span>Greatswordsman</span>](#p12)
+      - [<span>13</span><span>Greatswordsman Doppelsöldner</span>](#p13)
+      - [<span>14</span><span>Crimson Greatswordsman</span>](#p14)
+      - [<span>14</span><span>Greatswordsman Reaver</span>](#p14)
+    - #### [<span>15</span><span>Halberdiers</span>](#p15)
+      - [<span>15</span><span>Halberdier</span>](#p15)
+      - [<span>16</span><span>Halberdier Mariner</span>](#p16)
+      - [<span>16</span><span>Halberdier Virtuoso</span>](#p16)
+    - #### [<span>17</span><span>Handgunners</span>](#p17)
+      - [<span>17</span><span>Handgunner</span>](#p17)
+      - [<span>18</span><span>Handgunner, Silver Bullet</span>](#p18)
+      - [<span>19</span><span>Handgunner, Surefire</span>](#p19)
+    - #### [<span>20</span><span>Spearmen</span>](#p20)
+      - [<span>20</span><span>Spearman</span>](#p20)
+      - [<span>21</span><span>Spearman Sentinel</span>](#p21)
+      - [<span>21</span><span>Spearman Valorguard</span>](#p21)
+    - #### [<span>22</span><span>Swordsmen</span>](#p22)
+      - [<span>22</span><span>Swordsman</span>](#p22)
+      - [<span>23</span><span>Swordsman, Militant</span>](#p23)
+      - [<span>23</span><span>Swordsman, Wolf Warrior</span>](#p23)
+
+<div align="right">
+
+<div style='margin-top:55px;'></div>
+
+</div>
+
+</div>
+
+<img src='https://i.postimg.cc/9Q9Krdwy/Godless-Shrine-5000x.webp' style='position:absolute;bottom:-5px;right:120px;width:800px' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-635px;top:0px;height:1400px;width:1416px;transform:rotate(-270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-600px;top:-740px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Magic Armaments of The Empire
+
+The armories of mighty human empires often hold magical implements of war reserved for lords and heroes of great standing. Some are ancient artifacts from the empire's founding; others are newly forged armaments imbued with eldritch enchantments or divine blessings. Adventurers who perform great service may occasionally earn such items as rewards, or pry them from enemies who looted them from the Empire's armories and fallen heroes.
+
+#### Amber Bow
+*Weapon (Longbow), Very Rare (Requires Attunement), 7,000 gp*
+
+*Carved from the oak of the most ancient forests, this bow was crafted by order of the Amber Druids to slay the unnatural behemoths plaguing their land. It conjures a luminous arrow that glows a faint honey-gold, and when loosed, that golden arrow can fell even the mightiest monstrosities.*
+
+You gain a +2 bonus to attack rolls made with this weapon.
+
+When you take the Attack action on your turn while holding this weapon, you can forgo all your attacks to cast *Amber Spear** (save DC  10 + your Dexterity modifier + the number of attacks forgone). Increase the spell's effective level by 1 for each attack forgone. If only one creature makes a saving throw against the spell and it is a Beast, Monstrosity, Giant, Dragon, or Fey that is Huge or larger, the damage is doubled.
+
+The bow can't be used this way again until the next dawn.
+
+**New spell described at end of section*
+
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+#### Halberd of Power
+*Weapon (Halberd), Very Rare (Requires Attunement), 8,000 gp*
+
+*This polearm was forged from the iron of a meteorite that fell during the celebration of the Empire's founding. Its wielders are said to draw might from the heavenly metal, striking with otherworldly strength.*
+
+While holding this weapon, you know the Overwhelming Attack* and Pushing Attack maneuvers from the Battle Master subclass of the Fighter class. The saving throw DC equals 8 + your Proficiency Bonus + your Strength modifier.
+
+
+The weapon has five Superiority Dice, each a d10. These dice are added to any Superiority Dice you have from another source while you are holding the weapon, and they are used to fuel your maneuvers. A Superiority Die is expended when you use it.
+
+The weapon regains 1d4 + 1 expended Superiority Dice daily at dawn.
+
+While holding the Halberd, you gain a +1 bonus to the saving throw DCs of your maneuvers. 
+
+**New maneuver described at end of section*
+
+#### Hammer of War
+*Weapon (Warhammer), Legendary (Requires Attunement), 50,000 gp*
+
+*Said to be one of the most powerful weapons ever forged, gifted to the mightiest hero of the age. In the hands of a true champion, there are no challenges that cannot be overcome.*
+
+You gain a +3 bonus to attack and damage rolls made with this weapon, which deals Force damage instead of Bludgeoning damage. It deals an extra 2d8 Force damage to any target it hits, or 2d10 if you use both hands to wield it. When you miss with this weapon, you hit instead, except you deal only half damage and the creature suffers no effects other than damage from the attack.
+
+When you score a critical hit with this weapon, you can roll three additional weapon damage dice when determining the extra damage for the critical hit.
+
+
+
+<img
+src='https://imglink.cc/cdn/uk7-if4eM4.jpg'
+style='position:absolute;top:-20px;left:-0px;width:660px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:60px; right:-160px; width:900px; transform:rotate(-20deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:145px; right:160px; width:900px; transform:rotate(-2deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-180px; right:-560px; width:900px; transform:rotate(-90deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-200px; right:-560px; width:900px; transform:rotate(-50deg)' />
+
+
+\pagebreakNum
+
+#### Helm of the Indomitable
+*Helmet, Rare (Requires Attunement), 5,000 gp*
+
+*Decorated with an ornate golden griffon that sits atop the cap with its left talon outstretched. Commanders who don the chapeau have their tenacity magnified to the point where they shrug off death-inducing blows.*
+
+You gain one use of the Indomitable feature from the Fighter class, even if you don't have the feature. You regain this expended use when you finish a Long Rest.
+
+When you use your Indomitable feature or the Shared Resilience feature of the Banneret subclass of the Fighter class, if the effect the creature is making the saving throw against allows a creature to take only half damage on a successful save, the creature instead takes no damage on a successful save and only half damage on a failed save. Additionally, if damage from the effect would reduce a creature to 0 hit points, it drops to 1 hit point instead.
+
+#### Rune Fang
+*Weapon (Longsword), Very Rare (Requires Attunement), 24,000 gp*
+
+*It is said that only twelve of these blades were ever made by one of the greatest dwarf artificers to ever live, and given as gifts to a band of chiefs who united their tribes in solidarity with the mighty dwarven strongholds to push back the advancing hordes that sought to bring down the bastions of these brave folk. Since that time, a number of those tribes have grown into dukedoms and provinces, their lords wielding the etched weapons as a sign of office. Others have been lost as the leaders and their lands were annihilated by invading armies. Such blades are priceless, for no other soul has been able to replicate such masterpieces. The blades are as light as air and able to cut through the thickest steel plate and hardest dragon hide as if they were little more than sheets of paper.*
+
+When you miss with this weapon, you hit instead, except you deal only half damage and the creature suffers no effects other than damage from the attack.
+
+
+**New maneuver described at end of document*
+
+#### Shield of Protection
+*Armor (Shield), Rare (Requires Attunement), 1,500 gp*
+
+*Commissioned by a timorous count for his personal guardian, the shield is able to provide even greater protection to those next to it than to the wielder.*
+
+Whenever you use the Protection Fighting Style to protect a creature while holding this shield, you can add 3 to the target's AC until the end of the current turn.
+
+\columnbreak
+
+#### Silver Horn
+*Wondrous Item (Instrument), Uncommon (Requires Attunement by a Fighter), 1,000 gp*
+
+*Used by commanders to turn the tide of countless battles. When blown, the conviction of the warrior playing the instrument becomes manifest as a roar unlike any other. Allies who hear it, even those who are maimed and beaten, rise to fight with renewed vigor.*
+
+When you use your Second Wind feature, you can blow this horn. If you do, you roll 2d10 instead of 1d10, and you can choose any number of Bloodied creatures within 60 feet of you (which can include you). You can divide the Hit Points you would gain from this feature among them. This feature can't restore a creature to more than half its Hit Point maximum.
+
+#### Spear of the Fates
+*Weapon (Spear), Uncommon (Requires Attunement), 1,000 gp*
+
+*Said to have been fashioned by a mad seer of the fanatical Inquisition whose mind was eroded by thousands of visions of crimes and wrongdoings yet to take place, stretching even to the end of time, which were imprinted onto the weapon. The spear holds that manic foresight within its tip. When pointed at a soul, the spear will hum and shake, recognizing the sins yet to take place and seeking to prevent such events from unfolding.*
+
+At the start of your turn, you can choose to predict the fate of up to three creatures you are aware of within 60 feet of you. When you predict a creature's fate, roll a d6. On a roll of 5 or 6, the creature is marked by the weapon until you next use this property to mark another creature. While marked, whenever you hit the creature with the weapon, it takes an additional 1d8 Piercing damage. If the creature's hit points are 20 or fewer after taking this damage, it is reduced to 0 hit points.
+
+Once you mark a creature, you can't mark that creature again for the next 24 hours. A creature immune to Divination spells can't have its fate predicted.
+
+
+<img
+src='https://imglink.cc/cdn/UM7dq0JoxX.webp'
+style='position:absolute;bottom:-45px;right:0px;width:616px;transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:60px; right:250px; width:900px; transform:rotate(135deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:60px; right:350px; width:900px; transform:rotate(102deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-500px;bottom:100px;height:1050px;width:1416px;transform:rotate(-5deg)' />
+
+\pagebreakNum
+
+#### Laurels of Victory
+*Wondrous Item, Very Rare (Requires Attunement), 12,000 gp*
+
+*These enchanted medals of honor are woven with magic by Imperial Mages and are bestowed by the Emperor upon heroes who have proven their devotion to their lord through their valor. Such a symbol amplifies the presence of the warrior who wears it. Adversaries who look upon such a figure are filled with doubt and are likely to cower and flee should the odds of their victory even be slightly against them.*
+
+You learn the Commanding Presence and Menacing Attack maneuvers from the Battle Master subclass of the Fighter class. The saving throw DC equals 8 + your Proficiency Bonus + your Strength or Dexterity modifier (your choice).
+
+The weapon has five, each a d10. These dice are added to any Superiority Dice you have from another source, and they are used to fuel your maneuvers. A Superiority Die is expended when you use it.
+
+The weapon regains 1d4 + 1 expended Superiority Dice daily at dawn.
+
+Additionally, a creature has disadvantage on saving throws against your Battle Master maneuvers if you have hit it at least twice this turn with a weapon attack.
+
+#### Marvellous Magnifier
+*Wondrous Item, Very Rare (Requires Attunement), 12,000 gp*
+
+*Devised by a fastidious tinker, when one looks through this small monocle and focuses, they are able to see with clarity the most minuscule detail. It was said that no flaw was able to avoid the creator's inspection while wearing such a glass, nor could any target escape his rifle.*
+
+You learn the Survey* and Precision Attack maneuvers from the Battle Master subclass of the Fighter class.
+
+Once per turn, when you use a maneuver, you can roll 1d10 and use the number rolled instead of expending a Superiority Die. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.
+
+**New maneuver described at end of section*
+
+#### Pearl Dagger
+*Weapon (Dagger), Very Rare (Requires Attunement), 8,000 gp*
+
+*Such gleaming and flawless blades are light as a feather. The wielder is able to invoke a fleetness that allows them to strike with deadly speed.*
+
+While you are holding this weapon, you know the Feinting Attack and Lunging Attack maneuvers from the Battle Master subclass of the Fighter class. The saving throw DC equals 8 + your Proficiency Bonus + your Dexterity modifier.
+
+The weapon has five Superiority Dice, each a d10. These dice are added to any Superiority Dice you have from another source while you are holding the weapon, and they are used to fuel your maneuvers. A Superiority Die is expended when you use it.
+
+The weapon regains 1d4 + 1 expended Superiority Dice daily at dawn.
+
+Finally, when you roll a Superiority Die while holding this weapon, you can reroll it, but you must use the new roll.
+
+\columnbreak
+
+#### Repelling Armor
+*Armor (Half Plate), Very Rare (Requires Attunement), 6,500 gp*
+
+*This gilded suit of armor was fashioned as thanks to the empires of man after the great alliance against the forces of Chaos. A potent barrier of translucent force eddies around the wearer, halting all manner of weapons that would strike them.*
+
+Whenever a creature attempts to make a melee attack against you for the first time on a turn, the attacker must make a DC 15 Strength saving throw. On a failed save, it can't attack you with melee attacks until the end of the turn, and it must choose a new target for its attack or the attack is wasted. On a successful save, it can attack you on this turn.
+
+#### Twice-Blessed Armor
+*Armor (Plate), Very Rare (Requires Attunement), 7,000 gp*
+
+*Etched with sacred prayers by two great Grand Theogonists. Those in the burnished shell who are bestowed with its boons will share such mystic bounties with their comrades.*
+
+When another allied creature you can see within 30 feet of you casts a spell of 4th level or lower, such as *Bless* or *Fly*, you can allow the creature to increase the spell's effective level by 1. If it does, you must be one of the spell's targets, or the spell dissipates with no effect and the action, Bonus Action, or Reaction used to cast it is wasted.
+
+<img
+src='https://i.postimg.cc/sx4X8TjZ/5263-rafiq-of-the-many.jpg'
+style='position:absolute;bottom:-40px;left:50px;width:1016px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:70px; right:240px; width:900px; transform:rotate(90deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-500px;top:-275px;height:1050px;width:1416px;transform:rotate(-5deg)' />
+
+\pagebreakNum
+
+
+### New Battle Master Maneuvers
+
+#### Overwhelming Attack
+When you hit a creature with an attack roll using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to overwhelm the target. The target must succeed on a Strength saving throw or take damage equal to three times the number rolled on the Superiority Die. The damage is the same type dealt by the original attack.
+
+#### Survey
+As a Bonus Action, you can expend one Superiority Die to take the Search action. Roll the die and add the number rolled to the ability check.
+
+##### Magic Armaments of The Empire Art Credit
+* Dwarven Hammer - Raoul Vitale, Wizards of the Coast
+* Runesword - Christopher Rush, Wizards of the Coast
+* Rafiq of the Many - Michael Komarck, Wizards of the Coast
+* Shield of the Avatar - Volkan Baǵa, Wizards of the Coast
+
+\columnbreak
+
+### New Spell
+#### Amber Spear
+
+*3rd-level evocation*
+___
+- **Casting Time:** 1 action
+- **Range:** 60 feet
+- **Components:**  V S M (A Piece of Amber)
+- **Duration:**  Instantaneous
+- **Classes:**   Druid, Ranger
+___
+
+You conjure a large amber hunting spear and launch it in a straight line at a point you can see within range. Upon reaching its destination or striking a solid surface, the spear shatters, producing an explosion within a 10-foot-radius sphere centered on that point. The spear can pass through spaces occupied by creatures and objects of large size or smaller. Each creature the spear moves through, as well as those within the explosion's radius, must make a Dexterity saving throw. On a failed save, a creature takes 6d6 piercing damage; on a successful one, the damage is halved.
+
+***At Higher Levels.***  When casting this spell using a 4th-level spell slot or higher, the range increases by 20 feet and the damage by 1d6 for each slot level above 3rd.
+
+<img
+src='https://imglink.cc/cdn/sx1PLJqDNs.webp'
+style='position:absolute;bottom:-0px;left:0px;width:876px' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-500px;top:-340px;height:1050px;width:1416px;transform:rotate(-0deg)' />
+
+\pagebreakNum
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+# Soldiers
+
+## Archers
+*Classic Ranged Soldiers & Marksmen*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+Archers are among the most common type of soldier, with regiments observing the heavens as volleys of arrows streak toward the earth, raining down upon enemy formations.
+
+### Deathjacks
+Though woodland paths and city alleyways may conceal shadowed figures that stride noiselessly through the landscape, few ever notice their presence until arrows spring from the darkness and lodge themselves into the unsuspecting victims.
+
+Such masterful feats are performed by archers known as Deathjacks. These cunning marksmen serve as scouts and assassins for armies, able to approach enemy encampments and regiments without a soul catching wind of their presence. They can even slink into the heart of hostile territory to strike vulnerable targets, then vanish without consequence as they silently retreat, leaving chaos in their wake. As fallen soldiers' comrades search bewilderedly for their murderers, those responsible are already long gone.
+
+#### DeathJacks Tactics
+**Target the least perceptive creature.** The Deathjacks should attack the enemy they believe is least likely to notice them, reducing the chance of being discovered.
+
+**Avoid prolonged engagements.** If they are discovered, the Deathjacks should disengage.
+
+\columnbreak
+
+___
+> ## Archer
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +1 (11)
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +3, Perception +3
+> - **Gear** Chain Shirt, Longbow, Shortsword
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 1/4 (50 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) Piercing damage.
+>
+> ***Longbow.*** *Ranged Weapon Attack:* +3 to hit, range 150/600 ft., one target. *Hit:* 5 (1d8 + 1) Piercing damage.
+
+</span>
+
+##### Archers Art Credit
+* Elite Archers - Greg Staples, Wizards of the Coast
+
+<img src='https://i.postimg.cc/CKkcPn0b/elite-archers.webp' style='position:absolute; top:-0px; right:-00px; width:816px; transform:scaleX(-1)' />
+
+
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-55px;top:91px;height:1400px;width:1416px;transform:rotate(188deg)' />
+
+
+\pagebreakNum
+
+### Order of the Bow
+Some archers view their craft as more than merely the mastery of a deadly weapon. To them, archery is a meditative experience, a pursuit of tranquility in which there is no greater calm than drawing one's bowstring. As the string is pulled taut, the mind becomes free of all burdens, leaving only the archer and their mark. When the arrow is finally loosed, it flies straight and true.
+
+Those who embrace this meditative philosophy often form guilds and monasteries where they hone their techniques alongside like-minded warriors. These organizations are commonly known as the Order of the Bow.
+
+Such sages are forces to be reckoned with. Their mastery allows them to launch projectiles with such precision that even the protections of their enemies offer little refuge. They can pin foes from leagues away, and even those shrouded by foliage, rubble, or debris find little safety from their watchful eyes.
+
+
+
+___
+> ## Archer, Deathjack
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 45 (6d8 + 18)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +4, Perception +6, Stealth +6
+> - **Gear** Chain Shirt, Longbow, Shortsword
+> - **Senses** Blindsight 10 ft., Passive Perception 16
+> - **Languages** Any two languages
+> - **Challenge** 1 (200 XP)   &emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) Piercing damage.
+>
+> ***Sniper Longbow.*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 11 (2d8 + 2) Piercing damage. If the archer makes this attack while hidden, the target must make a DC 14 Wisdom (Perception) check hit or miss. On a failure, the archer doesn't reveal its location.
+>
+> ### Bonus Actions
+>
+> ***Slink.*** The archer takes the Hide action if it took the Disengage action this turn.
+
+</span>
+
+\columnbreak
+
+More impressive still are the archers' abilities when their enemies close the distance. Their aim is so precise that they can place an arrow into the most lethal locations, slipping shafts through the narrowest gaps in armor or striking even the most agile and reflexive of assailants.
+
+#### Order of the Bow Tactics
+**Force enemies out of cover.** When positioned safely behind cover, the archer can pressure enemies into advancing toward them. Enemies may struggle to find a safe position from which to retaliate.
+
+**Pair with melee units.** This archer works particularly well alongside melee units. As enemies advance to close the distance, melee allies can intercept them.
+
+**Maintain a 30-foot distance.** If enemies manage to close in, the archer should prioritize maintaining roughly 30 feet of distance.
+
+**Let melee units protect them.** If an enemy continues closing the gap, melee allies should engage them before they can reach the archers, allowing the archer to continue firing from a safer position.
+
+
+______
+> ## Archer, Order of the Bow
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 60 (8d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +8, Insight +5, Perception +7
+> - **Gear** Chain Shirt, Longbow, Shortsword
+> - **Senses** Passive Perception 17
+> - **Languages** Any two languages
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) Piercing damage.
+>
+> ***Precision Longbow.*** *Ranged Weapon Attack:* +6 to hit (ignores half and three-quarters cover and doesn't suffer disadvantage from attacking at long range), range 150/600 ft., one target. *Hit:* 13 (2d8 + 4) Piercing damage, or 22 (4d8 + 4) Piercing damage if the target is a creature within 30 feet of the archer and there are no hostile creatures within 5 feet of the archer.
+
+</span>
+
+\pagebreakNum
+
+
+
+<br>
+
+## Captains <br> & Generals
+*Experienced Martial Commanders <br> & Military Tactitions*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+It is not enough to merely have a sea of <br> armed warriors united under one cause <br> to fashion an army. Such rabble must <br> be guided to amplify the effectiveness <br> of each soldier so that the whole <br> becomes more than the sum of its parts, <br> with each man-at-arms sorted to where <br> their unique skills will deliver the most <br> potent effect. Overseeing such an <br> undertaking and keeping the masses in <br> unison with one another are the <br> captains. The greatest of these men <br> send out orders to subordinates with as <br> much control as a man might swing his <br> arm to swat a fly. 
+
+<br>
+
+
+\columnbreak
+
+___
+___
+> ## Captain
+> *Medium Humanoid (Any Race), Mini-Boss, Any Alignment*
+> ___
+> - **Armor Class** 17 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +9 (19)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, History +4, Intimidation +5, Perception +5, Persuasion +5
+> - **Gear** Splint, Greatsword, Pistols
+> - **Senses** Passive Perception 15
+> - **Languages** Any two languages
+> - **Challenge** 5 (1,800 XP)  &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Hold the Line! (2/Day).*** While the captain is not Incapacitated, when it or an allied creature within 30 feet of it that can hear it makes a saving throw, that creature and each other allied creature also making the saving throw against the same effect have advantage. If the effect allows a creature to take only half damage on a success, it instead takes no damage on a success and only half damage on a failure. Additionally, if damage from the effect would reduce a creature to 0 hit points, it drops to 1 hit point instead.
+>
+> ### Actions
+>
+> ***Multiattack.*** The captain makes two attacks.
+>
+> ***Versatile Greatsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) Slashing damage. The captain chooses one of the following effects that it has not chosen yet this turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Disrupt.*** Creatures making a concentration save as a result of this damage have disadvantage on the save. Additionally, if the creature attempts to cast a spell of 1st level or higher before the captain's next turn, it must make a *Constitution Saving Throw:* DC 14. On a failure, the spell dissipates with no effect, and the action, Bonus Action, or reaction used to cast it is wasted. If that spell was cast with a spell slot or other resource, the slot or resource isn't expended. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Vex.*** The creature has disadvantage on its next attack roll before the start of the captain's next turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Expose.*** The next attack roll made against this target before the end of the captain's next turn has advantage.
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +6 to hit, range 30/90 ft., one target. *Hit:* 10 (2d6 + 3) Piercing damage. The captain has four pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ***Maneuver Allies (Recharges when Initiative is Rolled).*** The captain and up to six other allies within 60 feet of it that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.
+>
+> ### Bonus Actions
+>
+> ***Battle Command.*** The captain targets one ally it can see within 30 feet of it. If the target can see or hear the captain, the target can use its reaction to move up to half its speed without provoking opportunity attacks. It can then make a single attack.
+
+</span>
+
+<img src='https://i.postimg.cc/SRF3QVbx/commander-mustard.jpg' style='position:absolute; top:-70px; right:-120px; width:760px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:154px;top:-140px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-55px;top:110px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+Such figures of authority rise up from all walks of life to take up this eminent and demanding role. Many are nobility, steeped in martial pursuits from a young age, mastering the art of the blade and tutored in a variety of tactics. Others started out with the rest of the rank and file as common troopers, only to crawl their way up the ladder of command through serving in countless battles, performing acts of valor, and showing an aptitude for promoting loyalty in their companions.
+
+When on the battlefield, such men are as birds taking to the air, deftly maneuvering through the tides of chaos and death, directing regiments through the turbulence to crash against foes where they are most vulnerable. Most leaders fight from the front line, shoulder to shoulder where the conflict is most vigorous, dispatching foes with precision strikes all the while carrying out their duties of directing those around them. 
+
+\columnbreak
+
+Such presence strengthens the allegiances of his allies so they are able to endure even as all hope of victory seems to have slipped away. So powerful is this bond that the inspiring sight of a leader standing his ground when bombarded by all manner of deadly projectiles can be the difference between a battle line breaking or such forces withstanding the punishment.
+
+### Captains and Generals Tactics
+Captains and generals should always be paired with at least six other creatures to reach their full potential. Their tactics depend on allies who bolster them with extra attacks and enable them to reposition those allies where they’re needed most.
+
+#### Captains & Generals Art Credit
+* Commander Mustard  - Jake Murray, Wizards of the Coast
+
+___
+___
+> ## General
+> *Medium Humanoid (Any Race), Mini-Boss, Any Alignment*
+> ___
+> - **Armor Class** 18  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +9 (19)
+> - **Hit Points**  93 (11d8+44)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, History +5, Intimidation +6, Perception +5, Persuasion +6
+> - **Gear** Plate, Greatsword, Pistols
+> - **Senses** Passive Perception 15
+> - **Languages** Any two languages
+> - **Challenge** 7 (2,900 XP)&emsp;&emsp;&emsp;&emsp;&ensp;**Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Hold the Line! (3/Day).*** While the general is not Incapacitated, when it or an allied creature within 30 feet of it that can hear it makes a saving throw, that creature and each other allied creature also making the saving throw against the same effect have advantage. If the effect allows a creature to take only half damage on a success, it instead takes no damage on a success and only half damage on a failure. Additionally, if damage from the effect would reduce a creature to 0 hit points, it drops to 1 hit point instead.
+>
+> ### Actions
+>
+> ***Multiattack.*** The general makes two attacks.
+>
+> ***Versatile Greatsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 18 (4d6 + 4) Slashing damage. The general chooses one of the following effects that it has not chosen yet this turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Disrupt.*** Creatures making a concentration save as a result of this damage have disadvantage on the save. Additionally, if the creature attempts to cast a spell of 1st level or higher before the general's next turn, it must make a *Constitution Saving Throw:* DC 15. On a failure, the spell dissipates with no effect, and the action, Bonus Action, or reaction used to cast it is wasted. If that spell was cast with a spell slot or other resource, the slot or resource isn't expended. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Vex.*** The creature has disadvantage on its next attack roll before the start of the general's next turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Expose.*** The next attack roll made against this target before the end of the general's next turn has advantage.
+>
+> ***Maneuver Allies (Recharges when Initiative is Rolled).*** The general and up to six other allies within 60 feet of it that can hear it can each use their reaction to move up to half their speed without provoking opportunity attacks.
+>
+> ***Pistol.*** *Ranged Weapon Attack:* +6 to hit, range 30/90 ft., one target. *Hit:* 13 (3d6 + 3) Piercing damage. The general has four pistols and can't use a pistol again until it uses its action to load it or replaces an attack that's part of an Attack action to load it.
+>
+> ### Bonus Actions
+>
+> ***Empowered Battle Command.*** The general targets one ally it can see within 30 feet of it. If the target can see or hear the general, the target can use its reaction to move up to half its speed without provoking opportunity attacks. It can then make a single attack. If the attack hits, it deals an extra 7 (2d6) damage.
+
+</span>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Crossbowmen
+*Soldiers Armed With Heavy Ranged Weaponry*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+
+Crossbows are among the most potent ranged weapons, many requiring specialized draw devices to pull back their draw strings. Such meticulous preparation yields high-velocity projectiles that collide with devastating effect.
+
+### Crossbowmen  River Patrol
+Within the murky depths of vast river bends, slime-covered lids slide back to reveal hungry eyes fixed on the silhouettes moving atop the glimmering surface above. Such shadows are cast by merchant ships laden with opulence, their curved metal and crystalline faces catching the light. Adding to the temptation are the merchants and sailors scrambling across the decks: soft creatures bearing no talons, horns, or thick scales to protect the wealth upon their persons.
+
+Such vessels are beacons to the waterway's inhabitants, who gather in great schools to hollow out the bounty aboard, webbed claws and slithering tentacles hauling them up the hulls to tear through the stores within, before returning to their aquatic lairs with gem, metal, and bone clutched in viscous appendages to bury in the mud below.
+
+This would be the outcome if not for the River Patrol, which keeps watch over such vessels and unleashes its wrath upon any wretches that rise with intent to plunder. Bolts greet the snarling maws of muculent forms breaching the waves, shafts piercing rubbery skin and splitting cartilage, sending lifeless corpses drifting back into the abyss trailing dark ichor. When the amphibious marauders grow numerous enough to weather the barrage, any beast fortunate enough to haul itself free of the water finds its entrance greeted by a steel-toed boot crashing against its unctuous form, sending it hurtling back into the depths, usually with a fresh iron-tipped bolt not far behind.
+
+
+\columnbreak
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Crossbowman
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +1 (11)
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +3, Perception +3
+> - **Gear** Chain Shirt, Heavy Crossbow, Shortsword
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 1/4 (50 XP)  &emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) Piercing damage.
+>
+> ***Heavy Crossbow.*** *Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:* 6 (1d10 + 1) Piercing damage.
+
+</span>
+
+#### River Patrol Tactics
+
+Crossbowmen River Patrol excel at fighting on docks and ships. They use their kick to push targets into the water and keep them there.
+
+##### Crossbowmen Art Credit
+* Clear Shot - Craig J Spearing, Wizards of the Coast
+
+<img src='https://i.postimg.cc/FFghkH8G/clear-shot.jpg' style='position:absolute; top:-97px; right:-00px; width:820px; transform:scaleX(-1)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:77px;height:1400px;width:1416px;transform:rotate(197deg)' />
+
+   <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-167px;top:90px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+
+
+\pagebreakNum
+
+### Crossbowmen Bulwark
+Among the most dangerous warriors to bear bolt-launching implements are those who use the weapon in tandem with massive, towering shields known as pavises: sheets of wood adhered together, covered in leather and canvas, reaching nearly the height of the wielder and covering the whole of the user's body. The warrior is able to move forward as enemy fire falls in vain, arrows and enemy bolts sticking into the handheld wall. Once close enough to the desired quarry, the marksman drives the shield into the ground, a great spike at the bottom being driven deep into the earth, turning the pavise into a full-fledged barricade. From behind the cover of this makeshift rampart, these warriors draw forth and load massive crossbows.
+
+\columnbreak
+
+They only peer out from above the crest, using the shield to steady the massive contraption as they take aim and smite oncoming combatants. The men who implement such tactics are known as Bulwarks and have changed the course of wars; many mercenary groups and armies possess them, forever carving their names into history.
+
+#### Bulwark Tactics
+Bulwarks work well alongside other melee fighters to keep foes occupied. They try to hold their position, forcing enemies to close the distance. If an enemy reaches melee range, the Bulwark uses the Dodge action to retreat. When multiple Bulwarks fight together, they should scatter so opponents must chase one while the others fire from range.
+
+
+
+___
+___
+> ## Crossbowman River Patrol
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 15 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +2 (12)
+> - **Hit Points** 45 (6d8 + 18)
+> - **Speed** 30 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +4, Athletics +3, Perception +6
+> - **Gear** Chain Shirt, Heavy Crossbow, Shortsword
+> - **Senses** Blindsight 10 ft., Passive Perception 16
+> - **Languages** Any two languages
+> - **Challenge** 1 (200 XP)   &emsp;&emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) Piercing damage.
+>
+> ***Suppressing Heavy Crossbow.*** *Ranged Weapon Attack:* +4 to hit (advantage if the target is a creature in water and the crossbowman is out of water), range 150/600 ft., one target. *Hit:* 11 (2d10 + 2) Piercing damage and the target's speed is reduced by 10 until the end of its next turn.
+>
+> ### Bonus Actions
+>
+> ***Kick.*** The crossbowman takes the Shove action.
+
+</span>
+
+
+
+___
+___
+> ## Crossbowman Bulwark
+> *Medium Humanoid (Any Race),  Party, Any Alignment*
+> ___
+> - **Armor Class** 16   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +4 (14)
+> - **Hit Points** 60 (8d8 + 24)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +7, Perception +5
+> - **Gear** Heavy Crossbow, Longsword, Scale Mail
+> - **Senses** Passive Perception 15
+> - **Languages** Any two languages
+> - **Challenge** 2 (450 XP)    &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Pavise Shield.*** While the crossbowman is not Incapacitated, Grappled, Restrained, or Prone, it has three-quarters cover from any attack or effect originating from more than 5 feet away from it. If the crossbowman takes any action other than the Dodge action, it loses this benefit until the start of its next turn.
+>
+> ### Actions
+>
+> ***Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 14 (2d10 + 3) Slashing damage.
+>
+> ***Precision Heavy Crossbow.*** *Ranged Weapon Attack:* +6 to hit, range 100/400 ft., one target. *Hit:* 14 (2d10 + 4) Piercing damage, or 26 (4d10 + 4) Piercing damage if the target is a creature within 30 feet of the crossbowman and there are no hostile creatures within 5 feet of the crossbowman.
+>
+> ### Bonus Actions
+>
+> ***Plant Shield.*** If the crossbowman hasn't moved this turn, its speed is reduced to 0 and it gains advantage on its next ranged attack roll this turn. It does not lose the benefits of its Pavise Shield if it takes the Attack action.
+
+</span>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Greatswordsmen
+*Elite Soldiers Wielding*<br>
+*Mighty Two-Handed Swords*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+
+Greatswords are mighty weapons, typically <br> wielded only by elite infantry. These soldiers <br> engage the deadliest and toughest foes, using <br> their heavy weapons to cleave through enemies' <br> defenses. They eschew shields, relying instead on <br> the overwhelming power of their greatswords to cut <br> down their opponents before they can counterattack.
+
+
+___
+> ## Greatswordsman
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 19 (3d8+6)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">11</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Perception +2
+> - **Gear** Greatsword, Ring mail
+> - **Senses** Passive Perception 12
+> - **Languages** Any two languages
+> - **Challenge** 1/2 (50 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Greatsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) Slashing damage.
+
+</span>
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Greatswordsmen Art Credit
+* Soldier Token - Paolo Parente, Wizards of the Coast
+* Benalish Veteran - Steven Belledin, Wizards of the Coast
+
+
+<img src='https://i.postimg.cc/W4LYk0bY/soldier-token.webp' style='position:absolute; top:-243px; right:-170px; width:930px; transform: scaleX(-1)' />
+
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:40px;top:0px;height:1400px;width:1416px;transform:rotate(240deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:180px;top:-940px;height:1400px;width:1416px;transform:rotate(290deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-230px;top:515px;height:1400px;width:1416px;transform:rotate(160deg)' />
+
+
+\pagebreakNum
+
+### Doppelsöldner
+The mightiest of soldiers grip swords nearly the length of a full-grown man, with massive blades of steel. They station themselves at the head of the army to barrel into the front of enemy formations, clearing a path so their allies can plunge into the foes and strike. Those who have refined this technique are known as Doppelsöldner, or “Double-Paid,” as the skill required and the hazardous nature of their role mean commanders must pay a hefty sum to acquire such fighters.
+
+
+#### Doppelsöldner Tactics
+Doppelsöldner can be used to protect against high-reach attacks such as polearms and *Thorn Whip*. They can also lock down mobile targets like rogues and monks.
+
+
+### Crimson Greatswordsmen
+The Crimson Greatswordsmen are a rare breed that possess a particularly potent lust for violence. They have gained their grisly title from the fact that once their blades cut deep, crimson coats both the swordsman and his adversaries. As fever seizes the gore-caked soldier, they sweep their massive blade with ever-growing power, and a vehemence courses through every fiber of their being, allowing body and mind to withstand the most brutal punishments.
+
+#### Crimson Greatswordsmen Tactics
+
+Crimson Greatswordsmen should prioritize the lowest-AC target to trigger Bathed in Blood.
+
+___
+> ## Greatswordsman Doppelsöldner
+> *Medium Humanoid (Any Race), Party, Any Alignment*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 58 (9d8 + 18)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Perception +3
+> - **Gear** Chain Shirt, Greatsword
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Pole Arm Defence.*** While the greatswordsman is not Incapacitated, any melee attack made from more than 5 feet away against the greatswordsman or one of its allies within 5 feet of it has disadvantage. Additionally, any enemies within 5 feet of the greatswordsman have disadvantage on melee attack rolls made against targets more than 5 feet away.
+>
+> ### Actions
+>
+> ***Exposing Greatsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 12 (3d6 + 2) Slashing damage and the target is Exposed until the start of the greatswordsman's next turn. While Exposed, the target can't gain the benefit of the Dodge or Disengage actions and opportunity attacks have advantage against it.
+>
+> ### Bonus Actions
+>
+> ***Tactical Charge.*** The greatswordsman moves up to half its Speed straight toward an enemy it can see without provoking opportunity attacks.
+>
+> ### Reactions
+>
+> ***Guardian.*** *Trigger:* A creature within 5 feet of the greatswordsman takes the Disengage action or hits a target other than the greatswordsman with an attack. <br>
+> *Response:* The greatswordsman can make an opportunity attack against that creature.
+
+</span>
+
+<img src='https://imglink.cc/cdn/Vvt1JNpzsW.jpg' style='position:absolute; bottom:0px; left:-100px; width:700px; transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-280px;top:-493px;height:1400px;width:1416px;transform:rotate(3deg)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+style='position:absolute;right:-780px;top:-93px;height:1400px;width:1416px;transform:rotate(90deg)' />
+
+
+\pagebreakNum
+
+
+___
+> ## Crimson Greatswordsman
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 52 (8d8 + 16)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Perception +3
+> - **Gear** Chain Shirt, Greatsword
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 2 (450 XP)    &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Bloody Resolve.*** The greatswordsman has advantage on saving throws while it is Bathed in Blood.
+>
+> ### Actions
+>
+> ***Bloody Greatsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) Slashing damage, or 24 (6d6 + 3) Slashing damage if the greatswordsman is Bathed in Blood. If the attack dealt 10 or more damage to the creature during combat, it becomes Bathed in Blood for the rest of combat.
+
+</span>
+
+
+
+### Greatswordsmen Reavers
+Late at night in boisterous taverns, countless tales are told that grow more grandiose with every retelling from one loquacious bard to the next. A common thread in these vainglorious stories is the heroes and dogs of war who wield colossal blades against ogres, manticores, and other remorseless brutes. The valiant figure charges forward and brings down their steel, slicing the monster cleanly in two as its halves topple. Such fables are mocked or enjoyed as pure entertainment, since no ordinary mortal could ever achieve such a feat.
+
+#### Greatswordsmen Reavers Tactics
+Greatswordsmen Reavers prefer low-AC targets. They can also use their charge to reach the back line or targets with low Strength.
+
+
+___
+> ## Greatswordsman Reaver
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +6 (16)
+> - **Hit Points** 67 (9d8 + 27)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">20</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +9, Perception +4
+> - **Gear** Greatsword, Scale Mail
+> - **Senses** Passive Perception 14
+> - **Languages** Any two languages
+> - **Challenge** 4 (1,100 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Bloody Resolve.*** The greatswordsman has advantage on saving throws while it is Bathed in Blood.
+>
+> ***Pole Arm Defence.*** While the greatswordsman is not Incapacitated, any melee attack made from more than 5 feet away against the greatswordsman or one of its allies within 5 feet of it has disadvantage. Additionally, any enemies within 5 feet of the greatswordsman have disadvantage on melee attack rolls made against targets more than 5 feet away.
+>
+> ### Actions
+>
+> ***Bloody Hewing Greatsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15 (3d6 + 5) Slashing damage, or 26 (6d6 + 5) Slashing damage if the greatswordsman is Bathed in Blood. If the attack dealt 10 or more damage to the creature during combat, the greatswordsman becomes Bathed in Blood for the rest of combat. The target must then succeed on a *Strength Saving Throw:* DC 15. <br>
+> *Failure:* The greatswordsman automatically hits the target with another Bloody Hewing Greatsword attack as part of this action. The greatswordsman can only make one extra attack this way. <br>
+> *Failure by 10+:* The extra attack is a critical hit.
+>
+> ### Bonus Actions
+>
+> ***Tactical Charge.*** The greatswordsman moves up to half its Speed straight toward an enemy it can see without provoking opportunity attacks.
+
+</span>
+
+\pagebreakNum
+
+<br><br>
+
+## Halberdiers
+*Grim Soldiers Wielding Heavy Polearms*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+
+Halberdiers are soldiers armed with <br> axe-like polearms. They are generally<br> used to guard other troops against cavalry<br> and heavily armored opponents.
+
+### Halberdier Mariners
+
+Many river boats run the breadth of the land, <br> transporting people and vital goods along their <br> treacherous waterways. Such vital lifelines are <br> prime targets for any who would wish to cripple <br> the towns and cities along their banks. These <br> rivers are also home to all manner of lurking <br> aquatic nightmares, whose appetites may cause <br> such creatures to see these vessels as nothing <br> more than floating banquets.
+
+To repel such raiders, many halberdier mariners <br> are hired to join their river-bound crews. A boisterous <br> lot, who, despite their uncouth bearing, are potent warriors when violence rears its head. Adept at fighting atop decks or even amid the rapids of rivers, they strike out against any pirate or beast that would attempt to board their barges.
+Such men-at-arms are said to possess robust courage, fueled by a steady stream of strong brew. These intoxicated ruffians will charge fierce and true against whatever rises from the depths.
+ 
+  
+#### Halberdier Mariner Tactics        
+Mariners will take a swig when they start combat. They will also take a swig whenever they lose the Emboldened condition, or if they are attacking a target against which they would already have advantage.
+
+### Halberdier Virtuosos
+Novices in the trade of battle look upon halberds as just axes with extended reach, failing to see the vast variety of death such versatile weapons may deliver to their opponents when guided by the hands of a true artisan of combat. The hooked blade may be sent swiftly around a passing cavalryman's armor-covered legs, and with a pull, pluck the rider from their saddle. The crowning steel spike atop the halberd is pointed forward and thrust with precision, sliding between steel plates to strike with little opposition and sink deep.
+
+Blunt knobs of metal on the back of the polearm come crashing down like hail into helmets and chest plates, causing such protective shells to reverberate and bash against their wearers with such force that they leave them gasping and disoriented.
+
+A true master’s use of the weapon has become so ingrained that each of these maneuvers is second nature. A slight rotation of the halberd is made, and the weapon is lunged back toward the target, with deadly protrusions hurtling forward, ready to bash, tear, or puncture.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Halberdier
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +1 (11)
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">13</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">11</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +3, Perception +2
+> - **Gear** Chain Shirt, Halberd
+> - **Senses** Passive Perception 12
+> - **Languages** Any two languages
+> - **Challenge** 1/4 (50 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Halberd.*** *Melee Weapon Attack:* +3 to hit, reach 10 ft., one target. *Hit:* 6 (1d10 + 1) Slashing damage.
+
+</span>
+
+#### Halberdier Virtuoso Tactics
+The Virtuoso uses the following strikes in these situations:
+
+**Hook:** Used most of the time to give allies advantage on attacks and prevent targets from escaping, unless the creature has high Strength.
+
+**Bash:** Used as a secondary option to keep targets from performing actions. It can also be used against spellcasters.
+
+**Bypass:** Used when the target is already Prone or Dazed, and has low Dexterity.
+
+<img src='https://i.postimg.cc/WtL5zFH9/wojek-halberdiers.jpg' style='position:absolute; top:-0px; right:-100px; width:660px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-55px;top:0px;height:1400px;width:1416px;transform:rotate(245deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:164px;top:-140px;height:1400px;width:1416px;transform:rotate(270deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-55px;top:110px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+
+
+> ##### New Condition: Emboldened  
+> * The Emboldened condition always lasts one minute.
+> * An Emboldened creature deals additional 7 (2d6) damage when it hits with a attack.
+> * At the end of the creature's turn, the Emboldened condition ends early if it missed with all of its attacks that turn, it is charmed or frightened, or is effected by *calm emotions* spell. 
+
+\columnbreak
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<br>
+
+##### Halberdiers Art Credit
+* Wojek Halberdiers - Nic Klein, Wizards of the Coast
+___
+___
+> ## Halberdier Mariner
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 45 (6d8 + 18)
+> - **Speed** 30 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Perception +3
+> - **Gear** Chain Shirt, Halberd
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Halberd.*** *Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) Slashing damage.
+>
+> ### Bonus Actions
+>
+> ***Swig (3/Day).*** The halberdier takes a swig of its drink. It takes 5 (2d4) Poison damage, gains advantage on all melee weapon attacks during the turn, and attack rolls against it have advantage until the start of its next turn. It also ends any effect causing it to be Charmed or Frightened, and becomes Emboldened*.
+> 
+> **New condition described above*
+
+
+</span>
+
+
+
+
+___
+___
+> ## Halberdier Virtuoso
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 17  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft., Swim 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+6</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, Perception +4
+> - **Gear** Splint, Halberd 
+> - **Senses** Passive Perception 14
+> - **Languages** Any two languages
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Versatile Halberd.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. The halberdier chooses one of the following effects that it has not chosen yet this turn. <br>
+>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Hook.*** The target takes 15 (2d10 + 4) Slashing damage and must make a *Strength Saving Throw:* DC 14. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure:* The target is knocked Prone and pulled 5 feet closer to the Halberdier. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure by 5+:* The target can't stand up until the end of its next turn unless it uses all of its movement. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Bash.*** The target takes 15 (2d10 + 4) Bludgeoning damage and must make a *Constitution Saving Throw:* DC 14. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure:* The target is Dazed* until the start of the Halberdier's next turn. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure by 5+:* While Dazed, the creature can't cast spells other than cantrips and can't concentrate. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;***Bypass.*** The target takes 15 (2d10 + 4) Piercing damage and must make a *Dexterity Saving Throw:* DC 14. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure:* The target takes 11 (2d10) Piercing damage. <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;*Failure by 5+:* The target takes 16 (3d10) Piercing damage instead.
+>
+> ### Bonus Actions
+>
+> 
+> **New condition described above*
+
+</span>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Handgunners
+*Soldiers Armed With Devastating Blackpowder Muskets*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+
+Few regiments can cause as much devastation as those armed with black-powder muskets. Though they have a slower rate of fire than a traditional bow and arrow, the lead round they launch delivers destruction that more than makes up for their lack of speed.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+##### Handgunners Art Credit
+* Alaborn Musketeer - Heather Hudson, Wizards of the Coast
+* DMG 5.5 Firearms & Explosives -  Chris Seaman, Wizards of the Coast
+
+
+___
+___
+> ## Handgunner
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +1 (11)
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +3, Perception +3
+> - **Gear** Chain Shirt, Musket, Shortsword
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 1/2 (100 XP)   &emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Musket.*** *Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:* 14 (3d8 + 1) Piercing damage. The handgunner can't use this attack again until it reloads the weapon as an action.
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) Piercing damage.
+
+</span>
+
+
+
+<img src='https://i.ibb.co/DVwk5ps/alaborn-musketeer.png' style='position:absolute; top:-0px; right:-80px; width:900px; transform:scaleX(-1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-55px;top:150px;height:1400px;width:1416px;transform:rotate(188deg)' />
+
+
+\pagebreakNum
+
+### Silver Bullets
+
+There are evils that enter the realm of men at the witching hour with only the sickly light of the moon to outline their misshapen forms, drawn to the warmth of living to feed their endless hunger. Such demons, spirits, and unholy beasts rampage across the gloom-shrouded realm without fear of any repercussion, for these otherworldly nightmares are not so easily purged from the mortal world. Even the most injurious blows do little to slow such monsters as they continue to shamble or drift forward, undeterred.
+
+However, such foul resilience languishes when these creatures are struck by the hallowed weaponry forged by those who have devoted themselves to the eradication of the unnatural. Few of these blessed weapons are able to bring as much ruin to these dreadful spawn as a silver bullet fired from a rifle by one whose heart is seeded with riotous fury.
+
+Whereas a normal piece of ammunition may wedge itself in a horrid creature’s mass of rotting flesh with minimal or no effect (or, in the case of an apparition, pass through its vaporous form ineffectively), such holy ordnance is not so easily neglected by the wicked. Ghouls and zombies scream as they are released from their painful existence, white embers cleansing their defiled flesh while their scorched limbs crumble away like ashen twigs in a bonfire. Spectres and wraiths howl with awe and terror as the gleaming bullet floats suspended within their ethereal figures, lighting them ablaze as if the spirits were made of lantern oil.
+
+<br>
+
+
+> ##### New Condition: Burning
+> The creature has been set ablaze by something that continues to damage it each round until it is extinguished. The default source described here is fire, but other sources could deal different types of damage, such as acid.
+> * **Default Damage:** A burning creature takes 1d4 fire damage at the end of each of its turns unless the source that inflicted the condition states otherwise.
+> * **Ending the Condition:** As an action, the burning creature can extinguish the fire by dropping prone and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated. For example, another creature could use an action to put out the flames with their cloak or by pouring water on them.
+> * **Multiple Sources of Burning:** If a burning creature would gain this condition again from another source, the new burning effect only replaces the old if it deals more damage each round. Otherwise, it is ignored.
+
+___
+> ## Handgunner, Silver Bullet
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 45 (7d8 + 14)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +4, Perception +4, Religion +4, Stealth +4
+> - **Gear** Chain Shirt, Musket, Shortsword
+> - **Senses** Passive Perception 14
+> - **Languages** Any two languages
+> - **Challenge** 1 (200 XP)    &emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Fanatical Devotion.*** The handgunner has advantage on saving throws against being Charmed or Frightened.
+>
+> ### Actions
+>
+> ***Silver Bullet Musket.*** *Ranged Weapon Attack:* +4 to hit (advantage if the target is Undead or a Fiend), range 100/400 ft., one target. *Hit:* 24 (5d8 + 2) Radiant damage and the target gains the Burning* condition, taking 5 (1d10) Radiant damage at the end of each of its turns until the condition ends. The handgunner can't use this attack again until it reloads the weapon as an action.
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) Piercing damage.
+> 
+> **New condition described on same page*
+
+</span>
+
+
+\pagebreakNum
+
+### Surefires
+There are eldritch woodlands where the rays of the sun are warded away by a canopy woven of twisted branches. No path can be carved, for any trail is ardently reclaimed by the surrounding wilderness, whipped away by a tide of foliage. In this primeval domain, it is the beastmen that stalk beneath the murky canopy and rule with impunity. Few travellers are able to enter such abomination-infested undergrowth without being dragged into the shadows and torn to pieces.
+
+Riflemen known as the Surefires are among the few who are able to contest this ground through the application of masterful training and firearms of the highest quality. Whereas most marksmen, wading through the thicket, make easy prey for hungering savages crouched among the brush, only to spring forth and rob the unsuspecting soldier of any edge his weapon might bestow, Surefires are not cut down by such ambushes. 
+
+Close quarters do not dampen these riflemen’s deadly talents. They are able to sidestep such bloodthirsty charges, press the muzzle of their firearm against the slavering jaw or barrel chest of their primitive attacker, with a pull of a trigger. The blast sends their tactless assailant hurtling backward reduced to a heap of scattered, viscous chunks scattered among the vegetation.
+
+
+
+#### Surefire’s Tactics
+Surefires choose one of the following three tactics based on the situation:
+* **Safe Range:** When enemies cannot reach them, the Surefire fires and uses its bonus action to quickly reload, maximizing damage output each turn from a safe distance.
+* **Closing Enemies:** When opponents are approaching, or about to close the distance, the Surefire takes whatever cover is available to hide, then attacks with advantage for extra damage.
+* **Cornered:** When an opponent has it cornered with no place to hide, the Surefire uses Barrel to the Face to gain advantage followed by Rapid Reload.
+
+
+
+
+___
+> ## Handgunner, Surefire
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +5 (15)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Acrobatics +5, Athletics +3, Perception +7, Stealth +5, Survival +7
+> - **Gear** Chain Shirt, Musket, Shortsword
+> - **Senses** Passive Perception 17
+> - **Languages** Any two languages
+> - **Challenge** 3 (700 XP)   &emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Barrel to the Face.*** At the start of its turn, the handgunner can gain advantage on all ranged weapon attack rolls it makes against targets within 5 feet of it during that turn, but attack rolls against it have advantage until the start of its next turn.
+>
+> ***Charge Defense.*** If a creature moved 10 or more feet straight toward the handgunner immediately before making an attack against it while the handgunner is not Incapacitated, Prone, Grappled, or Restrained, the attack has disadvantage. The handgunner has Resistance to any damage dealt by the attack and advantage on any saving throws it is forced to make by the attack.
+>
+> ### Actions
+>
+> ***Bull's Eye Musket.*** *Ranged Weapon Attack:* +5 to hit, range 100/400 ft., one target. *Hit:* 25 (5d8 + 3) Piercing damage, or 39 (8d8 + 3) Piercing damage if the attack had advantage. A hostile creature within 5 feet of the handgunner doesn't impose disadvantage on this attack, and it ignores half cover and three-quarters cover against targets within 30 feet of it. The handgunner can't use this attack again until it reloads the weapon as an action.
+>
+> ***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) Piercing damage.
+>
+> ### Bonus Actions
+>
+> ***Rapid Reload.*** The handgunner reloads a weapon.
+>
+> ***Vanish.*** The handgunner takes the Hide action.
+
+</span>
+
+<img
+src='https://i.postimg.cc/HsnQX5KY/02-012-troll-v-firearms-e1748494476630.jpg'
+style='position:absolute;bottom:-77px;left:-330px;width:940px;transform: scaleX(1)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:-240px;bottom:-56px; transform:rotate(3deg)' />
+
+<img 
+  src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;left:310px;bottom:-300px; transform:rotate(90deg)' />
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Spearmen
+*Loyal Guards & Foot Soldiers*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+Spearmen are among the most common soldiers found standing watch over villages and making up the bulk of an imperial army. They grip a polearm in one hand and a shield in the other.
+
+### Spearmen Sentinels
+Those spearmen most skilled at keeping watch and intercepting foes who try to bypass them and strike at other vulnerable targets are known as Sentinels. Many serve as security for nobles and other figures of high standing. In war they are charged with ensuring that artillery crews or spellcasters are not disrupted by enemy forces.
+
+### Spearmen Valorguard
+There are few regiments of foot troops that pose a greater threat to cavalry than the Valorguard. These specialized warriors have been trained to brace against the most powerful charging opponents and break their momentum. Greater still is the iron will of such masters: those behind their barricade of steel and determination are filled with courage and will not falter even as the most hideous of foes barrel toward them.
+
+It is said that when a great invasion of beastmen emerged from the deep woods to consume the city of Soithune, it was a group of these warriors who formed a living wall between the rest of Soithune’s army and the herd of minotaurs at the head of the savage force. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Spearman
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 16   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **Initiative** +1 (11)
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">13</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">11</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +3, Perception +2
+> - **Gear** Spear, Chain Shirt, Shield
+> - **Senses** Passive Perception 12
+> - **Languages** Any two languages
+> - **Challenge** 1/4 (50 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) Piercing damage.
+
+#### Spearmen Art Credit
+* Loyal Cathar - Ryan Pancoast, Wizards of the Coast
+
+</span>
+
+<img src='https://i.postimg.cc/cCJfDv1z/loyal-cathar.png' style='position:absolute; top:-10px; right:0px; width:819px;transform:scaleX(1)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-436px;top:263px;height:1400px;width:1416px;transform:rotate(199deg)' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-436px;top:223px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+The demonic bulls, who had trampled every soldier they had encountered before, faltered when they crashed into the shields and spears of the stalwart men. The monsters staggered as metal heads drove deep into their flesh and stumbled in confusion as the soldiers still lived and stood firm. Seeing this, the spearmen’s allies surged over the bewildered savages, made short work of the brutes, and laid waste to the rest of the foul horde.
+
+
+
+\columnbreak
+
+### Spearmen Tactics
+Spearmen Sentinels and Spearmen Valorguards perform best when they place themselves between opponents and more vulnerable ranged targets, using their halting strikes to keep enemies from advancing.
+
+___
+___
+> ## Spearman Sentinel
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 17  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 45 (7d8 + 14)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Perception +6
+> - **Gear** Spear, Chain Shirt, Shield
+> - **Senses** Passive Perception 16
+> - **Languages** Any two languages
+> - **Challenge** 1 (200 XP)  &emsp;&emsp;&emsp;&emsp;    **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Halting Spear.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 8 (2d6 + 2) Piercing damage. If the attack was an opportunity attack, the creature's speed becomes 0 until the end of the turn.
+>
+> ### Reactions
+>
+> ***Guardian.*** *Trigger:* A creature within 5 feet of the spearman takes the Disengage action or hits a target other than the spearman with an attack. <br>
+> *Response:* The spearman can make an opportunity attack against that creature.
+
+</span>
+
+
+
+___
+___
+> ## Spearman Valorguard
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 18  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +5 (15)
+> - **Hit Points** 52 (8d8 + 16)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Perception +6
+> - **Gear** Spear, Scale Mail, Shield
+> - **Senses** Passive Perception 16
+> - **Languages** Any two languages
+> - **Challenge** 3 (700 XP)    &emsp;&emsp;&emsp;&emsp;&ensp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Charge Defense.*** If a creature moved 10 or more feet straight toward the Spearman immediately before making an attack against it while the Spearman is not Incapacitated, Prone, Grappled, or Restrained, the attack has disadvantage. The Spearman has Resistance to any damage dealt by the attack and advantage on any saving throws it is forced to make by the attack.
+>
+> ***Inspiring Presence.*** The Spearman emits an aura in a 10-foot emanation from itself while not Incapacitated. The Spearman and each allied creature in the aura have advantage on Wisdom saving throws.
+>
+> ### Actions
+>
+> ***Halting Spear.*** *Melee or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 14 (3d6 + 4) Piercing damage. If the attack was an opportunity attack, the creature's speed becomes 0 until the end of the turn.
+>
+> ### Reactions
+>
+> ***Guardian.*** *Trigger:* A creature within 5 feet of the spearman takes the Disengage action or hits a target other than the spearman with an attack. <br>
+> *Response:* The spearman can make an opportunity attack against that creature.
+>
+> ***Charge Reflection.*** *Trigger:* A creature within 5 feet of the spearman moved 10 or more feet straight toward it immediately before making an attack against it. <br>
+> *Response:* The spearman can make an opportunity attack against that creature with advantage.
+
+</span>
+
+\pagebreakNum
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Swordsmen
+*Frontline Soldiers & Warrior Duelists*<br>
+**Habitat:** Urban; **Treasure:** Armaments <br>
+Swordsmen go into battle with blade and shield in hand. Such warriors hold the front lines effectively, keeping enemy opponents at bay while polearms and arrows finish off those locked in place.
+
+### Militants
+Militants stride forth to bring about divine justice. These men have pledged themselves to a god or holy mission and serve with fervent devotion. Though they possess no divine magic like paladins or clerics, their faith gives them the courage to stand against even the most disturbing and powerful foes without succumbing to the fear that would seize the hearts of those who lack such resolve. These fanatical followers also fight with forthright ferocity, rushing headlong into combat and striking without regard for their own well-being. Their only purpose is the greater cause they serve, even if that cause demands their death.
+
+#### Militant Tactics
+Militants use their Frenzied Longsword under the following circumstances:
+* If the opponent would already have advantage on attacks against the Militant.
+* To draw an opponent’s focus onto the Militant. This is especially effective when another Militant is near death. The opponent must then choose whether to finish off the wounded Militant (and take a large amount of damage) or leave the wounded Militant alive, allowing it to keep fighting while the opponent is forced to deal with the vulnerable Militant.
+
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+___
+> ## Swordsman
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +1 (11)
+> - **Hit Points** 11 (2d8 + 2)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">13</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">11</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +3, Perception +2
+> - **Gear** Longsword, Chain Shirt, Shield
+> - **Senses** Passive Perception 12
+> - **Languages** Any two languages
+> - **Challenge** 1/4 (50 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Longsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) Slashing damage.
+
+</span>
+
+##### Swordsmen Art Credit
+* Captain's Call - Greg Staples, Wizards of the Coast
+
+<img src='https://i.postimg.cc/hjF2P1Hj/m13-9-captain-s-call.jpg' style='position:absolute; top:-25px; right:0px; width:817px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-474px;top:166px;height:1400px;width:1416px;transform:rotate(192deg)' />
+
+\pagebreakNum
+
+
+### Wolf Warriors
+Rare are the Wolf Warriors, devoted to the White Wolf, god of winter and war. These regiments drape themselves in pelts of alabaster fur over battered and worn armor. They grip blades engraved with savage beasts upon brass hilts, and emblems of snarling wolves mark their shields. When loosed upon the fields of war, these men emulate the hunting techniques of primal canids, working in savage unity to bring down their foes.
+Most infamous is the moment these regiments join together and unleash a chorus of hunting war-cries akin to the howls of wild lupines. 
+
+\columnbreak
+
+<br>
+
+Delivered with such devotion and doggedness, the cries often cause foes to turn tail and retreat before ever locking weapons with the daunting pack of soldiers.
+
+
+#### Wolf Warrior Tactics
+Wolf Warriors use the same tactics as Militants, except they use their Frenzied Longsword in combination with Battle Howl. The disadvantage from being Frightened cancels out the advantage granted by their attack. It is also important for them to keep other allies alive so that their Pack Tactics feature remains active.
+
+___
+___
+> ## Swordsman, Militant
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 45 (7d8 + 14)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +4, Perception +3
+> - **Gear** Longsword, Chain Shirt, Shield
+> - **Senses** Passive Perception 13
+> - **Languages** Any two languages
+> - **Challenge** 1 (200 XP)    &emsp;&emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Fanatical Devotion.*** The swordsman has advantage on saving throws against being Charmed or Frightened.
+>
+> ### Actions
+>
+> ***Longsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 11 (2d8 + 2) Slashing damage.
+>
+> ***Frenzied Longsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 20 (4d8 + 2) Slashing damage. Hit or miss, attack rolls against the swordsman have advantage until the start of its next turn.
+
+</span>
+
+
+___
+___
+> ## Swordsman, Wolf Warrior
+> *Medium Humanoid (Any Race), Mob, Any Alignment*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 52 (8d8 + 16)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td><td></td>
+> <td colspan="2"></td><td><font size="-2">MOD</font></td><td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">14</td><td style="background-color:#e0e5c1; text-align:center">+2</td><td style="background-color:#e0e5c1; text-align:center">+2</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td style="background-color:#e0e5c1; text-align:center">+0</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">12</td><td style="background-color:#e0e5c1; text-align:center">+1</td><td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +5, Intimidation +4, Perception +5, Stealth +4
+> - **Gear** Longsword, Chain Shirt, Shield
+> - **Senses** Passive Perception 15
+> - **Languages** Any two languages
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Fanatical Devotion.*** The swordsman has advantage on saving throws against being Charmed or Frightened.
+>
+> ***Pack Tactics.*** The swordsman has advantage on an attack roll against a creature if at least one of its allies is within 5 feet of the creature and the ally is not Incapacitated.
+>
+> ### Actions
+>
+> ***Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 17 (3d8 + 3) Slashing damage.
+>
+> ***Frenzied Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 25 (5d8 + 3) Slashing damage. Hit or miss, attack rolls against the swordsman have advantage until the start of its next turn.
+>
+> ***Battle Howl (Recharges after a Short or Long Rest).*** The swordsman lets out a terrifying howl. Each other Wolf Warrior Swordsman in a 90-foot emanation that is not Incapacitated may expend a use of this ability to bolster the howl. Each hostile creature in the emanation must then make a *Wisdom Saving Throw:* DC 10 + 2 (Max of 20) for each other swordsman that contributed to the howl. <br>
+> *Failure:* The target is Frightened of the swordsman and each other swordsman that contributed to the howl for the next minute. It can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 5+:* While Frightened, the creature can't cast spells other than cantrips, can't concentrate, and can make only one attack if it takes the Attack action.
+
+</span>
+
+
+\pagebreakNum
+
+## Revision Numbers
+
+### Local Content
+
+#### Magic Items
+* Amber Bow 1.0.0
+* Halberd of Power 1.0.0
+* Hammer of War 1.0.0
+* Helm of the Indomitable 1.0.0
+* Rune Fang 1.0.0
+* Shield of Protection 1.0.0
+* Silver Horn 1.0.0
+* Spear of the Fates 1.0.0
+* Laurels of Victory 1.1.0
+* Marvellous Magnifier 1.0.0
+* Pearl Dagger 1.0.0
+* Repelling Armor 1.0.0
+* Twice-Blessed Armor 1.0.0
+
+#### Battle Maneuvers
+* Overwhelming Attack 1.0.0
+* Survey 1.0.0
+
+#### Creatures
+* Archer 1.0.0
+* Archer, Deathjack 1.0.0
+* Archer, Order of the Bow 1.0.0
+* Captain 1.0.0
+* General 1.0.0
+* Crossbowman 1.0.0
+* Crossbowman River Patrol 1.0.0
+* Crossbowman Bulwark 1.0.0
+* Greatswordsman 1.0.0
+* Greatswordsman Doppelsöldner 1.0.0
+* Crimson Greatswordsman 1.0.0
+* Greatswordsman Reaver 1.0.0
+* Halberdier 1.0.0
+* Halberdier Mariner 1.0.0
+* Halberdier Virtuoso 1.0.0
+* Handgunner 1.0.0
+* Handgunner, Silver Bullet 1.0.0
+* Handgunner, Surefire 1.0.0
+* Spearman 1.0.0
+* Spearman Sentinel 1.0.0
+* Spearman Valorguard 1.0.0
+* Swordsman 1.0.0
+* Swordsman, Militant 1.0.0
+* Swordsman, Wolf Warrior 1.0.0
+
+### Referenced Content
+
+#### Spells
+* Amber Spear 1.0.0
+
+#### Conditions
+* Burning 1.0.1
+* Dazed 1.0.0
+* Emboldened 1.0.0
