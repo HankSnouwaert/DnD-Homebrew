@@ -1,0 +1,434 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p1:after, .phb#p3:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Ghouls
+*Eaters of the Dead*<br>
+**Habitat:** Swamp, Underdark, Urban; **Treasure:** Any <br>
+
+In overgrown graveyards, corpse-strewn battlefields, and ancient tombs, stooped humanoid figures skulk in the shadows. Long, pale claws dig through the earth and pry open coffin lids in search of putrid remains. When they find such rank prizes, the jaws of these graverobbers open wide, revealing whip-like tongues. The revolting beasts then bite down deep, yellow fangs sinking into worm-infested flesh and gnawing on filth-encrusted bone, devouring the remnants and leaving not so much as a scrap.
+
+Such scavengers are known as ghouls. They are hideous undead that feast on cadavers wherever they can find them, no matter the condition. Though these creatures prefer the dead and will flee from superior opponents, if a ghoul can approach a lone figure, or if it is with others of its kind and outnumbers a group of the living, the avaricious creatures will not hesitate to harry such vulnerable targets. They slash with foul nails, a single scratch from which can cause a full-grown man to become paralyzed within seconds, allowing the ghoul and the rest of its pack to tear chunks of fresh flesh from the helpless victim with their razor-lined maws.
+
+\columnbreak
+
+
+
+___
+> ## Ghoul
+> *Medium Undead, Mob, Chaotic Evil*
+> ___
+> - **Armor Class** 12 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   **Initiative** +2 (12)
+> - **Hit Points** 33 (6d8 + 6)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">13</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">15</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">13</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Stealth +4
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Senses** Darkvision 60 ft., Passive Perception 10
+> - **Languages** Common, one other language
+> - **Challenge** 1 (200 XP)   &emsp;&emsp;&emsp;&ensp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 9 (2d6 + 2) Piercing damage plus 7 (2d6) Necrotic damage.
+>
+> ***Claws.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 7 (2d4 + 2) Slashing damage. If the target is a creature that isn't an Undead or Elf, it must make a *Constitution Saving Throw:* DC 12. <br>
+> *Failure:* The target is Debilitated for the next minute. While Debilitated, attacks against it have advantage, it has disadvantage on attacks and checks, its movement speed is halved, it can't take reactions, and on its turn it must choose whether it gets a move, an action, or a Bonus Action - it gets only one of the three. A creature immune to being Paralyzed is unaffected. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 5+, or if the target is already Debilitated:* The target is Paralyzed instead until the effect ends.
+
+</span>
+
+<img
+src='https://i.postimg.cc/4x4BtkQJ/Sepulcher-Ghoul-AFR.webp'
+style='position:absolute;bottom:-90px;left:-180px;width:1000px;transform: scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+ style='position:absolute;right:-156px;top:-570px;height:1400px;width:1416px;transform:rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+&ensp;***Ghasts.***
+Some ghouls that have existed long enough and gorged themselves on enough remains corrupted by dark magic that this cursed meat has elevated the scavenger into a ghast. These creatures possess a shrewd mind unlike the bestial common variety. They also exude a noisome odor that forever wafts from their twisted forms, causing mortals to choke and fall ill upon being subjected to it.
+
+***Vampiric Minions.*** It is common for packs of ghouls and ghasts to congregate and nest around the abodes of vampires. Domains ruled by such horrid blood-feeders brim with dark essence and sanguinated bodies that draw in the lowly undead like moths to a flame. Vampires find these wretches useful servants; maintaining dominance over such weak-willed creatures requires little effort, and they can be quite lethal in larger groups. They are also efficient at bringing anesthetized meals to their master.
+
+#### Ghoul & Ghast Tactics
+Ghouls and ghasts continue clawing a creature until it is fully paralyzed. Once paralyzed, they either bite it or (if other opponents are nearby) grapple the paralyzed target and attempt to drag it away.
+
+
+___
+> ## Ghast
+> *Medium Undead, Mob, Chaotic Evil*
+> ___
+> - **Armor Class** 13  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 55 (10d8 + 10)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">17</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">11</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Stealth +5
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Senses** Darkvision 60 ft., Passive Perception 10
+> - **Languages** Common, one other language
+> - **Challenge** 2 (450 XP)  &emsp;&emsp;&emsp;&ensp;    **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Aura of Stench.*** The ghast emits an aura in a 5-foot emanation from itself. A creature without this ability that starts its turn in the area of one or more Auras of Stench must make a single *Constitution Saving Throw:* DC 13 + the number of Auras of Stench it is within. <br>
+> *Failure:* The target is Poisoned until the start of its next turn. <br>
+> *Success:* The target is immune to all Auras of Stench for 1 minute.
+>
+> ### Actions
+>
+> ***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 12 (2d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage.
+>
+> ***Claws.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 10 (2d6 + 3) Slashing damage. If the target is a creature that isn't an Undead or Elf, it must make a *Constitution Saving Throw:* DC 13. <br>
+> *Failure:* The target is partly Debilitated for the next minute. While Debilitated, attacks against it have advantage, it has disadvantage on attacks and checks, its movement speed is halved, it can't take reactions, and on its turn it must choose whether it gets a move, an action, or a Bonus Action - it gets only one of the three. A creature immune to being Paralyzed is unaffected. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 5+, or if the target is already Debilitated:* The target is Paralyzed instead until the effect ends.
+
+</span>
+
+<img
+src='https://i.postimg.cc/76hFNJ3t/Shambling-Ghast.webp'
+style='position:absolute;top:-30px;left:-290px;width:870px;transform: scaleX(-1)' />
+
+<img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+ style='position:absolute;right:-96px;top:230px;height:1400px;width:1416px;transform:rotate(180deg)' />
+
+\pagebreakNum
+
+### Dusk Feeders
+Because ghouls rank among the most hated pests to plague sacred burial grounds and mausoleums, most hallowed resting sites are watched over by diligent, battle-ready warriors who remain constantly vigilant for these repulsive invaders. Through regimented patrols of such grave sites, they root out and eradicate the anathema filth with sharpened steel and burning touch. However, there is a breed of ghoul able to slip undetected past even these ample safeguards. Known as dusk feeders for their ash-colored skin, they are more elusive by nature and can slink past the keenest of watchmen to plunder decayed flesh. These creatures’ natural ability to move unseen and unheard makes them deadly ambushers: they creep up on the isolated, sink their claws into waylaid prey to paralyze them, then land a well-placed bite into the frozen figure, maiming them before dragging their stiff and maligned meal back into the darkness.
+
+
+
+#### Dusk Feeder Tactics
+
+Dusk Feeders use Shadow Stealth to gain advantage on their claw attacks, improving their chance to paralyze a target. Even after paralyzing a creature, if they remain in combat with other opponents, they bite the paralyzed target, then use Shadow Stealth again to avoid damage from the remaining attackers.
+
+
+___
+> ## Ghoul, Dusk Feeder
+> *Medium Undead, Mob, Chaotic Evil*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 66 (12d8 + 12)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">17</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Stealth +7
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 10
+> - **Languages** Common, one other language
+> - **Challenge** 3 (700 XP)    &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Savage Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 3) Piercing damage plus 11 (2d10) Necrotic damage, or 22 (4d10) Necrotic damage instead if the attack was a critical hit.
+>
+> ***Claws.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 3) Slashing damage. If the target is a creature that isn't an Undead or Elf, it must make a *Constitution Saving Throw* (disadvantage if the attack had advantage): DC 13. <br>
+> *Failure:* The target is partly Debilitated for the next minute. While Debilitated, attacks against it have advantage, it has disadvantage on attacks and checks, its movement speed is halved, it can't take reactions, and on its turn it must choose whether it gets a move, an action, or a Bonus Action - it gets only one of the three. A creature immune to being Paralyzed is unaffected. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 5+, or if the target is already Debilitated:* The target is Paralyzed instead until the effect ends.
+>
+> ### Bonus Actions
+>
+> ***Shadow Stealth.*** While in Dim Light or Darkness, the ghoul takes the Hide action.
+
+</span>
+
+<img
+src='https://i.postimg.cc/jqg9RhVL/Ghoul-David-Griffith-removebg-preview.png'
+style='position:absolute;bottom:-80px;left:-20px;width:500px;transform: scaleX(1)' />
+
+\pagebreakNum
+
+### Crypt Hulk
+There are times when minions such as ghouls are not enough to drive off an encroaching mob of vigilantes or a band of particularly fearsome adventurers. In such cases, when a vampire’s lands and very undead existence are in jeopardy, it may perform a depraved ritual shunned among higher vampiric society; only among the savage and feral of their kind is this practice not looked on with disdain. The vampire cuts its veins and lets its unholy blood flow forth for its pet ghouls to feed upon: a twisted version of the blood kiss used to create another vampire. This cursed elixir drives the ghouls into a feeding frenzy, snapping and ripping at anything dead or alive near them that they can devour. Even other, weaker ghouls are not safe from this manic killing spree.
+
+##### Ghouls Art Credit
+* Sepulcher Ghoul - Jason A. Engle, Wizards of the Coast
+* Shambling Ghast - Dave Kendall, Wizards of the Coast
+* Ghoul 4e - Ned Rogers, Wizards of the Coast 
+
+\columnbreak
+
+<br><br>
+
+Over the next day the ghoul’s size swells, its muscles expand, and its limbs stretch, fouled by its banquet of gore. The final result is a crypt hulk: a baleful, brutal nightmare of immense power, able to rip through front lines with massive talons and fangs, tearing out chunks to guzzle down. Those who evade complete evisceration by the first blow find that the oversized nails still possess the same potent paralytic qualities as those of their smaller comrades. Worse yet, the horrid formula coursing through the necromantic mutant allows it to recover from all manner of injuries in a matter of seconds. Once unleashed, these rampaging flesh-eaters no longer hide in the shadows like the slinking ghouls they once were; they surge through the dark of night, ever hungry.
+
+#### Crypt Hulk Tactics
+
+Crypt hulks use the same tactics as ghasts, except they prioritize targets that can prevent or disrupt their Rejuvenation feature.
+
+___
+___
+> ## Crypt Hulk
+> *Large Undead, Mob, Chaotic Evil*
+> ___
+> - **Armor Class** 14  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 93 (11d10 + 33)
+> - **Speed** 40 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">7</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> <td style="background-color:#e0e5c1; text-align:center">−1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +7
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Senses** Darkvision 120 ft., Passive Perception 10
+> - **Languages** Common, one other language
+> - **Challenge** 5 (1,800 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Aura of Stench.*** The crypt hulk emits an aura in a 5-foot emanation from itself. A creature without this ability that starts its turn in the area of one or more Auras of Stench must make a single *Constitution Saving Throw:* DC 15 + the number of Stench auras it is within. <br>
+> *Failure:* The target is Poisoned until the start of its next turn. <br>
+> *Success:* The target is immune to all Auras of Stench for 1 minute. 
+>
+> ***Regeneration.*** The crypt hulk regains 10 hit points at the start of each of its turns. If the crypt hulk takes Radiant, Acid, or Fire damage, this trait doesn't function on the crypt hulk's next turn. The crypt hulk dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ### Actions
+>
+> ***Savage Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 21 (3d10 + 4) Piercing damage plus 11 (2d10) Necrotic damage or 22 (4d10) Necrotic damage instead if the attack was a critical hit.
+>
+> ***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 21 (3d10 + 4) Slashing damage. If the target is a creature that isn't an Undead or Elf, it must make a *Constitution Saving Throw*: DC 15. <br>
+> *Failure:* The target is partly Debilitated for the next minute. While Debilitated, attacks against it have advantage, it has disadvantage on attacks and checks, its movement speed is halved, it can't take reactions, and on its turn it must choose whether it gets a move, an action, or a Bonus Action - it gets only one of the three. A creature immune to being Paralyzed is unaffected. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. <br>
+> *Failure by 5+, or if the target is already Debilitated:* The target is Paralyzed instead until the effect ends.
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
