@@ -41,7 +41,7 @@ Of all the various undead brought back to unlife <br> through the magics of necr
 
 Whatever anathema event triggers their creation, <br> the outcome is the same: black magic replaces the <br> breath and heartbeat that once flowed through the <br> body of the deceased. These vile forces now <br> command the remains to shuffle forward and feast <br> on the flesh of the living.
 
-A single zombie poses little threat. Such <br> creatures are slow in both body and mind. All that <br> they were in life is gone, leaving only a mindless <br> husk that lurches forward on tattered, decaying <br> muscle. With no regard for its surroundings <br> beyond the presence of warm flesh, the putrid <br> halfwit sluggishly grasps and holds down its prey, <br> sinking filth-encrusted teeth into living tissue. <br> Even those mystically bound to the will of a <br> necromancer prove little more than stiff <br> marionettes. The caster can only point the <br> creatures toward those they wish the dark thralls <br> to ravage, or halt their awkward movement so <br> they stand motionless.
+A single zombie poses little threat. Such <br> creatures are slow in both body and mind. All that <br> they were in life is gone, leaving only a witless <br> husk that lurches forward on tattered, decaying <br> muscle. With no regard for its surroundings <br> beyond the presence of warm flesh, the putrid <br> halfwit sluggishly grasps and holds down its prey, <br> sinking filth-encrusted teeth into living tissue. <br> Even those mystically bound to the will of a <br> necromancer prove little more than stiff <br> marionettes. The caster can only point the <br> creatures toward those they wish the dark thralls <br> to ravage, or halt their awkward movement so <br> they stand motionless.
 
 
 
@@ -116,7 +116,7 @@ ___
 >
 > ***Overbearing Pack.*** The zombie has advantage on Strength (Athletics) checks to Shove or Grapple a creature if at least one of the zombie's allies is within 5 feet of the target and the ally isn't Incapacitated.
 >
-> ***Sluggish.*** The zombie can't make opportunity attacks.
+> ***Sluggish.*** The zombie has disadvantage on opportunity attacks.
 >
 > ***Undead Fortitude.*** If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a critical hit. On a successful save, the zombie drops to 1 hit point instead.
 >
@@ -175,7 +175,7 @@ ___
 > <td><b>STR</b></td>
 > <td style="text-align:center">13</td>
 > <td style="background-color:#e0e5c1; text-align:center">+1</td>
-> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
 > <td></td>
 > <td><b>DEX</b></td>
 > <td style="text-align:center">6</td>
@@ -219,13 +219,13 @@ ___
 >
 > ***Overbearing Pack.*** The zombie has advantage on Strength (Athletics) checks to Shove or Grapple a creature if at least one of the zombie's allies is within 5 feet of the target and the ally isn't Incapacitated.
 >
-> ***Sluggish.*** The zombie can't make opportunity attacks.
+> ***Sluggish.*** The zombie has disadvantage on opportunity attacks.
 >
 > ***Weak Point.*** Whenever a creature has advantage on an attack roll against the zombie, it can choose to roll only one die instead of two to aim for the zombie's weak point. If the attack hits, the attack ignores the zombie's Resistance to Bludgeoning, Piercing, and Slashing damage from that attack. The attack still counts as having advantage for the purposes of other abilities, such as a rogue's Sneak Attack.
 >
 > ### Actions
 >
-> ***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) Bludgeoning damage or 5 (1d6 + 1) Piercing damage. (NOTE: What's the point of the Bludgeoning damage?)
+> ***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 1) Bludgeoning damage.
 >
 > ***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target that is Grappled or Prone. *Hit:* 7 (1d12 + 1) Piercing damage.
 
@@ -322,18 +322,18 @@ ___
 >
 > ### Traits
 >
-> ***Sluggish.*** The zombie can't make opportunity attacks.
+> ***Sluggish.*** The zombie has disadvantage on opportunity attacks.
 >
 > ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium Humanoid. The swarm can't regain hit points or gain temporary hit points.
 >
-> ***Swarm's Fortitude.*** The swarm has Resistance to all damage except Radiant unless the attack deals 5 or more damage to the swarm.
+> ***Swarm's Fortitude.*** The swarm has immunity to all damage expect radiant unless it would deals 5 or more damage to the swarm.
 >
 > ### Actions
 >
 > ***Multiattack.*** The horde makes two attacks, each against a different target.
 >
-> ***Grab.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (4d4) Bludgeoning damage, or 5 (2d4) Bludgeoning damage if the swarm is Bloodied. The target must make a *Strength Saving Throw:* DC 14 (disadvantage if the swarm is not Bloodied). <br>
-> *Failure:* The target is Grappled (escape DC 14). <br>
+> ***Grab.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (4d4) Bludgeoning damage, or 5 (2d4) Bludgeoning damage if the swarm is Bloodied. The target must make a *Strength Saving Throw:* DC 15 (disadvantage if the swarm is not Bloodied). <br>
+> *Failure:* The target is Grappled (escape DC 15). <br>
 > *Failure by 10+, or if the target is already Grappled by the swarm:* The target is knocked Prone and pulled to the center of the swarm.
 >
 > ***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target that is Grappled or Prone. *Hit:* 18 (4d8) Piercing damage, or 9 (2d8) Piercing damage if the swarm is Bloodied.
@@ -432,7 +432,9 @@ ___
 >
 > ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium Humanoid. The swarm can't regain hit points or gain temporary hit points.
 >
-> ***Swarm's Fortitude.*** The swarm has Resistance to all damage except Radiant unless the attack deals 7 or more damage to the swarm.
+> ***Sluggish.*** The zombie has disadvantage on opportunity attacks.
+>
+> ***Swarm's Fortitude.*** The swarm has immunity to all damage expect radiant unless it would deals 10 or more damage to the swarm.
 >
 > ### Actions
 >
@@ -455,5 +457,5 @@ ___
 \pagebreakNum
 
 ### Change Log
-#### 0.0.0
-* Document creation
+#### 1.0.0
+* Document release
