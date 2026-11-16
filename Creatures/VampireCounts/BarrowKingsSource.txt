@@ -1,0 +1,176 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br>
+
+## Barrow Kings
+*Skeletal Warlords Arisen To Lead The Dead Into Battle*<br>
+**Habitat:**  Planar (Shadowfell), Underdark; <br> **Treasure:** Armaments <br>
+Found leading a shuffling host of undead warriors, the barrow king is a figure most dreadful. sheets of deteriorated armor clang against aged bone, while a winged helm crowns the grim warrior’s skull, its empty sockets ablaze with azure light. From beneath the sides of its mantle, the ancient champion’s skeletal visage peers forth, and any living creature foolish enough to impede its unholy advance is cut down by a brutal blow from the warlord’s runed blade. This corrupted instrument possesses the fell power to enervate the life force of those it strikes.
+
+\columnbreak
+
+<br><br>
+
+Such undead marshals whose power eclipses that of the varlet necromantic creations they command. In ages past, they were the mighty chieftains of great tribes, leading their people through times of strife and conquest. Upon their passing, magnificent burial mounds were fashioned to house their remains; each barrow king was laid to rest in a stone coffin surrounded by the most precious treasures and wearing the finest battle gear their people could bestow upon them.
+
+When a barrow king marches forth from its tomb, wandering undead soon gather at its side, drawn by the morbid majesty radiating from the ancient lord. It is not uncommon for powerful spellcasters to attempt to bind these unholy generals to their service, employing them to empower their own minions in conquest. Though the barrow kings themselves remain wordless, the undead assembled in their presence seem to burn with an unseen rage, their decayed forms imbued with a fury and ferocity far beyond what one might expect from such shambling cadavers.
+
+
+
+
+
+___
+___
+> ## Barrow King
+> *Medium Undead, Mini-Boss, Lawful Evil*
+> ___
+> - **Armor Class** 18  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +5 (15)
+> - **Hit Points** 153 (18d8 + 72)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+7</td>
+> <td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> <td></td>
+> <td><b>CHA</b></td><td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +7, Perception +6
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Poison; Exhaustion, Poisoned, Wounds
+> - **Gear** Chain Mail, Longsword, Shield
+> - **Senses** Darkvision 60 ft., Passive Perception 16
+> - **Languages** Understands Common plus one other language but can't speak
+> - **Challenge** 7 (2,900 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Marshal Undead.*** Undead creatures of the barrow king's choice (excluding itself) within a 60-foot emanation have advantage on attack rolls and saving throws. This trait is suppressed while the barrow king is Incapacitated.
+>
+> ### Actions
+>
+> ***Multiattack.*** The barrow king makes two Longsword attacks.
+>
+> ***Longsword.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) Slashing damage.
+>
+> ***Run Through.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target that is Grappled by the barrow king. *Hit:* 15 (2d10 + 4) Piercing damage and the target receives four Wounds*. If the target is Bloodied, it is knocked Prone.
+>
+> ***Death March (Recharges after Three Rounds).*** The barrow king moves up to its speed in a straight line. During this movement, it can attempt to enter the spaces of Large or smaller creatures. When it would enter a creature's space, the barrow king makes either a Longsword attack or a Run Through attack (even if the target is not Grappled). If it hits with the Longsword attack, the target is pushed 5 feet to the nearest space out of the barrow king's path. If it hits with the Run Through attack, the barrow king's movement ends. Its movement also ends if it misses with either attack.
+>
+> ### Bonus Actions
+>
+> ***Barrow Smite (Magic Action).*** Immediately after the barrow king hits a creature with an attack, it can choose to force that creature to make a *Charisma Saving Throw:* DC 13 (disadvantage if the target is Bloodied). <br>
+> *Failure:* The target takes 27 (6d8) Necrotic damage. <br>
+> *Failure by 5+:* The target gains the Barrow Curse. While cursed, the target can't regain hit points and has disadvantage on death saving throws. The curse ends if the creature splashes holy water on itself or spends 10 minutes in an area affected by *Hallow*.
+>
+> ### Reactions
+>
+> ***Skewer.*** *Trigger:* A creature within 5 feet of the barrow king misses it with an attack. <br>
+> *Response:* The barrow king makes a Run Through attack against that creature.
+> 
+> **New condition described on next page*
+
+</span>
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:15px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+> ##### New Condition: Wounds
+> While most creatures are wounded in combat, in this context, the wound is a special form of injury that causes severe bleeding over a short period of time and only specialized attacks and effects can cause wounds. A creature can suffer from multiple wounds at once and at the end of its turn, a wounded creature takes 2 (1d4) necrotic damage for every wound it has sustained. Only creatures with blood (or something equivalent to blood) can suffer wounds. Wounds can be removed in the following ways:
+>
+> * When a creature is healed, one wound is removed for every 5 hit points of healing it receives. 
+> * A creature can expend one use of a healer's kit to remove two wounds from itself or another creature. 
+> * A wounded creature, or another creature within 5 feet of it, can make a DC 10 Wisdom (Medicine) check as an action to remove one wound on a success. For every 5 points by which the check exceeds the DC, an additional wound is removed.
+
+
+\columnbreak
+
+### Barrow King Tactics
+
+Barrow kings are frontline fighters whose primary roles are empowering their allies and breaking up clumps of enemies.
+
+They open with Death March to close distance and punch through to the backline. Once adjacent to a Bloodied target, they attempt to Grapple it and Run Through, knocking the victim Prone. If the target is also cursed, the resulting Wounds become significantly harder to heal or recover from.
+
+##### Barrow Kings Art Credit
+* Cairn in Snow - Caspar David Friedrich, Wizards of the Coast
+
+<img src='https://i.postimg.cc/hP4PVwwK/Cairn-in-Snow.jpg' style='position:absolute; bottom:-0px; right:-260px; width:1200px;' />
+
+ <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
+  style='position:absolute;right:-460px;top:-760px;height:1400px;width:1416px;transform:rotate(-0deg)' />
+  
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
