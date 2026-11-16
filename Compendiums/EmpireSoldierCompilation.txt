@@ -19,7 +19,7 @@
 
     
     /* Hide the footer on some pages */
-    .phb#p2:after, .phb#p3:after, .phb#p5:after, .phb#p6:after, .phb#p8:after, .phb#p9:after, .phb#p11:after, .phb#p13:after, .phb#p20:after, .phb#p23:after, .phb#p27:after, .phb#p29:after, .phb#p30:after, .phb#p32:after, .phb#p33:after, .phb#p34:after, .phb#p36:after, .phb#p41:after, .phb#p43:after, .phb#p44:after, .phb#p47:after, .phb#p49:after, .phb#p50:after, .phb#p51:after, .phb#p52:after, .phb#p55:after, .phb#p62:after, .phb#p63:after, .phb#p68:after, .phb#p69:after, .phb#p73:after, .phb#p76:after, .phb#p78:after, .phb#p79:after, .phb#p80:after, .phb#p82:after, .phb#p83:after, .phb#p86:after, .phb#p88:after, .phb#p89:after, .phb#p93:after, .phb#p95:after, .phb#p100:after, .phb#p106:after, .phb#p107:after, .phb#p109:after, .phb#p112:after, .phb#p114:after, .phb#p115:after, .phb#p116:after, .phb#p117:after     {
+    .phb#p1:after, .phb#p3:after, .phb#p4:after, .phb#p5:after, .phb#p8:after, .phb#p11:after, .phb#p13:after, .phb#p16:after, .phb#p19:after, .phb#p23:after {
         display          : none;
     }
     /* End Footers */
@@ -48,8 +48,11 @@
 <br>
 
 # Empire Soldier Compilation
-This document contains a compilation of divine player options, sacred magic items, and a collection of NPC holy warriors who fanatically fight for their faith. These NPCs are usually human, but many of them could be members of other races serving different religions. Regardless of their origin or specific faith, they all share a zealous and militant devotion to their religious order that could push them to acts of heroism or villainy, depending on the needs of your adventure.
+This document contains a compilation of stat blocks for NPC soldiers of different ranks and military specializations. These NPCs are usually human, but many of them could be members of other races serving different militaries. They could be foes your players face when they're up against a trained military force, NPC allies working with your players, or background soldiers in a wartime setting. This document also includes a set of martial magic items that are setting-agnostic and work well as loot or gifts from these military organizations. 
 
+
+#####  Cover Art Credit
+* Soldier Token - Johan Grenier, Wizards of the Coast
 
 \columnbreak
 
@@ -112,13 +115,14 @@ This document contains a compilation of divine player options, sacred magic item
 
 </div>
 
-<img src='https://i.postimg.cc/9Q9Krdwy/Godless-Shrine-5000x.webp' style='position:absolute;bottom:-5px;right:120px;width:800px' />
+
+<img src='https://i.postimg.cc/qR5VJBcS/3421-soldier-token.jpg' style='position:absolute;bottom:-30px;right:310px;width:830px' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-635px;top:0px;height:1400px;width:1416px;transform:rotate(-270deg)' />
+  style='position:absolute;right:-655px;top:0px;height:1400px;width:1416px;transform:rotate(-270deg)' />
 
  <img src='https://www.gmbinder.com/images/cPPYV7h.png' 
-  style='position:absolute;right:-600px;top:-740px;height:1400px;width:1416px;transform:rotate(0deg)' />
+  style='position:absolute;right:-600px;top:-670px;height:1400px;width:1416px;transform:rotate(0deg)' />
 
 <img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:0px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
 
@@ -422,8 +426,7 @@ ___
 
 </span>
 
-##### Archers Art Credit
-* Elite Archers - Greg Staples, Wizards of the Coast
+
 
 <img src='https://i.postimg.cc/CKkcPn0b/elite-archers.webp' style='position:absolute; top:-0px; right:-00px; width:816px; transform:scaleX(-1)' />
 
@@ -435,12 +438,15 @@ ___
 
 \pagebreakNum
 
+##### Archers Art Credit
+* Elite Archers - Greg Staples, Wizards of the Coast
+
 ### Order of the Bow
 Some archers view their craft as more than merely the mastery of a deadly weapon. To them, archery is a meditative experience, a pursuit of tranquility in which there is no greater calm than drawing one's bowstring. As the string is pulled taut, the mind becomes free of all burdens, leaving only the archer and their mark. When the arrow is finally loosed, it flies straight and true.
 
 Those who embrace this meditative philosophy often form guilds and monasteries where they hone their techniques alongside like-minded warriors. These organizations are commonly known as the Order of the Bow.
 
-Such sages are forces to be reckoned with. Their mastery allows them to launch projectiles with such precision that even the protections of their enemies offer little refuge. They can pin foes from leagues away, and even those shrouded by foliage, rubble, or debris find little safety from their watchful eyes.
+Such sages are forces to be reckoned with. Their projectiles fly with such precision that they can pin foes from leagues away, and even the cover of foliage, rubble, or debris, offers little refuge from their watchful eyes.
 
 
 
@@ -1370,7 +1376,7 @@ ___
 > &nbsp;&nbsp;&nbsp;&nbsp;*Failure by 5+:* The target takes 16 (3d10) Piercing damage instead.
 >
 > ### Bonus Actions
->
+> ***Realign.*** If the halberdier misses with an attack on its turn, it may make a Versatile Halberd attack against that target with advantage.
 > 
 > **New condition described above*
 
@@ -1683,7 +1689,7 @@ ___
 >
 > ***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) Piercing damage.
 
-#### Spearmen Art Credit
+##### Spearmen Art Credit
 * Loyal Cathar - Ryan Pancoast, Wizards of the Coast
 
 </span>
@@ -2001,6 +2007,12 @@ ___
 
 \pagebreakNum
 
+## Change Log
+### 1.0.0
+* Document release
+
+\columnbreak
+
 ## Revision Numbers
 
 ### Local Content
@@ -2039,7 +2051,7 @@ ___
 * Greatswordsman Reaver 1.0.0
 * Halberdier 1.0.0
 * Halberdier Mariner 1.0.0
-* Halberdier Virtuoso 1.0.0
+* Halberdier Virtuoso 1.1.0
 * Handgunner 1.0.0
 * Handgunner, Silver Bullet 1.0.0
 * Handgunner, Surefire 1.0.0
