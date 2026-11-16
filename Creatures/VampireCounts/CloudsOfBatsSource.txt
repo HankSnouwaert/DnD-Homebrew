@@ -1,0 +1,155 @@
+
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Clouds of Bats
+*Swarms So Great They Blot Out The Sun*<br>
+**Habitat:**  Forest, Grassland, Hills, Jungle, Mountain, Swamp, Underdark; **Treasure:** None <br>
+When bats gather in sufficient numbers, they can darken the heavens, living shrouds blotting out the light as they pass. Such massive flocks primarily occur as a result of a vampire’s presence. Thousands of the creatures will roost in the forbidding lairs of the powerful undead, ready to take flight at their master’s command.
+
+
+Vampires may even use the creatures as a living shield against the harmful effects of the glaring sun, allowing them to stride through the day. In the heat of battle, these creatures prove lethal in such numbers: the beating of hundreds of leather wings before one’s eyes, shrill screeching ringing in the ears, and needle fangs stabbing from all sides are enough to disorient any caught amid the throng of flying beasts. Death is delivered in a thousand blighted nips.
+
+
+### Cloud of Bats Tactics
+Clouds of bats can provide cover for other allies by occupying the same space; they can also be used to force opponents out of key locations unless the targets wish to stay and be blinded.
+
+
+
+<br>
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+___
+> ## Cloud of Bats
+> *Gargantuan Swarm of Tiny Beasts, Party, Unaligned*
+> ___
+> - **Armor Class** 13  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 94 (9d20+0)
+> - **Speed** 5 ft., Fly 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">4</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td style="background-color:#e0e5c1; text-align:center">-3</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">8</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Resistances** Bludgeoning, Piercing, Slashing
+> - **Immunities** Poison; Charmed, Dazed, Frightened, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned, Wounds
+> - **Senses** Blindsight 120 ft., Passive Perception 12
+> - **Languages** —
+> - **Challenge** 5 (1,800 XP)   &emsp;&emsp;&emsp;   **Proficiency Bonus** +3
+> ___
+>
+> ### Traits
+>
+> ***Echolocation.*** The swarm can't use its Blindsight while Deafened.
+>
+> ***Swarm.*** The swarm can occupy another creature's space and vice versa, and it can move through any opening large enough for a Tiny creature. The swarm can't regain hit points or gain temporary hit points.
+>
+> ***Cloud of Horror.*** The swarm's space is filled with a cloud of horror. All nonmagical light in the swarm's space becomes Dim Light, and the effects of sunlight are negated there. The swarm can choose for a creature to treat the space it occupies as difficult terrain. If that creature starts its turn in the swarm's space, it must make a *Constitution Saving Throw* (disadvantage if the swarm is not Bloodied): DC 13. <br>
+> *Failure:* The creature loses concentration and is Blinded and Deafened until it no longer shares a space with the swarm. <br>
+> *Failure by 10+:* The creature is also Dazed* until the end of its next turn.
+>
+> ### Actions
+>
+> ***Multiattack.*** The swarm makes one Bites attack against each creature it is sharing a space with.
+>
+> ***Bites.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 22 (4d10) Piercing damage, or 11 (2d10) Piercing damage if the swarm is Bloodied.
+>
+> **New condition on this page*
+
+</span>
+
+##### Cloud of Bats Art Credit
+* Dreaded Bat-Cloud - Andreia Ugrai, Wizards of the Coast
+
+<img src='https://i.postimg.cc/BQ6zpsdY/dreaded-bat-cloud-66.webp' style='position:absolute; top:-10px; left:-60px; width:600px; transform:scaleX(1)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:110px; right:-0px; width:900px; transform: rotate(9deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-150px; right:-445px; width:900px; transform: rotate(-90deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:365px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
