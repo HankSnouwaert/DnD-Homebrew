@@ -1,0 +1,246 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+    .phb#p2:after, .phb#p1:after  {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Barrow Guard
+*Skeletal Warriors of Antiquity Wielding Cursed Runeblades*<br>
+**Habitat:**  Planar (Shadowfell), Underdark, Urban; <br> **Treasure:** Armaments <br>
+
+Among the magnificent and refined kingdoms of mankind, nestled within deep woodlands and rolling hills, lie the remnants of ancestral empires from a time when the people of the countryside were little more than roaming tribes of savage warriors. These ancient peoples built stone burial mounds that extended deep into the earth, laced with eldritch enchantments woven by their shamans to ward off intruders. These tombs housed the remains of fallen warriors, men who were granted elaborate rites of honor in the hope of empowering them when they reached the world beyond. 
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Their bodies were sealed beneath slabs of slate, <br> adorned in armor forged from primitive alloys, with rune-inscribed blades placed in their cold grips so they would be ready to fight once more in the next life.
+
+As the ages passed and the old traditions faded, great metropolises rose and claimed the land. Yet the gravesites of bygone eras still lie undisturbed in the remote countryside. The locals who know of such ghastly places leave them untouched, for they know that the mystic wards placed there long ago still hold, keeping would-be pilferers from disturbing the dead. However, those seeking powerful servants to bind to their will are not so easily dissuaded. 
+
+
+
+___
+___
+> ## Barrow Guard
+> *Medium Undead, Party, Lawful Evil*
+> ___
+> - **Armor Class** 16  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +2 (12)
+> - **Hit Points** 75 (10d8 + 30)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">9</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> </tr>
+> </table>
+> 
+> ___
+> - **Skills** Athletics +5, Perception +5
+> - **Vulnerabilities** Bludgeoning
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Gear** Longsword, Ring Mail, Shield
+> - **Senses** Darkvision 60 ft., Passive Perception 15
+> - **Languages** Understands Common plus one other language but can't speak
+> - **Challenge** 2 (450 XP)   &emsp;&emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Actions
+>
+> ***Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 14 (2d10 + 3) Slashing damage.
+>
+> ### Bonus Actions
+>
+> ***Barrow Smite (Magic Action).*** Immediately after the barrow guard hits a creature with an attack, it can choose to force that creature to make a *Charisma Saving Throw:* DC 13 (disadvantage if the target is Bloodied). <br>
+> *Failure:* The target takes 13 (3d8) Necrotic damage. <br>
+> *Failure by 5+:* The target gains the Barrow Curse. While cursed, the target can't regain hit points and has disadvantage on death saving throws. The curse ends if the creature splashes holy water on itself or spends 10 minutes in an area affected by *Hallow*.
+>
+> ### Reactions
+>
+> ***Protection.*** *Trigger:* An attacker the barrow guard can see makes an attack roll against a creature within 5 feet of the guard. <br>
+> *Response:* The barrow guard imposes disadvantage on the attack roll.
+
+</span>
+
+<img src='https://imglink.cc/cdn/QK_FJvSinL.jpg' style='position:absolute; top:00px; right:-0px; width:816px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:85px; right:5px; width:900px; transform: rotate(10deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:155px; right:-45px; width:900px; transform: rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:334px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+Many necromancers seek out these places, breaking the protective magics, for the sepulchers are plentiful sources of fearsome soldiers.
+
+They are far more resilient than pitiful lesser skeletons or zombies, and the runes etched into their copper swords now drip with lethal magic that curses those struck by these corroded artifacts. Many spellcasters who manage to obtain such elite infantry employ these durable and unquestioning servants as personal bodyguards. Many heroes have found their attempts to smite the profane masters of the undead thwarted by the interposing shield of a barrow guard.
+
+### Bonewall Guard
+Any who encounter the undead known as Bonewalls will quickly find that attempting to return such monsters to their dead slumber is a near-impossible task. These horrid creations are clad in thick, tarnished armor, and the magic that binds their hoary bones together allows them to ignore the most destructive bombardments, as any scattered pieces of the arisen troopers that are knocked loose are simply drawn back into place by the ebon power that sustains them. It is said that only grinding their bones to dust or subjecting them to blessed magic will put an end to these abhorrent minions of darkness. 
+
+More terrible still is that these impacible minions are fashioned from the remnants of stalwart guardsmen whose memories of combat still linger, allowing them to brace themselves against charging foes and knock aside even the most well-placed blows with their rusted bucklers. 
+
+
+\columnbreak
+
+Such warriors of old are reborn as barrow guards, skeletal men-at-arms suffused with grim magic born from the mingling of the funerary rituals performed upon them when they were laid to rest and the necromancy used to raise them.  
+
+Thus, Bonewalls are used by the greatest masters of the dark arts to safeguard themselves from danger. To increase the security such guardians provide, a foul hex is placed upon their weaponry that tethers their victims to the Bonewall, rendering them unable to flee, even by mystical means.
+
+### Barrow Guard Tactics
+
+Barrow Guards should remain close together on the front line to take full advantage of their Protection feature. They should prioritize enemies with low hit points, using their attacks to deal additional damage and inflict curses. If the enemy has access to frequent healing spells, Barrow Guards should spread their curses across as many targets as possible rather than focusing on a single enemy.
+
+#### Bonewall Tactics
+Bonewalls use their Binding and Charge Defense curse features to counter highly mobile enemies, such as rogues, restricting their ability to maneuver freely around the battlefield. They should attempt to curse as many targets as possible, keeping as many enemies rooted in place as they can and limiting the enemy's ability to reposition or escape.
+
+##### Barrow Guard Art Credit
+* Drudge Skeletons - Daarken, Wizards of the Coast
+
+___
+___
+> ## Bonewall Guard
+> *Medium Undead, Party, Lawful Evil*
+> ___
+> - **Armor Class** 17  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +6 (16)
+> - **Hit Points** 82 (11d8 + 33)
+> - **Speed** 30 ft.
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td><td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>DEX</b></td><td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td><td></td>
+> <td><b>CON</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td><td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td>
+> <td style="background-color:#e0e5c1; text-align:center">-2</td><td></td>
+> <td><b>WIS</b></td><td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+5</td><td></td>
+> <td><b>CHA</b></td><td style="text-align:center">9</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> <td style="background-color:#e0e5c1; text-align:center">-1</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Athletics +6, Perception +7
+> - **Immunities** Poison; Exhaustion, Poisoned
+> - **Gear** Longsword, Ring Mail, Shield
+> - **Senses** Darkvision 120 ft., Passive Perception 17
+> - **Languages** Understands Common plus one other language but can't speak
+> - **Challenge** 4 (1,100 XP)   &emsp;&emsp;&emsp;&emsp;   **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Charge Defense.*** If a creature moved 10 or more feet straight toward the bonewall guard immediately before making an attack against it while the guard is not Incapacitated, Prone, Grappled, or Restrained, the attack has disadvantage. The bonewall guard has Resistance to any damage dealt by the attack and advantage on any saving throws it is forced to make by the attack.
+>
+> ***Regeneration.*** The bonewall guard regains 10 hit points at the start of its turn. If the bonewall guard takes Bludgeoning or Radiant damage, this trait doesn't function at the start of the guard's next turn. The bonewall guard dies only if it starts its turn with 0 hit points and doesn't regenerate.
+>
+> ### Actions
+>
+> ***Longsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) Slashing damage.
+>
+> ### Bonus Actions
+>
+> ***Binding Smite (Magic Action).*** Immediately after the bonewall guard hits a creature with an attack, it can choose to force that creature to make a *Charisma Saving Throw:* DC 14 (disadvantage if the target is Bloodied). <br>
+> *Failure:* The target takes 16 (3d10) Necrotic damage. <br>
+> *Failure by 5+:* The target gains the Binding Curse. While cursed, the target can't regain hit points and has disadvantage on death saving throws. While within 5 feet of any bonewall guard, its speed is 0 and it can't teleport or use interplanar travel.
+>
+> ### Reactions
+>
+> ***Charge Protection.*** *Trigger:* An attacker the bonewall guard can see makes an attack roll against a creature within 5 feet of the guard. <br>
+> *Response:* The bonewall guard can impose disadvantage on the attack roll and the creature gains the guard's Charge Defense feature until the end of the turn.
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
