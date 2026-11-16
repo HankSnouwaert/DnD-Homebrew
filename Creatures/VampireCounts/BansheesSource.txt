@@ -1,0 +1,310 @@
+<style>
+
+ /* Footers */
+    
+   
+    .phb p.foot{
+        content          : '';
+        color            : #09386d;
+        position         : absolute;
+        bottom           : 10px;
+        font-size        : 15.2px;
+        text-align       : right;
+        margin-top       : .2em;
+        margin-bottom    : 0;
+        font-family      : MrJeeves;
+        font-weight      : 800;
+        text-shadow      : 0px 0px 5px white;
+    }
+
+    
+    /* Hide the footer on some pages */
+   .phb#p3:after   {
+        display          : none;
+    }
+    /* End Footers */
+
+    .phb hr + hr + section blockquote {
+    
+    column-fill: balance;
+}
+
+</style>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+## Banshees
+*Wailing Harbingers of Death*<br>
+**Habitat:**  Any; **Treasure:** Relics <br>
+
+Among the many unnatural sounds of the undead (the endless groaning of zombies, the clatter of bones as skeletal soldiers march, the snarl of a ghoul catching the scent of rotting meat), none is more feared than the wail of the banshee.
+
+In life, these spirits were often bards, performers, or other women of great charisma and magical ability. Many possessed the power to take on the emotional burdens of others, siphoning away grief, melancholy, and sorrow so that the afflicted might find relief. Such women became essential to funeral rites. They would appear before grieving assemblies and draw the community’s pain into themselves, and the sudden flood of sorrow would pour out of them as a melody of untold anguish. Few of these wemon could withstand the onslaught woe. Many were driven mad, becoming rambling, disheveled outcasts who lived on the fringes of their communities. The most severely afflicted could not pass into the next life; the grim pain still flowing through them bound their spirits between the worlds of the living and the dead, and they became banshees.
+
+\columnbreak
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+These tortured ghosts can unleash a scream that carries every ounce of the heartache they absorbed in life, an accursed cry capable of killing those who hear it. Their appearance is equally dreadful. Their visages, twisted by the overwhelming emotions that still plague them, freeze onlookers in terror, locking their limbs rigid as they stand transfixed by the gruesome sight.
+
+Despite their lethal power and hideous presence, most banshees are not malevolent. Many remain tied to a bloodline or royal house descended from those they served in life. They appear to members of these lineages to foretell impending tragedy or doom. In some cases, the living may even call upon their spectral guardian to turn its baneful presence against those who would harm the family.
+
+Other banshees wander the countryside, drawn to communities smothered by loss. In the dead of night, they gather on the outskirts of afflicted settlements and begin their sorrowful keening, drawing the grief of the living into themselves like rivers flowing into the sea.
+
+
+
+<img src='https://i.postimg.cc/d08BC9BM/morkrut-banshee.png' style='position:absolute; top:-2px; right:-100px; width:920px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:296px; right:5px; width:900px; transform: rotate(10deg)' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:345px; right:-45px; width:900px; transform: rotate(0deg)' />
+
+<img src='https://i.ibb.co/pZ8VZ6r/Star-Ship-logo-red.png' style='position:absolute;top:547px;right:640px;width:110px; filter: filter:hue-rotate(200deg); filter:saturate(115%); filter:contrast(140%); '/>
+
+
+\pagebreakNum
+
+The most dangerous are those wholly overcome by the forlorn emotions within them. These spirits cry out in desperation, clawing at the living with withering, vaporous hands in a frantic search for relief from their unending torment.
+
+Though the first of their kind are said to have arisen in ancient tribal lands, it is said that others have become banshees upon their deaths over the ages. Bardic women who unknowingly continue the old rites, turning personal suffering into bittersweet songs that entrance and comfort others, may find that when they are finally laid to rest, their song does not end. Instead, they are pulled back onto the stage once more.
+
+### Banshee Tactics
+Banshees use Wail as soon as they can affect three or more creatures with it. Afterward, they prioritize attacking targets that have either averted their eyes or been paralyzed.
+
+___
+___
+> ## Banshee
+> *Medium Undead, Mini-Boss, Chaotic Neutral*
+> ___
+> - **Armor Class** 13  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +3 (13)
+> - **Hit Points** 49 (11d8)
+> - **Speed** 5 ft., Fly 50 ft. (Hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">16</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">10</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">11</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">17</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> <td style="background-color:#e0e5c1; text-align:center">+3</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +5, Stealth +5
+> - **Resistances** Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing, Thunder
+> - **Immunities** Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious, Wounds
+> - **Senses** Darkvision 120 ft., Passive Perception 10
+> - **Languages** Common plus two other languages
+> - **Challenge** 4 (1,100 XP)    &emsp;&emsp;&emsp;&emsp;  **Proficiency Bonus** +2
+> ___
+>
+> ### Traits
+>
+> ***Horrifying Visage.*** If a creature starts its turn within 60 feet of the banshee and the two of them can see each other, the banshee can force the creature to make a *Wisdom Saving Throw* (disadvantage if the creature is surprised): DC 13. <br>
+> *Failure:* The creature becomes Frightened of the banshee until the end of the banshee's next turn. While Frightened, the creature is Dazed* and can't cast spells other than cantrips. <br>
+> *Failure by 10+:* While Frightened, the creature is also Paralyzed. <br>
+> *Success:* The creature is immune to the banshee's Horrifying Visage for 1 hour.
+>
+> Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the banshee until the start of its next turn, when it can avert its eyes again. If the creature looks at the banshee in the meantime, it must immediately make the save.
+>
+> ***Incorporeal.*** The banshee can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.
+>
+> ***Sunlight Sensitivity.*** While in sunlight, the banshee has disadvantage on ability checks and attack rolls.
+>
+> ### Actions
+>
+> ***Multiattack.*** The banshee makes two Withering Touch attacks.
+>
+> ***Wail (1/Day).*** The banshee releases a mournful wail, provided that it isn't in sunlight. This wail has no effect on Constructs and Undead. All other creatures within 60 feet of the banshee that can hear it must make a *Charisma Saving Throw* (disadvantage if the target is Bloodied or Paralyzed): DC 13. <br>
+> *Failure:* The creature takes 18 (4d8) Psychic damage. <br>
+> *Failure by 10+:* The creature drops to 0 hit points and then takes the damage. <br>
+> *Success:* The creature takes half damage.
+>
+> ***Woe (1/Day).*** The banshee can cast *Divination*, requiring no spell components. Its spellcasting ability is Charisma. The question must relate to when a creature will die or whether a creature is in grave danger.
+>
+> ***Withering Touch.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16 (3d8 + 3) Necrotic damage.
+>
+> **New condition described on next page*
+
+</span>
+
+\pagebreakNum
+
+### Tomb Banshees
+
+There are women skilled in the arcane arts who use their talents to indulge their own iniquitous desires, weaving melodies laced with charm and wicked magic to manipulate those around them without remorse. When such vile enchantresses finally die, their stained souls are barred from the heavenly realms, and only worlds of untold torment will have them. Rather than face such punishment, their spirits cling to the mortal world and become tomb banshees.
+
+These creatures exceed ordinary banshees in power. Their very touch robs the vigor of any living being their ghastly hands pass through, leaving the victim defiled. Their wails are even more potent, for their sorrow is born not of mourning but of selfish spite: rage at the power they can no longer wield and the pleasures they can no longer glut themselves on. Even seasoned witch hunters have fallen to the unholy tantrums of these grave hags.
+
+##### Banshees Art Credit
+* Morkrut Banshee - Jodie Muir, Wizards of the Coast
+* Morkrut Banshee - Fajareka Setiawan, Wizards of the Coast
+
+\columnbreak
+
+Drawn by their malevolence, many necromancers bind these spirits of devastation to their will with powerful magic, offering them the chance to loose their animosity upon the living. Some tomb banshees even serve as seers, foretelling tragedies from which their dark masters may profit. Yet they make bitter and disloyal advisors. It is said that a tomb banshee’s first prediction is often its own master’s death, and that the treacherous spirit may work in secret to bring that prophecy to fruition, for misery is the only comfort left to such a heartless beast.
+
+#### Tomb Banshee Tactics
+Tomb Banshees focus on targets with low hit points, applying Despair until those targets have disadvantage on all rolls (including against the next Wail).
+
+<br>
+
+> ##### New Condition: Dazed 
+> A dazed creature can’t take reactions and on its turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three.
+
+<img src='https://i.postimg.cc/W1xWgzch/inr-125-morkrut-banshee.jpg' style='position:absolute; bottom:-0px; right:-140px; width:970px' />
+
+<img src='https://www.gmbinder.com/images/WGybwnz.png' style='position:absolute; top:-460px; right:0px; width:900px; transform: rotate(-180deg)' />
+
+\pagebreakNum
+
+___
+___
+> ## Tomb Banshee
+> *Medium Undead, Mini-Boss, Chaotic Evil*
+> ___
+> - **Armor Class** 15  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **Initiative** +4 (14)
+> - **Hit Points** 97 (15d8+30)
+> - **Speed** 5 ft., Fly 50 ft. (Hover)
+> ___
+> <table>
+> <tr style="background-color:transparent">
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> <td></td>
+> <td colspan="2"></td>
+> <td><font size="-2">MOD</font></td>
+> <td><font size="-2">SAVE</font></td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>STR</b></td>
+> <td style="text-align:center">6</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td style="background-color:#e0e5c1; text-align:center">−2</td>
+> <td></td>
+> <td><b>DEX</b></td>
+> <td style="text-align:center">18</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td></td>
+> <td><b>CON</b></td>
+> <td style="text-align:center">14</td>
+> <td style="background-color:#e0e5c1; text-align:center">+2</td>
+> <td style="background-color:#e0e5c1; text-align:center">+6</td>
+> </tr>
+> <tr style="background-color:transparent">
+> <td><b>INT</b></td>
+> <td style="text-align:center">12</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td style="background-color:#e0e5c1; text-align:center">+1</td>
+> <td></td>
+> <td><b>WIS</b></td>
+> <td style="text-align:center">11</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td style="background-color:#e0e5c1; text-align:center">+0</td>
+> <td></td>
+> <td><b>CHA</b></td>
+> <td style="text-align:center">19</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> <td style="background-color:#e0e5c1; text-align:center">+4</td>
+> </tr>
+> </table>
+>
+> ___
+> - **Skills** Intimidation +8, Stealth +8
+> - **Resistances** Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing, Thunder
+> - **Immunities** Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious, Wounds
+> - **Senses** Darkvision 120 ft., Passive Perception 10
+> - **Languages** Common plus two other languages
+> - **Challenge** 8 (3,900 XP)    &emsp;&emsp;&emsp;  **Proficiency Bonus** +4
+> ___
+>
+> ### Traits
+>
+> ***Horrifying Visage.*** If a creature starts its turn within 60 feet of the banshee and the two of them can see each other, the banshee can force the creature to make a *Wisdom Saving Throw* (disadvantage if the creature is surprised): DC 16. <br>
+> *Failure:* The creature becomes Frightened of the banshee until the end of the banshee's next turn. While Frightened, the creature is Dazed* and can't cast spells other than cantrips. <br>
+> *Failure by 10+:* While Frightened, the creature is also Paralyzed. <br>
+> *Success:* The creature is immune to the banshee's Horrifying Visage for 1 hour.
+>
+> Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the banshee until the start of its next turn, when it can avert its eyes again. If the creature looks at the banshee in the meantime, it must immediately make the save.
+>
+> ***Incorporeal.*** The banshee can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.
+>
+> ***Sunlight Sensitivity.*** While in sunlight, the banshee has disadvantage on ability checks and attack rolls.
+>
+> ### Actions
+>
+> ***Multiattack.*** The banshee makes two Corrupting Touch attacks.
+>
+> ***Wail (1/Day).*** The banshee releases a mournful wail, provided that it isn't in sunlight. This wail has no effect on Constructs and Undead. All other creatures within 60 feet of the banshee that can hear it must make a *Charisma Saving Throw* (disadvantage if the target is Bloodied or Paralyzed): DC 16. <br>
+> *Failure:* The creature takes 22 (5d8) Psychic damage. <br>
+> *Failure by 10+:* The creature drops to 0 hit points and then takes the damage. <br>
+> *Success:* The creature takes half damage.
+>
+> ***Woe (1/Day).*** The banshee can cast *Divination*, requiring no spell components. Its spellcasting ability is Charisma. The question must relate to when a creature will die or whether a creature is in grave danger.
+>
+> ***Touch of Despair.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 22 (4d8 + 4) Necrotic damage, and the target gains Despair equal to the damage dealt. Any creature that has more Despair than it has hit points has disadvantage on D20 Tests and can't gain advantage on them.
+>
+> A creature loses all Despair if it receives an effect that removes Exhaustion. If a creature regains hit points, it loses an amount of Despair equal to the hit points it regained.
+>
+> ### Reactions
+>
+> ***Cries of Agony (1/Day).*** *Trigger:* The banshee takes damage while it is Bloodied. <br>
+> *Response:* The banshee uses the Wail action without expending a use of it. It can use this reaction even if it has no uses of Wail left.
+>
+> **New condition described on previous page*
+
+</span>
+
+\pagebreakNum
+
+### Change Log
+#### 1.0.0
+* Document release
